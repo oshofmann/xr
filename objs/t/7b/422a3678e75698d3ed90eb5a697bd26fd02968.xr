@@ -1,0 +1,102 @@
+var __xr_tmp = [
+{"id":"seq_file_net", "file":"net/unix/af_unix.c", "line":2149, "type":"c", "scope_line":2142, "scope_name":"unix_seq_idx", }
+,{"id":"seq_file_net", "file":"net/unix/af_unix.c", "line":2175, "type":"c", "scope_line":2165, "scope_name":"unix_seq_next", }
+,{"id":"seq_file_net", "file":"net/wireless/wext-proc.c", "line":109, "type":"c", "scope_line":107, "scope_name":"wireless_dev_seq_next", }
+,{"id":"seq_file_net", "file":"net/wireless/wext-proc.c", "line":92, "type":"c", "scope_line":90, "scope_name":"wireless_dev_seq_start", }
+,{"id":"seq_fops", "file":"include/net/tcp.h", "line":1376, "type":"m", "scope_line":1373, "scope_name":"struct tcp_seq_afinfo", }
+,{"id":"seq_fops", "file":"include/net/udp.h", "line":223, "type":"m", "scope_line":219, "scope_name":"struct udp_seq_afinfo", }
+,{"id":"seq_get_buf", "file":"fs/seq_file.c", "line":433, "type":"c", "scope_line":430, "scope_name":"seq_path", }
+,{"id":"seq_get_buf", "file":"fs/seq_file.c", "line":459, "type":"c", "scope_line":455, "scope_name":"seq_path_root", }
+,{"id":"seq_get_buf", "file":"fs/seq_file.c", "line":488, "type":"c", "scope_line":485, "scope_name":"seq_dentry", }
+,{"id":"seq_get_buf", "file":"include/linux/seq_file.h", "line":46, "type":"f", }
+,{"id":"seq_hlist_next", "file":"fs/seq_file.c", "line":741, "type":"f", }
+,{"id":"seq_hlist_next_rcu", "file":"fs/seq_file.c", "line":811, "type":"f", }
+,{"id":"seq_hlist_next_rcu", "file":"net/packet/af_packet.c", "line":2621, "type":"c", "scope_line":2618, "scope_name":"packet_seq_next", }
+,{"id":"seq_hlist_start", "file":"fs/seq_file.c", "line":705, "type":"f", }
+,{"id":"seq_hlist_start", "file":"fs/seq_file.c", "line":729, "type":"c", "scope_line":724, "scope_name":"seq_hlist_start_head", }
+,{"id":"seq_hlist_start_head", "file":"fs/seq_file.c", "line":724, "type":"f", }
+,{"id":"seq_hlist_start_head_rcu", "file":"fs/seq_file.c", "line":789, "type":"f", }
+,{"id":"seq_hlist_start_head_rcu", "file":"net/packet/af_packet.c", "line":2615, "type":"c", "scope_line":2609, "scope_name":"packet_seq_start", }
+,{"id":"seq_hlist_start_rcu", "file":"fs/seq_file.c", "line":765, "type":"f", }
+,{"id":"seq_hlist_start_rcu", "file":"fs/seq_file.c", "line":795, "type":"c", "scope_line":789, "scope_name":"seq_hlist_start_head_rcu", }
+,{"id":"seq_len", "file":"include/net/cfg80211.h", "line":236, "type":"m", "scope_line":232, "scope_name":"struct key_params", }
+,{"id":"seq_list_next", "file":"crypto/proc.c", "line":71, "type":"c", "scope_line":69, "scope_name":"c_next", }
+,{"id":"seq_list_next", "file":"drivers/char/misc.c", "line":74, "type":"c", "scope_line":72, "scope_name":"misc_seq_next", }
+,{"id":"seq_list_next", "file":"drivers/input/input.c", "line":1072, "type":"c", "scope_line":1067, "scope_name":"input_handlers_seq_next", }
+,{"id":"seq_list_next", "file":"drivers/input/input.c", "line":946, "type":"c", "scope_line":944, "scope_name":"input_devices_seq_next", }
+,{"id":"seq_list_next", "file":"fs/locks.c", "line":2182, "type":"c", "scope_line":2180, "scope_name":"locks_next", }
+,{"id":"seq_list_next", "file":"fs/namespace.c", "line":770, "type":"c", "scope_line":766, "scope_name":"m_next", }
+,{"id":"seq_list_next", "file":"fs/proc/proc_tty.c", "line":112, "type":"c", "scope_line":110, "scope_name":"t_next", }
+,{"id":"seq_list_next", "file":"fs/seq_file.c", "line":688, "type":"f", }
+,{"id":"seq_list_next", "file":"kernel/module.c", "line":3019, "type":"c", "scope_line":3017, "scope_name":"m_next", }
+,{"id":"seq_list_next", "file":"kernel/trace/ftrace.c", "line":2965, "type":"c", "scope_line":2960, "scope_name":"fpid_next", }
+,{"id":"seq_list_next", "file":"kernel/trace/trace_kprobe.c", "line":1072, "type":"c", "scope_line":1070, "scope_name":"probes_seq_next", }
+,{"id":"seq_list_next", "file":"mm/slab.c", "line":4208, "type":"c", "scope_line":4206, "scope_name":"s_next", }
+,{"id":"seq_list_next", "file":"net/core/sock.c", "line":2432, "type":"c", "scope_line":2430, "scope_name":"proto_seq_next", }
+,{"id":"seq_list_start", "file":"crypto/proc.c", "line":66, "type":"c", "scope_line":63, "scope_name":"c_start", }
+,{"id":"seq_list_start", "file":"drivers/char/misc.c", "line":69, "type":"c", "scope_line":66, "scope_name":"misc_seq_start", }
+,{"id":"seq_list_start", "file":"drivers/input/input.c", "line":1064, "type":"c", "scope_line":1047, "scope_name":"input_handlers_seq_start", }
+,{"id":"seq_list_start", "file":"drivers/input/input.c", "line":941, "type":"c", "scope_line":925, "scope_name":"input_devices_seq_start", }
+,{"id":"seq_list_start", "file":"fs/locks.c", "line":2177, "type":"c", "scope_line":2173, "scope_name":"locks_start", }
+,{"id":"seq_list_start", "file":"fs/namespace.c", "line":763, "type":"c", "scope_line":758, "scope_name":"m_start", }
+,{"id":"seq_list_start", "file":"fs/proc/proc_tty.c", "line":107, "type":"c", "scope_line":104, "scope_name":"t_start", }
+,{"id":"seq_list_start", "file":"fs/seq_file.c", "line":667, "type":"f", }
+,{"id":"seq_list_start", "file":"fs/seq_file.c", "line":684, "type":"c", "scope_line":679, "scope_name":"seq_list_start_head", }
+,{"id":"seq_list_start", "file":"kernel/module.c", "line":3014, "type":"c", "scope_line":3011, "scope_name":"m_start", }
+,{"id":"seq_list_start", "file":"kernel/trace/ftrace.c", "line":2957, "type":"c", "scope_line":2950, "scope_name":"fpid_start", }
+,{"id":"seq_list_start", "file":"kernel/trace/trace_kprobe.c", "line":1067, "type":"c", "scope_line":1064, "scope_name":"probes_seq_start", }
+,{"id":"seq_list_start", "file":"mm/slab.c", "line":4203, "type":"c", "scope_line":4195, "scope_name":"s_start", }
+,{"id":"seq_list_start_head", "file":"fs/seq_file.c", "line":679, "type":"f", }
+,{"id":"seq_list_start_head", "file":"net/core/sock.c", "line":2427, "type":"c", "scope_line":2423, "scope_name":"proto_seq_start", }
+,{"id":"seq_lseek", "file":"fs/seq_file.c", "line":281, "type":"f", }
+,{"id":"seq_lseek", "file":"kernel/trace/ftrace.c", "line":1691, "type":"c", "scope_line":1685, "scope_name":"ftrace_regex_lseek", }
+,{"id":"seq_max", "file":"include/linux/ipc_namespace.h", "line":22, "type":"m", "scope_line":19, "scope_name":"struct ipc_ids", }
+,{"id":"seq_net_private", "file":"include/linux/seq_file_net.h", "line":9, "type":"s", }
+,{"id":"seq_next", "file":"net/netfilter/nf_log.c", "line":142, "type":"f", }
+,{"id":"seq_next", "file":"net/netfilter/nf_queue.c", "line":296, "type":"f", }
+,{"id":"seq_no", "file":"include/linux/ip.h", "line":126, "type":"m", "scope_line":121, "scope_name":"struct ip_auth_hdr", }
+,{"id":"seq_no", "file":"include/linux/ip.h", "line":132, "type":"m", "scope_line":130, "scope_name":"struct ip_esp_hdr", }
+,{"id":"seq_nodemask", "file":"include/linux/seq_file.h", "line":100, "type":"f", }
+,{"id":"seq_nodemask", "file":"kernel/cpuset.c", "line":2641, "type":"c", "scope_line":2638, "scope_name":"cpuset_task_status_allowed", }
+,{"id":"seq_nodemask_list", "file":"include/linux/seq_file.h", "line":114, "type":"f", }
+,{"id":"seq_nodemask_list", "file":"kernel/cpuset.c", "line":2644, "type":"c", "scope_line":2638, "scope_name":"cpuset_task_status_allowed", }
+,{"id":"seq_nr", "file":"include/linux/nfs_xdr.h", "line":162, "type":"m", "scope_line":161, "scope_name":"struct nfs4_slot", }
+,{"id":"seq_open", "file":"arch/x86/kernel/cpu/mcheck/mce-severity.c", "line":177, "type":"c", "scope_line":175, "scope_name":"severities_coverage_open", }
+,{"id":"seq_open", "file":"arch/x86/mm/pat.c", "line":807, "type":"c", "scope_line":805, "scope_name":"memtype_seq_open", }
+,{"id":"seq_open", "file":"block/genhd.c", "line":1089, "type":"c", "scope_line":1087, "scope_name":"diskstats_open", }
+,{"id":"seq_open", "file":"block/genhd.c", "line":773, "type":"c", "scope_line":771, "scope_name":"partitions_open", }
+,{"id":"seq_open", "file":"crypto/proc.c", "line":134, "type":"c", "scope_line":132, "scope_name":"crypto_info_open", }
+,{"id":"seq_open", "file":"drivers/char/misc.c", "line":100, "type":"c", "scope_line":98, "scope_name":"misc_seq_open", }
+,{"id":"seq_open", "file":"drivers/char/tty_ldisc.c", "line":260, "type":"c", "scope_line":258, "scope_name":"proc_tty_ldiscs_open", }
+,{"id":"seq_open", "file":"drivers/input/input.c", "line":1035, "type":"c", "scope_line":1033, "scope_name":"input_proc_devices_open", }
+,{"id":"seq_open", "file":"drivers/input/input.c", "line":1099, "type":"c", "scope_line":1097, "scope_name":"input_proc_handlers_open", }
+,{"id":"seq_open", "file":"drivers/pci/proc.c", "line":469, "type":"c", "scope_line":467, "scope_name":"proc_bus_pci_dev_open", }
+,{"id":"seq_open", "file":"drivers/video/fbmem.c", "line":682, "type":"c", "scope_line":680, "scope_name":"proc_fb_open", }
+,{"id":"seq_open", "file":"fs/ext4/mballoc.c", "line":2219, "type":"c", "scope_line":2214, "scope_name":"ext4_mb_seq_groups_open", }
+,{"id":"seq_open", "file":"fs/jbd2/journal.c", "line":766, "type":"c", "scope_line":746, "scope_name":"jbd2_seq_info_open", }
+,{"id":"seq_open", "file":"fs/locks.c", "line":2199, "type":"c", "scope_line":2197, "scope_name":"locks_open", }
+,{"id":"seq_open", "file":"fs/proc/base.c", "line":616, "type":"c", "scope_line":581, "scope_name":"mounts_open_common", }
+,{"id":"seq_open", "file":"fs/proc/cpuinfo.c", "line":9, "type":"c", "scope_line":7, "scope_name":"cpuinfo_open", }
+,{"id":"seq_open", "file":"fs/proc/devices.c", "line":55, "type":"c", "scope_line":53, "scope_name":"devinfo_open", }
+,{"id":"seq_open", "file":"fs/proc/interrupts.c", "line":38, "type":"c", "scope_line":36, "scope_name":"interrupts_open", }
+,{"id":"seq_open", "file":"fs/proc/proc_tty.c", "line":129, "type":"c", "scope_line":127, "scope_name":"tty_drivers_open", }
+,{"id":"seq_open", "file":"fs/proc/task_mmu.c", "line":195, "type":"c", "scope_line":187, "scope_name":"do_maps_open", }
+,{"id":"seq_open", "file":"fs/seq_file.c", "line":30, "type":"f", }
+,{"id":"seq_open", "file":"fs/seq_file.c", "line":562, "type":"c", "scope_line":551, "scope_name":"single_open", }
+,{"id":"seq_open", "file":"fs/seq_file.c", "line":602, "type":"c", "scope_line":591, "scope_name":"__seq_open_private", }
+,{"id":"seq_open", "file":"ipc/util.c", "line":963, "type":"c", "scope_line":952, "scope_name":"sysvipc_proc_open", }
+,{"id":"seq_open", "file":"kernel/cgroup.c", "line":2977, "type":"c", "scope_line":2960, "scope_name":"cgroup_pidlist_open", }
+,{"id":"seq_open", "file":"kernel/kallsyms.c", "line":512, "type":"c", "scope_line":497, "scope_name":"kallsyms_open", }
+,{"id":"seq_open", "file":"kernel/kprobes.c", "line":1864, "type":"c", "scope_line":1862, "scope_name":"kprobes_open", }
+,{"id":"seq_open", "file":"kernel/module.c", "line":3066, "type":"c", "scope_line":3064, "scope_name":"modules_open", }
+,{"id":"seq_open", "file":"kernel/resource.c", "line":102, "type":"c", "scope_line":100, "scope_name":"ioports_open", }
+,{"id":"seq_open", "file":"kernel/resource.c", "line":112, "type":"c", "scope_line":110, "scope_name":"iomem_open", }
+,{"id":"seq_open", "file":"kernel/trace/ftrace.c", "line":1583, "type":"c", "scope_line":1568, "scope_name":"ftrace_avail_open", }
+,{"id":"seq_open", "file":"kernel/trace/ftrace.c", "line":1658, "type":"c", "scope_line":1630, "scope_name":"ftrace_regex_open", }
+,{"id":"seq_open", "file":"kernel/trace/ftrace.c", "line":2514, "type":"c", "scope_line":2496, "scope_name":"ftrace_graph_open", }
+,{"id":"seq_open", "file":"kernel/trace/ftrace.c", "line":3007, "type":"c", "scope_line":2997, "scope_name":"ftrace_pid_open", }
+,{"id":"seq_open", "file":"kernel/trace/trace.c", "line":2160, "type":"c", "scope_line":2091, "scope_name":"__tracing_open", }
+,{"id":"seq_open", "file":"kernel/trace/trace.c", "line":2313, "type":"c", "scope_line":2308, "scope_name":"show_traces_open", }
+,{"id":"seq_open", "file":"kernel/trace/trace_events.c", "line":459, "type":"c", "scope_line":449, "scope_name":"ftrace_event_seq_open", }
+,];
+xr_frag_insert('t/7b/422a3678e75698d3ed90eb5a697bd26fd02968.xr', __xr_tmp);

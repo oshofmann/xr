@@ -1,0 +1,140 @@
+var __xr_tmp = [
+{"id":"selinux_sem_associate", "file":"security/selinux/hooks.c", "line":4997, "type":"f", }
+,{"id":"selinux_sem_free_security", "file":"security/selinux/hooks.c", "line":4992, "type":"f", }
+,{"id":"selinux_sem_semctl", "file":"security/selinux/hooks.c", "line":5013, "type":"f", }
+,{"id":"selinux_sem_semop", "file":"security/selinux/hooks.c", "line":5054, "type":"f", }
+,{"id":"selinux_set_mapping", "file":"security/selinux/ss/services.c", "line":109, "type":"f", }
+,{"id":"selinux_set_mapping", "file":"security/selinux/ss/services.c", "line":1772, "type":"c", "scope_line":1753, "scope_name":"security_load_policy", }
+,{"id":"selinux_set_mapping", "file":"security/selinux/ss/services.c", "line":1820, "type":"c", "scope_line":1753, "scope_name":"security_load_policy", }
+,{"id":"selinux_set_mnt_opts", "file":"security/selinux/hooks.c", "line":552, "type":"f", }
+,{"id":"selinux_set_mnt_opts", "file":"security/selinux/hooks.c", "line":950, "type":"c", "scope_line":932, "scope_name":"superblock_doinit", }
+,{"id":"selinux_setprocattr", "file":"security/selinux/hooks.c", "line":5141, "type":"f", }
+,{"id":"selinux_shm_alloc_security", "file":"security/selinux/hooks.c", "line":4875, "type":"f", }
+,{"id":"selinux_shm_associate", "file":"security/selinux/hooks.c", "line":4905, "type":"f", }
+,{"id":"selinux_shm_free_security", "file":"security/selinux/hooks.c", "line":4900, "type":"f", }
+,{"id":"selinux_shm_shmat", "file":"security/selinux/hooks.c", "line":4953, "type":"f", }
+,{"id":"selinux_shm_shmctl", "file":"security/selinux/hooks.c", "line":4921, "type":"f", }
+,{"id":"selinux_sk_alloc_security", "file":"security/selinux/hooks.c", "line":4164, "type":"f", }
+,{"id":"selinux_sk_clone_security", "file":"security/selinux/hooks.c", "line":4189, "type":"f", }
+,{"id":"selinux_sk_free_security", "file":"security/selinux/hooks.c", "line":4180, "type":"f", }
+,{"id":"selinux_sk_getsecid", "file":"security/selinux/hooks.c", "line":4201, "type":"f", }
+,{"id":"selinux_skb_peerlbl_sid", "file":"security/selinux/hooks.c", "line":3621, "type":"f", }
+,{"id":"selinux_skb_peerlbl_sid", "file":"security/selinux/hooks.c", "line":4022, "type":"c", "scope_line":3997, "scope_name":"selinux_sock_rcv_skb_compat", }
+,{"id":"selinux_skb_peerlbl_sid", "file":"security/selinux/hooks.c", "line":4079, "type":"c", "scope_line":4039, "scope_name":"selinux_socket_sock_rcv_skb", }
+,{"id":"selinux_skb_peerlbl_sid", "file":"security/selinux/hooks.c", "line":4155, "type":"c", "scope_line":4138, "scope_name":"selinux_socket_getpeersec_dgram", }
+,{"id":"selinux_skb_peerlbl_sid", "file":"security/selinux/hooks.c", "line":4236, "type":"c", "scope_line":4223, "scope_name":"selinux_inet_conn_request", }
+,{"id":"selinux_skb_peerlbl_sid", "file":"security/selinux/hooks.c", "line":4279, "type":"c", "scope_line":4270, "scope_name":"selinux_inet_conn_established", }
+,{"id":"selinux_skb_peerlbl_sid", "file":"security/selinux/hooks.c", "line":4398, "type":"c", "scope_line":4378, "scope_name":"selinux_ip_forward", }
+,{"id":"selinux_skb_peerlbl_sid", "file":"security/selinux/hooks.c", "line":4570, "type":"c", "scope_line":4515, "scope_name":"selinux_ip_postroute", }
+,{"id":"selinux_skb_xfrm_sid", "file":"security/selinux/hooks.c", "line":3628, "type":"c", "scope_line":3621, "scope_name":"selinux_skb_peerlbl_sid", }
+,{"id":"selinux_skb_xfrm_sid", "file":"security/selinux/include/xfrm.h", "line":82, "type":"f", }
+,{"id":"selinux_sock_graft", "file":"security/selinux/hooks.c", "line":4212, "type":"f", }
+,{"id":"selinux_sock_rcv_skb_compat", "file":"security/selinux/hooks.c", "line":3997, "type":"f", }
+,{"id":"selinux_sock_rcv_skb_compat", "file":"security/selinux/hooks.c", "line":4062, "type":"c", "scope_line":4039, "scope_name":"selinux_socket_sock_rcv_skb", }
+,{"id":"selinux_socket_accept", "file":"security/selinux/hooks.c", "line":3864, "type":"f", }
+,{"id":"selinux_socket_bind", "file":"security/selinux/hooks.c", "line":3709, "type":"f", }
+,{"id":"selinux_socket_connect", "file":"security/selinux/hooks.c", "line":3805, "type":"f", }
+,{"id":"selinux_socket_create", "file":"security/selinux/hooks.c", "line":3664, "type":"f", }
+,{"id":"selinux_socket_getpeername", "file":"security/selinux/hooks.c", "line":3901, "type":"f", }
+,{"id":"selinux_socket_getpeersec_dgram", "file":"security/selinux/hooks.c", "line":4138, "type":"f", }
+,{"id":"selinux_socket_getpeersec_stream", "file":"security/selinux/hooks.c", "line":4104, "type":"f", }
+,{"id":"selinux_socket_getsockname", "file":"security/selinux/hooks.c", "line":3896, "type":"f", }
+,{"id":"selinux_socket_getsockopt", "file":"security/selinux/hooks.c", "line":3917, "type":"f", }
+,{"id":"selinux_socket_listen", "file":"security/selinux/hooks.c", "line":3859, "type":"f", }
+,{"id":"selinux_socket_post_create", "file":"security/selinux/hooks.c", "line":3679, "type":"f", }
+,{"id":"selinux_socket_recvmsg", "file":"security/selinux/hooks.c", "line":3890, "type":"f", }
+,{"id":"selinux_socket_sendmsg", "file":"security/selinux/hooks.c", "line":3884, "type":"f", }
+,{"id":"selinux_socket_setsockopt", "file":"security/selinux/hooks.c", "line":3906, "type":"f", }
+,{"id":"selinux_socket_shutdown", "file":"security/selinux/hooks.c", "line":3923, "type":"f", }
+,{"id":"selinux_socket_sock_rcv_skb", "file":"security/selinux/hooks.c", "line":4039, "type":"f", }
+,{"id":"selinux_socket_unix_may_send", "file":"security/selinux/hooks.c", "line":3960, "type":"f", }
+,{"id":"selinux_socket_unix_stream_connect", "file":"security/selinux/hooks.c", "line":3928, "type":"f", }
+,{"id":"selinux_string_to_sid", "file":"security/selinux/exports.c", "line":28, "type":"f", }
+,{"id":"selinux_sysctl", "file":"security/selinux/hooks.c", "line":1906, "type":"f", }
+,{"id":"selinux_sysctl_get_sid", "file":"security/selinux/hooks.c", "line":1865, "type":"f", }
+,{"id":"selinux_sysctl_get_sid", "file":"security/selinux/hooks.c", "line":1915, "type":"c", "scope_line":1906, "scope_name":"selinux_sysctl", }
+,{"id":"selinux_syslog", "file":"security/selinux/hooks.c", "line":1976, "type":"f", }
+,{"id":"selinux_task_create", "file":"security/selinux/hooks.c", "line":3175, "type":"f", }
+,{"id":"selinux_task_getioprio", "file":"security/selinux/hooks.c", "line":3337, "type":"f", }
+,{"id":"selinux_task_getpgid", "file":"security/selinux/hooks.c", "line":3300, "type":"f", }
+,{"id":"selinux_task_getscheduler", "file":"security/selinux/hooks.c", "line":3368, "type":"f", }
+,{"id":"selinux_task_getsecid", "file":"security/selinux/hooks.c", "line":3310, "type":"f", }
+,{"id":"selinux_task_getsid", "file":"security/selinux/hooks.c", "line":3305, "type":"f", }
+,{"id":"selinux_task_kill", "file":"security/selinux/hooks.c", "line":3378, "type":"f", }
+,{"id":"selinux_task_movememory", "file":"security/selinux/hooks.c", "line":3373, "type":"f", }
+,{"id":"selinux_task_setioprio", "file":"security/selinux/hooks.c", "line":3326, "type":"f", }
+,{"id":"selinux_task_setnice", "file":"security/selinux/hooks.c", "line":3315, "type":"f", }
+,{"id":"selinux_task_setpgid", "file":"security/selinux/hooks.c", "line":3295, "type":"f", }
+,{"id":"selinux_task_setrlimit", "file":"security/selinux/hooks.c", "line":3342, "type":"f", }
+,{"id":"selinux_task_setscheduler", "file":"security/selinux/hooks.c", "line":3357, "type":"f", }
+,{"id":"selinux_task_to_inode", "file":"security/selinux/hooks.c", "line":3401, "type":"f", }
+,{"id":"selinux_task_wait", "file":"security/selinux/hooks.c", "line":3396, "type":"f", }
+,{"id":"selinux_transaction_write", "file":"security/selinux/selinuxfs.c", "line":467, "type":"f", }
+,{"id":"selinux_tun_dev_attach", "file":"security/selinux/hooks.c", "line":4321, "type":"f", }
+,{"id":"selinux_tun_dev_create", "file":"security/selinux/hooks.c", "line":4288, "type":"f", }
+,{"id":"selinux_tun_dev_post_create", "file":"security/selinux/hooks.c", "line":4303, "type":"f", }
+,{"id":"selinux_umount", "file":"security/selinux/hooks.c", "line":2495, "type":"f", }
+,{"id":"selinux_vm_enough_memory", "file":"security/selinux/hooks.c", "line":2015, "type":"f", }
+,{"id":"selinux_write_opts", "file":"security/selinux/hooks.c", "line":1015, "type":"c", "scope_line":1002, "scope_name":"selinux_sb_show_options", }
+,{"id":"selinux_write_opts", "file":"security/selinux/hooks.c", "line":957, "type":"f", }
+,{"id":"selinux_xfrm_decode_session", "file":"security/selinux/include/xfrm.h", "line":71, "type":"f", }
+,{"id":"selinux_xfrm_decode_session", "file":"security/selinux/include/xfrm.h", "line":84, "type":"c", "scope_line":82, "scope_name":"selinux_skb_xfrm_sid", }
+,{"id":"selinux_xfrm_enabled", "file":"security/selinux/hooks.c", "line":4065, "type":"c", "scope_line":4039, "scope_name":"selinux_socket_sock_rcv_skb", }
+,{"id":"selinux_xfrm_enabled", "file":"security/selinux/hooks.c", "line":4394, "type":"c", "scope_line":4378, "scope_name":"selinux_ip_forward", }
+,{"id":"selinux_xfrm_enabled", "file":"security/selinux/hooks.c", "line":4543, "type":"c", "scope_line":4515, "scope_name":"selinux_ip_postroute", }
+,{"id":"selinux_xfrm_enabled", "file":"security/selinux/include/xfrm.h", "line":54, "type":"f", }
+,{"id":"selinux_xfrm_notify_policyload", "file":"security/selinux/include/xfrm.h", "line":77, "type":"f", }
+,{"id":"selinux_xfrm_notify_policyload", "file":"security/selinux/ss/services.c", "line":1795, "type":"c", "scope_line":1753, "scope_name":"security_load_policy", }
+,{"id":"selinux_xfrm_notify_policyload", "file":"security/selinux/ss/services.c", "line":1874, "type":"c", "scope_line":1753, "scope_name":"security_load_policy", }
+,{"id":"selinux_xfrm_notify_policyload", "file":"security/selinux/ss/services.c", "line":2377, "type":"c", "scope_line":2333, "scope_name":"security_set_bools", }
+,{"id":"selinux_xfrm_postroute_last", "file":"security/selinux/hooks.c", "line":4509, "type":"c", "scope_line":4483, "scope_name":"selinux_ip_postroute_compat", }
+,{"id":"selinux_xfrm_postroute_last", "file":"security/selinux/include/xfrm.h", "line":65, "type":"f", }
+,{"id":"selinux_xfrm_sock_rcv_skb", "file":"security/selinux/hooks.c", "line":4033, "type":"c", "scope_line":3997, "scope_name":"selinux_sock_rcv_skb_compat", }
+,{"id":"selinux_xfrm_sock_rcv_skb", "file":"security/selinux/include/xfrm.h", "line":59, "type":"f", }
+,{"id":"selinuxfs_mount", "file":"security/selinux/selinuxfs.c", "line":1729, "type":"v", }
+,{"id":"selnl", "file":"security/selinux/netlink.c", "line":22, "type":"v", }
+,{"id":"selnl_add_payload", "file":"security/selinux/netlink.c", "line":43, "type":"f", }
+,{"id":"selnl_add_payload", "file":"security/selinux/netlink.c", "line":82, "type":"c", "scope_line":67, "scope_name":"selnl_notify", }
+,{"id":"selnl_init", "file":"security/selinux/netlink.c", "line":106, "type":"f", }
+,{"id":"selnl_msg_policyload", "file":"include/linux/selinux_netlink.h", "line":46, "type":"s", }
+,{"id":"selnl_msg_setenforce", "file":"include/linux/selinux_netlink.h", "line":42, "type":"s", }
+,{"id":"selnl_msglen", "file":"security/selinux/netlink.c", "line":24, "type":"f", }
+,{"id":"selnl_msglen", "file":"security/selinux/netlink.c", "line":74, "type":"c", "scope_line":67, "scope_name":"selnl_notify", }
+,{"id":"selnl_notify", "file":"security/selinux/netlink.c", "line":103, "type":"c", "scope_line":101, "scope_name":"selnl_notify_policyload", }
+,{"id":"selnl_notify", "file":"security/selinux/netlink.c", "line":67, "type":"f", }
+,{"id":"selnl_notify", "file":"security/selinux/netlink.c", "line":98, "type":"c", "scope_line":96, "scope_name":"selnl_notify_setenforce", }
+,{"id":"selnl_notify_policyload", "file":"security/selinux/netlink.c", "line":101, "type":"f", }
+,{"id":"selnl_notify_policyload", "file":"security/selinux/ss/services.c", "line":1793, "type":"c", "scope_line":1753, "scope_name":"security_load_policy", }
+,{"id":"selnl_notify_policyload", "file":"security/selinux/ss/services.c", "line":1872, "type":"c", "scope_line":1753, "scope_name":"security_load_policy", }
+,{"id":"selnl_notify_policyload", "file":"security/selinux/ss/services.c", "line":2376, "type":"c", "scope_line":2333, "scope_name":"security_set_bools", }
+,{"id":"selnl_notify_setenforce", "file":"security/selinux/netlink.c", "line":96, "type":"f", }
+,{"id":"selnl_notify_setenforce", "file":"security/selinux/selinuxfs.c", "line":173, "type":"c", "scope_line":136, "scope_name":"sel_write_enforce", }
+,{"id":"sem", "file":"include/linux/key.h", "line":129, "type":"m", "scope_line":124, "scope_name":"struct key", }
+,{"id":"sem", "file":"include/linux/sem.h", "line":87, "type":"s", }
+,{"id":"sem", "file":"include/linux/smb_fs_sb.h", "line":61, "type":"m", "scope_line":37, "scope_name":"struct smb_sb_info", }
+,{"id":"sem", "file":"kernel/taskstats.c", "line":67, "type":"m", "scope_line":66, "scope_name":"struct listener_list", }
+,{"id":"sem_alloc_security", "file":"include/linux/security.h", "line":1540, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sem_array", "file":"include/linux/sem.h", "line":94, "type":"s", }
+,{"id":"sem_associate", "file":"include/linux/security.h", "line":1542, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sem_base", "file":"include/linux/sem.h", "line":27, "type":"m", "scope_line":23, "scope_name":"struct semid_ds", }
+,{"id":"sem_base", "file":"include/linux/sem.h", "line":99, "type":"m", "scope_line":94, "scope_name":"struct sem_array", }
+,{"id":"sem_base", "file":"ipc/compat.c", "line":55, "type":"m", "scope_line":51, "scope_name":"struct compat_semid_ds", }
+,{"id":"sem_checkid", "file":"ipc/sem.c", "line":96, "type":"d", }
+,{"id":"sem_ctime", "file":"arch/x86/include/asm/compat.h", "line":145, "type":"m", "scope_line":141, "scope_name":"struct compat_semid64_ds", }
+,{"id":"sem_ctime", "file":"arch/x86/include/asm/sembuf.h", "line":17, "type":"m", "scope_line":13, "scope_name":"struct semid64_ds", }
+,{"id":"sem_ctime", "file":"include/linux/sem.h", "line":26, "type":"m", "scope_line":23, "scope_name":"struct semid_ds", }
+,{"id":"sem_ctime", "file":"include/linux/sem.h", "line":98, "type":"m", "scope_line":94, "scope_name":"struct sem_array", }
+,{"id":"sem_ctime", "file":"ipc/compat.c", "line":54, "type":"m", "scope_line":51, "scope_name":"struct compat_semid_ds", }
+,{"id":"sem_ctls", "file":"include/linux/ipc_namespace.h", "line":31, "type":"m", "scope_line":27, "scope_name":"struct ipc_namespace", }
+,{"id":"sem_exit_ns", "file":"ipc/namespace.c", "line":97, "type":"c", "scope_line":86, "scope_name":"free_ipc_ns", }
+,{"id":"sem_exit_ns", "file":"ipc/sem.c", "line":132, "type":"f", }
+,{"id":"sem_flg", "file":"include/linux/sem.h", "line":41, "type":"m", "scope_line":38, "scope_name":"struct sembuf", }
+,{"id":"sem_free_security", "file":"include/linux/security.h", "line":1541, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sem_getref_and_unlock", "file":"ipc/sem.c", "line":1216, "type":"c", "scope_line":1189, "scope_name":"find_alloc_undo", }
+,{"id":"sem_getref_and_unlock", "file":"ipc/sem.c", "line":178, "type":"f", }
+,{"id":"sem_getref_and_unlock", "file":"ipc/sem.c", "line":880, "type":"c", "scope_line":846, "scope_name":"semctl_main", }
+,{"id":"sem_getref_and_unlock", "file":"ipc/sem.c", "line":909, "type":"c", "scope_line":846, "scope_name":"semctl_main", }
+,{"id":"sem_ids", "file":"ipc/sem.c", "line":93, "type":"d", }
+,{"id":"sem_init", "file":"ipc/sem.c", "line":139, "type":"f", }
+,];
+xr_frag_insert('t/1d/fe04acdba6ad3bb9f379c62f548e13fbe7e0ac.xr', __xr_tmp);

@@ -1,0 +1,203 @@
+var __xr_tmp = [
+{"id":"HW_PSTATE_MASK", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":103, "type":"d", }
+,{"id":"HW_PSTATE_MAX_MASK", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":105, "type":"d", }
+,{"id":"HW_PSTATE_MAX_SHIFT", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":106, "type":"d", }
+,{"id":"HW_PSTATE_VALID_MASK", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":104, "type":"d", }
+,{"id":"HW_RAW", "file":"drivers/char/keyboard.c", "line":1047, "type":"d", }
+,{"id":"HYPERVISOR_VIRT_START", "file":"arch/x86/include/asm/xen/interface.h", "line":61, "type":"d", }
+,{"id":"HYPERVISOR_callback_op", "file":"arch/x86/include/asm/xen/hypercall.h", "line":258, "type":"f", }
+,{"id":"HYPERVISOR_callback_op", "file":"arch/x86/xen/setup.c", "line":181, "type":"c", "scope_line":173, "scope_name":"register_callback", }
+,{"id":"HYPERVISOR_console_io", "file":"arch/x86/include/asm/xen/hypercall.h", "line":348, "type":"f", }
+,{"id":"HYPERVISOR_console_io", "file":"drivers/char/hvc_xen.c", "line":185, "type":"c", "scope_line":182, "scope_name":"raw_console_write", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"arch/x86/include/asm/xen/hypercall.h", "line":328, "type":"f", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"drivers/xen/events.c", "line":319, "type":"c", "scope_line":309, "scope_name":"unmask_evtchn", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"drivers/xen/events.c", "line":411, "type":"c", "scope_line":393, "scope_name":"bind_ipi_to_irq", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"drivers/xen/events.c", "line":441, "type":"c", "scope_line":429, "scope_name":"bind_virq_to_irq", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"drivers/xen/events.c", "line":473, "type":"c", "scope_line":464, "scope_name":"unbind_from_irq", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"drivers/xen/events.c", "line":755, "type":"c", "scope_line":735, "scope_name":"rebind_irq_to_cpu", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"drivers/xen/events.c", "line":843, "type":"c", "scope_line":829, "scope_name":"restore_cpu_virqs", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"drivers/xen/events.c", "line":871, "type":"c", "scope_line":858, "scope_name":"restore_cpu_ipis", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"drivers/xen/xenbus/xenbus_client.c", "line":361, "type":"c", "scope_line":353, "scope_name":"xenbus_alloc_evtchn", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"drivers/xen/xenbus/xenbus_client.c", "line":386, "type":"c", "scope_line":378, "scope_name":"xenbus_bind_evtchn", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"drivers/xen/xenbus/xenbus_client.c", "line":410, "type":"c", "scope_line":403, "scope_name":"xenbus_free_evtchn", }
+,{"id":"HYPERVISOR_event_channel_op", "file":"include/xen/events.h", "line":40, "type":"c", "scope_line":37, "scope_name":"notify_remote_via_evtchn", }
+,{"id":"HYPERVISOR_fpu_taskswitch", "file":"arch/x86/include/asm/xen/hypercall.h", "line":264, "type":"f", }
+,{"id":"HYPERVISOR_get_debugreg", "file":"arch/x86/include/asm/xen/hypercall.h", "line":290, "type":"f", }
+,{"id":"HYPERVISOR_get_debugreg", "file":"arch/x86/xen/enlighten.c", "line":278, "type":"c", "scope_line":276, "scope_name":"xen_get_debugreg", }
+,{"id":"HYPERVISOR_grant_table_op", "file":"arch/x86/include/asm/xen/hypercall.h", "line":368, "type":"f", }
+,{"id":"HYPERVISOR_grant_table_op", "file":"drivers/xen/grant-table.c", "line":433, "type":"c", "scope_line":426, "scope_name":"__max_nr_grant_frames", }
+,{"id":"HYPERVISOR_grant_table_op", "file":"drivers/xen/grant-table.c", "line":489, "type":"c", "scope_line":450, "scope_name":"gnttab_map", }
+,{"id":"HYPERVISOR_grant_table_op", "file":"drivers/xen/xenbus/xenbus_client.c", "line":450, "type":"c", "scope_line":433, "scope_name":"xenbus_map_ring_valloc", }
+,{"id":"HYPERVISOR_grant_table_op", "file":"drivers/xen/xenbus/xenbus_client.c", "line":494, "type":"c", "scope_line":484, "scope_name":"xenbus_map_ring", }
+,{"id":"HYPERVISOR_grant_table_op", "file":"drivers/xen/xenbus/xenbus_client.c", "line":549, "type":"c", "scope_line":521, "scope_name":"xenbus_unmap_ring_vfree", }
+,{"id":"HYPERVISOR_grant_table_op", "file":"drivers/xen/xenbus/xenbus_client.c", "line":582, "type":"c", "scope_line":574, "scope_name":"xenbus_unmap_ring", }
+,{"id":"HYPERVISOR_hvm_op", "file":"arch/x86/include/asm/xen/hypercall.h", "line":420, "type":"f", }
+,{"id":"HYPERVISOR_hvm_op", "file":"arch/x86/xen/mmu.c", "line":2236, "type":"c", "scope_line":2229, "scope_name":"xen_hvm_exit_mmap", }
+,{"id":"HYPERVISOR_hvm_op", "file":"arch/x86/xen/mmu.c", "line":2247, "type":"c", "scope_line":2240, "scope_name":"is_pagetable_dying_supported", }
+,{"id":"HYPERVISOR_hvm_op", "file":"drivers/xen/events.c", "line":984, "type":"c", "scope_line":978, "scope_name":"xen_set_callback_via", }
+,{"id":"HYPERVISOR_hvm_op", "file":"include/xen/hvm.h", "line":15, "type":"c", "scope_line":8, "scope_name":"hvm_get_parameter", }
+,{"id":"HYPERVISOR_memory_op", "file":"arch/x86/include/asm/xen/hypercall.h", "line":304, "type":"f", }
+,{"id":"HYPERVISOR_memory_op", "file":"arch/x86/xen/enlighten.c", "line":1300, "type":"c", "scope_line":1287, "scope_name":"xen_hvm_init_shared_info", }
+,{"id":"HYPERVISOR_memory_op", "file":"arch/x86/xen/mmu.c", "line":2139, "type":"c", "scope_line":2111, "scope_name":"xen_exchange_memory", }
+,{"id":"HYPERVISOR_memory_op", "file":"arch/x86/xen/setup.c", "line":67, "type":"c", "scope_line":36, "scope_name":"xen_release_chunk", }
+,{"id":"HYPERVISOR_memory_op", "file":"drivers/xen/grant-table.c", "line":470, "type":"c", "scope_line":450, "scope_name":"gnttab_map", }
+,{"id":"HYPERVISOR_mmu_update", "file":"arch/x86/include/asm/xen/hypercall.h", "line":209, "type":"f", }
+,{"id":"HYPERVISOR_mmuext_op", "file":"arch/x86/include/asm/xen/hypercall.h", "line":216, "type":"f", }
+,{"id":"HYPERVISOR_mmuext_op", "file":"arch/x86/xen/mmu.c", "line":1537, "type":"c", "scope_line":1532, "scope_name":"pin_pagetable_pfn", }
+,{"id":"HYPERVISOR_multicall", "file":"arch/x86/include/asm/xen/hypercall.h", "line":310, "type":"f", }
+,{"id":"HYPERVISOR_multicall", "file":"arch/x86/xen/multicalls.c", "line":146, "type":"c", "scope_line":125, "scope_name":"xen_mc_flush", }
+,{"id":"HYPERVISOR_nmi_op", "file":"arch/x86/include/asm/xen/hypercall.h", "line":414, "type":"f", }
+,{"id":"HYPERVISOR_physdev_op", "file":"arch/x86/include/asm/xen/hypercall.h", "line":354, "type":"f", }
+,{"id":"HYPERVISOR_physdev_op", "file":"arch/x86/xen/enlighten.c", "line":704, "type":"c", "scope_line":698, "scope_name":"xen_set_iopl_mask", }
+,{"id":"HYPERVISOR_physdev_op", "file":"arch/x86/xen/setup.c", "line":246, "type":"c", "scope_line":224, "scope_name":"xen_arch_setup", }
+,{"id":"HYPERVISOR_sched_op", "file":"arch/x86/include/asm/xen/hypercall.h", "line":270, "type":"f", }
+,{"id":"HYPERVISOR_sched_op", "file":"arch/x86/xen/enlighten.c", "line":1024, "type":"c", "scope_line":1016, "scope_name":"xen_reboot", }
+,{"id":"HYPERVISOR_sched_op", "file":"arch/x86/xen/irq.c", "line":104, "type":"c", "scope_line":101, "scope_name":"xen_safe_halt", }
+,{"id":"HYPERVISOR_sched_op", "file":"arch/x86/xen/smp.c", "line":324, "type":"c", "scope_line":286, "scope_name":"xen_cpu_up", }
+,{"id":"HYPERVISOR_sched_op", "file":"arch/x86/xen/smp.c", "line":431, "type":"c", "scope_line":422, "scope_name":"xen_smp_send_call_function_ipi", }
+,{"id":"HYPERVISOR_sched_op", "file":"drivers/char/hvc_xen.c", "line":98, "type":"c", "scope_line":81, "scope_name":"write_console", }
+,{"id":"HYPERVISOR_sched_op", "file":"drivers/xen/events.c", "line":928, "type":"c", "scope_line":917, "scope_name":"xen_poll_irq", }
+,{"id":"HYPERVISOR_sched_op", "file":"drivers/xen/manage.c", "line":45, "type":"c", "scope_line":38, "scope_name":"xen_hvm_suspend", }
+,{"id":"HYPERVISOR_set_callbacks", "file":"arch/x86/include/asm/xen/hypercall.h", "line":247, "type":"f", }
+,{"id":"HYPERVISOR_set_debugreg", "file":"arch/x86/include/asm/xen/hypercall.h", "line":284, "type":"f", }
+,{"id":"HYPERVISOR_set_debugreg", "file":"arch/x86/xen/enlighten.c", "line":273, "type":"c", "scope_line":271, "scope_name":"xen_set_debugreg", }
+,{"id":"HYPERVISOR_set_gdt", "file":"arch/x86/include/asm/xen/hypercall.h", "line":223, "type":"f", }
+,{"id":"HYPERVISOR_set_gdt", "file":"arch/x86/xen/enlighten.c", "line":402, "type":"c", "scope_line":360, "scope_name":"xen_load_gdt", }
+,{"id":"HYPERVISOR_set_gdt", "file":"arch/x86/xen/enlighten.c", "line":440, "type":"c", "scope_line":409, "scope_name":"xen_load_gdt_boot", }
+,{"id":"HYPERVISOR_set_segment_base", "file":"arch/x86/include/asm/xen/hypercall.h", "line":400, "type":"f", }
+,{"id":"HYPERVISOR_set_segment_base", "file":"arch/x86/xen/enlighten.c", "line":494, "type":"c", "scope_line":492, "scope_name":"xen_load_gs_index", }
+,{"id":"HYPERVISOR_set_segment_base", "file":"arch/x86/xen/enlighten.c", "line":821, "type":"c", "scope_line":804, "scope_name":"xen_write_msr_safe", }
+,{"id":"HYPERVISOR_set_timer_op", "file":"arch/x86/include/asm/xen/hypercall.h", "line":276, "type":"f", }
+,{"id":"HYPERVISOR_set_timer_op", "file":"arch/x86/xen/time.c", "line":270, "type":"c", "scope_line":255, "scope_name":"xen_timerop_set_mode", }
+,{"id":"HYPERVISOR_set_timer_op", "file":"arch/x86/xen/time.c", "line":280, "type":"c", "scope_line":275, "scope_name":"xen_timerop_set_next_event", }
+,{"id":"HYPERVISOR_set_trap_table", "file":"arch/x86/include/asm/xen/hypercall.h", "line":203, "type":"f", }
+,{"id":"HYPERVISOR_set_trap_table", "file":"arch/x86/xen/enlighten.c", "line":589, "type":"c", "scope_line":569, "scope_name":"xen_write_idt_entry", }
+,{"id":"HYPERVISOR_set_trap_table", "file":"arch/x86/xen/enlighten.c", "line":635, "type":"c", "scope_line":623, "scope_name":"xen_load_idt", }
+,{"id":"HYPERVISOR_shared_info", "file":"arch/x86/xen/enlighten.c", "line":92, "type":"v", }
+,{"id":"HYPERVISOR_stack_switch", "file":"arch/x86/include/asm/xen/hypercall.h", "line":229, "type":"f", }
+,{"id":"HYPERVISOR_suspend", "file":"arch/x86/include/asm/xen/hypercall.h", "line":407, "type":"f", }
+,{"id":"HYPERVISOR_suspend", "file":"drivers/xen/manage.c", "line":81, "type":"c", "scope_line":58, "scope_name":"xen_suspend", }
+,{"id":"HYPERVISOR_update_descriptor", "file":"arch/x86/include/asm/xen/hypercall.h", "line":296, "type":"f", }
+,{"id":"HYPERVISOR_update_descriptor", "file":"arch/x86/xen/enlighten.c", "line":508, "type":"c", "scope_line":499, "scope_name":"xen_write_ldt_entry", }
+,{"id":"HYPERVISOR_update_descriptor", "file":"arch/x86/xen/enlighten.c", "line":658, "type":"c", "scope_line":643, "scope_name":"xen_write_gdt_entry", }
+,{"id":"HYPERVISOR_update_descriptor", "file":"arch/x86/xen/enlighten.c", "line":683, "type":"c", "scope_line":671, "scope_name":"xen_write_gdt_entry_boot", }
+,{"id":"HYPERVISOR_update_va_mapping", "file":"arch/x86/include/asm/xen/hypercall.h", "line":316, "type":"f", }
+,{"id":"HYPERVISOR_update_va_mapping", "file":"arch/x86/xen/enlighten.c", "line":314, "type":"c", "scope_line":298, "scope_name":"set_aliased_prot", }
+,{"id":"HYPERVISOR_update_va_mapping", "file":"arch/x86/xen/enlighten.c", "line":321, "type":"c", "scope_line":298, "scope_name":"set_aliased_prot", }
+,{"id":"HYPERVISOR_update_va_mapping", "file":"arch/x86/xen/enlighten.c", "line":434, "type":"c", "scope_line":409, "scope_name":"xen_load_gdt_boot", }
+,{"id":"HYPERVISOR_update_va_mapping", "file":"arch/x86/xen/mmu.c", "line":1690, "type":"c", "scope_line":1685, "scope_name":"set_page_prot", }
+,{"id":"HYPERVISOR_update_va_mapping", "file":"arch/x86/xen/mmu.c", "line":366, "type":"c", "scope_line":355, "scope_name":"make_lowmem_page_readonly", }
+,{"id":"HYPERVISOR_update_va_mapping", "file":"arch/x86/xen/mmu.c", "line":381, "type":"c", "scope_line":370, "scope_name":"make_lowmem_page_readwrite", }
+,{"id":"HYPERVISOR_update_va_mapping", "file":"arch/x86/xen/mmu.c", "line":511, "type":"c", "scope_line":488, "scope_name":"xen_set_pte_at", }
+,{"id":"HYPERVISOR_update_va_mapping", "file":"arch/x86/xen/suspend.c", "line":24, "type":"c", "scope_line":15, "scope_name":"xen_pre_suspend", }
+,{"id":"HYPERVISOR_update_va_mapping_otherdomain", "file":"arch/x86/include/asm/xen/hypercall.h", "line":374, "type":"f", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/include/asm/xen/hypercall.h", "line":393, "type":"f", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/enlighten.c", "line":144, "type":"c", "scope_line":117, "scope_name":"xen_vcpu_setup", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/enlighten.c", "line":172, "type":"c", "scope_line":165, "scope_name":"xen_vcpu_restore", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/enlighten.c", "line":181, "type":"c", "scope_line":165, "scope_name":"xen_vcpu_restore", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/irq.c", "line":111, "type":"c", "scope_line":108, "scope_name":"xen_halt", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/smp.c", "line":160, "type":"c", "scope_line":155, "scope_name":"xen_fill_possible_map", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/smp.c", "line":279, "type":"c", "scope_line":219, "scope_name":"cpu_initialize_context", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/smp.c", "line":320, "type":"c", "scope_line":286, "scope_name":"xen_cpu_up", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/smp.c", "line":350, "type":"c", "scope_line":348, "scope_name":"xen_cpu_die", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/smp.c", "line":368, "type":"c", "scope_line":365, "scope_name":"xen_play_dead", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/smp.c", "line":399, "type":"c", "scope_line":389, "scope_name":"stop_self", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/time.c", "line":111, "type":"c", "scope_line":105, "scope_name":"xen_setup_runstate_info", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/time.c", "line":318, "type":"c", "scope_line":307, "scope_name":"xen_vcpuop_set_mode", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/time.c", "line":324, "type":"c", "scope_line":307, "scope_name":"xen_vcpuop_set_mode", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/time.c", "line":345, "type":"c", "scope_line":333, "scope_name":"xen_vcpuop_set_next_event", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/time.c", "line":433, "type":"c", "scope_line":425, "scope_name":"xen_timer_resume", }
+,{"id":"HYPERVISOR_vcpu_op", "file":"arch/x86/xen/time.c", "line":449, "type":"c", "scope_line":442, "scope_name":"xen_time_init", }
+,{"id":"HYPERVISOR_vm_assist", "file":"arch/x86/include/asm/xen/hypercall.h", "line":387, "type":"f", }
+,{"id":"HYPERVISOR_vm_assist", "file":"arch/x86/xen/setup.c", "line":231, "type":"c", "scope_line":224, "scope_name":"xen_arch_setup", }
+,{"id":"HYPERVISOR_vm_assist", "file":"arch/x86/xen/setup.c", "line":232, "type":"c", "scope_line":224, "scope_name":"xen_arch_setup", }
+,{"id":"HYPERVISOR_vm_assist", "file":"arch/x86/xen/setup.c", "line":235, "type":"c", "scope_line":224, "scope_name":"xen_arch_setup", }
+,{"id":"HYPERVISOR_xen_version", "file":"arch/x86/include/asm/xen/hypercall.h", "line":342, "type":"f", }
+,{"id":"HYPERVISOR_xen_version", "file":"arch/x86/xen/enlighten.c", "line":189, "type":"c", "scope_line":187, "scope_name":"xen_banner", }
+,{"id":"HYPERVISOR_xen_version", "file":"arch/x86/xen/enlighten.c", "line":191, "type":"c", "scope_line":187, "scope_name":"xen_banner", }
+,{"id":"HYPERVISOR_xen_version", "file":"arch/x86/xen/irq.c", "line":21, "type":"c", "scope_line":19, "scope_name":"xen_force_evtchn_callback", }
+,{"id":"HYPERVISOR_xen_version", "file":"drivers/xen/features.c", "line":28, "type":"c", "scope_line":21, "scope_name":"xen_setup_features", }
+,{"id":"HYPERV_CPUID_ENLIGHTMENT_INFO", "file":"arch/x86/include/asm/hyperv.h", "line":16, "type":"d", }
+,{"id":"HYPERV_CPUID_FEATURES", "file":"arch/x86/include/asm/hyperv.h", "line":15, "type":"d", }
+,{"id":"HYPERV_CPUID_IMPLEMENT_LIMITS", "file":"arch/x86/include/asm/hyperv.h", "line":17, "type":"d", }
+,{"id":"HYPERV_CPUID_INTERFACE", "file":"arch/x86/include/asm/hyperv.h", "line":13, "type":"d", }
+,{"id":"HYPERV_CPUID_MAX", "file":"arch/x86/include/asm/hyperv.h", "line":21, "type":"d", }
+,{"id":"HYPERV_CPUID_MIN", "file":"arch/x86/include/asm/hyperv.h", "line":20, "type":"d", }
+,{"id":"HYPERV_CPUID_VENDOR_AND_MAX_FUNCTIONS", "file":"arch/x86/include/asm/hyperv.h", "line":12, "type":"d", }
+,{"id":"HYPERV_CPUID_VERSION", "file":"arch/x86/include/asm/hyperv.h", "line":14, "type":"d", }
+,{"id":"HYPERV_HYPERVISOR_PRESENT_BIT", "file":"arch/x86/include/asm/hyperv.h", "line":19, "type":"d", }
+,{"id":"HYSTART_ACK_TRAIN", "file":"net/ipv4/tcp_cubic.c", "line":37, "type":"d", }
+,{"id":"HYSTART_DELAY", "file":"net/ipv4/tcp_cubic.c", "line":38, "type":"d", }
+,{"id":"HYSTART_DELAY_MAX", "file":"net/ipv4/tcp_cubic.c", "line":43, "type":"d", }
+,{"id":"HYSTART_DELAY_MIN", "file":"net/ipv4/tcp_cubic.c", "line":42, "type":"d", }
+,{"id":"HYSTART_DELAY_THRESH", "file":"net/ipv4/tcp_cubic.c", "line":44, "type":"d", }
+,{"id":"HYSTART_MIN_SAMPLES", "file":"net/ipv4/tcp_cubic.c", "line":41, "type":"d", }
+,{"id":"HZ", "file":"include/asm-generic/param.h", "line":5, "type":"d", }
+,{"id":"HZ_TO_MSEC_ADJ32", "file":"kernel/timeconst.h", "line":15, "type":"d", }
+,{"id":"HZ_TO_MSEC_DEN", "file":"kernel/timeconst.h", "line":18, "type":"d", }
+,{"id":"HZ_TO_MSEC_MUL32", "file":"kernel/timeconst.h", "line":14, "type":"d", }
+,{"id":"HZ_TO_MSEC_NUM", "file":"kernel/timeconst.h", "line":17, "type":"d", }
+,{"id":"HZ_TO_MSEC_SHR32", "file":"kernel/timeconst.h", "line":16, "type":"d", }
+,{"id":"HZ_TO_USEC_ADJ32", "file":"kernel/timeconst.h", "line":25, "type":"d", }
+,{"id":"HZ_TO_USEC_DEN", "file":"kernel/timeconst.h", "line":28, "type":"d", }
+,{"id":"HZ_TO_USEC_MUL32", "file":"kernel/timeconst.h", "line":24, "type":"d", }
+,{"id":"HZ_TO_USEC_NUM", "file":"kernel/timeconst.h", "line":27, "type":"d", }
+,{"id":"HZ_TO_USEC_SHR32", "file":"kernel/timeconst.h", "line":26, "type":"d", }
+,{"id":"H_ACTIVE", "file":"drivers/video/edid.h", "line":78, "type":"d", }
+,{"id":"H_ACTIVE_HI", "file":"drivers/video/edid.h", "line":77, "type":"d", }
+,{"id":"H_ACTIVE_LO", "file":"drivers/video/edid.h", "line":75, "type":"d", }
+,{"id":"H_BLANKING", "file":"drivers/video/edid.h", "line":80, "type":"d", }
+,{"id":"H_BLANKING_HI", "file":"drivers/video/edid.h", "line":79, "type":"d", }
+,{"id":"H_BLANKING_LO", "file":"drivers/video/edid.h", "line":76, "type":"d", }
+,{"id":"H_BLANKSCALE", "file":"drivers/video/fbmon.c", "line":984, "type":"d", }
+,{"id":"H_BORDER", "file":"drivers/video/edid.h", "line":116, "type":"d", }
+,{"id":"H_GRADIENT", "file":"drivers/video/fbmon.c", "line":985, "type":"d", }
+,{"id":"H_MAX_RATE", "file":"drivers/video/edid.h", "line":130, "type":"d", }
+,{"id":"H_MIN_RATE", "file":"drivers/video/edid.h", "line":129, "type":"d", }
+,{"id":"H_OFFSET", "file":"drivers/video/fbmon.c", "line":982, "type":"d", }
+,{"id":"H_SCALEFACTOR", "file":"drivers/video/fbmon.c", "line":983, "type":"d", }
+,{"id":"H_SIZE", "file":"drivers/video/edid.h", "line":113, "type":"d", }
+,{"id":"H_SIZE_HI", "file":"drivers/video/edid.h", "line":110, "type":"d", }
+,{"id":"H_SIZE_LO", "file":"drivers/video/edid.h", "line":107, "type":"d", }
+,{"id":"H_SYNC_OFFSET", "file":"drivers/video/edid.h", "line":105, "type":"d", }
+,{"id":"H_SYNC_OFFSET_HI", "file":"drivers/video/edid.h", "line":99, "type":"d", }
+,{"id":"H_SYNC_OFFSET_LO", "file":"drivers/video/edid.h", "line":89, "type":"d", }
+,{"id":"H_SYNC_WIDTH", "file":"drivers/video/edid.h", "line":104, "type":"d", }
+,{"id":"H_SYNC_WIDTH_HI", "file":"drivers/video/edid.h", "line":98, "type":"d", }
+,{"id":"H_SYNC_WIDTH_LO", "file":"drivers/video/edid.h", "line":90, "type":"d", }
+,{"id":"HorizDisplayEnd", "file":"drivers/video/console/vgacon.c", "line":884, "type":"m", "scope_line":879, "scope_name":"vga_state", }
+,{"id":"HorizontalTotal", "file":"drivers/video/console/vgacon.c", "line":883, "type":"m", "scope_line":879, "scope_name":"vga_state", }
+,{"id":"I2C_ADDRS", "file":"include/linux/i2c.h", "line":418, "type":"d", }
+,{"id":"I2C_BOARD_INFO", "file":"include/linux/i2c.h", "line":274, "type":"d", }
+,{"id":"I2C_CLASS_DDC", "file":"include/linux/i2c.h", "line":408, "type":"d", }
+,{"id":"I2C_CLASS_HWMON", "file":"include/linux/i2c.h", "line":405, "type":"d", }
+,{"id":"I2C_CLASS_SPD", "file":"include/linux/i2c.h", "line":409, "type":"d", }
+,{"id":"I2C_CLASS_TV_ANALOG", "file":"include/linux/i2c.h", "line":406, "type":"d", }
+,{"id":"I2C_CLASS_TV_DIGITAL", "file":"include/linux/i2c.h", "line":407, "type":"d", }
+,{"id":"I2C_CLIENT_END", "file":"include/linux/i2c.h", "line":412, "type":"d", }
+,{"id":"I2C_CLIENT_PEC", "file":"include/linux/i2c.h", "line":399, "type":"d", }
+,{"id":"I2C_CLIENT_TEN", "file":"include/linux/i2c.h", "line":400, "type":"d", }
+,{"id":"I2C_CLIENT_WAKE", "file":"include/linux/i2c.h", "line":402, "type":"d", }
+,{"id":"I2C_FUNCS", "file":"include/linux/i2c-dev.h", "line":46, "type":"d", }
+,{"id":"I2C_FUNC_10BIT_ADDR", "file":"include/linux/i2c.h", "line":524, "type":"d", }
+,{"id":"I2C_FUNC_I2C", "file":"include/linux/i2c.h", "line":523, "type":"d", }
+,{"id":"I2C_FUNC_PROTOCOL_MANGLING", "file":"include/linux/i2c.h", "line":525, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_BLOCK_DATA", "file":"include/linux/i2c.h", "line":547, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_BLOCK_PROC_CALL", "file":"include/linux/i2c.h", "line":527, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_BYTE", "file":"include/linux/i2c.h", "line":541, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_BYTE_DATA", "file":"include/linux/i2c.h", "line":543, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_EMUL", "file":"include/linux/i2c.h", "line":552, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_I2C_BLOCK", "file":"include/linux/i2c.h", "line":549, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_PEC", "file":"include/linux/i2c.h", "line":526, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_PROC_CALL", "file":"include/linux/i2c.h", "line":535, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_QUICK", "file":"include/linux/i2c.h", "line":528, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_READ_BLOCK_DATA", "file":"include/linux/i2c.h", "line":536, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_READ_BYTE", "file":"include/linux/i2c.h", "line":529, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_READ_BYTE_DATA", "file":"include/linux/i2c.h", "line":531, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_READ_I2C_BLOCK", "file":"include/linux/i2c.h", "line":538, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_READ_WORD_DATA", "file":"include/linux/i2c.h", "line":533, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_WORD_DATA", "file":"include/linux/i2c.h", "line":545, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_WRITE_BLOCK_DATA", "file":"include/linux/i2c.h", "line":537, "type":"d", }
+,{"id":"I2C_FUNC_SMBUS_WRITE_BYTE", "file":"include/linux/i2c.h", "line":530, "type":"d", }
+,];
+xr_frag_insert('t/fd/4a328010b00d132dfa3a209a9f71563de45f50.xr', __xr_tmp);

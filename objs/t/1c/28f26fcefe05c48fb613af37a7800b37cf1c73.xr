@@ -1,0 +1,82 @@
+var __xr_tmp = [
+{"id":"cond_expr", "file":"security/selinux/ss/conditional.h", "line":23, "type":"s", }
+,{"id":"cond_index_bool", "file":"security/selinux/ss/conditional.c", "line":192, "type":"f", }
+,{"id":"cond_init_bool_indexes", "file":"security/selinux/ss/conditional.c", "line":175, "type":"f", }
+,{"id":"cond_init_bool_indexes", "file":"security/selinux/ss/policydb.c", "line":493, "type":"c", "scope_line":450, "scope_name":"policydb_index_others", }
+,{"id":"cond_insertf", "file":"security/selinux/ss/conditional.c", "line":266, "type":"f", }
+,{"id":"cond_insertf_data", "file":"security/selinux/ss/conditional.c", "line":259, "type":"s", }
+,{"id":"cond_list", "file":"security/selinux/ss/policydb.h", "line":233, "type":"m", "scope_line":191, "scope_name":"struct policydb", }
+,{"id":"cond_list_destroy", "file":"security/selinux/ss/conditional.c", "line":155, "type":"f", }
+,{"id":"cond_list_destroy", "file":"security/selinux/ss/conditional.c", "line":172, "type":"c", "scope_line":168, "scope_name":"cond_policydb_destroy", }
+,{"id":"cond_list_destroy", "file":"security/selinux/ss/conditional.c", "line":488, "type":"c", "scope_line":453, "scope_name":"cond_read_list", }
+,{"id":"cond_node", "file":"security/selinux/ss/conditional.h", "line":54, "type":"s", }
+,{"id":"cond_node_destroy", "file":"security/selinux/ss/conditional.c", "line":142, "type":"f", }
+,{"id":"cond_node_destroy", "file":"security/selinux/ss/conditional.c", "line":164, "type":"c", "scope_line":155, "scope_name":"cond_list_destroy", }
+,{"id":"cond_node_destroy", "file":"security/selinux/ss/conditional.c", "line":449, "type":"c", "scope_line":394, "scope_name":"cond_read_node", }
+,{"id":"cond_policydb_destroy", "file":"security/selinux/ss/conditional.c", "line":168, "type":"f", }
+,{"id":"cond_policydb_destroy", "file":"security/selinux/ss/policydb.c", "line":724, "type":"c", "scope_line":673, "scope_name":"policydb_destroy", }
+,{"id":"cond_policydb_init", "file":"security/selinux/ss/conditional.c", "line":118, "type":"f", }
+,{"id":"cond_policydb_init", "file":"security/selinux/ss/policydb.c", "line":216, "type":"c", "scope_line":196, "scope_name":"policydb_init", }
+,{"id":"cond_read_av_list", "file":"security/selinux/ss/conditional.c", "line":347, "type":"f", }
+,{"id":"cond_read_av_list", "file":"security/selinux/ss/conditional.c", "line":441, "type":"c", "scope_line":394, "scope_name":"cond_read_node", }
+,{"id":"cond_read_av_list", "file":"security/selinux/ss/conditional.c", "line":444, "type":"c", "scope_line":394, "scope_name":"cond_read_node", }
+,{"id":"cond_read_bool", "file":"security/selinux/ss/conditional.c", "line":216, "type":"f", }
+,{"id":"cond_read_list", "file":"security/selinux/ss/conditional.c", "line":453, "type":"f", }
+,{"id":"cond_read_list", "file":"security/selinux/ss/policydb.c", "line":2174, "type":"c", "scope_line":2045, "scope_name":"policydb_read", }
+,{"id":"cond_read_node", "file":"security/selinux/ss/conditional.c", "line":394, "type":"f", }
+,{"id":"cond_read_node", "file":"security/selinux/ss/conditional.c", "line":476, "type":"c", "scope_line":453, "scope_name":"cond_read_list", }
+,{"id":"cond_register_ipcns_notifier", "file":"ipc/ipc_sysctl.c", "line":93, "type":"c", "scope_line":83, "scope_name":"ipc_auto_callback", }
+,{"id":"cond_register_ipcns_notifier", "file":"ipc/ipcns_notifier.c", "line":69, "type":"f", }
+,{"id":"cond_resched", "file":"include/linux/sched.h", "line":2350, "type":"d", }
+,{"id":"cond_resched_lock", "file":"include/linux/sched.h", "line":2363, "type":"d", }
+,{"id":"cond_resched_softirq", "file":"include/linux/sched.h", "line":2370, "type":"d", }
+,{"id":"cond_syscall", "file":"arch/x86/include/asm/unistd_32.h", "line":389, "type":"d", }
+,{"id":"cond_syscall", "file":"arch/x86/include/asm/unistd_64.h", "line":712, "type":"d", }
+,{"id":"cond_type", "file":"include/net/bluetooth/hci.h", "line":459, "type":"m", "scope_line":457, "scope_name":"struct hci_cp_set_event_flt", }
+,{"id":"condition", "file":"drivers/input/input-compat.h", "line":63, "type":"m", "scope_line":52, "scope_name":"struct ff_effect_compat", }
+,{"id":"condition", "file":"include/linux/input.h", "line":1004, "type":"m", "scope_line":993, "scope_name":"struct ff_effect", }
+,{"id":"condition", "file":"include/linux/usb.h", "line":173, "type":"m", "scope_line":158, "scope_name":"struct usb_interface", }
+,{"id":"condition", "file":"include/net/ax25.h", "line":233, "type":"m", "scope_line":225, "scope_name":"struct ax25_cb", }
+,{"id":"condition", "file":"include/net/bluetooth/hci.h", "line":460, "type":"m", "scope_line":457, "scope_name":"struct hci_cp_set_event_flt", }
+,{"id":"condition", "file":"include/net/netrom.h", "line":69, "type":"m", "scope_line":63, "scope_name":"struct nr_sock", }
+,{"id":"conditional_cli", "file":"arch/x86/kernel/traps.c", "line":99, "type":"f", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":208, "type":"c", "scope_line":208, "scope_name":"do_divide_error", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":209, "type":"c", "scope_line":209, "scope_name":"do_overflow", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":210, "type":"c", "scope_line":210, "scope_name":"do_bounds", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":211, "type":"c", "scope_line":211, "scope_name":"do_invalid_op", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":212, "type":"c", "scope_line":212, "scope_name":"do_coprocessor_segment_overrun", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":213, "type":"c", "scope_line":213, "scope_name":"do_invalid_TSS", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":214, "type":"c", "scope_line":214, "scope_name":"do_segment_not_present", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":218, "type":"c", "scope_line":218, "scope_name":"do_alignment_check", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":257, "type":"c", "scope_line":252, "scope_name":"do_general_protection", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":615, "type":"c", "scope_line":606, "scope_name":"math_error", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":706, "type":"c", "scope_line":703, "scope_name":"do_spurious_interrupt_bug", }
+,{"id":"conditional_sti", "file":"arch/x86/kernel/traps.c", "line":86, "type":"f", }
+,{"id":"conditional_stopped_child_used_math", "file":"include/linux/sched.h", "line":1733, "type":"d", }
+,{"id":"conditional_used_math", "file":"include/linux/sched.h", "line":1735, "type":"d", }
+,{"id":"conf_retry", "file":"include/linux/wanrouter.h", "line":168, "type":"m", "scope_line":160, "scope_name":"struct wan_ppp_conf", }
+,{"id":"config", "file":"drivers/serial/kgdboc.c", "line":29, "type":"v", }
+,{"id":"config", "file":"include/linux/atmlec.h", "line":80, "type":"m", "scope_line":65, "scope_name":"struct atmlec_msg", }
+,{"id":"config", "file":"include/linux/ide.h", "line":183, "type":"m", "scope_line":175, "scope_name":"struct ide_hw", }
+,{"id":"config", "file":"include/linux/perf_event.h", "line":181, "type":"m", "scope_line":166, "scope_name":"struct perf_event_attr", }
+,{"id":"config", "file":"include/linux/perf_event.h", "line":524, "type":"m", "scope_line":520, "scope_name":"struct hw_perf_event", }
+,{"id":"config", "file":"include/linux/usb.h", "line":442, "type":"m", "scope_line":423, "scope_name":"struct usb_device", }
+,{"id":"config", "file":"include/linux/virtio.h", "line":105, "type":"m", "scope_line":101, "scope_name":"struct virtio_device", }
+,{"id":"config", "file":"security/tomoyo/common.h", "line":687, "type":"m", "scope_line":680, "scope_name":"struct tomoyo_profile", }
+,{"id":"config_aneg", "file":"include/linux/phy.h", "line":387, "type":"m", "scope_line":358, "scope_name":"struct phy_driver", }
+,{"id":"config_base", "file":"include/linux/perf_event.h", "line":526, "type":"m", "scope_line":520, "scope_name":"struct hw_perf_event", }
+,{"id":"config_changed", "file":"include/linux/virtio.h", "line":134, "type":"m", "scope_line":127, "scope_name":"struct virtio_driver", }
+,{"id":"config_data", "file":"include/linux/ide.h", "line":728, "type":"m", "scope_line":667, "scope_name":"struct hwif_s", }
+,{"id":"config_id", "file":"include/linux/wanrouter.h", "line":201, "type":"m", "scope_line":198, "scope_name":"struct wandev_conf", }
+,{"id":"config_id", "file":"include/linux/wanrouter.h", "line":394, "type":"m", "scope_line":391, "scope_name":"struct wanif_conf", }
+,{"id":"config_id", "file":"include/linux/wanrouter.h", "line":467, "type":"m", "scope_line":463, "scope_name":"struct wan_device", }
+,{"id":"config_init", "file":"include/linux/phy.h", "line":369, "type":"m", "scope_line":358, "scope_name":"struct phy_driver", }
+,{"id":"config_intr", "file":"include/linux/phy.h", "line":396, "type":"m", "scope_line":358, "scope_name":"struct phy_driver", }
+,{"id":"config_pending", "file":"include/linux/if_bridge.h", "line":83, "type":"m", "scope_line":74, "scope_name":"struct __port_info", }
+,{"id":"config_port", "file":"include/linux/serial_core.h", "line":254, "type":"m", "scope_line":218, "scope_name":"struct uart_ops", }
+,{"id":"config_size", "file":"fs/partitions/ldm.h", "line":123, "type":"m", "scope_line":117, "scope_name":"struct privhead", }
+,{"id":"config_start", "file":"fs/partitions/ldm.h", "line":122, "type":"m", "scope_line":117, "scope_name":"struct privhead", }
+,{"id":"config_write_enable", "file":"include/acpi/actbl1.h", "line":453, "type":"m", "scope_line":450, "scope_name":"struct acpi_hest_notify", }
+,{"id":"configure", "file":"include/linux/transport_class.h", "line":21, "type":"m", "scope_line":17, "scope_name":"struct transport_class", }
+,];
+xr_frag_insert('t/1c/28f26fcefe05c48fb613af37a7800b37cf1c73.xr', __xr_tmp);

@@ -1,0 +1,56 @@
+var __xr_tmp = [
+{"id":"find_memory_block", "file":"drivers/base/node.c", "line":423, "type":"c", "scope_line":407, "scope_name":"link_mem_sections", }
+,{"id":"find_mergeable_anon_vma", "file":"mm/mmap.c", "line":904, "type":"f", }
+,{"id":"find_mergeable_anon_vma", "file":"mm/rmap.c", "line":129, "type":"c", "scope_line":115, "scope_name":"anon_vma_prepare", }
+,{"id":"find_min_pfn_for_node", "file":"mm/page_alloc.c", "line":4386, "type":"f", }
+,{"id":"find_min_pfn_for_node", "file":"mm/page_alloc.c", "line":4412, "type":"c", "scope_line":4410, "scope_name":"find_min_pfn_with_active_regions", }
+,{"id":"find_min_pfn_for_node", "file":"mm/page_alloc.c", "line":4671, "type":"c", "scope_line":4607, "scope_name":"free_area_init_nodes", }
+,{"id":"find_min_pfn_with_active_regions", "file":"mm/page_alloc.c", "line":4410, "type":"f", }
+,{"id":"find_min_pfn_with_active_regions", "file":"mm/page_alloc.c", "line":4620, "type":"c", "scope_line":4607, "scope_name":"free_area_init_nodes", }
+,{"id":"find_module", "file":"kernel/module.c", "line":2615, "type":"c", "scope_line":2543, "scope_name":"load_module", }
+,{"id":"find_module", "file":"kernel/module.c", "line":2944, "type":"c", "scope_line":2934, "scope_name":"module_kallsyms_lookup_name", }
+,{"id":"find_module", "file":"kernel/module.c", "line":374, "type":"f", }
+,{"id":"find_module", "file":"kernel/module.c", "line":746, "type":"c", "scope_line":729, "scope_name":"sys_delete_module", }
+,{"id":"find_module_sections", "file":"kernel/module.c", "line":2275, "type":"f", }
+,{"id":"find_module_sections", "file":"kernel/module.c", "line":2573, "type":"c", "scope_line":2543, "scope_name":"load_module", }
+,{"id":"find_near_online_node", "file":"arch/x86/mm/numa_64.c", "line":733, "type":"f", }
+,{"id":"find_near_online_node", "file":"arch/x86/mm/numa_64.c", "line":782, "type":"c", "scope_line":765, "scope_name":"init_cpu_to_node", }
+,{"id":"find_new_ilb", "file":"kernel/sched_fair.c", "line":3346, "type":"f", }
+,{"id":"find_new_ilb", "file":"kernel/sched_fair.c", "line":3468, "type":"c", "scope_line":3429, "scope_name":"select_nohz_load_balancer", }
+,{"id":"find_new_reaper", "file":"kernel/exit.c", "line":704, "type":"f", }
+,{"id":"find_new_reaper", "file":"kernel/exit.c", "line":780, "type":"c", "scope_line":769, "scope_name":"forget_original_parent", }
+,{"id":"find_next_best_node", "file":"kernel/sched.c", "line":6431, "type":"f", }
+,{"id":"find_next_best_node", "file":"kernel/sched.c", "line":6482, "type":"c", "scope_line":6470, "scope_name":"sched_domain_node_span", }
+,{"id":"find_next_best_node", "file":"mm/page_alloc.c", "line":2643, "type":"f", }
+,{"id":"find_next_best_node", "file":"mm/page_alloc.c", "line":2851, "type":"c", "scope_line":2826, "scope_name":"build_zonelists", }
+,{"id":"find_next_bit", "file":"arch/x86/kernel/cpu/perf_event.c", "line":703, "type":"c", "scope_line":629, "scope_name":"x86_schedule_events", }
+,{"id":"find_next_bit", "file":"arch/x86/kernel/cpu/perf_event_intel.c", "line":752, "type":"c", "scope_line":710, "scope_name":"intel_pmu_handle_irq", }
+,{"id":"find_next_bit", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":566, "type":"c", "scope_line":538, "scope_name":"intel_pmu_drain_pebs_nhm", }
+,{"id":"find_next_bit", "file":"drivers/char/hpet.c", "line":219, "type":"c", "scope_line":185, "scope_name":"hpet_timer_set_irq", }
+,{"id":"find_next_bit", "file":"drivers/pnp/manager.c", "line":145, "type":"c", "scope_line":116, "scope_name":"pnp_assign_irq", }
+,{"id":"find_next_bit", "file":"fs/ext4/mballoc.c", "line":403, "type":"c", "scope_line":396, "scope_name":"mb_find_next_bit", }
+,{"id":"find_next_bit", "file":"include/linux/cpumask.h", "line":174, "type":"c", "scope_line":169, "scope_name":"cpumask_next", }
+,{"id":"find_next_bit", "file":"include/linux/dmaengine.h", "line":663, "type":"c", "scope_line":661, "scope_name":"__next_dma_cap", }
+,{"id":"find_next_bit", "file":"include/linux/nodemask.h", "line":243, "type":"c", "scope_line":241, "scope_name":"__next_node", }
+,{"id":"find_next_bit", "file":"kernel/pid.c", "line":231, "type":"c", "scope_line":220, "scope_name":"next_pidmap", }
+,{"id":"find_next_bit", "file":"kernel/power/snapshot.c", "line":563, "type":"c", "scope_line":555, "scope_name":"memory_bm_next_pfn", }
+,{"id":"find_next_bit", "file":"kernel/sched_cpupri.c", "line":74, "type":"c", "scope_line":68, "scope_name":"cpupri_find", }
+,{"id":"find_next_bit", "file":"kernel/sched_rt.c", "line":1160, "type":"c", "scope_line":1131, "scope_name":"pick_next_highest_task_rt", }
+,{"id":"find_next_bit", "file":"kernel/sysctl.c", "line":2849, "type":"c", "scope_line":2762, "scope_name":"proc_do_large_bitmap", }
+,{"id":"find_next_bit", "file":"lib/bitmap.c", "line":346, "type":"c", "scope_line":330, "scope_name":"bitmap_find_next_zero_area", }
+,{"id":"find_next_bit", "file":"lib/bitmap.c", "line":564, "type":"c", "scope_line":550, "scope_name":"bitmap_scnlistprintf", }
+,{"id":"find_next_bit", "file":"lib/bitmap.c", "line":649, "type":"c", "scope_line":639, "scope_name":"bitmap_pos_to_ord", }
+,{"id":"find_next_bit", "file":"lib/bitmap.c", "line":682, "type":"c", "scope_line":675, "scope_name":"bitmap_ord_to_pos", }
+,{"id":"find_next_bit", "file":"lib/bitmap.c", "line":736, "type":"c", "scope_line":725, "scope_name":"bitmap_remap", }
+,{"id":"find_next_bit", "file":"lib/bitmap.c", "line":905, "type":"c", "scope_line":885, "scope_name":"bitmap_onto", }
+,{"id":"find_next_bit", "file":"lib/bitmap.c", "line":934, "type":"c", "scope_line":925, "scope_name":"bitmap_fold", }
+,{"id":"find_next_bit", "file":"lib/cpumask.c", "line":16, "type":"c", "scope_line":14, "scope_name":"__next_cpu", }
+,{"id":"find_next_bit", "file":"lib/find_next_bit.c", "line":23, "type":"f", }
+,{"id":"find_next_bit", "file":"lib/idr.c", "line":151, "type":"c", "scope_line":133, "scope_name":"sub_alloc", }
+,{"id":"find_next_bit", "file":"mm/percpu.c", "line":243, "type":"c", "scope_line":239, "scope_name":"pcpu_next_unpop", }
+,{"id":"find_next_bit", "file":"mm/percpu.c", "line":249, "type":"c", "scope_line":246, "scope_name":"pcpu_next_pop", }
+,{"id":"find_next_bit", "file":"mm/vmalloc.c", "line":991, "type":"c", "scope_line":955, "scope_name":"vm_unmap_aliases", }
+,{"id":"find_next_bit", "file":"security/selinux/ss/ebitmap.h", "line":65, "type":"c", "scope_line":59, "scope_name":"ebitmap_next_positive", }
+,{"id":"find_next_offset", "file":"kernel/pid.c", "line":62, "type":"d", }
+,];
+xr_frag_insert('t/32/ed5c4d31cbef54bc1b395efe5388a5926861d5.xr', __xr_tmp);

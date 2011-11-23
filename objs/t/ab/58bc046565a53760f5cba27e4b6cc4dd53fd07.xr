@@ -1,0 +1,162 @@
+var __xr_tmp = [
+{"id":"early_pfn_to_nid", "file":"mm/bootmem.c", "line":908, "type":"c", "scope_line":898, "scope_name":"alloc_bootmem_section", }
+,{"id":"early_pfn_to_nid", "file":"mm/page_alloc.c", "line":3580, "type":"f", }
+,{"id":"early_pfn_to_nid", "file":"mm/sparse-vmemmap.c", "line":92, "type":"c", "scope_line":88, "scope_name":"vmemmap_verify", }
+,{"id":"early_pfn_to_nid", "file":"mm/sparse.c", "line":213, "type":"c", "scope_line":205, "scope_name":"node_memmap_size_bytes", }
+,{"id":"early_pfn_valid", "file":"include/linux/mmzone.h", "line":1077, "type":"d", }
+,{"id":"early_platform_add_devices", "file":"drivers/base/platform.c", "line":1083, "type":"f", }
+,{"id":"early_platform_cleanup", "file":"drivers/base/platform.c", "line":1288, "type":"f", }
+,{"id":"early_platform_cleanup", "file":"drivers/base/platform.c", "line":983, "type":"c", "scope_line":979, "scope_name":"platform_bus_init", }
+,{"id":"early_platform_device_list", "file":"drivers/base/platform.c", "line":1017, "type":"v", }
+,{"id":"early_platform_driver", "file":"include/linux/platform_device.h", "line":142, "type":"s", }
+,{"id":"early_platform_driver_list", "file":"drivers/base/platform.c", "line":1016, "type":"v", }
+,{"id":"early_platform_driver_probe", "file":"drivers/base/platform.c", "line":1263, "type":"f", }
+,{"id":"early_platform_driver_probe_id", "file":"drivers/base/platform.c", "line":1169, "type":"f", }
+,{"id":"early_platform_driver_probe_id", "file":"drivers/base/platform.c", "line":1271, "type":"c", "scope_line":1263, "scope_name":"early_platform_driver_probe", }
+,{"id":"early_platform_driver_register", "file":"drivers/base/platform.c", "line":1026, "type":"f", }
+,{"id":"early_platform_driver_register_all", "file":"drivers/base/platform.c", "line":1108, "type":"f", }
+,{"id":"early_platform_init", "file":"include/linux/platform_device.h", "line":168, "type":"d", }
+,{"id":"early_platform_init_buffer", "file":"include/linux/platform_device.h", "line":172, "type":"d", }
+,{"id":"early_platform_left", "file":"drivers/base/platform.c", "line":1150, "type":"f", }
+,{"id":"early_platform_left", "file":"drivers/base/platform.c", "line":1190, "type":"c", "scope_line":1169, "scope_name":"early_platform_driver_probe_id", }
+,{"id":"early_platform_match", "file":"drivers/base/platform.c", "line":1132, "type":"f", }
+,{"id":"early_platform_match", "file":"drivers/base/platform.c", "line":1212, "type":"c", "scope_line":1169, "scope_name":"early_platform_driver_probe_id", }
+,{"id":"early_printk", "file":"arch/x86/kernel/e820.c", "line":969, "type":"c", "scope_line":967, "scope_name":"early_panic", }
+,{"id":"early_printk", "file":"arch/x86/kernel/early_printk.c", "line":175, "type":"f", }
+,{"id":"early_printk", "file":"arch/x86/kernel/head64.c", "line":92, "type":"c", "scope_line":55, "scope_name":"x86_64_start_kernel", }
+,{"id":"early_printk", "file":"kernel/printk.c", "line":59, "type":"f", }
+,{"id":"early_qrk", "file":"arch/x86/kernel/early-quirks.c", "line":212, "type":"v", }
+,{"id":"early_quirks", "file":"arch/x86/kernel/early-quirks.c", "line":276, "type":"f", }
+,{"id":"early_quirks", "file":"arch/x86/kernel/setup.c", "line":1027, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"early_res", "file":"kernel/early_res.c", "line":22, "type":"s", }
+,{"id":"early_res", "file":"kernel/early_res.c", "line":30, "type":"v", }
+,{"id":"early_res_count", "file":"kernel/early_res.c", "line":31, "type":"v", }
+,{"id":"early_res_x", "file":"kernel/early_res.c", "line":27, "type":"v", }
+,{"id":"early_reserve_e820", "file":"arch/x86/kernel/e820.c", "line":809, "type":"f", }
+,{"id":"early_reserve_e820", "file":"arch/x86/kernel/mpparse.c", "line":934, "type":"c", "scope_line":930, "scope_name":"early_reserve_e820_mpc_new", }
+,{"id":"early_reserve_e820_mpc_new", "file":"arch/x86/kernel/mpparse.c", "line":930, "type":"f", }
+,{"id":"early_reserve_e820_mpc_new", "file":"arch/x86/kernel/setup.c", "line":901, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"early_resume_init", "file":"drivers/base/power/trace.c", "line":207, "type":"f", }
+,{"id":"early_runtime_code_mapping_set_exec", "file":"arch/x86/kernel/efi_64.c", "line":59, "type":"f", }
+,{"id":"early_runtime_code_mapping_set_exec", "file":"arch/x86/kernel/efi_64.c", "line":82, "type":"c", "scope_line":78, "scope_name":"efi_call_phys_prelog", }
+,{"id":"early_runtime_code_mapping_set_exec", "file":"arch/x86/kernel/efi_64.c", "line":98, "type":"c", "scope_line":90, "scope_name":"efi_call_phys_epilog", }
+,{"id":"early_serial8250_console", "file":"drivers/serial/8250_early.c", "line":219, "type":"v", }
+,{"id":"early_serial8250_device", "file":"drivers/serial/8250_early.c", "line":43, "type":"s", }
+,{"id":"early_serial8250_setup", "file":"drivers/serial/8250_early.c", "line":226, "type":"f", }
+,{"id":"early_serial8250_setup", "file":"drivers/serial/8250_early.c", "line":255, "type":"c", "scope_line":242, "scope_name":"setup_early_serial8250_console", }
+,{"id":"early_serial8250_write", "file":"drivers/serial/8250_early.c", "line":100, "type":"f", }
+,{"id":"early_serial_base", "file":"arch/x86/kernel/early_printk.c", "line":76, "type":"v", }
+,{"id":"early_serial_console", "file":"arch/x86/kernel/early_printk.c", "line":164, "type":"v", }
+,{"id":"early_serial_init", "file":"arch/x86/kernel/early_printk.c", "line":116, "type":"f", }
+,{"id":"early_serial_init", "file":"arch/x86/kernel/early_printk.c", "line":218, "type":"c", "scope_line":202, "scope_name":"setup_early_printk", }
+,{"id":"early_serial_init", "file":"arch/x86/kernel/early_printk.c", "line":224, "type":"c", "scope_line":202, "scope_name":"setup_early_printk", }
+,{"id":"early_serial_putc", "file":"arch/x86/kernel/early_printk.c", "line":108, "type":"c", "scope_line":104, "scope_name":"early_serial_write", }
+,{"id":"early_serial_putc", "file":"arch/x86/kernel/early_printk.c", "line":109, "type":"c", "scope_line":104, "scope_name":"early_serial_write", }
+,{"id":"early_serial_putc", "file":"arch/x86/kernel/early_printk.c", "line":94, "type":"f", }
+,{"id":"early_serial_setup", "file":"drivers/serial/8250.c", "line":2912, "type":"f", }
+,{"id":"early_serial_write", "file":"arch/x86/kernel/early_printk.c", "line":104, "type":"f", }
+,{"id":"early_set_fixmap", "file":"arch/x86/mm/ioremap.c", "line":429, "type":"f", }
+,{"id":"early_set_fixmap", "file":"arch/x86/mm/ioremap.c", "line":546, "type":"c", "scope_line":484, "scope_name":"__early_ioremap", }
+,{"id":"early_setup", "file":"include/linux/console.h", "line":121, "type":"m", "scope_line":114, "scope_name":"struct console", }
+,{"id":"early_trap_init", "file":"arch/x86/kernel/setup.c", "line":743, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"early_trap_init", "file":"arch/x86/kernel/traps.c", "line":828, "type":"f", }
+,{"id":"early_vga_console", "file":"arch/x86/kernel/early_printk.c", "line":67, "type":"v", }
+,{"id":"early_vga_write", "file":"arch/x86/kernel/early_printk.c", "line":26, "type":"f", }
+,{"id":"eat", "file":"init/initramfs.c", "line":170, "type":"f", }
+,{"id":"eat", "file":"init/initramfs.c", "line":186, "type":"c", "scope_line":182, "scope_name":"read_into", }
+,{"id":"eat", "file":"init/initramfs.c", "line":210, "type":"c", "scope_line":204, "scope_name":"do_collect", }
+,{"id":"eat", "file":"init/initramfs.c", "line":251, "type":"c", "scope_line":248, "scope_name":"do_skip", }
+,{"id":"eat", "file":"init/initramfs.c", "line":254, "type":"c", "scope_line":248, "scope_name":"do_skip", }
+,{"id":"eat", "file":"init/initramfs.c", "line":263, "type":"c", "scope_line":260, "scope_name":"do_reset", }
+,{"id":"eat", "file":"init/initramfs.c", "line":343, "type":"c", "scope_line":336, "scope_name":"do_copy", }
+,{"id":"eat", "file":"init/initramfs.c", "line":349, "type":"c", "scope_line":336, "scope_name":"do_copy", }
+,{"id":"eax", "file":"arch/x86/boot/boot.h", "line":255, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"eax", "file":"arch/x86/include/asm/user32.h", "line":36, "type":"m", "scope_line":35, "scope_name":"struct user_regs_struct32", }
+,{"id":"eax", "file":"arch/x86/include/asm/vm86.h", "line":72, "type":"m", "scope_line":62, "scope_name":"struct vm86_regs", }
+,{"id":"eax", "file":"arch/x86/include/asm/vmi.h", "line":247, "type":"m", "scope_line":237, "scope_name":"struct vmi_ap_state", }
+,{"id":"eax", "file":"arch/x86/include/asm/xen/interface_64.h", "line":120, "type":"m", "scope_line":109, "scope_name":"struct cpu_user_regs", }
+,{"id":"eax", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":159, "type":"m", "scope_line":158, "scope_name":"struct _cpuid4_info", }
+,{"id":"eax", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":169, "type":"m", "scope_line":168, "scope_name":"struct _cpuid4_info_regs", }
+,{"id":"eax2", "file":"arch/x86/boot/boot.h", "line":281, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"eax3", "file":"arch/x86/boot/boot.h", "line":281, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"ebitmap", "file":"security/selinux/ss/ebitmap.h", "line":33, "type":"s", }
+,{"id":"ebitmap_cmp", "file":"security/selinux/ss/context.h", "line":79, "type":"c", "scope_line":77, "scope_name":"mls_context_cmp", }
+,{"id":"ebitmap_cmp", "file":"security/selinux/ss/ebitmap.c", "line":25, "type":"f", }
+,{"id":"ebitmap_cmp", "file":"security/selinux/ss/mls_types.h", "line":31, "type":"c", "scope_line":29, "scope_name":"mls_level_eq", }
+,{"id":"ebitmap_contains", "file":"security/selinux/ss/ebitmap.c", "line":214, "type":"f", }
+,{"id":"ebitmap_contains", "file":"security/selinux/ss/mls_types.h", "line":37, "type":"c", "scope_line":35, "scope_name":"mls_level_dom", }
+,{"id":"ebitmap_cpy", "file":"security/selinux/ss/context.h", "line":45, "type":"c", "scope_line":40, "scope_name":"mls_context_cpy", }
+,{"id":"ebitmap_cpy", "file":"security/selinux/ss/context.h", "line":50, "type":"c", "scope_line":40, "scope_name":"mls_context_cpy", }
+,{"id":"ebitmap_cpy", "file":"security/selinux/ss/context.h", "line":65, "type":"c", "scope_line":60, "scope_name":"mls_context_cpy_low", }
+,{"id":"ebitmap_cpy", "file":"security/selinux/ss/context.h", "line":70, "type":"c", "scope_line":60, "scope_name":"mls_context_cpy_low", }
+,{"id":"ebitmap_cpy", "file":"security/selinux/ss/ebitmap.c", "line":47, "type":"f", }
+,{"id":"ebitmap_cpy", "file":"security/selinux/ss/mls.c", "line":368, "type":"c", "scope_line":242, "scope_name":"mls_context_to_sid", }
+,{"id":"ebitmap_cpy", "file":"security/selinux/ss/mls.c", "line":418, "type":"c", "scope_line":410, "scope_name":"mls_range_set", }
+,{"id":"ebitmap_cpy", "file":"security/selinux/ss/mls.c", "line":640, "type":"c", "scope_line":627, "scope_name":"mls_import_netlbl_cat", }
+,{"id":"ebitmap_cpy", "file":"security/selinux/ss/policydb.c", "line":907, "type":"c", "scope_line":866, "scope_name":"mls_read_range_helper", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/context.h", "line":52, "type":"c", "scope_line":40, "scope_name":"mls_context_cpy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/context.h", "line":72, "type":"c", "scope_line":60, "scope_name":"mls_context_cpy_low", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/context.h", "line":87, "type":"c", "scope_line":85, "scope_name":"mls_context_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/context.h", "line":88, "type":"c", "scope_line":85, "scope_name":"mls_context_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/ebitmap.c", "line":204, "type":"c", "scope_line":153, "scope_name":"ebitmap_netlbl_import", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/ebitmap.c", "line":209, "type":"c", "scope_line":153, "scope_name":"ebitmap_netlbl_import", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/ebitmap.c", "line":329, "type":"f", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/ebitmap.c", "line":446, "type":"c", "scope_line":348, "scope_name":"ebitmap_read", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/ebitmap.c", "line":57, "type":"c", "scope_line":47, "scope_name":"ebitmap_cpy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/mls.c", "line":503, "type":"c", "scope_line":470, "scope_name":"mls_convert_context", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/mls.c", "line":648, "type":"c", "scope_line":627, "scope_name":"mls_import_netlbl_cat", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/mls.c", "line":649, "type":"c", "scope_line":627, "scope_name":"mls_import_netlbl_cat", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":553, "type":"c", "scope_line":539, "scope_name":"cls_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":567, "type":"c", "scope_line":539, "scope_name":"cls_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":588, "type":"c", "scope_line":582, "scope_name":"role_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":589, "type":"c", "scope_line":582, "scope_name":"role_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":607, "type":"c", "scope_line":601, "scope_name":"user_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":608, "type":"c", "scope_line":601, "scope_name":"user_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":609, "type":"c", "scope_line":601, "scope_name":"user_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":610, "type":"c", "scope_line":601, "scope_name":"user_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":621, "type":"c", "scope_line":615, "scope_name":"sens_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":650, "type":"c", "scope_line":646, "scope_name":"range_tr_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":651, "type":"c", "scope_line":646, "scope_name":"range_tr_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":750, "type":"c", "scope_line":673, "scope_name":"policydb_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":754, "type":"c", "scope_line":673, "scope_name":"policydb_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":755, "type":"c", "scope_line":673, "scope_name":"policydb_destroy", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/policydb.c", "line":918, "type":"c", "scope_line":866, "scope_name":"mls_read_range_helper", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/services.c", "line":3073, "type":"c", "scope_line":3026, "scope_name":"security_netlbl_secattr_to_sid", }
+,{"id":"ebitmap_destroy", "file":"security/selinux/ss/services.c", "line":3083, "type":"c", "scope_line":3026, "scope_name":"security_netlbl_secattr_to_sid", }
+,{"id":"ebitmap_for_each_positive_bit", "file":"security/selinux/ss/ebitmap.h", "line":114, "type":"d", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/ebitmap.c", "line":244, "type":"f", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/mls.c", "line":176, "type":"c", "scope_line":160, "scope_name":"mls_level_isvalid", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/policydb.c", "line":1571, "type":"c", "scope_line":1551, "scope_name":"user_bounds_sanity_check", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/policydb.c", "line":1608, "type":"c", "scope_line":1588, "scope_name":"role_bounds_sanity_check", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/policydb.c", "line":838, "type":"c", "scope_line":819, "scope_name":"policydb_context_isvalid", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/policydb.c", "line":850, "type":"c", "scope_line":819, "scope_name":"policydb_context_isvalid", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/services.c", "line":1734, "type":"c", "scope_line":1732, "scope_name":"security_load_policycaps", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/services.c", "line":1736, "type":"c", "scope_line":1732, "scope_name":"security_load_policycaps", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/services.c", "line":2703, "type":"c", "scope_line":2698, "scope_name":"security_policycap_supported", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/services.c", "line":304, "type":"c", "scope_line":256, "scope_name":"constraint_expr_eval", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/services.c", "line":308, "type":"c", "scope_line":256, "scope_name":"constraint_expr_eval", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/services.c", "line":312, "type":"c", "scope_line":256, "scope_name":"constraint_expr_eval", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/services.c", "line":410, "type":"c", "scope_line":256, "scope_name":"constraint_expr_eval", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/services.c", "line":413, "type":"c", "scope_line":256, "scope_name":"constraint_expr_eval", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/services.c", "line":912, "type":"c", "scope_line":891, "scope_name":"security_compute_av", }
+,{"id":"ebitmap_get_bit", "file":"security/selinux/ss/services.c", "line":958, "type":"c", "scope_line":938, "scope_name":"security_compute_av_user", }
+,{"id":"ebitmap_init", "file":"security/selinux/ss/ebitmap.c", "line":356, "type":"c", "scope_line":348, "scope_name":"ebitmap_read", }
+,{"id":"ebitmap_init", "file":"security/selinux/ss/ebitmap.c", "line":51, "type":"c", "scope_line":47, "scope_name":"ebitmap_cpy", }
+,{"id":"ebitmap_init", "file":"security/selinux/ss/ebitmap.h", "line":54, "type":"f", }
+,{"id":"ebitmap_init", "file":"security/selinux/ss/mls.c", "line":491, "type":"c", "scope_line":470, "scope_name":"mls_convert_context", }
+,{"id":"ebitmap_init", "file":"security/selinux/ss/policydb.c", "line":224, "type":"c", "scope_line":196, "scope_name":"policydb_init", }
+,{"id":"ebitmap_init", "file":"security/selinux/ss/policydb.c", "line":225, "type":"c", "scope_line":196, "scope_name":"policydb_init", }
+,{"id":"ebitmap_init", "file":"security/selinux/ss/policydb.c", "line":2284, "type":"c", "scope_line":2045, "scope_name":"policydb_read", }
+,{"id":"ebitmap_length", "file":"security/selinux/ss/ebitmap.h", "line":38, "type":"d", }
+,{"id":"ebitmap_netlbl_export", "file":"security/selinux/ss/ebitmap.c", "line":86, "type":"f", }
+,{"id":"ebitmap_netlbl_export", "file":"security/selinux/ss/mls.c", "line":607, "type":"c", "scope_line":599, "scope_name":"mls_export_netlbl_cat", }
+,{"id":"ebitmap_netlbl_import", "file":"security/selinux/ss/ebitmap.c", "line":153, "type":"f", }
+,{"id":"ebitmap_netlbl_import", "file":"security/selinux/ss/mls.c", "line":635, "type":"c", "scope_line":627, "scope_name":"mls_import_netlbl_cat", }
+,{"id":"ebitmap_netlbl_import", "file":"security/selinux/ss/services.c", "line":3057, "type":"c", "scope_line":3026, "scope_name":"security_netlbl_secattr_to_sid", }
+,{"id":"ebitmap_next_positive", "file":"security/selinux/ss/ebitmap.h", "line":59, "type":"f", }
+,{"id":"ebitmap_next_positive", "file":"security/selinux/ss/mls.c", "line":113, "type":"c", "scope_line":88, "scope_name":"mls_sid_to_context", }
+,{"id":"ebitmap_next_positive", "file":"security/selinux/ss/mls.c", "line":173, "type":"c", "scope_line":160, "scope_name":"mls_level_isvalid", }
+,{"id":"ebitmap_next_positive", "file":"security/selinux/ss/mls.c", "line":492, "type":"c", "scope_line":470, "scope_name":"mls_convert_context", }
+,{"id":"ebitmap_next_positive", "file":"security/selinux/ss/mls.c", "line":54, "type":"c", "scope_line":35, "scope_name":"mls_compute_context_len", }
+,];
+xr_frag_insert('t/ab/58bc046565a53760f5cba27e4b6cc4dd53fd07.xr', __xr_tmp);

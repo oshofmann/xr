@@ -1,0 +1,129 @@
+var __xr_tmp = [
+{"id":"aio_get_req", "file":"fs/aio.c", "line":486, "type":"f", }
+,{"id":"aio_key", "file":"include/linux/aio_abi.h", "line":82, "type":"m", "scope_line":79, "scope_name":"struct iocb", }
+,{"id":"aio_kick_handler", "file":"fs/aio.c", "line":842, "type":"f", }
+,{"id":"aio_lio_opcode", "file":"include/linux/aio_abi.h", "line":86, "type":"m", "scope_line":79, "scope_name":"struct iocb", }
+,{"id":"aio_max_nr", "file":"fs/aio.c", "line":53, "type":"v", }
+,{"id":"aio_nbytes", "file":"include/linux/aio_abi.h", "line":91, "type":"m", "scope_line":79, "scope_name":"struct iocb", }
+,{"id":"aio_nr", "file":"include/linux/aio.h", "line":235, "type":"v", }
+,{"id":"aio_nr_lock", "file":"fs/aio.c", "line":51, "type":"v", }
+,{"id":"aio_offset", "file":"include/linux/aio_abi.h", "line":92, "type":"m", "scope_line":79, "scope_name":"struct iocb", }
+,{"id":"aio_put_req", "file":"fs/aio.c", "line":1650, "type":"c", "scope_line":1568, "scope_name":"io_submit_one", }
+,{"id":"aio_put_req", "file":"fs/aio.c", "line":1654, "type":"c", "scope_line":1568, "scope_name":"io_submit_one", }
+,{"id":"aio_put_req", "file":"fs/aio.c", "line":1655, "type":"c", "scope_line":1568, "scope_name":"io_submit_one", }
+,{"id":"aio_put_req", "file":"fs/aio.c", "line":584, "type":"f", }
+,{"id":"aio_queue_work", "file":"fs/aio.c", "line":749, "type":"c", "scope_line":660, "scope_name":"aio_run_iocb", }
+,{"id":"aio_queue_work", "file":"fs/aio.c", "line":786, "type":"f", }
+,{"id":"aio_queue_work", "file":"fs/aio.c", "line":818, "type":"c", "scope_line":809, "scope_name":"aio_run_iocbs", }
+,{"id":"aio_queue_work", "file":"fs/aio.c", "line":883, "type":"c", "scope_line":870, "scope_name":"try_queue_kicked_iocb", }
+,{"id":"aio_read", "file":"include/linux/fs.h", "line":1493, "type":"m", "scope_line":1488, "scope_name":"struct file_operations", }
+,{"id":"aio_read_evt", "file":"fs/aio.c", "line":1020, "type":"f", }
+,{"id":"aio_read_evt", "file":"fs/aio.c", "line":1113, "type":"c", "scope_line":1092, "scope_name":"read_events", }
+,{"id":"aio_read_evt", "file":"fs/aio.c", "line":1161, "type":"c", "scope_line":1092, "scope_name":"read_events", }
+,{"id":"aio_reqprio", "file":"include/linux/aio_abi.h", "line":87, "type":"m", "scope_line":79, "scope_name":"struct iocb", }
+,{"id":"aio_reserved1", "file":"include/linux/aio_abi.h", "line":82, "type":"m", "scope_line":79, "scope_name":"struct iocb", }
+,{"id":"aio_reserved2", "file":"include/linux/aio_abi.h", "line":95, "type":"m", "scope_line":79, "scope_name":"struct iocb", }
+,{"id":"aio_resfd", "file":"include/linux/aio_abi.h", "line":104, "type":"m", "scope_line":79, "scope_name":"struct iocb", }
+,{"id":"aio_ring", "file":"include/linux/aio.h", "line":147, "type":"s", }
+,{"id":"aio_ring_avail", "file":"include/linux/aio.h", "line":162, "type":"d", }
+,{"id":"aio_ring_event", "file":"fs/aio.c", "line":195, "type":"d", }
+,{"id":"aio_ring_info", "file":"include/linux/aio.h", "line":165, "type":"s", }
+,{"id":"aio_run_all_iocbs", "file":"fs/aio.c", "line":1143, "type":"c", "scope_line":1092, "scope_name":"read_events", }
+,{"id":"aio_run_all_iocbs", "file":"fs/aio.c", "line":825, "type":"f", }
+,{"id":"aio_run_iocb", "file":"fs/aio.c", "line":1637, "type":"c", "scope_line":1568, "scope_name":"io_submit_one", }
+,{"id":"aio_run_iocb", "file":"fs/aio.c", "line":660, "type":"f", }
+,{"id":"aio_run_iocb", "file":"fs/aio.c", "line":778, "type":"c", "scope_line":762, "scope_name":"__aio_run_iocbs", }
+,{"id":"aio_run_iocbs", "file":"fs/aio.c", "line":809, "type":"f", }
+,{"id":"aio_rw_vect_retry", "file":"fs/aio.c", "line":1325, "type":"f", }
+,{"id":"aio_setup", "file":"fs/aio.c", "line":83, "type":"f", }
+,{"id":"aio_setup_iocb", "file":"fs/aio.c", "line":1441, "type":"f", }
+,{"id":"aio_setup_iocb", "file":"fs/aio.c", "line":1631, "type":"c", "scope_line":1568, "scope_name":"io_submit_one", }
+,{"id":"aio_setup_ring", "file":"fs/aio.c", "line":118, "type":"f", }
+,{"id":"aio_setup_ring", "file":"fs/aio.c", "line":288, "type":"c", "scope_line":255, "scope_name":"ioctx_alloc", }
+,{"id":"aio_setup_single_vector", "file":"fs/aio.c", "line":1426, "type":"f", }
+,{"id":"aio_setup_single_vector", "file":"fs/aio.c", "line":1458, "type":"c", "scope_line":1441, "scope_name":"aio_setup_iocb", }
+,{"id":"aio_setup_single_vector", "file":"fs/aio.c", "line":1476, "type":"c", "scope_line":1441, "scope_name":"aio_setup_iocb", }
+,{"id":"aio_setup_vectored_rw", "file":"fs/aio.c", "line":1396, "type":"f", }
+,{"id":"aio_setup_vectored_rw", "file":"fs/aio.c", "line":1490, "type":"c", "scope_line":1441, "scope_name":"aio_setup_iocb", }
+,{"id":"aio_setup_vectored_rw", "file":"fs/aio.c", "line":1504, "type":"c", "scope_line":1441, "scope_name":"aio_setup_iocb", }
+,{"id":"aio_timeout", "file":"fs/aio.c", "line":1056, "type":"s", }
+,{"id":"aio_wq", "file":"fs/aio.c", "line":59, "type":"v", }
+,{"id":"aio_write", "file":"include/linux/fs.h", "line":1494, "type":"m", "scope_line":1488, "scope_name":"struct file_operations", }
+,{"id":"air_mode", "file":"include/net/bluetooth/hci.h", "line":797, "type":"m", "scope_line":788, "scope_name":"struct hci_ev_sync_conn_complete", }
+,{"id":"aix_magic_present", "file":"fs/partitions/msdos.c", "line":449, "type":"c", "scope_line":432, "scope_name":"msdos_partition", }
+,{"id":"aix_magic_present", "file":"fs/partitions/msdos.c", "line":67, "type":"f", }
+,{"id":"akm_suites", "file":"include/net/cfg80211.h", "line":701, "type":"m", "scope_line":695, "scope_name":"struct cfg80211_crypto_settings", }
+,{"id":"al", "file":"arch/x86/boot/boot.h", "line":281, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"alarm", "file":"drivers/acpi/battery.c", "line":127, "type":"m", "scope_line":103, "scope_name":"struct acpi_battery", }
+,{"id":"alarm", "file":"drivers/acpi/sbshc.c", "line":60, "type":"m", "scope_line":55, "scope_name":"union acpi_smb_status", }
+,{"id":"alarm_attr", "file":"drivers/acpi/battery.c", "line":517, "type":"v", }
+,{"id":"alarm_attr", "file":"drivers/acpi/sbs.c", "line":477, "type":"v", }
+,{"id":"alarm_capacity", "file":"drivers/acpi/sbs.c", "line":100, "type":"m", "scope_line":87, "scope_name":"struct acpi_battery", }
+,{"id":"alarm_irq_enable", "file":"include/linux/rtc.h", "line":149, "type":"m", "scope_line":136, "scope_name":"struct rtc_class_ops", }
+,{"id":"alarm_setitimer", "file":"arch/x86/ia32/sys_ia32.c", "line":333, "type":"c", "scope_line":331, "scope_name":"sys32_alarm", }
+,{"id":"alarm_setitimer", "file":"kernel/itimer.c", "line":254, "type":"f", }
+,{"id":"alarm_setitimer", "file":"kernel/timer.c", "line":1330, "type":"c", "scope_line":1328, "scope_name":"sys_alarm", }
+,{"id":"alarm_tag", "file":"drivers/acpi/battery.c", "line":80, "type":"e", "scope_line":77, "scope_name":"acpi_battery_files", }
+,{"id":"alb_count", "file":"include/linux/sched.h", "line":930, "type":"m", "scope_line":892, "scope_name":"struct sched_domain", }
+,{"id":"alb_failed", "file":"include/linux/sched.h", "line":931, "type":"m", "scope_line":892, "scope_name":"struct sched_domain", }
+,{"id":"alb_pushed", "file":"include/linux/sched.h", "line":932, "type":"m", "scope_line":892, "scope_name":"struct sched_domain", }
+,{"id":"alen", "file":"net/packet/af_packet.c", "line":150, "type":"m", "scope_line":145, "scope_name":"struct packet_mclist", }
+,{"id":"alert", "file":"include/linux/i2c.h", "line":164, "type":"m", "scope_line":140, "scope_name":"struct i2c_driver", }
+,{"id":"alert", "file":"include/linux/net_dropmon.h", "line":42, "type":"m", "scope_line":39, "scope_name":"struct net_dm_user_msg", }
+,{"id":"alert_counter", "file":"arch/x86/kernel/apic/nmi.c", "line":365, "type":"v", }
+,{"id":"alerts", "file":"include/acpi/actbl2.h", "line":162, "type":"m", "scope_line":158, "scope_name":"struct acpi_asf_alert", }
+,{"id":"alg", "file":"crypto/algboss.c", "line":56, "type":"m", "scope_line":54, "scope_name":"struct crypto_test_param", }
+,{"id":"alg", "file":"crypto/internal.h", "line":43, "type":"m", "scope_line":42, "scope_name":"struct crypto_larval", }
+,{"id":"alg", "file":"crypto/md5.c", "line":229, "type":"v", }
+,{"id":"alg", "file":"include/crypto/algapi.h", "line":38, "type":"m", "scope_line":37, "scope_name":"struct crypto_instance", }
+,{"id":"alg", "file":"include/crypto/algapi.h", "line":60, "type":"m", "scope_line":58, "scope_name":"struct crypto_spawn", }
+,{"id":"alg", "file":"include/crypto/internal/hash.h", "line":38, "type":"m", "scope_line":37, "scope_name":"struct ahash_instance", }
+,{"id":"alg", "file":"include/crypto/internal/hash.h", "line":42, "type":"m", "scope_line":41, "scope_name":"struct shash_instance", }
+,{"id":"alg", "file":"include/linux/wireless.h", "line":850, "type":"m", "scope_line":842, "scope_name":"struct iw_encode_ext", }
+,{"id":"alg_icv_len", "file":"include/linux/xfrm.h", "line":103, "type":"m", "scope_line":100, "scope_name":"struct xfrm_algo_aead", }
+,{"id":"alg_key", "file":"include/linux/xfrm.h", "line":104, "type":"m", "scope_line":100, "scope_name":"struct xfrm_algo_aead", }
+,{"id":"alg_key", "file":"include/linux/xfrm.h", "line":90, "type":"m", "scope_line":87, "scope_name":"struct xfrm_algo", }
+,{"id":"alg_key", "file":"include/linux/xfrm.h", "line":97, "type":"m", "scope_line":93, "scope_name":"struct xfrm_algo_auth", }
+,{"id":"alg_key_len", "file":"include/linux/xfrm.h", "line":102, "type":"m", "scope_line":100, "scope_name":"struct xfrm_algo_aead", }
+,{"id":"alg_key_len", "file":"include/linux/xfrm.h", "line":89, "type":"m", "scope_line":87, "scope_name":"struct xfrm_algo", }
+,{"id":"alg_key_len", "file":"include/linux/xfrm.h", "line":95, "type":"m", "scope_line":93, "scope_name":"struct xfrm_algo_auth", }
+,{"id":"alg_name", "file":"include/linux/xfrm.h", "line":101, "type":"m", "scope_line":100, "scope_name":"struct xfrm_algo_aead", }
+,{"id":"alg_name", "file":"include/linux/xfrm.h", "line":88, "type":"m", "scope_line":87, "scope_name":"struct xfrm_algo", }
+,{"id":"alg_name", "file":"include/linux/xfrm.h", "line":94, "type":"m", "scope_line":93, "scope_name":"struct xfrm_algo_auth", }
+,{"id":"alg_test", "file":"crypto/algboss.c", "line":222, "type":"c", "scope_line":209, "scope_name":"cryptomgr_test", }
+,{"id":"alg_test", "file":"crypto/testmgr.c", "line":29, "type":"f", }
+,{"id":"alg_trunc_len", "file":"include/linux/xfrm.h", "line":96, "type":"m", "scope_line":93, "scope_name":"struct xfrm_algo_auth", }
+,{"id":"algo", "file":"include/linux/i2c.h", "line":358, "type":"m", "scope_line":354, "scope_name":"struct i2c_adapter", }
+,{"id":"algo_data", "file":"include/linux/i2c.h", "line":359, "type":"m", "scope_line":354, "scope_name":"struct i2c_adapter", }
+,{"id":"algs", "file":"net/xfrm/xfrm_algo.c", "line":522, "type":"m", "scope_line":521, "scope_name":"struct xfrm_algo_list", }
+,{"id":"ali_router_probe", "file":"arch/x86/pci/irq.c", "line":745, "type":"f", }
+,{"id":"alias", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":294, "type":"m", "scope_line":291, "scope_name":"struct iommu_dev_data", }
+,{"id":"alias", "file":"include/linux/nls.h", "line":26, "type":"m", "scope_line":24, "scope_name":"struct nls_table", }
+,{"id":"alias_checksum", "file":"include/linux/msdos_fs.h", "line":160, "type":"m", "scope_line":155, "scope_name":"struct msdos_dir_slot", }
+,{"id":"alias_table_size", "file":"arch/x86/kernel/amd_iommu_init.c", "line":180, "type":"v", }
+,{"id":"alien", "file":"mm/slab.c", "line":278, "type":"m", "scope_line":269, "scope_name":"struct kmem_list3", }
+,{"id":"align", "file":"drivers/pnp/base.h", "line":29, "type":"m", "scope_line":26, "scope_name":"struct pnp_port", }
+,{"id":"align", "file":"drivers/pnp/base.h", "line":50, "type":"m", "scope_line":47, "scope_name":"struct pnp_mem", }
+,{"id":"align", "file":"include/linux/regset.h", "line":160, "type":"m", "scope_line":153, "scope_name":"struct user_regset", }
+,{"id":"align", "file":"include/net/cfg80211.h", "line":1626, "type":"m", "scope_line":1625, "scope_name":"struct radiotap_align_size", }
+,{"id":"align_ptr", "file":"crypto/hmac.c", "line":32, "type":"f", }
+,{"id":"align_ptr", "file":"crypto/hmac.c", "line":39, "type":"c", "scope_line":37, "scope_name":"hmac_ctx", }
+,{"id":"align_ptr", "file":"crypto/hmac.c", "line":52, "type":"c", "scope_line":44, "scope_name":"hmac_setkey", }
+,{"id":"align_ptr", "file":"drivers/md/dm-ioctl.c", "line":1027, "type":"c", "scope_line":973, "scope_name":"retrieve_status", }
+,{"id":"align_ptr", "file":"drivers/md/dm-ioctl.c", "line":389, "type":"f", }
+,{"id":"align_ptr", "file":"drivers/md/dm-ioctl.c", "line":401, "type":"c", "scope_line":398, "scope_name":"get_result_buffer", }
+,{"id":"align_ptr", "file":"drivers/md/dm-ioctl.c", "line":459, "type":"c", "scope_line":411, "scope_name":"list_devices", }
+,{"id":"align_ptr", "file":"drivers/md/dm-ioctl.c", "line":499, "type":"c", "scope_line":477, "scope_name":"list_version_get_info", }
+,{"id":"align_sigframe", "file":"arch/x86/kernel/signal.c", "line":194, "type":"f", }
+,{"id":"align_sigframe", "file":"arch/x86/kernel/signal.c", "line":245, "type":"c", "scope_line":208, "scope_name":"get_sigframe", }
+,{"id":"align_size", "file":"include/net/cfg80211.h", "line":1630, "type":"m", "scope_line":1629, "scope_name":"struct ieee80211_radiotap_namespace", }
+,{"id":"aligned_be64", "file":"include/linux/types.h", "line":134, "type":"d", }
+,{"id":"aligned_le64", "file":"include/linux/types.h", "line":135, "type":"d", }
+,{"id":"aligned_u64", "file":"include/linux/types.h", "line":133, "type":"d", }
+,{"id":"aligned_vread", "file":"mm/vmalloc.c", "line":1718, "type":"f", }
+,{"id":"aligned_vread", "file":"mm/vmalloc.c", "line":1850, "type":"c", "scope_line":1822, "scope_name":"vread", }
+,{"id":"aligned_vwrite", "file":"mm/vmalloc.c", "line":1757, "type":"f", }
+,{"id":"aligned_vwrite", "file":"mm/vmalloc.c", "line":1927, "type":"c", "scope_line":1899, "scope_name":"vwrite", }
+,{"id":"alignfile", "file":"fs/binfmt_elf.c", "line":1196, "type":"f", }
+,];
+xr_frag_insert('t/1b/5c61517e4ba4dedbba34c0114baa7a21207e9e.xr', __xr_tmp);

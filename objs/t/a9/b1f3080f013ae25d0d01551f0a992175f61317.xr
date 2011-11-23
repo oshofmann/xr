@@ -1,0 +1,109 @@
+var __xr_tmp = [
+{"id":"XFRM_MODE_BEET", "file":"include/linux/xfrm.h", "line":139, "type":"d", }
+,{"id":"XFRM_MODE_FLAG_TUNNEL", "file":"include/net/xfrm.h", "line":399, "type":"e", "scope_line":398, }
+,{"id":"XFRM_MODE_IN_TRIGGER", "file":"include/linux/xfrm.h", "line":138, "type":"d", }
+,{"id":"XFRM_MODE_MAX", "file":"include/linux/xfrm.h", "line":140, "type":"d", }
+,{"id":"XFRM_MODE_ROUTEOPTIMIZATION", "file":"include/linux/xfrm.h", "line":137, "type":"d", }
+,{"id":"XFRM_MODE_SKB_CB", "file":"include/net/xfrm.h", "line":612, "type":"d", }
+,{"id":"XFRM_MODE_TRANSPORT", "file":"include/linux/xfrm.h", "line":135, "type":"d", }
+,{"id":"XFRM_MODE_TUNNEL", "file":"include/linux/xfrm.h", "line":136, "type":"d", }
+,{"id":"XFRM_MSG_ACQUIRE", "file":"include/linux/xfrm.h", "line":162, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_ACQUIRE", "file":"include/linux/xfrm.h", "line":163, "type":"d", }
+,{"id":"XFRM_MSG_ALLOCSPI", "file":"include/linux/xfrm.h", "line":160, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_ALLOCSPI", "file":"include/linux/xfrm.h", "line":161, "type":"d", }
+,{"id":"XFRM_MSG_BASE", "file":"include/linux/xfrm.h", "line":144, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_DELPOLICY", "file":"include/linux/xfrm.h", "line":155, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_DELPOLICY", "file":"include/linux/xfrm.h", "line":156, "type":"d", }
+,{"id":"XFRM_MSG_DELSA", "file":"include/linux/xfrm.h", "line":148, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_DELSA", "file":"include/linux/xfrm.h", "line":149, "type":"d", }
+,{"id":"XFRM_MSG_EXPIRE", "file":"include/linux/xfrm.h", "line":164, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_EXPIRE", "file":"include/linux/xfrm.h", "line":165, "type":"d", }
+,{"id":"XFRM_MSG_FLUSHPOLICY", "file":"include/linux/xfrm.h", "line":177, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_FLUSHPOLICY", "file":"include/linux/xfrm.h", "line":178, "type":"d", }
+,{"id":"XFRM_MSG_FLUSHSA", "file":"include/linux/xfrm.h", "line":175, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_FLUSHSA", "file":"include/linux/xfrm.h", "line":176, "type":"d", }
+,{"id":"XFRM_MSG_GETAE", "file":"include/linux/xfrm.h", "line":182, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_GETAE", "file":"include/linux/xfrm.h", "line":183, "type":"d", }
+,{"id":"XFRM_MSG_GETPOLICY", "file":"include/linux/xfrm.h", "line":157, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_GETPOLICY", "file":"include/linux/xfrm.h", "line":158, "type":"d", }
+,{"id":"XFRM_MSG_GETSA", "file":"include/linux/xfrm.h", "line":150, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_GETSA", "file":"include/linux/xfrm.h", "line":151, "type":"d", }
+,{"id":"XFRM_MSG_GETSADINFO", "file":"include/linux/xfrm.h", "line":193, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_GETSADINFO", "file":"include/linux/xfrm.h", "line":194, "type":"d", }
+,{"id":"XFRM_MSG_GETSPDINFO", "file":"include/linux/xfrm.h", "line":198, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_GETSPDINFO", "file":"include/linux/xfrm.h", "line":199, "type":"d", }
+,{"id":"XFRM_MSG_MAPPING", "file":"include/linux/xfrm.h", "line":201, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_MAPPING", "file":"include/linux/xfrm.h", "line":202, "type":"d", }
+,{"id":"XFRM_MSG_MAX", "file":"include/linux/xfrm.h", "line":205, "type":"d", }
+,{"id":"XFRM_MSG_MIGRATE", "file":"include/linux/xfrm.h", "line":188, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_MIGRATE", "file":"include/linux/xfrm.h", "line":189, "type":"d", }
+,{"id":"XFRM_MSG_NEWAE", "file":"include/linux/xfrm.h", "line":180, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_NEWAE", "file":"include/linux/xfrm.h", "line":181, "type":"d", }
+,{"id":"XFRM_MSG_NEWPOLICY", "file":"include/linux/xfrm.h", "line":153, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_NEWPOLICY", "file":"include/linux/xfrm.h", "line":154, "type":"d", }
+,{"id":"XFRM_MSG_NEWSA", "file":"include/linux/xfrm.h", "line":146, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_NEWSA", "file":"include/linux/xfrm.h", "line":147, "type":"d", }
+,{"id":"XFRM_MSG_NEWSADINFO", "file":"include/linux/xfrm.h", "line":191, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_NEWSADINFO", "file":"include/linux/xfrm.h", "line":192, "type":"d", }
+,{"id":"XFRM_MSG_NEWSPDINFO", "file":"include/linux/xfrm.h", "line":196, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_NEWSPDINFO", "file":"include/linux/xfrm.h", "line":197, "type":"d", }
+,{"id":"XFRM_MSG_POLEXPIRE", "file":"include/linux/xfrm.h", "line":172, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_POLEXPIRE", "file":"include/linux/xfrm.h", "line":173, "type":"d", }
+,{"id":"XFRM_MSG_REPORT", "file":"include/linux/xfrm.h", "line":185, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_REPORT", "file":"include/linux/xfrm.h", "line":186, "type":"d", }
+,{"id":"XFRM_MSG_UPDPOLICY", "file":"include/linux/xfrm.h", "line":167, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_UPDPOLICY", "file":"include/linux/xfrm.h", "line":168, "type":"d", }
+,{"id":"XFRM_MSG_UPDSA", "file":"include/linux/xfrm.h", "line":169, "type":"e", "scope_line":143, }
+,{"id":"XFRM_MSG_UPDSA", "file":"include/linux/xfrm.h", "line":170, "type":"d", }
+,{"id":"XFRM_NR_MSGTYPES", "file":"include/linux/xfrm.h", "line":207, "type":"d", }
+,{"id":"XFRM_POLICY_ALLOW", "file":"include/linux/xfrm.h", "line":382, "type":"d", }
+,{"id":"XFRM_POLICY_BLOCK", "file":"include/linux/xfrm.h", "line":383, "type":"d", }
+,{"id":"XFRM_POLICY_FWD", "file":"include/linux/xfrm.h", "line":123, "type":"e", "scope_line":120, }
+,{"id":"XFRM_POLICY_ICMP", "file":"include/linux/xfrm.h", "line":387, "type":"d", }
+,{"id":"XFRM_POLICY_IN", "file":"include/linux/xfrm.h", "line":121, "type":"e", "scope_line":120, }
+,{"id":"XFRM_POLICY_LOCALOK", "file":"include/linux/xfrm.h", "line":385, "type":"d", }
+,{"id":"XFRM_POLICY_MASK", "file":"include/linux/xfrm.h", "line":124, "type":"e", "scope_line":120, }
+,{"id":"XFRM_POLICY_MAX", "file":"include/linux/xfrm.h", "line":125, "type":"e", "scope_line":120, }
+,{"id":"XFRM_POLICY_OUT", "file":"include/linux/xfrm.h", "line":122, "type":"e", "scope_line":120, }
+,{"id":"XFRM_POLICY_TYPE_ANY", "file":"include/linux/xfrm.h", "line":117, "type":"e", "scope_line":113, }
+,{"id":"XFRM_POLICY_TYPE_MAIN", "file":"include/linux/xfrm.h", "line":114, "type":"e", "scope_line":113, }
+,{"id":"XFRM_POLICY_TYPE_MAX", "file":"include/linux/xfrm.h", "line":116, "type":"e", "scope_line":113, }
+,{"id":"XFRM_POLICY_TYPE_SUB", "file":"include/linux/xfrm.h", "line":115, "type":"e", "scope_line":113, }
+,{"id":"XFRM_PROTO_AH", "file":"include/net/xfrm.h", "line":32, "type":"d", }
+,{"id":"XFRM_PROTO_COMP", "file":"include/net/xfrm.h", "line":33, "type":"d", }
+,{"id":"XFRM_PROTO_DSTOPTS", "file":"include/net/xfrm.h", "line":37, "type":"d", }
+,{"id":"XFRM_PROTO_ESP", "file":"include/net/xfrm.h", "line":31, "type":"d", }
+,{"id":"XFRM_PROTO_IPIP", "file":"include/net/xfrm.h", "line":34, "type":"d", }
+,{"id":"XFRM_PROTO_IPV6", "file":"include/net/xfrm.h", "line":35, "type":"d", }
+,{"id":"XFRM_PROTO_ROUTING", "file":"include/net/xfrm.h", "line":36, "type":"d", }
+,{"id":"XFRM_REPLAY_OSEQ", "file":"include/net/xfrm.h", "line":531, "type":"d", }
+,{"id":"XFRM_REPLAY_SEQ", "file":"include/net/xfrm.h", "line":530, "type":"d", }
+,{"id":"XFRM_REPLAY_SEQ_MASK", "file":"include/net/xfrm.h", "line":532, "type":"d", }
+,{"id":"XFRM_REPLAY_TIMEOUT", "file":"include/net/xfrm.h", "line":535, "type":"d", }
+,{"id":"XFRM_REPLAY_UPDATE", "file":"include/net/xfrm.h", "line":534, "type":"d", }
+,{"id":"XFRM_SC_ALG_RESERVED", "file":"include/linux/xfrm.h", "line":41, "type":"d", }
+,{"id":"XFRM_SC_ALG_SELINUX", "file":"include/linux/xfrm.h", "line":42, "type":"d", }
+,{"id":"XFRM_SC_DOI_LSM", "file":"include/linux/xfrm.h", "line":38, "type":"d", }
+,{"id":"XFRM_SC_DOI_RESERVED", "file":"include/linux/xfrm.h", "line":37, "type":"d", }
+,{"id":"XFRM_SHARE_ANY", "file":"include/linux/xfrm.h", "line":129, "type":"e", "scope_line":128, }
+,{"id":"XFRM_SHARE_SESSION", "file":"include/linux/xfrm.h", "line":130, "type":"e", "scope_line":128, }
+,{"id":"XFRM_SHARE_UNIQUE", "file":"include/linux/xfrm.h", "line":132, "type":"e", "scope_line":128, }
+,{"id":"XFRM_SHARE_USER", "file":"include/linux/xfrm.h", "line":131, "type":"e", "scope_line":128, }
+,{"id":"XFRM_SKB_CB", "file":"include/net/xfrm.h", "line":577, "type":"d", }
+,{"id":"XFRM_SPI_SKB_CB", "file":"include/net/xfrm.h", "line":628, "type":"d", }
+,{"id":"XFRM_STATE_ACQ", "file":"include/net/xfrm.h", "line":237, "type":"e", "scope_line":235, }
+,{"id":"XFRM_STATE_AF_UNSPEC", "file":"include/linux/xfrm.h", "line":351, "type":"d", }
+,{"id":"XFRM_STATE_DEAD", "file":"include/net/xfrm.h", "line":241, "type":"e", "scope_line":235, }
+,{"id":"XFRM_STATE_DECAP_DSCP", "file":"include/linux/xfrm.h", "line":347, "type":"d", }
+,{"id":"XFRM_STATE_ERROR", "file":"include/net/xfrm.h", "line":239, "type":"e", "scope_line":235, }
+,{"id":"XFRM_STATE_EXPIRED", "file":"include/net/xfrm.h", "line":240, "type":"e", "scope_line":235, }
+,{"id":"XFRM_STATE_ICMP", "file":"include/linux/xfrm.h", "line":350, "type":"d", }
+,{"id":"XFRM_STATE_NOECN", "file":"include/linux/xfrm.h", "line":346, "type":"d", }
+,{"id":"XFRM_STATE_NOPMTUDISC", "file":"include/linux/xfrm.h", "line":348, "type":"d", }
+,{"id":"XFRM_STATE_VALID", "file":"include/net/xfrm.h", "line":238, "type":"e", "scope_line":235, }
+,{"id":"XFRM_STATE_VOID", "file":"include/net/xfrm.h", "line":236, "type":"e", "scope_line":235, }
+,{"id":"XFRM_STATE_WILDRECV", "file":"include/linux/xfrm.h", "line":349, "type":"d", }
+,{"id":"XFRM_TIME_DEFER", "file":"include/net/xfrm.h", "line":233, "type":"d", }
+,{"id":"XFRM_TYPE_LOCAL_COADDR", "file":"include/net/xfrm.h", "line":327, "type":"d", }
+,];
+xr_frag_insert('t/a9/b1f3080f013ae25d0d01551f0a992175f61317.xr', __xr_tmp);

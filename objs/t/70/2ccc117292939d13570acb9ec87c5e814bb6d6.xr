@@ -1,0 +1,64 @@
+var __xr_tmp = [
+{"id":"event_kmalloc_node", "file":"include/trace/events/kmem.h", "line":99, "type":"v", }
+,{"id":"event_kmem_cache_alloc", "file":"include/trace/events/kmem.h", "line":53, "type":"v", }
+,{"id":"event_kmem_cache_alloc_node", "file":"include/trace/events/kmem.h", "line":108, "type":"v", }
+,{"id":"event_kmem_cache_free", "file":"include/trace/events/kmem.h", "line":143, "type":"v", }
+,{"id":"event_limit", "file":"include/linux/perf_event.h", "line":748, "type":"m", "scope_line":663, "scope_name":"struct perf_event", }
+,{"id":"event_list", "file":"arch/x86/kernel/cpu/perf_event.c", "line":113, "type":"m", "scope_line":99, "scope_name":"struct cpu_hw_events", }
+,{"id":"event_list", "file":"include/linux/cgroup.h", "line":240, "type":"m", "scope_line":191, "scope_name":"struct cgroup", }
+,{"id":"event_list", "file":"include/linux/fsnotify_backend.h", "line":179, "type":"m", "scope_line":177, "scope_name":"struct fsnotify_event_holder", }
+,{"id":"event_list", "file":"include/linux/fsnotify_backend.h", "line":188, "type":"m", "scope_line":186, "scope_name":"struct fsnotify_event_private_data", }
+,{"id":"event_list", "file":"include/linux/perf_event.h", "line":786, "type":"m", "scope_line":771, "scope_name":"struct perf_event_context", }
+,{"id":"event_list", "file":"include/net/cfg80211.h", "line":1528, "type":"m", "scope_line":1500, "scope_name":"struct wireless_dev", }
+,{"id":"event_list", "file":"include/scsi/scsi_device.h", "line":154, "type":"m", "scope_line":68, "scope_name":"struct scsi_device", }
+,{"id":"event_list_lock", "file":"include/linux/cgroup.h", "line":241, "type":"m", "scope_line":191, "scope_name":"struct cgroup", }
+,{"id":"event_lock", "file":"include/linux/input.h", "line":1201, "type":"m", "scope_line":1150, "scope_name":"struct input_dev", }
+,{"id":"event_lock", "file":"include/net/cfg80211.h", "line":1529, "type":"m", "scope_line":1500, "scope_name":"struct wireless_dev", }
+,{"id":"event_lock_kernel", "file":"include/trace/events/bkl.h", "line":9, "type":"v", }
+,{"id":"event_map", "file":"arch/x86/kernel/cpu/perf_event.c", "line":208, "type":"m", "scope_line":193, "scope_name":"struct x86_pmu", }
+,{"id":"event_mask", "file":"drivers/input/keyboard/atkbd.c", "line":228, "type":"m", "scope_line":196, "scope_name":"struct atkbd", }
+,{"id":"event_mask", "file":"include/net/bluetooth/hci.h", "line":942, "type":"m", "scope_line":940, "scope_name":"struct hci_filter", }
+,{"id":"event_mask", "file":"include/net/bluetooth/hci.h", "line":948, "type":"m", "scope_line":946, "scope_name":"struct hci_ufilter", }
+,{"id":"event_mce_record", "file":"include/trace/events/mce.h", "line":11, "type":"v", }
+,{"id":"event_mm_page_alloc", "file":"include/trace/events/kmem.h", "line":194, "type":"v", }
+,{"id":"event_mm_page_alloc_extfrag", "file":"include/trace/events/kmem.h", "line":267, "type":"v", }
+,{"id":"event_mm_page_alloc_zone_locked", "file":"include/trace/events/kmem.h", "line":249, "type":"v", }
+,{"id":"event_mm_page_free_direct", "file":"include/trace/events/kmem.h", "line":150, "type":"v", }
+,{"id":"event_mm_page_pcpu_drain", "file":"include/trace/events/kmem.h", "line":256, "type":"v", }
+,{"id":"event_mm_pagevec_free", "file":"include/trace/events/kmem.h", "line":172, "type":"v", }
+,{"id":"event_mm_vmscan_direct_reclaim_begin", "file":"include/trace/events/vmscan.h", "line":113, "type":"v", }
+,{"id":"event_mm_vmscan_direct_reclaim_end", "file":"include/trace/events/vmscan.h", "line":151, "type":"v", }
+,{"id":"event_mm_vmscan_kswapd_sleep", "file":"include/trace/events/vmscan.h", "line":29, "type":"v", }
+,{"id":"event_mm_vmscan_kswapd_wake", "file":"include/trace/events/vmscan.h", "line":46, "type":"v", }
+,{"id":"event_mm_vmscan_lru_isolate", "file":"include/trace/events/vmscan.h", "line":219, "type":"v", }
+,{"id":"event_mm_vmscan_memcg_isolate", "file":"include/trace/events/vmscan.h", "line":234, "type":"v", }
+,{"id":"event_mm_vmscan_memcg_reclaim_begin", "file":"include/trace/events/vmscan.h", "line":120, "type":"v", }
+,{"id":"event_mm_vmscan_memcg_reclaim_end", "file":"include/trace/events/vmscan.h", "line":158, "type":"v", }
+,{"id":"event_mm_vmscan_memcg_softlimit_reclaim_begin", "file":"include/trace/events/vmscan.h", "line":127, "type":"v", }
+,{"id":"event_mm_vmscan_memcg_softlimit_reclaim_end", "file":"include/trace/events/vmscan.h", "line":165, "type":"v", }
+,{"id":"event_mm_vmscan_wakeup_kswapd", "file":"include/trace/events/vmscan.h", "line":65, "type":"v", }
+,{"id":"event_mm_vmscan_writepage", "file":"include/trace/events/vmscan.h", "line":249, "type":"v", }
+,{"id":"event_mmiotrace_map", "file":"kernel/trace/trace_entries.h", "line":239, "type":"v", }
+,{"id":"event_mmiotrace_rw", "file":"kernel/trace/trace_entries.h", "line":220, "type":"v", }
+,{"id":"event_module_free", "file":"include/trace/events/module.h", "line":37, "type":"v", }
+,{"id":"event_module_get", "file":"include/trace/events/module.h", "line":79, "type":"v", }
+,{"id":"event_module_load", "file":"include/trace/events/module.h", "line":18, "type":"v", }
+,{"id":"event_module_put", "file":"include/trace/events/module.h", "line":86, "type":"v", }
+,{"id":"event_module_request", "file":"include/trace/events/module.h", "line":94, "type":"v", }
+,{"id":"event_mutex", "file":"kernel/trace/trace_events.c", "line":28, "type":"v", }
+,{"id":"event_nr", "file":"drivers/md/dm.c", "line":182, "type":"m", "scope_line":118, "scope_name":"struct mapped_device", }
+,{"id":"event_nr", "file":"include/linux/dm-ioctl.h", "line":137, "type":"m", "scope_line":102, "scope_name":"struct dm_ioctl", }
+,{"id":"event_power_end", "file":"include/trace/events/power.h", "line":55, "type":"v", }
+,{"id":"event_power_frequency", "file":"include/trace/events/power.h", "line":48, "type":"v", }
+,{"id":"event_power_start", "file":"include/trace/events/power.h", "line":41, "type":"v", }
+,{"id":"event_print", "file":"kernel/trace/trace_entries.h", "line":207, "type":"v", }
+,{"id":"event_priv_cachep", "file":"fs/notify/inotify/inotify.h", "line":5, "type":"v", }
+,{"id":"event_sched_in", "file":"kernel/perf_event.c", "line":655, "type":"f", }
+,{"id":"event_sched_in", "file":"kernel/perf_event.c", "line":707, "type":"c", "scope_line":688, "scope_name":"group_sched_in", }
+,{"id":"event_sched_in", "file":"kernel/perf_event.c", "line":717, "type":"c", "scope_line":688, "scope_name":"group_sched_in", }
+,{"id":"event_sched_in", "file":"kernel/perf_event.c", "line":842, "type":"c", "scope_line":790, "scope_name":"__perf_install_in_context", }
+,{"id":"event_sched_in", "file":"kernel/perf_event.c", "line":986, "type":"c", "scope_line":943, "scope_name":"__perf_event_enable", }
+,{"id":"event_sched_kthread_stop", "file":"include/trace/events/sched.h", "line":13, "type":"v", }
+,{"id":"event_sched_kthread_stop_ret", "file":"include/trace/events/sched.h", "line":35, "type":"v", }
+,];
+xr_frag_insert('t/70/2ccc117292939d13570acb9ec87c5e814bb6d6.xr', __xr_tmp);

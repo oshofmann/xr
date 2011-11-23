@@ -1,0 +1,123 @@
+var __xr_tmp = [
+{"id":"bdi_destroy", "file":"fs/ramfs/inode.c", "line":310, "type":"c", "scope_line":300, "scope_name":"init_rootfs", }
+,{"id":"bdi_destroy", "file":"kernel/cgroup.c", "line":3917, "type":"c", "scope_line":3877, "scope_name":"cgroup_init", }
+,{"id":"bdi_destroy", "file":"mm/backing-dev.c", "line":674, "type":"f", }
+,{"id":"bdi_destroy", "file":"mm/backing-dev.c", "line":720, "type":"c", "scope_line":705, "scope_name":"bdi_setup_and_register", }
+,{"id":"bdi_destroy", "file":"mm/shmem.c", "line":2585, "type":"c", "scope_line":2553, "scope_name":"init_tmpfs", }
+,{"id":"bdi_dev_attrs", "file":"mm/backing-dev.c", "line":215, "type":"v", }
+,{"id":"bdi_dirty_limit", "file":"mm/backing-dev.c", "line":86, "type":"c", "scope_line":65, "scope_name":"bdi_debug_stats_show", }
+,{"id":"bdi_dirty_limit", "file":"mm/page-writeback.c", "line":453, "type":"f", }
+,{"id":"bdi_dirty_limit", "file":"mm/page-writeback.c", "line":517, "type":"c", "scope_line":481, "scope_name":"balance_dirty_pages", }
+,{"id":"bdi_flush_io", "file":"mm/backing-dev.c", "line":258, "type":"f", }
+,{"id":"bdi_flush_io", "file":"mm/backing-dev.c", "line":457, "type":"c", "scope_line":361, "scope_name":"bdi_forker_thread", }
+,{"id":"bdi_forker_thread", "file":"mm/backing-dev.c", "line":361, "type":"f", }
+,{"id":"bdi_has_dirty_io", "file":"fs/fs-writeback.c", "line":862, "type":"c", "scope_line":851, "scope_name":"wakeup_flusher_threads", }
+,{"id":"bdi_has_dirty_io", "file":"mm/backing-dev.c", "line":253, "type":"f", }
+,{"id":"bdi_has_dirty_io", "file":"mm/backing-dev.c", "line":682, "type":"c", "scope_line":674, "scope_name":"bdi_destroy", }
+,{"id":"bdi_has_dirty_io", "file":"mm/page-writeback.c", "line":708, "type":"c", "scope_line":698, "scope_name":"laptop_mode_timer_fn", }
+,{"id":"bdi_init", "file":"block/blk-core.c", "line":512, "type":"c", "scope_line":494, "scope_name":"blk_alloc_queue_node", }
+,{"id":"bdi_init", "file":"drivers/char/mem.c", "line":901, "type":"c", "scope_line":896, "scope_name":"chr_dev_init", }
+,{"id":"bdi_init", "file":"fs/char_dev.c", "line":572, "type":"c", "scope_line":569, "scope_name":"chrdev_init", }
+,{"id":"bdi_init", "file":"fs/hugetlbfs/inode.c", "line":976, "type":"c", "scope_line":971, "scope_name":"init_hugetlbfs_fs", }
+,{"id":"bdi_init", "file":"fs/ramfs/inode.c", "line":304, "type":"c", "scope_line":300, "scope_name":"init_rootfs", }
+,{"id":"bdi_init", "file":"fs/sysfs/inode.c", "line":49, "type":"c", "scope_line":47, "scope_name":"sysfs_inode_init", }
+,{"id":"bdi_init", "file":"kernel/cgroup.c", "line":3883, "type":"c", "scope_line":3877, "scope_name":"cgroup_init", }
+,{"id":"bdi_init", "file":"mm/backing-dev.c", "line":244, "type":"c", "scope_line":234, "scope_name":"default_bdi_init", }
+,{"id":"bdi_init", "file":"mm/backing-dev.c", "line":247, "type":"c", "scope_line":234, "scope_name":"default_bdi_init", }
+,{"id":"bdi_init", "file":"mm/backing-dev.c", "line":640, "type":"f", }
+,{"id":"bdi_init", "file":"mm/backing-dev.c", "line":713, "type":"c", "scope_line":705, "scope_name":"bdi_setup_and_register", }
+,{"id":"bdi_init", "file":"mm/shmem.c", "line":2557, "type":"c", "scope_line":2553, "scope_name":"init_tmpfs", }
+,{"id":"bdi_init", "file":"mm/swap.c", "line":504, "type":"c", "scope_line":499, "scope_name":"swap_setup", }
+,{"id":"bdi_list", "file":"include/linux/backing-dev.h", "line":63, "type":"m", "scope_line":62, "scope_name":"struct backing_dev_info", }
+,{"id":"bdi_list", "file":"mm/backing-dev.c", "line":45, "type":"v", }
+,{"id":"bdi_lock", "file":"mm/backing-dev.c", "line":44, "type":"v", }
+,{"id":"bdi_longest_inactive", "file":"mm/backing-dev.c", "line":353, "type":"f", }
+,{"id":"bdi_longest_inactive", "file":"mm/backing-dev.c", "line":430, "type":"c", "scope_line":361, "scope_name":"bdi_forker_thread", }
+,{"id":"bdi_longest_inactive", "file":"mm/backing-dev.c", "line":486, "type":"c", "scope_line":361, "scope_name":"bdi_forker_thread", }
+,{"id":"bdi_min_ratio", "file":"mm/page-writeback.c", "line":296, "type":"v", }
+,{"id":"bdi_pending_list", "file":"mm/backing-dev.c", "line":46, "type":"v", }
+,{"id":"bdi_prune_sb", "file":"mm/backing-dev.c", "line":600, "type":"f", }
+,{"id":"bdi_prune_sb", "file":"mm/backing-dev.c", "line":616, "type":"c", "scope_line":612, "scope_name":"bdi_unregister", }
+,{"id":"bdi_queue_work", "file":"fs/fs-writeback.c", "line":1096, "type":"c", "scope_line":1080, "scope_name":"writeback_inodes_sb", }
+,{"id":"bdi_queue_work", "file":"fs/fs-writeback.c", "line":1140, "type":"c", "scope_line":1127, "scope_name":"sync_inodes_sb", }
+,{"id":"bdi_queue_work", "file":"fs/fs-writeback.c", "line":126, "type":"c", "scope_line":102, "scope_name":"__bdi_start_writeback", }
+,{"id":"bdi_queue_work", "file":"fs/fs-writeback.c", "line":82, "type":"f", }
+,{"id":"bdi_read_congested", "file":"fs/ext2/ialloc.c", "line":176, "type":"c", "scope_line":167, "scope_name":"ext2_preread_inode", }
+,{"id":"bdi_read_congested", "file":"include/linux/backing-dev.h", "line":264, "type":"f", }
+,{"id":"bdi_read_congested", "file":"mm/readahead.c", "line":552, "type":"c", "scope_line":531, "scope_name":"page_cache_async_readahead", }
+,{"id":"bdi_register", "file":"mm/backing-dev.c", "line":246, "type":"c", "scope_line":234, "scope_name":"default_bdi_init", }
+,{"id":"bdi_register", "file":"mm/backing-dev.c", "line":517, "type":"f", }
+,{"id":"bdi_register", "file":"mm/backing-dev.c", "line":562, "type":"c", "scope_line":560, "scope_name":"bdi_register_dev", }
+,{"id":"bdi_register", "file":"mm/backing-dev.c", "line":718, "type":"c", "scope_line":705, "scope_name":"bdi_setup_and_register", }
+,{"id":"bdi_register_dev", "file":"block/genhd.c", "line":550, "type":"c", "scope_line":516, "scope_name":"add_disk", }
+,{"id":"bdi_register_dev", "file":"mm/backing-dev.c", "line":560, "type":"f", }
+,{"id":"bdi_remove_from_list", "file":"mm/backing-dev.c", "line":508, "type":"f", }
+,{"id":"bdi_remove_from_list", "file":"mm/backing-dev.c", "line":577, "type":"c", "scope_line":569, "scope_name":"bdi_wb_shutdown", }
+,{"id":"bdi_rw_congested", "file":"include/linux/backing-dev.h", "line":274, "type":"f", }
+,{"id":"bdi_sched_wait", "file":"include/linux/backing-dev.h", "line":332, "type":"f", }
+,{"id":"bdi_seq", "file":"mm/backing-dev.c", "line":15, "type":"v", }
+,{"id":"bdi_set_max_ratio", "file":"mm/backing-dev.c", "line":205, "type":"c", "scope_line":195, "scope_name":"max_ratio_store", }
+,{"id":"bdi_set_max_ratio", "file":"mm/page-writeback.c", "line":319, "type":"f", }
+,{"id":"bdi_set_min_ratio", "file":"mm/backing-dev.c", "line":187, "type":"c", "scope_line":177, "scope_name":"min_ratio_store", }
+,{"id":"bdi_set_min_ratio", "file":"mm/page-writeback.c", "line":298, "type":"f", }
+,{"id":"bdi_setup_and_register", "file":"mm/backing-dev.c", "line":705, "type":"f", }
+,{"id":"bdi_start_background_writeback", "file":"fs/fs-writeback.c", "line":154, "type":"f", }
+,{"id":"bdi_start_background_writeback", "file":"mm/page-writeback.c", "line":600, "type":"c", "scope_line":481, "scope_name":"balance_dirty_pages", }
+,{"id":"bdi_start_writeback", "file":"fs/fs-writeback.c", "line":140, "type":"f", }
+,{"id":"bdi_start_writeback", "file":"mm/page-writeback.c", "line":709, "type":"c", "scope_line":698, "scope_name":"laptop_mode_timer_fn", }
+,{"id":"bdi_stat", "file":"include/linux/backing-dev.h", "line":160, "type":"f", }
+,{"id":"bdi_stat", "file":"include/linux/backing-dev.h", "line":74, "type":"m", "scope_line":62, "scope_name":"struct backing_dev_info", }
+,{"id":"bdi_stat", "file":"mm/backing-dev.c", "line":89, "type":"c", "scope_line":65, "scope_name":"bdi_debug_stats_show", }
+,{"id":"bdi_stat", "file":"mm/page-writeback.c", "line":534, "type":"c", "scope_line":481, "scope_name":"balance_dirty_pages", }
+,{"id":"bdi_stat", "file":"mm/page-writeback.c", "line":535, "type":"c", "scope_line":481, "scope_name":"balance_dirty_pages", }
+,{"id":"bdi_stat_error", "file":"include/linux/backing-dev.h", "line":190, "type":"f", }
+,{"id":"bdi_stat_error", "file":"mm/page-writeback.c", "line":530, "type":"c", "scope_line":481, "scope_name":"balance_dirty_pages", }
+,{"id":"bdi_stat_item", "file":"include/linux/backing-dev.h", "line":40, "type":"t", }
+,{"id":"bdi_stat_sum", "file":"include/linux/backing-dev.h", "line":172, "type":"f", }
+,{"id":"bdi_stat_sum", "file":"mm/page-writeback.c", "line":531, "type":"c", "scope_line":481, "scope_name":"balance_dirty_pages", }
+,{"id":"bdi_stat_sum", "file":"mm/page-writeback.c", "line":532, "type":"c", "scope_line":481, "scope_name":"balance_dirty_pages", }
+,{"id":"bdi_state", "file":"include/linux/backing-dev.h", "line":28, "type":"t", }
+,{"id":"bdi_sync_supers", "file":"mm/backing-dev.c", "line":276, "type":"f", }
+,{"id":"bdi_unregister", "file":"block/genhd.c", "line":562, "type":"c", "scope_line":559, "scope_name":"unlink_gendisk", }
+,{"id":"bdi_unregister", "file":"mm/backing-dev.c", "line":612, "type":"f", }
+,{"id":"bdi_unregister", "file":"mm/backing-dev.c", "line":692, "type":"c", "scope_line":674, "scope_name":"bdi_destroy", }
+,{"id":"bdi_wakeup_thread_delayed", "file":"fs/fs-writeback.c", "line":1000, "type":"c", "scope_line":918, "scope_name":"__mark_inode_dirty", }
+,{"id":"bdi_wakeup_thread_delayed", "file":"mm/backing-dev.c", "line":341, "type":"f", }
+,{"id":"bdi_wb_init", "file":"mm/backing-dev.c", "line":628, "type":"f", }
+,{"id":"bdi_wb_init", "file":"mm/backing-dev.c", "line":653, "type":"c", "scope_line":640, "scope_name":"bdi_init", }
+,{"id":"bdi_wb_shutdown", "file":"mm/backing-dev.c", "line":569, "type":"f", }
+,{"id":"bdi_wb_shutdown", "file":"mm/backing-dev.c", "line":620, "type":"c", "scope_line":612, "scope_name":"bdi_unregister", }
+,{"id":"bdi_write_congested", "file":"fs/ext2/ialloc.c", "line":178, "type":"c", "scope_line":167, "scope_name":"ext2_preread_inode", }
+,{"id":"bdi_write_congested", "file":"include/linux/backing-dev.h", "line":269, "type":"f", }
+,{"id":"bdi_write_congested", "file":"mm/fadvise.c", "line":119, "type":"c", "scope_line":27, "scope_name":"sys_fadvise64_64", }
+,{"id":"bdi_write_congested", "file":"mm/vmscan.c", "line":282, "type":"c", "scope_line":278, "scope_name":"may_write_to_queue", }
+,{"id":"bdi_writeback", "file":"include/linux/backing-dev.h", "line":48, "type":"s", }
+,{"id":"bdi_writeback_thread", "file":"fs/fs-writeback.c", "line":787, "type":"f", }
+,{"id":"bdi_writeout_fraction", "file":"mm/page-writeback.c", "line":244, "type":"f", }
+,{"id":"bdi_writeout_fraction", "file":"mm/page-writeback.c", "line":461, "type":"c", "scope_line":453, "scope_name":"bdi_dirty_limit", }
+,{"id":"bdi_writeout_inc", "file":"mm/page-writeback.c", "line":226, "type":"f", }
+,{"id":"bdp_ratelimits", "file":"mm/page-writeback.c", "line":613, "type":"v", }
+,{"id":"bdput", "file":"block/genhd.c", "line":1283, "type":"c", "scope_line":1276, "scope_name":"invalidate_partition", }
+,{"id":"bdput", "file":"block/ioctl.c", "line":81, "type":"c", "scope_line":12, "scope_name":"blkpg_ioctl", }
+,{"id":"bdput", "file":"block/ioctl.c", "line":92, "type":"c", "scope_line":12, "scope_name":"blkpg_ioctl", }
+,{"id":"bdput", "file":"drivers/md/dm-table.c", "line":456, "type":"c", "scope_line":434, "scope_name":"__table_get_device", }
+,{"id":"bdput", "file":"drivers/md/dm.c", "line":2050, "type":"c", "scope_line":2045, "scope_name":"free_dev", }
+,{"id":"bdput", "file":"fs/block_dev.c", "line":1273, "type":"c", "scope_line":1258, "scope_name":"revalidate_disk", }
+,{"id":"bdput", "file":"fs/block_dev.c", "line":1346, "type":"c", "scope_line":1329, "scope_name":"__blkdev_get", }
+,{"id":"bdput", "file":"fs/block_dev.c", "line":1452, "type":"c", "scope_line":1329, "scope_name":"__blkdev_get", }
+,{"id":"bdput", "file":"fs/block_dev.c", "line":1491, "type":"c", "scope_line":1463, "scope_name":"blkdev_open", }
+,{"id":"bdput", "file":"fs/block_dev.c", "line":1542, "type":"c", "scope_line":1510, "scope_name":"__blkdev_put", }
+,{"id":"bdput", "file":"fs/block_dev.c", "line":1724, "type":"c", "scope_line":1713, "scope_name":"open_bdev_exclusive", }
+,{"id":"bdput", "file":"fs/block_dev.c", "line":569, "type":"f", }
+,{"id":"bdput", "file":"fs/block_dev.c", "line":758, "type":"c", "scope_line":725, "scope_name":"bd_start_claiming", }
+,{"id":"bdput", "file":"fs/block_dev.c", "line":771, "type":"c", "scope_line":764, "scope_name":"__bd_abort_claiming", }
+,{"id":"bdput", "file":"fs/jbd2/journal.c", "line":2420, "type":"c", "scope_line":2387, "scope_name":"jbd2_dev_to_name", }
+,{"id":"bdput", "file":"fs/quota/quota.c", "line":317, "type":"c", "scope_line":303, "scope_name":"quotactl_block", }
+,{"id":"bdput", "file":"kernel/trace/blktrace.c", "line":1685, "type":"c", "scope_line":1646, "scope_name":"sysfs_blk_trace_attr_show", }
+,{"id":"bdput", "file":"kernel/trace/blktrace.c", "line":1755, "type":"c", "scope_line":1691, "scope_name":"sysfs_blk_trace_attr_store", }
+,{"id":"bdput", "file":"mm/swapfile.c", "line":818, "type":"c", "scope_line":788, "scope_name":"swap_type_of", }
+,{"id":"bdput", "file":"mm/swapfile.c", "line":825, "type":"c", "scope_line":788, "scope_name":"swap_type_of", }
+,{"id":"be", "file":"include/linux/wanrouter.h", "line":402, "type":"m", "scope_line":391, "scope_name":"struct wanif_conf", }
+,{"id":"be", "file":"lib/vsprintf.c", "line":899, "type":"v", }
+,];
+xr_frag_insert('t/d3/31beada3bc58341c7eca9ff0d14d6bf926f48f.xr', __xr_tmp);

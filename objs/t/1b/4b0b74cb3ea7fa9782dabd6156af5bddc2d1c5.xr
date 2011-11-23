@@ -1,0 +1,82 @@
+var __xr_tmp = [
+{"id":"call_rcu_bh", "file":"kernel/rcutree.c", "line":1453, "type":"f", }
+,{"id":"call_rcu_bh", "file":"kernel/rcutree.c", "line":1518, "type":"c", "scope_line":1508, "scope_name":"synchronize_rcu_bh", }
+,{"id":"call_rcu_bh", "file":"net/core/filter.c", "line":601, "type":"c", "scope_line":596, "scope_name":"sk_filter_delayed_uncharge", }
+,{"id":"call_rcu_bh", "file":"net/ipv4/inetpeer.c", "line":364, "type":"c", "scope_line":319, "scope_name":"unlink_from_pool", }
+,{"id":"call_rcu_bh", "file":"net/ipv4/route.c", "line":611, "type":"c", "scope_line":609, "scope_name":"rt_free", }
+,{"id":"call_rcu_bh", "file":"net/ipv4/route.c", "line":617, "type":"c", "scope_line":614, "scope_name":"rt_drop", }
+,{"id":"call_rcu_sched", "file":"kernel/rcutree.c", "line":1444, "type":"f", }
+,{"id":"call_rcu_sched", "file":"kernel/rcutree.c", "line":1492, "type":"c", "scope_line":1482, "scope_name":"synchronize_sched", }
+,{"id":"call_rcu_sched", "file":"kernel/rcutree_plugin.h", "line":926, "type":"c", "scope_line":924, "scope_name":"call_rcu", }
+,{"id":"call_rcu_sched", "file":"kernel/tracepoint.c", "line":492, "type":"c", "scope_line":474, "scope_name":"tracepoint_probe_update_all", }
+,{"id":"call_rcu_sched", "file":"kernel/tracepoint.c", "line":87, "type":"c", "scope_line":82, "scope_name":"release_probes", }
+,{"id":"call_sbin_request_key", "file":"security/keys/request_key.c", "line":97, "type":"f", }
+,{"id":"call_single_data", "file":"include/linux/smp.h", "line":16, "type":"s", }
+,{"id":"call_single_queue", "file":"kernel/smp.c", "line":37, "type":"s", }
+,{"id":"call_single_queue", "file":"kernel/smp.c", "line":42, "type":"v", }
+,{"id":"call_site", "file":"include/trace/events/kmem.h", "line":11, "type":"m", "scope_line":11, "scope_name":"struct ftrace_raw_kmem_alloc", }
+,{"id":"call_site", "file":"include/trace/events/kmem.h", "line":117, "type":"m", "scope_line":117, "scope_name":"struct ftrace_raw_kmem_free", }
+,{"id":"call_site", "file":"include/trace/events/kmem.h", "line":61, "type":"m", "scope_line":61, "scope_name":"struct ftrace_raw_kmem_alloc_node", }
+,{"id":"call_softirq", "file":"arch/x86/kernel/irq_64.c", "line":80, "type":"c", "scope_line":68, "scope_name":"do_softirq", }
+,{"id":"call_timer_fn", "file":"kernel/timer.c", "line":1034, "type":"f", }
+,{"id":"call_timer_fn", "file":"kernel/timer.c", "line":1118, "type":"c", "scope_line":1084, "scope_name":"__run_timers", }
+,{"id":"call_usermodehelper", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":1183, "type":"c", "scope_line":1181, "scope_name":"mce_do_trigger", }
+,{"id":"call_usermodehelper", "file":"include/linux/kmod.h", "line":105, "type":"f", }
+,{"id":"call_usermodehelper", "file":"kernel/cgroup.c", "line":4425, "type":"c", "scope_line":4387, "scope_name":"cgroup_release_agent", }
+,{"id":"call_usermodehelper", "file":"lib/kobject_uevent.c", "line":308, "type":"c", "scope_line":129, "scope_name":"kobject_uevent_env", }
+,{"id":"call_usermodehelper", "file":"security/tomoyo/load_policy.c", "line":79, "type":"c", "scope_line":52, "scope_name":"tomoyo_load_policy", }
+,{"id":"call_usermodehelper_exec", "file":"include/linux/kmod.h", "line":102, "type":"c", "scope_line":86, "scope_name":"call_usermodehelper_fns", }
+,{"id":"call_usermodehelper_exec", "file":"kernel/kmod.c", "line":389, "type":"f", }
+,{"id":"call_usermodehelper_exec", "file":"kernel/sys.c", "line":1789, "type":"c", "scope_line":1763, "scope_name":"orderly_poweroff", }
+,{"id":"call_usermodehelper_exec", "file":"security/keys/request_key.c", "line":90, "type":"c", "scope_line":78, "scope_name":"call_usermodehelper_keys", }
+,{"id":"call_usermodehelper_fns", "file":"fs/exec.c", "line":1953, "type":"c", "scope_line":1851, "scope_name":"do_coredump", }
+,{"id":"call_usermodehelper_fns", "file":"include/linux/kmod.h", "line":108, "type":"c", "scope_line":105, "scope_name":"call_usermodehelper", }
+,{"id":"call_usermodehelper_fns", "file":"include/linux/kmod.h", "line":86, "type":"f", }
+,{"id":"call_usermodehelper_fns", "file":"kernel/kmod.c", "line":119, "type":"c", "scope_line":68, "scope_name":"__request_module", }
+,{"id":"call_usermodehelper_freeinfo", "file":"kernel/kmod.c", "line":166, "type":"f", }
+,{"id":"call_usermodehelper_freeinfo", "file":"kernel/kmod.c", "line":234, "type":"c", "scope_line":215, "scope_name":"__call_usermodehelper", }
+,{"id":"call_usermodehelper_freeinfo", "file":"kernel/kmod.c", "line":414, "type":"c", "scope_line":389, "scope_name":"call_usermodehelper_exec", }
+,{"id":"call_usermodehelper_keys", "file":"security/keys/request_key.c", "line":177, "type":"c", "scope_line":97, "scope_name":"call_sbin_request_key", }
+,{"id":"call_usermodehelper_keys", "file":"security/keys/request_key.c", "line":78, "type":"f", }
+,{"id":"call_usermodehelper_setfns", "file":"include/linux/kmod.h", "line":100, "type":"c", "scope_line":86, "scope_name":"call_usermodehelper_fns", }
+,{"id":"call_usermodehelper_setfns", "file":"kernel/kmod.c", "line":366, "type":"f", }
+,{"id":"call_usermodehelper_setfns", "file":"kernel/sys.c", "line":1787, "type":"c", "scope_line":1763, "scope_name":"orderly_poweroff", }
+,{"id":"call_usermodehelper_setfns", "file":"security/keys/request_key.c", "line":88, "type":"c", "scope_line":78, "scope_name":"call_usermodehelper_keys", }
+,{"id":"call_usermodehelper_setup", "file":"include/linux/kmod.h", "line":95, "type":"c", "scope_line":86, "scope_name":"call_usermodehelper_fns", }
+,{"id":"call_usermodehelper_setup", "file":"kernel/kmod.c", "line":333, "type":"f", }
+,{"id":"call_usermodehelper_setup", "file":"kernel/sys.c", "line":1781, "type":"c", "scope_line":1763, "scope_name":"orderly_poweroff", }
+,{"id":"call_usermodehelper_setup", "file":"security/keys/request_key.c", "line":82, "type":"c", "scope_line":78, "scope_name":"call_usermodehelper_keys", }
+,{"id":"callback", "file":"arch/x86/xen/multicalls.c", "line":38, "type":"s", }
+,{"id":"callback", "file":"drivers/acpi/sbshc.c", "line":30, "type":"m", "scope_line":24, "scope_name":"struct acpi_smb_hc", }
+,{"id":"callback", "file":"drivers/md/dm-io.c", "line":38, "type":"m", "scope_line":32, "scope_name":"struct io", }
+,{"id":"callback", "file":"include/linux/connector.h", "line":111, "type":"m", "scope_line":109, "scope_name":"struct cn_callback_data", }
+,{"id":"callback", "file":"include/linux/dmaengine.h", "line":317, "type":"m", "scope_line":311, "scope_name":"struct dma_async_tx_descriptor", }
+,{"id":"callback", "file":"include/linux/ftrace.h", "line":128, "type":"m", "scope_line":124, "scope_name":"struct ftrace_probe_ops", }
+,{"id":"callback", "file":"include/linux/mod_devicetable.h", "line":452, "type":"m", "scope_line":451, "scope_name":"struct dmi_system_id", }
+,{"id":"callback", "file":"include/linux/virtio.h", "line":22, "type":"m", "scope_line":20, "scope_name":"struct virtqueue", }
+,{"id":"callback", "file":"include/xen/xenbus.h", "line":57, "type":"m", "scope_line":49, "scope_name":"struct xenbus_watch", }
+,{"id":"callback", "file":"security/selinux/avc.c", "line":72, "type":"m", "scope_line":71, "scope_name":"struct avc_callback_node", }
+,{"id":"callback_args", "file":"drivers/acpi/pci_slot.c", "line":117, "type":"s", }
+,{"id":"callback_data", "file":"include/linux/sunrpc/sched.h", "line":113, "type":"m", "scope_line":108, "scope_name":"struct rpc_task_setup", }
+,{"id":"callback_entry", "file":"include/linux/connector.h", "line":117, "type":"m", "scope_line":116, "scope_name":"struct cn_callback_entry", }
+,{"id":"callback_mutex", "file":"kernel/cpuset.c", "line":216, "type":"v", }
+,{"id":"callback_ops", "file":"include/linux/sunrpc/sched.h", "line":112, "type":"m", "scope_line":108, "scope_name":"struct rpc_task_setup", }
+,{"id":"callback_param", "file":"include/linux/dmaengine.h", "line":318, "type":"m", "scope_line":311, "scope_name":"struct dma_async_tx_descriptor", }
+,{"id":"callback_register", "file":"include/xen/interface/callback.h", "line":84, "type":"s", }
+,{"id":"callback_unregister", "file":"include/xen/interface/callback.h", "line":97, "type":"s", }
+,{"id":"callbacks", "file":"arch/x86/xen/multicalls.c", "line":48, "type":"m", "scope_line":38, "scope_name":"struct mc_buffer", }
+,{"id":"callchain", "file":"include/linux/perf_event.h", "line":894, "type":"m", "scope_line":877, "scope_name":"struct perf_sample_data", }
+,{"id":"callchain_store", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1617, "type":"f", }
+,{"id":"callchain_store", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1648, "type":"c", "scope_line":1644, "scope_name":"backtrace_address", }
+,{"id":"callchain_store", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1662, "type":"c", "scope_line":1659, "scope_name":"perf_callchain_kernel", }
+,{"id":"callchain_store", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1663, "type":"c", "scope_line":1659, "scope_name":"perf_callchain_kernel", }
+,{"id":"callchain_store", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1692, "type":"c", "scope_line":1669, "scope_name":"perf_callchain_user32", }
+,{"id":"callchain_store", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1716, "type":"c", "scope_line":1705, "scope_name":"perf_callchain_user", }
+,{"id":"callchain_store", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1717, "type":"c", "scope_line":1705, "scope_name":"perf_callchain_user", }
+,{"id":"callchain_store", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1734, "type":"c", "scope_line":1705, "scope_name":"perf_callchain_user", }
+,{"id":"caller", "file":"arch/x86/xen/multicalls.c", "line":42, "type":"m", "scope_line":38, "scope_name":"struct mc_buffer", }
+,{"id":"caller", "file":"include/linux/vmalloc.h", "line":36, "type":"m", "scope_line":28, "scope_name":"struct vm_struct", }
+,{"id":"caller", "file":"kernel/cpu.c", "line":192, "type":"m", "scope_line":191, "scope_name":"struct take_cpu_down_param", }
+,{"id":"caller", "file":"kernel/trace/trace_entries.h", "line":159, "type":"m", "scope_line":159, "scope_name":"struct ____ftrace_kernel_stack", }
+,];
+xr_frag_insert('t/1b/4b0b74cb3ea7fa9782dabd6156af5bddc2d1c5.xr', __xr_tmp);

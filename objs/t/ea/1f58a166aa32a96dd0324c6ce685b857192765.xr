@@ -1,0 +1,109 @@
+var __xr_tmp = [
+{"id":"IP_VS_DIR_LAST", "file":"include/net/ip_vs.h", "line":624, "type":"e", "scope_line":620, }
+,{"id":"IP_VS_DIR_OUTPUT", "file":"include/net/ip_vs.h", "line":622, "type":"e", "scope_line":620, }
+,{"id":"IP_VS_ERR_BUF", "file":"include/net/ip_vs.h", "line":150, "type":"d", }
+,{"id":"IP_VS_ERR_RL", "file":"include/net/ip_vs.h", "line":158, "type":"d", }
+,{"id":"IP_VS_FWD_METHOD", "file":"include/net/ip_vs.h", "line":900, "type":"d", }
+,{"id":"IP_VS_ICMP_S_LAST", "file":"include/net/ip_vs.h", "line":224, "type":"e", "scope_line":222, }
+,{"id":"IP_VS_ICMP_S_NORMAL", "file":"include/net/ip_vs.h", "line":223, "type":"e", "scope_line":222, }
+,{"id":"IP_VS_IFNAME_MAXLEN", "file":"include/linux/ip_vs.h", "line":92, "type":"d", }
+,{"id":"IP_VS_INIT_HASH_TABLE", "file":"include/net/ip_vs.h", "line":611, "type":"d", }
+,{"id":"IP_VS_SCHEDNAME_MAXLEN", "file":"include/linux/ip_vs.h", "line":91, "type":"d", }
+,{"id":"IP_VS_SCTP_S_CLOSED", "file":"include/net/ip_vs.h", "line":243, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_ECHO_CLI", "file":"include/net/ip_vs.h", "line":236, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_ECHO_SER", "file":"include/net/ip_vs.h", "line":237, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_ESTABLISHED", "file":"include/net/ip_vs.h", "line":238, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_INIT_ACK_CLI", "file":"include/net/ip_vs.h", "line":234, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_INIT_ACK_SER", "file":"include/net/ip_vs.h", "line":235, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_INIT_CLI", "file":"include/net/ip_vs.h", "line":232, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_INIT_SER", "file":"include/net/ip_vs.h", "line":233, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_LAST", "file":"include/net/ip_vs.h", "line":244, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_NONE", "file":"include/net/ip_vs.h", "line":231, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_SHUT_ACK_CLI", "file":"include/net/ip_vs.h", "line":241, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_SHUT_ACK_SER", "file":"include/net/ip_vs.h", "line":242, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_SHUT_CLI", "file":"include/net/ip_vs.h", "line":239, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SCTP_S_SHUT_SER", "file":"include/net/ip_vs.h", "line":240, "type":"e", "scope_line":230, "scope_name":"ip_vs_sctp_states", }
+,{"id":"IP_VS_SO_GET_DAEMON", "file":"include/linux/ip_vs.h", "line":67, "type":"d", }
+,{"id":"IP_VS_SO_GET_DEST", "file":"include/linux/ip_vs.h", "line":65, "type":"d", }
+,{"id":"IP_VS_SO_GET_DESTS", "file":"include/linux/ip_vs.h", "line":64, "type":"d", }
+,{"id":"IP_VS_SO_GET_INFO", "file":"include/linux/ip_vs.h", "line":61, "type":"d", }
+,{"id":"IP_VS_SO_GET_MAX", "file":"include/linux/ip_vs.h", "line":68, "type":"d", }
+,{"id":"IP_VS_SO_GET_SERVICE", "file":"include/linux/ip_vs.h", "line":63, "type":"d", }
+,{"id":"IP_VS_SO_GET_SERVICES", "file":"include/linux/ip_vs.h", "line":62, "type":"d", }
+,{"id":"IP_VS_SO_GET_TIMEOUT", "file":"include/linux/ip_vs.h", "line":66, "type":"d", }
+,{"id":"IP_VS_SO_GET_VERSION", "file":"include/linux/ip_vs.h", "line":60, "type":"d", }
+,{"id":"IP_VS_SO_SET_ADD", "file":"include/linux/ip_vs.h", "line":44, "type":"d", }
+,{"id":"IP_VS_SO_SET_ADDDEST", "file":"include/linux/ip_vs.h", "line":49, "type":"d", }
+,{"id":"IP_VS_SO_SET_DEL", "file":"include/linux/ip_vs.h", "line":46, "type":"d", }
+,{"id":"IP_VS_SO_SET_DELDEST", "file":"include/linux/ip_vs.h", "line":50, "type":"d", }
+,{"id":"IP_VS_SO_SET_EDIT", "file":"include/linux/ip_vs.h", "line":45, "type":"d", }
+,{"id":"IP_VS_SO_SET_EDITDEST", "file":"include/linux/ip_vs.h", "line":51, "type":"d", }
+,{"id":"IP_VS_SO_SET_FLUSH", "file":"include/linux/ip_vs.h", "line":47, "type":"d", }
+,{"id":"IP_VS_SO_SET_INSERT", "file":"include/linux/ip_vs.h", "line":43, "type":"d", }
+,{"id":"IP_VS_SO_SET_LIST", "file":"include/linux/ip_vs.h", "line":48, "type":"d", }
+,{"id":"IP_VS_SO_SET_MAX", "file":"include/linux/ip_vs.h", "line":58, "type":"d", }
+,{"id":"IP_VS_SO_SET_NONE", "file":"include/linux/ip_vs.h", "line":42, "type":"d", }
+,{"id":"IP_VS_SO_SET_RESTORE", "file":"include/linux/ip_vs.h", "line":55, "type":"d", }
+,{"id":"IP_VS_SO_SET_SAVE", "file":"include/linux/ip_vs.h", "line":56, "type":"d", }
+,{"id":"IP_VS_SO_SET_STARTDAEMON", "file":"include/linux/ip_vs.h", "line":53, "type":"d", }
+,{"id":"IP_VS_SO_SET_STOPDAEMON", "file":"include/linux/ip_vs.h", "line":54, "type":"d", }
+,{"id":"IP_VS_SO_SET_TIMEOUT", "file":"include/linux/ip_vs.h", "line":52, "type":"d", }
+,{"id":"IP_VS_SO_SET_ZERO", "file":"include/linux/ip_vs.h", "line":57, "type":"d", }
+,{"id":"IP_VS_STATE_BACKUP", "file":"include/linux/ip_vs.h", "line":35, "type":"d", }
+,{"id":"IP_VS_STATE_MASTER", "file":"include/linux/ip_vs.h", "line":34, "type":"d", }
+,{"id":"IP_VS_STATE_NONE", "file":"include/linux/ip_vs.h", "line":33, "type":"d", }
+,{"id":"IP_VS_SVC_F_HASHED", "file":"include/linux/ip_vs.h", "line":21, "type":"d", }
+,{"id":"IP_VS_SVC_F_ONEPACKET", "file":"include/linux/ip_vs.h", "line":22, "type":"d", }
+,{"id":"IP_VS_SVC_F_PERSISTENT", "file":"include/linux/ip_vs.h", "line":20, "type":"d", }
+,{"id":"IP_VS_TCP_S_CLOSE", "file":"include/net/ip_vs.h", "line":203, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_TCP_S_CLOSE_WAIT", "file":"include/net/ip_vs.h", "line":204, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_TCP_S_ESTABLISHED", "file":"include/net/ip_vs.h", "line":198, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_TCP_S_FIN_WAIT", "file":"include/net/ip_vs.h", "line":201, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_TCP_S_LAST", "file":"include/net/ip_vs.h", "line":208, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_TCP_S_LAST_ACK", "file":"include/net/ip_vs.h", "line":205, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_TCP_S_LISTEN", "file":"include/net/ip_vs.h", "line":206, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_TCP_S_NONE", "file":"include/net/ip_vs.h", "line":197, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_TCP_S_SYNACK", "file":"include/net/ip_vs.h", "line":207, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_TCP_S_SYN_RECV", "file":"include/net/ip_vs.h", "line":200, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_TCP_S_SYN_SENT", "file":"include/net/ip_vs.h", "line":199, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_TCP_S_TIME_WAIT", "file":"include/net/ip_vs.h", "line":202, "type":"e", "scope_line":196, }
+,{"id":"IP_VS_UDP_S_LAST", "file":"include/net/ip_vs.h", "line":216, "type":"e", "scope_line":214, }
+,{"id":"IP_VS_UDP_S_NORMAL", "file":"include/net/ip_vs.h", "line":215, "type":"e", "scope_line":214, }
+,{"id":"IP_VS_VERSION_CODE", "file":"include/linux/ip_vs.h", "line":11, "type":"d", }
+,{"id":"IP_VS_WAIT_WHILE", "file":"include/net/ip_vs.h", "line":184, "type":"d", }
+,{"id":"IP_XFRM_POLICY", "file":"include/linux/in.h", "line":76, "type":"d", }
+,{"id":"IREQ_CACHE_FLUSH", "file":"include/net/bluetooth/hci.h", "line":1037, "type":"d", }
+,{"id":"IRQ0_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":57, "type":"d", }
+,{"id":"IRQ10_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":68, "type":"d", }
+,{"id":"IRQ11_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":69, "type":"d", }
+,{"id":"IRQ12_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":70, "type":"d", }
+,{"id":"IRQ13_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":71, "type":"d", }
+,{"id":"IRQ14_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":72, "type":"d", }
+,{"id":"IRQ15_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":73, "type":"d", }
+,{"id":"IRQ1_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":59, "type":"d", }
+,{"id":"IRQ2_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":60, "type":"d", }
+,{"id":"IRQ3_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":61, "type":"d", }
+,{"id":"IRQ4_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":62, "type":"d", }
+,{"id":"IRQ5_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":63, "type":"d", }
+,{"id":"IRQ6_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":64, "type":"d", }
+,{"id":"IRQ7_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":65, "type":"d", }
+,{"id":"IRQ8_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":66, "type":"d", }
+,{"id":"IRQ9_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":67, "type":"d", }
+,{"id":"IRQC_IS_HARDIRQ", "file":"include/linux/interrupt.h", "line":94, "type":"e", "scope_line":93, }
+,{"id":"IRQC_IS_NESTED", "file":"include/linux/interrupt.h", "line":95, "type":"e", "scope_line":93, }
+,{"id":"IRQF_DISABLED", "file":"include/linux/interrupt.h", "line":59, "type":"d", }
+,{"id":"IRQF_IRQPOLL", "file":"include/linux/interrupt.h", "line":66, "type":"d", }
+,{"id":"IRQF_NOBALANCING", "file":"include/linux/interrupt.h", "line":65, "type":"d", }
+,{"id":"IRQF_NO_SUSPEND", "file":"include/linux/interrupt.h", "line":68, "type":"d", }
+,{"id":"IRQF_ONESHOT", "file":"include/linux/interrupt.h", "line":67, "type":"d", }
+,{"id":"IRQF_PERCPU", "file":"include/linux/interrupt.h", "line":64, "type":"d", }
+,{"id":"IRQF_PROBE_SHARED", "file":"include/linux/interrupt.h", "line":62, "type":"d", }
+,{"id":"IRQF_SAMPLE_RANDOM", "file":"include/linux/interrupt.h", "line":60, "type":"d", }
+,{"id":"IRQF_SHARED", "file":"include/linux/interrupt.h", "line":61, "type":"d", }
+,{"id":"IRQF_TIMER", "file":"include/linux/interrupt.h", "line":70, "type":"d", }
+,{"id":"IRQF_TRIGGER_FALLING", "file":"include/linux/interrupt.h", "line":31, "type":"d", }
+,{"id":"IRQF_TRIGGER_HIGH", "file":"include/linux/interrupt.h", "line":32, "type":"d", }
+,{"id":"IRQF_TRIGGER_LOW", "file":"include/linux/interrupt.h", "line":33, "type":"d", }
+,{"id":"IRQF_TRIGGER_MASK", "file":"include/linux/interrupt.h", "line":34, "type":"d", }
+,];
+xr_frag_insert('t/ea/1f58a166aa32a96dd0324c6ce685b857192765.xr', __xr_tmp);

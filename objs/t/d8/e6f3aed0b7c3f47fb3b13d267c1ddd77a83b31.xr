@@ -1,0 +1,95 @@
+var __xr_tmp = [
+{"id":"blk_queue_find_tag", "file":"block/blk-tag.c", "line":23, "type":"f", }
+,{"id":"blk_queue_find_tag", "file":"include/scsi/scsi_tcq.h", "line":128, "type":"c", "scope_line":122, "scope_name":"scsi_find_tag", }
+,{"id":"blk_queue_flushing", "file":"include/linux/blkdev.h", "line":524, "type":"d", }
+,{"id":"blk_queue_free_tags", "file":"block/blk-tag.c", "line":101, "type":"f", }
+,{"id":"blk_queue_free_tags", "file":"include/scsi/scsi_tcq.h", "line":83, "type":"c", "scope_line":80, "scope_name":"scsi_deactivate_tcq", }
+,{"id":"blk_queue_full", "file":"block/blk-core.c", "line":769, "type":"c", "scope_line":747, "scope_name":"get_request", }
+,{"id":"blk_queue_full", "file":"include/linux/blkdev.h", "line":566, "type":"f", }
+,{"id":"blk_queue_init_tags", "file":"block/blk-tag.c", "line":178, "type":"f", }
+,{"id":"blk_queue_init_tags", "file":"include/scsi/scsi_tcq.h", "line":70, "type":"c", "scope_line":64, "scope_name":"scsi_activate_tcq", }
+,{"id":"blk_queue_invalidate_tags", "file":"block/blk-tag.c", "line":399, "type":"f", }
+,{"id":"blk_queue_io_min", "file":"block/blk-settings.c", "line":414, "type":"f", }
+,{"id":"blk_queue_io_min", "file":"drivers/block/virtio_blk.c", "line":483, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_io_min", "file":"drivers/scsi/sd.c", "line":2030, "type":"c", "scope_line":2018, "scope_name":"sd_read_block_limits", }
+,{"id":"blk_queue_io_opt", "file":"block/blk-settings.c", "line":452, "type":"f", }
+,{"id":"blk_queue_io_opt", "file":"drivers/block/virtio_blk.c", "line":489, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_io_opt", "file":"drivers/scsi/sd.c", "line":2032, "type":"c", "scope_line":2018, "scope_name":"sd_read_block_limits", }
+,{"id":"blk_queue_io_stat", "file":"include/linux/blkdev.h", "line":522, "type":"d", }
+,{"id":"blk_queue_ktype", "file":"block/blk-sysfs.c", "line":480, "type":"v", }
+,{"id":"blk_queue_lld_busy", "file":"block/blk-settings.c", "line":96, "type":"f", }
+,{"id":"blk_queue_lld_busy", "file":"drivers/md/dm.c", "line":2247, "type":"c", "scope_line":2230, "scope_name":"dm_init_request_based_queue", }
+,{"id":"blk_queue_lld_busy", "file":"drivers/scsi/scsi_lib.c", "line":1661, "type":"c", "scope_line":1650, "scope_name":"scsi_alloc_queue", }
+,{"id":"blk_queue_logical_block_size", "file":"block/blk-settings.c", "line":324, "type":"f", }
+,{"id":"blk_queue_logical_block_size", "file":"drivers/block/pktcdvd.c", "line":2629, "type":"c", "scope_line":2624, "scope_name":"pkt_init_queue", }
+,{"id":"blk_queue_logical_block_size", "file":"drivers/block/virtio_blk.c", "line":461, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_logical_block_size", "file":"drivers/scsi/sd.c", "line":1742, "type":"c", "scope_line":1656, "scope_name":"sd_read_capacity", }
+,{"id":"blk_queue_logical_block_size", "file":"drivers/scsi/sr.c", "line":750, "type":"c", "scope_line":674, "scope_name":"get_sectorsize", }
+,{"id":"blk_queue_make_request", "file":"block/blk-core.c", "line":619, "type":"c", "scope_line":598, "scope_name":"blk_init_allocated_queue_node", }
+,{"id":"blk_queue_make_request", "file":"block/blk-settings.c", "line":154, "type":"f", }
+,{"id":"blk_queue_make_request", "file":"drivers/block/brd.c", "line":484, "type":"c", "scope_line":469, "scope_name":"brd_alloc", }
+,{"id":"blk_queue_make_request", "file":"drivers/block/loop.c", "line":830, "type":"c", "scope_line":740, "scope_name":"loop_set_fd", }
+,{"id":"blk_queue_make_request", "file":"drivers/block/pktcdvd.c", "line":2628, "type":"c", "scope_line":2624, "scope_name":"pkt_init_queue", }
+,{"id":"blk_queue_make_request", "file":"drivers/md/dm.c", "line":1939, "type":"c", "scope_line":1923, "scope_name":"dm_init_md_queue", }
+,{"id":"blk_queue_max_discard_sectors", "file":"block/blk-settings.c", "line":265, "type":"f", }
+,{"id":"blk_queue_max_hw_sectors", "file":"block/blk-settings.c", "line":175, "type":"c", "scope_line":154, "scope_name":"blk_queue_make_request", }
+,{"id":"blk_queue_max_hw_sectors", "file":"block/blk-settings.c", "line":246, "type":"f", }
+,{"id":"blk_queue_max_hw_sectors", "file":"drivers/ata/libata-scsi.c", "line":1130, "type":"c", "scope_line":1123, "scope_name":"ata_scsi_dev_config", }
+,{"id":"blk_queue_max_hw_sectors", "file":"drivers/block/brd.c", "line":486, "type":"c", "scope_line":469, "scope_name":"brd_alloc", }
+,{"id":"blk_queue_max_hw_sectors", "file":"drivers/block/pktcdvd.c", "line":2324, "type":"c", "scope_line":2288, "scope_name":"pkt_open_dev", }
+,{"id":"blk_queue_max_hw_sectors", "file":"drivers/block/pktcdvd.c", "line":2630, "type":"c", "scope_line":2624, "scope_name":"pkt_init_queue", }
+,{"id":"blk_queue_max_hw_sectors", "file":"drivers/block/virtio_blk.c", "line":444, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_max_hw_sectors", "file":"drivers/ide/ide-probe.c", "line":771, "type":"c", "scope_line":747, "scope_name":"ide_init_queue", }
+,{"id":"blk_queue_max_hw_sectors", "file":"drivers/scsi/scsi_lib.c", "line":1628, "type":"c", "scope_line":1612, "scope_name":"__scsi_alloc_queue", }
+,{"id":"blk_queue_max_hw_sectors", "file":"drivers/scsi/scsi_scan.c", "line":883, "type":"c", "scope_line":747, "scope_name":"scsi_add_lun", }
+,{"id":"blk_queue_max_segment_size", "file":"block/blk-settings.c", "line":302, "type":"f", }
+,{"id":"blk_queue_max_segment_size", "file":"drivers/block/virtio_blk.c", "line":452, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_max_segment_size", "file":"drivers/block/virtio_blk.c", "line":454, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_max_segment_size", "file":"drivers/scsi/scsi_lib.c", "line":1633, "type":"c", "scope_line":1612, "scope_name":"__scsi_alloc_queue", }
+,{"id":"blk_queue_max_segments", "file":"block/blk-settings.c", "line":281, "type":"f", }
+,{"id":"blk_queue_max_segments", "file":"block/blk-settings.c", "line":732, "type":"c", "scope_line":725, "scope_name":"blk_queue_dma_drain", }
+,{"id":"blk_queue_max_segments", "file":"drivers/block/virtio_blk.c", "line":438, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_max_segments", "file":"drivers/ide/ide-probe.c", "line":787, "type":"c", "scope_line":747, "scope_name":"ide_init_queue", }
+,{"id":"blk_queue_max_segments", "file":"drivers/scsi/scsi_lib.c", "line":1625, "type":"c", "scope_line":1612, "scope_name":"__scsi_alloc_queue", }
+,{"id":"blk_queue_merge_bvec", "file":"block/blk-settings.c", "line":72, "type":"f", }
+,{"id":"blk_queue_merge_bvec", "file":"drivers/block/pktcdvd.c", "line":2631, "type":"c", "scope_line":2624, "scope_name":"pkt_init_queue", }
+,{"id":"blk_queue_merge_bvec", "file":"drivers/md/dm.c", "line":1942, "type":"c", "scope_line":1923, "scope_name":"dm_init_md_queue", }
+,{"id":"blk_queue_nomerges", "file":"include/linux/blkdev.h", "line":518, "type":"d", }
+,{"id":"blk_queue_nonrot", "file":"include/linux/blkdev.h", "line":521, "type":"d", }
+,{"id":"blk_queue_noxmerges", "file":"include/linux/blkdev.h", "line":519, "type":"d", }
+,{"id":"blk_queue_ordered", "file":"block/blk-barrier.c", "line":24, "type":"f", }
+,{"id":"blk_queue_ordered", "file":"drivers/block/brd.c", "line":485, "type":"c", "scope_line":469, "scope_name":"brd_alloc", }
+,{"id":"blk_queue_ordered", "file":"drivers/block/loop.c", "line":835, "type":"c", "scope_line":740, "scope_name":"loop_set_fd", }
+,{"id":"blk_queue_ordered", "file":"drivers/block/virtio_blk.c", "line":401, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_ordered", "file":"drivers/block/virtio_blk.c", "line":410, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_ordered", "file":"drivers/block/virtio_blk.c", "line":418, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_ordered", "file":"drivers/md/dm.c", "line":2248, "type":"c", "scope_line":2230, "scope_name":"dm_init_request_based_queue", }
+,{"id":"blk_queue_ordered", "file":"drivers/scsi/sd.c", "line":2164, "type":"c", "scope_line":2107, "scope_name":"sd_revalidate_disk", }
+,{"id":"blk_queue_physical_block_size", "file":"block/blk-settings.c", "line":346, "type":"f", }
+,{"id":"blk_queue_physical_block_size", "file":"drivers/block/virtio_blk.c", "line":470, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_physical_block_size", "file":"drivers/scsi/sd.c", "line":1776, "type":"c", "scope_line":1656, "scope_name":"sd_read_capacity", }
+,{"id":"blk_queue_plugged", "file":"include/linux/blkdev.h", "line":515, "type":"d", }
+,{"id":"blk_queue_prep_rq", "file":"block/blk-settings.c", "line":33, "type":"f", }
+,{"id":"blk_queue_prep_rq", "file":"drivers/md/dm.c", "line":2246, "type":"c", "scope_line":2230, "scope_name":"dm_init_request_based_queue", }
+,{"id":"blk_queue_prep_rq", "file":"drivers/scsi/scsi_lib.c", "line":1658, "type":"c", "scope_line":1650, "scope_name":"scsi_alloc_queue", }
+,{"id":"blk_queue_prep_rq", "file":"drivers/scsi/sd.c", "line":2276, "type":"c", "scope_line":2242, "scope_name":"sd_probe_async", }
+,{"id":"blk_queue_prep_rq", "file":"drivers/scsi/sd.c", "line":2415, "type":"c", "scope_line":2407, "scope_name":"sd_remove", }
+,{"id":"blk_queue_prep_rq", "file":"drivers/scsi/sr.c", "line":645, "type":"c", "scope_line":584, "scope_name":"sr_probe", }
+,{"id":"blk_queue_prep_rq", "file":"drivers/scsi/sr.c", "line":904, "type":"c", "scope_line":900, "scope_name":"sr_remove", }
+,{"id":"blk_queue_resize_tags", "file":"block/blk-tag.c", "line":191, "type":"c", "scope_line":178, "scope_name":"blk_queue_init_tags", }
+,{"id":"blk_queue_resize_tags", "file":"block/blk-tag.c", "line":220, "type":"f", }
+,{"id":"blk_queue_resize_tags", "file":"drivers/scsi/scsi.c", "line":899, "type":"c", "scope_line":877, "scope_name":"scsi_adjust_queue_depth", }
+,{"id":"blk_queue_rq_timed_out", "file":"block/blk-settings.c", "line":90, "type":"f", }
+,{"id":"blk_queue_rq_timed_out", "file":"drivers/scsi/scsi_lib.c", "line":1660, "type":"c", "scope_line":1650, "scope_name":"scsi_alloc_queue", }
+,{"id":"blk_queue_rq_timeout", "file":"block/blk-settings.c", "line":84, "type":"f", }
+,{"id":"blk_queue_rq_timeout", "file":"drivers/scsi/scsi_sysfs.c", "line":524, "type":"c", "scope_line":516, "scope_name":"sdev_store_timeout", }
+,{"id":"blk_queue_rq_timeout", "file":"drivers/scsi/sd.c", "line":2362, "type":"c", "scope_line":2313, "scope_name":"sd_probe", }
+,{"id":"blk_queue_rq_timeout", "file":"drivers/scsi/sd.c", "line":2364, "type":"c", "scope_line":2313, "scope_name":"sd_probe", }
+,{"id":"blk_queue_rq_timeout", "file":"drivers/scsi/sr.c", "line":622, "type":"c", "scope_line":584, "scope_name":"sr_probe", }
+,{"id":"blk_queue_secdiscard", "file":"include/linux/blkdev.h", "line":528, "type":"d", }
+,{"id":"blk_queue_segment_boundary", "file":"block/blk-settings.c", "line":746, "type":"f", }
+,{"id":"blk_queue_segment_boundary", "file":"drivers/ide/ide-probe.c", "line":767, "type":"c", "scope_line":747, "scope_name":"ide_init_queue", }
+,{"id":"blk_queue_segment_boundary", "file":"drivers/scsi/scsi_lib.c", "line":1630, "type":"c", "scope_line":1612, "scope_name":"__scsi_alloc_queue", }
+,{"id":"blk_queue_softirq_done", "file":"block/blk-settings.c", "line":78, "type":"f", }
+,];
+xr_frag_insert('t/d8/e6f3aed0b7c3f47fb3b13d267c1ddd77a83b31.xr', __xr_tmp);

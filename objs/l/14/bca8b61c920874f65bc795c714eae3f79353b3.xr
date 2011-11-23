@@ -1,0 +1,15 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#__LINUX_STRINGIFY_H\">__LINUX_STRINGIFY_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#__LINUX_STRINGIFY_H\">__LINUX_STRINGIFY_H</a>", 
+"", 
+"<span class=\"comment\">/* Indirect stringification.  Doing two levels allows the parameter to be a</span>", 
+"<span class=\"comment\"> * macro itself.  For example, compile with -DFOO=bar, __stringify(FOO)</span>", 
+"<span class=\"comment\"> * converts to \"bar\".</span>", 
+"<span class=\"comment\"> */</span>", 
+"", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#__stringify_1\">__stringify_1</a>(<a class=\"id\" href=\"#x\">x</a>...)<span class=\"ts\"/>#<a class=\"id\" href=\"#x\">x</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#__stringify\">__stringify</a>(<a class=\"id\" href=\"#x\">x</a>...)<span class=\"ts\"/><a class=\"id\" href=\"#__stringify_1\">__stringify_1</a>(<a class=\"id\" href=\"#x\">x</a>)", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a><span class=\"ts\"/><span class=\"comment\">/* !__LINUX_STRINGIFY_H */</span>", 
+];
+xr_frag_insert('l/14/bca8b61c920874f65bc795c714eae3f79353b3.xr', __xr_tmp);

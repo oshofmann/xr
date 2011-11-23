@@ -1,0 +1,172 @@
+var __xr_tmp = [
+{"id":"nr_free_pagecache_pages", "file":"mm/memory_hotplug.c", "line":893, "type":"c", "scope_line":786, "scope_name":"offline_pages", }
+,{"id":"nr_free_pagecache_pages", "file":"mm/page_alloc.c", "line":2312, "type":"f", }
+,{"id":"nr_free_pagecache_pages", "file":"mm/page_alloc.c", "line":3069, "type":"c", "scope_line":3055, "scope_name":"build_all_zonelists", }
+,{"id":"nr_free_pages", "file":"drivers/md/dm-kcopyd.c", "line":38, "type":"m", "scope_line":34, "scope_name":"struct dm_kcopyd_client", }
+,{"id":"nr_free_pages", "file":"include/linux/swap.h", "line":205, "type":"d", }
+,{"id":"nr_free_zone_pages", "file":"mm/page_alloc.c", "line":2280, "type":"f", }
+,{"id":"nr_free_zone_pages", "file":"mm/page_alloc.c", "line":2305, "type":"c", "scope_line":2303, "scope_name":"nr_free_buffer_pages", }
+,{"id":"nr_free_zone_pages", "file":"mm/page_alloc.c", "line":2314, "type":"c", "scope_line":2312, "scope_name":"nr_free_pagecache_pages", }
+,{"id":"nr_garbage", "file":"kernel/kprobes.c", "line":125, "type":"m", "scope_line":122, "scope_name":"struct kprobe_insn_cache", }
+,{"id":"nr_goto_rules", "file":"include/net/fib_rules.h", "line":42, "type":"m", "scope_line":36, "scope_name":"struct fib_rules_ops", }
+,{"id":"nr_gpfns", "file":"include/xen/interface/memory.h", "line":176, "type":"m", "scope_line":171, "scope_name":"struct xen_translate_gpfn_list", }
+,{"id":"nr_grant_frames", "file":"drivers/xen/grant-table.c", "line":59, "type":"v", }
+,{"id":"nr_groups", "file":"include/linux/percpu.h", "line":92, "type":"m", "scope_line":84, "scope_name":"struct pcpu_alloc_info", }
+,{"id":"nr_hangs", "file":"include/linux/hrtimer.h", "line":180, "type":"m", "scope_line":171, "scope_name":"struct hrtimer_cpu_base", }
+,{"id":"nr_huge_pages", "file":"include/linux/hugetlb.h", "line":214, "type":"m", "scope_line":208, "scope_name":"struct hstate", }
+,{"id":"nr_huge_pages_node", "file":"include/linux/hugetlb.h", "line":220, "type":"m", "scope_line":208, "scope_name":"struct hstate", }
+,{"id":"nr_hugepages_attr", "file":"mm/hugetlb.c", "line":1429, "type":"v", }
+,{"id":"nr_hugepages_mempolicy_attr", "file":"mm/hugetlb.c", "line":1448, "type":"v", }
+,{"id":"nr_hugepages_mempolicy_show", "file":"mm/hugetlb.c", "line":1437, "type":"f", }
+,{"id":"nr_hugepages_mempolicy_store", "file":"mm/hugetlb.c", "line":1443, "type":"f", }
+,{"id":"nr_hugepages_show", "file":"mm/hugetlb.c", "line":1418, "type":"f", }
+,{"id":"nr_hugepages_show_common", "file":"mm/hugetlb.c", "line":1361, "type":"f", }
+,{"id":"nr_hugepages_show_common", "file":"mm/hugetlb.c", "line":1421, "type":"c", "scope_line":1418, "scope_name":"nr_hugepages_show", }
+,{"id":"nr_hugepages_show_common", "file":"mm/hugetlb.c", "line":1440, "type":"c", "scope_line":1437, "scope_name":"nr_hugepages_mempolicy_show", }
+,{"id":"nr_hugepages_store", "file":"mm/hugetlb.c", "line":1424, "type":"f", }
+,{"id":"nr_hugepages_store_common", "file":"mm/hugetlb.c", "line":1376, "type":"f", }
+,{"id":"nr_hugepages_store_common", "file":"mm/hugetlb.c", "line":1427, "type":"c", "scope_line":1424, "scope_name":"nr_hugepages_store", }
+,{"id":"nr_hugepages_store_common", "file":"mm/hugetlb.c", "line":1446, "type":"c", "scope_line":1443, "scope_name":"nr_hugepages_mempolicy_store", }
+,{"id":"nr_idle", "file":"kernel/workqueue.c", "line":155, "type":"m", "scope_line":148, "scope_name":"struct global_cwq", }
+,{"id":"nr_ids", "file":"kernel/pid_namespace.c", "line":21, "type":"m", "scope_line":20, "scope_name":"struct pid_cache", }
+,{"id":"nr_in_flight", "file":"kernel/workqueue.c", "line":183, "type":"m", "scope_line":178, "scope_name":"struct cpu_workqueue_struct", }
+,{"id":"nr_ingress_mappings", "file":"net/8021q/vlan.h", "line":53, "type":"m", "scope_line":52, "scope_name":"struct vlan_dev_info", }
+,{"id":"nr_inodes", "file":"include/linux/fs.h", "line":43, "type":"m", "scope_line":42, "scope_name":"struct inodes_stat_t", }
+,{"id":"nr_inodes", "file":"include/linux/hugetlb.h", "line":136, "type":"m", "scope_line":131, "scope_name":"struct hugetlbfs_config", }
+,{"id":"nr_io_wait", "file":"include/linux/cgroupstats.h", "line":37, "type":"m", "scope_line":31, "scope_name":"struct cgroupstats", }
+,{"id":"nr_ioapic_registers", "file":"arch/x86/include/asm/io_apic.h", "line":115, "type":"v", }
+,{"id":"nr_ioapics", "file":"arch/x86/include/asm/io_apic.h", "line":114, "type":"v", }
+,{"id":"nr_iovecs", "file":"include/linux/dmaengine.h", "line":807, "type":"m", "scope_line":806, "scope_name":"struct dma_pinned_list", }
+,{"id":"nr_iowait", "file":"fs/proc/stat.c", "line":121, "type":"c", "scope_line":24, "scope_name":"show_stat", }
+,{"id":"nr_iowait", "file":"kernel/sched.c", "line":2933, "type":"f", }
+,{"id":"nr_iowait", "file":"kernel/sched.c", "line":497, "type":"m", "scope_line":449, "scope_name":"struct rq", }
+,{"id":"nr_iowait_cpu", "file":"drivers/cpuidle/governors/menu.c", "line":146, "type":"c", "scope_line":136, "scope_name":"which_bucket", }
+,{"id":"nr_iowait_cpu", "file":"drivers/cpuidle/governors/menu.c", "line":178, "type":"c", "scope_line":169, "scope_name":"performance_multiplier", }
+,{"id":"nr_iowait_cpu", "file":"kernel/sched.c", "line":2943, "type":"f", }
+,{"id":"nr_iowait_cpu", "file":"kernel/time/tick-sched.c", "line":164, "type":"c", "scope_line":156, "scope_name":"update_ts_time_stats", }
+,{"id":"nr_ipc_ns", "file":"ipc/msgutil.c", "line":37, "type":"v", }
+,{"id":"nr_irqs", "file":"kernel/irq/handle.c", "line":72, "type":"v", }
+,{"id":"nr_irqs_gsi", "file":"arch/x86/kernel/apic/io_apic.c", "line":102, "type":"v", }
+,{"id":"nr_jobs", "file":"drivers/md/dm-kcopyd.c", "line":43, "type":"m", "scope_line":34, "scope_name":"struct dm_kcopyd_client", }
+,{"id":"nr_kernel_pages", "file":"mm/page_alloc.c", "line":170, "type":"v", }
+,{"id":"nr_lastnet", "file":"include/linux/atalk.h", "line":40, "type":"m", "scope_line":37, "scope_name":"struct atalk_netrange", }
+,{"id":"nr_legacy_irqs", "file":"arch/x86/include/asm/i8259.h", "line":56, "type":"m", "scope_line":55, "scope_name":"struct legacy_pic", }
+,{"id":"nr_load_updates", "file":"kernel/sched.c", "line":469, "type":"m", "scope_line":449, "scope_name":"struct rq", }
+,{"id":"nr_lumpy_dirty", "file":"include/trace/events/vmscan.h", "line":173, "type":"m", "scope_line":173, "scope_name":"struct ftrace_raw_mm_vmscan_lru_isolate_template", }
+,{"id":"nr_lumpy_failed", "file":"include/trace/events/vmscan.h", "line":173, "type":"m", "scope_line":173, "scope_name":"struct ftrace_raw_mm_vmscan_lru_isolate_template", }
+,{"id":"nr_lumpy_taken", "file":"include/trace/events/vmscan.h", "line":173, "type":"m", "scope_line":173, "scope_name":"struct ftrace_raw_mm_vmscan_lru_isolate_template", }
+,{"id":"nr_map", "file":"arch/x86/include/asm/e820.h", "line":65, "type":"m", "scope_line":64, "scope_name":"struct e820map", }
+,{"id":"nr_map", "file":"include/linux/efi.h", "line":241, "type":"m", "scope_line":237, "scope_name":"struct efi_memory_map", }
+,{"id":"nr_meta_pages", "file":"kernel/power/snapshot.c", "line":1036, "type":"v", }
+,{"id":"nr_migrations", "file":"include/linux/sched.h", "line":1130, "type":"m", "scope_line":1119, "scope_name":"struct sched_entity", }
+,{"id":"nr_migrations_cold", "file":"include/linux/sched.h", "line":1101, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"nr_mmap_events", "file":"kernel/perf_event.c", "line":48, "type":"v", }
+,{"id":"nr_mtrr_spare_reg", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":462, "type":"v", }
+,{"id":"nr_neigh", "file":"include/net/netrom.h", "line":85, "type":"s", }
+,{"id":"nr_neigh_for_each", "file":"include/net/netrom.h", "line":157, "type":"d", }
+,{"id":"nr_neigh_for_each_safe", "file":"include/net/netrom.h", "line":160, "type":"d", }
+,{"id":"nr_neigh_hold", "file":"include/net/netrom.h", "line":130, "type":"d", }
+,{"id":"nr_neigh_put", "file":"include/net/netrom.h", "line":133, "type":"f", }
+,{"id":"nr_node", "file":"include/net/netrom.h", "line":105, "type":"s", }
+,{"id":"nr_node_for_each", "file":"include/net/netrom.h", "line":163, "type":"d", }
+,{"id":"nr_node_for_each_safe", "file":"include/net/netrom.h", "line":166, "type":"d", }
+,{"id":"nr_node_hold", "file":"include/net/netrom.h", "line":120, "type":"d", }
+,{"id":"nr_node_ids", "file":"mm/page_alloc.c", "line":209, "type":"v", }
+,{"id":"nr_node_lock", "file":"include/net/netrom.h", "line":145, "type":"f", }
+,{"id":"nr_node_put", "file":"include/net/netrom.h", "line":123, "type":"f", }
+,{"id":"nr_node_put", "file":"include/net/netrom.h", "line":154, "type":"c", "scope_line":151, "scope_name":"nr_node_unlock", }
+,{"id":"nr_node_unlock", "file":"include/net/netrom.h", "line":151, "type":"f", }
+,{"id":"nr_nodemap_entries", "file":"mm/page_alloc.c", "line":196, "type":"v", }
+,{"id":"nr_online_nodes", "file":"mm/page_alloc.c", "line":210, "type":"v", }
+,{"id":"nr_overcommit_huge_pages", "file":"include/linux/hugetlb.h", "line":218, "type":"m", "scope_line":208, "scope_name":"struct hstate", }
+,{"id":"nr_overcommit_hugepages_attr", "file":"mm/hugetlb.c", "line":1475, "type":"v", }
+,{"id":"nr_overcommit_hugepages_show", "file":"mm/hugetlb.c", "line":1452, "type":"f", }
+,{"id":"nr_overcommit_hugepages_store", "file":"mm/hugetlb.c", "line":1458, "type":"f", }
+,{"id":"nr_pages", "file":"drivers/base/firmware_class.c", "line":93, "type":"m", "scope_line":88, "scope_name":"struct firmware_priv", }
+,{"id":"nr_pages", "file":"drivers/md/dm-kcopyd.c", "line":202, "type":"m", "scope_line":178, "scope_name":"struct kcopyd_job", }
+,{"id":"nr_pages", "file":"drivers/md/dm-kcopyd.c", "line":37, "type":"m", "scope_line":34, "scope_name":"struct dm_kcopyd_client", }
+,{"id":"nr_pages", "file":"fs/fs-writeback.c", "line":36, "type":"m", "scope_line":35, "scope_name":"struct wb_writeback_work", }
+,{"id":"nr_pages", "file":"include/linux/aio.h", "line":171, "type":"m", "scope_line":165, "scope_name":"struct aio_ring_info", }
+,{"id":"nr_pages", "file":"include/linux/dmaengine.h", "line":802, "type":"m", "scope_line":800, "scope_name":"struct dma_page_list", }
+,{"id":"nr_pages", "file":"include/linux/memory.h", "line":51, "type":"m", "scope_line":49, "scope_name":"struct memory_notify", }
+,{"id":"nr_pages", "file":"include/linux/memory.h", "line":64, "type":"m", "scope_line":62, "scope_name":"struct memory_isolate_notify", }
+,{"id":"nr_pages", "file":"include/linux/perf_event.h", "line":617, "type":"m", "scope_line":610, "scope_name":"struct perf_buffer", }
+,{"id":"nr_pages", "file":"include/linux/splice.h", "line":54, "type":"m", "scope_line":51, "scope_name":"struct splice_pipe_desc", }
+,{"id":"nr_pages", "file":"include/linux/swap.h", "line":132, "type":"m", "scope_line":129, "scope_name":"struct swap_extent", }
+,{"id":"nr_pages", "file":"include/linux/vmalloc.h", "line":34, "type":"m", "scope_line":28, "scope_name":"struct vm_struct", }
+,{"id":"nr_pages", "file":"include/trace/events/writeback.h", "line":13, "type":"m", "scope_line":13, "scope_name":"struct ftrace_raw_writeback_work_class", }
+,{"id":"nr_pages", "file":"include/xen/interface/xen.h", "line":428, "type":"m", "scope_line":425, "scope_name":"struct start_info", }
+,{"id":"nr_pdflush_threads", "file":"include/linux/writeback.h", "line":154, "type":"v", }
+,{"id":"nr_phase", "file":"include/linux/atalk.h", "line":38, "type":"m", "scope_line":37, "scope_name":"struct atalk_netrange", }
+,{"id":"nr_phys_segments", "file":"include/linux/blkdev.h", "line":126, "type":"m", "scope_line":79, "scope_name":"struct request", }
+,{"id":"nr_pmp_links", "file":"include/linux/libata.h", "line":748, "type":"m", "scope_line":711, "scope_name":"struct ata_port", }
+,{"id":"nr_ports", "file":"include/xen/interface/physdev.h", "line":79, "type":"m", "scope_line":76, "scope_name":"struct physdev_set_iobitmap", }
+,{"id":"nr_ports", "file":"include/xen/interface/sched.h", "line":62, "type":"m", "scope_line":60, "scope_name":"struct sched_poll", }
+,{"id":"nr_processes", "file":"fs/proc/root.c", "line":144, "type":"c", "scope_line":140, "scope_name":"proc_root_getattr", }
+,{"id":"nr_processes", "file":"kernel/fork.c", "line":98, "type":"f", }
+,{"id":"nr_pt_frames", "file":"include/xen/interface/xen.h", "line":445, "type":"m", "scope_line":425, "scope_name":"struct start_info", }
+,{"id":"nr_ptes", "file":"include/linux/mm_types.h", "line":263, "type":"m", "scope_line":232, "scope_name":"struct mm_struct", }
+,{"id":"nr_range", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":55, "type":"v", }
+,{"id":"nr_range_new", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":597, "type":"v", }
+,{"id":"nr_reclaimed", "file":"include/trace/events/vmscan.h", "line":134, "type":"m", "scope_line":134, "scope_name":"struct ftrace_raw_mm_vmscan_direct_reclaim_end_template", }
+,{"id":"nr_reclaimed", "file":"mm/vmscan.c", "line":59, "type":"m", "scope_line":54, "scope_name":"struct scan_control", }
+,{"id":"nr_replays", "file":"fs/jbd/recovery.c", "line":34, "type":"m", "scope_line":29, "scope_name":"struct recovery_info", }
+,{"id":"nr_replays", "file":"fs/jbd2/recovery.c", "line":35, "type":"m", "scope_line":30, "scope_name":"struct recovery_info", }
+,{"id":"nr_requested", "file":"include/trace/events/vmscan.h", "line":173, "type":"m", "scope_line":173, "scope_name":"struct ftrace_raw_mm_vmscan_lru_isolate_template", }
+,{"id":"nr_requests", "file":"include/linux/blkdev.h", "line":326, "type":"m", "scope_line":253, "scope_name":"struct request_queue", }
+,{"id":"nr_requests", "file":"include/linux/smb_fs_sb.h", "line":46, "type":"m", "scope_line":37, "scope_name":"struct smb_sb_info", }
+,{"id":"nr_retries", "file":"include/linux/hrtimer.h", "line":179, "type":"m", "scope_line":171, "scope_name":"struct hrtimer_cpu_base", }
+,{"id":"nr_returns", "file":"include/linux/soundcard.h", "line":536, "type":"m", "scope_line":534, "scope_name":"mpu_command_rec", }
+,{"id":"nr_revoke_hits", "file":"fs/jbd/recovery.c", "line":36, "type":"m", "scope_line":29, "scope_name":"struct recovery_info", }
+,{"id":"nr_revoke_hits", "file":"fs/jbd2/recovery.c", "line":37, "type":"m", "scope_line":30, "scope_name":"struct recovery_info", }
+,{"id":"nr_revokes", "file":"fs/jbd/recovery.c", "line":35, "type":"m", "scope_line":29, "scope_name":"struct recovery_info", }
+,{"id":"nr_revokes", "file":"fs/jbd2/recovery.c", "line":36, "type":"m", "scope_line":30, "scope_name":"struct recovery_info", }
+,{"id":"nr_route", "file":"include/net/netrom.h", "line":99, "type":"s", }
+,{"id":"nr_route_struct", "file":"include/linux/netrom.h", "line":20, "type":"s", }
+,{"id":"nr_rq", "file":"include/trace/events/block.h", "line":400, "type":"m", "scope_line":400, "scope_name":"struct ftrace_raw_block_unplug", }
+,{"id":"nr_running", "file":"fs/proc/loadavg.c", "line":19, "type":"c", "scope_line":13, "scope_name":"loadavg_proc_show", }
+,{"id":"nr_running", "file":"fs/proc/stat.c", "line":121, "type":"c", "scope_line":24, "scope_name":"show_stat", }
+,{"id":"nr_running", "file":"include/linux/cgroupstats.h", "line":33, "type":"m", "scope_line":31, "scope_name":"struct cgroupstats", }
+,{"id":"nr_running", "file":"kernel/sched.c", "line":2895, "type":"f", }
+,{"id":"nr_running", "file":"kernel/sched.c", "line":315, "type":"m", "scope_line":313, "scope_name":"struct cfs_rq", }
+,{"id":"nr_running", "file":"kernel/sched.c", "line":457, "type":"m", "scope_line":449, "scope_name":"struct rq", }
+,{"id":"nr_saved_scan", "file":"include/linux/mmzone.h", "line":277, "type":"m", "scope_line":262, "scope_name":"struct zone_reclaim_stat", }
+,{"id":"nr_scan_try_batch", "file":"mm/vmscan.c", "line":1604, "type":"f", }
+,{"id":"nr_scan_try_batch", "file":"mm/vmscan.c", "line":1719, "type":"c", "scope_line":1628, "scope_name":"get_scan_count", }
+,{"id":"nr_scanned", "file":"include/trace/events/vmscan.h", "line":173, "type":"m", "scope_line":173, "scope_name":"struct ftrace_raw_mm_vmscan_lru_isolate_template", }
+,{"id":"nr_scanned", "file":"mm/vmscan.c", "line":56, "type":"m", "scope_line":54, "scope_name":"struct scan_control", }
+,{"id":"nr_sector", "file":"include/trace/events/block.h", "line":11, "type":"m", "scope_line":11, "scope_name":"struct ftrace_raw_block_rq_with_error", }
+,{"id":"nr_sector", "file":"include/trace/events/block.h", "line":176, "type":"m", "scope_line":176, "scope_name":"struct ftrace_raw_block_bio_bounce", }
+,{"id":"nr_sector", "file":"include/trace/events/block.h", "line":213, "type":"m", "scope_line":213, "scope_name":"struct ftrace_raw_block_bio_complete", }
+,{"id":"nr_sector", "file":"include/trace/events/block.h", "line":240, "type":"m", "scope_line":240, "scope_name":"struct ftrace_raw_block_bio", }
+,{"id":"nr_sector", "file":"include/trace/events/block.h", "line":312, "type":"m", "scope_line":312, "scope_name":"struct ftrace_raw_block_get_rq", }
+,{"id":"nr_sector", "file":"include/trace/events/block.h", "line":498, "type":"m", "scope_line":498, "scope_name":"struct ftrace_raw_block_remap", }
+,{"id":"nr_sector", "file":"include/trace/events/block.h", "line":542, "type":"m", "scope_line":542, "scope_name":"struct ftrace_raw_block_rq_remap", }
+,{"id":"nr_sector", "file":"include/trace/events/block.h", "line":96, "type":"m", "scope_line":96, "scope_name":"struct ftrace_raw_block_rq", }
+,{"id":"nr_sectors", "file":"block/cfq-iosched.c", "line":152, "type":"m", "scope_line":98, "scope_name":"struct cfq_queue", }
+,{"id":"nr_sects", "file":"fs/partitions/msdos.c", "line":151, "type":"c", "scope_line":108, "scope_name":"parse_extended", }
+,{"id":"nr_sects", "file":"fs/partitions/msdos.c", "line":157, "type":"c", "scope_line":108, "scope_name":"parse_extended", }
+,{"id":"nr_sects", "file":"fs/partitions/msdos.c", "line":184, "type":"c", "scope_line":108, "scope_name":"parse_extended", }
+,{"id":"nr_sects", "file":"fs/partitions/msdos.c", "line":190, "type":"c", "scope_line":108, "scope_name":"parse_extended", }
+,{"id":"nr_sects", "file":"fs/partitions/msdos.c", "line":36, "type":"f", }
+,{"id":"nr_sects", "file":"fs/partitions/msdos.c", "line":409, "type":"c", "scope_line":380, "scope_name":"parse_minix", }
+,{"id":"nr_sects", "file":"fs/partitions/msdos.c", "line":503, "type":"c", "scope_line":432, "scope_name":"msdos_partition", }
+,{"id":"nr_sects", "file":"fs/partitions/msdos.c", "line":539, "type":"c", "scope_line":432, "scope_name":"msdos_partition", }
+,{"id":"nr_sects", "file":"fs/partitions/msdos.c", "line":547, "type":"c", "scope_line":432, "scope_name":"msdos_partition", }
+,{"id":"nr_sects", "file":"include/linux/genhd.h", "line":480, "type":"m", "scope_line":476, "scope_name":"struct unixware_slice", }
+,{"id":"nr_sects", "file":"include/linux/genhd.h", "line":78, "type":"m", "scope_line":68, "scope_name":"struct partition", }
+,{"id":"nr_sects", "file":"include/linux/genhd.h", "line":92, "type":"m", "scope_line":90, "scope_name":"struct hd_struct", }
+,{"id":"nr_segments", "file":"include/linux/kexec.h", "line":88, "type":"m", "scope_line":77, "scope_name":"struct kimage", }
+,{"id":"nr_segs", "file":"include/linux/fs.h", "line":519, "type":"m", "scope_line":517, "scope_name":"struct iov_iter", }
+,{"id":"nr_sgvecs", "file":"fs/bio.c", "line":675, "type":"m", "scope_line":672, "scope_name":"struct bio_map_data", }
+,{"id":"nr_shown", "file":"mm/memory.c", "line":481, "type":"v", }
+,{"id":"nr_shown", "file":"mm/page_alloc.c", "line":278, "type":"v", }
+,{"id":"nr_siblings", "file":"include/linux/perf_event.h", "line":669, "type":"m", "scope_line":663, "scope_name":"struct perf_event", }
+,{"id":"nr_sk", "file":"include/net/netrom.h", "line":83, "type":"d", }
+,{"id":"nr_sleeping", "file":"include/linux/cgroupstats.h", "line":32, "type":"m", "scope_line":31, "scope_name":"struct cgroupstats", }
+,{"id":"nr_slots", "file":"kernel/hw_breakpoint.c", "line":64, "type":"v", }
+,{"id":"nr_sock", "file":"include/net/netrom.h", "line":63, "type":"s", }
+,{"id":"nr_sorted", "file":"include/linux/blkdev.h", "line":339, "type":"m", "scope_line":253, "scope_name":"struct request_queue", }
+,{"id":"nr_spread_over", "file":"kernel/sched.c", "line":332, "type":"m", "scope_line":313, "scope_name":"struct cfs_rq", }
+,];
+xr_frag_insert('t/81/1d03dd04b82574a56bf2bcb4ce3ede5cd85bc5.xr', __xr_tmp);

@@ -1,0 +1,105 @@
+var __xr_tmp = [
+{"id":"gpio_to_chip", "file":"drivers/gpio/gpiolib.c", "line":1566, "type":"c", "scope_line":1562, "scope_name":"__gpio_set_value", }
+,{"id":"gpio_to_chip", "file":"drivers/gpio/gpiolib.c", "line":1585, "type":"c", "scope_line":1580, "scope_name":"__gpio_cansleep", }
+,{"id":"gpio_to_chip", "file":"drivers/gpio/gpiolib.c", "line":1604, "type":"c", "scope_line":1600, "scope_name":"__gpio_to_irq", }
+,{"id":"gpio_to_chip", "file":"drivers/gpio/gpiolib.c", "line":1620, "type":"c", "scope_line":1615, "scope_name":"gpio_get_value_cansleep", }
+,{"id":"gpio_to_chip", "file":"drivers/gpio/gpiolib.c", "line":1630, "type":"c", "scope_line":1625, "scope_name":"gpio_set_value_cansleep", }
+,{"id":"gpio_to_irq", "file":"arch/x86/include/asm/gpio.h", "line":44, "type":"f", }
+,{"id":"gpio_to_irq", "file":"drivers/gpio/gpiolib.c", "line":1658, "type":"c", "scope_line":1638, "scope_name":"gpiolib_dbg_show", }
+,{"id":"gpio_unexport", "file":"drivers/gpio/gpiolib.c", "line":1240, "type":"c", "scope_line":1227, "scope_name":"gpio_free", }
+,{"id":"gpio_unexport", "file":"include/asm-generic/gpio.h", "line":266, "type":"f", }
+,{"id":"gpiochip_add", "file":"drivers/gpio/gpiolib.c", "line":1031, "type":"f", }
+,{"id":"gpiochip_export", "file":"drivers/gpio/gpiolib.c", "line":1003, "type":"f", }
+,{"id":"gpiochip_export", "file":"drivers/gpio/gpiolib.c", "line":1086, "type":"c", "scope_line":1031, "scope_name":"gpiochip_add", }
+,{"id":"gpiochip_find", "file":"drivers/gpio/gpiolib.c", "line":1147, "type":"f", }
+,{"id":"gpiochip_find_base", "file":"drivers/gpio/gpiolib.c", "line":1047, "type":"c", "scope_line":1031, "scope_name":"gpiochip_add", }
+,{"id":"gpiochip_find_base", "file":"drivers/gpio/gpiolib.c", "line":121, "type":"f", }
+,{"id":"gpiochip_is_requested", "file":"drivers/gpio/gpiolib.c", "line":1336, "type":"f", }
+,{"id":"gpiochip_remove", "file":"drivers/gpio/gpiolib.c", "line":1106, "type":"f", }
+,{"id":"gpiochip_reserve", "file":"drivers/gpio/gpiolib.c", "line":160, "type":"f", }
+,{"id":"gpiochip_unexport", "file":"drivers/gpio/gpiolib.c", "line":1008, "type":"f", }
+,{"id":"gpiochip_unexport", "file":"drivers/gpio/gpiolib.c", "line":1130, "type":"c", "scope_line":1106, "scope_name":"gpiochip_remove", }
+,{"id":"gpiolib_dbg_show", "file":"drivers/gpio/gpiolib.c", "line":1638, "type":"f", }
+,{"id":"gpiolib_dbg_show", "file":"drivers/gpio/gpiolib.c", "line":1740, "type":"c", "scope_line":1705, "scope_name":"gpiolib_show", }
+,{"id":"gpiolib_debugfs_init", "file":"drivers/gpio/gpiolib.c", "line":1757, "type":"f", }
+,{"id":"gpiolib_open", "file":"drivers/gpio/gpiolib.c", "line":1745, "type":"f", }
+,{"id":"gpiolib_operations", "file":"drivers/gpio/gpiolib.c", "line":1750, "type":"v", }
+,{"id":"gpiolib_show", "file":"drivers/gpio/gpiolib.c", "line":1705, "type":"f", }
+,{"id":"gpl_crcs", "file":"include/linux/module.h", "line":273, "type":"m", "scope_line":244, "scope_name":"struct module", }
+,{"id":"gpl_future_crcs", "file":"include/linux/module.h", "line":289, "type":"m", "scope_line":244, "scope_name":"struct module", }
+,{"id":"gpl_future_syms", "file":"include/linux/module.h", "line":288, "type":"m", "scope_line":244, "scope_name":"struct module", }
+,{"id":"gpl_syms", "file":"include/linux/module.h", "line":272, "type":"m", "scope_line":244, "scope_name":"struct module", }
+,{"id":"gplok", "file":"kernel/module.c", "line":295, "type":"m", "scope_line":292, "scope_name":"struct find_symbol_arg", }
+,{"id":"gpnum", "file":"kernel/rcutree.h", "line":166, "type":"m", "scope_line":162, "scope_name":"struct rcu_data", }
+,{"id":"gpnum", "file":"kernel/rcutree.h", "line":299, "type":"m", "scope_line":281, "scope_name":"struct rcu_state", }
+,{"id":"gpnum", "file":"kernel/rcutree.h", "line":95, "type":"m", "scope_line":92, "scope_name":"struct rcu_node", }
+,{"id":"gpos", "file":"arch/x86/boot/vesa.h", "line":58, "type":"m", "scope_line":34, "scope_name":"struct vesa_mode_info", }
+,{"id":"gpt_entry", "file":"fs/partitions/efi.h", "line":95, "type":"t", }
+,{"id":"gpt_entry_attributes", "file":"fs/partitions/efi.h", "line":89, "type":"t", }
+,{"id":"gpt_header", "file":"fs/partitions/efi.h", "line":66, "type":"t", }
+,{"id":"gr_group", "file":"include/linux/in.h", "line":155, "type":"m", "scope_line":153, "scope_name":"struct group_req", }
+,{"id":"gr_group", "file":"net/compat.c", "line":529, "type":"m", "scope_line":527, "scope_name":"struct compat_group_req", }
+,{"id":"gr_interface", "file":"include/linux/in.h", "line":154, "type":"m", "scope_line":153, "scope_name":"struct group_req", }
+,{"id":"gr_interface", "file":"net/compat.c", "line":528, "type":"m", "scope_line":527, "scope_name":"struct compat_group_req", }
+,{"id":"grab", "file":"drivers/input/evdev.c", "line":31, "type":"m", "scope_line":26, "scope_name":"struct evdev", }
+,{"id":"grab", "file":"include/linux/input.h", "line":1199, "type":"m", "scope_line":1150, "scope_name":"struct input_dev", }
+,{"id":"grab_cache_page", "file":"fs/buffer.c", "line":2691, "type":"c", "scope_line":2668, "scope_name":"nobh_truncate_page", }
+,{"id":"grab_cache_page", "file":"fs/buffer.c", "line":2769, "type":"c", "scope_line":2746, "scope_name":"block_truncate_page", }
+,{"id":"grab_cache_page", "file":"fs/ext2/dir.c", "line":625, "type":"c", "scope_line":623, "scope_name":"ext2_make_empty", }
+,{"id":"grab_cache_page", "file":"fs/ext3/inode.c", "line":2459, "type":"c", "scope_line":2429, "scope_name":"ext3_truncate", }
+,{"id":"grab_cache_page", "file":"include/linux/pagemap.h", "line":243, "type":"f", }
+,{"id":"grab_cache_page_nowait", "file":"mm/filemap.c", "line":918, "type":"f", }
+,{"id":"grab_cache_page_write_begin", "file":"fs/buffer.c", "line":1978, "type":"c", "scope_line":1971, "scope_name":"block_write_begin", }
+,{"id":"grab_cache_page_write_begin", "file":"fs/buffer.c", "line":2462, "type":"c", "scope_line":2439, "scope_name":"nobh_write_begin", }
+,{"id":"grab_cache_page_write_begin", "file":"fs/ext3/inode.c", "line":1220, "type":"c", "scope_line":1200, "scope_name":"ext3_write_begin", }
+,{"id":"grab_cache_page_write_begin", "file":"fs/ext4/inode.c", "line":1601, "type":"c", "scope_line":1568, "scope_name":"ext4_write_begin", }
+,{"id":"grab_cache_page_write_begin", "file":"fs/ext4/inode.c", "line":3203, "type":"c", "scope_line":3168, "scope_name":"ext4_da_write_begin", }
+,{"id":"grab_cache_page_write_begin", "file":"fs/libfs.c", "line":380, "type":"c", "scope_line":371, "scope_name":"simple_write_begin", }
+,{"id":"grab_cache_page_write_begin", "file":"mm/filemap.c", "line":2196, "type":"f", }
+,{"id":"grab_header", "file":"fs/proc/proc_sysctl.c", "line":133, "type":"c", "scope_line":129, "scope_name":"proc_sys_call_handler", }
+,{"id":"grab_header", "file":"fs/proc/proc_sysctl.c", "line":244, "type":"c", "scope_line":240, "scope_name":"proc_sys_readdir", }
+,{"id":"grab_header", "file":"fs/proc/proc_sysctl.c", "line":309, "type":"c", "scope_line":295, "scope_name":"proc_sys_permission", }
+,{"id":"grab_header", "file":"fs/proc/proc_sysctl.c", "line":350, "type":"c", "scope_line":347, "scope_name":"proc_sys_getattr", }
+,{"id":"grab_header", "file":"fs/proc/proc_sysctl.c", "line":69, "type":"f", }
+,{"id":"grab_header", "file":"fs/proc/proc_sysctl.c", "line":80, "type":"c", "scope_line":77, "scope_name":"proc_sys_lookup", }
+,{"id":"grab_super", "file":"fs/super.c", "line":217, "type":"f", }
+,{"id":"grab_super", "file":"fs/super.c", "line":321, "type":"c", "scope_line":306, "scope_name":"sget", }
+,{"id":"grab_super", "file":"fs/super.c", "line":505, "type":"c", "scope_line":492, "scope_name":"get_active_super", }
+,{"id":"grab_swap_token", "file":"mm/memory.c", "line":2651, "type":"c", "scope_line":2621, "scope_name":"do_swap_page", }
+,{"id":"grab_swap_token", "file":"mm/thrash.c", "line":29, "type":"f", }
+,{"id":"graft", "file":"include/net/sch_generic.h", "line":105, "type":"m", "scope_line":102, "scope_name":"struct Qdisc_class_ops", }
+,{"id":"graft_tree", "file":"fs/namespace.c", "line":1464, "type":"f", }
+,{"id":"graft_tree", "file":"fs/namespace.c", "line":1574, "type":"c", "scope_line":1543, "scope_name":"do_loopback", }
+,{"id":"graft_tree", "file":"fs/namespace.c", "line":1787, "type":"c", "scope_line":1760, "scope_name":"do_add_mount", }
+,{"id":"gran_sizek", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":47, "type":"m", "scope_line":43, "scope_name":"struct var_mtrr_state", }
+,{"id":"gran_sizek", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":510, "type":"m", "scope_line":509, "scope_name":"struct mtrr_cleanup_result", }
+,{"id":"grant_entry", "file":"include/xen/interface/grant_table.h", "line":93, "type":"s", }
+,{"id":"grant_handle_t", "file":"include/xen/interface/grant_table.h", "line":158, "type":"t", }
+,{"id":"grant_ref_t", "file":"include/xen/interface/grant_table.h", "line":153, "type":"t", }
+,{"id":"granted", "file":"security/tomoyo/common.h", "line":279, "type":"m", "scope_line":243, "scope_name":"struct tomoyo_request_info", }
+,{"id":"granularity", "file":"drivers/acpi/acpica/amlresrc.h", "line":214, "type":"m", "scope_line":210, "scope_name":"struct aml_resource_extended_address64", }
+,{"id":"granularity", "file":"drivers/acpi/acpica/amlresrc.h", "line":226, "type":"m", "scope_line":224, "scope_name":"struct aml_resource_address64", }
+,{"id":"granularity", "file":"drivers/acpi/acpica/amlresrc.h", "line":235, "type":"m", "scope_line":233, "scope_name":"struct aml_resource_address32", }
+,{"id":"granularity", "file":"drivers/acpi/acpica/amlresrc.h", "line":244, "type":"m", "scope_line":242, "scope_name":"struct aml_resource_address16", }
+,{"id":"granularity", "file":"include/acpi/acrestyp.h", "line":278, "type":"m", "scope_line":277, "scope_name":"struct acpi_resource_address16", }
+,{"id":"granularity", "file":"include/acpi/acrestyp.h", "line":287, "type":"m", "scope_line":286, "scope_name":"struct acpi_resource_address32", }
+,{"id":"granularity", "file":"include/acpi/acrestyp.h", "line":296, "type":"m", "scope_line":295, "scope_name":"struct acpi_resource_address64", }
+,{"id":"granularity", "file":"include/acpi/acrestyp.h", "line":306, "type":"m", "scope_line":304, "scope_name":"struct acpi_resource_extended_address64", }
+,{"id":"graph_array", "file":"kernel/trace/trace_functions_graph.c", "line":68, "type":"v", }
+,{"id":"graph_ent", "file":"kernel/trace/trace_entries.h", "line":71, "type":"m", "scope_line":71, "scope_name":"struct ftrace_graph_ent_entry", }
+,{"id":"graph_functions", "file":"kernel/trace/trace_functions_graph.c", "line":1238, "type":"v", }
+,{"id":"graph_lock", "file":"kernel/trace/ftrace.c", "line":2435, "type":"v", }
+,{"id":"graph_trace", "file":"kernel/trace/trace_functions_graph.c", "line":1252, "type":"v", }
+,{"id":"graph_trace_close", "file":"kernel/trace/trace_functions_graph.c", "line":1228, "type":"f", }
+,{"id":"graph_trace_entry_event", "file":"kernel/trace/trace_functions_graph.c", "line":1242, "type":"v", }
+,{"id":"graph_trace_init", "file":"kernel/trace/trace_functions_graph.c", "line":311, "type":"f", }
+,{"id":"graph_trace_open", "file":"kernel/trace/trace_functions_graph.c", "line":1193, "type":"f", }
+,{"id":"graph_trace_reset", "file":"kernel/trace/trace_functions_graph.c", "line":329, "type":"f", }
+,{"id":"graph_trace_ret_event", "file":"kernel/trace/trace_functions_graph.c", "line":1247, "type":"v", }
+,{"id":"graphic_mode", "file":"arch/x86/boot/video.h", "line":97, "type":"v", }
+,{"id":"grayscale", "file":"include/linux/fb.h", "line":247, "type":"m", "scope_line":238, "scope_name":"struct fb_var_screeninfo", }
+,{"id":"greater_than_or_equal", "file":"drivers/acpi/blacklist.c", "line":43, "type":"e", "scope_line":39, "scope_name":"acpi_blacklist_predicates", }
+,{"id":"grec", "file":"include/linux/igmp.h", "line":59, "type":"m", "scope_line":53, "scope_name":"struct igmpv3_report", }
+,{"id":"grec_auxwords", "file":"include/linux/igmp.h", "line":47, "type":"m", "scope_line":45, "scope_name":"struct igmpv3_grec", }
+,];
+xr_frag_insert('t/e9/330daf276ee5eb0deda9e763dda178e45c3c63.xr', __xr_tmp);

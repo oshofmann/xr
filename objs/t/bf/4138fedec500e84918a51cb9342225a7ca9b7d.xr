@@ -1,0 +1,35 @@
+var __xr_tmp = [
+{"id":"blocking_notifier_call_chain", "file":"drivers/acpi/event.c", "line":127, "type":"c", "scope_line":119, "scope_name":"acpi_notifier_call_chain", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/base/core.c", "line":1022, "type":"c", "scope_line":938, "scope_name":"device_add", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/base/core.c", "line":1143, "type":"c", "scope_line":1134, "scope_name":"device_del", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/base/dd.c", "line":325, "type":"c", "scope_line":313, "scope_name":"__device_release_driver", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/base/dd.c", "line":337, "type":"c", "scope_line":313, "scope_name":"__device_release_driver", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/base/dd.c", "line":46, "type":"c", "scope_line":32, "scope_name":"driver_bound", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/base/dd.c", "line":55, "type":"c", "scope_line":50, "scope_name":"driver_sysfs_add", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/base/memory.c", "line":172, "type":"c", "scope_line":170, "scope_name":"memory_notify", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/cpufreq/cpufreq.c", "line":1044, "type":"c", "scope_line":964, "scope_name":"cpufreq_add_dev", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/cpufreq/cpufreq.c", "line":1732, "type":"c", "scope_line":1709, "scope_name":"__cpufreq_set_policy", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/cpufreq/cpufreq.c", "line":1736, "type":"c", "scope_line":1709, "scope_name":"__cpufreq_set_policy", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/cpufreq/cpufreq.c", "line":1746, "type":"c", "scope_line":1709, "scope_name":"__cpufreq_set_policy", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/video/fb_notify.c", "line":44, "type":"c", "scope_line":42, "scope_name":"fb_notifier_call_chain", }
+,{"id":"blocking_notifier_call_chain", "file":"drivers/xen/xenbus/xenbus_probe.c", "line":783, "type":"c", "scope_line":773, "scope_name":"xenbus_probe", }
+,{"id":"blocking_notifier_call_chain", "file":"ipc/ipcns_notifier.c", "line":91, "type":"c", "scope_line":89, "scope_name":"ipcns_notify", }
+,{"id":"blocking_notifier_call_chain", "file":"kernel/module.c", "line":2704, "type":"c", "scope_line":2689, "scope_name":"sys_init_module", }
+,{"id":"blocking_notifier_call_chain", "file":"kernel/module.c", "line":2717, "type":"c", "scope_line":2689, "scope_name":"sys_init_module", }
+,{"id":"blocking_notifier_call_chain", "file":"kernel/module.c", "line":2735, "type":"c", "scope_line":2689, "scope_name":"sys_init_module", }
+,{"id":"blocking_notifier_call_chain", "file":"kernel/module.c", "line":793, "type":"c", "scope_line":729, "scope_name":"sys_delete_module", }
+,{"id":"blocking_notifier_call_chain", "file":"kernel/notifier.c", "line":322, "type":"f", }
+,{"id":"blocking_notifier_call_chain", "file":"kernel/pm_qos_params.c", "line":161, "type":"c", "scope_line":134, "scope_name":"update_target", }
+,{"id":"blocking_notifier_call_chain", "file":"kernel/power/main.c", "line":43, "type":"c", "scope_line":41, "scope_name":"pm_notifier_call_chain", }
+,{"id":"blocking_notifier_call_chain", "file":"kernel/profile.c", "line":147, "type":"c", "scope_line":145, "scope_name":"profile_task_exit", }
+,{"id":"blocking_notifier_call_chain", "file":"kernel/profile.c", "line":159, "type":"c", "scope_line":157, "scope_name":"profile_munmap", }
+,{"id":"blocking_notifier_call_chain", "file":"kernel/sys.c", "line":294, "type":"c", "scope_line":292, "scope_name":"kernel_restart_prepare", }
+,{"id":"blocking_notifier_call_chain", "file":"kernel/sys.c", "line":321, "type":"c", "scope_line":319, "scope_name":"kernel_shutdown_prepare", }
+,{"id":"blocking_notifier_call_chain", "file":"mm/oom_kill.c", "line":655, "type":"c", "scope_line":644, "scope_name":"out_of_memory", }
+,{"id":"blocking_notifier_call_chain", "file":"net/ipv4/devinet.c", "line":271, "type":"c", "scope_line":236, "scope_name":"__inet_del_ifa", }
+,{"id":"blocking_notifier_call_chain", "file":"net/ipv4/devinet.c", "line":296, "type":"c", "scope_line":236, "scope_name":"__inet_del_ifa", }
+,{"id":"blocking_notifier_call_chain", "file":"net/ipv4/devinet.c", "line":308, "type":"c", "scope_line":236, "scope_name":"__inet_del_ifa", }
+,{"id":"blocking_notifier_call_chain", "file":"net/ipv4/devinet.c", "line":375, "type":"c", "scope_line":328, "scope_name":"__inet_insert_ifa", }
+,{"id":"blocking_notifier_chain_cond_register", "file":"ipc/ipcns_notifier.c", "line":76, "type":"c", "scope_line":69, "scope_name":"cond_register_ipcns_notifier", }
+,];
+xr_frag_insert('t/bf/4138fedec500e84918a51cb9342225a7ca9b7d.xr', __xr_tmp);

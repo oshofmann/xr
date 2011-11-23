@@ -1,0 +1,305 @@
+var __xr_tmp = [
+{"id":"cdrom_ioctl_set_options", "file":"drivers/cdrom/cdrom.c", "line":2307, "type":"f", }
+,{"id":"cdrom_ioctl_set_options", "file":"drivers/cdrom/cdrom.c", "line":2714, "type":"c", "scope_line":2688, "scope_name":"cdrom_ioctl", }
+,{"id":"cdrom_ioctl_volctrl", "file":"drivers/cdrom/cdrom.c", "line":2634, "type":"f", }
+,{"id":"cdrom_ioctl_volctrl", "file":"drivers/cdrom/cdrom.c", "line":2768, "type":"c", "scope_line":2688, "scope_name":"cdrom_ioctl", }
+,{"id":"cdrom_ioctl_volread", "file":"drivers/cdrom/cdrom.c", "line":2648, "type":"f", }
+,{"id":"cdrom_ioctl_volread", "file":"drivers/cdrom/cdrom.c", "line":2770, "type":"c", "scope_line":2688, "scope_name":"cdrom_ioctl", }
+,{"id":"cdrom_is_dvd_rw", "file":"drivers/cdrom/cdrom.c", "line":870, "type":"f", }
+,{"id":"cdrom_is_dvd_rw", "file":"drivers/cdrom/cdrom.c", "line":922, "type":"c", "scope_line":884, "scope_name":"cdrom_open_write", }
+,{"id":"cdrom_is_mrw", "file":"drivers/cdrom/cdrom.c", "line":519, "type":"f", }
+,{"id":"cdrom_is_mrw", "file":"drivers/cdrom/cdrom.c", "line":890, "type":"c", "scope_line":884, "scope_name":"cdrom_open_write", }
+,{"id":"cdrom_is_random_writable", "file":"drivers/cdrom/cdrom.c", "line":719, "type":"f", }
+,{"id":"cdrom_is_random_writable", "file":"drivers/cdrom/cdrom.c", "line":896, "type":"c", "scope_line":884, "scope_name":"cdrom_open_write", }
+,{"id":"cdrom_list", "file":"drivers/cdrom/cdrom.c", "line":373, "type":"v", }
+,{"id":"cdrom_load_unload", "file":"drivers/cdrom/cdrom.c", "line":1314, "type":"f", }
+,{"id":"cdrom_load_unload", "file":"drivers/cdrom/cdrom.c", "line":1356, "type":"c", "scope_line":1341, "scope_name":"cdrom_select_disc", }
+,{"id":"cdrom_load_unload", "file":"drivers/cdrom/cdrom.c", "line":1389, "type":"c", "scope_line":1341, "scope_name":"cdrom_select_disc", }
+,{"id":"cdrom_mcn", "file":"include/linux/cdrom.h", "line":261, "type":"s", }
+,{"id":"cdrom_mechstat_header", "file":"include/linux/cdrom.h", "line":1022, "type":"s", }
+,{"id":"cdrom_media_changed", "file":"drivers/cdrom/cdrom.c", "line":1419, "type":"f", }
+,{"id":"cdrom_media_changed", "file":"drivers/scsi/sr.c", "line":539, "type":"c", "scope_line":536, "scope_name":"sr_block_media_changed", }
+,{"id":"cdrom_media_erasable", "file":"drivers/cdrom/cdrom.c", "line":735, "type":"f", }
+,{"id":"cdrom_media_erasable", "file":"drivers/cdrom/cdrom.c", "line":752, "type":"c", "scope_line":750, "scope_name":"cdrom_dvdram_open_write", }
+,{"id":"cdrom_mmc3_profile", "file":"drivers/cdrom/cdrom.c", "line":848, "type":"f", }
+,{"id":"cdrom_mmc3_profile", "file":"drivers/cdrom/cdrom.c", "line":997, "type":"c", "scope_line":982, "scope_name":"cdrom_open", }
+,{"id":"cdrom_mode_select", "file":"drivers/cdrom/cdrom.c", "line":1936, "type":"f", }
+,{"id":"cdrom_mode_select", "file":"drivers/cdrom/cdrom.c", "line":3021, "type":"c", "scope_line":2953, "scope_name":"mmc_ioctl_cdrom_volume", }
+,{"id":"cdrom_mode_select", "file":"drivers/cdrom/cdrom.c", "line":665, "type":"c", "scope_line":643, "scope_name":"cdrom_mrw_set_lba_space", }
+,{"id":"cdrom_mode_sense", "file":"drivers/cdrom/cdrom.c", "line":1920, "type":"f", }
+,{"id":"cdrom_mode_sense", "file":"drivers/cdrom/cdrom.c", "line":2970, "type":"c", "scope_line":2953, "scope_name":"mmc_ioctl_cdrom_volume", }
+,{"id":"cdrom_mode_sense", "file":"drivers/cdrom/cdrom.c", "line":2985, "type":"c", "scope_line":2953, "scope_name":"mmc_ioctl_cdrom_volume", }
+,{"id":"cdrom_mode_sense", "file":"drivers/cdrom/cdrom.c", "line":3009, "type":"c", "scope_line":2953, "scope_name":"mmc_ioctl_cdrom_volume", }
+,{"id":"cdrom_mode_sense", "file":"drivers/cdrom/cdrom.c", "line":508, "type":"c", "scope_line":498, "scope_name":"cdrom_mrw_probe_pc", }
+,{"id":"cdrom_mode_sense", "file":"drivers/cdrom/cdrom.c", "line":511, "type":"c", "scope_line":498, "scope_name":"cdrom_mrw_probe_pc", }
+,{"id":"cdrom_mode_sense", "file":"drivers/cdrom/cdrom.c", "line":655, "type":"c", "scope_line":643, "scope_name":"cdrom_mrw_set_lba_space", }
+,{"id":"cdrom_mode_sense", "file":"drivers/cdrom/cdrom.c", "line":816, "type":"c", "scope_line":802, "scope_name":"mo_open_write", }
+,{"id":"cdrom_mode_sense", "file":"drivers/cdrom/cdrom.c", "line":818, "type":"c", "scope_line":802, "scope_name":"mo_open_write", }
+,{"id":"cdrom_mode_sense", "file":"drivers/cdrom/cdrom.c", "line":821, "type":"c", "scope_line":802, "scope_name":"mo_open_write", }
+,{"id":"cdrom_mrw_bgformat", "file":"drivers/cdrom/cdrom.c", "line":551, "type":"f", }
+,{"id":"cdrom_mrw_bgformat", "file":"drivers/cdrom/cdrom.c", "line":797, "type":"c", "scope_line":764, "scope_name":"cdrom_mrw_open_write", }
+,{"id":"cdrom_mrw_bgformat_susp", "file":"drivers/cdrom/cdrom.c", "line":592, "type":"f", }
+,{"id":"cdrom_mrw_bgformat_susp", "file":"drivers/cdrom/cdrom.c", "line":634, "type":"c", "scope_line":622, "scope_name":"cdrom_mrw_exit", }
+,{"id":"cdrom_mrw_exit", "file":"drivers/cdrom/cdrom.c", "line":622, "type":"f", }
+,{"id":"cdrom_mrw_open_write", "file":"drivers/cdrom/cdrom.c", "line":764, "type":"f", }
+,{"id":"cdrom_mrw_open_write", "file":"drivers/cdrom/cdrom.c", "line":914, "type":"c", "scope_line":884, "scope_name":"cdrom_open_write", }
+,{"id":"cdrom_mrw_probe_pc", "file":"drivers/cdrom/cdrom.c", "line":498, "type":"f", }
+,{"id":"cdrom_mrw_probe_pc", "file":"drivers/cdrom/cdrom.c", "line":543, "type":"c", "scope_line":519, "scope_name":"cdrom_is_mrw", }
+,{"id":"cdrom_mrw_set_lba_space", "file":"drivers/cdrom/cdrom.c", "line":643, "type":"f", }
+,{"id":"cdrom_mrw_set_lba_space", "file":"drivers/cdrom/cdrom.c", "line":772, "type":"c", "scope_line":764, "scope_name":"cdrom_mrw_open_write", }
+,{"id":"cdrom_msf", "file":"include/linux/cdrom.h", "line":169, "type":"s", }
+,{"id":"cdrom_msf0", "file":"include/linux/cdrom.h", "line":154, "type":"s", }
+,{"id":"cdrom_multisession", "file":"include/linux/cdrom.h", "line":247, "type":"s", }
+,{"id":"cdrom_mutex", "file":"drivers/cdrom/cdrom.c", "line":307, "type":"v", }
+,{"id":"cdrom_number_of_slots", "file":"drivers/cdrom/cdrom.c", "line":1291, "type":"f", }
+,{"id":"cdrom_number_of_slots", "file":"drivers/scsi/sr.c", "line":839, "type":"c", "scope_line":755, "scope_name":"get_capabilities", }
+,{"id":"cdrom_open", "file":"drivers/cdrom/cdrom.c", "line":982, "type":"f", }
+,{"id":"cdrom_open", "file":"drivers/scsi/sr.c", "line":476, "type":"c", "scope_line":468, "scope_name":"sr_block_open", }
+,{"id":"cdrom_open_write", "file":"drivers/cdrom/cdrom.c", "line":1000, "type":"c", "scope_line":982, "scope_name":"cdrom_open", }
+,{"id":"cdrom_open_write", "file":"drivers/cdrom/cdrom.c", "line":884, "type":"f", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3378, "type":"f", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3437, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3439, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3441, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3443, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3446, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3449, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3452, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3455, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3458, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3461, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3464, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3467, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3470, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3473, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3476, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3479, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3482, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3485, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3488, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_info", "file":"drivers/cdrom/cdrom.c", "line":3491, "type":"c", "scope_line":3421, "scope_name":"cdrom_sysctl_info", }
+,{"id":"cdrom_print_option", "file":"drivers/cdrom/cdrom.c", "line":3371, "type":"t", }
+,{"id":"cdrom_ram_open_write", "file":"drivers/cdrom/cdrom.c", "line":831, "type":"f", }
+,{"id":"cdrom_ram_open_write", "file":"drivers/cdrom/cdrom.c", "line":919, "type":"c", "scope_line":884, "scope_name":"cdrom_open_write", }
+,{"id":"cdrom_read", "file":"include/linux/cdrom.h", "line":230, "type":"s", }
+,{"id":"cdrom_read_audio", "file":"include/linux/cdrom.h", "line":238, "type":"s", }
+,{"id":"cdrom_read_block", "file":"drivers/cdrom/cdrom.c", "line":2008, "type":"f", }
+,{"id":"cdrom_read_block", "file":"drivers/cdrom/cdrom.c", "line":2076, "type":"c", "scope_line":2040, "scope_name":"cdrom_read_cdda_old", }
+,{"id":"cdrom_read_block", "file":"drivers/cdrom/cdrom.c", "line":2845, "type":"c", "scope_line":2810, "scope_name":"mmc_ioctl_cdrom_read_data", }
+,{"id":"cdrom_read_cd", "file":"drivers/cdrom/cdrom.c", "line":1988, "type":"f", }
+,{"id":"cdrom_read_cd", "file":"drivers/cdrom/cdrom.c", "line":2858, "type":"c", "scope_line":2810, "scope_name":"mmc_ioctl_cdrom_read_data", }
+,{"id":"cdrom_read_cdda", "file":"drivers/cdrom/cdrom.c", "line":2164, "type":"f", }
+,{"id":"cdrom_read_cdda", "file":"drivers/cdrom/cdrom.c", "line":2889, "type":"c", "scope_line":2868, "scope_name":"mmc_ioctl_cdrom_read_audio", }
+,{"id":"cdrom_read_cdda_bpc", "file":"drivers/cdrom/cdrom.c", "line":2092, "type":"f", }
+,{"id":"cdrom_read_cdda_bpc", "file":"drivers/cdrom/cdrom.c", "line":2176, "type":"c", "scope_line":2164, "scope_name":"cdrom_read_cdda", }
+,{"id":"cdrom_read_cdda_old", "file":"drivers/cdrom/cdrom.c", "line":2040, "type":"f", }
+,{"id":"cdrom_read_cdda_old", "file":"drivers/cdrom/cdrom.c", "line":2170, "type":"c", "scope_line":2164, "scope_name":"cdrom_read_cdda", }
+,{"id":"cdrom_read_cdda_old", "file":"drivers/cdrom/cdrom.c", "line":2200, "type":"c", "scope_line":2164, "scope_name":"cdrom_read_cdda", }
+,{"id":"cdrom_read_mech_status", "file":"drivers/cdrom/cdrom.c", "line":1230, "type":"f", }
+,{"id":"cdrom_read_mech_status", "file":"drivers/cdrom/cdrom.c", "line":1275, "type":"c", "scope_line":1262, "scope_name":"cdrom_slot_status", }
+,{"id":"cdrom_read_mech_status", "file":"drivers/cdrom/cdrom.c", "line":1305, "type":"c", "scope_line":1291, "scope_name":"cdrom_number_of_slots", }
+,{"id":"cdrom_read_mech_status", "file":"drivers/cdrom/cdrom.c", "line":1363, "type":"c", "scope_line":1341, "scope_name":"cdrom_select_disc", }
+,{"id":"cdrom_read_mech_status", "file":"drivers/cdrom/cdrom.c", "line":2300, "type":"c", "scope_line":2278, "scope_name":"cdrom_ioctl_media_changed", }
+,{"id":"cdrom_read_subchannel", "file":"drivers/cdrom/cdrom.c", "line":1951, "type":"f", }
+,{"id":"cdrom_read_subchannel", "file":"drivers/cdrom/cdrom.c", "line":2904, "type":"c", "scope_line":2892, "scope_name":"mmc_ioctl_cdrom_subchannel", }
+,{"id":"cdrom_release", "file":"drivers/cdrom/cdrom.c", "line":1193, "type":"f", }
+,{"id":"cdrom_release", "file":"drivers/scsi/sr.c", "line":488, "type":"c", "scope_line":484, "scope_name":"sr_block_release", }
+,{"id":"cdrom_root_table", "file":"drivers/cdrom/cdrom.c", "line":3617, "type":"v", }
+,{"id":"cdrom_select_disc", "file":"drivers/cdrom/cdrom.c", "line":1341, "type":"f", }
+,{"id":"cdrom_select_disc", "file":"drivers/cdrom/cdrom.c", "line":2376, "type":"c", "scope_line":2354, "scope_name":"cdrom_ioctl_select_disc", }
+,{"id":"cdrom_slot", "file":"include/linux/cdrom.h", "line":1043, "type":"s", }
+,{"id":"cdrom_slot_status", "file":"drivers/cdrom/cdrom.c", "line":1262, "type":"f", }
+,{"id":"cdrom_slot_status", "file":"drivers/cdrom/cdrom.c", "line":2466, "type":"c", "scope_line":2454, "scope_name":"cdrom_ioctl_drive_status", }
+,{"id":"cdrom_subchnl", "file":"include/linux/cdrom.h", "line":205, "type":"s", }
+,{"id":"cdrom_switch_blocksize", "file":"drivers/cdrom/cdrom.c", "line":2785, "type":"f", }
+,{"id":"cdrom_switch_blocksize", "file":"drivers/cdrom/cdrom.c", "line":2854, "type":"c", "scope_line":2810, "scope_name":"mmc_ioctl_cdrom_read_data", }
+,{"id":"cdrom_switch_blocksize", "file":"drivers/cdrom/cdrom.c", "line":2859, "type":"c", "scope_line":2810, "scope_name":"mmc_ioctl_cdrom_read_data", }
+,{"id":"cdrom_sysctl_handler", "file":"drivers/cdrom/cdrom.c", "line":3534, "type":"f", }
+,{"id":"cdrom_sysctl_header", "file":"drivers/cdrom/cdrom.c", "line":3626, "type":"v", }
+,{"id":"cdrom_sysctl_info", "file":"drivers/cdrom/cdrom.c", "line":3421, "type":"f", }
+,{"id":"cdrom_sysctl_register", "file":"drivers/cdrom/cdrom.c", "line":3628, "type":"f", }
+,{"id":"cdrom_sysctl_register", "file":"drivers/cdrom/cdrom.c", "line":3667, "type":"c", "scope_line":3665, "scope_name":"cdrom_init", }
+,{"id":"cdrom_sysctl_register", "file":"drivers/cdrom/cdrom.c", "line":408, "type":"c", "scope_line":395, "scope_name":"register_cdrom", }
+,{"id":"cdrom_sysctl_settings", "file":"drivers/cdrom/cdrom.c", "line":3362, "type":"s", }
+,{"id":"cdrom_sysctl_settings", "file":"drivers/cdrom/cdrom.c", "line":3362, "type":"v", }
+,{"id":"cdrom_sysctl_unregister", "file":"drivers/cdrom/cdrom.c", "line":3647, "type":"f", }
+,{"id":"cdrom_sysctl_unregister", "file":"drivers/cdrom/cdrom.c", "line":3675, "type":"c", "scope_line":3672, "scope_name":"cdrom_exit", }
+,{"id":"cdrom_table", "file":"drivers/cdrom/cdrom.c", "line":3560, "type":"v", }
+,{"id":"cdrom_ti", "file":"include/linux/cdrom.h", "line":180, "type":"s", }
+,{"id":"cdrom_tocentry", "file":"include/linux/cdrom.h", "line":219, "type":"s", }
+,{"id":"cdrom_tochdr", "file":"include/linux/cdrom.h", "line":189, "type":"s", }
+,{"id":"cdrom_update_settings", "file":"drivers/cdrom/cdrom.c", "line":3508, "type":"f", }
+,{"id":"cdrom_update_settings", "file":"drivers/cdrom/cdrom.c", "line":3553, "type":"c", "scope_line":3534, "scope_name":"cdrom_sysctl_handler", }
+,{"id":"cdrom_volctrl", "file":"include/linux/cdrom.h", "line":196, "type":"s", }
+,{"id":"cdrw", "file":"include/linux/pktcdvd.h", "line":275, "type":"m", "scope_line":258, "scope_name":"struct pktcdvd_device", }
+,{"id":"cdsc_absaddr", "file":"include/linux/cdrom.h", "line":213, "type":"m", "scope_line":205, "scope_name":"struct cdrom_subchnl", }
+,{"id":"cdsc_adr", "file":"include/linux/cdrom.h", "line":209, "type":"m", "scope_line":205, "scope_name":"struct cdrom_subchnl", }
+,{"id":"cdsc_audiostatus", "file":"include/linux/cdrom.h", "line":208, "type":"m", "scope_line":205, "scope_name":"struct cdrom_subchnl", }
+,{"id":"cdsc_ctrl", "file":"include/linux/cdrom.h", "line":210, "type":"m", "scope_line":205, "scope_name":"struct cdrom_subchnl", }
+,{"id":"cdsc_format", "file":"include/linux/cdrom.h", "line":207, "type":"m", "scope_line":205, "scope_name":"struct cdrom_subchnl", }
+,{"id":"cdsc_ind", "file":"include/linux/cdrom.h", "line":212, "type":"m", "scope_line":205, "scope_name":"struct cdrom_subchnl", }
+,{"id":"cdsc_reladdr", "file":"include/linux/cdrom.h", "line":214, "type":"m", "scope_line":205, "scope_name":"struct cdrom_subchnl", }
+,{"id":"cdsc_trk", "file":"include/linux/cdrom.h", "line":211, "type":"m", "scope_line":205, "scope_name":"struct cdrom_subchnl", }
+,{"id":"cdte_addr", "file":"include/linux/cdrom.h", "line":225, "type":"m", "scope_line":219, "scope_name":"struct cdrom_tocentry", }
+,{"id":"cdte_adr", "file":"include/linux/cdrom.h", "line":222, "type":"m", "scope_line":219, "scope_name":"struct cdrom_tocentry", }
+,{"id":"cdte_ctrl", "file":"include/linux/cdrom.h", "line":223, "type":"m", "scope_line":219, "scope_name":"struct cdrom_tocentry", }
+,{"id":"cdte_datamode", "file":"include/linux/cdrom.h", "line":226, "type":"m", "scope_line":219, "scope_name":"struct cdrom_tocentry", }
+,{"id":"cdte_format", "file":"include/linux/cdrom.h", "line":224, "type":"m", "scope_line":219, "scope_name":"struct cdrom_tocentry", }
+,{"id":"cdte_track", "file":"include/linux/cdrom.h", "line":221, "type":"m", "scope_line":219, "scope_name":"struct cdrom_tocentry", }
+,{"id":"cdth_trk0", "file":"include/linux/cdrom.h", "line":191, "type":"m", "scope_line":189, "scope_name":"struct cdrom_tochdr", }
+,{"id":"cdth_trk1", "file":"include/linux/cdrom.h", "line":192, "type":"m", "scope_line":189, "scope_name":"struct cdrom_tochdr", }
+,{"id":"cdti_ind0", "file":"include/linux/cdrom.h", "line":183, "type":"m", "scope_line":180, "scope_name":"struct cdrom_ti", }
+,{"id":"cdti_ind1", "file":"include/linux/cdrom.h", "line":185, "type":"m", "scope_line":180, "scope_name":"struct cdrom_ti", }
+,{"id":"cdti_trk0", "file":"include/linux/cdrom.h", "line":182, "type":"m", "scope_line":180, "scope_name":"struct cdrom_ti", }
+,{"id":"cdti_trk1", "file":"include/linux/cdrom.h", "line":184, "type":"m", "scope_line":180, "scope_name":"struct cdrom_ti", }
+,{"id":"ceil", "file":"include/linux/pkt_sched.h", "line":257, "type":"m", "scope_line":255, "scope_name":"struct tc_htb_opt", }
+,{"id":"cell_align", "file":"include/linux/pkt_sched.h", "line":80, "type":"m", "scope_line":76, "scope_name":"struct tc_ratespec", }
+,{"id":"cell_align", "file":"include/linux/pkt_sched.h", "line":90, "type":"m", "scope_line":87, "scope_name":"struct tc_sizespec", }
+,{"id":"cell_log", "file":"include/linux/pkt_sched.h", "line":77, "type":"m", "scope_line":76, "scope_name":"struct tc_ratespec", }
+,{"id":"cell_log", "file":"include/linux/pkt_sched.h", "line":88, "type":"m", "scope_line":87, "scope_name":"struct tc_sizespec", }
+,{"id":"cells", "file":"include/net/inet_timewait_sock.h", "line":81, "type":"m", "scope_line":67, "scope_name":"struct inet_timewait_death_row", }
+,{"id":"centaur_cpu_dev", "file":"arch/x86/kernel/cpu/centaur.c", "line":491, "type":"v", }
+,{"id":"centaur_size_cache", "file":"arch/x86/kernel/cpu/centaur.c", "line":471, "type":"f", }
+,{"id":"center", "file":"include/linux/input.h", "line":923, "type":"m", "scope_line":915, "scope_name":"struct ff_condition_effect", }
+,{"id":"center_freq", "file":"include/net/cfg80211.h", "line":99, "type":"m", "scope_line":97, "scope_name":"struct ieee80211_channel", }
+,{"id":"centrino_attr", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":584, "type":"v", }
+,{"id":"centrino_cpu", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":76, "type":"v", }
+,{"id":"centrino_cpu_exit", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":418, "type":"f", }
+,{"id":"centrino_cpu_init", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":345, "type":"f", }
+,{"id":"centrino_cpu_init_table", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":270, "type":"f", }
+,{"id":"centrino_cpu_init_table", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":378, "type":"c", "scope_line":345, "scope_name":"centrino_cpu_init", }
+,{"id":"centrino_driver", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":589, "type":"v", }
+,{"id":"centrino_exit", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":626, "type":"f", }
+,{"id":"centrino_init", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":616, "type":"f", }
+,{"id":"centrino_model", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":75, "type":"v", }
+,{"id":"centrino_target", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":454, "type":"f", }
+,{"id":"centrino_verify", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":439, "type":"f", }
+,{"id":"centrino_verify_cpu_id", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":276, "type":"f", }
+,{"id":"centrino_verify_cpu_id", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":365, "type":"c", "scope_line":345, "scope_name":"centrino_cpu_init", }
+,{"id":"century", "file":"drivers/rtc/rtc-cmos.c", "line":58, "type":"m", "scope_line":43, "scope_name":"struct cmos_rtc", }
+,{"id":"century", "file":"include/acpi/actbl.h", "line":241, "type":"m", "scope_line":205, "scope_name":"struct acpi_table_fadt", }
+,{"id":"cfb_copyarea", "file":"drivers/video/cfbcopyarea.c", "line":369, "type":"f", }
+,{"id":"cfb_fillrect", "file":"drivers/video/cfbfillrect.c", "line":278, "type":"f", }
+,{"id":"cfb_imageblit", "file":"drivers/video/cfbimgblt.c", "line":265, "type":"f", }
+,{"id":"cfb_tab16_be", "file":"drivers/video/cfbimgblt.c", "line":60, "type":"v", }
+,{"id":"cfb_tab16_le", "file":"drivers/video/cfbimgblt.c", "line":64, "type":"v", }
+,{"id":"cfb_tab32", "file":"drivers/video/cfbimgblt.c", "line":68, "type":"v", }
+,{"id":"cfb_tab8_be", "file":"drivers/video/cfbimgblt.c", "line":46, "type":"v", }
+,{"id":"cfb_tab8_le", "file":"drivers/video/cfbimgblt.c", "line":53, "type":"v", }
+,{"id":"cfc", "file":"include/net/bluetooth/rfcomm.h", "line":165, "type":"m", "scope_line":155, "scope_name":"struct rfcomm_session", }
+,{"id":"cfc", "file":"include/net/bluetooth/rfcomm.h", "line":193, "type":"m", "scope_line":171, "scope_name":"struct rfcomm_dlc", }
+,{"id":"cfd_data", "file":"kernel/smp.c", "line":35, "type":"v", }
+,{"id":"cfg80211_assoc_request", "file":"include/net/cfg80211.h", "line":745, "type":"s", }
+,{"id":"cfg80211_auth_request", "file":"include/net/cfg80211.h", "line":723, "type":"s", }
+,{"id":"cfg80211_bitrate_mask", "file":"include/net/cfg80211.h", "line":881, "type":"s", }
+,{"id":"cfg80211_bss", "file":"include/net/cfg80211.h", "line":652, "type":"s", }
+,{"id":"cfg80211_connect_params", "file":"include/net/cfg80211.h", "line":848, "type":"s", }
+,{"id":"cfg80211_crypto_settings", "file":"include/net/cfg80211.h", "line":695, "type":"s", }
+,{"id":"cfg80211_deauth_request", "file":"include/net/cfg80211.h", "line":766, "type":"s", }
+,{"id":"cfg80211_disassoc_request", "file":"include/net/cfg80211.h", "line":787, "type":"s", }
+,{"id":"cfg80211_get_bss", "file":"include/net/cfg80211.h", "line":2027, "type":"c", "scope_line":2022, "scope_name":"cfg80211_get_ibss", }
+,{"id":"cfg80211_get_ibss", "file":"include/net/cfg80211.h", "line":2022, "type":"f", }
+,{"id":"cfg80211_ibss_params", "file":"include/net/cfg80211.h", "line":815, "type":"s", }
+,{"id":"cfg80211_ops", "file":"include/net/cfg80211.h", "line":1039, "type":"s", }
+,{"id":"cfg80211_pmksa", "file":"include/net/cfg80211.h", "line":897, "type":"s", }
+,{"id":"cfg80211_scan_request", "file":"include/net/cfg80211.h", "line":599, "type":"s", }
+,{"id":"cfg80211_signal_type", "file":"include/net/cfg80211.h", "line":622, "type":"t", }
+,{"id":"cfg80211_ssid", "file":"include/net/cfg80211.h", "line":581, "type":"s", }
+,{"id":"cfg_size", "file":"include/linux/pci.h", "line":285, "type":"m", "scope_line":231, "scope_name":"struct pci_dev", }
+,{"id":"cflag", "file":"drivers/serial/serial_core.c", "line":1861, "type":"m", "scope_line":1859, "scope_name":"struct baud_rates", }
+,{"id":"cflag", "file":"include/linux/console.h", "line":124, "type":"m", "scope_line":114, "scope_name":"struct console", }
+,{"id":"cfq_activate_request", "file":"block/cfq-iosched.c", "line":1489, "type":"f", }
+,{"id":"cfq_add_cfqq_rr", "file":"block/cfq-iosched.c", "line":1363, "type":"f", }
+,{"id":"cfq_add_cfqq_rr", "file":"block/cfq-iosched.c", "line":1439, "type":"c", "scope_line":1423, "scope_name":"cfq_add_rq_rb", }
+,{"id":"cfq_add_rq_rb", "file":"block/cfq-iosched.c", "line":1423, "type":"f", }
+,{"id":"cfq_add_rq_rb", "file":"block/cfq-iosched.c", "line":1462, "type":"c", "scope_line":1456, "scope_name":"cfq_reposition_rq_rb", }
+,{"id":"cfq_add_rq_rb", "file":"block/cfq-iosched.c", "line":3357, "type":"c", "scope_line":3347, "scope_name":"cfq_insert_request", }
+,{"id":"cfq_alloc_cic_index", "file":"block/cfq-iosched.c", "line":3832, "type":"f", }
+,{"id":"cfq_alloc_cic_index", "file":"block/cfq-iosched.c", "line":3857, "type":"c", "scope_line":3850, "scope_name":"cfq_init_queue", }
+,{"id":"cfq_alloc_io_context", "file":"block/cfq-iosched.c", "line":2734, "type":"f", }
+,{"id":"cfq_alloc_io_context", "file":"block/cfq-iosched.c", "line":3104, "type":"c", "scope_line":3088, "scope_name":"cfq_get_io_context", }
+,{"id":"cfq_allow_merge", "file":"block/cfq-iosched.c", "line":1582, "type":"f", }
+,{"id":"cfq_arm_slice_timer", "file":"block/cfq-iosched.c", "line":1901, "type":"f", }
+,{"id":"cfq_arm_slice_timer", "file":"block/cfq-iosched.c", "line":3507, "type":"c", "scope_line":3430, "scope_name":"cfq_completed_request", }
+,{"id":"cfq_async_queue_prio", "file":"block/cfq-iosched.c", "line":2938, "type":"f", }
+,{"id":"cfq_async_queue_prio", "file":"block/cfq-iosched.c", "line":2963, "type":"c", "scope_line":2953, "scope_name":"cfq_get_queue", }
+,{"id":"cfq_attrs", "file":"block/cfq-iosched.c", "line":4044, "type":"v", }
+,{"id":"cfq_back_max", "file":"block/cfq-iosched.c", "line":26, "type":"v", }
+,{"id":"cfq_back_max", "file":"block/cfq-iosched.c", "line":275, "type":"m", "scope_line":211, "scope_name":"struct cfq_data", }
+,{"id":"cfq_back_penalty", "file":"block/cfq-iosched.c", "line":274, "type":"m", "scope_line":211, "scope_name":"struct cfq_data", }
+,{"id":"cfq_back_penalty", "file":"block/cfq-iosched.c", "line":28, "type":"v", }
+,{"id":"cfq_back_seek_max_show", "file":"block/cfq-iosched.c", "line":3996, "type":"f", }
+,{"id":"cfq_back_seek_max_store", "file":"block/cfq-iosched.c", "line":4028, "type":"f", }
+,{"id":"cfq_back_seek_penalty_show", "file":"block/cfq-iosched.c", "line":3997, "type":"f", }
+,{"id":"cfq_back_seek_penalty_store", "file":"block/cfq-iosched.c", "line":4029, "type":"f", }
+,{"id":"cfq_bio_merged", "file":"block/cfq-iosched.c", "line":1554, "type":"f", }
+,{"id":"cfq_bio_sync", "file":"block/cfq-iosched.c", "line":1479, "type":"c", "scope_line":1468, "scope_name":"cfq_find_rq_fmerge", }
+,{"id":"cfq_bio_sync", "file":"block/cfq-iosched.c", "line":1557, "type":"c", "scope_line":1554, "scope_name":"cfq_bio_merged", }
+,{"id":"cfq_bio_sync", "file":"block/cfq-iosched.c", "line":1592, "type":"c", "scope_line":1582, "scope_name":"cfq_allow_merge", }
+,{"id":"cfq_bio_sync", "file":"block/cfq-iosched.c", "line":1603, "type":"c", "scope_line":1582, "scope_name":"cfq_allow_merge", }
+,{"id":"cfq_bio_sync", "file":"block/cfq-iosched.c", "line":480, "type":"f", }
+,{"id":"cfq_blkiocg_add_blkio_group", "file":"block/cfq.h", "line":107, "type":"f", }
+,{"id":"cfq_blkiocg_del_blkio_group", "file":"block/cfq-iosched.c", "line":3818, "type":"c", "scope_line":3796, "scope_name":"cfq_exit_queue", }
+,{"id":"cfq_blkiocg_del_blkio_group", "file":"block/cfq.h", "line":109, "type":"f", }
+,{"id":"cfq_blkiocg_set_start_empty_time", "file":"block/cfq-iosched.c", "line":969, "type":"c", "scope_line":933, "scope_name":"cfq_group_served", }
+,{"id":"cfq_blkiocg_set_start_empty_time", "file":"block/cfq.h", "line":89, "type":"f", }
+,{"id":"cfq_blkiocg_update_avg_queue_size_stats", "file":"block/cfq-iosched.c", "line":1619, "type":"c", "scope_line":1613, "scope_name":"__cfq_set_active_queue", }
+,{"id":"cfq_blkiocg_update_avg_queue_size_stats", "file":"block/cfq.h", "line":97, "type":"f", }
+,{"id":"cfq_blkiocg_update_completion_stats", "file":"block/cfq-iosched.c", "line":3448, "type":"c", "scope_line":3430, "scope_name":"cfq_completed_request", }
+,{"id":"cfq_blkiocg_update_completion_stats", "file":"block/cfq.h", "line":105, "type":"f", }
+,{"id":"cfq_blkiocg_update_dequeue_stats", "file":"block/cfq-iosched.c", "line":904, "type":"c", "scope_line":883, "scope_name":"cfq_group_service_tree_del", }
+,{"id":"cfq_blkiocg_update_dequeue_stats", "file":"block/cfq.h", "line":84, "type":"f", }
+,{"id":"cfq_blkiocg_update_dispatch_stats", "file":"block/cfq-iosched.c", "line":1989, "type":"c", "scope_line":1974, "scope_name":"cfq_dispatch_insert", }
+,{"id":"cfq_blkiocg_update_dispatch_stats", "file":"block/cfq.h", "line":103, "type":"f", }
+,{"id":"cfq_blkiocg_update_idle_time_stats", "file":"block/cfq-iosched.c", "line":1610, "type":"c", "scope_line":1607, "scope_name":"cfq_del_timer", }
+,{"id":"cfq_blkiocg_update_idle_time_stats", "file":"block/cfq-iosched.c", "line":3330, "type":"c", "scope_line":3296, "scope_name":"cfq_rq_enqueued", }
+,{"id":"cfq_blkiocg_update_idle_time_stats", "file":"block/cfq.h", "line":94, "type":"f", }
+,{"id":"cfq_blkiocg_update_io_add_stats", "file":"block/cfq-iosched.c", "line":1463, "type":"c", "scope_line":1456, "scope_name":"cfq_reposition_rq_rb", }
+,{"id":"cfq_blkiocg_update_io_add_stats", "file":"block/cfq-iosched.c", "line":3358, "type":"c", "scope_line":3347, "scope_name":"cfq_insert_request", }
+,{"id":"cfq_blkiocg_update_io_add_stats", "file":"block/cfq.h", "line":81, "type":"f", }
+,{"id":"cfq_blkiocg_update_io_merged_stats", "file":"block/cfq-iosched.c", "line":1557, "type":"c", "scope_line":1554, "scope_name":"cfq_bio_merged", }
+,{"id":"cfq_blkiocg_update_io_merged_stats", "file":"block/cfq-iosched.c", "line":1578, "type":"c", "scope_line":1561, "scope_name":"cfq_merged_requests", }
+,{"id":"cfq_blkiocg_update_io_merged_stats", "file":"block/cfq.h", "line":92, "type":"f", }
+,{"id":"cfq_blkiocg_update_io_remove_stats", "file":"block/cfq-iosched.c", "line":1460, "type":"c", "scope_line":1456, "scope_name":"cfq_reposition_rq_rb", }
+,{"id":"cfq_blkiocg_update_io_remove_stats", "file":"block/cfq-iosched.c", "line":1521, "type":"c", "scope_line":1510, "scope_name":"cfq_remove_request", }
+,{"id":"cfq_blkiocg_update_io_remove_stats", "file":"block/cfq.h", "line":90, "type":"f", }
+,{"id":"cfq_blkiocg_update_set_idle_time_stats", "file":"block/cfq-iosched.c", "line":1966, "type":"c", "scope_line":1901, "scope_name":"cfq_arm_slice_timer", }
+,{"id":"cfq_blkiocg_update_set_idle_time_stats", "file":"block/cfq.h", "line":100, "type":"f", }
+,{"id":"cfq_blkiocg_update_timeslice_used", "file":"block/cfq-iosched.c", "line":968, "type":"c", "scope_line":933, "scope_name":"cfq_group_served", }
+,{"id":"cfq_blkiocg_update_timeslice_used", "file":"block/cfq.h", "line":87, "type":"f", }
+,{"id":"cfq_cfqd_free", "file":"block/cfq-iosched.c", "line":3791, "type":"f", }
+,{"id":"cfq_cfqq_coop", "file":"block/cfq-iosched.c", "line":1660, "type":"c", "scope_line":1642, "scope_name":"__cfq_slice_expired", }
+,{"id":"cfq_cfqq_coop", "file":"block/cfq-iosched.c", "line":352, "type":"f", }
+,{"id":"cfq_cfqq_coop", "file":"block/cfq-iosched.c", "line":3666, "type":"c", "scope_line":3638, "scope_name":"cfq_set_request", }
+,{"id":"cfq_cfqq_deep", "file":"block/cfq-iosched.c", "line":3180, "type":"c", "scope_line":3163, "scope_name":"cfq_update_idle_window", }
+,{"id":"cfq_cfqq_deep", "file":"block/cfq-iosched.c", "line":354, "type":"f", }
+,{"id":"cfq_cfqq_fifo_expire", "file":"block/cfq-iosched.c", "line":2000, "type":"c", "scope_line":1996, "scope_name":"cfq_check_fifo", }
+,{"id":"cfq_cfqq_fifo_expire", "file":"block/cfq-iosched.c", "line":347, "type":"f", }
+,{"id":"cfq_cfqq_idle_window", "file":"block/cfq-iosched.c", "line":1886, "type":"c", "scope_line":1870, "scope_name":"cfq_should_idle", }
+,{"id":"cfq_cfqq_idle_window", "file":"block/cfq-iosched.c", "line":3175, "type":"c", "scope_line":3163, "scope_name":"cfq_update_idle_window", }
+,{"id":"cfq_cfqq_idle_window", "file":"block/cfq-iosched.c", "line":3387, "type":"c", "scope_line":3368, "scope_name":"cfq_update_hw_tag", }
+,{"id":"cfq_cfqq_idle_window", "file":"block/cfq-iosched.c", "line":348, "type":"f", }
+,{"id":"cfq_cfqq_idle_window", "file":"block/cfq-iosched.c", "line":416, "type":"c", "scope_line":412, "scope_name":"cfqq_type", }
+,{"id":"cfq_cfqq_must_alloc_slice", "file":"block/cfq-iosched.c", "line":346, "type":"f", }
+,{"id":"cfq_cfqq_must_alloc_slice", "file":"block/cfq-iosched.c", "line":3541, "type":"c", "scope_line":3539, "scope_name":"__cfq_may_queue", }
+,{"id":"cfq_cfqq_must_dispatch", "file":"block/cfq-iosched.c", "line":2240, "type":"c", "scope_line":2220, "scope_name":"cfq_select_queue", }
+,{"id":"cfq_cfqq_must_dispatch", "file":"block/cfq-iosched.c", "line":345, "type":"f", }
+,{"id":"cfq_cfqq_must_dispatch", "file":"block/cfq-iosched.c", "line":3735, "type":"c", "scope_line":3717, "scope_name":"cfq_idle_slice_timer", }
+,{"id":"cfq_cfqq_on_rr", "file":"block/cfq-iosched.c", "line":1353, "type":"c", "scope_line":1348, "scope_name":"cfq_resort_rr_list", }
+,{"id":"cfq_cfqq_on_rr", "file":"block/cfq-iosched.c", "line":1366, "type":"c", "scope_line":1363, "scope_name":"cfq_add_cfqq_rr", }
+,{"id":"cfq_cfqq_on_rr", "file":"block/cfq-iosched.c", "line":1380, "type":"c", "scope_line":1377, "scope_name":"cfq_del_cfqq_rr", }
+,{"id":"cfq_cfqq_on_rr", "file":"block/cfq-iosched.c", "line":1410, "type":"c", "scope_line":1400, "scope_name":"cfq_del_rq_rb", }
+,{"id":"cfq_cfqq_on_rr", "file":"block/cfq-iosched.c", "line":1438, "type":"c", "scope_line":1423, "scope_name":"cfq_add_rq_rb", }
+,{"id":"cfq_cfqq_on_rr", "file":"block/cfq-iosched.c", "line":1673, "type":"c", "scope_line":1642, "scope_name":"__cfq_slice_expired", }
+,{"id":"cfq_cfqq_on_rr", "file":"block/cfq-iosched.c", "line":2549, "type":"c", "scope_line":2528, "scope_name":"cfq_put_queue", }
+,{"id":"cfq_cfqq_on_rr", "file":"block/cfq-iosched.c", "line":3284, "type":"c", "scope_line":3275, "scope_name":"cfq_preempt_queue", }
+,{"id":"cfq_cfqq_on_rr", "file":"block/cfq-iosched.c", "line":343, "type":"f", }
+,{"id":"cfq_cfqq_prio_changed", "file":"block/cfq-iosched.c", "line":2758, "type":"c", "scope_line":2753, "scope_name":"cfq_init_prio_data", }
+,{"id":"cfq_cfqq_prio_changed", "file":"block/cfq-iosched.c", "line":349, "type":"f", }
+,{"id":"cfq_cfqq_slice_new", "file":"block/cfq-iosched.c", "line":1666, "type":"c", "scope_line":1642, "scope_name":"__cfq_slice_expired", }
+,{"id":"cfq_cfqq_slice_new", "file":"block/cfq-iosched.c", "line":1916, "type":"c", "scope_line":1901, "scope_name":"cfq_arm_slice_timer", }
+,{"id":"cfq_cfqq_slice_new", "file":"block/cfq-iosched.c", "line":2361, "type":"c", "scope_line":2357, "scope_name":"cfq_slice_used_soon", }
+,{"id":"cfq_cfqq_slice_new", "file":"block/cfq-iosched.c", "line":3467, "type":"c", "scope_line":3430, "scope_name":"cfq_completed_request", }
+,{"id":"cfq_cfqq_slice_new", "file":"block/cfq-iosched.c", "line":350, "type":"f", }
+,];
+xr_frag_insert('t/61/4c3bcc13e29fb9de61b9c1efc02cfe10c77752.xr', __xr_tmp);

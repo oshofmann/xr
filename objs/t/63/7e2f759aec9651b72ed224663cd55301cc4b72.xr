@@ -1,0 +1,109 @@
+var __xr_tmp = [
+{"id":"wait_on_page_writeback", "file":"mm/swapfile.c", "line":1260, "type":"c", "scope_line":1088, "scope_name":"try_to_unuse", }
+,{"id":"wait_on_page_writeback", "file":"mm/truncate.c", "line":256, "type":"c", "scope_line":208, "scope_name":"truncate_inode_pages_range", }
+,{"id":"wait_on_page_writeback", "file":"mm/truncate.c", "line":283, "type":"c", "scope_line":208, "scope_name":"truncate_inode_pages_range", }
+,{"id":"wait_on_page_writeback", "file":"mm/truncate.c", "line":454, "type":"c", "scope_line":420, "scope_name":"invalidate_inode_pages2_range", }
+,{"id":"wait_on_page_writeback", "file":"mm/vmscan.c", "line":398, "type":"c", "scope_line":332, "scope_name":"pageout", }
+,{"id":"wait_on_page_writeback", "file":"mm/vmscan.c", "line":698, "type":"c", "scope_line":646, "scope_name":"shrink_page_list", }
+,{"id":"wait_on_retry_sync_kiocb", "file":"fs/read_write.c", "line":259, "type":"f", }
+,{"id":"wait_on_retry_sync_kiocb", "file":"fs/read_write.c", "line":284, "type":"c", "scope_line":269, "scope_name":"do_sync_read", }
+,{"id":"wait_on_retry_sync_kiocb", "file":"fs/read_write.c", "line":340, "type":"c", "scope_line":325, "scope_name":"do_sync_write", }
+,{"id":"wait_on_retry_sync_kiocb", "file":"fs/read_write.c", "line":520, "type":"c", "scope_line":505, "scope_name":"do_sync_readv_writev", }
+,{"id":"wait_on_sync_kiocb", "file":"fs/aio.c", "line":388, "type":"f", }
+,{"id":"wait_on_sync_kiocb", "file":"fs/read_write.c", "line":288, "type":"c", "scope_line":269, "scope_name":"do_sync_read", }
+,{"id":"wait_on_sync_kiocb", "file":"fs/read_write.c", "line":344, "type":"c", "scope_line":325, "scope_name":"do_sync_write", }
+,{"id":"wait_on_sync_kiocb", "file":"fs/read_write.c", "line":524, "type":"c", "scope_line":505, "scope_name":"do_sync_readv_writev", }
+,{"id":"wait_on_sync_kiocb", "file":"net/socket.c", "line":580, "type":"c", "scope_line":570, "scope_name":"sock_sendmsg", }
+,{"id":"wait_on_sync_kiocb", "file":"net/socket.c", "line":715, "type":"c", "scope_line":704, "scope_name":"sock_recvmsg", }
+,{"id":"wait_on_sync_kiocb", "file":"net/socket.c", "line":731, "type":"c", "scope_line":720, "scope_name":"sock_recvmsg_nosec", }
+,{"id":"wait_on_work", "file":"kernel/workqueue.c", "line":2445, "type":"f", }
+,{"id":"wait_on_work", "file":"kernel/workqueue.c", "line":2467, "type":"c", "scope_line":2458, "scope_name":"__cancel_work_timer", }
+,{"id":"wait_opts", "file":"kernel/exit.c", "line":1097, "type":"s", }
+,{"id":"wait_pipe", "file":"kernel/trace/trace.h", "line":254, "type":"m", "scope_line":246, "scope_name":"struct tracer", }
+,{"id":"wait_q", "file":"ipc/mqueue.c", "line":61, "type":"m", "scope_line":58, "scope_name":"struct mqueue_inode_info", }
+,{"id":"wait_queue", "file":"include/linux/pm.h", "line":466, "type":"m", "scope_line":451, "scope_name":"struct dev_pm_info", }
+,{"id":"wait_queue_func_t", "file":"include/linux/wait.h", "line":29, "type":"t", }
+,{"id":"wait_queue_head_t", "file":"include/linux/wait.h", "line":54, "type":"t", }
+,{"id":"wait_queue_t", "file":"include/linux/wait.h", "line":28, "type":"t", }
+,{"id":"wait_queue_token", "file":"include/linux/auto_fs.h", "line":66, "type":"m", "scope_line":64, "scope_name":"struct autofs_packet_missing", }
+,{"id":"wait_queue_token", "file":"include/linux/auto_fs4.h", "line":117, "type":"m", "scope_line":115, "scope_name":"struct autofs_packet_expire_multi", }
+,{"id":"wait_queue_token", "file":"include/linux/auto_fs4.h", "line":132, "type":"m", "scope_line":130, "scope_name":"struct autofs_v5_packet", }
+,{"id":"wait_release", "file":"drivers/pci/pcie/aer/aerdrv.h", "line":86, "type":"m", "scope_line":70, "scope_name":"struct aer_rpc", }
+,{"id":"wait_sb_inodes", "file":"fs/fs-writeback.c", "line":1021, "type":"f", }
+,{"id":"wait_sb_inodes", "file":"fs/fs-writeback.c", "line":1143, "type":"c", "scope_line":1127, "scope_name":"sync_inodes_sb", }
+,{"id":"wait_start", "file":"include/linux/sched.h", "line":1085, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"wait_sum", "file":"include/linux/sched.h", "line":1088, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"wait_table", "file":"include/linux/mmzone.h", "line":391, "type":"m", "scope_line":280, "scope_name":"struct zone", }
+,{"id":"wait_table_bits", "file":"include/linux/mmzone.h", "line":393, "type":"m", "scope_line":280, "scope_name":"struct zone", }
+,{"id":"wait_table_bits", "file":"mm/page_alloc.c", "line":3154, "type":"f", }
+,{"id":"wait_table_bits", "file":"mm/page_alloc.c", "line":3432, "type":"c", "scope_line":3419, "scope_name":"zone_wait_table_init", }
+,{"id":"wait_table_hash_nr_entries", "file":"include/linux/mmzone.h", "line":392, "type":"m", "scope_line":280, "scope_name":"struct zone", }
+,{"id":"wait_table_hash_nr_entries", "file":"mm/page_alloc.c", "line":3143, "type":"f", }
+,{"id":"wait_table_hash_nr_entries", "file":"mm/page_alloc.c", "line":3430, "type":"c", "scope_line":3419, "scope_name":"zone_wait_table_init", }
+,{"id":"wait_task_continued", "file":"kernel/exit.c", "line":1442, "type":"f", }
+,{"id":"wait_task_continued", "file":"kernel/exit.c", "line":1543, "type":"c", "scope_line":1495, "scope_name":"wait_consider_task", }
+,{"id":"wait_task_inactive", "file":"kernel/kthread.c", "line":181, "type":"c", "scope_line":178, "scope_name":"kthread_bind", }
+,{"id":"wait_task_inactive", "file":"kernel/ptrace.c", "line":113, "type":"c", "scope_line":85, "scope_name":"ptrace_check_attach", }
+,{"id":"wait_task_inactive", "file":"kernel/sched.c", "line":2083, "type":"f", }
+,{"id":"wait_task_inactive", "file":"lib/syscall.c", "line":67, "type":"c", "scope_line":50, "scope_name":"task_current_syscall", }
+,{"id":"wait_task_inactive", "file":"lib/syscall.c", "line":68, "type":"c", "scope_line":50, "scope_name":"task_current_syscall", }
+,{"id":"wait_task_stopped", "file":"kernel/exit.c", "line":1361, "type":"f", }
+,{"id":"wait_task_stopped", "file":"kernel/exit.c", "line":1541, "type":"c", "scope_line":1495, "scope_name":"wait_consider_task", }
+,{"id":"wait_task_zombie", "file":"kernel/exit.c", "line":1174, "type":"f", }
+,{"id":"wait_task_zombie", "file":"kernel/exit.c", "line":1532, "type":"c", "scope_line":1495, "scope_name":"wait_consider_task", }
+,{"id":"wait_transaction_complete", "file":"drivers/acpi/sbshc.c", "line":107, "type":"f", }
+,{"id":"wait_transaction_complete", "file":"drivers/acpi/sbshc.c", "line":153, "type":"c", "scope_line":123, "scope_name":"acpi_smbus_transaction", }
+,{"id":"wait_trustee_state", "file":"kernel/workqueue.c", "line":3268, "type":"f", }
+,{"id":"wait_trustee_state", "file":"kernel/workqueue.c", "line":3322, "type":"c", "scope_line":3282, "scope_name":"workqueue_cpu_callback", }
+,{"id":"wait_trustee_state", "file":"kernel/workqueue.c", "line":3353, "type":"c", "scope_line":3282, "scope_name":"workqueue_cpu_callback", }
+,{"id":"wait_until_sent", "file":"include/linux/tty_driver.h", "line":264, "type":"m", "scope_line":236, "scope_name":"struct tty_operations", }
+,{"id":"waiter", "file":"fs/direct-io.c", "line":107, "type":"m", "scope_line":58, "scope_name":"struct dio", }
+,{"id":"waiter", "file":"include/linux/module.h", "line":374, "type":"m", "scope_line":244, "scope_name":"struct module", }
+,{"id":"waiter", "file":"kernel/trace/trace.h", "line":152, "type":"m", "scope_line":147, "scope_name":"struct trace_array", }
+,{"id":"waiting_for_crash_ipi", "file":"arch/x86/kernel/reboot.c", "line":749, "type":"v", }
+,{"id":"waiting_for_dma", "file":"include/linux/ide.h", "line":512, "type":"m", "scope_line":486, "scope_name":"struct ide_drive_s", }
+,{"id":"waiting_queue", "file":"include/linux/nbd.h", "line":62, "type":"m", "scope_line":51, "scope_name":"struct nbd_device", }
+,{"id":"waiting_wq", "file":"include/linux/nbd.h", "line":63, "type":"m", "scope_line":51, "scope_name":"struct nbd_device", }
+,{"id":"waiting_writers", "file":"include/linux/pipe_fs_i.h", "line":50, "type":"m", "scope_line":45, "scope_name":"struct pipe_inode_info", }
+,{"id":"waitq", "file":"include/linux/lp.h", "line":146, "type":"m", "scope_line":134, "scope_name":"struct lp_struct", }
+,{"id":"waitq", "file":"include/linux/perf_event.h", "line":739, "type":"m", "scope_line":663, "scope_name":"struct perf_event", }
+,{"id":"waitq", "file":"mm/dmapool.c", "line":52, "type":"m", "scope_line":44, "scope_name":"struct dma_pool", }
+,{"id":"waitq", "file":"mm/memcontrol.c", "line":279, "type":"m", "scope_line":271, "scope_name":"struct move_charge_struct", }
+,{"id":"waitqueue", "file":"include/linux/nfs_fs.h", "line":182, "type":"m", "scope_line":110, "scope_name":"struct nfs_inode", }
+,{"id":"waitqueue_active", "file":"block/blk-core.c", "line":717, "type":"c", "scope_line":709, "scope_name":"__freed_request", }
+,{"id":"waitqueue_active", "file":"drivers/char/n_tty.c", "line":1296, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"waitqueue_active", "file":"drivers/char/n_tty.c", "line":1420, "type":"c", "scope_line":1357, "scope_name":"n_tty_receive_buf", }
+,{"id":"waitqueue_active", "file":"drivers/char/n_tty.c", "line":1739, "type":"c", "scope_line":1710, "scope_name":"n_tty_read", }
+,{"id":"waitqueue_active", "file":"drivers/char/n_tty.c", "line":1895, "type":"c", "scope_line":1710, "scope_name":"n_tty_read", }
+,{"id":"waitqueue_active", "file":"drivers/char/tty_io.c", "line":1654, "type":"c", "scope_line":1545, "scope_name":"tty_release", }
+,{"id":"waitqueue_active", "file":"drivers/char/tty_io.c", "line":1658, "type":"c", "scope_line":1545, "scope_name":"tty_release", }
+,{"id":"waitqueue_active", "file":"drivers/char/tty_io.c", "line":1664, "type":"c", "scope_line":1545, "scope_name":"tty_release", }
+,{"id":"waitqueue_active", "file":"drivers/char/tty_io.c", "line":1668, "type":"c", "scope_line":1545, "scope_name":"tty_release", }
+,{"id":"waitqueue_active", "file":"drivers/char/tty_io.c", "line":1985, "type":"c", "scope_line":1969, "scope_name":"__tty_fasync", }
+,{"id":"waitqueue_active", "file":"drivers/char/tty_io.c", "line":2002, "type":"c", "scope_line":1969, "scope_name":"__tty_fasync", }
+,{"id":"waitqueue_active", "file":"drivers/net/tun.c", "line":888, "type":"c", "scope_line":876, "scope_name":"tun_sock_write_space", }
+,{"id":"waitqueue_active", "file":"fs/aio.c", "line":1006, "type":"c", "scope_line":912, "scope_name":"aio_complete", }
+,{"id":"waitqueue_active", "file":"fs/aio.c", "line":794, "type":"c", "scope_line":786, "scope_name":"aio_queue_work", }
+,{"id":"waitqueue_active", "file":"fs/eventfd.c", "line":166, "type":"c", "scope_line":158, "scope_name":"eventfd_ctx_remove_wait_queue", }
+,{"id":"waitqueue_active", "file":"fs/eventfd.c", "line":219, "type":"c", "scope_line":188, "scope_name":"eventfd_ctx_read", }
+,{"id":"waitqueue_active", "file":"fs/eventfd.c", "line":283, "type":"c", "scope_line":244, "scope_name":"eventfd_write", }
+,{"id":"waitqueue_active", "file":"fs/eventfd.c", "line":64, "type":"c", "scope_line":54, "scope_name":"eventfd_signal", }
+,{"id":"waitqueue_active", "file":"fs/eventpoll.c", "line":1031, "type":"c", "scope_line":1002, "scope_name":"ep_modify", }
+,{"id":"waitqueue_active", "file":"fs/eventpoll.c", "line":1033, "type":"c", "scope_line":1002, "scope_name":"ep_modify", }
+,{"id":"waitqueue_active", "file":"fs/eventpoll.c", "line":516, "type":"c", "scope_line":448, "scope_name":"ep_scan_ready_list", }
+,{"id":"waitqueue_active", "file":"fs/eventpoll.c", "line":518, "type":"c", "scope_line":448, "scope_name":"ep_scan_ready_list", }
+,{"id":"waitqueue_active", "file":"fs/eventpoll.c", "line":578, "type":"c", "scope_line":572, "scope_name":"ep_free", }
+,{"id":"waitqueue_active", "file":"fs/eventpoll.c", "line":838, "type":"c", "scope_line":789, "scope_name":"ep_poll_callback", }
+,{"id":"waitqueue_active", "file":"fs/eventpoll.c", "line":840, "type":"c", "scope_line":789, "scope_name":"ep_poll_callback", }
+,{"id":"waitqueue_active", "file":"fs/eventpoll.c", "line":963, "type":"c", "scope_line":898, "scope_name":"ep_insert", }
+,{"id":"waitqueue_active", "file":"fs/eventpoll.c", "line":965, "type":"c", "scope_line":898, "scope_name":"ep_insert", }
+,{"id":"waitqueue_active", "file":"fs/locks.c", "line":173, "type":"c", "scope_line":171, "scope_name":"locks_free_lock", }
+,{"id":"waitqueue_active", "file":"fs/splice.c", "line":1924, "type":"c", "scope_line":1819, "scope_name":"splice_pipe_to_pipe", }
+,{"id":"waitqueue_active", "file":"fs/splice.c", "line":2008, "type":"c", "scope_line":1937, "scope_name":"link_pipe", }
+,{"id":"waitqueue_active", "file":"fs/splice.c", "line":237, "type":"c", "scope_line":176, "scope_name":"splice_to_pipe", }
+,{"id":"waitqueue_active", "file":"fs/splice.c", "line":252, "type":"c", "scope_line":176, "scope_name":"splice_to_pipe", }
+,{"id":"waitqueue_active", "file":"fs/splice.c", "line":770, "type":"c", "scope_line":767, "scope_name":"wakeup_pipe_writers", }
+,{"id":"waitqueue_active", "file":"include/linux/signalfd.h", "line":59, "type":"c", "scope_line":57, "scope_name":"signalfd_notify", }
+,{"id":"waitqueue_active", "file":"include/linux/wait.h", "line":113, "type":"f", }
+,];
+xr_frag_insert('t/63/7e2f759aec9651b72ed224663cd55301cc4b72.xr', __xr_tmp);

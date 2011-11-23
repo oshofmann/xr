@@ -1,0 +1,325 @@
+var __xr_tmp = [
+{"id":"saved_auxv", "file":"include/linux/mm_types.h", "line":268, "type":"m", "scope_line":232, "scope_name":"struct mm_struct", }
+,{"id":"saved_bm_rld", "file":"drivers/acpi/processor_idle.c", "line":222, "type":"v", }
+,{"id":"saved_cap", "file":"drivers/ata/ahci.h", "line":291, "type":"m", "scope_line":285, "scope_name":"struct ahci_host_priv", }
+,{"id":"saved_cap2", "file":"drivers/ata/ahci.h", "line":292, "type":"m", "scope_line":285, "scope_name":"struct ahci_host_priv", }
+,{"id":"saved_cap_space", "file":"include/linux/pci.h", "line":323, "type":"m", "scope_line":231, "scope_name":"struct pci_dev", }
+,{"id":"saved_cmdlines", "file":"kernel/trace/trace.c", "line":906, "type":"v", }
+,{"id":"saved_command_line", "file":"include/linux/init.h", "line":143, "type":"v", }
+,{"id":"saved_config_space", "file":"include/linux/pci.h", "line":322, "type":"m", "scope_line":231, "scope_name":"struct pci_dev", }
+,{"id":"saved_console_blanked", "file":"drivers/char/vt.c", "line":201, "type":"v", }
+,{"id":"saved_console_loglevel", "file":"kernel/printk.c", "line":155, "type":"v", }
+,{"id":"saved_context", "file":"arch/x86/include/asm/suspend_64.h", "line":25, "type":"s", }
+,{"id":"saved_context", "file":"arch/x86/power/cpu.c", "line":32, "type":"v", }
+,{"id":"saved_context_cr0", "file":"include/generated/asm-offsets.h", "line":67, "type":"d", }
+,{"id":"saved_context_cr2", "file":"include/generated/asm-offsets.h", "line":68, "type":"d", }
+,{"id":"saved_context_cr3", "file":"include/generated/asm-offsets.h", "line":69, "type":"d", }
+,{"id":"saved_context_cr4", "file":"include/generated/asm-offsets.h", "line":70, "type":"d", }
+,{"id":"saved_context_cr8", "file":"include/generated/asm-offsets.h", "line":71, "type":"d", }
+,{"id":"saved_event_count", "file":"drivers/base/power/wakeup.c", "line":25, "type":"v", }
+,{"id":"saved_fg_console", "file":"drivers/char/vt.c", "line":197, "type":"v", }
+,{"id":"saved_flags", "file":"arch/x86/include/asm/kprobes.h", "line":100, "type":"m", "scope_line":96, "scope_name":"struct prev_kprobe", }
+,{"id":"saved_flags", "file":"arch/x86/mm/kmmio.c", "line":60, "type":"m", "scope_line":57, "scope_name":"struct kmmio_context", }
+,{"id":"saved_ftrace_func", "file":"kernel/trace/ftrace.c", "line":1173, "type":"v", }
+,{"id":"saved_instr", "file":"include/linux/kgdb.h", "line":88, "type":"m", "scope_line":86, "scope_name":"struct kgdb_bkpt", }
+,{"id":"saved_iocfg", "file":"drivers/ata/ata_piix.c", "line":160, "type":"m", "scope_line":158, "scope_name":"struct piix_host_priv", }
+,{"id":"saved_last_console", "file":"drivers/char/vt.c", "line":198, "type":"v", }
+,{"id":"saved_latency", "file":"kernel/trace/trace.h", "line":128, "type":"m", "scope_line":124, "scope_name":"struct trace_array_cpu", }
+,{"id":"saved_make_request_fn", "file":"drivers/md/dm.c", "line":198, "type":"m", "scope_line":118, "scope_name":"struct mapped_device", }
+,{"id":"saved_max_active", "file":"kernel/workqueue.c", "line":244, "type":"m", "scope_line":224, "scope_name":"struct workqueue_struct", }
+,{"id":"saved_max_pfn", "file":"include/linux/bootmem.h", "line":23, "type":"v", }
+,{"id":"saved_names", "file":"include/linux/namei.h", "line":25, "type":"m", "scope_line":18, "scope_name":"struct nameidata", }
+,{"id":"saved_ncq_enabled", "file":"include/linux/libata.h", "line":672, "type":"m", "scope_line":664, "scope_name":"struct ata_eh_context", }
+,{"id":"saved_port_map", "file":"drivers/ata/ahci.h", "line":293, "type":"m", "scope_line":285, "scope_name":"struct ahci_host_priv", }
+,{"id":"saved_root_name", "file":"init/do_mounts.c", "line":30, "type":"v", }
+,{"id":"saved_scontrol", "file":"include/linux/libata.h", "line":698, "type":"m", "scope_line":689, "scope_name":"struct ata_link", }
+,{"id":"saved_serving_prio", "file":"block/cfq-iosched.c", "line":198, "type":"m", "scope_line":175, "scope_name":"struct cfq_group", }
+,{"id":"saved_sigmask", "file":"include/linux/sched.h", "line":1327, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"saved_sk", "file":"include/net/ip.h", "line":66, "type":"m", "scope_line":61, "scope_name":"struct ip_ra_chain", }
+,{"id":"saved_upcall_mask", "file":"arch/x86/include/asm/xen/interface_64.h", "line":129, "type":"m", "scope_line":109, "scope_name":"struct cpu_user_regs", }
+,{"id":"saved_vc_mode", "file":"drivers/char/vt.c", "line":200, "type":"v", }
+,{"id":"saved_video_mode", "file":"arch/x86/include/asm/setup.h", "line":44, "type":"v", }
+,{"id":"saved_want_console", "file":"drivers/char/vt.c", "line":199, "type":"v", }
+,{"id":"saved_workload", "file":"block/cfq-iosched.c", "line":197, "type":"m", "scope_line":175, "scope_name":"struct cfq_group", }
+,{"id":"saved_workload_slice", "file":"block/cfq-iosched.c", "line":196, "type":"m", "scope_line":175, "scope_name":"struct cfq_group", }
+,{"id":"saved_xfer_mode", "file":"include/linux/libata.h", "line":673, "type":"m", "scope_line":664, "scope_name":"struct ata_eh_context", }
+,{"id":"saveroute", "file":"include/linux/netfilter.h", "line":261, "type":"m", "scope_line":251, "scope_name":"struct nf_afinfo", }
+,{"id":"savesegment", "file":"arch/x86/include/asm/system.h", "line":179, "type":"d", }
+,{"id":"saw_tstamp", "file":"include/linux/tcp.h", "line":245, "type":"m", "scope_line":239, "scope_name":"struct tcp_options_received", }
+,{"id":"sax25_call", "file":"include/linux/ax25.h", "line":51, "type":"m", "scope_line":49, "scope_name":"struct sockaddr_ax25", }
+,{"id":"sax25_family", "file":"include/linux/ax25.h", "line":50, "type":"m", "scope_line":49, "scope_name":"struct sockaddr_ax25", }
+,{"id":"sax25_ndigis", "file":"include/linux/ax25.h", "line":52, "type":"m", "scope_line":49, "scope_name":"struct sockaddr_ax25", }
+,{"id":"sax25_uid", "file":"include/linux/ax25.h", "line":56, "type":"d", }
+,{"id":"sb", "file":"fs/fs-writeback.c", "line":37, "type":"m", "scope_line":35, "scope_name":"struct wb_writeback_work", }
+,{"id":"sb", "file":"kernel/cgroup.c", "line":85, "type":"m", "scope_line":84, "scope_name":"struct cgroupfs_root", }
+,{"id":"sb", "file":"security/selinux/include/objsec.h", "line":57, "type":"m", "scope_line":56, "scope_name":"struct superblock_security_struct", }
+,{"id":"sb600_disable_hpet_bar", "file":"arch/x86/pci/fixup.c", "line":501, "type":"f", }
+,{"id":"sb_alloc_security", "file":"include/linux/security.h", "line":1391, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sb_any_quota_loaded", "file":"fs/ext3/super.c", "line":1163, "type":"c", "scope_line":943, "scope_name":"parse_options", }
+,{"id":"sb_any_quota_loaded", "file":"fs/ext3/super.c", "line":1182, "type":"c", "scope_line":943, "scope_name":"parse_options", }
+,{"id":"sb_any_quota_loaded", "file":"fs/ext3/super.c", "line":892, "type":"c", "scope_line":887, "scope_name":"set_qf_name", }
+,{"id":"sb_any_quota_loaded", "file":"fs/ext3/super.c", "line":928, "type":"c", "scope_line":924, "scope_name":"clear_qf_name", }
+,{"id":"sb_any_quota_loaded", "file":"fs/ext4/super.c", "line":1328, "type":"c", "scope_line":1323, "scope_name":"set_qf_name", }
+,{"id":"sb_any_quota_loaded", "file":"fs/ext4/super.c", "line":1365, "type":"c", "scope_line":1360, "scope_name":"clear_qf_name", }
+,{"id":"sb_any_quota_loaded", "file":"fs/ext4/super.c", "line":1606, "type":"c", "scope_line":1380, "scope_name":"parse_options", }
+,{"id":"sb_any_quota_loaded", "file":"fs/ext4/super.c", "line":1625, "type":"c", "scope_line":1380, "scope_name":"parse_options", }
+,{"id":"sb_any_quota_loaded", "file":"fs/quota/dquot.c", "line":1339, "type":"c", "scope_line":1333, "scope_name":"dquot_active", }
+,{"id":"sb_any_quota_loaded", "file":"fs/quota/dquot.c", "line":1909, "type":"c", "scope_line":1888, "scope_name":"dquot_disable", }
+,{"id":"sb_any_quota_loaded", "file":"include/linux/quotaops.h", "line":140, "type":"f", }
+,{"id":"sb_any_quota_suspended", "file":"fs/quota/dquot.c", "line":1339, "type":"c", "scope_line":1333, "scope_name":"dquot_active", }
+,{"id":"sb_any_quota_suspended", "file":"include/linux/quotaops.h", "line":125, "type":"f", }
+,{"id":"sb_bgl_lock", "file":"fs/ext2/balloc.c", "line":179, "type":"c", "scope_line":172, "scope_name":"group_adjust_blocks", }
+,{"id":"sb_bgl_lock", "file":"fs/ext2/balloc.c", "line":182, "type":"c", "scope_line":172, "scope_name":"group_adjust_blocks", }
+,{"id":"sb_bgl_lock", "file":"fs/ext2/ialloc.c", "line":533, "type":"c", "scope_line":432, "scope_name":"ext2_new_inode", }
+,{"id":"sb_bgl_lock", "file":"fs/ext2/ialloc.c", "line":543, "type":"c", "scope_line":432, "scope_name":"ext2_new_inode", }
+,{"id":"sb_bgl_lock", "file":"fs/ext2/ialloc.c", "line":77, "type":"c", "scope_line":65, "scope_name":"ext2_release_inode", }
+,{"id":"sb_bgl_lock", "file":"fs/ext2/ialloc.c", "line":81, "type":"c", "scope_line":65, "scope_name":"ext2_release_inode", }
+,{"id":"sb_bgl_lock", "file":"fs/ext3/balloc.c", "line":1709, "type":"c", "scope_line":1469, "scope_name":"ext3_new_blocks", }
+,{"id":"sb_bgl_lock", "file":"fs/ext3/balloc.c", "line":1711, "type":"c", "scope_line":1469, "scope_name":"ext3_new_blocks", }
+,{"id":"sb_bgl_lock", "file":"fs/ext3/balloc.c", "line":633, "type":"c", "scope_line":477, "scope_name":"ext3_free_blocks_sb", }
+,{"id":"sb_bgl_lock", "file":"fs/ext3/balloc.c", "line":635, "type":"c", "scope_line":477, "scope_name":"ext3_free_blocks_sb", }
+,{"id":"sb_bgl_lock", "file":"fs/ext3/balloc.c", "line":917, "type":"c", "scope_line":865, "scope_name":"ext3_try_to_allocate", }
+,{"id":"sb_bgl_lock", "file":"fs/ext3/balloc.c", "line":931, "type":"c", "scope_line":865, "scope_name":"ext3_try_to_allocate", }
+,{"id":"sb_bgl_lock", "file":"fs/ext3/ialloc.c", "line":154, "type":"c", "scope_line":89, "scope_name":"ext3_free_inode", }
+,{"id":"sb_bgl_lock", "file":"fs/ext3/ialloc.c", "line":158, "type":"c", "scope_line":89, "scope_name":"ext3_free_inode", }
+,{"id":"sb_bgl_lock", "file":"fs/ext3/ialloc.c", "line":515, "type":"c", "scope_line":407, "scope_name":"ext3_new_inode", }
+,{"id":"sb_bgl_lock", "file":"fs/ext3/ialloc.c", "line":520, "type":"c", "scope_line":407, "scope_name":"ext3_new_inode", }
+,{"id":"sb_bgl_lock", "file":"include/linux/ext2_fs_sb.h", "line":120, "type":"f", }
+,{"id":"sb_bgl_lock", "file":"include/linux/ext3_fs_sb.h", "line":89, "type":"f", }
+,{"id":"sb_bread", "file":"fs/ext2/ialloc.c", "line":55, "type":"c", "scope_line":45, "scope_name":"read_inode_bitmap", }
+,{"id":"sb_bread", "file":"fs/ext2/inode.c", "line":1051, "type":"c", "scope_line":1039, "scope_name":"ext2_free_branches", }
+,{"id":"sb_bread", "file":"fs/ext2/inode.c", "line":1238, "type":"c", "scope_line":1214, "scope_name":"ext2_get_inode", }
+,{"id":"sb_bread", "file":"fs/ext2/inode.c", "line":246, "type":"c", "scope_line":230, "scope_name":"ext2_get_branch", }
+,{"id":"sb_bread", "file":"fs/ext2/super.c", "line":1004, "type":"c", "scope_line":732, "scope_name":"ext2_fill_super", }
+,{"id":"sb_bread", "file":"fs/ext2/super.c", "line":1401, "type":"c", "scope_line":1371, "scope_name":"ext2_quota_read", }
+,{"id":"sb_bread", "file":"fs/ext2/super.c", "line":1438, "type":"c", "scope_line":1416, "scope_name":"ext2_quota_write", }
+,{"id":"sb_bread", "file":"fs/ext2/super.c", "line":789, "type":"c", "scope_line":732, "scope_name":"ext2_fill_super", }
+,{"id":"sb_bread", "file":"fs/ext2/super.c", "line":890, "type":"c", "scope_line":732, "scope_name":"ext2_fill_super", }
+,{"id":"sb_bread", "file":"fs/ext2/xattr.c", "line":169, "type":"c", "scope_line":149, "scope_name":"ext2_xattr_get", }
+,{"id":"sb_bread", "file":"fs/ext2/xattr.c", "line":270, "type":"c", "scope_line":252, "scope_name":"ext2_xattr_list", }
+,{"id":"sb_bread", "file":"fs/ext2/xattr.c", "line":404, "type":"c", "scope_line":367, "scope_name":"ext2_xattr_set", }
+,{"id":"sb_bread", "file":"fs/ext2/xattr.c", "line":773, "type":"c", "scope_line":764, "scope_name":"ext2_xattr_delete_inode", }
+,{"id":"sb_bread", "file":"fs/ext2/xattr.c", "line":931, "type":"c", "scope_line":910, "scope_name":"ext2_xattr_cache_find", }
+,{"id":"sb_bread", "file":"fs/ext3/ialloc.c", "line":63, "type":"c", "scope_line":53, "scope_name":"read_inode_bitmap", }
+,{"id":"sb_bread", "file":"fs/ext3/inode.c", "line":2295, "type":"c", "scope_line":2275, "scope_name":"ext3_free_branches", }
+,{"id":"sb_bread", "file":"fs/ext3/inode.c", "line":400, "type":"c", "scope_line":387, "scope_name":"ext3_get_branch", }
+,{"id":"sb_bread", "file":"fs/ext3/resize.c", "line":1029, "type":"c", "scope_line":963, "scope_name":"ext3_group_extend", }
+,{"id":"sb_bread", "file":"fs/ext3/resize.c", "line":449, "type":"c", "scope_line":416, "scope_name":"add_new_gdb", }
+,{"id":"sb_bread", "file":"fs/ext3/resize.c", "line":459, "type":"c", "scope_line":416, "scope_name":"add_new_gdb", }
+,{"id":"sb_bread", "file":"fs/ext3/resize.c", "line":576, "type":"c", "scope_line":557, "scope_name":"reserve_backup_gdb", }
+,{"id":"sb_bread", "file":"fs/ext3/resize.c", "line":598, "type":"c", "scope_line":557, "scope_name":"reserve_backup_gdb", }
+,{"id":"sb_bread", "file":"fs/ext3/resize.c", "line":63, "type":"c", "scope_line":23, "scope_name":"verify_group_input", }
+,{"id":"sb_bread", "file":"fs/ext3/super.c", "line":1649, "type":"c", "scope_line":1592, "scope_name":"ext3_fill_super", }
+,{"id":"sb_bread", "file":"fs/ext3/super.c", "line":1762, "type":"c", "scope_line":1592, "scope_name":"ext3_fill_super", }
+,{"id":"sb_bread", "file":"fs/ext3/super.c", "line":1881, "type":"c", "scope_line":1592, "scope_name":"ext3_fill_super", }
+,{"id":"sb_bread", "file":"fs/ext3/xattr.c", "line":1090, "type":"c", "scope_line":1083, "scope_name":"ext3_xattr_delete_inode", }
+,{"id":"sb_bread", "file":"fs/ext3/xattr.c", "line":1224, "type":"c", "scope_line":1203, "scope_name":"ext3_xattr_cache_find", }
+,{"id":"sb_bread", "file":"fs/ext3/xattr.c", "line":231, "type":"c", "scope_line":215, "scope_name":"ext3_xattr_block_get", }
+,{"id":"sb_bread", "file":"fs/ext3/xattr.c", "line":374, "type":"c", "scope_line":360, "scope_name":"ext3_xattr_block_list", }
+,{"id":"sb_bread", "file":"fs/ext3/xattr.c", "line":648, "type":"c", "scope_line":636, "scope_name":"ext3_xattr_block_find", }
+,{"id":"sb_bread", "file":"fs/ext4/extents.c", "line":1381, "type":"c", "scope_line":1300, "scope_name":"ext4_ext_search_right", }
+,{"id":"sb_bread", "file":"fs/ext4/extents.c", "line":1395, "type":"c", "scope_line":1300, "scope_name":"ext4_ext_search_right", }
+,{"id":"sb_bread", "file":"fs/ext4/extents.c", "line":2426, "type":"c", "scope_line":2352, "scope_name":"ext4_ext_remove_space", }
+,{"id":"sb_bread", "file":"fs/ext4/inode.c", "line":4515, "type":"c", "scope_line":4486, "scope_name":"ext4_free_branches", }
+,{"id":"sb_bread", "file":"fs/ext4/migrate.c", "line":130, "type":"c", "scope_line":114, "scope_name":"update_ind_extent_range", }
+,{"id":"sb_bread", "file":"fs/ext4/migrate.c", "line":167, "type":"c", "scope_line":152, "scope_name":"update_dind_extent_range", }
+,{"id":"sb_bread", "file":"fs/ext4/migrate.c", "line":207, "type":"c", "scope_line":192, "scope_name":"update_tind_extent_range", }
+,{"id":"sb_bread", "file":"fs/ext4/migrate.c", "line":258, "type":"c", "scope_line":250, "scope_name":"free_dind_blocks", }
+,{"id":"sb_bread", "file":"fs/ext4/migrate.c", "line":288, "type":"c", "scope_line":280, "scope_name":"free_tind_blocks", }
+,{"id":"sb_bread", "file":"fs/ext4/migrate.c", "line":416, "type":"c", "scope_line":407, "scope_name":"free_ext_idx", }
+,{"id":"sb_bread", "file":"fs/ext4/move_extent.c", "line":102, "type":"c", "scope_line":77, "scope_name":"mext_next_extent", }
+,{"id":"sb_bread", "file":"fs/ext4/move_extent.c", "line":117, "type":"c", "scope_line":77, "scope_name":"mext_next_extent", }
+,{"id":"sb_bread", "file":"fs/ext4/resize.c", "line":1011, "type":"c", "scope_line":951, "scope_name":"ext4_group_extend", }
+,{"id":"sb_bread", "file":"fs/ext4/resize.c", "line":416, "type":"c", "scope_line":384, "scope_name":"add_new_gdb", }
+,{"id":"sb_bread", "file":"fs/ext4/resize.c", "line":426, "type":"c", "scope_line":384, "scope_name":"add_new_gdb", }
+,{"id":"sb_bread", "file":"fs/ext4/resize.c", "line":542, "type":"c", "scope_line":523, "scope_name":"reserve_backup_gdb", }
+,{"id":"sb_bread", "file":"fs/ext4/resize.c", "line":563, "type":"c", "scope_line":523, "scope_name":"reserve_backup_gdb", }
+,{"id":"sb_bread", "file":"fs/ext4/resize.c", "line":61, "type":"c", "scope_line":22, "scope_name":"verify_group_input", }
+,{"id":"sb_bread", "file":"fs/ext4/super.c", "line":2615, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"sb_bread", "file":"fs/ext4/super.c", "line":2733, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"sb_bread", "file":"fs/ext4/super.c", "line":2903, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"sb_bread", "file":"fs/ext4/xattr.c", "line":1189, "type":"c", "scope_line":1135, "scope_name":"ext4_expand_extra_isize_ea", }
+,{"id":"sb_bread", "file":"fs/ext4/xattr.c", "line":1370, "type":"c", "scope_line":1363, "scope_name":"ext4_xattr_delete_inode", }
+,{"id":"sb_bread", "file":"fs/ext4/xattr.c", "line":1502, "type":"c", "scope_line":1481, "scope_name":"ext4_xattr_cache_find", }
+,{"id":"sb_bread", "file":"fs/ext4/xattr.c", "line":224, "type":"c", "scope_line":208, "scope_name":"ext4_xattr_block_get", }
+,{"id":"sb_bread", "file":"fs/ext4/xattr.c", "line":367, "type":"c", "scope_line":353, "scope_name":"ext4_xattr_block_list", }
+,{"id":"sb_bread", "file":"fs/ext4/xattr.c", "line":658, "type":"c", "scope_line":646, "scope_name":"ext4_xattr_block_find", }
+,{"id":"sb_bread", "file":"include/linux/buffer_head.h", "line":274, "type":"f", }
+,{"id":"sb_breadahead", "file":"fs/ext2/ialloc.c", "line":193, "type":"c", "scope_line":167, "scope_name":"ext2_preread_inode", }
+,{"id":"sb_breadahead", "file":"fs/ext4/inode.c", "line":4915, "type":"c", "scope_line":4800, "scope_name":"__ext4_get_inode_loc", }
+,{"id":"sb_breadahead", "file":"include/linux/buffer_head.h", "line":280, "type":"f", }
+,{"id":"sb_clone_mnt_opts", "file":"include/linux/security.h", "line":1404, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sb_copy_data", "file":"include/linux/security.h", "line":1393, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sb_dev", "file":"include/trace/events/writeback.h", "line":13, "type":"m", "scope_line":13, "scope_name":"struct ftrace_raw_writeback_work_class", }
+,{"id":"sb_dqinfo", "file":"include/linux/quotaops.h", "line":98, "type":"f", }
+,{"id":"sb_dqopt", "file":"fs/ext2/super.c", "line":1374, "type":"c", "scope_line":1371, "scope_name":"ext2_quota_read", }
+,{"id":"sb_dqopt", "file":"fs/ext2/super.c", "line":1419, "type":"c", "scope_line":1416, "scope_name":"ext2_quota_write", }
+,{"id":"sb_dqopt", "file":"fs/ext3/super.c", "line":1518, "type":"c", "scope_line":1430, "scope_name":"ext3_orphan_cleanup", }
+,{"id":"sb_dqopt", "file":"fs/ext3/super.c", "line":2754, "type":"c", "scope_line":2752, "scope_name":"dquot_to_inode", }
+,{"id":"sb_dqopt", "file":"fs/ext3/super.c", "line":2908, "type":"c", "scope_line":2905, "scope_name":"ext3_quota_read", }
+,{"id":"sb_dqopt", "file":"fs/ext3/super.c", "line":2946, "type":"c", "scope_line":2943, "scope_name":"ext3_quota_write", }
+,{"id":"sb_dqopt", "file":"fs/ext4/super.c", "line":2118, "type":"c", "scope_line":2030, "scope_name":"ext4_orphan_cleanup", }
+,{"id":"sb_dqopt", "file":"fs/ext4/super.c", "line":3971, "type":"c", "scope_line":3969, "scope_name":"dquot_to_inode", }
+,{"id":"sb_dqopt", "file":"fs/ext4/super.c", "line":4138, "type":"c", "scope_line":4135, "scope_name":"ext4_quota_read", }
+,{"id":"sb_dqopt", "file":"fs/ext4/super.c", "line":4176, "type":"c", "scope_line":4173, "scope_name":"ext4_quota_write", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1036, "type":"c", "scope_line":1031, "scope_name":"drop_dquot_ref", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1038, "type":"c", "scope_line":1031, "scope_name":"drop_dquot_ref", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1084, "type":"c", "scope_line":1082, "scope_name":"dquot_decr_inodes", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1096, "type":"c", "scope_line":1094, "scope_name":"dquot_decr_space", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1206, "type":"c", "scope_line":1204, "scope_name":"ignore_hardlimit", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1243, "type":"c", "scope_line":1214, "scope_name":"check_idq", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1287, "type":"c", "scope_line":1251, "scope_name":"check_bdq", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1380, "type":"c", "scope_line":1351, "scope_name":"__dquot_initialize", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1402, "type":"c", "scope_line":1351, "scope_name":"__dquot_initialize", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1421, "type":"c", "scope_line":1416, "scope_name":"__dquot_drop", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1426, "type":"c", "scope_line":1416, "scope_name":"__dquot_drop", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1550, "type":"c", "scope_line":1533, "scope_name":"__dquot_alloc_space", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1581, "type":"c", "scope_line":1533, "scope_name":"__dquot_alloc_space", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1601, "type":"c", "scope_line":1590, "scope_name":"dquot_alloc_inode", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1622, "type":"c", "scope_line":1590, "scope_name":"dquot_alloc_inode", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1639, "type":"c", "scope_line":1630, "scope_name":"dquot_claim_space_nodirty", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1651, "type":"c", "scope_line":1630, "scope_name":"dquot_claim_space_nodirty", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1672, "type":"c", "scope_line":1659, "scope_name":"__dquot_free_space", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1691, "type":"c", "scope_line":1659, "scope_name":"__dquot_free_space", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1708, "type":"c", "scope_line":1698, "scope_name":"dquot_free_inode", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1719, "type":"c", "scope_line":1698, "scope_name":"dquot_free_inode", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1749, "type":"c", "scope_line":1733, "scope_name":"__dquot_transfer", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1751, "type":"c", "scope_line":1733, "scope_name":"__dquot_transfer", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1800, "type":"c", "scope_line":1733, "scope_name":"__dquot_transfer", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1814, "type":"c", "scope_line":1733, "scope_name":"__dquot_transfer", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1848, "type":"c", "scope_line":1845, "scope_name":"dquot_commit_info", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":1891, "type":"c", "scope_line":1888, "scope_name":"dquot_disable", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2040, "type":"c", "scope_line":2035, "scope_name":"vfs_load_quota_inode", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2146, "type":"c", "scope_line":2144, "scope_name":"dquot_resume", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2220, "type":"c", "scope_line":2215, "scope_name":"dquot_enable", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2246, "type":"c", "scope_line":2215, "scope_name":"dquot_enable", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2348, "type":"c", "scope_line":2344, "scope_name":"do_set_dqblk", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2458, "type":"c", "scope_line":2454, "scope_name":"dquot_get_dqinfo", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2460, "type":"c", "scope_line":2454, "scope_name":"dquot_get_dqinfo", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2463, "type":"c", "scope_line":2454, "scope_name":"dquot_get_dqinfo", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2470, "type":"c", "scope_line":2454, "scope_name":"dquot_get_dqinfo", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2481, "type":"c", "scope_line":2476, "scope_name":"dquot_set_dqinfo", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2486, "type":"c", "scope_line":2476, "scope_name":"dquot_set_dqinfo", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":2500, "type":"c", "scope_line":2476, "scope_name":"dquot_set_dqinfo", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":349, "type":"c", "scope_line":339, "scope_name":"dquot_mark_dquot_dirty", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":393, "type":"c", "scope_line":391, "scope_name":"mark_info_dirty", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":404, "type":"c", "scope_line":401, "scope_name":"dquot_acquire", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":442, "type":"c", "scope_line":439, "scope_name":"dquot_commit", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":474, "type":"c", "scope_line":471, "scope_name":"dquot_release", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":571, "type":"c", "scope_line":564, "scope_name":"dquot_scan_active", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":594, "type":"c", "scope_line":564, "scope_name":"dquot_scan_active", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":603, "type":"c", "scope_line":599, "scope_name":"dquot_quota_sync", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":642, "type":"c", "scope_line":599, "scope_name":"dquot_quota_sync", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":656, "type":"c", "scope_line":599, "scope_name":"dquot_quota_sync", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":662, "type":"c", "scope_line":599, "scope_name":"dquot_quota_sync", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":664, "type":"c", "scope_line":599, "scope_name":"dquot_quota_sync", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":665, "type":"c", "scope_line":599, "scope_name":"dquot_quota_sync", }
+,{"id":"sb_dqopt", "file":"fs/quota/dquot.c", "line":667, "type":"c", "scope_line":599, "scope_name":"dquot_quota_sync", }
+,{"id":"sb_dqopt", "file":"fs/quota/quota.c", "line":85, "type":"c", "scope_line":81, "scope_name":"quota_getfmt", }
+,{"id":"sb_dqopt", "file":"fs/quota/quota.c", "line":87, "type":"c", "scope_line":81, "scope_name":"quota_getfmt", }
+,{"id":"sb_dqopt", "file":"fs/quota/quota.c", "line":90, "type":"c", "scope_line":81, "scope_name":"quota_getfmt", }
+,{"id":"sb_dqopt", "file":"fs/quota/quota.c", "line":91, "type":"c", "scope_line":81, "scope_name":"quota_getfmt", }
+,{"id":"sb_dqopt", "file":"include/linux/quotaops.h", "line":100, "type":"c", "scope_line":98, "scope_name":"sb_dqinfo", }
+,{"id":"sb_dqopt", "file":"include/linux/quotaops.h", "line":109, "type":"c", "scope_line":107, "scope_name":"sb_has_quota_usage_enabled", }
+,{"id":"sb_dqopt", "file":"include/linux/quotaops.h", "line":115, "type":"c", "scope_line":113, "scope_name":"sb_has_quota_limits_enabled", }
+,{"id":"sb_dqopt", "file":"include/linux/quotaops.h", "line":121, "type":"c", "scope_line":119, "scope_name":"sb_has_quota_suspended", }
+,{"id":"sb_dqopt", "file":"include/linux/quotaops.h", "line":16, "type":"f", }
+,{"id":"sb_find_get_block", "file":"fs/ext3/inode.c", "line":2167, "type":"c", "scope_line":2135, "scope_name":"ext3_clear_blocks", }
+,{"id":"sb_find_get_block", "file":"fs/ext4/mballoc.c", "line":4532, "type":"c", "scope_line":4488, "scope_name":"ext4_free_blocks", }
+,{"id":"sb_find_get_block", "file":"include/linux/buffer_head.h", "line":292, "type":"f", }
+,{"id":"sb_finish_set_opts", "file":"security/selinux/hooks.c", "line":354, "type":"f", }
+,{"id":"sb_finish_set_opts", "file":"security/selinux/hooks.c", "line":741, "type":"c", "scope_line":552, "scope_name":"selinux_set_mnt_opts", }
+,{"id":"sb_finish_set_opts", "file":"security/selinux/hooks.c", "line":805, "type":"c", "scope_line":752, "scope_name":"selinux_sb_clone_mnt_opts", }
+,{"id":"sb_free_security", "file":"include/linux/security.h", "line":1392, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sb_getblk", "file":"fs/ext2/balloc.c", "line":134, "type":"c", "scope_line":123, "scope_name":"read_block_bitmap", }
+,{"id":"sb_getblk", "file":"fs/ext2/inode.c", "line":499, "type":"c", "scope_line":472, "scope_name":"ext2_alloc_branch", }
+,{"id":"sb_getblk", "file":"fs/ext2/super.c", "line":1440, "type":"c", "scope_line":1416, "scope_name":"ext2_quota_write", }
+,{"id":"sb_getblk", "file":"fs/ext2/xattr.c", "line":674, "type":"c", "scope_line":630, "scope_name":"ext2_xattr_set2", }
+,{"id":"sb_getblk", "file":"fs/ext3/balloc.c", "line":149, "type":"c", "scope_line":138, "scope_name":"read_block_bitmap", }
+,{"id":"sb_getblk", "file":"fs/ext3/inode.c", "line":1048, "type":"c", "scope_line":1023, "scope_name":"ext3_getblk", }
+,{"id":"sb_getblk", "file":"fs/ext3/inode.c", "line":2657, "type":"c", "scope_line":2647, "scope_name":"__ext3_get_inode_loc", }
+,{"id":"sb_getblk", "file":"fs/ext3/inode.c", "line":2710, "type":"c", "scope_line":2647, "scope_name":"__ext3_get_inode_loc", }
+,{"id":"sb_getblk", "file":"fs/ext3/inode.c", "line":651, "type":"c", "scope_line":624, "scope_name":"ext3_alloc_branch", }
+,{"id":"sb_getblk", "file":"fs/ext3/resize.c", "line":121, "type":"c", "scope_line":115, "scope_name":"bclean", }
+,{"id":"sb_getblk", "file":"fs/ext3/resize.c", "line":239, "type":"c", "scope_line":191, "scope_name":"setup_new_group_blocks", }
+,{"id":"sb_getblk", "file":"fs/ext3/resize.c", "line":702, "type":"c", "scope_line":672, "scope_name":"update_backups", }
+,{"id":"sb_getblk", "file":"fs/ext3/xattr.c", "line":812, "type":"c", "scope_line":679, "scope_name":"ext3_xattr_block_set", }
+,{"id":"sb_getblk", "file":"fs/ext4/balloc.c", "line":303, "type":"c", "scope_line":292, "scope_name":"ext4_read_block_bitmap", }
+,{"id":"sb_getblk", "file":"fs/ext4/extents.c", "line":1094, "type":"c", "scope_line":1080, "scope_name":"ext4_ext_grow_indepth", }
+,{"id":"sb_getblk", "file":"fs/ext4/extents.c", "line":689, "type":"c", "scope_line":654, "scope_name":"ext4_ext_find_extent", }
+,{"id":"sb_getblk", "file":"fs/ext4/extents.c", "line":885, "type":"c", "scope_line":816, "scope_name":"ext4_ext_split", }
+,{"id":"sb_getblk", "file":"fs/ext4/extents.c", "line":971, "type":"c", "scope_line":816, "scope_name":"ext4_ext_split", }
+,{"id":"sb_getblk", "file":"fs/ext4/ialloc.c", "line":111, "type":"c", "scope_line":100, "scope_name":"ext4_read_inode_bitmap", }
+,{"id":"sb_getblk", "file":"fs/ext4/inode.c", "line":1418, "type":"c", "scope_line":1398, "scope_name":"ext4_getblk", }
+,{"id":"sb_getblk", "file":"fs/ext4/inode.c", "line":423, "type":"c", "scope_line":409, "scope_name":"ext4_get_branch", }
+,{"id":"sb_getblk", "file":"fs/ext4/inode.c", "line":4827, "type":"c", "scope_line":4800, "scope_name":"__ext4_get_inode_loc", }
+,{"id":"sb_getblk", "file":"fs/ext4/inode.c", "line":4863, "type":"c", "scope_line":4800, "scope_name":"__ext4_get_inode_loc", }
+,{"id":"sb_getblk", "file":"fs/ext4/inode.c", "line":757, "type":"c", "scope_line":729, "scope_name":"ext4_alloc_branch", }
+,{"id":"sb_getblk", "file":"fs/ext4/mballoc.c", "line":810, "type":"c", "scope_line":756, "scope_name":"ext4_mb_init_cache", }
+,{"id":"sb_getblk", "file":"fs/ext4/resize.c", "line":114, "type":"c", "scope_line":108, "scope_name":"bclean", }
+,{"id":"sb_getblk", "file":"fs/ext4/resize.c", "line":210, "type":"c", "scope_line":163, "scope_name":"setup_new_group_blocks", }
+,{"id":"sb_getblk", "file":"fs/ext4/resize.c", "line":668, "type":"c", "scope_line":637, "scope_name":"update_backups", }
+,{"id":"sb_getblk", "file":"fs/ext4/xattr.c", "line":833, "type":"c", "scope_line":688, "scope_name":"ext4_xattr_block_set", }
+,{"id":"sb_getblk", "file":"include/linux/buffer_head.h", "line":286, "type":"f", }
+,{"id":"sb_has_quota_active", "file":"fs/quota/dquot.c", "line":1387, "type":"c", "scope_line":1351, "scope_name":"__dquot_initialize", }
+,{"id":"sb_has_quota_active", "file":"fs/quota/dquot.c", "line":2459, "type":"c", "scope_line":2454, "scope_name":"dquot_get_dqinfo", }
+,{"id":"sb_has_quota_active", "file":"fs/quota/dquot.c", "line":2482, "type":"c", "scope_line":2476, "scope_name":"dquot_set_dqinfo", }
+,{"id":"sb_has_quota_active", "file":"fs/quota/dquot.c", "line":610, "type":"c", "scope_line":599, "scope_name":"dquot_quota_sync", }
+,{"id":"sb_has_quota_active", "file":"fs/quota/dquot.c", "line":636, "type":"c", "scope_line":599, "scope_name":"dquot_quota_sync", }
+,{"id":"sb_has_quota_active", "file":"fs/quota/dquot.c", "line":660, "type":"c", "scope_line":599, "scope_name":"dquot_quota_sync", }
+,{"id":"sb_has_quota_active", "file":"fs/quota/dquot.c", "line":736, "type":"c", "scope_line":716, "scope_name":"dqput", }
+,{"id":"sb_has_quota_active", "file":"fs/quota/dquot.c", "line":818, "type":"c", "scope_line":813, "scope_name":"dqget", }
+,{"id":"sb_has_quota_active", "file":"fs/quota/dquot.c", "line":823, "type":"c", "scope_line":813, "scope_name":"dqget", }
+,{"id":"sb_has_quota_active", "file":"fs/quota/quota.c", "line":86, "type":"c", "scope_line":81, "scope_name":"quota_getfmt", }
+,{"id":"sb_has_quota_active", "file":"include/linux/quotaops.h", "line":148, "type":"f", }
+,{"id":"sb_has_quota_limits_enabled", "file":"fs/quota/dquot.c", "line":1219, "type":"c", "scope_line":1214, "scope_name":"check_idq", }
+,{"id":"sb_has_quota_limits_enabled", "file":"fs/quota/dquot.c", "line":1257, "type":"c", "scope_line":1251, "scope_name":"check_bdq", }
+,{"id":"sb_has_quota_limits_enabled", "file":"fs/quota/dquot.c", "line":1305, "type":"c", "scope_line":1301, "scope_name":"info_idq_free", }
+,{"id":"sb_has_quota_limits_enabled", "file":"fs/quota/dquot.c", "line":2240, "type":"c", "scope_line":2215, "scope_name":"dquot_enable", }
+,{"id":"sb_has_quota_limits_enabled", "file":"include/linux/quotaops.h", "line":113, "type":"f", }
+,{"id":"sb_has_quota_loaded", "file":"fs/quota/dquot.c", "line":1917, "type":"c", "scope_line":1888, "scope_name":"dquot_disable", }
+,{"id":"sb_has_quota_loaded", "file":"fs/quota/dquot.c", "line":1929, "type":"c", "scope_line":1888, "scope_name":"dquot_disable", }
+,{"id":"sb_has_quota_loaded", "file":"fs/quota/dquot.c", "line":1942, "type":"c", "scope_line":1888, "scope_name":"dquot_disable", }
+,{"id":"sb_has_quota_loaded", "file":"fs/quota/dquot.c", "line":1959, "type":"c", "scope_line":1888, "scope_name":"dquot_disable", }
+,{"id":"sb_has_quota_loaded", "file":"fs/quota/dquot.c", "line":1987, "type":"c", "scope_line":1888, "scope_name":"dquot_disable", }
+,{"id":"sb_has_quota_loaded", "file":"fs/quota/dquot.c", "line":2075, "type":"c", "scope_line":2035, "scope_name":"vfs_load_quota_inode", }
+,{"id":"sb_has_quota_loaded", "file":"fs/quota/dquot.c", "line":2228, "type":"c", "scope_line":2215, "scope_name":"dquot_enable", }
+,{"id":"sb_has_quota_loaded", "file":"fs/quota/dquot.c", "line":2231, "type":"c", "scope_line":2215, "scope_name":"dquot_enable", }
+,{"id":"sb_has_quota_loaded", "file":"include/linux/quotaops.h", "line":134, "type":"f", }
+,{"id":"sb_has_quota_loaded", "file":"include/linux/quotaops.h", "line":144, "type":"c", "scope_line":140, "scope_name":"sb_any_quota_loaded", }
+,{"id":"sb_has_quota_loaded", "file":"include/linux/quotaops.h", "line":150, "type":"c", "scope_line":148, "scope_name":"sb_has_quota_active", }
+,{"id":"sb_has_quota_suspended", "file":"fs/quota/dquot.c", "line":1929, "type":"c", "scope_line":1888, "scope_name":"dquot_disable", }
+,{"id":"sb_has_quota_suspended", "file":"fs/quota/dquot.c", "line":2156, "type":"c", "scope_line":2144, "scope_name":"dquot_resume", }
+,{"id":"sb_has_quota_suspended", "file":"include/linux/quotaops.h", "line":119, "type":"f", }
+,{"id":"sb_has_quota_suspended", "file":"include/linux/quotaops.h", "line":129, "type":"c", "scope_line":125, "scope_name":"sb_any_quota_suspended", }
+,{"id":"sb_has_quota_suspended", "file":"include/linux/quotaops.h", "line":150, "type":"c", "scope_line":148, "scope_name":"sb_has_quota_active", }
+,{"id":"sb_has_quota_usage_enabled", "file":"fs/quota/dquot.c", "line":2235, "type":"c", "scope_line":2215, "scope_name":"dquot_enable", }
+,{"id":"sb_has_quota_usage_enabled", "file":"include/linux/quotaops.h", "line":107, "type":"f", }
+,{"id":"sb_has_quota_usage_enabled", "file":"include/linux/quotaops.h", "line":137, "type":"c", "scope_line":134, "scope_name":"sb_has_quota_loaded", }
+,{"id":"sb_is_blkdev_sb", "file":"fs/block_dev.c", "line":617, "type":"c", "scope_line":611, "scope_name":"bd_forget", }
+,{"id":"sb_is_blkdev_sb", "file":"fs/internal.h", "line":25, "type":"f", }
+,{"id":"sb_is_dirty", "file":"include/linux/fs.h", "line":1795, "type":"f", }
+,{"id":"sb_issue_discard", "file":"fs/ext4/mballoc.c", "line":2569, "type":"c", "scope_line":2560, "scope_name":"ext4_issue_discard", }
+,{"id":"sb_issue_discard", "file":"include/linux/blkdev.h", "line":936, "type":"f", }
+,{"id":"sb_kern_mount", "file":"include/linux/security.h", "line":1394, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sb_len_wr", "file":"fs/compat_ioctl.c", "line":244, "type":"m", "scope_line":226, "scope_name":"struct sg_io_hdr32", }
+,{"id":"sb_len_wr", "file":"include/scsi/sg.h", "line":105, "type":"m", "scope_line":86, "scope_name":"struct sg_io_hdr", }
+,{"id":"sb_lock", "file":"fs/super.c", "line":37, "type":"v", }
+,{"id":"sb_mark_clean", "file":"include/linux/fs.h", "line":1791, "type":"f", }
+,{"id":"sb_mark_dirty", "file":"include/linux/fs.h", "line":1787, "type":"f", }
+,{"id":"sb_min_blocksize", "file":"fs/block_dev.c", "line":108, "type":"f", }
+,{"id":"sb_min_blocksize", "file":"fs/ext2/super.c", "line":772, "type":"c", "scope_line":732, "scope_name":"ext2_fill_super", }
+,{"id":"sb_min_blocksize", "file":"fs/ext3/super.c", "line":1632, "type":"c", "scope_line":1592, "scope_name":"ext3_fill_super", }
+,{"id":"sb_min_blocksize", "file":"fs/ext4/super.c", "line":2598, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"sb_mount", "file":"include/linux/security.h", "line":1397, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sb_parse_opts_str", "file":"include/linux/security.h", "line":1406, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sb_pivotroot", "file":"include/linux/security.h", "line":1400, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sb_set_blocksize", "file":"fs/block_dev.c", "line":113, "type":"c", "scope_line":108, "scope_name":"sb_min_blocksize", }
+,{"id":"sb_set_blocksize", "file":"fs/block_dev.c", "line":95, "type":"f", }
+,{"id":"sb_set_blocksize", "file":"fs/ext2/super.c", "line":883, "type":"c", "scope_line":732, "scope_name":"ext2_fill_super", }
+,{"id":"sb_set_blocksize", "file":"fs/ext3/super.c", "line":1755, "type":"c", "scope_line":1592, "scope_name":"ext3_fill_super", }
+,{"id":"sb_set_blocksize", "file":"fs/ext4/super.c", "line":2724, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"sb_set_blocksize", "file":"fs/super.c", "line":821, "type":"c", "scope_line":765, "scope_name":"get_sb_bdev", }
+,{"id":"sb_set_mnt_opts", "file":"include/linux/security.h", "line":1402, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,];
+xr_frag_insert('t/fe/3f279c1f7522e951e1290cff02c6717abc79a8.xr', __xr_tmp);

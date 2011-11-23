@@ -1,0 +1,41 @@
+var __xr_tmp = [
+{"id":"udp_csum_outgoing", "file":"net/ipv4/udp.c", "line":747, "type":"c", "scope_line":709, "scope_name":"udp_push_pending_frames", }
+,{"id":"udp_csum_outgoing", "file":"net/ipv6/udp.c", "line":906, "type":"c", "scope_line":875, "scope_name":"udp_v6_push_pending_frames", }
+,{"id":"udp_destroy_sock", "file":"net/ipv4/udp.c", "line":1671, "type":"f", }
+,{"id":"udp_disconnect", "file":"net/ipv4/udp.c", "line":1213, "type":"f", }
+,{"id":"udp_err", "file":"net/ipv4/udp.c", "line":645, "type":"f", }
+,{"id":"udp_flush_pending_frames", "file":"net/ipv4/udp.c", "line":1023, "type":"c", "scope_line":989, "scope_name":"udp_sendpage", }
+,{"id":"udp_flush_pending_frames", "file":"net/ipv4/udp.c", "line":1674, "type":"c", "scope_line":1671, "scope_name":"udp_destroy_sock", }
+,{"id":"udp_flush_pending_frames", "file":"net/ipv4/udp.c", "line":653, "type":"f", }
+,{"id":"udp_flush_pending_frames", "file":"net/ipv4/udp.c", "line":954, "type":"c", "scope_line":772, "scope_name":"udp_sendmsg", }
+,{"id":"udp_flush_pending_frames", "file":"net/ipv6/udp.c", "line":822, "type":"c", "scope_line":817, "scope_name":"udp_v6_flush_pending_frames", }
+,{"id":"udp_get_first", "file":"net/ipv4/udp.c", "line":1908, "type":"f", }
+,{"id":"udp_get_first", "file":"net/ipv4/udp.c", "line":1948, "type":"c", "scope_line":1936, "scope_name":"udp_get_next", }
+,{"id":"udp_get_first", "file":"net/ipv4/udp.c", "line":1955, "type":"c", "scope_line":1953, "scope_name":"udp_get_idx", }
+,{"id":"udp_get_idx", "file":"net/ipv4/udp.c", "line":1953, "type":"f", }
+,{"id":"udp_get_idx", "file":"net/ipv4/udp.c", "line":1968, "type":"c", "scope_line":1963, "scope_name":"udp_seq_start", }
+,{"id":"udp_get_idx", "file":"net/ipv4/udp.c", "line":1976, "type":"c", "scope_line":1971, "scope_name":"udp_seq_next", }
+,{"id":"udp_get_next", "file":"net/ipv4/udp.c", "line":1936, "type":"f", }
+,{"id":"udp_get_next", "file":"net/ipv4/udp.c", "line":1958, "type":"c", "scope_line":1953, "scope_name":"udp_get_idx", }
+,{"id":"udp_get_next", "file":"net/ipv4/udp.c", "line":1978, "type":"c", "scope_line":1971, "scope_name":"udp_seq_next", }
+,{"id":"udp_getsockopt", "file":"net/ipv4/udp.c", "line":1828, "type":"f", }
+,{"id":"udp_hashfn", "file":"include/linux/udp.h", "line":50, "type":"f", }
+,{"id":"udp_hashfn", "file":"include/net/udp.h", "line":85, "type":"c", "scope_line":82, "scope_name":"udp_hashslot", }
+,{"id":"udp_hashfn", "file":"net/ipv4/udp.c", "line":454, "type":"c", "scope_line":447, "scope_name":"__udp4_lib_lookup", }
+,{"id":"udp_hashfn", "file":"net/ipv6/udp.c", "line":249, "type":"c", "scope_line":241, "scope_name":"__udp6_lib_lookup", }
+,{"id":"udp_hashslot", "file":"include/net/udp.h", "line":82, "type":"f", }
+,{"id":"udp_hashslot", "file":"net/ipv4/udp.c", "line":1243, "type":"c", "scope_line":1237, "scope_name":"udp_lib_unhash", }
+,{"id":"udp_hashslot", "file":"net/ipv4/udp.c", "line":1276, "type":"c", "scope_line":1266, "scope_name":"udp_lib_rehash", }
+,{"id":"udp_hashslot", "file":"net/ipv4/udp.c", "line":1484, "type":"c", "scope_line":1478, "scope_name":"__udp4_lib_mcast_deliver", }
+,{"id":"udp_hashslot", "file":"net/ipv4/udp.c", "line":222, "type":"c", "scope_line":195, "scope_name":"udp_lib_get_port", }
+,{"id":"udp_hashslot", "file":"net/ipv4/udp.c", "line":245, "type":"c", "scope_line":195, "scope_name":"udp_lib_get_port", }
+,{"id":"udp_hashslot", "file":"net/ipv6/udp.c", "line":630, "type":"c", "scope_line":624, "scope_name":"__udp6_lib_mcast_deliver", }
+,{"id":"udp_hashslot2", "file":"include/net/udp.h", "line":91, "type":"f", }
+,{"id":"udp_hashslot2", "file":"net/ipv4/udp.c", "line":1245, "type":"c", "scope_line":1237, "scope_name":"udp_lib_unhash", }
+,{"id":"udp_hashslot2", "file":"net/ipv4/udp.c", "line":1272, "type":"c", "scope_line":1266, "scope_name":"udp_lib_rehash", }
+,{"id":"udp_hashslot2", "file":"net/ipv4/udp.c", "line":1273, "type":"c", "scope_line":1266, "scope_name":"udp_lib_rehash", }
+,{"id":"udp_hashslot2", "file":"net/ipv4/udp.c", "line":254, "type":"c", "scope_line":195, "scope_name":"udp_lib_get_port", }
+,{"id":"udp_hashslot2", "file":"net/ipv4/udp.c", "line":261, "type":"c", "scope_line":195, "scope_name":"udp_lib_get_port", }
+,{"id":"udp_hashslot2", "file":"net/ipv4/udp.c", "line":284, "type":"c", "scope_line":195, "scope_name":"udp_lib_get_port", }
+,];
+xr_frag_insert('t/e2/90c6f540d31ddcb675b15c6bc8cad3161f87b3.xr', __xr_tmp);

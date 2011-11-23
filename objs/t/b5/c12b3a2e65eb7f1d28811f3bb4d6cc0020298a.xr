@@ -1,0 +1,45 @@
+var __xr_tmp = [
+{"id":"jbd2_journal_file_inode", "file":"fs/jbd2/transaction.c", "line":2110, "type":"f", }
+,{"id":"jbd2_journal_flush", "file":"fs/ext4/inode.c", "line":3438, "type":"c", "scope_line":3399, "scope_name":"ext4_bmap", }
+,{"id":"jbd2_journal_flush", "file":"fs/ext4/inode.c", "line":5952, "type":"c", "scope_line":5929, "scope_name":"ext4_change_inode_journal_flag", }
+,{"id":"jbd2_journal_flush", "file":"fs/ext4/ioctl.c", "line":218, "type":"c", "scope_line":21, "scope_name":"ext4_ioctl", }
+,{"id":"jbd2_journal_flush", "file":"fs/ext4/ioctl.c", "line":288, "type":"c", "scope_line":21, "scope_name":"ext4_ioctl", }
+,{"id":"jbd2_journal_flush", "file":"fs/ext4/super.c", "line":3564, "type":"c", "scope_line":3554, "scope_name":"ext4_mark_recovery_complete", }
+,{"id":"jbd2_journal_flush", "file":"fs/ext4/super.c", "line":3679, "type":"c", "scope_line":3662, "scope_name":"ext4_freeze", }
+,{"id":"jbd2_journal_flush", "file":"fs/ext4/super.c", "line":4106, "type":"c", "scope_line":4068, "scope_name":"ext4_quota_on", }
+,{"id":"jbd2_journal_flush", "file":"fs/jbd2/journal.c", "line":1545, "type":"f", }
+,{"id":"jbd2_journal_force_commit", "file":"fs/ext4/ext4_jbd2.h", "line":249, "type":"c", "scope_line":246, "scope_name":"ext4_journal_force_commit", }
+,{"id":"jbd2_journal_force_commit", "file":"fs/jbd2/transaction.c", "line":1428, "type":"f", }
+,{"id":"jbd2_journal_force_commit_nested", "file":"fs/ext4/balloc.c", "line":560, "type":"c", "scope_line":551, "scope_name":"ext4_should_retry_alloc", }
+,{"id":"jbd2_journal_force_commit_nested", "file":"fs/ext4/inode.c", "line":3084, "type":"c", "scope_line":2934, "scope_name":"ext4_da_writepages", }
+,{"id":"jbd2_journal_force_commit_nested", "file":"fs/jbd2/journal.c", "line":515, "type":"f", }
+,{"id":"jbd2_journal_forget", "file":"fs/ext4/ext4_jbd2.c", "line":80, "type":"c", "scope_line":49, "scope_name":"__ext4_forget", }
+,{"id":"jbd2_journal_forget", "file":"fs/jbd2/revoke.c", "line":396, "type":"c", "scope_line":334, "scope_name":"jbd2_journal_revoke", }
+,{"id":"jbd2_journal_forget", "file":"fs/jbd2/transaction.c", "line":1158, "type":"f", }
+,{"id":"jbd2_journal_get_create_access", "file":"fs/ext4/ext4_jbd2.c", "line":110, "type":"c", "scope_line":104, "scope_name":"__ext4_journal_get_create_access", }
+,{"id":"jbd2_journal_get_create_access", "file":"fs/jbd2/transaction.c", "line":851, "type":"f", }
+,{"id":"jbd2_journal_get_descriptor_buffer", "file":"fs/jbd2/commit.c", "line":109, "type":"c", "scope_line":95, "scope_name":"journal_submit_commit_record", }
+,{"id":"jbd2_journal_get_descriptor_buffer", "file":"fs/jbd2/commit.c", "line":567, "type":"c", "scope_line":341, "scope_name":"jbd2_journal_commit_transaction", }
+,{"id":"jbd2_journal_get_descriptor_buffer", "file":"fs/jbd2/journal.c", "line":664, "type":"f", }
+,{"id":"jbd2_journal_get_descriptor_buffer", "file":"fs/jbd2/revoke.c", "line":574, "type":"c", "scope_line":544, "scope_name":"write_one_revoke_record", }
+,{"id":"jbd2_journal_get_undo_access", "file":"fs/ext4/ext4_jbd2.c", "line":15, "type":"c", "scope_line":9, "scope_name":"__ext4_journal_get_undo_access", }
+,{"id":"jbd2_journal_get_undo_access", "file":"fs/jbd2/transaction.c", "line":950, "type":"f", }
+,{"id":"jbd2_journal_get_write_access", "file":"fs/ext4/ext4_jbd2.c", "line":29, "type":"c", "scope_line":23, "scope_name":"__ext4_journal_get_write_access", }
+,{"id":"jbd2_journal_get_write_access", "file":"fs/jbd2/transaction.c", "line":818, "type":"f", }
+,{"id":"jbd2_journal_grab_journal_head", "file":"fs/jbd2/journal.c", "line":2095, "type":"f", }
+,{"id":"jbd2_journal_grab_journal_head", "file":"fs/jbd2/transaction.c", "line":1658, "type":"c", "scope_line":1638, "scope_name":"jbd2_journal_try_to_free_buffers", }
+,{"id":"jbd2_journal_grab_journal_head", "file":"fs/jbd2/transaction.c", "line":1783, "type":"c", "scope_line":1760, "scope_name":"journal_unmap_buffer", }
+,{"id":"jbd2_journal_head_cache", "file":"fs/jbd2/journal.c", "line":1942, "type":"v", }
+,{"id":"jbd2_journal_init_dev", "file":"fs/ext4/super.c", "line":3353, "type":"c", "scope_line":3290, "scope_name":"ext4_get_dev_journal", }
+,{"id":"jbd2_journal_init_dev", "file":"fs/jbd2/journal.c", "line":886, "type":"f", }
+,{"id":"jbd2_journal_init_inode", "file":"fs/ext4/super.c", "line":3279, "type":"c", "scope_line":3247, "scope_name":"ext4_get_journal", }
+,{"id":"jbd2_journal_init_inode", "file":"fs/jbd2/journal.c", "line":944, "type":"f", }
+,{"id":"jbd2_journal_init_jbd_inode", "file":"fs/ext4/super.c", "line":809, "type":"c", "scope_line":791, "scope_name":"ext4_alloc_inode", }
+,{"id":"jbd2_journal_init_jbd_inode", "file":"fs/jbd2/journal.c", "line":2187, "type":"f", }
+,{"id":"jbd2_journal_init_revoke", "file":"fs/jbd2/journal.c", "line":850, "type":"c", "scope_line":821, "scope_name":"journal_init_common", }
+,{"id":"jbd2_journal_init_revoke", "file":"fs/jbd2/revoke.c", "line":272, "type":"f", }
+,{"id":"jbd2_journal_init_revoke_caches", "file":"fs/jbd2/journal.c", "line":2319, "type":"c", "scope_line":2315, "scope_name":"journal_init_caches", }
+,{"id":"jbd2_journal_init_revoke_caches", "file":"fs/jbd2/revoke.c", "line":202, "type":"f", }
+,{"id":"jbd2_journal_init_revoke_table", "file":"fs/jbd2/revoke.c", "line":227, "type":"f", }
+,];
+xr_frag_insert('t/b5/c12b3a2e65eb7f1d28811f3bb4d6cc0020298a.xr', __xr_tmp);

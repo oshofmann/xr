@@ -1,0 +1,52 @@
+var __xr_tmp = [
+{"id":"mmio_print_map", "file":"kernel/trace/trace_mmiotrace.c", "line":220, "type":"f", }
+,{"id":"mmio_print_map", "file":"kernel/trace/trace_mmiotrace.c", "line":281, "type":"c", "scope_line":275, "scope_name":"mmio_print_line", }
+,{"id":"mmio_print_mark", "file":"kernel/trace/trace_mmiotrace.c", "line":256, "type":"f", }
+,{"id":"mmio_print_mark", "file":"kernel/trace/trace_mmiotrace.c", "line":283, "type":"c", "scope_line":275, "scope_name":"mmio_print_line", }
+,{"id":"mmio_print_pcidev", "file":"kernel/trace/trace_mmiotrace.c", "line":160, "type":"c", "scope_line":139, "scope_name":"mmio_read", }
+,{"id":"mmio_print_pcidev", "file":"kernel/trace/trace_mmiotrace.c", "line":62, "type":"f", }
+,{"id":"mmio_print_rw", "file":"kernel/trace/trace_mmiotrace.c", "line":173, "type":"f", }
+,{"id":"mmio_print_rw", "file":"kernel/trace/trace_mmiotrace.c", "line":279, "type":"c", "scope_line":275, "scope_name":"mmio_print_line", }
+,{"id":"mmio_read", "file":"kernel/trace/trace_mmiotrace.c", "line":139, "type":"f", }
+,{"id":"mmio_read16be", "file":"lib/iomap.c", "line":67, "type":"d", }
+,{"id":"mmio_read32be", "file":"lib/iomap.c", "line":68, "type":"d", }
+,{"id":"mmio_reset_data", "file":"kernel/trace/trace_mmiotrace.c", "line":29, "type":"f", }
+,{"id":"mmio_reset_data", "file":"kernel/trace/trace_mmiotrace.c", "line":42, "type":"c", "scope_line":37, "scope_name":"mmio_trace_init", }
+,{"id":"mmio_reset_data", "file":"kernel/trace/trace_mmiotrace.c", "line":52, "type":"c", "scope_line":47, "scope_name":"mmio_trace_reset", }
+,{"id":"mmio_reset_data", "file":"kernel/trace/trace_mmiotrace.c", "line":59, "type":"c", "scope_line":56, "scope_name":"mmio_trace_start", }
+,{"id":"mmio_resource_enabled", "file":"drivers/usb/host/pci-quirks.c", "line":164, "type":"f", }
+,{"id":"mmio_resource_enabled", "file":"drivers/usb/host/pci-quirks.c", "line":173, "type":"c", "scope_line":169, "scope_name":"quirk_usb_handoff_ohci", }
+,{"id":"mmio_resource_enabled", "file":"drivers/usb/host/pci-quirks.c", "line":222, "type":"c", "scope_line":213, "scope_name":"quirk_usb_disable_ehci", }
+,{"id":"mmio_resource_enabled", "file":"drivers/usb/host/pci-quirks.c", "line":390, "type":"c", "scope_line":382, "scope_name":"quirk_usb_handoff_xhci", }
+,{"id":"mmio_start", "file":"drivers/video/fbmem.c", "line":1181, "type":"m", "scope_line":1170, "scope_name":"struct fb_fix_screeninfo32", }
+,{"id":"mmio_start", "file":"include/linux/fb.h", "line":167, "type":"m", "scope_line":155, "scope_name":"struct fb_fix_screeninfo", }
+,{"id":"mmio_trace_array", "file":"kernel/trace/trace_mmiotrace.c", "line":24, "type":"v", }
+,{"id":"mmio_trace_init", "file":"kernel/trace/trace_mmiotrace.c", "line":37, "type":"f", }
+,{"id":"mmio_trace_mapping", "file":"arch/x86/mm/mmio-mod.c", "line":272, "type":"c", "scope_line":235, "scope_name":"ioremap_trace_core", }
+,{"id":"mmio_trace_mapping", "file":"arch/x86/mm/mmio-mod.c", "line":322, "type":"c", "scope_line":294, "scope_name":"iounmap_trace_core", }
+,{"id":"mmio_trace_mapping", "file":"kernel/trace/trace_mmiotrace.c", "line":360, "type":"f", }
+,{"id":"mmio_trace_printk", "file":"arch/x86/mm/mmio-mod.c", "line":348, "type":"c", "scope_line":339, "scope_name":"mmiotrace_printk", }
+,{"id":"mmio_trace_printk", "file":"kernel/trace/trace_mmiotrace.c", "line":371, "type":"f", }
+,{"id":"mmio_trace_reset", "file":"kernel/trace/trace_mmiotrace.c", "line":47, "type":"f", }
+,{"id":"mmio_trace_rw", "file":"arch/x86/mm/mmio-mod.c", "line":230, "type":"c", "scope_line":209, "scope_name":"post", }
+,{"id":"mmio_trace_rw", "file":"kernel/trace/trace_mmiotrace.c", "line":330, "type":"f", }
+,{"id":"mmio_trace_start", "file":"kernel/trace/trace_mmiotrace.c", "line":56, "type":"f", }
+,{"id":"mmio_tracer", "file":"kernel/trace/trace_mmiotrace.c", "line":289, "type":"v", }
+,{"id":"mmio_write16be", "file":"lib/iomap.c", "line":108, "type":"d", }
+,{"id":"mmio_write32be", "file":"lib/iomap.c", "line":109, "type":"d", }
+,{"id":"mmiotrace_enabled", "file":"arch/x86/mm/mmio-mod.c", "line":63, "type":"v", }
+,{"id":"mmiotrace_ioremap", "file":"arch/x86/mm/ioremap.c", "line":171, "type":"c", "scope_line":62, "scope_name":"__ioremap_caller", }
+,{"id":"mmiotrace_ioremap", "file":"arch/x86/mm/mmio-mod.c", "line":281, "type":"f", }
+,{"id":"mmiotrace_iounmap", "file":"arch/x86/mm/ioremap.c", "line":278, "type":"c", "scope_line":259, "scope_name":"iounmap", }
+,{"id":"mmiotrace_iounmap", "file":"arch/x86/mm/mmio-mod.c", "line":332, "type":"f", }
+,{"id":"mmiotrace_map", "file":"include/linux/mmiotrace.h", "line":100, "type":"s", }
+,{"id":"mmiotrace_mutex", "file":"arch/x86/mm/mmio-mod.c", "line":61, "type":"v", }
+,{"id":"mmiotrace_printk", "file":"arch/x86/mm/mmio-mod.c", "line":339, "type":"f", }
+,{"id":"mmiotrace_rw", "file":"include/linux/mmiotrace.h", "line":91, "type":"s", }
+,{"id":"mmiowb", "file":"arch/x86/include/asm/io.h", "line":81, "type":"d", }
+,{"id":"mmlist", "file":"include/linux/mm_types.h", "line":253, "type":"m", "scope_line":232, "scope_name":"struct mm_struct", }
+,{"id":"mmlist_lock", "file":"kernel/fork.c", "line":448, "type":"v", }
+,{"id":"mmput", "file":"fs/compat.c", "line":1571, "type":"c", "scope_line":1486, "scope_name":"compat_do_execve", }
+,{"id":"mmput", "file":"fs/exec.c", "line":1420, "type":"c", "scope_line":1334, "scope_name":"do_execve", }
+,];
+xr_frag_insert('t/6f/a4080d26d0d1c1b7963e0b68f8ef8857c48a9b.xr', __xr_tmp);

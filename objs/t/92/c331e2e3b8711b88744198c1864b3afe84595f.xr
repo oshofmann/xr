@@ -1,0 +1,270 @@
+var __xr_tmp = [
+{"id":"u_debugreg", "file":"arch/x86/include/asm/user_64.h", "line":128, "type":"m", "scope_line":102, "scope_name":"struct user", }
+,{"id":"u_dsize", "file":"arch/x86/include/asm/user32.h", "line":52, "type":"m", "scope_line":45, "scope_name":"struct user32", }
+,{"id":"u_dsize", "file":"arch/x86/include/asm/user_64.h", "line":113, "type":"m", "scope_line":102, "scope_name":"struct user", }
+,{"id":"u_echo", "file":"include/linux/icmpv6.h", "line":22, "type":"m", "scope_line":7, "scope_name":"struct icmp6hdr", }
+,{"id":"u_export", "file":"include/linux/nfsd/syscall.h", "line":82, "type":"m", "scope_line":77, "scope_name":"struct nfsctl_arg", }
+,{"id":"u_fpstate", "file":"arch/x86/include/asm/user32.h", "line":63, "type":"m", "scope_line":45, "scope_name":"struct user32", }
+,{"id":"u_fpstate", "file":"arch/x86/include/asm/user_64.h", "line":125, "type":"m", "scope_line":102, "scope_name":"struct user", }
+,{"id":"u_fpvalid", "file":"arch/x86/include/asm/user32.h", "line":47, "type":"m", "scope_line":45, "scope_name":"struct user32", }
+,{"id":"u_fpvalid", "file":"arch/x86/include/asm/user_64.h", "line":107, "type":"m", "scope_line":102, "scope_name":"struct user", }
+,{"id":"u_getfd", "file":"include/linux/nfsd/syscall.h", "line":83, "type":"m", "scope_line":77, "scope_name":"struct nfsctl_arg", }
+,{"id":"u_getfs", "file":"include/linux/nfsd/syscall.h", "line":84, "type":"m", "scope_line":77, "scope_name":"struct nfsctl_arg", }
+,{"id":"u_int", "file":"include/linux/types.h", "line":93, "type":"t", }
+,{"id":"u_int16_t", "file":"include/linux/types.h", "line":107, "type":"t", }
+,{"id":"u_int32_t", "file":"include/linux/types.h", "line":109, "type":"t", }
+,{"id":"u_int64_t", "file":"include/linux/types.h", "line":120, "type":"t", }
+,{"id":"u_int8_t", "file":"include/linux/types.h", "line":105, "type":"t", }
+,{"id":"u_long", "file":"include/linux/types.h", "line":94, "type":"t", }
+,{"id":"u_nd_advt", "file":"include/linux/icmpv6.h", "line":39, "type":"m", "scope_line":7, "scope_name":"struct icmp6hdr", }
+,{"id":"u_nd_ra", "file":"include/linux/icmpv6.h", "line":60, "type":"m", "scope_line":7, "scope_name":"struct icmp6hdr", }
+,{"id":"u_ptr", "file":"include/linux/nfsd/syscall.h", "line":91, "type":"m", "scope_line":77, "scope_name":"struct nfsctl_arg", }
+,{"id":"u_short", "file":"include/linux/types.h", "line":92, "type":"t", }
+,{"id":"u_ssize", "file":"arch/x86/include/asm/user32.h", "line":53, "type":"m", "scope_line":45, "scope_name":"struct user32", }
+,{"id":"u_ssize", "file":"arch/x86/include/asm/user_64.h", "line":114, "type":"m", "scope_line":102, "scope_name":"struct user", }
+,{"id":"u_svc", "file":"include/linux/nfsd/syscall.h", "line":80, "type":"m", "scope_line":77, "scope_name":"struct nfsctl_arg", }
+,{"id":"u_threshold", "file":"include/linux/ip_vs.h", "line":124, "type":"m", "scope_line":114, "scope_name":"struct ip_vs_dest_user", }
+,{"id":"u_threshold", "file":"include/linux/ip_vs.h", "line":188, "type":"m", "scope_line":182, "scope_name":"struct ip_vs_dest_entry", }
+,{"id":"u_threshold", "file":"include/net/ip_vs.h", "line":445, "type":"m", "scope_line":435, "scope_name":"struct ip_vs_dest_user_kern", }
+,{"id":"u_threshold", "file":"include/net/ip_vs.h", "line":503, "type":"m", "scope_line":485, "scope_name":"struct ip_vs_dest", }
+,{"id":"u_tsize", "file":"arch/x86/include/asm/user32.h", "line":51, "type":"m", "scope_line":45, "scope_name":"struct user32", }
+,{"id":"u_tsize", "file":"arch/x86/include/asm/user_64.h", "line":112, "type":"m", "scope_line":102, "scope_name":"struct user", }
+,{"id":"uaccess_catch", "file":"arch/x86/include/asm/uaccess.h", "line":465, "type":"d", }
+,{"id":"uaccess_err", "file":"arch/x86/include/asm/thread_info.h", "line":43, "type":"m", "scope_line":26, "scope_name":"struct thread_info", }
+,{"id":"uaccess_try", "file":"arch/x86/include/asm/uaccess.h", "line":460, "type":"d", }
+,{"id":"uaddr", "file":"include/linux/thread_info.h", "line":26, "type":"m", "scope_line":18, "scope_name":"struct restart_block", }
+,{"id":"uaddr2", "file":"include/linux/thread_info.h", "line":31, "type":"m", "scope_line":18, "scope_name":"struct restart_block", }
+,{"id":"uart", "file":"drivers/serial/8250.h", "line":19, "type":"m", "scope_line":18, "scope_name":"struct old_serial_port", }
+,{"id":"uart_8250_port", "file":"drivers/serial/8250.c", "line":133, "type":"s", }
+,{"id":"uart_add_one_port", "file":"drivers/serial/8250.c", "line":2754, "type":"c", "scope_line":2734, "scope_name":"serial8250_register_ports", }
+,{"id":"uart_add_one_port", "file":"drivers/serial/8250.c", "line":3180, "type":"c", "scope_line":3139, "scope_name":"serial8250_register_port", }
+,{"id":"uart_add_one_port", "file":"drivers/serial/8250.c", "line":3207, "type":"c", "scope_line":3197, "scope_name":"serial8250_unregister_port", }
+,{"id":"uart_add_one_port", "file":"drivers/serial/serial_core.c", "line":2407, "type":"f", }
+,{"id":"uart_break_ctl", "file":"drivers/serial/serial_core.c", "line":949, "type":"f", }
+,{"id":"uart_carrier_raised", "file":"drivers/serial/serial_core.c", "line":1517, "type":"f", }
+,{"id":"uart_change_pm", "file":"drivers/serial/serial_core.c", "line":1369, "type":"c", "scope_line":1270, "scope_name":"uart_close", }
+,{"id":"uart_change_pm", "file":"drivers/serial/serial_core.c", "line":1646, "type":"c", "scope_line":1587, "scope_name":"uart_open", }
+,{"id":"uart_change_pm", "file":"drivers/serial/serial_core.c", "line":1709, "type":"c", "scope_line":1679, "scope_name":"uart_line_info", }
+,{"id":"uart_change_pm", "file":"drivers/serial/serial_core.c", "line":1714, "type":"c", "scope_line":1679, "scope_name":"uart_line_info", }
+,{"id":"uart_change_pm", "file":"drivers/serial/serial_core.c", "line":1952, "type":"f", }
+,{"id":"uart_change_pm", "file":"drivers/serial/serial_core.c", "line":2040, "type":"c", "scope_line":1978, "scope_name":"uart_suspend_port", }
+,{"id":"uart_change_pm", "file":"drivers/serial/serial_core.c", "line":2069, "type":"c", "scope_line":2047, "scope_name":"uart_resume_port", }
+,{"id":"uart_change_pm", "file":"drivers/serial/serial_core.c", "line":2078, "type":"c", "scope_line":2047, "scope_name":"uart_resume_port", }
+,{"id":"uart_change_pm", "file":"drivers/serial/serial_core.c", "line":2179, "type":"c", "scope_line":2146, "scope_name":"uart_configure_port", }
+,{"id":"uart_change_pm", "file":"drivers/serial/serial_core.c", "line":2203, "type":"c", "scope_line":2146, "scope_name":"uart_configure_port", }
+,{"id":"uart_change_speed", "file":"drivers/serial/serial_core.c", "line":1222, "type":"c", "scope_line":1200, "scope_name":"uart_set_termios", }
+,{"id":"uart_change_speed", "file":"drivers/serial/serial_core.c", "line":1507, "type":"c", "scope_line":1488, "scope_name":"uart_update_termios", }
+,{"id":"uart_change_speed", "file":"drivers/serial/serial_core.c", "line":180, "type":"c", "scope_line":140, "scope_name":"uart_startup", }
+,{"id":"uart_change_speed", "file":"drivers/serial/serial_core.c", "line":2088, "type":"c", "scope_line":2047, "scope_name":"uart_resume_port", }
+,{"id":"uart_change_speed", "file":"drivers/serial/serial_core.c", "line":432, "type":"f", }
+,{"id":"uart_change_speed", "file":"drivers/serial/serial_core.c", "line":870, "type":"c", "scope_line":676, "scope_name":"uart_set_info", }
+,{"id":"uart_chars_in_buffer", "file":"drivers/serial/serial_core.c", "line":550, "type":"f", }
+,{"id":"uart_circ_chars_free", "file":"include/linux/serial_core.h", "line":449, "type":"d", }
+,{"id":"uart_circ_chars_pending", "file":"include/linux/serial_core.h", "line":446, "type":"d", }
+,{"id":"uart_circ_clear", "file":"include/linux/serial_core.h", "line":444, "type":"d", }
+,{"id":"uart_circ_empty", "file":"include/linux/serial_core.h", "line":443, "type":"d", }
+,{"id":"uart_clear_mctrl", "file":"drivers/serial/serial_core.c", "line":134, "type":"d", }
+,{"id":"uart_close", "file":"drivers/serial/serial_core.c", "line":1270, "type":"f", }
+,{"id":"uart_config", "file":"drivers/serial/8250.c", "line":179, "type":"v", }
+,{"id":"uart_configure_port", "file":"drivers/serial/serial_core.c", "line":2146, "type":"f", }
+,{"id":"uart_configure_port", "file":"drivers/serial/serial_core.c", "line":2444, "type":"c", "scope_line":2407, "scope_name":"uart_add_one_port", }
+,{"id":"uart_console", "file":"drivers/serial/serial_core.c", "line":56, "type":"d", }
+,{"id":"uart_console_device", "file":"drivers/serial/serial_core.c", "line":2390, "type":"f", }
+,{"id":"uart_console_write", "file":"drivers/serial/8250.c", "line":2803, "type":"c", "scope_line":2774, "scope_name":"serial8250_console_write", }
+,{"id":"uart_console_write", "file":"drivers/serial/8250_early.c", "line":110, "type":"c", "scope_line":100, "scope_name":"early_serial8250_write", }
+,{"id":"uart_console_write", "file":"drivers/serial/serial_core.c", "line":1794, "type":"f", }
+,{"id":"uart_do_autoconfig", "file":"drivers/serial/serial_core.c", "line":1129, "type":"c", "scope_line":1106, "scope_name":"uart_ioctl", }
+,{"id":"uart_do_autoconfig", "file":"drivers/serial/serial_core.c", "line":964, "type":"f", }
+,{"id":"uart_driver", "file":"include/linux/serial_core.h", "line":385, "type":"s", }
+,{"id":"uart_dtr_rts", "file":"drivers/serial/serial_core.c", "line":1531, "type":"f", }
+,{"id":"uart_flush_buffer", "file":"drivers/serial/serial_core.c", "line":1354, "type":"c", "scope_line":1270, "scope_name":"uart_close", }
+,{"id":"uart_flush_buffer", "file":"drivers/serial/serial_core.c", "line":1465, "type":"c", "scope_line":1454, "scope_name":"uart_hangup", }
+,{"id":"uart_flush_buffer", "file":"drivers/serial/serial_core.c", "line":562, "type":"f", }
+,{"id":"uart_flush_chars", "file":"drivers/serial/serial_core.c", "line":490, "type":"f", }
+,{"id":"uart_get", "file":"drivers/serial/serial_core.c", "line":1550, "type":"f", }
+,{"id":"uart_get", "file":"drivers/serial/serial_core.c", "line":1614, "type":"c", "scope_line":1587, "scope_name":"uart_open", }
+,{"id":"uart_get_baud_rate", "file":"drivers/serial/8250.c", "line":2282, "type":"c", "scope_line":2243, "scope_name":"serial8250_do_set_termios", }
+,{"id":"uart_get_baud_rate", "file":"drivers/serial/serial_core.c", "line":334, "type":"f", }
+,{"id":"uart_get_console", "file":"drivers/serial/serial_core.c", "line":1813, "type":"f", }
+,{"id":"uart_get_count", "file":"drivers/serial/serial_core.c", "line":1077, "type":"f", }
+,{"id":"uart_get_count", "file":"drivers/serial/serial_core.c", "line":1155, "type":"c", "scope_line":1106, "scope_name":"uart_ioctl", }
+,{"id":"uart_get_divisor", "file":"drivers/serial/8250.c", "line":2238, "type":"c", "scope_line":2223, "scope_name":"serial8250_get_divisor", }
+,{"id":"uart_get_divisor", "file":"drivers/serial/serial_core.c", "line":413, "type":"f", }
+,{"id":"uart_get_info", "file":"drivers/serial/serial_core.c", "line":1121, "type":"c", "scope_line":1106, "scope_name":"uart_ioctl", }
+,{"id":"uart_get_info", "file":"drivers/serial/serial_core.c", "line":637, "type":"f", }
+,{"id":"uart_get_lsr_info", "file":"drivers/serial/serial_core.c", "line":1175, "type":"c", "scope_line":1106, "scope_name":"uart_ioctl", }
+,{"id":"uart_get_lsr_info", "file":"drivers/serial/serial_core.c", "line":887, "type":"f", }
+,{"id":"uart_handle_break", "file":"drivers/serial/8250.c", "line":1431, "type":"c", "scope_line":1391, "scope_name":"receive_chars", }
+,{"id":"uart_handle_break", "file":"include/linux/serial_core.h", "line":485, "type":"f", }
+,{"id":"uart_handle_cts_change", "file":"drivers/serial/8250.c", "line":1520, "type":"c", "scope_line":1505, "scope_name":"check_modem_status", }
+,{"id":"uart_handle_cts_change", "file":"include/linux/serial_core.h", "line":542, "type":"f", }
+,{"id":"uart_handle_dcd_change", "file":"drivers/serial/8250.c", "line":1518, "type":"c", "scope_line":1505, "scope_name":"check_modem_status", }
+,{"id":"uart_handle_dcd_change", "file":"include/linux/serial_core.h", "line":507, "type":"f", }
+,{"id":"uart_handle_sysrq_char", "file":"drivers/serial/8250.c", "line":1453, "type":"c", "scope_line":1391, "scope_name":"receive_chars", }
+,{"id":"uart_handle_sysrq_char", "file":"include/linux/serial_core.h", "line":463, "type":"f", }
+,{"id":"uart_handle_sysrq_char", "file":"include/linux/serial_core.h", "line":479, "type":"d", }
+,{"id":"uart_hangup", "file":"drivers/serial/serial_core.c", "line":1454, "type":"f", }
+,{"id":"uart_icount", "file":"include/linux/serial_core.h", "line":267, "type":"s", }
+,{"id":"uart_insert_char", "file":"drivers/serial/8250.c", "line":1456, "type":"c", "scope_line":1391, "scope_name":"receive_chars", }
+,{"id":"uart_insert_char", "file":"include/linux/serial_core.h", "line":568, "type":"f", }
+,{"id":"uart_ioctl", "file":"drivers/serial/serial_core.c", "line":1106, "type":"f", }
+,{"id":"uart_line_info", "file":"drivers/serial/serial_core.c", "line":1679, "type":"f", }
+,{"id":"uart_line_info", "file":"drivers/serial/serial_core.c", "line":1768, "type":"c", "scope_line":1759, "scope_name":"uart_proc_show", }
+,{"id":"uart_match", "file":"drivers/serial/serial_core.c", "line":1963, "type":"s", }
+,{"id":"uart_match_port", "file":"drivers/serial/8250.c", "line":2886, "type":"c", "scope_line":2879, "scope_name":"serial8250_find_port", }
+,{"id":"uart_match_port", "file":"drivers/serial/8250.c", "line":3102, "type":"c", "scope_line":3094, "scope_name":"serial8250_find_match_or_unused", }
+,{"id":"uart_match_port", "file":"drivers/serial/serial_core.c", "line":2533, "type":"f", }
+,{"id":"uart_offset", "file":"include/linux/8250_pci.h", "line":26, "type":"m", "scope_line":22, "scope_name":"struct pciserial_board", }
+,{"id":"uart_open", "file":"drivers/serial/serial_core.c", "line":1587, "type":"f", }
+,{"id":"uart_ops", "file":"drivers/serial/serial_core.c", "line":2261, "type":"v", }
+,{"id":"uart_ops", "file":"include/linux/serial_core.h", "line":218, "type":"s", }
+,{"id":"uart_parse_options", "file":"drivers/serial/8250.c", "line":2847, "type":"c", "scope_line":2827, "scope_name":"serial8250_console_setup", }
+,{"id":"uart_parse_options", "file":"drivers/serial/serial_core.c", "line":1842, "type":"f", }
+,{"id":"uart_parse_options", "file":"drivers/serial/serial_core.c", "line":2227, "type":"c", "scope_line":2209, "scope_name":"uart_poll_init", }
+,{"id":"uart_poll_get_char", "file":"drivers/serial/serial_core.c", "line":2234, "type":"f", }
+,{"id":"uart_poll_init", "file":"drivers/serial/serial_core.c", "line":2209, "type":"f", }
+,{"id":"uart_poll_put_char", "file":"drivers/serial/serial_core.c", "line":2247, "type":"f", }
+,{"id":"uart_port", "file":"include/linux/serial_core.h", "line":283, "type":"s", }
+,{"id":"uart_port", "file":"include/linux/serial_core.h", "line":373, "type":"m", "scope_line":366, "scope_name":"struct uart_state", }
+,{"id":"uart_port_ops", "file":"drivers/serial/serial_core.c", "line":2293, "type":"v", }
+,{"id":"uart_proc_fops", "file":"drivers/serial/serial_core.c", "line":1777, "type":"v", }
+,{"id":"uart_proc_open", "file":"drivers/serial/serial_core.c", "line":1772, "type":"f", }
+,{"id":"uart_proc_show", "file":"drivers/serial/serial_core.c", "line":1759, "type":"f", }
+,{"id":"uart_put_char", "file":"drivers/serial/serial_core.c", "line":483, "type":"f", }
+,{"id":"uart_register_driver", "file":"drivers/serial/8250.c", "line":3230, "type":"c", "scope_line":3215, "scope_name":"serial8250_init", }
+,{"id":"uart_register_driver", "file":"drivers/serial/serial_core.c", "line":2311, "type":"f", }
+,{"id":"uart_remove_one_port", "file":"drivers/serial/8250.c", "line":3151, "type":"c", "scope_line":3139, "scope_name":"serial8250_register_port", }
+,{"id":"uart_remove_one_port", "file":"drivers/serial/8250.c", "line":3202, "type":"c", "scope_line":3197, "scope_name":"serial8250_unregister_port", }
+,{"id":"uart_remove_one_port", "file":"drivers/serial/serial_core.c", "line":2479, "type":"f", }
+,{"id":"uart_report_port", "file":"drivers/serial/serial_core.c", "line":2112, "type":"f", }
+,{"id":"uart_report_port", "file":"drivers/serial/serial_core.c", "line":2176, "type":"c", "scope_line":2146, "scope_name":"uart_configure_port", }
+,{"id":"uart_resume_port", "file":"drivers/serial/8250.c", "line":2978, "type":"c", "scope_line":2961, "scope_name":"serial8250_resume_port", }
+,{"id":"uart_resume_port", "file":"drivers/serial/serial_core.c", "line":2047, "type":"f", }
+,{"id":"uart_send_xchar", "file":"drivers/serial/serial_core.c", "line":592, "type":"f", }
+,{"id":"uart_send_xchar", "file":"drivers/serial/serial_core.c", "line":615, "type":"c", "scope_line":610, "scope_name":"uart_throttle", }
+,{"id":"uart_send_xchar", "file":"drivers/serial/serial_core.c", "line":630, "type":"c", "scope_line":621, "scope_name":"uart_unthrottle", }
+,{"id":"uart_set_info", "file":"drivers/serial/serial_core.c", "line":1125, "type":"c", "scope_line":1106, "scope_name":"uart_ioctl", }
+,{"id":"uart_set_info", "file":"drivers/serial/serial_core.c", "line":676, "type":"f", }
+,{"id":"uart_set_ldisc", "file":"drivers/serial/serial_core.c", "line":1191, "type":"f", }
+,{"id":"uart_set_mctrl", "file":"drivers/serial/serial_core.c", "line":133, "type":"d", }
+,{"id":"uart_set_options", "file":"drivers/serial/8250.c", "line":2849, "type":"c", "scope_line":2827, "scope_name":"serial8250_console_setup", }
+,{"id":"uart_set_options", "file":"drivers/serial/serial_core.c", "line":1888, "type":"f", }
+,{"id":"uart_set_options", "file":"drivers/serial/serial_core.c", "line":2228, "type":"c", "scope_line":2209, "scope_name":"uart_poll_init", }
+,{"id":"uart_set_termios", "file":"drivers/serial/serial_core.c", "line":1200, "type":"f", }
+,{"id":"uart_shutdown", "file":"drivers/serial/serial_core.c", "line":1353, "type":"c", "scope_line":1270, "scope_name":"uart_close", }
+,{"id":"uart_shutdown", "file":"drivers/serial/serial_core.c", "line":1466, "type":"c", "scope_line":1454, "scope_name":"uart_hangup", }
+,{"id":"uart_shutdown", "file":"drivers/serial/serial_core.c", "line":2100, "type":"c", "scope_line":2047, "scope_name":"uart_resume_port", }
+,{"id":"uart_shutdown", "file":"drivers/serial/serial_core.c", "line":213, "type":"f", }
+,{"id":"uart_shutdown", "file":"drivers/serial/serial_core.c", "line":771, "type":"c", "scope_line":676, "scope_name":"uart_set_info", }
+,{"id":"uart_shutdown", "file":"drivers/serial/serial_core.c", "line":983, "type":"c", "scope_line":964, "scope_name":"uart_do_autoconfig", }
+,{"id":"uart_start", "file":"drivers/serial/serial_core.c", "line":102, "type":"f", }
+,{"id":"uart_start", "file":"drivers/serial/serial_core.c", "line":492, "type":"c", "scope_line":490, "scope_name":"uart_flush_chars", }
+,{"id":"uart_start", "file":"drivers/serial/serial_core.c", "line":534, "type":"c", "scope_line":495, "scope_name":"uart_write", }
+,{"id":"uart_startup", "file":"drivers/serial/serial_core.c", "line":1002, "type":"c", "scope_line":964, "scope_name":"uart_do_autoconfig", }
+,{"id":"uart_startup", "file":"drivers/serial/serial_core.c", "line":140, "type":"f", }
+,{"id":"uart_startup", "file":"drivers/serial/serial_core.c", "line":1651, "type":"c", "scope_line":1587, "scope_name":"uart_open", }
+,{"id":"uart_startup", "file":"drivers/serial/serial_core.c", "line":873, "type":"c", "scope_line":676, "scope_name":"uart_set_info", }
+,{"id":"uart_state", "file":"include/linux/serial_core.h", "line":366, "type":"s", }
+,{"id":"uart_stop", "file":"drivers/serial/serial_core.c", "line":81, "type":"f", }
+,{"id":"uart_suspend_port", "file":"drivers/serial/8250.c", "line":2952, "type":"c", "scope_line":2950, "scope_name":"serial8250_suspend_port", }
+,{"id":"uart_suspend_port", "file":"drivers/serial/8250.c", "line":3050, "type":"c", "scope_line":3042, "scope_name":"serial8250_suspend", }
+,{"id":"uart_suspend_port", "file":"drivers/serial/serial_core.c", "line":1978, "type":"f", }
+,{"id":"uart_tasklet_action", "file":"drivers/serial/serial_core.c", "line":113, "type":"f", }
+,{"id":"uart_throttle", "file":"drivers/serial/serial_core.c", "line":610, "type":"f", }
+,{"id":"uart_tiocmget", "file":"drivers/serial/serial_core.c", "line":909, "type":"f", }
+,{"id":"uart_tiocmset", "file":"drivers/serial/serial_core.c", "line":930, "type":"f", }
+,{"id":"uart_tx_stopped", "file":"drivers/serial/8250.c", "line":1478, "type":"c", "scope_line":1467, "scope_name":"transmit_chars", }
+,{"id":"uart_tx_stopped", "file":"include/linux/serial_core.h", "line":452, "type":"f", }
+,{"id":"uart_type", "file":"drivers/serial/serial_core.c", "line":1664, "type":"f", }
+,{"id":"uart_type", "file":"drivers/serial/serial_core.c", "line":1693, "type":"c", "scope_line":1679, "scope_name":"uart_line_info", }
+,{"id":"uart_type", "file":"drivers/serial/serial_core.c", "line":2138, "type":"c", "scope_line":2112, "scope_name":"uart_report_port", }
+,{"id":"uart_unregister_driver", "file":"drivers/serial/8250.c", "line":3259, "type":"c", "scope_line":3215, "scope_name":"serial8250_init", }
+,{"id":"uart_unregister_driver", "file":"drivers/serial/8250.c", "line":3282, "type":"c", "scope_line":3265, "scope_name":"serial8250_exit", }
+,{"id":"uart_unregister_driver", "file":"drivers/serial/serial_core.c", "line":2381, "type":"f", }
+,{"id":"uart_unthrottle", "file":"drivers/serial/serial_core.c", "line":621, "type":"f", }
+,{"id":"uart_update_mctrl", "file":"drivers/serial/serial_core.c", "line":119, "type":"f", }
+,{"id":"uart_update_mctrl", "file":"drivers/serial/serial_core.c", "line":1226, "type":"c", "scope_line":1200, "scope_name":"uart_set_termios", }
+,{"id":"uart_update_mctrl", "file":"drivers/serial/serial_core.c", "line":1233, "type":"c", "scope_line":1200, "scope_name":"uart_set_termios", }
+,{"id":"uart_update_mctrl", "file":"drivers/serial/serial_core.c", "line":1513, "type":"c", "scope_line":1488, "scope_name":"uart_update_termios", }
+,{"id":"uart_update_mctrl", "file":"drivers/serial/serial_core.c", "line":1537, "type":"c", "scope_line":1531, "scope_name":"uart_dtr_rts", }
+,{"id":"uart_update_mctrl", "file":"drivers/serial/serial_core.c", "line":1547, "type":"c", "scope_line":1531, "scope_name":"uart_dtr_rts", }
+,{"id":"uart_update_mctrl", "file":"drivers/serial/serial_core.c", "line":187, "type":"c", "scope_line":140, "scope_name":"uart_startup", }
+,{"id":"uart_update_mctrl", "file":"drivers/serial/serial_core.c", "line":229, "type":"c", "scope_line":213, "scope_name":"uart_shutdown", }
+,{"id":"uart_update_mctrl", "file":"drivers/serial/serial_core.c", "line":618, "type":"c", "scope_line":610, "scope_name":"uart_throttle", }
+,{"id":"uart_update_mctrl", "file":"drivers/serial/serial_core.c", "line":634, "type":"c", "scope_line":621, "scope_name":"uart_unthrottle", }
+,{"id":"uart_update_mctrl", "file":"drivers/serial/serial_core.c", "line":942, "type":"c", "scope_line":930, "scope_name":"uart_tiocmset", }
+,{"id":"uart_update_termios", "file":"drivers/serial/serial_core.c", "line":1488, "type":"f", }
+,{"id":"uart_update_termios", "file":"drivers/serial/serial_core.c", "line":1544, "type":"c", "scope_line":1531, "scope_name":"uart_dtr_rts", }
+,{"id":"uart_update_timeout", "file":"drivers/serial/8250.c", "line":2323, "type":"c", "scope_line":2243, "scope_name":"serial8250_do_set_termios", }
+,{"id":"uart_update_timeout", "file":"drivers/serial/serial_core.c", "line":274, "type":"f", }
+,{"id":"uart_wait_modem_status", "file":"drivers/serial/serial_core.c", "line":1017, "type":"f", }
+,{"id":"uart_wait_modem_status", "file":"drivers/serial/serial_core.c", "line":1151, "type":"c", "scope_line":1106, "scope_name":"uart_ioctl", }
+,{"id":"uart_wait_until_sent", "file":"drivers/serial/serial_core.c", "line":1438, "type":"f", }
+,{"id":"uart_write", "file":"drivers/serial/serial_core.c", "line":495, "type":"f", }
+,{"id":"uart_write_room", "file":"drivers/serial/serial_core.c", "line":538, "type":"f", }
+,{"id":"uart_write_wakeup", "file":"drivers/serial/8250.c", "line":1497, "type":"c", "scope_line":1467, "scope_name":"transmit_chars", }
+,{"id":"uart_write_wakeup", "file":"drivers/serial/serial_core.c", "line":70, "type":"f", }
+,{"id":"uart_write_wakeup", "file":"include/linux/serial_core.h", "line":555, "type":"c", "scope_line":542, "scope_name":"uart_handle_cts_change", }
+,{"id":"uartclk", "file":"include/linux/serial_8250.h", "line":26, "type":"m", "scope_line":20, "scope_name":"struct plat_serial8250_port", }
+,{"id":"uartclk", "file":"include/linux/serial_core.h", "line":294, "type":"m", "scope_line":283, "scope_name":"struct uart_port", }
+,{"id":"ubuf", "file":"crypto/ahash.c", "line":31, "type":"m", "scope_line":27, "scope_name":"struct ahash_request_priv", }
+,{"id":"uc", "file":"arch/x86/include/asm/sigframe.h", "line":55, "type":"m", "scope_line":45, "scope_name":"struct rt_sigframe_ia32", }
+,{"id":"uc", "file":"arch/x86/include/asm/sigframe.h", "line":64, "type":"m", "scope_line":62, "scope_name":"struct rt_sigframe", }
+,{"id":"uc", "file":"include/linux/netdevice.h", "line":932, "type":"m", "scope_line":788, "scope_name":"struct net_device", }
+,{"id":"uc_flags", "file":"arch/x86/include/asm/ia32.h", "line":39, "type":"m", "scope_line":38, "scope_name":"struct ucontext_ia32", }
+,{"id":"uc_flags", "file":"include/asm-generic/ucontext.h", "line":5, "type":"m", "scope_line":4, "scope_name":"struct ucontext", }
+,{"id":"uc_link", "file":"arch/x86/include/asm/ia32.h", "line":40, "type":"m", "scope_line":38, "scope_name":"struct ucontext_ia32", }
+,{"id":"uc_link", "file":"include/asm-generic/ucontext.h", "line":6, "type":"m", "scope_line":4, "scope_name":"struct ucontext", }
+,{"id":"uc_mcontext", "file":"arch/x86/include/asm/ia32.h", "line":42, "type":"m", "scope_line":38, "scope_name":"struct ucontext_ia32", }
+,{"id":"uc_mcontext", "file":"include/asm-generic/ucontext.h", "line":8, "type":"m", "scope_line":4, "scope_name":"struct ucontext", }
+,{"id":"uc_promisc", "file":"include/linux/netdevice.h", "line":934, "type":"m", "scope_line":788, "scope_name":"struct net_device", }
+,{"id":"uc_sigmask", "file":"arch/x86/include/asm/ia32.h", "line":43, "type":"m", "scope_line":38, "scope_name":"struct ucontext_ia32", }
+,{"id":"uc_sigmask", "file":"include/asm-generic/ucontext.h", "line":9, "type":"m", "scope_line":4, "scope_name":"struct ucontext", }
+,{"id":"uc_stack", "file":"arch/x86/include/asm/ia32.h", "line":41, "type":"m", "scope_line":38, "scope_name":"struct ucontext_ia32", }
+,{"id":"uc_stack", "file":"include/asm-generic/ucontext.h", "line":7, "type":"m", "scope_line":4, "scope_name":"struct ucontext", }
+,{"id":"uc_ttl", "file":"include/net/inet_sock.h", "line":124, "type":"m", "scope_line":112, "scope_name":"struct inet_sock", }
+,{"id":"ucast_probes", "file":"include/net/neighbour.h", "line":63, "type":"m", "scope_line":40, "scope_name":"struct neigh_parms", }
+,{"id":"ucca", "file":"include/linux/cdrom.h", "line":1149, "type":"m", "scope_line":1140, "scope_name":"rpc_state_t", }
+,{"id":"ucca", "file":"include/linux/cdrom.h", "line":678, "type":"m", "scope_line":675, "scope_name":"struct dvd_lu_send_rpcstate", }
+,{"id":"uch", "file":"include/linux/zutil.h", "line":20, "type":"t", }
+,{"id":"ucontext", "file":"include/asm-generic/ucontext.h", "line":4, "type":"s", }
+,{"id":"ucontext_ia32", "file":"arch/x86/include/asm/ia32.h", "line":38, "type":"s", }
+,{"id":"ucopy", "file":"include/linux/tcp.h", "line":332, "type":"m", "scope_line":291, "scope_name":"struct tcp_sock", }
+,{"id":"ucred", "file":"include/linux/socket.h", "line":151, "type":"s", }
+,{"id":"ud2a", "file":"arch/x86/kernel/paravirt.c", "line":69, "type":"v", }
+,{"id":"udelay", "file":"arch/x86/include/asm/delay.h", "line":20, "type":"d", }
+,{"id":"udelay", "file":"arch/x86/kernel/acpi/realmode/wakemain.c", "line":4, "type":"f", }
+,{"id":"udelay", "file":"arch/x86/kernel/acpi/realmode/wakemain.c", "line":47, "type":"c", "scope_line":39, "scope_name":"send_morse", }
+,{"id":"udelay", "file":"arch/x86/kernel/acpi/realmode/wakemain.c", "line":49, "type":"c", "scope_line":39, "scope_name":"send_morse", }
+,{"id":"udelay", "file":"arch/x86/kernel/acpi/realmode/wakemain.c", "line":53, "type":"c", "scope_line":39, "scope_name":"send_morse", }
+,{"id":"udelay", "file":"arch/x86/kernel/acpi/realmode/wakemain.c", "line":55, "type":"c", "scope_line":39, "scope_name":"send_morse", }
+,{"id":"udelay", "file":"arch/x86/kernel/acpi/realmode/wakemain.c", "line":58, "type":"c", "scope_line":39, "scope_name":"send_morse", }
+,{"id":"udf", "file":"include/linux/exportfs.h", "line":87, "type":"m", "scope_line":72, "scope_name":"struct fid", }
+,{"id":"udma", "file":"include/linux/ide.h", "line":1472, "type":"m", "scope_line":1463, "scope_name":"struct ide_timing", }
+,{"id":"udma", "file":"include/linux/libata.h", "line":914, "type":"m", "scope_line":904, "scope_name":"struct ata_timing", }
+,{"id":"udma_filter", "file":"include/linux/ide.h", "line":638, "type":"m", "scope_line":625, "scope_name":"struct ide_port_ops", }
+,{"id":"udma_mask", "file":"include/linux/ide.h", "line":1318, "type":"m", "scope_line":1288, "scope_name":"struct ide_port_info", }
+,{"id":"udma_mask", "file":"include/linux/libata.h", "line":626, "type":"m", "scope_line":595, "scope_name":"struct ata_device", }
+,{"id":"udma_mask", "file":"include/linux/libata.h", "line":737, "type":"m", "scope_line":711, "scope_name":"struct ata_port", }
+,{"id":"udma_mask", "file":"include/linux/libata.h", "line":899, "type":"m", "scope_line":894, "scope_name":"struct ata_port_info", }
+,{"id":"udp", "file":"include/linux/ipv6.h", "line":392, "type":"m", "scope_line":391, "scope_name":"struct udp6_sock", }
+,{"id":"udp4_csum_init", "file":"net/ipv4/udp.c", "line":1530, "type":"f", }
+,{"id":"udp4_csum_init", "file":"net/ipv4/udp.c", "line":1598, "type":"c", "scope_line":1567, "scope_name":"__udp4_lib_rcv", }
+,{"id":"udp4_format_sock", "file":"net/ipv4/udp.c", "line":2039, "type":"f", }
+,{"id":"udp4_format_sock", "file":"net/ipv4/udp.c", "line":2069, "type":"c", "scope_line":2058, "scope_name":"udp4_seq_show", }
+,{"id":"udp4_hwcsum_outgoing", "file":"net/ipv4/udp.c", "line":671, "type":"f", }
+,{"id":"udp4_hwcsum_outgoing", "file":"net/ipv4/udp.c", "line":743, "type":"c", "scope_line":709, "scope_name":"udp_push_pending_frames", }
+,{"id":"udp4_lib_lookup", "file":"net/ipv4/udp.c", "line":530, "type":"f", }
+,{"id":"udp4_lib_lookup2", "file":"net/ipv4/udp.c", "line":401, "type":"f", }
+,{"id":"udp4_lib_lookup2", "file":"net/ipv4/udp.c", "line":466, "type":"c", "scope_line":447, "scope_name":"__udp4_lib_lookup", }
+,{"id":"udp4_lib_lookup2", "file":"net/ipv4/udp.c", "line":476, "type":"c", "scope_line":447, "scope_name":"__udp4_lib_lookup", }
+,{"id":"udp4_net_ops", "file":"net/ipv4/udp.c", "line":2098, "type":"v", }
+,{"id":"udp4_portaddr_hash", "file":"net/ipv4/udp.c", "line":1300, "type":"c", "scope_line":1298, "scope_name":"udp_v4_rehash", }
+,{"id":"udp4_portaddr_hash", "file":"net/ipv4/udp.c", "line":308, "type":"f", }
+,{"id":"udp4_portaddr_hash", "file":"net/ipv4/udp.c", "line":316, "type":"c", "scope_line":314, "scope_name":"udp_v4_get_port", }
+,{"id":"udp4_portaddr_hash", "file":"net/ipv4/udp.c", "line":318, "type":"c", "scope_line":314, "scope_name":"udp_v4_get_port", }
+,{"id":"udp4_portaddr_hash", "file":"net/ipv4/udp.c", "line":460, "type":"c", "scope_line":447, "scope_name":"__udp4_lib_lookup", }
+,{"id":"udp4_portaddr_hash", "file":"net/ipv4/udp.c", "line":470, "type":"c", "scope_line":447, "scope_name":"__udp4_lib_lookup", }
+,{"id":"udp4_proc_exit", "file":"net/ipv4/af_inet.c", "line":1754, "type":"c", "scope_line":1739, "scope_name":"ipv4_proc_init", }
+,];
+xr_frag_insert('t/92/c331e2e3b8711b88744198c1864b3afe84595f.xr', __xr_tmp);

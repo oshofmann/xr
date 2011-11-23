@@ -1,0 +1,317 @@
+var __xr_tmp = [
+{"id":"paddr", "file":"arch/x86/include/asm/xen/page.h", "line":23, "type":"m", "scope_line":22, "scope_name":"struct xpaddr", }
+,{"id":"paddr", "file":"drivers/acpi/atomicio.c", "line":50, "type":"m", "scope_line":46, "scope_name":"struct acpi_iomap", }
+,{"id":"paddr", "file":"include/linux/proc_fs.h", "line":98, "type":"m", "scope_line":96, "scope_name":"struct vmcore", }
+,{"id":"paddr_vmcoreinfo_note", "file":"kernel/kexec.c", "line":1424, "type":"f", }
+,{"id":"paddr_vmcoreinfo_note", "file":"kernel/ksysfs.c", "line":126, "type":"c", "scope_line":123, "scope_name":"vmcoreinfo_show", }
+,{"id":"padlen", "file":"include/linux/ip.h", "line":145, "type":"m", "scope_line":142, "scope_name":"struct ip_beet_phdr", }
+,{"id":"padlen", "file":"include/net/esp.h", "line":10, "type":"m", "scope_line":8, "scope_name":"struct esp_data", }
+,{"id":"padzero", "file":"fs/binfmt_elf.c", "line":100, "type":"f", }
+,{"id":"padzero", "file":"fs/binfmt_elf.c", "line":1061, "type":"c", "scope_line":1000, "scope_name":"load_elf_library", }
+,{"id":"padzero", "file":"fs/binfmt_elf.c", "line":512, "type":"c", "scope_line":383, "scope_name":"load_elf_interp", }
+,{"id":"padzero", "file":"fs/binfmt_elf.c", "line":880, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"page", "file":"arch/x86/mm/kmmio.c", "line":37, "type":"m", "scope_line":34, "scope_name":"struct kmmio_fault_page", }
+,{"id":"page", "file":"drivers/block/loop.c", "line":383, "type":"m", "scope_line":381, "scope_name":"struct lo_read_data", }
+,{"id":"page", "file":"fs/ext4/ext4.h", "line":176, "type":"m", "scope_line":172, "scope_name":"struct ext4_io_end", }
+,{"id":"page", "file":"fs/sysfs/file.c", "line":55, "type":"m", "scope_line":52, "scope_name":"struct sysfs_buffer", }
+,{"id":"page", "file":"include/crypto/algapi.h", "line":108, "type":"m", "scope_line":106, "scope_name":"struct ablkcipher_walk", }
+,{"id":"page", "file":"include/crypto/algapi.h", "line":82, "type":"m", "scope_line":79, "scope_name":"struct blkcipher_walk", }
+,{"id":"page", "file":"include/crypto/algapi.h", "line":87, "type":"m", "scope_line":79, "scope_name":"struct blkcipher_walk", }
+,{"id":"page", "file":"include/crypto/algapi.h", "line":98, "type":"m", "scope_line":79, "scope_name":"struct blkcipher_walk", }
+,{"id":"page", "file":"include/linux/dm-io.h", "line":25, "type":"m", "scope_line":23, "scope_name":"struct page_list", }
+,{"id":"page", "file":"include/linux/mm.h", "line":180, "type":"m", "scope_line":175, "scope_name":"struct vm_fault", }
+,{"id":"page", "file":"include/linux/mm_types.h", "line":34, "type":"s", }
+,{"id":"page", "file":"include/linux/nfs_xdr.h", "line":894, "type":"m", "scope_line":891, "scope_name":"struct nfs4_fs_locations_arg", }
+,{"id":"page", "file":"include/linux/page_cgroup.h", "line":16, "type":"m", "scope_line":13, "scope_name":"struct page_cgroup", }
+,{"id":"page", "file":"include/linux/perf_event.h", "line":838, "type":"m", "scope_line":832, "scope_name":"struct perf_output_handle", }
+,{"id":"page", "file":"include/linux/pid_namespace.h", "line":12, "type":"m", "scope_line":10, "scope_name":"struct pidmap", }
+,{"id":"page", "file":"include/linux/pipe_fs_i.h", "line":22, "type":"m", "scope_line":21, "scope_name":"struct pipe_buffer", }
+,{"id":"page", "file":"include/linux/scatterlist.h", "line":250, "type":"m", "scope_line":248, "scope_name":"struct sg_mapping_iter", }
+,{"id":"page", "file":"include/linux/skbuff.h", "line":131, "type":"m", "scope_line":130, "scope_name":"struct skb_frag_struct", }
+,{"id":"page", "file":"include/linux/smb_fs.h", "line":114, "type":"m", "scope_line":112, "scope_name":"struct smb_cache_control", }
+,{"id":"page", "file":"include/net/bluetooth/hci.h", "line":344, "type":"m", "scope_line":342, "scope_name":"struct hci_cp_read_remote_ext_features", }
+,{"id":"page", "file":"include/net/bluetooth/hci.h", "line":576, "type":"m", "scope_line":574, "scope_name":"struct hci_rp_read_local_ext_features", }
+,{"id":"page", "file":"include/net/bluetooth/hci.h", "line":782, "type":"m", "scope_line":779, "scope_name":"struct hci_ev_remote_ext_features", }
+,{"id":"page", "file":"include/trace/events/kmem.h", "line":150, "type":"m", "scope_line":150, "scope_name":"struct ftrace_raw_mm_page_free_direct", }
+,{"id":"page", "file":"include/trace/events/kmem.h", "line":172, "type":"m", "scope_line":172, "scope_name":"struct ftrace_raw_mm_pagevec_free", }
+,{"id":"page", "file":"include/trace/events/kmem.h", "line":194, "type":"m", "scope_line":194, "scope_name":"struct ftrace_raw_mm_page_alloc", }
+,{"id":"page", "file":"include/trace/events/kmem.h", "line":223, "type":"m", "scope_line":223, "scope_name":"struct ftrace_raw_mm_page", }
+,{"id":"page", "file":"include/trace/events/kmem.h", "line":267, "type":"m", "scope_line":267, "scope_name":"struct ftrace_raw_mm_page_alloc_extfrag", }
+,{"id":"page", "file":"include/trace/events/vmscan.h", "line":249, "type":"m", "scope_line":249, "scope_name":"struct ftrace_raw_mm_vmscan_writepage", }
+,{"id":"page", "file":"kernel/trace/ring_buffer.c", "line":347, "type":"m", "scope_line":341, "scope_name":"struct buffer_page", }
+,{"id":"page", "file":"kernel/trace/trace.c", "line":3700, "type":"m", "scope_line":3698, "scope_name":"struct buffer_ref", }
+,{"id":"page", "file":"mm/memcontrol.c", "line":4299, "type":"m", "scope_line":4298, "scope_name":"union mc_target", }
+,{"id":"page", "file":"mm/migrate.c", "line":797, "type":"m", "scope_line":795, "scope_name":"struct page_to_node", }
+,{"id":"page00", "file":"fs/nls/nls_base.c", "line":360, "type":"v", }
+,{"id":"page_action", "file":"mm/memory-failure.c", "line":1092, "type":"c", "scope_line":952, "scope_name":"__memory_failure", }
+,{"id":"page_action", "file":"mm/memory-failure.c", "line":812, "type":"f", }
+,{"id":"page_add_anon_rmap", "file":"mm/ksm.c", "line":796, "type":"c", "scope_line":761, "scope_name":"replace_page", }
+,{"id":"page_add_anon_rmap", "file":"mm/migrate.c", "line":137, "type":"c", "scope_line":87, "scope_name":"remove_migration_pte", }
+,{"id":"page_add_anon_rmap", "file":"mm/rmap.c", "line":859, "type":"f", }
+,{"id":"page_add_anon_rmap", "file":"mm/swapfile.c", "line":901, "type":"c", "scope_line":875, "scope_name":"unuse_pte", }
+,{"id":"page_add_file_rmap", "file":"mm/memory.c", "line":1636, "type":"c", "scope_line":1613, "scope_name":"insert_page", }
+,{"id":"page_add_file_rmap", "file":"mm/memory.c", "line":3033, "type":"c", "scope_line":2908, "scope_name":"__do_fault", }
+,{"id":"page_add_file_rmap", "file":"mm/migrate.c", "line":139, "type":"c", "scope_line":87, "scope_name":"remove_migration_pte", }
+,{"id":"page_add_file_rmap", "file":"mm/rmap.c", "line":917, "type":"f", }
+,{"id":"page_add_new_anon_rmap", "file":"mm/memory.c", "line":2292, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"page_add_new_anon_rmap", "file":"mm/memory.c", "line":2876, "type":"c", "scope_line":2832, "scope_name":"do_anonymous_page", }
+,{"id":"page_add_new_anon_rmap", "file":"mm/memory.c", "line":3030, "type":"c", "scope_line":2908, "scope_name":"__do_fault", }
+,{"id":"page_add_new_anon_rmap", "file":"mm/rmap.c", "line":897, "type":"f", }
+,{"id":"page_address", "file":"include/linux/mm.h", "line":626, "type":"d", }
+,{"id":"page_address_in_vma", "file":"mm/ksm.c", "line":707, "type":"c", "scope_line":697, "scope_name":"write_protect_page", }
+,{"id":"page_address_in_vma", "file":"mm/ksm.c", "line":773, "type":"c", "scope_line":761, "scope_name":"replace_page", }
+,{"id":"page_address_in_vma", "file":"mm/memory-failure.c", "line":302, "type":"c", "scope_line":284, "scope_name":"add_to_kill", }
+,{"id":"page_address_in_vma", "file":"mm/mempolicy.c", "line":1043, "type":"c", "scope_line":1037, "scope_name":"new_vma_page", }
+,{"id":"page_address_in_vma", "file":"mm/rmap.c", "line":381, "type":"f", }
+,{"id":"page_address_in_vma", "file":"mm/swapfile.c", "line":999, "type":"c", "scope_line":991, "scope_name":"unuse_vma", }
+,{"id":"page_address_init", "file":"include/linux/mm.h", "line":628, "type":"d", }
+,{"id":"page_alloc_cpu_notify", "file":"mm/page_alloc.c", "line":4750, "type":"f", }
+,{"id":"page_alloc_cpu_notify_nb", "file":"mm/page_alloc.c", "line":4780, "type":"v", }
+,{"id":"page_alloc_init", "file":"init/main.c", "line":577, "type":"c", "scope_line":536, "scope_name":"start_kernel", }
+,{"id":"page_alloc_init", "file":"mm/page_alloc.c", "line":4778, "type":"f", }
+,{"id":"page_anon_vma", "file":"include/linux/ksm.h", "line":79, "type":"c", "scope_line":76, "scope_name":"ksm_might_need_to_copy", }
+,{"id":"page_anon_vma", "file":"include/linux/rmap.h", "line":110, "type":"f", }
+,{"id":"page_anon_vma", "file":"mm/migrate.c", "line":641, "type":"c", "scope_line":549, "scope_name":"unmap_and_move", }
+,{"id":"page_anon_vma", "file":"mm/rmap.c", "line":1503, "type":"c", "scope_line":1490, "scope_name":"rmap_walk_anon", }
+,{"id":"page_anon_vma", "file":"mm/rmap.c", "line":384, "type":"c", "scope_line":381, "scope_name":"page_address_in_vma", }
+,{"id":"page_anon_vma", "file":"mm/swapfile.c", "line":998, "type":"c", "scope_line":991, "scope_name":"unuse_vma", }
+,{"id":"page_array", "file":"include/linux/nfs_xdr.h", "line":1006, "type":"m", "scope_line":990, "scope_name":"struct nfs_write_data", }
+,{"id":"page_array", "file":"include/linux/nfs_xdr.h", "line":987, "type":"m", "scope_line":972, "scope_name":"struct nfs_read_data", }
+,{"id":"page_array", "file":"include/linux/relay.h", "line":45, "type":"m", "scope_line":33, "scope_name":"struct rchan_buf", }
+,{"id":"page_array_size", "file":"drivers/base/firmware_class.c", "line":94, "type":"m", "scope_line":88, "scope_name":"struct firmware_priv", }
+,{"id":"page_base", "file":"include/linux/sunrpc/xdr.h", "line":60, "type":"m", "scope_line":55, "scope_name":"struct xdr_buf", }
+,{"id":"page_buffers", "file":"include/linux/buffer_head.h", "line":134, "type":"d", }
+,{"id":"page_cache_add_speculative", "file":"include/linux/pagemap.h", "line":170, "type":"f", }
+,{"id":"page_cache_alloc", "file":"include/linux/pagemap.h", "line":212, "type":"f", }
+,{"id":"page_cache_alloc_cold", "file":"fs/splice.c", "line":352, "type":"c", "scope_line":298, "scope_name":"__generic_file_splice_read", }
+,{"id":"page_cache_alloc_cold", "file":"include/linux/pagemap.h", "line":217, "type":"f", }
+,{"id":"page_cache_alloc_cold", "file":"mm/filemap.c", "line":1160, "type":"c", "scope_line":972, "scope_name":"do_generic_file_read", }
+,{"id":"page_cache_alloc_cold", "file":"mm/filemap.c", "line":1418, "type":"c", "scope_line":1411, "scope_name":"page_cache_read", }
+,{"id":"page_cache_alloc_cold", "file":"mm/readahead.c", "line":177, "type":"c", "scope_line":144, "scope_name":"__do_page_cache_readahead", }
+,{"id":"page_cache_async_readahead", "file":"fs/splice.c", "line":395, "type":"c", "scope_line":298, "scope_name":"__generic_file_splice_read", }
+,{"id":"page_cache_async_readahead", "file":"mm/filemap.c", "line":1009, "type":"c", "scope_line":972, "scope_name":"do_generic_file_read", }
+,{"id":"page_cache_async_readahead", "file":"mm/filemap.c", "line":1500, "type":"c", "scope_line":1486, "scope_name":"do_async_mmap_readahead", }
+,{"id":"page_cache_async_readahead", "file":"mm/readahead.c", "line":531, "type":"f", }
+,{"id":"page_cache_get", "file":"include/linux/pagemap.h", "line":84, "type":"d", }
+,{"id":"page_cache_get_speculative", "file":"include/linux/pagemap.h", "line":132, "type":"f", }
+,{"id":"page_cache_get_speculative", "file":"mm/filemap.c", "line":637, "type":"c", "scope_line":623, "scope_name":"find_get_page", }
+,{"id":"page_cache_get_speculative", "file":"mm/filemap.c", "line":774, "type":"c", "scope_line":749, "scope_name":"find_get_pages", }
+,{"id":"page_cache_get_speculative", "file":"mm/filemap.c", "line":830, "type":"c", "scope_line":802, "scope_name":"find_get_pages_contig", }
+,{"id":"page_cache_get_speculative", "file":"mm/filemap.c", "line":884, "type":"c", "scope_line":859, "scope_name":"find_get_pages_tag", }
+,{"id":"page_cache_pipe_buf_confirm", "file":"fs/splice.c", "line":97, "type":"f", }
+,{"id":"page_cache_pipe_buf_ops", "file":"fs/splice.c", "line":135, "type":"v", }
+,{"id":"page_cache_pipe_buf_release", "file":"fs/splice.c", "line":86, "type":"f", }
+,{"id":"page_cache_pipe_buf_steal", "file":"fs/splice.c", "line":41, "type":"f", }
+,{"id":"page_cache_read", "file":"mm/filemap.c", "line":1411, "type":"f", }
+,{"id":"page_cache_read", "file":"mm/filemap.c", "line":1588, "type":"c", "scope_line":1516, "scope_name":"filemap_fault", }
+,{"id":"page_cache_release", "file":"include/linux/pagemap.h", "line":85, "type":"d", }
+,{"id":"page_cache_sync_readahead", "file":"fs/ext3/dir.c", "line":138, "type":"c", "scope_line":94, "scope_name":"ext3_readdir", }
+,{"id":"page_cache_sync_readahead", "file":"fs/ext4/dir.c", "line":141, "type":"c", "scope_line":96, "scope_name":"ext4_readdir", }
+,{"id":"page_cache_sync_readahead", "file":"fs/splice.c", "line":338, "type":"c", "scope_line":298, "scope_name":"__generic_file_splice_read", }
+,{"id":"page_cache_sync_readahead", "file":"mm/filemap.c", "line":1001, "type":"c", "scope_line":972, "scope_name":"do_generic_file_read", }
+,{"id":"page_cache_sync_readahead", "file":"mm/filemap.c", "line":1455, "type":"c", "scope_line":1441, "scope_name":"do_sync_mmap_readahead", }
+,{"id":"page_cache_sync_readahead", "file":"mm/readahead.c", "line":497, "type":"f", }
+,{"id":"page_cgroup", "file":"include/linux/mmzone.h", "line":975, "type":"m", "scope_line":953, "scope_name":"struct mem_section", }
+,{"id":"page_cgroup", "file":"include/linux/page_cgroup.h", "line":13, "type":"s", }
+,{"id":"page_cgroup_callback", "file":"mm/page_cgroup.c", "line":224, "type":"f", }
+,{"id":"page_cgroup_callback_mem_nb", "file":"mm/page_cgroup.c", "line":273, "type":"v", }
+,{"id":"page_cgroup_init", "file":"init/main.c", "line":660, "type":"c", "scope_line":536, "scope_name":"start_kernel", }
+,{"id":"page_cgroup_init", "file":"mm/page_cgroup.c", "line":256, "type":"f", }
+,{"id":"page_cgroup_init_flatmem", "file":"include/linux/page_cgroup.h", "line":23, "type":"f", }
+,{"id":"page_cgroup_init_flatmem", "file":"init/main.c", "line":528, "type":"c", "scope_line":522, "scope_name":"mm_init", }
+,{"id":"page_cgroup_nid", "file":"include/linux/page_cgroup.h", "line":87, "type":"f", }
+,{"id":"page_cgroup_nid", "file":"mm/memcontrol.c", "line":361, "type":"c", "scope_line":357, "scope_name":"page_cgroup_zoneinfo", }
+,{"id":"page_cgroup_zid", "file":"include/linux/page_cgroup.h", "line":92, "type":"f", }
+,{"id":"page_cgroup_zid", "file":"mm/memcontrol.c", "line":362, "type":"c", "scope_line":357, "scope_name":"page_cgroup_zoneinfo", }
+,{"id":"page_cgroup_zoneinfo", "file":"mm/memcontrol.c", "line":357, "type":"f", }
+,{"id":"page_cgroup_zoneinfo", "file":"mm/memcontrol.c", "line":732, "type":"c", "scope_line":716, "scope_name":"mem_cgroup_del_lru_list", }
+,{"id":"page_cgroup_zoneinfo", "file":"mm/memcontrol.c", "line":763, "type":"c", "scope_line":746, "scope_name":"mem_cgroup_rotate_lru_list", }
+,{"id":"page_cgroup_zoneinfo", "file":"mm/memcontrol.c", "line":784, "type":"c", "scope_line":767, "scope_name":"mem_cgroup_add_lru_list", }
+,{"id":"page_cgroup_zoneinfo", "file":"mm/memcontrol.c", "line":957, "type":"c", "scope_line":939, "scope_name":"mem_cgroup_get_reclaim_stat_from_page", }
+,{"id":"page_check_address", "file":"mm/ksm.c", "line":711, "type":"c", "scope_line":697, "scope_name":"write_protect_page", }
+,{"id":"page_check_address", "file":"mm/rmap.c", "line":410, "type":"f", }
+,{"id":"page_check_address", "file":"mm/rmap.c", "line":473, "type":"c", "scope_line":464, "scope_name":"page_mapped_in_vma", }
+,{"id":"page_check_address", "file":"mm/rmap.c", "line":494, "type":"c", "scope_line":485, "scope_name":"page_referenced_one", }
+,{"id":"page_check_address", "file":"mm/rmap.c", "line":695, "type":"c", "scope_line":687, "scope_name":"page_mkclean_one", }
+,{"id":"page_check_address", "file":"mm/rmap.c", "line":985, "type":"c", "scope_line":976, "scope_name":"try_to_unmap_one", }
+,{"id":"page_check_references", "file":"mm/vmscan.c", "line":573, "type":"f", }
+,{"id":"page_check_references", "file":"mm/vmscan.c", "line":703, "type":"c", "scope_line":646, "scope_name":"shrink_page_list", }
+,{"id":"page_clear_dirty", "file":"include/asm-generic/pgtable.h", "line":111, "type":"d", }
+,{"id":"page_cluster", "file":"include/linux/mm.h", "line":31, "type":"v", }
+,{"id":"page_code", "file":"include/linux/cdrom.h", "line":1087, "type":"m", "scope_line":1069, "scope_name":"write_param_page", }
+,{"id":"page_count", "file":"arch/x86/mm/gup.c", "line":104, "type":"c", "scope_line":101, "scope_name":"get_head_page_multiple", }
+,{"id":"page_count", "file":"arch/x86/mm/hugetlbpage.c", "line":120, "type":"c", "scope_line":115, "scope_name":"huge_pmd_unshare", }
+,{"id":"page_count", "file":"arch/x86/mm/hugetlbpage.c", "line":121, "type":"c", "scope_line":115, "scope_name":"huge_pmd_unshare", }
+,{"id":"page_count", "file":"fs/pipe.c", "line":208, "type":"c", "scope_line":198, "scope_name":"anon_pipe_buf_release", }
+,{"id":"page_count", "file":"fs/pipe.c", "line":282, "type":"c", "scope_line":272, "scope_name":"generic_pipe_buf_steal", }
+,{"id":"page_count", "file":"include/linux/agp_backend.h", "line":74, "type":"m", "scope_line":69, "scope_name":"struct agp_memory", }
+,{"id":"page_count", "file":"include/linux/mm.h", "line":314, "type":"f", }
+,{"id":"page_count", "file":"include/linux/pagemap.h", "line":197, "type":"c", "scope_line":195, "scope_name":"page_unfreeze_refs", }
+,{"id":"page_count", "file":"include/linux/relay.h", "line":46, "type":"m", "scope_line":33, "scope_name":"struct rchan_buf", }
+,{"id":"page_count", "file":"lib/show_mem.c", "line":42, "type":"c", "scope_line":12, "scope_name":"show_mem", }
+,{"id":"page_count", "file":"lib/show_mem.c", "line":44, "type":"c", "scope_line":12, "scope_name":"show_mem", }
+,{"id":"page_count", "file":"lib/show_mem.c", "line":45, "type":"c", "scope_line":12, "scope_name":"show_mem", }
+,{"id":"page_count", "file":"mm/hugetlb.c", "line":1121, "type":"c", "scope_line":1113, "scope_name":"gather_bootmem_prealloc", }
+,{"id":"page_count", "file":"mm/hugetlb.c", "line":2366, "type":"c", "scope_line":2311, "scope_name":"hugetlb_cow", }
+,{"id":"page_count", "file":"mm/hugetlb.c", "line":563, "type":"c", "scope_line":550, "scope_name":"free_huge_page", }
+,{"id":"page_count", "file":"mm/hugetlb.c", "line":831, "type":"c", "scope_line":773, "scope_name":"alloc_buddy_huge_page", }
+,{"id":"page_count", "file":"mm/ksm.c", "line":734, "type":"c", "scope_line":697, "scope_name":"write_protect_page", }
+,{"id":"page_count", "file":"mm/memory-failure.c", "line":1348, "type":"c", "scope_line":1260, "scope_name":"soft_offline_page", }
+,{"id":"page_count", "file":"mm/memory-failure.c", "line":238, "type":"c", "scope_line":219, "scope_name":"shake_page", }
+,{"id":"page_count", "file":"mm/memory-failure.c", "line":821, "type":"c", "scope_line":812, "scope_name":"page_action", }
+,{"id":"page_count", "file":"mm/memory.c", "line":1675, "type":"c", "scope_line":1670, "scope_name":"vm_insert_page", }
+,{"id":"page_count", "file":"mm/memory_hotplug.c", "line":698, "type":"c", "scope_line":684, "scope_name":"do_migrate_range", }
+,{"id":"page_count", "file":"mm/memory_hotplug.c", "line":714, "type":"c", "scope_line":684, "scope_name":"do_migrate_range", }
+,{"id":"page_count", "file":"mm/migrate.c", "line":217, "type":"c", "scope_line":209, "scope_name":"migrate_page_move_mapping", }
+,{"id":"page_count", "file":"mm/migrate.c", "line":228, "type":"c", "scope_line":209, "scope_name":"migrate_page_move_mapping", }
+,{"id":"page_count", "file":"mm/migrate.c", "line":564, "type":"c", "scope_line":549, "scope_name":"unmap_and_move", }
+,{"id":"page_count", "file":"mm/page_alloc.c", "line":1215, "type":"c", "scope_line":1210, "scope_name":"split_page", }
+,{"id":"page_count", "file":"mm/page_alloc.c", "line":460, "type":"c", "scope_line":450, "scope_name":"page_is_buddy", }
+,{"id":"page_count", "file":"mm/page_alloc.c", "line":5331, "type":"c", "scope_line":5284, "scope_name":"set_migratetype_isolate", }
+,{"id":"page_count", "file":"mm/page_alloc.c", "line":5393, "type":"c", "scope_line":5370, "scope_name":"__offline_isolated_pages", }
+,{"id":"page_count", "file":"mm/page_alloc.c", "line":5504, "type":"c", "scope_line":5502, "scope_name":"dump_page", }
+,{"id":"page_count", "file":"mm/page_isolation.c", "line":104, "type":"c", "scope_line":91, "scope_name":"__test_page_isolated_in_pageblock", }
+,{"id":"page_count", "file":"mm/swapfile.c", "line":117, "type":"c", "scope_line":99, "scope_name":"swap_unplug_io_fn", }
+,{"id":"page_count", "file":"mm/vmscan.c", "line":1029, "type":"c", "scope_line":939, "scope_name":"isolate_lru_pages", }
+,{"id":"page_count", "file":"mm/vmscan.c", "line":275, "type":"c", "scope_line":268, "scope_name":"is_page_cache_freeable", }
+,{"id":"page_count", "file":"mm/vmscan.c", "line":800, "type":"c", "scope_line":646, "scope_name":"shrink_page_list", }
+,{"id":"page_debug_flags", "file":"include/linux/page-debug-flags.h", "line":14, "type":"t", }
+,{"id":"page_dup_rmap", "file":"include/linux/rmap.h", "line":176, "type":"f", }
+,{"id":"page_dup_rmap", "file":"mm/hugetlb.c", "line":2144, "type":"c", "scope_line":2112, "scope_name":"copy_hugetlb_page_range", }
+,{"id":"page_dup_rmap", "file":"mm/hugetlb.c", "line":2508, "type":"c", "scope_line":2449, "scope_name":"hugetlb_no_page", }
+,{"id":"page_dup_rmap", "file":"mm/hugetlb.c", "line":2518, "type":"c", "scope_line":2449, "scope_name":"hugetlb_no_page", }
+,{"id":"page_dup_rmap", "file":"mm/memory.c", "line":710, "type":"c", "scope_line":649, "scope_name":"copy_one_pte", }
+,{"id":"page_errors", "file":"fs/direct-io.c", "line":128, "type":"m", "scope_line":58, "scope_name":"struct dio", }
+,{"id":"page_evictable", "file":"mm/ksm.c", "line":1518, "type":"c", "scope_line":1504, "scope_name":"ksm_does_need_to_copy", }
+,{"id":"page_evictable", "file":"mm/rmap.c", "line":905, "type":"c", "scope_line":897, "scope_name":"page_add_new_anon_rmap", }
+,{"id":"page_evictable", "file":"mm/vmscan.c", "line":1179, "type":"c", "scope_line":1159, "scope_name":"putback_lru_pages", }
+,{"id":"page_evictable", "file":"mm/vmscan.c", "line":1463, "type":"c", "scope_line":1416, "scope_name":"shrink_active_list", }
+,{"id":"page_evictable", "file":"mm/vmscan.c", "line":2805, "type":"f", }
+,{"id":"page_evictable", "file":"mm/vmscan.c", "line":2834, "type":"c", "scope_line":2828, "scope_name":"check_move_unevictable_page", }
+,{"id":"page_evictable", "file":"mm/vmscan.c", "line":2849, "type":"c", "scope_line":2828, "scope_name":"check_move_unevictable_page", }
+,{"id":"page_evictable", "file":"mm/vmscan.c", "line":514, "type":"c", "scope_line":503, "scope_name":"putback_lru_page", }
+,{"id":"page_evictable", "file":"mm/vmscan.c", "line":547, "type":"c", "scope_line":503, "scope_name":"putback_lru_page", }
+,{"id":"page_evictable", "file":"mm/vmscan.c", "line":675, "type":"c", "scope_line":646, "scope_name":"shrink_page_list", }
+,{"id":"page_follow_link_light", "file":"fs/namei.c", "line":2821, "type":"f", }
+,{"id":"page_freeze_refs", "file":"include/linux/pagemap.h", "line":190, "type":"f", }
+,{"id":"page_freeze_refs", "file":"mm/migrate.c", "line":234, "type":"c", "scope_line":209, "scope_name":"migrate_page_move_mapping", }
+,{"id":"page_freeze_refs", "file":"mm/vmscan.c", "line":448, "type":"c", "scope_line":417, "scope_name":"__remove_mapping", }
+,{"id":"page_function", "file":"arch/x86/boot/vesa.h", "line":53, "type":"m", "scope_line":34, "scope_name":"struct vesa_mode_info", }
+,{"id":"page_get_cache", "file":"mm/slab.c", "line":3686, "type":"c", "scope_line":3676, "scope_name":"kmem_ptr_validate", }
+,{"id":"page_get_cache", "file":"mm/slab.c", "line":494, "type":"f", }
+,{"id":"page_get_cache", "file":"mm/slab.c", "line":515, "type":"c", "scope_line":512, "scope_name":"virt_to_cache", }
+,{"id":"page_get_slab", "file":"mm/slab.c", "line":506, "type":"f", }
+,{"id":"page_get_slab", "file":"mm/slab.c", "line":521, "type":"c", "scope_line":518, "scope_name":"virt_to_slab", }
+,{"id":"page_getlink", "file":"fs/namei.c", "line":2795, "type":"f", }
+,{"id":"page_getlink", "file":"fs/namei.c", "line":2812, "type":"c", "scope_line":2809, "scope_name":"page_readlink", }
+,{"id":"page_getlink", "file":"fs/namei.c", "line":2824, "type":"c", "scope_line":2821, "scope_name":"page_follow_link_light", }
+,{"id":"page_group_by_mobility_disabled", "file":"include/linux/mmzone.h", "line":50, "type":"v", }
+,{"id":"page_has_buffers", "file":"include/linux/buffer_head.h", "line":139, "type":"d", }
+,{"id":"page_has_private", "file":"fs/splice.c", "line":63, "type":"c", "scope_line":41, "scope_name":"page_cache_pipe_buf_steal", }
+,{"id":"page_has_private", "file":"include/linux/page-flags.h", "line":432, "type":"f", }
+,{"id":"page_has_private", "file":"mm/memory-failure.c", "line":578, "type":"c", "scope_line":538, "scope_name":"me_pagecache_clean", }
+,{"id":"page_has_private", "file":"mm/migrate.c", "line":227, "type":"c", "scope_line":209, "scope_name":"migrate_page_move_mapping", }
+,{"id":"page_has_private", "file":"mm/migrate.c", "line":479, "type":"c", "scope_line":469, "scope_name":"fallback_migrate_page", }
+,{"id":"page_has_private", "file":"mm/migrate.c", "line":659, "type":"c", "scope_line":549, "scope_name":"unmap_and_move", }
+,{"id":"page_has_private", "file":"mm/readahead.c", "line":45, "type":"c", "scope_line":42, "scope_name":"read_cache_pages_invalidate_page", }
+,{"id":"page_has_private", "file":"mm/swap.c", "line":453, "type":"c", "scope_line":446, "scope_name":"pagevec_strip", }
+,{"id":"page_has_private", "file":"mm/swap.c", "line":454, "type":"c", "scope_line":446, "scope_name":"pagevec_strip", }
+,{"id":"page_has_private", "file":"mm/truncate.c", "line":103, "type":"c", "scope_line":97, "scope_name":"truncate_complete_page", }
+,{"id":"page_has_private", "file":"mm/truncate.c", "line":131, "type":"c", "scope_line":123, "scope_name":"invalidate_complete_page", }
+,{"id":"page_has_private", "file":"mm/truncate.c", "line":381, "type":"c", "scope_line":375, "scope_name":"invalidate_complete_page2", }
+,{"id":"page_has_private", "file":"mm/truncate.c", "line":389, "type":"c", "scope_line":375, "scope_name":"invalidate_complete_page2", }
+,{"id":"page_has_private", "file":"mm/truncate.c", "line":54, "type":"c", "scope_line":51, "scope_name":"truncate_partial_page", }
+,{"id":"page_has_private", "file":"mm/vmscan.c", "line":275, "type":"c", "scope_line":268, "scope_name":"is_page_cache_freeable", }
+,{"id":"page_has_private", "file":"mm/vmscan.c", "line":358, "type":"c", "scope_line":332, "scope_name":"pageout", }
+,{"id":"page_has_private", "file":"mm/vmscan.c", "line":797, "type":"c", "scope_line":646, "scope_name":"shrink_page_list", }
+,{"id":"page_hstate", "file":"include/linux/hugetlb.h", "line":299, "type":"f", }
+,{"id":"page_hstate", "file":"mm/hugetlb.c", "line":2887, "type":"c", "scope_line":2885, "scope_name":"__isolate_hwpoisoned_huge_page", }
+,{"id":"page_hstate", "file":"mm/hugetlb.c", "line":556, "type":"c", "scope_line":550, "scope_name":"free_huge_page", }
+,{"id":"page_hstate", "file":"mm/rmap.c", "line":368, "type":"c", "scope_line":361, "scope_name":"vma_address", }
+,{"id":"page_index", "file":"fs/buffer.c", "line":670, "type":"c", "scope_line":663, "scope_name":"__set_page_dirty", }
+,{"id":"page_index", "file":"include/linux/mm.h", "line":679, "type":"f", }
+,{"id":"page_index", "file":"mm/migrate.c", "line":224, "type":"c", "scope_line":209, "scope_name":"migrate_page_move_mapping", }
+,{"id":"page_index", "file":"mm/page-writeback.c", "line":1161, "type":"c", "scope_line":1146, "scope_name":"__set_page_dirty_nobuffers", }
+,{"id":"page_index", "file":"mm/page-writeback.c", "line":1322, "type":"c", "scope_line":1310, "scope_name":"test_clear_page_writeback", }
+,{"id":"page_index", "file":"mm/page-writeback.c", "line":1351, "type":"c", "scope_line":1339, "scope_name":"test_set_page_writeback", }
+,{"id":"page_index", "file":"mm/page-writeback.c", "line":1358, "type":"c", "scope_line":1339, "scope_name":"test_set_page_writeback", }
+,{"id":"page_index", "file":"mm/page-writeback.c", "line":1361, "type":"c", "scope_line":1339, "scope_name":"test_set_page_writeback", }
+,{"id":"page_initialized", "file":"drivers/base/node.c", "line":325, "type":"d", }
+,{"id":"page_inktag_clear", "file":"arch/x86/kernel/inktag_pvops.c", "line":118, "type":"c", "scope_line":118, "scope_name":"ink_free_pud", }
+,{"id":"page_inktag_clear", "file":"arch/x86/kernel/inktag_pvops.c", "line":119, "type":"c", "scope_line":119, "scope_name":"ink_free_pmd", }
+,{"id":"page_inktag_clear", "file":"arch/x86/kernel/inktag_pvops.c", "line":120, "type":"c", "scope_line":120, "scope_name":"ink_free_pte", }
+,{"id":"page_inktag_clear", "file":"arch/x86/kernel/inktag_pvops.c", "line":76, "type":"f", }
+,{"id":"page_inktag_set_child", "file":"arch/x86/kernel/inktag_pvops.c", "line":139, "type":"c", "scope_line":122, "scope_name":"ink_set_pgd", }
+,{"id":"page_inktag_set_child", "file":"arch/x86/kernel/inktag_pvops.c", "line":169, "type":"c", "scope_line":169, "scope_name":"ink_set_pud", }
+,{"id":"page_inktag_set_child", "file":"arch/x86/kernel/inktag_pvops.c", "line":170, "type":"c", "scope_line":170, "scope_name":"ink_set_pmd", }
+,{"id":"page_inktag_set_child", "file":"arch/x86/kernel/inktag_pvops.c", "line":66, "type":"f", }
+,{"id":"page_is_buddy", "file":"mm/page_alloc.c", "line":450, "type":"f", }
+,{"id":"page_is_buddy", "file":"mm/page_alloc.c", "line":511, "type":"c", "scope_line":490, "scope_name":"__free_one_page", }
+,{"id":"page_is_buddy", "file":"mm/page_alloc.c", "line":538, "type":"c", "scope_line":490, "scope_name":"__free_one_page", }
+,{"id":"page_is_file_cache", "file":"include/linux/mm_inline.h", "line":17, "type":"f", }
+,{"id":"page_is_file_cache", "file":"include/linux/mm_inline.h", "line":48, "type":"c", "scope_line":46, "scope_name":"page_lru_base_type", }
+,{"id":"page_is_file_cache", "file":"mm/filemap.c", "line":453, "type":"c", "scope_line":437, "scope_name":"add_to_page_cache_lru", }
+,{"id":"page_is_file_cache", "file":"mm/memcontrol.c", "line":2147, "type":"c", "scope_line":2110, "scope_name":"mem_cgroup_cache_charge", }
+,{"id":"page_is_file_cache", "file":"mm/memcontrol.c", "line":2357, "type":"c", "scope_line":2322, "scope_name":"__mem_cgroup_uncharge_common", }
+,{"id":"page_is_file_cache", "file":"mm/memcontrol.c", "line":2654, "type":"c", "scope_line":2574, "scope_name":"mem_cgroup_prepare_migration", }
+,{"id":"page_is_file_cache", "file":"mm/memory_hotplug.c", "line":708, "type":"c", "scope_line":684, "scope_name":"do_migrate_range", }
+,{"id":"page_is_file_cache", "file":"mm/mempolicy.c", "line":906, "type":"c", "scope_line":897, "scope_name":"migrate_page_add", }
+,{"id":"page_is_file_cache", "file":"mm/migrate.c", "line":704, "type":"c", "scope_line":549, "scope_name":"unmap_and_move", }
+,{"id":"page_is_file_cache", "file":"mm/migrate.c", "line":78, "type":"c", "scope_line":71, "scope_name":"putback_lru_pages", }
+,{"id":"page_is_file_cache", "file":"mm/migrate.c", "line":878, "type":"c", "scope_line":825, "scope_name":"do_move_page_to_node_array", }
+,{"id":"page_is_file_cache", "file":"mm/swap.c", "line":184, "type":"c", "scope_line":178, "scope_name":"activate_page", }
+,{"id":"page_is_file_cache", "file":"mm/vmscan.c", "line":1479, "type":"c", "scope_line":1416, "scope_name":"shrink_active_list", }
+,{"id":"page_is_file_cache", "file":"mm/vmscan.c", "line":404, "type":"c", "scope_line":332, "scope_name":"pageout", }
+,{"id":"page_is_file_cache", "file":"mm/vmscan.c", "line":893, "type":"c", "scope_line":877, "scope_name":"__isolate_lru_page", }
+,{"id":"page_is_ram", "file":"arch/x86/mm/init.c", "line":328, "type":"c", "scope_line":322, "scope_name":"devmem_is_allowed", }
+,{"id":"page_is_ram", "file":"arch/x86/mm/ioremap.c", "line":105, "type":"c", "scope_line":62, "scope_name":"__ioremap_caller", }
+,{"id":"page_is_ram", "file":"arch/x86/mm/ioremap.c", "line":317, "type":"c", "scope_line":311, "scope_name":"xlate_dev_mem_ptr", }
+,{"id":"page_is_ram", "file":"arch/x86/mm/ioremap.c", "line":329, "type":"c", "scope_line":327, "scope_name":"unxlate_dev_mem_ptr", }
+,{"id":"page_is_ram", "file":"arch/x86/mm/pat.c", "line":175, "type":"c", "scope_line":161, "scope_name":"pat_pagerange_is_ram", }
+,{"id":"page_is_ram", "file":"kernel/resource.c", "line":355, "type":"f", }
+,{"id":"page_is_saveable", "file":"kernel/power/snapshot.c", "line":999, "type":"d", }
+,{"id":"page_len", "file":"include/linux/sunrpc/xdr.h", "line":61, "type":"m", "scope_line":55, "scope_name":"struct xdr_buf", }
+,{"id":"page_length", "file":"include/linux/cdrom.h", "line":1090, "type":"m", "scope_line":1069, "scope_name":"write_param_page", }
+,{"id":"page_link", "file":"include/asm-generic/scatterlist.h", "line":10, "type":"m", "scope_line":6, "scope_name":"struct scatterlist", }
+,{"id":"page_list", "file":"include/linux/dm-io.h", "line":23, "type":"s", }
+,{"id":"page_list", "file":"include/linux/dmaengine.h", "line":808, "type":"m", "scope_line":806, "scope_name":"struct dma_pinned_list", }
+,{"id":"page_list", "file":"mm/dmapool.c", "line":45, "type":"m", "scope_line":44, "scope_name":"struct dma_pool", }
+,{"id":"page_list", "file":"mm/dmapool.c", "line":57, "type":"m", "scope_line":56, "scope_name":"struct dma_page", }
+,{"id":"page_lock_anon_vma", "file":"mm/memory-failure.c", "line":385, "type":"c", "scope_line":377, "scope_name":"collect_procs_anon", }
+,{"id":"page_lock_anon_vma", "file":"mm/rmap.c", "line":1248, "type":"c", "scope_line":1242, "scope_name":"try_to_unmap_anon", }
+,{"id":"page_lock_anon_vma", "file":"mm/rmap.c", "line":317, "type":"f", }
+,{"id":"page_lock_anon_vma", "file":"mm/rmap.c", "line":546, "type":"c", "scope_line":537, "scope_name":"page_referenced_anon", }
+,{"id":"page_lru", "file":"include/linux/mm_inline.h", "line":80, "type":"f", }
+,{"id":"page_lru", "file":"mm/memcontrol.c", "line":1008, "type":"c", "scope_line":964, "scope_name":"mem_cgroup_isolate_pages", }
+,{"id":"page_lru", "file":"mm/memcontrol.c", "line":743, "type":"c", "scope_line":741, "scope_name":"mem_cgroup_del_lru", }
+,{"id":"page_lru", "file":"mm/memcontrol.c", "line":811, "type":"c", "scope_line":799, "scope_name":"mem_cgroup_lru_del_before_commit_swapcache", }
+,{"id":"page_lru", "file":"mm/memcontrol.c", "line":824, "type":"c", "scope_line":815, "scope_name":"mem_cgroup_lru_add_after_commit_swapcache", }
+,{"id":"page_lru", "file":"mm/vmscan.c", "line":1120, "type":"c", "scope_line":1111, "scope_name":"isolate_lru_page", }
+,{"id":"page_lru", "file":"mm/vmscan.c", "line":1186, "type":"c", "scope_line":1159, "scope_name":"putback_lru_pages", }
+,{"id":"page_lru", "file":"mm/vmscan.c", "line":971, "type":"c", "scope_line":939, "scope_name":"isolate_lru_pages", }
+,{"id":"page_lru_base_type", "file":"include/linux/mm_inline.h", "line":46, "type":"f", }
+,{"id":"page_lru_base_type", "file":"include/linux/mm_inline.h", "line":63, "type":"c", "scope_line":53, "scope_name":"del_page_from_lru", }
+,{"id":"page_lru_base_type", "file":"include/linux/mm_inline.h", "line":87, "type":"c", "scope_line":80, "scope_name":"page_lru", }
+,{"id":"page_lru_base_type", "file":"mm/swap.c", "line":122, "type":"c", "scope_line":105, "scope_name":"pagevec_move_tail", }
+,{"id":"page_lru_base_type", "file":"mm/swap.c", "line":185, "type":"c", "scope_line":178, "scope_name":"activate_page", }
+,{"id":"page_lru_base_type", "file":"mm/vmscan.c", "line":1073, "type":"c", "scope_line":1065, "scope_name":"clear_active_flags", }
+,{"id":"page_lru_base_type", "file":"mm/vmscan.c", "line":2835, "type":"c", "scope_line":2828, "scope_name":"check_move_unevictable_page", }
+,{"id":"page_lru_base_type", "file":"mm/vmscan.c", "line":521, "type":"c", "scope_line":503, "scope_name":"putback_lru_page", }
+,{"id":"page_mapcount", "file":"fs/proc/page.c", "line":46, "type":"c", "scope_line":23, "scope_name":"kpagecount_read", }
+,{"id":"page_mapcount", "file":"fs/proc/task_mmu.c", "line":364, "type":"c", "scope_line":334, "scope_name":"smaps_pte_range", }
+,{"id":"page_mapcount", "file":"include/linux/mm.h", "line":696, "type":"f", }
+,{"id":"page_mapcount", "file":"mm/hugetlb.c", "line":2325, "type":"c", "scope_line":2311, "scope_name":"hugetlb_cow", }
+,{"id":"page_mapcount", "file":"mm/hugetlb.c", "line":564, "type":"c", "scope_line":550, "scope_name":"free_huge_page", }
+,{"id":"page_mapcount", "file":"mm/ksm.c", "line":1533, "type":"c", "scope_line":1527, "scope_name":"page_referenced_ksm", }
+,{"id":"page_mapcount", "file":"mm/ksm.c", "line":734, "type":"c", "scope_line":697, "scope_name":"write_protect_page", }
+,{"id":"page_mapcount", "file":"mm/memcontrol.c", "line":4318, "type":"c", "scope_line":4309, "scope_name":"mc_handle_present_pte", }
+,{"id":"page_mapcount", "file":"mm/memory-failure.c", "line":918, "type":"c", "scope_line":845, "scope_name":"hwpoison_user_mappings", }
+,{"id":"page_mapcount", "file":"mm/memory.c", "line":957, "type":"c", "scope_line":891, "scope_name":"zap_pte_range", }
+,{"id":"page_mapcount", "file":"mm/mempolicy.c", "line":2533, "type":"c", "scope_line":2530, "scope_name":"gather_stats", }
+,{"id":"page_mapcount", "file":"mm/mempolicy.c", "line":903, "type":"c", "scope_line":897, "scope_name":"migrate_page_add", }
+,{"id":"page_mapcount", "file":"mm/migrate.c", "line":871, "type":"c", "scope_line":825, "scope_name":"do_move_page_to_node_array", }
+,{"id":"page_mapcount", "file":"mm/page_alloc.c", "line":5504, "type":"c", "scope_line":5502, "scope_name":"dump_page", }
+,{"id":"page_mapcount", "file":"mm/page_alloc.c", "line":563, "type":"c", "scope_line":561, "scope_name":"free_pages_check", }
+,{"id":"page_mapcount", "file":"mm/page_alloc.c", "line":751, "type":"c", "scope_line":749, "scope_name":"check_new_page", }
+,];
+xr_frag_insert('t/3c/6cfd235bdc8bd77f0dd5c5cf0eb2eb72659a4f.xr', __xr_tmp);

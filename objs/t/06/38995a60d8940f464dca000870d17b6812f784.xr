@@ -1,0 +1,191 @@
+var __xr_tmp = [
+{"id":"phy_sanitize_settings", "file":"drivers/net/phy/phy.c", "line":211, "type":"f", }
+,{"id":"phy_sanitize_settings", "file":"drivers/net/phy/phy.c", "line":393, "type":"c", "scope_line":386, "scope_name":"phy_start_aneg", }
+,{"id":"phy_scan_fixups", "file":"drivers/net/phy/phy.c", "line":359, "type":"c", "scope_line":311, "scope_name":"phy_mii_ioctl", }
+,{"id":"phy_scan_fixups", "file":"drivers/net/phy/phy_device.c", "line":126, "type":"f", }
+,{"id":"phy_scan_fixups", "file":"drivers/net/phy/phy_device.c", "line":275, "type":"c", "scope_line":264, "scope_name":"phy_device_register", }
+,{"id":"phy_scan_fixups", "file":"drivers/net/phy/phy_device.c", "line":417, "type":"c", "scope_line":410, "scope_name":"phy_init_hw", }
+,{"id":"phy_setting", "file":"drivers/net/phy/phy.c", "line":116, "type":"s", }
+,{"id":"phy_start", "file":"drivers/net/phy/phy.c", "line":742, "type":"f", }
+,{"id":"phy_start_aneg", "file":"drivers/net/phy/phy.c", "line":278, "type":"c", "scope_line":240, "scope_name":"phy_ethtool_sset", }
+,{"id":"phy_start_aneg", "file":"drivers/net/phy/phy.c", "line":386, "type":"f", }
+,{"id":"phy_start_aneg", "file":"drivers/net/phy/phy.c", "line":963, "type":"c", "scope_line":767, "scope_name":"phy_state_machine", }
+,{"id":"phy_start_aneg", "file":"net/dsa/slave.c", "line":404, "type":"c", "scope_line":338, "scope_name":"dsa_slave_create", }
+,{"id":"phy_start_interrupts", "file":"drivers/net/phy/phy.c", "line":589, "type":"f", }
+,{"id":"phy_start_interrupts", "file":"drivers/net/phy/phy_device.c", "line":346, "type":"c", "scope_line":333, "scope_name":"phy_connect_direct", }
+,{"id":"phy_start_machine", "file":"drivers/net/phy/mdio_bus.c", "line":335, "type":"c", "scope_line":320, "scope_name":"mdio_bus_resume", }
+,{"id":"phy_start_machine", "file":"drivers/net/phy/mdio_bus.c", "line":357, "type":"c", "scope_line":340, "scope_name":"mdio_bus_restore", }
+,{"id":"phy_start_machine", "file":"drivers/net/phy/phy.c", "line":432, "type":"f", }
+,{"id":"phy_start_machine", "file":"drivers/net/phy/phy_device.c", "line":344, "type":"c", "scope_line":333, "scope_name":"phy_connect_direct", }
+,{"id":"phy_state", "file":"include/linux/phy.h", "line":222, "type":"t", }
+,{"id":"phy_state_machine", "file":"drivers/net/phy/phy.c", "line":767, "type":"f", }
+,{"id":"phy_stop", "file":"drivers/net/phy/phy.c", "line":704, "type":"f", }
+,{"id":"phy_stop_interrupts", "file":"drivers/net/phy/phy.c", "line":617, "type":"f", }
+,{"id":"phy_stop_interrupts", "file":"drivers/net/phy/phy_device.c", "line":400, "type":"c", "scope_line":397, "scope_name":"phy_disconnect", }
+,{"id":"phy_stop_machine", "file":"drivers/net/phy/mdio_bus.c", "line":312, "type":"c", "scope_line":300, "scope_name":"mdio_bus_suspend", }
+,{"id":"phy_stop_machine", "file":"drivers/net/phy/phy.c", "line":448, "type":"f", }
+,{"id":"phy_stop_machine", "file":"drivers/net/phy/phy_device.c", "line":402, "type":"c", "scope_line":397, "scope_name":"phy_disconnect", }
+,{"id":"phy_uid", "file":"include/linux/phy.h", "line":438, "type":"m", "scope_line":435, "scope_name":"struct phy_fixup", }
+,{"id":"phy_uid_mask", "file":"include/linux/phy.h", "line":439, "type":"m", "scope_line":435, "scope_name":"struct phy_fixup", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":194, "type":"c", "scope_line":192, "scope_name":"bcm54xx_shadow_read", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":200, "type":"c", "scope_line":198, "scope_name":"bcm54xx_shadow_write", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":211, "type":"c", "scope_line":207, "scope_name":"bcm54xx_exp_read", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":218, "type":"c", "scope_line":207, "scope_name":"bcm54xx_exp_read", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":227, "type":"c", "scope_line":223, "scope_name":"bcm54xx_exp_write", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":231, "type":"c", "scope_line":223, "scope_name":"bcm54xx_exp_write", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":234, "type":"c", "scope_line":223, "scope_name":"bcm54xx_exp_write", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":241, "type":"c", "scope_line":239, "scope_name":"bcm54xx_auxctl_write", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":396, "type":"c", "scope_line":386, "scope_name":"bcm54xx_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":404, "type":"c", "scope_line":386, "scope_name":"bcm54xx_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":538, "type":"c", "scope_line":525, "scope_name":"bcm54xx_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":564, "type":"c", "scope_line":542, "scope_name":"bcm5481_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":571, "type":"c", "scope_line":542, "scope_name":"bcm5481_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":585, "type":"c", "scope_line":577, "scope_name":"brcm_phy_setbits", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":593, "type":"c", "scope_line":588, "scope_name":"brcm_fet_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":608, "type":"c", "scope_line":588, "scope_name":"brcm_fet_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":619, "type":"c", "scope_line":588, "scope_name":"brcm_fet_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":633, "type":"c", "scope_line":588, "scope_name":"brcm_fet_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":651, "type":"c", "scope_line":588, "scope_name":"brcm_fet_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/broadcom.c", "line":683, "type":"c", "scope_line":670, "scope_name":"brcm_fet_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/cicada.c", "line":72, "type":"c", "scope_line":68, "scope_name":"cis820x_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/cicada.c", "line":78, "type":"c", "scope_line":68, "scope_name":"cis820x_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/cicada.c", "line":96, "type":"c", "scope_line":91, "scope_name":"cis820x_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/cicada.c", "line":99, "type":"c", "scope_line":91, "scope_name":"cis820x_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/davicom.c", "line":109, "type":"c", "scope_line":104, "scope_name":"dm9161_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/davicom.c", "line":126, "type":"c", "scope_line":104, "scope_name":"dm9161_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/davicom.c", "line":131, "type":"c", "scope_line":104, "scope_name":"dm9161_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/davicom.c", "line":137, "type":"c", "scope_line":104, "scope_name":"dm9161_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/davicom.c", "line":80, "type":"c", "scope_line":66, "scope_name":"dm9161_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/davicom.c", "line":90, "type":"c", "scope_line":85, "scope_name":"dm9161_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/et1011c.c", "line":61, "type":"c", "scope_line":52, "scope_name":"et1011c_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/et1011c.c", "line":80, "type":"c", "scope_line":66, "scope_name":"et1011c_read_status", }
+,{"id":"phy_write", "file":"drivers/net/phy/lxt.c", "line":118, "type":"c", "scope_line":113, "scope_name":"lxt971_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/lxt.c", "line":120, "type":"c", "scope_line":113, "scope_name":"lxt971_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/lxt.c", "line":137, "type":"c", "scope_line":125, "scope_name":"lxt973_probe", }
+,{"id":"phy_write", "file":"drivers/net/phy/lxt.c", "line":86, "type":"c", "scope_line":81, "scope_name":"lxt970_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/lxt.c", "line":88, "type":"c", "scope_line":81, "scope_name":"lxt970_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/lxt.c", "line":97, "type":"c", "scope_line":93, "scope_name":"lxt970_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":116, "type":"c", "scope_line":111, "scope_name":"marvell_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":118, "type":"c", "scope_line":111, "scope_name":"marvell_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":130, "type":"c", "scope_line":123, "scope_name":"marvell_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":135, "type":"c", "scope_line":123, "scope_name":"marvell_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":139, "type":"c", "scope_line":123, "scope_name":"marvell_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":143, "type":"c", "scope_line":123, "scope_name":"marvell_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":147, "type":"c", "scope_line":123, "scope_name":"marvell_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":151, "type":"c", "scope_line":123, "scope_name":"marvell_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":155, "type":"c", "scope_line":123, "scope_name":"marvell_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":160, "type":"c", "scope_line":123, "scope_name":"marvell_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":181, "type":"c", "scope_line":123, "scope_name":"marvell_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":195, "type":"c", "scope_line":189, "scope_name":"m88e1121_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":210, "type":"c", "scope_line":189, "scope_name":"m88e1121_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":214, "type":"c", "scope_line":189, "scope_name":"m88e1121_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":216, "type":"c", "scope_line":189, "scope_name":"m88e1121_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":220, "type":"c", "scope_line":189, "scope_name":"m88e1121_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":227, "type":"c", "scope_line":189, "scope_name":"m88e1121_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":228, "type":"c", "scope_line":189, "scope_name":"m88e1121_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":229, "type":"c", "scope_line":189, "scope_name":"m88e1121_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":242, "type":"c", "scope_line":236, "scope_name":"m88ec048_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":250, "type":"c", "scope_line":236, "scope_name":"m88ec048_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":254, "type":"c", "scope_line":236, "scope_name":"m88ec048_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":269, "type":"c", "scope_line":261, "scope_name":"m88e1111_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":273, "type":"c", "scope_line":261, "scope_name":"m88e1111_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":294, "type":"c", "scope_line":261, "scope_name":"m88e1111_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":309, "type":"c", "scope_line":261, "scope_name":"m88e1111_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":323, "type":"c", "scope_line":261, "scope_name":"m88e1111_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":333, "type":"c", "scope_line":261, "scope_name":"m88e1111_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":342, "type":"c", "scope_line":261, "scope_name":"m88e1111_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":347, "type":"c", "scope_line":261, "scope_name":"m88e1111_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":359, "type":"c", "scope_line":261, "scope_name":"m88e1111_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":365, "type":"c", "scope_line":261, "scope_name":"m88e1111_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":376, "type":"c", "scope_line":372, "scope_name":"m88e1118_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":380, "type":"c", "scope_line":372, "scope_name":"m88e1118_config_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":394, "type":"c", "scope_line":389, "scope_name":"m88e1118_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":399, "type":"c", "scope_line":389, "scope_name":"m88e1118_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":404, "type":"c", "scope_line":389, "scope_name":"m88e1118_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":410, "type":"c", "scope_line":389, "scope_name":"m88e1118_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":412, "type":"c", "scope_line":389, "scope_name":"m88e1118_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":417, "type":"c", "scope_line":389, "scope_name":"m88e1118_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":421, "type":"c", "scope_line":389, "scope_name":"m88e1118_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":433, "type":"c", "scope_line":428, "scope_name":"m88e1145_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":437, "type":"c", "scope_line":428, "scope_name":"m88e1145_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":441, "type":"c", "scope_line":428, "scope_name":"m88e1145_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":445, "type":"c", "scope_line":428, "scope_name":"m88e1145_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":456, "type":"c", "scope_line":428, "scope_name":"m88e1145_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":461, "type":"c", "scope_line":428, "scope_name":"m88e1145_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":473, "type":"c", "scope_line":428, "scope_name":"m88e1145_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":477, "type":"c", "scope_line":428, "scope_name":"m88e1145_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/marvell.c", "line":481, "type":"c", "scope_line":428, "scope_name":"m88e1145_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/national.c", "line":56, "type":"c", "scope_line":54, "scope_name":"ns_exp_read", }
+,{"id":"phy_write", "file":"drivers/net/phy/national.c", "line":62, "type":"c", "scope_line":60, "scope_name":"ns_exp_write", }
+,{"id":"phy_write", "file":"drivers/net/phy/national.c", "line":63, "type":"c", "scope_line":60, "scope_name":"ns_exp_write", }
+,{"id":"phy_write", "file":"drivers/net/phy/national.c", "line":71, "type":"c", "scope_line":66, "scope_name":"ns_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/national.c", "line":74, "type":"c", "scope_line":66, "scope_name":"ns_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/national.c", "line":92, "type":"c", "scope_line":88, "scope_name":"ns_giga_speed_fallback", }
+,{"id":"phy_write", "file":"drivers/net/phy/national.c", "line":95, "type":"c", "scope_line":88, "scope_name":"ns_giga_speed_fallback", }
+,{"id":"phy_write", "file":"drivers/net/phy/national.c", "line":96, "type":"c", "scope_line":88, "scope_name":"ns_giga_speed_fallback", }
+,{"id":"phy_write", "file":"drivers/net/phy/national.c", "line":97, "type":"c", "scope_line":88, "scope_name":"ns_giga_speed_fallback", }
+,{"id":"phy_write", "file":"drivers/net/phy/national.c", "line":98, "type":"c", "scope_line":88, "scope_name":"ns_giga_speed_fallback", }
+,{"id":"phy_write", "file":"drivers/net/phy/national.c", "line":99, "type":"c", "scope_line":88, "scope_name":"ns_giga_speed_fallback", }
+,{"id":"phy_write", "file":"drivers/net/phy/phy.c", "line":354, "type":"c", "scope_line":311, "scope_name":"phy_mii_ioctl", }
+,{"id":"phy_write", "file":"drivers/net/phy/phy_device.c", "line":576, "type":"c", "scope_line":543, "scope_name":"genphy_config_advert", }
+,{"id":"phy_write", "file":"drivers/net/phy/phy_device.c", "line":598, "type":"c", "scope_line":543, "scope_name":"genphy_config_advert", }
+,{"id":"phy_write", "file":"drivers/net/phy/phy_device.c", "line":633, "type":"c", "scope_line":618, "scope_name":"genphy_setup_forced", }
+,{"id":"phy_write", "file":"drivers/net/phy/phy_device.c", "line":657, "type":"c", "scope_line":643, "scope_name":"genphy_restart_aneg", }
+,{"id":"phy_write", "file":"drivers/net/phy/phy_device.c", "line":887, "type":"c", "scope_line":880, "scope_name":"genphy_suspend", }
+,{"id":"phy_write", "file":"drivers/net/phy/phy_device.c", "line":902, "type":"c", "scope_line":895, "scope_name":"genphy_resume", }
+,{"id":"phy_write", "file":"drivers/net/phy/qsemi.c", "line":105, "type":"c", "scope_line":101, "scope_name":"qs6612_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/qsemi.c", "line":108, "type":"c", "scope_line":101, "scope_name":"qs6612_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/qsemi.c", "line":76, "type":"c", "scope_line":63, "scope_name":"qs6612_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/realtek.c", "line":43, "type":"c", "scope_line":38, "scope_name":"rtl821x_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/realtek.c", "line":46, "type":"c", "scope_line":38, "scope_name":"rtl821x_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/smsc.c", "line":48, "type":"c", "scope_line":46, "scope_name":"smsc_phy_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/smsc.c", "line":70, "type":"c", "scope_line":63, "scope_name":"smsc_phy_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/ste10Xp.c", "line":45, "type":"c", "scope_line":35, "scope_name":"ste10Xp_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/ste10Xp.c", "line":62, "type":"c", "scope_line":56, "scope_name":"ste10Xp_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/ste10Xp.c", "line":70, "type":"c", "scope_line":56, "scope_name":"ste10Xp_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/vitesse.c", "line":111, "type":"c", "scope_line":106, "scope_name":"vsc82xx_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/vitesse.c", "line":125, "type":"c", "scope_line":106, "scope_name":"vsc82xx_config_intr", }
+,{"id":"phy_write", "file":"drivers/net/phy/vitesse.c", "line":150, "type":"c", "scope_line":146, "scope_name":"vsc8221_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/vitesse.c", "line":69, "type":"c", "scope_line":64, "scope_name":"vsc824x_config_init", }
+,{"id":"phy_write", "file":"drivers/net/phy/vitesse.c", "line":86, "type":"c", "scope_line":64, "scope_name":"vsc824x_config_init", }
+,{"id":"phy_write", "file":"include/linux/phy.h", "line":467, "type":"f", }
+,{"id":"phy_write", "file":"net/dsa/dsa_priv.h", "line":143, "type":"m", "scope_line":126, "scope_name":"struct dsa_switch_driver", }
+,{"id":"phydev", "file":"drivers/net/phy/fixed.c", "line":36, "type":"m", "scope_line":33, "scope_name":"struct fixed_phy", }
+,{"id":"phydev", "file":"include/linux/netdevice.h", "line":1077, "type":"m", "scope_line":788, "scope_name":"struct net_device", }
+,{"id":"phys", "file":"arch/x86/mm/mmio-mod.c", "line":53, "type":"m", "scope_line":50, "scope_name":"struct remap_trace", }
+,{"id":"phys", "file":"drivers/acpi/button.c", "line":99, "type":"m", "scope_line":96, "scope_name":"struct acpi_button", }
+,{"id":"phys", "file":"drivers/input/keyboard/atkbd.c", "line":203, "type":"m", "scope_line":196, "scope_name":"struct atkbd", }
+,{"id":"phys", "file":"drivers/net/phy/fixed.c", "line":30, "type":"m", "scope_line":27, "scope_name":"struct fixed_mdio_bus", }
+,{"id":"phys", "file":"include/crypto/algapi.h", "line":84, "type":"m", "scope_line":79, "scope_name":"struct blkcipher_walk", }
+,{"id":"phys", "file":"include/linux/dmaengine.h", "line":314, "type":"m", "scope_line":311, "scope_name":"struct dma_async_tx_descriptor", }
+,{"id":"phys", "file":"include/linux/input.h", "line":1152, "type":"m", "scope_line":1150, "scope_name":"struct input_dev", }
+,{"id":"phys", "file":"include/linux/mmiotrace.h", "line":101, "type":"m", "scope_line":100, "scope_name":"struct mmiotrace_map", }
+,{"id":"phys", "file":"include/linux/mmiotrace.h", "line":92, "type":"m", "scope_line":91, "scope_name":"struct mmiotrace_rw", }
+,{"id":"phys", "file":"include/linux/serio.h", "line":30, "type":"m", "scope_line":26, "scope_name":"struct serio", }
+,{"id":"phys", "file":"kernel/trace/trace_entries.h", "line":220, "type":"m", "scope_line":220, "scope_name":"struct ____ftrace_mmiotrace_rw", }
+,{"id":"phys", "file":"kernel/trace/trace_entries.h", "line":239, "type":"m", "scope_line":239, "scope_name":"struct ____ftrace_mmiotrace_map", }
+,{"id":"phys_addr", "file":"include/linux/efi.h", "line":98, "type":"m", "scope_line":95, "scope_name":"efi_memory_desc_t", }
+,{"id":"phys_addr", "file":"include/linux/sfi.h", "line":126, "type":"m", "scope_line":125, "scope_name":"struct sfi_apic_table_entry", }
+,{"id":"phys_addr", "file":"include/linux/sfi.h", "line":136, "type":"m", "scope_line":135, "scope_name":"struct sfi_wake_table_entry", }
+,{"id":"phys_addr", "file":"include/linux/sfi.h", "line":140, "type":"m", "scope_line":139, "scope_name":"struct sfi_timer_table_entry", }
+,{"id":"phys_addr", "file":"include/linux/sfi.h", "line":146, "type":"m", "scope_line":145, "scope_name":"struct sfi_rtc_table_entry", }
+,{"id":"phys_addr", "file":"include/linux/vmalloc.h", "line":35, "type":"m", "scope_line":28, "scope_name":"struct vm_struct", }
+,{"id":"phys_addr_t", "file":"include/linux/types.h", "line":199, "type":"t", }
+,{"id":"phys_addr_valid", "file":"arch/x86/mm/ioremap.c", "line":80, "type":"c", "scope_line":62, "scope_name":"__ioremap_caller", }
+,{"id":"phys_addr_valid", "file":"arch/x86/mm/physaddr.c", "line":37, "type":"c", "scope_line":26, "scope_name":"__virt_addr_valid", }
+,{"id":"phys_addr_valid", "file":"arch/x86/mm/physaddr.h", "line":3, "type":"f", }
+,{"id":"phys_apic_id", "file":"arch/x86/include/asm/apicdef.h", "line":180, "type":"m", "scope_line":172, "scope_name":"struct local_apic", }
+,{"id":"phys_callback", "file":"include/linux/memory.h", "line":35, "type":"m", "scope_line":23, "scope_name":"struct memory_block", }
+,{"id":"phys_cpu_present_map", "file":"arch/x86/include/asm/mpspec.h", "line":179, "type":"v", }
+,{"id":"phys_dest", "file":"arch/x86/include/asm/apicdef.h", "line":314, "type":"m", "scope_line":172, "scope_name":"struct local_apic", }
+,{"id":"phys_device", "file":"include/linux/memory.h", "line":33, "type":"m", "scope_line":23, "scope_name":"struct memory_block", }
+,{"id":"phys_domains", "file":"kernel/sched.c", "line":6589, "type":"v", }
+,{"id":"phys_efi_get_time", "file":"arch/x86/kernel/efi.c", "line":174, "type":"f", }
+,{"id":"phys_efi_set_virtual_address_map", "file":"arch/x86/kernel/efi.c", "line":158, "type":"f", }
+,{"id":"phys_efi_set_virtual_address_map", "file":"arch/x86/kernel/efi.c", "line":547, "type":"c", "scope_line":498, "scope_name":"efi_enter_virtual_mode", }
+,{"id":"phys_id", "file":"include/linux/ethtool.h", "line":570, "type":"m", "scope_line":533, "scope_name":"struct ethtool_ops", }
+,{"id":"phys_id", "file":"include/linux/sfi.h", "line":189, "type":"m", "scope_line":187, "scope_name":"struct sfi_gpe_table_entry", }
+,{"id":"phys_index", "file":"include/linux/memory.h", "line":24, "type":"m", "scope_line":23, "scope_name":"struct memory_block", }
+,{"id":"phys_length", "file":"include/linux/fd.h", "line":354, "type":"m", "scope_line":325, "scope_name":"struct floppy_raw_cmd", }
+,];
+xr_frag_insert('t/06/38995a60d8940f464dca000870d17b6812f784.xr', __xr_tmp);

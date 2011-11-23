@@ -1,0 +1,243 @@
+var __xr_tmp = [
+{"id":"key_validate", "file":"security/keys/keyctl.c", "line":675, "type":"c", "scope_line":642, "scope_name":"keyctl_read_key", }
+,{"id":"key_validate", "file":"security/keys/permission.c", "line":91, "type":"f", }
+,{"id":"key_validate", "file":"security/keys/process_keys.c", "line":465, "type":"c", "scope_line":439, "scope_name":"search_process_keyrings", }
+,{"id":"key_validate", "file":"security/keys/process_keys.c", "line":685, "type":"c", "scope_line":511, "scope_name":"lookup_user_key", }
+,{"id":"key_validate", "file":"security/keys/request_key.c", "line":182, "type":"c", "scope_line":97, "scope_name":"call_sbin_request_key", }
+,{"id":"key_validate", "file":"security/keys/request_key.c", "line":542, "type":"c", "scope_line":531, "scope_name":"wait_for_key_construction", }
+,{"id":"key_wait_bit", "file":"security/keys/request_key.c", "line":27, "type":"f", }
+,{"id":"key_wait_bit_intr", "file":"security/keys/request_key.c", "line":36, "type":"f", }
+,{"id":"keybit", "file":"include/linux/input.h", "line":1157, "type":"m", "scope_line":1150, "scope_name":"struct input_dev", }
+,{"id":"keybit", "file":"include/linux/mod_devicetable.h", "line":322, "type":"m", "scope_line":312, "scope_name":"struct input_device_id", }
+,{"id":"keyboard_ids", "file":"drivers/input/serio/libps2.c", "line":110, "type":"v", }
+,{"id":"keyboard_notifier_list", "file":"drivers/char/keyboard.c", "line":153, "type":"v", }
+,{"id":"keyboard_notifier_param", "file":"include/linux/keyboard.h", "line":32, "type":"s", }
+,{"id":"keyboard_tasklet", "file":"drivers/char/keyboard.c", "line":1039, "type":"v", }
+,{"id":"keycmp", "file":"security/selinux/ss/hashtab.h", "line":27, "type":"m", "scope_line":21, "scope_name":"struct hashtab", }
+,{"id":"keycode", "file":"drivers/char/keyboard.c", "line":179, "type":"m", "scope_line":177, "scope_name":"struct getset_keycode_data", }
+,{"id":"keycode", "file":"drivers/input/keyboard/atkbd.c", "line":206, "type":"m", "scope_line":196, "scope_name":"struct atkbd", }
+,{"id":"keycode", "file":"include/linux/input.h", "line":1170, "type":"m", "scope_line":1150, "scope_name":"struct input_dev", }
+,{"id":"keycode", "file":"include/linux/kd.h", "line":139, "type":"m", "scope_line":138, "scope_name":"struct kbkeycode", }
+,{"id":"keycodemax", "file":"include/linux/input.h", "line":1168, "type":"m", "scope_line":1150, "scope_name":"struct input_dev", }
+,{"id":"keycodesize", "file":"include/linux/input.h", "line":1169, "type":"m", "scope_line":1150, "scope_name":"struct input_dev", }
+,{"id":"keycreate_sid", "file":"security/selinux/include/objsec.h", "line":35, "type":"m", "scope_line":30, "scope_name":"struct task_security_struct", }
+,{"id":"keyctl_assume_authority", "file":"security/keys/keyctl.c", "line":1146, "type":"f", }
+,{"id":"keyctl_assume_authority", "file":"security/keys/keyctl.c", "line":1429, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_change_reqkey_auth", "file":"security/keys/keyctl.c", "line":1019, "type":"c", "scope_line":984, "scope_name":"keyctl_negate_key", }
+,{"id":"keyctl_change_reqkey_auth", "file":"security/keys/keyctl.c", "line":1158, "type":"c", "scope_line":1146, "scope_name":"keyctl_assume_authority", }
+,{"id":"keyctl_change_reqkey_auth", "file":"security/keys/keyctl.c", "line":1173, "type":"c", "scope_line":1146, "scope_name":"keyctl_assume_authority", }
+,{"id":"keyctl_change_reqkey_auth", "file":"security/keys/keyctl.c", "line":884, "type":"f", }
+,{"id":"keyctl_change_reqkey_auth", "file":"security/keys/keyctl.c", "line":967, "type":"c", "scope_line":903, "scope_name":"keyctl_instantiate_key", }
+,{"id":"keyctl_chown_key", "file":"security/keys/keyctl.c", "line":1402, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_chown_key", "file":"security/keys/keyctl.c", "line":701, "type":"f", }
+,{"id":"keyctl_describe_key", "file":"security/keys/keyctl.c", "line":1375, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_describe_key", "file":"security/keys/keyctl.c", "line":468, "type":"f", }
+,{"id":"keyctl_get_keyring_ID", "file":"security/keys/keyctl.c", "line":1360, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_get_keyring_ID", "file":"security/keys/keyctl.c", "line":234, "type":"f", }
+,{"id":"keyctl_get_security", "file":"security/keys/keyctl.c", "line":1192, "type":"f", }
+,{"id":"keyctl_get_security", "file":"security/keys/keyctl.c", "line":1432, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_instantiate_key", "file":"security/keys/keyctl.c", "line":1411, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_instantiate_key", "file":"security/keys/keyctl.c", "line":903, "type":"f", }
+,{"id":"keyctl_join_session_keyring", "file":"security/keys/keyctl.c", "line":1364, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_join_session_keyring", "file":"security/keys/keyctl.c", "line":259, "type":"f", }
+,{"id":"keyctl_keyring_clear", "file":"security/keys/keyctl.c", "line":1380, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_keyring_clear", "file":"security/keys/keyctl.c", "line":370, "type":"f", }
+,{"id":"keyctl_keyring_link", "file":"security/keys/keyctl.c", "line":1383, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_keyring_link", "file":"security/keys/keyctl.c", "line":396, "type":"f", }
+,{"id":"keyctl_keyring_search", "file":"security/keys/keyctl.c", "line":1391, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_keyring_search", "file":"security/keys/keyctl.c", "line":547, "type":"f", }
+,{"id":"keyctl_keyring_unlink", "file":"security/keys/keyctl.c", "line":1387, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_keyring_unlink", "file":"security/keys/keyctl.c", "line":430, "type":"f", }
+,{"id":"keyctl_negate_key", "file":"security/keys/keyctl.c", "line":1417, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_negate_key", "file":"security/keys/keyctl.c", "line":984, "type":"f", }
+,{"id":"keyctl_read_key", "file":"security/keys/keyctl.c", "line":1397, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_read_key", "file":"security/keys/keyctl.c", "line":642, "type":"f", }
+,{"id":"keyctl_revoke_key", "file":"security/keys/keyctl.c", "line":1372, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_revoke_key", "file":"security/keys/keyctl.c", "line":338, "type":"f", }
+,{"id":"keyctl_session_to_parent", "file":"security/keys/keyctl.c", "line":1250, "type":"f", }
+,{"id":"keyctl_session_to_parent", "file":"security/keys/keyctl.c", "line":1437, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_set_reqkey_keyring", "file":"security/keys/keyctl.c", "line":1031, "type":"f", }
+,{"id":"keyctl_set_reqkey_keyring", "file":"security/keys/keyctl.c", "line":1422, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_set_timeout", "file":"security/keys/keyctl.c", "line":1089, "type":"f", }
+,{"id":"keyctl_set_timeout", "file":"security/keys/keyctl.c", "line":1425, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_setperm_key", "file":"security/keys/keyctl.c", "line":1407, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_setperm_key", "file":"security/keys/keyctl.c", "line":808, "type":"f", }
+,{"id":"keyctl_update_key", "file":"security/keys/keyctl.c", "line":1367, "type":"c", "scope_line":1355, "scope_name":"sys_keyctl", }
+,{"id":"keyctl_update_key", "file":"security/keys/keyctl.c", "line":289, "type":"f", }
+,{"id":"keydata", "file":"drivers/char/random.c", "line":1417, "type":"s", }
+,{"id":"keylen", "file":"include/net/tcp.h", "line":1096, "type":"m", "scope_line":1094, "scope_name":"struct tcp_md5sig_key", }
+,{"id":"keymax_warn_time", "file":"drivers/input/evdev.c", "line":499, "type":"v", }
+,{"id":"keyring_alloc", "file":"security/keys/keyring.c", "line":251, "type":"f", }
+,{"id":"keyring_alloc", "file":"security/keys/process_keys.c", "line":131, "type":"c", "scope_line":127, "scope_name":"install_thread_keyring_to_cred", }
+,{"id":"keyring_alloc", "file":"security/keys/process_keys.c", "line":176, "type":"c", "scope_line":168, "scope_name":"install_process_keyring_to_cred", }
+,{"id":"keyring_alloc", "file":"security/keys/process_keys.c", "line":232, "type":"c", "scope_line":219, "scope_name":"install_session_keyring_to_cred", }
+,{"id":"keyring_alloc", "file":"security/keys/process_keys.c", "line":75, "type":"c", "scope_line":45, "scope_name":"install_user_keyrings", }
+,{"id":"keyring_alloc", "file":"security/keys/process_keys.c", "line":762, "type":"c", "scope_line":724, "scope_name":"join_session_keyring", }
+,{"id":"keyring_alloc", "file":"security/keys/process_keys.c", "line":90, "type":"c", "scope_line":45, "scope_name":"install_user_keyrings", }
+,{"id":"keyring_alloc", "file":"security/keys/request_key.c", "line":120, "type":"c", "scope_line":97, "scope_name":"call_sbin_request_key", }
+,{"id":"keyring_clear", "file":"security/keys/keyctl.c", "line":381, "type":"c", "scope_line":370, "scope_name":"keyctl_keyring_clear", }
+,{"id":"keyring_clear", "file":"security/keys/keyring.c", "line":1000, "type":"f", }
+,{"id":"keyring_clear_rcu_disposal", "file":"security/keys/keyring.c", "line":1135, "type":"c", "scope_line":1068, "scope_name":"keyring_gc", }
+,{"id":"keyring_clear_rcu_disposal", "file":"security/keys/keyring.c", "line":981, "type":"f", }
+,{"id":"keyring_describe", "file":"security/keys/keyring.c", "line":174, "type":"f", }
+,{"id":"keyring_destroy", "file":"security/keys/keyring.c", "line":144, "type":"f", }
+,{"id":"keyring_detect_cycle", "file":"security/keys/keyring.c", "line":582, "type":"f", }
+,{"id":"keyring_detect_cycle", "file":"security/keys/keyring.c", "line":805, "type":"c", "scope_line":800, "scope_name":"__key_link_check_live_key", }
+,{"id":"keyring_gc", "file":"security/keys/gc.c", "line":103, "type":"c", "scope_line":67, "scope_name":"key_gc_keyring", }
+,{"id":"keyring_gc", "file":"security/keys/keyring.c", "line":1068, "type":"f", }
+,{"id":"keyring_hash", "file":"security/keys/keyring.c", "line":42, "type":"f", }
+,{"id":"keyring_hash", "file":"security/keys/keyring.c", "line":534, "type":"c", "scope_line":526, "scope_name":"find_keyring_by_name", }
+,{"id":"keyring_hash", "file":"security/keys/keyring.c", "line":93, "type":"c", "scope_line":88, "scope_name":"keyring_publish_name", }
+,{"id":"keyring_instantiate", "file":"security/keys/keyring.c", "line":113, "type":"f", }
+,{"id":"keyring_list", "file":"include/keys/keyring-type.h", "line":22, "type":"s", }
+,{"id":"keyring_match", "file":"security/keys/keyring.c", "line":133, "type":"f", }
+,{"id":"keyring_name_hash", "file":"security/keys/keyring.c", "line":39, "type":"v", }
+,{"id":"keyring_name_lock", "file":"security/keys/keyring.c", "line":40, "type":"v", }
+,{"id":"keyring_publish_name", "file":"security/keys/keyring.c", "line":121, "type":"c", "scope_line":113, "scope_name":"keyring_instantiate", }
+,{"id":"keyring_publish_name", "file":"security/keys/keyring.c", "line":88, "type":"f", }
+,{"id":"keyring_read", "file":"security/keys/keyring.c", "line":198, "type":"f", }
+,{"id":"keyring_revoke", "file":"security/keys/keyring.c", "line":1040, "type":"f", }
+,{"id":"keyring_search", "file":"security/keys/keyctl.c", "line":594, "type":"c", "scope_line":547, "scope_name":"keyctl_keyring_search", }
+,{"id":"keyring_search", "file":"security/keys/keyring.c", "line":459, "type":"f", }
+,{"id":"keyring_search_aux", "file":"security/keys/keyring.c", "line":287, "type":"f", }
+,{"id":"keyring_search_aux", "file":"security/keys/keyring.c", "line":466, "type":"c", "scope_line":459, "scope_name":"keyring_search", }
+,{"id":"keyring_search_aux", "file":"security/keys/process_keys.c", "line":338, "type":"c", "scope_line":318, "scope_name":"search_my_process_keyrings", }
+,{"id":"keyring_search_aux", "file":"security/keys/process_keys.c", "line":359, "type":"c", "scope_line":318, "scope_name":"search_my_process_keyrings", }
+,{"id":"keyring_search_aux", "file":"security/keys/process_keys.c", "line":382, "type":"c", "scope_line":318, "scope_name":"search_my_process_keyrings", }
+,{"id":"keyring_search_aux", "file":"security/keys/process_keys.c", "line":405, "type":"c", "scope_line":318, "scope_name":"search_my_process_keyrings", }
+,{"id":"keyring_serialise_link_sem", "file":"security/keys/keyring.c", "line":81, "type":"v", }
+,{"id":"keyring_unlink_rcu_disposal", "file":"security/keys/keyring.c", "line":667, "type":"f", }
+,{"id":"keys", "file":"include/keys/keyring-type.h", "line":27, "type":"m", "scope_line":22, "scope_name":"struct keyring_list", }
+,{"id":"keys", "file":"include/linux/pkt_cls.h", "line":214, "type":"m", "scope_line":203, "scope_name":"struct tc_u32_sel", }
+,{"id":"keys", "file":"include/net/cfg80211.h", "line":1544, "type":"m", "scope_line":1500, "scope_name":"struct wireless_dev", }
+,{"id":"keys4", "file":"include/net/tcp.h", "line":1114, "type":"m", "scope_line":1113, "scope_name":"struct tcp_md5sig_info", }
+,{"id":"keys6", "file":"include/net/tcp.h", "line":1116, "type":"m", "scope_line":1113, "scope_name":"struct tcp_md5sig_info", }
+,{"id":"kfifo", "file":"include/linux/kfifo.h", "line":107, "type":"m", "scope_line":107, "scope_name":"struct kfifo_rec_ptr_1", }
+,{"id":"kfifo", "file":"include/linux/kfifo.h", "line":108, "type":"m", "scope_line":108, "scope_name":"struct kfifo_rec_ptr_2", }
+,{"id":"kfifo", "file":"include/linux/kfifo.h", "line":96, "type":"m", "scope_line":96, "scope_name":"struct kfifo", }
+,{"id":"kfifo", "file":"include/linux/kfifo.h", "line":96, "type":"s", }
+,{"id":"kfifo_alloc", "file":"include/linux/kfifo.h", "line":325, "type":"d", }
+,{"id":"kfifo_avail", "file":"include/linux/kfifo.h", "line":269, "type":"d", }
+,{"id":"kfifo_copy_from_user", "file":"kernel/kfifo.c", "line":190, "type":"f", }
+,{"id":"kfifo_copy_from_user", "file":"kernel/kfifo.c", "line":240, "type":"c", "scope_line":225, "scope_name":"__kfifo_from_user", }
+,{"id":"kfifo_copy_from_user", "file":"kernel/kfifo.c", "line":527, "type":"c", "scope_line":513, "scope_name":"__kfifo_from_user_r", }
+,{"id":"kfifo_copy_in", "file":"kernel/kfifo.c", "line":104, "type":"f", }
+,{"id":"kfifo_copy_in", "file":"kernel/kfifo.c", "line":137, "type":"c", "scope_line":128, "scope_name":"__kfifo_in", }
+,{"id":"kfifo_copy_in", "file":"kernel/kfifo.c", "line":460, "type":"c", "scope_line":452, "scope_name":"__kfifo_in_r", }
+,{"id":"kfifo_copy_out", "file":"kernel/kfifo.c", "line":143, "type":"f", }
+,{"id":"kfifo_copy_out", "file":"kernel/kfifo.c", "line":176, "type":"c", "scope_line":167, "scope_name":"__kfifo_out_peek", }
+,{"id":"kfifo_copy_out", "file":"kernel/kfifo.c", "line":474, "type":"c", "scope_line":466, "scope_name":"kfifo_out_copy_r", }
+,{"id":"kfifo_copy_to_user", "file":"kernel/kfifo.c", "line":251, "type":"f", }
+,{"id":"kfifo_copy_to_user", "file":"kernel/kfifo.c", "line":299, "type":"c", "scope_line":285, "scope_name":"__kfifo_to_user", }
+,{"id":"kfifo_copy_to_user", "file":"kernel/kfifo.c", "line":552, "type":"c", "scope_line":537, "scope_name":"__kfifo_to_user_r", }
+,{"id":"kfifo_dma_in_finish", "file":"include/linux/kfifo.h", "line":691, "type":"d", }
+,{"id":"kfifo_dma_in_prepare", "file":"include/linux/kfifo.h", "line":667, "type":"d", }
+,{"id":"kfifo_dma_out_finish", "file":"include/linux/kfifo.h", "line":742, "type":"d", }
+,{"id":"kfifo_dma_out_prepare", "file":"include/linux/kfifo.h", "line":718, "type":"d", }
+,{"id":"kfifo_esize", "file":"include/linux/kfifo.h", "line":193, "type":"d", }
+,{"id":"kfifo_free", "file":"include/linux/kfifo.h", "line":340, "type":"d", }
+,{"id":"kfifo_from_user", "file":"include/linux/kfifo.h", "line":611, "type":"d", }
+,{"id":"kfifo_get", "file":"include/linux/kfifo.h", "line":421, "type":"d", }
+,{"id":"kfifo_in", "file":"include/linux/kfifo.h", "line":502, "type":"d", }
+,{"id":"kfifo_in_locked", "file":"include/linux/kfifo.h", "line":539, "type":"d", }
+,{"id":"kfifo_in_spinlocked", "file":"include/linux/kfifo.h", "line":528, "type":"d", }
+,{"id":"kfifo_init", "file":"include/linux/kfifo.h", "line":359, "type":"d", }
+,{"id":"kfifo_initialized", "file":"include/linux/kfifo.h", "line":187, "type":"d", }
+,{"id":"kfifo_is_empty", "file":"include/linux/kfifo.h", "line":249, "type":"d", }
+,{"id":"kfifo_is_full", "file":"include/linux/kfifo.h", "line":259, "type":"d", }
+,{"id":"kfifo_len", "file":"include/linux/kfifo.h", "line":239, "type":"d", }
+,{"id":"kfifo_out", "file":"include/linux/kfifo.h", "line":554, "type":"d", }
+,{"id":"kfifo_out_copy_r", "file":"kernel/kfifo.c", "line":466, "type":"f", }
+,{"id":"kfifo_out_copy_r", "file":"kernel/kfifo.c", "line":486, "type":"c", "scope_line":478, "scope_name":"__kfifo_out_peek_r", }
+,{"id":"kfifo_out_copy_r", "file":"kernel/kfifo.c", "line":498, "type":"c", "scope_line":490, "scope_name":"__kfifo_out_r", }
+,{"id":"kfifo_out_locked", "file":"include/linux/kfifo.h", "line":595, "type":"d", }
+,{"id":"kfifo_out_peek", "file":"include/linux/kfifo.h", "line":766, "type":"d", }
+,{"id":"kfifo_out_spinlocked", "file":"include/linux/kfifo.h", "line":582, "type":"d", }
+,{"id":"kfifo_peek", "file":"include/linux/kfifo.h", "line":462, "type":"d", }
+,{"id":"kfifo_peek_len", "file":"include/linux/kfifo.h", "line":302, "type":"d", }
+,{"id":"kfifo_put", "file":"include/linux/kfifo.h", "line":380, "type":"d", }
+,{"id":"kfifo_rec_ptr_1", "file":"include/linux/kfifo.h", "line":107, "type":"s", }
+,{"id":"kfifo_rec_ptr_2", "file":"include/linux/kfifo.h", "line":108, "type":"s", }
+,{"id":"kfifo_recsize", "file":"include/linux/kfifo.h", "line":199, "type":"d", }
+,{"id":"kfifo_reset", "file":"include/linux/kfifo.h", "line":215, "type":"d", }
+,{"id":"kfifo_reset_out", "file":"include/linux/kfifo.h", "line":229, "type":"d", }
+,{"id":"kfifo_size", "file":"include/linux/kfifo.h", "line":205, "type":"d", }
+,{"id":"kfifo_skip", "file":"include/linux/kfifo.h", "line":285, "type":"d", }
+,{"id":"kfifo_to_user", "file":"include/linux/kfifo.h", "line":639, "type":"d", }
+,{"id":"kfifo_unused", "file":"kernel/kfifo.c", "line":133, "type":"c", "scope_line":128, "scope_name":"__kfifo_in", }
+,{"id":"kfifo_unused", "file":"kernel/kfifo.c", "line":236, "type":"c", "scope_line":225, "scope_name":"__kfifo_from_user", }
+,{"id":"kfifo_unused", "file":"kernel/kfifo.c", "line":33, "type":"f", }
+,{"id":"kfifo_unused", "file":"kernel/kfifo.c", "line":376, "type":"c", "scope_line":371, "scope_name":"__kfifo_dma_in_prepare", }
+,{"id":"kfifo_unused", "file":"kernel/kfifo.c", "line":455, "type":"c", "scope_line":452, "scope_name":"__kfifo_in_r", }
+,{"id":"kfifo_unused", "file":"kernel/kfifo.c", "line":520, "type":"c", "scope_line":513, "scope_name":"__kfifo_from_user_r", }
+,{"id":"kfifo_unused", "file":"kernel/kfifo.c", "line":570, "type":"c", "scope_line":562, "scope_name":"__kfifo_dma_in_prepare_r", }
+,{"id":"kfree", "file":"arch/x86/kernel/acpi/boot.c", "line":589, "type":"c", "scope_line":570, "scope_name":"_acpi_map_lsapic", }
+,{"id":"kfree", "file":"arch/x86/kernel/acpi/boot.c", "line":597, "type":"c", "scope_line":570, "scope_name":"_acpi_map_lsapic", }
+,{"id":"kfree", "file":"arch/x86/kernel/acpi/boot.c", "line":603, "type":"c", "scope_line":570, "scope_name":"_acpi_map_lsapic", }
+,{"id":"kfree", "file":"arch/x86/kernel/alternative.c", "line":350, "type":"c", "scope_line":336, "scope_name":"alternatives_smp_module_del", }
+,{"id":"kfree", "file":"arch/x86/kernel/amd_iommu.c", "line":1128, "type":"c", "scope_line":1046, "scope_name":"alloc_new_range", }
+,{"id":"kfree", "file":"arch/x86/kernel/amd_iommu.c", "line":1348, "type":"c", "scope_line":1333, "scope_name":"dma_ops_domain_free", }
+,{"id":"kfree", "file":"arch/x86/kernel/amd_iommu.c", "line":1351, "type":"c", "scope_line":1333, "scope_name":"dma_ops_domain_free", }
+,{"id":"kfree", "file":"arch/x86/kernel/amd_iommu.c", "line":167, "type":"c", "scope_line":165, "scope_name":"iommu_uninit_device", }
+,{"id":"kfree", "file":"arch/x86/kernel/amd_iommu.c", "line":2390, "type":"c", "scope_line":2380, "scope_name":"protection_domain_free", }
+,{"id":"kfree", "file":"arch/x86/kernel/amd_iommu.c", "line":2413, "type":"c", "scope_line":2393, "scope_name":"protection_domain_alloc", }
+,{"id":"kfree", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1037, "type":"c", "scope_line":1026, "scope_name":"init_unity_map_range", }
+,{"id":"kfree", "file":"arch/x86/kernel/amd_iommu_init.c", "line":831, "type":"c", "scope_line":824, "scope_name":"free_iommu_all", }
+,{"id":"kfree", "file":"arch/x86/kernel/amd_iommu_init.c", "line":997, "type":"c", "scope_line":991, "scope_name":"free_unity_maps", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/io_apic.c", "line":205, "type":"c", "scope_line":198, "scope_name":"get_one_free_irq_cfg", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/io_apic.c", "line":210, "type":"c", "scope_line":198, "scope_name":"get_one_free_irq_cfg", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/io_apic.c", "line":260, "type":"c", "scope_line":235, "scope_name":"init_copy_irq_2_pin", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/io_apic.c", "line":288, "type":"c", "scope_line":277, "scope_name":"free_irq_2_pin", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/io_apic.c", "line":321, "type":"c", "scope_line":317, "scope_name":"free_irq_cfg", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/io_apic.c", "line":3232, "type":"c", "scope_line":3210, "scope_name":"ioapic_init_sysfs", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/io_apic.c", "line":713, "type":"c", "scope_line":691, "scope_name":"alloc_ioapic_entries", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/io_apic.c", "line":714, "type":"c", "scope_line":691, "scope_name":"alloc_ioapic_entries", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/io_apic.c", "line":793, "type":"c", "scope_line":788, "scope_name":"free_ioapic_entries", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/io_apic.c", "line":795, "type":"c", "scope_line":788, "scope_name":"free_ioapic_entries", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/nmi.c", "line":163, "type":"c", "scope_line":131, "scope_name":"check_nmi_watchdog", }
+,{"id":"kfree", "file":"arch/x86/kernel/apic/nmi.c", "line":176, "type":"c", "scope_line":131, "scope_name":"check_nmi_watchdog", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":683, "type":"c", "scope_line":509, "scope_name":"acpi_cpufreq_cpu_init", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":687, "type":"c", "scope_line":509, "scope_name":"acpi_cpufreq_cpu_init", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":704, "type":"c", "scope_line":693, "scope_name":"acpi_cpufreq_cpu_exit", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":1329, "type":"c", "scope_line":1251, "scope_name":"powernowk8_cpu_init", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":1330, "type":"c", "scope_line":1251, "scope_name":"powernowk8_cpu_init", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":1355, "type":"c", "scope_line":1251, "scope_name":"powernowk8_cpu_init", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":1370, "type":"c", "scope_line":1359, "scope_name":"powernowk8_cpu_exit", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":1371, "type":"c", "scope_line":1359, "scope_name":"powernowk8_cpu_exit", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":707, "type":"c", "scope_line":660, "scope_name":"fill_powernow_table", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":898, "type":"c", "scope_line":831, "scope_name":"powernow_k8_cpu_init_acpi", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":1053, "type":"c", "scope_line":1051, "scope_name":"cpuid4_cache_sysfs_exit", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":1054, "type":"c", "scope_line":1051, "scope_name":"cpuid4_cache_sysfs_exit", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":834, "type":"c", "scope_line":827, "scope_name":"free_cache_attributes", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":835, "type":"c", "scope_line":827, "scope_name":"free_cache_attributes", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":882, "type":"c", "scope_line":868, "scope_name":"detect_cache_attributes", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":1620, "type":"c", "scope_line":1541, "scope_name":"mce_read", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":472, "type":"c", "scope_line":399, "scope_name":"allocate_threshold_blocks", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":531, "type":"c", "scope_line":485, "scope_name":"threshold_create_bank", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":569, "type":"c", "scope_line":485, "scope_name":"threshold_create_bank", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":610, "type":"c", "scope_line":597, "scope_name":"deallocate_threshold_block", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":613, "type":"c", "scope_line":597, "scope_name":"deallocate_threshold_block", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":656, "type":"c", "scope_line":617, "scope_name":"threshold_remove_bank", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/mtrr/if.c", "line":374, "type":"c", "scope_line":361, "scope_name":"mtrr_close", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1529, "type":"c", "scope_line":1511, "scope_name":"validate_event", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1577, "type":"c", "scope_line":1545, "scope_name":"validate_group", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":336, "type":"c", "scope_line":316, "scope_name":"amd_pmu_cpu_starting", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":363, "type":"c", "scope_line":348, "scope_name":"amd_pmu_cpu_dead", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":97, "type":"c", "scope_line":77, "scope_name":"release_ds_buffers", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":98, "type":"c", "scope_line":77, "scope_name":"release_ds_buffers", }
+,{"id":"kfree", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":99, "type":"c", "scope_line":77, "scope_name":"release_ds_buffers", }
+,{"id":"kfree", "file":"arch/x86/kernel/k8.c", "line":62, "type":"c", "scope_line":38, "scope_name":"cache_k8_northbridges", }
+,{"id":"kfree", "file":"arch/x86/kernel/kprobes.c", "line":787, "type":"c", "scope_line":705, "scope_name":"trampoline_handler", }
+,{"id":"kfree", "file":"arch/x86/kernel/pci-calgary_64.c", "line":821, "type":"c", "scope_line":804, "scope_name":"calgary_free_bus", }
+,{"id":"kfree", "file":"arch/x86/kernel/process.c", "line":87, "type":"c", "scope_line":70, "scope_name":"exit_thread", }
+,{"id":"kfree", "file":"arch/x86/kernel/process_64.c", "line":323, "type":"c", "scope_line":259, "scope_name":"copy_thread", }
+,{"id":"kfree", "file":"arch/x86/kernel/tce_64.c", "line":163, "type":"c", "scope_line":134, "scope_name":"build_tce_table", }
+,{"id":"kfree", "file":"arch/x86/mm/ioremap.c", "line":303, "type":"c", "scope_line":259, "scope_name":"iounmap", }
+,{"id":"kfree", "file":"arch/x86/mm/kmmio.c", "line":379, "type":"c", "scope_line":358, "scope_name":"add_kmmio_fault_page", }
+,{"id":"kfree", "file":"arch/x86/mm/kmmio.c", "line":458, "type":"c", "scope_line":448, "scope_name":"rcu_free_kmmio_fault_pages", }
+,{"id":"kfree", "file":"arch/x86/mm/kmmio.c", "line":461, "type":"c", "scope_line":448, "scope_name":"rcu_free_kmmio_fault_pages", }
+,{"id":"kfree", "file":"arch/x86/mm/mmio-mod.c", "line":268, "type":"c", "scope_line":235, "scope_name":"ioremap_trace_core", }
+,{"id":"kfree", "file":"arch/x86/mm/mmio-mod.c", "line":328, "type":"c", "scope_line":294, "scope_name":"iounmap_trace_core", }
+,{"id":"kfree", "file":"arch/x86/mm/mmio-mod.c", "line":377, "type":"c", "scope_line":356, "scope_name":"clear_trace_list", }
+,];
+xr_frag_insert('t/3f/cd476c25cd735c27ebd6737dc4ca37c441f409.xr', __xr_tmp);

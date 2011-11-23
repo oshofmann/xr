@@ -1,0 +1,23 @@
+var __xr_tmp = [
+"", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#INITRD_MINOR\">INITRD_MINOR</a> 250 <span class=\"comment\">/* shouldn't collide with /dev/ram* too soon ... */</span>", 
+"", 
+"<span class=\"comment\">/* 1 = load ramdisk, 0 = don't load */</span>", 
+"extern int <a class=\"id\" href=\"#rd_doload\">rd_doload</a>;", 
+"", 
+"<span class=\"comment\">/* 1 = prompt for ramdisk, 0 = don't prompt */</span>", 
+"extern int <a class=\"id\" href=\"#rd_prompt\">rd_prompt</a>;", 
+"", 
+"<span class=\"comment\">/* starting block # of image */</span>", 
+"extern int <a class=\"id\" href=\"#rd_image_start\">rd_image_start</a>;", 
+"", 
+"<span class=\"comment\">/* 1 if it is not an error if initrd_start &lt; memory_start */</span>", 
+"extern int <a class=\"id\" href=\"#initrd_below_start_ok\">initrd_below_start_ok</a>;", 
+"", 
+"<span class=\"comment\">/* free_initrd_mem always gets called with the next two as arguments.. */</span>", 
+"extern unsigned long <a class=\"id\" href=\"#initrd_start\">initrd_start</a>, <a class=\"id\" href=\"#initrd_end\">initrd_end</a>;", 
+"extern void <a class=\"id\" href=\"#free_initrd_mem\">free_initrd_mem</a>(unsigned long, unsigned long);", 
+"", 
+"extern unsigned int <a class=\"id\" href=\"#real_root_dev\">real_root_dev</a>;", 
+];
+xr_frag_insert('l/36/0e96e625e6b1bc7463587f2e267537b4f2e878.xr', __xr_tmp);

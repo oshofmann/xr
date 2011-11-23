@@ -1,0 +1,48 @@
+var __xr_tmp = [
+{"id":"qdisc_root_sleeping_lock", "file":"net/sched/sch_api.c", "line":1186, "type":"c", "scope_line":1161, "scope_name":"tc_fill_qdisc", }
+,{"id":"qdisc_root_sleeping_lock", "file":"net/sched/sch_api.c", "line":1477, "type":"c", "scope_line":1454, "scope_name":"tc_fill_tclass", }
+,{"id":"qdisc_root_sleeping_lock", "file":"net/sched/sch_api.c", "line":844, "type":"c", "scope_line":757, "scope_name":"qdisc_create", }
+,{"id":"qdisc_root_sleeping_lock", "file":"net/sched/sch_api.c", "line":905, "type":"c", "scope_line":878, "scope_name":"qdisc_change", }
+,{"id":"qdisc_rtab_list", "file":"net/sched/sch_api.c", "line":285, "type":"v", }
+,{"id":"qdisc_run", "file":"include/net/pkt_sched.h", "line":96, "type":"f", }
+,{"id":"qdisc_run", "file":"net/core/dev.c", "line":2598, "type":"c", "scope_line":2557, "scope_name":"net_tx_action", }
+,{"id":"qdisc_run_begin", "file":"include/net/pkt_sched.h", "line":98, "type":"c", "scope_line":96, "scope_name":"qdisc_run", }
+,{"id":"qdisc_run_begin", "file":"include/net/sch_generic.h", "line":92, "type":"f", }
+,{"id":"qdisc_run_begin", "file":"net/core/dev.c", "line":2109, "type":"c", "scope_line":2088, "scope_name":"__dev_xmit_skb", }
+,{"id":"qdisc_run_begin", "file":"net/core/dev.c", "line":2132, "type":"c", "scope_line":2088, "scope_name":"__dev_xmit_skb", }
+,{"id":"qdisc_run_end", "file":"include/net/sch_generic.h", "line":97, "type":"f", }
+,{"id":"qdisc_run_end", "file":"net/core/dev.c", "line":2126, "type":"c", "scope_line":2088, "scope_name":"__dev_xmit_skb", }
+,{"id":"qdisc_run_end", "file":"net/sched/sch_generic.c", "line":208, "type":"c", "scope_line":192, "scope_name":"__qdisc_run", }
+,{"id":"qdisc_rx_lock", "file":"net/sched/sch_api.c", "line":749, "type":"v", }
+,{"id":"qdisc_size_table", "file":"include/net/sch_generic.h", "line":37, "type":"s", }
+,{"id":"qdisc_skb_cb", "file":"include/net/sch_generic.h", "line":200, "type":"s", }
+,{"id":"qdisc_skb_cb", "file":"include/net/sch_generic.h", "line":210, "type":"f", }
+,{"id":"qdisc_skb_cb", "file":"include/net/sch_generic.h", "line":399, "type":"c", "scope_line":397, "scope_name":"qdisc_pkt_len", }
+,{"id":"qdisc_skb_cb", "file":"include/net/sch_generic.h", "line":425, "type":"c", "scope_line":423, "scope_name":"qdisc_enqueue_root", }
+,{"id":"qdisc_skb_cb", "file":"net/sched/sch_api.c", "line":452, "type":"c", "scope_line":428, "scope_name":"qdisc_calculate_pkt_len", }
+,{"id":"qdisc_sleeping", "file":"include/linux/netdevice.h", "line":499, "type":"m", "scope_line":492, "scope_name":"struct netdev_queue", }
+,{"id":"qdisc_stab_list", "file":"net/sched/sch_api.c", "line":331, "type":"v", }
+,{"id":"qdisc_stab_lock", "file":"net/sched/sch_api.c", "line":332, "type":"v", }
+,{"id":"qdisc_state_t", "file":"include/net/sch_generic.h", "line":25, "type":"t", }
+,{"id":"qdisc_tree_decrease_qlen", "file":"net/sched/sch_api.c", "line":628, "type":"f", }
+,{"id":"qdisc_tx_changing", "file":"include/net/sch_generic.h", "line":374, "type":"f", }
+,{"id":"qdisc_tx_changing", "file":"net/core/link_watch.c", "line":81, "type":"c", "scope_line":79, "scope_name":"linkwatch_urgent_event", }
+,{"id":"qdisc_tx_is_noop", "file":"include/net/sch_generic.h", "line":386, "type":"f", }
+,{"id":"qdisc_tx_is_noop", "file":"net/ipv6/addrconf.c", "line":240, "type":"c", "scope_line":238, "scope_name":"addrconf_qdisc_ok", }
+,{"id":"qdisc_tx_is_noop", "file":"net/sched/sch_generic.c", "line":231, "type":"c", "scope_line":226, "scope_name":"dev_watchdog", }
+,{"id":"qdisc_tx_lock", "file":"net/sched/sch_api.c", "line":748, "type":"v", }
+,{"id":"qdisc_walker", "file":"include/net/pkt_sched.h", "line":8, "type":"s", }
+,{"id":"qdisc_warn_nonwc", "file":"net/sched/sch_api.c", "line":456, "type":"f", }
+,{"id":"qdisc_watchdog", "file":"include/net/pkt_sched.h", "line":62, "type":"s", }
+,{"id":"qdisc_watchdog", "file":"net/sched/sch_api.c", "line":467, "type":"f", }
+,{"id":"qdisc_watchdog_cancel", "file":"net/sched/sch_api.c", "line":501, "type":"f", }
+,{"id":"qdisc_watchdog_init", "file":"net/sched/sch_api.c", "line":478, "type":"f", }
+,{"id":"qdisc_watchdog_schedule", "file":"net/sched/sch_api.c", "line":486, "type":"f", }
+,{"id":"qdiscs", "file":"net/sched/sch_mq.c", "line":21, "type":"m", "scope_line":20, "scope_name":"struct mq_sched", }
+,{"id":"qf_fmt_id", "file":"include/linux/quota.h", "line":339, "type":"m", "scope_line":338, "scope_name":"struct quota_format_type", }
+,{"id":"qf_next", "file":"include/linux/quota.h", "line":342, "type":"m", "scope_line":338, "scope_name":"struct quota_format_type", }
+,{"id":"qf_ops", "file":"include/linux/quota.h", "line":340, "type":"m", "scope_line":338, "scope_name":"struct quota_format_type", }
+,{"id":"qf_owner", "file":"include/linux/quota.h", "line":341, "type":"m", "scope_line":338, "scope_name":"struct quota_format_type", }
+,{"id":"qfs_ino", "file":"include/linux/dqblk_xfs.h", "line":147, "type":"m", "scope_line":146, "scope_name":"struct fs_qfilestat", }
+,];
+xr_frag_insert('t/61/6a22c83adb3911802c4db89ec13f9a02e1adf3.xr', __xr_tmp);

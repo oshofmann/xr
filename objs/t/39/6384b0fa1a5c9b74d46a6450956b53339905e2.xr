@@ -1,0 +1,135 @@
+var __xr_tmp = [
+{"id":"xfrm4_extract_header", "file":"net/ipv4/xfrm4_state.c", "line":54, "type":"f", }
+,{"id":"xfrm4_extract_input", "file":"net/ipv4/xfrm4_input.c", "line":20, "type":"f", }
+,{"id":"xfrm4_extract_output", "file":"net/ipv4/xfrm4_output.c", "line":42, "type":"f", }
+,{"id":"xfrm4_fill_dst", "file":"net/ipv4/xfrm4_policy.c", "line":73, "type":"f", }
+,{"id":"xfrm4_garbage_collect", "file":"net/ipv4/xfrm4_policy.c", "line":172, "type":"f", }
+,{"id":"xfrm4_get_saddr", "file":"net/ipv4/xfrm4_policy.c", "line":46, "type":"f", }
+,{"id":"xfrm4_get_tos", "file":"net/ipv4/xfrm4_policy.c", "line":62, "type":"f", }
+,{"id":"xfrm4_init", "file":"net/ipv4/route.c", "line":3357, "type":"c", "scope_line":3310, "scope_name":"ip_rt_init", }
+,{"id":"xfrm4_init", "file":"net/ipv4/xfrm4_policy.c", "line":278, "type":"f", }
+,{"id":"xfrm4_init_flags", "file":"net/ipv4/xfrm4_state.c", "line":16, "type":"f", }
+,{"id":"xfrm4_init_path", "file":"net/ipv4/xfrm4_policy.c", "line":67, "type":"f", }
+,{"id":"xfrm4_init_temprop", "file":"net/ipv4/xfrm4_state.c", "line":39, "type":"f", }
+,{"id":"xfrm4_output", "file":"net/ipv4/xfrm4_output.c", "line":87, "type":"f", }
+,{"id":"xfrm4_output_finish", "file":"net/ipv4/xfrm4_output.c", "line":72, "type":"f", }
+,{"id":"xfrm4_policy_afinfo", "file":"net/ipv4/xfrm4_policy.c", "line":238, "type":"v", }
+,{"id":"xfrm4_policy_check", "file":"include/net/xfrm.h", "line":1003, "type":"f", }
+,{"id":"xfrm4_policy_check", "file":"net/ipv4/icmp.c", "line":980, "type":"c", "scope_line":974, "scope_name":"icmp_rcv", }
+,{"id":"xfrm4_policy_check", "file":"net/ipv4/ip_forward.c", "line":63, "type":"c", "scope_line":54, "scope_name":"ip_forward", }
+,{"id":"xfrm4_policy_check", "file":"net/ipv4/ip_input.c", "line":220, "type":"c", "scope_line":188, "scope_name":"ip_local_deliver_finish", }
+,{"id":"xfrm4_policy_check", "file":"net/ipv4/ip_input.c", "line":234, "type":"c", "scope_line":188, "scope_name":"ip_local_deliver_finish", }
+,{"id":"xfrm4_policy_check", "file":"net/ipv4/raw.c", "line":303, "type":"c", "scope_line":301, "scope_name":"raw_rcv", }
+,{"id":"xfrm4_policy_check", "file":"net/ipv4/tcp_ipv4.c", "line":1674, "type":"c", "scope_line":1620, "scope_name":"tcp_v4_rcv", }
+,{"id":"xfrm4_policy_check", "file":"net/ipv4/tcp_ipv4.c", "line":1710, "type":"c", "scope_line":1620, "scope_name":"tcp_v4_rcv", }
+,{"id":"xfrm4_policy_check", "file":"net/ipv4/tcp_ipv4.c", "line":1730, "type":"c", "scope_line":1620, "scope_name":"tcp_v4_rcv", }
+,{"id":"xfrm4_policy_check", "file":"net/ipv4/udp.c", "line":1347, "type":"c", "scope_line":1338, "scope_name":"udp_queue_rcv_skb", }
+,{"id":"xfrm4_policy_check", "file":"net/ipv4/udp.c", "line":1619, "type":"c", "scope_line":1567, "scope_name":"__udp4_lib_rcv", }
+,{"id":"xfrm4_policy_check_reverse", "file":"include/net/xfrm.h", "line":1013, "type":"f", }
+,{"id":"xfrm4_policy_check_reverse", "file":"net/ipv4/icmp.c", "line":994, "type":"c", "scope_line":974, "scope_name":"icmp_rcv", }
+,{"id":"xfrm4_policy_fini", "file":"net/ipv4/xfrm4_policy.c", "line":269, "type":"f", }
+,{"id":"xfrm4_policy_init", "file":"net/ipv4/xfrm4_policy.c", "line":264, "type":"f", }
+,{"id":"xfrm4_policy_init", "file":"net/ipv4/xfrm4_policy.c", "line":293, "type":"c", "scope_line":278, "scope_name":"xfrm4_init", }
+,{"id":"xfrm4_policy_table", "file":"net/ipv4/xfrm4_policy.c", "line":250, "type":"v", }
+,{"id":"xfrm4_prepare_output", "file":"net/ipv4/xfrm4_output.c", "line":55, "type":"f", }
+,{"id":"xfrm4_rcv", "file":"net/ipv4/xfrm4_input.c", "line":162, "type":"f", }
+,{"id":"xfrm4_rcv_encap", "file":"include/net/xfrm.h", "line":1404, "type":"c", "scope_line":1402, "scope_name":"xfrm4_rcv_spi", }
+,{"id":"xfrm4_rcv_encap", "file":"net/ipv4/xfrm4_input.c", "line":155, "type":"c", "scope_line":76, "scope_name":"xfrm4_udp_encap_rcv", }
+,{"id":"xfrm4_rcv_encap", "file":"net/ipv4/xfrm4_input.c", "line":40, "type":"f", }
+,{"id":"xfrm4_rcv_encap_finish", "file":"net/ipv4/xfrm4_input.c", "line":25, "type":"f", }
+,{"id":"xfrm4_rcv_spi", "file":"include/net/xfrm.h", "line":1402, "type":"f", }
+,{"id":"xfrm4_rcv_spi", "file":"net/ipv4/xfrm4_input.c", "line":164, "type":"c", "scope_line":162, "scope_name":"xfrm4_rcv", }
+,{"id":"xfrm4_route_forward", "file":"include/net/xfrm.h", "line":1052, "type":"f", }
+,{"id":"xfrm4_route_forward", "file":"net/ipv4/ip_forward.c", "line":82, "type":"c", "scope_line":54, "scope_name":"ip_forward", }
+,{"id":"xfrm4_state_afinfo", "file":"net/ipv4/xfrm4_state.c", "line":70, "type":"v", }
+,{"id":"xfrm4_state_init", "file":"net/ipv4/xfrm4_policy.c", "line":292, "type":"c", "scope_line":278, "scope_name":"xfrm4_init", }
+,{"id":"xfrm4_state_init", "file":"net/ipv4/xfrm4_state.c", "line":84, "type":"f", }
+,{"id":"xfrm4_transport_finish", "file":"net/ipv4/xfrm4_input.c", "line":49, "type":"f", }
+,{"id":"xfrm4_tunnel_check_size", "file":"net/ipv4/xfrm4_output.c", "line":21, "type":"f", }
+,{"id":"xfrm4_tunnel_check_size", "file":"net/ipv4/xfrm4_output.c", "line":46, "type":"c", "scope_line":42, "scope_name":"xfrm4_extract_output", }
+,{"id":"xfrm4_udp_encap_rcv", "file":"net/ipv4/xfrm4_input.c", "line":76, "type":"f", }
+,{"id":"xfrm4_update_pmtu", "file":"net/ipv4/xfrm4_policy.c", "line":180, "type":"f", }
+,{"id":"xfrm6_dst_destroy", "file":"net/ipv6/xfrm6_policy.c", "line":213, "type":"f", }
+,{"id":"xfrm6_dst_ifdown", "file":"net/ipv6/xfrm6_policy.c", "line":222, "type":"f", }
+,{"id":"xfrm6_dst_lookup", "file":"net/ipv6/xfrm6_policy.c", "line":29, "type":"f", }
+,{"id":"xfrm6_dst_lookup", "file":"net/ipv6/xfrm6_policy.c", "line":58, "type":"c", "scope_line":52, "scope_name":"xfrm6_get_saddr", }
+,{"id":"xfrm6_dst_ops", "file":"include/net/netns/xfrm.h", "line":48, "type":"m", "scope_line":17, "scope_name":"struct netns_xfrm", }
+,{"id":"xfrm6_dst_ops", "file":"net/ipv6/xfrm6_policy.c", "line":249, "type":"v", }
+,{"id":"xfrm6_extract_header", "file":"net/ipv6/xfrm6_input.c", "line":21, "type":"c", "scope_line":19, "scope_name":"xfrm6_extract_input", }
+,{"id":"xfrm6_extract_header", "file":"net/ipv6/xfrm6_output.c", "line":58, "type":"c", "scope_line":48, "scope_name":"xfrm6_extract_output", }
+,{"id":"xfrm6_extract_header", "file":"net/ipv6/xfrm6_state.c", "line":153, "type":"f", }
+,{"id":"xfrm6_extract_input", "file":"net/ipv6/xfrm6_input.c", "line":19, "type":"f", }
+,{"id":"xfrm6_extract_output", "file":"net/ipv6/xfrm6_output.c", "line":48, "type":"f", }
+,{"id":"xfrm6_fill_dst", "file":"net/ipv6/xfrm6_policy.c", "line":89, "type":"f", }
+,{"id":"xfrm6_find_1stfragopt", "file":"net/ipv6/xfrm6_output.c", "line":22, "type":"f", }
+,{"id":"xfrm6_fini", "file":"net/ipv6/route.c", "line":2798, "type":"c", "scope_line":2742, "scope_name":"ip6_route_init", }
+,{"id":"xfrm6_fini", "file":"net/ipv6/route.c", "line":2812, "type":"c", "scope_line":2808, "scope_name":"ip6_route_cleanup", }
+,{"id":"xfrm6_fini", "file":"net/ipv6/xfrm6_policy.c", "line":335, "type":"f", }
+,{"id":"xfrm6_garbage_collect", "file":"net/ipv6/xfrm6_policy.c", "line":197, "type":"f", }
+,{"id":"xfrm6_get_saddr", "file":"net/ipv6/xfrm6_policy.c", "line":52, "type":"f", }
+,{"id":"xfrm6_get_tos", "file":"net/ipv6/xfrm6_policy.c", "line":70, "type":"f", }
+,{"id":"xfrm6_init", "file":"net/ipv6/route.c", "line":2774, "type":"c", "scope_line":2742, "scope_name":"ip6_route_init", }
+,{"id":"xfrm6_init", "file":"net/ipv6/xfrm6_policy.c", "line":297, "type":"f", }
+,{"id":"xfrm6_init_path", "file":"net/ipv6/xfrm6_policy.c", "line":75, "type":"f", }
+,{"id":"xfrm6_init_temprop", "file":"net/ipv6/xfrm6_state.c", "line":40, "type":"f", }
+,{"id":"xfrm6_input_addr", "file":"net/ipv6/xfrm6_input.c", "line":58, "type":"f", }
+,{"id":"xfrm6_output", "file":"net/ipv6/xfrm6_output.c", "line":91, "type":"f", }
+,{"id":"xfrm6_output_finish", "file":"net/ipv6/xfrm6_output.c", "line":81, "type":"f", }
+,{"id":"xfrm6_policy_afinfo", "file":"net/ipv6/xfrm6_policy.c", "line":261, "type":"v", }
+,{"id":"xfrm6_policy_check", "file":"include/net/xfrm.h", "line":1008, "type":"f", }
+,{"id":"xfrm6_policy_check", "file":"net/ipv6/icmp.c", "line":637, "type":"c", "scope_line":628, "scope_name":"icmpv6_rcv", }
+,{"id":"xfrm6_policy_check", "file":"net/ipv6/ip6_input.c", "line":205, "type":"c", "scope_line":161, "scope_name":"ip6_input_finish", }
+,{"id":"xfrm6_policy_check", "file":"net/ipv6/ip6_input.c", "line":216, "type":"c", "scope_line":161, "scope_name":"ip6_input_finish", }
+,{"id":"xfrm6_policy_check", "file":"net/ipv6/ip6_output.c", "line":407, "type":"c", "scope_line":393, "scope_name":"ip6_forward", }
+,{"id":"xfrm6_policy_check", "file":"net/ipv6/raw.c", "line":404, "type":"c", "scope_line":399, "scope_name":"rawv6_rcv", }
+,{"id":"xfrm6_policy_check", "file":"net/ipv6/tcp_ipv6.c", "line":1721, "type":"c", "scope_line":1669, "scope_name":"tcp_v6_rcv", }
+,{"id":"xfrm6_policy_check", "file":"net/ipv6/tcp_ipv6.c", "line":1755, "type":"c", "scope_line":1669, "scope_name":"tcp_v6_rcv", }
+,{"id":"xfrm6_policy_check", "file":"net/ipv6/tcp_ipv6.c", "line":1779, "type":"c", "scope_line":1669, "scope_name":"tcp_v6_rcv", }
+,{"id":"xfrm6_policy_check", "file":"net/ipv6/udp.c", "line":500, "type":"c", "scope_line":494, "scope_name":"udpv6_queue_rcv_skb", }
+,{"id":"xfrm6_policy_check", "file":"net/ipv6/udp.c", "line":760, "type":"c", "scope_line":702, "scope_name":"__udp6_lib_rcv", }
+,{"id":"xfrm6_policy_check_reverse", "file":"include/net/xfrm.h", "line":1019, "type":"f", }
+,{"id":"xfrm6_policy_check_reverse", "file":"net/ipv6/icmp.c", "line":651, "type":"c", "scope_line":628, "scope_name":"icmpv6_rcv", }
+,{"id":"xfrm6_policy_fini", "file":"net/ipv6/xfrm6_policy.c", "line":277, "type":"f", }
+,{"id":"xfrm6_policy_fini", "file":"net/ipv6/xfrm6_policy.c", "line":331, "type":"c", "scope_line":297, "scope_name":"xfrm6_init", }
+,{"id":"xfrm6_policy_fini", "file":"net/ipv6/xfrm6_policy.c", "line":342, "type":"c", "scope_line":335, "scope_name":"xfrm6_fini", }
+,{"id":"xfrm6_policy_init", "file":"net/ipv6/xfrm6_policy.c", "line":272, "type":"f", }
+,{"id":"xfrm6_policy_init", "file":"net/ipv6/xfrm6_policy.c", "line":316, "type":"c", "scope_line":297, "scope_name":"xfrm6_init", }
+,{"id":"xfrm6_policy_table", "file":"net/ipv6/xfrm6_policy.c", "line":283, "type":"v", }
+,{"id":"xfrm6_prepare_output", "file":"net/ipv6/xfrm6_output.c", "line":61, "type":"f", }
+,{"id":"xfrm6_rcv", "file":"net/ipv6/xfrm6_input.c", "line":50, "type":"f", }
+,{"id":"xfrm6_rcv_spi", "file":"net/ipv6/xfrm6_input.c", "line":24, "type":"f", }
+,{"id":"xfrm6_rcv_spi", "file":"net/ipv6/xfrm6_input.c", "line":52, "type":"c", "scope_line":50, "scope_name":"xfrm6_rcv", }
+,{"id":"xfrm6_route_forward", "file":"include/net/xfrm.h", "line":1057, "type":"f", }
+,{"id":"xfrm6_route_forward", "file":"net/ipv6/ip6_output.c", "line":460, "type":"c", "scope_line":393, "scope_name":"ip6_forward", }
+,{"id":"xfrm6_state_afinfo", "file":"net/ipv6/xfrm6_state.c", "line":169, "type":"v", }
+,{"id":"xfrm6_state_fini", "file":"net/ipv6/xfrm6_policy.c", "line":343, "type":"c", "scope_line":335, "scope_name":"xfrm6_fini", }
+,{"id":"xfrm6_state_fini", "file":"net/ipv6/xfrm6_state.c", "line":189, "type":"f", }
+,{"id":"xfrm6_state_init", "file":"net/ipv6/xfrm6_policy.c", "line":320, "type":"c", "scope_line":297, "scope_name":"xfrm6_init", }
+,{"id":"xfrm6_state_init", "file":"net/ipv6/xfrm6_state.c", "line":184, "type":"f", }
+,{"id":"xfrm6_transport_finish", "file":"net/ipv6/xfrm6_input.c", "line":32, "type":"f", }
+,{"id":"xfrm6_tunnel", "file":"include/net/xfrm.h", "line":1271, "type":"s", }
+,{"id":"xfrm6_tunnel_check_size", "file":"net/ipv6/xfrm6_output.c", "line":30, "type":"f", }
+,{"id":"xfrm6_tunnel_check_size", "file":"net/ipv6/xfrm6_output.c", "line":52, "type":"c", "scope_line":48, "scope_name":"xfrm6_extract_output", }
+,{"id":"xfrm6_update_pmtu", "file":"net/ipv6/xfrm6_policy.c", "line":205, "type":"f", }
+,{"id":"xfrm_aalg_get_byid", "file":"net/xfrm/xfrm_algo.c", "line":591, "type":"f", }
+,{"id":"xfrm_aalg_get_byidx", "file":"net/xfrm/xfrm_algo.c", "line":669, "type":"f", }
+,{"id":"xfrm_aalg_get_byname", "file":"net/xfrm/xfrm_algo.c", "line":621, "type":"f", }
+,{"id":"xfrm_aalg_list", "file":"net/xfrm/xfrm_algo.c", "line":535, "type":"v", }
+,{"id":"xfrm_addr_any", "file":"include/net/xfrm.h", "line":942, "type":"f", }
+,{"id":"xfrm_addr_any", "file":"net/xfrm/xfrm_policy.c", "line":1178, "type":"c", "scope_line":1156, "scope_name":"xfrm_tmpl_resolve_one", }
+,{"id":"xfrm_addr_cmp", "file":"include/net/xfrm.h", "line":1510, "type":"f", }
+,{"id":"xfrm_addr_cmp", "file":"net/xfrm/xfrm_state.c", "line":1002, "type":"c", "scope_line":994, "scope_name":"__find_acq_core", }
+,{"id":"xfrm_addr_cmp", "file":"net/xfrm/xfrm_state.c", "line":1096, "type":"c", "scope_line":1071, "scope_name":"xfrm_state_add", }
+,{"id":"xfrm_addr_cmp", "file":"net/xfrm/xfrm_state.c", "line":687, "type":"c", "scope_line":680, "scope_name":"__xfrm_state_lookup", }
+,{"id":"xfrm_addr_cmp", "file":"net/xfrm/xfrm_state.c", "line":709, "type":"c", "scope_line":702, "scope_name":"__xfrm_state_lookup_byaddr", }
+,{"id":"xfrm_addr_cmp", "file":"net/xfrm/xfrm_state.c", "line":975, "type":"c", "scope_line":963, "scope_name":"__xfrm_state_bump_genids", }
+,{"id":"xfrm_address_t", "file":"include/linux/xfrm.h", "line":13, "type":"t", }
+,{"id":"xfrm_ae_ftype_t", "file":"include/linux/xfrm.h", "line":242, "type":"t", }
+,{"id":"xfrm_aead_get_byname", "file":"net/xfrm/xfrm_algo.c", "line":657, "type":"f", }
+,{"id":"xfrm_aead_list", "file":"net/xfrm/xfrm_algo.c", "line":528, "type":"v", }
+,{"id":"xfrm_aead_name", "file":"net/xfrm/xfrm_algo.c", "line":642, "type":"s", }
+,{"id":"xfrm_aead_name_match", "file":"net/xfrm/xfrm_algo.c", "line":647, "type":"f", }
+,{"id":"xfrm_aevent_id", "file":"include/linux/xfrm.h", "line":361, "type":"s", }
+,{"id":"xfrm_aevent_is_on", "file":"include/net/xfrm.h", "line":1529, "type":"f", }
+,];
+xr_frag_insert('t/39/6384b0fa1a5c9b74d46a6450956b53339905e2.xr', __xr_tmp);

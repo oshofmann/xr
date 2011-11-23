@@ -1,0 +1,16 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#_LINUX_PFN_H_\">_LINUX_PFN_H_</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#_LINUX_PFN_H_\">_LINUX_PFN_H_</a>", 
+"", 
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#__ASSEMBLY__\">__ASSEMBLY__</a>", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#types\">types</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+"", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#PFN_ALIGN\">PFN_ALIGN</a>(<a class=\"id\" href=\"#x\">x</a>)<span class=\"ts\"/>(((unsigned long)(<a class=\"id\" href=\"#x\">x</a>) + (<a class=\"id\" href=\"#PAGE_SIZE\">PAGE_SIZE</a> - 1)) &amp; <a class=\"id\" href=\"#PAGE_MASK\">PAGE_MASK</a>)", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#PFN_UP\">PFN_UP</a>(<a class=\"id\" href=\"#x\">x</a>)<span class=\"ts\"/>(((<a class=\"id\" href=\"#x\">x</a>) + <a class=\"id\" href=\"#PAGE_SIZE\">PAGE_SIZE</a>-1) >> <a class=\"id\" href=\"#PAGE_SHIFT\">PAGE_SHIFT</a>)", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#PFN_DOWN\">PFN_DOWN</a>(<a class=\"id\" href=\"#x\">x</a>)<span class=\"ts\"/>((<a class=\"id\" href=\"#x\">x</a>) >> <a class=\"id\" href=\"#PAGE_SHIFT\">PAGE_SHIFT</a>)", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#PFN_PHYS\">PFN_PHYS</a>(<a class=\"id\" href=\"#x\">x</a>)<span class=\"ts\"/>((<a class=\"id\" href=\"#phys_addr_t\">phys_addr_t</a>)(<a class=\"id\" href=\"#x\">x</a>) << <a class=\"id\" href=\"#PAGE_SHIFT\">PAGE_SHIFT</a>)", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+];
+xr_frag_insert('l/86/bad64dafd7df58a35e029edbc65716b14472db.xr', __xr_tmp);

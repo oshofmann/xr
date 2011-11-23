@@ -1,0 +1,191 @@
+var __xr_tmp = [
+{"id":"pte_pfn", "file":"arch/x86/include/asm/pgtable.h", "line":125, "type":"f", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/fault.c", "line":419, "type":"c", "scope_line":361, "scope_name":"vmalloc_fault", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/gup.c", "line":123, "type":"c", "scope_line":108, "scope_name":"gup_huge_pmd", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/gup.c", "line":126, "type":"c", "scope_line":108, "scope_name":"gup_huge_pmd", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/gup.c", "line":180, "type":"c", "scope_line":165, "scope_name":"gup_huge_pud", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/gup.c", "line":183, "type":"c", "scope_line":165, "scope_name":"gup_huge_pud", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/gup.c", "line":89, "type":"c", "scope_line":70, "scope_name":"gup_pte_range", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/gup.c", "line":90, "type":"c", "scope_line":70, "scope_name":"gup_pte_range", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/hugetlbpage.c", "line":239, "type":"c", "scope_line":233, "scope_name":"follow_huge_pmd", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/hugetlbpage.c", "line":251, "type":"c", "scope_line":245, "scope_name":"follow_huge_pud", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/init_64.c", "line":878, "type":"c", "scope_line":848, "scope_name":"kern_addr_valid", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/pageattr.c", "line":450, "type":"c", "scope_line":390, "scope_name":"try_preserve_large_page", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/pageattr.c", "line":491, "type":"c", "scope_line":390, "scope_name":"try_preserve_large_page", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/pageattr.c", "line":549, "type":"c", "scope_line":503, "scope_name":"split_large_page", }
+,{"id":"pte_pfn", "file":"arch/x86/mm/pageattr.c", "line":654, "type":"c", "scope_line":626, "scope_name":"__change_page_attr", }
+,{"id":"pte_pfn", "file":"arch/x86/xen/enlighten.c", "line":309, "type":"c", "scope_line":298, "scope_name":"set_aliased_prot", }
+,{"id":"pte_pfn", "file":"arch/x86/xen/enlighten.c", "line":392, "type":"c", "scope_line":360, "scope_name":"xen_load_gdt", }
+,{"id":"pte_pfn", "file":"fs/proc/task_mmu.c", "line":602, "type":"c", "scope_line":595, "scope_name":"pte_to_pagemap_entry", }
+,{"id":"pte_pfn", "file":"fs/proc/task_mmu.c", "line":649, "type":"c", "scope_line":645, "scope_name":"huge_pte_to_pagemap_entry", }
+,{"id":"pte_pfn", "file":"mm/fremap.c", "line":34, "type":"c", "scope_line":26, "scope_name":"zap_pte", }
+,{"id":"pte_pfn", "file":"mm/hugetlb.c", "line":2142, "type":"c", "scope_line":2112, "scope_name":"copy_hugetlb_page_range", }
+,{"id":"pte_pfn", "file":"mm/hugetlb.c", "line":2211, "type":"c", "scope_line":2169, "scope_name":"__unmap_hugepage_range", }
+,{"id":"pte_pfn", "file":"mm/hugetlb.c", "line":2233, "type":"c", "scope_line":2169, "scope_name":"__unmap_hugepage_range", }
+,{"id":"pte_pfn", "file":"mm/hugetlb.c", "line":2320, "type":"c", "scope_line":2311, "scope_name":"hugetlb_cow", }
+,{"id":"pte_pfn", "file":"mm/hugetlb.c", "line":2638, "type":"c", "scope_line":2576, "scope_name":"hugetlb_fault", }
+,{"id":"pte_pfn", "file":"mm/hugetlb.c", "line":2738, "type":"c", "scope_line":2685, "scope_name":"follow_hugetlb_page", }
+,{"id":"pte_pfn", "file":"mm/ksm.c", "line":798, "type":"c", "scope_line":761, "scope_name":"replace_page", }
+,{"id":"pte_pfn", "file":"mm/memory.c", "line":1294, "type":"c", "scope_line":1240, "scope_name":"follow_page", }
+,{"id":"pte_pfn", "file":"mm/memory.c", "line":1297, "type":"c", "scope_line":1240, "scope_name":"follow_page", }
+,{"id":"pte_pfn", "file":"mm/memory.c", "line":1399, "type":"c", "scope_line":1342, "scope_name":"__get_user_pages", }
+,{"id":"pte_pfn", "file":"mm/memory.c", "line":1401, "type":"c", "scope_line":1342, "scope_name":"__get_user_pages", }
+,{"id":"pte_pfn", "file":"mm/memory.c", "line":2226, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"pte_pfn", "file":"mm/memory.c", "line":2245, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"pte_pfn", "file":"mm/memory.c", "line":2282, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"pte_pfn", "file":"mm/memory.c", "line":3406, "type":"c", "scope_line":3393, "scope_name":"follow_pfn", }
+,{"id":"pte_pfn", "file":"mm/memory.c", "line":3432, "type":"c", "scope_line":3413, "scope_name":"follow_phys", }
+,{"id":"pte_pfn", "file":"mm/memory.c", "line":598, "type":"c", "scope_line":595, "scope_name":"vm_normal_page", }
+,{"id":"pte_pfn", "file":"mm/mempolicy.c", "line":2579, "type":"c", "scope_line":2558, "scope_name":"check_huge_range", }
+,{"id":"pte_pfn", "file":"mm/migrate.c", "line":133, "type":"c", "scope_line":87, "scope_name":"remove_migration_pte", }
+,{"id":"pte_pfn", "file":"mm/rmap.c", "line":1190, "type":"c", "scope_line":1123, "scope_name":"try_to_unmap_cluster", }
+,{"id":"pte_pfn", "file":"mm/rmap.c", "line":447, "type":"c", "scope_line":410, "scope_name":"page_check_address", }
+,{"id":"pte_pfn", "file":"mm/rmap.c", "line":702, "type":"c", "scope_line":687, "scope_name":"page_mkclean_one", }
+,{"id":"pte_pfn", "file":"mm/sparse-vmemmap.c", "line":91, "type":"c", "scope_line":88, "scope_name":"vmemmap_verify", }
+,{"id":"pte_pfn", "file":"mm/vmalloc.c", "line":229, "type":"c", "scope_line":207, "scope_name":"vmalloc_to_page", }
+,{"id":"pte_pfn_to_mfn", "file":"arch/x86/xen/mmu.c", "line":555, "type":"f", }
+,{"id":"pte_pfn_to_mfn", "file":"arch/x86/xen/mmu.c", "line":610, "type":"c", "scope_line":595, "scope_name":"xen_make_pte", }
+,{"id":"pte_pfn_to_mfn", "file":"arch/x86/xen/mmu.c", "line":619, "type":"c", "scope_line":617, "scope_name":"xen_make_pgd", }
+,{"id":"pte_pfn_to_mfn", "file":"arch/x86/xen/mmu.c", "line":712, "type":"c", "scope_line":710, "scope_name":"xen_make_pmd", }
+,{"id":"pte_pfn_to_mfn", "file":"arch/x86/xen/mmu.c", "line":726, "type":"c", "scope_line":724, "scope_name":"xen_make_pud", }
+,{"id":"pte_pgprot", "file":"arch/x86/include/asm/pgtable.h", "line":266, "type":"d", }
+,{"id":"pte_phys", "file":"arch/x86/include/asm/kvm_para.h", "line":58, "type":"m", "scope_line":56, "scope_name":"struct kvm_mmu_op_write_pte", }
+,{"id":"pte_present", "file":"arch/x86/include/asm/pgtable.h", "line":320, "type":"f", }
+,{"id":"pte_present", "file":"arch/x86/mm/fault.c", "line":409, "type":"c", "scope_line":361, "scope_name":"vmalloc_fault", }
+,{"id":"pte_present", "file":"arch/x86/mm/fault.c", "line":419, "type":"c", "scope_line":361, "scope_name":"vmalloc_fault", }
+,{"id":"pte_present", "file":"arch/x86/mm/fault.c", "line":580, "type":"c", "scope_line":568, "scope_name":"show_fault_oops", }
+,{"id":"pte_present", "file":"arch/x86/mm/fault.c", "line":898, "type":"c", "scope_line":866, "scope_name":"spurious_fault", }
+,{"id":"pte_present", "file":"fs/proc/task_mmu.c", "line":353, "type":"c", "scope_line":334, "scope_name":"smaps_pte_range", }
+,{"id":"pte_present", "file":"fs/proc/task_mmu.c", "line":463, "type":"c", "scope_line":452, "scope_name":"clear_refs_pte_range", }
+,{"id":"pte_present", "file":"fs/proc/task_mmu.c", "line":601, "type":"c", "scope_line":595, "scope_name":"pte_to_pagemap_entry", }
+,{"id":"pte_present", "file":"fs/proc/task_mmu.c", "line":648, "type":"c", "scope_line":645, "scope_name":"huge_pte_to_pagemap_entry", }
+,{"id":"pte_present", "file":"include/linux/swapops.h", "line":49, "type":"c", "scope_line":47, "scope_name":"is_swap_pte", }
+,{"id":"pte_present", "file":"mm/fremap.c", "line":31, "type":"c", "scope_line":26, "scope_name":"zap_pte", }
+,{"id":"pte_present", "file":"mm/hugetlb.c", "line":2160, "type":"c", "scope_line":2156, "scope_name":"is_hugetlb_entry_hwpoisoned", }
+,{"id":"pte_present", "file":"mm/memcontrol.c", "line":4391, "type":"c", "scope_line":4383, "scope_name":"is_target_pte_for_mc", }
+,{"id":"pte_present", "file":"mm/memory.c", "line":1287, "type":"c", "scope_line":1240, "scope_name":"follow_page", }
+,{"id":"pte_present", "file":"mm/memory.c", "line":3150, "type":"c", "scope_line":3142, "scope_name":"handle_pte_fault", }
+,{"id":"pte_present", "file":"mm/memory.c", "line":3373, "type":"c", "scope_line":3346, "scope_name":"follow_pte", }
+,{"id":"pte_present", "file":"mm/memory.c", "line":659, "type":"c", "scope_line":649, "scope_name":"copy_one_pte", }
+,{"id":"pte_present", "file":"mm/memory.c", "line":914, "type":"c", "scope_line":891, "scope_name":"zap_pte_range", }
+,{"id":"pte_present", "file":"mm/mempolicy.c", "line":479, "type":"c", "scope_line":465, "scope_name":"check_pte_range", }
+,{"id":"pte_present", "file":"mm/mincore.c", "line":121, "type":"c", "scope_line":105, "scope_name":"mincore_pte_range", }
+,{"id":"pte_present", "file":"mm/mprotect.c", "line":49, "type":"c", "scope_line":38, "scope_name":"change_pte_range", }
+,{"id":"pte_present", "file":"mm/rmap.c", "line":1174, "type":"c", "scope_line":1123, "scope_name":"try_to_unmap_cluster", }
+,{"id":"pte_present", "file":"mm/rmap.c", "line":439, "type":"c", "scope_line":410, "scope_name":"page_check_address", }
+,{"id":"pte_present", "file":"mm/rmap.c", "line":447, "type":"c", "scope_line":410, "scope_name":"page_check_address", }
+,{"id":"pte_present", "file":"mm/vmalloc.c", "line":228, "type":"c", "scope_line":207, "scope_name":"vmalloc_to_page", }
+,{"id":"pte_present", "file":"mm/vmalloc.c", "line":45, "type":"c", "scope_line":38, "scope_name":"vunmap_pte_range", }
+,{"id":"pte_same", "file":"arch/x86/include/asm/pgtable.h", "line":315, "type":"f", }
+,{"id":"pte_same", "file":"arch/x86/mm/pgtable.c", "line":302, "type":"c", "scope_line":298, "scope_name":"ptep_set_access_flags", }
+,{"id":"pte_same", "file":"mm/hugetlb.c", "line":2395, "type":"c", "scope_line":2311, "scope_name":"hugetlb_cow", }
+,{"id":"pte_same", "file":"mm/hugetlb.c", "line":2644, "type":"c", "scope_line":2576, "scope_name":"hugetlb_fault", }
+,{"id":"pte_same", "file":"mm/ksm.c", "line":790, "type":"c", "scope_line":761, "scope_name":"replace_page", }
+,{"id":"pte_same", "file":"mm/memory.c", "line":2042, "type":"c", "scope_line":2034, "scope_name":"pte_unmap_same", }
+,{"id":"pte_same", "file":"mm/memory.c", "line":2143, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"pte_same", "file":"mm/memory.c", "line":2211, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"pte_same", "file":"mm/memory.c", "line":2274, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"pte_same", "file":"mm/memory.c", "line":2660, "type":"c", "scope_line":2621, "scope_name":"do_swap_page", }
+,{"id":"pte_same", "file":"mm/memory.c", "line":2712, "type":"c", "scope_line":2621, "scope_name":"do_swap_page", }
+,{"id":"pte_same", "file":"mm/memory.c", "line":3023, "type":"c", "scope_line":2908, "scope_name":"__do_fault", }
+,{"id":"pte_same", "file":"mm/memory.c", "line":3169, "type":"c", "scope_line":3142, "scope_name":"handle_pte_fault", }
+,{"id":"pte_same", "file":"mm/swapfile.c", "line":889, "type":"c", "scope_line":875, "scope_name":"unuse_pte", }
+,{"id":"pte_same", "file":"mm/swapfile.c", "line":938, "type":"c", "scope_line":915, "scope_name":"unuse_pte_range", }
+,{"id":"pte_set_flags", "file":"arch/x86/include/asm/pgtable.h", "line":143, "type":"f", }
+,{"id":"pte_set_flags", "file":"arch/x86/include/asm/pgtable.h", "line":179, "type":"c", "scope_line":177, "scope_name":"pte_mkdirty", }
+,{"id":"pte_set_flags", "file":"arch/x86/include/asm/pgtable.h", "line":184, "type":"c", "scope_line":182, "scope_name":"pte_mkyoung", }
+,{"id":"pte_set_flags", "file":"arch/x86/include/asm/pgtable.h", "line":189, "type":"c", "scope_line":187, "scope_name":"pte_mkwrite", }
+,{"id":"pte_set_flags", "file":"arch/x86/include/asm/pgtable.h", "line":194, "type":"c", "scope_line":192, "scope_name":"pte_mkhuge", }
+,{"id":"pte_set_flags", "file":"arch/x86/include/asm/pgtable.h", "line":204, "type":"c", "scope_line":202, "scope_name":"pte_mkglobal", }
+,{"id":"pte_set_flags", "file":"arch/x86/include/asm/pgtable.h", "line":214, "type":"c", "scope_line":212, "scope_name":"pte_mkspecial", }
+,{"id":"pte_special", "file":"arch/x86/include/asm/pgtable.h", "line":120, "type":"f", }
+,{"id":"pte_special", "file":"mm/memory.c", "line":601, "type":"c", "scope_line":595, "scope_name":"vm_normal_page", }
+,{"id":"pte_t", "file":"arch/x86/include/asm/pgtable_64_types.h", "line":16, "type":"t", }
+,{"id":"pte_to_pagemap_entry", "file":"fs/proc/task_mmu.c", "line":595, "type":"f", }
+,{"id":"pte_to_pagemap_entry", "file":"fs/proc/task_mmu.c", "line":630, "type":"c", "scope_line":607, "scope_name":"pagemap_pte_range", }
+,{"id":"pte_to_pgoff", "file":"arch/x86/include/asm/pgtable_64.h", "line":119, "type":"d", }
+,{"id":"pte_to_swp_entry", "file":"fs/proc/task_mmu.c", "line":591, "type":"c", "scope_line":589, "scope_name":"swap_pte_to_pagemap_entry", }
+,{"id":"pte_to_swp_entry", "file":"include/linux/swapops.h", "line":57, "type":"f", }
+,{"id":"pte_to_swp_entry", "file":"mm/fremap.c", "line":47, "type":"c", "scope_line":26, "scope_name":"zap_pte", }
+,{"id":"pte_to_swp_entry", "file":"mm/hugetlb.c", "line":2162, "type":"c", "scope_line":2156, "scope_name":"is_hugetlb_entry_hwpoisoned", }
+,{"id":"pte_to_swp_entry", "file":"mm/memcontrol.c", "line":4334, "type":"c", "scope_line":4329, "scope_name":"mc_handle_swap_pte", }
+,{"id":"pte_to_swp_entry", "file":"mm/memory-failure.c", "line":1388, "type":"c", "scope_line":1364, "scope_name":"is_hwpoison_address", }
+,{"id":"pte_to_swp_entry", "file":"mm/memory.c", "line":2636, "type":"c", "scope_line":2621, "scope_name":"do_swap_page", }
+,{"id":"pte_to_swp_entry", "file":"mm/memory.c", "line":661, "type":"c", "scope_line":649, "scope_name":"copy_one_pte", }
+,{"id":"pte_to_swp_entry", "file":"mm/memory.c", "line":972, "type":"c", "scope_line":891, "scope_name":"zap_pte_range", }
+,{"id":"pte_to_swp_entry", "file":"mm/migrate.c", "line":123, "type":"c", "scope_line":87, "scope_name":"remove_migration_pte", }
+,{"id":"pte_to_swp_entry", "file":"mm/migrate.c", "line":178, "type":"c", "scope_line":165, "scope_name":"migration_entry_wait", }
+,{"id":"pte_to_swp_entry", "file":"mm/mincore.c", "line":127, "type":"c", "scope_line":105, "scope_name":"mincore_pte_range", }
+,{"id":"pte_to_swp_entry", "file":"mm/mprotect.c", "line":64, "type":"c", "scope_line":38, "scope_name":"change_pte_range", }
+,{"id":"pte_to_swp_entry", "file":"mm/swapfile.c", "line":1979, "type":"c", "scope_line":1806, "scope_name":"sys_swapon", }
+,{"id":"pte_unmap", "file":"arch/x86/include/asm/pgtable_64.h", "line":129, "type":"d", }
+,{"id":"pte_unmap_nested", "file":"arch/x86/include/asm/pgtable_64.h", "line":130, "type":"d", }
+,{"id":"pte_unmap_same", "file":"mm/memory.c", "line":2034, "type":"f", }
+,{"id":"pte_unmap_same", "file":"mm/memory.c", "line":2633, "type":"c", "scope_line":2621, "scope_name":"do_swap_page", }
+,{"id":"pte_unmap_same", "file":"mm/memory.c", "line":3114, "type":"c", "scope_line":3106, "scope_name":"do_nonlinear_fault", }
+,{"id":"pte_unmap_unlock", "file":"include/linux/mm.h", "line":1112, "type":"d", }
+,{"id":"pte_update", "file":"arch/x86/include/asm/paravirt.h", "line":438, "type":"f", }
+,{"id":"pte_update", "file":"arch/x86/include/asm/paravirt_types.h", "line":269, "type":"m", "scope_line":222, "scope_name":"struct pv_mmu_ops", }
+,{"id":"pte_update", "file":"arch/x86/include/asm/pgtable.h", "line":576, "type":"c", "scope_line":572, "scope_name":"ptep_get_and_clear", }
+,{"id":"pte_update", "file":"arch/x86/include/asm/pgtable.h", "line":603, "type":"c", "scope_line":599, "scope_name":"ptep_set_wrprotect", }
+,{"id":"pte_update", "file":"arch/x86/mm/pgtable.c", "line":323, "type":"c", "scope_line":313, "scope_name":"ptep_test_and_clear_young", }
+,{"id":"pte_update_defer", "file":"arch/x86/include/asm/paravirt.h", "line":444, "type":"f", }
+,{"id":"pte_update_defer", "file":"arch/x86/include/asm/paravirt_types.h", "line":271, "type":"m", "scope_line":222, "scope_name":"struct pv_mmu_ops", }
+,{"id":"pte_update_defer", "file":"arch/x86/mm/pgtable.c", "line":306, "type":"c", "scope_line":298, "scope_name":"ptep_set_access_flags", }
+,{"id":"pte_val", "file":"arch/x86/include/asm/kvm_para.h", "line":59, "type":"m", "scope_line":56, "scope_name":"struct kvm_mmu_op_write_pte", }
+,{"id":"pte_val", "file":"arch/x86/include/asm/paravirt.h", "line":466, "type":"f", }
+,{"id":"pte_val", "file":"arch/x86/include/asm/paravirt_types.h", "line":279, "type":"m", "scope_line":222, "scope_name":"struct pv_mmu_ops", }
+,{"id":"pte_val", "file":"arch/x86/include/asm/pgtable.h", "line":127, "type":"c", "scope_line":125, "scope_name":"pte_pfn", }
+,{"id":"pte_val", "file":"arch/x86/include/asm/pgtable.h", "line":245, "type":"c", "scope_line":243, "scope_name":"pte_modify", }
+,{"id":"pte_val", "file":"arch/x86/kernel/kvm.c", "line":124, "type":"c", "scope_line":122, "scope_name":"kvm_set_pte", }
+,{"id":"pte_val", "file":"arch/x86/kernel/kvm.c", "line":130, "type":"c", "scope_line":127, "scope_name":"kvm_set_pte_at", }
+,{"id":"pte_val", "file":"arch/x86/mm/fault.c", "line":484, "type":"c", "scope_line":448, "scope_name":"dump_pagetable", }
+,{"id":"pte_val", "file":"arch/x86/mm/init_64.c", "line":335, "type":"c", "scope_line":309, "scope_name":"phys_pte_init", }
+,{"id":"pte_val", "file":"arch/x86/mm/init_64.c", "line":987, "type":"c", "scope_line":939, "scope_name":"vmemmap_populate", }
+,{"id":"pte_val", "file":"arch/x86/mm/kmmio.c", "line":129, "type":"c", "scope_line":127, "scope_name":"clear_pte_presence", }
+,{"id":"pte_val", "file":"arch/x86/mm/mmio-mod.c", "line":111, "type":"c", "scope_line":95, "scope_name":"print_pte", }
+,{"id":"pte_val", "file":"arch/x86/mm/pageattr.c", "line":205, "type":"c", "scope_line":180, "scope_name":"cpa_flush_range", }
+,{"id":"pte_val", "file":"arch/x86/mm/pageattr.c", "line":243, "type":"c", "scope_line":210, "scope_name":"cpa_flush_array", }
+,{"id":"pte_val", "file":"arch/x86/mm/pageattr.c", "line":648, "type":"c", "scope_line":626, "scope_name":"__change_page_attr", }
+,{"id":"pte_val", "file":"arch/x86/mm/pageattr.c", "line":671, "type":"c", "scope_line":626, "scope_name":"__change_page_attr", }
+,{"id":"pte_val", "file":"include/linux/swapops.h", "line":62, "type":"c", "scope_line":57, "scope_name":"pte_to_swp_entry", }
+,{"id":"pte_val", "file":"mm/memcontrol.c", "line":4368, "type":"c", "scope_line":4350, "scope_name":"mc_handle_file_pte", }
+,{"id":"pte_val", "file":"mm/memory.c", "line":3125, "type":"c", "scope_line":3106, "scope_name":"do_nonlinear_fault", }
+,{"id":"pte_val", "file":"mm/memory.c", "line":507, "type":"c", "scope_line":472, "scope_name":"print_bad_pte", }
+,{"id":"pte_val", "file":"mm/mincore.c", "line":124, "type":"c", "scope_line":105, "scope_name":"mincore_pte_range", }
+,{"id":"pte_val_ma", "file":"arch/x86/include/asm/xen/page.h", "line":142, "type":"f", }
+,{"id":"pte_val_ma", "file":"arch/x86/xen/mmu.c", "line":408, "type":"c", "scope_line":398, "scope_name":"xen_set_iomap_pte", }
+,{"id":"pte_val_ma", "file":"arch/x86/xen/mmu.c", "line":534, "type":"c", "scope_line":526, "scope_name":"xen_ptep_modify_prot_commit", }
+,{"id":"pte_write", "file":"arch/x86/include/asm/pgtable.h", "line":95, "type":"f", }
+,{"id":"pte_write", "file":"arch/x86/mm/fault.c", "line":845, "type":"c", "scope_line":843, "scope_name":"spurious_fault_check", }
+,{"id":"pte_write", "file":"mm/hugetlb.c", "line":2620, "type":"c", "scope_line":2576, "scope_name":"hugetlb_fault", }
+,{"id":"pte_write", "file":"mm/hugetlb.c", "line":2649, "type":"c", "scope_line":2576, "scope_name":"hugetlb_fault", }
+,{"id":"pte_write", "file":"mm/hugetlb.c", "line":2722, "type":"c", "scope_line":2685, "scope_name":"follow_hugetlb_page", }
+,{"id":"pte_write", "file":"mm/ksm.c", "line":715, "type":"c", "scope_line":697, "scope_name":"write_protect_page", }
+,{"id":"pte_write", "file":"mm/memory.c", "line":1289, "type":"c", "scope_line":1240, "scope_name":"follow_page", }
+,{"id":"pte_write", "file":"mm/memory.c", "line":3172, "type":"c", "scope_line":3142, "scope_name":"handle_pte_fault", }
+,{"id":"pte_write", "file":"mm/memory.c", "line":3428, "type":"c", "scope_line":3413, "scope_name":"follow_phys", }
+,{"id":"pte_write", "file":"mm/rmap.c", "line":1054, "type":"c", "scope_line":976, "scope_name":"try_to_unmap_one", }
+,{"id":"pte_write", "file":"mm/rmap.c", "line":1061, "type":"c", "scope_line":976, "scope_name":"try_to_unmap_one", }
+,{"id":"pte_write", "file":"mm/rmap.c", "line":699, "type":"c", "scope_line":687, "scope_name":"page_mkclean_one", }
+,{"id":"pte_wrprotect", "file":"arch/x86/include/asm/hugetlb.h", "line":63, "type":"c", "scope_line":61, "scope_name":"huge_pte_wrprotect", }
+,{"id":"pte_wrprotect", "file":"arch/x86/include/asm/pgtable.h", "line":167, "type":"f", }
+,{"id":"pte_wrprotect", "file":"arch/x86/xen/mmu.c", "line":364, "type":"c", "scope_line":355, "scope_name":"make_lowmem_page_readonly", }
+,{"id":"pte_wrprotect", "file":"mm/ksm.c", "line":740, "type":"c", "scope_line":697, "scope_name":"write_protect_page", }
+,{"id":"pte_wrprotect", "file":"mm/memory.c", "line":696, "type":"c", "scope_line":649, "scope_name":"copy_one_pte", }
+,{"id":"pte_wrprotect", "file":"mm/rmap.c", "line":704, "type":"c", "scope_line":687, "scope_name":"page_mkclean_one", }
+,{"id":"pte_young", "file":"arch/x86/include/asm/pgtable.h", "line":90, "type":"f", }
+,{"id":"pte_young", "file":"arch/x86/mm/pgtable.c", "line":318, "type":"c", "scope_line":313, "scope_name":"ptep_test_and_clear_young", }
+,{"id":"pte_young", "file":"fs/proc/task_mmu.c", "line":362, "type":"c", "scope_line":334, "scope_name":"smaps_pte_range", }
+,{"id":"pte_young", "file":"mm/memory.c", "line":951, "type":"c", "scope_line":891, "scope_name":"zap_pte_range", }
+,{"id":"ptep_clear_flush", "file":"include/asm-generic/pgtable.h", "line":84, "type":"d", }
+,{"id":"ptep_clear_flush_notify", "file":"include/linux/mmu_notifier.h", "line":236, "type":"d", }
+,{"id":"ptep_clear_flush_young", "file":"arch/x86/mm/pgtable.c", "line":328, "type":"f", }
+,{"id":"ptep_clear_flush_young", "file":"mm/rmap.c", "line":1002, "type":"c", "scope_line":976, "scope_name":"try_to_unmap_one", }
+,{"id":"ptep_clear_flush_young", "file":"mm/rmap.c", "line":1186, "type":"c", "scope_line":1123, "scope_name":"try_to_unmap_cluster", }
+,{"id":"ptep_clear_flush_young", "file":"mm/rmap.c", "line":509, "type":"c", "scope_line":485, "scope_name":"page_referenced_one", }
+,{"id":"ptep_clear_flush_young_notify", "file":"include/linux/mmu_notifier.h", "line":246, "type":"d", }
+,{"id":"ptep_get_and_clear", "file":"arch/x86/include/asm/hugetlb.h", "line":48, "type":"c", "scope_line":45, "scope_name":"huge_ptep_get_and_clear", }
+,{"id":"ptep_get_and_clear", "file":"arch/x86/include/asm/pgtable.h", "line":572, "type":"f", }
+,];
+xr_frag_insert('t/46/31455ab0ad59af351163c24b15d7dd4ece255c.xr', __xr_tmp);

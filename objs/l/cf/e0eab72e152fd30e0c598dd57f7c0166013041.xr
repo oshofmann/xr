@@ -1,0 +1,21 @@
+var __xr_tmp = [
+"<span class=\"comment\">/*</span>", 
+"<span class=\"comment\"> *  include/linux/anon_inodes.h</span>", 
+"<span class=\"comment\"> *</span>", 
+"<span class=\"comment\"> *  Copyright (C) 2007  Davide Libenzi &lt;davidel@xmailserver.org&gt;</span>", 
+"<span class=\"comment\"> *</span>", 
+"<span class=\"comment\"> */</span>", 
+"", 
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#_LINUX_ANON_INODES_H\">_LINUX_ANON_INODES_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#_LINUX_ANON_INODES_H\">_LINUX_ANON_INODES_H</a>", 
+"", 
+"struct <a class=\"id\" href=\"#file\">file</a> *<a class=\"id\" href=\"#anon_inode_getfile\">anon_inode_getfile</a>(const char *<a class=\"id\" href=\"#name\">name</a>,", 
+"<span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/>const struct <a class=\"id\" href=\"#file_operations\">file_operations</a> *<a class=\"id\" href=\"#fops\">fops</a>,", 
+"<span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/>void *<a class=\"id\" href=\"#priv\">priv</a>, int <a class=\"id\" href=\"#flags\">flags</a>);", 
+"int <a class=\"id\" href=\"#anon_inode_getfd\">anon_inode_getfd</a>(const char *<a class=\"id\" href=\"#name\">name</a>, const struct <a class=\"id\" href=\"#file_operations\">file_operations</a> *<a class=\"id\" href=\"#fops\">fops</a>,", 
+"<span class=\"ts\"/><span class=\"ts\"/>     void *<a class=\"id\" href=\"#priv\">priv</a>, int <a class=\"id\" href=\"#flags\">flags</a>);", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* _LINUX_ANON_INODES_H */</span>", 
+"", 
+];
+xr_frag_insert('l/cf/e0eab72e152fd30e0c598dd57f7c0166013041.xr', __xr_tmp);

@@ -1,0 +1,70 @@
+var __xr_tmp = [
+{"id":"trace_nowake_buffer_unlock_commit", "file":"include/trace/events/writeback.h", "line":13, "type":"c", "scope_line":13, "scope_name":"ftrace_raw_event_writeback_work_class", }
+,{"id":"trace_nowake_buffer_unlock_commit", "file":"include/trace/events/writeback.h", "line":53, "type":"c", "scope_line":53, "scope_name":"ftrace_raw_event_writeback_pages_written", }
+,{"id":"trace_nowake_buffer_unlock_commit", "file":"include/trace/events/writeback.h", "line":65, "type":"c", "scope_line":65, "scope_name":"ftrace_raw_event_writeback_class", }
+,{"id":"trace_nowake_buffer_unlock_commit", "file":"include/trace/events/writeback.h", "line":91, "type":"c", "scope_line":91, "scope_name":"ftrace_raw_event_wbc_class", }
+,{"id":"trace_nowake_buffer_unlock_commit", "file":"kernel/trace/trace.c", "line":1179, "type":"f", }
+,{"id":"trace_nowake_buffer_unlock_commit", "file":"kernel/trace/trace_kprobe.c", "line":1301, "type":"c", "scope_line":1273, "scope_name":"kprobe_trace_func", }
+,{"id":"trace_nowake_buffer_unlock_commit", "file":"kernel/trace/trace_kprobe.c", "line":1333, "type":"c", "scope_line":1305, "scope_name":"kretprobe_trace_func", }
+,{"id":"trace_ops", "file":"kernel/trace/trace_functions.c", "line":149, "type":"v", }
+,{"id":"trace_option_dentry", "file":"kernel/trace/trace.c", "line":4032, "type":"s", }
+,{"id":"trace_options", "file":"kernel/trace/trace.c", "line":407, "type":"v", }
+,{"id":"trace_options_core_fops", "file":"kernel/trace/trace.c", "line":4144, "type":"v", }
+,{"id":"trace_options_core_read", "file":"kernel/trace/trace.c", "line":4099, "type":"f", }
+,{"id":"trace_options_core_write", "file":"kernel/trace/trace.c", "line":4114, "type":"f", }
+,{"id":"trace_options_fops", "file":"kernel/trace/trace.c", "line":4092, "type":"v", }
+,{"id":"trace_options_init_dentry", "file":"kernel/trace/trace.c", "line":4167, "type":"f", }
+,{"id":"trace_options_init_dentry", "file":"kernel/trace/trace.c", "line":4195, "type":"c", "scope_line":4188, "scope_name":"create_trace_option_file", }
+,{"id":"trace_options_init_dentry", "file":"kernel/trace/trace.c", "line":4260, "type":"c", "scope_line":4255, "scope_name":"create_trace_option_core_file", }
+,{"id":"trace_options_init_dentry", "file":"kernel/trace/trace.c", "line":4273, "type":"c", "scope_line":4268, "scope_name":"create_trace_options_dir", }
+,{"id":"trace_options_read", "file":"kernel/trace/trace.c", "line":4038, "type":"f", }
+,{"id":"trace_options_write", "file":"kernel/trace/trace.c", "line":4053, "type":"f", }
+,{"id":"trace_opts", "file":"kernel/trace/trace_functions_graph.c", "line":45, "type":"v", }
+,{"id":"trace_overrun", "file":"include/linux/sched.h", "line":1479, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"trace_panic_handler", "file":"kernel/trace/trace.c", "line":4347, "type":"f", }
+,{"id":"trace_panic_notifier", "file":"kernel/trace/trace.c", "line":4355, "type":"v", }
+,{"id":"trace_parser", "file":"kernel/trace/trace.h", "line":548, "type":"s", }
+,{"id":"trace_parser_clear", "file":"kernel/trace/ftrace.c", "line":2218, "type":"c", "scope_line":2192, "scope_name":"ftrace_regex_write", }
+,{"id":"trace_parser_clear", "file":"kernel/trace/trace.c", "line":484, "type":"c", "scope_line":476, "scope_name":"trace_get_user", }
+,{"id":"trace_parser_clear", "file":"kernel/trace/trace.h", "line":565, "type":"f", }
+,{"id":"trace_parser_cont", "file":"kernel/trace/ftrace.c", "line":2214, "type":"c", "scope_line":2192, "scope_name":"ftrace_regex_write", }
+,{"id":"trace_parser_cont", "file":"kernel/trace/trace.h", "line":560, "type":"f", }
+,{"id":"trace_parser_get_init", "file":"kernel/trace/ftrace.c", "line":1643, "type":"c", "scope_line":1630, "scope_name":"ftrace_regex_open", }
+,{"id":"trace_parser_get_init", "file":"kernel/trace/ftrace.c", "line":2603, "type":"c", "scope_line":2591, "scope_name":"ftrace_graph_write", }
+,{"id":"trace_parser_get_init", "file":"kernel/trace/trace.c", "line":445, "type":"f", }
+,{"id":"trace_parser_get_init", "file":"kernel/trace/trace_events.c", "line":341, "type":"c", "scope_line":327, "scope_name":"ftrace_event_write", }
+,{"id":"trace_parser_loaded", "file":"kernel/trace/ftrace.c", "line":2214, "type":"c", "scope_line":2192, "scope_name":"ftrace_regex_write", }
+,{"id":"trace_parser_loaded", "file":"kernel/trace/ftrace.c", "line":2374, "type":"c", "scope_line":2358, "scope_name":"ftrace_regex_release", }
+,{"id":"trace_parser_loaded", "file":"kernel/trace/ftrace.c", "line":2610, "type":"c", "scope_line":2591, "scope_name":"ftrace_graph_write", }
+,{"id":"trace_parser_loaded", "file":"kernel/trace/trace.h", "line":555, "type":"f", }
+,{"id":"trace_parser_loaded", "file":"kernel/trace/trace_events.c", "line":346, "type":"c", "scope_line":327, "scope_name":"ftrace_event_write", }
+,{"id":"trace_parser_put", "file":"kernel/trace/ftrace.c", "line":1663, "type":"c", "scope_line":1630, "scope_name":"ftrace_regex_open", }
+,{"id":"trace_parser_put", "file":"kernel/trace/ftrace.c", "line":2384, "type":"c", "scope_line":2358, "scope_name":"ftrace_regex_release", }
+,{"id":"trace_parser_put", "file":"kernel/trace/ftrace.c", "line":2623, "type":"c", "scope_line":2591, "scope_name":"ftrace_graph_write", }
+,{"id":"trace_parser_put", "file":"kernel/trace/trace.c", "line":460, "type":"f", }
+,{"id":"trace_parser_put", "file":"kernel/trace/trace_events.c", "line":362, "type":"c", "scope_line":327, "scope_name":"ftrace_event_write", }
+,{"id":"trace_pc", "file":"arch/x86/mm/mmio-mod.c", "line":80, "type":"v", }
+,{"id":"trace_power_end", "file":"arch/x86/kernel/process.c", "line":487, "type":"c", "scope_line":481, "scope_name":"poll_idle", }
+,{"id":"trace_power_end", "file":"arch/x86/kernel/process_64.c", "line":144, "type":"c", "scope_line":110, "scope_name":"cpu_idle", }
+,{"id":"trace_power_end", "file":"drivers/cpuidle/cpuidle.c", "line":109, "type":"c", "scope_line":50, "scope_name":"cpuidle_idle_call", }
+,{"id":"trace_power_end", "file":"include/trace/events/power.h", "line":55, "type":"f", }
+,{"id":"trace_power_frequency", "file":"drivers/cpufreq/cpufreq.c", "line":357, "type":"c", "scope_line":321, "scope_name":"cpufreq_notify_transition", }
+,{"id":"trace_power_frequency", "file":"include/trace/events/power.h", "line":48, "type":"f", }
+,{"id":"trace_power_start", "file":"arch/x86/kernel/process.c", "line":376, "type":"c", "scope_line":373, "scope_name":"default_idle", }
+,{"id":"trace_power_start", "file":"arch/x86/kernel/process.c", "line":446, "type":"c", "scope_line":444, "scope_name":"mwait_idle_with_hints", }
+,{"id":"trace_power_start", "file":"arch/x86/kernel/process.c", "line":462, "type":"c", "scope_line":459, "scope_name":"mwait_idle", }
+,{"id":"trace_power_start", "file":"arch/x86/kernel/process.c", "line":483, "type":"c", "scope_line":481, "scope_name":"poll_idle", }
+,{"id":"trace_power_start", "file":"include/trace/events/power.h", "line":41, "type":"f", }
+,{"id":"trace_preempt_off", "file":"include/linux/ftrace.h", "line":337, "type":"f", }
+,{"id":"trace_preempt_on", "file":"include/linux/ftrace.h", "line":336, "type":"f", }
+,{"id":"trace_print_bprintk_msg_only", "file":"kernel/trace/trace.c", "line":2007, "type":"c", "scope_line":1990, "scope_name":"print_trace_line", }
+,{"id":"trace_print_bprintk_msg_only", "file":"kernel/trace/trace_functions_graph.c", "line":1023, "type":"c", "scope_line":979, "scope_name":"print_graph_comment", }
+,{"id":"trace_print_bprintk_msg_only", "file":"kernel/trace/trace_output.c", "line":40, "type":"f", }
+,{"id":"trace_print_context", "file":"kernel/trace/trace.c", "line":1871, "type":"c", "scope_line":1853, "scope_name":"print_trace_fmt", }
+,{"id":"trace_print_context", "file":"kernel/trace/trace_output.c", "line":591, "type":"f", }
+,{"id":"trace_print_event", "file":"kernel/trace/trace_output.c", "line":1239, "type":"v", }
+,{"id":"trace_print_flags", "file":"include/linux/ftrace_event.h", "line":14, "type":"s", }
+,{"id":"trace_print_func", "file":"include/linux/ftrace_event.h", "line":79, "type":"t", }
+,{"id":"trace_print_funcs", "file":"kernel/trace/trace_output.c", "line":1234, "type":"v", }
+,];
+xr_frag_insert('t/06/046784f95345e86f445720f699684844502023.xr', __xr_tmp);

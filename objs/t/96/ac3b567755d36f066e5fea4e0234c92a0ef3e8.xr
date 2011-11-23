@@ -1,0 +1,187 @@
+var __xr_tmp = [
+{"id":"can_do_mlock", "file":"mm/mlock.c", "line":559, "type":"c", "scope_line":550, "scope_name":"sys_mlockall", }
+,{"id":"can_do_mlock", "file":"mm/mmap.c", "line":1019, "type":"c", "scope_line":965, "scope_name":"do_mmap_pgoff", }
+,{"id":"can_merge", "file":"fs/ext4/block_validity.c", "line":103, "type":"c", "scope_line":59, "scope_name":"add_system_zone", }
+,{"id":"can_merge", "file":"fs/ext4/block_validity.c", "line":115, "type":"c", "scope_line":59, "scope_name":"add_system_zone", }
+,{"id":"can_merge", "file":"fs/ext4/block_validity.c", "line":46, "type":"f", }
+,{"id":"can_merge", "file":"fs/ext4/mballoc.c", "line":4389, "type":"f", }
+,{"id":"can_merge", "file":"fs/ext4/mballoc.c", "line":4450, "type":"c", "scope_line":4399, "scope_name":"ext4_mb_free_metadata", }
+,{"id":"can_merge", "file":"fs/ext4/mballoc.c", "line":4464, "type":"c", "scope_line":4399, "scope_name":"ext4_mb_free_metadata", }
+,{"id":"can_merge", "file":"include/linux/pipe_fs_i.h", "line":81, "type":"m", "scope_line":75, "scope_name":"struct pipe_buf_operations", }
+,{"id":"can_migrate_task", "file":"kernel/sched_fair.c", "line":1772, "type":"f", }
+,{"id":"can_migrate_task", "file":"kernel/sched_fair.c", "line":1838, "type":"c", "scope_line":1827, "scope_name":"move_one_task", }
+,{"id":"can_migrate_task", "file":"kernel/sched_fair.c", "line":1875, "type":"c", "scope_line":1856, "scope_name":"balance_tasks", }
+,{"id":"can_nice", "file":"kernel/sched.c", "line":4441, "type":"f", }
+,{"id":"can_nice", "file":"kernel/sched.c", "line":4479, "type":"c", "scope_line":4459, "scope_name":"sys_nice", }
+,{"id":"can_nice", "file":"kernel/sys.c", "line":133, "type":"c", "scope_line":123, "scope_name":"set_one_prio", }
+,{"id":"can_optimize", "file":"arch/x86/kernel/kprobes.c", "line":1266, "type":"f", }
+,{"id":"can_optimize", "file":"arch/x86/kernel/kprobes.c", "line":1364, "type":"c", "scope_line":1358, "scope_name":"arch_prepare_optimized_kprobe", }
+,{"id":"can_probe", "file":"arch/x86/kernel/kprobes.c", "line":237, "type":"f", }
+,{"id":"can_probe", "file":"arch/x86/kernel/kprobes.c", "line":371, "type":"c", "scope_line":366, "scope_name":"arch_prepare_kprobe", }
+,{"id":"can_queue", "file":"include/scsi/scsi_device.h", "line":253, "type":"m", "scope_line":232, "scope_name":"struct scsi_target", }
+,{"id":"can_queue", "file":"include/scsi/scsi_host.h", "line":375, "type":"m", "scope_line":52, "scope_name":"struct scsi_host_template", }
+,{"id":"can_queue", "file":"include/scsi/scsi_host.h", "line":599, "type":"m", "scope_line":521, "scope_name":"struct Scsi_Host", }
+,{"id":"can_request_irq", "file":"arch/x86/pci/irq.c", "line":956, "type":"c", "scope_line":880, "scope_name":"pcibios_lookup_irq", }
+,{"id":"can_request_irq", "file":"kernel/irq/manage.c", "line":397, "type":"f", }
+,{"id":"can_skip_ioresource_align", "file":"arch/x86/pci/common.c", "line":81, "type":"f", }
+,{"id":"can_skip_pciprobe_dmi_table", "file":"arch/x86/pci/common.c", "line":88, "type":"v", }
+,{"id":"can_sleep", "file":"include/asm-generic/gpio.h", "line":120, "type":"m", "scope_line":90, "scope_name":"struct gpio_chip", }
+,{"id":"can_submit", "file":"include/linux/usb.h", "line":454, "type":"m", "scope_line":423, "scope_name":"struct usb_device", }
+,{"id":"can_unuse", "file":"fs/inode.c", "line":422, "type":"f", }
+,{"id":"can_unuse", "file":"fs/inode.c", "line":481, "type":"c", "scope_line":448, "scope_name":"prune_icache", }
+,{"id":"can_use_console", "file":"kernel/printk.c", "line":639, "type":"f", }
+,{"id":"can_use_console", "file":"kernel/printk.c", "line":667, "type":"c", "scope_line":654, "scope_name":"acquire_console_semaphore_for_printk", }
+,{"id":"can_vma_merge_after", "file":"mm/mmap.c", "line":725, "type":"f", }
+,{"id":"can_vma_merge_after", "file":"mm/mmap.c", "line":796, "type":"c", "scope_line":768, "scope_name":"vma_merge", }
+,{"id":"can_vma_merge_before", "file":"mm/mmap.c", "line":706, "type":"f", }
+,{"id":"can_vma_merge_before", "file":"mm/mmap.c", "line":803, "type":"c", "scope_line":768, "scope_name":"vma_merge", }
+,{"id":"can_vma_merge_before", "file":"mm/mmap.c", "line":823, "type":"c", "scope_line":768, "scope_name":"vma_merge", }
+,{"id":"can_wakeup", "file":"drivers/pci/pci.h", "line":58, "type":"m", "scope_line":54, "scope_name":"struct pci_platform_pm_ops", }
+,{"id":"can_wakeup", "file":"include/linux/pm.h", "line":453, "type":"m", "scope_line":451, "scope_name":"struct dev_pm_info", }
+,{"id":"can_wakeup", "file":"include/linux/pnp.h", "line":417, "type":"m", "scope_line":407, "scope_name":"struct pnp_protocol", }
+,{"id":"cancel_attach", "file":"include/linux/cgroup.h", "line":467, "type":"m", "scope_line":460, "scope_name":"struct cgroup_subsys", }
+,{"id":"cancel_delayed_work", "file":"drivers/pci/hotplug/pciehp_ctrl.c", "line":391, "type":"c", "scope_line":356, "scope_name":"handle_button_press_event", }
+,{"id":"cancel_delayed_work", "file":"drivers/pci/hotplug/pciehp_ctrl.c", "line":566, "type":"c", "scope_line":558, "scope_name":"pciehp_sysfs_enable_slot", }
+,{"id":"cancel_delayed_work", "file":"drivers/pci/hotplug/pciehp_ctrl.c", "line":601, "type":"c", "scope_line":593, "scope_name":"pciehp_sysfs_disable_slot", }
+,{"id":"cancel_delayed_work", "file":"drivers/pci/hotplug/pciehp_hpc.c", "line":807, "type":"c", "scope_line":804, "scope_name":"pcie_cleanup_slot", }
+,{"id":"cancel_delayed_work", "file":"drivers/thermal/thermal_sys.c", "line":590, "type":"c", "scope_line":587, "scope_name":"thermal_zone_device_set_polling", }
+,{"id":"cancel_delayed_work", "file":"drivers/video/fb_defio.c", "line":219, "type":"c", "scope_line":212, "scope_name":"fb_deferred_io_cleanup", }
+,{"id":"cancel_delayed_work", "file":"fs/aio.c", "line":233, "type":"c", "scope_line":229, "scope_name":"__put_ioctx", }
+,{"id":"cancel_delayed_work", "file":"include/linux/workqueue.h", "line":355, "type":"f", }
+,{"id":"cancel_delayed_work", "file":"net/core/dst.c", "line":210, "type":"c", "scope_line":201, "scope_name":"__dst_free", }
+,{"id":"cancel_delayed_work", "file":"net/core/link_watch.c", "line":129, "type":"c", "scope_line":99, "scope_name":"linkwatch_schedule_work", }
+,{"id":"cancel_delayed_work", "file":"net/core/neighbour.c", "line":1489, "type":"c", "scope_line":1484, "scope_name":"neigh_table_clear", }
+,{"id":"cancel_delayed_work", "file":"net/rfkill/input.c", "line":166, "type":"c", "scope_line":157, "scope_name":"rfkill_schedule_global_op", }
+,{"id":"cancel_delayed_work_sync", "file":"drivers/char/tty_ldisc.c", "line":530, "type":"c", "scope_line":527, "scope_name":"tty_ldisc_halt", }
+,{"id":"cancel_delayed_work_sync", "file":"drivers/char/tty_ldisc.c", "line":793, "type":"c", "scope_line":748, "scope_name":"tty_ldisc_hangup", }
+,{"id":"cancel_delayed_work_sync", "file":"drivers/cpufreq/cpufreq_conservative.c", "line":582, "type":"c", "scope_line":579, "scope_name":"dbs_timer_exit", }
+,{"id":"cancel_delayed_work_sync", "file":"drivers/cpufreq/cpufreq_ondemand.c", "line":651, "type":"c", "scope_line":649, "scope_name":"dbs_timer_exit", }
+,{"id":"cancel_delayed_work_sync", "file":"drivers/input/keyboard/atkbd.c", "line":870, "type":"c", "scope_line":854, "scope_name":"atkbd_disconnect", }
+,{"id":"cancel_delayed_work_sync", "file":"drivers/net/phy/phy.c", "line":450, "type":"c", "scope_line":448, "scope_name":"phy_stop_machine", }
+,{"id":"cancel_delayed_work_sync", "file":"drivers/net/phy/phy.c", "line":683, "type":"c", "scope_line":652, "scope_name":"phy_change", }
+,{"id":"cancel_delayed_work_sync", "file":"drivers/net/virtio_net.c", "line":1012, "type":"c", "scope_line":902, "scope_name":"virtnet_probe", }
+,{"id":"cancel_delayed_work_sync", "file":"drivers/net/virtio_net.c", "line":1051, "type":"c", "scope_line":1042, "scope_name":"virtnet_remove", }
+,{"id":"cancel_delayed_work_sync", "file":"include/linux/workqueue.h", "line":387, "type":"c", "scope_line":383, "scope_name":"cancel_rearming_delayed_workqueue", }
+,{"id":"cancel_delayed_work_sync", "file":"include/linux/workqueue.h", "line":394, "type":"c", "scope_line":391, "scope_name":"cancel_rearming_delayed_work", }
+,{"id":"cancel_delayed_work_sync", "file":"kernel/workqueue.c", "line":2510, "type":"f", }
+,{"id":"cancel_delayed_work_sync", "file":"net/rfkill/core.c", "line":782, "type":"c", "scope_line":775, "scope_name":"rfkill_pause_polling", }
+,{"id":"cancel_delayed_work_sync", "file":"net/rfkill/core.c", "line":996, "type":"c", "scope_line":991, "scope_name":"rfkill_unregister", }
+,{"id":"cancel_delayed_work_sync", "file":"net/rfkill/input.c", "line":349, "type":"c", "scope_line":346, "scope_name":"rfkill_handler_exit", }
+,{"id":"cancel_dirty_page", "file":"fs/buffer.c", "line":3141, "type":"c", "scope_line":3108, "scope_name":"try_to_free_buffers", }
+,{"id":"cancel_dirty_page", "file":"fs/hugetlbfs/inode.c", "line":332, "type":"c", "scope_line":330, "scope_name":"truncate_huge_page", }
+,{"id":"cancel_dirty_page", "file":"mm/truncate.c", "line":106, "type":"c", "scope_line":97, "scope_name":"truncate_complete_page", }
+,{"id":"cancel_dirty_page", "file":"mm/truncate.c", "line":72, "type":"f", }
+,{"id":"cancel_freezing", "file":"kernel/freezer.c", "line":118, "type":"f", }
+,{"id":"cancel_freezing", "file":"kernel/power/process.c", "line":112, "type":"c", "scope_line":34, "scope_name":"try_to_freeze_tasks", }
+,{"id":"cancel_rearming_delayed_work", "file":"drivers/ata/libata-core.c", "line":6226, "type":"c", "scope_line":6207, "scope_name":"ata_port_detach", }
+,{"id":"cancel_rearming_delayed_work", "file":"drivers/ata/libata-sff.c", "line":1323, "type":"c", "scope_line":1319, "scope_name":"ata_sff_flush_pio_task", }
+,{"id":"cancel_rearming_delayed_work", "file":"drivers/video/fb_defio.c", "line":78, "type":"c", "scope_line":69, "scope_name":"fb_deferred_io_fsync", }
+,{"id":"cancel_rearming_delayed_work", "file":"include/linux/workqueue.h", "line":391, "type":"f", }
+,{"id":"cancel_rearming_delayed_work", "file":"mm/slab.c", "line":1296, "type":"c", "scope_line":1270, "scope_name":"cpuup_callback", }
+,{"id":"cancel_rearming_delayed_work", "file":"mm/vmstat.c", "line":1020, "type":"c", "scope_line":1005, "scope_name":"vmstat_cpuup_callback", }
+,{"id":"cancel_rearming_delayed_workqueue", "file":"include/linux/workqueue.h", "line":383, "type":"f", }
+,{"id":"cancel_remain_on_channel", "file":"include/net/cfg80211.h", "line":1171, "type":"m", "scope_line":1039, "scope_name":"struct cfg80211_ops", }
+,{"id":"cancel_txn", "file":"include/linux/perf_event.h", "line":593, "type":"m", "scope_line":563, "scope_name":"struct pmu", }
+,{"id":"cancel_work_sync", "file":"block/blk-core.c", "line":384, "type":"c", "scope_line":380, "scope_name":"blk_sync_queue", }
+,{"id":"cancel_work_sync", "file":"block/cfq-iosched.c", "line":3773, "type":"c", "scope_line":3770, "scope_name":"cfq_shutdown_timer_wq", }
+,{"id":"cancel_work_sync", "file":"drivers/base/power/runtime.c", "line":919, "type":"c", "scope_line":911, "scope_name":"__pm_runtime_barrier", }
+,{"id":"cancel_work_sync", "file":"drivers/char/hvc_console.c", "line":381, "type":"c", "scope_line":352, "scope_name":"hvc_close", }
+,{"id":"cancel_work_sync", "file":"drivers/char/hvc_console.c", "line":410, "type":"c", "scope_line":400, "scope_name":"hvc_hangup", }
+,{"id":"cancel_work_sync", "file":"drivers/net/phy/phy.c", "line":634, "type":"c", "scope_line":617, "scope_name":"phy_stop_interrupts", }
+,{"id":"cancel_work_sync", "file":"drivers/pci/iov.c", "line":271, "type":"c", "scope_line":264, "scope_name":"sriov_disable_migration", }
+,{"id":"cancel_work_sync", "file":"drivers/scsi/scsi_sysfs.c", "line":313, "type":"c", "scope_line":293, "scope_name":"scsi_device_dev_release_usercontext", }
+,{"id":"cancel_work_sync", "file":"fs/aio.c", "line":234, "type":"c", "scope_line":229, "scope_name":"__put_ioctx", }
+,{"id":"cancel_work_sync", "file":"fs/aio.c", "line":422, "type":"c", "scope_line":408, "scope_name":"exit_aio", }
+,{"id":"cancel_work_sync", "file":"kernel/workqueue.c", "line":2495, "type":"f", }
+,{"id":"cancel_work_sync", "file":"net/rfkill/core.c", "line":998, "type":"c", "scope_line":991, "scope_name":"rfkill_unregister", }
+,{"id":"cancel_work_sync", "file":"net/rfkill/core.c", "line":999, "type":"c", "scope_line":991, "scope_name":"rfkill_unregister", }
+,{"id":"cancelled_write_bytes", "file":"include/linux/task_io_accounting.h", "line":43, "type":"m", "scope_line":11, "scope_name":"struct task_io_accounting", }
+,{"id":"cancelled_write_bytes", "file":"include/linux/taskstats.h", "line":153, "type":"m", "scope_line":40, "scope_name":"struct taskstats", }
+,{"id":"cannot_compare", "file":"drivers/pnp/resource.c", "line":162, "type":"d", }
+,{"id":"canon_column", "file":"include/linux/tty.h", "line":319, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"canon_data", "file":"include/linux/tty.h", "line":317, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"canon_head", "file":"include/linux/tty.h", "line":318, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"canon_hmac", "file":"include/linux/inktag.h", "line":84, "type":"m", "scope_line":82, "scope_name":"struct ink_canon_id", }
+,{"id":"canon_id", "file":"include/linux/inktag.h", "line":103, "type":"m", "scope_line":88, "scope_name":"struct inktag_control", }
+,{"id":"canon_name", "file":"include/linux/inktag.h", "line":83, "type":"m", "scope_line":82, "scope_name":"struct ink_canon_id", }
+,{"id":"canon_pgprot", "file":"arch/x86/include/asm/pgtable.h", "line":268, "type":"d", }
+,{"id":"cant_mount", "file":"fs/namespace.c", "line":1476, "type":"c", "scope_line":1464, "scope_name":"graft_tree", }
+,{"id":"cant_mount", "file":"fs/namespace.c", "line":1680, "type":"c", "scope_line":1657, "scope_name":"do_move_mount", }
+,{"id":"cant_mount", "file":"fs/namespace.c", "line":2290, "type":"c", "scope_line":2252, "scope_name":"sys_pivot_root", }
+,{"id":"cant_mount", "file":"include/linux/dcache.h", "line":365, "type":"f", }
+,{"id":"cant_use_aperture", "file":"include/linux/agp_backend.h", "line":54, "type":"m", "scope_line":45, "scope_name":"struct agp_kern_info", }
+,{"id":"cap", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":369, "type":"m", "scope_line":351, "scope_name":"struct amd_iommu", }
+,{"id":"cap", "file":"drivers/ata/ahci.h", "line":288, "type":"m", "scope_line":285, "scope_name":"struct ahci_host_priv", }
+,{"id":"cap", "file":"drivers/pci/access.c", "line":192, "type":"m", "scope_line":187, "scope_name":"struct pci_vpd_pci22", }
+,{"id":"cap", "file":"drivers/pci/pci.h", "line":237, "type":"m", "scope_line":234, "scope_name":"struct pci_sriov", }
+,{"id":"cap", "file":"include/linux/acpi.h", "line":262, "type":"m", "scope_line":259, "scope_name":"struct acpi_osc_context", }
+,{"id":"cap", "file":"include/linux/capability.h", "line":95, "type":"m", "scope_line":94, "scope_name":"struct kernel_cap_struct", }
+,{"id":"cap", "file":"include/linux/if_arcnet.h", "line":127, "type":"m", "scope_line":118, "scope_name":"struct archdr", }
+,{"id":"cap", "file":"include/linux/lsm_audit.h", "line":61, "type":"m", "scope_line":28, "scope_name":"struct common_audit_data", }
+,{"id":"cap", "file":"include/net/cfg80211.h", "line":171, "type":"m", "scope_line":170, "scope_name":"struct ieee80211_sta_ht_cap", }
+,{"id":"cap", "file":"include/scsi/scsi_host.h", "line":828, "type":"v", }
+,{"id":"cap", "file":"kernel/auditsc.c", "line":157, "type":"m", "scope_line":154, "scope_name":"struct audit_aux_data_capset", }
+,{"id":"cap", "file":"kernel/auditsc.c", "line":242, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"cap2", "file":"drivers/ata/ahci.h", "line":289, "type":"m", "scope_line":285, "scope_name":"struct ahci_host_priv", }
+,{"id":"cap___0", "file":"include/scsi/scsi_host.h", "line":839, "type":"v", }
+,{"id":"cap_audit_rule_free", "file":"security/capability.c", "line":843, "type":"f", }
+,{"id":"cap_audit_rule_init", "file":"security/capability.c", "line":827, "type":"f", }
+,{"id":"cap_audit_rule_known", "file":"security/capability.c", "line":832, "type":"f", }
+,{"id":"cap_audit_rule_match", "file":"security/capability.c", "line":837, "type":"f", }
+,{"id":"cap_bprm_check_security", "file":"security/capability.c", "line":30, "type":"f", }
+,{"id":"cap_bprm_committed_creds", "file":"security/capability.c", "line":39, "type":"f", }
+,{"id":"cap_bprm_committing_creds", "file":"security/capability.c", "line":35, "type":"f", }
+,{"id":"cap_bprm_secureexec", "file":"security/commoncap.c", "line":534, "type":"f", }
+,{"id":"cap_bprm_secureexec", "file":"security/selinux/hooks.c", "line":2154, "type":"c", "scope_line":2136, "scope_name":"selinux_bprm_secureexec", }
+,{"id":"cap_bprm_set_creds", "file":"security/commoncap.c", "line":429, "type":"f", }
+,{"id":"cap_bprm_set_creds", "file":"security/selinux/hooks.c", "line":2038, "type":"c", "scope_line":2029, "scope_name":"selinux_bprm_set_creds", }
+,{"id":"cap_bprm_set_creds", "file":"security/tomoyo/tomoyo.c", "line":44, "type":"c", "scope_line":40, "scope_name":"tomoyo_bprm_set_creds", }
+,{"id":"cap_bset", "file":"include/linux/cred.h", "line":137, "type":"m", "scope_line":116, "scope_name":"struct cred", }
+,{"id":"cap_capable", "file":"security/commoncap.c", "line":181, "type":"c", "scope_line":175, "scope_name":"cap_inh_is_capped", }
+,{"id":"cap_capable", "file":"security/commoncap.c", "line":83, "type":"f", }
+,{"id":"cap_capable", "file":"security/commoncap.c", "line":832, "type":"c", "scope_line":787, "scope_name":"cap_task_prctl", }
+,{"id":"cap_capable", "file":"security/commoncap.c", "line":919, "type":"c", "scope_line":915, "scope_name":"cap_vm_enough_memory", }
+,{"id":"cap_capable", "file":"security/commoncap.c", "line":946, "type":"c", "scope_line":939, "scope_name":"cap_file_mmap", }
+,{"id":"cap_capable", "file":"security/selinux/hooks.c", "line":1858, "type":"c", "scope_line":1853, "scope_name":"selinux_capable", }
+,{"id":"cap_capget", "file":"security/commoncap.c", "line":156, "type":"f", }
+,{"id":"cap_capget", "file":"security/selinux/hooks.c", "line":1825, "type":"c", "scope_line":1816, "scope_name":"selinux_capget", }
+,{"id":"cap_capset", "file":"security/commoncap.c", "line":199, "type":"f", }
+,{"id":"cap_capset", "file":"security/selinux/hooks.c", "line":1835, "type":"c", "scope_line":1828, "scope_name":"selinux_capset", }
+,{"id":"cap_clear", "file":"include/linux/capability.h", "line":415, "type":"d", }
+,{"id":"cap_combine", "file":"include/linux/capability.h", "line":439, "type":"f", }
+,{"id":"cap_combine", "file":"include/linux/capability.h", "line":512, "type":"c", "scope_line":508, "scope_name":"cap_raise_fs_set", }
+,{"id":"cap_combine", "file":"include/linux/capability.h", "line":526, "type":"c", "scope_line":522, "scope_name":"cap_raise_nfsd_set", }
+,{"id":"cap_combine", "file":"security/commoncap.c", "line":205, "type":"c", "scope_line":199, "scope_name":"cap_capset", }
+,{"id":"cap_combine", "file":"security/commoncap.c", "line":212, "type":"c", "scope_line":199, "scope_name":"cap_capset", }
+,{"id":"cap_combine", "file":"security/commoncap.c", "line":460, "type":"c", "scope_line":429, "scope_name":"cap_bprm_set_creds", }
+,{"id":"cap_cred_alloc_blank", "file":"security/capability.c", "line":356, "type":"f", }
+,{"id":"cap_cred_free", "file":"security/capability.c", "line":361, "type":"f", }
+,{"id":"cap_cred_prepare", "file":"security/capability.c", "line":365, "type":"f", }
+,{"id":"cap_cred_transfer", "file":"security/capability.c", "line":370, "type":"f", }
+,{"id":"cap_d_instantiate", "file":"security/capability.c", "line":758, "type":"f", }
+,{"id":"cap_dentry_open", "file":"security/capability.c", "line":346, "type":"f", }
+,{"id":"cap_drop", "file":"include/linux/capability.h", "line":455, "type":"f", }
+,{"id":"cap_drop", "file":"include/linux/capability.h", "line":490, "type":"c", "scope_line":487, "scope_name":"cap_issubset", }
+,{"id":"cap_drop", "file":"include/linux/capability.h", "line":505, "type":"c", "scope_line":502, "scope_name":"cap_drop_fs_set", }
+,{"id":"cap_drop", "file":"include/linux/capability.h", "line":519, "type":"c", "scope_line":516, "scope_name":"cap_drop_nfsd_set", }
+,{"id":"cap_drop_fs_set", "file":"include/linux/capability.h", "line":502, "type":"f", }
+,{"id":"cap_drop_fs_set", "file":"security/commoncap.c", "line":678, "type":"c", "scope_line":657, "scope_name":"cap_task_fix_setuid", }
+,{"id":"cap_drop_nfsd_set", "file":"include/linux/capability.h", "line":516, "type":"f", }
+,{"id":"cap_effective", "file":"include/linux/binfmts.h", "line":41, "type":"m", "scope_line":28, "scope_name":"struct linux_binprm", }
+,{"id":"cap_effective", "file":"include/linux/cred.h", "line":136, "type":"m", "scope_line":116, "scope_name":"struct cred", }
+,{"id":"cap_emulate_setxuid", "file":"security/commoncap.c", "line":634, "type":"f", }
+,{"id":"cap_emulate_setxuid", "file":"security/commoncap.c", "line":666, "type":"c", "scope_line":657, "scope_name":"cap_task_fix_setuid", }
+,{"id":"cap_file_alloc_security", "file":"security/capability.c", "line":298, "type":"f", }
+,{"id":"cap_file_fcntl", "file":"security/capability.c", "line":324, "type":"f", }
+,{"id":"cap_file_free_security", "file":"security/capability.c", "line":303, "type":"f", }
+,{"id":"cap_file_ioctl", "file":"security/capability.c", "line":307, "type":"f", }
+,{"id":"cap_file_lock", "file":"security/capability.c", "line":319, "type":"f", }
+,{"id":"cap_file_mmap", "file":"security/commoncap.c", "line":939, "type":"f", }
+,{"id":"cap_file_mmap", "file":"security/selinux/hooks.c", "line":3006, "type":"c", "scope_line":2985, "scope_name":"selinux_file_mmap", }
+,{"id":"cap_file_mprotect", "file":"security/capability.c", "line":313, "type":"f", }
+,{"id":"cap_file_permission", "file":"security/capability.c", "line":293, "type":"f", }
+,{"id":"cap_file_receive", "file":"security/capability.c", "line":341, "type":"f", }
+,{"id":"cap_file_send_sigiotask", "file":"security/capability.c", "line":335, "type":"f", }
+,{"id":"cap_file_set_fowner", "file":"security/capability.c", "line":330, "type":"f", }
+,];
+xr_frag_insert('t/96/ac3b567755d36f066e5fea4e0234c92a0ef3e8.xr', __xr_tmp);

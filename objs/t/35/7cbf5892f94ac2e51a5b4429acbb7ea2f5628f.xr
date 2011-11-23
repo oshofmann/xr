@@ -1,0 +1,151 @@
+var __xr_tmp = [
+{"id":"pci_remove_bus_device", "file":"drivers/pci/remove.c", "line":122, "type":"c", "scope_line":116, "scope_name":"pci_remove_behind_bridge", }
+,{"id":"pci_remove_bus_device", "file":"drivers/pci/remove.c", "line":94, "type":"f", }
+,{"id":"pci_remove_capabilities_sysfs", "file":"drivers/pci/pci-sysfs.c", "line":1192, "type":"f", }
+,{"id":"pci_remove_capabilities_sysfs", "file":"drivers/pci/pci-sysfs.c", "line":1219, "type":"c", "scope_line":1212, "scope_name":"pci_remove_sysfs_dev_files", }
+,{"id":"pci_remove_firmware_label_files", "file":"drivers/pci/pci-label.c", "line":140, "type":"f", }
+,{"id":"pci_remove_firmware_label_files", "file":"drivers/pci/pci-sysfs.c", "line":1238, "type":"c", "scope_line":1212, "scope_name":"pci_remove_sysfs_dev_files", }
+,{"id":"pci_remove_legacy_files", "file":"drivers/pci/pci.h", "line":125, "type":"f", }
+,{"id":"pci_remove_legacy_files", "file":"drivers/pci/remove.c", "line":75, "type":"c", "scope_line":65, "scope_name":"pci_remove_bus", }
+,{"id":"pci_remove_newid_file", "file":"drivers/pci/pci-driver.c", "line":1132, "type":"c", "scope_line":1102, "scope_name":"__pci_register_driver", }
+,{"id":"pci_remove_newid_file", "file":"drivers/pci/pci-driver.c", "line":1152, "type":"c", "scope_line":1148, "scope_name":"pci_unregister_driver", }
+,{"id":"pci_remove_newid_file", "file":"drivers/pci/pci-driver.c", "line":200, "type":"f", }
+,{"id":"pci_remove_removeid_file", "file":"drivers/pci/pci-driver.c", "line":1151, "type":"c", "scope_line":1148, "scope_name":"pci_unregister_driver", }
+,{"id":"pci_remove_removeid_file", "file":"drivers/pci/pci-driver.c", "line":214, "type":"f", }
+,{"id":"pci_remove_rescan_mutex", "file":"drivers/pci/pci-sysfs.c", "line":250, "type":"v", }
+,{"id":"pci_remove_resource_files", "file":"drivers/pci/pci-sysfs.c", "line":1182, "type":"c", "scope_line":1106, "scope_name":"pci_create_sysfs_dev_files", }
+,{"id":"pci_remove_resource_files", "file":"drivers/pci/pci-sysfs.c", "line":1226, "type":"c", "scope_line":1212, "scope_name":"pci_remove_sysfs_dev_files", }
+,{"id":"pci_remove_resource_files", "file":"drivers/pci/pci-sysfs.c", "line":852, "type":"f", }
+,{"id":"pci_remove_resource_files", "file":"drivers/pci/pci-sysfs.c", "line":934, "type":"c", "scope_line":916, "scope_name":"pci_create_resource_files", }
+,{"id":"pci_remove_smbiosname_file", "file":"drivers/pci/pci-label.c", "line":128, "type":"f", }
+,{"id":"pci_remove_smbiosname_file", "file":"drivers/pci/pci-label.c", "line":142, "type":"c", "scope_line":140, "scope_name":"pci_remove_firmware_label_files", }
+,{"id":"pci_remove_sysfs_dev_files", "file":"drivers/pci/pci-sysfs.c", "line":1212, "type":"f", }
+,{"id":"pci_remove_sysfs_dev_files", "file":"drivers/pci/remove.c", "line":24, "type":"c", "scope_line":20, "scope_name":"pci_stop_dev", }
+,{"id":"pci_renumber_slot", "file":"drivers/pci/slot.c", "line":330, "type":"f", }
+,{"id":"pci_request_acs", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1422, "type":"c", "scope_line":1408, "scope_name":"amd_iommu_detect", }
+,{"id":"pci_request_acs", "file":"drivers/pci/pci.c", "line":1766, "type":"f", }
+,{"id":"pci_request_region", "file":"drivers/pci/ioapic.c", "line":70, "type":"c", "scope_line":29, "scope_name":"ioapic_probe", }
+,{"id":"pci_request_region", "file":"drivers/pci/pci.c", "line":1961, "type":"f", }
+,{"id":"pci_request_region", "file":"lib/devres.c", "line":276, "type":"c", "scope_line":256, "scope_name":"pcim_iomap_regions", }
+,{"id":"pci_request_region_exclusive", "file":"drivers/pci/pci.c", "line":1984, "type":"f", }
+,{"id":"pci_request_regions", "file":"drivers/pci/pci.c", "line":2071, "type":"f", }
+,{"id":"pci_request_regions", "file":"drivers/virtio/virtio_pci.c", "line":647, "type":"c", "scope_line":611, "scope_name":"virtio_pci_probe", }
+,{"id":"pci_request_regions_exclusive", "file":"drivers/pci/pci.c", "line":2092, "type":"f", }
+,{"id":"pci_request_selected_regions", "file":"drivers/pci/pci.c", "line":2031, "type":"f", }
+,{"id":"pci_request_selected_regions", "file":"drivers/pci/pci.c", "line":2073, "type":"c", "scope_line":2071, "scope_name":"pci_request_regions", }
+,{"id":"pci_request_selected_regions", "file":"lib/devres.c", "line":315, "type":"c", "scope_line":309, "scope_name":"pcim_iomap_regions_request_all", }
+,{"id":"pci_request_selected_regions_exclusive", "file":"drivers/pci/pci.c", "line":2037, "type":"f", }
+,{"id":"pci_request_selected_regions_exclusive", "file":"drivers/pci/pci.c", "line":2094, "type":"c", "scope_line":2092, "scope_name":"pci_request_regions_exclusive", }
+,{"id":"pci_rescan_bus", "file":"drivers/pci/pci-sysfs.c", "line":263, "type":"c", "scope_line":251, "scope_name":"bus_rescan_store", }
+,{"id":"pci_rescan_bus", "file":"drivers/pci/pci-sysfs.c", "line":286, "type":"c", "scope_line":274, "scope_name":"dev_rescan_store", }
+,{"id":"pci_rescan_bus", "file":"drivers/pci/probe.c", "line":1505, "type":"f", }
+,{"id":"pci_reset_function", "file":"drivers/pci/pci-sysfs.c", "line":1051, "type":"c", "scope_line":1037, "scope_name":"reset_store", }
+,{"id":"pci_reset_function", "file":"drivers/pci/pci.c", "line":2556, "type":"f", }
+,{"id":"pci_resource_alignment", "file":"drivers/pci/pci.h", "line":324, "type":"f", }
+,{"id":"pci_resource_alignment", "file":"drivers/pci/setup-bus.c", "line":498, "type":"c", "scope_line":467, "scope_name":"pbus_size_mem", }
+,{"id":"pci_resource_alignment", "file":"drivers/pci/setup-res.c", "line":141, "type":"c", "scope_line":132, "scope_name":"__pci_assign_resource", }
+,{"id":"pci_resource_alignment", "file":"drivers/pci/setup-res.c", "line":209, "type":"c", "scope_line":201, "scope_name":"pci_assign_resource", }
+,{"id":"pci_resource_alignment", "file":"drivers/pci/setup-res.c", "line":263, "type":"c", "scope_line":246, "scope_name":"pdev_sort_resources", }
+,{"id":"pci_resource_alignment", "file":"drivers/pci/setup-res.c", "line":274, "type":"c", "scope_line":246, "scope_name":"pdev_sort_resources", }
+,{"id":"pci_resource_alignment_show", "file":"drivers/pci/pci.c", "line":2940, "type":"f", }
+,{"id":"pci_resource_alignment_store", "file":"drivers/pci/pci.c", "line":2945, "type":"f", }
+,{"id":"pci_resource_alignment_sysfs_init", "file":"drivers/pci/pci.c", "line":2954, "type":"f", }
+,{"id":"pci_resource_bar", "file":"drivers/pci/pci.c", "line":2759, "type":"f", }
+,{"id":"pci_resource_bar", "file":"drivers/pci/setup-res.c", "line":60, "type":"c", "scope_line":29, "scope_name":"pci_update_resource", }
+,{"id":"pci_resource_end", "file":"include/linux/pci.h", "line":1236, "type":"d", }
+,{"id":"pci_resource_flags", "file":"include/linux/pci.h", "line":1237, "type":"d", }
+,{"id":"pci_resource_io", "file":"drivers/pci/pci-sysfs.c", "line":781, "type":"f", }
+,{"id":"pci_resource_io", "file":"drivers/pci/pci-sysfs.c", "line":834, "type":"c", "scope_line":829, "scope_name":"pci_read_resource_io", }
+,{"id":"pci_resource_io", "file":"drivers/pci/pci-sysfs.c", "line":842, "type":"c", "scope_line":837, "scope_name":"pci_write_resource_io", }
+,{"id":"pci_resource_len", "file":"include/linux/pci.h", "line":1238, "type":"d", }
+,{"id":"pci_resource_start", "file":"include/linux/pci.h", "line":1235, "type":"d", }
+,{"id":"pci_resource_to_user", "file":"drivers/pci/pci-sysfs.c", "line":127, "type":"c", "scope_line":111, "scope_name":"resource_show", }
+,{"id":"pci_resource_to_user", "file":"drivers/pci/pci-sysfs.c", "line":755, "type":"c", "scope_line":731, "scope_name":"pci_mmap_resource", }
+,{"id":"pci_resource_to_user", "file":"drivers/pci/proc.c", "line":369, "type":"c", "scope_line":349, "scope_name":"show_device", }
+,{"id":"pci_resource_to_user", "file":"drivers/pci/proc.c", "line":376, "type":"c", "scope_line":349, "scope_name":"show_device", }
+,{"id":"pci_resource_to_user", "file":"include/linux/pci.h", "line":1273, "type":"f", }
+,{"id":"pci_resource_to_user", "file":"kernel/trace/trace_mmiotrace.c", "line":79, "type":"c", "scope_line":62, "scope_name":"mmio_print_pcidev", }
+,{"id":"pci_resource_to_user", "file":"kernel/trace/trace_mmiotrace.c", "line":85, "type":"c", "scope_line":62, "scope_name":"mmio_print_pcidev", }
+,{"id":"pci_restore_bars", "file":"drivers/pci/pci.c", "line":461, "type":"f", }
+,{"id":"pci_restore_bars", "file":"drivers/pci/pci.c", "line":613, "type":"c", "scope_line":528, "scope_name":"pci_raw_set_power_state", }
+,{"id":"pci_restore_iov_state", "file":"drivers/pci/iov.c", "line":628, "type":"f", }
+,{"id":"pci_restore_iov_state", "file":"drivers/pci/pci.c", "line":955, "type":"c", "scope_line":927, "scope_name":"pci_restore_state", }
+,{"id":"pci_restore_msi_state", "file":"drivers/pci/msi.c", "line":393, "type":"f", }
+,{"id":"pci_restore_msi_state", "file":"drivers/pci/pci.c", "line":954, "type":"c", "scope_line":927, "scope_name":"pci_restore_state", }
+,{"id":"pci_restore_pcie_state", "file":"drivers/pci/pci.c", "line":836, "type":"f", }
+,{"id":"pci_restore_pcie_state", "file":"drivers/pci/pci.c", "line":937, "type":"c", "scope_line":927, "scope_name":"pci_restore_state", }
+,{"id":"pci_restore_pcix_state", "file":"drivers/pci/pci.c", "line":888, "type":"f", }
+,{"id":"pci_restore_pcix_state", "file":"drivers/pci/pci.c", "line":953, "type":"c", "scope_line":927, "scope_name":"pci_restore_state", }
+,{"id":"pci_restore_standard_config", "file":"drivers/pci/pci-driver.c", "line":442, "type":"f", }
+,{"id":"pci_restore_standard_config", "file":"drivers/pci/pci-driver.c", "line":457, "type":"c", "scope_line":455, "scope_name":"pci_pm_default_resume_early", }
+,{"id":"pci_restore_standard_config", "file":"drivers/pci/pci-driver.c", "line":757, "type":"c", "scope_line":746, "scope_name":"pci_pm_resume", }
+,{"id":"pci_restore_standard_config", "file":"drivers/pci/pci-driver.c", "line":955, "type":"c", "scope_line":944, "scope_name":"pci_pm_restore", }
+,{"id":"pci_restore_state", "file":"drivers/ata/ata_piix.c", "line":1198, "type":"c", "scope_line":1186, "scope_name":"piix_pci_device_resume", }
+,{"id":"pci_restore_state", "file":"drivers/ata/libata-core.c", "line":6323, "type":"c", "scope_line":6318, "scope_name":"ata_pci_device_do_resume", }
+,{"id":"pci_restore_state", "file":"drivers/pci/pci-driver.c", "line":452, "type":"c", "scope_line":442, "scope_name":"pci_restore_standard_config", }
+,{"id":"pci_restore_state", "file":"drivers/pci/pci.c", "line":2574, "type":"c", "scope_line":2556, "scope_name":"pci_reset_function", }
+,{"id":"pci_restore_state", "file":"drivers/pci/pci.c", "line":927, "type":"f", }
+,{"id":"pci_restore_state", "file":"drivers/pci/pcie/portdrv_pci.c", "line":235, "type":"c", "scope_line":227, "scope_name":"pcie_portdrv_slot_reset", }
+,{"id":"pci_restore_state", "file":"drivers/serial/8250_pci.c", "line":2607, "type":"c", "scope_line":2601, "scope_name":"pciserial_resume_one", }
+,{"id":"pci_restore_state", "file":"drivers/virtio/virtio_pci.c", "line":701, "type":"c", "scope_line":699, "scope_name":"virtio_pci_resume", }
+,{"id":"pci_root_bus", "file":"arch/x86/include/asm/pci_x86.h", "line":54, "type":"v", }
+,{"id":"pci_root_buses", "file":"drivers/pci/probe.c", "line":19, "type":"v", }
+,{"id":"pci_root_info", "file":"arch/x86/pci/acpi.c", "line":10, "type":"s", }
+,{"id":"pci_root_info", "file":"arch/x86/pci/bus_numa.h", "line":21, "type":"v", }
+,{"id":"pci_root_info", "file":"arch/x86/pci/bus_numa.h", "line":8, "type":"s", }
+,{"id":"pci_root_num", "file":"arch/x86/pci/bus_numa.h", "line":20, "type":"v", }
+,{"id":"pci_root_ops", "file":"arch/x86/pci/common.c", "line":70, "type":"v", }
+,{"id":"pci_routeirq", "file":"arch/x86/include/asm/pci.h", "line":21, "type":"v", }
+,{"id":"pci_sanity_check", "file":"arch/x86/pci/direct.c", "line":192, "type":"f", }
+,{"id":"pci_sanity_check", "file":"arch/x86/pci/direct.c", "line":232, "type":"c", "scope_line":221, "scope_name":"pci_check_type1", }
+,{"id":"pci_sanity_check", "file":"arch/x86/pci/direct.c", "line":251, "type":"c", "scope_line":241, "scope_name":"pci_check_type2", }
+,{"id":"pci_save_pcie_state", "file":"drivers/pci/pci.c", "line":798, "type":"f", }
+,{"id":"pci_save_pcie_state", "file":"drivers/pci/pci.c", "line":916, "type":"c", "scope_line":908, "scope_name":"pci_save_state", }
+,{"id":"pci_save_pcix_state", "file":"drivers/pci/pci.c", "line":868, "type":"f", }
+,{"id":"pci_save_pcix_state", "file":"drivers/pci/pci.c", "line":918, "type":"c", "scope_line":908, "scope_name":"pci_save_state", }
+,{"id":"pci_save_state", "file":"drivers/ata/ata_piix.c", "line":1167, "type":"c", "scope_line":1151, "scope_name":"piix_pci_device_suspend", }
+,{"id":"pci_save_state", "file":"drivers/ata/libata-core.c", "line":6311, "type":"c", "scope_line":6309, "scope_name":"ata_pci_device_do_suspend", }
+,{"id":"pci_save_state", "file":"drivers/pci/pci-driver.c", "line":1013, "type":"c", "scope_line":987, "scope_name":"pci_pm_runtime_suspend", }
+,{"id":"pci_save_state", "file":"drivers/pci/pci-driver.c", "line":550, "type":"c", "scope_line":526, "scope_name":"pci_legacy_suspend_late", }
+,{"id":"pci_save_state", "file":"drivers/pci/pci-driver.c", "line":696, "type":"c", "scope_line":687, "scope_name":"pci_pm_suspend_noirq", }
+,{"id":"pci_save_state", "file":"drivers/pci/pci-driver.c", "line":719, "type":"c", "scope_line":687, "scope_name":"pci_pm_suspend_noirq", }
+,{"id":"pci_save_state", "file":"drivers/pci/pci-driver.c", "line":828, "type":"c", "scope_line":810, "scope_name":"pci_pm_freeze_noirq", }
+,{"id":"pci_save_state", "file":"drivers/pci/pci.c", "line":2564, "type":"c", "scope_line":2556, "scope_name":"pci_reset_function", }
+,{"id":"pci_save_state", "file":"drivers/pci/pci.c", "line":908, "type":"f", }
+,{"id":"pci_save_state", "file":"drivers/pci/pcie/portdrv_pci.c", "line":115, "type":"c", "scope_line":96, "scope_name":"pcie_portdrv_probe", }
+,{"id":"pci_save_state", "file":"drivers/serial/8250_pci.c", "line":2596, "type":"c", "scope_line":2589, "scope_name":"pciserial_suspend_one", }
+,{"id":"pci_save_state", "file":"drivers/virtio/virtio_pci.c", "line":694, "type":"c", "scope_line":692, "scope_name":"virtio_pci_suspend", }
+,{"id":"pci_scan_bridge", "file":"drivers/pci/hotplug/pciehp_pci.c", "line":53, "type":"c", "scope_line":37, "scope_name":"pciehp_add_bridge", }
+,{"id":"pci_scan_bridge", "file":"drivers/pci/probe.c", "line":1393, "type":"c", "scope_line":1364, "scope_name":"pci_scan_child_bus", }
+,{"id":"pci_scan_bridge", "file":"drivers/pci/probe.c", "line":679, "type":"f", }
+,{"id":"pci_scan_bus", "file":"arch/x86/pci/common.c", "line":612, "type":"c", "scope_line":596, "scope_name":"pci_scan_bus_on_node", }
+,{"id":"pci_scan_bus", "file":"include/linux/pci.h", "line":643, "type":"f", }
+,{"id":"pci_scan_bus_on_node", "file":"arch/x86/pci/common.c", "line":596, "type":"f", }
+,{"id":"pci_scan_bus_on_node", "file":"arch/x86/pci/common.c", "line":621, "type":"c", "scope_line":619, "scope_name":"pci_scan_bus_with_sysdata", }
+,{"id":"pci_scan_bus_on_node", "file":"arch/x86/pci/irq.c", "line":143, "type":"c", "scope_line":117, "scope_name":"pirq_peer_trick", }
+,{"id":"pci_scan_bus_on_node", "file":"arch/x86/pci/legacy.c", "line":54, "type":"c", "scope_line":39, "scope_name":"pcibios_scan_specific_bus", }
+,{"id":"pci_scan_bus_parented", "file":"arch/x86/pci/common.c", "line":418, "type":"c", "scope_line":393, "scope_name":"pcibios_scan_root", }
+,{"id":"pci_scan_bus_parented", "file":"drivers/pci/probe.c", "line":1483, "type":"f", }
+,{"id":"pci_scan_bus_parented", "file":"include/linux/pci.h", "line":647, "type":"c", "scope_line":643, "scope_name":"pci_scan_bus", }
+,{"id":"pci_scan_bus_with_sysdata", "file":"arch/x86/pci/common.c", "line":619, "type":"f", }
+,{"id":"pci_scan_bus_with_sysdata", "file":"arch/x86/pci/fixup.c", "line":28, "type":"c", "scope_line":11, "scope_name":"pci_fixup_i450nx", }
+,{"id":"pci_scan_bus_with_sysdata", "file":"arch/x86/pci/fixup.c", "line":30, "type":"c", "scope_line":11, "scope_name":"pci_fixup_i450nx", }
+,{"id":"pci_scan_bus_with_sysdata", "file":"arch/x86/pci/fixup.c", "line":45, "type":"c", "scope_line":36, "scope_name":"pci_fixup_i450gx", }
+,{"id":"pci_scan_child_bus", "file":"arch/x86/pci/acpi.c", "line":297, "type":"c", "scope_line":235, "scope_name":"pci_acpi_scan_root", }
+,{"id":"pci_scan_child_bus", "file":"drivers/pci/hotplug-pci.c", "line":11, "type":"c", "scope_line":7, "scope_name":"pci_do_scan_bus", }
+,{"id":"pci_scan_child_bus", "file":"drivers/pci/probe.c", "line":1364, "type":"f", }
+,{"id":"pci_scan_child_bus", "file":"drivers/pci/probe.c", "line":1490, "type":"c", "scope_line":1483, "scope_name":"pci_scan_bus_parented", }
+,{"id":"pci_scan_child_bus", "file":"drivers/pci/probe.c", "line":1510, "type":"c", "scope_line":1505, "scope_name":"pci_rescan_bus", }
+,{"id":"pci_scan_child_bus", "file":"drivers/pci/probe.c", "line":736, "type":"c", "scope_line":679, "scope_name":"pci_scan_bridge", }
+,{"id":"pci_scan_child_bus", "file":"drivers/pci/probe.c", "line":796, "type":"c", "scope_line":679, "scope_name":"pci_scan_bridge", }
+,{"id":"pci_scan_device", "file":"drivers/pci/probe.c", "line":1155, "type":"f", }
+,{"id":"pci_scan_device", "file":"drivers/pci/probe.c", "line":1268, "type":"c", "scope_line":1258, "scope_name":"pci_scan_single_device", }
+,{"id":"pci_scan_single_device", "file":"drivers/pci/probe.c", "line":1258, "type":"f", }
+,{"id":"pci_scan_single_device", "file":"drivers/pci/probe.c", "line":1337, "type":"c", "scope_line":1328, "scope_name":"pci_scan_slot", }
+,{"id":"pci_scan_single_device", "file":"drivers/pci/probe.c", "line":1349, "type":"c", "scope_line":1328, "scope_name":"pci_scan_slot", }
+,{"id":"pci_scan_slot", "file":"drivers/pci/hotplug/cpci_hotplug_pci.c", "line":275, "type":"c", "scope_line":253, "scope_name":"cpci_configure_slot", }
+,{"id":"pci_scan_slot", "file":"drivers/pci/hotplug/pciehp_pci.c", "line":77, "type":"c", "scope_line":60, "scope_name":"pciehp_configure_device", }
+,{"id":"pci_scan_slot", "file":"drivers/pci/probe.c", "line":1328, "type":"f", }
+,{"id":"pci_scan_slot", "file":"drivers/pci/probe.c", "line":1373, "type":"c", "scope_line":1364, "scope_name":"pci_scan_child_bus", }
+,];
+xr_frag_insert('t/35/7cbf5892f94ac2e51a5b4429acbb7ea2f5628f.xr', __xr_tmp);

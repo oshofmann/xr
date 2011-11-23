@@ -1,0 +1,23 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#__ACPI_NUMA_H\">__ACPI_NUMA_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#__ACPI_NUMA_H\">__ACPI_NUMA_H</a>", 
+"", 
+"#<a class=\"id\" href=\"#ifdef\">ifdef</a> <a class=\"id\" href=\"#CONFIG_ACPI_NUMA\">CONFIG_ACPI_NUMA</a>", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#kernel\">kernel</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"", 
+"<span class=\"comment\">/* Proximity bitmap length */</span>", 
+"#if <a class=\"id\" href=\"#MAX_NUMNODES\">MAX_NUMNODES</a> &gt; 256", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#MAX_PXM_DOMAINS\">MAX_PXM_DOMAINS</a> <a class=\"id\" href=\"#MAX_NUMNODES\">MAX_NUMNODES</a>", 
+"#else", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#MAX_PXM_DOMAINS\">MAX_PXM_DOMAINS</a> (256)<span class=\"ts\"/><span class=\"comment\">/* Old pxm spec is defined 8 bit */</span>", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+"", 
+"extern int <a class=\"id\" href=\"#pxm_to_node\">pxm_to_node</a>(int);", 
+"extern int <a class=\"id\" href=\"#node_to_pxm\">node_to_pxm</a>(int);", 
+"extern void <a class=\"id\" href=\"#__acpi_map_pxm_to_node\">__acpi_map_pxm_to_node</a>(int, int);", 
+"extern int <a class=\"id\" href=\"#acpi_map_pxm_to_node\">acpi_map_pxm_to_node</a>(int);", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a><span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/><span class=\"comment\">/* CONFIG_ACPI_NUMA */</span>", 
+"#<a class=\"id\" href=\"#endif\">endif</a><span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/><span class=\"comment\">/* __ACP_NUMA_H */</span>", 
+];
+xr_frag_insert('l/f4/0f92b741f3b8b826941c41262179b913c0f538.xr', __xr_tmp);

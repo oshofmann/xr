@@ -1,0 +1,699 @@
+var __xr_tmp = [
+{"id":"scsi_nl_send_vendor_msg", "file":"drivers/scsi/scsi_netlink.c", "line":623, "type":"f", }
+,{"id":"scsi_nl_sock", "file":"drivers/scsi/scsi_netlink.c", "line":32, "type":"v", }
+,{"id":"scsi_nl_state", "file":"drivers/scsi/scsi_netlink.c", "line":38, "type":"v", }
+,{"id":"scsi_nl_transport", "file":"drivers/scsi/scsi_netlink.c", "line":41, "type":"s", }
+,{"id":"scsi_nonblockable_ioctl", "file":"drivers/scsi/scsi_ioctl.c", "line":286, "type":"f", }
+,{"id":"scsi_nonblockable_ioctl", "file":"drivers/scsi/sd.c", "line":943, "type":"c", "scope_line":926, "scope_name":"sd_ioctl", }
+,{"id":"scsi_nonblockable_ioctl", "file":"drivers/scsi/sr.c", "line":525, "type":"c", "scope_line":494, "scope_name":"sr_block_ioctl", }
+,{"id":"scsi_noretry_cmd", "file":"drivers/scsi/scsi_error.c", "line":1331, "type":"f", }
+,{"id":"scsi_noretry_cmd", "file":"drivers/scsi/scsi_error.c", "line":1544, "type":"c", "scope_line":1377, "scope_name":"scsi_decide_disposition", }
+,{"id":"scsi_noretry_cmd", "file":"drivers/scsi/scsi_error.c", "line":1676, "type":"c", "scope_line":1670, "scope_name":"scsi_eh_flush_done_q", }
+,{"id":"scsi_noretry_cmd", "file":"drivers/scsi/scsi_lib.c", "line":550, "type":"c", "scope_line":538, "scope_name":"scsi_end_request", }
+,{"id":"scsi_normalize_sense", "file":"drivers/ata/libata-scsi.c", "line":562, "type":"c", "scope_line":497, "scope_name":"ata_cmd_ioctl", }
+,{"id":"scsi_normalize_sense", "file":"drivers/ata/libata-scsi.c", "line":648, "type":"c", "scope_line":606, "scope_name":"ata_task_ioctl", }
+,{"id":"scsi_normalize_sense", "file":"drivers/scsi/constants.c", "line":1309, "type":"c", "scope_line":1303, "scope_name":"scsi_decode_sense_buffer", }
+,{"id":"scsi_normalize_sense", "file":"drivers/scsi/scsi_error.c", "line":1992, "type":"f", }
+,{"id":"scsi_normalize_sense", "file":"drivers/scsi/scsi_error.c", "line":2040, "type":"c", "scope_line":2037, "scope_name":"scsi_command_normalize_sense", }
+,{"id":"scsi_normalize_sense", "file":"drivers/scsi/scsi_lib.c", "line":273, "type":"c", "scope_line":257, "scope_name":"scsi_execute_req", }
+,{"id":"scsi_normalize_sense", "file":"drivers/scsi/scsi_transport_spi.c", "line":138, "type":"c", "scope_line":118, "scope_name":"spi_execute", }
+,{"id":"scsi_normalize_sense", "file":"drivers/scsi/sg.c", "line":1306, "type":"c", "scope_line":1260, "scope_name":"sg_rq_end_io", }
+,{"id":"scsi_normalize_sense", "file":"drivers/scsi/sr_ioctl.c", "line":213, "type":"c", "scope_line":185, "scope_name":"sr_do_ioctl", }
+,{"id":"scsi_null_device_strs", "file":"drivers/scsi/scsi_scan.c", "line":80, "type":"v", }
+,{"id":"scsi_opcode_name", "file":"include/trace/events/scsi.h", "line":12, "type":"d", }
+,{"id":"scsi_out", "file":"include/scsi/scsi_cmnd.h", "line":194, "type":"f", }
+,{"id":"scsi_partsize", "file":"drivers/scsi/scsicam.c", "line":126, "type":"f", }
+,{"id":"scsi_partsize", "file":"drivers/scsi/scsicam.c", "line":79, "type":"c", "scope_line":68, "scope_name":"scsicam_bios_param", }
+,{"id":"scsi_pointer", "file":"include/scsi/scsi_cmnd.h", "line":38, "type":"s", }
+,{"id":"scsi_pool_alloc_command", "file":"drivers/scsi/scsi.c", "line":170, "type":"f", }
+,{"id":"scsi_pool_alloc_command", "file":"drivers/scsi/scsi.c", "line":221, "type":"c", "scope_line":216, "scope_name":"scsi_host_alloc_command", }
+,{"id":"scsi_pool_alloc_command", "file":"drivers/scsi/scsi.c", "line":433, "type":"c", "scope_line":426, "scope_name":"scsi_allocate_command", }
+,{"id":"scsi_pool_free_command", "file":"drivers/scsi/scsi.c", "line":197, "type":"f", }
+,{"id":"scsi_pool_free_command", "file":"drivers/scsi/scsi.c", "line":229, "type":"c", "scope_line":216, "scope_name":"scsi_host_alloc_command", }
+,{"id":"scsi_pool_free_command", "file":"drivers/scsi/scsi.c", "line":330, "type":"c", "scope_line":316, "scope_name":"__scsi_put_command", }
+,{"id":"scsi_pool_free_command", "file":"drivers/scsi/scsi.c", "line":458, "type":"c", "scope_line":446, "scope_name":"scsi_free_command", }
+,{"id":"scsi_pool_free_command", "file":"drivers/scsi/scsi.c", "line":523, "type":"c", "scope_line":509, "scope_name":"scsi_destroy_command_freelist", }
+,{"id":"scsi_populate_tag_msg", "file":"include/scsi/scsi_tcq.h", "line":97, "type":"f", }
+,{"id":"scsi_prep_async_scan", "file":"drivers/scsi/scsi_scan.c", "line":1732, "type":"f", }
+,{"id":"scsi_prep_async_scan", "file":"drivers/scsi/scsi_scan.c", "line":1865, "type":"c", "scope_line":1855, "scope_name":"scsi_scan_host", }
+,{"id":"scsi_prep_fn", "file":"drivers/scsi/scsi_lib.c", "line":1209, "type":"f", }
+,{"id":"scsi_prep_return", "file":"drivers/scsi/scsi_lib.c", "line":1177, "type":"f", }
+,{"id":"scsi_prep_return", "file":"drivers/scsi/scsi_lib.c", "line":1216, "type":"c", "scope_line":1209, "scope_name":"scsi_prep_fn", }
+,{"id":"scsi_prep_return", "file":"drivers/scsi/sd.c", "line":768, "type":"c", "scope_line":504, "scope_name":"sd_prep_fn", }
+,{"id":"scsi_prep_return", "file":"drivers/scsi/sr.c", "line":465, "type":"c", "scope_line":326, "scope_name":"sr_prep_fn", }
+,{"id":"scsi_prep_state_check", "file":"drivers/scsi/scsi_lib.c", "line":1046, "type":"c", "scope_line":1043, "scope_name":"scsi_setup_blk_pc_cmnd", }
+,{"id":"scsi_prep_state_check", "file":"drivers/scsi/scsi_lib.c", "line":1098, "type":"c", "scope_line":1095, "scope_name":"scsi_setup_fs_cmnd", }
+,{"id":"scsi_prep_state_check", "file":"drivers/scsi/scsi_lib.c", "line":1124, "type":"f", }
+,{"id":"scsi_print_command", "file":"drivers/ata/libata-eh.c", "line":2362, "type":"c", "scope_line":2250, "scope_name":"ata_eh_link_report", }
+,{"id":"scsi_print_command", "file":"drivers/scsi/constants.c", "line":345, "type":"f", }
+,{"id":"scsi_print_command", "file":"drivers/scsi/scsi.c", "line":553, "type":"c", "scope_line":530, "scope_name":"scsi_log_send", }
+,{"id":"scsi_print_command", "file":"drivers/scsi/scsi.c", "line":616, "type":"c", "scope_line":565, "scope_name":"scsi_log_completion", }
+,{"id":"scsi_print_command", "file":"drivers/scsi/scsi_lib.c", "line":907, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"scsi_print_command", "file":"drivers/scsi/sd.c", "line":1271, "type":"c", "scope_line":1199, "scope_name":"sd_done", }
+,{"id":"scsi_print_result", "file":"drivers/scsi/constants.c", "line":1454, "type":"f", }
+,{"id":"scsi_print_result", "file":"drivers/scsi/scsi.c", "line":615, "type":"c", "scope_line":565, "scope_name":"scsi_log_completion", }
+,{"id":"scsi_print_result", "file":"drivers/scsi/scsi_lib.c", "line":904, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"scsi_print_result", "file":"drivers/scsi/sd.c", "line":1220, "type":"c", "scope_line":1199, "scope_name":"sd_done", }
+,{"id":"scsi_print_sense", "file":"drivers/scsi/constants.c", "line":1403, "type":"f", }
+,{"id":"scsi_print_sense", "file":"drivers/scsi/scsi.c", "line":618, "type":"c", "scope_line":565, "scope_name":"scsi_log_completion", }
+,{"id":"scsi_print_sense", "file":"drivers/scsi/scsi_error.c", "line":914, "type":"c", "scope_line":893, "scope_name":"scsi_eh_get_sense", }
+,{"id":"scsi_print_sense", "file":"drivers/scsi/scsi_lib.c", "line":785, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"scsi_print_sense", "file":"drivers/scsi/scsi_lib.c", "line":906, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"scsi_print_sense", "file":"drivers/scsi/sd.c", "line":1247, "type":"c", "scope_line":1199, "scope_name":"sd_done", }
+,{"id":"scsi_print_sense_hdr", "file":"drivers/scsi/constants.c", "line":1279, "type":"f", }
+,{"id":"scsi_print_sense_hdr", "file":"drivers/scsi/scsi_ioctl.c", "line":125, "type":"c", "scope_line":88, "scope_name":"ioctl_internal_command", }
+,{"id":"scsi_print_sense_hdr", "file":"drivers/scsi/sr_ioctl.c", "line":263, "type":"c", "scope_line":185, "scope_name":"sr_do_ioctl", }
+,{"id":"scsi_print_status", "file":"drivers/scsi/constants.c", "line":372, "type":"f", }
+,{"id":"scsi_probe_and_add_lun", "file":"drivers/scsi/scsi_scan.c", "line":1004, "type":"f", }
+,{"id":"scsi_probe_and_add_lun", "file":"drivers/scsi/scsi_scan.c", "line":1217, "type":"c", "scope_line":1155, "scope_name":"scsi_sequential_lun_scan", }
+,{"id":"scsi_probe_and_add_lun", "file":"drivers/scsi/scsi_scan.c", "line":1476, "type":"c", "scope_line":1306, "scope_name":"scsi_report_lun_scan", }
+,{"id":"scsi_probe_and_add_lun", "file":"drivers/scsi/scsi_scan.c", "line":1523, "type":"c", "scope_line":1503, "scope_name":"__scsi_add_device", }
+,{"id":"scsi_probe_and_add_lun", "file":"drivers/scsi/scsi_scan.c", "line":1587, "type":"c", "scope_line":1564, "scope_name":"__scsi_scan_target", }
+,{"id":"scsi_probe_and_add_lun", "file":"drivers/scsi/scsi_scan.c", "line":1595, "type":"c", "scope_line":1564, "scope_name":"__scsi_scan_target", }
+,{"id":"scsi_probe_lun", "file":"drivers/scsi/scsi_scan.c", "line":1046, "type":"c", "scope_line":1004, "scope_name":"scsi_probe_and_add_lun", }
+,{"id":"scsi_probe_lun", "file":"drivers/scsi/scsi_scan.c", "line":556, "type":"f", }
+,{"id":"scsi_proc_host_add", "file":"drivers/scsi/scsi_priv.h", "line":104, "type":"d", }
+,{"id":"scsi_proc_host_rm", "file":"drivers/scsi/scsi_priv.h", "line":105, "type":"d", }
+,{"id":"scsi_proc_hostdir_add", "file":"drivers/scsi/scsi_priv.h", "line":102, "type":"d", }
+,{"id":"scsi_proc_hostdir_rm", "file":"drivers/scsi/scsi_priv.h", "line":103, "type":"d", }
+,{"id":"scsi_prot", "file":"include/scsi/scsi_cmnd.h", "line":282, "type":"f", }
+,{"id":"scsi_prot_operations", "file":"include/scsi/scsi_cmnd.h", "line":217, "type":"t", }
+,{"id":"scsi_prot_sg_count", "file":"drivers/scsi/scsi_lib.c", "line":643, "type":"c", "scope_line":627, "scope_name":"__scsi_release_buffers", }
+,{"id":"scsi_prot_sg_count", "file":"drivers/scsi/sd.c", "line":1260, "type":"c", "scope_line":1199, "scope_name":"sd_done", }
+,{"id":"scsi_prot_sg_count", "file":"drivers/scsi/sd.c", "line":392, "type":"c", "scope_line":389, "scope_name":"sd_prot_op", }
+,{"id":"scsi_prot_sg_count", "file":"drivers/scsi/sd.c", "line":750, "type":"c", "scope_line":504, "scope_name":"sd_prep_fn", }
+,{"id":"scsi_prot_sg_count", "file":"include/scsi/scsi_cmnd.h", "line":272, "type":"f", }
+,{"id":"scsi_prot_sg_count", "file":"include/trace/events/scsi.h", "line":190, "type":"c", "scope_line":190, "scope_name":"ftrace_raw_event_scsi_dispatch_cmd_start", }
+,{"id":"scsi_prot_sg_count", "file":"include/trace/events/scsi.h", "line":190, "type":"c", "scope_line":190, "scope_name":"perf_trace_scsi_dispatch_cmd_start", }
+,{"id":"scsi_prot_sg_count", "file":"include/trace/events/scsi.h", "line":229, "type":"c", "scope_line":229, "scope_name":"ftrace_raw_event_scsi_dispatch_cmd_error", }
+,{"id":"scsi_prot_sg_count", "file":"include/trace/events/scsi.h", "line":229, "type":"c", "scope_line":229, "scope_name":"perf_trace_scsi_dispatch_cmd_error", }
+,{"id":"scsi_prot_sg_count", "file":"include/trace/events/scsi.h", "line":271, "type":"c", "scope_line":271, "scope_name":"ftrace_raw_event_scsi_cmd_done_timeout_template", }
+,{"id":"scsi_prot_sg_count", "file":"include/trace/events/scsi.h", "line":271, "type":"c", "scope_line":271, "scope_name":"perf_trace_scsi_cmd_done_timeout_template", }
+,{"id":"scsi_prot_sglist", "file":"include/scsi/scsi_cmnd.h", "line":277, "type":"f", }
+,{"id":"scsi_prot_target_type", "file":"include/scsi/scsi_cmnd.h", "line":250, "type":"t", }
+,{"id":"scsi_protocol", "file":"include/scsi/scsi.h", "line":280, "type":"t", }
+,{"id":"scsi_put_command", "file":"drivers/scsi/scsi.c", "line":344, "type":"f", }
+,{"id":"scsi_put_command", "file":"drivers/scsi/scsi_lib.c", "line":1015, "type":"c", "scope_line":969, "scope_name":"scsi_init_io", }
+,{"id":"scsi_put_command", "file":"drivers/scsi/scsi_lib.c", "line":1188, "type":"c", "scope_line":1177, "scope_name":"scsi_prep_return", }
+,{"id":"scsi_put_command", "file":"drivers/scsi/scsi_lib.c", "line":499, "type":"c", "scope_line":491, "scope_name":"scsi_next_command", }
+,{"id":"scsi_put_command", "file":"drivers/scsi/scsi_lib.c", "line":91, "type":"c", "scope_line":84, "scope_name":"scsi_unprep_request", }
+,{"id":"scsi_put_host_cmd_pool", "file":"drivers/scsi/scsi.c", "line":392, "type":"f", }
+,{"id":"scsi_put_host_cmd_pool", "file":"drivers/scsi/scsi.c", "line":464, "type":"c", "scope_line":446, "scope_name":"scsi_free_command", }
+,{"id":"scsi_put_host_cmd_pool", "file":"drivers/scsi/scsi.c", "line":465, "type":"c", "scope_line":446, "scope_name":"scsi_free_command", }
+,{"id":"scsi_put_host_cmd_pool", "file":"drivers/scsi/scsi.c", "line":497, "type":"c", "scope_line":479, "scope_name":"scsi_setup_command_freelist", }
+,{"id":"scsi_put_host_cmd_pool", "file":"drivers/scsi/scsi.c", "line":526, "type":"c", "scope_line":509, "scope_name":"scsi_destroy_command_freelist", }
+,{"id":"scsi_queue_insert", "file":"drivers/scsi/scsi.c", "line":681, "type":"c", "scope_line":651, "scope_name":"scsi_dispatch_cmd", }
+,{"id":"scsi_queue_insert", "file":"drivers/scsi/scsi.c", "line":763, "type":"c", "scope_line":651, "scope_name":"scsi_dispatch_cmd", }
+,{"id":"scsi_queue_insert", "file":"drivers/scsi/scsi_error.c", "line":1683, "type":"c", "scope_line":1670, "scope_name":"scsi_eh_flush_done_q", }
+,{"id":"scsi_queue_insert", "file":"drivers/scsi/scsi_lib.c", "line":1429, "type":"c", "scope_line":1396, "scope_name":"scsi_softirq_done", }
+,{"id":"scsi_queue_insert", "file":"drivers/scsi/scsi_lib.c", "line":1432, "type":"c", "scope_line":1396, "scope_name":"scsi_softirq_done", }
+,{"id":"scsi_queue_insert", "file":"drivers/scsi/scsi_lib.c", "line":188, "type":"f", }
+,{"id":"scsi_queue_work", "file":"drivers/scsi/hosts.c", "line":549, "type":"f", }
+,{"id":"scsi_register", "file":"drivers/scsi/hosts.c", "line":442, "type":"f", }
+,{"id":"scsi_register_driver", "file":"drivers/scsi/scsi_sysfs.c", "line":1006, "type":"f", }
+,{"id":"scsi_register_driver", "file":"drivers/scsi/sd.c", "line":2571, "type":"c", "scope_line":2554, "scope_name":"init_sd", }
+,{"id":"scsi_register_driver", "file":"drivers/scsi/sr.c", "line":921, "type":"c", "scope_line":914, "scope_name":"init_sr", }
+,{"id":"scsi_register_interface", "file":"drivers/scsi/scsi_sysfs.c", "line":1014, "type":"f", }
+,{"id":"scsi_register_interface", "file":"drivers/scsi/sg.c", "line":1595, "type":"c", "scope_line":1571, "scope_name":"init_sg", }
+,{"id":"scsi_release_buffers", "file":"drivers/scsi/scsi_lib.c", "line":1013, "type":"c", "scope_line":969, "scope_name":"scsi_init_io", }
+,{"id":"scsi_release_buffers", "file":"drivers/scsi/scsi_lib.c", "line":1187, "type":"c", "scope_line":1177, "scope_name":"scsi_prep_return", }
+,{"id":"scsi_release_buffers", "file":"drivers/scsi/scsi_lib.c", "line":559, "type":"c", "scope_line":538, "scope_name":"scsi_end_request", }
+,{"id":"scsi_release_buffers", "file":"drivers/scsi/scsi_lib.c", "line":664, "type":"f", }
+,{"id":"scsi_release_buffers", "file":"drivers/scsi/scsi_lib.c", "line":752, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"scsi_release_buffers", "file":"drivers/scsi/scsi_lib.c", "line":899, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"scsi_release_buffers", "file":"drivers/scsi/scsi_lib.c", "line":918, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"scsi_remove_device", "file":"drivers/ata/libata-scsi.c", "line":3520, "type":"c", "scope_line":3476, "scope_name":"ata_scsi_remove_dev", }
+,{"id":"scsi_remove_device", "file":"drivers/scsi/scsi_sysfs.c", "line":540, "type":"c", "scope_line":538, "scope_name":"sdev_store_delete_callback", }
+,{"id":"scsi_remove_device", "file":"drivers/scsi/scsi_sysfs.c", "line":943, "type":"f", }
+,{"id":"scsi_remove_device", "file":"drivers/scsi/scsi_sysfs.c", "line":968, "type":"c", "scope_line":953, "scope_name":"__scsi_remove_target", }
+,{"id":"scsi_remove_host", "file":"drivers/ata/libata-core.c", "line":6230, "type":"c", "scope_line":6207, "scope_name":"ata_port_detach", }
+,{"id":"scsi_remove_host", "file":"drivers/ata/libata-scsi.c", "line":3364, "type":"c", "scope_line":3321, "scope_name":"ata_scsi_add_hosts", }
+,{"id":"scsi_remove_host", "file":"drivers/scsi/hosts.c", "line":157, "type":"f", }
+,{"id":"scsi_remove_target", "file":"drivers/scsi/scsi_sysfs.c", "line":991, "type":"f", }
+,{"id":"scsi_report_bus_reset", "file":"drivers/scsi/scsi_error.c", "line":1836, "type":"f", }
+,{"id":"scsi_report_bus_reset", "file":"drivers/scsi/scsi_error.c", "line":531, "type":"c", "scope_line":514, "scope_name":"scsi_try_host_reset", }
+,{"id":"scsi_report_bus_reset", "file":"drivers/scsi/scsi_error.c", "line":560, "type":"c", "scope_line":543, "scope_name":"scsi_try_bus_reset", }
+,{"id":"scsi_report_device_reset", "file":"drivers/scsi/scsi_error.c", "line":1869, "type":"f", }
+,{"id":"scsi_report_lun_scan", "file":"drivers/scsi/scsi_scan.c", "line":1306, "type":"f", }
+,{"id":"scsi_report_lun_scan", "file":"drivers/scsi/scsi_scan.c", "line":1597, "type":"c", "scope_line":1564, "scope_name":"__scsi_scan_target", }
+,{"id":"scsi_request_fn", "file":"drivers/scsi/scsi_lib.c", "line":1451, "type":"f", }
+,{"id":"scsi_request_sense", "file":"drivers/scsi/scsi_error.c", "line":848, "type":"f", }
+,{"id":"scsi_request_sense", "file":"drivers/scsi/scsi_error.c", "line":907, "type":"c", "scope_line":893, "scope_name":"scsi_eh_get_sense", }
+,{"id":"scsi_requeue_command", "file":"drivers/scsi/scsi_lib.c", "line":478, "type":"f", }
+,{"id":"scsi_requeue_command", "file":"drivers/scsi/scsi_lib.c", "line":560, "type":"c", "scope_line":538, "scope_name":"scsi_end_request", }
+,{"id":"scsi_requeue_command", "file":"drivers/scsi/scsi_lib.c", "line":910, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"scsi_requeue_command", "file":"drivers/scsi/scsi_lib.c", "line":919, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"scsi_rescan_device", "file":"drivers/ata/libata-scsi.c", "line":3704, "type":"c", "scope_line":3683, "scope_name":"ata_scsi_dev_rescan", }
+,{"id":"scsi_rescan_device", "file":"drivers/scsi/scsi_scan.c", "line":1548, "type":"f", }
+,{"id":"scsi_rescan_device", "file":"drivers/scsi/scsi_sysfs.c", "line":533, "type":"c", "scope_line":529, "scope_name":"store_rescan_field", }
+,{"id":"scsi_rescan_task", "file":"include/linux/libata.h", "line":758, "type":"m", "scope_line":711, "scope_name":"struct ata_port", }
+,{"id":"scsi_reset_provider", "file":"drivers/scsi/scsi_error.c", "line":1899, "type":"f", }
+,{"id":"scsi_reset_provider", "file":"drivers/scsi/scsi_ioctl.c", "line":325, "type":"c", "scope_line":286, "scope_name":"scsi_nonblockable_ioctl", }
+,{"id":"scsi_reset_provider", "file":"drivers/scsi/sg.c", "line":1040, "type":"c", "scope_line":770, "scope_name":"sg_ioctl", }
+,{"id":"scsi_reset_provider_done_command", "file":"drivers/scsi/scsi_error.c", "line":1881, "type":"f", }
+,{"id":"scsi_restart_operations", "file":"drivers/scsi/scsi_error.c", "line":1606, "type":"f", }
+,{"id":"scsi_restart_operations", "file":"drivers/scsi/scsi_error.c", "line":1803, "type":"c", "scope_line":1751, "scope_name":"scsi_error_handler", }
+,{"id":"scsi_root_table", "file":"drivers/scsi/scsi_sysctl.c", "line":31, "type":"v", }
+,{"id":"scsi_run_host_queues", "file":"drivers/scsi/scsi_error.c", "line":1643, "type":"c", "scope_line":1606, "scope_name":"scsi_restart_operations", }
+,{"id":"scsi_run_host_queues", "file":"drivers/scsi/scsi_error.c", "line":1965, "type":"c", "scope_line":1899, "scope_name":"scsi_reset_provider", }
+,{"id":"scsi_run_host_queues", "file":"drivers/scsi/scsi_lib.c", "line":1715, "type":"c", "scope_line":1712, "scope_name":"scsi_unblock_requests", }
+,{"id":"scsi_run_host_queues", "file":"drivers/scsi/scsi_lib.c", "line":506, "type":"f", }
+,{"id":"scsi_run_queue", "file":"drivers/scsi/scsi_lib.c", "line":164, "type":"c", "scope_line":106, "scope_name":"__scsi_queue_insert", }
+,{"id":"scsi_run_queue", "file":"drivers/scsi/scsi_lib.c", "line":2303, "type":"c", "scope_line":2296, "scope_name":"scsi_device_quiesce", }
+,{"id":"scsi_run_queue", "file":"drivers/scsi/scsi_lib.c", "line":2306, "type":"c", "scope_line":2296, "scope_name":"scsi_device_quiesce", }
+,{"id":"scsi_run_queue", "file":"drivers/scsi/scsi_lib.c", "line":2326, "type":"c", "scope_line":2321, "scope_name":"scsi_device_resume", }
+,{"id":"scsi_run_queue", "file":"drivers/scsi/scsi_lib.c", "line":400, "type":"f", }
+,{"id":"scsi_run_queue", "file":"drivers/scsi/scsi_lib.c", "line":488, "type":"c", "scope_line":478, "scope_name":"scsi_requeue_command", }
+,{"id":"scsi_run_queue", "file":"drivers/scsi/scsi_lib.c", "line":500, "type":"c", "scope_line":491, "scope_name":"scsi_next_command", }
+,{"id":"scsi_run_queue", "file":"drivers/scsi/scsi_lib.c", "line":511, "type":"c", "scope_line":506, "scope_name":"scsi_run_host_queues", }
+,{"id":"scsi_runtime_idle", "file":"drivers/scsi/scsi_pm.c", "line":127, "type":"f", }
+,{"id":"scsi_runtime_resume", "file":"drivers/scsi/scsi_pm.c", "line":114, "type":"f", }
+,{"id":"scsi_runtime_suspend", "file":"drivers/scsi/scsi_pm.c", "line":97, "type":"f", }
+,{"id":"scsi_scan", "file":"drivers/scsi/scsi_sysfs.c", "line":156, "type":"c", "scope_line":149, "scope_name":"store_scan", }
+,{"id":"scsi_scan", "file":"drivers/scsi/scsi_sysfs.c", "line":99, "type":"f", }
+,{"id":"scsi_scan_channel", "file":"drivers/scsi/scsi_scan.c", "line":1650, "type":"f", }
+,{"id":"scsi_scan_channel", "file":"drivers/scsi/scsi_scan.c", "line":1701, "type":"c", "scope_line":1681, "scope_name":"scsi_scan_host_selected", }
+,{"id":"scsi_scan_channel", "file":"drivers/scsi/scsi_scan.c", "line":1704, "type":"c", "scope_line":1681, "scope_name":"scsi_scan_host_selected", }
+,{"id":"scsi_scan_host", "file":"drivers/scsi/scsi_scan.c", "line":1855, "type":"f", }
+,{"id":"scsi_scan_host_selected", "file":"drivers/scsi/scsi_scan.c", "line":1681, "type":"f", }
+,{"id":"scsi_scan_host_selected", "file":"drivers/scsi/scsi_scan.c", "line":1835, "type":"c", "scope_line":1825, "scope_name":"do_scsi_scan_host", }
+,{"id":"scsi_scan_host_selected", "file":"drivers/scsi/scsi_sysfs.c", "line":117, "type":"c", "scope_line":99, "scope_name":"scsi_scan", }
+,{"id":"scsi_scan_mutex", "file":"include/linux/libata.h", "line":756, "type":"m", "scope_line":711, "scope_name":"struct ata_port", }
+,{"id":"scsi_scan_target", "file":"drivers/scsi/scsi_scan.c", "line":1630, "type":"f", }
+,{"id":"scsi_scan_type", "file":"drivers/scsi/scsi_scan.c", "line":100, "type":"v", }
+,{"id":"scsi_schedule_eh", "file":"drivers/ata/libata-eh.c", "line":918, "type":"c", "scope_line":910, "scope_name":"ata_port_schedule_eh", }
+,{"id":"scsi_schedule_eh", "file":"drivers/scsi/scsi_error.c", "line":70, "type":"f", }
+,{"id":"scsi_sdb_cache", "file":"drivers/scsi/scsi_priv.h", "line":91, "type":"v", }
+,{"id":"scsi_sdev_attr_group", "file":"drivers/scsi/scsi_sysfs.c", "line":702, "type":"v", }
+,{"id":"scsi_sdev_attr_groups", "file":"drivers/scsi/scsi_sysfs.c", "line":706, "type":"v", }
+,{"id":"scsi_sdev_attrs", "file":"drivers/scsi/scsi_sysfs.c", "line":682, "type":"v", }
+,{"id":"scsi_send_eh_cmnd", "file":"drivers/scsi/scsi_error.c", "line":1027, "type":"c", "scope_line":1019, "scope_name":"scsi_eh_try_stu", }
+,{"id":"scsi_send_eh_cmnd", "file":"drivers/scsi/scsi_error.c", "line":777, "type":"f", }
+,{"id":"scsi_send_eh_cmnd", "file":"drivers/scsi/scsi_error.c", "line":850, "type":"c", "scope_line":848, "scope_name":"scsi_request_sense", }
+,{"id":"scsi_send_eh_cmnd", "file":"drivers/scsi/scsi_error.c", "line":951, "type":"c", "scope_line":945, "scope_name":"scsi_eh_tur", }
+,{"id":"scsi_sense_desc_find", "file":"drivers/scsi/scsi_error.c", "line":2058, "type":"f", }
+,{"id":"scsi_sense_desc_find", "file":"drivers/scsi/scsi_error.c", "line":2115, "type":"c", "scope_line":2094, "scope_name":"scsi_get_sense_info_fld", }
+,{"id":"scsi_sense_hdr", "file":"include/scsi/scsi_eh.h", "line":19, "type":"s", }
+,{"id":"scsi_sense_is_deferred", "file":"drivers/scsi/constants.c", "line":1266, "type":"c", "scope_line":1255, "scope_name":"scsi_show_sense_hdr", }
+,{"id":"scsi_sense_is_deferred", "file":"drivers/scsi/scsi_error.c", "line":240, "type":"c", "scope_line":232, "scope_name":"scsi_check_sense", }
+,{"id":"scsi_sense_is_deferred", "file":"drivers/scsi/scsi_lib.c", "line":722, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"scsi_sense_is_deferred", "file":"drivers/scsi/sd.c", "line":1217, "type":"c", "scope_line":1199, "scope_name":"sd_done", }
+,{"id":"scsi_sense_is_deferred", "file":"drivers/scsi/sg.c", "line":1306, "type":"c", "scope_line":1260, "scope_name":"sg_rq_end_io", }
+,{"id":"scsi_sense_is_deferred", "file":"include/scsi/scsi_eh.h", "line":50, "type":"f", }
+,{"id":"scsi_sense_key_string", "file":"drivers/scsi/constants.c", "line":1195, "type":"f", }
+,{"id":"scsi_sense_key_string", "file":"drivers/scsi/constants.c", "line":1260, "type":"c", "scope_line":1255, "scope_name":"scsi_show_sense_hdr", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/scsi_error.c", "line":2002, "type":"c", "scope_line":1992, "scope_name":"scsi_normalize_sense", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/scsi_ioctl.c", "line":101, "type":"c", "scope_line":88, "scope_name":"ioctl_internal_command", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/scsi_lib.c", "line":1925, "type":"c", "scope_line":1874, "scope_name":"scsi_mode_sense", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/scsi_lib.c", "line":1996, "type":"c", "scope_line":1980, "scope_name":"scsi_test_unit_ready", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/scsi_lib.c", "line":1999, "type":"c", "scope_line":1980, "scope_name":"scsi_test_unit_ready", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/scsi_lib.c", "line":2009, "type":"c", "scope_line":1980, "scope_name":"scsi_test_unit_ready", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/scsi_scan.c", "line":1412, "type":"c", "scope_line":1306, "scope_name":"scsi_report_lun_scan", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/scsi_scan.c", "line":605, "type":"c", "scope_line":556, "scope_name":"scsi_probe_lun", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/scsi_transport_spi.c", "line":670, "type":"c", "scope_line":613, "scope_name":"spi_dv_device_echo_buffer", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sd.c", "line":1031, "type":"c", "scope_line":984, "scope_name":"sd_media_changed", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sd.c", "line":1285, "type":"c", "scope_line":1281, "scope_name":"media_not_present", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sd.c", "line":1336, "type":"c", "scope_line":1301, "scope_name":"sd_spinup_disk", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sd.c", "line":1516, "type":"c", "scope_line":1489, "scope_name":"read_capacity_16", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sd.c", "line":1607, "type":"c", "scope_line":1583, "scope_name":"read_capacity_10", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sd.c", "line":174, "type":"c", "scope_line":130, "scope_name":"sd_store_cache_type", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sd.c", "line":1953, "type":"c", "scope_line":1856, "scope_name":"sd_read_cache_type", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sd.c", "line":1993, "type":"c", "scope_line":1972, "scope_name":"sd_read_app_tag_own", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sr.c", "line":179, "type":"c", "scope_line":170, "scope_name":"sr_test_unit_ready", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sr.c", "line":183, "type":"c", "scope_line":170, "scope_name":"sr_test_unit_ready", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sr.c", "line":217, "type":"c", "scope_line":204, "scope_name":"sr_media_change", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sr_ioctl.c", "line":314, "type":"c", "scope_line":300, "scope_name":"sr_drive_status", }
+,{"id":"scsi_sense_valid", "file":"drivers/scsi/sr_ioctl.c", "line":338, "type":"c", "scope_line":300, "scope_name":"sr_drive_status", }
+,{"id":"scsi_sense_valid", "file":"include/scsi/scsi_eh.h", "line":30, "type":"f", }
+,{"id":"scsi_sequential_lun_scan", "file":"drivers/scsi/scsi_scan.c", "line":1155, "type":"f", }
+,{"id":"scsi_sequential_lun_scan", "file":"drivers/scsi/scsi_scan.c", "line":1602, "type":"c", "scope_line":1564, "scope_name":"__scsi_scan_target", }
+,{"id":"scsi_set_medium_removal", "file":"drivers/scsi/scsi_ioctl.c", "line":134, "type":"f", }
+,{"id":"scsi_set_medium_removal", "file":"drivers/scsi/scsi_ioctl.c", "line":249, "type":"c", "scope_line":194, "scope_name":"scsi_ioctl", }
+,{"id":"scsi_set_medium_removal", "file":"drivers/scsi/scsi_ioctl.c", "line":251, "type":"c", "scope_line":194, "scope_name":"scsi_ioctl", }
+,{"id":"scsi_set_medium_removal", "file":"drivers/scsi/sd.c", "line":841, "type":"c", "scope_line":786, "scope_name":"sd_open", }
+,{"id":"scsi_set_medium_removal", "file":"drivers/scsi/sd.c", "line":875, "type":"c", "scope_line":866, "scope_name":"sd_release", }
+,{"id":"scsi_set_medium_removal", "file":"drivers/scsi/sr_ioctl.c", "line":296, "type":"c", "scope_line":292, "scope_name":"sr_lock_door", }
+,{"id":"scsi_set_prot_op", "file":"drivers/scsi/sd.c", "line":410, "type":"c", "scope_line":389, "scope_name":"sd_prot_op", }
+,{"id":"scsi_set_prot_op", "file":"include/scsi/scsi_cmnd.h", "line":234, "type":"f", }
+,{"id":"scsi_set_prot_type", "file":"drivers/scsi/sd.c", "line":411, "type":"c", "scope_line":389, "scope_name":"sd_prot_op", }
+,{"id":"scsi_set_prot_type", "file":"include/scsi/scsi_cmnd.h", "line":257, "type":"f", }
+,{"id":"scsi_set_resid", "file":"drivers/scsi/scsi_lib.c", "line":294, "type":"c", "scope_line":291, "scope_name":"scsi_init_cmd_errh", }
+,{"id":"scsi_set_resid", "file":"drivers/scsi/sd.c", "line":1210, "type":"c", "scope_line":1199, "scope_name":"sd_done", }
+,{"id":"scsi_set_resid", "file":"include/scsi/scsi_cmnd.h", "line":169, "type":"f", }
+,{"id":"scsi_set_tag_type", "file":"include/scsi/scsi_tcq.h", "line":37, "type":"f", }
+,{"id":"scsi_setup_blk_pc_cmnd", "file":"drivers/scsi/scsi_lib.c", "line":1043, "type":"f", }
+,{"id":"scsi_setup_blk_pc_cmnd", "file":"drivers/scsi/scsi_lib.c", "line":1215, "type":"c", "scope_line":1209, "scope_name":"scsi_prep_fn", }
+,{"id":"scsi_setup_blk_pc_cmnd", "file":"drivers/scsi/sd.c", "line":469, "type":"c", "scope_line":422, "scope_name":"scsi_setup_discard_cmnd", }
+,{"id":"scsi_setup_blk_pc_cmnd", "file":"drivers/scsi/sd.c", "line":485, "type":"c", "scope_line":478, "scope_name":"scsi_setup_flush_cmnd", }
+,{"id":"scsi_setup_blk_pc_cmnd", "file":"drivers/scsi/sd.c", "line":527, "type":"c", "scope_line":504, "scope_name":"sd_prep_fn", }
+,{"id":"scsi_setup_blk_pc_cmnd", "file":"drivers/scsi/sr.c", "line":335, "type":"c", "scope_line":326, "scope_name":"sr_prep_fn", }
+,{"id":"scsi_setup_command_freelist", "file":"drivers/scsi/hosts.c", "line":215, "type":"c", "scope_line":200, "scope_name":"scsi_add_host_with_dma", }
+,{"id":"scsi_setup_command_freelist", "file":"drivers/scsi/scsi.c", "line":479, "type":"f", }
+,{"id":"scsi_setup_discard_cmnd", "file":"drivers/scsi/sd.c", "line":422, "type":"f", }
+,{"id":"scsi_setup_discard_cmnd", "file":"drivers/scsi/sd.c", "line":521, "type":"c", "scope_line":504, "scope_name":"sd_prep_fn", }
+,{"id":"scsi_setup_flush_cmnd", "file":"drivers/scsi/sd.c", "line":478, "type":"f", }
+,{"id":"scsi_setup_flush_cmnd", "file":"drivers/scsi/sd.c", "line":524, "type":"c", "scope_line":504, "scope_name":"sd_prep_fn", }
+,{"id":"scsi_setup_fs_cmnd", "file":"drivers/scsi/scsi_lib.c", "line":1095, "type":"f", }
+,{"id":"scsi_setup_fs_cmnd", "file":"drivers/scsi/sd.c", "line":533, "type":"c", "scope_line":504, "scope_name":"sd_prep_fn", }
+,{"id":"scsi_setup_fs_cmnd", "file":"drivers/scsi/sr.c", "line":341, "type":"c", "scope_line":326, "scope_name":"sr_prep_fn", }
+,{"id":"scsi_sg_alloc", "file":"drivers/scsi/scsi_lib.c", "line":598, "type":"f", }
+,{"id":"scsi_sg_copy_from_buffer", "file":"include/scsi/scsi_cmnd.h", "line":199, "type":"f", }
+,{"id":"scsi_sg_copy_to_buffer", "file":"include/scsi/scsi_cmnd.h", "line":206, "type":"f", }
+,{"id":"scsi_sg_count", "file":"drivers/ata/libata-scsi.c", "line":1813, "type":"c", "scope_line":1790, "scope_name":"ata_scsi_translate", }
+,{"id":"scsi_sg_count", "file":"drivers/ata/libata-scsi.c", "line":1878, "type":"c", "scope_line":1871, "scope_name":"ata_scsi_rbuf_get", }
+,{"id":"scsi_sg_count", "file":"drivers/ata/libata-scsi.c", "line":1899, "type":"c", "scope_line":1895, "scope_name":"ata_scsi_rbuf_put", }
+,{"id":"scsi_sg_count", "file":"drivers/ata/libata-scsi.c", "line":3006, "type":"c", "scope_line":2979, "scope_name":"ata_scsi_write_same_xlat", }
+,{"id":"scsi_sg_count", "file":"drivers/ata/libata-scsi.c", "line":781, "type":"c", "scope_line":769, "scope_name":"ata_scsi_qc_new", }
+,{"id":"scsi_sg_count", "file":"drivers/scsi/scsi_lib_dma.c", "line":25, "type":"c", "scope_line":21, "scope_name":"scsi_dma_map", }
+,{"id":"scsi_sg_count", "file":"drivers/scsi/scsi_lib_dma.c", "line":28, "type":"c", "scope_line":21, "scope_name":"scsi_dma_map", }
+,{"id":"scsi_sg_count", "file":"drivers/scsi/scsi_lib_dma.c", "line":43, "type":"c", "scope_line":41, "scope_name":"scsi_dma_unmap", }
+,{"id":"scsi_sg_count", "file":"drivers/scsi/scsi_lib_dma.c", "line":46, "type":"c", "scope_line":41, "scope_name":"scsi_dma_unmap", }
+,{"id":"scsi_sg_count", "file":"drivers/scsi/sr.c", "line":402, "type":"c", "scope_line":326, "scope_name":"sr_prep_fn", }
+,{"id":"scsi_sg_count", "file":"include/scsi/scsi_cmnd.h", "line":154, "type":"f", }
+,{"id":"scsi_sg_count", "file":"include/scsi/scsi_cmnd.h", "line":202, "type":"c", "scope_line":199, "scope_name":"scsi_sg_copy_from_buffer", }
+,{"id":"scsi_sg_count", "file":"include/scsi/scsi_cmnd.h", "line":209, "type":"c", "scope_line":206, "scope_name":"scsi_sg_copy_to_buffer", }
+,{"id":"scsi_sg_count", "file":"include/trace/events/scsi.h", "line":190, "type":"c", "scope_line":190, "scope_name":"ftrace_raw_event_scsi_dispatch_cmd_start", }
+,{"id":"scsi_sg_count", "file":"include/trace/events/scsi.h", "line":190, "type":"c", "scope_line":190, "scope_name":"perf_trace_scsi_dispatch_cmd_start", }
+,{"id":"scsi_sg_count", "file":"include/trace/events/scsi.h", "line":229, "type":"c", "scope_line":229, "scope_name":"ftrace_raw_event_scsi_dispatch_cmd_error", }
+,{"id":"scsi_sg_count", "file":"include/trace/events/scsi.h", "line":229, "type":"c", "scope_line":229, "scope_name":"perf_trace_scsi_dispatch_cmd_error", }
+,{"id":"scsi_sg_count", "file":"include/trace/events/scsi.h", "line":271, "type":"c", "scope_line":271, "scope_name":"ftrace_raw_event_scsi_cmd_done_timeout_template", }
+,{"id":"scsi_sg_count", "file":"include/trace/events/scsi.h", "line":271, "type":"c", "scope_line":271, "scope_name":"perf_trace_scsi_cmd_done_timeout_template", }
+,{"id":"scsi_sg_free", "file":"drivers/scsi/scsi_lib.c", "line":590, "type":"f", }
+,{"id":"scsi_sg_pools", "file":"drivers/scsi/scsi_lib.c", "line":49, "type":"v", }
+,{"id":"scsi_sglist", "file":"drivers/ata/libata-scsi.c", "line":1813, "type":"c", "scope_line":1790, "scope_name":"ata_scsi_translate", }
+,{"id":"scsi_sglist", "file":"drivers/ata/libata-scsi.c", "line":1878, "type":"c", "scope_line":1871, "scope_name":"ata_scsi_rbuf_get", }
+,{"id":"scsi_sglist", "file":"drivers/ata/libata-scsi.c", "line":1899, "type":"c", "scope_line":1895, "scope_name":"ata_scsi_rbuf_put", }
+,{"id":"scsi_sglist", "file":"drivers/ata/libata-scsi.c", "line":3009, "type":"c", "scope_line":2979, "scope_name":"ata_scsi_write_same_xlat", }
+,{"id":"scsi_sglist", "file":"drivers/ata/libata-scsi.c", "line":780, "type":"c", "scope_line":769, "scope_name":"ata_scsi_qc_new", }
+,{"id":"scsi_sglist", "file":"drivers/scsi/scsi.c", "line":555, "type":"c", "scope_line":530, "scope_name":"scsi_log_send", }
+,{"id":"scsi_sglist", "file":"drivers/scsi/scsi_lib_dma.c", "line":28, "type":"c", "scope_line":21, "scope_name":"scsi_dma_map", }
+,{"id":"scsi_sglist", "file":"drivers/scsi/scsi_lib_dma.c", "line":46, "type":"c", "scope_line":41, "scope_name":"scsi_dma_unmap", }
+,{"id":"scsi_sglist", "file":"drivers/scsi/sr.c", "line":404, "type":"c", "scope_line":326, "scope_name":"sr_prep_fn", }
+,{"id":"scsi_sglist", "file":"include/scsi/scsi_cmnd.h", "line":159, "type":"f", }
+,{"id":"scsi_sglist", "file":"include/scsi/scsi_cmnd.h", "line":202, "type":"c", "scope_line":199, "scope_name":"scsi_sg_copy_from_buffer", }
+,{"id":"scsi_sglist", "file":"include/scsi/scsi_cmnd.h", "line":209, "type":"c", "scope_line":206, "scope_name":"scsi_sg_copy_to_buffer", }
+,{"id":"scsi_sgtable_index", "file":"drivers/scsi/scsi_lib.c", "line":576, "type":"f", }
+,{"id":"scsi_sgtable_index", "file":"drivers/scsi/scsi_lib.c", "line":594, "type":"c", "scope_line":590, "scope_name":"scsi_sg_free", }
+,{"id":"scsi_sgtable_index", "file":"drivers/scsi/scsi_lib.c", "line":602, "type":"c", "scope_line":598, "scope_name":"scsi_sg_alloc", }
+,{"id":"scsi_shost_attr_group", "file":"drivers/scsi/scsi_sysfs.c", "line":276, "type":"v", }
+,{"id":"scsi_show_extd_sense", "file":"drivers/scsi/constants.c", "line":1229, "type":"f", }
+,{"id":"scsi_show_extd_sense", "file":"drivers/scsi/constants.c", "line":1285, "type":"c", "scope_line":1279, "scope_name":"scsi_print_sense_hdr", }
+,{"id":"scsi_show_extd_sense", "file":"drivers/scsi/constants.c", "line":1299, "type":"c", "scope_line":1292, "scope_name":"scsi_cmd_print_sense_hdr", }
+,{"id":"scsi_show_extd_sense", "file":"drivers/scsi/constants.c", "line":1398, "type":"c", "scope_line":1388, "scope_name":"__scsi_print_sense", }
+,{"id":"scsi_show_extd_sense", "file":"drivers/scsi/constants.c", "line":1414, "type":"c", "scope_line":1403, "scope_name":"scsi_print_sense", }
+,{"id":"scsi_show_extd_sense", "file":"drivers/scsi/sd.c", "line":2631, "type":"c", "scope_line":2625, "scope_name":"sd_print_sense_hdr", }
+,{"id":"scsi_show_result", "file":"drivers/scsi/constants.c", "line":1432, "type":"f", }
+,{"id":"scsi_show_result", "file":"drivers/scsi/constants.c", "line":1457, "type":"c", "scope_line":1454, "scope_name":"scsi_print_result", }
+,{"id":"scsi_show_result", "file":"drivers/scsi/sd.c", "line":2637, "type":"c", "scope_line":2634, "scope_name":"sd_print_result", }
+,{"id":"scsi_show_sense_hdr", "file":"drivers/scsi/constants.c", "line":1255, "type":"f", }
+,{"id":"scsi_show_sense_hdr", "file":"drivers/scsi/constants.c", "line":1283, "type":"c", "scope_line":1279, "scope_name":"scsi_print_sense_hdr", }
+,{"id":"scsi_show_sense_hdr", "file":"drivers/scsi/constants.c", "line":1297, "type":"c", "scope_line":1292, "scope_name":"scsi_cmd_print_sense_hdr", }
+,{"id":"scsi_show_sense_hdr", "file":"drivers/scsi/constants.c", "line":1395, "type":"c", "scope_line":1388, "scope_name":"__scsi_print_sense", }
+,{"id":"scsi_show_sense_hdr", "file":"drivers/scsi/constants.c", "line":1410, "type":"c", "scope_line":1403, "scope_name":"scsi_print_sense", }
+,{"id":"scsi_show_sense_hdr", "file":"drivers/scsi/sd.c", "line":2629, "type":"c", "scope_line":2625, "scope_name":"sd_print_sense_hdr", }
+,{"id":"scsi_single_lun_run", "file":"drivers/scsi/scsi_lib.c", "line":325, "type":"f", }
+,{"id":"scsi_single_lun_run", "file":"drivers/scsi/scsi_lib.c", "line":408, "type":"c", "scope_line":400, "scope_name":"scsi_run_queue", }
+,{"id":"scsi_softirq_done", "file":"drivers/scsi/scsi_lib.c", "line":1396, "type":"f", }
+,{"id":"scsi_static_device_list", "file":"drivers/scsi/scsi_devinfo.c", "line":50, "type":"v", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/scsi_lib.c", "line":1923, "type":"c", "scope_line":1874, "scope_name":"scsi_mode_sense", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/scsi_lib.c", "line":1937, "type":"c", "scope_line":1874, "scope_name":"scsi_mode_sense", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/sd.c", "line":1318, "type":"c", "scope_line":1301, "scope_name":"sd_spinup_disk", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/sd.c", "line":1346, "type":"c", "scope_line":1301, "scope_name":"sd_spinup_disk", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/sd.c", "line":1415, "type":"c", "scope_line":1301, "scope_name":"sd_spinup_disk", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/sd.c", "line":1825, "type":"c", "scope_line":1795, "scope_name":"sd_read_write_protect_flag", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/sd.c", "line":1831, "type":"c", "scope_line":1795, "scope_name":"sd_read_write_protect_flag", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/sd.c", "line":1836, "type":"c", "scope_line":1795, "scope_name":"sd_read_write_protect_flag", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/sd.c", "line":1884, "type":"c", "scope_line":1856, "scope_name":"sd_read_cache_type", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/sd.c", "line":1912, "type":"c", "scope_line":1856, "scope_name":"sd_read_cache_type", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/sd.c", "line":1988, "type":"c", "scope_line":1972, "scope_name":"sd_read_app_tag_own", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/sr.c", "line":179, "type":"c", "scope_line":170, "scope_name":"sr_test_unit_ready", }
+,{"id":"scsi_status_is_good", "file":"drivers/scsi/sr.c", "line":789, "type":"c", "scope_line":755, "scope_name":"get_capabilities", }
+,{"id":"scsi_status_is_good", "file":"include/scsi/scsi.h", "line":202, "type":"f", }
+,{"id":"scsi_statusbyte_name", "file":"include/trace/events/scsi.h", "line":172, "type":"d", }
+,{"id":"scsi_strcpy_devinfo", "file":"drivers/scsi/scsi_devinfo.c", "line":277, "type":"f", }
+,{"id":"scsi_strcpy_devinfo", "file":"drivers/scsi/scsi_devinfo.c", "line":361, "type":"c", "scope_line":345, "scope_name":"scsi_dev_info_list_add_keyed", }
+,{"id":"scsi_strcpy_devinfo", "file":"drivers/scsi/scsi_devinfo.c", "line":363, "type":"c", "scope_line":345, "scope_name":"scsi_dev_info_list_add_keyed", }
+,{"id":"scsi_sysfs_add_devices", "file":"drivers/scsi/scsi_scan.c", "line":1712, "type":"f", }
+,{"id":"scsi_sysfs_add_devices", "file":"drivers/scsi/scsi_scan.c", "line":1804, "type":"c", "scope_line":1782, "scope_name":"scsi_finish_async_scan", }
+,{"id":"scsi_sysfs_add_host", "file":"drivers/scsi/hosts.c", "line":262, "type":"c", "scope_line":200, "scope_name":"scsi_add_host_with_dma", }
+,{"id":"scsi_sysfs_add_host", "file":"drivers/scsi/scsi_sysfs.c", "line":1026, "type":"f", }
+,{"id":"scsi_sysfs_add_sdev", "file":"drivers/scsi/scsi_scan.c", "line":1716, "type":"c", "scope_line":1712, "scope_name":"scsi_sysfs_add_devices", }
+,{"id":"scsi_sysfs_add_sdev", "file":"drivers/scsi/scsi_scan.c", "line":953, "type":"c", "scope_line":747, "scope_name":"scsi_add_lun", }
+,{"id":"scsi_sysfs_add_sdev", "file":"drivers/scsi/scsi_sysfs.c", "line":834, "type":"f", }
+,{"id":"scsi_sysfs_device_initialize", "file":"drivers/scsi/scsi_scan.c", "line":302, "type":"c", "scope_line":238, "scope_name":"scsi_alloc_sdev", }
+,{"id":"scsi_sysfs_device_initialize", "file":"drivers/scsi/scsi_sysfs.c", "line":1051, "type":"f", }
+,{"id":"scsi_sysfs_register", "file":"drivers/scsi/scsi.c", "line":1334, "type":"c", "scope_line":1315, "scope_name":"init_scsi", }
+,{"id":"scsi_sysfs_register", "file":"drivers/scsi/scsi_sysfs.c", "line":390, "type":"f", }
+,{"id":"scsi_sysfs_shost_attr_groups", "file":"drivers/scsi/scsi_sysfs.c", "line":280, "type":"v", }
+,{"id":"scsi_sysfs_shost_attrs", "file":"drivers/scsi/scsi_sysfs.c", "line":259, "type":"v", }
+,{"id":"scsi_sysfs_unregister", "file":"drivers/scsi/scsi.c", "line":1361, "type":"c", "scope_line":1358, "scope_name":"exit_scsi", }
+,{"id":"scsi_sysfs_unregister", "file":"drivers/scsi/scsi_sysfs.c", "line":404, "type":"f", }
+,{"id":"scsi_table", "file":"drivers/scsi/scsi_sysctl.c", "line":15, "type":"v", }
+,{"id":"scsi_table_header", "file":"drivers/scsi/scsi_sysctl.c", "line":38, "type":"v", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi.c", "line":810, "type":"c", "scope_line":807, "scope_name":"scsi_finish_command", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_error.c", "line":595, "type":"c", "scope_line":584, "scope_name":"scsi_try_target_reset", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_lib.c", "line":110, "type":"c", "scope_line":106, "scope_name":"__scsi_queue_insert", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_lib.c", "line":1258, "type":"c", "scope_line":1255, "scope_name":"scsi_target_queue_ready", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_lib.c", "line":1352, "type":"c", "scope_line":1342, "scope_name":"scsi_lld_busy", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_lib.c", "line":1374, "type":"c", "scope_line":1364, "scope_name":"scsi_kill_request", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_lib.c", "line":1533, "type":"c", "scope_line":1451, "scope_name":"scsi_request_fn", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_lib.c", "line":303, "type":"c", "scope_line":300, "scope_name":"scsi_device_unbusy", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_lib.c", "line":329, "type":"c", "scope_line":325, "scope_name":"scsi_single_lun_run", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_lib.c", "line":407, "type":"c", "scope_line":400, "scope_name":"scsi_run_queue", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_lib.c", "line":432, "type":"c", "scope_line":400, "scope_name":"scsi_run_queue", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_scan.c", "line":893, "type":"c", "scope_line":747, "scope_name":"scsi_add_lun", }
+,{"id":"scsi_target", "file":"drivers/scsi/scsi_sysfs.c", "line":332, "type":"c", "scope_line":293, "scope_name":"scsi_device_dev_release_usercontext", }
+,{"id":"scsi_target", "file":"include/scsi/scsi_device.h", "line":232, "type":"s", }
+,{"id":"scsi_target", "file":"include/scsi/scsi_device.h", "line":267, "type":"f", }
+,{"id":"scsi_target_add", "file":"drivers/scsi/scsi_sysfs.c", "line":801, "type":"f", }
+,{"id":"scsi_target_add", "file":"drivers/scsi/scsi_sysfs.c", "line":844, "type":"c", "scope_line":834, "scope_name":"scsi_sysfs_add_sdev", }
+,{"id":"scsi_target_block", "file":"drivers/scsi/scsi_lib.c", "line":2457, "type":"f", }
+,{"id":"scsi_target_destroy", "file":"drivers/scsi/scsi_scan.c", "line":330, "type":"f", }
+,{"id":"scsi_target_destroy", "file":"drivers/scsi/scsi_scan.c", "line":450, "type":"c", "scope_line":398, "scope_name":"scsi_alloc_target", }
+,{"id":"scsi_target_destroy", "file":"drivers/scsi/scsi_scan.c", "line":479, "type":"c", "scope_line":472, "scope_name":"scsi_target_reap_usercontext", }
+,{"id":"scsi_target_destroy", "file":"drivers/scsi/scsi_scan.c", "line":510, "type":"c", "scope_line":490, "scope_name":"scsi_target_reap", }
+,{"id":"scsi_target_dev_release", "file":"drivers/scsi/scsi_scan.c", "line":345, "type":"f", }
+,{"id":"scsi_target_is_busy", "file":"drivers/scsi/scsi_lib.c", "line":1278, "type":"c", "scope_line":1255, "scope_name":"scsi_target_queue_ready", }
+,{"id":"scsi_target_is_busy", "file":"drivers/scsi/scsi_lib.c", "line":1354, "type":"c", "scope_line":1342, "scope_name":"scsi_lld_busy", }
+,{"id":"scsi_target_is_busy", "file":"drivers/scsi/scsi_lib.c", "line":372, "type":"f", }
+,{"id":"scsi_target_is_busy", "file":"drivers/scsi/scsi_lib.c", "line":432, "type":"c", "scope_line":400, "scope_name":"scsi_run_queue", }
+,{"id":"scsi_target_queue_ready", "file":"drivers/scsi/scsi_lib.c", "line":1255, "type":"f", }
+,{"id":"scsi_target_queue_ready", "file":"drivers/scsi/scsi_lib.c", "line":1527, "type":"c", "scope_line":1451, "scope_name":"scsi_request_fn", }
+,{"id":"scsi_target_quiesce", "file":"drivers/scsi/scsi_lib.c", "line":2336, "type":"f", }
+,{"id":"scsi_target_quiesce", "file":"drivers/scsi/scsi_transport_spi.c", "line":1008, "type":"c", "scope_line":984, "scope_name":"spi_dv_device", }
+,{"id":"scsi_target_reap", "file":"drivers/scsi/scsi_scan.c", "line":1528, "type":"c", "scope_line":1503, "scope_name":"__scsi_add_device", }
+,{"id":"scsi_target_reap", "file":"drivers/scsi/scsi_scan.c", "line":1610, "type":"c", "scope_line":1564, "scope_name":"__scsi_scan_target", }
+,{"id":"scsi_target_reap", "file":"drivers/scsi/scsi_scan.c", "line":1929, "type":"c", "scope_line":1913, "scope_name":"scsi_get_host_dev", }
+,{"id":"scsi_target_reap", "file":"drivers/scsi/scsi_scan.c", "line":490, "type":"f", }
+,{"id":"scsi_target_reap", "file":"drivers/scsi/scsi_sysfs.c", "line":332, "type":"c", "scope_line":293, "scope_name":"scsi_device_dev_release_usercontext", }
+,{"id":"scsi_target_reap", "file":"drivers/scsi/scsi_sysfs.c", "line":973, "type":"c", "scope_line":953, "scope_name":"__scsi_remove_target", }
+,{"id":"scsi_target_reap_usercontext", "file":"drivers/scsi/scsi_scan.c", "line":472, "type":"f", }
+,{"id":"scsi_target_resume", "file":"drivers/scsi/scsi_lib.c", "line":2349, "type":"f", }
+,{"id":"scsi_target_resume", "file":"drivers/scsi/scsi_transport_spi.c", "line":1022, "type":"c", "scope_line":984, "scope_name":"spi_dv_device", }
+,{"id":"scsi_target_state", "file":"include/scsi/scsi_device.h", "line":221, "type":"t", }
+,{"id":"scsi_target_type", "file":"drivers/scsi/scsi_scan.c", "line":354, "type":"v", }
+,{"id":"scsi_target_unblock", "file":"drivers/scsi/scsi_lib.c", "line":2483, "type":"f", }
+,{"id":"scsi_test_unit_ready", "file":"drivers/scsi/scsi_ioctl.c", "line":253, "type":"c", "scope_line":194, "scope_name":"scsi_ioctl", }
+,{"id":"scsi_test_unit_ready", "file":"drivers/scsi/scsi_lib.c", "line":1980, "type":"f", }
+,{"id":"scsi_test_unit_ready", "file":"drivers/scsi/sd.c", "line":1021, "type":"c", "scope_line":984, "scope_name":"sd_media_changed", }
+,{"id":"scsi_times_out", "file":"drivers/scsi/scsi_error.c", "line":128, "type":"f", }
+,{"id":"scsi_to_u32", "file":"include/scsi/scsi.h", "line":516, "type":"f", }
+,{"id":"scsi_trace_misc", "file":"drivers/scsi/scsi_trace.c", "line":239, "type":"c", "scope_line":229, "scope_name":"scsi_trace_varlen", }
+,{"id":"scsi_trace_misc", "file":"drivers/scsi/scsi_trace.c", "line":243, "type":"f", }
+,{"id":"scsi_trace_misc", "file":"drivers/scsi/scsi_trace.c", "line":282, "type":"c", "scope_line":254, "scope_name":"scsi_trace_parse_cdb", }
+,{"id":"scsi_trace_parse_cdb", "file":"drivers/scsi/scsi_trace.c", "line":254, "type":"f", }
+,{"id":"scsi_trace_parse_cdb", "file":"include/trace/events/scsi.h", "line":190, "type":"c", "scope_line":190, "scope_name":"ftrace_raw_output_scsi_dispatch_cmd_start", }
+,{"id":"scsi_trace_parse_cdb", "file":"include/trace/events/scsi.h", "line":229, "type":"c", "scope_line":229, "scope_name":"ftrace_raw_output_scsi_dispatch_cmd_error", }
+,{"id":"scsi_trace_parse_cdb", "file":"include/trace/events/scsi.h", "line":271, "type":"c", "scope_line":271, "scope_name":"ftrace_raw_output_scsi_cmd_done_timeout_template", }
+,{"id":"scsi_trace_rw10", "file":"drivers/scsi/scsi_trace.c", "line":265, "type":"c", "scope_line":254, "scope_name":"scsi_trace_parse_cdb", }
+,{"id":"scsi_trace_rw10", "file":"drivers/scsi/scsi_trace.c", "line":46, "type":"f", }
+,{"id":"scsi_trace_rw12", "file":"drivers/scsi/scsi_trace.c", "line":269, "type":"c", "scope_line":254, "scope_name":"scsi_trace_parse_cdb", }
+,{"id":"scsi_trace_rw12", "file":"drivers/scsi/scsi_trace.c", "line":67, "type":"f", }
+,{"id":"scsi_trace_rw16", "file":"drivers/scsi/scsi_trace.c", "line":274, "type":"c", "scope_line":254, "scope_name":"scsi_trace_parse_cdb", }
+,{"id":"scsi_trace_rw16", "file":"drivers/scsi/scsi_trace.c", "line":90, "type":"f", }
+,{"id":"scsi_trace_rw32", "file":"drivers/scsi/scsi_trace.c", "line":121, "type":"f", }
+,{"id":"scsi_trace_rw32", "file":"drivers/scsi/scsi_trace.c", "line":237, "type":"c", "scope_line":229, "scope_name":"scsi_trace_varlen", }
+,{"id":"scsi_trace_rw6", "file":"drivers/scsi/scsi_trace.c", "line":260, "type":"c", "scope_line":254, "scope_name":"scsi_trace_parse_cdb", }
+,{"id":"scsi_trace_rw6", "file":"drivers/scsi/scsi_trace.c", "line":28, "type":"f", }
+,{"id":"scsi_trace_service_action_in", "file":"drivers/scsi/scsi_trace.c", "line":188, "type":"f", }
+,{"id":"scsi_trace_service_action_in", "file":"drivers/scsi/scsi_trace.c", "line":278, "type":"c", "scope_line":254, "scope_name":"scsi_trace_parse_cdb", }
+,{"id":"scsi_trace_unmap", "file":"drivers/scsi/scsi_trace.c", "line":176, "type":"f", }
+,{"id":"scsi_trace_unmap", "file":"drivers/scsi/scsi_trace.c", "line":276, "type":"c", "scope_line":254, "scope_name":"scsi_trace_parse_cdb", }
+,{"id":"scsi_trace_varlen", "file":"drivers/scsi/scsi_trace.c", "line":229, "type":"f", }
+,{"id":"scsi_trace_varlen", "file":"drivers/scsi/scsi_trace.c", "line":280, "type":"c", "scope_line":254, "scope_name":"scsi_trace_parse_cdb", }
+,{"id":"scsi_track_queue_full", "file":"drivers/scsi/scsi.c", "line":947, "type":"f", }
+,{"id":"scsi_transport_device_data", "file":"include/scsi/scsi_transport.h", "line":113, "type":"f", }
+,{"id":"scsi_transport_reserve_device", "file":"include/scsi/scsi_transport.h", "line":98, "type":"f", }
+,{"id":"scsi_transport_reserve_target", "file":"include/scsi/scsi_transport.h", "line":91, "type":"f", }
+,{"id":"scsi_transport_target_data", "file":"include/scsi/scsi_transport.h", "line":105, "type":"f", }
+,{"id":"scsi_transport_template", "file":"include/scsi/scsi_transport.h", "line":28, "type":"s", }
+,{"id":"scsi_try_bus_device_reset", "file":"drivers/scsi/scsi_error.c", "line":1122, "type":"c", "scope_line":1100, "scope_name":"scsi_eh_bus_device_reset", }
+,{"id":"scsi_try_bus_device_reset", "file":"drivers/scsi/scsi_error.c", "line":1930, "type":"c", "scope_line":1899, "scope_name":"scsi_reset_provider", }
+,{"id":"scsi_try_bus_device_reset", "file":"drivers/scsi/scsi_error.c", "line":613, "type":"f", }
+,{"id":"scsi_try_bus_device_reset", "file":"drivers/scsi/scsi_error.c", "line":659, "type":"c", "scope_line":656, "scope_name":"scsi_abort_eh_cmnd", }
+,{"id":"scsi_try_bus_reset", "file":"drivers/scsi/scsi_error.c", "line":1247, "type":"c", "scope_line":1214, "scope_name":"scsi_eh_bus_reset", }
+,{"id":"scsi_try_bus_reset", "file":"drivers/scsi/scsi_error.c", "line":1940, "type":"c", "scope_line":1899, "scope_name":"scsi_reset_provider", }
+,{"id":"scsi_try_bus_reset", "file":"drivers/scsi/scsi_error.c", "line":543, "type":"f", }
+,{"id":"scsi_try_bus_reset", "file":"drivers/scsi/scsi_error.c", "line":661, "type":"c", "scope_line":656, "scope_name":"scsi_abort_eh_cmnd", }
+,{"id":"scsi_try_host_reset", "file":"drivers/scsi/scsi_error.c", "line":1285, "type":"c", "scope_line":1272, "scope_name":"scsi_eh_host_reset", }
+,{"id":"scsi_try_host_reset", "file":"drivers/scsi/scsi_error.c", "line":1945, "type":"c", "scope_line":1899, "scope_name":"scsi_reset_provider", }
+,{"id":"scsi_try_host_reset", "file":"drivers/scsi/scsi_error.c", "line":514, "type":"f", }
+,{"id":"scsi_try_host_reset", "file":"drivers/scsi/scsi_error.c", "line":662, "type":"c", "scope_line":656, "scope_name":"scsi_abort_eh_cmnd", }
+,{"id":"scsi_try_target_reset", "file":"drivers/scsi/scsi_error.c", "line":1187, "type":"c", "scope_line":1155, "scope_name":"scsi_eh_target_reset", }
+,{"id":"scsi_try_target_reset", "file":"drivers/scsi/scsi_error.c", "line":1935, "type":"c", "scope_line":1899, "scope_name":"scsi_reset_provider", }
+,{"id":"scsi_try_target_reset", "file":"drivers/scsi/scsi_error.c", "line":584, "type":"f", }
+,{"id":"scsi_try_target_reset", "file":"drivers/scsi/scsi_error.c", "line":660, "type":"c", "scope_line":656, "scope_name":"scsi_abort_eh_cmnd", }
+,{"id":"scsi_try_to_abort_cmd", "file":"drivers/scsi/scsi_error.c", "line":645, "type":"f", }
+,{"id":"scsi_try_to_abort_cmd", "file":"drivers/scsi/scsi_error.c", "line":992, "type":"c", "scope_line":980, "scope_name":"scsi_eh_abort_cmds", }
+,{"id":"scsi_type", "file":"include/scsi/sg.h", "line":149, "type":"m", "scope_line":144, "scope_name":"struct sg_scsi_id", }
+,{"id":"scsi_unblock_requests", "file":"drivers/scsi/scsi_lib.c", "line":1712, "type":"f", }
+,{"id":"scsi_unjam_host", "file":"drivers/scsi/scsi_error.c", "line":1724, "type":"f", }
+,{"id":"scsi_unjam_host", "file":"drivers/scsi/scsi_error.c", "line":1794, "type":"c", "scope_line":1751, "scope_name":"scsi_error_handler", }
+,{"id":"scsi_unlock_floptical", "file":"drivers/scsi/scsi_scan.c", "line":1119, "type":"c", "scope_line":1004, "scope_name":"scsi_probe_and_add_lun", }
+,{"id":"scsi_unlock_floptical", "file":"drivers/scsi/scsi_scan.c", "line":208, "type":"f", }
+,{"id":"scsi_unprep_request", "file":"drivers/scsi/scsi_lib.c", "line":484, "type":"c", "scope_line":478, "scope_name":"scsi_requeue_command", }
+,{"id":"scsi_unprep_request", "file":"drivers/scsi/scsi_lib.c", "line":84, "type":"f", }
+,{"id":"scsi_unregister", "file":"drivers/scsi/hosts.c", "line":458, "type":"f", }
+,{"id":"scsi_unregister_driver", "file":"include/scsi/scsi_driver.h", "line":24, "type":"d", }
+,{"id":"scsi_unregister_interface", "file":"include/scsi/scsi_driver.h", "line":28, "type":"d", }
+,{"id":"scsi_varlen_cdb_hdr", "file":"include/scsi/scsi.h", "line":153, "type":"s", }
+,{"id":"scsi_varlen_cdb_length", "file":"drivers/scsi/constants.c", "line":215, "type":"c", "scope_line":207, "scope_name":"print_opcode_name", }
+,{"id":"scsi_varlen_cdb_length", "file":"include/scsi/scsi.h", "line":162, "type":"f", }
+,{"id":"scsi_varlen_cdb_length", "file":"include/scsi/scsi.h", "line":174, "type":"c", "scope_line":171, "scope_name":"scsi_command_size", }
+,{"id":"scsi_vpd_inquiry", "file":"drivers/scsi/scsi.c", "line":1043, "type":"c", "scope_line":1037, "scope_name":"scsi_get_vpd_page", }
+,{"id":"scsi_vpd_inquiry", "file":"drivers/scsi/scsi.c", "line":1062, "type":"c", "scope_line":1037, "scope_name":"scsi_get_vpd_page", }
+,{"id":"scsi_vpd_inquiry", "file":"drivers/scsi/scsi.c", "line":994, "type":"f", }
+,{"id":"scsicam_bios_param", "file":"drivers/scsi/scsicam.c", "line":68, "type":"f", }
+,{"id":"scsicam_bios_param", "file":"drivers/scsi/sd.c", "line":904, "type":"c", "scope_line":888, "scope_name":"sd_getgeo", }
+,{"id":"scsicmd", "file":"include/linux/libata.h", "line":544, "type":"m", "scope_line":540, "scope_name":"struct ata_queued_cmd", }
+,{"id":"scsidone", "file":"include/linux/libata.h", "line":545, "type":"m", "scope_line":540, "scope_name":"struct ata_queued_cmd", }
+,{"id":"scsilun_to_int", "file":"drivers/scsi/scsi_scan.c", "line":1242, "type":"f", }
+,{"id":"scsilun_to_int", "file":"drivers/scsi/scsi_scan.c", "line":1450, "type":"c", "scope_line":1306, "scope_name":"scsi_report_lun_scan", }
+,{"id":"sctp_abort_chunk", "file":"include/linux/sctp.h", "line":410, "type":"s", }
+,{"id":"sctp_abort_chunk_t", "file":"include/linux/sctp.h", "line":410, "type":"t", }
+,{"id":"sctp_adaptation_ind_param", "file":"include/linux/sctp.h", "line":306, "type":"s", }
+,{"id":"sctp_adaptation_ind_param_t", "file":"include/linux/sctp.h", "line":306, "type":"t", }
+,{"id":"sctp_addip_chunk", "file":"include/linux/sctp.h", "line":646, "type":"s", }
+,{"id":"sctp_addip_chunk_t", "file":"include/linux/sctp.h", "line":646, "type":"t", }
+,{"id":"sctp_addip_param", "file":"include/linux/sctp.h", "line":636, "type":"s", }
+,{"id":"sctp_addip_param_t", "file":"include/linux/sctp.h", "line":636, "type":"t", }
+,{"id":"sctp_addiphdr", "file":"include/linux/sctp.h", "line":641, "type":"s", }
+,{"id":"sctp_addiphdr_t", "file":"include/linux/sctp.h", "line":641, "type":"t", }
+,{"id":"sctp_auth_chunk", "file":"include/linux/sctp.h", "line":706, "type":"s", }
+,{"id":"sctp_auth_chunk_t", "file":"include/linux/sctp.h", "line":706, "type":"t", }
+,{"id":"sctp_authhdr", "file":"include/linux/sctp.h", "line":700, "type":"s", }
+,{"id":"sctp_authhdr_t", "file":"include/linux/sctp.h", "line":700, "type":"t", }
+,{"id":"sctp_chunkhdr", "file":"include/linux/sctp.h", "line":76, "type":"s", }
+,{"id":"sctp_chunkhdr_t", "file":"include/linux/sctp.h", "line":76, "type":"t", }
+,{"id":"sctp_chunks_param", "file":"include/linux/sctp.h", "line":324, "type":"s", }
+,{"id":"sctp_chunks_param_t", "file":"include/linux/sctp.h", "line":324, "type":"t", }
+,{"id":"sctp_cid_action_t", "file":"include/linux/sctp.h", "line":122, "type":"t", }
+,{"id":"sctp_cid_t", "file":"include/linux/sctp.h", "line":88, "type":"t", }
+,{"id":"sctp_cookie_param", "file":"include/linux/sctp.h", "line":342, "type":"s", }
+,{"id":"sctp_cookie_param_t", "file":"include/linux/sctp.h", "line":342, "type":"t", }
+,{"id":"sctp_cookie_preserve_param", "file":"include/linux/sctp.h", "line":283, "type":"s", }
+,{"id":"sctp_cookie_preserve_param_t", "file":"include/linux/sctp.h", "line":283, "type":"t", }
+,{"id":"sctp_cwr_chunk", "file":"include/linux/sctp.h", "line":537, "type":"s", }
+,{"id":"sctp_cwr_chunk_t", "file":"include/linux/sctp.h", "line":537, "type":"t", }
+,{"id":"sctp_cwrhdr", "file":"include/linux/sctp.h", "line":533, "type":"s", }
+,{"id":"sctp_cwrhdr_t", "file":"include/linux/sctp.h", "line":533, "type":"t", }
+,{"id":"sctp_data_chunk", "file":"include/linux/sctp.h", "line":233, "type":"s", }
+,{"id":"sctp_data_chunk_t", "file":"include/linux/sctp.h", "line":233, "type":"t", }
+,{"id":"sctp_datahdr", "file":"include/linux/sctp.h", "line":225, "type":"s", }
+,{"id":"sctp_datahdr_t", "file":"include/linux/sctp.h", "line":225, "type":"t", }
+,{"id":"sctp_dup_tsn_t", "file":"include/linux/sctp.h", "line":368, "type":"t", }
+,{"id":"sctp_ecn_capable_param", "file":"include/linux/sctp.h", "line":301, "type":"s", }
+,{"id":"sctp_ecn_capable_param_t", "file":"include/linux/sctp.h", "line":301, "type":"t", }
+,{"id":"sctp_ecne_chunk", "file":"include/linux/sctp.h", "line":525, "type":"s", }
+,{"id":"sctp_ecne_chunk_t", "file":"include/linux/sctp.h", "line":525, "type":"t", }
+,{"id":"sctp_ecnehdr", "file":"include/linux/sctp.h", "line":521, "type":"s", }
+,{"id":"sctp_ecnehdr_t", "file":"include/linux/sctp.h", "line":521, "type":"t", }
+,{"id":"sctp_errhdr", "file":"include/linux/sctp.h", "line":429, "type":"s", }
+,{"id":"sctp_errhdr_t", "file":"include/linux/sctp.h", "line":429, "type":"t", }
+,{"id":"sctp_error_t", "file":"include/linux/sctp.h", "line":459, "type":"t", }
+,{"id":"sctp_fwdtsn_chunk", "file":"include/linux/sctp.h", "line":598, "type":"s", }
+,{"id":"sctp_fwdtsn_hdr", "file":"include/linux/sctp.h", "line":593, "type":"s", }
+,{"id":"sctp_fwdtsn_skip", "file":"include/linux/sctp.h", "line":588, "type":"s", }
+,{"id":"sctp_gap_ack_block", "file":"include/linux/sctp.h", "line":363, "type":"s", }
+,{"id":"sctp_gap_ack_block_t", "file":"include/linux/sctp.h", "line":363, "type":"t", }
+,{"id":"sctp_hdr", "file":"include/linux/sctp.h", "line":69, "type":"f", }
+,{"id":"sctp_hdr", "file":"security/lsm_audit.c", "line":90, "type":"c", "scope_line":42, "scope_name":"ipv4_skb_to_auditdata", }
+,{"id":"sctp_heartbeat_chunk", "file":"include/linux/sctp.h", "line":400, "type":"s", }
+,{"id":"sctp_heartbeat_chunk_t", "file":"include/linux/sctp.h", "line":400, "type":"t", }
+,{"id":"sctp_heartbeathdr", "file":"include/linux/sctp.h", "line":396, "type":"s", }
+,{"id":"sctp_heartbeathdr_t", "file":"include/linux/sctp.h", "line":396, "type":"t", }
+,{"id":"sctp_hmac_algo_param", "file":"include/linux/sctp.h", "line":330, "type":"s", }
+,{"id":"sctp_hmac_algo_param_t", "file":"include/linux/sctp.h", "line":330, "type":"t", }
+,{"id":"sctp_hostname_param", "file":"include/linux/sctp.h", "line":289, "type":"s", }
+,{"id":"sctp_hostname_param_t", "file":"include/linux/sctp.h", "line":289, "type":"t", }
+,{"id":"sctp_init_chunk", "file":"include/linux/sctp.h", "line":264, "type":"s", }
+,{"id":"sctp_init_chunk_t", "file":"include/linux/sctp.h", "line":264, "type":"t", }
+,{"id":"sctp_initack_chunk_t", "file":"include/linux/sctp.h", "line":339, "type":"t", }
+,{"id":"sctp_inithdr", "file":"include/linux/sctp.h", "line":255, "type":"s", }
+,{"id":"sctp_inithdr_t", "file":"include/linux/sctp.h", "line":255, "type":"t", }
+,{"id":"sctp_ip4_spec", "file":"include/linux/ethtool.h", "line":365, "type":"m", "scope_line":360, "scope_name":"struct ethtool_rx_flow_spec", }
+,{"id":"sctp_ip4_spec", "file":"include/linux/ethtool.h", "line":403, "type":"m", "scope_line":398, "scope_name":"struct ethtool_rx_ntuple_flow_spec", }
+,{"id":"sctp_ipv4addr_param", "file":"include/linux/sctp.h", "line":271, "type":"s", }
+,{"id":"sctp_ipv4addr_param_t", "file":"include/linux/sctp.h", "line":271, "type":"t", }
+,{"id":"sctp_ipv6addr_param", "file":"include/linux/sctp.h", "line":277, "type":"s", }
+,{"id":"sctp_ipv6addr_param_t", "file":"include/linux/sctp.h", "line":277, "type":"t", }
+,{"id":"sctp_operr_chunk", "file":"include/linux/sctp.h", "line":435, "type":"s", }
+,{"id":"sctp_operr_chunk_t", "file":"include/linux/sctp.h", "line":435, "type":"t", }
+,{"id":"sctp_param_action_t", "file":"include/linux/sctp.h", "line":214, "type":"t", }
+,{"id":"sctp_param_t", "file":"include/linux/sctp.h", "line":172, "type":"t", }
+,{"id":"sctp_paramhdr", "file":"include/linux/sctp.h", "line":167, "type":"s", }
+,{"id":"sctp_paramhdr_t", "file":"include/linux/sctp.h", "line":167, "type":"t", }
+,{"id":"sctp_random_param", "file":"include/linux/sctp.h", "line":318, "type":"s", }
+,{"id":"sctp_random_param_t", "file":"include/linux/sctp.h", "line":318, "type":"t", }
+,{"id":"sctp_sack_chunk", "file":"include/linux/sctp.h", "line":383, "type":"s", }
+,{"id":"sctp_sack_chunk_t", "file":"include/linux/sctp.h", "line":383, "type":"t", }
+,{"id":"sctp_sack_variable_t", "file":"include/linux/sctp.h", "line":370, "type":"t", }
+,{"id":"sctp_sackhdr", "file":"include/linux/sctp.h", "line":375, "type":"s", }
+,{"id":"sctp_sackhdr_t", "file":"include/linux/sctp.h", "line":375, "type":"t", }
+,{"id":"sctp_sctphdr_t", "file":"include/linux/sctp.h", "line":59, "type":"t", }
+,{"id":"sctp_shutdown_chunk_t", "file":"include/linux/sctp.h", "line":422, "type":"s", }
+,{"id":"sctp_shutdownhdr", "file":"include/linux/sctp.h", "line":418, "type":"s", }
+,{"id":"sctp_shutdownhdr_t", "file":"include/linux/sctp.h", "line":418, "type":"t", }
+,{"id":"sctp_supported_addrs_param", "file":"include/linux/sctp.h", "line":295, "type":"s", }
+,{"id":"sctp_supported_addrs_param_t", "file":"include/linux/sctp.h", "line":295, "type":"t", }
+,{"id":"sctp_supported_ext_param", "file":"include/linux/sctp.h", "line":312, "type":"s", }
+,{"id":"sctp_supported_ext_param_t", "file":"include/linux/sctp.h", "line":312, "type":"t", }
+,{"id":"sctp_test_T_bit", "file":"include/linux/sctp.h", "line":161, "type":"d", }
+,{"id":"sctp_unrecognized_param", "file":"include/linux/sctp.h", "line":348, "type":"s", }
+,{"id":"sctp_unrecognized_param_t", "file":"include/linux/sctp.h", "line":348, "type":"t", }
+,{"id":"sctphdr", "file":"include/linux/sctp.h", "line":59, "type":"s", }
+,{"id":"sd", "file":"include/linux/kobject.h", "line":66, "type":"m", "scope_line":60, "scope_name":"struct kobject", }
+,{"id":"sd", "file":"kernel/sched.c", "line":501, "type":"m", "scope_line":449, "scope_name":"struct rq", }
+,{"id":"sd", "file":"kernel/sched.c", "line":6503, "type":"m", "scope_line":6502, "scope_name":"struct static_sched_domain", }
+,{"id":"sd_allnodes", "file":"kernel/sched.c", "line":6509, "type":"m", "scope_line":6507, "scope_name":"struct s_data", }
+,{"id":"sd_alloc_ctl_cpu_table", "file":"kernel/sched.c", "line":5824, "type":"f", }
+,{"id":"sd_alloc_ctl_cpu_table", "file":"kernel/sched.c", "line":5866, "type":"c", "scope_line":5850, "scope_name":"register_sched_domain_sysctl", }
+,{"id":"sd_alloc_ctl_domain_table", "file":"kernel/sched.c", "line":5786, "type":"f", }
+,{"id":"sd_alloc_ctl_domain_table", "file":"kernel/sched.c", "line":5842, "type":"c", "scope_line":5824, "scope_name":"sd_alloc_ctl_cpu_table", }
+,{"id":"sd_alloc_ctl_entry", "file":"kernel/sched.c", "line":5745, "type":"f", }
+,{"id":"sd_alloc_ctl_entry", "file":"kernel/sched.c", "line":5789, "type":"c", "scope_line":5786, "scope_name":"sd_alloc_ctl_domain_table", }
+,{"id":"sd_alloc_ctl_entry", "file":"kernel/sched.c", "line":5833, "type":"c", "scope_line":5824, "scope_name":"sd_alloc_ctl_cpu_table", }
+,{"id":"sd_alloc_ctl_entry", "file":"kernel/sched.c", "line":5853, "type":"c", "scope_line":5850, "scope_name":"register_sched_domain_sysctl", }
+,{"id":"sd_balance_for_mc_power", "file":"include/linux/sched.h", "line":812, "type":"f", }
+,{"id":"sd_balance_for_mc_power", "file":"kernel/sched.c", "line":6856, "type":"c", "scope_line":6856, "scope_name":"sd_init_MC", }
+,{"id":"sd_balance_for_package_power", "file":"include/linux/sched.h", "line":823, "type":"f", }
+,{"id":"sd_balance_for_package_power", "file":"kernel/sched.c", "line":6847, "type":"c", "scope_line":6847, "scope_name":"sd_init_CPU", }
+,{"id":"sd_cache_types", "file":"drivers/scsi/sd.c", "line":125, "type":"v", }
+,{"id":"sd_cdb_cache", "file":"drivers/scsi/sd.c", "line":122, "type":"v", }
+,{"id":"sd_cdb_pool", "file":"drivers/scsi/sd.c", "line":123, "type":"v", }
+,{"id":"sd_compat_ioctl", "file":"drivers/scsi/sd.c", "line":1107, "type":"f", }
+,{"id":"sd_completed_bytes", "file":"drivers/scsi/sd.c", "line":1150, "type":"f", }
+,{"id":"sd_completed_bytes", "file":"drivers/scsi/sd.c", "line":1237, "type":"c", "scope_line":1199, "scope_name":"sd_done", }
+,{"id":"sd_completed_bytes", "file":"drivers/scsi/sd.c", "line":1254, "type":"c", "scope_line":1199, "scope_name":"sd_done", }
+,{"id":"sd_ctl_dir", "file":"kernel/sched.c", "line":5728, "type":"v", }
+,{"id":"sd_ctl_root", "file":"kernel/sched.c", "line":5736, "type":"v", }
+,{"id":"sd_degenerate", "file":"kernel/sched.c", "line":6167, "type":"f", }
+,{"id":"sd_degenerate", "file":"kernel/sched.c", "line":6195, "type":"c", "scope_line":6190, "scope_name":"sd_parent_degenerate", }
+,{"id":"sd_degenerate", "file":"kernel/sched.c", "line":6342, "type":"c", "scope_line":6319, "scope_name":"cpu_attach_domain", }
+,{"id":"sd_dif_complete", "file":"drivers/scsi/sd.c", "line":1261, "type":"c", "scope_line":1199, "scope_name":"sd_done", }
+,{"id":"sd_dif_complete", "file":"drivers/scsi/sd_dif.c", "line":428, "type":"f", }
+,{"id":"sd_dif_config_host", "file":"drivers/scsi/sd.c", "line":2285, "type":"c", "scope_line":2242, "scope_name":"sd_probe_async", }
+,{"id":"sd_dif_config_host", "file":"drivers/scsi/sd_dif.c", "line":309, "type":"f", }
+,{"id":"sd_dif_crc_fn", "file":"drivers/scsi/sd_dif.c", "line":42, "type":"f", }
+,{"id":"sd_dif_ip_fn", "file":"drivers/scsi/sd_dif.c", "line":47, "type":"f", }
+,{"id":"sd_dif_prepare", "file":"drivers/scsi/sd.c", "line":636, "type":"c", "scope_line":504, "scope_name":"sd_prep_fn", }
+,{"id":"sd_dif_prepare", "file":"drivers/scsi/sd_dif.c", "line":369, "type":"f", }
+,{"id":"sd_dif_target_protection_types", "file":"drivers/scsi/sd.h", "line":93, "type":"t", }
+,{"id":"sd_dif_tuple", "file":"drivers/scsi/sd.h", "line":103, "type":"s", }
+,{"id":"sd_dif_type1_generate", "file":"drivers/scsi/sd_dif.c", "line":56, "type":"f", }
+,{"id":"sd_dif_type1_generate", "file":"drivers/scsi/sd_dif.c", "line":75, "type":"c", "scope_line":73, "scope_name":"sd_dif_type1_generate_crc", }
+,{"id":"sd_dif_type1_generate", "file":"drivers/scsi/sd_dif.c", "line":80, "type":"c", "scope_line":78, "scope_name":"sd_dif_type1_generate_ip", }
+,{"id":"sd_dif_type1_generate_crc", "file":"drivers/scsi/sd_dif.c", "line":73, "type":"f", }
+,{"id":"sd_dif_type1_generate_ip", "file":"drivers/scsi/sd_dif.c", "line":78, "type":"f", }
+,{"id":"sd_dif_type1_get_tag", "file":"drivers/scsi/sd_dif.c", "line":154, "type":"f", }
+,{"id":"sd_dif_type1_set_tag", "file":"drivers/scsi/sd_dif.c", "line":142, "type":"f", }
+,{"id":"sd_dif_type1_verify", "file":"drivers/scsi/sd_dif.c", "line":131, "type":"c", "scope_line":129, "scope_name":"sd_dif_type1_verify_crc", }
+,{"id":"sd_dif_type1_verify", "file":"drivers/scsi/sd_dif.c", "line":136, "type":"c", "scope_line":134, "scope_name":"sd_dif_type1_verify_ip", }
+,{"id":"sd_dif_type1_verify", "file":"drivers/scsi/sd_dif.c", "line":83, "type":"f", }
+,{"id":"sd_dif_type1_verify_crc", "file":"drivers/scsi/sd_dif.c", "line":129, "type":"f", }
+,{"id":"sd_dif_type1_verify_ip", "file":"drivers/scsi/sd_dif.c", "line":134, "type":"f", }
+,{"id":"sd_dif_type3_generate", "file":"drivers/scsi/sd_dif.c", "line":191, "type":"f", }
+,{"id":"sd_dif_type3_generate", "file":"drivers/scsi/sd_dif.c", "line":208, "type":"c", "scope_line":206, "scope_name":"sd_dif_type3_generate_crc", }
+,{"id":"sd_dif_type3_generate", "file":"drivers/scsi/sd_dif.c", "line":213, "type":"c", "scope_line":211, "scope_name":"sd_dif_type3_generate_ip", }
+,{"id":"sd_dif_type3_generate_crc", "file":"drivers/scsi/sd_dif.c", "line":206, "type":"f", }
+,{"id":"sd_dif_type3_generate_ip", "file":"drivers/scsi/sd_dif.c", "line":211, "type":"f", }
+,{"id":"sd_dif_type3_get_tag", "file":"drivers/scsi/sd_dif.c", "line":269, "type":"f", }
+,{"id":"sd_dif_type3_set_tag", "file":"drivers/scsi/sd_dif.c", "line":256, "type":"f", }
+,{"id":"sd_dif_type3_verify", "file":"drivers/scsi/sd_dif.c", "line":216, "type":"f", }
+,{"id":"sd_dif_type3_verify", "file":"drivers/scsi/sd_dif.c", "line":248, "type":"c", "scope_line":246, "scope_name":"sd_dif_type3_verify_crc", }
+,{"id":"sd_dif_type3_verify", "file":"drivers/scsi/sd_dif.c", "line":253, "type":"c", "scope_line":251, "scope_name":"sd_dif_type3_verify_ip", }
+,{"id":"sd_dif_type3_verify_crc", "file":"drivers/scsi/sd_dif.c", "line":246, "type":"f", }
+,{"id":"sd_dif_type3_verify_ip", "file":"drivers/scsi/sd_dif.c", "line":251, "type":"f", }
+,{"id":"sd_disk_attrs", "file":"drivers/scsi/sd.c", "line":279, "type":"v", }
+,{"id":"sd_disk_class", "file":"drivers/scsi/sd.c", "line":293, "type":"v", }
+,{"id":"sd_do_mode_sense", "file":"drivers/scsi/sd.c", "line":1781, "type":"f", }
+,{"id":"sd_do_mode_sense", "file":"drivers/scsi/sd.c", "line":1810, "type":"c", "scope_line":1795, "scope_name":"sd_read_write_protect_flag", }
+,{"id":"sd_do_mode_sense", "file":"drivers/scsi/sd.c", "line":1817, "type":"c", "scope_line":1795, "scope_name":"sd_read_write_protect_flag", }
+,{"id":"sd_do_mode_sense", "file":"drivers/scsi/sd.c", "line":1826, "type":"c", "scope_line":1795, "scope_name":"sd_read_write_protect_flag", }
+,{"id":"sd_do_mode_sense", "file":"drivers/scsi/sd.c", "line":1832, "type":"c", "scope_line":1795, "scope_name":"sd_read_write_protect_flag", }
+,{"id":"sd_do_mode_sense", "file":"drivers/scsi/sd.c", "line":1882, "type":"c", "scope_line":1856, "scope_name":"sd_read_cache_type", }
+,{"id":"sd_do_mode_sense", "file":"drivers/scsi/sd.c", "line":1910, "type":"c", "scope_line":1856, "scope_name":"sd_read_cache_type", }
+,{"id":"sd_done", "file":"drivers/scsi/sd.c", "line":1199, "type":"f", }
+,{"id":"sd_fops", "file":"drivers/scsi/sd.c", "line":1136, "type":"v", }
+,{"id":"sd_format_disk_name", "file":"drivers/scsi/sd.c", "line":2215, "type":"f", }
+,{"id":"sd_format_disk_name", "file":"drivers/scsi/sd.c", "line":2349, "type":"c", "scope_line":2313, "scope_name":"sd_probe", }
+,{"id":"sd_free_ctl_entry", "file":"kernel/sched.c", "line":5753, "type":"f", }
+,{"id":"sd_free_ctl_entry", "file":"kernel/sched.c", "line":5765, "type":"c", "scope_line":5753, "scope_name":"sd_free_ctl_entry", }
+,{"id":"sd_free_ctl_entry", "file":"kernel/sched.c", "line":5881, "type":"c", "scope_line":5875, "scope_name":"unregister_sched_domain_sysctl", }
+,{"id":"sd_getgeo", "file":"drivers/scsi/sd.c", "line":888, "type":"f", }
+,{"id":"sd_index_ida", "file":"drivers/scsi/sd.c", "line":115, "type":"v", }
+,{"id":"sd_index_lock", "file":"drivers/scsi/sd.c", "line":114, "type":"v", }
+,{"id":"sd_init_ALLNODES", "file":"kernel/sched.c", "line":6849, "type":"f", }
+,{"id":"sd_init_ALLNODES", "file":"kernel/sched.c", "line":6976, "type":"c", "scope_line":6965, "scope_name":"__build_numa_sched_domains", }
+,{"id":"sd_init_CPU", "file":"kernel/sched.c", "line":6847, "type":"f", }
+,{"id":"sd_init_CPU", "file":"kernel/sched.c", "line":7002, "type":"c", "scope_line":6996, "scope_name":"__build_cpu_sched_domain", }
+,{"id":"sd_init_MC", "file":"kernel/sched.c", "line":6856, "type":"f", }
+,{"id":"sd_init_MC", "file":"kernel/sched.c", "line":7019, "type":"c", "scope_line":7012, "scope_name":"__build_mc_sched_domain", }
+,{"id":"sd_init_NODE", "file":"kernel/sched.c", "line":6850, "type":"f", }
+,{"id":"sd_init_NODE", "file":"kernel/sched.c", "line":6985, "type":"c", "scope_line":6965, "scope_name":"__build_numa_sched_domains", }
+,{"id":"sd_init_SIBLING", "file":"kernel/sched.c", "line":6853, "type":"f", }
+,{"id":"sd_init_SIBLING", "file":"kernel/sched.c", "line":7036, "type":"c", "scope_line":7029, "scope_name":"__build_smt_sched_domain", }
+,{"id":"sd_ioctl", "file":"drivers/scsi/sd.c", "line":926, "type":"f", }
+,{"id":"sd_lb_stats", "file":"kernel/sched_fair.c", "line":2022, "type":"s", }
+,{"id":"sd_major", "file":"drivers/scsi/sd.c", "line":2256, "type":"c", "scope_line":2242, "scope_name":"sd_probe_async", }
+,{"id":"sd_major", "file":"drivers/scsi/sd.c", "line":2561, "type":"c", "scope_line":2554, "scope_name":"init_sd", }
+,{"id":"sd_major", "file":"drivers/scsi/sd.c", "line":2597, "type":"c", "scope_line":2554, "scope_name":"init_sd", }
+,{"id":"sd_major", "file":"drivers/scsi/sd.c", "line":2619, "type":"c", "scope_line":2606, "scope_name":"exit_sd", }
+,{"id":"sd_major", "file":"drivers/scsi/sd.c", "line":328, "type":"f", }
+,{"id":"sd_media_changed", "file":"drivers/scsi/sd.c", "line":984, "type":"f", }
+,{"id":"sd_open", "file":"drivers/scsi/sd.c", "line":786, "type":"f", }
+,{"id":"sd_parent_degenerate", "file":"kernel/sched.c", "line":6190, "type":"f", }
+,{"id":"sd_parent_degenerate", "file":"kernel/sched.c", "line":6334, "type":"c", "scope_line":6319, "scope_name":"cpu_attach_domain", }
+,{"id":"sd_power_saving_flags", "file":"include/linux/sched.h", "line":839, "type":"f", }
+,{"id":"sd_power_saving_flags", "file":"kernel/sched.c", "line":6847, "type":"c", "scope_line":6847, "scope_name":"sd_init_CPU", }
+,{"id":"sd_power_saving_flags", "file":"kernel/sched.c", "line":6856, "type":"c", "scope_line":6856, "scope_name":"sd_init_MC", }
+,{"id":"sd_prep_fn", "file":"drivers/scsi/sd.c", "line":504, "type":"f", }
+,{"id":"sd_print_result", "file":"drivers/scsi/sd.c", "line":1081, "type":"c", "scope_line":1056, "scope_name":"sd_sync_cache", }
+,{"id":"sd_print_result", "file":"drivers/scsi/sd.c", "line":1348, "type":"c", "scope_line":1301, "scope_name":"sd_spinup_disk", }
+,{"id":"sd_print_result", "file":"drivers/scsi/sd.c", "line":1460, "type":"c", "scope_line":1456, "scope_name":"read_capacity_error", }
+,{"id":"sd_print_result", "file":"drivers/scsi/sd.c", "line":2474, "type":"c", "scope_line":2454, "scope_name":"sd_start_stop_device", }
+,{"id":"sd_print_result", "file":"drivers/scsi/sd.c", "line":2634, "type":"f", }
+,{"id":"sd_print_sense_hdr", "file":"drivers/scsi/sd.c", "line":1083, "type":"c", "scope_line":1056, "scope_name":"sd_sync_cache", }
+,{"id":"sd_print_sense_hdr", "file":"drivers/scsi/sd.c", "line":1407, "type":"c", "scope_line":1301, "scope_name":"sd_spinup_disk", }
+,{"id":"sd_print_sense_hdr", "file":"drivers/scsi/sd.c", "line":1462, "type":"c", "scope_line":1456, "scope_name":"read_capacity_error", }
+,{"id":"sd_print_sense_hdr", "file":"drivers/scsi/sd.c", "line":175, "type":"c", "scope_line":130, "scope_name":"sd_store_cache_type", }
+,{"id":"sd_print_sense_hdr", "file":"drivers/scsi/sd.c", "line":1994, "type":"c", "scope_line":1972, "scope_name":"sd_read_app_tag_own", }
+,{"id":"sd_print_sense_hdr", "file":"drivers/scsi/sd.c", "line":2476, "type":"c", "scope_line":2454, "scope_name":"sd_start_stop_device", }
+,{"id":"sd_print_sense_hdr", "file":"drivers/scsi/sd.c", "line":2625, "type":"f", }
+,{"id":"sd_printk", "file":"drivers/scsi/sd.h", "line":73, "type":"d", }
+,{"id":"sd_probe", "file":"drivers/scsi/sd.c", "line":2313, "type":"f", }
+,{"id":"sd_probe_async", "file":"drivers/scsi/sd.c", "line":2242, "type":"f", }
+,{"id":"sd_prot_op", "file":"drivers/scsi/sd.c", "line":389, "type":"f", }
+,{"id":"sd_prot_op", "file":"drivers/scsi/sd.c", "line":751, "type":"c", "scope_line":504, "scope_name":"sd_prep_fn", }
+,{"id":"sd_read_app_tag_own", "file":"drivers/scsi/sd.c", "line":1972, "type":"f", }
+,{"id":"sd_read_app_tag_own", "file":"drivers/scsi/sd.c", "line":2147, "type":"c", "scope_line":2107, "scope_name":"sd_revalidate_disk", }
+,{"id":"sd_read_block_characteristics", "file":"drivers/scsi/sd.c", "line":2068, "type":"f", }
+,{"id":"sd_read_block_characteristics", "file":"drivers/scsi/sd.c", "line":2142, "type":"c", "scope_line":2107, "scope_name":"sd_revalidate_disk", }
+,{"id":"sd_read_block_limits", "file":"drivers/scsi/sd.c", "line":2018, "type":"f", }
+,{"id":"sd_read_block_limits", "file":"drivers/scsi/sd.c", "line":2141, "type":"c", "scope_line":2107, "scope_name":"sd_revalidate_disk", }
+,{"id":"sd_read_cache_type", "file":"drivers/scsi/sd.c", "line":1856, "type":"f", }
+,{"id":"sd_read_cache_type", "file":"drivers/scsi/sd.c", "line":2146, "type":"c", "scope_line":2107, "scope_name":"sd_revalidate_disk", }
+,{"id":"sd_read_capacity", "file":"drivers/scsi/sd.c", "line":1656, "type":"f", }
+,{"id":"sd_read_capacity", "file":"drivers/scsi/sd.c", "line":2138, "type":"c", "scope_line":2107, "scope_name":"sd_revalidate_disk", }
+,];
+xr_frag_insert('t/35/7223d4655ccd59e9948b4618b8b3d329f666d8.xr', __xr_tmp);

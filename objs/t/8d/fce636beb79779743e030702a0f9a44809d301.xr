@@ -1,0 +1,194 @@
+var __xr_tmp = [
+{"id":"fault_in_kernel_space", "file":"arch/x86/mm/fault.c", "line":988, "type":"c", "scope_line":948, "scope_name":"do_page_fault", }
+,{"id":"fault_in_pages_readable", "file":"fs/pipe.c", "line":192, "type":"c", "scope_line":183, "scope_name":"iov_fault_in_pages_read", }
+,{"id":"fault_in_pages_readable", "file":"include/linux/pagemap.h", "line":420, "type":"f", }
+,{"id":"fault_in_pages_readable", "file":"mm/filemap.c", "line":2001, "type":"c", "scope_line":1997, "scope_name":"iov_iter_fault_in_readable", }
+,{"id":"fault_in_pages_writeable", "file":"fs/pipe.c", "line":170, "type":"c", "scope_line":161, "scope_name":"iov_fault_in_pages_write", }
+,{"id":"fault_in_pages_writeable", "file":"fs/splice.c", "line":1518, "type":"c", "scope_line":1504, "scope_name":"pipe_to_user", }
+,{"id":"fault_in_pages_writeable", "file":"include/linux/pagemap.h", "line":394, "type":"f", }
+,{"id":"fault_in_pages_writeable", "file":"mm/filemap.c", "line":1199, "type":"c", "scope_line":1186, "scope_name":"file_read_actor", }
+,{"id":"fault_in_user_writeable", "file":"kernel/futex.c", "line":1262, "type":"c", "scope_line":1148, "scope_name":"futex_requeue", }
+,{"id":"fault_in_user_writeable", "file":"kernel/futex.c", "line":1571, "type":"c", "scope_line":1493, "scope_name":"fixup_pi_state_owner", }
+,{"id":"fault_in_user_writeable", "file":"kernel/futex.c", "line":2004, "type":"c", "scope_line":1895, "scope_name":"futex_lock_pi", }
+,{"id":"fault_in_user_writeable", "file":"kernel/futex.c", "line":2102, "type":"c", "scope_line":2020, "scope_name":"futex_unlock_pi", }
+,{"id":"fault_in_user_writeable", "file":"kernel/futex.c", "line":303, "type":"f", }
+,{"id":"fault_in_user_writeable", "file":"kernel/futex.c", "line":960, "type":"c", "scope_line":918, "scope_name":"futex_wake_op", }
+,{"id":"faultstamp", "file":"include/linux/mm_types.h", "line":290, "type":"m", "scope_line":232, "scope_name":"struct mm_struct", }
+,{"id":"fb_add_videomode", "file":"drivers/video/fbmem.c", "line":1601, "type":"c", "scope_line":1546, "scope_name":"register_framebuffer", }
+,{"id":"fb_add_videomode", "file":"drivers/video/fbmem.c", "line":988, "type":"c", "scope_line":912, "scope_name":"fb_set_var", }
+,{"id":"fb_add_videomode", "file":"drivers/video/modedb.c", "line":904, "type":"f", }
+,{"id":"fb_add_videomode", "file":"drivers/video/modedb.c", "line":985, "type":"c", "scope_line":977, "scope_name":"fb_videomode_to_modelist", }
+,{"id":"fb_alloc_cmap", "file":"drivers/video/asiliantfb.c", "line":517, "type":"c", "scope_line":507, "scope_name":"init_asiliant", }
+,{"id":"fb_alloc_cmap", "file":"drivers/video/efifb.c", "line":441, "type":"c", "scope_line":295, "scope_name":"efifb_probe", }
+,{"id":"fb_alloc_cmap", "file":"drivers/video/fbcmap.c", "line":254, "type":"c", "scope_line":248, "scope_name":"fb_set_user_cmap", }
+,{"id":"fb_alloc_cmap", "file":"drivers/video/fbcmap.c", "line":91, "type":"f", }
+,{"id":"fb_alloc_cmap", "file":"drivers/video/imsttfb.c", "line":1457, "type":"c", "scope_line":1352, "scope_name":"init_imstt", }
+,{"id":"fb_append_extra_logo", "file":"include/linux/linux_logo.h", "line":56, "type":"f", }
+,{"id":"fb_auth", "file":"include/linux/nfsd/nfsfh.h", "line":88, "type":"m", "scope_line":83, "scope_name":"struct nfs_fhbase_new", }
+,{"id":"fb_auth_type", "file":"include/linux/nfsd/nfsfh.h", "line":85, "type":"m", "scope_line":83, "scope_name":"struct nfs_fhbase_new", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbcopyarea.c", "line":225, "type":"c", "scope_line":204, "scope_name":"bitcpy_rev", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbcopyarea.c", "line":226, "type":"c", "scope_line":204, "scope_name":"bitcpy_rev", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbcopyarea.c", "line":54, "type":"c", "scope_line":45, "scope_name":"bitcpy", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbcopyarea.c", "line":55, "type":"c", "scope_line":45, "scope_name":"bitcpy", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbfillrect.c", "line":100, "type":"c", "scope_line":91, "scope_name":"bitfill_unaligned", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbfillrect.c", "line":101, "type":"c", "scope_line":91, "scope_name":"bitfill_unaligned", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbfillrect.c", "line":156, "type":"c", "scope_line":145, "scope_name":"bitfill_aligned_rev", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbfillrect.c", "line":157, "type":"c", "scope_line":145, "scope_name":"bitfill_aligned_rev", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbfillrect.c", "line":226, "type":"c", "scope_line":216, "scope_name":"bitfill_unaligned_rev", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbfillrect.c", "line":227, "type":"c", "scope_line":216, "scope_name":"bitfill_unaligned_rev", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbfillrect.c", "line":43, "type":"c", "scope_line":34, "scope_name":"bitfill_aligned", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbfillrect.c", "line":44, "type":"c", "scope_line":34, "scope_name":"bitfill_aligned", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":108, "type":"c", "scope_line":75, "scope_name":"color_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":109, "type":"c", "scope_line":75, "scope_name":"color_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":113, "type":"c", "scope_line":75, "scope_name":"color_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":121, "type":"c", "scope_line":75, "scope_name":"color_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":153, "type":"c", "scope_line":137, "scope_name":"slow_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":154, "type":"c", "scope_line":137, "scope_name":"slow_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":165, "type":"c", "scope_line":137, "scope_name":"slow_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":174, "type":"c", "scope_line":137, "scope_name":"slow_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":179, "type":"c", "scope_line":137, "scope_name":"slow_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":189, "type":"c", "scope_line":137, "scope_name":"slow_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":229, "type":"c", "scope_line":215, "scope_name":"fast_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":232, "type":"c", "scope_line":215, "scope_name":"fast_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/cfbimgblt.c", "line":97, "type":"c", "scope_line":75, "scope_name":"color_imageblit", }
+,{"id":"fb_be_math", "file":"drivers/video/fbmem.c", "line":1459, "type":"c", "scope_line":1447, "scope_name":"fb_check_foreignness", }
+,{"id":"fb_be_math", "file":"drivers/video/fbmem.c", "line":1463, "type":"c", "scope_line":1447, "scope_name":"fb_check_foreignness", }
+,{"id":"fb_be_math", "file":"include/linux/fb.h", "line":1039, "type":"f", }
+,{"id":"fb_bitfield", "file":"include/linux/fb.h", "line":185, "type":"s", }
+,{"id":"fb_bl_default_curve", "file":"drivers/video/fbsysfs.c", "line":553, "type":"f", }
+,{"id":"fb_blank", "file":"drivers/video/fbmem.c", "line":1008, "type":"f", }
+,{"id":"fb_blank", "file":"drivers/video/fbmem.c", "line":1142, "type":"c", "scope_line":1030, "scope_name":"do_fb_ioctl", }
+,{"id":"fb_blank", "file":"drivers/video/fbsysfs.c", "line":306, "type":"c", "scope_line":296, "scope_name":"store_blank", }
+,{"id":"fb_blank", "file":"include/linux/backlight.h", "line":64, "type":"m", "scope_line":54, "scope_name":"struct backlight_properties", }
+,{"id":"fb_blank", "file":"include/linux/fb.h", "line":650, "type":"m", "scope_line":621, "scope_name":"struct fb_ops", }
+,{"id":"fb_blit_caps", "file":"include/linux/fb.h", "line":556, "type":"s", }
+,{"id":"fb_check_caps", "file":"drivers/video/fbmem.c", "line":889, "type":"f", }
+,{"id":"fb_check_caps", "file":"drivers/video/fbmem.c", "line":961, "type":"c", "scope_line":912, "scope_name":"fb_set_var", }
+,{"id":"fb_check_foreignness", "file":"drivers/video/fbmem.c", "line":1447, "type":"f", }
+,{"id":"fb_check_foreignness", "file":"drivers/video/fbmem.c", "line":1556, "type":"c", "scope_line":1546, "scope_name":"register_framebuffer", }
+,{"id":"fb_check_var", "file":"include/linux/fb.h", "line":637, "type":"m", "scope_line":621, "scope_name":"struct fb_ops", }
+,{"id":"fb_chroma", "file":"include/linux/fb.h", "line":440, "type":"s", }
+,{"id":"fb_class", "file":"include/linux/fb.h", "line":1007, "type":"v", }
+,{"id":"fb_cleanup_device", "file":"drivers/video/fbmem.c", "line":1660, "type":"c", "scope_line":1630, "scope_name":"unregister_framebuffer", }
+,{"id":"fb_cleanup_device", "file":"drivers/video/fbsysfs.c", "line":534, "type":"f", }
+,{"id":"fb_cmap", "file":"include/linux/fb.h", "line":277, "type":"s", }
+,{"id":"fb_cmap32", "file":"drivers/video/fbmem.c", "line":1187, "type":"s", }
+,{"id":"fb_cmap_to_user", "file":"drivers/video/fbcmap.c", "line":173, "type":"f", }
+,{"id":"fb_cmap_to_user", "file":"drivers/video/fbmem.c", "line":1086, "type":"c", "scope_line":1030, "scope_name":"do_fb_ioctl", }
+,{"id":"fb_cmap_user", "file":"include/linux/fb.h", "line":481, "type":"s", }
+,{"id":"fb_compat_ioctl", "file":"drivers/video/fbmem.c", "line":1283, "type":"f", }
+,{"id":"fb_compat_ioctl", "file":"include/linux/fb.h", "line":676, "type":"m", "scope_line":621, "scope_name":"struct fb_ops", }
+,{"id":"fb_compute_bswapmask", "file":"drivers/video/fb_draw.h", "line":166, "type":"d", }
+,{"id":"fb_con2fbmap", "file":"include/linux/fb.h", "line":286, "type":"s", }
+,{"id":"fb_copy_cmap", "file":"drivers/video/fbcmap.c", "line":113, "type":"c", "scope_line":91, "scope_name":"fb_alloc_cmap", }
+,{"id":"fb_copy_cmap", "file":"drivers/video/fbcmap.c", "line":149, "type":"f", }
+,{"id":"fb_copy_cmap", "file":"drivers/video/fbcmap.c", "line":243, "type":"c", "scope_line":212, "scope_name":"fb_set_cmap", }
+,{"id":"fb_copyarea", "file":"include/linux/fb.h", "line":337, "type":"s", }
+,{"id":"fb_copyarea", "file":"include/linux/fb.h", "line":658, "type":"m", "scope_line":621, "scope_name":"struct fb_ops", }
+,{"id":"fb_create_modedb", "file":"drivers/video/fbmon.c", "line":597, "type":"f", }
+,{"id":"fb_create_modedb", "file":"drivers/video/fbmon.c", "line":699, "type":"c", "scope_line":670, "scope_name":"fb_get_monitor_limits", }
+,{"id":"fb_create_modedb", "file":"drivers/video/fbmon.c", "line":956, "type":"c", "scope_line":912, "scope_name":"fb_edid_to_monspecs", }
+,{"id":"fb_cursor", "file":"include/linux/fb.h", "line":383, "type":"s", }
+,{"id":"fb_cursor", "file":"include/linux/fb.h", "line":663, "type":"m", "scope_line":621, "scope_name":"struct fb_ops", }
+,{"id":"fb_cursor_user", "file":"include/linux/fb.h", "line":502, "type":"s", }
+,{"id":"fb_cvt_aspect_ratio", "file":"drivers/video/fbcvt.c", "line":188, "type":"f", }
+,{"id":"fb_cvt_aspect_ratio", "file":"drivers/video/fbcvt.c", "line":359, "type":"c", "scope_line":305, "scope_name":"fb_find_mode_cvt", }
+,{"id":"fb_cvt_convert_to_mode", "file":"drivers/video/fbcvt.c", "line":270, "type":"f", }
+,{"id":"fb_cvt_convert_to_mode", "file":"drivers/video/fbcvt.c", "line":376, "type":"c", "scope_line":305, "scope_name":"fb_find_mode_cvt", }
+,{"id":"fb_cvt_data", "file":"drivers/video/fbcvt.c", "line":35, "type":"s", }
+,{"id":"fb_cvt_hblank", "file":"drivers/video/fbcvt.c", "line":101, "type":"f", }
+,{"id":"fb_cvt_hblank", "file":"drivers/video/fbcvt.c", "line":364, "type":"c", "scope_line":305, "scope_name":"fb_find_mode_cvt", }
+,{"id":"fb_cvt_hperiod", "file":"drivers/video/fbcvt.c", "line":361, "type":"c", "scope_line":305, "scope_name":"fb_find_mode_cvt", }
+,{"id":"fb_cvt_hperiod", "file":"drivers/video/fbcvt.c", "line":73, "type":"f", }
+,{"id":"fb_cvt_hsync", "file":"drivers/video/fbcvt.c", "line":125, "type":"f", }
+,{"id":"fb_cvt_hsync", "file":"drivers/video/fbcvt.c", "line":366, "type":"c", "scope_line":305, "scope_name":"fb_find_mode_cvt", }
+,{"id":"fb_cvt_ideal_duty_cycle", "file":"drivers/video/fbcvt.c", "line":108, "type":"c", "scope_line":101, "scope_name":"fb_cvt_hblank", }
+,{"id":"fb_cvt_ideal_duty_cycle", "file":"drivers/video/fbcvt.c", "line":91, "type":"f", }
+,{"id":"fb_cvt_pixclock", "file":"drivers/video/fbcvt.c", "line":172, "type":"f", }
+,{"id":"fb_cvt_pixclock", "file":"drivers/video/fbcvt.c", "line":367, "type":"c", "scope_line":305, "scope_name":"fb_find_mode_cvt", }
+,{"id":"fb_cvt_print_name", "file":"drivers/video/fbcvt.c", "line":214, "type":"f", }
+,{"id":"fb_cvt_print_name", "file":"drivers/video/fbcvt.c", "line":375, "type":"c", "scope_line":305, "scope_name":"fb_find_mode_cvt", }
+,{"id":"fb_cvt_vbi_lines", "file":"drivers/video/fbcvt.c", "line":138, "type":"f", }
+,{"id":"fb_cvt_vbi_lines", "file":"drivers/video/fbcvt.c", "line":166, "type":"c", "scope_line":162, "scope_name":"fb_cvt_vtotal", }
+,{"id":"fb_cvt_vbi_tab", "file":"drivers/video/fbcvt.c", "line":61, "type":"v", }
+,{"id":"fb_cvt_vtotal", "file":"drivers/video/fbcvt.c", "line":162, "type":"f", }
+,{"id":"fb_cvt_vtotal", "file":"drivers/video/fbcvt.c", "line":363, "type":"c", "scope_line":305, "scope_name":"fb_find_mode_cvt", }
+,{"id":"fb_dcookie", "file":"include/linux/nfsd/nfsfh.h", "line":30, "type":"m", "scope_line":29, "scope_name":"struct nfs_fhbase_old", }
+,{"id":"fb_dealloc_cmap", "file":"drivers/video/asiliantfb.c", "line":526, "type":"c", "scope_line":507, "scope_name":"init_asiliant", }
+,{"id":"fb_dealloc_cmap", "file":"drivers/video/asiliantfb.c", "line":589, "type":"c", "scope_line":584, "scope_name":"asiliantfb_remove", }
+,{"id":"fb_dealloc_cmap", "file":"drivers/video/efifb.c", "line":454, "type":"c", "scope_line":295, "scope_name":"efifb_probe", }
+,{"id":"fb_dealloc_cmap", "file":"drivers/video/fbcmap.c", "line":117, "type":"c", "scope_line":91, "scope_name":"fb_alloc_cmap", }
+,{"id":"fb_dealloc_cmap", "file":"drivers/video/fbcmap.c", "line":130, "type":"f", }
+,{"id":"fb_dealloc_cmap", "file":"drivers/video/fbcmap.c", "line":278, "type":"c", "scope_line":248, "scope_name":"fb_set_user_cmap", }
+,{"id":"fb_dealloc_cmap", "file":"drivers/video/fbcmap.c", "line":96, "type":"c", "scope_line":91, "scope_name":"fb_alloc_cmap", }
+,{"id":"fb_debug_enter", "file":"include/linux/fb.h", "line":690, "type":"m", "scope_line":621, "scope_name":"struct fb_ops", }
+,{"id":"fb_debug_leave", "file":"include/linux/fb.h", "line":691, "type":"m", "scope_line":621, "scope_name":"struct fb_ops", }
+,{"id":"fb_default_cmap", "file":"drivers/video/fbcmap.c", "line":113, "type":"c", "scope_line":91, "scope_name":"fb_alloc_cmap", }
+,{"id":"fb_default_cmap", "file":"drivers/video/fbcmap.c", "line":293, "type":"f", }
+,{"id":"fb_deferred_io", "file":"include/linux/fb.h", "line":597, "type":"s", }
+,{"id":"fb_deferred_io_aops", "file":"drivers/video/fb_defio.c", "line":149, "type":"v", }
+,{"id":"fb_deferred_io_cleanup", "file":"drivers/video/fb_defio.c", "line":212, "type":"f", }
+,{"id":"fb_deferred_io_fault", "file":"drivers/video/fb_defio.c", "line":40, "type":"f", }
+,{"id":"fb_deferred_io_fsync", "file":"drivers/video/fb_defio.c", "line":69, "type":"f", }
+,{"id":"fb_deferred_io_init", "file":"drivers/video/fb_defio.c", "line":190, "type":"f", }
+,{"id":"fb_deferred_io_mkwrite", "file":"drivers/video/fb_defio.c", "line":86, "type":"f", }
+,{"id":"fb_deferred_io_mmap", "file":"drivers/video/fb_defio.c", "line":153, "type":"f", }
+,{"id":"fb_deferred_io_open", "file":"drivers/video/fb_defio.c", "line":204, "type":"f", }
+,{"id":"fb_deferred_io_open", "file":"drivers/video/fbmem.c", "line":1403, "type":"c", "scope_line":1373, "scope_name":"fb_open", }
+,{"id":"fb_deferred_io_page", "file":"drivers/video/fb_defio.c", "line":224, "type":"c", "scope_line":212, "scope_name":"fb_deferred_io_cleanup", }
+,{"id":"fb_deferred_io_page", "file":"drivers/video/fb_defio.c", "line":26, "type":"f", }
+,{"id":"fb_deferred_io_page", "file":"drivers/video/fb_defio.c", "line":51, "type":"c", "scope_line":40, "scope_name":"fb_deferred_io_fault", }
+,{"id":"fb_deferred_io_set_page_dirty", "file":"drivers/video/fb_defio.c", "line":142, "type":"f", }
+,{"id":"fb_deferred_io_vm_ops", "file":"drivers/video/fb_defio.c", "line":137, "type":"v", }
+,{"id":"fb_deferred_io_work", "file":"drivers/video/fb_defio.c", "line":164, "type":"f", }
+,{"id":"fb_delete_videomode", "file":"drivers/video/fbmem.c", "line":935, "type":"c", "scope_line":912, "scope_name":"fb_set_var", }
+,{"id":"fb_delete_videomode", "file":"drivers/video/modedb.c", "line":939, "type":"f", }
+,{"id":"fb_destroy", "file":"include/linux/fb.h", "line":687, "type":"m", "scope_line":621, "scope_name":"struct fb_ops", }
+,{"id":"fb_destroy_modedb", "file":"drivers/video/fbmon.c", "line":665, "type":"f", }
+,{"id":"fb_destroy_modedb", "file":"drivers/video/fbmon.c", "line":743, "type":"c", "scope_line":670, "scope_name":"fb_get_monitor_limits", }
+,{"id":"fb_destroy_modelist", "file":"drivers/video/fbmem.c", "line":1657, "type":"c", "scope_line":1630, "scope_name":"unregister_framebuffer", }
+,{"id":"fb_destroy_modelist", "file":"drivers/video/fbsysfs.c", "line":183, "type":"c", "scope_line":167, "scope_name":"store_modes", }
+,{"id":"fb_destroy_modelist", "file":"drivers/video/fbsysfs.c", "line":186, "type":"c", "scope_line":167, "scope_name":"store_modes", }
+,{"id":"fb_destroy_modelist", "file":"drivers/video/modedb.c", "line":960, "type":"f", }
+,{"id":"fb_dev", "file":"include/linux/nfsd/nfsfh.h", "line":33, "type":"m", "scope_line":29, "scope_name":"struct nfs_fhbase_old", }
+,{"id":"fb_dirino", "file":"include/linux/nfsd/nfsfh.h", "line":32, "type":"m", "scope_line":29, "scope_name":"struct nfs_fhbase_old", }
+,{"id":"fb_do_apertures_overlap", "file":"drivers/video/fbmem.c", "line":1483, "type":"f", }
+,{"id":"fb_do_apertures_overlap", "file":"drivers/video/fbmem.c", "line":1523, "type":"c", "scope_line":1508, "scope_name":"remove_conflicting_framebuffers", }
+,{"id":"fb_edid_to_monspecs", "file":"drivers/video/fbmon.c", "line":912, "type":"f", }
+,{"id":"fb_event", "file":"include/linux/fb.h", "line":551, "type":"s", }
+,{"id":"fb_fileid_type", "file":"include/linux/nfsd/nfsfh.h", "line":87, "type":"m", "scope_line":83, "scope_name":"struct nfs_fhbase_new", }
+,{"id":"fb_fillrect", "file":"include/linux/fb.h", "line":346, "type":"s", }
+,{"id":"fb_fillrect", "file":"include/linux/fb.h", "line":656, "type":"m", "scope_line":621, "scope_name":"struct fb_ops", }
+,{"id":"fb_find_best_display", "file":"drivers/video/modedb.c", "line":990, "type":"f", }
+,{"id":"fb_find_best_mode", "file":"drivers/video/modedb.c", "line":1030, "type":"c", "scope_line":990, "scope_name":"fb_find_best_display", }
+,{"id":"fb_find_best_mode", "file":"drivers/video/modedb.c", "line":802, "type":"f", }
+,{"id":"fb_find_mode", "file":"drivers/video/modedb.c", "line":492, "type":"f", }
+,{"id":"fb_find_mode_cvt", "file":"drivers/video/fbcvt.c", "line":305, "type":"f", }
+,{"id":"fb_find_mode_cvt", "file":"drivers/video/modedb.c", "line":599, "type":"c", "scope_line":492, "scope_name":"fb_find_mode", }
+,{"id":"fb_find_nearest_mode", "file":"drivers/video/modedb.c", "line":840, "type":"f", }
+,{"id":"fb_firmware_edid", "file":"drivers/video/fbmon.c", "line":1372, "type":"f", }
+,{"id":"fb_fix_screeninfo", "file":"include/linux/fb.h", "line":155, "type":"s", }
+,{"id":"fb_fix_screeninfo32", "file":"drivers/video/fbmem.c", "line":1170, "type":"s", }
+,{"id":"fb_fops", "file":"drivers/video/fbmem.c", "line":1425, "type":"v", }
+,{"id":"fb_fsid_type", "file":"include/linux/nfsd/nfsfh.h", "line":86, "type":"m", "scope_line":83, "scope_name":"struct nfs_fhbase_new", }
+,{"id":"fb_generation", "file":"include/linux/nfsd/nfsfh.h", "line":36, "type":"m", "scope_line":29, "scope_name":"struct nfs_fhbase_old", }
+,{"id":"fb_get_buffer_offset", "file":"drivers/video/fbmem.c", "line":129, "type":"f", }
+,{"id":"fb_get_caps", "file":"include/linux/fb.h", "line":683, "type":"m", "scope_line":621, "scope_name":"struct fb_ops", }
+,{"id":"fb_get_color_depth", "file":"drivers/video/fbmem.c", "line":63, "type":"f", }
+,{"id":"fb_get_fscreeninfo", "file":"drivers/video/fbmem.c", "line":1262, "type":"f", }
+,{"id":"fb_get_fscreeninfo", "file":"drivers/video/fbmem.c", "line":1304, "type":"c", "scope_line":1283, "scope_name":"fb_compat_ioctl", }
+,{"id":"fb_get_hblank_by_dclk", "file":"drivers/video/fbmon.c", "line":1079, "type":"f", }
+,{"id":"fb_get_hblank_by_dclk", "file":"drivers/video/fbmon.c", "line":1146, "type":"c", "scope_line":1144, "scope_name":"fb_timings_dclk", }
+,{"id":"fb_get_hblank_by_hfreq", "file":"drivers/video/fbmon.c", "line":1045, "type":"f", }
+,{"id":"fb_get_hblank_by_hfreq", "file":"drivers/video/fbmon.c", "line":1127, "type":"c", "scope_line":1122, "scope_name":"fb_timings_vfreq", }
+,{"id":"fb_get_hblank_by_hfreq", "file":"drivers/video/fbmon.c", "line":1138, "type":"c", "scope_line":1133, "scope_name":"fb_timings_hfreq", }
+,{"id":"fb_get_hfreq", "file":"drivers/video/fbmon.c", "line":1113, "type":"f", }
+,{"id":"fb_get_hfreq", "file":"drivers/video/fbmon.c", "line":1124, "type":"c", "scope_line":1122, "scope_name":"fb_timings_vfreq", }
+,{"id":"fb_get_mode", "file":"drivers/video/fbmon.c", "line":1189, "type":"f", }
+,{"id":"fb_get_mode", "file":"drivers/video/fbmon.c", "line":393, "type":"c", "scope_line":383, "scope_name":"calc_mode_timings", }
+,{"id":"fb_get_monitor_limits", "file":"drivers/video/fbmon.c", "line":670, "type":"f", }
+,{"id":"fb_get_monitor_limits", "file":"drivers/video/fbmon.c", "line":757, "type":"c", "scope_line":751, "scope_name":"get_monspecs", }
+,{"id":"fb_get_options", "file":"drivers/video/asiliantfb.c", "line":612, "type":"c", "scope_line":610, "scope_name":"asiliantfb_init", }
+,{"id":"fb_get_options", "file":"drivers/video/efifb.c", "line":486, "type":"c", "scope_line":476, "scope_name":"efifb_init", }
+,];
+xr_frag_insert('t/8d/fce636beb79779743e030702a0f9a44809d301.xr', __xr_tmp);

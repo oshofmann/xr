@@ -1,0 +1,269 @@
+var __xr_tmp = [
+{"id":"xfrm_aevent_is_on", "file":"net/xfrm/xfrm_output.c", "line":79, "type":"c", "scope_line":41, "scope_name":"xfrm_output_one", }
+,{"id":"xfrm_aevent_is_on", "file":"net/xfrm/xfrm_state.c", "line":1667, "type":"c", "scope_line":1660, "scope_name":"xfrm_replay_timer_handler", }
+,{"id":"xfrm_aevent_is_on", "file":"net/xfrm/xfrm_state.c", "line":1723, "type":"c", "scope_line":1706, "scope_name":"xfrm_replay_advance", }
+,{"id":"xfrm_af2proto", "file":"include/net/xfrm.h", "line":405, "type":"f", }
+,{"id":"xfrm_af2proto", "file":"net/xfrm/xfrm_output.c", "line":206, "type":"c", "scope_line":202, "scope_name":"xfrm_inner_extract_output", }
+,{"id":"xfrm_alg_auth_len", "file":"include/net/xfrm.h", "line":1548, "type":"f", }
+,{"id":"xfrm_alg_id_match", "file":"net/xfrm/xfrm_algo.c", "line":585, "type":"f", }
+,{"id":"xfrm_alg_len", "file":"include/net/xfrm.h", "line":1543, "type":"f", }
+,{"id":"xfrm_alg_name_match", "file":"net/xfrm/xfrm_algo.c", "line":612, "type":"f", }
+,{"id":"xfrm_algo", "file":"include/linux/xfrm.h", "line":87, "type":"s", }
+,{"id":"xfrm_algo_aead", "file":"include/linux/xfrm.h", "line":100, "type":"s", }
+,{"id":"xfrm_algo_aead_info", "file":"include/net/xfrm.h", "line":1231, "type":"s", }
+,{"id":"xfrm_algo_auth", "file":"include/linux/xfrm.h", "line":93, "type":"s", }
+,{"id":"xfrm_algo_auth_info", "file":"include/net/xfrm.h", "line":1235, "type":"s", }
+,{"id":"xfrm_algo_comp_info", "file":"include/net/xfrm.h", "line":1245, "type":"s", }
+,{"id":"xfrm_algo_desc", "file":"include/net/xfrm.h", "line":1249, "type":"s", }
+,{"id":"xfrm_algo_encr_info", "file":"include/net/xfrm.h", "line":1240, "type":"s", }
+,{"id":"xfrm_algo_list", "file":"net/xfrm/xfrm_algo.c", "line":521, "type":"s", }
+,{"id":"xfrm_alloc_dst", "file":"net/xfrm/xfrm_policy.c", "line":1319, "type":"f", }
+,{"id":"xfrm_alloc_dst", "file":"net/xfrm/xfrm_policy.c", "line":1416, "type":"c", "scope_line":1387, "scope_name":"xfrm_bundle_create", }
+,{"id":"xfrm_alloc_dst", "file":"net/xfrm/xfrm_policy.c", "line":1705, "type":"c", "scope_line":1627, "scope_name":"xfrm_bundle_lookup", }
+,{"id":"xfrm_alloc_spi", "file":"net/xfrm/xfrm_state.c", "line":1497, "type":"f", }
+,{"id":"xfrm_attr_type_t", "file":"include/linux/xfrm.h", "line":263, "type":"t", }
+,{"id":"xfrm_audit", "file":"include/net/xfrm.h", "line":631, "type":"s", }
+,{"id":"xfrm_audit_common_policyinfo", "file":"net/xfrm/xfrm_policy.c", "line":2654, "type":"f", }
+,{"id":"xfrm_audit_common_policyinfo", "file":"net/xfrm/xfrm_policy.c", "line":2698, "type":"c", "scope_line":2688, "scope_name":"xfrm_audit_policy_add", }
+,{"id":"xfrm_audit_common_policyinfo", "file":"net/xfrm/xfrm_policy.c", "line":2713, "type":"c", "scope_line":2703, "scope_name":"xfrm_audit_policy_delete", }
+,{"id":"xfrm_audit_helper_pktinfo", "file":"net/xfrm/xfrm_state.c", "line":2167, "type":"f", }
+,{"id":"xfrm_audit_helper_pktinfo", "file":"net/xfrm/xfrm_state.c", "line":2230, "type":"c", "scope_line":2221, "scope_name":"xfrm_audit_state_replay_overflow", }
+,{"id":"xfrm_audit_helper_pktinfo", "file":"net/xfrm/xfrm_state.c", "line":2248, "type":"c", "scope_line":2239, "scope_name":"xfrm_audit_state_replay", }
+,{"id":"xfrm_audit_helper_pktinfo", "file":"net/xfrm/xfrm_state.c", "line":2262, "type":"c", "scope_line":2255, "scope_name":"xfrm_audit_state_notfound_simple", }
+,{"id":"xfrm_audit_helper_pktinfo", "file":"net/xfrm/xfrm_state.c", "line":2276, "type":"c", "scope_line":2267, "scope_name":"xfrm_audit_state_notfound", }
+,{"id":"xfrm_audit_helper_pktinfo", "file":"net/xfrm/xfrm_state.c", "line":2294, "type":"c", "scope_line":2284, "scope_name":"xfrm_audit_state_icvfail", }
+,{"id":"xfrm_audit_helper_sainfo", "file":"net/xfrm/xfrm_state.c", "line":2143, "type":"f", }
+,{"id":"xfrm_audit_helper_sainfo", "file":"net/xfrm/xfrm_state.c", "line":2200, "type":"c", "scope_line":2191, "scope_name":"xfrm_audit_state_add", }
+,{"id":"xfrm_audit_helper_sainfo", "file":"net/xfrm/xfrm_state.c", "line":2215, "type":"c", "scope_line":2206, "scope_name":"xfrm_audit_state_delete", }
+,{"id":"xfrm_audit_helper_usrinfo", "file":"include/net/xfrm.h", "line":652, "type":"f", }
+,{"id":"xfrm_audit_helper_usrinfo", "file":"net/xfrm/xfrm_policy.c", "line":2696, "type":"c", "scope_line":2688, "scope_name":"xfrm_audit_policy_add", }
+,{"id":"xfrm_audit_helper_usrinfo", "file":"net/xfrm/xfrm_policy.c", "line":2711, "type":"c", "scope_line":2703, "scope_name":"xfrm_audit_policy_delete", }
+,{"id":"xfrm_audit_helper_usrinfo", "file":"net/xfrm/xfrm_state.c", "line":2199, "type":"c", "scope_line":2191, "scope_name":"xfrm_audit_state_add", }
+,{"id":"xfrm_audit_helper_usrinfo", "file":"net/xfrm/xfrm_state.c", "line":2214, "type":"c", "scope_line":2206, "scope_name":"xfrm_audit_state_delete", }
+,{"id":"xfrm_audit_policy_add", "file":"net/xfrm/xfrm_policy.c", "line":2688, "type":"f", }
+,{"id":"xfrm_audit_policy_delete", "file":"net/xfrm/xfrm_policy.c", "line":2703, "type":"f", }
+,{"id":"xfrm_audit_policy_delete", "file":"net/xfrm/xfrm_policy.c", "line":752, "type":"c", "scope_line":728, "scope_name":"xfrm_policy_flush", }
+,{"id":"xfrm_audit_policy_delete", "file":"net/xfrm/xfrm_policy.c", "line":773, "type":"c", "scope_line":728, "scope_name":"xfrm_policy_flush", }
+,{"id":"xfrm_audit_start", "file":"include/net/xfrm.h", "line":638, "type":"f", }
+,{"id":"xfrm_audit_start", "file":"net/xfrm/xfrm_policy.c", "line":2693, "type":"c", "scope_line":2688, "scope_name":"xfrm_audit_policy_add", }
+,{"id":"xfrm_audit_start", "file":"net/xfrm/xfrm_policy.c", "line":2708, "type":"c", "scope_line":2703, "scope_name":"xfrm_audit_policy_delete", }
+,{"id":"xfrm_audit_start", "file":"net/xfrm/xfrm_state.c", "line":2196, "type":"c", "scope_line":2191, "scope_name":"xfrm_audit_state_add", }
+,{"id":"xfrm_audit_start", "file":"net/xfrm/xfrm_state.c", "line":2211, "type":"c", "scope_line":2206, "scope_name":"xfrm_audit_state_delete", }
+,{"id":"xfrm_audit_start", "file":"net/xfrm/xfrm_state.c", "line":2227, "type":"c", "scope_line":2221, "scope_name":"xfrm_audit_state_replay_overflow", }
+,{"id":"xfrm_audit_start", "file":"net/xfrm/xfrm_state.c", "line":2245, "type":"c", "scope_line":2239, "scope_name":"xfrm_audit_state_replay", }
+,{"id":"xfrm_audit_start", "file":"net/xfrm/xfrm_state.c", "line":2259, "type":"c", "scope_line":2255, "scope_name":"xfrm_audit_state_notfound_simple", }
+,{"id":"xfrm_audit_start", "file":"net/xfrm/xfrm_state.c", "line":2273, "type":"c", "scope_line":2267, "scope_name":"xfrm_audit_state_notfound", }
+,{"id":"xfrm_audit_start", "file":"net/xfrm/xfrm_state.c", "line":2291, "type":"c", "scope_line":2284, "scope_name":"xfrm_audit_state_icvfail", }
+,{"id":"xfrm_audit_state_add", "file":"net/xfrm/xfrm_state.c", "line":2191, "type":"f", }
+,{"id":"xfrm_audit_state_delete", "file":"net/xfrm/xfrm_state.c", "line":2206, "type":"f", }
+,{"id":"xfrm_audit_state_delete", "file":"net/xfrm/xfrm_state.c", "line":476, "type":"c", "scope_line":404, "scope_name":"xfrm_timer_handler", }
+,{"id":"xfrm_audit_state_delete", "file":"net/xfrm/xfrm_state.c", "line":625, "type":"c", "scope_line":604, "scope_name":"xfrm_state_flush", }
+,{"id":"xfrm_audit_state_icvfail", "file":"net/xfrm/xfrm_input.c", "line":198, "type":"c", "scope_line":105, "scope_name":"xfrm_input", }
+,{"id":"xfrm_audit_state_icvfail", "file":"net/xfrm/xfrm_state.c", "line":2284, "type":"f", }
+,{"id":"xfrm_audit_state_notfound", "file":"net/xfrm/xfrm_input.c", "line":158, "type":"c", "scope_line":105, "scope_name":"xfrm_input", }
+,{"id":"xfrm_audit_state_notfound", "file":"net/xfrm/xfrm_state.c", "line":2267, "type":"f", }
+,{"id":"xfrm_audit_state_notfound_simple", "file":"net/ipv6/xfrm6_input.c", "line":127, "type":"c", "scope_line":58, "scope_name":"xfrm6_input_addr", }
+,{"id":"xfrm_audit_state_notfound_simple", "file":"net/xfrm/xfrm_state.c", "line":2255, "type":"f", }
+,{"id":"xfrm_audit_state_replay", "file":"net/xfrm/xfrm_state.c", "line":1702, "type":"c", "scope_line":1676, "scope_name":"xfrm_replay_check", }
+,{"id":"xfrm_audit_state_replay", "file":"net/xfrm/xfrm_state.c", "line":2239, "type":"f", }
+,{"id":"xfrm_audit_state_replay_overflow", "file":"net/xfrm/xfrm_output.c", "line":75, "type":"c", "scope_line":41, "scope_name":"xfrm_output_one", }
+,{"id":"xfrm_audit_state_replay_overflow", "file":"net/xfrm/xfrm_state.c", "line":2221, "type":"f", }
+,{"id":"xfrm_bundle_create", "file":"net/xfrm/xfrm_policy.c", "line":1387, "type":"f", }
+,{"id":"xfrm_bundle_create", "file":"net/xfrm/xfrm_policy.c", "line":1602, "type":"c", "scope_line":1583, "scope_name":"xfrm_resolve_and_create_bundle", }
+,{"id":"xfrm_bundle_fc_ops", "file":"net/xfrm/xfrm_policy.c", "line":1313, "type":"v", }
+,{"id":"xfrm_bundle_flo_check", "file":"net/xfrm/xfrm_policy.c", "line":1292, "type":"f", }
+,{"id":"xfrm_bundle_flo_delete", "file":"net/xfrm/xfrm_policy.c", "line":1305, "type":"f", }
+,{"id":"xfrm_bundle_flo_get", "file":"net/xfrm/xfrm_policy.c", "line":1271, "type":"f", }
+,{"id":"xfrm_bundle_lookup", "file":"net/xfrm/xfrm_policy.c", "line":1627, "type":"f", }
+,{"id":"xfrm_bundle_ok", "file":"net/xfrm/xfrm_policy.c", "line":2207, "type":"c", "scope_line":2205, "scope_name":"stale_bundle", }
+,{"id":"xfrm_bundle_ok", "file":"net/xfrm/xfrm_policy.c", "line":2279, "type":"f", }
+,{"id":"xfrm_bydst_resize", "file":"net/xfrm/xfrm_policy.c", "line":381, "type":"f", }
+,{"id":"xfrm_bydst_resize", "file":"net/xfrm/xfrm_policy.c", "line":483, "type":"c", "scope_line":473, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_bydst_should_resize", "file":"net/xfrm/xfrm_policy.c", "line":1034, "type":"c", "scope_line":1022, "scope_name":"__xfrm_policy_link", }
+,{"id":"xfrm_bydst_should_resize", "file":"net/xfrm/xfrm_policy.c", "line":431, "type":"f", }
+,{"id":"xfrm_bydst_should_resize", "file":"net/xfrm/xfrm_policy.c", "line":482, "type":"c", "scope_line":473, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_bydst_should_resize", "file":"net/xfrm/xfrm_policy.c", "line":589, "type":"c", "scope_line":536, "scope_name":"xfrm_policy_insert", }
+,{"id":"xfrm_byidx_resize", "file":"net/xfrm/xfrm_policy.c", "line":406, "type":"f", }
+,{"id":"xfrm_byidx_resize", "file":"net/xfrm/xfrm_policy.c", "line":486, "type":"c", "scope_line":473, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_byidx_should_resize", "file":"net/xfrm/xfrm_policy.c", "line":446, "type":"f", }
+,{"id":"xfrm_byidx_should_resize", "file":"net/xfrm/xfrm_policy.c", "line":485, "type":"c", "scope_line":473, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_calg_get_byid", "file":"net/xfrm/xfrm_algo.c", "line":605, "type":"f", }
+,{"id":"xfrm_calg_get_byname", "file":"net/xfrm/xfrm_algo.c", "line":635, "type":"f", }
+,{"id":"xfrm_calg_list", "file":"net/xfrm/xfrm_algo.c", "line":549, "type":"v", }
+,{"id":"xfrm_cfg_mutex", "file":"net/xfrm/xfrm_policy.c", "line":37, "type":"v", }
+,{"id":"xfrm_count_auth_supported", "file":"net/xfrm/xfrm_algo.c", "line":721, "type":"f", }
+,{"id":"xfrm_count_enc_supported", "file":"net/xfrm/xfrm_algo.c", "line":732, "type":"f", }
+,{"id":"xfrm_decode_session", "file":"include/net/xfrm.h", "line":1028, "type":"f", }
+,{"id":"xfrm_decode_session", "file":"net/ipv4/netfilter.c", "line":68, "type":"c", "scope_line":14, "scope_name":"ip_route_me_harder", }
+,{"id":"xfrm_decode_session", "file":"net/ipv4/netfilter.c", "line":97, "type":"c", "scope_line":89, "scope_name":"ip_xfrm_me_harder", }
+,{"id":"xfrm_decode_session", "file":"net/ipv6/netfilter.c", "line":41, "type":"c", "scope_line":13, "scope_name":"ip6_route_me_harder", }
+,{"id":"xfrm_decode_session", "file":"net/xfrm/xfrm_policy.c", "line":2161, "type":"c", "scope_line":2154, "scope_name":"__xfrm_route_forward", }
+,{"id":"xfrm_decode_session_reverse", "file":"include/net/xfrm.h", "line":1034, "type":"f", }
+,{"id":"xfrm_decode_session_reverse", "file":"net/ipv4/icmp.c", "line":585, "type":"c", "scope_line":418, "scope_name":"icmp_send", }
+,{"id":"xfrm_decode_session_reverse", "file":"net/ipv6/icmp.c", "line":438, "type":"c", "scope_line":304, "scope_name":"icmpv6_send", }
+,{"id":"xfrm_dev_event", "file":"net/xfrm/xfrm_policy.c", "line":2473, "type":"f", }
+,{"id":"xfrm_dev_notifier", "file":"net/xfrm/xfrm_policy.c", "line":2484, "type":"v", }
+,{"id":"xfrm_dst", "file":"include/net/xfrm.h", "line":868, "type":"s", }
+,{"id":"xfrm_dst_alloc_copy", "file":"net/xfrm/xfrm_policy.c", "line":1504, "type":"f", }
+,{"id":"xfrm_dst_cache", "file":"net/xfrm/xfrm_policy.c", "line":47, "type":"v", }
+,{"id":"xfrm_dst_check", "file":"net/xfrm/xfrm_policy.c", "line":2177, "type":"f", }
+,{"id":"xfrm_dst_destroy", "file":"include/net/xfrm.h", "line":891, "type":"f", }
+,{"id":"xfrm_dst_destroy", "file":"net/ipv4/xfrm4_policy.c", "line":196, "type":"c", "scope_line":188, "scope_name":"xfrm4_dst_destroy", }
+,{"id":"xfrm_dst_destroy", "file":"net/ipv6/xfrm6_policy.c", "line":219, "type":"c", "scope_line":213, "scope_name":"xfrm6_dst_destroy", }
+,{"id":"xfrm_dst_hash", "file":"net/xfrm/xfrm_state.c", "line":52, "type":"f", }
+,{"id":"xfrm_dst_hash", "file":"net/xfrm/xfrm_state.c", "line":806, "type":"c", "scope_line":786, "scope_name":"xfrm_state_find", }
+,{"id":"xfrm_dst_hash", "file":"net/xfrm/xfrm_state.c", "line":822, "type":"c", "scope_line":786, "scope_name":"xfrm_state_find", }
+,{"id":"xfrm_dst_hash", "file":"net/xfrm/xfrm_state.c", "line":906, "type":"c", "scope_line":896, "scope_name":"xfrm_stateonly_find", }
+,{"id":"xfrm_dst_hash", "file":"net/xfrm/xfrm_state.c", "line":937, "type":"c", "scope_line":930, "scope_name":"__xfrm_state_insert", }
+,{"id":"xfrm_dst_hash", "file":"net/xfrm/xfrm_state.c", "line":973, "type":"c", "scope_line":963, "scope_name":"__xfrm_state_bump_genids", }
+,{"id":"xfrm_dst_hash", "file":"net/xfrm/xfrm_state.c", "line":996, "type":"c", "scope_line":994, "scope_name":"__find_acq_core", }
+,{"id":"xfrm_dst_hash_transfer", "file":"net/xfrm/xfrm_policy.c", "line":329, "type":"f", }
+,{"id":"xfrm_dst_hash_transfer", "file":"net/xfrm/xfrm_policy.c", "line":396, "type":"c", "scope_line":381, "scope_name":"xfrm_bydst_resize", }
+,{"id":"xfrm_dst_ifdown", "file":"net/ipv4/xfrm4_policy.c", "line":223, "type":"c", "scope_line":199, "scope_name":"xfrm4_dst_ifdown", }
+,{"id":"xfrm_dst_ifdown", "file":"net/ipv6/xfrm6_policy.c", "line":246, "type":"c", "scope_line":222, "scope_name":"xfrm6_dst_ifdown", }
+,{"id":"xfrm_dst_ifdown", "file":"net/xfrm/xfrm_policy.c", "line":2210, "type":"f", }
+,{"id":"xfrm_dst_lookup", "file":"net/xfrm/xfrm_policy.c", "line":110, "type":"f", }
+,{"id":"xfrm_dst_lookup", "file":"net/xfrm/xfrm_policy.c", "line":1437, "type":"c", "scope_line":1387, "scope_name":"xfrm_bundle_create", }
+,{"id":"xfrm_dst_ops_init", "file":"net/xfrm/xfrm_policy.c", "line":2440, "type":"f", }
+,{"id":"xfrm_dst_ops_init", "file":"net/xfrm/xfrm_policy.c", "line":2618, "type":"c", "scope_line":2605, "scope_name":"xfrm_net_init", }
+,{"id":"xfrm_dst_update_origin", "file":"net/xfrm/xfrm_policy.c", "line":1528, "type":"f", }
+,{"id":"xfrm_dst_update_origin", "file":"net/xfrm/xfrm_policy.c", "line":1613, "type":"c", "scope_line":1583, "scope_name":"xfrm_resolve_and_create_bundle", }
+,{"id":"xfrm_dst_update_parent", "file":"net/xfrm/xfrm_policy.c", "line":1516, "type":"f", }
+,{"id":"xfrm_dst_update_parent", "file":"net/xfrm/xfrm_policy.c", "line":1611, "type":"c", "scope_line":1583, "scope_name":"xfrm_resolve_and_create_bundle", }
+,{"id":"xfrm_ealg_get_byid", "file":"net/xfrm/xfrm_algo.c", "line":598, "type":"f", }
+,{"id":"xfrm_ealg_get_byidx", "file":"net/xfrm/xfrm_algo.c", "line":678, "type":"f", }
+,{"id":"xfrm_ealg_get_byname", "file":"net/xfrm/xfrm_algo.c", "line":628, "type":"f", }
+,{"id":"xfrm_ealg_list", "file":"net/xfrm/xfrm_algo.c", "line":542, "type":"v", }
+,{"id":"xfrm_encap_tmpl", "file":"include/linux/xfrm.h", "line":234, "type":"s", }
+,{"id":"xfrm_expand_policies", "file":"net/xfrm/xfrm_policy.c", "line":1539, "type":"f", }
+,{"id":"xfrm_expand_policies", "file":"net/xfrm/xfrm_policy.c", "line":1661, "type":"c", "scope_line":1627, "scope_name":"xfrm_bundle_lookup", }
+,{"id":"xfrm_expand_policies", "file":"net/xfrm/xfrm_policy.c", "line":1751, "type":"c", "scope_line":1732, "scope_name":"__xfrm_lookup", }
+,{"id":"xfrm_fill_dst", "file":"net/xfrm/xfrm_policy.c", "line":1365, "type":"f", }
+,{"id":"xfrm_fill_dst", "file":"net/xfrm/xfrm_policy.c", "line":1481, "type":"c", "scope_line":1387, "scope_name":"xfrm_bundle_create", }
+,{"id":"xfrm_find_acq", "file":"net/xfrm/xfrm_state.c", "line":1398, "type":"f", }
+,{"id":"xfrm_find_acq_byseq", "file":"net/xfrm/xfrm_state.c", "line":1473, "type":"f", }
+,{"id":"xfrm_find_algo", "file":"net/xfrm/xfrm_algo.c", "line":556, "type":"f", }
+,{"id":"xfrm_find_algo", "file":"net/xfrm/xfrm_algo.c", "line":593, "type":"c", "scope_line":591, "scope_name":"xfrm_aalg_get_byid", }
+,{"id":"xfrm_find_algo", "file":"net/xfrm/xfrm_algo.c", "line":600, "type":"c", "scope_line":598, "scope_name":"xfrm_ealg_get_byid", }
+,{"id":"xfrm_find_algo", "file":"net/xfrm/xfrm_algo.c", "line":607, "type":"c", "scope_line":605, "scope_name":"xfrm_calg_get_byid", }
+,{"id":"xfrm_find_algo", "file":"net/xfrm/xfrm_algo.c", "line":623, "type":"c", "scope_line":621, "scope_name":"xfrm_aalg_get_byname", }
+,{"id":"xfrm_find_algo", "file":"net/xfrm/xfrm_algo.c", "line":630, "type":"c", "scope_line":628, "scope_name":"xfrm_ealg_get_byname", }
+,{"id":"xfrm_find_algo", "file":"net/xfrm/xfrm_algo.c", "line":637, "type":"c", "scope_line":635, "scope_name":"xfrm_calg_get_byname", }
+,{"id":"xfrm_find_algo", "file":"net/xfrm/xfrm_algo.c", "line":664, "type":"c", "scope_line":657, "scope_name":"xfrm_aead_get_byname", }
+,{"id":"xfrm_flowi_addr_get", "file":"include/net/xfrm.h", "line":1145, "type":"f", }
+,{"id":"xfrm_flowi_addr_get", "file":"net/xfrm/xfrm_policy.c", "line":1406, "type":"c", "scope_line":1387, "scope_name":"xfrm_bundle_create", }
+,{"id":"xfrm_flowi_daddr", "file":"include/net/xfrm.h", "line":1121, "type":"f", }
+,{"id":"xfrm_flowi_daddr", "file":"net/xfrm/xfrm_policy.c", "line":1164, "type":"c", "scope_line":1156, "scope_name":"xfrm_tmpl_resolve_one", }
+,{"id":"xfrm_flowi_daddr", "file":"net/xfrm/xfrm_policy.c", "line":894, "type":"c", "scope_line":883, "scope_name":"xfrm_policy_lookup_bytype", }
+,{"id":"xfrm_flowi_dport", "file":"include/net/xfrm.h", "line":814, "type":"f", }
+,{"id":"xfrm_flowi_dport", "file":"net/ipv4/xfrm4_state.c", "line":28, "type":"c", "scope_line":23, "scope_name":"__xfrm4_init_tempsel", }
+,{"id":"xfrm_flowi_dport", "file":"net/ipv6/xfrm6_state.c", "line":29, "type":"c", "scope_line":22, "scope_name":"__xfrm6_init_tempsel", }
+,{"id":"xfrm_flowi_dport", "file":"net/xfrm/xfrm_policy.c", "line":60, "type":"c", "scope_line":57, "scope_name":"__xfrm4_selector_match", }
+,{"id":"xfrm_flowi_dport", "file":"net/xfrm/xfrm_policy.c", "line":71, "type":"c", "scope_line":68, "scope_name":"__xfrm6_selector_match", }
+,{"id":"xfrm_flowi_saddr", "file":"include/net/xfrm.h", "line":1133, "type":"f", }
+,{"id":"xfrm_flowi_saddr", "file":"net/xfrm/xfrm_policy.c", "line":1165, "type":"c", "scope_line":1156, "scope_name":"xfrm_tmpl_resolve_one", }
+,{"id":"xfrm_flowi_saddr", "file":"net/xfrm/xfrm_policy.c", "line":895, "type":"c", "scope_line":883, "scope_name":"xfrm_policy_lookup_bytype", }
+,{"id":"xfrm_flowi_sport", "file":"include/net/xfrm.h", "line":790, "type":"f", }
+,{"id":"xfrm_flowi_sport", "file":"net/ipv4/xfrm4_state.c", "line":30, "type":"c", "scope_line":23, "scope_name":"__xfrm4_init_tempsel", }
+,{"id":"xfrm_flowi_sport", "file":"net/ipv6/xfrm6_state.c", "line":31, "type":"c", "scope_line":22, "scope_name":"__xfrm6_init_tempsel", }
+,{"id":"xfrm_flowi_sport", "file":"net/xfrm/xfrm_policy.c", "line":60, "type":"c", "scope_line":57, "scope_name":"__xfrm4_selector_match", }
+,{"id":"xfrm_flowi_sport", "file":"net/xfrm/xfrm_policy.c", "line":71, "type":"c", "scope_line":68, "scope_name":"__xfrm6_selector_match", }
+,{"id":"xfrm_gen_index", "file":"net/xfrm/xfrm_policy.c", "line":1082, "type":"c", "scope_line":1067, "scope_name":"xfrm_sk_policy_insert", }
+,{"id":"xfrm_gen_index", "file":"net/xfrm/xfrm_policy.c", "line":493, "type":"f", }
+,{"id":"xfrm_gen_index", "file":"net/xfrm/xfrm_policy.c", "line":578, "type":"c", "scope_line":536, "scope_name":"xfrm_policy_insert", }
+,{"id":"xfrm_genid", "file":"include/net/xfrm.h", "line":882, "type":"m", "scope_line":868, "scope_name":"struct xfrm_dst", }
+,{"id":"xfrm_get_acqseq", "file":"net/xfrm/xfrm_state.c", "line":1484, "type":"f", }
+,{"id":"xfrm_get_mode", "file":"net/xfrm/xfrm_state.c", "line":2028, "type":"c", "scope_line":2004, "scope_name":"xfrm_init_state", }
+,{"id":"xfrm_get_mode", "file":"net/xfrm/xfrm_state.c", "line":2043, "type":"c", "scope_line":2004, "scope_name":"xfrm_init_state", }
+,{"id":"xfrm_get_mode", "file":"net/xfrm/xfrm_state.c", "line":2056, "type":"c", "scope_line":2004, "scope_name":"xfrm_init_state", }
+,{"id":"xfrm_get_mode", "file":"net/xfrm/xfrm_state.c", "line":2073, "type":"c", "scope_line":2004, "scope_name":"xfrm_init_state", }
+,{"id":"xfrm_get_mode", "file":"net/xfrm/xfrm_state.c", "line":323, "type":"f", }
+,{"id":"xfrm_get_saddr", "file":"net/xfrm/xfrm_policy.c", "line":1140, "type":"f", }
+,{"id":"xfrm_get_saddr", "file":"net/xfrm/xfrm_policy.c", "line":1179, "type":"c", "scope_line":1156, "scope_name":"xfrm_tmpl_resolve_one", }
+,{"id":"xfrm_get_tos", "file":"net/xfrm/xfrm_policy.c", "line":1256, "type":"f", }
+,{"id":"xfrm_get_tos", "file":"net/xfrm/xfrm_policy.c", "line":1408, "type":"c", "scope_line":1387, "scope_name":"xfrm_bundle_create", }
+,{"id":"xfrm_get_type", "file":"net/xfrm/xfrm_state.c", "line":2065, "type":"c", "scope_line":2004, "scope_name":"xfrm_init_state", }
+,{"id":"xfrm_get_type", "file":"net/xfrm/xfrm_state.c", "line":233, "type":"f", }
+,{"id":"xfrm_hash_alloc", "file":"net/xfrm/xfrm_hash.c", "line":15, "type":"f", }
+,{"id":"xfrm_hash_alloc", "file":"net/xfrm/xfrm_policy.c", "line":2533, "type":"c", "scope_line":2519, "scope_name":"xfrm_policy_init", }
+,{"id":"xfrm_hash_alloc", "file":"net/xfrm/xfrm_policy.c", "line":2545, "type":"c", "scope_line":2519, "scope_name":"xfrm_policy_init", }
+,{"id":"xfrm_hash_alloc", "file":"net/xfrm/xfrm_policy.c", "line":387, "type":"c", "scope_line":381, "scope_name":"xfrm_bydst_resize", }
+,{"id":"xfrm_hash_alloc", "file":"net/xfrm/xfrm_policy.c", "line":412, "type":"c", "scope_line":406, "scope_name":"xfrm_byidx_resize", }
+,{"id":"xfrm_hash_alloc", "file":"net/xfrm/xfrm_state.c", "line":124, "type":"c", "scope_line":113, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_hash_alloc", "file":"net/xfrm/xfrm_state.c", "line":127, "type":"c", "scope_line":113, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_hash_alloc", "file":"net/xfrm/xfrm_state.c", "line":132, "type":"c", "scope_line":113, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_hash_alloc", "file":"net/xfrm/xfrm_state.c", "line":2093, "type":"c", "scope_line":2085, "scope_name":"xfrm_state_init", }
+,{"id":"xfrm_hash_alloc", "file":"net/xfrm/xfrm_state.c", "line":2096, "type":"c", "scope_line":2085, "scope_name":"xfrm_state_init", }
+,{"id":"xfrm_hash_alloc", "file":"net/xfrm/xfrm_state.c", "line":2099, "type":"c", "scope_line":2085, "scope_name":"xfrm_state_init", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_hash.c", "line":31, "type":"f", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_policy.c", "line":2562, "type":"c", "scope_line":2519, "scope_name":"xfrm_policy_init", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_policy.c", "line":2564, "type":"c", "scope_line":2519, "scope_name":"xfrm_policy_init", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_policy.c", "line":2597, "type":"c", "scope_line":2569, "scope_name":"xfrm_policy_fini", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_policy.c", "line":2602, "type":"c", "scope_line":2569, "scope_name":"xfrm_policy_fini", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_policy.c", "line":403, "type":"c", "scope_line":381, "scope_name":"xfrm_bydst_resize", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_policy.c", "line":428, "type":"c", "scope_line":406, "scope_name":"xfrm_byidx_resize", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_state.c", "line":129, "type":"c", "scope_line":113, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_state.c", "line":134, "type":"c", "scope_line":113, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_state.c", "line":135, "type":"c", "scope_line":113, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_state.c", "line":159, "type":"c", "scope_line":113, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_state.c", "line":160, "type":"c", "scope_line":113, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_state.c", "line":161, "type":"c", "scope_line":113, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_state.c", "line":2112, "type":"c", "scope_line":2085, "scope_name":"xfrm_state_init", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_state.c", "line":2114, "type":"c", "scope_line":2085, "scope_name":"xfrm_state_init", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_state.c", "line":2135, "type":"c", "scope_line":2119, "scope_name":"xfrm_state_fini", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_state.c", "line":2137, "type":"c", "scope_line":2119, "scope_name":"xfrm_state_fini", }
+,{"id":"xfrm_hash_free", "file":"net/xfrm/xfrm_state.c", "line":2139, "type":"c", "scope_line":2119, "scope_name":"xfrm_state_fini", }
+,{"id":"xfrm_hash_grow_check", "file":"net/xfrm/xfrm_state.c", "line":1063, "type":"c", "scope_line":994, "scope_name":"__find_acq_core", }
+,{"id":"xfrm_hash_grow_check", "file":"net/xfrm/xfrm_state.c", "line":740, "type":"f", }
+,{"id":"xfrm_hash_grow_check", "file":"net/xfrm/xfrm_state.c", "line":877, "type":"c", "scope_line":786, "scope_name":"xfrm_state_find", }
+,{"id":"xfrm_hash_grow_check", "file":"net/xfrm/xfrm_state.c", "line":959, "type":"c", "scope_line":930, "scope_name":"__xfrm_state_insert", }
+,{"id":"xfrm_hash_new_size", "file":"net/xfrm/xfrm_state.c", "line":106, "type":"f", }
+,{"id":"xfrm_hash_new_size", "file":"net/xfrm/xfrm_state.c", "line":123, "type":"c", "scope_line":113, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_hash_resize", "file":"net/xfrm/xfrm_policy.c", "line":473, "type":"f", }
+,{"id":"xfrm_hash_resize", "file":"net/xfrm/xfrm_state.c", "line":113, "type":"f", }
+,{"id":"xfrm_hash_transfer", "file":"net/xfrm/xfrm_state.c", "line":143, "type":"c", "scope_line":113, "scope_name":"xfrm_hash_resize", }
+,{"id":"xfrm_hash_transfer", "file":"net/xfrm/xfrm_state.c", "line":75, "type":"f", }
+,{"id":"xfrm_id", "file":"include/linux/xfrm.h", "line":22, "type":"s", }
+,{"id":"xfrm_id_proto_match", "file":"include/net/xfrm.h", "line":1220, "type":"f", }
+,{"id":"xfrm_id_proto_match", "file":"net/xfrm/xfrm_policy.c", "line":1928, "type":"c", "scope_line":1922, "scope_name":"xfrm_state_ok", }
+,{"id":"xfrm_id_proto_match", "file":"net/xfrm/xfrm_state.c", "line":1078, "type":"c", "scope_line":1071, "scope_name":"xfrm_state_add", }
+,{"id":"xfrm_id_proto_match", "file":"net/xfrm/xfrm_state.c", "line":1281, "type":"c", "scope_line":1277, "scope_name":"xfrm_state_update", }
+,{"id":"xfrm_id_proto_match", "file":"net/xfrm/xfrm_state.c", "line":1572, "type":"c", "scope_line":1552, "scope_name":"xfrm_state_walk", }
+,{"id":"xfrm_id_proto_match", "file":"net/xfrm/xfrm_state.c", "line":619, "type":"c", "scope_line":604, "scope_name":"xfrm_state_flush", }
+,{"id":"xfrm_idx_hash_transfer", "file":"net/xfrm/xfrm_policy.c", "line":361, "type":"f", }
+,{"id":"xfrm_idx_hash_transfer", "file":"net/xfrm/xfrm_policy.c", "line":421, "type":"c", "scope_line":406, "scope_name":"xfrm_byidx_resize", }
+,{"id":"xfrm_init", "file":"net/ipv4/route.c", "line":3356, "type":"c", "scope_line":3310, "scope_name":"ip_rt_init", }
+,{"id":"xfrm_init", "file":"net/xfrm/xfrm_policy.c", "line":2647, "type":"f", }
+,{"id":"xfrm_init_path", "file":"net/xfrm/xfrm_policy.c", "line":1348, "type":"f", }
+,{"id":"xfrm_init_path", "file":"net/xfrm/xfrm_policy.c", "line":1475, "type":"c", "scope_line":1387, "scope_name":"xfrm_bundle_create", }
+,{"id":"xfrm_init_pmtu", "file":"net/xfrm/xfrm_policy.c", "line":1476, "type":"c", "scope_line":1387, "scope_name":"xfrm_bundle_create", }
+,{"id":"xfrm_init_pmtu", "file":"net/xfrm/xfrm_policy.c", "line":2254, "type":"f", }
+,{"id":"xfrm_init_state", "file":"net/xfrm/xfrm_state.c", "line":2004, "type":"f", }
+,{"id":"xfrm_init_tempstate", "file":"net/xfrm/xfrm_state.c", "line":658, "type":"f", }
+,{"id":"xfrm_init_tempstate", "file":"net/xfrm/xfrm_state.c", "line":853, "type":"c", "scope_line":786, "scope_name":"xfrm_state_find", }
+,{"id":"xfrm_inner_extract_output", "file":"net/ipv4/xfrm4_output.c", "line":59, "type":"c", "scope_line":55, "scope_name":"xfrm4_prepare_output", }
+,{"id":"xfrm_inner_extract_output", "file":"net/ipv6/xfrm6_output.c", "line":65, "type":"c", "scope_line":61, "scope_name":"xfrm6_prepare_output", }
+,{"id":"xfrm_inner_extract_output", "file":"net/xfrm/xfrm_output.c", "line":202, "type":"f", }
+,{"id":"xfrm_input", "file":"net/ipv4/xfrm4_input.c", "line":45, "type":"c", "scope_line":40, "scope_name":"xfrm4_rcv_encap", }
+,{"id":"xfrm_input", "file":"net/ipv6/xfrm6_input.c", "line":28, "type":"c", "scope_line":24, "scope_name":"xfrm6_rcv_spi", }
+,{"id":"xfrm_input", "file":"net/xfrm/xfrm_input.c", "line":105, "type":"f", }
+,{"id":"xfrm_input", "file":"net/xfrm/xfrm_input.c", "line":271, "type":"c", "scope_line":269, "scope_name":"xfrm_input_resume", }
+,{"id":"xfrm_input_init", "file":"net/xfrm/xfrm_input.c", "line":275, "type":"f", }
+,{"id":"xfrm_input_init", "file":"net/xfrm/xfrm_policy.c", "line":2650, "type":"c", "scope_line":2647, "scope_name":"xfrm_init", }
+,{"id":"xfrm_input_resume", "file":"net/xfrm/xfrm_input.c", "line":269, "type":"f", }
+,{"id":"xfrm_input_state", "file":"include/net/xfrm.h", "line":1580, "type":"f", }
+,{"id":"xfrm_input_state", "file":"net/xfrm/xfrm_input.c", "line":120, "type":"c", "scope_line":105, "scope_name":"xfrm_input", }
+,{"id":"xfrm_ip2inner_mode", "file":"include/net/xfrm.h", "line":417, "type":"f", }
+,{"id":"xfrm_ip2inner_mode", "file":"net/xfrm/xfrm_input.c", "line":222, "type":"c", "scope_line":105, "scope_name":"xfrm_input", }
+,{"id":"xfrm_ip2inner_mode", "file":"net/xfrm/xfrm_input.c", "line":95, "type":"c", "scope_line":85, "scope_name":"xfrm_prepare_input", }
+,{"id":"xfrm_ip2inner_mode", "file":"net/xfrm/xfrm_output.c", "line":206, "type":"c", "scope_line":202, "scope_name":"xfrm_inner_extract_output", }
+,{"id":"xfrm_km_list", "file":"net/xfrm/xfrm_state.c", "line":1727, "type":"v", }
+,{"id":"xfrm_km_lock", "file":"net/xfrm/xfrm_state.c", "line":1728, "type":"v", }
+,{"id":"xfrm_kmaddress", "file":"include/net/xfrm.h", "line":508, "type":"s", }
+,{"id":"xfrm_lifetime_cfg", "file":"include/linux/xfrm.h", "line":63, "type":"s", }
+,{"id":"xfrm_lifetime_cur", "file":"include/linux/xfrm.h", "line":74, "type":"s", }
+,{"id":"xfrm_link_failure", "file":"net/xfrm/xfrm_policy.c", "line":2220, "type":"f", }
+,{"id":"xfrm_lookup", "file":"net/ipv4/icmp.c", "line":572, "type":"c", "scope_line":418, "scope_name":"icmp_send", }
+,{"id":"xfrm_lookup", "file":"net/ipv4/icmp.c", "line":611, "type":"c", "scope_line":418, "scope_name":"icmp_send", }
+,];
+xr_frag_insert('t/e7/f4f4263615a563c510d29bdd46c843b807e76b.xr', __xr_tmp);

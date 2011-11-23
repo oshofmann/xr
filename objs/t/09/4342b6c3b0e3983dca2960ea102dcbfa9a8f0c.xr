@@ -1,0 +1,125 @@
+var __xr_tmp = [
+{"id":"free_touched", "file":"mm/slab.c", "line":280, "type":"m", "scope_line":269, "scope_name":"struct kmem_list3", }
+,{"id":"free_trace_probe", "file":"kernel/trace/trace_kprobe.c", "line":1044, "type":"c", "scope_line":862, "scope_name":"create_trace_probe", }
+,{"id":"free_trace_probe", "file":"kernel/trace/trace_kprobe.c", "line":1057, "type":"c", "scope_line":1048, "scope_name":"cleanup_all_probes", }
+,{"id":"free_trace_probe", "file":"kernel/trace/trace_kprobe.c", "line":598, "type":"f", }
+,{"id":"free_trace_probe", "file":"kernel/trace/trace_kprobe.c", "line":647, "type":"c", "scope_line":635, "scope_name":"register_trace_probe", }
+,{"id":"free_trace_probe", "file":"kernel/trace/trace_kprobe.c", "line":937, "type":"c", "scope_line":862, "scope_name":"create_trace_probe", }
+,{"id":"free_transition_pgtable", "file":"arch/x86/kernel/machine_kexec_64.c", "line":138, "type":"f", }
+,{"id":"free_transition_pgtable", "file":"arch/x86/kernel/machine_kexec_64.c", "line":183, "type":"c", "scope_line":145, "scope_name":"init_transition_pgtable", }
+,{"id":"free_transition_pgtable", "file":"arch/x86/kernel/machine_kexec_64.c", "line":265, "type":"c", "scope_line":263, "scope_name":"machine_kexec_cleanup", }
+,{"id":"free_tree_refs", "file":"kernel/auditsc.c", "line":408, "type":"f", }
+,{"id":"free_tree_refs", "file":"kernel/auditsc.c", "line":909, "type":"c", "scope_line":893, "scope_name":"audit_free_context", }
+,{"id":"free_trial_cpuset", "file":"kernel/cpuset.c", "line":1274, "type":"c", "scope_line":1231, "scope_name":"update_flag", }
+,{"id":"free_trial_cpuset", "file":"kernel/cpuset.c", "line":1594, "type":"c", "scope_line":1568, "scope_name":"cpuset_write_resmask", }
+,{"id":"free_trial_cpuset", "file":"kernel/cpuset.c", "line":367, "type":"f", }
+,{"id":"free_tty_struct", "file":"drivers/char/pty.c", "line":299, "type":"c", "scope_line":288, "scope_name":"pty_install", }
+,{"id":"free_tty_struct", "file":"drivers/char/pty.c", "line":333, "type":"c", "scope_line":288, "scope_name":"pty_install", }
+,{"id":"free_tty_struct", "file":"drivers/char/pty.c", "line":563, "type":"c", "scope_line":553, "scope_name":"pty_unix98_install", }
+,{"id":"free_tty_struct", "file":"drivers/char/pty.c", "line":598, "type":"c", "scope_line":553, "scope_name":"pty_unix98_install", }
+,{"id":"free_tty_struct", "file":"drivers/char/tty_io.c", "line":1386, "type":"c", "scope_line":1356, "scope_name":"tty_init_dev", }
+,{"id":"free_tty_struct", "file":"drivers/char/tty_io.c", "line":1470, "type":"c", "scope_line":1451, "scope_name":"release_one_tty", }
+,{"id":"free_tty_struct", "file":"drivers/char/tty_io.c", "line":184, "type":"f", }
+,{"id":"free_uid", "file":"fs/eventpoll.c", "line":613, "type":"c", "scope_line":572, "scope_name":"ep_free", }
+,{"id":"free_uid", "file":"fs/eventpoll.c", "line":751, "type":"c", "scope_line":725, "scope_name":"ep_alloc", }
+,{"id":"free_uid", "file":"fs/ioprio.c", "line":150, "type":"c", "scope_line":76, "scope_name":"sys_ioprio_set", }
+,{"id":"free_uid", "file":"fs/ioprio.c", "line":247, "type":"c", "scope_line":192, "scope_name":"sys_ioprio_get", }
+,{"id":"free_uid", "file":"fs/notify/inotify/inotify_fsnotify.c", "line":201, "type":"c", "scope_line":195, "scope_name":"inotify_free_group_priv", }
+,{"id":"free_uid", "file":"fs/notify/inotify/inotify_user.c", "line":756, "type":"c", "scope_line":720, "scope_name":"sys_inotify_init1", }
+,{"id":"free_uid", "file":"ipc/mqueue.c", "line":281, "type":"c", "scope_line":244, "scope_name":"mqueue_evict_inode", }
+,{"id":"free_uid", "file":"kernel/cred.c", "line":148, "type":"c", "scope_line":121, "scope_name":"put_cred_rcu", }
+,{"id":"free_uid", "file":"kernel/perf_event.c", "line":2691, "type":"c", "scope_line":2676, "scope_name":"perf_mmap_close", }
+,{"id":"free_uid", "file":"kernel/signal.c", "line":256, "type":"c", "scope_line":231, "scope_name":"__sigqueue_alloc", }
+,{"id":"free_uid", "file":"kernel/signal.c", "line":271, "type":"c", "scope_line":266, "scope_name":"__sigqueue_free", }
+,{"id":"free_uid", "file":"kernel/sys.c", "line":200, "type":"c", "scope_line":149, "scope_name":"sys_setpriority", }
+,{"id":"free_uid", "file":"kernel/sys.c", "line":268, "type":"c", "scope_line":216, "scope_name":"sys_getpriority", }
+,{"id":"free_uid", "file":"kernel/sys.c", "line":570, "type":"c", "scope_line":560, "scope_name":"set_user", }
+,{"id":"free_uid", "file":"kernel/sys.c", "line":574, "type":"c", "scope_line":560, "scope_name":"set_user", }
+,{"id":"free_uid", "file":"kernel/user.c", "line":120, "type":"f", }
+,{"id":"free_uid", "file":"kernel/user_namespace.c", "line":73, "type":"c", "scope_line":69, "scope_name":"free_user_ns_work", }
+,{"id":"free_uid", "file":"mm/mlock.c", "line":621, "type":"c", "scope_line":616, "scope_name":"user_shm_unlock", }
+,{"id":"free_un", "file":"ipc/sem.c", "line":692, "type":"f", }
+,{"id":"free_unity_maps", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1382, "type":"c", "scope_line":1236, "scope_name":"amd_iommu_init", }
+,{"id":"free_unity_maps", "file":"arch/x86/kernel/amd_iommu_init.c", "line":991, "type":"f", }
+,{"id":"free_unmap_vmap_area", "file":"mm/vmalloc.c", "line":1349, "type":"c", "scope_line":1329, "scope_name":"remove_vm_area", }
+,{"id":"free_unmap_vmap_area", "file":"mm/vmalloc.c", "line":619, "type":"f", }
+,{"id":"free_unmap_vmap_area", "file":"mm/vmalloc.c", "line":642, "type":"c", "scope_line":636, "scope_name":"free_unmap_vmap_area_addr", }
+,{"id":"free_unmap_vmap_area_addr", "file":"mm/vmalloc.c", "line":1024, "type":"c", "scope_line":1008, "scope_name":"vm_unmap_ram", }
+,{"id":"free_unmap_vmap_area_addr", "file":"mm/vmalloc.c", "line":636, "type":"f", }
+,{"id":"free_unmap_vmap_area_noflush", "file":"mm/vmalloc.c", "line":608, "type":"f", }
+,{"id":"free_unmap_vmap_area_noflush", "file":"mm/vmalloc.c", "line":622, "type":"c", "scope_line":619, "scope_name":"free_unmap_vmap_area", }
+,{"id":"free_unmap_vmap_area_noflush", "file":"mm/vmalloc.c", "line":792, "type":"c", "scope_line":781, "scope_name":"free_vmap_block", }
+,{"id":"free_unnecessary_pages", "file":"kernel/power/snapshot.c", "line":1180, "type":"f", }
+,{"id":"free_unnecessary_pages", "file":"kernel/power/snapshot.c", "line":1399, "type":"c", "scope_line":1274, "scope_name":"hibernate_preallocate_memory", }
+,{"id":"free_unused_bufs", "file":"drivers/net/virtio_net.c", "line":1020, "type":"f", }
+,{"id":"free_unused_bufs", "file":"drivers/net/virtio_net.c", "line":1054, "type":"c", "scope_line":1042, "scope_name":"virtnet_remove", }
+,{"id":"free_user", "file":"kernel/user.c", "line":129, "type":"c", "scope_line":120, "scope_name":"free_uid", }
+,{"id":"free_user", "file":"kernel/user.c", "line":93, "type":"f", }
+,{"id":"free_user_ns", "file":"kernel/user_namespace.c", "line":77, "type":"f", }
+,{"id":"free_user_ns_work", "file":"kernel/user_namespace.c", "line":69, "type":"f", }
+,{"id":"free_uts_ns", "file":"kernel/utsname.c", "line":69, "type":"f", }
+,{"id":"free_vfsmnt", "file":"fs/namespace.c", "line":417, "type":"f", }
+,{"id":"free_vfsmnt", "file":"fs/namespace.c", "line":629, "type":"c", "scope_line":580, "scope_name":"clone_mnt", }
+,{"id":"free_vfsmnt", "file":"fs/namespace.c", "line":649, "type":"c", "scope_line":633, "scope_name":"__mntput", }
+,{"id":"free_vfsmnt", "file":"fs/super.c", "line":977, "type":"c", "scope_line":917, "scope_name":"vfs_kern_mount", }
+,{"id":"free_vm_area", "file":"arch/x86/mm/ioremap.c", "line":175, "type":"c", "scope_line":62, "scope_name":"__ioremap_caller", }
+,{"id":"free_vm_area", "file":"drivers/xen/xenbus/xenbus_client.c", "line":454, "type":"c", "scope_line":433, "scope_name":"xenbus_map_ring_valloc", }
+,{"id":"free_vm_area", "file":"drivers/xen/xenbus/xenbus_client.c", "line":553, "type":"c", "scope_line":521, "scope_name":"xenbus_unmap_ring_vfree", }
+,{"id":"free_vm_area", "file":"mm/vmalloc.c", "line":2038, "type":"c", "scope_line":2023, "scope_name":"alloc_vm_area", }
+,{"id":"free_vm_area", "file":"mm/vmalloc.c", "line":2050, "type":"f", }
+,{"id":"free_vm_area", "file":"mm/vmalloc.c", "line":2336, "type":"c", "scope_line":2331, "scope_name":"pcpu_free_vm_areas", }
+,{"id":"free_vmap_area", "file":"mm/vmalloc.c", "line":450, "type":"f", }
+,{"id":"free_vmap_area", "file":"mm/vmalloc.c", "line":745, "type":"c", "scope_line":719, "scope_name":"new_vmap_block", }
+,{"id":"free_vmap_block", "file":"mm/vmalloc.c", "line":781, "type":"f", }
+,{"id":"free_vmap_block", "file":"mm/vmalloc.c", "line":827, "type":"c", "scope_line":796, "scope_name":"purge_fragmented_blocks", }
+,{"id":"free_vmap_block", "file":"mm/vmalloc.c", "line":937, "type":"c", "scope_line":908, "scope_name":"vb_free", }
+,{"id":"free_work", "file":"include/linux/netdevice.h", "line":542, "type":"m", "scope_line":539, "scope_name":"struct rps_dev_flow_table", }
+,{"id":"free_write_pipe", "file":"fs/exec.c", "line":1831, "type":"c", "scope_line":1818, "scope_name":"umh_pipe_setup", }
+,{"id":"free_write_pipe", "file":"fs/pipe.c", "line":1031, "type":"f", }
+,{"id":"free_write_pipe", "file":"fs/pipe.c", "line":1093, "type":"c", "scope_line":1052, "scope_name":"do_pipe_flags", }
+,{"id":"freeary", "file":"ipc/sem.c", "line":1062, "type":"c", "scope_line":1037, "scope_name":"semctl_down", }
+,{"id":"freeary", "file":"ipc/sem.c", "line":702, "type":"f", }
+,{"id":"freebind", "file":"include/net/inet_sock.h", "line":136, "type":"m", "scope_line":112, "scope_name":"struct inet_sock", }
+,{"id":"freed", "file":"include/trace/events/jbd2.h", "line":202, "type":"m", "scope_line":202, "scope_name":"struct ftrace_raw_jbd2_cleanup_journal_tail", }
+,{"id":"freed_blocks", "file":"include/trace/events/ext4.h", "line":919, "type":"m", "scope_line":919, "scope_name":"struct ftrace_raw_ext4_da_release_space", }
+,{"id":"freed_request", "file":"block/blk-core.c", "line":1123, "type":"c", "scope_line":1099, "scope_name":"__blk_put_request", }
+,{"id":"freed_request", "file":"block/blk-core.c", "line":728, "type":"f", }
+,{"id":"freed_request", "file":"block/blk-core.c", "line":816, "type":"c", "scope_line":747, "scope_name":"get_request", }
+,{"id":"freehigh", "file":"include/linux/kernel.h", "line":748, "type":"m", "scope_line":736, "scope_name":"struct sysinfo", }
+,{"id":"freehigh", "file":"kernel/compat.c", "line":1077, "type":"m", "scope_line":1065, "scope_name":"struct compat_sysinfo", }
+,{"id":"freeing_mark", "file":"include/linux/fsnotify_backend.h", "line":103, "type":"m", "scope_line":93, "scope_name":"struct fsnotify_ops", }
+,{"id":"freelist", "file":"include/linux/ftrace.h", "line":160, "type":"m", "scope_line":157, "scope_name":"struct dyn_ftrace", }
+,{"id":"freelist", "file":"include/linux/mm_types.h", "line":80, "type":"m", "scope_line":34, "scope_name":"struct page", }
+,{"id":"freepages_count", "file":"include/linux/taskstats.h", "line":164, "type":"m", "scope_line":40, "scope_name":"struct taskstats", }
+,{"id":"freepages_delay_total", "file":"include/linux/taskstats.h", "line":165, "type":"m", "scope_line":40, "scope_name":"struct taskstats", }
+,{"id":"freeque", "file":"ipc/msg.c", "line":279, "type":"f", }
+,{"id":"freeque", "file":"ipc/msg.c", "line":437, "type":"c", "scope_line":411, "scope_name":"msgctl_down", }
+,{"id":"freeram", "file":"include/linux/kernel.h", "line":740, "type":"m", "scope_line":736, "scope_name":"struct sysinfo", }
+,{"id":"freeram", "file":"kernel/compat.c", "line":1069, "type":"m", "scope_line":1065, "scope_name":"struct compat_sysinfo", }
+,{"id":"frees", "file":"security/selinux/include/avc.h", "line":49, "type":"m", "scope_line":43, "scope_name":"struct avc_cache_stats", }
+,{"id":"freeswap", "file":"include/linux/kernel.h", "line":744, "type":"m", "scope_line":736, "scope_name":"struct sysinfo", }
+,{"id":"freeswap", "file":"kernel/compat.c", "line":1073, "type":"m", "scope_line":1065, "scope_name":"struct compat_sysinfo", }
+,{"id":"freeze", "file":"include/linux/libata.h", "line":815, "type":"m", "scope_line":793, "scope_name":"struct ata_port_operations", }
+,{"id":"freeze", "file":"include/linux/pm.h", "line":203, "type":"m", "scope_line":198, "scope_name":"struct dev_pm_ops", }
+,{"id":"freeze_bdev", "file":"drivers/md/dm.c", "line":2596, "type":"c", "scope_line":2590, "scope_name":"lock_fs", }
+,{"id":"freeze_bdev", "file":"fs/block_dev.c", "line":227, "type":"f", }
+,{"id":"freeze_fs", "file":"include/linux/fs.h", "line":1571, "type":"m", "scope_line":1560, "scope_name":"struct super_operations", }
+,{"id":"freeze_noirq", "file":"include/linux/pm.h", "line":209, "type":"m", "scope_line":198, "scope_name":"struct dev_pm_ops", }
+,{"id":"freeze_processes", "file":"kernel/kexec.c", "line":1509, "type":"c", "scope_line":1494, "scope_name":"kernel_kexec", }
+,{"id":"freeze_processes", "file":"kernel/power/hibernate.c", "line":582, "type":"c", "scope_line":578, "scope_name":"prepare_processes", }
+,{"id":"freeze_processes", "file":"kernel/power/power.h", "line":219, "type":"c", "scope_line":217, "scope_name":"suspend_freeze_processes", }
+,{"id":"freeze_processes", "file":"kernel/power/process.c", "line":127, "type":"f", }
+,{"id":"freeze_processes", "file":"kernel/power/user.c", "line":254, "type":"c", "scope_line":220, "scope_name":"snapshot_ioctl", }
+,{"id":"freeze_super", "file":"fs/block_dev.c", "line":248, "type":"c", "scope_line":227, "scope_name":"freeze_bdev", }
+,{"id":"freeze_super", "file":"fs/ioctl.c", "line":519, "type":"c", "scope_line":507, "scope_name":"ioctl_fsfreeze", }
+,{"id":"freeze_super", "file":"fs/super.c", "line":992, "type":"f", }
+,{"id":"freeze_task", "file":"kernel/cgroup_freezer.c", "line":232, "type":"c", "scope_line":205, "scope_name":"freezer_fork", }
+,{"id":"freeze_task", "file":"kernel/cgroup_freezer.c", "line":302, "type":"c", "scope_line":293, "scope_name":"try_to_freeze_cgroup", }
+,{"id":"freeze_task", "file":"kernel/freezer.c", "line":88, "type":"f", }
+,{"id":"freeze_task", "file":"kernel/power/process.c", "line":58, "type":"c", "scope_line":34, "scope_name":"try_to_freeze_tasks", }
+,{"id":"freeze_workqueues_begin", "file":"kernel/power/process.c", "line":49, "type":"c", "scope_line":34, "scope_name":"try_to_freeze_tasks", }
+,{"id":"freeze_workqueues_begin", "file":"kernel/workqueue.c", "line":3434, "type":"f", }
+,{"id":"freeze_workqueues_busy", "file":"kernel/power/process.c", "line":74, "type":"c", "scope_line":34, "scope_name":"try_to_freeze_tasks", }
+,{"id":"freeze_workqueues_busy", "file":"kernel/workqueue.c", "line":3478, "type":"f", }
+,];
+xr_frag_insert('t/09/4342b6c3b0e3983dca2960ea102dcbfa9a8f0c.xr', __xr_tmp);

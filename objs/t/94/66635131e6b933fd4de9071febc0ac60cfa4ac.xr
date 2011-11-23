@@ -1,0 +1,192 @@
+var __xr_tmp = [
+{"id":"kzalloc", "file":"security/tomoyo/common.c", "line":1550, "type":"c", "scope_line":1506, "scope_name":"tomoyo_supervisor", }
+,{"id":"kzalloc", "file":"security/tomoyo/common.c", "line":1681, "type":"c", "scope_line":1654, "scope_name":"tomoyo_read_query", }
+,{"id":"kzalloc", "file":"security/tomoyo/common.c", "line":1791, "type":"c", "scope_line":1789, "scope_name":"tomoyo_open_control", }
+,{"id":"kzalloc", "file":"security/tomoyo/common.c", "line":1860, "type":"c", "scope_line":1789, "scope_name":"tomoyo_open_control", }
+,{"id":"kzalloc", "file":"security/tomoyo/common.c", "line":1874, "type":"c", "scope_line":1789, "scope_name":"tomoyo_open_control", }
+,{"id":"kzalloc", "file":"security/tomoyo/common.c", "line":266, "type":"c", "scope_line":257, "scope_name":"tomoyo_assign_profile", }
+,{"id":"kzalloc", "file":"security/tomoyo/domain.c", "line":378, "type":"c", "scope_line":365, "scope_name":"tomoyo_assign_domain", }
+,{"id":"kzalloc", "file":"security/tomoyo/domain.c", "line":417, "type":"c", "scope_line":414, "scope_name":"tomoyo_find_next_domain", }
+,{"id":"kzalloc", "file":"security/tomoyo/gc.c", "line":25, "type":"c", "scope_line":23, "scope_name":"tomoyo_add_to_gc", }
+,{"id":"kzalloc", "file":"security/tomoyo/memory.c", "line":172, "type":"c", "scope_line":151, "scope_name":"tomoyo_get_name", }
+,{"id":"kzalloc", "file":"security/tomoyo/memory.c", "line":72, "type":"c", "scope_line":70, "scope_name":"tomoyo_commit_ok", }
+,{"id":"kzalloc", "file":"security/tomoyo/realpath.c", "line":48, "type":"c", "scope_line":28, "scope_name":"tomoyo_encode", }
+,{"id":"kzalloc_node", "file":"arch/x86/kernel/apic/io_apic.c", "line":138, "type":"c", "scope_line":134, "scope_name":"get_one_free_irq_2_pin", }
+,{"id":"kzalloc_node", "file":"arch/x86/kernel/apic/io_apic.c", "line":202, "type":"c", "scope_line":198, "scope_name":"get_one_free_irq_cfg", }
+,{"id":"kzalloc_node", "file":"block/genhd.c", "line":987, "type":"c", "scope_line":970, "scope_name":"disk_expand_part_tbl", }
+,{"id":"kzalloc_node", "file":"drivers/ide/ide-probe.c", "line":1255, "type":"c", "scope_line":1248, "scope_name":"ide_port_alloc_devices", }
+,{"id":"kzalloc_node", "file":"drivers/ide/ide-probe.c", "line":1267, "type":"c", "scope_line":1248, "scope_name":"ide_port_alloc_devices", }
+,{"id":"kzalloc_node", "file":"drivers/ide/ide-probe.c", "line":1288, "type":"c", "scope_line":1280, "scope_name":"ide_host_alloc", }
+,{"id":"kzalloc_node", "file":"drivers/ide/ide-probe.c", "line":1299, "type":"c", "scope_line":1280, "scope_name":"ide_host_alloc", }
+,{"id":"kzalloc_node", "file":"include/linux/slab.h", "line":332, "type":"f", }
+,{"id":"kzalloc_node", "file":"kernel/irq/handle.c", "line":183, "type":"c", "scope_line":165, "scope_name":"early_irq_init", }
+,{"id":"kzalloc_node", "file":"kernel/irq/handle.c", "line":223, "type":"c", "scope_line":201, "scope_name":"irq_to_desc_alloc_node", }
+,{"id":"kzalloc_node", "file":"kernel/irq/handle.c", "line":90, "type":"c", "scope_line":86, "scope_name":"init_kstat_irqs", }
+,{"id":"kzalloc_node", "file":"kernel/irq/numa_migrate.c", "line":79, "type":"c", "scope_line":62, "scope_name":"__real_move_irq_desc", }
+,{"id":"kzalloc_node", "file":"kernel/sched.c", "line":8066, "type":"c", "scope_line":8046, "scope_name":"alloc_fair_sched_group", }
+,{"id":"kzalloc_node", "file":"kernel/sched.c", "line":8071, "type":"c", "scope_line":8046, "scope_name":"alloc_fair_sched_group", }
+,{"id":"kzalloc_node", "file":"kernel/sched.c", "line":8156, "type":"c", "scope_line":8135, "scope_name":"alloc_rt_sched_group", }
+,{"id":"kzalloc_node", "file":"kernel/sched.c", "line":8161, "type":"c", "scope_line":8135, "scope_name":"alloc_rt_sched_group", }
+,{"id":"kzalloc_node", "file":"kernel/trace/ring_buffer.c", "line":1018, "type":"c", "scope_line":1010, "scope_name":"rb_allocate_cpu_buffer", }
+,{"id":"kzalloc_node", "file":"kernel/trace/ring_buffer.c", "line":1029, "type":"c", "scope_line":1010, "scope_name":"rb_allocate_cpu_buffer", }
+,{"id":"kzalloc_node", "file":"kernel/trace/ring_buffer.c", "line":1345, "type":"c", "scope_line":1278, "scope_name":"ring_buffer_resize", }
+,{"id":"kzalloc_node", "file":"kernel/trace/ring_buffer.c", "line":974, "type":"c", "scope_line":963, "scope_name":"rb_allocate_pages", }
+,{"id":"kzalloc_node", "file":"mm/bootmem.c", "line":839, "type":"c", "scope_line":833, "scope_name":"__alloc_bootmem_node", }
+,{"id":"kzalloc_node", "file":"mm/bootmem.c", "line":863, "type":"c", "scope_line":856, "scope_name":"__alloc_bootmem_node_high", }
+,{"id":"kzalloc_node", "file":"mm/bootmem.c", "line":930, "type":"c", "scope_line":924, "scope_name":"__alloc_bootmem_node_nopanic", }
+,{"id":"kzalloc_node", "file":"mm/bootmem.c", "line":992, "type":"c", "scope_line":986, "scope_name":"__alloc_bootmem_low_node", }
+,{"id":"kzalloc_node", "file":"mm/memcontrol.c", "line":4118, "type":"c", "scope_line":4108, "scope_name":"mem_cgroup_soft_limit_tree_init", }
+,{"id":"kzalloc_node", "file":"mm/slab.c", "line":961, "type":"c", "scope_line":953, "scope_name":"alloc_alien_cache", }
+,{"id":"kzalloc_node", "file":"mm/vmalloc.c", "line":1246, "type":"c", "scope_line":1223, "scope_name":"__get_vm_area_node", }
+,{"id":"kzfree", "file":"crypto/ahash.c", "line":163, "type":"c", "scope_line":147, "scope_name":"ahash_setkey_unaligned", }
+,{"id":"kzfree", "file":"crypto/ahash.c", "line":202, "type":"c", "scope_line":191, "scope_name":"ahash_op_unaligned_finish", }
+,{"id":"kzfree", "file":"crypto/ahash.c", "line":288, "type":"c", "scope_line":277, "scope_name":"ahash_def_finup_finish2", }
+,{"id":"kzfree", "file":"crypto/api.c", "line":587, "type":"c", "scope_line":574, "scope_name":"crypto_destroy_tfm", }
+,{"id":"kzfree", "file":"crypto/shash.c", "line":442, "type":"c", "scope_line":436, "scope_name":"crypto_exit_shash_ops_compat", }
+,{"id":"kzfree", "file":"crypto/shash.c", "line":48, "type":"c", "scope_line":31, "scope_name":"shash_setkey_unaligned", }
+,{"id":"kzfree", "file":"include/crypto/hash.h", "line":230, "type":"c", "scope_line":228, "scope_name":"ahash_request_free", }
+,{"id":"kzfree", "file":"include/linux/crypto.h", "line":701, "type":"c", "scope_line":699, "scope_name":"ablkcipher_request_free", }
+,{"id":"kzfree", "file":"include/linux/crypto.h", "line":832, "type":"c", "scope_line":830, "scope_name":"aead_request_free", }
+,{"id":"kzfree", "file":"mm/util.c", "line":176, "type":"f", }
+,{"id":"l", "file":"arch/x86/include/asm/desc_defs.h", "line":32, "type":"m", "scope_line":22, "scope_name":"struct desc_struct", }
+,{"id":"l", "file":"arch/x86/include/asm/msr.h", "line":23, "type":"m", "scope_line":20, "scope_name":"struct msr", }
+,{"id":"l0s", "file":"drivers/pci/pcie/aspm.c", "line":37, "type":"m", "scope_line":36, "scope_name":"struct aspm_latency", }
+,{"id":"l1", "file":"drivers/pci/pcie/aspm.c", "line":38, "type":"m", "scope_line":36, "scope_name":"struct aspm_latency", }
+,{"id":"l1_cache", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":184, "type":"u", }
+,{"id":"l2", "file":"include/linux/atmsap.h", "line":112, "type":"m", "scope_line":103, "scope_name":"struct atm_blli", }
+,{"id":"l2_cache", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":194, "type":"u", }
+,{"id":"l2_proto", "file":"include/linux/atmsap.h", "line":104, "type":"m", "scope_line":103, "scope_name":"struct atm_blli", }
+,{"id":"l3", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":163, "type":"m", "scope_line":158, "scope_name":"struct _cpuid4_info", }
+,{"id":"l3", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":173, "type":"m", "scope_line":168, "scope_name":"struct _cpuid4_info_regs", }
+,{"id":"l3", "file":"include/linux/atmsap.h", "line":135, "type":"m", "scope_line":103, "scope_name":"struct atm_blli", }
+,{"id":"l3_cache", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":204, "type":"u", }
+,{"id":"l3_caches", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":314, "type":"v", }
+,{"id":"l3_proto", "file":"include/linux/atmsap.h", "line":113, "type":"m", "scope_line":103, "scope_name":"struct atm_blli", }
+,{"id":"l4_4_bytes", "file":"include/linux/ethtool.h", "line":354, "type":"m", "scope_line":351, "scope_name":"struct ethtool_usrip4_spec", }
+,{"id":"l_addr_delete", "file":"include/linux/atmlec.h", "line":35, "type":"e", "scope_line":31, }
+,{"id":"l_arp_update", "file":"include/linux/atmlec.h", "line":38, "type":"e", "scope_line":31, }
+,{"id":"l_arp_xmt", "file":"include/linux/atmlec.h", "line":43, "type":"e", "scope_line":31, }
+,{"id":"l_associate_req", "file":"include/linux/atmlec.h", "line":45, "type":"e", "scope_line":31, }
+,{"id":"l_config", "file":"include/linux/atmlec.h", "line":40, "type":"e", "scope_line":31, }
+,{"id":"l_del_mac_addr", "file":"include/linux/atmlec.h", "line":33, "type":"e", "scope_line":31, }
+,{"id":"l_flush_complete", "file":"include/linux/atmlec.h", "line":37, "type":"e", "scope_line":31, }
+,{"id":"l_flush_tran_id", "file":"include/linux/atmlec.h", "line":41, "type":"e", "scope_line":31, }
+,{"id":"l_i_blocks_high", "file":"fs/ext4/ext4.h", "line":592, "type":"m", "scope_line":562, "scope_name":"struct ext4_inode", }
+,{"id":"l_i_file_acl_high", "file":"fs/ext4/ext4.h", "line":593, "type":"m", "scope_line":562, "scope_name":"struct ext4_inode", }
+,{"id":"l_i_frag", "file":"include/linux/ext2_fs.h", "line":272, "type":"m", "scope_line":242, "scope_name":"struct ext2_inode", }
+,{"id":"l_i_frag", "file":"include/linux/ext3_fs.h", "line":310, "type":"m", "scope_line":280, "scope_name":"struct ext3_inode", }
+,{"id":"l_i_fsize", "file":"include/linux/ext2_fs.h", "line":273, "type":"m", "scope_line":242, "scope_name":"struct ext2_inode", }
+,{"id":"l_i_fsize", "file":"include/linux/ext3_fs.h", "line":311, "type":"m", "scope_line":280, "scope_name":"struct ext3_inode", }
+,{"id":"l_i_gid_high", "file":"fs/ext4/ext4.h", "line":595, "type":"m", "scope_line":562, "scope_name":"struct ext4_inode", }
+,{"id":"l_i_gid_high", "file":"include/linux/ext2_fs.h", "line":276, "type":"m", "scope_line":242, "scope_name":"struct ext2_inode", }
+,{"id":"l_i_gid_high", "file":"include/linux/ext3_fs.h", "line":314, "type":"m", "scope_line":280, "scope_name":"struct ext3_inode", }
+,{"id":"l_i_reserved1", "file":"include/linux/ext2_fs.h", "line":256, "type":"m", "scope_line":242, "scope_name":"struct ext2_inode", }
+,{"id":"l_i_reserved1", "file":"include/linux/ext3_fs.h", "line":294, "type":"m", "scope_line":280, "scope_name":"struct ext3_inode", }
+,{"id":"l_i_reserved2", "file":"fs/ext4/ext4.h", "line":596, "type":"m", "scope_line":562, "scope_name":"struct ext4_inode", }
+,{"id":"l_i_reserved2", "file":"include/linux/ext2_fs.h", "line":277, "type":"m", "scope_line":242, "scope_name":"struct ext2_inode", }
+,{"id":"l_i_reserved2", "file":"include/linux/ext3_fs.h", "line":315, "type":"m", "scope_line":280, "scope_name":"struct ext3_inode", }
+,{"id":"l_i_uid_high", "file":"fs/ext4/ext4.h", "line":594, "type":"m", "scope_line":562, "scope_name":"struct ext4_inode", }
+,{"id":"l_i_uid_high", "file":"include/linux/ext2_fs.h", "line":275, "type":"m", "scope_line":242, "scope_name":"struct ext2_inode", }
+,{"id":"l_i_uid_high", "file":"include/linux/ext3_fs.h", "line":313, "type":"m", "scope_line":280, "scope_name":"struct ext3_inode", }
+,{"id":"l_i_version", "file":"fs/ext4/ext4.h", "line":576, "type":"m", "scope_line":562, "scope_name":"struct ext4_inode", }
+,{"id":"l_len", "file":"arch/x86/include/asm/compat.h", "line":80, "type":"m", "scope_line":76, "scope_name":"struct compat_flock", }
+,{"id":"l_len", "file":"arch/x86/include/asm/compat.h", "line":96, "type":"m", "scope_line":92, "scope_name":"struct compat_flock64", }
+,{"id":"l_len", "file":"fs/compat_ioctl.c", "line":860, "type":"m", "scope_line":855, "scope_name":"struct space_resv_32", }
+,{"id":"l_len", "file":"include/asm-generic/fcntl.h", "line":172, "type":"m", "scope_line":168, "scope_name":"struct flock", }
+,{"id":"l_len", "file":"include/linux/falloc.h", "line":16, "type":"m", "scope_line":12, "scope_name":"struct space_resv", }
+,{"id":"l_linger", "file":"include/linux/socket.h", "line":53, "type":"m", "scope_line":51, "scope_name":"struct linger", }
+,{"id":"l_narp_req", "file":"include/linux/atmlec.h", "line":39, "type":"e", "scope_line":31, }
+,{"id":"l_onoff", "file":"include/linux/socket.h", "line":52, "type":"m", "scope_line":51, "scope_name":"struct linger", }
+,{"id":"l_pad", "file":"fs/compat_ioctl.c", "line":863, "type":"m", "scope_line":855, "scope_name":"struct space_resv_32", }
+,{"id":"l_pad", "file":"include/linux/falloc.h", "line":19, "type":"m", "scope_line":12, "scope_name":"struct space_resv", }
+,{"id":"l_pid", "file":"arch/x86/include/asm/compat.h", "line":81, "type":"m", "scope_line":76, "scope_name":"struct compat_flock", }
+,{"id":"l_pid", "file":"arch/x86/include/asm/compat.h", "line":97, "type":"m", "scope_line":92, "scope_name":"struct compat_flock64", }
+,{"id":"l_pid", "file":"fs/compat_ioctl.c", "line":862, "type":"m", "scope_line":855, "scope_name":"struct space_resv_32", }
+,{"id":"l_pid", "file":"include/asm-generic/fcntl.h", "line":173, "type":"m", "scope_line":168, "scope_name":"struct flock", }
+,{"id":"l_pid", "file":"include/linux/falloc.h", "line":18, "type":"m", "scope_line":12, "scope_name":"struct space_resv", }
+,{"id":"l_rdesc_arp_xmt", "file":"include/linux/atmlec.h", "line":44, "type":"e", "scope_line":31, }
+,{"id":"l_set_lecid", "file":"include/linux/atmlec.h", "line":42, "type":"e", "scope_line":31, }
+,{"id":"l_set_mac_addr", "file":"include/linux/atmlec.h", "line":32, "type":"e", "scope_line":31, }
+,{"id":"l_should_bridge", "file":"include/linux/atmlec.h", "line":46, "type":"e", "scope_line":31, }
+,{"id":"l_start", "file":"arch/x86/include/asm/compat.h", "line":79, "type":"m", "scope_line":76, "scope_name":"struct compat_flock", }
+,{"id":"l_start", "file":"arch/x86/include/asm/compat.h", "line":95, "type":"m", "scope_line":92, "scope_name":"struct compat_flock64", }
+,{"id":"l_start", "file":"fs/compat_ioctl.c", "line":858, "type":"m", "scope_line":855, "scope_name":"struct space_resv_32", }
+,{"id":"l_start", "file":"include/asm-generic/fcntl.h", "line":171, "type":"m", "scope_line":168, "scope_name":"struct flock", }
+,{"id":"l_start", "file":"include/linux/falloc.h", "line":15, "type":"m", "scope_line":12, "scope_name":"struct space_resv", }
+,{"id":"l_svc_setup", "file":"include/linux/atmlec.h", "line":34, "type":"e", "scope_line":31, }
+,{"id":"l_sysid", "file":"fs/compat_ioctl.c", "line":861, "type":"m", "scope_line":855, "scope_name":"struct space_resv_32", }
+,{"id":"l_sysid", "file":"include/linux/falloc.h", "line":17, "type":"m", "scope_line":12, "scope_name":"struct space_resv", }
+,{"id":"l_threshold", "file":"include/linux/ip_vs.h", "line":125, "type":"m", "scope_line":114, "scope_name":"struct ip_vs_dest_user", }
+,{"id":"l_threshold", "file":"include/linux/ip_vs.h", "line":189, "type":"m", "scope_line":182, "scope_name":"struct ip_vs_dest_entry", }
+,{"id":"l_threshold", "file":"include/net/ip_vs.h", "line":446, "type":"m", "scope_line":435, "scope_name":"struct ip_vs_dest_user_kern", }
+,{"id":"l_threshold", "file":"include/net/ip_vs.h", "line":504, "type":"m", "scope_line":485, "scope_name":"struct ip_vs_dest", }
+,{"id":"l_topology_change", "file":"include/linux/atmlec.h", "line":36, "type":"e", "scope_line":31, }
+,{"id":"l_type", "file":"arch/x86/include/asm/compat.h", "line":77, "type":"m", "scope_line":76, "scope_name":"struct compat_flock", }
+,{"id":"l_type", "file":"arch/x86/include/asm/compat.h", "line":93, "type":"m", "scope_line":92, "scope_name":"struct compat_flock64", }
+,{"id":"l_type", "file":"fs/compat_ioctl.c", "line":856, "type":"m", "scope_line":855, "scope_name":"struct space_resv_32", }
+,{"id":"l_type", "file":"include/asm-generic/fcntl.h", "line":169, "type":"m", "scope_line":168, "scope_name":"struct flock", }
+,{"id":"l_type", "file":"include/linux/falloc.h", "line":13, "type":"m", "scope_line":12, "scope_name":"struct space_resv", }
+,{"id":"l_whence", "file":"arch/x86/include/asm/compat.h", "line":78, "type":"m", "scope_line":76, "scope_name":"struct compat_flock", }
+,{"id":"l_whence", "file":"arch/x86/include/asm/compat.h", "line":94, "type":"m", "scope_line":92, "scope_name":"struct compat_flock64", }
+,{"id":"l_whence", "file":"fs/compat_ioctl.c", "line":857, "type":"m", "scope_line":855, "scope_name":"struct space_resv_32", }
+,{"id":"l_whence", "file":"include/asm-generic/fcntl.h", "line":170, "type":"m", "scope_line":168, "scope_name":"struct flock", }
+,{"id":"l_whence", "file":"include/linux/falloc.h", "line":14, "type":"m", "scope_line":12, "scope_name":"struct space_resv", }
+,{"id":"la_seq_args", "file":"include/linux/nfs_xdr.h", "line":180, "type":"m", "scope_line":179, "scope_name":"struct nfs4_get_lease_time_args", }
+,{"id":"label", "file":"drivers/gpio/gpiolib.c", "line":66, "type":"m", "scope_line":47, "scope_name":"struct gpio_desc", }
+,{"id":"label", "file":"include/asm-generic/gpio.h", "line":192, "type":"m", "scope_line":189, "scope_name":"struct gpio", }
+,{"id":"label", "file":"include/asm-generic/gpio.h", "line":91, "type":"m", "scope_line":90, "scope_name":"struct gpio_chip", }
+,{"id":"label", "file":"include/net/ipv6.h", "line":196, "type":"m", "scope_line":194, "scope_name":"struct ip6_flowlabel", }
+,{"id":"label", "file":"net/ipv6/addrconf.c", "line":989, "type":"m", "scope_line":985, "scope_name":"struct ipv6_saddr_dst", }
+,{"id":"label", "file":"net/ipv6/addrlabel.c", "line":40, "type":"m", "scope_line":31, "scope_name":"struct ip6addrlbl_entry", }
+,{"id":"label", "file":"net/ipv6/addrlabel.c", "line":82, "type":"m", "scope_line":78, "scope_name":"struct ip6addrlbl_init_table", }
+,{"id":"labeling_behaviors", "file":"security/selinux/hooks.c", "line":285, "type":"v", }
+,{"id":"ladder_device", "file":"drivers/cpuidle/governors/ladder.c", "line":40, "type":"s", }
+,{"id":"ladder_device_state", "file":"drivers/cpuidle/governors/ladder.c", "line":27, "type":"s", }
+,{"id":"ladder_devices", "file":"drivers/cpuidle/governors/ladder.c", "line":45, "type":"v", }
+,{"id":"ladder_do_selection", "file":"drivers/cpuidle/governors/ladder.c", "line":106, "type":"c", "scope_line":65, "scope_name":"ladder_select_state", }
+,{"id":"ladder_do_selection", "file":"drivers/cpuidle/governors/ladder.c", "line":115, "type":"c", "scope_line":65, "scope_name":"ladder_select_state", }
+,{"id":"ladder_do_selection", "file":"drivers/cpuidle/governors/ladder.c", "line":53, "type":"f", }
+,{"id":"ladder_do_selection", "file":"drivers/cpuidle/governors/ladder.c", "line":74, "type":"c", "scope_line":65, "scope_name":"ladder_select_state", }
+,{"id":"ladder_do_selection", "file":"drivers/cpuidle/governors/ladder.c", "line":92, "type":"c", "scope_line":65, "scope_name":"ladder_select_state", }
+,{"id":"ladder_enable_device", "file":"drivers/cpuidle/governors/ladder.c", "line":128, "type":"f", }
+,{"id":"ladder_governor", "file":"drivers/cpuidle/governors/ladder.c", "line":156, "type":"v", }
+,{"id":"ladder_select_state", "file":"drivers/cpuidle/governors/ladder.c", "line":65, "type":"f", }
+,{"id":"lan8187_driver", "file":"drivers/net/phy/smsc.c", "line":107, "type":"v", }
+,{"id":"lan83c185_driver", "file":"drivers/net/phy/smsc.c", "line":83, "type":"v", }
+,{"id":"lan8700_driver", "file":"drivers/net/phy/smsc.c", "line":131, "type":"v", }
+,{"id":"lan8710_driver", "file":"drivers/net/phy/smsc.c", "line":179, "type":"v", }
+,{"id":"lan911x_config_init", "file":"drivers/net/phy/smsc.c", "line":78, "type":"f", }
+,{"id":"lan911x_int_driver", "file":"drivers/net/phy/smsc.c", "line":155, "type":"v", }
+,{"id":"lane_version", "file":"include/linux/atmlec.h", "line":60, "type":"m", "scope_line":51, "scope_name":"struct atmlec_config_msg", }
+,{"id":"lap", "file":"include/net/bluetooth/hci.h", "line":1033, "type":"m", "scope_line":1030, "scope_name":"struct hci_inquiry_req", }
+,{"id":"lap", "file":"include/net/bluetooth/hci.h", "line":230, "type":"m", "scope_line":229, "scope_name":"struct hci_cp_inquiry", }
+,{"id":"lapic", "file":"arch/x86/include/asm/mpspec_def.h", "line":53, "type":"m", "scope_line":43, "scope_name":"struct mpc_table", }
+,{"id":"lapic_adjust_nmi_hz", "file":"arch/x86/kernel/apic/nmi.c", "line":174, "type":"c", "scope_line":131, "scope_name":"check_nmi_watchdog", }
+,{"id":"lapic_adjust_nmi_hz", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":775, "type":"f", }
+,{"id":"lapic_cal_handler", "file":"arch/x86/kernel/apic/apic.c", "line":514, "type":"f", }
+,{"id":"lapic_cal_j1", "file":"arch/x86/kernel/apic/apic.c", "line":509, "type":"v", }
+,{"id":"lapic_cal_j2", "file":"arch/x86/kernel/apic/apic.c", "line":509, "type":"v", }
+,{"id":"lapic_cal_loops", "file":"arch/x86/kernel/apic/apic.c", "line":505, "type":"v", }
+,{"id":"lapic_cal_pm1", "file":"arch/x86/kernel/apic/apic.c", "line":508, "type":"v", }
+,{"id":"lapic_cal_pm2", "file":"arch/x86/kernel/apic/apic.c", "line":508, "type":"v", }
+,{"id":"lapic_cal_t1", "file":"arch/x86/kernel/apic/apic.c", "line":506, "type":"v", }
+,{"id":"lapic_cal_t2", "file":"arch/x86/kernel/apic/apic.c", "line":506, "type":"v", }
+,{"id":"lapic_cal_tsc1", "file":"arch/x86/kernel/apic/apic.c", "line":507, "type":"v", }
+,{"id":"lapic_cal_tsc2", "file":"arch/x86/kernel/apic/apic.c", "line":507, "type":"v", }
+,{"id":"lapic_chip", "file":"arch/x86/kernel/apic/io_apic.c", "line":2821, "type":"v", }
+,{"id":"lapic_clockevent", "file":"arch/x86/kernel/apic/apic.c", "line":191, "type":"v", }
+,{"id":"lapic_events", "file":"arch/x86/kernel/apic/apic.c", "line":202, "type":"v", }
+,{"id":"lapic_flags", "file":"include/acpi/actbl1.h", "line":647, "type":"m", "scope_line":643, "scope_name":"struct acpi_madt_local_apic", }
+,{"id":"lapic_flags", "file":"include/acpi/actbl1.h", "line":713, "type":"m", "scope_line":707, "scope_name":"struct acpi_madt_local_sapic", }
+,{"id":"lapic_flags", "file":"include/acpi/actbl1.h", "line":741, "type":"m", "scope_line":737, "scope_name":"struct acpi_madt_local_x2apic", }
+,{"id":"lapic_get_maxlvt", "file":"arch/x86/kernel/apic/apic.c", "line":1010, "type":"c", "scope_line":983, "scope_name":"verify_local_APIC", }
+,{"id":"lapic_get_maxlvt", "file":"arch/x86/kernel/apic/apic.c", "line":1128, "type":"c", "scope_line":1108, "scope_name":"lapic_setup_esr", }
+,{"id":"lapic_get_maxlvt", "file":"arch/x86/kernel/apic/apic.c", "line":1990, "type":"c", "scope_line":1982, "scope_name":"lapic_suspend", }
+,{"id":"lapic_get_maxlvt", "file":"arch/x86/kernel/apic/apic.c", "line":2066, "type":"c", "scope_line":2020, "scope_name":"lapic_resume", }
+,{"id":"lapic_get_maxlvt", "file":"arch/x86/kernel/apic/apic.c", "line":316, "type":"f", }
+,{"id":"lapic_get_maxlvt", "file":"arch/x86/kernel/apic/apic.c", "line":857, "type":"c", "scope_line":848, "scope_name":"clear_local_APIC", }
+,{"id":"lapic_get_maxlvt", "file":"arch/x86/kernel/apic/io_apic.c", "line":1776, "type":"c", "scope_line":1764, "scope_name":"print_local_APIC", }
+,{"id":"lapic_get_maxlvt", "file":"arch/x86/kernel/cpu/mcheck/mce_intel.c", "line":49, "type":"c", "scope_line":35, "scope_name":"cmci_supported", }
+,{"id":"lapic_get_maxlvt", "file":"arch/x86/kernel/smpboot.c", "line":563, "type":"c", "scope_line":544, "scope_name":"wakeup_secondary_cpu_via_nmi", }
+,];
+xr_frag_insert('t/94/66635131e6b933fd4de9071febc0ac60cfa4ac.xr', __xr_tmp);

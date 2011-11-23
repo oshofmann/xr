@@ -1,0 +1,92 @@
+var __xr_tmp = [
+{"id":"shm_dtime", "file":"ipc/compat.c", "line":82, "type":"m", "scope_line":78, "scope_name":"struct compat_shmid_ds", }
+,{"id":"shm_exit_ns", "file":"ipc/namespace.c", "line":99, "type":"c", "scope_line":86, "scope_name":"free_ipc_ns", }
+,{"id":"shm_exit_ns", "file":"ipc/shm.c", "line":100, "type":"f", }
+,{"id":"shm_fault", "file":"ipc/shm.c", "line":213, "type":"f", }
+,{"id":"shm_file", "file":"include/linux/shm.h", "line":89, "type":"m", "scope_line":86, "scope_name":"struct shmid_kernel", }
+,{"id":"shm_file_data", "file":"ipc/shm.c", "line":47, "type":"s", }
+,{"id":"shm_file_data", "file":"ipc/shm.c", "line":54, "type":"d", }
+,{"id":"shm_file_operations", "file":"ipc/shm.c", "line":294, "type":"v", }
+,{"id":"shm_file_operations_huge", "file":"ipc/shm.c", "line":303, "type":"v", }
+,{"id":"shm_free_security", "file":"include/linux/security.h", "line":1534, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"shm_fsync", "file":"ipc/shm.c", "line":276, "type":"f", }
+,{"id":"shm_get_policy", "file":"ipc/shm.c", "line":232, "type":"f", }
+,{"id":"shm_get_stat", "file":"ipc/shm.c", "line":547, "type":"f", }
+,{"id":"shm_get_stat", "file":"ipc/shm.c", "line":686, "type":"c", "scope_line":635, "scope_name":"sys_shmctl", }
+,{"id":"shm_get_unmapped_area", "file":"ipc/shm.c", "line":285, "type":"f", }
+,{"id":"shm_ids", "file":"ipc/shm.c", "line":59, "type":"d", }
+,{"id":"shm_info", "file":"include/linux/shm.h", "line":76, "type":"s", }
+,{"id":"shm_init", "file":"ipc/shm.c", "line":107, "type":"f", }
+,{"id":"shm_init", "file":"ipc/util.c", "line":104, "type":"c", "scope_line":100, "scope_name":"ipc_init", }
+,{"id":"shm_init_ns", "file":"ipc/namespace.c", "line":36, "type":"c", "scope_line":17, "scope_name":"create_ipc_ns", }
+,{"id":"shm_init_ns", "file":"ipc/shm.c", "line":109, "type":"c", "scope_line":107, "scope_name":"shm_init", }
+,{"id":"shm_init_ns", "file":"ipc/shm.c", "line":72, "type":"f", }
+,{"id":"shm_lock", "file":"ipc/shm.c", "line":119, "type":"f", }
+,{"id":"shm_lock", "file":"ipc/shm.c", "line":153, "type":"c", "scope_line":147, "scope_name":"shm_open", }
+,{"id":"shm_lock", "file":"ipc/shm.c", "line":200, "type":"c", "scope_line":191, "scope_name":"shm_close", }
+,{"id":"shm_lock", "file":"ipc/shm.c", "line":707, "type":"c", "scope_line":635, "scope_name":"sys_shmctl", }
+,{"id":"shm_lock", "file":"ipc/shm.c", "line":931, "type":"c", "scope_line":810, "scope_name":"do_shmat", }
+,{"id":"shm_lock_check", "file":"ipc/shm.c", "line":129, "type":"f", }
+,{"id":"shm_lock_check", "file":"ipc/shm.c", "line":714, "type":"c", "scope_line":635, "scope_name":"sys_shmctl", }
+,{"id":"shm_lock_check", "file":"ipc/shm.c", "line":750, "type":"c", "scope_line":635, "scope_name":"sys_shmctl", }
+,{"id":"shm_lock_check", "file":"ipc/shm.c", "line":866, "type":"c", "scope_line":810, "scope_name":"do_shmat", }
+,{"id":"shm_lpid", "file":"arch/x86/include/asm/compat.h", "line":179, "type":"m", "scope_line":169, "scope_name":"struct compat_shmid64_ds", }
+,{"id":"shm_lpid", "file":"include/asm-generic/shmbuf.h", "line":41, "type":"m", "scope_line":25, "scope_name":"struct shmid64_ds", }
+,{"id":"shm_lpid", "file":"include/linux/shm.h", "line":39, "type":"m", "scope_line":32, "scope_name":"struct shmid_ds", }
+,{"id":"shm_lpid", "file":"ipc/compat.c", "line":85, "type":"m", "scope_line":78, "scope_name":"struct compat_shmid_ds", }
+,{"id":"shm_lprid", "file":"include/linux/shm.h", "line":96, "type":"m", "scope_line":86, "scope_name":"struct shmid_kernel", }
+,{"id":"shm_mmap", "file":"ipc/shm.c", "line":248, "type":"f", }
+,{"id":"shm_mnt", "file":"mm/shmem.c", "line":34, "type":"v", }
+,{"id":"shm_more_checks", "file":"ipc/shm.c", "line":436, "type":"f", }
+,{"id":"shm_nattch", "file":"arch/x86/include/asm/compat.h", "line":180, "type":"m", "scope_line":169, "scope_name":"struct compat_shmid64_ds", }
+,{"id":"shm_nattch", "file":"include/asm-generic/shmbuf.h", "line":42, "type":"m", "scope_line":25, "scope_name":"struct shmid64_ds", }
+,{"id":"shm_nattch", "file":"include/linux/shm.h", "line":40, "type":"m", "scope_line":32, "scope_name":"struct shmid_ds", }
+,{"id":"shm_nattch", "file":"include/linux/shm.h", "line":90, "type":"m", "scope_line":86, "scope_name":"struct shmid_kernel", }
+,{"id":"shm_nattch", "file":"ipc/compat.c", "line":86, "type":"m", "scope_line":78, "scope_name":"struct compat_shmid_ds", }
+,{"id":"shm_open", "file":"ipc/shm.c", "line":147, "type":"f", }
+,{"id":"shm_open", "file":"ipc/shm.c", "line":261, "type":"c", "scope_line":248, "scope_name":"shm_mmap", }
+,{"id":"shm_perm", "file":"arch/x86/include/asm/compat.h", "line":170, "type":"m", "scope_line":169, "scope_name":"struct compat_shmid64_ds", }
+,{"id":"shm_perm", "file":"include/asm-generic/shmbuf.h", "line":26, "type":"m", "scope_line":25, "scope_name":"struct shmid64_ds", }
+,{"id":"shm_perm", "file":"include/linux/shm.h", "line":33, "type":"m", "scope_line":32, "scope_name":"struct shmid_ds", }
+,{"id":"shm_perm", "file":"include/linux/shm.h", "line":88, "type":"m", "scope_line":86, "scope_name":"struct shmid_kernel", }
+,{"id":"shm_perm", "file":"ipc/compat.c", "line":79, "type":"m", "scope_line":78, "scope_name":"struct compat_shmid_ds", }
+,{"id":"shm_release", "file":"ipc/shm.c", "line":266, "type":"f", }
+,{"id":"shm_rmid", "file":"ipc/shm.c", "line":140, "type":"f", }
+,{"id":"shm_rmid", "file":"ipc/shm.c", "line":173, "type":"c", "scope_line":170, "scope_name":"shm_destroy", }
+,{"id":"shm_rss", "file":"include/linux/shm.h", "line":79, "type":"m", "scope_line":76, "scope_name":"struct shm_info", }
+,{"id":"shm_rss", "file":"ipc/compat.c", "line":111, "type":"m", "scope_line":109, "scope_name":"struct compat_shm_info", }
+,{"id":"shm_security", "file":"ipc/shm.c", "line":425, "type":"f", }
+,{"id":"shm_segsz", "file":"arch/x86/include/asm/compat.h", "line":171, "type":"m", "scope_line":169, "scope_name":"struct compat_shmid64_ds", }
+,{"id":"shm_segsz", "file":"include/asm-generic/shmbuf.h", "line":27, "type":"m", "scope_line":25, "scope_name":"struct shmid64_ds", }
+,{"id":"shm_segsz", "file":"include/linux/shm.h", "line":34, "type":"m", "scope_line":32, "scope_name":"struct shmid_ds", }
+,{"id":"shm_segsz", "file":"include/linux/shm.h", "line":91, "type":"m", "scope_line":86, "scope_name":"struct shmid_kernel", }
+,{"id":"shm_segsz", "file":"ipc/compat.c", "line":80, "type":"m", "scope_line":78, "scope_name":"struct compat_shmid_ds", }
+,{"id":"shm_set_policy", "file":"ipc/shm.c", "line":222, "type":"f", }
+,{"id":"shm_shmat", "file":"include/linux/security.h", "line":1537, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"shm_shmctl", "file":"include/linux/security.h", "line":1536, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"shm_swp", "file":"include/linux/shm.h", "line":80, "type":"m", "scope_line":76, "scope_name":"struct shm_info", }
+,{"id":"shm_swp", "file":"ipc/compat.c", "line":111, "type":"m", "scope_line":109, "scope_name":"struct compat_shm_info", }
+,{"id":"shm_tot", "file":"include/linux/ipc_namespace.h", "line":44, "type":"m", "scope_line":27, "scope_name":"struct ipc_namespace", }
+,{"id":"shm_tot", "file":"include/linux/shm.h", "line":78, "type":"m", "scope_line":76, "scope_name":"struct shm_info", }
+,{"id":"shm_tot", "file":"ipc/compat.c", "line":111, "type":"m", "scope_line":109, "scope_name":"struct compat_shm_info", }
+,{"id":"shm_unlock", "file":"ipc/shm.c", "line":61, "type":"d", }
+,{"id":"shm_unused", "file":"include/linux/shm.h", "line":41, "type":"m", "scope_line":32, "scope_name":"struct shmid_ds", }
+,{"id":"shm_unused", "file":"ipc/compat.c", "line":87, "type":"m", "scope_line":78, "scope_name":"struct compat_shmid_ds", }
+,{"id":"shm_unused2", "file":"include/linux/shm.h", "line":42, "type":"m", "scope_line":32, "scope_name":"struct shmid_ds", }
+,{"id":"shm_unused2", "file":"ipc/compat.c", "line":88, "type":"m", "scope_line":78, "scope_name":"struct compat_shmid_ds", }
+,{"id":"shm_unused3", "file":"include/linux/shm.h", "line":43, "type":"m", "scope_line":32, "scope_name":"struct shmid_ds", }
+,{"id":"shm_unused3", "file":"ipc/compat.c", "line":89, "type":"m", "scope_line":78, "scope_name":"struct compat_shmid_ds", }
+,{"id":"shm_vm_ops", "file":"ipc/shm.c", "line":315, "type":"v", }
+,{"id":"shmall", "file":"include/asm-generic/shmbuf.h", "line":52, "type":"m", "scope_line":47, "scope_name":"struct shminfo64", }
+,{"id":"shmall", "file":"include/linux/shm.h", "line":73, "type":"m", "scope_line":68, "scope_name":"struct shminfo", }
+,{"id":"shmall", "file":"ipc/compat.c", "line":102, "type":"m", "scope_line":97, "scope_name":"struct compat_shminfo64", }
+,{"id":"shmctl_down", "file":"ipc/shm.c", "line":595, "type":"f", }
+,{"id":"shmctl_down", "file":"ipc/shm.c", "line":791, "type":"c", "scope_line":635, "scope_name":"sys_shmctl", }
+,{"id":"shmem_acct_block", "file":"mm/shmem.c", "line":1402, "type":"c", "scope_line":1218, "scope_name":"shmem_getpage", }
+,{"id":"shmem_acct_block", "file":"mm/shmem.c", "line":1412, "type":"c", "scope_line":1218, "scope_name":"shmem_getpage", }
+,{"id":"shmem_acct_block", "file":"mm/shmem.c", "line":204, "type":"f", }
+,{"id":"shmem_acct_size", "file":"mm/shmem.c", "line":186, "type":"f", }
+,{"id":"shmem_acct_size", "file":"mm/shmem.c", "line":2726, "type":"c", "scope_line":2711, "scope_name":"shmem_file_setup", }
+,{"id":"shmem_alloc_inode", "file":"mm/shmem.c", "line":2408, "type":"f", }
+,];
+xr_frag_insert('t/e1/77a88e1e729d5be0568c88d11e729b7b1261c3.xr', __xr_tmp);

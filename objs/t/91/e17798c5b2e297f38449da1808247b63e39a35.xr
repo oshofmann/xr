@@ -1,0 +1,376 @@
+var __xr_tmp = [
+{"id":"bin_vma_open", "file":"fs/sysfs/bin.c", "line":176, "type":"f", }
+,{"id":"binary", "file":"include/linux/ftrace_event.h", "line":86, "type":"m", "scope_line":82, "scope_name":"struct trace_event_functions", }
+,{"id":"binary_sysctl", "file":"kernel/sysctl_binary.c", "line":1321, "type":"f", }
+,{"id":"binary_sysctl", "file":"kernel/sysctl_binary.c", "line":1459, "type":"c", "scope_line":1443, "scope_name":"do_sysctl", }
+,{"id":"bind", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":296, "type":"m", "scope_line":291, "scope_name":"struct iommu_dev_data", }
+,{"id":"bind", "file":"include/acpi/acpi_bus.h", "line":107, "type":"m", "scope_line":101, "scope_name":"struct acpi_device_ops", }
+,{"id":"bind", "file":"include/linux/cgroup.h", "line":477, "type":"m", "scope_line":460, "scope_name":"struct cgroup_subsys", }
+,{"id":"bind", "file":"include/linux/net.h", "line":163, "type":"m", "scope_line":159, "scope_name":"struct proto_ops", }
+,{"id":"bind", "file":"include/linux/thermal.h", "line":48, "type":"m", "scope_line":47, "scope_name":"struct thermal_zone_device_ops", }
+,{"id":"bind", "file":"include/net/sock.h", "line":746, "type":"m", "scope_line":707, "scope_name":"struct proto", }
+,{"id":"bind_bucket_cachep", "file":"include/net/inet_hashtables.h", "line":139, "type":"m", "scope_line":118, "scope_name":"struct inet_hashinfo", }
+,{"id":"bind_con_driver", "file":"drivers/char/vt.c", "line":3008, "type":"f", }
+,{"id":"bind_con_driver", "file":"drivers/char/vt.c", "line":3222, "type":"c", "scope_line":3143, "scope_name":"unbind_con_driver", }
+,{"id":"bind_con_driver", "file":"drivers/char/vt.c", "line":3270, "type":"c", "scope_line":3230, "scope_name":"vt_bind", }
+,{"id":"bind_con_driver", "file":"drivers/char/vt.c", "line":3640, "type":"c", "scope_line":3633, "scope_name":"take_over_console", }
+,{"id":"bind_conflict", "file":"include/net/inet_connection_sock.h", "line":62, "type":"m", "scope_line":38, "scope_name":"struct inet_connection_sock_af_ops", }
+,{"id":"bind_conn", "file":"include/net/ip_vs.h", "line":575, "type":"m", "scope_line":545, "scope_name":"struct ip_vs_app", }
+,{"id":"bind_count", "file":"include/linux/sunrpc/xprt.h", "line":215, "type":"m", "scope_line":148, "scope_name":"struct rpc_xprt", }
+,{"id":"bind_evtchn_to_cpu", "file":"drivers/xen/events.c", "line":237, "type":"f", }
+,{"id":"bind_evtchn_to_cpu", "file":"drivers/xen/events.c", "line":420, "type":"c", "scope_line":393, "scope_name":"bind_ipi_to_irq", }
+,{"id":"bind_evtchn_to_cpu", "file":"drivers/xen/events.c", "line":456, "type":"c", "scope_line":429, "scope_name":"bind_virq_to_irq", }
+,{"id":"bind_evtchn_to_cpu", "file":"drivers/xen/events.c", "line":490, "type":"c", "scope_line":464, "scope_name":"unbind_from_irq", }
+,{"id":"bind_evtchn_to_cpu", "file":"drivers/xen/events.c", "line":756, "type":"c", "scope_line":735, "scope_name":"rebind_irq_to_cpu", }
+,{"id":"bind_evtchn_to_cpu", "file":"drivers/xen/events.c", "line":851, "type":"c", "scope_line":829, "scope_name":"restore_cpu_virqs", }
+,{"id":"bind_evtchn_to_cpu", "file":"drivers/xen/events.c", "line":879, "type":"c", "scope_line":858, "scope_name":"restore_cpu_ipis", }
+,{"id":"bind_evtchn_to_irq", "file":"drivers/char/hvc_xen.c", "line":142, "type":"c", "scope_line":133, "scope_name":"xen_init", }
+,{"id":"bind_evtchn_to_irq", "file":"drivers/xen/events.c", "line":369, "type":"f", }
+,{"id":"bind_evtchn_to_irq", "file":"drivers/xen/events.c", "line":512, "type":"c", "scope_line":504, "scope_name":"bind_evtchn_to_irqhandler", }
+,{"id":"bind_evtchn_to_irqhandler", "file":"drivers/xen/events.c", "line":504, "type":"f", }
+,{"id":"bind_evtchn_to_irqhandler", "file":"drivers/xen/xenbus/xenbus_comms.c", "line":223, "type":"c", "scope_line":203, "scope_name":"xb_init_comms", }
+,{"id":"bind_index", "file":"include/linux/sunrpc/xprt.h", "line":176, "type":"m", "scope_line":148, "scope_name":"struct rpc_xprt", }
+,{"id":"bind_interdomain", "file":"include/xen/interface/event_channel.h", "line":184, "type":"m", "scope_line":180, "scope_name":"struct evtchn_op", }
+,{"id":"bind_ipi", "file":"include/xen/interface/event_channel.h", "line":187, "type":"m", "scope_line":180, "scope_name":"struct evtchn_op", }
+,{"id":"bind_ipi_to_irq", "file":"drivers/xen/events.c", "line":393, "type":"f", }
+,{"id":"bind_ipi_to_irq", "file":"drivers/xen/events.c", "line":550, "type":"c", "scope_line":541, "scope_name":"bind_ipi_to_irqhandler", }
+,{"id":"bind_ipi_to_irqhandler", "file":"arch/x86/xen/smp.c", "line":110, "type":"c", "scope_line":93, "scope_name":"xen_smp_intr_init", }
+,{"id":"bind_ipi_to_irqhandler", "file":"arch/x86/xen/smp.c", "line":129, "type":"c", "scope_line":93, "scope_name":"xen_smp_intr_init", }
+,{"id":"bind_ipi_to_irqhandler", "file":"arch/x86/xen/smp.c", "line":99, "type":"c", "scope_line":93, "scope_name":"xen_smp_intr_init", }
+,{"id":"bind_ipi_to_irqhandler", "file":"arch/x86/xen/spinlock.c", "line":354, "type":"c", "scope_line":348, "scope_name":"xen_init_lock_cpu", }
+,{"id":"bind_ipi_to_irqhandler", "file":"drivers/xen/events.c", "line":541, "type":"f", }
+,{"id":"bind_lock", "file":"net/packet/af_packet.c", "line":192, "type":"m", "scope_line":185, "scope_name":"struct packet_sock", }
+,{"id":"bind_pirq", "file":"include/xen/interface/event_channel.h", "line":186, "type":"m", "scope_line":180, "scope_name":"struct evtchn_op", }
+,{"id":"bind_tcf", "file":"include/net/sch_generic.h", "line":120, "type":"m", "scope_line":102, "scope_name":"struct Qdisc_class_ops", }
+,{"id":"bind_timeout", "file":"include/linux/sunrpc/xprt.h", "line":181, "type":"m", "scope_line":148, "scope_name":"struct rpc_xprt", }
+,{"id":"bind_type", "file":"include/linux/if_vlan.h", "line":362, "type":"m", "scope_line":353, "scope_name":"struct vlan_ioctl_args", }
+,{"id":"bind_vcpu", "file":"include/xen/interface/event_channel.h", "line":191, "type":"m", "scope_line":180, "scope_name":"struct evtchn_op", }
+,{"id":"bind_virq", "file":"include/xen/interface/event_channel.h", "line":185, "type":"m", "scope_line":180, "scope_name":"struct evtchn_op", }
+,{"id":"bind_virq_to_irq", "file":"drivers/xen/events.c", "line":429, "type":"f", }
+,{"id":"bind_virq_to_irq", "file":"drivers/xen/events.c", "line":530, "type":"c", "scope_line":523, "scope_name":"bind_virq_to_irqhandler", }
+,{"id":"bind_virq_to_irqhandler", "file":"arch/x86/xen/smp.c", "line":121, "type":"c", "scope_line":93, "scope_name":"xen_smp_intr_init", }
+,{"id":"bind_virq_to_irqhandler", "file":"arch/x86/xen/time.c", "line":399, "type":"c", "scope_line":387, "scope_name":"xen_setup_timer", }
+,{"id":"bind_virq_to_irqhandler", "file":"drivers/xen/events.c", "line":523, "type":"f", }
+,{"id":"bindcnt", "file":"include/linux/pkt_cls.h", "line":134, "type":"m", "scope_line":119, "scope_name":"struct tc_police", }
+,{"id":"bindcnt", "file":"include/linux/pkt_cls.h", "line":146, "type":"m", "scope_line":144, "scope_name":"struct tc_cnt", }
+,{"id":"binding", "file":"include/linux/sunrpc/xprt.h", "line":165, "type":"m", "scope_line":148, "scope_name":"struct rpc_xprt", }
+,{"id":"bindv6only", "file":"include/net/netns/ipv6.h", "line":18, "type":"m", "scope_line":13, "scope_name":"struct netns_sysctl_ipv6", }
+,{"id":"binfmt", "file":"include/linux/mm_types.h", "line":276, "type":"m", "scope_line":232, "scope_name":"struct mm_struct", }
+,{"id":"binfmt_lock", "file":"fs/exec.c", "line":71, "type":"v", }
+,{"id":"binfmt_misc_table", "file":"kernel/sysctl.c", "line":1332, "type":"v", }
+,{"id":"bio", "file":"block/bsg.c", "line":85, "type":"m", "scope_line":81, "scope_name":"struct bsg_command", }
+,{"id":"bio", "file":"drivers/md/dm.c", "line":1107, "type":"m", "scope_line":1104, "scope_name":"struct clone_info", }
+,{"id":"bio", "file":"drivers/md/dm.c", "line":50, "type":"m", "scope_line":46, "scope_name":"struct dm_io", }
+,{"id":"bio", "file":"drivers/scsi/sg.c", "line":139, "type":"m", "scope_line":128, "scope_name":"struct sg_request", }
+,{"id":"bio", "file":"fs/direct-io.c", "line":60, "type":"m", "scope_line":58, "scope_name":"struct dio", }
+,{"id":"bio", "file":"fs/mpage.c", "line":445, "type":"m", "scope_line":444, "scope_name":"struct mpage_data", }
+,{"id":"bio", "file":"include/linux/blk_types.h", "line":33, "type":"s", }
+,{"id":"bio", "file":"include/linux/blkdev.h", "line":656, "type":"m", "scope_line":654, "scope_name":"struct req_iterator", }
+,{"id":"bio", "file":"include/linux/blkdev.h", "line":95, "type":"m", "scope_line":79, "scope_name":"struct request", }
+,{"id":"bio", "file":"include/linux/pktcdvd.h", "line":240, "type":"m", "scope_line":238, "scope_name":"struct pkt_rb_node", }
+,{"id":"bio", "file":"include/linux/pktcdvd.h", "line":245, "type":"m", "scope_line":243, "scope_name":"struct packet_stacked_data", }
+,{"id":"bio1", "file":"include/linux/bio.h", "line":203, "type":"m", "scope_line":202, "scope_name":"struct bio_pair", }
+,{"id":"bio2", "file":"include/linux/bio.h", "line":203, "type":"m", "scope_line":202, "scope_name":"struct bio_pair", }
+,{"id":"bio_add_page", "file":"block/blk-lib.c", "line":192, "type":"c", "scope_line":151, "scope_name":"blkdev_issue_zeroout", }
+,{"id":"bio_add_page", "file":"drivers/block/pktcdvd.c", "line":1135, "type":"c", "scope_line":1077, "scope_name":"pkt_gather_data", }
+,{"id":"bio_add_page", "file":"drivers/block/pktcdvd.c", "line":1431, "type":"c", "scope_line":1362, "scope_name":"pkt_start_write", }
+,{"id":"bio_add_page", "file":"drivers/md/dm-io.c", "line":336, "type":"c", "scope_line":302, "scope_name":"do_region", }
+,{"id":"bio_add_page", "file":"fs/bio.c", "line":664, "type":"f", }
+,{"id":"bio_add_page", "file":"fs/direct-io.c", "line":604, "type":"c", "scope_line":600, "scope_name":"dio_bio_add_page", }
+,{"id":"bio_add_page", "file":"fs/ext4/extents.c", "line":2579, "type":"c", "scope_line":2544, "scope_name":"ext4_ext_zeroout", }
+,{"id":"bio_add_page", "file":"fs/mpage.c", "line":305, "type":"c", "scope_line":168, "scope_name":"do_mpage_readpage", }
+,{"id":"bio_add_page", "file":"fs/mpage.c", "line":598, "type":"c", "scope_line":451, "scope_name":"__mpage_writepage", }
+,{"id":"bio_add_page", "file":"kernel/power/block_io.c", "line":39, "type":"c", "scope_line":28, "scope_name":"submit", }
+,{"id":"bio_add_pc_page", "file":"fs/bio.c", "line":1006, "type":"c", "scope_line":940, "scope_name":"__bio_map_user_iov", }
+,{"id":"bio_add_pc_page", "file":"fs/bio.c", "line":1168, "type":"c", "scope_line":1144, "scope_name":"__bio_map_kern", }
+,{"id":"bio_add_pc_page", "file":"fs/bio.c", "line":643, "type":"f", }
+,{"id":"bio_add_pc_page", "file":"fs/bio.c", "line":881, "type":"c", "scope_line":807, "scope_name":"bio_copy_user_iov", }
+,{"id":"bio_alloc", "file":"block/blk-barrier.c", "line":323, "type":"c", "scope_line":299, "scope_name":"blkdev_issue_flush", }
+,{"id":"bio_alloc", "file":"block/blk-lib.c", "line":175, "type":"c", "scope_line":151, "scope_name":"blkdev_issue_zeroout", }
+,{"id":"bio_alloc", "file":"block/blk-lib.c", "line":72, "type":"c", "scope_line":37, "scope_name":"blkdev_issue_discard", }
+,{"id":"bio_alloc", "file":"drivers/block/loop.c", "line":627, "type":"c", "scope_line":624, "scope_name":"loop_switch", }
+,{"id":"bio_alloc", "file":"fs/bio.c", "line":341, "type":"f", }
+,{"id":"bio_alloc", "file":"fs/buffer.c", "line":2925, "type":"c", "scope_line":2904, "scope_name":"submit_bh", }
+,{"id":"bio_alloc", "file":"fs/direct-io.c", "line":334, "type":"c", "scope_line":328, "scope_name":"dio_bio_alloc", }
+,{"id":"bio_alloc", "file":"fs/ext4/extents.c", "line":2569, "type":"c", "scope_line":2544, "scope_name":"ext4_ext_zeroout", }
+,{"id":"bio_alloc", "file":"fs/mpage.c", "line":102, "type":"c", "scope_line":95, "scope_name":"mpage_alloc", }
+,{"id":"bio_alloc", "file":"fs/mpage.c", "line":106, "type":"c", "scope_line":95, "scope_name":"mpage_alloc", }
+,{"id":"bio_alloc", "file":"kernel/power/block_io.c", "line":34, "type":"c", "scope_line":28, "scope_name":"submit", }
+,{"id":"bio_alloc", "file":"mm/bounce.c", "line":203, "type":"c", "scope_line":180, "scope_name":"__blk_queue_bounce", }
+,{"id":"bio_alloc", "file":"mm/page_io.c", "line":28, "type":"c", "scope_line":23, "scope_name":"get_swap_bio", }
+,{"id":"bio_alloc_bioset", "file":"block/blk-core.c", "line":2543, "type":"c", "scope_line":2530, "scope_name":"blk_rq_prep_clone", }
+,{"id":"bio_alloc_bioset", "file":"drivers/md/dm-io.c", "line":323, "type":"c", "scope_line":302, "scope_name":"do_region", }
+,{"id":"bio_alloc_bioset", "file":"drivers/md/dm.c", "line":1131, "type":"c", "scope_line":1124, "scope_name":"split_bvec", }
+,{"id":"bio_alloc_bioset", "file":"drivers/md/dm.c", "line":1162, "type":"c", "scope_line":1156, "scope_name":"clone_bio", }
+,{"id":"bio_alloc_bioset", "file":"drivers/md/dm.c", "line":1208, "type":"c", "scope_line":1195, "scope_name":"__issue_target_request", }
+,{"id":"bio_alloc_bioset", "file":"fs/bio.c", "line":278, "type":"f", }
+,{"id":"bio_alloc_bioset", "file":"fs/bio.c", "line":343, "type":"c", "scope_line":341, "scope_name":"bio_alloc", }
+,{"id":"bio_alloc_bioset", "file":"fs/bio.c", "line":471, "type":"c", "scope_line":469, "scope_name":"bio_clone", }
+,{"id":"bio_alloc_map_data", "file":"fs/bio.c", "line":697, "type":"f", }
+,{"id":"bio_alloc_map_data", "file":"fs/bio.c", "line":837, "type":"c", "scope_line":807, "scope_name":"bio_copy_user_iov", }
+,{"id":"bio_batch", "file":"block/blk-lib.c", "line":110, "type":"s", }
+,{"id":"bio_batch_end_io", "file":"block/blk-lib.c", "line":118, "type":"f", }
+,{"id":"bio_check_eod", "file":"block/blk-core.c", "line":1398, "type":"f", }
+,{"id":"bio_check_eod", "file":"block/blk-core.c", "line":1458, "type":"c", "scope_line":1448, "scope_name":"__generic_make_request", }
+,{"id":"bio_check_eod", "file":"block/blk-core.c", "line":1514, "type":"c", "scope_line":1448, "scope_name":"__generic_make_request", }
+,{"id":"bio_check_pages_dirty", "file":"fs/bio.c", "line":1368, "type":"f", }
+,{"id":"bio_check_pages_dirty", "file":"fs/direct-io.c", "line":438, "type":"c", "scope_line":428, "scope_name":"dio_bio_complete", }
+,{"id":"bio_clone", "file":"drivers/block/pktcdvd.c", "line":2475, "type":"c", "scope_line":2456, "scope_name":"pkt_make_request", }
+,{"id":"bio_clone", "file":"fs/bio.c", "line":469, "type":"f", }
+,{"id":"bio_copy_kern", "file":"block/blk-map.c", "line":302, "type":"c", "scope_line":287, "scope_name":"blk_rq_map_kern", }
+,{"id":"bio_copy_kern", "file":"fs/bio.c", "line":1245, "type":"f", }
+,{"id":"bio_copy_kern_endio", "file":"fs/bio.c", "line":1211, "type":"f", }
+,{"id":"bio_copy_user", "file":"block/blk-map.c", "line":60, "type":"c", "scope_line":42, "scope_name":"__blk_rq_map_user", }
+,{"id":"bio_copy_user", "file":"fs/bio.c", "line":1252, "type":"c", "scope_line":1245, "scope_name":"bio_copy_kern", }
+,{"id":"bio_copy_user", "file":"fs/bio.c", "line":927, "type":"f", }
+,{"id":"bio_copy_user_iov", "file":"block/blk-map.c", "line":211, "type":"c", "scope_line":190, "scope_name":"blk_rq_map_user_iov", }
+,{"id":"bio_copy_user_iov", "file":"fs/bio.c", "line":807, "type":"f", }
+,{"id":"bio_copy_user_iov", "file":"fs/bio.c", "line":936, "type":"c", "scope_line":927, "scope_name":"bio_copy_user", }
+,{"id":"bio_cur_bytes", "file":"include/linux/bio.h", "line":74, "type":"f", }
+,{"id":"bio_cur_bytes", "file":"include/linux/blkdev.h", "line":780, "type":"c", "scope_line":778, "scope_name":"blk_rq_cur_bytes", }
+,{"id":"bio_data", "file":"block/blk-core.c", "line":1167, "type":"c", "scope_line":1152, "scope_name":"blk_add_request_payload", }
+,{"id":"bio_data", "file":"block/blk-core.c", "line":1270, "type":"c", "scope_line":1195, "scope_name":"__make_request", }
+,{"id":"bio_data", "file":"block/blk-core.c", "line":2097, "type":"c", "scope_line":1991, "scope_name":"blk_update_request", }
+,{"id":"bio_data", "file":"block/blk-core.c", "line":2418, "type":"c", "scope_line":2410, "scope_name":"blk_rq_bio_prep", }
+,{"id":"bio_data", "file":"include/linux/bio.h", "line":82, "type":"f", }
+,{"id":"bio_data_dir", "file":"include/linux/fs.h", "line":2070, "type":"d", }
+,{"id":"bio_destructor_t", "file":"include/linux/blk_types.h", "line":18, "type":"t", }
+,{"id":"bio_dirty_fn", "file":"fs/bio.c", "line":1348, "type":"f", }
+,{"id":"bio_dirty_list", "file":"fs/bio.c", "line":1343, "type":"v", }
+,{"id":"bio_dirty_lock", "file":"fs/bio.c", "line":1342, "type":"v", }
+,{"id":"bio_dirty_work", "file":"fs/bio.c", "line":1341, "type":"v", }
+,{"id":"bio_empty_barrier", "file":"include/linux/bio.h", "line":69, "type":"d", }
+,{"id":"bio_end_empty_barrier", "file":"block/blk-barrier.c", "line":274, "type":"f", }
+,{"id":"bio_end_io_t", "file":"include/linux/blk_types.h", "line":17, "type":"t", }
+,{"id":"bio_endio", "file":"block/blk-core.c", "line":1208, "type":"c", "scope_line":1195, "scope_name":"__make_request", }
+,{"id":"bio_endio", "file":"block/blk-core.c", "line":1533, "type":"c", "scope_line":1448, "scope_name":"__generic_make_request", }
+,{"id":"bio_endio", "file":"block/blk-core.c", "line":161, "type":"c", "scope_line":134, "scope_name":"req_bio_endio", }
+,{"id":"bio_endio", "file":"block/blk-map.c", "line":226, "type":"c", "scope_line":190, "scope_name":"blk_rq_map_user_iov", }
+,{"id":"bio_endio", "file":"block/blk-map.c", "line":82, "type":"c", "scope_line":42, "scope_name":"__blk_rq_map_user", }
+,{"id":"bio_endio", "file":"drivers/block/brd.c", "line":364, "type":"c", "scope_line":329, "scope_name":"brd_make_request", }
+,{"id":"bio_endio", "file":"drivers/block/loop.c", "line":548, "type":"c", "scope_line":526, "scope_name":"loop_make_request", }
+,{"id":"bio_endio", "file":"drivers/block/loop.c", "line":577, "type":"c", "scope_line":570, "scope_name":"loop_handle_bio", }
+,{"id":"bio_endio", "file":"drivers/block/pktcdvd.c", "line":1449, "type":"c", "scope_line":1440, "scope_name":"pkt_finish_packet", }
+,{"id":"bio_endio", "file":"drivers/block/pktcdvd.c", "line":2451, "type":"c", "scope_line":2445, "scope_name":"pkt_end_io_read_cloned", }
+,{"id":"bio_endio", "file":"drivers/block/pktcdvd.c", "line":2598, "type":"c", "scope_line":2456, "scope_name":"pkt_make_request", }
+,{"id":"bio_endio", "file":"drivers/md/dm-stripe.c", "line":262, "type":"c", "scope_line":247, "scope_name":"stripe_map_discard", }
+,{"id":"bio_endio", "file":"drivers/md/dm.c", "line":1387, "type":"c", "scope_line":1379, "scope_name":"__split_and_process_bio", }
+,{"id":"bio_endio", "file":"drivers/md/dm.c", "line":1504, "type":"c", "scope_line":1481, "scope_name":"_dm_request", }
+,{"id":"bio_endio", "file":"drivers/md/dm.c", "line":2438, "type":"c", "scope_line":2421, "scope_name":"process_barrier", }
+,{"id":"bio_endio", "file":"drivers/md/dm.c", "line":664, "type":"c", "scope_line":607, "scope_name":"dec_pending", }
+,{"id":"bio_endio", "file":"fs/bio-integrity.c", "line":544, "type":"c", "scope_line":533, "scope_name":"bio_integrity_verify_fn", }
+,{"id":"bio_endio", "file":"fs/bio-integrity.c", "line":571, "type":"c", "scope_line":559, "scope_name":"bio_integrity_endio", }
+,{"id":"bio_endio", "file":"fs/bio.c", "line":1424, "type":"f", }
+,{"id":"bio_endio", "file":"fs/bio.c", "line":1441, "type":"c", "scope_line":1436, "scope_name":"bio_pair_release", }
+,{"id":"bio_endio", "file":"mm/bounce.c", "line":145, "type":"c", "scope_line":124, "scope_name":"bounce_end_io", }
+,{"id":"bio_find_or_create_slab", "file":"fs/bio.c", "line":1610, "type":"c", "scope_line":1599, "scope_name":"bioset_create", }
+,{"id":"bio_find_or_create_slab", "file":"fs/bio.c", "line":70, "type":"f", }
+,{"id":"bio_flagged", "file":"include/linux/blk_types.h", "line":100, "type":"d", }
+,{"id":"bio_flush_dcache_pages", "file":"include/linux/bio.h", "line":259, "type":"f", }
+,{"id":"bio_for_each_segment", "file":"include/linux/bio.h", "line":150, "type":"d", }
+,{"id":"bio_free", "file":"block/blk-core.c", "line":2569, "type":"c", "scope_line":2530, "scope_name":"blk_rq_prep_clone", }
+,{"id":"bio_free", "file":"drivers/md/dm-io.c", "line":271, "type":"c", "scope_line":264, "scope_name":"dm_bio_destructor", }
+,{"id":"bio_free", "file":"drivers/md/dm.c", "line":1118, "type":"c", "scope_line":1114, "scope_name":"dm_bio_destructor", }
+,{"id":"bio_free", "file":"drivers/md/dm.c", "line":1568, "type":"c", "scope_line":1562, "scope_name":"dm_rq_bio_destructor", }
+,{"id":"bio_free", "file":"fs/bio.c", "line":233, "type":"f", }
+,{"id":"bio_free", "file":"fs/bio.c", "line":319, "type":"c", "scope_line":317, "scope_name":"bio_fs_destructor", }
+,{"id":"bio_free_map_data", "file":"fs/bio.c", "line":1230, "type":"c", "scope_line":1211, "scope_name":"bio_copy_kern_endio", }
+,{"id":"bio_free_map_data", "file":"fs/bio.c", "line":690, "type":"f", }
+,{"id":"bio_free_map_data", "file":"fs/bio.c", "line":788, "type":"c", "scope_line":779, "scope_name":"bio_uncopy_user", }
+,{"id":"bio_free_map_data", "file":"fs/bio.c", "line":910, "type":"c", "scope_line":807, "scope_name":"bio_copy_user_iov", }
+,{"id":"bio_fs_destructor", "file":"fs/bio.c", "line":317, "type":"f", }
+,{"id":"bio_get", "file":"include/linux/bio.h", "line":167, "type":"d", }
+,{"id":"bio_get_nr_vecs", "file":"drivers/md/dm-io.c", "line":322, "type":"c", "scope_line":302, "scope_name":"do_region", }
+,{"id":"bio_get_nr_vecs", "file":"fs/bio.c", "line":503, "type":"f", }
+,{"id":"bio_get_nr_vecs", "file":"fs/direct-io.c", "line":585, "type":"c", "scope_line":576, "scope_name":"dio_new_bio", }
+,{"id":"bio_get_nr_vecs", "file":"fs/mpage.c", "line":298, "type":"c", "scope_line":168, "scope_name":"do_mpage_readpage", }
+,{"id":"bio_get_nr_vecs", "file":"fs/mpage.c", "line":586, "type":"c", "scope_line":451, "scope_name":"__mpage_writepage", }
+,{"id":"bio_has_allocated_vec", "file":"fs/bio.c", "line":237, "type":"c", "scope_line":233, "scope_name":"bio_free", }
+,{"id":"bio_has_allocated_vec", "file":"include/linux/bio.h", "line":90, "type":"f", }
+,{"id":"bio_has_data", "file":"block/blk-core.c", "line":1605, "type":"c", "scope_line":1595, "scope_name":"submit_bio", }
+,{"id":"bio_has_data", "file":"block/blk-core.c", "line":2416, "type":"c", "scope_line":2410, "scope_name":"blk_rq_bio_prep", }
+,{"id":"bio_has_data", "file":"block/blk-merge.c", "line":97, "type":"c", "scope_line":87, "scope_name":"blk_phys_contig_segment", }
+,{"id":"bio_has_data", "file":"drivers/md/dm-stripe.c", "line":274, "type":"c", "scope_line":267, "scope_name":"stripe_map", }
+,{"id":"bio_has_data", "file":"drivers/md/dm.c", "line":1292, "type":"c", "scope_line":1285, "scope_name":"__clone_and_map", }
+,{"id":"bio_has_data", "file":"drivers/md/dm.c", "line":1404, "type":"c", "scope_line":1379, "scope_name":"__split_and_process_bio", }
+,{"id":"bio_has_data", "file":"drivers/md/dm.c", "line":2427, "type":"c", "scope_line":2421, "scope_name":"process_barrier", }
+,{"id":"bio_has_data", "file":"drivers/md/dm.c", "line":652, "type":"c", "scope_line":607, "scope_name":"dec_pending", }
+,{"id":"bio_has_data", "file":"include/linux/bio.h", "line":367, "type":"f", }
+,{"id":"bio_has_data", "file":"mm/bounce.c", "line":277, "type":"c", "scope_line":270, "scope_name":"blk_queue_bounce", }
+,{"id":"bio_init", "file":"drivers/block/pktcdvd.c", "line":1122, "type":"c", "scope_line":1077, "scope_name":"pkt_gather_data", }
+,{"id":"bio_init", "file":"drivers/block/pktcdvd.c", "line":1422, "type":"c", "scope_line":1362, "scope_name":"pkt_start_write", }
+,{"id":"bio_init", "file":"drivers/block/pktcdvd.c", "line":539, "type":"c", "scope_line":531, "scope_name":"pkt_bio_alloc", }
+,{"id":"bio_init", "file":"drivers/md/dm.c", "line":2413, "type":"c", "scope_line":2409, "scope_name":"dm_flush", }
+,{"id":"bio_init", "file":"fs/bio.c", "line":254, "type":"f", }
+,{"id":"bio_init", "file":"fs/bio.c", "line":290, "type":"c", "scope_line":278, "scope_name":"bio_alloc_bioset", }
+,{"id":"bio_init", "file":"fs/bio.c", "line":378, "type":"c", "scope_line":369, "scope_name":"bio_kmalloc", }
+,{"id":"bio_integrity", "file":"include/linux/bio.h", "line":499, "type":"d", }
+,{"id":"bio_integrity_add_page", "file":"fs/bio-integrity.c", "line":173, "type":"f", }
+,{"id":"bio_integrity_add_page", "file":"fs/bio-integrity.c", "line":450, "type":"c", "scope_line":396, "scope_name":"bio_integrity_prep", }
+,{"id":"bio_integrity_advance", "file":"block/blk-core.c", "line":158, "type":"c", "scope_line":134, "scope_name":"req_bio_endio", }
+,{"id":"bio_integrity_advance", "file":"fs/bio-integrity.c", "line":640, "type":"f", }
+,{"id":"bio_integrity_alloc", "file":"fs/bio-integrity.c", "line":128, "type":"f", }
+,{"id":"bio_integrity_alloc", "file":"fs/bio-integrity.c", "line":427, "type":"c", "scope_line":396, "scope_name":"bio_integrity_prep", }
+,{"id":"bio_integrity_alloc_bioset", "file":"fs/bio-integrity.c", "line":132, "type":"c", "scope_line":128, "scope_name":"bio_integrity_alloc", }
+,{"id":"bio_integrity_alloc_bioset", "file":"fs/bio-integrity.c", "line":744, "type":"c", "scope_line":736, "scope_name":"bio_integrity_clone", }
+,{"id":"bio_integrity_alloc_bioset", "file":"fs/bio-integrity.c", "line":82, "type":"f", }
+,{"id":"bio_integrity_clone", "file":"block/blk-core.c", "line":2549, "type":"c", "scope_line":2530, "scope_name":"blk_rq_prep_clone", }
+,{"id":"bio_integrity_clone", "file":"drivers/md/dm.c", "line":1145, "type":"c", "scope_line":1124, "scope_name":"split_bvec", }
+,{"id":"bio_integrity_clone", "file":"drivers/md/dm.c", "line":1173, "type":"c", "scope_line":1156, "scope_name":"clone_bio", }
+,{"id":"bio_integrity_clone", "file":"fs/bio-integrity.c", "line":736, "type":"f", }
+,{"id":"bio_integrity_clone", "file":"fs/bio.c", "line":482, "type":"c", "scope_line":469, "scope_name":"bio_clone", }
+,{"id":"bio_integrity_enabled", "file":"block/blk-core.c", "line":1505, "type":"c", "scope_line":1448, "scope_name":"__generic_make_request", }
+,{"id":"bio_integrity_enabled", "file":"fs/bio-integrity.c", "line":223, "type":"f", }
+,{"id":"bio_integrity_endio", "file":"fs/bio-integrity.c", "line":559, "type":"f", }
+,{"id":"bio_integrity_free", "file":"fs/bio-integrity.c", "line":144, "type":"f", }
+,{"id":"bio_integrity_free", "file":"fs/bio.c", "line":241, "type":"c", "scope_line":233, "scope_name":"bio_free", }
+,{"id":"bio_integrity_free", "file":"fs/bio.c", "line":355, "type":"c", "scope_line":352, "scope_name":"bio_kmalloc_destructor", }
+,{"id":"bio_integrity_generate", "file":"fs/bio-integrity.c", "line":345, "type":"f", }
+,{"id":"bio_integrity_generate", "file":"fs/bio-integrity.c", "line":472, "type":"c", "scope_line":396, "scope_name":"bio_integrity_prep", }
+,{"id":"bio_integrity_get_tag", "file":"fs/bio-integrity.c", "line":328, "type":"f", }
+,{"id":"bio_integrity_hw_sectors", "file":"fs/bio-integrity.c", "line":243, "type":"f", }
+,{"id":"bio_integrity_hw_sectors", "file":"fs/bio-integrity.c", "line":282, "type":"c", "scope_line":271, "scope_name":"bio_integrity_tag", }
+,{"id":"bio_integrity_hw_sectors", "file":"fs/bio-integrity.c", "line":412, "type":"c", "scope_line":396, "scope_name":"bio_integrity_prep", }
+,{"id":"bio_integrity_hw_sectors", "file":"fs/bio-integrity.c", "line":649, "type":"c", "scope_line":640, "scope_name":"bio_integrity_advance", }
+,{"id":"bio_integrity_hw_sectors", "file":"fs/bio-integrity.c", "line":676, "type":"c", "scope_line":665, "scope_name":"bio_integrity_trim", }
+,{"id":"bio_integrity_hw_sectors", "file":"fs/bio-integrity.c", "line":704, "type":"c", "scope_line":691, "scope_name":"bio_integrity_split", }
+,{"id":"bio_integrity_init", "file":"fs/bio-integrity.c", "line":781, "type":"f", }
+,{"id":"bio_integrity_init", "file":"fs/bio.c", "line":1661, "type":"c", "scope_line":1653, "scope_name":"init_bio", }
+,{"id":"bio_integrity_mark_head", "file":"fs/bio-integrity.c", "line":586, "type":"f", }
+,{"id":"bio_integrity_mark_head", "file":"fs/bio-integrity.c", "line":650, "type":"c", "scope_line":640, "scope_name":"bio_integrity_advance", }
+,{"id":"bio_integrity_mark_head", "file":"fs/bio-integrity.c", "line":678, "type":"c", "scope_line":665, "scope_name":"bio_integrity_trim", }
+,{"id":"bio_integrity_mark_tail", "file":"fs/bio-integrity.c", "line":612, "type":"f", }
+,{"id":"bio_integrity_mark_tail", "file":"fs/bio-integrity.c", "line":679, "type":"c", "scope_line":665, "scope_name":"bio_integrity_trim", }
+,{"id":"bio_integrity_payload", "file":"include/linux/bio.h", "line":173, "type":"s", }
+,{"id":"bio_integrity_pool", "file":"include/linux/bio.h", "line":299, "type":"m", "scope_line":293, "scope_name":"struct bio_set", }
+,{"id":"bio_integrity_prep", "file":"block/blk-core.c", "line":1505, "type":"c", "scope_line":1448, "scope_name":"__generic_make_request", }
+,{"id":"bio_integrity_prep", "file":"fs/bio-integrity.c", "line":396, "type":"f", }
+,{"id":"bio_integrity_set_tag", "file":"fs/bio-integrity.c", "line":310, "type":"f", }
+,{"id":"bio_integrity_split", "file":"fs/bio-integrity.c", "line":691, "type":"f", }
+,{"id":"bio_integrity_split", "file":"fs/bio.c", "line":1509, "type":"c", "scope_line":1470, "scope_name":"bio_split", }
+,{"id":"bio_integrity_tag", "file":"fs/bio-integrity.c", "line":271, "type":"f", }
+,{"id":"bio_integrity_tag", "file":"fs/bio-integrity.c", "line":314, "type":"c", "scope_line":310, "scope_name":"bio_integrity_set_tag", }
+,{"id":"bio_integrity_tag", "file":"fs/bio-integrity.c", "line":332, "type":"c", "scope_line":328, "scope_name":"bio_integrity_get_tag", }
+,{"id":"bio_integrity_tag_size", "file":"fs/bio-integrity.c", "line":261, "type":"f", }
+,{"id":"bio_integrity_trim", "file":"drivers/md/dm.c", "line":1146, "type":"c", "scope_line":1124, "scope_name":"split_bvec", }
+,{"id":"bio_integrity_trim", "file":"drivers/md/dm.c", "line":1176, "type":"c", "scope_line":1156, "scope_name":"clone_bio", }
+,{"id":"bio_integrity_trim", "file":"fs/bio-integrity.c", "line":665, "type":"f", }
+,{"id":"bio_integrity_verify", "file":"fs/bio-integrity.c", "line":486, "type":"f", }
+,{"id":"bio_integrity_verify", "file":"fs/bio-integrity.c", "line":540, "type":"c", "scope_line":533, "scope_name":"bio_integrity_verify_fn", }
+,{"id":"bio_integrity_verify_fn", "file":"fs/bio-integrity.c", "line":533, "type":"f", }
+,{"id":"bio_io_error", "file":"include/linux/bio.h", "line":139, "type":"d", }
+,{"id":"bio_iovec", "file":"include/linux/bio.h", "line":64, "type":"d", }
+,{"id":"bio_iovec_idx", "file":"include/linux/bio.h", "line":63, "type":"d", }
+,{"id":"bio_kmalloc", "file":"fs/bio.c", "line":1154, "type":"c", "scope_line":1144, "scope_name":"__bio_map_kern", }
+,{"id":"bio_kmalloc", "file":"fs/bio.c", "line":369, "type":"f", }
+,{"id":"bio_kmalloc", "file":"fs/bio.c", "line":842, "type":"c", "scope_line":807, "scope_name":"bio_copy_user_iov", }
+,{"id":"bio_kmalloc", "file":"fs/bio.c", "line":969, "type":"c", "scope_line":940, "scope_name":"__bio_map_user_iov", }
+,{"id":"bio_kmalloc_destructor", "file":"fs/bio.c", "line":352, "type":"f", }
+,{"id":"bio_kmap_irq", "file":"include/linux/bio.h", "line":360, "type":"d", }
+,{"id":"bio_kunmap_irq", "file":"include/linux/bio.h", "line":362, "type":"d", }
+,{"id":"bio_list", "file":"fs/direct-io.c", "line":106, "type":"m", "scope_line":58, "scope_name":"struct dio", }
+,{"id":"bio_list", "file":"include/linux/bio.h", "line":379, "type":"s", }
+,{"id":"bio_list", "file":"include/linux/sched.h", "line":1396, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"bio_list_add", "file":"block/blk-core.c", "line":1553, "type":"c", "scope_line":1547, "scope_name":"generic_make_request", }
+,{"id":"bio_list_add", "file":"drivers/block/loop.c", "line":515, "type":"c", "scope_line":513, "scope_name":"loop_add_bio", }
+,{"id":"bio_list_add", "file":"drivers/block/pktcdvd.c", "line":1333, "type":"c", "scope_line":1257, "scope_name":"pkt_handle_queue", }
+,{"id":"bio_list_add", "file":"drivers/block/pktcdvd.c", "line":2536, "type":"c", "scope_line":2456, "scope_name":"pkt_make_request", }
+,{"id":"bio_list_add", "file":"drivers/block/pktcdvd.c", "line":853, "type":"c", "scope_line":849, "scope_name":"pkt_queue_bio", }
+,{"id":"bio_list_add", "file":"drivers/block/pktcdvd.c", "line":855, "type":"c", "scope_line":849, "scope_name":"pkt_queue_bio", }
+,{"id":"bio_list_add", "file":"drivers/md/dm.c", "line":534, "type":"c", "scope_line":529, "scope_name":"queue_io", }
+,{"id":"bio_list_add", "file":"include/linux/bio.h", "line":408, "type":"f", }
+,{"id":"bio_list_add_head", "file":"drivers/md/dm.c", "line":2441, "type":"c", "scope_line":2421, "scope_name":"process_barrier", }
+,{"id":"bio_list_add_head", "file":"drivers/md/dm.c", "line":630, "type":"c", "scope_line":607, "scope_name":"dec_pending", }
+,{"id":"bio_list_add_head", "file":"include/linux/bio.h", "line":420, "type":"f", }
+,{"id":"bio_list_empty", "file":"drivers/block/loop.c", "line":600, "type":"c", "scope_line":593, "scope_name":"loop_thread", }
+,{"id":"bio_list_empty", "file":"drivers/block/loop.c", "line":602, "type":"c", "scope_line":593, "scope_name":"loop_thread", }
+,{"id":"bio_list_empty", "file":"drivers/block/loop.c", "line":606, "type":"c", "scope_line":593, "scope_name":"loop_thread", }
+,{"id":"bio_list_empty", "file":"drivers/block/pktcdvd.c", "line":1084, "type":"c", "scope_line":1077, "scope_name":"pkt_gather_data", }
+,{"id":"bio_list_empty", "file":"drivers/block/pktcdvd.c", "line":890, "type":"c", "scope_line":878, "scope_name":"pkt_iosched_process_queue", }
+,{"id":"bio_list_empty", "file":"drivers/block/pktcdvd.c", "line":891, "type":"c", "scope_line":878, "scope_name":"pkt_iosched_process_queue", }
+,{"id":"bio_list_empty", "file":"include/linux/bio.h", "line":384, "type":"f", }
+,{"id":"bio_list_for_each", "file":"include/linux/bio.h", "line":394, "type":"d", }
+,{"id":"bio_list_get", "file":"include/linux/bio.h", "line":477, "type":"f", }
+,{"id":"bio_list_init", "file":"block/blk-core.c", "line":1575, "type":"c", "scope_line":1547, "scope_name":"generic_make_request", }
+,{"id":"bio_list_init", "file":"drivers/block/loop.c", "line":824, "type":"c", "scope_line":740, "scope_name":"loop_set_fd", }
+,{"id":"bio_list_init", "file":"drivers/block/pktcdvd.c", "line":2870, "type":"c", "scope_line":2837, "scope_name":"pkt_setup_dev", }
+,{"id":"bio_list_init", "file":"drivers/block/pktcdvd.c", "line":2871, "type":"c", "scope_line":2837, "scope_name":"pkt_setup_dev", }
+,{"id":"bio_list_init", "file":"drivers/block/pktcdvd.c", "line":581, "type":"c", "scope_line":560, "scope_name":"pkt_alloc_packet_data", }
+,{"id":"bio_list_init", "file":"include/linux/bio.h", "line":389, "type":"f", }
+,{"id":"bio_list_merge", "file":"include/linux/bio.h", "line":430, "type":"f", }
+,{"id":"bio_list_merge_head", "file":"include/linux/bio.h", "line":443, "type":"f", }
+,{"id":"bio_list_peek", "file":"drivers/block/pktcdvd.c", "line":900, "type":"c", "scope_line":878, "scope_name":"pkt_iosched_process_queue", }
+,{"id":"bio_list_peek", "file":"include/linux/bio.h", "line":457, "type":"f", }
+,{"id":"bio_list_pop", "file":"block/blk-core.c", "line":1579, "type":"c", "scope_line":1547, "scope_name":"generic_make_request", }
+,{"id":"bio_list_pop", "file":"drivers/block/loop.c", "line":523, "type":"c", "scope_line":521, "scope_name":"loop_get_bio", }
+,{"id":"bio_list_pop", "file":"drivers/block/pktcdvd.c", "line":1448, "type":"c", "scope_line":1440, "scope_name":"pkt_finish_packet", }
+,{"id":"bio_list_pop", "file":"drivers/block/pktcdvd.c", "line":924, "type":"c", "scope_line":878, "scope_name":"pkt_iosched_process_queue", }
+,{"id":"bio_list_pop", "file":"drivers/block/pktcdvd.c", "line":926, "type":"c", "scope_line":878, "scope_name":"pkt_iosched_process_queue", }
+,{"id":"bio_list_pop", "file":"drivers/md/dm.c", "line":2459, "type":"c", "scope_line":2449, "scope_name":"dm_wq_work", }
+,{"id":"bio_list_pop", "file":"include/linux/bio.h", "line":462, "type":"f", }
+,{"id":"bio_list_size", "file":"include/linux/bio.h", "line":397, "type":"f", }
+,{"id":"bio_lock", "file":"fs/direct-io.c", "line":104, "type":"m", "scope_line":58, "scope_name":"struct dio", }
+,{"id":"bio_map_data", "file":"fs/bio.c", "line":672, "type":"s", }
+,{"id":"bio_map_kern", "file":"block/blk-map.c", "line":304, "type":"c", "scope_line":287, "scope_name":"blk_rq_map_kern", }
+,{"id":"bio_map_kern", "file":"drivers/block/virtio_blk.c", "line":207, "type":"c", "scope_line":200, "scope_name":"virtblk_get_id", }
+,{"id":"bio_map_kern", "file":"fs/bio.c", "line":1191, "type":"f", }
+,{"id":"bio_map_kern_endio", "file":"fs/bio.c", "line":1139, "type":"f", }
+,{"id":"bio_map_user", "file":"block/blk-map.c", "line":58, "type":"c", "scope_line":42, "scope_name":"__blk_rq_map_user", }
+,{"id":"bio_map_user", "file":"fs/bio.c", "line":1058, "type":"f", }
+,{"id":"bio_map_user_iov", "file":"block/blk-map.c", "line":214, "type":"c", "scope_line":190, "scope_name":"blk_rq_map_user_iov", }
+,{"id":"bio_map_user_iov", "file":"fs/bio.c", "line":1067, "type":"c", "scope_line":1058, "scope_name":"bio_map_user", }
+,{"id":"bio_map_user_iov", "file":"fs/bio.c", "line":1083, "type":"f", }
+,{"id":"bio_offset", "file":"include/linux/bio.h", "line":66, "type":"d", }
+,{"id":"bio_page", "file":"include/linux/bio.h", "line":65, "type":"d", }
+,{"id":"bio_pair", "file":"include/linux/bio.h", "line":202, "type":"s", }
+,{"id":"bio_pair_end_1", "file":"fs/bio.c", "line":1447, "type":"f", }
+,{"id":"bio_pair_end_2", "file":"fs/bio.c", "line":1457, "type":"f", }
+,{"id":"bio_pair_release", "file":"drivers/block/pktcdvd.c", "line":2520, "type":"c", "scope_line":2456, "scope_name":"pkt_make_request", }
+,{"id":"bio_pair_release", "file":"fs/bio.c", "line":1436, "type":"f", }
+,{"id":"bio_pair_release", "file":"fs/bio.c", "line":1454, "type":"c", "scope_line":1447, "scope_name":"bio_pair_end_1", }
+,{"id":"bio_pair_release", "file":"fs/bio.c", "line":1464, "type":"c", "scope_line":1457, "scope_name":"bio_pair_end_2", }
+,{"id":"bio_phys_segments", "file":"block/blk-core.c", "line":2417, "type":"c", "scope_line":2410, "scope_name":"blk_rq_bio_prep", }
+,{"id":"bio_phys_segments", "file":"block/blk-merge.c", "line":206, "type":"c", "scope_line":202, "scope_name":"ll_new_hw_segment", }
+,{"id":"bio_phys_segments", "file":"fs/bio.c", "line":425, "type":"f", }
+,{"id":"bio_pool", "file":"include/linux/bio.h", "line":297, "type":"m", "scope_line":293, "scope_name":"struct bio_set", }
+,{"id":"bio_prio", "file":"include/linux/bio.h", "line":50, "type":"d", }
+,{"id":"bio_prio_valid", "file":"include/linux/bio.h", "line":51, "type":"d", }
+,{"id":"bio_put", "file":"block/blk-barrier.c", "line":283, "type":"c", "scope_line":274, "scope_name":"bio_end_empty_barrier", }
+,{"id":"bio_put", "file":"block/blk-barrier.c", "line":347, "type":"c", "scope_line":299, "scope_name":"blkdev_issue_flush", }
+,{"id":"bio_put", "file":"block/blk-core.c", "line":2488, "type":"c", "scope_line":2481, "scope_name":"blk_rq_unprep_clone", }
+,{"id":"bio_put", "file":"block/blk-lib.c", "line":103, "type":"c", "scope_line":37, "scope_name":"blkdev_issue_discard", }
+,{"id":"bio_put", "file":"block/blk-lib.c", "line":134, "type":"c", "scope_line":118, "scope_name":"bio_batch_end_io", }
+,{"id":"bio_put", "file":"block/blk-lib.c", "line":23, "type":"c", "scope_line":12, "scope_name":"blkdev_discard_end_io", }
+,{"id":"bio_put", "file":"block/blk-map.c", "line":267, "type":"c", "scope_line":251, "scope_name":"blk_rq_unmap_user", }
+,{"id":"bio_put", "file":"block/blk-map.c", "line":318, "type":"c", "scope_line":287, "scope_name":"blk_rq_map_kern", }
+,{"id":"bio_put", "file":"block/blk-map.c", "line":84, "type":"c", "scope_line":42, "scope_name":"__blk_rq_map_user", }
+,{"id":"bio_put", "file":"drivers/block/loop.c", "line":574, "type":"c", "scope_line":570, "scope_name":"loop_handle_bio", }
+,{"id":"bio_put", "file":"drivers/block/pktcdvd.c", "line":2450, "type":"c", "scope_line":2445, "scope_name":"pkt_end_io_read_cloned", }
+,{"id":"bio_put", "file":"drivers/block/pktcdvd.c", "line":596, "type":"c", "scope_line":560, "scope_name":"pkt_alloc_packet_data", }
+,{"id":"bio_put", "file":"drivers/block/pktcdvd.c", "line":603, "type":"c", "scope_line":560, "scope_name":"pkt_alloc_packet_data", }
+,{"id":"bio_put", "file":"drivers/block/pktcdvd.c", "line":620, "type":"c", "scope_line":613, "scope_name":"pkt_free_packet_data", }
+,{"id":"bio_put", "file":"drivers/block/pktcdvd.c", "line":624, "type":"c", "scope_line":613, "scope_name":"pkt_free_packet_data", }
+,{"id":"bio_put", "file":"drivers/block/virtio_blk.c", "line":214, "type":"c", "scope_line":200, "scope_name":"virtblk_get_id", }
+,{"id":"bio_put", "file":"drivers/md/dm-io.c", "line":167, "type":"c", "scope_line":154, "scope_name":"endio", }
+,{"id":"bio_put", "file":"drivers/md/dm.c", "line":1096, "type":"c", "scope_line":1063, "scope_name":"__map_bio", }
+,{"id":"bio_put", "file":"drivers/md/dm.c", "line":704, "type":"c", "scope_line":670, "scope_name":"clone_endio", }
+,{"id":"bio_put", "file":"drivers/md/dm.c", "line":718, "type":"c", "scope_line":711, "scope_name":"end_clone_bio", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":1042, "type":"c", "scope_line":940, "scope_name":"__bio_map_user_iov", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":1120, "type":"c", "scope_line":1105, "scope_name":"__bio_unmap_user", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":1135, "type":"c", "scope_line":1132, "scope_name":"bio_unmap_user", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":1141, "type":"c", "scope_line":1139, "scope_name":"bio_map_kern_endio", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":1206, "type":"c", "scope_line":1191, "scope_name":"bio_map_kern", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":1231, "type":"c", "scope_line":1211, "scope_name":"bio_copy_kern_endio", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":1363, "type":"c", "scope_line":1348, "scope_name":"bio_dirty_fn", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":1394, "type":"c", "scope_line":1368, "scope_name":"bio_check_pages_dirty", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":411, "type":"f", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":485, "type":"c", "scope_line":469, "scope_name":"bio_clone", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":789, "type":"c", "scope_line":779, "scope_name":"bio_uncopy_user", }
+,{"id":"bio_put", "file":"fs/bio.c", "line":908, "type":"c", "scope_line":807, "scope_name":"bio_copy_user_iov", }
+,{"id":"bio_put", "file":"fs/buffer.c", "line":2901, "type":"c", "scope_line":2888, "scope_name":"end_bio_bh_io_sync", }
+,{"id":"bio_put", "file":"fs/buffer.c", "line":2946, "type":"c", "scope_line":2904, "scope_name":"submit_bh", }
+,{"id":"bio_put", "file":"fs/direct-io.c", "line":447, "type":"c", "scope_line":428, "scope_name":"dio_bio_complete", }
+,{"id":"bio_put", "file":"fs/ext4/extents.c", "line":2601, "type":"c", "scope_line":2544, "scope_name":"ext4_ext_zeroout", }
+,{"id":"bio_put", "file":"fs/ext4/extents.c", "line":2604, "type":"c", "scope_line":2544, "scope_name":"ext4_ext_zeroout", }
+,];
+xr_frag_insert('t/91/e17798c5b2e297f38449da1808247b63e39a35.xr', __xr_tmp);

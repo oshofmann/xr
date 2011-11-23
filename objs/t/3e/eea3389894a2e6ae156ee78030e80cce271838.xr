@@ -1,0 +1,245 @@
+var __xr_tmp = [
+{"id":"hci_cp_write_ssp_mode", "file":"include/net/bluetooth/hci.h", "line":547, "type":"s", }
+,{"id":"hci_cp_write_voice_setting", "file":"include/net/bluetooth/hci.h", "line":528, "type":"s", }
+,{"id":"hci_dev", "file":"include/net/bluetooth/hci.h", "line":936, "type":"m", "scope_line":934, "scope_name":"struct sockaddr_hci", }
+,{"id":"hci_dev_info", "file":"include/net/bluetooth/hci.h", "line":971, "type":"s", }
+,{"id":"hci_dev_list_req", "file":"include/net/bluetooth/hci.h", "line":1008, "type":"s", }
+,{"id":"hci_dev_req", "file":"include/net/bluetooth/hci.h", "line":1003, "type":"s", }
+,{"id":"hci_dev_stats", "file":"include/net/bluetooth/hci.h", "line":958, "type":"s", }
+,{"id":"hci_ev_auth_complete", "file":"include/net/bluetooth/hci.h", "line":633, "type":"s", }
+,{"id":"hci_ev_change_link_key_complete", "file":"include/net/bluetooth/hci.h", "line":653, "type":"s", }
+,{"id":"hci_ev_clock_offset", "file":"include/net/bluetooth/hci.h", "line":740, "type":"s", }
+,{"id":"hci_ev_cmd_complete", "file":"include/net/bluetooth/hci.h", "line":689, "type":"s", }
+,{"id":"hci_ev_cmd_status", "file":"include/net/bluetooth/hci.h", "line":695, "type":"s", }
+,{"id":"hci_ev_conn_complete", "file":"include/net/bluetooth/hci.h", "line":610, "type":"s", }
+,{"id":"hci_ev_conn_request", "file":"include/net/bluetooth/hci.h", "line":619, "type":"s", }
+,{"id":"hci_ev_disconn_complete", "file":"include/net/bluetooth/hci.h", "line":626, "type":"s", }
+,{"id":"hci_ev_encrypt_change", "file":"include/net/bluetooth/hci.h", "line":646, "type":"s", }
+,{"id":"hci_ev_io_capa_request", "file":"include/net/bluetooth/hci.h", "line":832, "type":"s", }
+,{"id":"hci_ev_link_key_notify", "file":"include/net/bluetooth/hci.h", "line":733, "type":"s", }
+,{"id":"hci_ev_link_key_req", "file":"include/net/bluetooth/hci.h", "line":728, "type":"s", }
+,{"id":"hci_ev_mode_change", "file":"include/net/bluetooth/hci.h", "line":715, "type":"s", }
+,{"id":"hci_ev_num_comp_pkts", "file":"include/net/bluetooth/hci.h", "line":709, "type":"s", }
+,{"id":"hci_ev_pin_code_req", "file":"include/net/bluetooth/hci.h", "line":723, "type":"s", }
+,{"id":"hci_ev_pkt_type_change", "file":"include/net/bluetooth/hci.h", "line":747, "type":"s", }
+,{"id":"hci_ev_pscan_rep_mode", "file":"include/net/bluetooth/hci.h", "line":754, "type":"s", }
+,{"id":"hci_ev_qos_setup_complete", "file":"include/net/bluetooth/hci.h", "line":682, "type":"s", }
+,{"id":"hci_ev_remote_ext_features", "file":"include/net/bluetooth/hci.h", "line":779, "type":"s", }
+,{"id":"hci_ev_remote_features", "file":"include/net/bluetooth/hci.h", "line":659, "type":"s", }
+,{"id":"hci_ev_remote_host_features", "file":"include/net/bluetooth/hci.h", "line":843, "type":"s", }
+,{"id":"hci_ev_remote_name", "file":"include/net/bluetooth/hci.h", "line":639, "type":"s", }
+,{"id":"hci_ev_remote_version", "file":"include/net/bluetooth/hci.h", "line":666, "type":"s", }
+,{"id":"hci_ev_role_change", "file":"include/net/bluetooth/hci.h", "line":702, "type":"s", }
+,{"id":"hci_ev_si_device", "file":"include/net/bluetooth/hci.h", "line":856, "type":"s", }
+,{"id":"hci_ev_si_security", "file":"include/net/bluetooth/hci.h", "line":862, "type":"s", }
+,{"id":"hci_ev_simple_pair_complete", "file":"include/net/bluetooth/hci.h", "line":837, "type":"s", }
+,{"id":"hci_ev_sniff_subrate", "file":"include/net/bluetooth/hci.h", "line":811, "type":"s", }
+,{"id":"hci_ev_stack_internal", "file":"include/net/bluetooth/hci.h", "line":850, "type":"s", }
+,{"id":"hci_ev_sync_conn_changed", "file":"include/net/bluetooth/hci.h", "line":801, "type":"s", }
+,{"id":"hci_ev_sync_conn_complete", "file":"include/net/bluetooth/hci.h", "line":788, "type":"s", }
+,{"id":"hci_event_hdr", "file":"include/net/bluetooth/hci.h", "line":880, "type":"s", }
+,{"id":"hci_event_hdr", "file":"include/net/bluetooth/hci.h", "line":897, "type":"f", }
+,{"id":"hci_family", "file":"include/net/bluetooth/hci.h", "line":935, "type":"m", "scope_line":934, "scope_name":"struct sockaddr_hci", }
+,{"id":"hci_filter", "file":"include/net/bluetooth/hci.h", "line":940, "type":"s", }
+,{"id":"hci_flags", "file":"include/net/bluetooth/hci.h", "line":921, "type":"d", }
+,{"id":"hci_handle", "file":"include/net/bluetooth/hci.h", "line":920, "type":"d", }
+,{"id":"hci_handle", "file":"include/net/bluetooth/rfcomm.h", "line":295, "type":"m", "scope_line":294, "scope_name":"struct rfcomm_conninfo", }
+,{"id":"hci_handle_pack", "file":"include/net/bluetooth/hci.h", "line":919, "type":"d", }
+,{"id":"hci_inquiry_req", "file":"include/net/bluetooth/hci.h", "line":1030, "type":"s", }
+,{"id":"hci_opcode_ocf", "file":"include/net/bluetooth/hci.h", "line":916, "type":"d", }
+,{"id":"hci_opcode_ogf", "file":"include/net/bluetooth/hci.h", "line":915, "type":"d", }
+,{"id":"hci_opcode_pack", "file":"include/net/bluetooth/hci.h", "line":914, "type":"d", }
+,{"id":"hci_qos", "file":"include/net/bluetooth/hci.h", "line":675, "type":"s", }
+,{"id":"hci_rev", "file":"include/net/bluetooth/hci.h", "line":555, "type":"m", "scope_line":552, "scope_name":"struct hci_rp_read_local_version", }
+,{"id":"hci_rp_read_bd_addr", "file":"include/net/bluetooth/hci.h", "line":591, "type":"s", }
+,{"id":"hci_rp_read_buffer_size", "file":"include/net/bluetooth/hci.h", "line":582, "type":"s", }
+,{"id":"hci_rp_read_class_of_dev", "file":"include/net/bluetooth/hci.h", "line":511, "type":"s", }
+,{"id":"hci_rp_read_def_link_policy", "file":"include/net/bluetooth/hci.h", "line":431, "type":"s", }
+,{"id":"hci_rp_read_link_policy", "file":"include/net/bluetooth/hci.h", "line":414, "type":"s", }
+,{"id":"hci_rp_read_local_commands", "file":"include/net/bluetooth/hci.h", "line":562, "type":"s", }
+,{"id":"hci_rp_read_local_ext_features", "file":"include/net/bluetooth/hci.h", "line":574, "type":"s", }
+,{"id":"hci_rp_read_local_features", "file":"include/net/bluetooth/hci.h", "line":568, "type":"s", }
+,{"id":"hci_rp_read_local_name", "file":"include/net/bluetooth/hci.h", "line":483, "type":"s", }
+,{"id":"hci_rp_read_local_version", "file":"include/net/bluetooth/hci.h", "line":552, "type":"s", }
+,{"id":"hci_rp_read_ssp_mode", "file":"include/net/bluetooth/hci.h", "line":541, "type":"s", }
+,{"id":"hci_rp_read_voice_setting", "file":"include/net/bluetooth/hci.h", "line":522, "type":"s", }
+,{"id":"hci_rp_role_discovery", "file":"include/net/bluetooth/hci.h", "line":398, "type":"s", }
+,{"id":"hci_rp_write_link_policy", "file":"include/net/bluetooth/hci.h", "line":425, "type":"s", }
+,{"id":"hci_sco_hdr", "file":"include/net/bluetooth/hci.h", "line":890, "type":"s", }
+,{"id":"hci_sco_hdr", "file":"include/net/bluetooth/hci.h", "line":907, "type":"f", }
+,{"id":"hci_ufilter", "file":"include/net/bluetooth/hci.h", "line":946, "type":"s", }
+,{"id":"hci_ver", "file":"include/net/bluetooth/hci.h", "line":554, "type":"m", "scope_line":552, "scope_name":"struct hci_rp_read_local_version", }
+,{"id":"hcount", "file":"include/linux/fb.h", "line":329, "type":"m", "scope_line":325, "scope_name":"struct fb_vblank", }
+,{"id":"hcpriv", "file":"include/linux/usb.h", "line":1182, "type":"m", "scope_line":1179, "scope_name":"struct urb", }
+,{"id":"hcpriv", "file":"include/linux/usb.h", "line":67, "type":"m", "scope_line":63, "scope_name":"struct usb_host_endpoint", }
+,{"id":"hcpu", "file":"kernel/cpu.c", "line":194, "type":"m", "scope_line":191, "scope_name":"struct take_cpu_down_param", }
+,{"id":"hcs_params", "file":"include/linux/usb/ehci_def.h", "line":32, "type":"m", "scope_line":25, "scope_name":"struct ehci_caps", }
+,{"id":"hcx", "file":"arch/x86/boot/boot.h", "line":267, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"hcyl", "file":"include/linux/hdreg.h", "line":44, "type":"m", "scope_line":36, "scope_name":"union ide_reg_valid_s", }
+,{"id":"hcyl_hob", "file":"include/linux/hdreg.h", "line":53, "type":"m", "scope_line":36, "scope_name":"union ide_reg_valid_s", }
+,{"id":"hd0_info", "file":"arch/x86/include/asm/bootparam.h", "line":100, "type":"m", "scope_line":93, "scope_name":"struct boot_params", }
+,{"id":"hd1_info", "file":"arch/x86/include/asm/bootparam.h", "line":101, "type":"m", "scope_line":93, "scope_name":"struct boot_params", }
+,{"id":"hd_address", "file":"include/linux/hpet.h", "line":97, "type":"m", "scope_line":95, "scope_name":"struct hpet_data", }
+,{"id":"hd_async_queue", "file":"drivers/char/hpet.c", "line":105, "type":"m", "scope_line":98, "scope_name":"struct hpet_dev", }
+,{"id":"hd_drive_cmd_hdr", "file":"include/linux/hdreg.h", "line":76, "type":"s", }
+,{"id":"hd_flags", "file":"drivers/char/hpet.c", "line":106, "type":"m", "scope_line":98, "scope_name":"struct hpet_dev", }
+,{"id":"hd_geometry", "file":"include/linux/hdreg.h", "line":323, "type":"s", }
+,{"id":"hd_hdwirq", "file":"drivers/char/hpet.c", "line":108, "type":"m", "scope_line":98, "scope_name":"struct hpet_dev", }
+,{"id":"hd_hpet", "file":"drivers/char/hpet.c", "line":100, "type":"m", "scope_line":98, "scope_name":"struct hpet_dev", }
+,{"id":"hd_hpets", "file":"drivers/char/hpet.c", "line":99, "type":"m", "scope_line":98, "scope_name":"struct hpet_dev", }
+,{"id":"hd_ireqfreq", "file":"drivers/char/hpet.c", "line":102, "type":"m", "scope_line":98, "scope_name":"struct hpet_dev", }
+,{"id":"hd_irq", "file":"drivers/char/hpet.c", "line":107, "type":"m", "scope_line":98, "scope_name":"struct hpet_dev", }
+,{"id":"hd_irq", "file":"include/linux/hpet.h", "line":100, "type":"m", "scope_line":95, "scope_name":"struct hpet_data", }
+,{"id":"hd_irqdata", "file":"drivers/char/hpet.c", "line":103, "type":"m", "scope_line":98, "scope_name":"struct hpet_dev", }
+,{"id":"hd_name", "file":"drivers/char/hpet.c", "line":109, "type":"m", "scope_line":98, "scope_name":"struct hpet_dev", }
+,{"id":"hd_nirqs", "file":"include/linux/hpet.h", "line":98, "type":"m", "scope_line":95, "scope_name":"struct hpet_data", }
+,{"id":"hd_phys_address", "file":"include/linux/hpet.h", "line":96, "type":"m", "scope_line":95, "scope_name":"struct hpet_data", }
+,{"id":"hd_siz", "file":"fs/partitions/atari.h", "line":27, "type":"m", "scope_line":22, "scope_name":"struct rootsector", }
+,{"id":"hd_state", "file":"include/linux/hpet.h", "line":99, "type":"m", "scope_line":95, "scope_name":"struct hpet_data", }
+,{"id":"hd_struct", "file":"include/linux/genhd.h", "line":90, "type":"s", }
+,{"id":"hd_timer", "file":"drivers/char/hpet.c", "line":101, "type":"m", "scope_line":98, "scope_name":"struct hpet_dev", }
+,{"id":"hd_waitqueue", "file":"drivers/char/hpet.c", "line":104, "type":"m", "scope_line":98, "scope_name":"struct hpet_dev", }
+,{"id":"hdata", "file":"include/linux/ethtool.h", "line":339, "type":"m", "scope_line":336, "scope_name":"struct ethtool_rawip4_spec", }
+,{"id":"hdata", "file":"include/linux/ethtool.h", "line":371, "type":"m", "scope_line":360, "scope_name":"struct ethtool_rx_flow_spec", }
+,{"id":"hdata", "file":"include/linux/ethtool.h", "line":409, "type":"m", "scope_line":398, "scope_name":"struct ethtool_rx_ntuple_flow_spec", }
+,{"id":"hdev", "file":"fs/block_dev.c", "line":909, "type":"m", "scope_line":905, "scope_name":"struct bd_holder", }
+,{"id":"hdi", "file":"arch/x86/boot/boot.h", "line":261, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"hdir", "file":"fs/block_dev.c", "line":910, "type":"m", "scope_line":905, "scope_name":"struct bd_holder", }
+,{"id":"hdlc_streaming", "file":"include/linux/wanrouter.h", "line":186, "type":"m", "scope_line":181, "scope_name":"struct wan_chdlc_conf", }
+,{"id":"hdlc_streaming", "file":"include/linux/wanrouter.h", "line":419, "type":"m", "scope_line":391, "scope_name":"struct wanif_conf", }
+,{"id":"hdlc_window", "file":"include/linux/wanrouter.h", "line":120, "type":"m", "scope_line":114, "scope_name":"struct wan_x25_conf", }
+,{"id":"hdr", "file":"arch/x86/include/asm/bootparam.h", "line":113, "type":"m", "scope_line":93, "scope_name":"struct boot_params", }
+,{"id":"hdr", "file":"arch/x86/include/asm/ink_para.h", "line":60, "type":"m", "scope_line":56, "scope_name":"struct ink_mmu_call", }
+,{"id":"hdr", "file":"block/bsg.c", "line":88, "type":"m", "scope_line":81, "scope_name":"struct bsg_command", }
+,{"id":"hdr", "file":"drivers/net/virtio_net.c", "line":72, "type":"m", "scope_line":70, "scope_name":"struct skb_vnet_hdr", }
+,{"id":"hdr", "file":"drivers/net/virtio_net.c", "line":79, "type":"m", "scope_line":78, "scope_name":"struct padded_vnet_hdr", }
+,{"id":"hdr", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":53, "type":"m", "scope_line":50, "scope_name":"struct xs_stored_msg", }
+,{"id":"hdr", "file":"include/linux/atm_tcp.h", "line":35, "type":"m", "scope_line":34, "scope_name":"struct atmtcp_control", }
+,{"id":"hdr", "file":"include/linux/auto_fs.h", "line":65, "type":"m", "scope_line":64, "scope_name":"struct autofs_packet_missing", }
+,{"id":"hdr", "file":"include/linux/auto_fs.h", "line":73, "type":"m", "scope_line":72, "scope_name":"struct autofs_packet_expire", }
+,{"id":"hdr", "file":"include/linux/auto_fs4.h", "line":116, "type":"m", "scope_line":115, "scope_name":"struct autofs_packet_expire_multi", }
+,{"id":"hdr", "file":"include/linux/auto_fs4.h", "line":123, "type":"m", "scope_line":122, "scope_name":"union autofs_packet_union", }
+,{"id":"hdr", "file":"include/linux/auto_fs4.h", "line":131, "type":"m", "scope_line":130, "scope_name":"struct autofs_v5_packet", }
+,{"id":"hdr", "file":"include/linux/auto_fs4.h", "line":149, "type":"m", "scope_line":148, "scope_name":"union autofs_v5_packet_union", }
+,{"id":"hdr", "file":"include/linux/cdrom.h", "line":1057, "type":"m", "scope_line":1056, "scope_name":"struct cdrom_changer_info", }
+,{"id":"hdr", "file":"include/linux/efi.h", "line":147, "type":"m", "scope_line":146, "scope_name":"efi_runtime_services_t", }
+,{"id":"hdr", "file":"include/linux/efi.h", "line":222, "type":"m", "scope_line":221, "scope_name":"efi_system_table_t", }
+,{"id":"hdr", "file":"include/linux/if_fddi.h", "line":100, "type":"m", "scope_line":91, "scope_name":"struct fddihdr", }
+,{"id":"hdr", "file":"include/linux/tcp.h", "line":65, "type":"m", "scope_line":64, "scope_name":"union tcp_word_hdr", }
+,{"id":"hdr", "file":"include/linux/virtio_net.h", "line":59, "type":"m", "scope_line":58, "scope_name":"struct virtio_net_hdr_mrg_rxbuf", }
+,{"id":"hdr", "file":"include/net/pkt_cls.h", "line":210, "type":"m", "scope_line":209, "scope_name":"struct tcf_ematch_tree", }
+,{"id":"hdr", "file":"kernel/module.c", "line":114, "type":"m", "scope_line":113, "scope_name":"struct load_info", }
+,{"id":"hdr_len", "file":"include/linux/skbuff.h", "line":341, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"hdr_len", "file":"include/linux/virtio_net.h", "line":50, "type":"m", "scope_line":41, "scope_name":"struct virtio_net_hdr", }
+,{"id":"hdr_offset", "file":"include/net/xfrm.h", "line":335, "type":"m", "scope_line":320, "scope_name":"struct xfrm_type", }
+,{"id":"hdr_type", "file":"include/linux/pci.h", "line":247, "type":"m", "scope_line":231, "scope_name":"struct pci_dev", }
+,{"id":"hdrincl", "file":"include/net/inet_sock.h", "line":137, "type":"m", "scope_line":112, "scope_name":"struct inet_sock", }
+,{"id":"hdrlen", "file":"drivers/net/ppp_generic.c", "line":85, "type":"m", "scope_line":77, "scope_name":"struct ppp_file", }
+,{"id":"hdrlen", "file":"include/linux/ip.h", "line":123, "type":"m", "scope_line":121, "scope_name":"struct ip_auth_hdr", }
+,{"id":"hdrlen", "file":"include/linux/ip.h", "line":144, "type":"m", "scope_line":142, "scope_name":"struct ip_beet_phdr", }
+,{"id":"hdrlen", "file":"include/linux/ipv6.h", "line":44, "type":"m", "scope_line":42, "scope_name":"struct ipv6_rt_hdr", }
+,{"id":"hdrlen", "file":"include/linux/ipv6.h", "line":57, "type":"m", "scope_line":55, "scope_name":"struct ipv6_opt_hdr", }
+,{"id":"hdrlen", "file":"include/linux/ppp_channel.h", "line":41, "type":"m", "scope_line":37, "scope_name":"struct ppp_channel", }
+,{"id":"hdrsize", "file":"include/net/genetlink.h", "line":39, "type":"m", "scope_line":37, "scope_name":"struct genl_family", }
+,{"id":"hdx", "file":"arch/x86/boot/boot.h", "line":266, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"hdx_loopback", "file":"drivers/net/phy/national.c", "line":49, "type":"t", }
+,{"id":"hdx_loopback_off", "file":"drivers/net/phy/national.c", "line":51, "type":"e", "scope_line":49, "scope_name":"hdx_loopback", }
+,{"id":"hdx_loopback_on", "file":"drivers/net/phy/national.c", "line":50, "type":"e", "scope_line":49, "scope_name":"hdx_loopback", }
+,{"id":"head", "file":"block/compat_ioctl.c", "line":215, "type":"m", "scope_line":212, "scope_name":"struct compat_floppy_struct", }
+,{"id":"head", "file":"drivers/ide/ide.c", "line":241, "type":"m", "scope_line":239, "scope_name":"struct chs_geom", }
+,{"id":"head", "file":"drivers/input/evdev.c", "line":40, "type":"m", "scope_line":39, "scope_name":"struct evdev_client", }
+,{"id":"head", "file":"drivers/input/mousedev.c", "line":99, "type":"m", "scope_line":93, "scope_name":"struct mousedev_client", }
+,{"id":"head", "file":"drivers/serial/8250.c", "line":169, "type":"m", "scope_line":165, "scope_name":"struct irq_info", }
+,{"id":"head", "file":"fs/direct-io.c", "line":126, "type":"m", "scope_line":58, "scope_name":"struct dio", }
+,{"id":"head", "file":"include/linux/aio.h", "line":150, "type":"m", "scope_line":147, "scope_name":"struct aio_ring", }
+,{"id":"head", "file":"include/linux/bio.h", "line":380, "type":"m", "scope_line":379, "scope_name":"struct bio_list", }
+,{"id":"head", "file":"include/linux/circ_buf.h", "line":10, "type":"m", "scope_line":8, "scope_name":"struct circ_buf", }
+,{"id":"head", "file":"include/linux/fd.h", "line":16, "type":"m", "scope_line":13, "scope_name":"struct floppy_struct", }
+,{"id":"head", "file":"include/linux/fd.h", "line":73, "type":"m", "scope_line":72, "scope_name":"struct format_descr", }
+,{"id":"head", "file":"include/linux/genhd.h", "line":70, "type":"m", "scope_line":68, "scope_name":"struct partition", }
+,{"id":"head", "file":"include/linux/ide.h", "line":528, "type":"m", "scope_line":486, "scope_name":"struct ide_drive_s", }
+,{"id":"head", "file":"include/linux/kexec.h", "line":78, "type":"m", "scope_line":77, "scope_name":"struct kimage", }
+,{"id":"head", "file":"include/linux/mm_types.h", "line":164, "type":"m", "scope_line":140, "scope_name":"struct vm_area_struct", }
+,{"id":"head", "file":"include/linux/notifier.h", "line":58, "type":"m", "scope_line":56, "scope_name":"struct atomic_notifier_head", }
+,{"id":"head", "file":"include/linux/notifier.h", "line":63, "type":"m", "scope_line":61, "scope_name":"struct blocking_notifier_head", }
+,{"id":"head", "file":"include/linux/notifier.h", "line":67, "type":"m", "scope_line":66, "scope_name":"struct raw_notifier_head", }
+,{"id":"head", "file":"include/linux/notifier.h", "line":73, "type":"m", "scope_line":70, "scope_name":"struct srcu_notifier_head", }
+,{"id":"head", "file":"include/linux/perf_event.h", "line":622, "type":"m", "scope_line":610, "scope_name":"struct perf_buffer", }
+,{"id":"head", "file":"include/linux/rcupdate.h", "line":491, "type":"m", "scope_line":490, "scope_name":"struct rcu_synchronize", }
+,{"id":"head", "file":"include/linux/rmap.h", "line":50, "type":"m", "scope_line":27, "scope_name":"struct anon_vma", }
+,{"id":"head", "file":"include/linux/skbuff.h", "line":414, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"head", "file":"include/linux/smb_fs.h", "line":102, "type":"m", "scope_line":101, "scope_name":"union smb_dir_cache", }
+,{"id":"head", "file":"include/linux/smb_fs.h", "line":113, "type":"m", "scope_line":112, "scope_name":"struct smb_cache_control", }
+,{"id":"head", "file":"include/linux/sunrpc/xdr.h", "line":56, "type":"m", "scope_line":55, "scope_name":"struct xdr_buf", }
+,{"id":"head", "file":"include/linux/swap.h", "line":191, "type":"m", "scope_line":190, "scope_name":"struct swap_list_t", }
+,{"id":"head", "file":"include/linux/tty.h", "line":87, "type":"m", "scope_line":84, "scope_name":"struct tty_bufhead", }
+,{"id":"head", "file":"include/net/bluetooth/bluetooth.h", "line":120, "type":"m", "scope_line":119, "scope_name":"struct bt_sock_list", }
+,{"id":"head", "file":"include/net/cfg80211.h", "line":286, "type":"m", "scope_line":285, "scope_name":"struct beacon_parameters", }
+,{"id":"head", "file":"include/net/inet_hashtables.h", "line":112, "type":"m", "scope_line":110, "scope_name":"struct inet_listen_hashbucket", }
+,{"id":"head", "file":"include/net/sock.h", "line":259, "type":"m", "scope_line":224, "scope_name":"struct sock", }
+,{"id":"head", "file":"include/net/udp.h", "line":61, "type":"m", "scope_line":60, "scope_name":"struct udp_hslot", }
+,{"id":"head", "file":"include/trace/events/jbd2.h", "line":84, "type":"m", "scope_line":84, "scope_name":"struct ftrace_raw_jbd2_end_commit", }
+,{"id":"head", "file":"init/initramfs.c", "line":23, "type":"v", }
+,{"id":"head", "file":"kernel/audit_tree.c", "line":19, "type":"m", "scope_line":11, "scope_name":"struct audit_tree", }
+,{"id":"head", "file":"kernel/audit_tree.c", "line":30, "type":"m", "scope_line":23, "scope_name":"struct audit_chunk", }
+,{"id":"head", "file":"kernel/softirq.c", "line":353, "type":"m", "scope_line":351, "scope_name":"struct tasklet_head", }
+,{"id":"head", "file":"kernel/trace/ring_buffer.c", "line":489, "type":"m", "scope_line":487, "scope_name":"struct ring_buffer_iter", }
+,{"id":"head", "file":"mm/ksm.c", "line":143, "type":"m", "scope_line":134, "scope_name":"struct rmap_item", }
+,{"id":"head", "file":"mm/memory-failure.c", "line":739, "type":"d", }
+,{"id":"head", "file":"mm/memory-failure.c", "line":796, "type":"d", }
+,{"id":"head", "file":"mm/slab.c", "line":226, "type":"m", "scope_line":225, "scope_name":"struct slab_rcu", }
+,{"id":"head", "file":"net/ipv6/addrlabel.c", "line":48, "type":"m", "scope_line":46, "scope_name":"struct ip6addrlbl_table", }
+,{"id":"head", "file":"net/packet/af_packet.c", "line":168, "type":"m", "scope_line":166, "scope_name":"struct packet_ring_buffer", }
+,{"id":"head", "file":"security/selinux/ss/conditional.c", "line":262, "type":"m", "scope_line":259, "scope_name":"struct cond_insertf_data", }
+,{"id":"head", "file":"security/selinux/ss/policydb.h", "line":165, "type":"m", "scope_line":163, "scope_name":"struct genfs", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":348, "type":"m", "scope_line":347, "scope_name":"struct tomoyo_path_group", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":354, "type":"m", "scope_line":353, "scope_name":"struct tomoyo_number_group", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":438, "type":"m", "scope_line":437, "scope_name":"struct tomoyo_path_acl", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":459, "type":"m", "scope_line":458, "scope_name":"struct tomoyo_path_number_acl", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":480, "type":"m", "scope_line":479, "scope_name":"struct tomoyo_mkdev_acl", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":502, "type":"m", "scope_line":501, "scope_name":"struct tomoyo_path2_acl", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":522, "type":"m", "scope_line":521, "scope_name":"struct tomoyo_mount_acl", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":585, "type":"m", "scope_line":584, "scope_name":"struct tomoyo_readable_file", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":599, "type":"m", "scope_line":598, "scope_name":"struct tomoyo_no_pattern", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":613, "type":"m", "scope_line":612, "scope_name":"struct tomoyo_no_rewrite", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":632, "type":"m", "scope_line":631, "scope_name":"struct tomoyo_transition_control", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":650, "type":"m", "scope_line":649, "scope_name":"struct tomoyo_aggregator", }
+,{"id":"head", "file":"security/tomoyo/common.h", "line":667, "type":"m", "scope_line":666, "scope_name":"struct tomoyo_manager", }
+,{"id":"head_len", "file":"include/net/cfg80211.h", "line":288, "type":"m", "scope_line":285, "scope_name":"struct beacon_parameters", }
+,{"id":"head_len", "file":"net/ipv4/icmp.c", "line":110, "type":"m", "scope_line":101, "scope_name":"struct icmp_bxm", }
+,{"id":"head_page", "file":"kernel/trace/ring_buffer.c", "line":452, "type":"m", "scope_line":444, "scope_name":"struct ring_buffer_per_cpu", }
+,{"id":"head_page", "file":"kernel/trace/ring_buffer.c", "line":490, "type":"m", "scope_line":487, "scope_name":"struct ring_buffer_iter", }
+,{"id":"header", "file":"arch/x86/include/asm/bootparam.h", "line":36, "type":"m", "scope_line":24, "scope_name":"struct setup_header", }
+,{"id":"header", "file":"arch/x86/include/asm/kvm_para.h", "line":57, "type":"m", "scope_line":56, "scope_name":"struct kvm_mmu_op_write_pte", }
+,{"id":"header", "file":"arch/x86/include/asm/kvm_para.h", "line":63, "type":"m", "scope_line":62, "scope_name":"struct kvm_mmu_op_flush_tlb", }
+,{"id":"header", "file":"arch/x86/include/asm/kvm_para.h", "line":67, "type":"m", "scope_line":66, "scope_name":"struct kvm_mmu_op_release_pt", }
+,{"id":"header", "file":"drivers/scsi/sg.c", "line":132, "type":"m", "scope_line":128, "scope_name":"struct sg_request", }
+,{"id":"header", "file":"fs/ext3/xattr.c", "line":690, "type":"d", }
+,{"id":"header", "file":"fs/ext3/xattr.c", "line":862, "type":"d", }
+,{"id":"header", "file":"fs/ext4/xattr.c", "line":699, "type":"d", }
+,{"id":"header", "file":"fs/ext4/xattr.c", "line":884, "type":"d", }
+,{"id":"header", "file":"include/acpi/actbl.h", "line":153, "type":"m", "scope_line":152, "scope_name":"struct acpi_table_rsdt", }
+,{"id":"header", "file":"include/acpi/actbl.h", "line":158, "type":"m", "scope_line":157, "scope_name":"struct acpi_table_xsdt", }
+,{"id":"header", "file":"include/acpi/actbl.h", "line":206, "type":"m", "scope_line":205, "scope_name":"struct acpi_table_fadt", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":120, "type":"m", "scope_line":119, "scope_name":"struct acpi_table_bert", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":166, "type":"m", "scope_line":165, "scope_name":"struct acpi_table_cpep", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":173, "type":"m", "scope_line":172, "scope_name":"struct acpi_cpep_polling", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":187, "type":"m", "scope_line":186, "scope_name":"struct acpi_table_ecdt", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":203, "type":"m", "scope_line":202, "scope_name":"struct acpi_table_einj", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":287, "type":"m", "scope_line":286, "scope_name":"struct acpi_table_erst", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":377, "type":"m", "scope_line":376, "scope_name":"struct acpi_table_hest", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":489, "type":"m", "scope_line":488, "scope_name":"struct acpi_hest_ia_machine_check", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":504, "type":"m", "scope_line":503, "scope_name":"struct acpi_hest_ia_corrected", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":518, "type":"m", "scope_line":517, "scope_name":"struct acpi_hest_ia_nmi", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":530, "type":"m", "scope_line":529, "scope_name":"struct acpi_hest_aer_root", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":538, "type":"m", "scope_line":537, "scope_name":"struct acpi_hest_aer", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":545, "type":"m", "scope_line":544, "scope_name":"struct acpi_hest_aer_bridge", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":555, "type":"m", "scope_line":554, "scope_name":"struct acpi_hest_generic", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":606, "type":"m", "scope_line":605, "scope_name":"struct acpi_table_madt", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":644, "type":"m", "scope_line":643, "scope_name":"struct acpi_madt_local_apic", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":653, "type":"m", "scope_line":652, "scope_name":"struct acpi_madt_io_apic", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":663, "type":"m", "scope_line":662, "scope_name":"struct acpi_madt_interrupt_override", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":673, "type":"m", "scope_line":672, "scope_name":"struct acpi_madt_nmi_source", }
+,{"id":"header", "file":"include/acpi/actbl1.h", "line":681, "type":"m", "scope_line":680, "scope_name":"struct acpi_madt_local_apic_nmi", }
+,];
+xr_frag_insert('t/3e/eea3389894a2e6ae156ee78030e80cce271838.xr', __xr_tmp);

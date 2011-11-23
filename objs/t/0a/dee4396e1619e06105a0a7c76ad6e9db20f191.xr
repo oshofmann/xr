@@ -1,0 +1,17 @@
+var __xr_tmp = [
+{"id":"emergency_restart", "file":"arch/x86/include/asm/reboot.h", "line":14, "type":"m", "scope_line":8, "scope_name":"struct machine_ops", }
+,{"id":"emergency_restart", "file":"drivers/char/sysrq.c", "line":147, "type":"c", "scope_line":143, "scope_name":"sysrq_handle_reboot", }
+,{"id":"emergency_restart", "file":"kernel/panic.c", "line":126, "type":"c", "scope_line":59, "scope_name":"panic", }
+,{"id":"emergency_restart", "file":"kernel/sys.c", "line":286, "type":"f", }
+,{"id":"emergency_sync", "file":"drivers/char/sysrq.c", "line":158, "type":"c", "scope_line":156, "scope_name":"sysrq_handle_sync", }
+,{"id":"emergency_sync", "file":"fs/sync.c", "line":120, "type":"f", }
+,{"id":"emergency_sync", "file":"kernel/sys.c", "line":1799, "type":"c", "scope_line":1763, "scope_name":"orderly_poweroff", }
+,{"id":"emergency_thaw_all", "file":"drivers/char/sysrq.c", "line":365, "type":"c", "scope_line":363, "scope_name":"sysrq_handle_thaw", }
+,{"id":"emergency_thaw_all", "file":"fs/buffer.c", "line":584, "type":"f", }
+,{"id":"emergency_vmx_disable_all", "file":"arch/x86/kernel/reboot.c", "line":508, "type":"f", }
+,{"id":"emergency_vmx_disable_all", "file":"arch/x86/kernel/reboot.c", "line":552, "type":"c", "scope_line":547, "scope_name":"native_machine_emergency_restart", }
+,{"id":"emit_log_char", "file":"kernel/printk.c", "line":534, "type":"f", }
+,{"id":"emit_log_char", "file":"kernel/printk.c", "line":780, "type":"c", "scope_line":697, "scope_name":"vprintk", }
+,{"id":"emit_log_char", "file":"kernel/printk.c", "line":798, "type":"c", "scope_line":697, "scope_name":"vprintk", }
+,];
+xr_frag_insert('t/0a/dee4396e1619e06105a0a7c76ad6e9db20f191.xr', __xr_tmp);

@@ -1,0 +1,199 @@
+var __xr_tmp = [
+{"id":"waitqueue_active", "file":"include/net/sock.h", "line":1463, "type":"c", "scope_line":1453, "scope_name":"wq_has_sleeper", }
+,{"id":"waitqueue_active", "file":"kernel/irq/manage.c", "line":611, "type":"c", "scope_line":573, "scope_name":"irq_thread", }
+,{"id":"waitqueue_active", "file":"kernel/printk.c", "line":1098, "type":"c", "scope_line":1096, "scope_name":"wake_up_klogd", }
+,{"id":"waitqueue_active", "file":"kernel/relay.c", "line":744, "type":"c", "scope_line":723, "scope_name":"relay_switch_subbuf", }
+,{"id":"waitqueue_active", "file":"kernel/wait.c", "line":157, "type":"c", "scope_line":148, "scope_name":"abort_exclusive_wait", }
+,{"id":"waitqueue_active", "file":"kernel/wait.c", "line":253, "type":"c", "scope_line":250, "scope_name":"__wake_up_bit", }
+,{"id":"waitqueue_active", "file":"mm/backing-dev.c", "line":741, "type":"c", "scope_line":733, "scope_name":"clear_bdi_congested", }
+,{"id":"waitqueue_active", "file":"mm/dmapool.c", "line":437, "type":"c", "scope_line":381, "scope_name":"dma_pool_free", }
+,{"id":"waitqueue_active", "file":"mm/mmzone.c", "line":104, "type":"c", "scope_line":93, "scope_name":"zone_nr_free_pages", }
+,{"id":"waitqueue_active", "file":"mm/vmscan.c", "line":2428, "type":"c", "scope_line":2413, "scope_name":"wakeup_kswapd", }
+,{"id":"waitqueue_active", "file":"net/core/sock.c", "line":2026, "type":"c", "scope_line":2015, "scope_name":"release_sock", }
+,{"id":"waitv", "file":"include/linux/vt.h", "line":21, "type":"m", "scope_line":19, "scope_name":"struct vt_mode", }
+,{"id":"wake", "file":"drivers/md/dm-kcopyd.c", "line":324, "type":"c", "scope_line":311, "scope_name":"complete_io", }
+,{"id":"wake", "file":"drivers/md/dm-kcopyd.c", "line":337, "type":"c", "scope_line":311, "scope_name":"complete_io", }
+,{"id":"wake", "file":"drivers/md/dm-kcopyd.c", "line":457, "type":"c", "scope_line":449, "scope_name":"dispatch_job", }
+,{"id":"wake", "file":"drivers/md/dm-kcopyd.c", "line":526, "type":"c", "scope_line":461, "scope_name":"segment_complete", }
+,{"id":"wake", "file":"drivers/md/dm-kcopyd.c", "line":65, "type":"f", }
+,{"id":"wake", "file":"include/linux/suspend.h", "line":114, "type":"m", "scope_line":108, "scope_name":"struct platform_suspend_ops", }
+,{"id":"wake_affine", "file":"kernel/sched_fair.c", "line":1223, "type":"f", }
+,{"id":"wake_affine", "file":"kernel/sched_fair.c", "line":1529, "type":"c", "scope_line":1446, "scope_name":"select_task_rq_fair", }
+,{"id":"wake_all_kswapd", "file":"mm/page_alloc.c", "line":1915, "type":"f", }
+,{"id":"wake_all_kswapd", "file":"mm/page_alloc.c", "line":2000, "type":"c", "scope_line":1964, "scope_name":"__alloc_pages_slowpath", }
+,{"id":"wake_bit_function", "file":"kernel/wait.c", "line":173, "type":"f", }
+,{"id":"wake_capable", "file":"include/acpi/acpi_bus.h", "line":151, "type":"m", "scope_line":142, "scope_name":"struct acpi_device_flags", }
+,{"id":"wake_depth", "file":"include/linux/irq.h", "line":191, "type":"m", "scope_line":175, "scope_name":"struct irq_desc", }
+,{"id":"wake_futex", "file":"kernel/futex.c", "line":1302, "type":"c", "scope_line":1148, "scope_name":"futex_requeue", }
+,{"id":"wake_futex", "file":"kernel/futex.c", "line":733, "type":"f", }
+,{"id":"wake_futex", "file":"kernel/futex.c", "line":902, "type":"c", "scope_line":872, "scope_name":"futex_wake", }
+,{"id":"wake_futex", "file":"kernel/futex.c", "line":976, "type":"c", "scope_line":918, "scope_name":"futex_wake_op", }
+,{"id":"wake_futex", "file":"kernel/futex.c", "line":988, "type":"c", "scope_line":918, "scope_name":"futex_wake_op", }
+,{"id":"wake_futex_pi", "file":"kernel/futex.c", "line":2072, "type":"c", "scope_line":2020, "scope_name":"futex_unlock_pi", }
+,{"id":"wake_futex_pi", "file":"kernel/futex.c", "line":760, "type":"f", }
+,{"id":"wake_idx", "file":"include/linux/sched.h", "line":905, "type":"m", "scope_line":892, "scope_name":"struct sched_domain", }
+,{"id":"wake_off", "file":"drivers/rtc/rtc-cmos.c", "line":50, "type":"m", "scope_line":43, "scope_name":"struct cmos_rtc", }
+,{"id":"wake_off", "file":"include/linux/mc146818rtc.h", "line":32, "type":"m", "scope_line":30, "scope_name":"struct cmos_rtc_board_info", }
+,{"id":"wake_on", "file":"drivers/rtc/rtc-cmos.c", "line":49, "type":"m", "scope_line":43, "scope_name":"struct cmos_rtc", }
+,{"id":"wake_on", "file":"include/linux/mc146818rtc.h", "line":31, "type":"m", "scope_line":30, "scope_name":"struct cmos_rtc_board_info", }
+,{"id":"wake_show", "file":"drivers/base/power/sysfs.c", "line":175, "type":"f", }
+,{"id":"wake_store", "file":"drivers/base/power/sysfs.c", "line":183, "type":"f", }
+,{"id":"wake_up", "file":"include/linux/wait.h", "line":170, "type":"d", }
+,{"id":"wake_up_all", "file":"include/linux/wait.h", "line":172, "type":"d", }
+,{"id":"wake_up_bit", "file":"fs/block_dev.c", "line":768, "type":"c", "scope_line":764, "scope_name":"__bd_abort_claiming", }
+,{"id":"wake_up_bit", "file":"fs/buffer.c", "line":82, "type":"c", "scope_line":78, "scope_name":"unlock_buffer", }
+,{"id":"wake_up_bit", "file":"fs/fs-writeback.c", "line":198, "type":"c", "scope_line":192, "scope_name":"inode_sync_complete", }
+,{"id":"wake_up_bit", "file":"fs/inode.c", "line":114, "type":"c", "scope_line":108, "scope_name":"wake_up_inode", }
+,{"id":"wake_up_bit", "file":"fs/jbd/commit.c", "line":751, "type":"c", "scope_line":303, "scope_name":"journal_commit_transaction", }
+,{"id":"wake_up_bit", "file":"fs/jbd2/commit.c", "line":255, "type":"c", "scope_line":229, "scope_name":"journal_submit_data_buffers", }
+,{"id":"wake_up_bit", "file":"fs/jbd2/commit.c", "line":292, "type":"c", "scope_line":266, "scope_name":"journal_finish_inode_data_buffers", }
+,{"id":"wake_up_bit", "file":"fs/jbd2/commit.c", "line":800, "type":"c", "scope_line":341, "scope_name":"jbd2_journal_commit_transaction", }
+,{"id":"wake_up_bit", "file":"kernel/wait.c", "line":275, "type":"f", }
+,{"id":"wake_up_bit", "file":"mm/backing-dev.c", "line":499, "type":"c", "scope_line":361, "scope_name":"bdi_forker_thread", }
+,{"id":"wake_up_bit", "file":"mm/swapfile.c", "line":374, "type":"c", "scope_line":210, "scope_name":"scan_swap_map", }
+,{"id":"wake_up_bit", "file":"security/keys/key.c", "line":441, "type":"c", "scope_line":397, "scope_name":"__key_instantiate_and_link", }
+,{"id":"wake_up_bit", "file":"security/keys/key.c", "line":535, "type":"c", "scope_line":483, "scope_name":"key_negate_and_link", }
+,{"id":"wake_up_idle_cpu", "file":"kernel/sched.c", "line":1228, "type":"f", }
+,{"id":"wake_up_idle_cpu", "file":"kernel/timer.c", "line":900, "type":"c", "scope_line":878, "scope_name":"add_timer_on", }
+,{"id":"wake_up_inode", "file":"fs/inode.c", "line":108, "type":"f", }
+,{"id":"wake_up_inode", "file":"fs/inode.c", "line":1243, "type":"c", "scope_line":1204, "scope_name":"iput_final", }
+,{"id":"wake_up_inode", "file":"fs/inode.c", "line":345, "type":"c", "scope_line":328, "scope_name":"dispose_list", }
+,{"id":"wake_up_inode", "file":"fs/inode.c", "line":694, "type":"c", "scope_line":663, "scope_name":"unlock_new_inode", }
+,{"id":"wake_up_interruptible", "file":"include/linux/wait.h", "line":175, "type":"d", }
+,{"id":"wake_up_interruptible_all", "file":"include/linux/wait.h", "line":177, "type":"d", }
+,{"id":"wake_up_interruptible_nr", "file":"include/linux/wait.h", "line":176, "type":"d", }
+,{"id":"wake_up_interruptible_poll", "file":"include/linux/wait.h", "line":187, "type":"d", }
+,{"id":"wake_up_interruptible_sync", "file":"include/linux/wait.h", "line":178, "type":"d", }
+,{"id":"wake_up_interruptible_sync_poll", "file":"include/linux/wait.h", "line":189, "type":"d", }
+,{"id":"wake_up_klogd", "file":"kernel/printk.c", "line":1096, "type":"f", }
+,{"id":"wake_up_klogd", "file":"kernel/printk.c", "line":1147, "type":"c", "scope_line":1116, "scope_name":"release_console_sem", }
+,{"id":"wake_up_klogd", "file":"lib/bust_spinlocks.c", "line":28, "type":"c", "scope_line":18, "scope_name":"bust_spinlocks", }
+,{"id":"wake_up_locked", "file":"include/linux/wait.h", "line":173, "type":"d", }
+,{"id":"wake_up_locked_poll", "file":"include/linux/wait.h", "line":185, "type":"d", }
+,{"id":"wake_up_new_task", "file":"kernel/fork.c", "line":1461, "type":"c", "scope_line":1372, "scope_name":"do_fork", }
+,{"id":"wake_up_new_task", "file":"kernel/sched.c", "line":2598, "type":"f", }
+,{"id":"wake_up_nr", "file":"include/linux/wait.h", "line":171, "type":"d", }
+,{"id":"wake_up_page", "file":"mm/filemap.c", "line":503, "type":"f", }
+,{"id":"wake_up_page", "file":"mm/filemap.c", "line":553, "type":"c", "scope_line":548, "scope_name":"unlock_page", }
+,{"id":"wake_up_page", "file":"mm/filemap.c", "line":570, "type":"c", "scope_line":561, "scope_name":"end_page_writeback", }
+,{"id":"wake_up_partner", "file":"fs/fifo.c", "line":114, "type":"c", "scope_line":33, "scope_name":"fifo_open", }
+,{"id":"wake_up_partner", "file":"fs/fifo.c", "line":28, "type":"f", }
+,{"id":"wake_up_partner", "file":"fs/fifo.c", "line":62, "type":"c", "scope_line":33, "scope_name":"fifo_open", }
+,{"id":"wake_up_partner", "file":"fs/fifo.c", "line":91, "type":"c", "scope_line":33, "scope_name":"fifo_open", }
+,{"id":"wake_up_poll", "file":"include/linux/wait.h", "line":183, "type":"d", }
+,{"id":"wake_up_process", "file":"crypto/algboss.c", "line":195, "type":"c", "scope_line":98, "scope_name":"cryptomgr_schedule_probe", }
+,{"id":"wake_up_process", "file":"crypto/algboss.c", "line":260, "type":"c", "scope_line":231, "scope_name":"cryptomgr_schedule_test", }
+,{"id":"wake_up_process", "file":"drivers/base/firmware_class.c", "line":687, "type":"c", "scope_line":662, "scope_name":"request_firmware_nowait", }
+,{"id":"wake_up_process", "file":"drivers/block/loop.c", "line":851, "type":"c", "scope_line":740, "scope_name":"loop_set_fd", }
+,{"id":"wake_up_process", "file":"drivers/block/pktcdvd.c", "line":2750, "type":"c", "scope_line":2709, "scope_name":"pkt_new_dev", }
+,{"id":"wake_up_process", "file":"drivers/char/hvc_console.c", "line":290, "type":"c", "scope_line":287, "scope_name":"hvc_kick", }
+,{"id":"wake_up_process", "file":"drivers/char/hvc_console.c", "line":871, "type":"c", "scope_line":847, "scope_name":"hvc_init", }
+,{"id":"wake_up_process", "file":"drivers/input/serio/serio.c", "line":1006, "type":"c", "scope_line":996, "scope_name":"serio_init", }
+,{"id":"wake_up_process", "file":"drivers/md/dm-io.c", "line":141, "type":"c", "scope_line":131, "scope_name":"dec_count", }
+,{"id":"wake_up_process", "file":"drivers/pci/hotplug/cpci_hotplug_core.c", "line":344, "type":"c", "scope_line":328, "scope_name":"cpci_hp_intr", }
+,{"id":"wake_up_process", "file":"drivers/pci/hotplug/cpci_hotplug_core.c", "line":564, "type":"c", "scope_line":560, "scope_name":"cpci_start_thread", }
+,{"id":"wake_up_process", "file":"drivers/pci/hotplug/cpci_hotplug_core.c", "line":566, "type":"c", "scope_line":560, "scope_name":"cpci_start_thread", }
+,{"id":"wake_up_process", "file":"drivers/scsi/hosts.c", "line":425, "type":"c", "scope_line":330, "scope_name":"scsi_host_alloc", }
+,{"id":"wake_up_process", "file":"drivers/scsi/scsi_error.c", "line":58, "type":"c", "scope_line":54, "scope_name":"scsi_eh_wakeup", }
+,{"id":"wake_up_process", "file":"drivers/scsi/scsi_scan.c", "line":1872, "type":"c", "scope_line":1855, "scope_name":"scsi_scan_host", }
+,{"id":"wake_up_process", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":891, "type":"c", "scope_line":870, "scope_name":"xs_init", }
+,{"id":"wake_up_process", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":896, "type":"c", "scope_line":870, "scope_name":"xs_init", }
+,{"id":"wake_up_process", "file":"fs/aio.c", "line":1067, "type":"c", "scope_line":1062, "scope_name":"timeout_func", }
+,{"id":"wake_up_process", "file":"fs/aio.c", "line":899, "type":"c", "scope_line":893, "scope_name":"kick_iocb", }
+,{"id":"wake_up_process", "file":"fs/aio.c", "line":933, "type":"c", "scope_line":912, "scope_name":"aio_complete", }
+,{"id":"wake_up_process", "file":"fs/direct-io.c", "line":279, "type":"c", "scope_line":267, "scope_name":"dio_bio_end_aio", }
+,{"id":"wake_up_process", "file":"fs/direct-io.c", "line":304, "type":"c", "scope_line":295, "scope_name":"dio_bio_end_io", }
+,{"id":"wake_up_process", "file":"fs/exec.c", "line":1724, "type":"c", "scope_line":1709, "scope_name":"coredump_finish", }
+,{"id":"wake_up_process", "file":"fs/fs-writeback.c", "line":116, "type":"c", "scope_line":102, "scope_name":"__bdi_start_writeback", }
+,{"id":"wake_up_process", "file":"fs/fs-writeback.c", "line":90, "type":"c", "scope_line":82, "scope_name":"bdi_queue_work", }
+,{"id":"wake_up_process", "file":"fs/fs-writeback.c", "line":97, "type":"c", "scope_line":82, "scope_name":"bdi_queue_work", }
+,{"id":"wake_up_process", "file":"fs/jbd/journal.c", "line":217, "type":"c", "scope_line":213, "scope_name":"journal_start_thread", }
+,{"id":"wake_up_process", "file":"fs/jbd/journal.c", "line":96, "type":"c", "scope_line":92, "scope_name":"commit_timeout", }
+,{"id":"wake_up_process", "file":"fs/jbd2/journal.c", "line":107, "type":"c", "scope_line":103, "scope_name":"commit_timeout", }
+,{"id":"wake_up_process", "file":"fs/jbd2/journal.c", "line":225, "type":"c", "scope_line":221, "scope_name":"jbd2_journal_start_thread", }
+,{"id":"wake_up_process", "file":"fs/notify/mark.c", "line":364, "type":"c", "scope_line":360, "scope_name":"fsnotify_mark_init", }
+,{"id":"wake_up_process", "file":"ipc/mqueue.c", "line":815, "type":"c", "scope_line":808, "scope_name":"pipelined_send", }
+,{"id":"wake_up_process", "file":"ipc/mqueue.c", "line":834, "type":"c", "scope_line":822, "scope_name":"pipelined_receive", }
+,{"id":"wake_up_process", "file":"ipc/msg.c", "line":250, "type":"c", "scope_line":238, "scope_name":"ss_wakeup", }
+,{"id":"wake_up_process", "file":"ipc/msg.c", "line":265, "type":"c", "scope_line":254, "scope_name":"expunge_all", }
+,{"id":"wake_up_process", "file":"ipc/msg.c", "line":617, "type":"c", "scope_line":600, "scope_name":"pipelined_send", }
+,{"id":"wake_up_process", "file":"ipc/msg.c", "line":624, "type":"c", "scope_line":600, "scope_name":"pipelined_send", }
+,{"id":"wake_up_process", "file":"ipc/sem.c", "line":447, "type":"c", "scope_line":440, "scope_name":"wake_up_sem_queue_do", }
+,{"id":"wake_up_process", "file":"kernel/audit.c", "line":576, "type":"c", "scope_line":558, "scope_name":"audit_send_reply", }
+,{"id":"wake_up_process", "file":"kernel/audit.c", "line":672, "type":"c", "scope_line":651, "scope_name":"audit_receive_msg", }
+,{"id":"wake_up_process", "file":"kernel/audit_tree.c", "line":834, "type":"c", "scope_line":832, "scope_name":"audit_schedule_prune", }
+,{"id":"wake_up_process", "file":"kernel/auditfilter.c", "line":1124, "type":"c", "scope_line":1094, "scope_name":"audit_receive_filter", }
+,{"id":"wake_up_process", "file":"kernel/cpu.c", "line":78, "type":"c", "scope_line":72, "scope_name":"put_online_cpus", }
+,{"id":"wake_up_process", "file":"kernel/exit.c", "line":102, "type":"c", "scope_line":79, "scope_name":"__exit_signal", }
+,{"id":"wake_up_process", "file":"kernel/exit.c", "line":857, "type":"c", "scope_line":810, "scope_name":"exit_notify", }
+,{"id":"wake_up_process", "file":"kernel/freezer.c", "line":155, "type":"c", "scope_line":150, "scope_name":"thaw_process", }
+,{"id":"wake_up_process", "file":"kernel/hrtimer.c", "line":1490, "type":"c", "scope_line":1482, "scope_name":"hrtimer_wakeup", }
+,{"id":"wake_up_process", "file":"kernel/hung_task.c", "line":184, "type":"c", "scope_line":173, "scope_name":"proc_dohung_task_timeout_secs", }
+,{"id":"wake_up_process", "file":"kernel/hung_task.c", "line":212, "type":"c", "scope_line":209, "scope_name":"hung_task_init", }
+,{"id":"wake_up_process", "file":"kernel/irq/handle.c", "line":406, "type":"c", "scope_line":368, "scope_name":"handle_IRQ_event", }
+,{"id":"wake_up_process", "file":"kernel/irq/manage.c", "line":826, "type":"c", "scope_line":648, "scope_name":"__setup_irq", }
+,{"id":"wake_up_process", "file":"kernel/kthread.c", "line":147, "type":"c", "scope_line":132, "scope_name":"kthread_create", }
+,{"id":"wake_up_process", "file":"kernel/kthread.c", "line":219, "type":"c", "scope_line":207, "scope_name":"kthread_stop", }
+,{"id":"wake_up_process", "file":"kernel/kthread.c", "line":346, "type":"c", "scope_line":335, "scope_name":"queue_kthread_work", }
+,{"id":"wake_up_process", "file":"kernel/module.c", "line":880, "type":"c", "scope_line":870, "scope_name":"module_put", }
+,{"id":"wake_up_process", "file":"kernel/mutex.c", "line":332, "type":"c", "scope_line":306, "scope_name":"__mutex_unlock_common_slowpath", }
+,{"id":"wake_up_process", "file":"kernel/posix-cpu-timers.c", "line":616, "type":"c", "scope_line":604, "scope_name":"cpu_timer_fire", }
+,{"id":"wake_up_process", "file":"kernel/ptrace.c", "line":316, "type":"c", "scope_line":296, "scope_name":"ptrace_detach", }
+,{"id":"wake_up_process", "file":"kernel/ptrace.c", "line":514, "type":"c", "scope_line":484, "scope_name":"ptrace_resume", }
+,{"id":"wake_up_process", "file":"kernel/rtmutex.c", "line":528, "type":"c", "scope_line":480, "scope_name":"wakeup_next_waiter", }
+,{"id":"wake_up_process", "file":"kernel/sched.c", "line":2479, "type":"f", }
+,{"id":"wake_up_process", "file":"kernel/semaphore.c", "line":262, "type":"c", "scope_line":256, "scope_name":"__up", }
+,{"id":"wake_up_process", "file":"kernel/softirq.c", "line":76, "type":"c", "scope_line":70, "scope_name":"wakeup_softirqd", }
+,{"id":"wake_up_process", "file":"kernel/softirq.c", "line":818, "type":"c", "scope_line":798, "scope_name":"cpu_callback", }
+,{"id":"wake_up_process", "file":"kernel/stop_machine.c", "line":315, "type":"c", "scope_line":291, "scope_name":"cpu_stop_cpu_callback", }
+,{"id":"wake_up_process", "file":"kernel/stop_machine.c", "line":73, "type":"c", "scope_line":64, "scope_name":"cpu_stop_queue_work", }
+,{"id":"wake_up_process", "file":"kernel/time/clocksource.c", "line":205, "type":"c", "scope_line":199, "scope_name":"clocksource_watchdog_work", }
+,{"id":"wake_up_process", "file":"kernel/timer.c", "line":1401, "type":"c", "scope_line":1399, "scope_name":"process_timeout", }
+,{"id":"wake_up_process", "file":"kernel/workqueue.c", "line":1378, "type":"c", "scope_line":1373, "scope_name":"start_worker", }
+,{"id":"wake_up_process", "file":"kernel/workqueue.c", "line":1457, "type":"c", "scope_line":1442, "scope_name":"send_mayday", }
+,{"id":"wake_up_process", "file":"kernel/workqueue.c", "line":2821, "type":"c", "scope_line":2757, "scope_name":"__alloc_workqueue_key", }
+,{"id":"wake_up_process", "file":"kernel/workqueue.c", "line":3185, "type":"c", "scope_line":3102, "scope_name":"trustee_thread", }
+,{"id":"wake_up_process", "file":"kernel/workqueue.c", "line":3321, "type":"c", "scope_line":3282, "scope_name":"workqueue_cpu_callback", }
+,{"id":"wake_up_process", "file":"kernel/workqueue.c", "line":3352, "type":"c", "scope_line":3282, "scope_name":"workqueue_cpu_callback", }
+,{"id":"wake_up_process", "file":"kernel/workqueue.c", "line":3415, "type":"c", "scope_line":3402, "scope_name":"work_on_cpu", }
+,{"id":"wake_up_process", "file":"kernel/workqueue.c", "line":659, "type":"c", "scope_line":654, "scope_name":"wake_up_worker", }
+,{"id":"wake_up_process", "file":"lib/klist.c", "line":198, "type":"c", "scope_line":184, "scope_name":"klist_release", }
+,{"id":"wake_up_process", "file":"lib/rwsem.c", "line":151, "type":"c", "scope_line":57, "scope_name":"__rwsem_do_wake", }
+,{"id":"wake_up_process", "file":"lib/rwsem.c", "line":97, "type":"c", "scope_line":57, "scope_name":"__rwsem_do_wake", }
+,{"id":"wake_up_process", "file":"mm/backing-dev.c", "line":238, "type":"c", "scope_line":234, "scope_name":"default_bdi_init", }
+,{"id":"wake_up_process", "file":"mm/backing-dev.c", "line":306, "type":"c", "scope_line":304, "scope_name":"sync_supers_timer_fn", }
+,{"id":"wake_up_process", "file":"mm/backing-dev.c", "line":317, "type":"c", "scope_line":310, "scope_name":"wakeup_timer_fn", }
+,{"id":"wake_up_process", "file":"mm/backing-dev.c", "line":325, "type":"c", "scope_line":310, "scope_name":"wakeup_timer_fn", }
+,{"id":"wake_up_process", "file":"mm/backing-dev.c", "line":468, "type":"c", "scope_line":361, "scope_name":"bdi_forker_thread", }
+,{"id":"wake_up_process", "file":"mm/backing-dev.c", "line":542, "type":"c", "scope_line":517, "scope_name":"bdi_register", }
+,{"id":"wake_up_process", "file":"mm/ksm.c", "line":1926, "type":"c", "scope_line":1917, "scope_name":"ksm_init", }
+,{"id":"wake_up_process", "file":"mm/vmscan.c", "line":2545, "type":"c", "scope_line":2537, "scope_name":"kswapd_run", }
+,{"id":"wake_up_process", "file":"security/tomoyo/gc.c", "line":353, "type":"c", "scope_line":348, "scope_name":"tomoyo_run_gc", }
+,{"id":"wake_up_sem_queue_do", "file":"ipc/sem.c", "line":1482, "type":"c", "scope_line":1288, "scope_name":"sys_semtimedop", }
+,{"id":"wake_up_sem_queue_do", "file":"ipc/sem.c", "line":1611, "type":"c", "scope_line":1528, "scope_name":"exit_sem", }
+,{"id":"wake_up_sem_queue_do", "file":"ipc/sem.c", "line":440, "type":"f", }
+,{"id":"wake_up_sem_queue_do", "file":"ipc/sem.c", "line":731, "type":"c", "scope_line":702, "scope_name":"freeary", }
+,{"id":"wake_up_sem_queue_do", "file":"ipc/sem.c", "line":998, "type":"c", "scope_line":846, "scope_name":"semctl_main", }
+,{"id":"wake_up_sem_queue_prepare", "file":"ipc/sem.c", "line":415, "type":"f", }
+,{"id":"wake_up_sem_queue_prepare", "file":"ipc/sem.c", "line":600, "type":"c", "scope_line":542, "scope_name":"update_queue", }
+,{"id":"wake_up_sem_queue_prepare", "file":"ipc/sem.c", "line":724, "type":"c", "scope_line":702, "scope_name":"freeary", }
+,{"id":"wake_up_state", "file":"kernel/freezer.c", "line":112, "type":"c", "scope_line":88, "scope_name":"freeze_task", }
+,{"id":"wake_up_state", "file":"kernel/futex.c", "line":1065, "type":"c", "scope_line":1047, "scope_name":"requeue_pi_wake_futex", }
+,{"id":"wake_up_state", "file":"kernel/futex.c", "line":756, "type":"c", "scope_line":733, "scope_name":"wake_futex", }
+,{"id":"wake_up_state", "file":"kernel/sched.c", "line":2485, "type":"f", }
+,{"id":"wake_up_state", "file":"kernel/signal.c", "line":572, "type":"c", "scope_line":556, "scope_name":"signal_wake_up", }
+,{"id":"wake_up_state", "file":"kernel/signal.c", "line":742, "type":"c", "scope_line":694, "scope_name":"prepare_signal", }
+,{"id":"wake_up_worker", "file":"kernel/workqueue.c", "line":1435, "type":"c", "scope_line":1416, "scope_name":"idle_worker_timeout", }
+,{"id":"wake_up_worker", "file":"kernel/workqueue.c", "line":1804, "type":"c", "scope_line":1750, "scope_name":"process_one_work", }
+,{"id":"wake_up_worker", "file":"kernel/workqueue.c", "line":3552, "type":"c", "scope_line":3520, "scope_name":"thaw_workqueues", }
+,{"id":"wake_up_worker", "file":"kernel/workqueue.c", "line":654, "type":"f", }
+,{"id":"wake_up_worker", "file":"kernel/workqueue.c", "line":757, "type":"c", "scope_line":738, "scope_name":"worker_set_flags", }
+,{"id":"wake_up_worker", "file":"kernel/workqueue.c", "line":945, "type":"c", "scope_line":920, "scope_name":"insert_work", }
+,{"id":"wake_waiting", "file":"drivers/xen/xenbus/xenbus_comms.c", "line":49, "type":"f", }
+,{"id":"wakeme_after_rcu", "file":"kernel/rcupdate.c", "line":99, "type":"f", }
+,{"id":"wakeup", "file":"include/acpi/acpi_bus.h", "line":277, "type":"m", "scope_line":266, "scope_name":"struct acpi_device", }
+,{"id":"wakeup", "file":"include/linux/perf_event.h", "line":625, "type":"m", "scope_line":610, "scope_name":"struct perf_buffer", }
+,{"id":"wakeup", "file":"include/linux/perf_event.h", "line":835, "type":"m", "scope_line":832, "scope_name":"struct perf_output_handle", }
+,{"id":"wakeup", "file":"include/linux/tcp.h", "line":328, "type":"m", "scope_line":291, "scope_name":"struct tcp_sock", }
+,];
+xr_frag_insert('t/ca/ee585c6d1b0bd2a0adbcbef66c06ea479a3d84.xr', __xr_tmp);

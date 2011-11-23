@@ -1,0 +1,327 @@
+var __xr_tmp = [
+{"id":"__param_str_fua", "file":"drivers/ata/libata-core.c", "line":138, "type":"v", }
+,{"id":"__param_str_global_cursor_default", "file":"drivers/char/vt.c", "line":167, "type":"v", }
+,{"id":"__param_str_gso", "file":"drivers/net/virtio_net.c", "line":35, "type":"v", }
+,{"id":"__param_str_gts", "file":"drivers/acpi/acpica/hwsleep.c", "line":216, "type":"v", }
+,{"id":"__param_str_hystart", "file":"net/ipv4/tcp_cubic.c", "line":71, "type":"v", }
+,{"id":"__param_str_hystart_detect", "file":"net/ipv4/tcp_cubic.c", "line":73, "type":"v", }
+,{"id":"__param_str_hystart_low_window", "file":"net/ipv4/tcp_cubic.c", "line":76, "type":"v", }
+,{"id":"__param_str_ignore_cable", "file":"drivers/ide/ide.c", "line":352, "type":"v", }
+,{"id":"__param_str_ignore_hpa", "file":"drivers/ata/libata-core.c", "line":142, "type":"v", }
+,{"id":"__param_str_ignore_ppc", "file":"drivers/acpi/processor_perflib.c", "line":73, "type":"v", }
+,{"id":"__param_str_ignore_sss", "file":"drivers/ata/libahci.c", "line":56, "type":"v", }
+,{"id":"__param_str_ignore_tpc", "file":"drivers/acpi/processor_throttling.c", "line":56, "type":"v", }
+,{"id":"__param_str_immediate_undock", "file":"drivers/acpi/dock.c", "line":47, "type":"v", }
+,{"id":"__param_str_initcall_debug", "file":"init/main.c", "line":720, "type":"v", }
+,{"id":"__param_str_initial_ssthresh", "file":"net/ipv4/tcp_cubic.c", "line":65, "type":"v", }
+,{"id":"__param_str_inq_timeout", "file":"drivers/scsi/scsi_scan.c", "line":121, "type":"v", }
+,{"id":"__param_str_irqfixup", "file":"kernel/irq/spurious.c", "line":289, "type":"v", }
+,{"id":"__param_str_italic", "file":"drivers/char/vt.c", "line":2845, "type":"v", }
+,{"id":"__param_str_kgdb_use_con", "file":"kernel/debug/debug_core.c", "line":97, "type":"v", }
+,{"id":"__param_str_kgdboc", "file":"drivers/serial/kgdboc.c", "line":265, "type":"v", }
+,{"id":"__param_str_latency_factor", "file":"drivers/acpi/processor_idle.c", "line":81, "type":"v", }
+,{"id":"__param_str_legacy_count", "file":"drivers/char/pty.c", "line":350, "type":"v", }
+,{"id":"__param_str_lockdoor", "file":"drivers/cdrom/cdrom.c", "line":303, "type":"v", }
+,{"id":"__param_str_major", "file":"drivers/md/dm.c", "line":2950, "type":"v", }
+,{"id":"__param_str_marvell_enable", "file":"drivers/ata/ahci.c", "line":411, "type":"v", }
+,{"id":"__param_str_master_switch_mode", "file":"net/rfkill/input.c", "line":37, "type":"v", }
+,{"id":"__param_str_max_cstate", "file":"drivers/acpi/processor_idle.c", "line":74, "type":"v", }
+,{"id":"__param_str_max_loop", "file":"drivers/block/loop.c", "line":1469, "type":"v", }
+,{"id":"__param_str_max_luns", "file":"drivers/scsi/scsi_scan.c", "line":90, "type":"v", }
+,{"id":"__param_str_max_part", "file":"drivers/block/brd.c", "line":446, "type":"v", }
+,{"id":"__param_str_max_part", "file":"drivers/block/loop.c", "line":1471, "type":"v", }
+,{"id":"__param_str_max_report_luns", "file":"drivers/scsi/scsi_scan.c", "line":114, "type":"v", }
+,{"id":"__param_str_mrw_format_restart", "file":"drivers/cdrom/cdrom.c", "line":305, "type":"v", }
+,{"id":"__param_str_msi", "file":"drivers/ata/sata_sil24.c", "line":422, "type":"v", }
+,{"id":"__param_str_napi_weight", "file":"drivers/net/virtio_net.c", "line":31, "type":"v", }
+,{"id":"__param_str_noacpi", "file":"drivers/ata/libata-core.c", "line":154, "type":"v", }
+,{"id":"__param_str_noaux", "file":"drivers/input/serio/i8042.c", "line":37, "type":"v", }
+,{"id":"__param_str_nocrt", "file":"drivers/acpi/thermal.c", "line":94, "type":"v", }
+,{"id":"__param_str_nocst", "file":"drivers/acpi/processor_idle.c", "line":76, "type":"v", }
+,{"id":"__param_str_nodma", "file":"drivers/ide/ide.c", "line":211, "type":"v", }
+,{"id":"__param_str_noflush", "file":"drivers/ide/ide.c", "line":216, "type":"v", }
+,{"id":"__param_str_nohpa", "file":"drivers/ide/ide.c", "line":221, "type":"v", }
+,{"id":"__param_str_noirqdebug", "file":"kernel/irq/spurious.c", "line":276, "type":"v", }
+,{"id":"__param_str_nokbd", "file":"drivers/input/serio/i8042.c", "line":33, "type":"v", }
+,{"id":"__param_str_noloop", "file":"drivers/input/serio/i8042.c", "line":61, "type":"v", }
+,{"id":"__param_str_nommiotrace", "file":"arch/x86/mm/mmio-mod.c", "line":83, "type":"v", }
+,{"id":"__param_str_nomux", "file":"drivers/input/serio/i8042.c", "line":41, "type":"v", }
+,{"id":"__param_str_nopnp", "file":"drivers/input/serio/i8042.c", "line":72, "type":"v", }
+,{"id":"__param_str_noprobe", "file":"drivers/ide/ide.c", "line":226, "type":"v", }
+,{"id":"__param_str_nosourceid", "file":"drivers/pci/pcie/aer/aerdrv_core.c", "line":32, "type":"v", }
+,{"id":"__param_str_nowerr", "file":"drivers/ide/ide.c", "line":231, "type":"v", }
+,{"id":"__param_str_nr_uarts", "file":"drivers/serial/8250.c", "line":3299, "type":"v", }
+,{"id":"__param_str_off", "file":"drivers/acpi/thermal.c", "line":98, "type":"v", }
+,{"id":"__param_str_panic", "file":"kernel/panic.c", "line":433, "type":"v", }
+,{"id":"__param_str_pause_on_oops", "file":"kernel/panic.c", "line":434, "type":"v", }
+,{"id":"__param_str_pci_clock", "file":"drivers/ide/ide.c", "line":177, "type":"v", }
+,{"id":"__param_str_pciehp_debug", "file":"drivers/pci/hotplug/pciehp_core.c", "line":55, "type":"v", }
+,{"id":"__param_str_pciehp_detect_mode", "file":"drivers/pci/hotplug/pciehp_acpi.c", "line":44, "type":"v", }
+,{"id":"__param_str_pciehp_force", "file":"drivers/pci/hotplug/pciehp_core.c", "line":58, "type":"v", }
+,{"id":"__param_str_pciehp_poll_mode", "file":"drivers/pci/hotplug/pciehp_core.c", "line":56, "type":"v", }
+,{"id":"__param_str_pciehp_poll_time", "file":"drivers/pci/hotplug/pciehp_core.c", "line":57, "type":"v", }
+,{"id":"__param_str_policy", "file":"drivers/pci/pcie/aspm.c", "line":774, "type":"v", }
+,{"id":"__param_str_power_nocheck", "file":"drivers/acpi/power.c", "line":60, "type":"v", }
+,{"id":"__param_str_probe_rsa", "file":"drivers/serial/8250.c", "line":3306, "type":"v", }
+,{"id":"__param_str_psv", "file":"drivers/acpi/thermal.c", "line":102, "type":"v", }
+,{"id":"__param_str_qhimark", "file":"kernel/rcutree.c", "line":143, "type":"v", }
+,{"id":"__param_str_qlowmark", "file":"kernel/rcutree.c", "line":144, "type":"v", }
+,{"id":"__param_str_rd_nr", "file":"drivers/block/brd.c", "line":442, "type":"v", }
+,{"id":"__param_str_rd_size", "file":"drivers/block/brd.c", "line":444, "type":"v", }
+,{"id":"__param_str_reset", "file":"drivers/input/keyboard/atkbd.c", "line":47, "type":"v", }
+,{"id":"__param_str_reset", "file":"drivers/input/serio/i8042.c", "line":49, "type":"v", }
+,{"id":"__param_str_scan", "file":"drivers/scsi/scsi_scan.c", "line":102, "type":"v", }
+,{"id":"__param_str_scatter_elem_sz", "file":"drivers/scsi/sg.c", "line":1555, "type":"v", }
+,{"id":"__param_str_scroll", "file":"drivers/input/keyboard/atkbd.c", "line":59, "type":"v", }
+,{"id":"__param_str_scsi_logging_level", "file":"drivers/scsi/scsi.c", "line":1312, "type":"v", }
+,{"id":"__param_str_set", "file":"drivers/input/keyboard/atkbd.c", "line":39, "type":"v", }
+,{"id":"__param_str_share_irqs", "file":"drivers/serial/8250.c", "line":3295, "type":"v", }
+,{"id":"__param_str_skip_host_reset", "file":"drivers/ata/libahci.c", "line":53, "type":"v", }
+,{"id":"__param_str_skip_txen_test", "file":"drivers/serial/8250.c", "line":3302, "type":"v", }
+,{"id":"__param_str_softraw", "file":"drivers/input/keyboard/atkbd.c", "line":55, "type":"v", }
+,{"id":"__param_str_softrepeat", "file":"drivers/input/keyboard/atkbd.c", "line":51, "type":"v", }
+,{"id":"__param_str_tap_time", "file":"drivers/input/mousedev.c", "line":50, "type":"v", }
+,{"id":"__param_str_tcp_friendliness", "file":"net/ipv4/tcp_cubic.c", "line":69, "type":"v", }
+,{"id":"__param_str_time", "file":"kernel/printk.c", "line":572, "type":"v", }
+,{"id":"__param_str_trace_pc", "file":"arch/x86/mm/mmio-mod.c", "line":84, "type":"v", }
+,{"id":"__param_str_tzp", "file":"drivers/acpi/thermal.c", "line":90, "type":"v", }
+,{"id":"__param_str_underline", "file":"drivers/char/vt.c", "line":2846, "type":"v", }
+,{"id":"__param_str_unlock", "file":"drivers/input/serio/i8042.c", "line":45, "type":"v", }
+,{"id":"__param_str_vlb_clock", "file":"drivers/ide/ide.c", "line":171, "type":"v", }
+,{"id":"__param_str_xa_test", "file":"drivers/scsi/sr_ioctl.c", "line":32, "type":"v", }
+,{"id":"__param_str_xres", "file":"drivers/input/mousedev.c", "line":42, "type":"v", }
+,{"id":"__param_str_yres", "file":"drivers/input/mousedev.c", "line":46, "type":"v", }
+,{"id":"__param_string_dev_flags", "file":"drivers/scsi/scsi_devinfo.c", "line":677, "type":"v", }
+,{"id":"__param_string_force", "file":"drivers/ata/libata-core.c", "line":122, "type":"v", }
+,{"id":"__param_string_scan", "file":"drivers/scsi/scsi_scan.c", "line":102, "type":"v", }
+,{"id":"__param_tap_time", "file":"drivers/input/mousedev.c", "line":50, "type":"v", }
+,{"id":"__param_tcp_friendliness", "file":"net/ipv4/tcp_cubic.c", "line":69, "type":"v", }
+,{"id":"__param_time", "file":"kernel/printk.c", "line":572, "type":"v", }
+,{"id":"__param_trace_pc", "file":"arch/x86/mm/mmio-mod.c", "line":84, "type":"v", }
+,{"id":"__param_tzp", "file":"drivers/acpi/thermal.c", "line":90, "type":"v", }
+,{"id":"__param_underline", "file":"drivers/char/vt.c", "line":2846, "type":"v", }
+,{"id":"__param_unlock", "file":"drivers/input/serio/i8042.c", "line":45, "type":"v", }
+,{"id":"__param_vlb_clock", "file":"drivers/ide/ide.c", "line":171, "type":"v", }
+,{"id":"__param_xa_test", "file":"drivers/scsi/sr_ioctl.c", "line":32, "type":"v", }
+,{"id":"__param_xres", "file":"drivers/input/mousedev.c", "line":42, "type":"v", }
+,{"id":"__param_yres", "file":"drivers/input/mousedev.c", "line":46, "type":"v", }
+,{"id":"__paravirt_pgd_alloc", "file":"arch/x86/include/asm/pgalloc.h", "line":8, "type":"f", }
+,{"id":"__parent", "file":"include/net/sch_generic.h", "line":70, "type":"m", "scope_line":44, "scope_name":"struct Qdisc", }
+,{"id":"__parse_cdb", "file":"include/trace/events/scsi.h", "line":188, "type":"d", }
+,{"id":"__parse_numa_zonelist_order", "file":"mm/page_alloc.c", "line":2563, "type":"f", }
+,{"id":"__parse_numa_zonelist_order", "file":"mm/page_alloc.c", "line":2583, "type":"c", "scope_line":2580, "scope_name":"setup_numa_zonelist_order", }
+,{"id":"__parse_numa_zonelist_order", "file":"mm/page_alloc.c", "line":2607, "type":"c", "scope_line":2591, "scope_name":"numa_zonelist_order_handler", }
+,{"id":"__parse_probe_arg", "file":"kernel/trace/trace_kprobe.c", "line":734, "type":"f", }
+,{"id":"__parse_probe_arg", "file":"kernel/trace/trace_kprobe.c", "line":792, "type":"c", "scope_line":734, "scope_name":"__parse_probe_arg", }
+,{"id":"__parse_probe_arg", "file":"kernel/trace/trace_kprobe.c", "line":839, "type":"c", "scope_line":812, "scope_name":"parse_probe_arg", }
+,{"id":"__part_stat_add", "file":"include/linux/genhd.h", "line":253, "type":"d", }
+,{"id":"__pci_assign_resource", "file":"drivers/pci/setup-res.c", "line":132, "type":"f", }
+,{"id":"__pci_assign_resource", "file":"drivers/pci/setup-res.c", "line":217, "type":"c", "scope_line":201, "scope_name":"pci_assign_resource", }
+,{"id":"__pci_bridge_assign_resources", "file":"drivers/pci/setup-bus.c", "line":701, "type":"f", }
+,{"id":"__pci_bridge_assign_resources", "file":"drivers/pci/setup-bus.c", "line":876, "type":"c", "scope_line":863, "scope_name":"pci_assign_unassigned_bridge_resources", }
+,{"id":"__pci_bus_assign_resources", "file":"drivers/pci/setup-bus.c", "line":662, "type":"f", }
+,{"id":"__pci_bus_assign_resources", "file":"drivers/pci/setup-bus.c", "line":675, "type":"c", "scope_line":662, "scope_name":"__pci_bus_assign_resources", }
+,{"id":"__pci_bus_assign_resources", "file":"drivers/pci/setup-bus.c", "line":697, "type":"c", "scope_line":695, "scope_name":"pci_bus_assign_resources", }
+,{"id":"__pci_bus_assign_resources", "file":"drivers/pci/setup-bus.c", "line":712, "type":"c", "scope_line":701, "scope_name":"__pci_bridge_assign_resources", }
+,{"id":"__pci_bus_find_cap_start", "file":"drivers/pci/pci.c", "line":176, "type":"f", }
+,{"id":"__pci_bus_find_cap_start", "file":"drivers/pci/pci.c", "line":221, "type":"c", "scope_line":217, "scope_name":"pci_find_capability", }
+,{"id":"__pci_bus_find_cap_start", "file":"drivers/pci/pci.c", "line":248, "type":"c", "scope_line":241, "scope_name":"pci_bus_find_capability", }
+,{"id":"__pci_bus_find_cap_start", "file":"drivers/pci/pci.c", "line":411, "type":"c", "scope_line":407, "scope_name":"pci_find_ht_capability", }
+,{"id":"__pci_complete_power_transition", "file":"drivers/pci/pci.c", "line":680, "type":"f", }
+,{"id":"__pci_complete_power_transition", "file":"drivers/pci/pci.c", "line":728, "type":"c", "scope_line":702, "scope_name":"pci_set_power_state", }
+,{"id":"__pci_device_probe", "file":"drivers/pci/pci-driver.c", "line":348, "type":"f", }
+,{"id":"__pci_device_probe", "file":"drivers/pci/pci-driver.c", "line":377, "type":"c", "scope_line":368, "scope_name":"pci_device_probe", }
+,{"id":"__pci_enable_device_flags", "file":"drivers/pci/pci.c", "line":1020, "type":"c", "scope_line":1018, "scope_name":"pci_enable_device_io", }
+,{"id":"__pci_enable_device_flags", "file":"drivers/pci/pci.c", "line":1033, "type":"c", "scope_line":1031, "scope_name":"pci_enable_device_mem", }
+,{"id":"__pci_enable_device_flags", "file":"drivers/pci/pci.c", "line":1049, "type":"c", "scope_line":1047, "scope_name":"pci_enable_device", }
+,{"id":"__pci_enable_device_flags", "file":"drivers/pci/pci.c", "line":991, "type":"f", }
+,{"id":"__pci_enable_wake", "file":"drivers/pci/pci-driver.c", "line":1029, "type":"c", "scope_line":1020, "scope_name":"pci_pm_runtime_resume", }
+,{"id":"__pci_enable_wake", "file":"drivers/pci/pci.c", "line":1381, "type":"f", }
+,{"id":"__pci_enable_wake", "file":"drivers/pci/pci.c", "line":1547, "type":"c", "scope_line":1539, "scope_name":"pci_finish_runtime_suspend", }
+,{"id":"__pci_enable_wake", "file":"drivers/pci/pci.c", "line":1552, "type":"c", "scope_line":1539, "scope_name":"pci_finish_runtime_suspend", }
+,{"id":"__pci_enable_wake", "file":"include/linux/pci.h", "line":826, "type":"c", "scope_line":823, "scope_name":"pci_enable_wake", }
+,{"id":"__pci_find_next_cap", "file":"drivers/pci/pci.c", "line":161, "type":"f", }
+,{"id":"__pci_find_next_cap", "file":"drivers/pci/pci.c", "line":171, "type":"c", "scope_line":169, "scope_name":"pci_find_next_capability", }
+,{"id":"__pci_find_next_cap", "file":"drivers/pci/pci.c", "line":223, "type":"c", "scope_line":217, "scope_name":"pci_find_capability", }
+,{"id":"__pci_find_next_cap", "file":"drivers/pci/pci.c", "line":250, "type":"c", "scope_line":241, "scope_name":"pci_bus_find_capability", }
+,{"id":"__pci_find_next_cap_ttl", "file":"drivers/pci/pci.c", "line":140, "type":"f", }
+,{"id":"__pci_find_next_cap_ttl", "file":"drivers/pci/pci.c", "line":166, "type":"c", "scope_line":161, "scope_name":"__pci_find_next_cap", }
+,{"id":"__pci_find_next_cap_ttl", "file":"drivers/pci/pci.c", "line":360, "type":"c", "scope_line":350, "scope_name":"__pci_find_next_ht_cap", }
+,{"id":"__pci_find_next_cap_ttl", "file":"drivers/pci/pci.c", "line":370, "type":"c", "scope_line":350, "scope_name":"__pci_find_next_ht_cap", }
+,{"id":"__pci_find_next_ht_cap", "file":"drivers/pci/pci.c", "line":350, "type":"f", }
+,{"id":"__pci_find_next_ht_cap", "file":"drivers/pci/pci.c", "line":392, "type":"c", "scope_line":390, "scope_name":"pci_find_next_ht_capability", }
+,{"id":"__pci_find_next_ht_cap", "file":"drivers/pci/pci.c", "line":413, "type":"c", "scope_line":407, "scope_name":"pci_find_ht_capability", }
+,{"id":"__pci_fixup_PCI_ANY_IDPCI_ANY_IDpci_fixup_video", "file":"arch/x86/pci/fixup.c", "line":356, "type":"v", }
+,{"id":"__pci_fixup_PCI_ANY_IDPCI_ANY_IDquirk_cardbus_legacy", "file":"drivers/pci/quirks.c", "line":962, "type":"v", }
+,{"id":"__pci_fixup_PCI_ANY_IDPCI_ANY_IDquirk_mmio_always_on", "file":"drivers/pci/quirks.c", "line":105, "type":"v", }
+,{"id":"__pci_fixup_PCI_ANY_IDPCI_ANY_IDquirk_resource_alignment", "file":"drivers/pci/quirks.c", "line":92, "type":"v", }
+,{"id":"__pci_fixup_PCI_ANY_IDPCI_ANY_IDquirk_usb_early_handoff", "file":"drivers/usb/host/pci-quirks.c", "line":478, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ALPCI_ANY_IDnv_msi_ht_cap_quirk_all", "file":"drivers/pci/quirks.c", "line":2505, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ALPCI_ANY_IDquirk_no_ata_d3", "file":"drivers/pci/quirks.c", "line":1127, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ALPCI_DEVICE_ID_AL_M1533quirk_isa_dma_hangs", "file":"drivers/pci/quirks.c", "line":160, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ALPCI_DEVICE_ID_AL_M1647quirk_alimagik", "file":"drivers/pci/quirks.c", "line":322, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ALPCI_DEVICE_ID_AL_M1651quirk_alimagik", "file":"drivers/pci/quirks.c", "line":323, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ALPCI_DEVICE_ID_AL_M7101quirk_ali7101_acpi", "file":"drivers/pci/quirks.c", "line":443, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMD0x9600quirk_amd_780_apc_msi", "file":"drivers/pci/quirks.c", "line":2189, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMD0x9601quirk_amd_780_apc_msi", "file":"drivers/pci/quirks.c", "line":2190, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_10H_NB_DRAMquirk_amd_nb_node", "file":"arch/x86/kernel/quirks.c", "line":549, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_10H_NB_HTquirk_amd_nb_node", "file":"arch/x86/kernel/quirks.c", "line":545, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_10H_NB_LINKquirk_amd_nb_node", "file":"arch/x86/kernel/quirks.c", "line":553, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_10H_NB_MAPquirk_amd_nb_node", "file":"arch/x86/kernel/quirks.c", "line":547, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_10H_NB_MISCquirk_amd_nb_node", "file":"arch/x86/kernel/quirks.c", "line":551, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_8111_SMBUSquirk_disable_amd_8111_boot_interrupt", "file":"drivers/pci/quirks.c", "line":1782, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_8131_BRIDGEquirk_amd_8131_mmrbc", "file":"drivers/pci/quirks.c", "line":826, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_8131_BRIDGEquirk_disable_amd_813x_boot_interrupt", "file":"drivers/pci/quirks.c", "line":1758, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_8131_BRIDGEquirk_disable_msi", "file":"drivers/pci/quirks.c", "line":2168, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_8132_BRIDGEht_enable_msi_mapping", "file":"drivers/pci/quirks.c", "line":2279, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_8132_BRIDGEquirk_disable_amd_813x_boot_interrupt", "file":"drivers/pci/quirks.c", "line":1760, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_8151_0quirk_nopciamd", "file":"drivers/pci/quirks.c", "line":208, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_CS5536_ISAquirk_cs5536_vsa", "file":"drivers/pci/quirks.c", "line":384, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_FE_GATE_700Cquirk_amd_ordering", "file":"drivers/pci/quirks.c", "line":985, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_HUDSON2_SATA_IDEquirk_amd_ide_mode", "file":"drivers/pci/quirks.c", "line":1077, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_K8_NB_ADDRMAPquirk_amd_nb_node", "file":"arch/x86/kernel/quirks.c", "line":539, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_K8_NB_MEMCTLquirk_amd_nb_node", "file":"arch/x86/kernel/quirks.c", "line":541, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_K8_NB_MISCquirk_amd_nb_node", "file":"arch/x86/kernel/quirks.c", "line":543, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_K8_NBquirk_amd_nb_node", "file":"arch/x86/kernel/quirks.c", "line":537, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_AMDPCI_DEVICE_ID_AMD_VIPER_7410quirk_amd_ioapic", "file":"drivers/pci/quirks.c", "line":804, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATI0x4373quirk_msi_intx_disable_bug", "file":"drivers/pci/quirks.c", "line":2559, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATI0x4374quirk_msi_intx_disable_bug", "file":"drivers/pci/quirks.c", "line":2561, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATI0x4375quirk_msi_intx_disable_bug", "file":"drivers/pci/quirks.c", "line":2563, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATI0x4385sb600_disable_hpet_bar", "file":"arch/x86/pci/fixup.c", "line":523, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATI0x4390quirk_msi_intx_disable_ati_bug", "file":"drivers/pci/quirks.c", "line":2548, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATI0x4391quirk_msi_intx_disable_ati_bug", "file":"drivers/pci/quirks.c", "line":2550, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATI0x4392quirk_msi_intx_disable_ati_bug", "file":"drivers/pci/quirks.c", "line":2552, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATI0x4393quirk_msi_intx_disable_ati_bug", "file":"drivers/pci/quirks.c", "line":2554, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATI0x4394quirk_msi_intx_disable_ati_bug", "file":"drivers/pci/quirks.c", "line":2556, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATI0x5a3fquirk_disable_msi", "file":"drivers/pci/quirks.c", "line":2170, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATIPCI_ANY_IDquirk_no_ata_d3", "file":"drivers/pci/quirks.c", "line":1125, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATIPCI_DEVICE_ID_ATI_IXP400_SMBUSati_force_enable_hpet", "file":"arch/x86/kernel/quirks.c", "line":412, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATIPCI_DEVICE_ID_ATI_IXP600_SATAquirk_amd_ide_mode", "file":"drivers/pci/quirks.c", "line":1073, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATIPCI_DEVICE_ID_ATI_IXP700_SATAquirk_amd_ide_mode", "file":"drivers/pci/quirks.c", "line":1075, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATIPCI_DEVICE_ID_ATI_RS100quirk_ati_exploding_mce", "file":"drivers/pci/quirks.c", "line":421, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATIPCI_DEVICE_ID_ATI_RS400_200quirk_disable_all_msi", "file":"drivers/pci/quirks.c", "line":2152, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATIPCI_DEVICE_ID_ATI_RS480quirk_disable_all_msi", "file":"drivers/pci/quirks.c", "line":2153, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_ATIPCI_DEVICE_ID_ATI_SBX00_SMBUSforce_disable_hpet_msi", "file":"arch/x86/kernel/quirks.c", "line":507, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_NX2_5706Squirk_brcm_570x_limit_vpd", "file":"drivers/pci/quirks.c", "line":2101, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_NX2_5706quirk_brcm_570x_limit_vpd", "file":"drivers/pci/quirks.c", "line":2098, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_NX2_5708Squirk_brcm_570x_limit_vpd", "file":"drivers/pci/quirks.c", "line":2107, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_NX2_5708quirk_brcm_570x_limit_vpd", "file":"drivers/pci/quirks.c", "line":2104, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_NX2_5709Squirk_brcm_570x_limit_vpd", "file":"drivers/pci/quirks.c", "line":2113, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_NX2_5709quirk_brcm_570x_limit_vpd", "file":"drivers/pci/quirks.c", "line":2110, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_TIGON3_5714Squirk_msi_intx_disable_bug", "file":"drivers/pci/quirks.c", "line":2538, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_TIGON3_5714quirk_msi_intx_disable_bug", "file":"drivers/pci/quirks.c", "line":2535, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_TIGON3_5715Squirk_msi_intx_disable_bug", "file":"drivers/pci/quirks.c", "line":2544, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_TIGON3_5715quirk_msi_intx_disable_bug", "file":"drivers/pci/quirks.c", "line":2541, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_TIGON3_5780Squirk_msi_intx_disable_bug", "file":"drivers/pci/quirks.c", "line":2532, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_BROADCOMPCI_DEVICE_ID_TIGON3_5780quirk_msi_intx_disable_bug", "file":"drivers/pci/quirks.c", "line":2529, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_CYRIXPCI_DEVICE_ID_CYRIX_5530_LEGACYpci_early_fixup_cyrix_5530", "file":"arch/x86/pci/fixup.c", "line":481, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_CYRIXPCI_DEVICE_ID_CYRIX_PCI_MASTERquirk_mediagx_master", "file":"drivers/pci/quirks.c", "line":1032, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_DUNORDPCI_DEVICE_ID_DUNORD_I3000quirk_dunord", "file":"drivers/pci/quirks.c", "line":1001, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_HINT0x0020quirk_hotplug_bridge", "file":"drivers/pci/quirks.c", "line":2631, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_IBMPCI_DEVICE_ID_IBM_CITRINEquirk_citrine", "file":"drivers/pci/quirks.c", "line":351, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10a7quirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1919, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10a9quirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1920, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10b6quirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1921, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10c6quirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1922, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10c7quirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1923, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10c8quirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1924, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10c9quirk_i82576_sriov", "file":"drivers/pci/quirks.c", "line":2610, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10d6quirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1925, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10dbquirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1926, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10ddquirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1927, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10e1quirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1928, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10e6quirk_i82576_sriov", "file":"drivers/pci/quirks.c", "line":2611, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10e7quirk_i82576_sriov", "file":"drivers/pci/quirks.c", "line":2612, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10e8quirk_i82576_sriov", "file":"drivers/pci/quirks.c", "line":2613, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10ecquirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1929, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10f1quirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1930, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x10f4quirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1931, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x1460quirk_p64h2_1k_io", "file":"drivers/pci/quirks.c", "line":1971, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x1460quirk_p64h2_1k_io_fix_iobl", "file":"drivers/pci/quirks.c", "line":1996, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x1508quirk_disable_aspm_l0s", "file":"drivers/pci/quirks.c", "line":1932, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x150aquirk_i82576_sriov", "file":"drivers/pci/quirks.c", "line":2614, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x150dquirk_i82576_sriov", "file":"drivers/pci/quirks.c", "line":2615, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x1518quirk_i82576_sriov", "file":"drivers/pci/quirks.c", "line":2616, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x25e2quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1611, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x25e3quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1612, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x25e4quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1613, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x25e5quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1614, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x25e6quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1615, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x25e7quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1616, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x25f7quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1617, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x25f8quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1618, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x25f9quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1619, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x25faquirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1620, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x2601quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1621, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x2602quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1622, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x2603quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1623, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x2604quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1624, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x2605quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1625, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x2606quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1626, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x2607quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1627, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x2608quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1628, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x2609quirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1629, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x260aquirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1630, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x260bquirk_intel_pcie_pm", "file":"drivers/pci/quirks.c", "line":1631, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTEL0x3a16ich_force_enable_hpet", "file":"arch/x86/kernel/quirks.c", "line":174, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_ANY_IDpci_fixup_transparent_bridge", "file":"arch/x86/pci/fixup.c", "line":171, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_ANY_IDquirk_e100_interrupt", "file":"drivers/pci/quirks.c", "line":1908, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_7205_0asus_hides_smbus_hostbridge", "file":"drivers/pci/quirks.c", "line":1292, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_80332_0quirk_reroute_to_boot_interrupts_intel", "file":"drivers/pci/quirks.c", "line":1655, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_80332_1quirk_reroute_to_boot_interrupts_intel", "file":"drivers/pci/quirks.c", "line":1656, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_80333_0quirk_reroute_to_boot_interrupts_intel", "file":"drivers/pci/quirks.c", "line":1649, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_80333_1quirk_reroute_to_boot_interrupts_intel", "file":"drivers/pci/quirks.c", "line":1650, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82371AB_3acpi_pm_check_blacklist", "file":"drivers/clocksource/acpi_pm.c", "line":120, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82371AB_3pci_fixup_piix4_acpi", "file":"arch/x86/pci/fixup.c", "line":96, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82371AB_3quirk_piix4_acpi", "file":"drivers/pci/quirks.c", "line":532, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82371SB_0quirk_isa_dma_hangs", "file":"drivers/pci/quirks.c", "line":159, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82375quirk_eisa_bridge", "file":"drivers/pci/quirks.c", "line":1139, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82380FBquirk_transparent_bridge", "file":"drivers/pci/quirks.c", "line":1013, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82437VXquirk_triton", "file":"drivers/pci/quirks.c", "line":221, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82437quirk_triton", "file":"drivers/pci/quirks.c", "line":220, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82439TXquirk_triton", "file":"drivers/pci/quirks.c", "line":223, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82439quirk_triton", "file":"drivers/pci/quirks.c", "line":222, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82441quirk_natoma", "file":"drivers/pci/quirks.c", "line":336, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82441quirk_passive_release", "file":"drivers/pci/quirks.c", "line":136, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82443BX_0quirk_natoma", "file":"drivers/pci/quirks.c", "line":339, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82443BX_1quirk_natoma", "file":"drivers/pci/quirks.c", "line":340, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82443BX_2quirk_natoma", "file":"drivers/pci/quirks.c", "line":341, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82443LX_0quirk_natoma", "file":"drivers/pci/quirks.c", "line":337, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82443LX_1quirk_natoma", "file":"drivers/pci/quirks.c", "line":338, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82443MX_3quirk_piix4_acpi", "file":"drivers/pci/quirks.c", "line":533, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82451NXpci_fixup_i450nx", "file":"arch/x86/pci/fixup.c", "line":34, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82454GXpci_fixup_i450gx", "file":"arch/x86/pci/fixup.c", "line":48, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82454NXquirk_disable_pxb", "file":"drivers/pci/quirks.c", "line":1053, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801AA_0asus_hides_smbus_lpc", "file":"drivers/pci/quirks.c", "line":1319, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801AA_0quirk_ich4_lpc_acpi", "file":"drivers/pci/quirks.c", "line":550, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801AB_0quirk_ich4_lpc_acpi", "file":"drivers/pci/quirks.c", "line":551, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801BA_0asus_hides_smbus_lpc", "file":"drivers/pci/quirks.c", "line":1321, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801BA_0quirk_ich4_lpc_acpi", "file":"drivers/pci/quirks.c", "line":552, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801BA_10quirk_ich4_lpc_acpi", "file":"drivers/pci/quirks.c", "line":553, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801CA_0asus_hides_smbus_lpc", "file":"drivers/pci/quirks.c", "line":1322, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801CA_0old_ich_force_enable_hpet_user", "file":"arch/x86/kernel/quirks.c", "line":268, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801CA_0quirk_ich4_lpc_acpi", "file":"drivers/pci/quirks.c", "line":554, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801CA_10quirk_ide_samemode", "file":"drivers/pci/quirks.c", "line":1112, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801CA_12asus_hides_smbus_lpc", "file":"drivers/pci/quirks.c", "line":1323, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801CA_12old_ich_force_enable_hpet_user", "file":"arch/x86/kernel/quirks.c", "line":270, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801CA_12quirk_ich4_lpc_acpi", "file":"drivers/pci/quirks.c", "line":555, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801DB_0acpi_pm_check_graylist", "file":"drivers/clocksource/acpi_pm.c", "line":137, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801DB_0asus_hides_smbus_lpc", "file":"drivers/pci/quirks.c", "line":1320, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801DB_0old_ich_force_enable_hpet_user", "file":"arch/x86/kernel/quirks.c", "line":272, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801DB_0quirk_ich4_lpc_acpi", "file":"drivers/pci/quirks.c", "line":556, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801DB_12asus_hides_smbus_lpc", "file":"drivers/pci/quirks.c", "line":1324, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801DB_12old_ich_force_enable_hpet_user", "file":"arch/x86/kernel/quirks.c", "line":274, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801DB_12quirk_ich4_lpc_acpi", "file":"drivers/pci/quirks.c", "line":557, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801DB_2asus_hides_smbus_hostbridge", "file":"drivers/pci/quirks.c", "line":1299, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801EB_0asus_hides_smbus_lpc", "file":"drivers/pci/quirks.c", "line":1325, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801EB_0old_ich_force_enable_hpet", "file":"arch/x86/kernel/quirks.c", "line":276, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801EB_0quirk_ich4_lpc_acpi", "file":"drivers/pci/quirks.c", "line":558, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82801EB_12old_ich_force_enable_hpet", "file":"arch/x86/kernel/quirks.c", "line":278, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82810_IG3asus_hides_smbus_hostbridge", "file":"drivers/pci/quirks.c", "line":1298, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82815_CGCasus_hides_smbus_hostbridge", "file":"drivers/pci/quirks.c", "line":1300, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82845G_HBasus_hides_smbus_hostbridge", "file":"drivers/pci/quirks.c", "line":1288, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82845_HBasus_hides_smbus_hostbridge", "file":"drivers/pci/quirks.c", "line":1287, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82850_HBasus_hides_smbus_hostbridge", "file":"drivers/pci/quirks.c", "line":1289, "type":"v", }
+,{"id":"__pci_fixup_PCI_VENDOR_ID_INTELPCI_DEVICE_ID_INTEL_82855GM_HBasus_hides_smbus_hostbridge", "file":"drivers/pci/quirks.c", "line":1295, "type":"v", }
+,];
+xr_frag_insert('t/1f/1a1b9478d8498a4a20d3b3eb060a0c0be5f099.xr', __xr_tmp);

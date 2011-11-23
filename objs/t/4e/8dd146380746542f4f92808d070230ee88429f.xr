@@ -1,0 +1,148 @@
+var __xr_tmp = [
+{"id":"iov_length", "file":"drivers/scsi/sg.c", "line":1693, "type":"c", "scope_line":1622, "scope_name":"sg_start_req", }
+,{"id":"iov_length", "file":"fs/ext2/inode.c", "line":849, "type":"c", "scope_line":837, "scope_name":"ext2_direct_IO", }
+,{"id":"iov_length", "file":"fs/ext3/inode.c", "line":1789, "type":"c", "scope_line":1779, "scope_name":"ext3_direct_IO", }
+,{"id":"iov_length", "file":"fs/ext3/inode.c", "line":1823, "type":"c", "scope_line":1779, "scope_name":"ext3_direct_IO", }
+,{"id":"iov_length", "file":"fs/ext4/file.c", "line":71, "type":"c", "scope_line":58, "scope_name":"ext4_file_write", }
+,{"id":"iov_length", "file":"fs/ext4/inode.c", "line":3544, "type":"c", "scope_line":3534, "scope_name":"ext4_ind_direct_IO", }
+,{"id":"iov_length", "file":"fs/ext4/inode.c", "line":3582, "type":"c", "scope_line":3534, "scope_name":"ext4_ind_direct_IO", }
+,{"id":"iov_length", "file":"fs/ext4/inode.c", "line":3950, "type":"c", "scope_line":3943, "scope_name":"ext4_ext_direct_IO", }
+,{"id":"iov_length", "file":"fs/pipe.c", "line":360, "type":"c", "scope_line":348, "scope_name":"pipe_read", }
+,{"id":"iov_length", "file":"fs/pipe.c", "line":474, "type":"c", "scope_line":461, "scope_name":"pipe_write", }
+,{"id":"iov_length", "file":"include/linux/uio.h", "line":43, "type":"f", }
+,{"id":"iov_length", "file":"mm/filemap.c", "line":1300, "type":"c", "scope_line":1273, "scope_name":"generic_file_aio_read", }
+,{"id":"iov_length", "file":"mm/filemap.c", "line":2137, "type":"c", "scope_line":2122, "scope_name":"generic_file_direct_write", }
+,{"id":"iov_offset", "file":"include/linux/fs.h", "line":520, "type":"m", "scope_line":517, "scope_name":"struct iov_iter", }
+,{"id":"iov_shorten", "file":"block/scsi_ioctl.c", "line":342, "type":"c", "scope_line":283, "scope_name":"sg_io", }
+,{"id":"iov_shorten", "file":"drivers/scsi/sg.c", "line":1695, "type":"c", "scope_line":1622, "scope_name":"sg_start_req", }
+,{"id":"iov_shorten", "file":"fs/ext4/file.c", "line":78, "type":"c", "scope_line":58, "scope_name":"ext4_file_write", }
+,{"id":"iov_shorten", "file":"fs/read_write.c", "line":487, "type":"f", }
+,{"id":"iov_shorten", "file":"mm/filemap.c", "line":2135, "type":"c", "scope_line":2122, "scope_name":"generic_file_direct_write", }
+,{"id":"iova_to_phys", "file":"include/linux/iommu.h", "line":44, "type":"m", "scope_line":35, "scope_name":"struct iommu_ops", }
+,{"id":"iovec", "file":"include/linux/uio.h", "line":16, "type":"s", }
+,{"id":"iovec_count", "file":"fs/compat_ioctl.c", "line":231, "type":"m", "scope_line":226, "scope_name":"struct sg_io_hdr32", }
+,{"id":"iovec_count", "file":"include/scsi/sg.h", "line":92, "type":"m", "scope_line":86, "scope_name":"struct sg_io_hdr", }
+,{"id":"iovecs", "file":"fs/bio.c", "line":673, "type":"m", "scope_line":672, "scope_name":"struct bio_map_data", }
+,{"id":"iowait", "file":"include/linux/kernel_stat.h", "line":25, "type":"m", "scope_line":18, "scope_name":"struct cpu_usage_stat", }
+,{"id":"iowait_count", "file":"include/linux/sched.h", "line":1089, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"iowait_sleeptime", "file":"include/linux/tick.h", "line":64, "type":"m", "scope_line":49, "scope_name":"struct tick_sched", }
+,{"id":"iowait_sum", "file":"include/linux/sched.h", "line":1090, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"iowrite16", "file":"drivers/virtio/virtio_pci.c", "line":192, "type":"c", "scope_line":185, "scope_name":"vp_notify", }
+,{"id":"iowrite16", "file":"drivers/virtio/virtio_pci.c", "line":267, "type":"c", "scope_line":252, "scope_name":"vp_free_vectors", }
+,{"id":"iowrite16", "file":"drivers/virtio/virtio_pci.c", "line":324, "type":"c", "scope_line":284, "scope_name":"vp_request_msix_vectors", }
+,{"id":"iowrite16", "file":"drivers/virtio/virtio_pci.c", "line":375, "type":"c", "scope_line":362, "scope_name":"setup_vq", }
+,{"id":"iowrite16", "file":"drivers/virtio/virtio_pci.c", "line":415, "type":"c", "scope_line":362, "scope_name":"setup_vq", }
+,{"id":"iowrite16", "file":"drivers/virtio/virtio_pci.c", "line":449, "type":"c", "scope_line":439, "scope_name":"vp_del_vq", }
+,{"id":"iowrite16", "file":"drivers/virtio/virtio_pci.c", "line":452, "type":"c", "scope_line":439, "scope_name":"vp_del_vq", }
+,{"id":"iowrite16", "file":"lib/iomap.c", "line":116, "type":"f", }
+,{"id":"iowrite16_rep", "file":"drivers/ata/libata-sff.c", "line":568, "type":"c", "scope_line":557, "scope_name":"ata_sff_data_xfer", }
+,{"id":"iowrite16_rep", "file":"drivers/ata/libata-sff.c", "line":586, "type":"c", "scope_line":557, "scope_name":"ata_sff_data_xfer", }
+,{"id":"iowrite16_rep", "file":"drivers/ata/libata-sff.c", "line":649, "type":"c", "scope_line":612, "scope_name":"ata_sff_data_xfer32", }
+,{"id":"iowrite16_rep", "file":"lib/iomap.c", "line":215, "type":"f", }
+,{"id":"iowrite16be", "file":"lib/iomap.c", "line":120, "type":"f", }
+,{"id":"iowrite32", "file":"drivers/ata/ata_piix.c", "line":1247, "type":"c", "scope_line":1226, "scope_name":"piix_disable_ahci", }
+,{"id":"iowrite32", "file":"drivers/ata/ata_piix.c", "line":951, "type":"c", "scope_line":946, "scope_name":"piix_sidpr_sel", }
+,{"id":"iowrite32", "file":"drivers/ata/ata_piix.c", "line":982, "type":"c", "scope_line":971, "scope_name":"piix_sidpr_scr_write", }
+,{"id":"iowrite32", "file":"drivers/ata/libata-sff.c", "line":2983, "type":"c", "scope_line":2975, "scope_name":"ata_bmdma_setup", }
+,{"id":"iowrite32", "file":"drivers/virtio/virtio_pci.c", "line":130, "type":"c", "scope_line":121, "scope_name":"vp_finalize_features", }
+,{"id":"iowrite32", "file":"drivers/virtio/virtio_pci.c", "line":400, "type":"c", "scope_line":362, "scope_name":"setup_vq", }
+,{"id":"iowrite32", "file":"drivers/virtio/virtio_pci.c", "line":432, "type":"c", "scope_line":362, "scope_name":"setup_vq", }
+,{"id":"iowrite32", "file":"drivers/virtio/virtio_pci.c", "line":461, "type":"c", "scope_line":439, "scope_name":"vp_del_vq", }
+,{"id":"iowrite32", "file":"lib/iomap.c", "line":124, "type":"f", }
+,{"id":"iowrite32_rep", "file":"drivers/ata/libata-sff.c", "line":627, "type":"c", "scope_line":612, "scope_name":"ata_sff_data_xfer32", }
+,{"id":"iowrite32_rep", "file":"drivers/ata/libata-sff.c", "line":651, "type":"c", "scope_line":612, "scope_name":"ata_sff_data_xfer32", }
+,{"id":"iowrite32_rep", "file":"lib/iomap.c", "line":219, "type":"f", }
+,{"id":"iowrite32be", "file":"lib/iomap.c", "line":128, "type":"f", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":1825, "type":"c", "scope_line":1818, "scope_name":"ata_devchk", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":1826, "type":"c", "scope_line":1818, "scope_name":"ata_devchk", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":1828, "type":"c", "scope_line":1818, "scope_name":"ata_devchk", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":1829, "type":"c", "scope_line":1818, "scope_name":"ata_devchk", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":1831, "type":"c", "scope_line":1818, "scope_name":"ata_devchk", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":1832, "type":"c", "scope_line":1818, "scope_name":"ata_devchk", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":1999, "type":"c", "scope_line":1991, "scope_name":"ata_bus_softreset", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":2001, "type":"c", "scope_line":1991, "scope_name":"ata_bus_softreset", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":2003, "type":"c", "scope_line":1991, "scope_name":"ata_bus_softreset", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":2964, "type":"c", "scope_line":2957, "scope_name":"ata_bmdma_irq_clear", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":2990, "type":"c", "scope_line":2975, "scope_name":"ata_bmdma_setup", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":300, "type":"c", "scope_line":295, "scope_name":"ata_sff_set_devctl", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":3011, "type":"c", "scope_line":3004, "scope_name":"ata_bmdma_start", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":3047, "type":"c", "scope_line":3041, "scope_name":"ata_bmdma_stop", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":326, "type":"c", "scope_line":317, "scope_name":"ata_sff_dev_select", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":419, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":426, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":427, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":428, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":429, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":430, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":440, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":441, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":442, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":443, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":444, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":454, "type":"c", "scope_line":412, "scope_name":"ata_sff_tf_load", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":489, "type":"c", "scope_line":475, "scope_name":"ata_sff_tf_read", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":495, "type":"c", "scope_line":475, "scope_name":"ata_sff_tf_read", }
+,{"id":"iowrite8", "file":"drivers/ata/libata-sff.c", "line":518, "type":"c", "scope_line":514, "scope_name":"ata_sff_exec_command", }
+,{"id":"iowrite8", "file":"drivers/virtio/virtio_pci.c", "line":159, "type":"c", "scope_line":149, "scope_name":"vp_set", }
+,{"id":"iowrite8", "file":"drivers/virtio/virtio_pci.c", "line":174, "type":"c", "scope_line":169, "scope_name":"vp_set_status", }
+,{"id":"iowrite8", "file":"drivers/virtio/virtio_pci.c", "line":181, "type":"c", "scope_line":177, "scope_name":"vp_reset", }
+,{"id":"iowrite8", "file":"lib/iomap.c", "line":112, "type":"f", }
+,{"id":"iowrite8_rep", "file":"lib/iomap.c", "line":211, "type":"f", }
+,{"id":"ip", "file":"arch/x86/include/asm/mce.h", "line":59, "type":"m", "scope_line":54, "scope_name":"struct mce", }
+,{"id":"ip", "file":"arch/x86/include/asm/ptrace.h", "line":119, "type":"m", "scope_line":99, "scope_name":"struct pt_regs", }
+,{"id":"ip", "file":"arch/x86/include/asm/sigcontext.h", "line":207, "type":"m", "scope_line":190, "scope_name":"struct sigcontext", }
+,{"id":"ip", "file":"arch/x86/include/asm/sigcontext32.h", "line":67, "type":"m", "scope_line":52, "scope_name":"struct sigcontext_ia32", }
+,{"id":"ip", "file":"arch/x86/include/asm/user_64.h", "line":85, "type":"m", "scope_line":68, "scope_name":"struct user_regs_struct", }
+,{"id":"ip", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":24, "type":"m", "scope_line":23, "scope_name":"struct pebs_record_core", }
+,{"id":"ip", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":32, "type":"m", "scope_line":31, "scope_name":"struct pebs_record_nhm", }
+,{"id":"ip", "file":"arch/x86/mm/mmio-mod.c", "line":45, "type":"m", "scope_line":43, "scope_name":"struct trap_reason", }
+,{"id":"ip", "file":"include/linux/atmarp.h", "line":38, "type":"m", "scope_line":35, "scope_name":"struct atmarp_ctrl", }
+,{"id":"ip", "file":"include/linux/cper.h", "line":260, "type":"m", "scope_line":245, "scope_name":"struct cper_sec_proc_generic", }
+,{"id":"ip", "file":"include/linux/cper.h", "line":278, "type":"m", "scope_line":271, "scope_name":"struct cper_ia_err_info", }
+,{"id":"ip", "file":"include/linux/ftrace.h", "line":159, "type":"m", "scope_line":157, "scope_name":"struct dyn_ftrace", }
+,{"id":"ip", "file":"include/linux/netfilter.h", "line":65, "type":"m", "scope_line":63, "scope_name":"union nf_inet_addr", }
+,{"id":"ip", "file":"include/linux/perf_event.h", "line":496, "type":"m", "scope_line":494, "scope_name":"struct perf_callchain_entry", }
+,{"id":"ip", "file":"include/linux/perf_event.h", "line":880, "type":"m", "scope_line":877, "scope_name":"struct perf_sample_data", }
+,{"id":"ip", "file":"include/net/atmclip.h", "line":39, "type":"m", "scope_line":38, "scope_name":"struct atmarp_entry", }
+,{"id":"ip", "file":"include/trace/events/mce.h", "line":11, "type":"m", "scope_line":11, "scope_name":"struct ftrace_raw_mce_record", }
+,{"id":"ip", "file":"include/trace/events/module.h", "line":57, "type":"m", "scope_line":57, "scope_name":"struct ftrace_raw_module_refcnt", }
+,{"id":"ip", "file":"include/trace/events/module.h", "line":94, "type":"m", "scope_line":94, "scope_name":"struct ftrace_raw_module_request", }
+,{"id":"ip", "file":"kernel/trace/ftrace.c", "line":878, "type":"m", "scope_line":874, "scope_name":"struct ftrace_func_probe", }
+,{"id":"ip", "file":"kernel/trace/trace.h", "line":91, "type":"m", "scope_line":89, "scope_name":"struct kprobe_trace_entry_head", }
+,{"id":"ip", "file":"kernel/trace/trace_entries.h", "line":193, "type":"m", "scope_line":193, "scope_name":"struct ____ftrace_bprint", }
+,{"id":"ip", "file":"kernel/trace/trace_entries.h", "line":193, "type":"m", "scope_line":193, "scope_name":"struct bprint_entry", }
+,{"id":"ip", "file":"kernel/trace/trace_entries.h", "line":207, "type":"m", "scope_line":207, "scope_name":"struct ____ftrace_print", }
+,{"id":"ip", "file":"kernel/trace/trace_entries.h", "line":207, "type":"m", "scope_line":207, "scope_name":"struct print_entry", }
+,{"id":"ip", "file":"kernel/trace/trace_entries.h", "line":58, "type":"m", "scope_line":58, "scope_name":"struct ____ftrace_function", }
+,{"id":"ip", "file":"kernel/trace/trace_entries.h", "line":58, "type":"m", "scope_line":58, "scope_name":"struct ftrace_entry", }
+,{"id":"ip175c_config_aneg", "file":"drivers/net/phy/icplus.c", "line":103, "type":"f", }
+,{"id":"ip175c_config_init", "file":"drivers/net/phy/icplus.c", "line":37, "type":"f", }
+,{"id":"ip175c_driver", "file":"drivers/net/phy/icplus.c", "line":111, "type":"v", }
+,{"id":"ip175c_exit", "file":"drivers/net/phy/icplus.c", "line":129, "type":"f", }
+,{"id":"ip175c_init", "file":"drivers/net/phy/icplus.c", "line":124, "type":"f", }
+,{"id":"ip175c_read_status", "file":"drivers/net/phy/icplus.c", "line":92, "type":"f", }
+,{"id":"ip4", "file":"include/net/tcp.h", "line":1141, "type":"m", "scope_line":1140, "scope_name":"union tcp_md5sum_block", }
+,{"id":"ip4_addr_string", "file":"lib/vsprintf.c", "line":1022, "type":"c", "scope_line":987, "scope_name":"pointer", }
+,{"id":"ip4_addr_string", "file":"lib/vsprintf.c", "line":881, "type":"f", }
+,{"id":"ip4_create_arg", "file":"net/ipv4/ip_fragment.c", "line":93, "type":"s", }
+,{"id":"ip4_datagram_connect", "file":"net/ipv4/datagram.c", "line":23, "type":"f", }
+,{"id":"ip4_datagram_connect", "file":"net/ipv6/datagram.c", "line":52, "type":"c", "scope_line":36, "scope_name":"ip6_datagram_connect", }
+,{"id":"ip4_datagram_connect", "file":"net/ipv6/datagram.c", "line":95, "type":"c", "scope_line":36, "scope_name":"ip6_datagram_connect", }
+,{"id":"ip4_frag_free", "file":"net/ipv4/ip_fragment.c", "line":147, "type":"f", }
+,{"id":"ip4_frag_init", "file":"net/ipv4/ip_fragment.c", "line":133, "type":"f", }
+,{"id":"ip4_frag_match", "file":"net/ipv4/ip_fragment.c", "line":113, "type":"f", }
+,{"id":"ip4_frags", "file":"net/ipv4/ip_fragment.c", "line":78, "type":"v", }
+,{"id":"ip4_frags_ctl_register", "file":"net/ipv4/ip_fragment.c", "line":723, "type":"f", }
+,{"id":"ip4_frags_ctl_register", "file":"net/ipv4/ip_fragment.c", "line":777, "type":"c", "scope_line":775, "scope_name":"ipfrag_init", }
+,{"id":"ip4_frags_ctl_table", "file":"net/ipv4/ip_fragment.c", "line":665, "type":"v", }
+,{"id":"ip4_frags_ns_ctl_register", "file":"net/ipv4/ip_fragment.c", "line":684, "type":"f", }
+,{"id":"ip4_frags_ns_ctl_register", "file":"net/ipv4/ip_fragment.c", "line":761, "type":"c", "scope_line":742, "scope_name":"ipv4_frags_init_net", }
+,{"id":"ip4_frags_ns_ctl_table", "file":"net/ipv4/ip_fragment.c", "line":640, "type":"v", }
+,{"id":"ip4_frags_ns_ctl_unregister", "file":"net/ipv4/ip_fragment.c", "line":714, "type":"f", }
+,{"id":"ip4_frags_ns_ctl_unregister", "file":"net/ipv4/ip_fragment.c", "line":766, "type":"c", "scope_line":764, "scope_name":"ipv4_frags_exit_net", }
+,{"id":"ip4_frags_ops", "file":"net/ipv4/ip_fragment.c", "line":770, "type":"v", }
+,{"id":"ip4_hashfn", "file":"net/ipv4/ip_fragment.c", "line":105, "type":"f", }
+,{"id":"ip4_string", "file":"lib/vsprintf.c", "line":720, "type":"f", }
+,{"id":"ip4_string", "file":"lib/vsprintf.c", "line":844, "type":"c", "scope_line":770, "scope_name":"ip6_compressed_string", }
+,];
+xr_frag_insert('t/4e/8dd146380746542f4f92808d070230ee88429f.xr', __xr_tmp);

@@ -1,0 +1,109 @@
+var __xr_tmp = [
+{"id":"disable_acpi", "file":"arch/x86/kernel/acpi/boot.c", "line":1274, "type":"c", "scope_line":1243, "scope_name":"acpi_process_madt", }
+,{"id":"disable_acpi", "file":"arch/x86/kernel/acpi/boot.c", "line":1327, "type":"c", "scope_line":1323, "scope_name":"dmi_disable_acpi", }
+,{"id":"disable_acpi", "file":"arch/x86/kernel/acpi/boot.c", "line":1511, "type":"c", "scope_line":1497, "scope_name":"acpi_boot_table_init", }
+,{"id":"disable_acpi", "file":"arch/x86/kernel/acpi/boot.c", "line":1525, "type":"c", "scope_line":1497, "scope_name":"acpi_boot_table_init", }
+,{"id":"disable_acpi", "file":"arch/x86/kernel/acpi/boot.c", "line":1585, "type":"c", "scope_line":1578, "scope_name":"parse_acpi", }
+,{"id":"disable_acpi", "file":"arch/x86/xen/setup.c", "line":253, "type":"c", "scope_line":224, "scope_name":"xen_arch_setup", }
+,{"id":"disable_acpi", "file":"drivers/acpi/bus.c", "line":1011, "type":"c", "scope_line":985, "scope_name":"acpi_init", }
+,{"id":"disable_acpi", "file":"drivers/acpi/bus.c", "line":1015, "type":"c", "scope_line":985, "scope_name":"acpi_init", }
+,{"id":"disable_acpi", "file":"drivers/acpi/bus.c", "line":899, "type":"c", "scope_line":826, "scope_name":"acpi_early_init", }
+,{"id":"disable_acpi_irq", "file":"arch/x86/kernel/acpi/boot.c", "line":1303, "type":"f", }
+,{"id":"disable_acpi_pci", "file":"arch/x86/kernel/acpi/boot.c", "line":1313, "type":"f", }
+,{"id":"disable_all", "file":"arch/x86/kernel/cpu/perf_event.c", "line":200, "type":"m", "scope_line":193, "scope_name":"struct x86_pmu", }
+,{"id":"disable_apic", "file":"arch/x86/include/asm/apic.h", "line":52, "type":"v", }
+,{"id":"disable_apic_timer", "file":"arch/x86/kernel/apic/apic.c", "line":157, "type":"v", }
+,{"id":"disable_depth", "file":"include/linux/pm.h", "line":470, "type":"m", "scope_line":451, "scope_name":"struct dev_pm_info", }
+,{"id":"disable_dma", "file":"arch/x86/include/asm/dma.h", "line":177, "type":"f", }
+,{"id":"disable_dynirq", "file":"drivers/xen/events.c", "line":792, "type":"f", }
+,{"id":"disable_esr", "file":"arch/x86/include/asm/apic.h", "line":297, "type":"m", "scope_line":285, "scope_name":"struct apic", }
+,{"id":"disable_hotplug_cpu", "file":"drivers/xen/cpu_hotplug.c", "line":17, "type":"f", }
+,{"id":"disable_hotplug_cpu", "file":"drivers/xen/cpu_hotplug.c", "line":56, "type":"c", "scope_line":45, "scope_name":"vcpu_hotplug", }
+,{"id":"disable_hpet", "file":"arch/x86/kernel/hpet.c", "line":102, "type":"f", }
+,{"id":"disable_intr_remapping", "file":"include/linux/dmar.h", "line":182, "type":"d", }
+,{"id":"disable_ioapic_nmi_watchdog", "file":"arch/x86/kernel/apic/nmi.c", "line":481, "type":"f", }
+,{"id":"disable_ioapic_nmi_watchdog", "file":"arch/x86/kernel/apic/nmi.c", "line":532, "type":"c", "scope_line":506, "scope_name":"proc_nmi_enabled", }
+,{"id":"disable_iommus", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1161, "type":"f", }
+,{"id":"disable_iommus", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1192, "type":"c", "scope_line":1189, "scope_name":"amd_iommu_suspend", }
+,{"id":"disable_iommus", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1363, "type":"c", "scope_line":1236, "scope_name":"amd_iommu_init", }
+,{"id":"disable_ipv6", "file":"include/linux/ipv6.h", "line":172, "type":"m", "scope_line":135, "scope_name":"struct ipv6_devconf", }
+,{"id":"disable_ipv6", "file":"include/linux/ipv6.h", "line":179, "type":"m", "scope_line":178, "scope_name":"struct ipv6_params", }
+,{"id":"disable_ipv6_mod", "file":"net/ipv6/af_inet6.c", "line":81, "type":"v", }
+,{"id":"disable_irq", "file":"arch/x86/kernel/hpet.c", "line":370, "type":"c", "scope_line":317, "scope_name":"hpet_set_mode", }
+,{"id":"disable_irq", "file":"arch/x86/kernel/hpet.c", "line":545, "type":"c", "scope_line":537, "scope_name":"hpet_setup_irq", }
+,{"id":"disable_irq", "file":"arch/x86/xen/spinlock.c", "line":362, "type":"c", "scope_line":348, "scope_name":"xen_init_lock_cpu", }
+,{"id":"disable_irq", "file":"drivers/ide/ide-io.c", "line":668, "type":"c", "scope_line":621, "scope_name":"ide_timer_expiry", }
+,{"id":"disable_irq", "file":"drivers/ide/ide-probe.c", "line":696, "type":"c", "scope_line":678, "scope_name":"ide_probe_port", }
+,{"id":"disable_irq", "file":"drivers/net/phy/phy.c", "line":694, "type":"c", "scope_line":652, "scope_name":"phy_change", }
+,{"id":"disable_irq", "file":"drivers/pci/hotplug/cpci_hotplug.h", "line":57, "type":"m", "scope_line":54, "scope_name":"struct cpci_hp_controller_ops", }
+,{"id":"disable_irq", "file":"drivers/xen/events.c", "line":712, "type":"c", "scope_line":706, "scope_name":"rebind_evtchn_irq", }
+,{"id":"disable_irq", "file":"include/linux/interrupt.h", "line":293, "type":"c", "scope_line":291, "scope_name":"disable_irq_lockdep", }
+,{"id":"disable_irq", "file":"kernel/irq/manage.c", "line":269, "type":"f", }
+,{"id":"disable_irq_lockdep", "file":"include/linux/interrupt.h", "line":291, "type":"f", }
+,{"id":"disable_irq_nosync", "file":"arch/x86/kernel/i8259.c", "line":117, "type":"c", "scope_line":115, "scope_name":"make_8259A_irq", }
+,{"id":"disable_irq_nosync", "file":"drivers/net/phy/phy.c", "line":523, "type":"c", "scope_line":512, "scope_name":"phy_interrupt", }
+,{"id":"disable_irq_nosync", "file":"drivers/serial/8250.c", "line":2037, "type":"c", "scope_line":1948, "scope_name":"serial8250_startup", }
+,{"id":"disable_irq_nosync", "file":"include/linux/interrupt.h", "line":277, "type":"c", "scope_line":275, "scope_name":"disable_irq_nosync_lockdep", }
+,{"id":"disable_irq_nosync", "file":"include/linux/interrupt.h", "line":285, "type":"c", "scope_line":283, "scope_name":"disable_irq_nosync_lockdep_irqsave", }
+,{"id":"disable_irq_nosync", "file":"kernel/irq/manage.c", "line":241, "type":"f", }
+,{"id":"disable_irq_nosync", "file":"kernel/irq/manage.c", "line":276, "type":"c", "scope_line":269, "scope_name":"disable_irq", }
+,{"id":"disable_irq_nosync_lockdep", "file":"include/linux/interrupt.h", "line":275, "type":"f", }
+,{"id":"disable_irq_nosync_lockdep_irqsave", "file":"include/linux/interrupt.h", "line":283, "type":"f", }
+,{"id":"disable_irq_wake", "file":"drivers/rtc/rtc-cmos.c", "line":917, "type":"c", "scope_line":904, "scope_name":"cmos_resume", }
+,{"id":"disable_irq_wake", "file":"drivers/serial/serial_core.c", "line":2059, "type":"c", "scope_line":2047, "scope_name":"uart_resume_port", }
+,{"id":"disable_irq_wake", "file":"include/linux/interrupt.h", "line":323, "type":"f", }
+,{"id":"disable_jprobe", "file":"include/linux/kprobes.h", "line":428, "type":"f", }
+,{"id":"disable_kprobe", "file":"include/linux/kprobes.h", "line":422, "type":"c", "scope_line":420, "scope_name":"disable_kretprobe", }
+,{"id":"disable_kprobe", "file":"include/linux/kprobes.h", "line":430, "type":"c", "scope_line":428, "scope_name":"disable_jprobe", }
+,{"id":"disable_kprobe", "file":"kernel/kprobes.c", "line":1592, "type":"f", }
+,{"id":"disable_kprobe", "file":"kernel/trace/trace_kprobe.c", "line":1435, "type":"c", "scope_line":1426, "scope_name":"probe_event_disable", }
+,{"id":"disable_kprobe", "file":"kernel/trace/trace_kprobe.c", "line":1640, "type":"c", "scope_line":1630, "scope_name":"probe_perf_disable", }
+,{"id":"disable_kretprobe", "file":"include/linux/kprobes.h", "line":420, "type":"f", }
+,{"id":"disable_kretprobe", "file":"kernel/trace/trace_kprobe.c", "line":1433, "type":"c", "scope_line":1426, "scope_name":"probe_event_disable", }
+,{"id":"disable_kretprobe", "file":"kernel/trace/trace_kprobe.c", "line":1638, "type":"c", "scope_line":1630, "scope_name":"probe_perf_disable", }
+,{"id":"disable_lapic_nmi_watchdog", "file":"arch/x86/kernel/apic/nmi.c", "line":527, "type":"c", "scope_line":506, "scope_name":"proc_nmi_enabled", }
+,{"id":"disable_lapic_nmi_watchdog", "file":"arch/x86/kernel/cpu/perf_event.c", "line":334, "type":"c", "scope_line":329, "scope_name":"reserve_pmc_hardware", }
+,{"id":"disable_lapic_nmi_watchdog", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":176, "type":"f", }
+,{"id":"disable_local_APIC", "file":"arch/x86/kernel/apic/apic.c", "line":2011, "type":"c", "scope_line":1982, "scope_name":"lapic_suspend", }
+,{"id":"disable_local_APIC", "file":"arch/x86/kernel/apic/apic.c", "line":919, "type":"f", }
+,{"id":"disable_local_APIC", "file":"arch/x86/kernel/apic/apic.c", "line":972, "type":"c", "scope_line":958, "scope_name":"lapic_shutdown", }
+,{"id":"disable_local_APIC", "file":"arch/x86/kernel/crash.c", "line":61, "type":"c", "scope_line":35, "scope_name":"kdump_nmi_callback", }
+,{"id":"disable_local_APIC", "file":"arch/x86/kernel/crash.c", "line":69, "type":"c", "scope_line":64, "scope_name":"kdump_nmi_shootdown_cpus", }
+,{"id":"disable_local_APIC", "file":"arch/x86/kernel/process.c", "line":406, "type":"c", "scope_line":399, "scope_name":"stop_this_cpu", }
+,{"id":"disable_local_APIC", "file":"arch/x86/kernel/smp.c", "line":189, "type":"c", "scope_line":162, "scope_name":"native_smp_send_stop", }
+,{"id":"disable_mmiotrace", "file":"arch/x86/mm/mmio-mod.c", "line":464, "type":"f", }
+,{"id":"disable_mmiotrace", "file":"kernel/trace/trace_mmiotrace.c", "line":51, "type":"c", "scope_line":47, "scope_name":"mmio_trace_reset", }
+,{"id":"disable_mtrr_cleanup_setup", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":153, "type":"f", }
+,{"id":"disable_mtrr_trim", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":806, "type":"v", }
+,{"id":"disable_mtrr_trim_setup", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":808, "type":"f", }
+,{"id":"disable_nonboot_cpus", "file":"kernel/cpu.c", "line":389, "type":"f", }
+,{"id":"disable_nonboot_cpus", "file":"kernel/kexec.c", "line":1528, "type":"c", "scope_line":1494, "scope_name":"kernel_kexec", }
+,{"id":"disable_nonboot_cpus", "file":"kernel/power/hibernate.c", "line":266, "type":"c", "scope_line":241, "scope_name":"create_image", }
+,{"id":"disable_nonboot_cpus", "file":"kernel/power/hibernate.c", "line":393, "type":"c", "scope_line":378, "scope_name":"resume_target_kernel", }
+,{"id":"disable_nonboot_cpus", "file":"kernel/power/hibernate.c", "line":510, "type":"c", "scope_line":475, "scope_name":"hibernation_platform_enter", }
+,{"id":"disable_nonboot_cpus", "file":"kernel/power/suspend.c", "line":157, "type":"c", "scope_line":132, "scope_name":"suspend_enter", }
+,{"id":"disable_nonboot_cpus", "file":"kernel/sys.c", "line":351, "type":"c", "scope_line":346, "scope_name":"kernel_power_off", }
+,{"id":"disable_nx", "file":"arch/x86/mm/setup_nx.c", "line":8, "type":"v", }
+,{"id":"disable_pm", "file":"include/linux/libata.h", "line":837, "type":"m", "scope_line":793, "scope_name":"struct ata_port_operations", }
+,{"id":"disable_randmaps", "file":"mm/memory.c", "line":105, "type":"f", }
+,{"id":"disable_rsa", "file":"drivers/serial/8250.c", "line":2208, "type":"c", "scope_line":2176, "scope_name":"serial8250_shutdown", }
+,{"id":"disable_rsa", "file":"drivers/serial/8250.c", "line":718, "type":"f", }
+,{"id":"disable_runtime", "file":"kernel/sched.c", "line":7524, "type":"c", "scope_line":7516, "scope_name":"update_runtime", }
+,{"id":"disable_runtime", "file":"kernel/sched_rt.c", "line":459, "type":"f", }
+,{"id":"disable_sfi", "file":"drivers/sfi/sfi_acpi.c", "line":110, "type":"c", "scope_line":99, "scope_name":"sfi_acpi_parse_xsdt", }
+,{"id":"disable_sfi", "file":"drivers/sfi/sfi_core.c", "line":487, "type":"c", "scope_line":484, "scope_name":"sfi_init", }
+,{"id":"disable_sfi", "file":"drivers/sfi/sfi_core.c", "line":495, "type":"c", "scope_line":484, "scope_name":"sfi_init", }
+,{"id":"disable_sfi", "file":"include/linux/sfi.h", "line":202, "type":"f", }
+,{"id":"disable_slot", "file":"drivers/pci/hotplug/cpci_hotplug_core.c", "line":116, "type":"f", }
+,{"id":"disable_slot", "file":"drivers/pci/hotplug/pciehp_core.c", "line":177, "type":"f", }
+,{"id":"disable_slot", "file":"include/linux/pci_hotplug.h", "line":76, "type":"m", "scope_line":72, "scope_name":"struct hotplug_slot_ops", }
+,{"id":"disable_smp", "file":"arch/x86/kernel/smpboot.c", "line":1017, "type":"c", "scope_line":971, "scope_name":"smp_sanity_check", }
+,{"id":"disable_smp", "file":"arch/x86/kernel/smpboot.c", "line":1117, "type":"c", "scope_line":1088, "scope_name":"native_smp_prepare_cpus", }
+,{"id":"disable_smp", "file":"arch/x86/kernel/smpboot.c", "line":953, "type":"f", }
+,{"id":"disable_swap_account", "file":"mm/memcontrol.c", "line":4727, "type":"f", }
+,{"id":"disable_swap_token", "file":"include/linux/swap.h", "line":352, "type":"f", }
+,{"id":"disable_swap_token", "file":"mm/vmscan.c", "line":1899, "type":"c", "scope_line":1880, "scope_name":"do_try_to_free_pages", }
+,{"id":"disable_swap_token", "file":"mm/vmscan.c", "line":2147, "type":"c", "scope_line":2114, "scope_name":"balance_pgdat", }
+,{"id":"disable_timer_pin_1", "file":"arch/x86/kernel/apic/io_apic.c", "line":2912, "type":"v", }
+,];
+xr_frag_insert('t/96/60eb4ed60972221c4f3609373564c8ace1c43b.xr', __xr_tmp);

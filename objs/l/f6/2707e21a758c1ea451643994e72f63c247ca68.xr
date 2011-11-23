@@ -1,0 +1,20 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#undef\">undef</a> <a class=\"id\" href=\"#TRACE_SYSTEM\">TRACE_SYSTEM</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#TRACE_SYSTEM\">TRACE_SYSTEM</a> <a class=\"id\" href=\"#napi\">napi</a>", 
+"", 
+"#if !<a class=\"id\" href=\"#defined\">defined</a>(<a class=\"id\" href=\"#_TRACE_NAPI_H\">_TRACE_NAPI_H</a>) || <a class=\"id\" href=\"#defined\">defined</a>(<a class=\"id\" href=\"#TRACE_HEADER_MULTI_READ\">TRACE_HEADER_MULTI_READ</a>)", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#_TRACE_NAPI_H_\">_TRACE_NAPI_H_</a>", 
+"", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#netdevice\">netdevice</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#tracepoint\">tracepoint</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"", 
+"<a class=\"id\" href=\"#DECLARE_TRACE\">DECLARE_TRACE</a>(<a class=\"id\" href=\"#napi_poll\">napi_poll</a>,", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#TP_PROTO\">TP_PROTO</a>(struct <a class=\"id\" href=\"#napi_struct\">napi_struct</a> *<a class=\"id\" href=\"#napi\">napi</a>),", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#TP_ARGS\">TP_ARGS</a>(<a class=\"id\" href=\"#napi\">napi</a>));", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* _TRACE_NAPI_H_ */</span>", 
+"", 
+"<span class=\"comment\">/* This part must be outside protection */</span>", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#trace\">trace</a>/<a class=\"id\" href=\"#define_trace\">define_trace</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+];
+xr_frag_insert('l/f6/2707e21a758c1ea451643994e72f63c247ca68.xr', __xr_tmp);

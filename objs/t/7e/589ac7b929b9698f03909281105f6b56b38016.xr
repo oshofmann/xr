@@ -1,0 +1,108 @@
+var __xr_tmp = [
+{"id":"sys_readlinkat", "file":"fs/stat.c", "line":289, "type":"f", }
+,{"id":"sys_readlinkat", "file":"fs/stat.c", "line":319, "type":"c", "scope_line":316, "scope_name":"sys_readlink", }
+,{"id":"sys_readv", "file":"fs/read_write.c", "line":711, "type":"f", }
+,{"id":"sys_reboot", "file":"kernel/sys.c", "line":368, "type":"f", }
+,{"id":"sys_recv", "file":"net/compat.c", "line":743, "type":"c", "scope_line":741, "scope_name":"compat_sys_recv", }
+,{"id":"sys_recv", "file":"net/socket.c", "line":1743, "type":"f", }
+,{"id":"sys_recv", "file":"net/socket.c", "line":2268, "type":"c", "scope_line":2207, "scope_name":"sys_socketcall", }
+,{"id":"sys_recvfrom", "file":"net/compat.c", "line":750, "type":"c", "scope_line":746, "scope_name":"compat_sys_recvfrom", }
+,{"id":"sys_recvfrom", "file":"net/socket.c", "line":1700, "type":"f", }
+,{"id":"sys_recvfrom", "file":"net/socket.c", "line":1746, "type":"c", "scope_line":1743, "scope_name":"sys_recv", }
+,{"id":"sys_recvfrom", "file":"net/socket.c", "line":2271, "type":"c", "scope_line":2207, "scope_name":"sys_socketcall", }
+,{"id":"sys_recvmmsg", "file":"net/socket.c", "line":2165, "type":"f", }
+,{"id":"sys_recvmmsg", "file":"net/socket.c", "line":2293, "type":"c", "scope_line":2207, "scope_name":"sys_socketcall", }
+,{"id":"sys_recvmsg", "file":"net/compat.c", "line":738, "type":"c", "scope_line":736, "scope_name":"compat_sys_recvmsg", }
+,{"id":"sys_recvmsg", "file":"net/socket.c", "line":2043, "type":"f", }
+,{"id":"sys_recvmsg", "file":"net/socket.c", "line":2290, "type":"c", "scope_line":2207, "scope_name":"sys_socketcall", }
+,{"id":"sys_remap_file_pages", "file":"mm/fremap.c", "line":123, "type":"f", }
+,{"id":"sys_removexattr", "file":"fs/xattr.c", "line":509, "type":"f", }
+,{"id":"sys_rename", "file":"fs/namei.c", "line":2745, "type":"f", }
+,{"id":"sys_renameat", "file":"fs/namei.c", "line":2651, "type":"f", }
+,{"id":"sys_renameat", "file":"fs/namei.c", "line":2747, "type":"c", "scope_line":2745, "scope_name":"sys_rename", }
+,{"id":"sys_request_key", "file":"security/keys/keyctl.c", "line":149, "type":"f", }
+,{"id":"sys_restart_syscall", "file":"kernel/signal.c", "line":2058, "type":"f", }
+,{"id":"sys_rmdir", "file":"fs/namei.c", "line":2224, "type":"f", }
+,{"id":"sys_rmdir", "file":"init/initramfs.c", "line":285, "type":"c", "scope_line":279, "scope_name":"clean_path", }
+,{"id":"sys_rmdir", "file":"init/initramfs.c", "line":553, "type":"c", "scope_line":524, "scope_name":"clean_rootfs", }
+,{"id":"sys_rt_sigaction", "file":"kernel/signal.c", "line":2632, "type":"f", }
+,{"id":"sys_rt_sigpending", "file":"arch/x86/ia32/sys_ia32.c", "line":373, "type":"c", "scope_line":364, "scope_name":"sys32_rt_sigpending", }
+,{"id":"sys_rt_sigpending", "file":"kernel/signal.c", "line":2171, "type":"f", }
+,{"id":"sys_rt_sigprocmask", "file":"arch/x86/ia32/sys_ia32.c", "line":311, "type":"c", "scope_line":291, "scope_name":"sys32_rt_sigprocmask", }
+,{"id":"sys_rt_sigprocmask", "file":"kernel/signal.c", "line":2111, "type":"f", }
+,{"id":"sys_rt_sigqueueinfo", "file":"arch/x86/ia32/sys_ia32.c", "line":398, "type":"c", "scope_line":388, "scope_name":"sys32_rt_sigqueueinfo", }
+,{"id":"sys_rt_sigqueueinfo", "file":"kernel/signal.c", "line":2412, "type":"f", }
+,{"id":"sys_rt_sigreturn", "file":"arch/x86/kernel/signal.c", "line":591, "type":"f", }
+,{"id":"sys_rt_sigsuspend", "file":"kernel/signal.c", "line":2718, "type":"f", }
+,{"id":"sys_rt_sigtimedwait", "file":"kernel/signal.c", "line":2250, "type":"f", }
+,{"id":"sys_rt_tgsigqueueinfo", "file":"kernel/signal.c", "line":2445, "type":"f", }
+,{"id":"sys_sched_get_priority_max", "file":"kernel/sched.c", "line":5162, "type":"f", }
+,{"id":"sys_sched_get_priority_min", "file":"kernel/sched.c", "line":5187, "type":"f", }
+,{"id":"sys_sched_getaffinity", "file":"kernel/sched.c", "line":4990, "type":"f", }
+,{"id":"sys_sched_getparam", "file":"kernel/sched.c", "line":4824, "type":"f", }
+,{"id":"sys_sched_getscheduler", "file":"kernel/sched.c", "line":4798, "type":"f", }
+,{"id":"sys_sched_rr_get_interval", "file":"arch/x86/ia32/sys_ia32.c", "line":357, "type":"c", "scope_line":349, "scope_name":"sys32_sched_rr_get_interval", }
+,{"id":"sys_sched_rr_get_interval", "file":"kernel/sched.c", "line":5212, "type":"f", }
+,{"id":"sys_sched_setaffinity", "file":"kernel/sched.c", "line":4938, "type":"f", }
+,{"id":"sys_sched_setparam", "file":"kernel/sched.c", "line":4789, "type":"f", }
+,{"id":"sys_sched_setscheduler", "file":"kernel/sched.c", "line":4774, "type":"f", }
+,{"id":"sys_sched_yield", "file":"kernel/sched.c", "line":5024, "type":"f", }
+,{"id":"sys_sched_yield", "file":"kernel/sched.c", "line":5118, "type":"c", "scope_line":5115, "scope_name":"yield", }
+,{"id":"sys_select", "file":"fs/select.c", "line":596, "type":"f", }
+,{"id":"sys_semctl", "file":"ipc/compat.c", "line":263, "type":"c", "scope_line":235, "scope_name":"compat_sys_semctl", }
+,{"id":"sys_semctl", "file":"ipc/compat.c", "line":270, "type":"c", "scope_line":235, "scope_name":"compat_sys_semctl", }
+,{"id":"sys_semctl", "file":"ipc/compat.c", "line":296, "type":"c", "scope_line":235, "scope_name":"compat_sys_semctl", }
+,{"id":"sys_semctl", "file":"ipc/sem.c", "line":1079, "type":"f", }
+,{"id":"sys_semget", "file":"arch/x86/ia32/ipc32.c", "line":29, "type":"c", "scope_line":13, "scope_name":"sys32_ipc", }
+,{"id":"sys_semget", "file":"ipc/sem.c", "line":321, "type":"f", }
+,{"id":"sys_semop", "file":"ipc/sem.c", "line":1489, "type":"f", }
+,{"id":"sys_semtimedop", "file":"arch/x86/ia32/ipc32.c", "line":24, "type":"c", "scope_line":13, "scope_name":"sys32_ipc", }
+,{"id":"sys_semtimedop", "file":"ipc/compat.c", "line":680, "type":"c", "scope_line":668, "scope_name":"compat_sys_semtimedop", }
+,{"id":"sys_semtimedop", "file":"ipc/sem.c", "line":1288, "type":"f", }
+,{"id":"sys_semtimedop", "file":"ipc/sem.c", "line":1492, "type":"c", "scope_line":1489, "scope_name":"sys_semop", }
+,{"id":"sys_send", "file":"net/compat.c", "line":814, "type":"c", "scope_line":775, "scope_name":"compat_sys_socketcall", }
+,{"id":"sys_send", "file":"net/socket.c", "line":1688, "type":"f", }
+,{"id":"sys_send", "file":"net/socket.c", "line":2261, "type":"c", "scope_line":2207, "scope_name":"sys_socketcall", }
+,{"id":"sys_sendfile", "file":"arch/x86/ia32/sys_ia32.c", "line":443, "type":"c", "scope_line":432, "scope_name":"sys32_sendfile", }
+,{"id":"sys_sendfile", "file":"fs/read_write.c", "line":897, "type":"f", }
+,{"id":"sys_sendfile64", "file":"fs/read_write.c", "line":916, "type":"f", }
+,{"id":"sys_sendmsg", "file":"net/compat.c", "line":733, "type":"c", "scope_line":731, "scope_name":"compat_sys_sendmsg", }
+,{"id":"sys_sendmsg", "file":"net/socket.c", "line":1844, "type":"f", }
+,{"id":"sys_sendmsg", "file":"net/socket.c", "line":2287, "type":"c", "scope_line":2207, "scope_name":"sys_socketcall", }
+,{"id":"sys_sendto", "file":"net/compat.c", "line":817, "type":"c", "scope_line":775, "scope_name":"compat_sys_socketcall", }
+,{"id":"sys_sendto", "file":"net/socket.c", "line":1643, "type":"f", }
+,{"id":"sys_sendto", "file":"net/socket.c", "line":1691, "type":"c", "scope_line":1688, "scope_name":"sys_send", }
+,{"id":"sys_sendto", "file":"net/socket.c", "line":2264, "type":"c", "scope_line":2207, "scope_name":"sys_socketcall", }
+,{"id":"sys_set_mempolicy", "file":"mm/mempolicy.c", "line":1254, "type":"f", }
+,{"id":"sys_set_mempolicy", "file":"mm/mempolicy.c", "line":1435, "type":"c", "scope_line":1415, "scope_name":"compat_sys_set_mempolicy", }
+,{"id":"sys_set_robust_list", "file":"kernel/futex.c", "line":2351, "type":"f", }
+,{"id":"sys_set_thread_area", "file":"arch/x86/kernel/tls.c", "line":93, "type":"f", }
+,{"id":"sys_set_tid_address", "file":"kernel/fork.c", "line":921, "type":"f", }
+,{"id":"sys_setdomainname", "file":"kernel/sys.c", "line":1216, "type":"f", }
+,{"id":"sys_setfsgid", "file":"kernel/sys.c", "line":852, "type":"f", }
+,{"id":"sys_setfsgid", "file":"kernel/uid16.c", "line":128, "type":"c", "scope_line":126, "scope_name":"sys_setfsgid16", }
+,{"id":"sys_setfsgid16", "file":"kernel/uid16.c", "line":126, "type":"f", }
+,{"id":"sys_setfsuid", "file":"kernel/sys.c", "line":819, "type":"f", }
+,{"id":"sys_setfsuid", "file":"kernel/uid16.c", "line":120, "type":"c", "scope_line":118, "scope_name":"sys_setfsuid16", }
+,{"id":"sys_setfsuid16", "file":"kernel/uid16.c", "line":118, "type":"f", }
+,{"id":"sys_setgid", "file":"kernel/sys.c", "line":531, "type":"f", }
+,{"id":"sys_setgid", "file":"kernel/uid16.c", "line":53, "type":"c", "scope_line":51, "scope_name":"sys_setgid16", }
+,{"id":"sys_setgid16", "file":"kernel/uid16.c", "line":51, "type":"f", }
+,{"id":"sys_setgroups", "file":"kernel/groups.c", "line":231, "type":"f", }
+,{"id":"sys_setgroups16", "file":"kernel/uid16.c", "line":187, "type":"f", }
+,{"id":"sys_sethostname", "file":"kernel/sys.c", "line":1167, "type":"f", }
+,{"id":"sys_setitimer", "file":"kernel/itimer.c", "line":279, "type":"f", }
+,{"id":"sys_setpgid", "file":"kernel/sys.c", "line":921, "type":"f", }
+,{"id":"sys_setpriority", "file":"kernel/sys.c", "line":149, "type":"f", }
+,{"id":"sys_setregid", "file":"kernel/sys.c", "line":484, "type":"f", }
+,{"id":"sys_setregid", "file":"kernel/uid16.c", "line":45, "type":"c", "scope_line":43, "scope_name":"sys_setregid16", }
+,{"id":"sys_setregid16", "file":"kernel/uid16.c", "line":43, "type":"f", }
+,{"id":"sys_setresgid", "file":"kernel/sys.c", "line":761, "type":"f", }
+,{"id":"sys_setresgid", "file":"kernel/uid16.c", "line":98, "type":"c", "scope_line":96, "scope_name":"sys_setresgid16", }
+,{"id":"sys_setresgid16", "file":"kernel/uid16.c", "line":96, "type":"f", }
+,{"id":"sys_setresuid", "file":"kernel/sys.c", "line":696, "type":"f", }
+,{"id":"sys_setresuid", "file":"kernel/uid16.c", "line":77, "type":"c", "scope_line":75, "scope_name":"sys_setresuid16", }
+,{"id":"sys_setresuid16", "file":"kernel/uid16.c", "line":75, "type":"f", }
+,{"id":"sys_setreuid", "file":"kernel/sys.c", "line":594, "type":"f", }
+,];
+xr_frag_insert('t/7e/589ac7b929b9698f03909281105f6b56b38016.xr', __xr_tmp);

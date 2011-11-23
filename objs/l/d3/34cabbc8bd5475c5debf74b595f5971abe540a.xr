@@ -1,0 +1,22 @@
+var __xr_tmp = [
+"<span class=\"comment\">/*</span>", 
+"<span class=\"comment\"> * kobj_map.h</span>", 
+"<span class=\"comment\"> */</span>", 
+"", 
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#_KOBJ_MAP_H_\">_KOBJ_MAP_H_</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#_KOBJ_MAP_H_\">_KOBJ_MAP_H_</a>", 
+"", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#mutex\">mutex</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"", 
+"typedef struct <a class=\"id\" href=\"#kobject\">kobject</a> *<a class=\"id\" href=\"#kobj_probe_t\">kobj_probe_t</a>(<a class=\"id\" href=\"#dev_t\">dev_t</a>, int *, void *);", 
+"struct <a class=\"id\" href=\"#kobj_map\">kobj_map</a>;", 
+"", 
+"int <a class=\"id\" href=\"#kobj_map\">kobj_map</a>(struct <a class=\"id\" href=\"#kobj_map\">kobj_map</a> *, <a class=\"id\" href=\"#dev_t\">dev_t</a>, unsigned long, struct <a class=\"id\" href=\"#module\">module</a> *,", 
+"<span class=\"ts\"/>     <a class=\"id\" href=\"#kobj_probe_t\">kobj_probe_t</a> *, int (*)(<a class=\"id\" href=\"#dev_t\">dev_t</a>, void *), void *);", 
+"void <a class=\"id\" href=\"#kobj_unmap\">kobj_unmap</a>(struct <a class=\"id\" href=\"#kobj_map\">kobj_map</a> *, <a class=\"id\" href=\"#dev_t\">dev_t</a>, unsigned long);", 
+"struct <a class=\"id\" href=\"#kobject\">kobject</a> *<a class=\"id\" href=\"#kobj_lookup\">kobj_lookup</a>(struct <a class=\"id\" href=\"#kobj_map\">kobj_map</a> *, <a class=\"id\" href=\"#dev_t\">dev_t</a>, int *);", 
+"struct <a class=\"id\" href=\"#kobj_map\">kobj_map</a> *<a class=\"id\" href=\"#kobj_map_init\">kobj_map_init</a>(<a class=\"id\" href=\"#kobj_probe_t\">kobj_probe_t</a> *, struct <a class=\"id\" href=\"#mutex\">mutex</a> *);", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* _KOBJ_MAP_H_ */</span>", 
+];
+xr_frag_insert('l/d3/34cabbc8bd5475c5debf74b595f5971abe540a.xr', __xr_tmp);

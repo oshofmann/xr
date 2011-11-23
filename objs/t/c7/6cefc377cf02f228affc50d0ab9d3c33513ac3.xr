@@ -1,0 +1,108 @@
+var __xr_tmp = [
+{"id":"bitmap_fill", "file":"include/linux/nodemask.h", "line":114, "type":"c", "scope_line":112, "scope_name":"__nodes_setall", }
+,{"id":"bitmap_fill", "file":"mm/percpu.c", "line":1451, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"bitmap_fill", "file":"mm/percpu.c", "line":1475, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"bitmap_fill", "file":"mm/vmalloc.c", "line":813, "type":"c", "scope_line":796, "scope_name":"purge_fragmented_blocks", }
+,{"id":"bitmap_fill", "file":"mm/vmalloc.c", "line":814, "type":"c", "scope_line":796, "scope_name":"purge_fragmented_blocks", }
+,{"id":"bitmap_find_free_region", "file":"lib/bitmap.c", "line":1029, "type":"f", }
+,{"id":"bitmap_find_free_region", "file":"mm/vmalloc.c", "line":866, "type":"c", "scope_line":844, "scope_name":"vb_alloc", }
+,{"id":"bitmap_find_next_zero_area", "file":"lib/bitmap.c", "line":330, "type":"f", }
+,{"id":"bitmap_find_next_zero_area", "file":"lib/iommu-helper.c", "line":28, "type":"c", "scope_line":18, "scope_name":"iommu_area_alloc", }
+,{"id":"bitmap_fold", "file":"include/linux/nodemask.h", "line":355, "type":"c", "scope_line":352, "scope_name":"__nodes_fold", }
+,{"id":"bitmap_fold", "file":"lib/bitmap.c", "line":925, "type":"f", }
+,{"id":"bitmap_full", "file":"include/linux/bitmap.h", "line":263, "type":"f", }
+,{"id":"bitmap_full", "file":"include/linux/cpumask.h", "line":439, "type":"c", "scope_line":437, "scope_name":"cpumask_full", }
+,{"id":"bitmap_full", "file":"include/linux/nodemask.h", "line":206, "type":"c", "scope_line":204, "scope_name":"__nodes_full", }
+,{"id":"bitmap_intersects", "file":"include/linux/bitmap.h", "line":237, "type":"f", }
+,{"id":"bitmap_intersects", "file":"include/linux/cpumask.h", "line":408, "type":"c", "scope_line":405, "scope_name":"cpumask_intersects", }
+,{"id":"bitmap_intersects", "file":"include/linux/cpumask.h", "line":883, "type":"c", "scope_line":880, "scope_name":"__cpus_intersects", }
+,{"id":"bitmap_intersects", "file":"include/linux/nodemask.h", "line":186, "type":"c", "scope_line":183, "scope_name":"__nodes_intersects", }
+,{"id":"bitmap_onto", "file":"include/linux/nodemask.h", "line":347, "type":"c", "scope_line":344, "scope_name":"__nodes_onto", }
+,{"id":"bitmap_onto", "file":"lib/bitmap.c", "line":885, "type":"f", }
+,{"id":"bitmap_or", "file":"include/linux/bitmap.h", "line":193, "type":"f", }
+,{"id":"bitmap_or", "file":"include/linux/cpumask.h", "line":344, "type":"c", "scope_line":341, "scope_name":"cpumask_or", }
+,{"id":"bitmap_or", "file":"include/linux/cpumask.h", "line":854, "type":"c", "scope_line":851, "scope_name":"__cpus_or", }
+,{"id":"bitmap_or", "file":"include/linux/nodemask.h", "line":146, "type":"c", "scope_line":143, "scope_name":"__nodes_or", }
+,{"id":"bitmap_or", "file":"kernel/sysctl.c", "line":2881, "type":"c", "scope_line":2762, "scope_name":"proc_do_large_bitmap", }
+,{"id":"bitmap_ord_to_pos", "file":"lib/bitmap.c", "line":675, "type":"f", }
+,{"id":"bitmap_ord_to_pos", "file":"lib/bitmap.c", "line":742, "type":"c", "scope_line":725, "scope_name":"bitmap_remap", }
+,{"id":"bitmap_ord_to_pos", "file":"lib/bitmap.c", "line":781, "type":"c", "scope_line":773, "scope_name":"bitmap_bitremap", }
+,{"id":"bitmap_parse", "file":"include/linux/bitmap.h", "line":296, "type":"f", }
+,{"id":"bitmap_parse", "file":"net/core/net-sysfs.c", "line":575, "type":"c", "scope_line":560, "scope_name":"store_rps_map", }
+,{"id":"bitmap_parse_user", "file":"include/linux/cpumask.h", "line":546, "type":"c", "scope_line":543, "scope_name":"cpumask_parse_user", }
+,{"id":"bitmap_parse_user", "file":"include/linux/nodemask.h", "line":309, "type":"c", "scope_line":306, "scope_name":"__nodemask_parse_user", }
+,{"id":"bitmap_parse_user", "file":"lib/bitmap.c", "line":504, "type":"f", }
+,{"id":"bitmap_parselist", "file":"drivers/input/keyboard/atkbd.c", "line":1365, "type":"c", "scope_line":1358, "scope_name":"atkbd_set_force_release", }
+,{"id":"bitmap_parselist", "file":"include/linux/cpumask.h", "line":575, "type":"c", "scope_line":573, "scope_name":"cpulist_parse", }
+,{"id":"bitmap_parselist", "file":"include/linux/nodemask.h", "line":323, "type":"c", "scope_line":321, "scope_name":"__nodelist_parse", }
+,{"id":"bitmap_parselist", "file":"lib/bitmap.c", "line":591, "type":"f", }
+,{"id":"bitmap_pos_to_ord", "file":"lib/bitmap.c", "line":639, "type":"f", }
+,{"id":"bitmap_pos_to_ord", "file":"lib/bitmap.c", "line":737, "type":"c", "scope_line":725, "scope_name":"bitmap_remap", }
+,{"id":"bitmap_pos_to_ord", "file":"lib/bitmap.c", "line":777, "type":"c", "scope_line":773, "scope_name":"bitmap_bitremap", }
+,{"id":"bitmap_release_region", "file":"lib/bitmap.c", "line":1054, "type":"f", }
+,{"id":"bitmap_remap", "file":"include/linux/nodemask.h", "line":339, "type":"c", "scope_line":336, "scope_name":"__nodes_remap", }
+,{"id":"bitmap_remap", "file":"lib/bitmap.c", "line":725, "type":"f", }
+,{"id":"bitmap_scnlistprintf", "file":"drivers/input/keyboard/atkbd.c", "line":1349, "type":"c", "scope_line":1347, "scope_name":"atkbd_show_force_release", }
+,{"id":"bitmap_scnlistprintf", "file":"fs/seq_file.c", "line":524, "type":"c", "scope_line":520, "scope_name":"seq_bitmap_list", }
+,{"id":"bitmap_scnlistprintf", "file":"include/linux/cpumask.h", "line":561, "type":"c", "scope_line":558, "scope_name":"cpulist_scnprintf", }
+,{"id":"bitmap_scnlistprintf", "file":"include/linux/nodemask.h", "line":317, "type":"c", "scope_line":314, "scope_name":"__nodelist_scnprintf", }
+,{"id":"bitmap_scnlistprintf", "file":"lib/bitmap.c", "line":550, "type":"f", }
+,{"id":"bitmap_scnprintf", "file":"fs/seq_file.c", "line":508, "type":"c", "scope_line":504, "scope_name":"seq_bitmap", }
+,{"id":"bitmap_scnprintf", "file":"include/linux/cpumask.h", "line":532, "type":"c", "scope_line":529, "scope_name":"cpumask_scnprintf", }
+,{"id":"bitmap_scnprintf", "file":"include/linux/nodemask.h", "line":301, "type":"c", "scope_line":298, "scope_name":"__nodemask_scnprintf", }
+,{"id":"bitmap_scnprintf", "file":"lib/bitmap.c", "line":375, "type":"f", }
+,{"id":"bitmap_search_next_usable_block", "file":"fs/ext2/balloc.c", "line":586, "type":"f", }
+,{"id":"bitmap_search_next_usable_block", "file":"fs/ext2/balloc.c", "line":645, "type":"c", "scope_line":610, "scope_name":"find_next_usable_block", }
+,{"id":"bitmap_search_next_usable_block", "file":"fs/ext2/balloc.c", "line":998, "type":"c", "scope_line":907, "scope_name":"alloc_new_reservation", }
+,{"id":"bitmap_search_next_usable_block", "file":"fs/ext3/balloc.c", "line":1193, "type":"c", "scope_line":1100, "scope_name":"alloc_new_reservation", }
+,{"id":"bitmap_search_next_usable_block", "file":"fs/ext3/balloc.c", "line":731, "type":"f", }
+,{"id":"bitmap_search_next_usable_block", "file":"fs/ext3/balloc.c", "line":807, "type":"c", "scope_line":766, "scope_name":"find_next_usable_block", }
+,{"id":"bitmap_set", "file":"arch/x86/kernel/pci-calgary_64.c", "line":220, "type":"c", "scope_line":201, "scope_name":"iommu_range_reserve", }
+,{"id":"bitmap_set", "file":"arch/x86/kernel/pci-gart_64.c", "line":799, "type":"c", "scope_line":733, "scope_name":"gart_iommu_init", }
+,{"id":"bitmap_set", "file":"lib/bitmap.c", "line":276, "type":"f", }
+,{"id":"bitmap_set", "file":"lib/iommu-helper.c", "line":35, "type":"c", "scope_line":18, "scope_name":"iommu_area_alloc", }
+,{"id":"bitmap_shift_left", "file":"include/linux/bitmap.h", "line":287, "type":"f", }
+,{"id":"bitmap_shift_left", "file":"include/linux/cpumask.h", "line":473, "type":"c", "scope_line":470, "scope_name":"cpumask_shift_left", }
+,{"id":"bitmap_shift_left", "file":"include/linux/cpumask.h", "line":910, "type":"c", "scope_line":907, "scope_name":"__cpus_shift_left", }
+,{"id":"bitmap_shift_left", "file":"include/linux/nodemask.h", "line":228, "type":"c", "scope_line":225, "scope_name":"__nodes_shift_left", }
+,{"id":"bitmap_shift_right", "file":"include/linux/bitmap.h", "line":278, "type":"f", }
+,{"id":"bitmap_shift_right", "file":"include/linux/cpumask.h", "line":460, "type":"c", "scope_line":457, "scope_name":"cpumask_shift_right", }
+,{"id":"bitmap_shift_right", "file":"include/linux/nodemask.h", "line":220, "type":"c", "scope_line":217, "scope_name":"__nodes_shift_right", }
+,{"id":"bitmap_subset", "file":"include/linux/bitmap.h", "line":246, "type":"f", }
+,{"id":"bitmap_subset", "file":"include/linux/cpumask.h", "line":420, "type":"c", "scope_line":417, "scope_name":"cpumask_subset", }
+,{"id":"bitmap_subset", "file":"include/linux/cpumask.h", "line":890, "type":"c", "scope_line":887, "scope_name":"__cpus_subset", }
+,{"id":"bitmap_subset", "file":"include/linux/nodemask.h", "line":194, "type":"c", "scope_line":191, "scope_name":"__nodes_subset", }
+,{"id":"bitmap_uptodate", "file":"fs/ext4/balloc.c", "line":311, "type":"c", "scope_line":292, "scope_name":"ext4_read_block_bitmap", }
+,{"id":"bitmap_uptodate", "file":"fs/ext4/balloc.c", "line":315, "type":"c", "scope_line":292, "scope_name":"ext4_read_block_bitmap", }
+,{"id":"bitmap_uptodate", "file":"fs/ext4/ext4.h", "line":2022, "type":"f", }
+,{"id":"bitmap_uptodate", "file":"fs/ext4/ialloc.c", "line":118, "type":"c", "scope_line":100, "scope_name":"ext4_read_inode_bitmap", }
+,{"id":"bitmap_uptodate", "file":"fs/ext4/ialloc.c", "line":122, "type":"c", "scope_line":100, "scope_name":"ext4_read_inode_bitmap", }
+,{"id":"bitmap_uptodate", "file":"fs/ext4/mballoc.c", "line":814, "type":"c", "scope_line":756, "scope_name":"ext4_mb_init_cache", }
+,{"id":"bitmap_uptodate", "file":"fs/ext4/mballoc.c", "line":818, "type":"c", "scope_line":756, "scope_name":"ext4_mb_init_cache", }
+,{"id":"bitmap_weight", "file":"include/linux/bitmap.h", "line":271, "type":"f", }
+,{"id":"bitmap_weight", "file":"include/linux/cpumask.h", "line":448, "type":"c", "scope_line":446, "scope_name":"cpumask_weight", }
+,{"id":"bitmap_weight", "file":"include/linux/cpumask.h", "line":902, "type":"c", "scope_line":900, "scope_name":"__cpus_weight", }
+,{"id":"bitmap_weight", "file":"include/linux/nodemask.h", "line":212, "type":"c", "scope_line":210, "scope_name":"__nodes_weight", }
+,{"id":"bitmap_weight", "file":"kernel/module.c", "line":1996, "type":"c", "scope_line":1958, "scope_name":"layout_symtab", }
+,{"id":"bitmap_weight", "file":"kernel/module.c", "line":2023, "type":"c", "scope_line":1999, "scope_name":"add_kallsyms", }
+,{"id":"bitmap_weight", "file":"lib/bitmap.c", "line":735, "type":"c", "scope_line":725, "scope_name":"bitmap_remap", }
+,{"id":"bitmap_weight", "file":"lib/bitmap.c", "line":776, "type":"c", "scope_line":773, "scope_name":"bitmap_bitremap", }
+,{"id":"bitmap_xor", "file":"include/linux/bitmap.h", "line":202, "type":"f", }
+,{"id":"bitmap_xor", "file":"include/linux/cpumask.h", "line":358, "type":"c", "scope_line":354, "scope_name":"cpumask_xor", }
+,{"id":"bitmap_xor", "file":"include/linux/cpumask.h", "line":861, "type":"c", "scope_line":858, "scope_name":"__cpus_xor", }
+,{"id":"bitmap_xor", "file":"include/linux/nodemask.h", "line":154, "type":"c", "scope_line":151, "scope_name":"__nodes_xor", }
+,{"id":"bitmap_zero", "file":"arch/x86/include/asm/mpspec.h", "line":158, "type":"c", "scope_line":156, "scope_name":"physids_promote", }
+,{"id":"bitmap_zero", "file":"arch/x86/include/asm/mpspec.h", "line":172, "type":"c", "scope_line":170, "scope_name":"physid_set_mask_of_physid", }
+,{"id":"bitmap_zero", "file":"arch/x86/kernel/apic/apic.c", "line":2156, "type":"c", "scope_line":2148, "scope_name":"apic_cluster_num", }
+,{"id":"bitmap_zero", "file":"arch/x86/kernel/apic/io_apic.c", "line":3973, "type":"c", "scope_line":3961, "scope_name":"io_apic_unique_id", }
+,{"id":"bitmap_zero", "file":"arch/x86/kernel/cpu/perf_event.c", "line":636, "type":"c", "scope_line":629, "scope_name":"x86_schedule_events", }
+,{"id":"bitmap_zero", "file":"arch/x86/kernel/cpu/perf_event.c", "line":673, "type":"c", "scope_line":629, "scope_name":"x86_schedule_events", }
+,{"id":"bitmap_zero", "file":"arch/x86/kernel/cpu/perf_event_p4.c", "line":856, "type":"c", "scope_line":846, "scope_name":"p4_pmu_schedule_events", }
+,{"id":"bitmap_zero", "file":"arch/x86/kernel/cpu/perf_event_p4.c", "line":857, "type":"c", "scope_line":846, "scope_name":"p4_pmu_schedule_events", }
+,{"id":"bitmap_zero", "file":"drivers/input/keyboard/atkbd.c", "line":970, "type":"c", "scope_line":964, "scope_name":"atkbd_set_keycode_table", }
+,{"id":"bitmap_zero", "file":"drivers/pnp/pnpacpi/rsparser.c", "line":535, "type":"c", "scope_line":524, "scope_name":"pnpacpi_parse_irq_option", }
+,{"id":"bitmap_zero", "file":"drivers/pnp/pnpacpi/rsparser.c", "line":555, "type":"c", "scope_line":544, "scope_name":"pnpacpi_parse_ext_irq_option", }
+,{"id":"bitmap_zero", "file":"drivers/pnp/quirks.c", "line":80, "type":"c", "scope_line":68, "scope_name":"quirk_cmi8330_resources", }
+,{"id":"bitmap_zero", "file":"include/linux/bitmap.h", "line":154, "type":"f", }
+,];
+xr_frag_insert('t/c7/6cefc377cf02f228affc50d0ab9d3c33513ac3.xr', __xr_tmp);

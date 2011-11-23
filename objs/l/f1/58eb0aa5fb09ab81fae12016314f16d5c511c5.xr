@@ -1,0 +1,11 @@
+var __xr_tmp = [
+"static <a class=\"id\" href=\"#inline\">inline</a> <a class=\"id\" href=\"#__u16\">__u16</a><span class=\"ts\"/><a class=\"id\" href=\"#inet_getid\">inet_getid</a>(struct <a class=\"id\" href=\"#inet_peer\">inet_peer</a> *<a class=\"id\" href=\"#p\">p</a>, int <a class=\"id\" href=\"#more\">more</a>)", 
+"{", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#more\">more</a>++;", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#inet_peer_refcheck\">inet_peer_refcheck</a>(<a class=\"id\" href=\"#p\">p</a>);", 
+"<span class=\"ts\"/>return <a class=\"id\" href=\"#atomic_add_return\">atomic_add_return</a>(<a class=\"id\" href=\"#more\">more</a>, &amp;<a class=\"id\" href=\"#p\">p</a>-><a class=\"id\" href=\"#ip_id_count\">ip_id_count</a>) - <a class=\"id\" href=\"#more\">more</a>;", 
+"}", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* _NET_INETPEER_H */</span>", 
+];
+xr_frag_insert('l/f1/58eb0aa5fb09ab81fae12016314f16d5c511c5.xr', __xr_tmp);

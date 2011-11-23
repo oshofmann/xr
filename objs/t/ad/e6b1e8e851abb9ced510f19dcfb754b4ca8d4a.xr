@@ -1,0 +1,345 @@
+var __xr_tmp = [
+{"id":"blk_create_buf_file_callback", "file":"kernel/trace/blktrace.c", "line":394, "type":"f", }
+,{"id":"blk_default_cmd_filter", "file":"block/scsi_ioctl.c", "line":40, "type":"v", }
+,{"id":"blk_default_limits", "file":"include/linux/blkdev.h", "line":947, "type":"t", }
+,{"id":"blk_delete_timer", "file":"block/blk-core.c", "line":2176, "type":"c", "scope_line":2166, "scope_name":"blk_finish_request", }
+,{"id":"blk_delete_timer", "file":"block/blk-core.c", "line":978, "type":"c", "scope_line":976, "scope_name":"blk_requeue_request", }
+,{"id":"blk_delete_timer", "file":"block/blk-timeout.c", "line":151, "type":"c", "scope_line":147, "scope_name":"blk_abort_request", }
+,{"id":"blk_delete_timer", "file":"block/blk-timeout.c", "line":74, "type":"f", }
+,{"id":"blk_dequeue_request", "file":"block/blk-barrier.c", "line":175, "type":"c", "scope_line":145, "scope_name":"start_ordered", }
+,{"id":"blk_dequeue_request", "file":"block/blk-barrier.c", "line":244, "type":"c", "scope_line":227, "scope_name":"blk_do_ordered", }
+,{"id":"blk_dequeue_request", "file":"block/blk-core.c", "line":1893, "type":"f", }
+,{"id":"blk_dequeue_request", "file":"block/blk-core.c", "line":1929, "type":"c", "scope_line":1927, "scope_name":"blk_start_request", }
+,{"id":"blk_dev_init", "file":"block/blk-core.c", "line":2582, "type":"f", }
+,{"id":"blk_dev_init", "file":"block/genhd.c", "line":802, "type":"c", "scope_line":793, "scope_name":"genhd_device_init", }
+,{"id":"blk_dev_integrity_init", "file":"block/blk-integrity.c", "line":287, "type":"f", }
+,{"id":"blk_do_io_stat", "file":"block/blk-core.c", "line":1756, "type":"c", "scope_line":1754, "scope_name":"blk_account_io_completion", }
+,{"id":"blk_do_io_stat", "file":"block/blk-core.c", "line":1775, "type":"c", "scope_line":1768, "scope_name":"blk_account_io_done", }
+,{"id":"blk_do_io_stat", "file":"block/blk-core.c", "line":63, "type":"c", "scope_line":57, "scope_name":"drive_stat_acct", }
+,{"id":"blk_do_io_stat", "file":"block/blk-merge.c", "line":341, "type":"c", "scope_line":339, "scope_name":"blk_account_io_merge", }
+,{"id":"blk_do_io_stat", "file":"block/blk.h", "line":166, "type":"f", }
+,{"id":"blk_do_ordered", "file":"block/blk-barrier.c", "line":227, "type":"f", }
+,{"id":"blk_do_ordered", "file":"block/blk.h", "line":61, "type":"c", "scope_line":54, "scope_name":"__elv_next_request", }
+,{"id":"blk_done", "file":"drivers/block/virtio_blk.c", "line":46, "type":"f", }
+,{"id":"blk_done_softirq", "file":"block/blk-softirq.c", "line":20, "type":"f", }
+,{"id":"blk_dropped_fops", "file":"kernel/trace/blktrace.c", "line":325, "type":"v", }
+,{"id":"blk_dropped_open", "file":"kernel/trace/blktrace.c", "line":307, "type":"f", }
+,{"id":"blk_dropped_read", "file":"kernel/trace/blktrace.c", "line":314, "type":"f", }
+,{"id":"blk_dump_cmd", "file":"include/trace/events/block.h", "line":11, "type":"c", "scope_line":11, "scope_name":"ftrace_raw_event_block_rq_with_error", }
+,{"id":"blk_dump_cmd", "file":"include/trace/events/block.h", "line":11, "type":"c", "scope_line":11, "scope_name":"perf_trace_block_rq_with_error", }
+,{"id":"blk_dump_cmd", "file":"include/trace/events/block.h", "line":96, "type":"c", "scope_line":96, "scope_name":"ftrace_raw_event_block_rq", }
+,{"id":"blk_dump_cmd", "file":"include/trace/events/block.h", "line":96, "type":"c", "scope_line":96, "scope_name":"perf_trace_block_rq", }
+,{"id":"blk_dump_cmd", "file":"kernel/trace/blktrace.c", "line":1776, "type":"f", }
+,{"id":"blk_dump_rq_flags", "file":"block/blk-core.c", "line":173, "type":"f", }
+,{"id":"blk_dump_rq_flags", "file":"block/blk-core.c", "line":2035, "type":"c", "scope_line":1991, "scope_name":"blk_update_request", }
+,{"id":"blk_dump_rq_flags", "file":"drivers/scsi/scsi_lib.c", "line":1507, "type":"c", "scope_line":1451, "scope_name":"scsi_request_fn", }
+,{"id":"blk_dump_rq_flags", "file":"drivers/scsi/sr.c", "line":396, "type":"c", "scope_line":326, "scope_name":"sr_prep_fn", }
+,{"id":"blk_eh_timer_return", "file":"include/linux/blkdev.h", "line":204, "type":"t", }
+,{"id":"blk_end_bidi_request", "file":"block/blk-core.c", "line":2211, "type":"f", }
+,{"id":"blk_end_bidi_request", "file":"block/blk-core.c", "line":2269, "type":"c", "scope_line":2267, "scope_name":"blk_end_request", }
+,{"id":"blk_end_bidi_request", "file":"block/blk-core.c", "line":2289, "type":"c", "scope_line":2281, "scope_name":"blk_end_request_all", }
+,{"id":"blk_end_request", "file":"block/blk-core.c", "line":2267, "type":"f", }
+,{"id":"blk_end_request", "file":"block/blk-core.c", "line":2308, "type":"c", "scope_line":2306, "scope_name":"blk_end_request_cur", }
+,{"id":"blk_end_request", "file":"block/blk-core.c", "line":2327, "type":"c", "scope_line":2324, "scope_name":"blk_end_request_err", }
+,{"id":"blk_end_request", "file":"drivers/ide/ide-io.c", "line":70, "type":"c", "scope_line":57, "scope_name":"ide_end_rq", }
+,{"id":"blk_end_request", "file":"drivers/ide/ide-pm.c", "line":205, "type":"c", "scope_line":182, "scope_name":"ide_complete_pm_rq", }
+,{"id":"blk_end_request", "file":"drivers/scsi/scsi_lib.c", "line":548, "type":"c", "scope_line":538, "scope_name":"scsi_end_request", }
+,{"id":"blk_end_request_all", "file":"block/blk-core.c", "line":2281, "type":"f", }
+,{"id":"blk_end_request_all", "file":"drivers/md/dm.c", "line":2551, "type":"c", "scope_line":2525, "scope_name":"dm_rq_barrier_work", }
+,{"id":"blk_end_request_all", "file":"drivers/md/dm.c", "line":838, "type":"c", "scope_line":809, "scope_name":"dm_end_request", }
+,{"id":"blk_end_request_all", "file":"drivers/scsi/scsi_lib.c", "line":551, "type":"c", "scope_line":538, "scope_name":"scsi_end_request", }
+,{"id":"blk_end_request_all", "file":"drivers/scsi/scsi_lib.c", "line":753, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"blk_end_request_all", "file":"drivers/scsi/sg.c", "line":741, "type":"c", "scope_line":714, "scope_name":"sg_common_write", }
+,{"id":"blk_end_request_cur", "file":"block/blk-core.c", "line":2306, "type":"f", }
+,{"id":"blk_end_request_err", "file":"block/blk-core.c", "line":2324, "type":"f", }
+,{"id":"blk_end_request_err", "file":"drivers/scsi/scsi_lib.c", "line":909, "type":"c", "scope_line":706, "scope_name":"scsi_io_completion", }
+,{"id":"blk_end_sync_rq", "file":"block/blk-exec.c", "line":21, "type":"f", }
+,{"id":"blk_execute_rq", "file":"block/blk-exec.c", "line":77, "type":"f", }
+,{"id":"blk_execute_rq", "file":"block/bsg.c", "line":943, "type":"c", "scope_line":883, "scope_name":"bsg_ioctl", }
+,{"id":"blk_execute_rq", "file":"block/scsi_ioctl.c", "line":370, "type":"c", "scope_line":283, "scope_name":"sg_io", }
+,{"id":"blk_execute_rq", "file":"block/scsi_ioctl.c", "line":501, "type":"c", "scope_line":414, "scope_name":"sg_scsi_ioctl", }
+,{"id":"blk_execute_rq", "file":"block/scsi_ioctl.c", "line":537, "type":"c", "scope_line":525, "scope_name":"__blk_send_generic", }
+,{"id":"blk_execute_rq", "file":"drivers/block/pktcdvd.c", "line":760, "type":"c", "scope_line":737, "scope_name":"pkt_generic_packet", }
+,{"id":"blk_execute_rq", "file":"drivers/block/virtio_blk.c", "line":219, "type":"c", "scope_line":200, "scope_name":"virtblk_get_id", }
+,{"id":"blk_execute_rq", "file":"drivers/cdrom/cdrom.c", "line":2143, "type":"c", "scope_line":2092, "scope_name":"cdrom_read_cdda_bpc", }
+,{"id":"blk_execute_rq", "file":"drivers/ide/ide-devsets.c", "line":175, "type":"c", "scope_line":158, "scope_name":"ide_devset_execute", }
+,{"id":"blk_execute_rq", "file":"drivers/ide/ide-ioctls.c", "line":129, "type":"c", "scope_line":116, "scope_name":"ide_cmd_ioctl", }
+,{"id":"blk_execute_rq", "file":"drivers/ide/ide-ioctls.c", "line":227, "type":"c", "scope_line":218, "scope_name":"generic_drive_reset", }
+,{"id":"blk_execute_rq", "file":"drivers/ide/ide-park.c", "line":39, "type":"c", "scope_line":9, "scope_name":"issue_park_cmd", }
+,{"id":"blk_execute_rq", "file":"drivers/ide/ide-pm.c", "line":29, "type":"c", "scope_line":5, "scope_name":"generic_ide_suspend", }
+,{"id":"blk_execute_rq", "file":"drivers/ide/ide-pm.c", "line":68, "type":"c", "scope_line":41, "scope_name":"generic_ide_resume", }
+,{"id":"blk_execute_rq", "file":"drivers/ide/ide-taskfile.c", "line":452, "type":"c", "scope_line":426, "scope_name":"ide_raw_taskfile", }
+,{"id":"blk_execute_rq", "file":"drivers/scsi/scsi_lib.c", "line":235, "type":"c", "scope_line":208, "scope_name":"scsi_execute", }
+,{"id":"blk_execute_rq_nowait", "file":"block/blk-exec.c", "line":47, "type":"f", }
+,{"id":"blk_execute_rq_nowait", "file":"block/blk-exec.c", "line":97, "type":"c", "scope_line":77, "scope_name":"blk_execute_rq", }
+,{"id":"blk_execute_rq_nowait", "file":"block/bsg.c", "line":372, "type":"c", "scope_line":352, "scope_name":"bsg_add_command", }
+,{"id":"blk_execute_rq_nowait", "file":"drivers/scsi/scsi_error.c", "line":1595, "type":"c", "scope_line":1571, "scope_name":"scsi_eh_lock_door", }
+,{"id":"blk_execute_rq_nowait", "file":"drivers/scsi/sg.c", "line":765, "type":"c", "scope_line":714, "scope_name":"sg_common_write", }
+,{"id":"blk_fetch_request", "file":"block/blk-core.c", "line":1958, "type":"f", }
+,{"id":"blk_fetch_request", "file":"drivers/ide/ide-io.c", "line":506, "type":"c", "scope_line":436, "scope_name":"do_ide_request", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":176, "type":"c", "scope_line":176, "scope_name":"ftrace_raw_event_block_bio_bounce", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":176, "type":"c", "scope_line":176, "scope_name":"perf_trace_block_bio_bounce", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":213, "type":"c", "scope_line":213, "scope_name":"ftrace_raw_event_block_bio_complete", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":213, "type":"c", "scope_line":213, "scope_name":"perf_trace_block_bio_complete", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":240, "type":"c", "scope_line":240, "scope_name":"ftrace_raw_event_block_bio", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":240, "type":"c", "scope_line":240, "scope_name":"perf_trace_block_bio", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":312, "type":"c", "scope_line":312, "scope_name":"ftrace_raw_event_block_get_rq", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":312, "type":"c", "scope_line":312, "scope_name":"perf_trace_block_get_rq", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":458, "type":"c", "scope_line":458, "scope_name":"ftrace_raw_event_block_split", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":458, "type":"c", "scope_line":458, "scope_name":"perf_trace_block_split", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":498, "type":"c", "scope_line":498, "scope_name":"ftrace_raw_event_block_remap", }
+,{"id":"blk_fill_rwbs", "file":"include/trace/events/block.h", "line":498, "type":"c", "scope_line":498, "scope_name":"perf_trace_block_remap", }
+,{"id":"blk_fill_rwbs", "file":"kernel/trace/blktrace.c", "line":1801, "type":"f", }
+,{"id":"blk_fill_rwbs", "file":"kernel/trace/blktrace.c", "line":1841, "type":"c", "scope_line":1828, "scope_name":"blk_fill_rwbs_rq", }
+,{"id":"blk_fill_rwbs_rq", "file":"include/trace/events/block.h", "line":11, "type":"c", "scope_line":11, "scope_name":"ftrace_raw_event_block_rq_with_error", }
+,{"id":"blk_fill_rwbs_rq", "file":"include/trace/events/block.h", "line":11, "type":"c", "scope_line":11, "scope_name":"perf_trace_block_rq_with_error", }
+,{"id":"blk_fill_rwbs_rq", "file":"include/trace/events/block.h", "line":542, "type":"c", "scope_line":542, "scope_name":"ftrace_raw_event_block_rq_remap", }
+,{"id":"blk_fill_rwbs_rq", "file":"include/trace/events/block.h", "line":542, "type":"c", "scope_line":542, "scope_name":"perf_trace_block_rq_remap", }
+,{"id":"blk_fill_rwbs_rq", "file":"include/trace/events/block.h", "line":96, "type":"c", "scope_line":96, "scope_name":"ftrace_raw_event_block_rq", }
+,{"id":"blk_fill_rwbs_rq", "file":"include/trace/events/block.h", "line":96, "type":"c", "scope_line":96, "scope_name":"perf_trace_block_rq", }
+,{"id":"blk_fill_rwbs_rq", "file":"kernel/trace/blktrace.c", "line":1828, "type":"f", }
+,{"id":"blk_fill_sghdr_rq", "file":"block/scsi_ioctl.c", "line":222, "type":"f", }
+,{"id":"blk_fill_sghdr_rq", "file":"block/scsi_ioctl.c", "line":316, "type":"c", "scope_line":283, "scope_name":"sg_io", }
+,{"id":"blk_fill_sgv4_hdr_rq", "file":"block/bsg.c", "line":176, "type":"f", }
+,{"id":"blk_fill_sgv4_hdr_rq", "file":"block/bsg.c", "line":269, "type":"c", "scope_line":245, "scope_name":"bsg_map_hdr", }
+,{"id":"blk_finish_request", "file":"block/blk-core.c", "line":2166, "type":"f", }
+,{"id":"blk_finish_request", "file":"block/blk-core.c", "line":2221, "type":"c", "scope_line":2211, "scope_name":"blk_end_bidi_request", }
+,{"id":"blk_finish_request", "file":"block/blk-core.c", "line":2248, "type":"c", "scope_line":2242, "scope_name":"__blk_end_bidi_request", }
+,{"id":"blk_free_devt", "file":"block/genhd.c", "line":444, "type":"f", }
+,{"id":"blk_free_devt", "file":"fs/partitions/check.c", "line":386, "type":"c", "scope_line":374, "scope_name":"delete_partition", }
+,{"id":"blk_free_devt", "file":"fs/partitions/check.c", "line":494, "type":"c", "scope_line":403, "scope_name":"add_partition", }
+,{"id":"blk_free_devt", "file":"fs/partitions/check.c", "line":730, "type":"c", "scope_line":715, "scope_name":"del_gendisk", }
+,{"id":"blk_free_request", "file":"block/blk-core.c", "line":1122, "type":"c", "scope_line":1099, "scope_name":"__blk_put_request", }
+,{"id":"blk_free_request", "file":"block/blk-core.c", "line":645, "type":"f", }
+,{"id":"blk_free_tags", "file":"block/blk-tag.c", "line":86, "type":"f", }
+,{"id":"blk_free_tags", "file":"drivers/scsi/hosts.c", "line":303, "type":"c", "scope_line":285, "scope_name":"scsi_host_dev_release", }
+,{"id":"blk_get_backing_dev_info", "file":"block/blk-core.c", "line":103, "type":"f", }
+,{"id":"blk_get_backing_dev_info", "file":"block/compat_ioctl.c", "line":723, "type":"c", "scope_line":671, "scope_name":"compat_blkdev_ioctl", }
+,{"id":"blk_get_backing_dev_info", "file":"block/compat_ioctl.c", "line":741, "type":"c", "scope_line":671, "scope_name":"compat_blkdev_ioctl", }
+,{"id":"blk_get_backing_dev_info", "file":"block/ioctl.c", "line":258, "type":"c", "scope_line":185, "scope_name":"blkdev_ioctl", }
+,{"id":"blk_get_backing_dev_info", "file":"block/ioctl.c", "line":284, "type":"c", "scope_line":185, "scope_name":"blkdev_ioctl", }
+,{"id":"blk_get_backing_dev_info", "file":"fs/block_dev.c", "line":1390, "type":"c", "scope_line":1329, "scope_name":"__blkdev_get", }
+,{"id":"blk_get_integrity", "file":"drivers/md/dm-table.c", "line":1101, "type":"c", "scope_line":1096, "scope_name":"dm_table_set_integrity", }
+,{"id":"blk_get_integrity", "file":"include/linux/blkdev.h", "line":1225, "type":"f", }
+,{"id":"blk_get_queue", "file":"block/blk-core.c", "line":635, "type":"f", }
+,{"id":"blk_get_queue", "file":"block/bsg.c", "line":769, "type":"c", "scope_line":760, "scope_name":"bsg_add_device", }
+,{"id":"blk_get_queue", "file":"block/scsi_ioctl.c", "line":554, "type":"c", "scope_line":549, "scope_name":"scsi_cmd_ioctl", }
+,{"id":"blk_get_request", "file":"block/blk-core.c", "line":891, "type":"f", }
+,{"id":"blk_get_request", "file":"block/blk-core.c", "line":945, "type":"c", "scope_line":942, "scope_name":"blk_make_request", }
+,{"id":"blk_get_request", "file":"block/bsg.c", "line":266, "type":"c", "scope_line":245, "scope_name":"bsg_map_hdr", }
+,{"id":"blk_get_request", "file":"block/bsg.c", "line":279, "type":"c", "scope_line":245, "scope_name":"bsg_map_hdr", }
+,{"id":"blk_get_request", "file":"block/scsi_ioctl.c", "line":312, "type":"c", "scope_line":283, "scope_name":"sg_io", }
+,{"id":"blk_get_request", "file":"block/scsi_ioctl.c", "line":445, "type":"c", "scope_line":414, "scope_name":"sg_scsi_ioctl", }
+,{"id":"blk_get_request", "file":"block/scsi_ioctl.c", "line":531, "type":"c", "scope_line":525, "scope_name":"__blk_send_generic", }
+,{"id":"blk_get_request", "file":"drivers/block/pktcdvd.c", "line":743, "type":"c", "scope_line":737, "scope_name":"pkt_generic_packet", }
+,{"id":"blk_get_request", "file":"drivers/cdrom/cdrom.c", "line":2115, "type":"c", "scope_line":2092, "scope_name":"cdrom_read_cdda_bpc", }
+,{"id":"blk_get_request", "file":"drivers/ide/ide-devsets.c", "line":168, "type":"c", "scope_line":158, "scope_name":"ide_devset_execute", }
+,{"id":"blk_get_request", "file":"drivers/ide/ide-ioctls.c", "line":127, "type":"c", "scope_line":116, "scope_name":"ide_cmd_ioctl", }
+,{"id":"blk_get_request", "file":"drivers/ide/ide-ioctls.c", "line":223, "type":"c", "scope_line":218, "scope_name":"generic_drive_reset", }
+,{"id":"blk_get_request", "file":"drivers/ide/ide-park.c", "line":34, "type":"c", "scope_line":9, "scope_name":"issue_park_cmd", }
+,{"id":"blk_get_request", "file":"drivers/ide/ide-park.c", "line":48, "type":"c", "scope_line":9, "scope_name":"issue_park_cmd", }
+,{"id":"blk_get_request", "file":"drivers/ide/ide-pm.c", "line":21, "type":"c", "scope_line":5, "scope_name":"generic_ide_suspend", }
+,{"id":"blk_get_request", "file":"drivers/ide/ide-pm.c", "line":61, "type":"c", "scope_line":41, "scope_name":"generic_ide_resume", }
+,{"id":"blk_get_request", "file":"drivers/ide/ide-taskfile.c", "line":433, "type":"c", "scope_line":426, "scope_name":"ide_raw_taskfile", }
+,{"id":"blk_get_request", "file":"drivers/scsi/scsi_error.c", "line":1579, "type":"c", "scope_line":1571, "scope_name":"scsi_eh_lock_door", }
+,{"id":"blk_get_request", "file":"drivers/scsi/scsi_lib.c", "line":217, "type":"c", "scope_line":208, "scope_name":"scsi_execute", }
+,{"id":"blk_get_request", "file":"drivers/scsi/sg.c", "line":1640, "type":"c", "scope_line":1622, "scope_name":"sg_start_req", }
+,{"id":"blk_init_allocated_queue", "file":"block/blk-core.c", "line":590, "type":"f", }
+,{"id":"blk_init_allocated_queue", "file":"drivers/md/dm.c", "line":2238, "type":"c", "scope_line":2230, "scope_name":"dm_init_request_based_queue", }
+,{"id":"blk_init_allocated_queue_node", "file":"block/blk-core.c", "line":582, "type":"c", "scope_line":573, "scope_name":"blk_init_queue_node", }
+,{"id":"blk_init_allocated_queue_node", "file":"block/blk-core.c", "line":594, "type":"c", "scope_line":590, "scope_name":"blk_init_allocated_queue", }
+,{"id":"blk_init_allocated_queue_node", "file":"block/blk-core.c", "line":598, "type":"f", }
+,{"id":"blk_init_free_list", "file":"block/blk-core.c", "line":466, "type":"f", }
+,{"id":"blk_init_free_list", "file":"block/blk-core.c", "line":606, "type":"c", "scope_line":598, "scope_name":"blk_init_allocated_queue_node", }
+,{"id":"blk_init_queue", "file":"block/blk-core.c", "line":567, "type":"f", }
+,{"id":"blk_init_queue", "file":"drivers/block/virtio_blk.c", "line":367, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_init_queue", "file":"drivers/scsi/scsi_lib.c", "line":1618, "type":"c", "scope_line":1612, "scope_name":"__scsi_alloc_queue", }
+,{"id":"blk_init_queue_node", "file":"block/blk-core.c", "line":569, "type":"c", "scope_line":567, "scope_name":"blk_init_queue", }
+,{"id":"blk_init_queue_node", "file":"block/blk-core.c", "line":573, "type":"f", }
+,{"id":"blk_init_queue_node", "file":"drivers/ide/ide-probe.c", "line":762, "type":"c", "scope_line":747, "scope_name":"ide_init_queue", }
+,{"id":"blk_init_tags", "file":"block/blk-tag.c", "line":163, "type":"f", }
+,{"id":"blk_init_tags", "file":"include/scsi/scsi_tcq.h", "line":149, "type":"c", "scope_line":141, "scope_name":"scsi_init_shared_tag_map", }
+,{"id":"blk_insert_cloned_request", "file":"block/blk-core.c", "line":1680, "type":"f", }
+,{"id":"blk_insert_cloned_request", "file":"drivers/md/dm.c", "line":1556, "type":"c", "scope_line":1548, "scope_name":"dm_dispatch_request", }
+,{"id":"blk_insert_request", "file":"block/blk-core.c", "line":1010, "type":"f", }
+,{"id":"blk_integrity", "file":"include/linux/blkdev.h", "line":1197, "type":"s", }
+,{"id":"blk_integrity_compare", "file":"block/blk-integrity.c", "line":122, "type":"f", }
+,{"id":"blk_integrity_compare", "file":"drivers/md/dm-table.c", "line":1105, "type":"c", "scope_line":1096, "scope_name":"dm_table_set_integrity", }
+,{"id":"blk_integrity_exchg", "file":"include/linux/blkdev.h", "line":1183, "type":"s", }
+,{"id":"blk_integrity_register", "file":"block/blk-integrity.c", "line":322, "type":"f", }
+,{"id":"blk_integrity_register", "file":"drivers/md/dm-table.c", "line":1120, "type":"c", "scope_line":1096, "scope_name":"dm_table_set_integrity", }
+,{"id":"blk_integrity_register", "file":"drivers/md/dm-table.c", "line":1126, "type":"c", "scope_line":1096, "scope_name":"dm_table_set_integrity", }
+,{"id":"blk_integrity_register", "file":"drivers/md/dm-table.c", "line":939, "type":"c", "scope_line":932, "scope_name":"dm_table_prealloc_integrity", }
+,{"id":"blk_integrity_register", "file":"drivers/scsi/sd_dif.c", "line":329, "type":"c", "scope_line":309, "scope_name":"sd_dif_config_host", }
+,{"id":"blk_integrity_register", "file":"drivers/scsi/sd_dif.c", "line":331, "type":"c", "scope_line":309, "scope_name":"sd_dif_config_host", }
+,{"id":"blk_integrity_register", "file":"drivers/scsi/sd_dif.c", "line":334, "type":"c", "scope_line":309, "scope_name":"sd_dif_config_host", }
+,{"id":"blk_integrity_register", "file":"drivers/scsi/sd_dif.c", "line":336, "type":"c", "scope_line":309, "scope_name":"sd_dif_config_host", }
+,{"id":"blk_integrity_release", "file":"block/blk-integrity.c", "line":296, "type":"f", }
+,{"id":"blk_integrity_rq", "file":"block/blk-merge.c", "line":387, "type":"c", "scope_line":358, "scope_name":"attempt_merge", }
+,{"id":"blk_integrity_rq", "file":"block/elevator.c", "line":106, "type":"c", "scope_line":74, "scope_name":"elv_rq_merge_ok", }
+,{"id":"blk_integrity_rq", "file":"drivers/scsi/scsi_lib.c", "line":990, "type":"c", "scope_line":969, "scope_name":"scsi_init_io", }
+,{"id":"blk_integrity_rq", "file":"drivers/scsi/sd.c", "line":636, "type":"c", "scope_line":504, "scope_name":"sd_prep_fn", }
+,{"id":"blk_integrity_rq", "file":"include/linux/blkdev.h", "line":1230, "type":"f", }
+,{"id":"blk_integrity_tuple_size", "file":"fs/bio-integrity.c", "line":377, "type":"f", }
+,{"id":"blk_integrity_tuple_size", "file":"fs/bio-integrity.c", "line":415, "type":"c", "scope_line":396, "scope_name":"bio_integrity_prep", }
+,{"id":"blk_integrity_unregister", "file":"block/blk-integrity.c", "line":372, "type":"f", }
+,{"id":"blk_integrity_unregister", "file":"drivers/md/dm.c", "line":2058, "type":"c", "scope_line":2045, "scope_name":"free_dev", }
+,{"id":"blk_io_trace", "file":"include/linux/blktrace_api.h", "line":102, "type":"s", }
+,{"id":"blk_io_trace_remap", "file":"include/linux/blktrace_api.h", "line":119, "type":"s", }
+,{"id":"blk_ioc_init", "file":"block/blk-ioc.c", "line":170, "type":"f", }
+,{"id":"blk_ioctl_discard", "file":"block/ioctl.c", "line":116, "type":"f", }
+,{"id":"blk_ioctl_discard", "file":"block/ioctl.c", "line":229, "type":"c", "scope_line":185, "scope_name":"blkdev_ioctl", }
+,{"id":"blk_iopoll", "file":"include/linux/blk-iopoll.h", "line":7, "type":"s", }
+,{"id":"blk_iopoll_budget", "file":"block/blk-iopoll.c", "line":20, "type":"v", }
+,{"id":"blk_iopoll_complete", "file":"block/blk-iopoll.c", "line":70, "type":"f", }
+,{"id":"blk_iopoll_cpu_notifier", "file":"block/blk-iopoll.c", "line":212, "type":"v", }
+,{"id":"blk_iopoll_cpu_notify", "file":"block/blk-iopoll.c", "line":192, "type":"f", }
+,{"id":"blk_iopoll_disable", "file":"block/blk-iopoll.c", "line":147, "type":"f", }
+,{"id":"blk_iopoll_disable_pending", "file":"block/blk-iopoll.c", "line":127, "type":"c", "scope_line":80, "scope_name":"blk_iopoll_softirq", }
+,{"id":"blk_iopoll_disable_pending", "file":"include/linux/blk-iopoll.h", "line":34, "type":"f", }
+,{"id":"blk_iopoll_enable", "file":"block/blk-iopoll.c", "line":164, "type":"f", }
+,{"id":"blk_iopoll_enabled", "file":"block/blk-iopoll.c", "line":17, "type":"v", }
+,{"id":"blk_iopoll_fn", "file":"include/linux/blk-iopoll.h", "line":5, "type":"t", }
+,{"id":"blk_iopoll_init", "file":"block/blk-iopoll.c", "line":182, "type":"f", }
+,{"id":"blk_iopoll_sched", "file":"block/blk-iopoll.c", "line":33, "type":"f", }
+,{"id":"blk_iopoll_sched_prep", "file":"include/linux/blk-iopoll.h", "line":26, "type":"f", }
+,{"id":"blk_iopoll_setup", "file":"block/blk-iopoll.c", "line":216, "type":"f", }
+,{"id":"blk_iopoll_softirq", "file":"block/blk-iopoll.c", "line":80, "type":"f", }
+,{"id":"blk_limits_io_min", "file":"block/blk-settings.c", "line":388, "type":"f", }
+,{"id":"blk_limits_io_min", "file":"block/blk-settings.c", "line":416, "type":"c", "scope_line":414, "scope_name":"blk_queue_io_min", }
+,{"id":"blk_limits_io_min", "file":"drivers/md/dm-stripe.c", "line":398, "type":"c", "scope_line":392, "scope_name":"stripe_io_hints", }
+,{"id":"blk_limits_io_opt", "file":"block/blk-settings.c", "line":433, "type":"f", }
+,{"id":"blk_limits_io_opt", "file":"block/blk-settings.c", "line":454, "type":"c", "scope_line":452, "scope_name":"blk_queue_io_opt", }
+,{"id":"blk_limits_io_opt", "file":"drivers/md/dm-stripe.c", "line":399, "type":"c", "scope_line":392, "scope_name":"stripe_io_hints", }
+,{"id":"blk_lld_busy", "file":"block/blk-core.c", "line":2465, "type":"f", }
+,{"id":"blk_lld_busy", "file":"drivers/md/dm.c", "line":1783, "type":"c", "scope_line":1781, "scope_name":"dm_underlying_device_busy", }
+,{"id":"blk_log_action", "file":"kernel/trace/blktrace.c", "line":1158, "type":"f", }
+,{"id":"blk_log_action_classic", "file":"kernel/trace/blktrace.c", "line":1142, "type":"f", }
+,{"id":"blk_log_action_t", "file":"kernel/trace/blktrace.c", "line":1140, "type":"t", }
+,{"id":"blk_log_dump_pdu", "file":"kernel/trace/blktrace.c", "line":1168, "type":"f", }
+,{"id":"blk_log_dump_pdu", "file":"kernel/trace/blktrace.c", "line":1219, "type":"c", "scope_line":1207, "scope_name":"blk_log_generic", }
+,{"id":"blk_log_dump_pdu", "file":"kernel/trace/blktrace.c", "line":1237, "type":"c", "scope_line":1231, "scope_name":"blk_log_with_error", }
+,{"id":"blk_log_generic", "file":"kernel/trace/blktrace.c", "line":1207, "type":"f", }
+,{"id":"blk_log_msg", "file":"kernel/trace/blktrace.c", "line":1290, "type":"f", }
+,{"id":"blk_log_msg", "file":"kernel/trace/blktrace.c", "line":1374, "type":"c", "scope_line":1356, "scope_name":"print_one_line", }
+,{"id":"blk_log_plug", "file":"kernel/trace/blktrace.c", "line":1262, "type":"f", }
+,{"id":"blk_log_remap", "file":"kernel/trace/blktrace.c", "line":1251, "type":"f", }
+,{"id":"blk_log_split", "file":"kernel/trace/blktrace.c", "line":1280, "type":"f", }
+,{"id":"blk_log_unplug", "file":"kernel/trace/blktrace.c", "line":1271, "type":"f", }
+,{"id":"blk_log_with_error", "file":"kernel/trace/blktrace.c", "line":1231, "type":"f", }
+,{"id":"blk_lookup_devt", "file":"block/genhd.c", "line":1131, "type":"f", }
+,{"id":"blk_lookup_devt", "file":"init/do_mounts.c", "line":114, "type":"c", "scope_line":78, "scope_name":"name_to_dev_t", }
+,{"id":"blk_lookup_devt", "file":"init/do_mounts.c", "line":130, "type":"c", "scope_line":78, "scope_name":"name_to_dev_t", }
+,{"id":"blk_lookup_devt", "file":"init/do_mounts.c", "line":138, "type":"c", "scope_line":78, "scope_name":"name_to_dev_t", }
+,{"id":"blk_major_name", "file":"block/genhd.c", "line":237, "type":"s", }
+,{"id":"blk_make_request", "file":"block/blk-core.c", "line":942, "type":"f", }
+,{"id":"blk_make_request", "file":"drivers/block/virtio_blk.c", "line":212, "type":"c", "scope_line":200, "scope_name":"virtblk_get_id", }
+,{"id":"blk_mangle_minor", "file":"block/genhd.c", "line":372, "type":"f", }
+,{"id":"blk_mangle_minor", "file":"block/genhd.c", "line":431, "type":"c", "scope_line":405, "scope_name":"blk_alloc_devt", }
+,{"id":"blk_mangle_minor", "file":"block/genhd.c", "line":453, "type":"c", "scope_line":444, "scope_name":"blk_free_devt", }
+,{"id":"blk_mangle_minor", "file":"block/genhd.c", "line":589, "type":"c", "scope_line":575, "scope_name":"get_gendisk", }
+,{"id":"blk_map_queue_find_tag", "file":"block/blk-tag.c", "line":25, "type":"c", "scope_line":23, "scope_name":"blk_queue_find_tag", }
+,{"id":"blk_map_queue_find_tag", "file":"include/linux/blkdev.h", "line":915, "type":"f", }
+,{"id":"blk_map_queue_find_tag", "file":"include/scsi/scsi_tcq.h", "line":171, "type":"c", "scope_line":165, "scope_name":"scsi_host_find_tag", }
+,{"id":"blk_mark_rq_complete", "file":"block/blk-softirq.c", "line":159, "type":"c", "scope_line":155, "scope_name":"blk_complete_request", }
+,{"id":"blk_mark_rq_complete", "file":"block/blk-timeout.c", "line":123, "type":"c", "scope_line":107, "scope_name":"blk_rq_timed_out_timer", }
+,{"id":"blk_mark_rq_complete", "file":"block/blk-timeout.c", "line":149, "type":"c", "scope_line":147, "scope_name":"blk_abort_request", }
+,{"id":"blk_mark_rq_complete", "file":"block/blk.h", "line":39, "type":"f", }
+,{"id":"blk_max_low_pfn", "file":"include/linux/blkdev.h", "line":608, "type":"v", }
+,{"id":"blk_max_pfn", "file":"include/linux/blkdev.h", "line":608, "type":"v", }
+,{"id":"blk_msg_fops", "file":"kernel/trace/blktrace.c", "line":364, "type":"v", }
+,{"id":"blk_msg_open", "file":"kernel/trace/blktrace.c", "line":331, "type":"f", }
+,{"id":"blk_msg_write", "file":"kernel/trace/blktrace.c", "line":338, "type":"f", }
+,{"id":"blk_noretry_request", "file":"include/linux/blkdev.h", "line":531, "type":"d", }
+,{"id":"blk_ordered_complete_seq", "file":"block/blk-barrier.c", "line":108, "type":"c", "scope_line":105, "scope_name":"pre_flush_end_io", }
+,{"id":"blk_ordered_complete_seq", "file":"block/blk-barrier.c", "line":114, "type":"c", "scope_line":111, "scope_name":"bar_end_io", }
+,{"id":"blk_ordered_complete_seq", "file":"block/blk-barrier.c", "line":120, "type":"c", "scope_line":117, "scope_name":"post_flush_end_io", }
+,{"id":"blk_ordered_complete_seq", "file":"block/blk-barrier.c", "line":224, "type":"c", "scope_line":145, "scope_name":"start_ordered", }
+,{"id":"blk_ordered_complete_seq", "file":"block/blk-barrier.c", "line":83, "type":"f", }
+,{"id":"blk_ordered_complete_seq", "file":"block/elevator.c", "line":872, "type":"c", "scope_line":845, "scope_name":"elv_completed_request", }
+,{"id":"blk_ordered_cur_seq", "file":"block/blk-barrier.c", "line":266, "type":"c", "scope_line":227, "scope_name":"blk_do_ordered", }
+,{"id":"blk_ordered_cur_seq", "file":"block/blk-barrier.c", "line":267, "type":"c", "scope_line":227, "scope_name":"blk_do_ordered", }
+,{"id":"blk_ordered_cur_seq", "file":"block/blk-barrier.c", "line":47, "type":"f", }
+,{"id":"blk_ordered_cur_seq", "file":"block/blk-barrier.c", "line":93, "type":"c", "scope_line":83, "scope_name":"blk_ordered_complete_seq", }
+,{"id":"blk_ordered_cur_seq", "file":"block/elevator.c", "line":869, "type":"c", "scope_line":845, "scope_name":"elv_completed_request", }
+,{"id":"blk_ordered_req_seq", "file":"block/blk-barrier.c", "line":266, "type":"c", "scope_line":227, "scope_name":"blk_do_ordered", }
+,{"id":"blk_ordered_req_seq", "file":"block/blk-barrier.c", "line":267, "type":"c", "scope_line":227, "scope_name":"blk_do_ordered", }
+,{"id":"blk_ordered_req_seq", "file":"block/blk-barrier.c", "line":54, "type":"f", }
+,{"id":"blk_ordered_req_seq", "file":"block/elevator.c", "line":690, "type":"c", "scope_line":618, "scope_name":"elv_insert", }
+,{"id":"blk_ordered_req_seq", "file":"block/elevator.c", "line":694, "type":"c", "scope_line":618, "scope_name":"elv_insert", }
+,{"id":"blk_ordered_req_seq", "file":"block/elevator.c", "line":869, "type":"c", "scope_line":845, "scope_name":"elv_completed_request", }
+,{"id":"blk_partition_remap", "file":"block/blk-core.c", "line":1328, "type":"f", }
+,{"id":"blk_partition_remap", "file":"block/blk-core.c", "line":1503, "type":"c", "scope_line":1448, "scope_name":"__generic_make_request", }
+,{"id":"blk_peek_request", "file":"block/blk-core.c", "line":1809, "type":"f", }
+,{"id":"blk_peek_request", "file":"block/blk-core.c", "line":1962, "type":"c", "scope_line":1958, "scope_name":"blk_fetch_request", }
+,{"id":"blk_peek_request", "file":"drivers/block/virtio_blk.c", "line":181, "type":"c", "scope_line":175, "scope_name":"do_virtblk_request", }
+,{"id":"blk_peek_request", "file":"drivers/md/dm.c", "line":1738, "type":"c", "scope_line":1724, "scope_name":"dm_request_fn", }
+,{"id":"blk_peek_request", "file":"drivers/scsi/scsi_lib.c", "line":1460, "type":"c", "scope_line":1451, "scope_name":"scsi_request_fn", }
+,{"id":"blk_peek_request", "file":"drivers/scsi/scsi_lib.c", "line":1481, "type":"c", "scope_line":1451, "scope_name":"scsi_request_fn", }
+,{"id":"blk_phys_contig_segment", "file":"block/blk-merge.c", "line":293, "type":"c", "scope_line":272, "scope_name":"ll_merge_requests_fn", }
+,{"id":"blk_phys_contig_segment", "file":"block/blk-merge.c", "line":87, "type":"f", }
+,{"id":"blk_plug_device", "file":"block/blk-core.c", "line":1316, "type":"c", "scope_line":1195, "scope_name":"__make_request", }
+,{"id":"blk_plug_device", "file":"block/blk-core.c", "line":204, "type":"f", }
+,{"id":"blk_plug_device", "file":"block/blk-core.c", "line":235, "type":"c", "scope_line":230, "scope_name":"blk_plug_device_unlocked", }
+,{"id":"blk_plug_device", "file":"block/elevator.c", "line":749, "type":"c", "scope_line":716, "scope_name":"__elv_add_request", }
+,{"id":"blk_plug_device", "file":"drivers/ide/ide-io.c", "line":566, "type":"c", "scope_line":436, "scope_name":"do_ide_request", }
+,{"id":"blk_plug_device", "file":"drivers/ide/ide-io.c", "line":579, "type":"c", "scope_line":569, "scope_name":"ide_requeue_and_plug", }
+,{"id":"blk_plug_device", "file":"drivers/md/dm.c", "line":1773, "type":"c", "scope_line":1724, "scope_name":"dm_request_fn", }
+,{"id":"blk_plug_device", "file":"drivers/md/dm.c", "line":879, "type":"c", "scope_line":856, "scope_name":"dm_requeue_unmapped_request", }
+,{"id":"blk_plug_device", "file":"drivers/scsi/scsi_lib.c", "line":1199, "type":"c", "scope_line":1177, "scope_name":"scsi_prep_return", }
+,{"id":"blk_plug_device", "file":"drivers/scsi/scsi_lib.c", "line":1238, "type":"c", "scope_line":1226, "scope_name":"scsi_dev_queue_ready", }
+,{"id":"blk_plug_device", "file":"drivers/scsi/scsi_lib.c", "line":1558, "type":"c", "scope_line":1451, "scope_name":"scsi_request_fn", }
+,{"id":"blk_plug_device", "file":"drivers/scsi/scsi_lib.c", "line":1581, "type":"c", "scope_line":1451, "scope_name":"scsi_request_fn", }
+,{"id":"blk_plug_device_unlocked", "file":"block/blk-core.c", "line":230, "type":"f", }
+,{"id":"blk_pm_request", "file":"include/linux/blkdev.h", "line":540, "type":"d", }
+,{"id":"blk_probes_ref", "file":"kernel/trace/blktrace.c", "line":56, "type":"v", }
+,{"id":"blk_put_queue", "file":"block/blk-core.c", "line":439, "type":"f", }
+,{"id":"blk_put_queue", "file":"block/blk-core.c", "line":462, "type":"c", "scope_line":444, "scope_name":"blk_cleanup_queue", }
+,{"id":"blk_put_queue", "file":"block/bsg.c", "line":756, "type":"c", "scope_line":722, "scope_name":"bsg_put_device", }
+,{"id":"blk_put_queue", "file":"block/bsg.c", "line":775, "type":"c", "scope_line":760, "scope_name":"bsg_add_device", }
+,{"id":"blk_put_queue", "file":"block/scsi_ioctl.c", "line":675, "type":"c", "scope_line":549, "scope_name":"scsi_cmd_ioctl", }
+,{"id":"blk_put_request", "file":"block/blk-core.c", "line":1128, "type":"f", }
+,{"id":"blk_put_request", "file":"block/blk-core.c", "line":957, "type":"c", "scope_line":942, "scope_name":"blk_make_request", }
+,{"id":"blk_put_request", "file":"block/bsg.c", "line":317, "type":"c", "scope_line":245, "scope_name":"bsg_map_hdr", }
+,{"id":"blk_put_request", "file":"block/bsg.c", "line":320, "type":"c", "scope_line":245, "scope_name":"bsg_map_hdr", }
+,{"id":"blk_put_request", "file":"block/bsg.c", "line":453, "type":"c", "scope_line":420, "scope_name":"blk_complete_sgv4_hdr_rq", }
+,{"id":"blk_put_request", "file":"block/bsg.c", "line":471, "type":"c", "scope_line":420, "scope_name":"blk_complete_sgv4_hdr_rq", }
+,{"id":"blk_put_request", "file":"block/scsi_ioctl.c", "line":278, "type":"c", "scope_line":247, "scope_name":"blk_complete_sghdr_rq", }
+,{"id":"blk_put_request", "file":"block/scsi_ioctl.c", "line":317, "type":"c", "scope_line":283, "scope_name":"sg_io", }
+,{"id":"blk_put_request", "file":"block/scsi_ioctl.c", "line":376, "type":"c", "scope_line":283, "scope_name":"sg_io", }
+,{"id":"blk_put_request", "file":"block/scsi_ioctl.c", "line":519, "type":"c", "scope_line":414, "scope_name":"sg_scsi_ioctl", }
+,{"id":"blk_put_request", "file":"block/scsi_ioctl.c", "line":538, "type":"c", "scope_line":525, "scope_name":"__blk_send_generic", }
+,{"id":"blk_put_request", "file":"drivers/block/pktcdvd.c", "line":764, "type":"c", "scope_line":737, "scope_name":"pkt_generic_packet", }
+,{"id":"blk_put_request", "file":"drivers/block/virtio_blk.c", "line":220, "type":"c", "scope_line":200, "scope_name":"virtblk_get_id", }
+,{"id":"blk_put_request", "file":"drivers/cdrom/cdrom.c", "line":2123, "type":"c", "scope_line":2092, "scope_name":"cdrom_read_cdda_bpc", }
+,{"id":"blk_put_request", "file":"drivers/cdrom/cdrom.c", "line":2151, "type":"c", "scope_line":2092, "scope_name":"cdrom_read_cdda_bpc", }
+,{"id":"blk_put_request", "file":"drivers/ide/ide-devsets.c", "line":177, "type":"c", "scope_line":158, "scope_name":"ide_devset_execute", }
+,{"id":"blk_put_request", "file":"drivers/ide/ide-ioctls.c", "line":130, "type":"c", "scope_line":116, "scope_name":"ide_cmd_ioctl", }
+,{"id":"blk_put_request", "file":"drivers/ide/ide-ioctls.c", "line":229, "type":"c", "scope_line":218, "scope_name":"generic_drive_reset", }
+,{"id":"blk_put_request", "file":"drivers/ide/ide-park.c", "line":40, "type":"c", "scope_line":9, "scope_name":"issue_park_cmd", }
+,{"id":"blk_put_request", "file":"drivers/ide/ide-pm.c", "line":30, "type":"c", "scope_line":5, "scope_name":"generic_ide_suspend", }
+,{"id":"blk_put_request", "file":"drivers/ide/ide-pm.c", "line":69, "type":"c", "scope_line":41, "scope_name":"generic_ide_resume", }
+,{"id":"blk_put_request", "file":"drivers/ide/ide-taskfile.c", "line":455, "type":"c", "scope_line":426, "scope_name":"ide_raw_taskfile", }
+,{"id":"blk_put_request", "file":"drivers/scsi/scsi_lib.c", "line":250, "type":"c", "scope_line":208, "scope_name":"scsi_execute", }
+,{"id":"blk_put_request", "file":"drivers/scsi/sg.c", "line":1730, "type":"c", "scope_line":1718, "scope_name":"sg_finish_rem_req", }
+,{"id":"blk_queue_add_random", "file":"include/linux/blkdev.h", "line":523, "type":"d", }
+,{"id":"blk_queue_alignment_offset", "file":"block/blk-settings.c", "line":369, "type":"f", }
+,{"id":"blk_queue_alignment_offset", "file":"drivers/block/virtio_blk.c", "line":477, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_alignment_offset", "file":"drivers/scsi/sd.c", "line":1561, "type":"c", "scope_line":1489, "scope_name":"read_capacity_16", }
+,{"id":"blk_queue_bounce", "file":"block/blk-core.c", "line":1216, "type":"c", "scope_line":1195, "scope_name":"__make_request", }
+,{"id":"blk_queue_bounce", "file":"block/blk-core.c", "line":954, "type":"c", "scope_line":942, "scope_name":"blk_make_request", }
+,{"id":"blk_queue_bounce", "file":"block/blk-map.c", "line":234, "type":"c", "scope_line":190, "scope_name":"blk_rq_map_user_iov", }
+,{"id":"blk_queue_bounce", "file":"block/blk-map.c", "line":322, "type":"c", "scope_line":287, "scope_name":"blk_rq_map_kern", }
+,{"id":"blk_queue_bounce", "file":"block/blk-map.c", "line":69, "type":"c", "scope_line":42, "scope_name":"__blk_rq_map_user", }
+,{"id":"blk_queue_bounce", "file":"drivers/block/pktcdvd.c", "line":2499, "type":"c", "scope_line":2456, "scope_name":"pkt_make_request", }
+,{"id":"blk_queue_bounce", "file":"mm/bounce.c", "line":270, "type":"f", }
+,{"id":"blk_queue_bounce_limit", "file":"block/blk-settings.c", "line":187, "type":"c", "scope_line":154, "scope_name":"blk_queue_make_request", }
+,{"id":"blk_queue_bounce_limit", "file":"block/blk-settings.c", "line":202, "type":"f", }
+,{"id":"blk_queue_bounce_limit", "file":"drivers/block/brd.c", "line":487, "type":"c", "scope_line":469, "scope_name":"brd_alloc", }
+,{"id":"blk_queue_bounce_limit", "file":"drivers/block/virtio_blk.c", "line":441, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"blk_queue_bounce_limit", "file":"drivers/ide/ide-lib.c", "line":31, "type":"c", "scope_line":17, "scope_name":"ide_toggle_bounce", }
+,{"id":"blk_queue_bounce_limit", "file":"drivers/md/dm.c", "line":1940, "type":"c", "scope_line":1923, "scope_name":"dm_init_md_queue", }
+,{"id":"blk_queue_bounce_limit", "file":"drivers/scsi/scsi_lib.c", "line":1629, "type":"c", "scope_line":1612, "scope_name":"__scsi_alloc_queue", }
+,{"id":"blk_queue_congestion_threshold", "file":"block/blk-core.c", "line":627, "type":"c", "scope_line":598, "scope_name":"blk_init_allocated_queue_node", }
+,];
+xr_frag_insert('t/ad/e6b1e8e851abb9ced510f19dcfb754b4ca8d4a.xr', __xr_tmp);

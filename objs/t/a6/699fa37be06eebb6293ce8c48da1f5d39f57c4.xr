@@ -1,0 +1,76 @@
+var __xr_tmp = [
+{"id":"pagevec_release", "file":"mm/truncate.c", "line":249, "type":"c", "scope_line":208, "scope_name":"truncate_inode_pages_range", }
+,{"id":"pagevec_release", "file":"mm/truncate.c", "line":273, "type":"c", "scope_line":208, "scope_name":"truncate_inode_pages_range", }
+,{"id":"pagevec_release", "file":"mm/truncate.c", "line":290, "type":"c", "scope_line":208, "scope_name":"truncate_inode_pages_range", }
+,{"id":"pagevec_release", "file":"mm/truncate.c", "line":360, "type":"c", "scope_line":322, "scope_name":"invalidate_mapping_pages", }
+,{"id":"pagevec_release", "file":"mm/truncate.c", "line":485, "type":"c", "scope_line":420, "scope_name":"invalidate_inode_pages2_range", }
+,{"id":"pagevec_release", "file":"mm/vmscan.c", "line":1202, "type":"c", "scope_line":1159, "scope_name":"putback_lru_pages", }
+,{"id":"pagevec_release", "file":"mm/vmscan.c", "line":2902, "type":"c", "scope_line":2861, "scope_name":"scan_mapping_unevictable_pages", }
+,{"id":"pagevec_space", "file":"include/linux/pagevec.h", "line":49, "type":"f", }
+,{"id":"pagevec_space", "file":"include/linux/pagevec.h", "line":60, "type":"c", "scope_line":57, "scope_name":"pagevec_add", }
+,{"id":"pagevec_strip", "file":"mm/swap.c", "line":446, "type":"f", }
+,{"id":"pagevec_strip", "file":"mm/vmscan.c", "line":1406, "type":"c", "scope_line":1383, "scope_name":"move_active_pages_to_lru", }
+,{"id":"paging", "file":"arch/x86/include/asm/x86_init.h", "line":124, "type":"m", "scope_line":119, "scope_name":"struct x86_init_ops", }
+,{"id":"paging_init", "file":"arch/x86/kernel/setup.c", "line":1014, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"paging_init", "file":"arch/x86/mm/init_64.c", "line":596, "type":"f", }
+,{"id":"palette", "file":"drivers/video/imsttfb.c", "line":323, "type":"m", "scope_line":317, "scope_name":"struct imstt_par", }
+,{"id":"palette", "file":"fs/compat_ioctl.c", "line":201, "type":"m", "scope_line":199, "scope_name":"struct compat_video_spu_palette", }
+,{"id":"palette", "file":"include/linux/dvb/video.h", "line":192, "type":"m", "scope_line":190, "scope_name":"struct video_spu_palette", }
+,{"id":"panic", "file":"arch/x86/kernel/acpi/boot.c", "line":948, "type":"c", "scope_line":937, "scope_name":"save_mp_irq", }
+,{"id":"panic", "file":"arch/x86/kernel/amd_iommu.c", "line":689, "type":"c", "scope_line":684, "scope_name":"reset_iommu_command_buffer", }
+,{"id":"panic", "file":"arch/x86/kernel/aperture_64.c", "line":500, "type":"c", "scope_line":374, "scope_name":"gart_iommu_hole_init", }
+,{"id":"panic", "file":"arch/x86/kernel/apic/io_apic.c", "line":3100, "type":"c", "scope_line":2931, "scope_name":"check_timer", }
+,{"id":"panic", "file":"arch/x86/kernel/apic/io_apic.c", "line":512, "type":"c", "scope_line":509, "scope_name":"add_pin_to_irq_node", }
+,{"id":"panic", "file":"arch/x86/kernel/cpu/common.c", "line":1150, "type":"c", "scope_line":1128, "scope_name":"cpu_init", }
+,{"id":"panic", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":262, "type":"c", "scope_line":252, "scope_name":"wait_for_panic", }
+,{"id":"panic", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":320, "type":"c", "scope_line":265, "scope_name":"mce_panic", }
+,{"id":"panic", "file":"arch/x86/kernel/dumpstack.c", "line":262, "type":"c", "scope_line":244, "scope_name":"oops_end", }
+,{"id":"panic", "file":"arch/x86/kernel/dumpstack.c", "line":264, "type":"c", "scope_line":244, "scope_name":"oops_end", }
+,{"id":"panic", "file":"arch/x86/kernel/dumpstack.c", "line":347, "type":"c", "scope_line":328, "scope_name":"die_nmi", }
+,{"id":"panic", "file":"arch/x86/kernel/e820.c", "line":970, "type":"c", "scope_line":967, "scope_name":"early_panic", }
+,{"id":"panic", "file":"arch/x86/kernel/efi.c", "line":556, "type":"c", "scope_line":498, "scope_name":"efi_enter_virtual_mode", }
+,{"id":"panic", "file":"arch/x86/kernel/mpparse.c", "line":204, "type":"c", "scope_line":191, "scope_name":"MP_intsrc_info", }
+,{"id":"panic", "file":"arch/x86/kernel/pci-calgary_64.c", "line":251, "type":"c", "scope_line":225, "scope_name":"iommu_range_alloc", }
+,{"id":"panic", "file":"arch/x86/kernel/pci-gart_64.c", "line":185, "type":"c", "scope_line":169, "scope_name":"iommu_full", }
+,{"id":"panic", "file":"arch/x86/kernel/pci-gart_64.c", "line":187, "type":"c", "scope_line":169, "scope_name":"iommu_full", }
+,{"id":"panic", "file":"arch/x86/kernel/pci-gart_64.c", "line":221, "type":"c", "scope_line":210, "scope_name":"dma_map_area", }
+,{"id":"panic", "file":"arch/x86/kernel/pci-gart_64.c", "line":461, "type":"c", "scope_line":381, "scope_name":"gart_map_sg", }
+,{"id":"panic", "file":"arch/x86/kernel/pci-gart_64.c", "line":675, "type":"c", "scope_line":640, "scope_name":"init_k8_gatt", }
+,{"id":"panic", "file":"arch/x86/kernel/pci-gart_64.c", "line":677, "type":"c", "scope_line":640, "scope_name":"init_k8_gatt", }
+,{"id":"panic", "file":"arch/x86/kernel/pci-gart_64.c", "line":685, "type":"c", "scope_line":640, "scope_name":"init_k8_gatt", }
+,{"id":"panic", "file":"arch/x86/kernel/pci-gart_64.c", "line":783, "type":"c", "scope_line":733, "scope_name":"gart_iommu_init", }
+,{"id":"panic", "file":"arch/x86/kernel/pci-gart_64.c", "line":847, "type":"c", "scope_line":733, "scope_name":"gart_iommu_init", }
+,{"id":"panic", "file":"arch/x86/kernel/setup.c", "line":331, "type":"c", "scope_line":315, "scope_name":"relocate_initrd", }
+,{"id":"panic", "file":"arch/x86/kernel/setup_percpu.c", "line":211, "type":"c", "scope_line":173, "scope_name":"setup_per_cpu_areas", }
+,{"id":"panic", "file":"arch/x86/kernel/smpboot.c", "line":1123, "type":"c", "scope_line":1088, "scope_name":"native_smp_prepare_cpus", }
+,{"id":"panic", "file":"arch/x86/kernel/smpboot.c", "line":219, "type":"c", "scope_line":199, "scope_name":"smp_callin", }
+,{"id":"panic", "file":"arch/x86/kernel/smpboot.c", "line":246, "type":"c", "scope_line":199, "scope_name":"smp_callin", }
+,{"id":"panic", "file":"arch/x86/kernel/trampoline.c", "line":25, "type":"c", "scope_line":18, "scope_name":"reserve_trampoline_memory", }
+,{"id":"panic", "file":"arch/x86/kernel/traps.c", "line":321, "type":"c", "scope_line":303, "scope_name":"mem_parity_error", }
+,{"id":"panic", "file":"arch/x86/kernel/traps.c", "line":339, "type":"c", "scope_line":330, "scope_name":"io_check_error", }
+,{"id":"panic", "file":"arch/x86/kernel/traps.c", "line":375, "type":"c", "scope_line":353, "scope_name":"unknown_nmi_error", }
+,{"id":"panic", "file":"arch/x86/mm/init.c", "line":109, "type":"c", "scope_line":103, "scope_name":"save_mr", }
+,{"id":"panic", "file":"arch/x86/mm/init.c", "line":81, "type":"c", "scope_line":32, "scope_name":"find_early_table_space", }
+,{"id":"panic", "file":"arch/x86/mm/init_64.c", "line":114, "type":"c", "scope_line":104, "scope_name":"spp_getpage", }
+,{"id":"panic", "file":"arch/x86/mm/init_64.c", "line":293, "type":"c", "scope_line":280, "scope_name":"alloc_low_page", }
+,{"id":"panic", "file":"arch/x86/mm/srat_64.c", "line":105, "type":"c", "scope_line":95, "scope_name":"acpi_numa_slit_init", }
+,{"id":"panic", "file":"arch/x86/xen/smp.c", "line":194, "type":"c", "scope_line":180, "scope_name":"xen_smp_prepare_cpus", }
+,{"id":"panic", "file":"arch/x86/xen/smp.c", "line":213, "type":"c", "scope_line":180, "scope_name":"xen_smp_prepare_cpus", }
+,{"id":"panic", "file":"block/blk-core.c", "line":2589, "type":"c", "scope_line":2582, "scope_name":"blk_dev_init", }
+,{"id":"panic", "file":"drivers/acpi/sleep.c", "line":479, "type":"c", "scope_line":466, "scope_name":"acpi_hibernation_leave", }
+,{"id":"panic", "file":"drivers/char/pty.c", "line":392, "type":"c", "scope_line":383, "scope_name":"legacy_pty_init", }
+,{"id":"panic", "file":"drivers/char/pty.c", "line":396, "type":"c", "scope_line":383, "scope_name":"legacy_pty_init", }
+,{"id":"panic", "file":"drivers/char/pty.c", "line":433, "type":"c", "scope_line":383, "scope_name":"legacy_pty_init", }
+,{"id":"panic", "file":"drivers/char/pty.c", "line":435, "type":"c", "scope_line":383, "scope_name":"legacy_pty_init", }
+,{"id":"panic", "file":"drivers/char/pty.c", "line":707, "type":"c", "scope_line":703, "scope_name":"unix98_pty_init", }
+,{"id":"panic", "file":"drivers/char/pty.c", "line":710, "type":"c", "scope_line":703, "scope_name":"unix98_pty_init", }
+,{"id":"panic", "file":"drivers/char/pty.c", "line":748, "type":"c", "scope_line":703, "scope_name":"unix98_pty_init", }
+,{"id":"panic", "file":"drivers/char/pty.c", "line":750, "type":"c", "scope_line":703, "scope_name":"unix98_pty_init", }
+,{"id":"panic", "file":"drivers/char/pty.c", "line":761, "type":"c", "scope_line":703, "scope_name":"unix98_pty_init", }
+,{"id":"panic", "file":"drivers/char/random.c", "line":867, "type":"c", "scope_line":851, "scope_name":"extract_entropy", }
+,{"id":"panic", "file":"drivers/char/tty_io.c", "line":3182, "type":"c", "scope_line":3177, "scope_name":"tty_init", }
+,{"id":"panic", "file":"drivers/char/tty_io.c", "line":3189, "type":"c", "scope_line":3177, "scope_name":"tty_init", }
+,{"id":"panic", "file":"drivers/char/tty_ldisc.c", "line":502, "type":"c", "scope_line":486, "scope_name":"tty_ldisc_restore", }
+,{"id":"panic", "file":"drivers/char/tty_ldisc.c", "line":507, "type":"c", "scope_line":486, "scope_name":"tty_ldisc_restore", }
+,];
+xr_frag_insert('t/a6/699fa37be06eebb6293ce8c48da1f5d39f57c4.xr', __xr_tmp);

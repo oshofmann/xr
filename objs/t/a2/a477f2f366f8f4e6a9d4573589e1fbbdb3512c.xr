@@ -1,0 +1,304 @@
+var __xr_tmp = [
+{"id":"amd_fixup_dcm", "file":"arch/x86/kernel/cpu/amd.c", "line":309, "type":"c", "scope_line":294, "scope_name":"amd_detect_cmp", }
+,{"id":"amd_get_event_constraints", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":209, "type":"f", }
+,{"id":"amd_get_l3_disable_slot", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":406, "type":"f", }
+,{"id":"amd_get_l3_disable_slot", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":427, "type":"c", "scope_line":419, "scope_name":"show_cache_disable", }
+,{"id":"amd_get_l3_disable_slot", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":495, "type":"c", "scope_line":483, "scope_name":"amd_set_l3_disable_slot", }
+,{"id":"amd_get_l3_disable_slot", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":503, "type":"c", "scope_line":483, "scope_name":"amd_set_l3_disable_slot", }
+,{"id":"amd_get_nb_id", "file":"arch/x86/kernel/cpu/amd.c", "line":313, "type":"f", }
+,{"id":"amd_get_nb_id", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":387, "type":"c", "scope_line":350, "scope_name":"amd_check_l3_disable", }
+,{"id":"amd_get_nb_id", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":325, "type":"c", "scope_line":316, "scope_name":"amd_pmu_cpu_starting", }
+,{"id":"amd_has_nb", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":137, "type":"f", }
+,{"id":"amd_has_nb", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":154, "type":"c", "scope_line":144, "scope_name":"amd_put_event_constraints", }
+,{"id":"amd_has_nb", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":221, "type":"c", "scope_line":209, "scope_name":"amd_get_event_constraints", }
+,{"id":"amd_hw_cache_event_ids", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":5, "type":"v", }
+,{"id":"amd_init_l3_cache", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":332, "type":"f", }
+,{"id":"amd_init_l3_cache", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":390, "type":"c", "scope_line":350, "scope_name":"amd_check_l3_disable", }
+,{"id":"amd_iommu", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":351, "type":"s", }
+,{"id":"amd_iommu_alias_table", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":496, "type":"v", }
+,{"id":"amd_iommu_apply_erratum_63", "file":"arch/x86/kernel/amd_iommu.c", "line":1433, "type":"c", "scope_line":1426, "scope_name":"clear_dte_entry", }
+,{"id":"amd_iommu_apply_erratum_63", "file":"arch/x86/kernel/amd_iommu_init.c", "line":546, "type":"f", }
+,{"id":"amd_iommu_apply_erratum_63", "file":"arch/x86/kernel/amd_iommu_init.c", "line":585, "type":"c", "scope_line":567, "scope_name":"set_dev_entry_from_acpi", }
+,{"id":"amd_iommu_attach_device", "file":"arch/x86/kernel/amd_iommu.c", "line":2483, "type":"f", }
+,{"id":"amd_iommu_detach_device", "file":"arch/x86/kernel/amd_iommu.c", "line":2460, "type":"f", }
+,{"id":"amd_iommu_detect", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1408, "type":"f", }
+,{"id":"amd_iommu_detect", "file":"arch/x86/kernel/pci-dma.c", "line":146, "type":"c", "scope_line":131, "scope_name":"pci_iommu_alloc", }
+,{"id":"amd_iommu_detected", "file":"arch/x86/kernel/amd_iommu_init.c", "line":122, "type":"v", }
+,{"id":"amd_iommu_dev_table", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":490, "type":"v", }
+,{"id":"amd_iommu_devtable_lock", "file":"arch/x86/kernel/amd_iommu.c", "line":39, "type":"v", }
+,{"id":"amd_iommu_disabled", "file":"arch/x86/kernel/amd_iommu_init.c", "line":123, "type":"v", }
+,{"id":"amd_iommu_dma_ops", "file":"arch/x86/kernel/amd_iommu.c", "line":2289, "type":"v", }
+,{"id":"amd_iommu_dma_supported", "file":"arch/x86/kernel/amd_iommu.c", "line":2247, "type":"f", }
+,{"id":"amd_iommu_domain_destroy", "file":"arch/x86/kernel/amd_iommu.c", "line":2441, "type":"f", }
+,{"id":"amd_iommu_domain_has_cap", "file":"arch/x86/kernel/amd_iommu.c", "line":2574, "type":"f", }
+,{"id":"amd_iommu_domain_init", "file":"arch/x86/kernel/amd_iommu.c", "line":2418, "type":"f", }
+,{"id":"amd_iommu_dump", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":243, "type":"v", }
+,{"id":"amd_iommu_flush_all_devices", "file":"arch/x86/kernel/amd_iommu.c", "line":658, "type":"f", }
+,{"id":"amd_iommu_flush_all_devices", "file":"arch/x86/kernel/amd_iommu.c", "line":692, "type":"c", "scope_line":684, "scope_name":"reset_iommu_command_buffer", }
+,{"id":"amd_iommu_flush_all_devices", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1183, "type":"c", "scope_line":1174, "scope_name":"amd_iommu_resume", }
+,{"id":"amd_iommu_flush_all_domains", "file":"arch/x86/kernel/amd_iommu.c", "line":667, "type":"f", }
+,{"id":"amd_iommu_flush_all_domains", "file":"arch/x86/kernel/amd_iommu.c", "line":693, "type":"c", "scope_line":684, "scope_name":"reset_iommu_command_buffer", }
+,{"id":"amd_iommu_flush_all_domains", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1184, "type":"c", "scope_line":1174, "scope_name":"amd_iommu_resume", }
+,{"id":"amd_iommu_init", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1236, "type":"f", }
+,{"id":"amd_iommu_init_api", "file":"arch/x86/kernel/amd_iommu.c", "line":2303, "type":"f", }
+,{"id":"amd_iommu_init_api", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1346, "type":"c", "scope_line":1236, "scope_name":"amd_iommu_init", }
+,{"id":"amd_iommu_init_devices", "file":"arch/x86/kernel/amd_iommu.c", "line":183, "type":"f", }
+,{"id":"amd_iommu_init_devices", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1332, "type":"c", "scope_line":1236, "scope_name":"amd_iommu_init", }
+,{"id":"amd_iommu_init_dma_ops", "file":"arch/x86/kernel/amd_iommu.c", "line":2308, "type":"f", }
+,{"id":"amd_iommu_init_dma_ops", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1341, "type":"c", "scope_line":1236, "scope_name":"amd_iommu_init", }
+,{"id":"amd_iommu_init_err", "file":"arch/x86/kernel/amd_iommu_init.c", "line":144, "type":"v", }
+,{"id":"amd_iommu_init_notifier", "file":"arch/x86/kernel/amd_iommu.c", "line":1706, "type":"f", }
+,{"id":"amd_iommu_init_notifier", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1348, "type":"c", "scope_line":1236, "scope_name":"amd_iommu_init", }
+,{"id":"amd_iommu_init_passthrough", "file":"arch/x86/kernel/amd_iommu.c", "line":2606, "type":"f", }
+,{"id":"amd_iommu_init_passthrough", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1339, "type":"c", "scope_line":1236, "scope_name":"amd_iommu_init", }
+,{"id":"amd_iommu_int_handler", "file":"arch/x86/kernel/amd_iommu.c", "line":370, "type":"f", }
+,{"id":"amd_iommu_iova_to_phys", "file":"arch/x86/kernel/amd_iommu.c", "line":2550, "type":"f", }
+,{"id":"amd_iommu_last_bdf", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":507, "type":"v", }
+,{"id":"amd_iommu_list", "file":"arch/x86/kernel/amd_iommu_init.c", "line":131, "type":"v", }
+,{"id":"amd_iommu_map", "file":"arch/x86/kernel/amd_iommu.c", "line":2513, "type":"f", }
+,{"id":"amd_iommu_np_cache", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":251, "type":"v", }
+,{"id":"amd_iommu_ops", "file":"arch/x86/kernel/amd_iommu.c", "line":2585, "type":"v", }
+,{"id":"amd_iommu_pd_alloc_bitmap", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":510, "type":"v", }
+,{"id":"amd_iommu_pd_list", "file":"arch/x86/kernel/amd_iommu_init.c", "line":149, "type":"v", }
+,{"id":"amd_iommu_pd_lock", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":446, "type":"v", }
+,{"id":"amd_iommu_reset_cmd_buffer", "file":"arch/x86/kernel/amd_iommu.c", "line":691, "type":"c", "scope_line":684, "scope_name":"reset_iommu_command_buffer", }
+,{"id":"amd_iommu_reset_cmd_buffer", "file":"arch/x86/kernel/amd_iommu_init.c", "line":455, "type":"f", }
+,{"id":"amd_iommu_reset_cmd_buffer", "file":"arch/x86/kernel/amd_iommu_init.c", "line":481, "type":"c", "scope_line":469, "scope_name":"iommu_enable_command_buffer", }
+,{"id":"amd_iommu_resume", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1174, "type":"f", }
+,{"id":"amd_iommu_rlookup_table", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":501, "type":"v", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":228, "type":"f", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":246, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":247, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":248, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":249, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":250, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":251, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":252, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":253, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":254, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":255, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":256, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_add", "file":"arch/x86/kernel/amd_iommu.c", "line":257, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"amd_iommu_stats_init", "file":"arch/x86/kernel/amd_iommu.c", "line":2339, "type":"c", "scope_line":2308, "scope_name":"amd_iommu_init_dma_ops", }
+,{"id":"amd_iommu_stats_init", "file":"arch/x86/kernel/amd_iommu.c", "line":237, "type":"f", }
+,{"id":"amd_iommu_suspend", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1189, "type":"f", }
+,{"id":"amd_iommu_sysdev_class", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1197, "type":"v", }
+,{"id":"amd_iommu_uninit_devices", "file":"arch/x86/kernel/amd_iommu.c", "line":170, "type":"f", }
+,{"id":"amd_iommu_uninit_devices", "file":"arch/x86/kernel/amd_iommu.c", "line":202, "type":"c", "scope_line":183, "scope_name":"amd_iommu_init_devices", }
+,{"id":"amd_iommu_uninit_devices", "file":"arch/x86/kernel/amd_iommu_init.c", "line":1366, "type":"c", "scope_line":1236, "scope_name":"amd_iommu_init", }
+,{"id":"amd_iommu_unity_map", "file":"arch/x86/kernel/amd_iommu_init.c", "line":127, "type":"v", }
+,{"id":"amd_iommu_unmap", "file":"arch/x86/kernel/amd_iommu.c", "line":2533, "type":"f", }
+,{"id":"amd_iommu_unmap_flush", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":516, "type":"v", }
+,{"id":"amd_iommus", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":438, "type":"v", }
+,{"id":"amd_iommus_present", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":441, "type":"v", }
+,{"id":"amd_is_nb_event", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":132, "type":"f", }
+,{"id":"amd_is_nb_event", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":154, "type":"c", "scope_line":144, "scope_name":"amd_put_event_constraints", }
+,{"id":"amd_is_nb_event", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":221, "type":"c", "scope_line":209, "scope_name":"amd_get_event_constraints", }
+,{"id":"amd_l3_cache", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":151, "type":"s", }
+,{"id":"amd_l3_disable_index", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":443, "type":"f", }
+,{"id":"amd_l3_disable_index", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":511, "type":"c", "scope_line":483, "scope_name":"amd_set_l3_disable_slot", }
+,{"id":"amd_nb", "file":"arch/x86/kernel/cpu/perf_event.c", "line":134, "type":"m", "scope_line":99, "scope_name":"struct cpu_hw_events", }
+,{"id":"amd_nb", "file":"arch/x86/kernel/cpu/perf_event.c", "line":90, "type":"s", }
+,{"id":"amd_nb_lock", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":3, "type":"v", }
+,{"id":"amd_perfmon_event_map", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":99, "type":"v", }
+,{"id":"amd_pmu", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":371, "type":"v", }
+,{"id":"amd_pmu_cpu_dead", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":348, "type":"f", }
+,{"id":"amd_pmu_cpu_prepare", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":300, "type":"f", }
+,{"id":"amd_pmu_cpu_starting", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":316, "type":"f", }
+,{"id":"amd_pmu_event_map", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":109, "type":"f", }
+,{"id":"amd_pmu_hw_config", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":114, "type":"f", }
+,{"id":"amd_pmu_init", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1368, "type":"c", "scope_line":1356, "scope_name":"init_hw_perf_events", }
+,{"id":"amd_pmu_init", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":398, "type":"f", }
+,{"id":"amd_postcore_init", "file":"arch/x86/pci/amd_bus.c", "line":398, "type":"f", }
+,{"id":"amd_put_event_constraints", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":144, "type":"f", }
+,{"id":"amd_router_probe", "file":"arch/x86/pci/irq.c", "line":758, "type":"f", }
+,{"id":"amd_set_l3_disable_slot", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":483, "type":"f", }
+,{"id":"amd_set_l3_disable_slot", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":534, "type":"c", "scope_line":516, "scope_name":"store_cache_disable", }
+,{"id":"amd_special_default_mtrr", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":824, "type":"f", }
+,{"id":"amd_special_default_mtrr", "file":"arch/x86/kernel/cpu/mtrr/generic.c", "line":327, "type":"c", "scope_line":306, "scope_name":"get_mtrr_state", }
+,{"id":"amd_threshold_interrupt", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":192, "type":"f", }
+,{"id":"aml", "file":"drivers/acpi/acpica/aclocal.h", "line":760, "type":"m", "scope_line":758, "scope_name":"struct acpi_parse_state", }
+,{"id":"aml_end", "file":"drivers/acpi/acpica/aclocal.h", "line":761, "type":"m", "scope_line":758, "scope_name":"struct acpi_parse_state", }
+,{"id":"aml_last_while", "file":"drivers/acpi/acpica/acstruct.h", "line":107, "type":"m", "scope_line":76, "scope_name":"struct acpi_walk_state", }
+,{"id":"aml_length", "file":"drivers/acpi/acpica/aclocal.h", "line":736, "type":"m", "scope_line":721, "scope_name":"struct acpi_parse_obj_asl", }
+,{"id":"aml_length", "file":"drivers/acpi/acpica/acobject.h", "line":133, "type":"m", "scope_line":131, "scope_name":"struct acpi_object_buffer", }
+,{"id":"aml_length", "file":"drivers/acpi/acpica/acobject.h", "line":142, "type":"m", "scope_line":138, "scope_name":"struct acpi_object_package", }
+,{"id":"aml_length", "file":"drivers/acpi/acpica/acobject.h", "line":188, "type":"m", "scope_line":177, "scope_name":"struct acpi_object_method", }
+,{"id":"aml_length", "file":"drivers/acpi/acpica/acobject.h", "line":357, "type":"m", "scope_line":353, "scope_name":"struct acpi_object_extra", }
+,{"id":"aml_offset", "file":"drivers/acpi/acpica/aclocal.h", "line":704, "type":"m", "scope_line":703, "scope_name":"struct acpi_parse_obj_common", }
+,{"id":"aml_offset", "file":"drivers/acpi/acpica/aclocal.h", "line":711, "type":"m", "scope_line":710, "scope_name":"struct acpi_parse_obj_named", }
+,{"id":"aml_offset", "file":"drivers/acpi/acpica/aclocal.h", "line":722, "type":"m", "scope_line":721, "scope_name":"struct acpi_parse_obj_asl", }
+,{"id":"aml_offset", "file":"drivers/acpi/acpica/acresrc.h", "line":69, "type":"m", "scope_line":66, "scope_name":"struct acpi_rsconvert_info", }
+,{"id":"aml_offset", "file":"drivers/acpi/acpica/acstruct.h", "line":92, "type":"m", "scope_line":76, "scope_name":"struct acpi_walk_state", }
+,{"id":"aml_opcode", "file":"drivers/acpi/acpica/aclocal.h", "line":704, "type":"m", "scope_line":703, "scope_name":"struct acpi_parse_obj_common", }
+,{"id":"aml_opcode", "file":"drivers/acpi/acpica/aclocal.h", "line":711, "type":"m", "scope_line":710, "scope_name":"struct acpi_parse_obj_named", }
+,{"id":"aml_opcode", "file":"drivers/acpi/acpica/aclocal.h", "line":722, "type":"m", "scope_line":721, "scope_name":"struct acpi_parse_obj_asl", }
+,{"id":"aml_opcode_length", "file":"drivers/acpi/acpica/aclocal.h", "line":742, "type":"m", "scope_line":721, "scope_name":"struct acpi_parse_obj_asl", }
+,{"id":"aml_pkg_len_bytes", "file":"drivers/acpi/acpica/aclocal.h", "line":743, "type":"m", "scope_line":721, "scope_name":"struct acpi_parse_obj_asl", }
+,{"id":"aml_predicate_start", "file":"drivers/acpi/acpica/aclocal.h", "line":562, "type":"m", "scope_line":559, "scope_name":"struct acpi_control_state", }
+,{"id":"aml_resource", "file":"drivers/acpi/acpica/amlresrc.h", "line":272, "type":"u", }
+,{"id":"aml_resource_address", "file":"drivers/acpi/acpica/amlresrc.h", "line":207, "type":"s", }
+,{"id":"aml_resource_address16", "file":"drivers/acpi/acpica/amlresrc.h", "line":242, "type":"s", }
+,{"id":"aml_resource_address32", "file":"drivers/acpi/acpica/amlresrc.h", "line":233, "type":"s", }
+,{"id":"aml_resource_address64", "file":"drivers/acpi/acpica/amlresrc.h", "line":224, "type":"s", }
+,{"id":"aml_resource_dma", "file":"drivers/acpi/acpica/amlresrc.h", "line":132, "type":"s", }
+,{"id":"aml_resource_end_dependent", "file":"drivers/acpi/acpica/amlresrc.h", "line":144, "type":"s", }
+,{"id":"aml_resource_end_tag", "file":"drivers/acpi/acpica/amlresrc.h", "line":163, "type":"s", }
+,{"id":"aml_resource_extended_address64", "file":"drivers/acpi/acpica/amlresrc.h", "line":210, "type":"s", }
+,{"id":"aml_resource_extended_irq", "file":"drivers/acpi/acpica/amlresrc.h", "line":251, "type":"s", }
+,{"id":"aml_resource_fixed_io", "file":"drivers/acpi/acpica/amlresrc.h", "line":155, "type":"s", }
+,{"id":"aml_resource_fixed_memory32", "file":"drivers/acpi/acpica/amlresrc.h", "line":196, "type":"s", }
+,{"id":"aml_resource_generic_register", "file":"drivers/acpi/acpica/amlresrc.h", "line":258, "type":"s", }
+,{"id":"aml_resource_io", "file":"drivers/acpi/acpica/amlresrc.h", "line":147, "type":"s", }
+,{"id":"aml_resource_irq", "file":"drivers/acpi/acpica/amlresrc.h", "line":123, "type":"s", }
+,{"id":"aml_resource_irq_noflags", "file":"drivers/acpi/acpica/amlresrc.h", "line":128, "type":"s", }
+,{"id":"aml_resource_large_header", "file":"drivers/acpi/acpica/amlresrc.h", "line":174, "type":"s", }
+,{"id":"aml_resource_memory24", "file":"drivers/acpi/acpica/amlresrc.h", "line":177, "type":"s", }
+,{"id":"aml_resource_memory32", "file":"drivers/acpi/acpica/amlresrc.h", "line":188, "type":"s", }
+,{"id":"aml_resource_small_header", "file":"drivers/acpi/acpica/amlresrc.h", "line":120, "type":"s", }
+,{"id":"aml_resource_start_dependent", "file":"drivers/acpi/acpica/amlresrc.h", "line":137, "type":"s", }
+,{"id":"aml_resource_start_dependent_noprio", "file":"drivers/acpi/acpica/amlresrc.h", "line":141, "type":"s", }
+,{"id":"aml_resource_vendor_large", "file":"drivers/acpi/acpica/amlresrc.h", "line":185, "type":"s", }
+,{"id":"aml_resource_vendor_small", "file":"drivers/acpi/acpica/amlresrc.h", "line":160, "type":"s", }
+,{"id":"aml_size", "file":"drivers/acpi/acpica/aclocal.h", "line":768, "type":"m", "scope_line":758, "scope_name":"struct acpi_parse_state", }
+,{"id":"aml_start", "file":"drivers/acpi/acpica/aclocal.h", "line":759, "type":"m", "scope_line":758, "scope_name":"struct acpi_parse_state", }
+,{"id":"aml_start", "file":"drivers/acpi/acpica/acobject.h", "line":134, "type":"m", "scope_line":131, "scope_name":"struct acpi_object_buffer", }
+,{"id":"aml_start", "file":"drivers/acpi/acpica/acobject.h", "line":141, "type":"m", "scope_line":138, "scope_name":"struct acpi_object_package", }
+,{"id":"aml_start", "file":"drivers/acpi/acpica/acobject.h", "line":182, "type":"m", "scope_line":177, "scope_name":"struct acpi_object_method", }
+,{"id":"aml_start", "file":"drivers/acpi/acpica/acobject.h", "line":356, "type":"m", "scope_line":353, "scope_name":"struct acpi_object_extra", }
+,{"id":"aml_subtree_length", "file":"drivers/acpi/acpica/aclocal.h", "line":737, "type":"m", "scope_line":721, "scope_name":"struct acpi_parse_obj_asl", }
+,{"id":"ampdu_density", "file":"include/net/cfg80211.h", "line":174, "type":"m", "scope_line":170, "scope_name":"struct ieee80211_sta_ht_cap", }
+,{"id":"ampdu_factor", "file":"include/net/cfg80211.h", "line":173, "type":"m", "scope_line":170, "scope_name":"struct ieee80211_sta_ht_cap", }
+,{"id":"ampdu_params_info", "file":"include/linux/ieee80211.h", "line":859, "type":"m", "scope_line":857, "scope_name":"struct ieee80211_ht_cap", }
+,{"id":"anchor", "file":"include/linux/usb.h", "line":1191, "type":"m", "scope_line":1179, "scope_name":"struct urb", }
+,{"id":"anchor_list", "file":"include/linux/usb.h", "line":1190, "type":"m", "scope_line":1179, "scope_name":"struct urb", }
+,{"id":"announce_cpu", "file":"arch/x86/kernel/smpboot.c", "line":710, "type":"f", }
+,{"id":"announce_cpu", "file":"arch/x86/kernel/smpboot.c", "line":793, "type":"c", "scope_line":735, "scope_name":"do_boot_cpu", }
+,{"id":"anon", "file":"mm/mempolicy.c", "line":2521, "type":"m", "scope_line":2519, "scope_name":"struct numa_maps", }
+,{"id":"anon_aops", "file":"fs/anon_inodes.c", "line":64, "type":"v", }
+,{"id":"anon_inode_fops", "file":"fs/anon_inodes.c", "line":27, "type":"v", }
+,{"id":"anon_inode_fs_type", "file":"fs/anon_inodes.c", "line":46, "type":"v", }
+,{"id":"anon_inode_getfd", "file":"fs/anon_inodes.c", "line":159, "type":"f", }
+,{"id":"anon_inode_getfd", "file":"fs/eventpoll.c", "line":1207, "type":"c", "scope_line":1187, "scope_name":"sys_epoll_create1", }
+,{"id":"anon_inode_getfd", "file":"fs/notify/inotify/inotify_user.c", "line":749, "type":"c", "scope_line":720, "scope_name":"sys_inotify_init1", }
+,{"id":"anon_inode_getfd", "file":"fs/signalfd.c", "line":241, "type":"c", "scope_line":211, "scope_name":"sys_signalfd4", }
+,{"id":"anon_inode_getfd", "file":"fs/timerfd.c", "line":186, "type":"c", "scope_line":164, "scope_name":"sys_timerfd_create", }
+,{"id":"anon_inode_getfile", "file":"fs/anon_inodes.c", "line":170, "type":"c", "scope_line":159, "scope_name":"anon_inode_getfd", }
+,{"id":"anon_inode_getfile", "file":"fs/anon_inodes.c", "line":84, "type":"f", }
+,{"id":"anon_inode_getfile", "file":"fs/eventfd.c", "line":401, "type":"c", "scope_line":380, "scope_name":"eventfd_file_create", }
+,{"id":"anon_inode_getfile", "file":"kernel/perf_event.c", "line":5186, "type":"c", "scope_line":5091, "scope_name":"sys_perf_event_open", }
+,{"id":"anon_inode_init", "file":"fs/anon_inodes.c", "line":216, "type":"f", }
+,{"id":"anon_inode_inode", "file":"fs/anon_inodes.c", "line":26, "type":"v", }
+,{"id":"anon_inode_mkinode", "file":"fs/anon_inodes.c", "line":190, "type":"f", }
+,{"id":"anon_inode_mkinode", "file":"fs/anon_inodes.c", "line":228, "type":"c", "scope_line":216, "scope_name":"anon_inode_init", }
+,{"id":"anon_inode_mnt", "file":"fs/anon_inodes.c", "line":25, "type":"v", }
+,{"id":"anon_inodefs_dentry_operations", "file":"fs/anon_inodes.c", "line":51, "type":"v", }
+,{"id":"anon_inodefs_dname", "file":"fs/anon_inodes.c", "line":40, "type":"f", }
+,{"id":"anon_inodefs_get_sb", "file":"fs/anon_inodes.c", "line":29, "type":"f", }
+,{"id":"anon_pipe_buf_ops", "file":"fs/pipe.c", "line":338, "type":"v", }
+,{"id":"anon_pipe_buf_release", "file":"fs/pipe.c", "line":198, "type":"f", }
+,{"id":"anon_set_page_dirty", "file":"fs/anon_inodes.c", "line":59, "type":"f", }
+,{"id":"anon_transport_class", "file":"include/linux/transport_class.h", "line":38, "type":"s", }
+,{"id":"anon_transport_class_register", "file":"drivers/base/transport_class.c", "line":87, "type":"f", }
+,{"id":"anon_transport_class_register", "file":"drivers/scsi/scsi_transport_spi.c", "line":1568, "type":"c", "scope_line":1549, "scope_name":"spi_transport_init", }
+,{"id":"anon_transport_class_unregister", "file":"drivers/base/transport_class.c", "line":109, "type":"f", }
+,{"id":"anon_transport_class_unregister", "file":"drivers/scsi/scsi_transport_spi.c", "line":1575, "type":"c", "scope_line":1572, "scope_name":"spi_transport_exit", }
+,{"id":"anon_transport_dummy_function", "file":"drivers/base/transport_class.c", "line":67, "type":"f", }
+,{"id":"anon_vma", "file":"include/linux/mm_types.h", "line":178, "type":"m", "scope_line":140, "scope_name":"struct vm_area_struct", }
+,{"id":"anon_vma", "file":"include/linux/rmap.h", "line":27, "type":"s", }
+,{"id":"anon_vma", "file":"include/linux/rmap.h", "line":68, "type":"m", "scope_line":66, "scope_name":"struct anon_vma_chain", }
+,{"id":"anon_vma", "file":"mm/ksm.c", "line":136, "type":"m", "scope_line":134, "scope_name":"struct rmap_item", }
+,{"id":"anon_vma_alloc", "file":"mm/rmap.c", "line":132, "type":"c", "scope_line":115, "scope_name":"anon_vma_prepare", }
+,{"id":"anon_vma_alloc", "file":"mm/rmap.c", "line":227, "type":"c", "scope_line":210, "scope_name":"anon_vma_fork", }
+,{"id":"anon_vma_alloc", "file":"mm/rmap.c", "line":68, "type":"f", }
+,{"id":"anon_vma_cachep", "file":"mm/rmap.c", "line":65, "type":"v", }
+,{"id":"anon_vma_chain", "file":"include/linux/mm_types.h", "line":176, "type":"m", "scope_line":140, "scope_name":"struct vm_area_struct", }
+,{"id":"anon_vma_chain", "file":"include/linux/rmap.h", "line":66, "type":"s", }
+,{"id":"anon_vma_chain_alloc", "file":"mm/rmap.c", "line":125, "type":"c", "scope_line":115, "scope_name":"anon_vma_prepare", }
+,{"id":"anon_vma_chain_alloc", "file":"mm/rmap.c", "line":193, "type":"c", "scope_line":188, "scope_name":"anon_vma_clone", }
+,{"id":"anon_vma_chain_alloc", "file":"mm/rmap.c", "line":230, "type":"c", "scope_line":210, "scope_name":"anon_vma_fork", }
+,{"id":"anon_vma_chain_alloc", "file":"mm/rmap.c", "line":78, "type":"f", }
+,{"id":"anon_vma_chain_cachep", "file":"mm/rmap.c", "line":66, "type":"v", }
+,{"id":"anon_vma_chain_free", "file":"mm/rmap.c", "line":161, "type":"c", "scope_line":115, "scope_name":"anon_vma_prepare", }
+,{"id":"anon_vma_chain_free", "file":"mm/rmap.c", "line":166, "type":"c", "scope_line":115, "scope_name":"anon_vma_prepare", }
+,{"id":"anon_vma_chain_free", "file":"mm/rmap.c", "line":293, "type":"c", "scope_line":282, "scope_name":"unlink_anon_vmas", }
+,{"id":"anon_vma_chain_free", "file":"mm/rmap.c", "line":83, "type":"f", }
+,{"id":"anon_vma_chain_link", "file":"mm/rmap.c", "line":171, "type":"f", }
+,{"id":"anon_vma_chain_link", "file":"mm/rmap.c", "line":196, "type":"c", "scope_line":188, "scope_name":"anon_vma_clone", }
+,{"id":"anon_vma_chain_link", "file":"mm/rmap.c", "line":247, "type":"c", "scope_line":210, "scope_name":"anon_vma_fork", }
+,{"id":"anon_vma_clone", "file":"mm/mmap.c", "line":1982, "type":"c", "scope_line":1948, "scope_name":"__split_vma", }
+,{"id":"anon_vma_clone", "file":"mm/mmap.c", "line":2369, "type":"c", "scope_line":2334, "scope_name":"copy_vma", }
+,{"id":"anon_vma_clone", "file":"mm/mmap.c", "line":559, "type":"c", "scope_line":509, "scope_name":"vma_adjust", }
+,{"id":"anon_vma_clone", "file":"mm/rmap.c", "line":188, "type":"f", }
+,{"id":"anon_vma_clone", "file":"mm/rmap.c", "line":223, "type":"c", "scope_line":210, "scope_name":"anon_vma_fork", }
+,{"id":"anon_vma_compatible", "file":"mm/mmap.c", "line":854, "type":"f", }
+,{"id":"anon_vma_compatible", "file":"mm/mmap.c", "line":887, "type":"c", "scope_line":885, "scope_name":"reusable_anon_vma", }
+,{"id":"anon_vma_ctor", "file":"mm/rmap.c", "line":297, "type":"f", }
+,{"id":"anon_vma_fork", "file":"kernel/fork.c", "line":360, "type":"c", "scope_line":301, "scope_name":"dup_mmap", }
+,{"id":"anon_vma_fork", "file":"mm/rmap.c", "line":210, "type":"f", }
+,{"id":"anon_vma_free", "file":"mm/rmap.c", "line":1477, "type":"c", "scope_line":1456, "scope_name":"drop_anon_vma", }
+,{"id":"anon_vma_free", "file":"mm/rmap.c", "line":1479, "type":"c", "scope_line":1456, "scope_name":"drop_anon_vma", }
+,{"id":"anon_vma_free", "file":"mm/rmap.c", "line":159, "type":"c", "scope_line":115, "scope_name":"anon_vma_prepare", }
+,{"id":"anon_vma_free", "file":"mm/rmap.c", "line":252, "type":"c", "scope_line":210, "scope_name":"anon_vma_fork", }
+,{"id":"anon_vma_free", "file":"mm/rmap.c", "line":278, "type":"c", "scope_line":258, "scope_name":"anon_vma_unlink", }
+,{"id":"anon_vma_free", "file":"mm/rmap.c", "line":73, "type":"f", }
+,{"id":"anon_vma_init", "file":"init/main.c", "line":672, "type":"c", "scope_line":536, "scope_name":"start_kernel", }
+,{"id":"anon_vma_init", "file":"mm/rmap.c", "line":306, "type":"f", }
+,{"id":"anon_vma_lock", "file":"include/linux/rmap.h", "line":132, "type":"f", }
+,{"id":"anon_vma_lock", "file":"mm/ksm.c", "line":1549, "type":"c", "scope_line":1527, "scope_name":"page_referenced_ksm", }
+,{"id":"anon_vma_lock", "file":"mm/ksm.c", "line":1602, "type":"c", "scope_line":1582, "scope_name":"try_to_unmap_ksm", }
+,{"id":"anon_vma_lock", "file":"mm/ksm.c", "line":1654, "type":"c", "scope_line":1633, "scope_name":"rmap_walk_ksm", }
+,{"id":"anon_vma_lock", "file":"mm/mmap.c", "line":598, "type":"c", "scope_line":509, "scope_name":"vma_adjust", }
+,{"id":"anon_vma_lock", "file":"mm/rmap.c", "line":143, "type":"c", "scope_line":115, "scope_name":"anon_vma_prepare", }
+,{"id":"anon_vma_lock", "file":"mm/rmap.c", "line":1506, "type":"c", "scope_line":1490, "scope_name":"rmap_walk_anon", }
+,{"id":"anon_vma_lock", "file":"mm/rmap.c", "line":179, "type":"c", "scope_line":171, "scope_name":"anon_vma_chain_link", }
+,{"id":"anon_vma_lock", "file":"mm/rmap.c", "line":267, "type":"c", "scope_line":258, "scope_name":"anon_vma_unlink", }
+,{"id":"anon_vma_merge", "file":"include/linux/rmap.h", "line":153, "type":"f", }
+,{"id":"anon_vma_merge", "file":"mm/mmap.c", "line":652, "type":"c", "scope_line":509, "scope_name":"vma_adjust", }
+,{"id":"anon_vma_prepare", "file":"mm/hugetlb.c", "line":2383, "type":"c", "scope_line":2311, "scope_name":"hugetlb_cow", }
+,{"id":"anon_vma_prepare", "file":"mm/hugetlb.c", "line":2511, "type":"c", "scope_line":2449, "scope_name":"hugetlb_no_page", }
+,{"id":"anon_vma_prepare", "file":"mm/memory.c", "line":2242, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"anon_vma_prepare", "file":"mm/memory.c", "line":2857, "type":"c", "scope_line":2832, "scope_name":"do_anonymous_page", }
+,{"id":"anon_vma_prepare", "file":"mm/memory.c", "line":2954, "type":"c", "scope_line":2908, "scope_name":"__do_fault", }
+,{"id":"anon_vma_prepare", "file":"mm/mmap.c", "line":1778, "type":"c", "scope_line":1769, "scope_name":"expand_downwards", }
+,{"id":"anon_vma_prepare", "file":"mm/rmap.c", "line":115, "type":"f", }
+,{"id":"anon_vma_unlink", "file":"mm/rmap.c", "line":258, "type":"f", }
+,{"id":"anon_vma_unlink", "file":"mm/rmap.c", "line":291, "type":"c", "scope_line":282, "scope_name":"unlink_anon_vmas", }
+,{"id":"anon_vma_unlock", "file":"include/linux/rmap.h", "line":137, "type":"f", }
+,{"id":"anon_vma_unlock", "file":"mm/ksm.c", "line":1572, "type":"c", "scope_line":1527, "scope_name":"page_referenced_ksm", }
+,{"id":"anon_vma_unlock", "file":"mm/ksm.c", "line":1620, "type":"c", "scope_line":1582, "scope_name":"try_to_unmap_ksm", }
+,{"id":"anon_vma_unlock", "file":"mm/ksm.c", "line":1624, "type":"c", "scope_line":1582, "scope_name":"try_to_unmap_ksm", }
+,{"id":"anon_vma_unlock", "file":"mm/ksm.c", "line":1671, "type":"c", "scope_line":1633, "scope_name":"rmap_walk_ksm", }
+,{"id":"anon_vma_unlock", "file":"mm/ksm.c", "line":1675, "type":"c", "scope_line":1633, "scope_name":"rmap_walk_ksm", }
+,{"id":"anon_vma_unlock", "file":"mm/mmap.c", "line":2619, "type":"c", "scope_line":2601, "scope_name":"vm_unlock_anon_vma", }
+,{"id":"anon_vma_unlock", "file":"mm/mmap.c", "line":641, "type":"c", "scope_line":509, "scope_name":"vma_adjust", }
+,{"id":"anon_vma_unlock", "file":"mm/rmap.c", "line":1474, "type":"c", "scope_line":1456, "scope_name":"drop_anon_vma", }
+,{"id":"anon_vma_unlock", "file":"mm/rmap.c", "line":1516, "type":"c", "scope_line":1490, "scope_name":"rmap_walk_anon", }
+,{"id":"anon_vma_unlock", "file":"mm/rmap.c", "line":156, "type":"c", "scope_line":115, "scope_name":"anon_vma_prepare", }
+,{"id":"anon_vma_unlock", "file":"mm/rmap.c", "line":181, "type":"c", "scope_line":171, "scope_name":"anon_vma_chain_link", }
+,{"id":"anon_vma_unlock", "file":"mm/rmap.c", "line":272, "type":"c", "scope_line":258, "scope_name":"anon_vma_unlink", }
+,{"id":"anon_vma_unlock", "file":"mm/rmap.c", "line":352, "type":"c", "scope_line":350, "scope_name":"page_unlock_anon_vma", }
+,{"id":"anonstring", "file":"fs/dcache.c", "line":1152, "type":"v", }
+,{"id":"anonvma_external_refcount", "file":"include/linux/rmap.h", "line":80, "type":"f", }
+,{"id":"anonvma_external_refcount", "file":"mm/rmap.c", "line":271, "type":"c", "scope_line":258, "scope_name":"anon_vma_unlink", }
+,{"id":"anonvma_external_refcount_init", "file":"include/linux/rmap.h", "line":75, "type":"f", }
+,{"id":"anonvma_external_refcount_init", "file":"mm/rmap.c", "line":302, "type":"c", "scope_line":297, "scope_name":"anon_vma_ctor", }
+,{"id":"answer", "file":"security/tomoyo/common.c", "line":1483, "type":"m", "scope_line":1477, "scope_name":"struct tomoyo_query", }
+,{"id":"antenna_selection_info", "file":"include/linux/ieee80211.h", "line":866, "type":"m", "scope_line":857, "scope_name":"struct ieee80211_ht_cap", }
+,{"id":"any_online_cpu", "file":"include/linux/cpumask.h", "line":787, "type":"d", }
+,{"id":"any_tag_set", "file":"lib/radix-tree.c", "line":132, "type":"f", }
+,{"id":"any_tag_set", "file":"lib/radix-tree.c", "line":536, "type":"c", "scope_line":495, "scope_name":"radix_tree_tag_clear", }
+,{"id":"anycast_delay", "file":"include/net/neighbour.h", "line":66, "type":"m", "scope_line":40, "scope_name":"struct neigh_parms", }
+,{"id":"aout_dump_debugregs", "file":"arch/x86/kernel/hw_breakpoint.c", "line":356, "type":"f", }
+,{"id":"ap", "file":"include/linux/libata.h", "line":541, "type":"m", "scope_line":540, "scope_name":"struct ata_queued_cmd", }
+,{"id":"ap", "file":"include/linux/libata.h", "line":690, "type":"m", "scope_line":689, "scope_name":"struct ata_link", }
+,{"id":"ap_addr", "file":"include/linux/wireless.h", "line":946, "type":"m", "scope_line":921, "scope_name":"union iwreq_data", }
+,{"id":"ap_device_id", "file":"include/linux/mod_devicetable.h", "line":163, "type":"s", }
+,{"id":"ap_isolate", "file":"include/net/cfg80211.h", "line":529, "type":"m", "scope_line":523, "scope_name":"struct bss_parameters", }
+,{"id":"apei_check_mce", "file":"arch/x86/kernel/cpu/mcheck/mce-internal.h", "line":45, "type":"f", }
+,{"id":"apei_check_mce", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":1630, "type":"c", "scope_line":1625, "scope_name":"mce_poll", }
+,{"id":"apei_clear_mce", "file":"arch/x86/kernel/cpu/mcheck/mce-internal.h", "line":49, "type":"f", }
+,{"id":"apei_clear_mce", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":1531, "type":"c", "scope_line":1507, "scope_name":"__mce_read_apei", }
+,{"id":"apei_hest_func_t", "file":"include/acpi/apei.h", "line":22, "type":"t", }
+,];
+xr_frag_insert('t/a2/a477f2f366f8f4e6a9d4573589e1fbbdb3512c.xr', __xr_tmp);

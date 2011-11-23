@@ -1,0 +1,224 @@
+var __xr_tmp = [
+{"id":"unlock_page", "file":"mm/memory-failure.c", "line":1055, "type":"c", "scope_line":952, "scope_name":"__memory_failure", }
+,{"id":"unlock_page", "file":"mm/memory-failure.c", "line":1097, "type":"c", "scope_line":952, "scope_name":"__memory_failure", }
+,{"id":"unlock_page", "file":"mm/memory-failure.c", "line":1177, "type":"c", "scope_line":1136, "scope_name":"unpoison_memory", }
+,{"id":"unlock_page", "file":"mm/memory-failure.c", "line":1303, "type":"c", "scope_line":1260, "scope_name":"soft_offline_page", }
+,{"id":"unlock_page", "file":"mm/memory-failure.c", "line":1314, "type":"c", "scope_line":1260, "scope_name":"soft_offline_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2144, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2158, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2197, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2212, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2264, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2356, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2377, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2752, "type":"c", "scope_line":2621, "scope_name":"do_swap_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2762, "type":"c", "scope_line":2621, "scope_name":"do_swap_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2783, "type":"c", "scope_line":2621, "scope_name":"do_swap_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2787, "type":"c", "scope_line":2621, "scope_name":"do_swap_page", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2934, "type":"c", "scope_line":2908, "scope_name":"__do_fault", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2987, "type":"c", "scope_line":2908, "scope_name":"__do_fault", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":2999, "type":"c", "scope_line":2908, "scope_name":"__do_fault", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":3060, "type":"c", "scope_line":2908, "scope_name":"__do_fault", }
+,{"id":"unlock_page", "file":"mm/memory.c", "line":3074, "type":"c", "scope_line":2908, "scope_name":"__do_fault", }
+,{"id":"unlock_page", "file":"mm/migrate.c", "line":540, "type":"c", "scope_line":497, "scope_name":"move_to_new_page", }
+,{"id":"unlock_page", "file":"mm/migrate.c", "line":694, "type":"c", "scope_line":549, "scope_name":"unmap_and_move", }
+,{"id":"unlock_page", "file":"mm/mlock.c", "line":229, "type":"c", "scope_line":157, "scope_name":"__mlock_vma_pages_range", }
+,{"id":"unlock_page", "file":"mm/mlock.c", "line":350, "type":"c", "scope_line":322, "scope_name":"munlock_vma_pages_range", }
+,{"id":"unlock_page", "file":"mm/page-writeback.c", "line":1100, "type":"c", "scope_line":1076, "scope_name":"write_one_page", }
+,{"id":"unlock_page", "file":"mm/page-writeback.c", "line":1234, "type":"c", "scope_line":1228, "scope_name":"set_page_dirty_lock", }
+,{"id":"unlock_page", "file":"mm/page-writeback.c", "line":947, "type":"c", "scope_line":866, "scope_name":"write_cache_pages", }
+,{"id":"unlock_page", "file":"mm/page-writeback.c", "line":971, "type":"c", "scope_line":866, "scope_name":"write_cache_pages", }
+,{"id":"unlock_page", "file":"mm/page_io.c", "line":104, "type":"c", "scope_line":92, "scope_name":"swap_writepage", }
+,{"id":"unlock_page", "file":"mm/page_io.c", "line":112, "type":"c", "scope_line":92, "scope_name":"swap_writepage", }
+,{"id":"unlock_page", "file":"mm/page_io.c", "line":127, "type":"c", "scope_line":118, "scope_name":"swap_readpage", }
+,{"id":"unlock_page", "file":"mm/page_io.c", "line":84, "type":"c", "scope_line":69, "scope_name":"end_swap_bio_read", }
+,{"id":"unlock_page", "file":"mm/page_io.c", "line":98, "type":"c", "scope_line":92, "scope_name":"swap_writepage", }
+,{"id":"unlock_page", "file":"mm/readahead.c", "line":51, "type":"c", "scope_line":42, "scope_name":"read_cache_pages_invalidate_page", }
+,{"id":"unlock_page", "file":"mm/rmap.c", "line":678, "type":"c", "scope_line":651, "scope_name":"page_referenced", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":1026, "type":"c", "scope_line":1007, "scope_name":"shmem_unuse", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":1118, "type":"c", "scope_line":1035, "scope_name":"shmem_writepage", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":1329, "type":"c", "scope_line":1218, "scope_name":"shmem_getpage", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":1336, "type":"c", "scope_line":1218, "scope_name":"shmem_getpage", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":1348, "type":"c", "scope_line":1218, "scope_name":"shmem_getpage", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":1377, "type":"c", "scope_line":1218, "scope_name":"shmem_getpage", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":1382, "type":"c", "scope_line":1218, "scope_name":"shmem_getpage", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":1498, "type":"c", "scope_line":1218, "scope_name":"shmem_getpage", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":1646, "type":"c", "scope_line":1642, "scope_name":"shmem_readpage", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":1672, "type":"c", "scope_line":1661, "scope_name":"shmem_write_end", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":1717, "type":"c", "scope_line":1678, "scope_name":"do_shmem_file_read", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":2013, "type":"c", "scope_line":1968, "scope_name":"shmem_symlink", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":2035, "type":"c", "scope_line":2029, "scope_name":"shmem_follow_link", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":790, "type":"c", "scope_line":763, "scope_name":"shmem_notify_change", }
+,{"id":"unlock_page", "file":"mm/shmem.c", "line":998, "type":"c", "scope_line":853, "scope_name":"shmem_unuse_inode", }
+,{"id":"unlock_page", "file":"mm/swap.c", "line":456, "type":"c", "scope_line":446, "scope_name":"pagevec_strip", }
+,{"id":"unlock_page", "file":"mm/swap_state.c", "line":219, "type":"c", "scope_line":215, "scope_name":"free_swap_cache", }
+,{"id":"unlock_page", "file":"mm/swapfile.c", "line":1033, "type":"c", "scope_line":1021, "scope_name":"unuse_mm", }
+,{"id":"unlock_page", "file":"mm/swapfile.c", "line":1228, "type":"c", "scope_line":1088, "scope_name":"try_to_unuse", }
+,{"id":"unlock_page", "file":"mm/swapfile.c", "line":1280, "type":"c", "scope_line":1088, "scope_name":"try_to_unuse", }
+,{"id":"unlock_page", "file":"mm/swapfile.c", "line":742, "type":"c", "scope_line":713, "scope_name":"free_swap_and_cache", }
+,{"id":"unlock_page", "file":"mm/swapfile.c", "line":86, "type":"c", "scope_line":67, "scope_name":"__try_to_reclaim_swap", }
+,{"id":"unlock_page", "file":"mm/truncate.c", "line":243, "type":"c", "scope_line":208, "scope_name":"truncate_inode_pages_range", }
+,{"id":"unlock_page", "file":"mm/truncate.c", "line":247, "type":"c", "scope_line":208, "scope_name":"truncate_inode_pages_range", }
+,{"id":"unlock_page", "file":"mm/truncate.c", "line":258, "type":"c", "scope_line":208, "scope_name":"truncate_inode_pages_range", }
+,{"id":"unlock_page", "file":"mm/truncate.c", "line":288, "type":"c", "scope_line":208, "scope_name":"truncate_inode_pages_range", }
+,{"id":"unlock_page", "file":"mm/truncate.c", "line":356, "type":"c", "scope_line":322, "scope_name":"invalidate_mapping_pages", }
+,{"id":"unlock_page", "file":"mm/truncate.c", "line":443, "type":"c", "scope_line":420, "scope_name":"invalidate_inode_pages2_range", }
+,{"id":"unlock_page", "file":"mm/truncate.c", "line":451, "type":"c", "scope_line":420, "scope_name":"invalidate_inode_pages2_range", }
+,{"id":"unlock_page", "file":"mm/truncate.c", "line":483, "type":"c", "scope_line":420, "scope_name":"invalidate_inode_pages2_range", }
+,{"id":"unlock_page", "file":"mm/vmscan.c", "line":2942, "type":"c", "scope_line":2920, "scope_name":"scan_zone_unevictable_pages", }
+,{"id":"unlock_page", "file":"mm/vmscan.c", "line":307, "type":"c", "scope_line":301, "scope_name":"handle_write_error", }
+,{"id":"unlock_page", "file":"mm/vmscan.c", "line":801, "type":"c", "scope_line":646, "scope_name":"shrink_page_list", }
+,{"id":"unlock_page", "file":"mm/vmscan.c", "line":842, "type":"c", "scope_line":646, "scope_name":"shrink_page_list", }
+,{"id":"unlock_page", "file":"mm/vmscan.c", "line":854, "type":"c", "scope_line":646, "scope_name":"shrink_page_list", }
+,{"id":"unlock_page_cgroup", "file":"include/linux/page_cgroup.h", "line":102, "type":"f", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":1492, "type":"c", "scope_line":1466, "scope_name":"mem_cgroup_update_file_mapped", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":1887, "type":"c", "scope_line":1863, "scope_name":"try_get_mem_cgroup_from_page", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":1906, "type":"c", "scope_line":1896, "scope_name":"__mem_cgroup_commit_charge", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":1936, "type":"c", "scope_line":1896, "scope_name":"__mem_cgroup_commit_charge", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":2008, "type":"c", "scope_line":1999, "scope_name":"mem_cgroup_move_account", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":2138, "type":"c", "scope_line":2110, "scope_name":"mem_cgroup_cache_charge", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":2141, "type":"c", "scope_line":2110, "scope_name":"mem_cgroup_cache_charge", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":2376, "type":"c", "scope_line":2322, "scope_name":"__mem_cgroup_uncharge_common", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":2392, "type":"c", "scope_line":2322, "scope_name":"__mem_cgroup_uncharge_common", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":2622, "type":"c", "scope_line":2574, "scope_name":"mem_cgroup_prepare_migration", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":2637, "type":"c", "scope_line":2574, "scope_name":"mem_cgroup_prepare_migration", }
+,{"id":"unlock_page_cgroup", "file":"mm/memcontrol.c", "line":2689, "type":"c", "scope_line":2663, "scope_name":"mem_cgroup_end_migration", }
+,{"id":"unlock_policy_rwsem_read", "file":"drivers/cpufreq/cpufreq.c", "line":1333, "type":"c", "scope_line":1320, "scope_name":"cpufreq_get", }
+,{"id":"unlock_policy_rwsem_read", "file":"drivers/cpufreq/cpufreq.c", "line":719, "type":"c", "scope_line":702, "scope_name":"show", }
+,{"id":"unlock_policy_rwsem_read", "file":"drivers/cpufreq/cpufreq.c", "line":91, "type":"f", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":1060, "type":"c", "scope_line":964, "scope_name":"cpufreq_add_dev", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":1080, "type":"c", "scope_line":964, "scope_name":"cpufreq_add_dev", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":1122, "type":"c", "scope_line":1101, "scope_name":"__cpufreq_remove_dev", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":1139, "type":"c", "scope_line":1101, "scope_name":"__cpufreq_remove_dev", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":1178, "type":"c", "scope_line":1101, "scope_name":"__cpufreq_remove_dev", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":1193, "type":"c", "scope_line":1101, "scope_name":"__cpufreq_remove_dev", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":1207, "type":"c", "scope_line":1101, "scope_name":"__cpufreq_remove_dev", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":1551, "type":"c", "scope_line":1536, "scope_name":"cpufreq_driver_target", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":1841, "type":"c", "scope_line":1802, "scope_name":"cpufreq_update_policy", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":744, "type":"c", "scope_line":726, "scope_name":"store", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":809, "type":"c", "scope_line":775, "scope_name":"cpufreq_add_dev_policy", }
+,{"id":"unlock_policy_rwsem_write", "file":"drivers/cpufreq/cpufreq.c", "line":98, "type":"f", }
+,{"id":"unlock_rename", "file":"fs/debugfs/inode.c", "line":503, "type":"c", "scope_line":470, "scope_name":"debugfs_rename", }
+,{"id":"unlock_rename", "file":"fs/debugfs/inode.c", "line":509, "type":"c", "scope_line":470, "scope_name":"debugfs_rename", }
+,{"id":"unlock_rename", "file":"fs/namei.c", "line":1376, "type":"f", }
+,{"id":"unlock_rename", "file":"fs/namei.c", "line":2734, "type":"c", "scope_line":2651, "scope_name":"sys_renameat", }
+,{"id":"unlock_sock_fast", "file":"include/net/sock.h", "line":1043, "type":"f", }
+,{"id":"unlock_sock_fast", "file":"net/core/datagram.c", "line":243, "type":"c", "scope_line":231, "scope_name":"skb_free_datagram_locked", }
+,{"id":"unlock_sock_fast", "file":"net/ipv4/udp.c", "line":1070, "type":"c", "scope_line":1045, "scope_name":"first_packet_length", }
+,{"id":"unlock_sock_fast", "file":"net/ipv4/udp.c", "line":1205, "type":"c", "scope_line":1117, "scope_name":"udp_recvmsg", }
+,{"id":"unlock_sock_fast", "file":"net/ipv4/udp.c", "line":1675, "type":"c", "scope_line":1671, "scope_name":"udp_destroy_sock", }
+,{"id":"unlock_sock_fast", "file":"net/ipv6/udp.c", "line":446, "type":"c", "scope_line":328, "scope_name":"udpv6_recvmsg", }
+,{"id":"unlock_super", "file":"fs/ext3/super.c", "line":2522, "type":"c", "scope_line":2515, "scope_name":"ext3_unfreeze", }
+,{"id":"unlock_super", "file":"fs/ext3/super.c", "line":2650, "type":"c", "scope_line":2528, "scope_name":"ext3_remount", }
+,{"id":"unlock_super", "file":"fs/ext3/super.c", "line":2671, "type":"c", "scope_line":2528, "scope_name":"ext3_remount", }
+,{"id":"unlock_super", "file":"fs/ext4/super.c", "line":3640, "type":"c", "scope_line":3636, "scope_name":"ext4_write_super", }
+,{"id":"unlock_super", "file":"fs/ext4/super.c", "line":3705, "type":"c", "scope_line":3696, "scope_name":"ext4_unfreeze", }
+,{"id":"unlock_super", "file":"fs/ext4/super.c", "line":3860, "type":"c", "scope_line":3709, "scope_name":"ext4_remount", }
+,{"id":"unlock_super", "file":"fs/ext4/super.c", "line":3886, "type":"c", "scope_line":3709, "scope_name":"ext4_remount", }
+,{"id":"unlock_super", "file":"fs/ext4/super.c", "line":779, "type":"c", "scope_line":699, "scope_name":"ext4_put_super", }
+,{"id":"unlock_super", "file":"fs/super.c", "line":242, "type":"f", }
+,{"id":"unlock_system_sleep", "file":"include/linux/suspend.h", "line":335, "type":"f", }
+,{"id":"unlock_system_sleep", "file":"mm/memory-failure.c", "line":1234, "type":"c", "scope_line":1199, "scope_name":"get_any_page", }
+,{"id":"unlock_system_sleep", "file":"mm/memory_hotplug.c", "line":507, "type":"c", "scope_line":491, "scope_name":"mem_online_node", }
+,{"id":"unlock_system_sleep", "file":"mm/memory_hotplug.c", "line":566, "type":"c", "scope_line":512, "scope_name":"add_memory", }
+,{"id":"unlock_system_sleep", "file":"mm/memory_hotplug.c", "line":897, "type":"c", "scope_line":786, "scope_name":"offline_pages", }
+,{"id":"unlock_system_sleep", "file":"mm/memory_hotplug.c", "line":908, "type":"c", "scope_line":786, "scope_name":"offline_pages", }
+,{"id":"unlock_task_sighand", "file":"fs/exec.c", "line":1662, "type":"c", "scope_line":1602, "scope_name":"zap_threads", }
+,{"id":"unlock_task_sighand", "file":"fs/proc/array.c", "line":275, "type":"c", "scope_line":251, "scope_name":"task_sig", }
+,{"id":"unlock_task_sighand", "file":"fs/proc/array.c", "line":443, "type":"c", "scope_line":363, "scope_name":"do_task_stat", }
+,{"id":"unlock_task_sighand", "file":"fs/proc/base.c", "line":1004, "type":"c", "scope_line":990, "scope_name":"oom_adjust_read", }
+,{"id":"unlock_task_sighand", "file":"fs/proc/base.c", "line":1045, "type":"c", "scope_line":1014, "scope_name":"oom_adjust_write", }
+,{"id":"unlock_task_sighand", "file":"fs/proc/base.c", "line":1068, "type":"c", "scope_line":1014, "scope_name":"oom_adjust_write", }
+,{"id":"unlock_task_sighand", "file":"fs/proc/base.c", "line":1093, "type":"c", "scope_line":1080, "scope_name":"oom_score_adj_read", }
+,{"id":"unlock_task_sighand", "file":"fs/proc/base.c", "line":1131, "type":"c", "scope_line":1100, "scope_name":"oom_score_adj_write", }
+,{"id":"unlock_task_sighand", "file":"fs/proc/base.c", "line":1146, "type":"c", "scope_line":1100, "scope_name":"oom_score_adj_write", }
+,{"id":"unlock_task_sighand", "file":"fs/proc/base.c", "line":2624, "type":"c", "scope_line":2612, "scope_name":"do_io_accounting", }
+,{"id":"unlock_task_sighand", "file":"fs/proc/base.c", "line":480, "type":"c", "scope_line":468, "scope_name":"proc_pid_limits", }
+,{"id":"unlock_task_sighand", "file":"include/linux/sched.h", "line":2216, "type":"f", }
+,{"id":"unlock_task_sighand", "file":"kernel/posix-cpu-timers.c", "line":1344, "type":"c", "scope_line":1306, "scope_name":"run_posix_cpu_timers", }
+,{"id":"unlock_task_sighand", "file":"kernel/ptrace.c", "line":444, "type":"c", "scope_line":433, "scope_name":"ptrace_getsiginfo", }
+,{"id":"unlock_task_sighand", "file":"kernel/ptrace.c", "line":460, "type":"c", "scope_line":449, "scope_name":"ptrace_setsiginfo", }
+,{"id":"unlock_task_sighand", "file":"kernel/signal.c", "line":1042, "type":"c", "scope_line":1034, "scope_name":"do_send_sig_info", }
+,{"id":"unlock_task_sighand", "file":"kernel/signal.c", "line":1231, "type":"c", "scope_line":1200, "scope_name":"kill_pid_info_as_uid", }
+,{"id":"unlock_task_sighand", "file":"kernel/signal.c", "line":1431, "type":"c", "scope_line":1396, "scope_name":"send_sigqueue", }
+,{"id":"unlock_task_sighand", "file":"kernel/sys.c", "line":1545, "type":"c", "scope_line":1487, "scope_name":"k_getrusage", }
+,{"id":"unlock_task_sighand", "file":"kernel/taskstats.c", "line":258, "type":"c", "scope_line":219, "scope_name":"fill_tgid", }
+,{"id":"unlock_timer", "file":"kernel/posix-timers.c", "line":150, "type":"f", }
+,{"id":"unlock_timer", "file":"kernel/posix-timers.c", "line":359, "type":"c", "scope_line":342, "scope_name":"do_schedule_next_timer", }
+,{"id":"unlock_timer", "file":"kernel/posix-timers.c", "line":458, "type":"c", "scope_line":398, "scope_name":"posix_timer_fn", }
+,{"id":"unlock_timer", "file":"kernel/posix-timers.c", "line":716, "type":"c", "scope_line":703, "scope_name":"sys_timer_gettime", }
+,{"id":"unlock_timer", "file":"kernel/posix-timers.c", "line":744, "type":"c", "scope_line":733, "scope_name":"sys_timer_getoverrun", }
+,{"id":"unlock_timer", "file":"kernel/posix-timers.c", "line":828, "type":"c", "scope_line":801, "scope_name":"sys_timer_settime", }
+,{"id":"unlock_timer", "file":"kernel/posix-timers.c", "line":867, "type":"c", "scope_line":856, "scope_name":"sys_timer_delete", }
+,{"id":"unlock_timer", "file":"kernel/posix-timers.c", "line":880, "type":"c", "scope_line":856, "scope_name":"sys_timer_delete", }
+,{"id":"unlock_timer", "file":"kernel/posix-timers.c", "line":896, "type":"c", "scope_line":888, "scope_name":"itimer_delete", }
+,{"id":"unlock_timer", "file":"kernel/posix-timers.c", "line":906, "type":"c", "scope_line":888, "scope_name":"itimer_delete", }
+,{"id":"unlock_vector_lock", "file":"arch/x86/kernel/apic/io_apic.c", "line":1134, "type":"f", }
+,{"id":"unlock_vector_lock", "file":"arch/x86/kernel/smpboot.c", "line":1322, "type":"c", "scope_line":1313, "scope_name":"cpu_disable_common", }
+,{"id":"unlock_vector_lock", "file":"arch/x86/kernel/smpboot.c", "line":351, "type":"c", "scope_line":295, "scope_name":"start_secondary", }
+,{"id":"unlocked_ioctl", "file":"include/linux/fs.h", "line":1497, "type":"m", "scope_line":1488, "scope_name":"struct file_operations", }
+,{"id":"unlocked_ioctl", "file":"include/linux/usb.h", "line":848, "type":"m", "scope_line":840, "scope_name":"struct usb_driver", }
+,{"id":"unlzma", "file":"lib/decompress_unlzma.c", "line":534, "type":"f", }
+,{"id":"unlzo", "file":"lib/decompress_unlzo.c", "line":90, "type":"f", }
+,{"id":"unmap", "file":"drivers/scsi/sd.h", "line":64, "type":"m", "scope_line":45, "scope_name":"struct scsi_disk", }
+,{"id":"unmap", "file":"include/linux/iommu.h", "line":42, "type":"m", "scope_line":35, "scope_name":"struct iommu_ops", }
+,{"id":"unmap", "file":"include/linux/pipe_fs_i.h", "line":100, "type":"m", "scope_line":75, "scope_name":"struct pipe_buf_operations", }
+,{"id":"unmap_and_move", "file":"mm/migrate.c", "line":549, "type":"f", }
+,{"id":"unmap_and_move", "file":"mm/migrate.c", "line":760, "type":"c", "scope_line":740, "scope_name":"migrate_pages", }
+,{"id":"unmap_area", "file":"include/linux/mm_types.h", "line":240, "type":"m", "scope_line":232, "scope_name":"struct mm_struct", }
+,{"id":"unmap_bin_file", "file":"fs/sysfs/bin.c", "line":459, "type":"f", }
+,{"id":"unmap_bin_file", "file":"fs/sysfs/dir.c", "line":517, "type":"c", "scope_line":504, "scope_name":"sysfs_addrm_finish", }
+,{"id":"unmap_class", "file":"security/selinux/ss/services.c", "line":1367, "type":"c", "scope_line":1335, "scope_name":"security_compute_sid", }
+,{"id":"unmap_class", "file":"security/selinux/ss/services.c", "line":195, "type":"f", }
+,{"id":"unmap_class", "file":"security/selinux/ss/services.c", "line":2198, "type":"c", "scope_line":2182, "scope_name":"security_genfs_sid", }
+,{"id":"unmap_class", "file":"security/selinux/ss/services.c", "line":739, "type":"c", "scope_line":723, "scope_name":"security_validate_transition", }
+,{"id":"unmap_class", "file":"security/selinux/ss/services.c", "line":922, "type":"c", "scope_line":891, "scope_name":"security_compute_av", }
+,{"id":"unmap_cpu_to_node", "file":"arch/x86/kernel/smpboot.c", "line":164, "type":"d", }
+,{"id":"unmap_hugepage_range", "file":"mm/hugetlb.c", "line":2248, "type":"f", }
+,{"id":"unmap_hugepage_range", "file":"mm/memory.c", "line":1145, "type":"c", "scope_line":1096, "scope_name":"unmap_vmas", }
+,{"id":"unmap_kernel_range", "file":"mm/vmalloc.c", "line":1172, "type":"f", }
+,{"id":"unmap_kernel_range_noflush", "file":"mm/percpu-vm.c", "line":152, "type":"c", "scope_line":150, "scope_name":"__pcpu_unmap_pages", }
+,{"id":"unmap_kernel_range_noflush", "file":"mm/vmalloc.c", "line":1159, "type":"f", }
+,{"id":"unmap_low_page", "file":"arch/x86/mm/init_64.c", "line":301, "type":"f", }
+,{"id":"unmap_low_page", "file":"arch/x86/mm/init_64.c", "line":425, "type":"c", "scope_line":362, "scope_name":"phys_pmd_init", }
+,{"id":"unmap_low_page", "file":"arch/x86/mm/init_64.c", "line":508, "type":"c", "scope_line":447, "scope_name":"phys_pud_init", }
+,{"id":"unmap_low_page", "file":"arch/x86/mm/init_64.c", "line":561, "type":"c", "scope_line":532, "scope_name":"kernel_physical_mapping_init", }
+,{"id":"unmap_mapping_range", "file":"fs/sysfs/bin.c", "line":472, "type":"c", "scope_line":459, "scope_name":"unmap_bin_file", }
+,{"id":"unmap_mapping_range", "file":"include/linux/mm.h", "line":818, "type":"c", "scope_line":815, "scope_name":"unmap_shared_mapping_range", }
+,{"id":"unmap_mapping_range", "file":"mm/memory.c", "line":2550, "type":"f", }
+,{"id":"unmap_mapping_range", "file":"mm/memory.c", "line":2606, "type":"c", "scope_line":2592, "scope_name":"vmtruncate_range", }
+,{"id":"unmap_mapping_range", "file":"mm/memory.c", "line":2608, "type":"c", "scope_line":2592, "scope_name":"vmtruncate_range", }
+,{"id":"unmap_mapping_range", "file":"mm/shmem.c", "line":742, "type":"c", "scope_line":535, "scope_name":"shmem_truncate_range", }
+,{"id":"unmap_mapping_range", "file":"mm/truncate.c", "line":143, "type":"c", "scope_line":140, "scope_name":"truncate_inode_page", }
+,{"id":"unmap_mapping_range", "file":"mm/truncate.c", "line":460, "type":"c", "scope_line":420, "scope_name":"invalidate_inode_pages2_range", }
+,{"id":"unmap_mapping_range", "file":"mm/truncate.c", "line":470, "type":"c", "scope_line":420, "scope_name":"invalidate_inode_pages2_range", }
+,{"id":"unmap_mapping_range", "file":"mm/truncate.c", "line":537, "type":"c", "scope_line":524, "scope_name":"truncate_pagecache", }
+,{"id":"unmap_mapping_range", "file":"mm/truncate.c", "line":539, "type":"c", "scope_line":524, "scope_name":"truncate_pagecache", }
+,{"id":"unmap_mapping_range_list", "file":"mm/memory.c", "line":2513, "type":"f", }
+,{"id":"unmap_mapping_range_list", "file":"mm/memory.c", "line":2587, "type":"c", "scope_line":2550, "scope_name":"unmap_mapping_range", }
+,{"id":"unmap_mapping_range_tree", "file":"mm/memory.c", "line":2481, "type":"f", }
+,{"id":"unmap_mapping_range_tree", "file":"mm/memory.c", "line":2585, "type":"c", "scope_line":2550, "scope_name":"unmap_mapping_range", }
+,{"id":"unmap_mapping_range_vma", "file":"mm/memory.c", "line":2434, "type":"f", }
+,{"id":"unmap_mapping_range_vma", "file":"mm/memory.c", "line":2505, "type":"c", "scope_line":2481, "scope_name":"unmap_mapping_range_tree", }
+,{"id":"unmap_mapping_range_vma", "file":"mm/memory.c", "line":2530, "type":"c", "scope_line":2513, "scope_name":"unmap_mapping_range_list", }
+,{"id":"unmap_page", "file":"arch/x86/kernel/amd_iommu.c", "line":2026, "type":"f", }
+,{"id":"unmap_page", "file":"include/linux/dma-mapping.h", "line":27, "type":"m", "scope_line":18, "scope_name":"struct dma_map_ops", }
+,{"id":"unmap_page_range", "file":"mm/memory.c", "line":1033, "type":"f", }
+,{"id":"unmap_page_range", "file":"mm/memory.c", "line":1152, "type":"c", "scope_line":1096, "scope_name":"unmap_vmas", }
+,{"id":"unmap_pte_fn", "file":"arch/x86/xen/grant-table.c", "line":57, "type":"f", }
+,{"id":"unmap_ref_private", "file":"mm/hugetlb.c", "line":2262, "type":"f", }
+,{"id":"unmap_ref_private", "file":"mm/hugetlb.c", "line":2365, "type":"c", "scope_line":2311, "scope_name":"hugetlb_cow", }
+,{"id":"unmap_region", "file":"mm/mmap.c", "line":1363, "type":"c", "scope_line":1215, "scope_name":"mmap_region", }
+,{"id":"unmap_region", "file":"mm/mmap.c", "line":1894, "type":"f", }
+,{"id":"unmap_region", "file":"mm/mmap.c", "line":2112, "type":"c", "scope_line":2039, "scope_name":"do_munmap", }
+,{"id":"unmap_sg", "file":"arch/x86/kernel/amd_iommu.c", "line":2130, "type":"f", }
+,{"id":"unmap_sg", "file":"include/linux/dma-mapping.h", "line":33, "type":"m", "scope_line":18, "scope_name":"struct dma_map_ops", }
+,{"id":"unmap_shared_mapping_range", "file":"include/linux/mm.h", "line":815, "type":"f", }
+,{"id":"unmap_single", "file":"lib/swiotlb.c", "line":704, "type":"f", }
+,{"id":"unmap_single", "file":"lib/swiotlb.c", "line":732, "type":"c", "scope_line":728, "scope_name":"swiotlb_unmap_page", }
+,{"id":"unmap_single", "file":"lib/swiotlb.c", "line":856, "type":"c", "scope_line":846, "scope_name":"swiotlb_unmap_sg_attrs", }
+,{"id":"unmap_underlying_metadata", "file":"fs/buffer.c", "line":1578, "type":"f", }
+,{"id":"unmap_underlying_metadata", "file":"fs/buffer.c", "line":1691, "type":"c", "scope_line":1629, "scope_name":"__block_write_full_page", }
+,{"id":"unmap_underlying_metadata", "file":"fs/buffer.c", "line":1878, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,];
+xr_frag_insert('t/b8/a6d15575f3a0a604a18e3005e3fad4db53bec9.xr', __xr_tmp);

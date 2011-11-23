@@ -1,0 +1,19 @@
+var __xr_tmp = [
+"<span class=\"comment\">/*</span>", 
+"<span class=\"comment\"> * IRQ subsystem internal functions and variables:</span>", 
+"<span class=\"comment\"> */</span>", 
+"", 
+"extern int <a class=\"id\" href=\"#noirqdebug\">noirqdebug</a>;", 
+"", 
+"<span class=\"comment\">/* Set default functions for irq_chip structures: */</span>", 
+"extern void <a class=\"id\" href=\"#irq_chip_set_defaults\">irq_chip_set_defaults</a>(struct <a class=\"id\" href=\"#irq_chip\">irq_chip</a> *<a class=\"id\" href=\"#chip\">chip</a>);", 
+"", 
+"<span class=\"comment\">/* Set default handler: */</span>", 
+"extern void <a class=\"id\" href=\"#compat_irq_chip_set_default_handler\">compat_irq_chip_set_default_handler</a>(struct <a class=\"id\" href=\"#irq_desc\">irq_desc</a> *<a class=\"id\" href=\"#desc\">desc</a>);", 
+"", 
+"extern int <a class=\"id\" href=\"#__irq_set_trigger\">__irq_set_trigger</a>(struct <a class=\"id\" href=\"#irq_desc\">irq_desc</a> *<a class=\"id\" href=\"#desc\">desc</a>, unsigned int <a class=\"id\" href=\"#irq\">irq</a>,", 
+"<span class=\"ts\"/><span class=\"ts\"/>unsigned long <a class=\"id\" href=\"#flags\">flags</a>);", 
+"extern void <a class=\"id\" href=\"#__disable_irq\">__disable_irq</a>(struct <a class=\"id\" href=\"#irq_desc\">irq_desc</a> *<a class=\"id\" href=\"#desc\">desc</a>, unsigned int <a class=\"id\" href=\"#irq\">irq</a>, <a class=\"id\" href=\"#bool\">bool</a> <a class=\"id\" href=\"#susp\">susp</a>);", 
+"extern void <a class=\"id\" href=\"#__enable_irq\">__enable_irq</a>(struct <a class=\"id\" href=\"#irq_desc\">irq_desc</a> *<a class=\"id\" href=\"#desc\">desc</a>, unsigned int <a class=\"id\" href=\"#irq\">irq</a>, <a class=\"id\" href=\"#bool\">bool</a> <a class=\"id\" href=\"#resume\">resume</a>);", 
+];
+xr_frag_insert('l/5a/ffbafd2d3454b9a2953f23333ee5e695161f27.xr', __xr_tmp);

@@ -1,0 +1,111 @@
+var __xr_tmp = [
+{"id":"cpuset_mems_allowed", "file":"kernel/cpuset.c", "line":2273, "type":"f", }
+,{"id":"cpuset_mems_allowed", "file":"mm/mempolicy.c", "line":1332, "type":"c", "scope_line":1273, "scope_name":"sys_migrate_pages", }
+,{"id":"cpuset_mems_allowed", "file":"mm/mempolicy.c", "line":1915, "type":"c", "scope_line":1898, "scope_name":"__mpol_dup", }
+,{"id":"cpuset_mems_allowed", "file":"mm/migrate.c", "line":917, "type":"c", "scope_line":905, "scope_name":"do_pages_move", }
+,{"id":"cpuset_mems_allowed_intersects", "file":"kernel/cpuset.c", "line":2515, "type":"f", }
+,{"id":"cpuset_mems_allowed_intersects", "file":"mm/oom_kill.c", "line":70, "type":"c", "scope_line":50, "scope_name":"has_intersects_mems_allowed", }
+,{"id":"cpuset_mems_nr", "file":"mm/hugetlb.c", "line":1852, "type":"f", }
+,{"id":"cpuset_mems_nr", "file":"mm/hugetlb.c", "line":2010, "type":"c", "scope_line":1984, "scope_name":"hugetlb_acct_memory", }
+,{"id":"cpuset_migrate_mm", "file":"kernel/cpuset.c", "line":1039, "type":"c", "scope_line":1012, "scope_name":"cpuset_change_nodemask", }
+,{"id":"cpuset_migrate_mm", "file":"kernel/cpuset.c", "line":1473, "type":"c", "scope_line":1435, "scope_name":"cpuset_attach", }
+,{"id":"cpuset_migrate_mm", "file":"kernel/cpuset.c", "line":929, "type":"f", }
+,{"id":"cpuset_name", "file":"kernel/cpuset.c", "line":225, "type":"v", }
+,{"id":"cpuset_node_allowed_hardwall", "file":"include/linux/cpuset.h", "line":40, "type":"f", }
+,{"id":"cpuset_node_allowed_hardwall", "file":"include/linux/cpuset.h", "line":53, "type":"c", "scope_line":51, "scope_name":"cpuset_zone_allowed_hardwall", }
+,{"id":"cpuset_node_allowed_softwall", "file":"include/linux/cpuset.h", "line":34, "type":"f", }
+,{"id":"cpuset_node_allowed_softwall", "file":"include/linux/cpuset.h", "line":48, "type":"c", "scope_line":46, "scope_name":"cpuset_zone_allowed_softwall", }
+,{"id":"cpuset_nodelist", "file":"kernel/cpuset.c", "line":226, "type":"v", }
+,{"id":"cpuset_nodemask_valid_mems_allowed", "file":"kernel/cpuset.c", "line":2292, "type":"f", }
+,{"id":"cpuset_nodemask_valid_mems_allowed", "file":"mm/mempolicy.c", "line":1506, "type":"c", "scope_line":1503, "scope_name":"policy_nodemask", }
+,{"id":"cpuset_open", "file":"kernel/cpuset.c", "line":2623, "type":"f", }
+,{"id":"cpuset_populate", "file":"kernel/cpuset.c", "line":1817, "type":"f", }
+,{"id":"cpuset_post_clone", "file":"kernel/cpuset.c", "line":1848, "type":"f", }
+,{"id":"cpuset_print_task_mems_allowed", "file":"kernel/cpuset.c", "line":2529, "type":"f", }
+,{"id":"cpuset_print_task_mems_allowed", "file":"mm/oom_kill.c", "line":394, "type":"c", "scope_line":386, "scope_name":"dump_header", }
+,{"id":"cpuset_read_s64", "file":"kernel/cpuset.c", "line":1708, "type":"f", }
+,{"id":"cpuset_read_u64", "file":"kernel/cpuset.c", "line":1677, "type":"f", }
+,{"id":"cpuset_slab_spread_node", "file":"kernel/cpuset.c", "line":2497, "type":"f", }
+,{"id":"cpuset_slab_spread_node", "file":"mm/slab.c", "line":3221, "type":"c", "scope_line":3212, "scope_name":"alternate_node_alloc", }
+,{"id":"cpuset_slab_spread_rotor", "file":"include/linux/sched.h", "line":1417, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"cpuset_spread_node", "file":"kernel/cpuset.c", "line":2481, "type":"f", }
+,{"id":"cpuset_spread_node", "file":"kernel/cpuset.c", "line":2494, "type":"c", "scope_line":2492, "scope_name":"cpuset_mem_spread_node", }
+,{"id":"cpuset_spread_node", "file":"kernel/cpuset.c", "line":2499, "type":"c", "scope_line":2497, "scope_name":"cpuset_slab_spread_node", }
+,{"id":"cpuset_sprintf_cpulist", "file":"kernel/cpuset.c", "line":1611, "type":"f", }
+,{"id":"cpuset_sprintf_cpulist", "file":"kernel/cpuset.c", "line":1660, "type":"c", "scope_line":1641, "scope_name":"cpuset_common_file_read", }
+,{"id":"cpuset_sprintf_memlist", "file":"kernel/cpuset.c", "line":1622, "type":"f", }
+,{"id":"cpuset_sprintf_memlist", "file":"kernel/cpuset.c", "line":1663, "type":"c", "scope_line":1641, "scope_name":"cpuset_common_file_read", }
+,{"id":"cpuset_subsys", "file":"kernel/cpuset.c", "line":1927, "type":"v", }
+,{"id":"cpuset_subsys_id", "file":"include/linux/cgroup_subsys.h", "line":11, "type":"e", "scope_line":47, "scope_name":"cgroup_subsys_id", }
+,{"id":"cpuset_task_status_allowed", "file":"fs/proc/array.c", "line":355, "type":"c", "scope_line":340, "scope_name":"proc_pid_status", }
+,{"id":"cpuset_task_status_allowed", "file":"kernel/cpuset.c", "line":2638, "type":"f", }
+,{"id":"cpuset_test_cpumask", "file":"kernel/cpuset.c", "line":798, "type":"f", }
+,{"id":"cpuset_track_online_nodes", "file":"kernel/cpuset.c", "line":2145, "type":"f", }
+,{"id":"cpuset_track_online_nodes_mem_nb", "file":"kernel/cpuset.c", "line":2190, "type":"v", }
+,{"id":"cpuset_unlock", "file":"kernel/cpuset.c", "line":2449, "type":"f", }
+,{"id":"cpuset_update_active_cpus", "file":"kernel/cpuset.c", "line":2121, "type":"f", }
+,{"id":"cpuset_update_active_cpus", "file":"kernel/sched.c", "line":7497, "type":"c", "scope_line":7491, "scope_name":"cpuset_cpu_active", }
+,{"id":"cpuset_update_active_cpus", "file":"kernel/sched.c", "line":7509, "type":"c", "scope_line":7504, "scope_name":"cpuset_cpu_inactive", }
+,{"id":"cpuset_update_task_spread_flag", "file":"kernel/cpuset.c", "line":1195, "type":"c", "scope_line":1192, "scope_name":"cpuset_change_flag", }
+,{"id":"cpuset_update_task_spread_flag", "file":"kernel/cpuset.c", "line":1431, "type":"c", "scope_line":1419, "scope_name":"cpuset_attach_task", }
+,{"id":"cpuset_update_task_spread_flag", "file":"kernel/cpuset.c", "line":313, "type":"f", }
+,{"id":"cpuset_wq", "file":"kernel/cpuset.c", "line":69, "type":"v", }
+,{"id":"cpuset_write_resmask", "file":"kernel/cpuset.c", "line":1568, "type":"f", }
+,{"id":"cpuset_write_s64", "file":"kernel/cpuset.c", "line":1544, "type":"f", }
+,{"id":"cpuset_write_u64", "file":"kernel/cpuset.c", "line":1499, "type":"f", }
+,{"id":"cpuset_zone_allowed_hardwall", "file":"include/linux/cpuset.h", "line":51, "type":"f", }
+,{"id":"cpuset_zone_allowed_hardwall", "file":"mm/slab.c", "line":3263, "type":"c", "scope_line":3238, "scope_name":"fallback_alloc", }
+,{"id":"cpuset_zone_allowed_hardwall", "file":"mm/vmscan.c", "line":1822, "type":"c", "scope_line":1807, "scope_name":"shrink_zones", }
+,{"id":"cpuset_zone_allowed_hardwall", "file":"mm/vmscan.c", "line":1853, "type":"c", "scope_line":1842, "scope_name":"all_unreclaimable", }
+,{"id":"cpuset_zone_allowed_hardwall", "file":"mm/vmscan.c", "line":1909, "type":"c", "scope_line":1880, "scope_name":"do_try_to_free_pages", }
+,{"id":"cpuset_zone_allowed_hardwall", "file":"mm/vmscan.c", "line":2426, "type":"c", "scope_line":2413, "scope_name":"wakeup_kswapd", }
+,{"id":"cpuset_zone_allowed_softwall", "file":"include/linux/cpuset.h", "line":46, "type":"f", }
+,{"id":"cpuset_zone_allowed_softwall", "file":"mm/hugetlb.c", "line":500, "type":"c", "scope_line":469, "scope_name":"dequeue_huge_page_vma", }
+,{"id":"cpuset_zone_allowed_softwall", "file":"mm/oom_kill.c", "line":263, "type":"c", "scope_line":225, "scope_name":"constrained_alloc", }
+,{"id":"cpuset_zone_allowed_softwall", "file":"mm/page_alloc.c", "line":1636, "type":"c", "scope_line":1612, "scope_name":"get_page_from_freelist", }
+,{"id":"cpusets_overlap", "file":"kernel/cpuset.c", "line":446, "type":"f", }
+,{"id":"cpusets_overlap", "file":"kernel/cpuset.c", "line":621, "type":"c", "scope_line":540, "scope_name":"generate_sched_domains", }
+,{"id":"cpustat", "file":"include/linux/kernel_stat.h", "line":32, "type":"m", "scope_line":31, "scope_name":"struct kernel_stat", }
+,{"id":"cpustat", "file":"kernel/sched.c", "line":8859, "type":"m", "scope_line":8855, "scope_name":"struct cpuacct", }
+,{"id":"cputime", "file":"include/linux/sched.h", "line":504, "type":"m", "scope_line":503, "scope_name":"struct thread_group_cputimer", }
+,{"id":"cputime64_add", "file":"include/asm-generic/cputime.h", "line":28, "type":"d", }
+,{"id":"cputime64_sub", "file":"include/asm-generic/cputime.h", "line":29, "type":"d", }
+,{"id":"cputime64_t", "file":"include/asm-generic/cputime.h", "line":25, "type":"t", }
+,{"id":"cputime64_to_clock_t", "file":"include/asm-generic/cputime.h", "line":68, "type":"d", }
+,{"id":"cputime64_to_jiffies64", "file":"include/asm-generic/cputime.h", "line":30, "type":"d", }
+,{"id":"cputime64_zero", "file":"include/asm-generic/cputime.h", "line":27, "type":"d", }
+,{"id":"cputime_add", "file":"include/asm-generic/cputime.h", "line":12, "type":"d", }
+,{"id":"cputime_div", "file":"include/asm-generic/cputime.h", "line":14, "type":"d", }
+,{"id":"cputime_div_non_zero", "file":"kernel/posix-cpu-timers.c", "line":112, "type":"f", }
+,{"id":"cputime_eq", "file":"include/asm-generic/cputime.h", "line":16, "type":"d", }
+,{"id":"cputime_expires", "file":"include/linux/sched.h", "line":1287, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"cputime_expires", "file":"include/linux/sched.h", "line":565, "type":"m", "scope_line":516, "scope_name":"struct signal_struct", }
+,{"id":"cputime_ge", "file":"include/asm-generic/cputime.h", "line":18, "type":"d", }
+,{"id":"cputime_gt", "file":"include/asm-generic/cputime.h", "line":17, "type":"d", }
+,{"id":"cputime_halve", "file":"include/asm-generic/cputime.h", "line":15, "type":"d", }
+,{"id":"cputime_le", "file":"include/asm-generic/cputime.h", "line":20, "type":"d", }
+,{"id":"cputime_lt", "file":"include/asm-generic/cputime.h", "line":19, "type":"d", }
+,{"id":"cputime_max", "file":"include/asm-generic/cputime.h", "line":11, "type":"d", }
+,{"id":"cputime_one_jiffy", "file":"include/asm-generic/cputime.h", "line":10, "type":"d", }
+,{"id":"cputime_sub", "file":"include/asm-generic/cputime.h", "line":13, "type":"d", }
+,{"id":"cputime_sub_ns", "file":"kernel/itimer.c", "line":132, "type":"f", }
+,{"id":"cputime_sub_ns", "file":"kernel/itimer.c", "line":157, "type":"c", "scope_line":143, "scope_name":"set_cpu_itimer", }
+,{"id":"cputime_sub_ns", "file":"kernel/itimer.c", "line":158, "type":"c", "scope_line":143, "scope_name":"set_cpu_itimer", }
+,{"id":"cputime_t", "file":"include/asm-generic/cputime.h", "line":7, "type":"t", }
+,{"id":"cputime_to_clock_t", "file":"include/asm-generic/cputime.h", "line":62, "type":"d", }
+,{"id":"cputime_to_compat_timeval", "file":"fs/binfmt_elf.c", "line":1293, "type":"c", "scope_line":1273, "scope_name":"fill_prstatus", }
+,{"id":"cputime_to_compat_timeval", "file":"fs/binfmt_elf.c", "line":1294, "type":"c", "scope_line":1273, "scope_name":"fill_prstatus", }
+,{"id":"cputime_to_compat_timeval", "file":"fs/binfmt_elf.c", "line":1296, "type":"c", "scope_line":1273, "scope_name":"fill_prstatus", }
+,{"id":"cputime_to_compat_timeval", "file":"fs/binfmt_elf.c", "line":1297, "type":"c", "scope_line":1273, "scope_name":"fill_prstatus", }
+,{"id":"cputime_to_compat_timeval", "file":"fs/binfmt_elf.c", "line":1299, "type":"c", "scope_line":1273, "scope_name":"fill_prstatus", }
+,{"id":"cputime_to_compat_timeval", "file":"fs/binfmt_elf.c", "line":1300, "type":"c", "scope_line":1273, "scope_name":"fill_prstatus", }
+,{"id":"cputime_to_compat_timeval", "file":"fs/compat_binfmt_elf.c", "line":51, "type":"f", }
+,{"id":"cputime_to_cputime64", "file":"include/asm-generic/cputime.h", "line":32, "type":"d", }
+,{"id":"cputime_to_jiffies", "file":"include/asm-generic/cputime.h", "line":21, "type":"d", }
+,{"id":"cputime_to_msecs", "file":"include/asm-generic/cputime.h", "line":38, "type":"d", }
+,{"id":"cputime_to_scaled", "file":"include/asm-generic/cputime.h", "line":22, "type":"d", }
+,{"id":"cputime_to_secs", "file":"include/asm-generic/cputime.h", "line":44, "type":"d", }
+,{"id":"cputime_to_timespec", "file":"include/asm-generic/cputime.h", "line":51, "type":"d", }
+,{"id":"cputime_to_timeval", "file":"fs/compat_binfmt_elf.c", "line":60, "type":"d", }
+,];
+xr_frag_insert('t/f8/14055dc0f1352e2b8ec486218d9e96abb7879c.xr', __xr_tmp);

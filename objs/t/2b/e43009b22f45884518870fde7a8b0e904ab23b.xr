@@ -1,0 +1,33 @@
+var __xr_tmp = [
+{"id":"ptep_modify_prot_start", "file":"arch/x86/include/asm/paravirt.h", "line":509, "type":"f", }
+,{"id":"ptep_modify_prot_start", "file":"arch/x86/include/asm/paravirt_types.h", "line":274, "type":"m", "scope_line":222, "scope_name":"struct pv_mmu_ops", }
+,{"id":"ptep_modify_prot_start", "file":"mm/mprotect.c", "line":52, "type":"c", "scope_line":38, "scope_name":"change_pte_range", }
+,{"id":"ptep_set_access_flags", "file":"arch/x86/include/asm/hugetlb.h", "line":76, "type":"c", "scope_line":72, "scope_name":"huge_ptep_set_access_flags", }
+,{"id":"ptep_set_access_flags", "file":"arch/x86/mm/pgtable.c", "line":298, "type":"f", }
+,{"id":"ptep_set_access_flags", "file":"mm/memory.c", "line":2229, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"ptep_set_access_flags", "file":"mm/memory.c", "line":3178, "type":"c", "scope_line":3142, "scope_name":"handle_pte_fault", }
+,{"id":"ptep_set_wrprotect", "file":"arch/x86/include/asm/hugetlb.h", "line":69, "type":"c", "scope_line":66, "scope_name":"huge_ptep_set_wrprotect", }
+,{"id":"ptep_set_wrprotect", "file":"arch/x86/include/asm/pgtable.h", "line":599, "type":"f", }
+,{"id":"ptep_set_wrprotect", "file":"mm/memory.c", "line":695, "type":"c", "scope_line":649, "scope_name":"copy_one_pte", }
+,{"id":"ptep_test_and_clear_young", "file":"arch/x86/mm/pgtable.c", "line":313, "type":"f", }
+,{"id":"ptep_test_and_clear_young", "file":"arch/x86/mm/pgtable.c", "line":333, "type":"c", "scope_line":328, "scope_name":"ptep_clear_flush_young", }
+,{"id":"ptep_test_and_clear_young", "file":"fs/proc/task_mmu.c", "line":471, "type":"c", "scope_line":452, "scope_name":"clear_refs_pte_range", }
+,{"id":"pteval_t", "file":"arch/x86/include/asm/pgtable_64_types.h", "line":10, "type":"t", }
+,{"id":"ptid", "file":"kernel/perf_event.c", "line":3523, "type":"m", "scope_line":3513, "scope_name":"struct perf_task_event", }
+,{"id":"ptl", "file":"include/linux/mm_types.h", "line":69, "type":"m", "scope_line":34, "scope_name":"struct page", }
+,{"id":"ptm_driver", "file":"drivers/char/pty.c", "line":37, "type":"v", }
+,{"id":"ptm_unix98_lookup", "file":"drivers/char/pty.c", "line":516, "type":"f", }
+,{"id":"ptm_unix98_ops", "file":"drivers/char/pty.c", "line":608, "type":"v", }
+,{"id":"ptmx_cdev", "file":"drivers/char/pty.c", "line":452, "type":"v", }
+,{"id":"ptmx_dentry", "file":"fs/devpts/inode.c", "line":73, "type":"m", "scope_line":70, "scope_name":"struct pts_fs_info", }
+,{"id":"ptmx_fops", "file":"drivers/char/pty.c", "line":701, "type":"v", }
+,{"id":"ptmx_open", "file":"drivers/char/pty.c", "line":652, "type":"f", }
+,{"id":"ptmxmode", "file":"fs/devpts/inode.c", "line":50, "type":"m", "scope_line":44, "scope_name":"struct pts_mount_opts", }
+,{"id":"pto_T__", "file":"include/linux/topology.h", "line":232, "type":"t", }
+,{"id":"pto_T_____0", "file":"arch/x86/include/asm/irq_regs.h", "line":26, "type":"t", }
+,{"id":"pto_T_____0", "file":"arch/x86/include/asm/stackprotector.h", "line":79, "type":"t", }
+,{"id":"pto_T_____0", "file":"arch/x86/include/asm/tlbflush.h", "line":159, "type":"t", }
+,{"id":"pto_T_____1", "file":"arch/x86/include/asm/irq_regs.h", "line":26, "type":"t", }
+,{"id":"pto_T_____1", "file":"arch/x86/include/asm/stackprotector.h", "line":79, "type":"t", }
+,];
+xr_frag_insert('t/2b/e43009b22f45884518870fde7a8b0e904ab23b.xr', __xr_tmp);

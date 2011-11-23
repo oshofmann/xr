@@ -1,0 +1,78 @@
+var __xr_tmp = [
+{"id":"__blk_run_queue", "file":"block/blk-core.c", "line":397, "type":"f", }
+,{"id":"__blk_run_queue", "file":"block/blk-core.c", "line":434, "type":"c", "scope_line":429, "scope_name":"blk_run_queue", }
+,{"id":"__blk_run_queue", "file":"block/cfq-iosched.c", "line":3328, "type":"c", "scope_line":3296, "scope_name":"cfq_rq_enqueued", }
+,{"id":"__blk_run_queue", "file":"block/cfq-iosched.c", "line":3343, "type":"c", "scope_line":3296, "scope_name":"cfq_rq_enqueued", }
+,{"id":"__blk_run_queue", "file":"block/cfq-iosched.c", "line":3710, "type":"c", "scope_line":3703, "scope_name":"cfq_kick_queue", }
+,{"id":"__blk_run_queue", "file":"block/elevator.c", "line":605, "type":"c", "scope_line":593, "scope_name":"elv_quiesce_start", }
+,{"id":"__blk_run_queue", "file":"block/elevator.c", "line":649, "type":"c", "scope_line":618, "scope_name":"elv_insert", }
+,{"id":"__blk_run_queue", "file":"block/elevator.c", "line":873, "type":"c", "scope_line":845, "scope_name":"elv_completed_request", }
+,{"id":"__blk_run_queue", "file":"drivers/scsi/scsi_lib.c", "line":446, "type":"c", "scope_line":400, "scope_name":"scsi_run_queue", }
+,{"id":"__blk_send_generic", "file":"block/scsi_ioctl.c", "line":525, "type":"f", }
+,{"id":"__blk_send_generic", "file":"block/scsi_ioctl.c", "line":546, "type":"c", "scope_line":543, "scope_name":"blk_send_start_stop", }
+,{"id":"__blkdev_driver_ioctl", "file":"block/compat_ioctl.c", "line":143, "type":"c", "scope_line":120, "scope_name":"compat_cdrom_read_audio", }
+,{"id":"__blkdev_driver_ioctl", "file":"block/compat_ioctl.c", "line":176, "type":"c", "scope_line":147, "scope_name":"compat_cdrom_generic_command", }
+,{"id":"__blkdev_driver_ioctl", "file":"block/compat_ioctl.c", "line":422, "type":"c", "scope_line":317, "scope_name":"compat_fd_ioctl", }
+,{"id":"__blkdev_driver_ioctl", "file":"block/compat_ioctl.c", "line":665, "type":"c", "scope_line":538, "scope_name":"compat_blkdev_driver_ioctl", }
+,{"id":"__blkdev_driver_ioctl", "file":"block/compat_ioctl.c", "line":89, "type":"c", "scope_line":80, "scope_name":"compat_hdio_ioctl", }
+,{"id":"__blkdev_driver_ioctl", "file":"block/ioctl.c", "line":165, "type":"f", }
+,{"id":"__blkdev_driver_ioctl", "file":"block/ioctl.c", "line":198, "type":"c", "scope_line":185, "scope_name":"blkdev_ioctl", }
+,{"id":"__blkdev_driver_ioctl", "file":"block/ioctl.c", "line":208, "type":"c", "scope_line":185, "scope_name":"blkdev_ioctl", }
+,{"id":"__blkdev_driver_ioctl", "file":"block/ioctl.c", "line":323, "type":"c", "scope_line":185, "scope_name":"blkdev_ioctl", }
+,{"id":"__blkdev_driver_ioctl", "file":"drivers/block/pktcdvd.c", "line":2794, "type":"c", "scope_line":2768, "scope_name":"pkt_ioctl", }
+,{"id":"__blkdev_driver_ioctl", "file":"drivers/md/dm-linear.c", "line":119, "type":"c", "scope_line":115, "scope_name":"linear_ioctl", }
+,{"id":"__blkdev_get", "file":"fs/block_dev.c", "line":1329, "type":"f", }
+,{"id":"__blkdev_get", "file":"fs/block_dev.c", "line":1404, "type":"c", "scope_line":1329, "scope_name":"__blkdev_get", }
+,{"id":"__blkdev_get", "file":"fs/block_dev.c", "line":1459, "type":"c", "scope_line":1457, "scope_name":"blkdev_get", }
+,{"id":"__blkdev_put", "file":"fs/block_dev.c", "line":1444, "type":"c", "scope_line":1329, "scope_name":"__blkdev_get", }
+,{"id":"__blkdev_put", "file":"fs/block_dev.c", "line":1510, "type":"f", }
+,{"id":"__blkdev_put", "file":"fs/block_dev.c", "line":1544, "type":"c", "scope_line":1510, "scope_name":"__blkdev_put", }
+,{"id":"__blkdev_put", "file":"fs/block_dev.c", "line":1550, "type":"c", "scope_line":1548, "scope_name":"blkdev_put", }
+,{"id":"__block_commit_write", "file":"fs/buffer.c", "line":1921, "type":"f", }
+,{"id":"__block_commit_write", "file":"fs/buffer.c", "line":2024, "type":"c", "scope_line":1994, "scope_name":"block_write_end", }
+,{"id":"__block_commit_write", "file":"fs/buffer.c", "line":2337, "type":"c", "scope_line":2334, "scope_name":"block_commit_write", }
+,{"id":"__block_write_begin", "file":"fs/buffer.c", "line":1956, "type":"f", }
+,{"id":"__block_write_begin", "file":"fs/buffer.c", "line":1982, "type":"c", "scope_line":1971, "scope_name":"block_write_begin", }
+,{"id":"__block_write_begin", "file":"fs/ext2/dir.c", "line":453, "type":"c", "scope_line":451, "scope_name":"ext2_prepare_chunk", }
+,{"id":"__block_write_begin", "file":"fs/ext3/inode.c", "line":1232, "type":"c", "scope_line":1200, "scope_name":"ext3_write_begin", }
+,{"id":"__block_write_begin", "file":"fs/ext4/inode.c", "line":1610, "type":"c", "scope_line":1568, "scope_name":"ext4_write_begin", }
+,{"id":"__block_write_begin", "file":"fs/ext4/inode.c", "line":1612, "type":"c", "scope_line":1568, "scope_name":"ext4_write_begin", }
+,{"id":"__block_write_begin", "file":"fs/ext4/inode.c", "line":3211, "type":"c", "scope_line":3168, "scope_name":"ext4_da_write_begin", }
+,{"id":"__block_write_full_page", "file":"fs/buffer.c", "line":1629, "type":"f", }
+,{"id":"__block_write_full_page", "file":"fs/buffer.c", "line":2662, "type":"c", "scope_line":2621, "scope_name":"nobh_writepage", }
+,{"id":"__block_write_full_page", "file":"fs/buffer.c", "line":2836, "type":"c", "scope_line":2826, "scope_name":"block_write_full_page_endio", }
+,{"id":"__block_write_full_page", "file":"fs/buffer.c", "line":2860, "type":"c", "scope_line":2826, "scope_name":"block_write_full_page_endio", }
+,{"id":"__blockdev_direct_IO", "file":"fs/block_dev.c", "line":175, "type":"c", "scope_line":168, "scope_name":"blkdev_direct_IO", }
+,{"id":"__blockdev_direct_IO", "file":"fs/direct-io.c", "line":1158, "type":"f", }
+,{"id":"__blockdev_direct_IO", "file":"fs/ext4/inode.c", "line":3570, "type":"c", "scope_line":3534, "scope_name":"ext4_ind_direct_IO", }
+,{"id":"__blockdev_direct_IO", "file":"include/linux/fs.h", "line":2289, "type":"c", "scope_line":2284, "scope_name":"blockdev_direct_IO", }
+,{"id":"__blocking_notifier_call_chain", "file":"kernel/notifier.c", "line":301, "type":"f", }
+,{"id":"__blocking_notifier_call_chain", "file":"kernel/notifier.c", "line":325, "type":"c", "scope_line":322, "scope_name":"blocking_notifier_call_chain", }
+,{"id":"__boot_pa", "file":"arch/x86/include/asm/page.h", "line":52, "type":"d", }
+,{"id":"__boot_va", "file":"arch/x86/include/asm/page.h", "line":51, "type":"d", }
+,{"id":"__bounce_end_io_read", "file":"mm/bounce.c", "line":160, "type":"f", }
+,{"id":"__bounce_end_io_read", "file":"mm/bounce.c", "line":172, "type":"c", "scope_line":170, "scope_name":"bounce_end_io_read", }
+,{"id":"__bounce_end_io_read", "file":"mm/bounce.c", "line":177, "type":"c", "scope_line":175, "scope_name":"bounce_end_io_read_isa", }
+,{"id":"__bprm_mm_init", "file":"fs/exec.c", "line":225, "type":"f", }
+,{"id":"__bprm_mm_init", "file":"fs/exec.c", "line":346, "type":"c", "scope_line":332, "scope_name":"bprm_mm_init", }
+,{"id":"__bread", "file":"fs/buffer.c", "line":1411, "type":"f", }
+,{"id":"__bread", "file":"fs/ext3/super.c", "line":2165, "type":"c", "scope_line":2130, "scope_name":"ext3_get_dev_journal", }
+,{"id":"__bread", "file":"fs/ext4/super.c", "line":3327, "type":"c", "scope_line":3290, "scope_name":"ext4_get_dev_journal", }
+,{"id":"__bread", "file":"include/linux/buffer_head.h", "line":277, "type":"c", "scope_line":274, "scope_name":"sb_bread", }
+,{"id":"__bread_slow", "file":"fs/buffer.c", "line":1213, "type":"f", }
+,{"id":"__bread_slow", "file":"fs/buffer.c", "line":1417, "type":"c", "scope_line":1411, "scope_name":"__bread", }
+,{"id":"__breadahead", "file":"fs/buffer.c", "line":1392, "type":"f", }
+,{"id":"__breadahead", "file":"include/linux/buffer_head.h", "line":283, "type":"c", "scope_line":280, "scope_name":"sb_breadahead", }
+,{"id":"__break_lease", "file":"fs/locks.c", "line":1178, "type":"f", }
+,{"id":"__break_lease", "file":"include/linux/fs.h", "line":1880, "type":"c", "scope_line":1877, "scope_name":"break_lease", }
+,{"id":"__brelse", "file":"fs/buffer.c", "line":1184, "type":"f", }
+,{"id":"__brelse", "file":"fs/buffer.c", "line":1209, "type":"c", "scope_line":1198, "scope_name":"__bforget", }
+,{"id":"__brelse", "file":"fs/buffer.c", "line":1290, "type":"c", "scope_line":1271, "scope_name":"bh_lru_install", }
+,{"id":"__brelse", "file":"fs/buffer.c", "line":1307, "type":"c", "scope_line":1271, "scope_name":"bh_lru_install", }
+,{"id":"__brelse", "file":"fs/buffer.c", "line":1589, "type":"c", "scope_line":1578, "scope_name":"unmap_underlying_metadata", }
+,{"id":"__brelse", "file":"fs/jbd/checkpoint.c", "line":103, "type":"c", "scope_line":91, "scope_name":"__try_to_free_cp_buf", }
+,{"id":"__brelse", "file":"fs/jbd/checkpoint.c", "line":230, "type":"c", "scope_line":201, "scope_name":"__wait_cp_io", }
+,{"id":"__brelse", "file":"fs/jbd/checkpoint.c", "line":244, "type":"c", "scope_line":201, "scope_name":"__wait_cp_io", }
+,{"id":"__brelse", "file":"fs/jbd/checkpoint.c", "line":264, "type":"c", "scope_line":252, "scope_name":"__flush_batch", }
+,];
+xr_frag_insert('t/a6/f70190b5174747c92772cac14cf28c32380d2e.xr', __xr_tmp);

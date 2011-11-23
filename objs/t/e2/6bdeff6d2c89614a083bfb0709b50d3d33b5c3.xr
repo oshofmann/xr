@@ -1,0 +1,101 @@
+var __xr_tmp = [
+{"id":"AML_FIELD_ATTRIB_SMB_SEND_RCV", "file":"drivers/acpi/acpica/amlcode.h", "line":475, "type":"e", "scope_line":473, }
+,{"id":"AML_FIELD_ATTRIB_SMB_WORD", "file":"drivers/acpi/acpica/amlcode.h", "line":477, "type":"e", "scope_line":473, }
+,{"id":"AML_FIELD_ATTRIB_SMB_WORD_CALL", "file":"drivers/acpi/acpica/amlcode.h", "line":479, "type":"e", "scope_line":473, }
+,{"id":"AML_FIELD_LOCK_ALWAYS", "file":"drivers/acpi/acpica/amlcode.h", "line":457, "type":"e", "scope_line":455, }
+,{"id":"AML_FIELD_LOCK_NEVER", "file":"drivers/acpi/acpica/amlcode.h", "line":456, "type":"e", "scope_line":455, }
+,{"id":"AML_FIELD_LOCK_RULE_MASK", "file":"drivers/acpi/acpica/amlcode.h", "line":439, "type":"d", }
+,{"id":"AML_FIELD_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":174, "type":"d", }
+,{"id":"AML_FIELD_UPDATE_PRESERVE", "file":"drivers/acpi/acpica/amlcode.h", "line":463, "type":"e", "scope_line":462, }
+,{"id":"AML_FIELD_UPDATE_RULE_MASK", "file":"drivers/acpi/acpica/amlcode.h", "line":440, "type":"d", }
+,{"id":"AML_FIELD_UPDATE_WRITE_AS_ONES", "file":"drivers/acpi/acpica/amlcode.h", "line":464, "type":"e", "scope_line":462, }
+,{"id":"AML_FIELD_UPDATE_WRITE_AS_ZEROS", "file":"drivers/acpi/acpica/amlcode.h", "line":465, "type":"e", "scope_line":462, }
+,{"id":"AML_FIND_SET_LEFT_BIT_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":109, "type":"d", }
+,{"id":"AML_FIND_SET_RIGHT_BIT_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":110, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_0A_0T_1R", "file":"drivers/acpi/acpica/amlcode.h", "line":320, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_1A_0T_0R", "file":"drivers/acpi/acpica/amlcode.h", "line":321, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_1A_0T_1R", "file":"drivers/acpi/acpica/amlcode.h", "line":322, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_1A_1T_0R", "file":"drivers/acpi/acpica/amlcode.h", "line":323, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_1A_1T_1R", "file":"drivers/acpi/acpica/amlcode.h", "line":324, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_2A_0T_0R", "file":"drivers/acpi/acpica/amlcode.h", "line":325, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_2A_0T_1R", "file":"drivers/acpi/acpica/amlcode.h", "line":326, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_2A_1T_1R", "file":"drivers/acpi/acpica/amlcode.h", "line":327, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_2A_2T_1R", "file":"drivers/acpi/acpica/amlcode.h", "line":328, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_3A_0T_0R", "file":"drivers/acpi/acpica/amlcode.h", "line":329, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_3A_1T_1R", "file":"drivers/acpi/acpica/amlcode.h", "line":330, "type":"d", }
+,{"id":"AML_FLAGS_EXEC_6A_0T_1R", "file":"drivers/acpi/acpica/amlcode.h", "line":331, "type":"d", }
+,{"id":"AML_FROM_BCD_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":166, "type":"d", }
+,{"id":"AML_HAS_ARGS", "file":"drivers/acpi/acpica/amlcode.h", "line":314, "type":"d", }
+,{"id":"AML_HAS_RETVAL", "file":"drivers/acpi/acpica/amlcode.h", "line":312, "type":"d", }
+,{"id":"AML_HAS_TARGET", "file":"drivers/acpi/acpica/amlcode.h", "line":313, "type":"d", }
+,{"id":"AML_IF_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":138, "type":"d", }
+,{"id":"AML_INCREMENT_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":97, "type":"d", }
+,{"id":"AML_INDEX_FIELD_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":179, "type":"d", }
+,{"id":"AML_INDEX_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":116, "type":"d", }
+,{"id":"AML_INT_ACCESSFIELD_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":199, "type":"d", }
+,{"id":"AML_INT_BYTELIST_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":200, "type":"d", }
+,{"id":"AML_INT_EVAL_SUBTREE_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":204, "type":"d", }
+,{"id":"AML_INT_METHODCALL_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":202, "type":"d", }
+,{"id":"AML_INT_NAMEDFIELD_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":197, "type":"d", }
+,{"id":"AML_INT_NAMEPATH_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":196, "type":"d", }
+,{"id":"AML_INT_RESERVEDFIELD_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":198, "type":"d", }
+,{"id":"AML_INT_RETURN_VALUE_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":203, "type":"d", }
+,{"id":"AML_INT_STATICSTRING_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":201, "type":"d", }
+,{"id":"AML_LAND_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":124, "type":"d", }
+,{"id":"AML_LEQUAL_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":127, "type":"d", }
+,{"id":"AML_LGREATEREQUAL_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":187, "type":"d", }
+,{"id":"AML_LGREATER_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":128, "type":"d", }
+,{"id":"AML_LLESSEQUAL_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":188, "type":"d", }
+,{"id":"AML_LLESS_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":129, "type":"d", }
+,{"id":"AML_LNOTEQUAL_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":189, "type":"d", }
+,{"id":"AML_LNOT_HASH_OFFSET", "file":"drivers/acpi/acpica/amlcode.h", "line":287, "type":"d", }
+,{"id":"AML_LNOT_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":126, "type":"d", }
+,{"id":"AML_LOAD_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":158, "type":"d", }
+,{"id":"AML_LOAD_TABLE_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":157, "type":"d", }
+,{"id":"AML_LOCAL0", "file":"drivers/acpi/acpica/amlcode.h", "line":76, "type":"d", }
+,{"id":"AML_LOCAL1", "file":"drivers/acpi/acpica/amlcode.h", "line":77, "type":"d", }
+,{"id":"AML_LOCAL2", "file":"drivers/acpi/acpica/amlcode.h", "line":78, "type":"d", }
+,{"id":"AML_LOCAL3", "file":"drivers/acpi/acpica/amlcode.h", "line":79, "type":"d", }
+,{"id":"AML_LOCAL4", "file":"drivers/acpi/acpica/amlcode.h", "line":80, "type":"d", }
+,{"id":"AML_LOCAL5", "file":"drivers/acpi/acpica/amlcode.h", "line":81, "type":"d", }
+,{"id":"AML_LOCAL6", "file":"drivers/acpi/acpica/amlcode.h", "line":82, "type":"d", }
+,{"id":"AML_LOCAL7", "file":"drivers/acpi/acpica/amlcode.h", "line":83, "type":"d", }
+,{"id":"AML_LOCAL_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":75, "type":"d", }
+,{"id":"AML_LOCK_RULE", "file":"drivers/acpi/acpica/amlcode.h", "line":455, "type":"t", }
+,{"id":"AML_LOGICAL", "file":"drivers/acpi/acpica/amlcode.h", "line":302, "type":"d", }
+,{"id":"AML_LOGICAL_NUMERIC", "file":"drivers/acpi/acpica/amlcode.h", "line":303, "type":"d", }
+,{"id":"AML_LOR_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":125, "type":"d", }
+,{"id":"AML_MATCH_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":117, "type":"d", }
+,{"id":"AML_MATCH_OPERATOR", "file":"drivers/acpi/acpica/amlcode.h", "line":414, "type":"t", }
+,{"id":"AML_MATH", "file":"drivers/acpi/acpica/amlcode.h", "line":304, "type":"d", }
+,{"id":"AML_METHOD_ARG_COUNT", "file":"drivers/acpi/acpica/amlcode.h", "line":485, "type":"d", }
+,{"id":"AML_METHOD_INTERNAL_ONLY", "file":"drivers/acpi/acpica/amlcode.h", "line":491, "type":"d", }
+,{"id":"AML_METHOD_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":67, "type":"d", }
+,{"id":"AML_METHOD_RESERVED1", "file":"drivers/acpi/acpica/amlcode.h", "line":492, "type":"d", }
+,{"id":"AML_METHOD_RESERVED2", "file":"drivers/acpi/acpica/amlcode.h", "line":493, "type":"d", }
+,{"id":"AML_METHOD_SERIALIZED", "file":"drivers/acpi/acpica/amlcode.h", "line":486, "type":"d", }
+,{"id":"AML_METHOD_SYNC_LEVEL", "file":"drivers/acpi/acpica/amlcode.h", "line":487, "type":"d", }
+,{"id":"AML_MID_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":136, "type":"d", }
+,{"id":"AML_MOD_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":113, "type":"d", }
+,{"id":"AML_MULTIPLY_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":99, "type":"d", }
+,{"id":"AML_MULTI_NAME_PREFIX_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":69, "type":"d", }
+,{"id":"AML_MUTEX_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":151, "type":"d", }
+,{"id":"AML_NAMED", "file":"drivers/acpi/acpica/amlcode.h", "line":308, "type":"d", }
+,{"id":"AML_NAME_CHAR_FIRST", "file":"drivers/acpi/acpica/amlcode.h", "line":71, "type":"d", }
+,{"id":"AML_NAME_CHAR_SUBSEQ", "file":"drivers/acpi/acpica/amlcode.h", "line":70, "type":"d", }
+,{"id":"AML_NAME_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":57, "type":"d", }
+,{"id":"AML_NOOP_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":141, "type":"d", }
+,{"id":"AML_NOTIFY_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":114, "type":"d", }
+,{"id":"AML_NO_OPERAND_RESOLVE", "file":"drivers/acpi/acpica/amlcode.h", "line":316, "type":"d", }
+,{"id":"AML_NSNODE", "file":"drivers/acpi/acpica/amlcode.h", "line":309, "type":"d", }
+,{"id":"AML_NSOBJECT", "file":"drivers/acpi/acpica/amlcode.h", "line":311, "type":"d", }
+,{"id":"AML_NSOPCODE", "file":"drivers/acpi/acpica/amlcode.h", "line":310, "type":"d", }
+,{"id":"AML_NULL_CHAR", "file":"drivers/acpi/acpica/amlcode.h", "line":51, "type":"d", }
+,{"id":"AML_NUM_OPCODES", "file":"drivers/acpi/acpica/aclocal.h", "line":56, "type":"d", }
+,{"id":"AML_OFFSET", "file":"drivers/acpi/acpica/acresrc.h", "line":107, "type":"d", }
+,{"id":"AML_ONES_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":145, "type":"d", }
+,{"id":"AML_ONE_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":54, "type":"d", }
+,{"id":"AML_PACKAGE_OP", "file":"drivers/acpi/acpica/amlcode.h", "line":65, "type":"d", }
+,{"id":"AML_PARENT_PREFIX", "file":"drivers/acpi/acpica/amlcode.h", "line":74, "type":"d", }
+,];
+xr_frag_insert('t/e2/6bdeff6d2c89614a083bfb0709b50d3d33b5c3.xr', __xr_tmp);

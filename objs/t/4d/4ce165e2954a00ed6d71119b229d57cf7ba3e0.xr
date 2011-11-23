@@ -1,0 +1,182 @@
+var __xr_tmp = [
+{"id":"ELF32_ST_BIND", "file":"include/linux/elf.h", "line":144, "type":"d", }
+,{"id":"ELF32_ST_TYPE", "file":"include/linux/elf.h", "line":145, "type":"d", }
+,{"id":"ELF64_R_SYM", "file":"include/linux/elf.h", "line":169, "type":"d", }
+,{"id":"ELF64_R_TYPE", "file":"include/linux/elf.h", "line":170, "type":"d", }
+,{"id":"ELF64_ST_BIND", "file":"include/linux/elf.h", "line":146, "type":"d", }
+,{"id":"ELF64_ST_TYPE", "file":"include/linux/elf.h", "line":147, "type":"d", }
+,{"id":"ELFCLASS32", "file":"include/linux/elf.h", "line":355, "type":"d", }
+,{"id":"ELFCLASS64", "file":"include/linux/elf.h", "line":356, "type":"d", }
+,{"id":"ELFCLASSNONE", "file":"include/linux/elf.h", "line":354, "type":"d", }
+,{"id":"ELFCLASSNUM", "file":"include/linux/elf.h", "line":357, "type":"d", }
+,{"id":"ELFCORE_ADDR_ERR", "file":"include/linux/crash_dump.h", "line":10, "type":"d", }
+,{"id":"ELFCORE_ADDR_MAX", "file":"include/linux/crash_dump.h", "line":9, "type":"d", }
+,{"id":"ELFDATA2LSB", "file":"include/linux/elf.h", "line":360, "type":"d", }
+,{"id":"ELFDATA2MSB", "file":"include/linux/elf.h", "line":361, "type":"d", }
+,{"id":"ELFDATANONE", "file":"include/linux/elf.h", "line":359, "type":"d", }
+,{"id":"ELFMAG", "file":"include/linux/elf.h", "line":351, "type":"d", }
+,{"id":"ELFMAG0", "file":"include/linux/elf.h", "line":347, "type":"d", }
+,{"id":"ELFMAG1", "file":"include/linux/elf.h", "line":348, "type":"d", }
+,{"id":"ELFMAG2", "file":"include/linux/elf.h", "line":349, "type":"d", }
+,{"id":"ELFMAG3", "file":"include/linux/elf.h", "line":350, "type":"d", }
+,{"id":"ELFOSABI_LINUX", "file":"include/linux/elf.h", "line":368, "type":"d", }
+,{"id":"ELFOSABI_NONE", "file":"include/linux/elf.h", "line":367, "type":"d", }
+,{"id":"ELF_ARCH", "file":"arch/x86/include/asm/elf.h", "line":71, "type":"d", }
+,{"id":"ELF_ARCH", "file":"fs/compat_binfmt_elf.c", "line":70, "type":"d", }
+,{"id":"ELF_BASE_PLATFORM", "file":"fs/binfmt_elf.c", "line":134, "type":"d", }
+,{"id":"ELF_CLASS", "file":"arch/x86/include/asm/elf.h", "line":69, "type":"d", }
+,{"id":"ELF_CLASS", "file":"fs/compat_binfmt_elf.c", "line":26, "type":"d", }
+,{"id":"ELF_CLASS", "file":"fs/compat_binfmt_elf.c", "line":27, "type":"d", }
+,{"id":"ELF_CORE_COPY_REGS", "file":"arch/x86/include/asm/elf.h", "line":192, "type":"d", }
+,{"id":"ELF_CORE_EFLAGS", "file":"fs/binfmt_elf.c", "line":61, "type":"d", }
+,{"id":"ELF_CORE_EFLAGS", "file":"fs/proc/kcore.c", "line":33, "type":"d", }
+,{"id":"ELF_DATA", "file":"arch/x86/include/asm/elf.h", "line":70, "type":"d", }
+,{"id":"ELF_ET_DYN_BASE", "file":"arch/x86/include/asm/elf.h", "line":240, "type":"d", }
+,{"id":"ELF_ET_DYN_BASE", "file":"fs/compat_binfmt_elf.c", "line":90, "type":"d", }
+,{"id":"ELF_ET_DYN_BASE", "file":"fs/compat_binfmt_elf.c", "line":91, "type":"d", }
+,{"id":"ELF_EXEC_PAGESIZE", "file":"arch/x86/include/asm/elf.h", "line":233, "type":"d", }
+,{"id":"ELF_HWCAP", "file":"arch/x86/include/asm/elf.h", "line":246, "type":"d", }
+,{"id":"ELF_MIN_ALIGN", "file":"fs/binfmt_elf.c", "line":57, "type":"d", }
+,{"id":"ELF_NGREG", "file":"arch/x86/include/asm/elf.h", "line":14, "type":"d", }
+,{"id":"ELF_OSABI", "file":"include/linux/elf.h", "line":371, "type":"d", }
+,{"id":"ELF_PAGEALIGN", "file":"fs/binfmt_elf.c", "line":66, "type":"d", }
+,{"id":"ELF_PAGEOFFSET", "file":"fs/binfmt_elf.c", "line":65, "type":"d", }
+,{"id":"ELF_PAGESTART", "file":"fs/binfmt_elf.c", "line":64, "type":"d", }
+,{"id":"ELF_PLATFORM", "file":"arch/x86/include/asm/elf.h", "line":225, "type":"d", }
+,{"id":"ELF_PLATFORM", "file":"fs/compat_binfmt_elf.c", "line":75, "type":"d", }
+,{"id":"ELF_PLATFORM", "file":"fs/compat_binfmt_elf.c", "line":76, "type":"d", }
+,{"id":"ELF_PLAT_INIT", "file":"arch/x86/include/asm/elf.h", "line":172, "type":"d", }
+,{"id":"ELF_PLAT_INIT", "file":"fs/compat_binfmt_elf.c", "line":100, "type":"d", }
+,{"id":"ELF_PLAT_INIT", "file":"fs/compat_binfmt_elf.c", "line":101, "type":"d", }
+,{"id":"ELF_PRARGSZ", "file":"include/linux/elfcore.h", "line":82, "type":"d", }
+,{"id":"ELF_ST_BIND", "file":"include/linux/elf.h", "line":142, "type":"d", }
+,{"id":"ELF_ST_TYPE", "file":"include/linux/elf.h", "line":143, "type":"d", }
+,{"id":"ELIBACC", "file":"include/asm-generic/errno.h", "line":52, "type":"d", }
+,{"id":"ELIBBAD", "file":"include/asm-generic/errno.h", "line":53, "type":"d", }
+,{"id":"ELIBEXEC", "file":"include/asm-generic/errno.h", "line":56, "type":"d", }
+,{"id":"ELIBMAX", "file":"include/asm-generic/errno.h", "line":55, "type":"d", }
+,{"id":"ELIBSCN", "file":"include/asm-generic/errno.h", "line":54, "type":"d", }
+,{"id":"ELINEAR", "file":"arch/x86/kernel/cpu/centaur.c", "line":306, "type":"e", "scope_line":300, }
+,{"id":"ELNRNG", "file":"include/asm-generic/errno.h", "line":19, "type":"d", }
+,{"id":"ELOOP", "file":"include/asm-generic/errno.h", "line":11, "type":"d", }
+,{"id":"ELV_HASH_BLOCK", "file":"block/elevator.c", "line":50, "type":"d", }
+,{"id":"ELV_HASH_ENTRIES", "file":"block/elevator.c", "line":53, "type":"d", }
+,{"id":"ELV_HASH_FN", "file":"block/elevator.c", "line":51, "type":"d", }
+,{"id":"ELV_MQUEUE_MAY", "file":"include/linux/elevator.h", "line":175, "type":"e", "scope_line":174, }
+,{"id":"ELV_MQUEUE_MUST", "file":"include/linux/elevator.h", "line":177, "type":"e", "scope_line":174, }
+,{"id":"ELV_MQUEUE_NO", "file":"include/linux/elevator.h", "line":176, "type":"e", "scope_line":174, }
+,{"id":"ELV_NAME_MAX", "file":"include/linux/elevator.h", "line":65, "type":"d", }
+,{"id":"ELV_ON_HASH", "file":"block/blk.h", "line":52, "type":"d", }
+,{"id":"EMEDIUMTYPE", "file":"include/asm-generic/errno.h", "line":98, "type":"d", }
+,{"id":"EMERGENCY_PAGES", "file":"arch/x86/kernel/pci-calgary_64.c", "line":155, "type":"d", }
+,{"id":"EMERGENCY_PAGES", "file":"arch/x86/kernel/pci-gart_64.c", "line":75, "type":"d", }
+,{"id":"EMFILE", "file":"include/asm-generic/errno-base.h", "line":27, "type":"d", }
+,{"id":"EMI", "file":"drivers/pci/hotplug/pciehp.h", "line":125, "type":"d", }
+,{"id":"EMLINK", "file":"include/asm-generic/errno-base.h", "line":34, "type":"d", }
+,{"id":"EMMX", "file":"arch/x86/kernel/cpu/centaur.c", "line":310, "type":"e", "scope_line":300, }
+,{"id":"EMSGSIZE", "file":"include/asm-generic/errno.h", "line":63, "type":"d", }
+,{"id":"EMULTIHOP", "file":"include/asm-generic/errno.h", "line":45, "type":"d", }
+,{"id":"EM_386", "file":"include/linux/elf-em.h", "line":8, "type":"d", }
+,{"id":"EM_486", "file":"include/linux/elf-em.h", "line":11, "type":"d", }
+,{"id":"EM_68K", "file":"include/linux/elf-em.h", "line":9, "type":"d", }
+,{"id":"EM_860", "file":"include/linux/elf-em.h", "line":12, "type":"d", }
+,{"id":"EM_88K", "file":"include/linux/elf-em.h", "line":10, "type":"d", }
+,{"id":"EM_ALPHA", "file":"include/linux/elf-em.h", "line":43, "type":"d", }
+,{"id":"EM_AVR32", "file":"include/linux/elf-em.h", "line":37, "type":"d", }
+,{"id":"EM_BLACKFIN", "file":"include/linux/elf-em.h", "line":35, "type":"d", }
+,{"id":"EM_CRIS", "file":"include/linux/elf-em.h", "line":30, "type":"d", }
+,{"id":"EM_CTL_ALHD", "file":"drivers/ata/ahci.h", "line":231, "type":"e", "scope_line":51, }
+,{"id":"EM_CTL_MR", "file":"drivers/ata/ahci.h", "line":230, "type":"e", "scope_line":51, }
+,{"id":"EM_CTL_RST", "file":"drivers/ata/ahci.h", "line":228, "type":"e", "scope_line":51, }
+,{"id":"EM_CTL_SMB", "file":"drivers/ata/ahci.h", "line":233, "type":"e", "scope_line":51, }
+,{"id":"EM_CTL_TM", "file":"drivers/ata/ahci.h", "line":229, "type":"e", "scope_line":51, }
+,{"id":"EM_CTL_XMT", "file":"drivers/ata/ahci.h", "line":232, "type":"e", "scope_line":51, }
+,{"id":"EM_CTRL_MSG_TYPE", "file":"drivers/ata/ahci.h", "line":41, "type":"d", }
+,{"id":"EM_CYGNUS_M32R", "file":"include/linux/elf-em.h", "line":48, "type":"d", }
+,{"id":"EM_CYGNUS_MN10300", "file":"include/linux/elf-em.h", "line":52, "type":"d", }
+,{"id":"EM_CYGNUS_V850", "file":"include/linux/elf-em.h", "line":46, "type":"d", }
+,{"id":"EM_FRV", "file":"include/linux/elf-em.h", "line":36, "type":"d", }
+,{"id":"EM_H8_300", "file":"include/linux/elf-em.h", "line":33, "type":"d", }
+,{"id":"EM_IA_64", "file":"include/linux/elf-em.h", "line":27, "type":"d", }
+,{"id":"EM_M32", "file":"include/linux/elf-em.h", "line":6, "type":"d", }
+,{"id":"EM_M32R", "file":"include/linux/elf-em.h", "line":32, "type":"d", }
+,{"id":"EM_MAX_RETRY", "file":"drivers/ata/ahci.h", "line":225, "type":"e", "scope_line":51, }
+,{"id":"EM_MAX_SLOTS", "file":"drivers/ata/ahci.h", "line":224, "type":"e", "scope_line":51, }
+,{"id":"EM_MIPS", "file":"include/linux/elf-em.h", "line":13, "type":"d", }
+,{"id":"EM_MIPS_RS3_LE", "file":"include/linux/elf-em.h", "line":17, "type":"d", }
+,{"id":"EM_MIPS_RS4_BE", "file":"include/linux/elf-em.h", "line":18, "type":"d", }
+,{"id":"EM_MN10300", "file":"include/linux/elf-em.h", "line":34, "type":"d", }
+,{"id":"EM_MSG_LED_HBA_PORT", "file":"drivers/ata/ahci.h", "line":44, "type":"d", }
+,{"id":"EM_MSG_LED_PMP_SLOT", "file":"drivers/ata/ahci.h", "line":45, "type":"d", }
+,{"id":"EM_MSG_LED_VALUE", "file":"drivers/ata/ahci.h", "line":46, "type":"d", }
+,{"id":"EM_MSG_LED_VALUE_ACTIVITY", "file":"drivers/ata/ahci.h", "line":47, "type":"d", }
+,{"id":"EM_MSG_LED_VALUE_OFF", "file":"drivers/ata/ahci.h", "line":48, "type":"d", }
+,{"id":"EM_MSG_LED_VALUE_ON", "file":"drivers/ata/ahci.h", "line":49, "type":"d", }
+,{"id":"EM_MSG_TYPE_LED", "file":"drivers/ata/ahci.h", "line":236, "type":"e", "scope_line":51, }
+,{"id":"EM_MSG_TYPE_SAFTE", "file":"drivers/ata/ahci.h", "line":237, "type":"e", "scope_line":51, }
+,{"id":"EM_MSG_TYPE_SES2", "file":"drivers/ata/ahci.h", "line":238, "type":"e", "scope_line":51, }
+,{"id":"EM_MSG_TYPE_SGPIO", "file":"drivers/ata/ahci.h", "line":239, "type":"e", "scope_line":51, }
+,{"id":"EM_NONE", "file":"include/linux/elf-em.h", "line":5, "type":"d", }
+,{"id":"EM_PARISC", "file":"include/linux/elf-em.h", "line":20, "type":"d", }
+,{"id":"EM_PPC", "file":"include/linux/elf-em.h", "line":22, "type":"d", }
+,{"id":"EM_PPC64", "file":"include/linux/elf-em.h", "line":23, "type":"d", }
+,{"id":"EM_S390", "file":"include/linux/elf-em.h", "line":29, "type":"d", }
+,{"id":"EM_S390_OLD", "file":"include/linux/elf-em.h", "line":50, "type":"d", }
+,{"id":"EM_SH", "file":"include/linux/elf-em.h", "line":25, "type":"d", }
+,{"id":"EM_SPARC", "file":"include/linux/elf-em.h", "line":7, "type":"d", }
+,{"id":"EM_SPARC32PLUS", "file":"include/linux/elf-em.h", "line":21, "type":"d", }
+,{"id":"EM_SPARCV9", "file":"include/linux/elf-em.h", "line":26, "type":"d", }
+,{"id":"EM_SPU", "file":"include/linux/elf-em.h", "line":24, "type":"d", }
+,{"id":"EM_V850", "file":"include/linux/elf-em.h", "line":31, "type":"d", }
+,{"id":"EM_X86_64", "file":"include/linux/elf-em.h", "line":28, "type":"d", }
+,{"id":"ENABLE_CF8_EXT_CFG", "file":"arch/x86/pci/amd_bus.c", "line":350, "type":"d", }
+,{"id":"ENABLE_CLUSTERING", "file":"include/scsi/scsi_host.h", "line":44, "type":"d", }
+,{"id":"ENABLE_TOPO_DEFINES", "file":"arch/x86/include/asm/topology.h", "line":34, "type":"d", }
+,{"id":"ENAMETOOLONG", "file":"include/asm-generic/errno.h", "line":7, "type":"d", }
+,{"id":"ENAVAIL", "file":"include/asm-generic/errno.h", "line":92, "type":"d", }
+,{"id":"ENCODE_BUSDEVFN", "file":"drivers/ata/ahci.c", "line":953, "type":"d", }
+,{"id":"ENCODE_BUSDEVFN", "file":"drivers/ata/ahci.c", "line":989, "type":"d", }
+,{"id":"ENCODING_DEFAULT", "file":"include/linux/hdlc/ioctl.h", "line":14, "type":"d", }
+,{"id":"ENCODING_FM_MARK", "file":"include/linux/hdlc/ioctl.h", "line":17, "type":"d", }
+,{"id":"ENCODING_FM_SPACE", "file":"include/linux/hdlc/ioctl.h", "line":18, "type":"d", }
+,{"id":"ENCODING_MANCHESTER", "file":"include/linux/hdlc/ioctl.h", "line":19, "type":"d", }
+,{"id":"ENCODING_NRZ", "file":"include/linux/hdlc/ioctl.h", "line":15, "type":"d", }
+,{"id":"ENCODING_NRZI", "file":"include/linux/hdlc/ioctl.h", "line":16, "type":"d", }
+,{"id":"ENCRYPT_BOTH", "file":"include/net/bluetooth/hci.h", "line":508, "type":"d", }
+,{"id":"ENCRYPT_DISABLED", "file":"include/net/bluetooth/hci.h", "line":506, "type":"d", }
+,{"id":"ENCRYPT_P2P", "file":"include/net/bluetooth/hci.h", "line":507, "type":"d", }
+,{"id":"ENDIAN_CONVERT", "file":"lib/decompress_unlzma.c", "line":53, "type":"d", }
+,{"id":"END_USE", "file":"drivers/virtio/virtio_ring.c", "line":69, "type":"d", }
+,{"id":"ENETDOWN", "file":"include/asm-generic/errno.h", "line":73, "type":"d", }
+,{"id":"ENETRESET", "file":"include/asm-generic/errno.h", "line":75, "type":"d", }
+,{"id":"ENETUNREACH", "file":"include/asm-generic/errno.h", "line":74, "type":"d", }
+,{"id":"ENFILE", "file":"include/asm-generic/errno-base.h", "line":26, "type":"d", }
+,{"id":"ENFORCE_RESOURCES_LAX", "file":"drivers/acpi/osl.c", "line":1065, "type":"d", }
+,{"id":"ENFORCE_RESOURCES_NO", "file":"drivers/acpi/osl.c", "line":1066, "type":"d", }
+,{"id":"ENFORCE_RESOURCES_STRICT", "file":"drivers/acpi/osl.c", "line":1064, "type":"d", }
+,{"id":"ENOANO", "file":"include/asm-generic/errno.h", "line":26, "type":"d", }
+,{"id":"ENOBUFS", "file":"include/asm-generic/errno.h", "line":78, "type":"d", }
+,{"id":"ENOCSI", "file":"include/asm-generic/errno.h", "line":21, "type":"d", }
+,{"id":"ENODATA", "file":"include/asm-generic/errno.h", "line":34, "type":"d", }
+,{"id":"ENODEV", "file":"include/asm-generic/errno-base.h", "line":22, "type":"d", }
+,{"id":"ENOENT", "file":"include/asm-generic/errno-base.h", "line":5, "type":"d", }
+,{"id":"ENOEXEC", "file":"include/asm-generic/errno-base.h", "line":11, "type":"d", }
+,{"id":"ENOIOCTLCMD", "file":"include/linux/errno.h", "line":17, "type":"d", }
+,{"id":"ENOKEY", "file":"include/asm-generic/errno.h", "line":100, "type":"d", }
+,{"id":"ENOLCK", "file":"include/asm-generic/errno.h", "line":8, "type":"d", }
+,{"id":"ENOLINK", "file":"include/asm-generic/errno.h", "line":40, "type":"d", }
+,{"id":"ENOMEDIUM", "file":"include/asm-generic/errno.h", "line":97, "type":"d", }
+,{"id":"ENOMEM", "file":"include/asm-generic/errno-base.h", "line":15, "type":"d", }
+,{"id":"ENOMSG", "file":"include/asm-generic/errno.h", "line":13, "type":"d", }
+,{"id":"ENONET", "file":"include/asm-generic/errno.h", "line":37, "type":"d", }
+,{"id":"ENOPKG", "file":"include/asm-generic/errno.h", "line":38, "type":"d", }
+,{"id":"ENOPROTOOPT", "file":"include/asm-generic/errno.h", "line":65, "type":"d", }
+,{"id":"ENOSPC", "file":"include/asm-generic/errno-base.h", "line":31, "type":"d", }
+,{"id":"ENOSR", "file":"include/asm-generic/errno.h", "line":36, "type":"d", }
+,{"id":"ENOSTR", "file":"include/asm-generic/errno.h", "line":33, "type":"d", }
+,{"id":"ENOSYS", "file":"include/asm-generic/errno.h", "line":9, "type":"d", }
+,{"id":"ENOTBLK", "file":"include/asm-generic/errno-base.h", "line":18, "type":"d", }
+,{"id":"ENOTCONN", "file":"include/asm-generic/errno.h", "line":80, "type":"d", }
+,{"id":"ENOTDIR", "file":"include/asm-generic/errno-base.h", "line":23, "type":"d", }
+,];
+xr_frag_insert('t/4d/4ce165e2954a00ed6d71119b229d57cf7ba3e0.xr', __xr_tmp);

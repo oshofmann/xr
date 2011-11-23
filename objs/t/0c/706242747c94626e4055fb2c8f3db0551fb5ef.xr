@@ -1,0 +1,42 @@
+var __xr_tmp = [
+{"id":"PageMappedToDisk", "file":"fs/buffer.c", "line":2476, "type":"c", "scope_line":2439, "scope_name":"nobh_write_begin", }
+,{"id":"PageMappedToDisk", "file":"fs/ext4/inode.c", "line":6012, "type":"c", "scope_line":5989, "scope_name":"ext4_page_mkwrite", }
+,{"id":"PageMappedToDisk", "file":"include/linux/page-flags.h", "line":239, "type":"f", }
+,{"id":"PageMappedToDisk", "file":"mm/migrate.c", "line":298, "type":"c", "scope_line":281, "scope_name":"migrate_page_copy", }
+,{"id":"PageMlocked", "file":"include/linux/page-flags.h", "line":266, "type":"f", }
+,{"id":"PageMlocked", "file":"mm/ksm.c", "line":865, "type":"c", "scope_line":820, "scope_name":"try_to_merge_one_page", }
+,{"id":"PageMlocked", "file":"mm/memory.c", "line":2750, "type":"c", "scope_line":2621, "scope_name":"do_swap_page", }
+,{"id":"PageMlocked", "file":"mm/vmscan.c", "line":2811, "type":"c", "scope_line":2805, "scope_name":"page_evictable", }
+,{"id":"PageOwnerPriv1", "file":"include/linux/page-flags.h", "line":231, "type":"f", }
+,{"id":"PagePinned", "file":"arch/x86/xen/mmu.c", "line":1077, "type":"c", "scope_line":1069, "scope_name":"xen_mm_pin_all", }
+,{"id":"PagePinned", "file":"arch/x86/xen/mmu.c", "line":1191, "type":"c", "scope_line":1182, "scope_name":"xen_mm_unpin_all", }
+,{"id":"PagePinned", "file":"arch/x86/xen/mmu.c", "line":1474, "type":"c", "scope_line":1469, "scope_name":"xen_pgd_alloc", }
+,{"id":"PagePinned", "file":"arch/x86/xen/mmu.c", "line":1494, "type":"c", "scope_line":1469, "scope_name":"xen_pgd_alloc", }
+,{"id":"PagePinned", "file":"arch/x86/xen/mmu.c", "line":1580, "type":"c", "scope_line":1576, "scope_name":"xen_alloc_ptpage", }
+,{"id":"PagePinned", "file":"arch/x86/xen/mmu.c", "line":1610, "type":"c", "scope_line":1606, "scope_name":"xen_release_ptpage", }
+,{"id":"PagePinned", "file":"arch/x86/xen/mmu.c", "line":390, "type":"c", "scope_line":386, "scope_name":"xen_page_pinned", }
+,{"id":"PagePinned", "file":"include/linux/page-flags.h", "line":212, "type":"f", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":1008, "type":"c", "scope_line":993, "scope_name":"grow_dev_page", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":1009, "type":"c", "scope_line":993, "scope_name":"grow_dev_page", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":1497, "type":"c", "scope_line":1491, "scope_name":"block_invalidatepage", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":1500, "type":"c", "scope_line":1491, "scope_name":"block_invalidatepage", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":1646, "type":"c", "scope_line":1629, "scope_name":"__block_write_full_page", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":1662, "type":"c", "scope_line":1629, "scope_name":"__block_write_full_page", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":1806, "type":"c", "scope_line":1800, "scope_name":"page_zero_new_buffers", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":1809, "type":"c", "scope_line":1800, "scope_name":"page_zero_new_buffers", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":1853, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":1855, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":1931, "type":"c", "scope_line":1921, "scope_name":"__block_commit_write", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":202, "type":"c", "scope_line":184, "scope_name":"__find_get_block_slow", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":204, "type":"c", "scope_line":184, "scope_name":"__find_get_block_slow", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":2083, "type":"c", "scope_line":2074, "scope_name":"block_is_partially_uptodate", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":2092, "type":"c", "scope_line":2074, "scope_name":"block_is_partially_uptodate", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":2131, "type":"c", "scope_line":2120, "scope_name":"block_read_full_page", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":2133, "type":"c", "scope_line":2120, "scope_name":"block_read_full_page", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":2468, "type":"c", "scope_line":2439, "scope_name":"nobh_write_begin", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":2588, "type":"c", "scope_line":2581, "scope_name":"nobh_write_end", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":2592, "type":"c", "scope_line":2581, "scope_name":"nobh_write_end", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":2696, "type":"c", "scope_line":2668, "scope_name":"nobh_truncate_page", }
+,{"id":"PagePrivate", "file":"fs/buffer.c", "line":2731, "type":"c", "scope_line":2668, "scope_name":"nobh_truncate_page", }
+,];
+xr_frag_insert('t/0c/706242747c94626e4055fb2c8f3db0551fb5ef.xr', __xr_tmp);

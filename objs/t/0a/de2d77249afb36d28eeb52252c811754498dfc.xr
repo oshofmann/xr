@@ -1,0 +1,76 @@
+var __xr_tmp = [
+{"id":"spinlock_check", "file":"security/selinux/netlabel.c", "line":446, "type":"c", "scope_line":435, "scope_name":"selinux_netlbl_socket_connect", }
+,{"id":"spinlock_check", "file":"security/selinux/ss/sidtab.c", "line":179, "type":"c", "scope_line":167, "scope_name":"sidtab_context_to_sid", }
+,{"id":"spinlock_check", "file":"security/selinux/ss/sidtab.c", "line":263, "type":"c", "scope_line":259, "scope_name":"sidtab_set", }
+,{"id":"spinlock_check", "file":"security/selinux/ss/sidtab.c", "line":275, "type":"c", "scope_line":271, "scope_name":"sidtab_shutdown", }
+,{"id":"spinlock_check", "file":"security/selinux/ss/sidtab.c", "line":29, "type":"c", "scope_line":17, "scope_name":"sidtab_init", }
+,{"id":"spinlock_check", "file":"security/smack/smack_access.c", "line":351, "type":"c", "scope_line":310, "scope_name":"smk_import_entry", }
+,{"id":"spinlock_check", "file":"security/smack/smack_lsm.c", "line":1567, "type":"c", "scope_line":1552, "scope_name":"smack_netlabel", }
+,{"id":"spinlock_check", "file":"security/smack/smack_lsm.c", "line":203, "type":"c", "scope_line":189, "scope_name":"smack_sb_alloc_security", }
+,{"id":"spinlock_check", "file":"security/smack/smack_lsm.c", "line":3227, "type":"c", "scope_line":3207, "scope_name":"smack_init", }
+,{"id":"spinlock_check", "file":"security/smack/smack_lsm.c", "line":3228, "type":"c", "scope_line":3207, "scope_name":"smack_init", }
+,{"id":"spinlock_check", "file":"security/smack/smack_lsm.c", "line":3229, "type":"c", "scope_line":3207, "scope_name":"smack_init", }
+,{"id":"spinlock_check", "file":"security/smack/smack_lsm.c", "line":3230, "type":"c", "scope_line":3207, "scope_name":"smack_init", }
+,{"id":"spinlock_check", "file":"security/smack/smack_lsm.c", "line":3231, "type":"c", "scope_line":3207, "scope_name":"smack_init", }
+,{"id":"spinlock_t", "file":"include/linux/spinlock_types.h", "line":64, "type":"t", }
+,{"id":"spinners", "file":"arch/x86/xen/spinlock.c", "line":121, "type":"m", "scope_line":119, "scope_name":"struct xen_spinlock", }
+,{"id":"spinning_lock", "file":"arch/x86/xen/spinlock.c", "line":158, "type":"f", }
+,{"id":"spinning_lock", "file":"arch/x86/xen/spinlock.c", "line":200, "type":"c", "scope_line":185, "scope_name":"xen_spin_lock_slow", }
+,{"id":"spinup", "file":"block/compat_ioctl.c", "line":231, "type":"m", "scope_line":225, "scope_name":"struct compat_floppy_drive_params", }
+,{"id":"spinup", "file":"include/linux/fd.h", "line":138, "type":"m", "scope_line":126, "scope_name":"struct floppy_drive_params", }
+,{"id":"spinup_date", "file":"block/compat_ioctl.c", "line":249, "type":"m", "scope_line":247, "scope_name":"struct compat_floppy_drive_struct", }
+,{"id":"spinup_date", "file":"include/linux/fd.h", "line":208, "type":"m", "scope_line":199, "scope_name":"struct floppy_drive_struct", }
+,{"id":"spkt_device", "file":"include/linux/if_packet.h", "line":8, "type":"m", "scope_line":6, "scope_name":"struct sockaddr_pkt", }
+,{"id":"spkt_family", "file":"include/linux/if_packet.h", "line":7, "type":"m", "scope_line":6, "scope_name":"struct sockaddr_pkt", }
+,{"id":"spkt_protocol", "file":"include/linux/if_packet.h", "line":9, "type":"m", "scope_line":6, "scope_name":"struct sockaddr_pkt", }
+,{"id":"splice_actor", "file":"include/linux/splice.h", "line":60, "type":"t", }
+,{"id":"splice_desc", "file":"include/linux/splice.h", "line":26, "type":"s", }
+,{"id":"splice_direct_actor", "file":"include/linux/splice.h", "line":62, "type":"t", }
+,{"id":"splice_direct_to_actor", "file":"drivers/block/loop.c", "line":449, "type":"c", "scope_line":428, "scope_name":"do_lo_receive", }
+,{"id":"splice_direct_to_actor", "file":"fs/splice.c", "line":1159, "type":"f", }
+,{"id":"splice_direct_to_actor", "file":"fs/splice.c", "line":1304, "type":"c", "scope_line":1292, "scope_name":"do_splice_direct", }
+,{"id":"splice_from_pipe", "file":"drivers/char/mem.c", "line":639, "type":"c", "scope_line":636, "scope_name":"splice_write_null", }
+,{"id":"splice_from_pipe", "file":"fs/splice.c", "line":1064, "type":"c", "scope_line":1058, "scope_name":"default_file_splice_write", }
+,{"id":"splice_from_pipe", "file":"fs/splice.c", "line":1087, "type":"c", "scope_line":1084, "scope_name":"generic_splice_sendpage", }
+,{"id":"splice_from_pipe", "file":"fs/splice.c", "line":953, "type":"f", }
+,{"id":"splice_from_pipe_begin", "file":"fs/splice.c", "line":1001, "type":"c", "scope_line":985, "scope_name":"generic_file_splice_write", }
+,{"id":"splice_from_pipe_begin", "file":"fs/splice.c", "line":885, "type":"f", }
+,{"id":"splice_from_pipe_begin", "file":"fs/splice.c", "line":927, "type":"c", "scope_line":922, "scope_name":"__splice_from_pipe", }
+,{"id":"splice_from_pipe_end", "file":"fs/splice.c", "line":1015, "type":"c", "scope_line":985, "scope_name":"generic_file_splice_write", }
+,{"id":"splice_from_pipe_end", "file":"fs/splice.c", "line":902, "type":"f", }
+,{"id":"splice_from_pipe_end", "file":"fs/splice.c", "line":933, "type":"c", "scope_line":922, "scope_name":"__splice_from_pipe", }
+,{"id":"splice_from_pipe_feed", "file":"fs/splice.c", "line":1011, "type":"c", "scope_line":985, "scope_name":"generic_file_splice_write", }
+,{"id":"splice_from_pipe_feed", "file":"fs/splice.c", "line":795, "type":"f", }
+,{"id":"splice_from_pipe_feed", "file":"fs/splice.c", "line":931, "type":"c", "scope_line":922, "scope_name":"__splice_from_pipe", }
+,{"id":"splice_from_pipe_next", "file":"fs/splice.c", "line":1003, "type":"c", "scope_line":985, "scope_name":"generic_file_splice_write", }
+,{"id":"splice_from_pipe_next", "file":"fs/splice.c", "line":849, "type":"f", }
+,{"id":"splice_from_pipe_next", "file":"fs/splice.c", "line":929, "type":"c", "scope_line":922, "scope_name":"__splice_from_pipe", }
+,{"id":"splice_grow_spd", "file":"fs/splice.c", "line":1649, "type":"c", "scope_line":1630, "scope_name":"vmsplice_to_pipe", }
+,{"id":"splice_grow_spd", "file":"fs/splice.c", "line":272, "type":"f", }
+,{"id":"splice_grow_spd", "file":"fs/splice.c", "line":319, "type":"c", "scope_line":298, "scope_name":"__generic_file_splice_read", }
+,{"id":"splice_grow_spd", "file":"fs/splice.c", "line":602, "type":"c", "scope_line":580, "scope_name":"default_file_splice_read", }
+,{"id":"splice_grow_spd", "file":"kernel/relay.c", "line":1248, "type":"c", "scope_line":1218, "scope_name":"subbuf_splice_actor", }
+,{"id":"splice_grow_spd", "file":"kernel/trace/trace.c", "line":3295, "type":"c", "scope_line":3273, "scope_name":"tracing_splice_read_pipe", }
+,{"id":"splice_grow_spd", "file":"kernel/trace/trace.c", "line":3778, "type":"c", "scope_line":3759, "scope_name":"tracing_buffers_splice_read", }
+,{"id":"splice_grow_spd", "file":"net/core/skbuff.c", "line":1545, "type":"c", "scope_line":1528, "scope_name":"skb_splice_bits", }
+,{"id":"splice_pipe", "file":"include/linux/sched.h", "line":1448, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"splice_pipe_desc", "file":"include/linux/splice.h", "line":51, "type":"s", }
+,{"id":"splice_pipe_to_pipe", "file":"fs/splice.c", "line":1356, "type":"c", "scope_line":1330, "scope_name":"do_splice", }
+,{"id":"splice_pipe_to_pipe", "file":"fs/splice.c", "line":1819, "type":"f", }
+,{"id":"splice_read", "file":"include/linux/fs.h", "line":1512, "type":"m", "scope_line":1488, "scope_name":"struct file_operations", }
+,{"id":"splice_read", "file":"include/linux/net.h", "line":205, "type":"m", "scope_line":159, "scope_name":"struct proto_ops", }
+,{"id":"splice_read", "file":"kernel/trace/trace.h", "line":260, "type":"m", "scope_line":246, "scope_name":"struct tracer", }
+,{"id":"splice_shrink_spd", "file":"fs/splice.c", "line":1660, "type":"c", "scope_line":1630, "scope_name":"vmsplice_to_pipe", }
+,{"id":"splice_shrink_spd", "file":"fs/splice.c", "line":288, "type":"f", }
+,{"id":"splice_shrink_spd", "file":"fs/splice.c", "line":496, "type":"c", "scope_line":298, "scope_name":"__generic_file_splice_read", }
+,{"id":"splice_shrink_spd", "file":"fs/splice.c", "line":664, "type":"c", "scope_line":580, "scope_name":"default_file_splice_read", }
+,{"id":"splice_shrink_spd", "file":"kernel/relay.c", "line":1306, "type":"c", "scope_line":1218, "scope_name":"subbuf_splice_actor", }
+,{"id":"splice_shrink_spd", "file":"kernel/trace/trace.c", "line":3357, "type":"c", "scope_line":3273, "scope_name":"tracing_splice_read_pipe", }
+,{"id":"splice_shrink_spd", "file":"kernel/trace/trace.c", "line":3858, "type":"c", "scope_line":3759, "scope_name":"tracing_buffers_splice_read", }
+,{"id":"splice_shrink_spd", "file":"net/core/skbuff.c", "line":1583, "type":"c", "scope_line":1528, "scope_name":"skb_splice_bits", }
+,{"id":"splice_to_pipe", "file":"fs/splice.c", "line":1658, "type":"c", "scope_line":1630, "scope_name":"vmsplice_to_pipe", }
+,{"id":"splice_to_pipe", "file":"fs/splice.c", "line":176, "type":"f", }
+,{"id":"splice_to_pipe", "file":"fs/splice.c", "line":494, "type":"c", "scope_line":298, "scope_name":"__generic_file_splice_read", }
+,{"id":"splice_to_pipe", "file":"fs/splice.c", "line":657, "type":"c", "scope_line":580, "scope_name":"default_file_splice_read", }
+,];
+xr_frag_insert('t/0a/de2d77249afb36d28eeb52252c811754498dfc.xr', __xr_tmp);

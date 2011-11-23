@@ -1,0 +1,182 @@
+var __xr_tmp = [
+{"id":"readq", "file":"drivers/video/cfbfillrect.c", "line":253, "type":"c", "scope_line":216, "scope_name":"bitfill_unaligned_rev", }
+,{"id":"readq", "file":"drivers/video/cfbfillrect.c", "line":256, "type":"c", "scope_line":216, "scope_name":"bitfill_unaligned_rev", }
+,{"id":"readq", "file":"drivers/video/cfbfillrect.c", "line":259, "type":"c", "scope_line":216, "scope_name":"bitfill_unaligned_rev", }
+,{"id":"readq", "file":"drivers/video/cfbfillrect.c", "line":265, "type":"c", "scope_line":216, "scope_name":"bitfill_unaligned_rev", }
+,{"id":"readq", "file":"drivers/video/cfbfillrect.c", "line":272, "type":"c", "scope_line":216, "scope_name":"bitfill_unaligned_rev", }
+,{"id":"readq", "file":"drivers/video/cfbfillrect.c", "line":50, "type":"c", "scope_line":34, "scope_name":"bitfill_aligned", }
+,{"id":"readq", "file":"drivers/video/cfbfillrect.c", "line":56, "type":"c", "scope_line":34, "scope_name":"bitfill_aligned", }
+,{"id":"readq", "file":"drivers/video/cfbfillrect.c", "line":79, "type":"c", "scope_line":34, "scope_name":"bitfill_aligned", }
+,{"id":"readq_relaxed", "file":"arch/x86/include/asm/io.h", "line":109, "type":"d", }
+,{"id":"readw", "file":"arch/x86/include/asm/io.h", "line":55, "type":"f", }
+,{"id":"readw", "file":"arch/x86/kernel/early_printk.c", "line":36, "type":"c", "scope_line":26, "scope_name":"early_vga_write", }
+,{"id":"readw", "file":"drivers/acpi/atomicio.c", "line":278, "type":"c", "scope_line":267, "scope_name":"acpi_atomic_read_mem", }
+,{"id":"readw", "file":"drivers/acpi/osl.c", "line":508, "type":"c", "scope_line":493, "scope_name":"acpi_os_read_memory", }
+,{"id":"readw", "file":"drivers/pci/rom.c", "line":83, "type":"c", "scope_line":67, "scope_name":"pci_get_rom_size", }
+,{"id":"readw", "file":"drivers/pci/rom.c", "line":94, "type":"c", "scope_line":67, "scope_name":"pci_get_rom_size", }
+,{"id":"readw", "file":"drivers/serial/8250_pci.c", "line":484, "type":"c", "scope_line":463, "scope_name":"pci_siig10x_init", }
+,{"id":"readw", "file":"drivers/serial/8250_pci.c", "line":485, "type":"c", "scope_line":463, "scope_name":"pci_siig10x_init", }
+,{"id":"readw", "file":"include/asm-generic/ide_iops.h", "line":11, "type":"c", "scope_line":8, "scope_name":"__ide_mm_insw", }
+,{"id":"readw", "file":"lib/iomap.c", "line":78, "type":"c", "scope_line":76, "scope_name":"ioread16", }
+,{"id":"readw_relaxed", "file":"arch/x86/include/asm/io.h", "line":71, "type":"d", }
+,{"id":"readwrite", "file":"init/do_mounts.c", "line":50, "type":"f", }
+,{"id":"ready", "file":"drivers/input/mousedev.c", "line":104, "type":"m", "scope_line":93, "scope_name":"struct mousedev_client", }
+,{"id":"ready", "file":"kernel/power/user.c", "line":62, "type":"m", "scope_line":57, "scope_name":"struct snapshot_data", }
+,{"id":"ready_stat", "file":"include/linux/ide.h", "line":523, "type":"m", "scope_line":486, "scope_name":"struct ide_drive_s", }
+,{"id":"ready_to_wait_for_devices", "file":"drivers/xen/xenbus/xenbus_probe.c", "line":932, "type":"v", }
+,{"id":"real", "file":"include/linux/posix-timers.h", "line":58, "type":"m", "scope_line":38, "scope_name":"struct k_itimer", }
+,{"id":"real_blocked", "file":"include/linux/sched.h", "line":1326, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"real_cred", "file":"include/linux/sched.h", "line":1291, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"real_dev", "file":"include/linux/if_vlan.h", "line":84, "type":"m", "scope_line":83, "scope_name":"struct vlan_group", }
+,{"id":"real_dev", "file":"include/linux/netpoll.h", "line":17, "type":"m", "scope_line":15, "scope_name":"struct netpoll", }
+,{"id":"real_dev", "file":"net/8021q/vlan.h", "line":61, "type":"m", "scope_line":52, "scope_name":"struct vlan_dev_info", }
+,{"id":"real_dev_addr", "file":"net/8021q/vlan.h", "line":62, "type":"m", "scope_line":52, "scope_name":"struct vlan_dev_info", }
+,{"id":"real_end", "file":"kernel/trace/ring_buffer.c", "line":346, "type":"m", "scope_line":341, "scope_name":"struct buffer_page", }
+,{"id":"real_magic", "file":"arch/x86/kernel/acpi/realmode/wakeup.h", "line":25, "type":"m", "scope_line":13, "scope_name":"struct wakeup_header", }
+,{"id":"real_max_depth", "file":"include/linux/blkdev.h", "line":222, "type":"m", "scope_line":217, "scope_name":"struct blk_queue_tag", }
+,{"id":"real_num_tx_queues", "file":"include/linux/netdevice.h", "line":986, "type":"m", "scope_line":788, "scope_name":"struct net_device", }
+,{"id":"real_parent", "file":"include/linux/sched.h", "line":1251, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"real_raw", "file":"include/linux/tty.h", "line":302, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"real_root_dev", "file":"include/linux/initrd.h", "line":20, "type":"v", }
+,{"id":"real_start_time", "file":"include/linux/sched.h", "line":1283, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"real_timer", "file":"include/linux/sched.h", "line":547, "type":"m", "scope_line":516, "scope_name":"struct signal_struct", }
+,{"id":"real_trim_memory", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":845, "type":"f", }
+,{"id":"real_trim_memory", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":952, "type":"c", "scope_line":871, "scope_name":"mtrr_trim_uncached_memory", }
+,{"id":"real_trim_memory", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":957, "type":"c", "scope_line":871, "scope_name":"mtrr_trim_uncached_memory", }
+,{"id":"real_trim_memory", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":964, "type":"c", "scope_line":871, "scope_name":"mtrr_trim_uncached_memory", }
+,{"id":"realloc_argv", "file":"drivers/md/dm-table.c", "line":571, "type":"f", }
+,{"id":"realloc_argv", "file":"drivers/md/dm-table.c", "line":602, "type":"c", "scope_line":590, "scope_name":"dm_split_args", }
+,{"id":"realloc_argv", "file":"drivers/md/dm-table.c", "line":631, "type":"c", "scope_line":590, "scope_name":"dm_split_args", }
+,{"id":"really_do_swap_account", "file":"mm/memcontrol.c", "line":64, "type":"v", }
+,{"id":"really_probe", "file":"drivers/base/dd.c", "line":108, "type":"f", }
+,{"id":"really_probe", "file":"drivers/base/dd.c", "line":212, "type":"c", "scope_line":200, "scope_name":"driver_probe_device", }
+,{"id":"really_put_req", "file":"fs/aio.c", "line":501, "type":"f", }
+,{"id":"really_put_req", "file":"fs/aio.c", "line":534, "type":"c", "scope_line":518, "scope_name":"aio_fput_routine", }
+,{"id":"really_put_req", "file":"fs/aio.c", "line":575, "type":"c", "scope_line":546, "scope_name":"__aio_put_req", }
+,{"id":"realmode_flags", "file":"arch/x86/kernel/acpi/realmode/wakeup.h", "line":24, "type":"m", "scope_line":13, "scope_name":"struct wakeup_header", }
+,{"id":"realmode_power_off", "file":"include/linux/apm_bios.h", "line":59, "type":"m", "scope_line":52, "scope_name":"struct apm_info", }
+,{"id":"realmode_swtch", "file":"arch/x86/include/asm/bootparam.h", "line":38, "type":"m", "scope_line":24, "scope_name":"struct setup_header", }
+,{"id":"realtek_exit", "file":"drivers/net/phy/realtek.c", "line":74, "type":"f", }
+,{"id":"realtek_init", "file":"drivers/net/phy/realtek.c", "line":65, "type":"f", }
+,{"id":"realtek_tbl", "file":"drivers/net/phy/realtek.c", "line":82, "type":"v", }
+,{"id":"reap_alien", "file":"mm/slab.c", "line":1013, "type":"f", }
+,{"id":"reap_alien", "file":"mm/slab.c", "line":4135, "type":"c", "scope_line":4114, "scope_name":"cache_reap", }
+,{"id":"reap_counter", "file":"fs/direct-io.c", "line":82, "type":"m", "scope_line":58, "scope_name":"struct dio", }
+,{"id":"reap_ref", "file":"include/scsi/scsi_device.h", "line":237, "type":"m", "scope_line":232, "scope_name":"struct scsi_target", }
+,{"id":"rearm", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":36, "type":"m", "scope_line":32, "scope_name":"struct wd_ops", }
+,{"id":"reason", "file":"drivers/acpi/blacklist.c", "line":52, "type":"m", "scope_line":46, "scope_name":"struct acpi_blacklist_item", }
+,{"id":"reason", "file":"include/net/bluetooth/hci.h", "line":252, "type":"m", "scope_line":250, "scope_name":"struct hci_cp_disconnect", }
+,{"id":"reason", "file":"include/net/bluetooth/hci.h", "line":275, "type":"m", "scope_line":273, "scope_name":"struct hci_cp_reject_conn_req", }
+,{"id":"reason", "file":"include/net/bluetooth/hci.h", "line":377, "type":"m", "scope_line":375, "scope_name":"struct hci_cp_reject_sync_conn_req", }
+,{"id":"reason", "file":"include/net/bluetooth/hci.h", "line":629, "type":"m", "scope_line":626, "scope_name":"struct hci_ev_disconn_complete", }
+,{"id":"reason", "file":"include/xen/interface/sched.h", "line":50, "type":"m", "scope_line":49, "scope_name":"struct sched_shutdown", }
+,{"id":"reason_code", "file":"include/linux/ieee80211.h", "line":642, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"reason_code", "file":"include/linux/ieee80211.h", "line":665, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"reason_code", "file":"include/linux/ieee80211.h", "line":726, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"reason_code", "file":"include/linux/wireless.h", "line":859, "type":"m", "scope_line":856, "scope_name":"struct iw_mlme", }
+,{"id":"reason_code", "file":"include/net/cfg80211.h", "line":770, "type":"m", "scope_line":766, "scope_name":"struct cfg80211_deauth_request", }
+,{"id":"reason_code", "file":"include/net/cfg80211.h", "line":791, "type":"m", "scope_line":787, "scope_name":"struct cfg80211_disassoc_request", }
+,{"id":"reason_type", "file":"arch/x86/mm/pf_in.h", "line":25, "type":"t", }
+,{"id":"reassert_nmi", "file":"arch/x86/include/asm/mach_traps.h", "line":15, "type":"f", }
+,{"id":"reassoc_req", "file":"include/linux/ieee80211.h", "line":663, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"reassoc_resp", "file":"include/linux/ieee80211.h", "line":656, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"rebalance_domains", "file":"kernel/sched_fair.c", "line":3499, "type":"f", }
+,{"id":"rebalance_domains", "file":"kernel/sched_fair.c", "line":3602, "type":"c", "scope_line":3574, "scope_name":"nohz_idle_balance", }
+,{"id":"rebalance_domains", "file":"kernel/sched_fair.c", "line":3672, "type":"c", "scope_line":3665, "scope_name":"run_rebalance_domains", }
+,{"id":"rebind", "file":"mm/mempolicy.c", "line":136, "type":"m", "scope_line":120, "scope_name":"struct mempolicy_operations", }
+,{"id":"rebind_evtchn_irq", "file":"drivers/char/hvc_xen.c", "line":160, "type":"c", "scope_line":157, "scope_name":"xen_console_resume", }
+,{"id":"rebind_evtchn_irq", "file":"drivers/xen/events.c", "line":706, "type":"f", }
+,{"id":"rebind_evtchn_irq", "file":"drivers/xen/xenbus/xenbus_comms.c", "line":220, "type":"c", "scope_line":203, "scope_name":"xb_init_comms", }
+,{"id":"rebind_irq_to_cpu", "file":"drivers/xen/events.c", "line":735, "type":"f", }
+,{"id":"rebind_irq_to_cpu", "file":"drivers/xen/events.c", "line":765, "type":"c", "scope_line":761, "scope_name":"set_affinity_irq", }
+,{"id":"rebind_subsystems", "file":"kernel/cgroup.c", "line":1242, "type":"c", "scope_line":1218, "scope_name":"cgroup_remount", }
+,{"id":"rebind_subsystems", "file":"kernel/cgroup.c", "line":1505, "type":"c", "scope_line":1423, "scope_name":"cgroup_get_sb", }
+,{"id":"rebind_subsystems", "file":"kernel/cgroup.c", "line":1591, "type":"c", "scope_line":1575, "scope_name":"cgroup_kill_sb", }
+,{"id":"rebind_subsystems", "file":"kernel/cgroup.c", "line":938, "type":"f", }
+,{"id":"rebind_work", "file":"kernel/workqueue.c", "line":140, "type":"m", "scope_line":124, "scope_name":"struct worker", }
+,{"id":"reboot_emergency", "file":"arch/x86/kernel/reboot.c", "line":48, "type":"v", }
+,{"id":"reboot_force", "file":"arch/x86/include/asm/proto.h", "line":22, "type":"v", }
+,{"id":"reboot_mode", "file":"arch/x86/kernel/reboot.c", "line":36, "type":"v", }
+,{"id":"reboot_mutex", "file":"kernel/sys.c", "line":358, "type":"v", }
+,{"id":"reboot_notifier_list", "file":"kernel/notifier.c", "line":14, "type":"v", }
+,{"id":"reboot_setup", "file":"arch/x86/kernel/reboot.c", "line":65, "type":"f", }
+,{"id":"reboot_type", "file":"arch/x86/include/asm/emergency-restart.h", "line":4, "type":"t", }
+,{"id":"reboot_type", "file":"arch/x86/kernel/reboot.c", "line":37, "type":"v", }
+,{"id":"rebuild", "file":"include/linux/netdevice.h", "line":307, "type":"m", "scope_line":302, "scope_name":"struct header_ops", }
+,{"id":"rebuild_header", "file":"include/net/inet_connection_sock.h", "line":41, "type":"m", "scope_line":38, "scope_name":"struct inet_connection_sock_af_ops", }
+,{"id":"rebuild_sched_domains", "file":"kernel/cpuset.c", "line":783, "type":"f", }
+,{"id":"rebuild_sched_domains", "file":"kernel/sched.c", "line":7401, "type":"c", "scope_line":7394, "scope_name":"arch_reinit_sched_domains", }
+,{"id":"rebuild_sched_domains_work", "file":"kernel/cpuset.c", "line":748, "type":"v", }
+,{"id":"rec", "file":"fs/partitions/ldm.h", "line":108, "type":"m", "scope_line":104, "scope_name":"struct frag", }
+,{"id":"rec", "file":"fs/partitions/ldm.h", "line":181, "type":"m", "scope_line":179, "scope_name":"struct vblk_head", }
+,{"id":"rec8b", "file":"include/linux/ide.h", "line":1467, "type":"m", "scope_line":1463, "scope_name":"struct ide_timing", }
+,{"id":"rec8b", "file":"include/linux/libata.h", "line":908, "type":"m", "scope_line":904, "scope_name":"struct ata_timing", }
+,{"id":"rec_len", "file":"fs/ext3/namei.c", "line":86, "type":"m", "scope_line":83, "scope_name":"struct fake_dirent", }
+,{"id":"rec_len", "file":"fs/ext4/ext4.h", "line":1369, "type":"m", "scope_line":1367, "scope_name":"struct ext4_dir_entry", }
+,{"id":"rec_len", "file":"fs/ext4/ext4.h", "line":1382, "type":"m", "scope_line":1380, "scope_name":"struct ext4_dir_entry_2", }
+,{"id":"rec_len", "file":"fs/ext4/namei.c", "line":85, "type":"m", "scope_line":82, "scope_name":"struct fake_dirent", }
+,{"id":"rec_len", "file":"include/linux/ext2_fs.h", "line":544, "type":"m", "scope_line":542, "scope_name":"struct ext2_dir_entry", }
+,{"id":"rec_len", "file":"include/linux/ext2_fs.h", "line":557, "type":"m", "scope_line":555, "scope_name":"struct ext2_dir_entry_2", }
+,{"id":"rec_len", "file":"include/linux/ext3_fs.h", "line":682, "type":"m", "scope_line":680, "scope_name":"struct ext3_dir_entry", }
+,{"id":"rec_len", "file":"include/linux/ext3_fs.h", "line":695, "type":"m", "scope_line":693, "scope_name":"struct ext3_dir_entry_2", }
+,{"id":"recal", "file":"include/linux/fd.h", "line":93, "type":"m", "scope_line":87, "scope_name":"struct floppy_max_errors", }
+,{"id":"recalc_bh_state", "file":"fs/buffer.c", "line":3215, "type":"f", }
+,{"id":"recalc_bh_state", "file":"fs/buffer.c", "line":3234, "type":"c", "scope_line":3228, "scope_name":"alloc_buffer_head", }
+,{"id":"recalc_bh_state", "file":"fs/buffer.c", "line":3246, "type":"c", "scope_line":3241, "scope_name":"free_buffer_head", }
+,{"id":"recalc_sigpending", "file":"arch/x86/ia32/ia32_signal.c", "line":134, "type":"c", "scope_line":128, "scope_name":"sys32_sigsuspend", }
+,{"id":"recalc_sigpending", "file":"arch/x86/ia32/ia32_signal.c", "line":284, "type":"c", "scope_line":266, "scope_name":"sys32_sigreturn", }
+,{"id":"recalc_sigpending", "file":"arch/x86/ia32/ia32_signal.c", "line":313, "type":"c", "scope_line":296, "scope_name":"sys32_rt_sigreturn", }
+,{"id":"recalc_sigpending", "file":"arch/x86/kernel/signal.c", "line":606, "type":"c", "scope_line":591, "scope_name":"sys_rt_sigreturn", }
+,{"id":"recalc_sigpending", "file":"arch/x86/kernel/signal.c", "line":748, "type":"c", "scope_line":681, "scope_name":"handle_signal", }
+,{"id":"recalc_sigpending", "file":"kernel/compat.c", "line":845, "type":"c", "scope_line":805, "scope_name":"compat_sys_rt_sigtimedwait", }
+,{"id":"recalc_sigpending", "file":"kernel/compat.c", "line":854, "type":"c", "scope_line":805, "scope_name":"compat_sys_rt_sigtimedwait", }
+,{"id":"recalc_sigpending", "file":"kernel/exit.c", "line":391, "type":"c", "scope_line":377, "scope_name":"allow_signal", }
+,{"id":"recalc_sigpending", "file":"kernel/exit.c", "line":405, "type":"c", "scope_line":398, "scope_name":"disallow_signal", }
+,{"id":"recalc_sigpending", "file":"kernel/fork.c", "line":1250, "type":"c", "scope_line":965, "scope_name":"copy_process", }
+,{"id":"recalc_sigpending", "file":"kernel/freezer.c", "line":44, "type":"c", "scope_line":26, "scope_name":"refrigerator", }
+,{"id":"recalc_sigpending", "file":"kernel/signal.c", "line":151, "type":"f", }
+,{"id":"recalc_sigpending", "file":"kernel/signal.c", "line":2105, "type":"c", "scope_line":2083, "scope_name":"sigprocmask", }
+,{"id":"recalc_sigpending", "file":"kernel/signal.c", "line":2296, "type":"c", "scope_line":2250, "scope_name":"sys_rt_sigtimedwait", }
+,{"id":"recalc_sigpending", "file":"kernel/signal.c", "line":2305, "type":"c", "scope_line":2250, "scope_name":"sys_rt_sigtimedwait", }
+,{"id":"recalc_sigpending", "file":"kernel/signal.c", "line":2612, "type":"c", "scope_line":2581, "scope_name":"sys_sigprocmask", }
+,{"id":"recalc_sigpending", "file":"kernel/signal.c", "line":2680, "type":"c", "scope_line":2671, "scope_name":"sys_ssetmask", }
+,{"id":"recalc_sigpending", "file":"kernel/signal.c", "line":2733, "type":"c", "scope_line":2718, "scope_name":"sys_rt_sigsuspend", }
+,{"id":"recalc_sigpending", "file":"kernel/signal.c", "line":409, "type":"c", "scope_line":401, "scope_name":"unblock_all_signals", }
+,{"id":"recalc_sigpending", "file":"kernel/signal.c", "line":512, "type":"c", "scope_line":476, "scope_name":"dequeue_signal", }
+,{"id":"recalc_sigpending_and_wake", "file":"kernel/freezer.c", "line":126, "type":"c", "scope_line":118, "scope_name":"cancel_freezing", }
+,{"id":"recalc_sigpending_and_wake", "file":"kernel/signal.c", "line":1074, "type":"c", "scope_line":1059, "scope_name":"force_sig_info", }
+,{"id":"recalc_sigpending_and_wake", "file":"kernel/signal.c", "line":145, "type":"f", }
+,{"id":"recalc_sigpending_and_wake", "file":"kernel/signal.c", "line":2026, "type":"c", "scope_line":2001, "scope_name":"exit_signals", }
+,{"id":"recalc_sigpending_tsk", "file":"kernel/signal.c", "line":125, "type":"f", }
+,{"id":"recalc_sigpending_tsk", "file":"kernel/signal.c", "line":147, "type":"c", "scope_line":145, "scope_name":"recalc_sigpending_and_wake", }
+,{"id":"recalc_sigpending_tsk", "file":"kernel/signal.c", "line":155, "type":"c", "scope_line":151, "scope_name":"recalc_sigpending", }
+,{"id":"recalc_sigpending_tsk", "file":"kernel/signal.c", "line":1697, "type":"c", "scope_line":1619, "scope_name":"ptrace_stop", }
+,{"id":"recalibrate_cpu_khz", "file":"arch/x86/kernel/tsc.c", "line":559, "type":"f", }
+,{"id":"receive", "file":"include/linux/atmlec.h", "line":96, "type":"m", "scope_line":93, "scope_name":"struct atmlec_ioc", }
+,{"id":"receive_accept_error", "file":"arch/x86/include/asm/apicdef.h", "line":269, "type":"m", "scope_line":172, "scope_name":"struct local_apic", }
+,{"id":"receive_buf", "file":"drivers/net/virtio_net.c", "line":230, "type":"f", }
+,{"id":"receive_buf", "file":"drivers/net/virtio_net.c", "line":474, "type":"c", "scope_line":465, "scope_name":"virtnet_poll", }
+,{"id":"receive_buf", "file":"include/linux/tty_ldisc.h", "line":142, "type":"m", "scope_line":113, "scope_name":"struct tty_ldisc_ops", }
+,{"id":"receive_chars", "file":"drivers/serial/8250.c", "line":1391, "type":"f", }
+,{"id":"receive_chars", "file":"drivers/serial/8250.c", "line":1543, "type":"c", "scope_line":1531, "scope_name":"serial8250_handle_port", }
+,{"id":"receive_cs_error", "file":"arch/x86/include/asm/apicdef.h", "line":267, "type":"m", "scope_line":172, "scope_name":"struct local_apic", }
+,{"id":"receive_illegal_vector", "file":"arch/x86/include/asm/apicdef.h", "line":272, "type":"m", "scope_line":172, "scope_name":"struct local_apic", }
+,{"id":"receive_mergeable", "file":"drivers/net/virtio_net.c", "line":198, "type":"f", }
+,{"id":"receive_mergeable", "file":"drivers/net/virtio_net.c", "line":260, "type":"c", "scope_line":230, "scope_name":"receive_buf", }
+,{"id":"receive_only", "file":"include/linux/wanrouter.h", "line":187, "type":"m", "scope_line":181, "scope_name":"struct wan_chdlc_conf", }
+,{"id":"receive_only", "file":"include/linux/wanrouter.h", "line":223, "type":"m", "scope_line":198, "scope_name":"struct wandev_conf", }
+,{"id":"receive_only", "file":"include/linux/wanrouter.h", "line":449, "type":"m", "scope_line":391, "scope_name":"struct wanif_conf", }
+,{"id":"receive_room", "file":"include/linux/tty.h", "line":281, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"received_rps", "file":"include/linux/netdevice.h", "line":1414, "type":"m", "scope_line":1403, "scope_name":"struct softnet_data", }
+,{"id":"receiver_wake_function", "file":"net/core/datagram.c", "line":69, "type":"f", }
+,{"id":"recent", "file":"include/linux/sunrpc/cache.h", "line":134, "type":"m", "scope_line":132, "scope_name":"struct cache_deferred_req", }
+,{"id":"recent_rotated", "file":"include/linux/mmzone.h", "line":271, "type":"m", "scope_line":262, "scope_name":"struct zone_reclaim_stat", }
+,{"id":"recent_scanned", "file":"include/linux/mmzone.h", "line":272, "type":"m", "scope_line":262, "scope_name":"struct zone_reclaim_stat", }
+,{"id":"reciprocal_buffer_size", "file":"include/linux/slab_def.h", "line":61, "type":"m", "scope_line":52, "scope_name":"struct kmem_cache", }
+,{"id":"reciprocal_divide", "file":"include/linux/reciprocal_div.h", "line":28, "type":"f", }
+,{"id":"reciprocal_divide", "file":"mm/slab.c", "line":540, "type":"c", "scope_line":536, "scope_name":"obj_to_index", }
+,{"id":"reciprocal_value", "file":"lib/reciprocal_div.c", "line":4, "type":"f", }
+,{"id":"reciprocal_value", "file":"mm/slab.c", "line":1501, "type":"c", "scope_line":1435, "scope_name":"kmem_cache_init", }
+,{"id":"reciprocal_value", "file":"mm/slab.c", "line":2403, "type":"c", "scope_line":2165, "scope_name":"kmem_cache_create", }
+,];
+xr_frag_insert('t/7b/2cd744bfa340ca9e059743bd0942c611c4324c.xr', __xr_tmp);

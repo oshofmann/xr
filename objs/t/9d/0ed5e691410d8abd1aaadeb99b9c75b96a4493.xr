@@ -1,0 +1,170 @@
+var __xr_tmp = [
+{"id":"HCI_MAX_EVENT_SIZE", "file":"include/net/bluetooth/hci.h", "line":30, "type":"d", }
+,{"id":"HCI_MAX_FRAME_SIZE", "file":"include/net/bluetooth/hci.h", "line":31, "type":"d", }
+,{"id":"HCI_MAX_SCO_SIZE", "file":"include/net/bluetooth/hci.h", "line":29, "type":"d", }
+,{"id":"HCI_NOTIFY_CONN_ADD", "file":"include/net/bluetooth/hci.h", "line":42, "type":"d", }
+,{"id":"HCI_NOTIFY_CONN_DEL", "file":"include/net/bluetooth/hci.h", "line":43, "type":"d", }
+,{"id":"HCI_NOTIFY_VOICE_SETTING", "file":"include/net/bluetooth/hci.h", "line":44, "type":"d", }
+,{"id":"HCI_OP_ACCEPT_CONN_REQ", "file":"include/net/bluetooth/hci.h", "line":266, "type":"d", }
+,{"id":"HCI_OP_ACCEPT_SYNC_CONN_REQ", "file":"include/net/bluetooth/hci.h", "line":363, "type":"d", }
+,{"id":"HCI_OP_ADD_SCO", "file":"include/net/bluetooth/hci.h", "line":255, "type":"d", }
+,{"id":"HCI_OP_AUTH_REQUESTED", "file":"include/net/bluetooth/hci.h", "line":307, "type":"d", }
+,{"id":"HCI_OP_CHANGE_CONN_LINK_KEY", "file":"include/net/bluetooth/hci.h", "line":318, "type":"d", }
+,{"id":"HCI_OP_CHANGE_CONN_PTYPE", "file":"include/net/bluetooth/hci.h", "line":301, "type":"d", }
+,{"id":"HCI_OP_CREATE_CONN", "file":"include/net/bluetooth/hci.h", "line":239, "type":"d", }
+,{"id":"HCI_OP_CREATE_CONN_CANCEL", "file":"include/net/bluetooth/hci.h", "line":261, "type":"d", }
+,{"id":"HCI_OP_DISCONNECT", "file":"include/net/bluetooth/hci.h", "line":249, "type":"d", }
+,{"id":"HCI_OP_EXIT_PERIODIC_INQ", "file":"include/net/bluetooth/hci.h", "line":237, "type":"d", }
+,{"id":"HCI_OP_EXIT_SNIFF_MODE", "file":"include/net/bluetooth/hci.h", "line":389, "type":"d", }
+,{"id":"HCI_OP_HOST_BUFFER_SIZE", "file":"include/net/bluetooth/hci.h", "line":532, "type":"d", }
+,{"id":"HCI_OP_INQUIRY", "file":"include/net/bluetooth/hci.h", "line":228, "type":"d", }
+,{"id":"HCI_OP_INQUIRY_CANCEL", "file":"include/net/bluetooth/hci.h", "line":235, "type":"d", }
+,{"id":"HCI_OP_LINK_KEY_NEG_REPLY", "file":"include/net/bluetooth/hci.h", "line":284, "type":"d", }
+,{"id":"HCI_OP_LINK_KEY_REPLY", "file":"include/net/bluetooth/hci.h", "line":278, "type":"d", }
+,{"id":"HCI_OP_PIN_CODE_NEG_REPLY", "file":"include/net/bluetooth/hci.h", "line":296, "type":"d", }
+,{"id":"HCI_OP_PIN_CODE_REPLY", "file":"include/net/bluetooth/hci.h", "line":289, "type":"d", }
+,{"id":"HCI_OP_READ_AUTH_ENABLE", "file":"include/net/bluetooth/hci.h", "line":497, "type":"d", }
+,{"id":"HCI_OP_READ_BD_ADDR", "file":"include/net/bluetooth/hci.h", "line":590, "type":"d", }
+,{"id":"HCI_OP_READ_BUFFER_SIZE", "file":"include/net/bluetooth/hci.h", "line":581, "type":"d", }
+,{"id":"HCI_OP_READ_CLASS_OF_DEV", "file":"include/net/bluetooth/hci.h", "line":510, "type":"d", }
+,{"id":"HCI_OP_READ_DEF_LINK_POLICY", "file":"include/net/bluetooth/hci.h", "line":430, "type":"d", }
+,{"id":"HCI_OP_READ_ENCRYPT_MODE", "file":"include/net/bluetooth/hci.h", "line":503, "type":"d", }
+,{"id":"HCI_OP_READ_LINK_POLICY", "file":"include/net/bluetooth/hci.h", "line":410, "type":"d", }
+,{"id":"HCI_OP_READ_LOCAL_COMMANDS", "file":"include/net/bluetooth/hci.h", "line":561, "type":"d", }
+,{"id":"HCI_OP_READ_LOCAL_EXT_FEATURES", "file":"include/net/bluetooth/hci.h", "line":573, "type":"d", }
+,{"id":"HCI_OP_READ_LOCAL_FEATURES", "file":"include/net/bluetooth/hci.h", "line":567, "type":"d", }
+,{"id":"HCI_OP_READ_LOCAL_NAME", "file":"include/net/bluetooth/hci.h", "line":482, "type":"d", }
+,{"id":"HCI_OP_READ_LOCAL_VERSION", "file":"include/net/bluetooth/hci.h", "line":551, "type":"d", }
+,{"id":"HCI_OP_READ_REMOTE_EXT_FEATURES", "file":"include/net/bluetooth/hci.h", "line":341, "type":"d", }
+,{"id":"HCI_OP_READ_REMOTE_FEATURES", "file":"include/net/bluetooth/hci.h", "line":336, "type":"d", }
+,{"id":"HCI_OP_READ_REMOTE_VERSION", "file":"include/net/bluetooth/hci.h", "line":347, "type":"d", }
+,{"id":"HCI_OP_READ_SSP_MODE", "file":"include/net/bluetooth/hci.h", "line":540, "type":"d", }
+,{"id":"HCI_OP_READ_VOICE_SETTING", "file":"include/net/bluetooth/hci.h", "line":521, "type":"d", }
+,{"id":"HCI_OP_REJECT_CONN_REQ", "file":"include/net/bluetooth/hci.h", "line":272, "type":"d", }
+,{"id":"HCI_OP_REJECT_SYNC_CONN_REQ", "file":"include/net/bluetooth/hci.h", "line":374, "type":"d", }
+,{"id":"HCI_OP_REMOTE_NAME_REQ", "file":"include/net/bluetooth/hci.h", "line":323, "type":"d", }
+,{"id":"HCI_OP_REMOTE_NAME_REQ_CANCEL", "file":"include/net/bluetooth/hci.h", "line":331, "type":"d", }
+,{"id":"HCI_OP_RESET", "file":"include/net/bluetooth/hci.h", "line":454, "type":"d", }
+,{"id":"HCI_OP_ROLE_DISCOVERY", "file":"include/net/bluetooth/hci.h", "line":394, "type":"d", }
+,{"id":"HCI_OP_SETUP_SYNC_CONN", "file":"include/net/bluetooth/hci.h", "line":352, "type":"d", }
+,{"id":"HCI_OP_SET_CONN_ENCRYPT", "file":"include/net/bluetooth/hci.h", "line":312, "type":"d", }
+,{"id":"HCI_OP_SET_EVENT_FLT", "file":"include/net/bluetooth/hci.h", "line":456, "type":"d", }
+,{"id":"HCI_OP_SET_EVENT_MASK", "file":"include/net/bluetooth/hci.h", "line":449, "type":"d", }
+,{"id":"HCI_OP_SNIFF_MODE", "file":"include/net/bluetooth/hci.h", "line":380, "type":"d", }
+,{"id":"HCI_OP_SNIFF_SUBRATE", "file":"include/net/bluetooth/hci.h", "line":441, "type":"d", }
+,{"id":"HCI_OP_SWITCH_ROLE", "file":"include/net/bluetooth/hci.h", "line":404, "type":"d", }
+,{"id":"HCI_OP_WRITE_AUTH_ENABLE", "file":"include/net/bluetooth/hci.h", "line":499, "type":"d", }
+,{"id":"HCI_OP_WRITE_CA_TIMEOUT", "file":"include/net/bluetooth/hci.h", "line":488, "type":"d", }
+,{"id":"HCI_OP_WRITE_CLASS_OF_DEV", "file":"include/net/bluetooth/hci.h", "line":516, "type":"d", }
+,{"id":"HCI_OP_WRITE_DEF_LINK_POLICY", "file":"include/net/bluetooth/hci.h", "line":436, "type":"d", }
+,{"id":"HCI_OP_WRITE_ENCRYPT_MODE", "file":"include/net/bluetooth/hci.h", "line":505, "type":"d", }
+,{"id":"HCI_OP_WRITE_LINK_POLICY", "file":"include/net/bluetooth/hci.h", "line":420, "type":"d", }
+,{"id":"HCI_OP_WRITE_LOCAL_NAME", "file":"include/net/bluetooth/hci.h", "line":477, "type":"d", }
+,{"id":"HCI_OP_WRITE_PG_TIMEOUT", "file":"include/net/bluetooth/hci.h", "line":490, "type":"d", }
+,{"id":"HCI_OP_WRITE_SCAN_ENABLE", "file":"include/net/bluetooth/hci.h", "line":492, "type":"d", }
+,{"id":"HCI_OP_WRITE_SSP_MODE", "file":"include/net/bluetooth/hci.h", "line":546, "type":"d", }
+,{"id":"HCI_OP_WRITE_VOICE_SETTING", "file":"include/net/bluetooth/hci.h", "line":527, "type":"d", }
+,{"id":"HCI_PAIRING_TIMEOUT", "file":"include/net/bluetooth/hci.h", "line":111, "type":"d", }
+,{"id":"HCI_PCCARD", "file":"include/net/bluetooth/hci.h", "line":49, "type":"d", }
+,{"id":"HCI_PCI", "file":"include/net/bluetooth/hci.h", "line":52, "type":"d", }
+,{"id":"HCI_PSCAN", "file":"include/net/bluetooth/hci.h", "line":72, "type":"e", "scope_line":67, }
+,{"id":"HCI_QUIRK_FIXUP_BUFFER_SIZE", "file":"include/net/bluetooth/hci.h", "line":63, "type":"e", "scope_line":60, }
+,{"id":"HCI_QUIRK_NO_RESET", "file":"include/net/bluetooth/hci.h", "line":61, "type":"e", "scope_line":60, }
+,{"id":"HCI_QUIRK_RAW_DEVICE", "file":"include/net/bluetooth/hci.h", "line":62, "type":"e", "scope_line":60, }
+,{"id":"HCI_RAW", "file":"include/net/bluetooth/hci.h", "line":78, "type":"e", "scope_line":67, }
+,{"id":"HCI_RS232", "file":"include/net/bluetooth/hci.h", "line":51, "type":"d", }
+,{"id":"HCI_RUNNING", "file":"include/net/bluetooth/hci.h", "line":70, "type":"e", "scope_line":67, }
+,{"id":"HCI_SCODATA_PKT", "file":"include/net/bluetooth/hci.h", "line":118, "type":"d", }
+,{"id":"HCI_SCO_HDR_SIZE", "file":"include/net/bluetooth/hci.h", "line":873, "type":"d", }
+,{"id":"HCI_SDIO", "file":"include/net/bluetooth/hci.h", "line":53, "type":"d", }
+,{"id":"HCI_TIME_STAMP", "file":"include/net/bluetooth/hci.h", "line":928, "type":"d", }
+,{"id":"HCI_UART", "file":"include/net/bluetooth/hci.h", "line":50, "type":"d", }
+,{"id":"HCI_UP", "file":"include/net/bluetooth/hci.h", "line":68, "type":"e", "scope_line":67, }
+,{"id":"HCI_USB", "file":"include/net/bluetooth/hci.h", "line":48, "type":"d", }
+,{"id":"HCI_VENDOR_PKT", "file":"include/net/bluetooth/hci.h", "line":120, "type":"d", }
+,{"id":"HCI_VIRTUAL", "file":"include/net/bluetooth/hci.h", "line":47, "type":"d", }
+,{"id":"HCRC", "file":"lib/zlib_inflate/inflate.h", "line":24, "type":"e", "scope_line":15, }
+,{"id":"HCS_DEBUG_PORT", "file":"include/linux/usb/ehci_def.h", "line":33, "type":"d", }
+,{"id":"HCS_INDICATOR", "file":"include/linux/usb/ehci_def.h", "line":34, "type":"d", }
+,{"id":"HCS_N_CC", "file":"include/linux/usb/ehci_def.h", "line":35, "type":"d", }
+,{"id":"HCS_N_PCC", "file":"include/linux/usb/ehci_def.h", "line":36, "type":"d", }
+,{"id":"HCS_N_PORTS", "file":"include/linux/usb/ehci_def.h", "line":39, "type":"d", }
+,{"id":"HCS_PORTROUTED", "file":"include/linux/usb/ehci_def.h", "line":37, "type":"d", }
+,{"id":"HCS_PPC", "file":"include/linux/usb/ehci_def.h", "line":38, "type":"d", }
+,{"id":"HC_BENCH_YES", "file":"include/linux/kvm_para.h", "line":63, "type":"d", }
+,{"id":"HC_LENGTH", "file":"include/linux/usb/ehci_def.h", "line":30, "type":"d", }
+,{"id":"HC_VERSION", "file":"include/linux/usb/ehci_def.h", "line":31, "type":"d", }
+,{"id":"HDIO_DRIVE_CMD", "file":"include/linux/hdreg.h", "line":354, "type":"d", }
+,{"id":"HDIO_DRIVE_CMD_AEB", "file":"include/linux/hdreg.h", "line":355, "type":"d", }
+,{"id":"HDIO_DRIVE_CMD_HDR_SIZE", "file":"include/linux/hdreg.h", "line":10, "type":"d", }
+,{"id":"HDIO_DRIVE_HOB_HDR_SIZE", "file":"include/linux/hdreg.h", "line":11, "type":"d", }
+,{"id":"HDIO_DRIVE_RESET", "file":"include/linux/hdreg.h", "line":351, "type":"d", }
+,{"id":"HDIO_DRIVE_TASK", "file":"include/linux/hdreg.h", "line":353, "type":"d", }
+,{"id":"HDIO_DRIVE_TASKFILE", "file":"include/linux/hdreg.h", "line":352, "type":"d", }
+,{"id":"HDIO_DRIVE_TASK_HDR_SIZE", "file":"include/linux/hdreg.h", "line":12, "type":"d", }
+,{"id":"HDIO_GETGEO", "file":"include/linux/hdreg.h", "line":331, "type":"d", }
+,{"id":"HDIO_GET_32BIT", "file":"include/linux/hdreg.h", "line":340, "type":"d", }
+,{"id":"HDIO_GET_ACOUSTIC", "file":"include/linux/hdreg.h", "line":346, "type":"d", }
+,{"id":"HDIO_GET_ADDRESS", "file":"include/linux/hdreg.h", "line":347, "type":"d", }
+,{"id":"HDIO_GET_BUSSTATE", "file":"include/linux/hdreg.h", "line":349, "type":"d", }
+,{"id":"HDIO_GET_DMA", "file":"include/linux/hdreg.h", "line":342, "type":"d", }
+,{"id":"HDIO_GET_IDENTITY", "file":"include/linux/hdreg.h", "line":344, "type":"d", }
+,{"id":"HDIO_GET_KEEPSETTINGS", "file":"include/linux/hdreg.h", "line":339, "type":"d", }
+,{"id":"HDIO_GET_MULTCOUNT", "file":"include/linux/hdreg.h", "line":333, "type":"d", }
+,{"id":"HDIO_GET_NICE", "file":"include/linux/hdreg.h", "line":343, "type":"d", }
+,{"id":"HDIO_GET_NOWERR", "file":"include/linux/hdreg.h", "line":341, "type":"d", }
+,{"id":"HDIO_GET_QDMA", "file":"include/linux/hdreg.h", "line":334, "type":"d", }
+,{"id":"HDIO_GET_UNMASKINTR", "file":"include/linux/hdreg.h", "line":332, "type":"d", }
+,{"id":"HDIO_GET_WCACHE", "file":"include/linux/hdreg.h", "line":345, "type":"d", }
+,{"id":"HDIO_OBSOLETE_IDENTITY", "file":"include/linux/hdreg.h", "line":338, "type":"d", }
+,{"id":"HDIO_SET_32BIT", "file":"include/linux/hdreg.h", "line":361, "type":"d", }
+,{"id":"HDIO_SET_ACOUSTIC", "file":"include/linux/hdreg.h", "line":371, "type":"d", }
+,{"id":"HDIO_SET_ADDRESS", "file":"include/linux/hdreg.h", "line":374, "type":"d", }
+,{"id":"HDIO_SET_BUSSTATE", "file":"include/linux/hdreg.h", "line":372, "type":"d", }
+,{"id":"HDIO_SET_DMA", "file":"include/linux/hdreg.h", "line":363, "type":"d", }
+,{"id":"HDIO_SET_KEEPSETTINGS", "file":"include/linux/hdreg.h", "line":360, "type":"d", }
+,{"id":"HDIO_SET_MULTCOUNT", "file":"include/linux/hdreg.h", "line":358, "type":"d", }
+,{"id":"HDIO_SET_NICE", "file":"include/linux/hdreg.h", "line":369, "type":"d", }
+,{"id":"HDIO_SET_NOWERR", "file":"include/linux/hdreg.h", "line":362, "type":"d", }
+,{"id":"HDIO_SET_PIO_MODE", "file":"include/linux/hdreg.h", "line":364, "type":"d", }
+,{"id":"HDIO_SET_QDMA", "file":"include/linux/hdreg.h", "line":373, "type":"d", }
+,{"id":"HDIO_SET_UNMASKINTR", "file":"include/linux/hdreg.h", "line":359, "type":"d", }
+,{"id":"HDIO_SET_WCACHE", "file":"include/linux/hdreg.h", "line":370, "type":"d", }
+,{"id":"HDIO_SET_XFER", "file":"include/linux/hdreg.h", "line":336, "type":"d", }
+,{"id":"HDIO_TRISTATE_HWIF", "file":"include/linux/hdreg.h", "line":350, "type":"d", }
+,{"id":"HDR", "file":"fs/ext2/xattr.c", "line":68, "type":"d", }
+,{"id":"HDRLEN_KMALLOC", "file":"ipc/util.c", "line":501, "type":"d", }
+,{"id":"HDRLEN_VMALLOC", "file":"ipc/util.c", "line":503, "type":"d", }
+,{"id":"HD_MAJOR", "file":"include/linux/major.h", "line":15, "type":"d", }
+,{"id":"HEAD", "file":"lib/zlib_inflate/inflate.h", "line":16, "type":"e", "scope_line":15, }
+,{"id":"HEADER_HAS_FILTER", "file":"lib/decompress_unlzo.c", "line":51, "type":"d", }
+,{"id":"HEADER_OFFSET", "file":"arch/x86/kernel/acpi/realmode/wakeup.h", "line":38, "type":"d", }
+,{"id":"HEADER_SIZE", "file":"drivers/char/vc_screen.c", "line":46, "type":"d", }
+,{"id":"HEAD_OF_QUEUE_TAG", "file":"include/scsi/scsi.h", "line":366, "type":"d", }
+,{"id":"HEAP_INDEX", "file":"lib/prio_tree.c", "line":49, "type":"d", }
+,{"id":"HEAP_INDEX", "file":"mm/prio_tree.c", "line":31, "type":"d", }
+,{"id":"HEB", "file":"drivers/video/imsttfb.c", "line":59, "type":"e", "scope_line":45, }
+,{"id":"HES", "file":"drivers/video/imsttfb.c", "line":58, "type":"e", "scope_line":45, }
+,{"id":"HEX_CHARS", "file":"kernel/trace/trace_output.h", "line":37, "type":"d", }
+,{"id":"HH_DATA_ALIGN", "file":"include/linux/netdevice.h", "line":279, "type":"d", }
+,{"id":"HH_DATA_MOD", "file":"include/linux/netdevice.h", "line":276, "type":"d", }
+,{"id":"HH_DATA_OFF", "file":"include/linux/netdevice.h", "line":277, "type":"d", }
+,{"id":"HIBERNATION_FIRST", "file":"kernel/power/hibernate.c", "line":49, "type":"d", }
+,{"id":"HIBERNATION_INVALID", "file":"kernel/power/hibernate.c", "line":39, "type":"e", "scope_line":38, }
+,{"id":"HIBERNATION_MAX", "file":"kernel/power/hibernate.c", "line":48, "type":"d", }
+,{"id":"HIBERNATION_PLATFORM", "file":"kernel/power/hibernate.c", "line":40, "type":"e", "scope_line":38, }
+,{"id":"HIBERNATION_REBOOT", "file":"kernel/power/hibernate.c", "line":44, "type":"e", "scope_line":38, }
+,{"id":"HIBERNATION_SHUTDOWN", "file":"kernel/power/hibernate.c", "line":43, "type":"e", "scope_line":38, }
+,{"id":"HIBERNATION_TEST", "file":"kernel/power/hibernate.c", "line":41, "type":"e", "scope_line":38, }
+,{"id":"HIBERNATION_TESTPROC", "file":"kernel/power/hibernate.c", "line":42, "type":"e", "scope_line":38, }
+,{"id":"HIDDEV_FLAGS", "file":"include/linux/hiddev.h", "line":182, "type":"d", }
+,{"id":"HIDDEV_FLAG_REPORT", "file":"include/linux/hiddev.h", "line":181, "type":"d", }
+,{"id":"HIDDEV_FLAG_UREF", "file":"include/linux/hiddev.h", "line":180, "type":"d", }
+,{"id":"HIDIOCAPPLICATION", "file":"include/linux/hiddev.h", "line":155, "type":"d", }
+,{"id":"HIDIOCGCOLLECTIONINDEX", "file":"include/linux/hiddev.h", "line":169, "type":"d", }
+,{"id":"HIDIOCGCOLLECTIONINFO", "file":"include/linux/hiddev.h", "line":170, "type":"d", }
+,{"id":"HIDIOCGDEVINFO", "file":"include/linux/hiddev.h", "line":156, "type":"d", }
+,{"id":"HIDIOCGFIELDINFO", "file":"include/linux/hiddev.h", "line":163, "type":"d", }
+,{"id":"HIDIOCGFLAG", "file":"include/linux/hiddev.h", "line":167, "type":"d", }
+,];
+xr_frag_insert('t/9d/0ed5e691410d8abd1aaadeb99b9c75b96a4493.xr', __xr_tmp);

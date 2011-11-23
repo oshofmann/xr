@@ -1,0 +1,91 @@
+var __xr_tmp = [
+{"id":"kern_ptr_validate", "file":"mm/util.c", "line":189, "type":"f", }
+,{"id":"kern_table", "file":"kernel/sysctl.c", "line":273, "type":"v", }
+,{"id":"kernel_accept", "file":"net/socket.c", "line":3007, "type":"f", }
+,{"id":"kernel_act_as", "file":"include/linux/security.h", "line":1490, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"kernel_add_sysfs_param", "file":"kernel/params.c", "line":722, "type":"f", }
+,{"id":"kernel_add_sysfs_param", "file":"kernel/params.c", "line":795, "type":"c", "scope_line":774, "scope_name":"param_sysfs_builtin", }
+,{"id":"kernel_alignment", "file":"arch/x86/include/asm/bootparam.h", "line":57, "type":"m", "scope_line":24, "scope_name":"struct setup_header", }
+,{"id":"kernel_attr_group", "file":"kernel/ksysfs.c", "line":177, "type":"v", }
+,{"id":"kernel_attrs", "file":"kernel/ksysfs.c", "line":160, "type":"v", }
+,{"id":"kernel_bind", "file":"net/socket.c", "line":2995, "type":"f", }
+,{"id":"kernel_cap_struct", "file":"include/linux/capability.h", "line":94, "type":"s", }
+,{"id":"kernel_cap_t", "file":"include/linux/capability.h", "line":94, "type":"t", }
+,{"id":"kernel_connect", "file":"net/socket.c", "line":3032, "type":"f", }
+,{"id":"kernel_create_files_as", "file":"include/linux/security.h", "line":1491, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"kernel_data", "file":"include/linux/fd.h", "line":350, "type":"m", "scope_line":325, "scope_name":"struct floppy_raw_cmd", }
+,{"id":"kernel_eflags", "file":"arch/x86/include/asm/processor.h", "line":404, "type":"v", }
+,{"id":"kernel_execve", "file":"init/do_mounts_initrd.c", "line":35, "type":"c", "scope_line":27, "scope_name":"do_linuxrc", }
+,{"id":"kernel_execve", "file":"init/main.c", "line":815, "type":"c", "scope_line":812, "scope_name":"run_init_process", }
+,{"id":"kernel_execve", "file":"kernel/kmod.c", "line":156, "type":"c", "scope_line":132, "scope_name":"____call_usermodehelper", }
+,{"id":"kernel_flag", "file":"lib/kernel_lock.c", "line":26, "type":"v", }
+,{"id":"kernel_fpu_begin", "file":"arch/x86/include/asm/i387.h", "line":353, "type":"f", }
+,{"id":"kernel_fpu_begin", "file":"arch/x86/power/cpu.c", "line":55, "type":"c", "scope_line":50, "scope_name":"__save_processor_state", }
+,{"id":"kernel_fpu_end", "file":"arch/x86/include/asm/i387.h", "line":363, "type":"f", }
+,{"id":"kernel_fpu_end", "file":"arch/x86/power/cpu.c", "line":127, "type":"c", "scope_line":122, "scope_name":"do_fpu_end", }
+,{"id":"kernel_getpeername", "file":"net/socket.c", "line":3046, "type":"f", }
+,{"id":"kernel_getsockname", "file":"net/socket.c", "line":3039, "type":"f", }
+,{"id":"kernel_getsockopt", "file":"net/socket.c", "line":3053, "type":"f", }
+,{"id":"kernel_gs_base", "file":"arch/x86/include/asm/svm.h", "line":162, "type":"m", "scope_line":131, "scope_name":"struct vmcb_save_area", }
+,{"id":"kernel_halt", "file":"kernel/power/hibernate.c", "line":569, "type":"c", "scope_line":554, "scope_name":"power_down", }
+,{"id":"kernel_halt", "file":"kernel/sys.c", "line":331, "type":"f", }
+,{"id":"kernel_halt", "file":"kernel/sys.c", "line":407, "type":"c", "scope_line":368, "scope_name":"sys_reboot", }
+,{"id":"kernel_init", "file":"init/main.c", "line":860, "type":"f", }
+,{"id":"kernel_insn_init", "file":"arch/x86/include/asm/insn.h", "line":124, "type":"f", }
+,{"id":"kernel_insn_init", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":436, "type":"c", "scope_line":379, "scope_name":"intel_pmu_pebs_fixup_ip", }
+,{"id":"kernel_insn_init", "file":"arch/x86/kernel/kprobes.c", "line":1292, "type":"c", "scope_line":1266, "scope_name":"can_optimize", }
+,{"id":"kernel_insn_init", "file":"arch/x86/kernel/kprobes.c", "line":1298, "type":"c", "scope_line":1266, "scope_name":"can_optimize", }
+,{"id":"kernel_insn_init", "file":"arch/x86/kernel/kprobes.c", "line":250, "type":"c", "scope_line":237, "scope_name":"can_probe", }
+,{"id":"kernel_insn_init", "file":"arch/x86/kernel/kprobes.c", "line":267, "type":"c", "scope_line":237, "scope_name":"can_probe", }
+,{"id":"kernel_insn_init", "file":"arch/x86/kernel/kprobes.c", "line":308, "type":"c", "scope_line":302, "scope_name":"__copy_instruction", }
+,{"id":"kernel_insn_init", "file":"arch/x86/kernel/kprobes.c", "line":316, "type":"c", "scope_line":302, "scope_name":"__copy_instruction", }
+,{"id":"kernel_insn_init", "file":"arch/x86/kernel/kprobes.c", "line":326, "type":"c", "scope_line":302, "scope_name":"__copy_instruction", }
+,{"id":"kernel_ip", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":370, "type":"f", }
+,{"id":"kernel_ip", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":401, "type":"c", "scope_line":379, "scope_name":"intel_pmu_pebs_fixup_ip", }
+,{"id":"kernel_ip", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":425, "type":"c", "scope_line":379, "scope_name":"intel_pmu_pebs_fixup_ip", }
+,{"id":"kernel_kexec", "file":"kernel/kexec.c", "line":1494, "type":"f", }
+,{"id":"kernel_kexec", "file":"kernel/sys.c", "line":428, "type":"c", "scope_line":368, "scope_name":"sys_reboot", }
+,{"id":"kernel_kobj", "file":"include/linux/kobject.h", "line":196, "type":"v", }
+,{"id":"kernel_listen", "file":"net/socket.c", "line":3001, "type":"f", }
+,{"id":"kernel_locked", "file":"include/linux/smp_lock.h", "line":7, "type":"d", }
+,{"id":"kernel_map_pages", "file":"include/linux/mm.h", "line":1425, "type":"f", }
+,{"id":"kernel_map_pages", "file":"kernel/power/snapshot.c", "line":956, "type":"c", "scope_line":951, "scope_name":"safe_copy_page", }
+,{"id":"kernel_map_pages", "file":"kernel/power/snapshot.c", "line":958, "type":"c", "scope_line":951, "scope_name":"safe_copy_page", }
+,{"id":"kernel_map_pages", "file":"mm/page_alloc.c", "line":664, "type":"c", "scope_line":640, "scope_name":"free_pages_prepare", }
+,{"id":"kernel_map_pages", "file":"mm/page_alloc.c", "line":775, "type":"c", "scope_line":761, "scope_name":"prep_new_page", }
+,{"id":"kernel_map_sync_memtype", "file":"arch/x86/mm/ioremap.c", "line":164, "type":"c", "scope_line":62, "scope_name":"__ioremap_caller", }
+,{"id":"kernel_map_sync_memtype", "file":"arch/x86/mm/pat.c", "line":446, "type":"c", "scope_line":429, "scope_name":"io_reserve_memtype", }
+,{"id":"kernel_map_sync_memtype", "file":"arch/x86/mm/pat.c", "line":545, "type":"f", }
+,{"id":"kernel_map_sync_memtype", "file":"arch/x86/mm/pat.c", "line":634, "type":"c", "scope_line":573, "scope_name":"reserve_pfn_range", }
+,{"id":"kernel_module_request", "file":"include/linux/security.h", "line":1492, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"kernel_page_present", "file":"include/linux/mm.h", "line":1431, "type":"f", }
+,{"id":"kernel_page_present", "file":"kernel/power/snapshot.c", "line":902, "type":"c", "scope_line":886, "scope_name":"saveable_page", }
+,{"id":"kernel_page_present", "file":"kernel/power/snapshot.c", "line":953, "type":"c", "scope_line":951, "scope_name":"safe_copy_page", }
+,{"id":"kernel_param", "file":"include/linux/moduleparam.h", "line":46, "type":"s", }
+,{"id":"kernel_param_ops", "file":"include/linux/moduleparam.h", "line":34, "type":"s", }
+,{"id":"kernel_physical_mapping_init", "file":"arch/x86/mm/init.c", "line":271, "type":"c", "scope_line":124, "scope_name":"init_memory_mapping", }
+,{"id":"kernel_physical_mapping_init", "file":"arch/x86/mm/init_64.c", "line":532, "type":"f", }
+,{"id":"kernel_power_off", "file":"kernel/power/hibernate.c", "line":566, "type":"c", "scope_line":554, "scope_name":"power_down", }
+,{"id":"kernel_power_off", "file":"kernel/power/poweroff.c", "line":22, "type":"c", "scope_line":20, "scope_name":"do_poweroff", }
+,{"id":"kernel_power_off", "file":"kernel/sys.c", "line":1800, "type":"c", "scope_line":1763, "scope_name":"orderly_poweroff", }
+,{"id":"kernel_power_off", "file":"kernel/sys.c", "line":346, "type":"f", }
+,{"id":"kernel_power_off", "file":"kernel/sys.c", "line":412, "type":"c", "scope_line":368, "scope_name":"sys_reboot", }
+,{"id":"kernel_read", "file":"fs/binfmt_elf.c", "line":1009, "type":"c", "scope_line":1000, "scope_name":"load_elf_library", }
+,{"id":"kernel_read", "file":"fs/binfmt_elf.c", "line":1033, "type":"c", "scope_line":1000, "scope_name":"load_elf_library", }
+,{"id":"kernel_read", "file":"fs/binfmt_elf.c", "line":423, "type":"c", "scope_line":383, "scope_name":"load_elf_interp", }
+,{"id":"kernel_read", "file":"fs/binfmt_elf.c", "line":619, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"kernel_read", "file":"fs/binfmt_elf.c", "line":653, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"kernel_read", "file":"fs/binfmt_elf.c", "line":679, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"kernel_read", "file":"fs/exec.c", "line":1203, "type":"c", "scope_line":1163, "scope_name":"prepare_binprm", }
+,{"id":"kernel_read", "file":"fs/exec.c", "line":716, "type":"f", }
+,{"id":"kernel_readv", "file":"fs/splice.c", "line":549, "type":"f", }
+,{"id":"kernel_readv", "file":"fs/splice.c", "line":633, "type":"c", "scope_line":580, "scope_name":"default_file_splice_read", }
+,{"id":"kernel_recvmsg", "file":"net/socket.c", "line":735, "type":"f", }
+,{"id":"kernel_restart", "file":"kernel/power/hibernate.c", "line":561, "type":"c", "scope_line":554, "scope_name":"power_down", }
+,{"id":"kernel_restart", "file":"kernel/sys.c", "line":308, "type":"f", }
+,{"id":"kernel_restart", "file":"kernel/sys.c", "line":395, "type":"c", "scope_line":368, "scope_name":"sys_reboot", }
+,{"id":"kernel_restart", "file":"kernel/sys.c", "line":423, "type":"c", "scope_line":368, "scope_name":"sys_reboot", }
+,{"id":"kernel_restart", "file":"kernel/sys.c", "line":448, "type":"c", "scope_line":446, "scope_name":"deferred_cad", }
+,{"id":"kernel_restart_prepare", "file":"kernel/kexec.c", "line":1539, "type":"c", "scope_line":1494, "scope_name":"kernel_kexec", }
+,];
+xr_frag_insert('t/a4/5d47f4c0402dd33b03eeabad6aa30775ddf4bc.xr', __xr_tmp);

@@ -1,0 +1,128 @@
+var __xr_tmp = [
+{"id":"netdev_crit", "file":"net/core/dev.c", "line":5914, "type":"f", }
+,{"id":"netdev_dbg", "file":"include/linux/netdevice.h", "line":2284, "type":"d", }
+,{"id":"netdev_drivername", "file":"net/core/dev.c", "line":5838, "type":"f", }
+,{"id":"netdev_drivername", "file":"net/sched/sch_generic.c", "line":257, "type":"c", "scope_line":226, "scope_name":"dev_watchdog", }
+,{"id":"netdev_emerg", "file":"net/core/dev.c", "line":5912, "type":"f", }
+,{"id":"netdev_err", "file":"net/core/dev.c", "line":5915, "type":"f", }
+,{"id":"netdev_exit", "file":"net/core/dev.c", "line":5920, "type":"f", }
+,{"id":"netdev_features_change", "file":"drivers/net/tun.c", "line":1182, "type":"c", "scope_line":1143, "scope_name":"set_offload", }
+,{"id":"netdev_features_change", "file":"net/core/dev.c", "line":1076, "type":"f", }
+,{"id":"netdev_features_change", "file":"net/core/ethtool.c", "line":1636, "type":"c", "scope_line":1394, "scope_name":"dev_ethtool", }
+,{"id":"netdev_fix_features", "file":"net/core/dev.c", "line":4877, "type":"f", }
+,{"id":"netdev_fix_features", "file":"net/core/dev.c", "line":5032, "type":"c", "scope_line":4961, "scope_name":"register_netdevice", }
+,{"id":"netdev_for_each_mc_addr", "file":"include/linux/netdevice.h", "line":254, "type":"d", }
+,{"id":"netdev_for_each_tx_queue", "file":"include/linux/netdevice.h", "line":1090, "type":"f", }
+,{"id":"netdev_for_each_tx_queue", "file":"net/core/dev.c", "line":4873, "type":"c", "scope_line":4871, "scope_name":"netdev_init_queue_locks", }
+,{"id":"netdev_for_each_tx_queue", "file":"net/core/dev.c", "line":5367, "type":"c", "scope_line":5364, "scope_name":"netdev_init_queues", }
+,{"id":"netdev_for_each_tx_queue", "file":"net/sched/sch_generic.c", "line":708, "type":"c", "scope_line":700, "scope_name":"attach_default_qdiscs", }
+,{"id":"netdev_for_each_tx_queue", "file":"net/sched/sch_generic.c", "line":755, "type":"c", "scope_line":737, "scope_name":"dev_activate", }
+,{"id":"netdev_for_each_tx_queue", "file":"net/sched/sch_generic.c", "line":814, "type":"c", "scope_line":812, "scope_name":"dev_deactivate", }
+,{"id":"netdev_for_each_tx_queue", "file":"net/sched/sch_generic.c", "line":840, "type":"c", "scope_line":837, "scope_name":"dev_init_scheduler", }
+,{"id":"netdev_for_each_tx_queue", "file":"net/sched/sch_generic.c", "line":863, "type":"c", "scope_line":861, "scope_name":"dev_shutdown", }
+,{"id":"netdev_for_each_uc_addr", "file":"include/linux/netdevice.h", "line":249, "type":"d", }
+,{"id":"netdev_free_page", "file":"include/linux/skbuff.h", "line":1579, "type":"f", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1083, "type":"f", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1463, "type":"c", "scope_line":1458, "scope_name":"netif_tx_schedule_all", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1479, "type":"c", "scope_line":1477, "scope_name":"netif_start_queue", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1487, "type":"c", "scope_line":1482, "scope_name":"netif_tx_start_all_queues", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1513, "type":"c", "scope_line":1511, "scope_name":"netif_wake_queue", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1521, "type":"c", "scope_line":1516, "scope_name":"netif_tx_wake_all_queues", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1540, "type":"c", "scope_line":1538, "scope_name":"netif_stop_queue", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1548, "type":"c", "scope_line":1543, "scope_name":"netif_tx_stop_all_queues", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1566, "type":"c", "scope_line":1564, "scope_name":"netif_queue_stopped", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1601, "type":"c", "scope_line":1599, "scope_name":"netif_start_subqueue", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1615, "type":"c", "scope_line":1613, "scope_name":"netif_stop_subqueue", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1633, "type":"c", "scope_line":1630, "scope_name":"__netif_subqueue_stopped", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1653, "type":"c", "scope_line":1651, "scope_name":"netif_wake_subqueue", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1971, "type":"c", "scope_line":1963, "scope_name":"netif_tx_lock", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":1996, "type":"c", "scope_line":1991, "scope_name":"netif_tx_unlock", }
+,{"id":"netdev_get_tx_queue", "file":"include/linux/netdevice.h", "line":2034, "type":"c", "scope_line":2026, "scope_name":"netif_tx_disable", }
+,{"id":"netdev_get_tx_queue", "file":"include/net/sch_generic.h", "line":345, "type":"c", "scope_line":340, "scope_name":"qdisc_reset_all_tx_gt", }
+,{"id":"netdev_get_tx_queue", "file":"include/net/sch_generic.h", "line":364, "type":"c", "scope_line":360, "scope_name":"qdisc_all_tx_empty", }
+,{"id":"netdev_get_tx_queue", "file":"include/net/sch_generic.h", "line":378, "type":"c", "scope_line":374, "scope_name":"qdisc_tx_changing", }
+,{"id":"netdev_get_tx_queue", "file":"include/net/sch_generic.h", "line":390, "type":"c", "scope_line":386, "scope_name":"qdisc_tx_is_noop", }
+,{"id":"netdev_get_tx_queue", "file":"net/core/dev.c", "line":2085, "type":"c", "scope_line":2057, "scope_name":"dev_pick_tx", }
+,{"id":"netdev_get_tx_queue", "file":"net/core/dev.c", "line":5292, "type":"c", "scope_line":5284, "scope_name":"dev_txq_stats_fold", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_api.c", "line":1138, "type":"c", "scope_line":1017, "scope_name":"tc_modify_qdisc", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_api.c", "line":707, "type":"c", "scope_line":676, "scope_name":"qdisc_graft", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_generic.c", "line":187, "type":"c", "scope_line":173, "scope_name":"qdisc_restart", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_generic.c", "line":217, "type":"c", "scope_line":211, "scope_name":"dev_trans_start", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_generic.c", "line":242, "type":"c", "scope_line":226, "scope_name":"dev_watchdog", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_generic.c", "line":62, "type":"c", "scope_line":53, "scope_name":"dequeue_skb", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_generic.c", "line":705, "type":"c", "scope_line":700, "scope_name":"attach_default_qdiscs", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_generic.c", "line":795, "type":"c", "scope_line":785, "scope_name":"some_qdisc_is_busy", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_mq.c", "line":104, "type":"c", "scope_line":93, "scope_name":"mq_dump", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_mq.c", "line":126, "type":"c", "scope_line":119, "scope_name":"mq_queue_get", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_mq.c", "line":138, "type":"c", "scope_line":129, "scope_name":"mq_select_queue", }
+,{"id":"netdev_get_tx_queue", "file":"net/sched/sch_mq.c", "line":58, "type":"c", "scope_line":37, "scope_name":"mq_init", }
+,{"id":"netdev_hw_addr", "file":"include/linux/netdevice.h", "line":222, "type":"s", }
+,{"id":"netdev_hw_addr_list", "file":"include/linux/netdevice.h", "line":237, "type":"s", }
+,{"id":"netdev_hw_addr_list_count", "file":"include/linux/netdevice.h", "line":242, "type":"d", }
+,{"id":"netdev_hw_addr_list_empty", "file":"include/linux/netdevice.h", "line":243, "type":"d", }
+,{"id":"netdev_hw_addr_list_for_each", "file":"include/linux/netdevice.h", "line":244, "type":"d", }
+,{"id":"netdev_increment_features", "file":"net/core/dev.c", "line":5765, "type":"f", }
+,{"id":"netdev_info", "file":"net/core/dev.c", "line":5918, "type":"f", }
+,{"id":"netdev_init", "file":"net/core/dev.c", "line":5810, "type":"f", }
+,{"id":"netdev_init_one_queue", "file":"net/core/dev.c", "line":5357, "type":"f", }
+,{"id":"netdev_init_one_queue", "file":"net/core/dev.c", "line":5366, "type":"c", "scope_line":5364, "scope_name":"netdev_init_queues", }
+,{"id":"netdev_init_queue_locks", "file":"net/core/dev.c", "line":4871, "type":"f", }
+,{"id":"netdev_init_queue_locks", "file":"net/core/dev.c", "line":4977, "type":"c", "scope_line":4961, "scope_name":"register_netdevice", }
+,{"id":"netdev_init_queues", "file":"net/core/dev.c", "line":5364, "type":"f", }
+,{"id":"netdev_init_queues", "file":"net/core/dev.c", "line":5458, "type":"c", "scope_line":5382, "scope_name":"alloc_netdev_mq", }
+,{"id":"netdev_kobject_init", "file":"net/core/dev.c", "line":6012, "type":"c", "scope_line":6003, "scope_name":"net_dev_init", }
+,{"id":"netdev_kobject_init", "file":"net/core/net-sysfs.c", "line":937, "type":"f", }
+,{"id":"netdev_max_backlog", "file":"net/core/dev.c", "line":2249, "type":"v", }
+,{"id":"netdev_mc_count", "file":"include/linux/netdevice.h", "line":252, "type":"d", }
+,{"id":"netdev_mc_empty", "file":"include/linux/netdevice.h", "line":253, "type":"d", }
+,{"id":"netdev_name", "file":"include/linux/netdevice.h", "line":2249, "type":"f", }
+,{"id":"netdev_name", "file":"net/core/dev.c", "line":5864, "type":"c", "scope_line":5858, "scope_name":"__netdev_printk", }
+,{"id":"netdev_name", "file":"net/core/dev.c", "line":5867, "type":"c", "scope_line":5858, "scope_name":"__netdev_printk", }
+,{"id":"netdev_net_ops", "file":"net/core/dev.c", "line":5926, "type":"v", }
+,{"id":"netdev_notice", "file":"net/core/dev.c", "line":5917, "type":"f", }
+,{"id":"netdev_ops", "file":"include/linux/netdevice.h", "line":896, "type":"m", "scope_line":788, "scope_name":"struct net_device", }
+,{"id":"netdev_printk", "file":"net/core/dev.c", "line":5874, "type":"f", }
+,{"id":"netdev_priv", "file":"drivers/net/ppp_generic.c", "line":2561, "type":"c", "scope_line":2546, "scope_name":"ppp_create_interface", }
+,{"id":"netdev_priv", "file":"drivers/net/ppp_generic.c", "line":938, "type":"c", "scope_line":935, "scope_name":"ppp_start_xmit", }
+,{"id":"netdev_priv", "file":"drivers/net/ppp_generic.c", "line":983, "type":"c", "scope_line":980, "scope_name":"ppp_net_ioctl", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":1000, "type":"c", "scope_line":984, "scope_name":"tun_set_iff", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":1049, "type":"c", "scope_line":984, "scope_name":"tun_set_iff", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":1545, "type":"c", "scope_line":1543, "scope_name":"tun_get_drvinfo", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":1581, "type":"c", "scope_line":1579, "scope_name":"tun_get_rx_csum", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":1587, "type":"c", "scope_line":1585, "scope_name":"tun_set_rx_csum", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":325, "type":"c", "scope_line":323, "scope_name":"tun_net_uninit", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":339, "type":"c", "scope_line":337, "scope_name":"tun_free_netdev", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":361, "type":"c", "scope_line":359, "scope_name":"tun_net_xmit", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":458, "type":"c", "scope_line":456, "scope_name":"tun_net_init", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":852, "type":"c", "scope_line":850, "scope_name":"tun_setup", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":962, "type":"c", "scope_line":959, "scope_name":"tun_show_flags", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":969, "type":"c", "scope_line":966, "scope_name":"tun_show_owner", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":976, "type":"c", "scope_line":973, "scope_name":"tun_show_group", }
+,{"id":"netdev_priv", "file":"drivers/net/tun.c", "line":998, "type":"c", "scope_line":984, "scope_name":"tun_set_iff", }
+,{"id":"netdev_priv", "file":"drivers/net/virtio_net.c", "line":232, "type":"c", "scope_line":230, "scope_name":"receive_buf", }
+,{"id":"netdev_priv", "file":"drivers/net/virtio_net.c", "line":562, "type":"c", "scope_line":560, "scope_name":"start_xmit", }
+,{"id":"netdev_priv", "file":"drivers/net/virtio_net.c", "line":613, "type":"c", "scope_line":611, "scope_name":"virtnet_set_mac_address", }
+,{"id":"netdev_priv", "file":"drivers/net/virtio_net.c", "line":639, "type":"c", "scope_line":637, "scope_name":"virtnet_open", }
+,{"id":"netdev_priv", "file":"drivers/net/virtio_net.c", "line":701, "type":"c", "scope_line":699, "scope_name":"virtnet_close", }
+,{"id":"netdev_priv", "file":"drivers/net/virtio_net.c", "line":711, "type":"c", "scope_line":708, "scope_name":"virtnet_get_drvinfo", }
+,{"id":"netdev_priv", "file":"drivers/net/virtio_net.c", "line":723, "type":"c", "scope_line":721, "scope_name":"virtnet_set_tx_csum", }
+,{"id":"netdev_priv", "file":"drivers/net/virtio_net.c", "line":734, "type":"c", "scope_line":732, "scope_name":"virtnet_set_rx_mode", }
+,{"id":"netdev_priv", "file":"drivers/net/virtio_net.c", "line":810, "type":"c", "scope_line":808, "scope_name":"virtnet_vlan_rx_add_vid", }
+,{"id":"netdev_priv", "file":"drivers/net/virtio_net.c", "line":822, "type":"c", "scope_line":820, "scope_name":"virtnet_vlan_rx_kill_vid", }
+,{"id":"netdev_priv", "file":"drivers/net/virtio_net.c", "line":951, "type":"c", "scope_line":902, "scope_name":"virtnet_probe", }
+,{"id":"netdev_priv", "file":"include/linux/netdevice.h", "line":1155, "type":"f", }
+,{"id":"netdev_priv", "file":"net/8021q/vlan.h", "line":72, "type":"c", "scope_line":70, "scope_name":"vlan_dev_info", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":100, "type":"c", "scope_line":98, "scope_name":"dsa_slave_close", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":118, "type":"c", "scope_line":116, "scope_name":"dsa_slave_change_rx_flags", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":129, "type":"c", "scope_line":127, "scope_name":"dsa_slave_set_rx_mode", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":138, "type":"c", "scope_line":136, "scope_name":"dsa_slave_set_mac_address", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":166, "type":"c", "scope_line":164, "scope_name":"dsa_slave_ioctl", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":179, "type":"c", "scope_line":176, "scope_name":"dsa_slave_get_settings", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":195, "type":"c", "scope_line":192, "scope_name":"dsa_slave_set_settings", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":214, "type":"c", "scope_line":212, "scope_name":"dsa_slave_nway_reset", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":224, "type":"c", "scope_line":222, "scope_name":"dsa_slave_get_link", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":237, "type":"c", "scope_line":234, "scope_name":"dsa_slave_get_strings", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":256, "type":"c", "scope_line":252, "scope_name":"dsa_slave_get_ethtool_stats", }
+,{"id":"netdev_priv", "file":"net/dsa/slave.c", "line":269, "type":"c", "scope_line":267, "scope_name":"dsa_slave_get_sset_count", }
+,];
+xr_frag_insert('t/f6/6488d360b2edc0fba8ac00adb628f91f30a014.xr', __xr_tmp);

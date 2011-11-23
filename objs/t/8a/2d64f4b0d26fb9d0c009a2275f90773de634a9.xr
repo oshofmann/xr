@@ -1,0 +1,92 @@
+var __xr_tmp = [
+{"id":"fput", "file":"ipc/mqueue.c", "line":928, "type":"c", "scope_line":839, "scope_name":"sys_mq_timedsend", }
+,{"id":"fput", "file":"ipc/shm.c", "line":180, "type":"c", "scope_line":170, "scope_name":"shm_destroy", }
+,{"id":"fput", "file":"ipc/shm.c", "line":415, "type":"c", "scope_line":333, "scope_name":"newseg", }
+,{"id":"fput", "file":"ipc/shm.c", "line":927, "type":"c", "scope_line":810, "scope_name":"do_shmat", }
+,{"id":"fput", "file":"kernel/acct.c", "line":645, "type":"c", "scope_line":623, "scope_name":"acct_process_in_ns", }
+,{"id":"fput", "file":"kernel/cgroup.c", "line":3159, "type":"c", "scope_line":3074, "scope_name":"cgroup_write_event_control", }
+,{"id":"fput", "file":"kernel/cgroup.c", "line":3160, "type":"c", "scope_line":3074, "scope_name":"cgroup_write_event_control", }
+,{"id":"fput", "file":"kernel/cgroup.c", "line":3166, "type":"c", "scope_line":3074, "scope_name":"cgroup_write_event_control", }
+,{"id":"fput", "file":"kernel/cgroup.c", "line":3172, "type":"c", "scope_line":3074, "scope_name":"cgroup_write_event_control", }
+,{"id":"fput", "file":"kernel/perf_event.c", "line":5411, "type":"c", "scope_line":5379, "scope_name":"sync_child_event", }
+,{"id":"fput", "file":"kernel/perf_event.c", "line":5530, "type":"c", "scope_line":5518, "scope_name":"perf_free_event", }
+,{"id":"fput", "file":"kernel/sysctl_binary.c", "line":1369, "type":"c", "scope_line":1321, "scope_name":"binary_sysctl", }
+,{"id":"fput", "file":"mm/fadvise.c", "line":134, "type":"c", "scope_line":27, "scope_name":"sys_fadvise64_64", }
+,{"id":"fput", "file":"mm/filemap.c", "line":1390, "type":"c", "scope_line":1375, "scope_name":"sys_readahead", }
+,{"id":"fput", "file":"mm/fremap.c", "line":205, "type":"c", "scope_line":123, "scope_name":"sys_remap_file_pages", }
+,{"id":"fput", "file":"mm/mmap.c", "line":1138, "type":"c", "scope_line":1103, "scope_name":"sys_mmap_pgoff", }
+,{"id":"fput", "file":"mm/mmap.c", "line":1360, "type":"c", "scope_line":1215, "scope_name":"mmap_region", }
+,{"id":"fput", "file":"mm/mmap.c", "line":2010, "type":"c", "scope_line":1948, "scope_name":"__split_vma", }
+,{"id":"fput", "file":"mm/mmap.c", "line":236, "type":"c", "scope_line":228, "scope_name":"remove_vma", }
+,{"id":"fput", "file":"mm/mmap.c", "line":647, "type":"c", "scope_line":509, "scope_name":"vma_adjust", }
+,{"id":"fput", "file":"mm/msync.c", "line":86, "type":"c", "scope_line":31, "scope_name":"sys_msync", }
+,{"id":"fput", "file":"mm/shmem.c", "line":2783, "type":"c", "scope_line":2773, "scope_name":"shmem_zero_setup", }
+,{"id":"fput", "file":"net/compat.c", "line":397, "type":"c", "scope_line":388, "scope_name":"compat_sys_setsockopt", }
+,{"id":"fput", "file":"net/compat.c", "line":410, "type":"c", "scope_line":388, "scope_name":"compat_sys_setsockopt", }
+,{"id":"fput", "file":"net/compat.c", "line":509, "type":"c", "scope_line":500, "scope_name":"compat_sys_getsockopt", }
+,{"id":"fput", "file":"net/compat.c", "line":522, "type":"c", "scope_line":500, "scope_name":"compat_sys_getsockopt", }
+,{"id":"fput", "file":"net/core/scm.c", "line":125, "type":"c", "scope_line":105, "scope_name":"__scm_destroy", }
+,{"id":"fput", "file":"net/socket.c", "line":1355, "type":"c", "scope_line":1313, "scope_name":"sys_socketpair", }
+,{"id":"fput", "file":"net/socket.c", "line":1525, "type":"c", "scope_line":1456, "scope_name":"sys_accept4", }
+,{"id":"fput", "file":"net/socket.c", "line":442, "type":"c", "scope_line":429, "scope_name":"sockfd_lookup", }
+,{"id":"fput", "file":"security/selinux/hooks.c", "line":2230, "type":"c", "scope_line":2161, "scope_name":"flush_unauthorized_files", }
+,{"id":"fput", "file":"security/selinux/hooks.c", "line":2243, "type":"c", "scope_line":2161, "scope_name":"flush_unauthorized_files", }
+,{"id":"fput", "file":"security/selinux/hooks.c", "line":2249, "type":"c", "scope_line":2161, "scope_name":"flush_unauthorized_files", }
+,{"id":"fput_atomic", "file":"include/linux/fs.h", "line":952, "type":"d", }
+,{"id":"fput_head", "file":"fs/aio.c", "line":66, "type":"v", }
+,{"id":"fput_light", "file":"fs/compat.c", "line":1241, "type":"c", "scope_line":1229, "scope_name":"compat_sys_readv", }
+,{"id":"fput_light", "file":"fs/compat.c", "line":1260, "type":"c", "scope_line":1245, "scope_name":"compat_sys_preadv", }
+,{"id":"fput_light", "file":"fs/compat.c", "line":1298, "type":"c", "scope_line":1286, "scope_name":"compat_sys_writev", }
+,{"id":"fput_light", "file":"fs/compat.c", "line":1317, "type":"c", "scope_line":1302, "scope_name":"compat_sys_pwritev", }
+,{"id":"fput_light", "file":"fs/compat_ioctl.c", "line":1726, "type":"c", "scope_line":1647, "scope_name":"compat_sys_ioctl", }
+,{"id":"fput_light", "file":"fs/ioctl.c", "line":619, "type":"c", "scope_line":603, "scope_name":"sys_ioctl", }
+,{"id":"fput_light", "file":"fs/namei.c", "line":1043, "type":"c", "scope_line":1005, "scope_name":"path_init", }
+,{"id":"fput_light", "file":"fs/namei.c", "line":1048, "type":"c", "scope_line":1005, "scope_name":"path_init", }
+,{"id":"fput_light", "file":"fs/notify/inotify/inotify_user.c", "line":802, "type":"c", "scope_line":765, "scope_name":"sys_inotify_add_watch", }
+,{"id":"fput_light", "file":"fs/notify/inotify/inotify_user.c", "line":837, "type":"c", "scope_line":806, "scope_name":"sys_inotify_rm_watch", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":185, "type":"c", "scope_line":167, "scope_name":"sys_lseek", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":219, "type":"c", "scope_line":191, "scope_name":"sys_llseek", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":402, "type":"c", "scope_line":391, "scope_name":"sys_read", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":420, "type":"c", "scope_line":408, "scope_name":"sys_write", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":441, "type":"c", "scope_line":426, "scope_name":"sys_pread64", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":470, "type":"c", "scope_line":455, "scope_name":"sys_pwrite64", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":723, "type":"c", "scope_line":711, "scope_name":"sys_readv", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":744, "type":"c", "scope_line":732, "scope_name":"sys_writev", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":775, "type":"c", "scope_line":759, "scope_name":"sys_preadv", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":800, "type":"c", "scope_line":784, "scope_name":"sys_pwritev", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":890, "type":"c", "scope_line":809, "scope_name":"do_sendfile", }
+,{"id":"fput_light", "file":"fs/read_write.c", "line":892, "type":"c", "scope_line":809, "scope_name":"do_sendfile", }
+,{"id":"fput_light", "file":"fs/select.c", "line":456, "type":"c", "scope_line":396, "scope_name":"do_select", }
+,{"id":"fput_light", "file":"fs/select.c", "line":749, "type":"c", "scope_line":726, "scope_name":"do_pollfd", }
+,{"id":"fput_light", "file":"fs/splice.c", "line":1700, "type":"c", "scope_line":1680, "scope_name":"sys_vmsplice", }
+,{"id":"fput_light", "file":"fs/splice.c", "line":1727, "type":"c", "scope_line":1706, "scope_name":"sys_splice", }
+,{"id":"fput_light", "file":"fs/splice.c", "line":1731, "type":"c", "scope_line":1706, "scope_name":"sys_splice", }
+,{"id":"fput_light", "file":"fs/splice.c", "line":2067, "type":"c", "scope_line":2049, "scope_name":"sys_tee", }
+,{"id":"fput_light", "file":"fs/splice.c", "line":2070, "type":"c", "scope_line":2049, "scope_name":"sys_tee", }
+,{"id":"fput_light", "file":"fs/sync.c", "line":349, "type":"c", "scope_line":270, "scope_name":"sys_sync_file_range", }
+,{"id":"fput_light", "file":"include/linux/file.h", "line":24, "type":"f", }
+,{"id":"fput_light", "file":"kernel/perf_event.c", "line":2246, "type":"c", "scope_line":2237, "scope_name":"perf_fget_light", }
+,{"id":"fput_light", "file":"kernel/perf_event.c", "line":2295, "type":"c", "scope_line":2258, "scope_name":"perf_ioctl", }
+,{"id":"fput_light", "file":"kernel/perf_event.c", "line":5211, "type":"c", "scope_line":5091, "scope_name":"sys_perf_event_open", }
+,{"id":"fput_light", "file":"kernel/perf_event.c", "line":5218, "type":"c", "scope_line":5091, "scope_name":"sys_perf_event_open", }
+,{"id":"fput_light", "file":"kernel/taskstats.c", "line":423, "type":"c", "scope_line":382, "scope_name":"cgroupstats_user_cmd", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1412, "type":"c", "scope_line":1394, "scope_name":"sys_bind", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1439, "type":"c", "scope_line":1423, "scope_name":"sys_listen", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1521, "type":"c", "scope_line":1456, "scope_name":"sys_accept4", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1570, "type":"c", "scope_line":1548, "scope_name":"sys_connect", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1601, "type":"c", "scope_line":1580, "scope_name":"sys_getsockname", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1622, "type":"c", "scope_line":1611, "scope_name":"sys_getpeername", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1632, "type":"c", "scope_line":1611, "scope_name":"sys_getpeername", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1679, "type":"c", "scope_line":1643, "scope_name":"sys_sendto", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1734, "type":"c", "scope_line":1700, "scope_name":"sys_recvfrom", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1778, "type":"c", "scope_line":1754, "scope_name":"sys_setsockopt", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1809, "type":"c", "scope_line":1788, "scope_name":"sys_getsockopt", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1828, "type":"c", "scope_line":1818, "scope_name":"sys_shutdown", }
+,{"id":"fput_light", "file":"net/socket.c", "line":1940, "type":"c", "scope_line":1844, "scope_name":"sys_sendmsg", }
+,{"id":"fput_light", "file":"net/socket.c", "line":2055, "type":"c", "scope_line":2043, "scope_name":"sys_recvmsg", }
+,{"id":"fput_light", "file":"net/socket.c", "line":2139, "type":"c", "scope_line":2064, "scope_name":"__sys_recvmmsg", }
+,{"id":"fput_light", "file":"net/socket.c", "line":458, "type":"c", "scope_line":447, "scope_name":"sockfd_lookup_light", }
+,{"id":"fput_lock", "file":"fs/aio.c", "line":65, "type":"v", }
+,{"id":"fput_work", "file":"fs/aio.c", "line":63, "type":"v", }
+,];
+xr_frag_insert('t/8a/2d64f4b0d26fb9d0c009a2275f90773de634a9.xr', __xr_tmp);

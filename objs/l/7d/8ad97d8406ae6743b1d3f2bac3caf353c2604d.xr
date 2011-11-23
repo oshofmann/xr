@@ -1,0 +1,17 @@
+var __xr_tmp = [
+"extern int <a class=\"id\" href=\"#ip_vs_icmp_xmit_v6\">ip_vs_icmp_xmit_v6</a>", 
+"(struct <a class=\"id\" href=\"#sk_buff\">sk_buff</a> *<a class=\"id\" href=\"#skb\">skb</a>, struct <a class=\"id\" href=\"#ip_vs_conn\">ip_vs_conn</a> *<a class=\"id\" href=\"#cp\">cp</a>, struct <a class=\"id\" href=\"#ip_vs_protocol\">ip_vs_protocol</a> *<a class=\"id\" href=\"#pp\">pp</a>,", 
+" int <a class=\"id\" href=\"#offset\">offset</a>);", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+"", 
+"<span class=\"comment\">/*</span>", 
+"<span class=\"comment\"> *<span class=\"ts\"/>This is a simple mechanism to ignore packets when</span>", 
+"<span class=\"comment\"> *<span class=\"ts\"/>we are loaded. Just set ip_vs_drop_rate to 'n' and</span>", 
+"<span class=\"comment\"> *<span class=\"ts\"/>we start to drop 1/rate of the packets</span>", 
+"<span class=\"comment\"> */</span>", 
+"extern int <a class=\"id\" href=\"#ip_vs_drop_rate\">ip_vs_drop_rate</a>;", 
+"extern int <a class=\"id\" href=\"#ip_vs_drop_counter\">ip_vs_drop_counter</a>;", 
+"", 
+"static <a class=\"id\" href=\"#__inline__\">__inline__</a> int <a class=\"id\" href=\"#ip_vs_todrop\">ip_vs_todrop</a>(void)", 
+];
+xr_frag_insert('l/7d/8ad97d8406ae6743b1d3f2bac3caf353c2604d.xr', __xr_tmp);

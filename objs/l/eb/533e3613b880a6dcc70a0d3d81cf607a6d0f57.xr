@@ -1,0 +1,19 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#VEXTERN\">VEXTERN</a>", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#asm\">asm</a>/<a class=\"id\" href=\"#vsyscall\">vsyscall</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#VEXTERN\">VEXTERN</a>(<a class=\"id\" href=\"#x\">x</a>) \\", 
+"<span class=\"ts\"/>extern <a class=\"id\" href=\"#typeof\">typeof</a>(<a class=\"id\" href=\"#x\">x</a>) *<a class=\"id\" href=\"#vdso_\">vdso_</a> ## <a class=\"id\" href=\"#x\">x</a> <a class=\"id\" href=\"#__attribute__\">__attribute__</a>((<a class=\"id\" href=\"#visibility\">visibility</a>(\"hidden\")));", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+"", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#VMAGIC\">VMAGIC</a> 0xfeedbabeabcdefabUL", 
+"", 
+"<span class=\"comment\">/* Any kernel variables used in the vDSO must be exported in the main</span>", 
+"<span class=\"comment\">   kernel's vmlinux.lds.S/vsyscall.h/proper __section and</span>", 
+"<span class=\"comment\">   put into vextern.h and be referenced as a pointer with vdso prefix.</span>", 
+"<span class=\"comment\">   The main kernel later fills in the values.   */</span>", 
+"", 
+"<a class=\"id\" href=\"#VEXTERN\">VEXTERN</a>(<a class=\"id\" href=\"#jiffies\">jiffies</a>)", 
+"<a class=\"id\" href=\"#VEXTERN\">VEXTERN</a>(<a class=\"id\" href=\"#vgetcpu_mode\">vgetcpu_mode</a>)", 
+"<a class=\"id\" href=\"#VEXTERN\">VEXTERN</a>(<a class=\"id\" href=\"#vsyscall_gtod_data\">vsyscall_gtod_data</a>)", 
+];
+xr_frag_insert('l/eb/533e3613b880a6dcc70a0d3d81cf607a6d0f57.xr', __xr_tmp);

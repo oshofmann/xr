@@ -1,0 +1,168 @@
+var __xr_tmp = [
+{"id":"unix_dgram_sendmsg", "file":"net/unix/af_unix.c", "line":1381, "type":"f", }
+,{"id":"unix_dgram_sendmsg", "file":"net/unix/af_unix.c", "line":1666, "type":"c", "scope_line":1650, "scope_name":"unix_seqpacket_sendmsg", }
+,{"id":"unix_family_ops", "file":"net/unix/af_unix.c", "line":2253, "type":"v", }
+,{"id":"unix_find_other", "file":"net/unix/af_unix.c", "line":1090, "type":"c", "scope_line":1045, "scope_name":"unix_stream_connect", }
+,{"id":"unix_find_other", "file":"net/unix/af_unix.c", "line":1451, "type":"c", "scope_line":1381, "scope_name":"unix_dgram_sendmsg", }
+,{"id":"unix_find_other", "file":"net/unix/af_unix.c", "line":746, "type":"f", }
+,{"id":"unix_find_other", "file":"net/unix/af_unix.c", "line":971, "type":"c", "scope_line":950, "scope_name":"unix_dgram_connect", }
+,{"id":"unix_find_socket_byinode", "file":"net/unix/af_unix.c", "line":285, "type":"f", }
+,{"id":"unix_find_socket_byinode", "file":"net/unix/af_unix.c", "line":767, "type":"c", "scope_line":746, "scope_name":"unix_find_other", }
+,{"id":"unix_find_socket_byname", "file":"net/unix/af_unix.c", "line":270, "type":"f", }
+,{"id":"unix_find_socket_byname", "file":"net/unix/af_unix.c", "line":783, "type":"c", "scope_line":746, "scope_name":"unix_find_other", }
+,{"id":"unix_gc", "file":"net/unix/af_unix.c", "line":445, "type":"c", "scope_line":373, "scope_name":"unix_release_sock", }
+,{"id":"unix_gc", "file":"net/unix/garbage.c", "line":269, "type":"f", }
+,{"id":"unix_gc_lock", "file":"net/unix/garbage.c", "line":93, "type":"v", }
+,{"id":"unix_gc_wait", "file":"net/unix/garbage.c", "line":94, "type":"v", }
+,{"id":"unix_get_peersec_dgram", "file":"include/net/scm.h", "line":38, "type":"f", }
+,{"id":"unix_get_peersec_dgram", "file":"include/net/scm.h", "line":77, "type":"c", "scope_line":72, "scope_name":"scm_send", }
+,{"id":"unix_get_secdata", "file":"net/unix/af_unix.c", "line":127, "type":"f", }
+,{"id":"unix_get_secdata", "file":"net/unix/af_unix.c", "line":1436, "type":"c", "scope_line":1381, "scope_name":"unix_dgram_sendmsg", }
+,{"id":"unix_get_socket", "file":"net/unix/garbage.c", "line":127, "type":"c", "scope_line":125, "scope_name":"unix_inflight", }
+,{"id":"unix_get_socket", "file":"net/unix/garbage.c", "line":144, "type":"c", "scope_line":142, "scope_name":"unix_notinflight", }
+,{"id":"unix_get_socket", "file":"net/unix/garbage.c", "line":179, "type":"c", "scope_line":156, "scope_name":"scan_inflight", }
+,{"id":"unix_get_socket", "file":"net/unix/garbage.c", "line":99, "type":"f", }
+,{"id":"unix_getname", "file":"net/unix/af_unix.c", "line":1284, "type":"f", }
+,{"id":"unix_hash_fold", "file":"net/unix/af_unix.c", "line":150, "type":"f", }
+,{"id":"unix_hash_fold", "file":"net/unix/af_unix.c", "line":219, "type":"c", "scope_line":200, "scope_name":"unix_mkname", }
+,{"id":"unix_hash_fold", "file":"net/unix/af_unix.c", "line":713, "type":"c", "scope_line":687, "scope_name":"unix_autobind", }
+,{"id":"unix_inflight", "file":"net/unix/af_unix.c", "line":1360, "type":"c", "scope_line":1346, "scope_name":"unix_attach_fds", }
+,{"id":"unix_inflight", "file":"net/unix/garbage.c", "line":125, "type":"f", }
+,{"id":"unix_insert_socket", "file":"net/unix/af_unix.c", "line":241, "type":"f", }
+,{"id":"unix_insert_socket", "file":"net/unix/af_unix.c", "line":632, "type":"c", "scope_line":604, "scope_name":"unix_create1", }
+,{"id":"unix_ioctl", "file":"net/unix/af_unix.c", "line":1980, "type":"f", }
+,{"id":"unix_iter_state", "file":"net/unix/af_unix.c", "line":2137, "type":"s", }
+,{"id":"unix_listen", "file":"net/unix/af_unix.c", "line":468, "type":"f", }
+,{"id":"unix_may_send", "file":"include/linux/security.h", "line":1565, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"unix_may_send", "file":"net/unix/af_unix.c", "line":1459, "type":"c", "scope_line":1381, "scope_name":"unix_dgram_sendmsg", }
+,{"id":"unix_may_send", "file":"net/unix/af_unix.c", "line":165, "type":"f", }
+,{"id":"unix_may_send", "file":"net/unix/af_unix.c", "line":985, "type":"c", "scope_line":950, "scope_name":"unix_dgram_connect", }
+,{"id":"unix_mkname", "file":"net/unix/af_unix.c", "line":1060, "type":"c", "scope_line":1045, "scope_name":"unix_stream_connect", }
+,{"id":"unix_mkname", "file":"net/unix/af_unix.c", "line":1409, "type":"c", "scope_line":1381, "scope_name":"unix_dgram_sendmsg", }
+,{"id":"unix_mkname", "file":"net/unix/af_unix.c", "line":200, "type":"f", }
+,{"id":"unix_mkname", "file":"net/unix/af_unix.c", "line":824, "type":"c", "scope_line":802, "scope_name":"unix_bind", }
+,{"id":"unix_mkname", "file":"net/unix/af_unix.c", "line":961, "type":"c", "scope_line":950, "scope_name":"unix_dgram_connect", }
+,{"id":"unix_net_exit", "file":"net/unix/af_unix.c", "line":2279, "type":"f", }
+,{"id":"unix_net_init", "file":"net/unix/af_unix.c", "line":2260, "type":"f", }
+,{"id":"unix_net_ops", "file":"net/unix/af_unix.c", "line":2285, "type":"v", }
+,{"id":"unix_notinflight", "file":"net/unix/af_unix.c", "line":1328, "type":"c", "scope_line":1320, "scope_name":"unix_detach_fds", }
+,{"id":"unix_notinflight", "file":"net/unix/garbage.c", "line":142, "type":"f", }
+,{"id":"unix_nr_socks", "file":"net/unix/af_unix.c", "line":120, "type":"v", }
+,{"id":"unix_our_peer", "file":"net/unix/af_unix.c", "line":160, "type":"f", }
+,{"id":"unix_our_peer", "file":"net/unix/af_unix.c", "line":167, "type":"c", "scope_line":165, "scope_name":"unix_may_send", }
+,{"id":"unix_path", "file":"net/unix/sysctl_net_unix.c", "line":29, "type":"v", }
+,{"id":"unix_peer", "file":"net/unix/af_unix.c", "line":158, "type":"d", }
+,{"id":"unix_peer_get", "file":"net/unix/af_unix.c", "line":1292, "type":"c", "scope_line":1284, "scope_name":"unix_getname", }
+,{"id":"unix_peer_get", "file":"net/unix/af_unix.c", "line":1416, "type":"c", "scope_line":1381, "scope_name":"unix_dgram_sendmsg", }
+,{"id":"unix_peer_get", "file":"net/unix/af_unix.c", "line":175, "type":"f", }
+,{"id":"unix_peer_get", "file":"net/unix/af_unix.c", "line":2092, "type":"c", "scope_line":2058, "scope_name":"unix_dgram_poll", }
+,{"id":"unix_poll", "file":"net/unix/af_unix.c", "line":2022, "type":"f", }
+,{"id":"unix_proto", "file":"net/unix/af_unix.c", "line":590, "type":"v", }
+,{"id":"unix_recvq_full", "file":"net/unix/af_unix.c", "line":1032, "type":"c", "scope_line":1024, "scope_name":"unix_wait_for_peer", }
+,{"id":"unix_recvq_full", "file":"net/unix/af_unix.c", "line":1110, "type":"c", "scope_line":1045, "scope_name":"unix_stream_connect", }
+,{"id":"unix_recvq_full", "file":"net/unix/af_unix.c", "line":1499, "type":"c", "scope_line":1381, "scope_name":"unix_dgram_sendmsg", }
+,{"id":"unix_recvq_full", "file":"net/unix/af_unix.c", "line":170, "type":"f", }
+,{"id":"unix_recvq_full", "file":"net/unix/af_unix.c", "line":2097, "type":"c", "scope_line":2058, "scope_name":"unix_dgram_poll", }
+,{"id":"unix_release", "file":"net/unix/af_unix.c", "line":675, "type":"f", }
+,{"id":"unix_release_addr", "file":"net/unix/af_unix.c", "line":187, "type":"f", }
+,{"id":"unix_release_addr", "file":"net/unix/af_unix.c", "line":361, "type":"c", "scope_line":346, "scope_name":"unix_sock_destructor", }
+,{"id":"unix_release_addr", "file":"net/unix/af_unix.c", "line":890, "type":"c", "scope_line":802, "scope_name":"unix_bind", }
+,{"id":"unix_release_addr", "file":"net/unix/af_unix.c", "line":921, "type":"c", "scope_line":802, "scope_name":"unix_bind", }
+,{"id":"unix_release_sock", "file":"net/unix/af_unix.c", "line":1214, "type":"c", "scope_line":1045, "scope_name":"unix_stream_connect", }
+,{"id":"unix_release_sock", "file":"net/unix/af_unix.c", "line":373, "type":"f", }
+,{"id":"unix_release_sock", "file":"net/unix/af_unix.c", "line":419, "type":"c", "scope_line":373, "scope_name":"unix_release_sock", }
+,{"id":"unix_release_sock", "file":"net/unix/af_unix.c", "line":684, "type":"c", "scope_line":675, "scope_name":"unix_release", }
+,{"id":"unix_remove_socket", "file":"net/unix/af_unix.c", "line":234, "type":"f", }
+,{"id":"unix_remove_socket", "file":"net/unix/af_unix.c", "line":382, "type":"c", "scope_line":373, "scope_name":"unix_release_sock", }
+,{"id":"unix_scm_to_skb", "file":"net/unix/af_unix.c", "line":1364, "type":"f", }
+,{"id":"unix_scm_to_skb", "file":"net/unix/af_unix.c", "line":1433, "type":"c", "scope_line":1381, "scope_name":"unix_dgram_sendmsg", }
+,{"id":"unix_scm_to_skb", "file":"net/unix/af_unix.c", "line":1607, "type":"c", "scope_line":1533, "scope_name":"unix_stream_sendmsg", }
+,{"id":"unix_seq_fops", "file":"net/unix/af_unix.c", "line":2243, "type":"v", }
+,{"id":"unix_seq_idx", "file":"net/unix/af_unix.c", "line":2142, "type":"f", }
+,{"id":"unix_seq_idx", "file":"net/unix/af_unix.c", "line":2162, "type":"c", "scope_line":2158, "scope_name":"unix_seq_start", }
+,{"id":"unix_seq_next", "file":"net/unix/af_unix.c", "line":2165, "type":"f", }
+,{"id":"unix_seq_open", "file":"net/unix/af_unix.c", "line":2237, "type":"f", }
+,{"id":"unix_seq_ops", "file":"net/unix/af_unix.c", "line":2230, "type":"v", }
+,{"id":"unix_seq_show", "file":"net/unix/af_unix.c", "line":2186, "type":"f", }
+,{"id":"unix_seq_start", "file":"net/unix/af_unix.c", "line":2158, "type":"f", }
+,{"id":"unix_seq_stop", "file":"net/unix/af_unix.c", "line":2180, "type":"f", }
+,{"id":"unix_seqpacket_ops", "file":"net/unix/af_unix.c", "line":569, "type":"v", }
+,{"id":"unix_seqpacket_sendmsg", "file":"net/unix/af_unix.c", "line":1650, "type":"f", }
+,{"id":"unix_set_secdata", "file":"net/unix/af_unix.c", "line":132, "type":"f", }
+,{"id":"unix_set_secdata", "file":"net/unix/af_unix.c", "line":1730, "type":"c", "scope_line":1680, "scope_name":"unix_dgram_recvmsg", }
+,{"id":"unix_shutdown", "file":"net/unix/af_unix.c", "line":1940, "type":"f", }
+,{"id":"unix_sk", "file":"include/net/af_unix.h", "line":61, "type":"d", }
+,{"id":"unix_skb_parms", "file":"include/net/af_unix.h", "line":25, "type":"s", }
+,{"id":"unix_sock", "file":"include/net/af_unix.h", "line":45, "type":"s", }
+,{"id":"unix_sock_destructor", "file":"net/unix/af_unix.c", "line":346, "type":"f", }
+,{"id":"unix_socket_table", "file":"net/unix/af_unix.c", "line":118, "type":"v", }
+,{"id":"unix_socketpair", "file":"net/unix/af_unix.c", "line":1220, "type":"f", }
+,{"id":"unix_sockets_unbound", "file":"net/unix/af_unix.c", "line":122, "type":"d", }
+,{"id":"unix_state_double_lock", "file":"net/unix/af_unix.c", "line":925, "type":"f", }
+,{"id":"unix_state_double_lock", "file":"net/unix/af_unix.c", "line":975, "type":"c", "scope_line":950, "scope_name":"unix_dgram_connect", }
+,{"id":"unix_state_double_lock", "file":"net/unix/af_unix.c", "line":997, "type":"c", "scope_line":950, "scope_name":"unix_dgram_connect", }
+,{"id":"unix_state_double_unlock", "file":"net/unix/af_unix.c", "line":1006, "type":"c", "scope_line":950, "scope_name":"unix_dgram_connect", }
+,{"id":"unix_state_double_unlock", "file":"net/unix/af_unix.c", "line":1013, "type":"c", "scope_line":950, "scope_name":"unix_dgram_connect", }
+,{"id":"unix_state_double_unlock", "file":"net/unix/af_unix.c", "line":1018, "type":"c", "scope_line":950, "scope_name":"unix_dgram_connect", }
+,{"id":"unix_state_double_unlock", "file":"net/unix/af_unix.c", "line":940, "type":"f", }
+,{"id":"unix_state_double_unlock", "file":"net/unix/af_unix.c", "line":979, "type":"c", "scope_line":950, "scope_name":"unix_dgram_connect", }
+,{"id":"unix_state_lock", "file":"include/net/af_unix.h", "line":37, "type":"d", }
+,{"id":"unix_state_lock_nested", "file":"include/net/af_unix.h", "line":39, "type":"d", }
+,{"id":"unix_state_unlock", "file":"include/net/af_unix.h", "line":38, "type":"d", }
+,{"id":"unix_stream_connect", "file":"include/linux/security.h", "line":1563, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"unix_stream_connect", "file":"net/unix/af_unix.c", "line":1045, "type":"f", }
+,{"id":"unix_stream_data_wait", "file":"net/unix/af_unix.c", "line":1767, "type":"f", }
+,{"id":"unix_stream_data_wait", "file":"net/unix/af_unix.c", "line":1862, "type":"c", "scope_line":1797, "scope_name":"unix_stream_recvmsg", }
+,{"id":"unix_stream_ops", "file":"net/unix/af_unix.c", "line":527, "type":"v", }
+,{"id":"unix_stream_recvmsg", "file":"net/unix/af_unix.c", "line":1797, "type":"f", }
+,{"id":"unix_stream_sendmsg", "file":"net/unix/af_unix.c", "line":1533, "type":"f", }
+,{"id":"unix_sysctl_register", "file":"net/unix/af_unix.c", "line":2265, "type":"c", "scope_line":2260, "scope_name":"unix_net_init", }
+,{"id":"unix_sysctl_register", "file":"net/unix/sysctl_net_unix.c", "line":35, "type":"f", }
+,{"id":"unix_sysctl_unregister", "file":"net/unix/af_unix.c", "line":2270, "type":"c", "scope_line":2260, "scope_name":"unix_net_init", }
+,{"id":"unix_sysctl_unregister", "file":"net/unix/af_unix.c", "line":2281, "type":"c", "scope_line":2279, "scope_name":"unix_net_exit", }
+,{"id":"unix_sysctl_unregister", "file":"net/unix/sysctl_net_unix.c", "line":56, "type":"f", }
+,{"id":"unix_table", "file":"net/unix/sysctl_net_unix.c", "line":18, "type":"v", }
+,{"id":"unix_table_lock", "file":"net/unix/af_unix.c", "line":119, "type":"v", }
+,{"id":"unix_tot_inflight", "file":"include/net/af_unix.h", "line":16, "type":"v", }
+,{"id":"unix_wait_for_peer", "file":"net/unix/af_unix.c", "line":1024, "type":"f", }
+,{"id":"unix_wait_for_peer", "file":"net/unix/af_unix.c", "line":1115, "type":"c", "scope_line":1045, "scope_name":"unix_stream_connect", }
+,{"id":"unix_wait_for_peer", "file":"net/unix/af_unix.c", "line":1505, "type":"c", "scope_line":1381, "scope_name":"unix_dgram_sendmsg", }
+,{"id":"unix_writable", "file":"net/unix/af_unix.c", "line":2052, "type":"c", "scope_line":2022, "scope_name":"unix_poll", }
+,{"id":"unix_writable", "file":"net/unix/af_unix.c", "line":2090, "type":"c", "scope_line":2058, "scope_name":"unix_dgram_poll", }
+,{"id":"unix_writable", "file":"net/unix/af_unix.c", "line":306, "type":"f", }
+,{"id":"unix_writable", "file":"net/unix/af_unix.c", "line":316, "type":"c", "scope_line":311, "scope_name":"unix_write_space", }
+,{"id":"unix_write_space", "file":"net/unix/af_unix.c", "line":311, "type":"f", }
+,{"id":"unixware_disklabel", "file":"include/linux/genhd.h", "line":483, "type":"s", }
+,{"id":"unixware_slice", "file":"include/linux/genhd.h", "line":476, "type":"s", }
+,{"id":"unixware_vtoc", "file":"include/linux/genhd.h", "line":483, "type":"s", }
+,{"id":"unknown", "file":"fs/partitions/efi.h", "line":107, "type":"m", "scope_line":104, "scope_name":"struct _legacy_mbr", }
+,{"id":"unknown", "file":"include/linux/edd.h", "line":111, "type":"m", "scope_line":71, "scope_name":"struct edd_device_params", }
+,{"id":"unknown", "file":"include/linux/edd.h", "line":166, "type":"m", "scope_line":71, "scope_name":"struct edd_device_params", }
+,{"id":"unknown_bootoption", "file":"init/main.c", "line":270, "type":"f", }
+,{"id":"unknown_nmi_error", "file":"arch/x86/kernel/traps.c", "line":353, "type":"f", }
+,{"id":"unknown_nmi_error", "file":"arch/x86/kernel/traps.c", "line":410, "type":"c", "scope_line":380, "scope_name":"default_do_nmi", }
+,{"id":"unknown_nmi_panic", "file":"arch/x86/include/asm/nmi.h", "line":46, "type":"v", }
+,{"id":"unknown_nmi_panic_callback", "file":"arch/x86/kernel/apic/nmi.c", "line":493, "type":"f", }
+,{"id":"unknown_nmi_panic_callback", "file":"arch/x86/kernel/apic/nmi.c", "line":547, "type":"c", "scope_line":543, "scope_name":"do_nmi_callback", }
+,{"id":"unlazy_fpu", "file":"arch/x86/include/asm/i387.h", "line":416, "type":"d", }
+,{"id":"unlikely", "file":"include/linux/compiler.h", "line":143, "type":"d", }
+,{"id":"unlink", "file":"include/linux/fs.h", "line":1520, "type":"m", "scope_line":1516, "scope_name":"struct inode_operations", }
+,{"id":"unlink_anon_vmas", "file":"include/linux/rmap.h", "line":157, "type":"c", "scope_line":153, "scope_name":"anon_vma_merge", }
+,{"id":"unlink_anon_vmas", "file":"mm/memory.c", "line":373, "type":"c", "scope_line":362, "scope_name":"free_pgtables", }
+,{"id":"unlink_anon_vmas", "file":"mm/memory.c", "line":387, "type":"c", "scope_line":362, "scope_name":"free_pgtables", }
+,{"id":"unlink_anon_vmas", "file":"mm/mmap.c", "line":2012, "type":"c", "scope_line":1948, "scope_name":"__split_vma", }
+,{"id":"unlink_anon_vmas", "file":"mm/rmap.c", "line":201, "type":"c", "scope_line":188, "scope_name":"anon_vma_clone", }
+,{"id":"unlink_anon_vmas", "file":"mm/rmap.c", "line":254, "type":"c", "scope_line":210, "scope_name":"anon_vma_fork", }
+,{"id":"unlink_anon_vmas", "file":"mm/rmap.c", "line":282, "type":"f", }
+,{"id":"unlink_done", "file":"include/linux/nfs_xdr.h", "line":1038, "type":"m", "scope_line":1014, "scope_name":"struct nfs_rpc_ops", }
+,{"id":"unlink_file_vma", "file":"mm/memory.c", "line":374, "type":"c", "scope_line":362, "scope_name":"free_pgtables", }
+,{"id":"unlink_file_vma", "file":"mm/memory.c", "line":388, "type":"c", "scope_line":362, "scope_name":"free_pgtables", }
+,{"id":"unlink_file_vma", "file":"mm/mmap.c", "line":213, "type":"f", }
+,{"id":"unlink_from_pool", "file":"net/ipv4/inetpeer.c", "line":319, "type":"f", }
+,{"id":"unlink_from_pool", "file":"net/ipv4/inetpeer.c", "line":409, "type":"c", "scope_line":377, "scope_name":"cleanup_once", }
+,{"id":"unlink_from_unused", "file":"net/ipv4/inetpeer.c", "line":145, "type":"f", }
+,{"id":"unlink_from_unused", "file":"net/ipv4/inetpeer.c", "line":430, "type":"c", "scope_line":414, "scope_name":"inet_getpeer", }
+,{"id":"unlink_from_unused", "file":"net/ipv4/inetpeer.c", "line":443, "type":"c", "scope_line":414, "scope_name":"inet_getpeer", }
+,{"id":"unlink_gendisk", "file":"block/genhd.c", "line":559, "type":"f", }
+,];
+xr_frag_insert('t/4d/57347c582e2d40abcd27e315a8605ecdbac900.xr', __xr_tmp);

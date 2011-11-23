@@ -1,0 +1,125 @@
+var __xr_tmp = [
+{"id":"notes_attrs", "file":"include/linux/module.h", "line":337, "type":"m", "scope_line":244, "scope_name":"struct module", }
+,{"id":"notes_read", "file":"kernel/ksysfs.c", "line":141, "type":"f", }
+,{"id":"notes_size", "file":"kernel/ksysfs.c", "line":139, "type":"d", }
+,{"id":"notesize", "file":"fs/binfmt_elf.c", "line":1182, "type":"f", }
+,{"id":"notesize", "file":"fs/binfmt_elf.c", "line":1405, "type":"c", "scope_line":1386, "scope_name":"fill_thread_core_info", }
+,{"id":"notesize", "file":"fs/binfmt_elf.c", "line":1438, "type":"c", "scope_line":1386, "scope_name":"fill_thread_core_info", }
+,{"id":"notesize", "file":"fs/binfmt_elf.c", "line":1525, "type":"c", "scope_line":1446, "scope_name":"fill_note_info", }
+,{"id":"notesize", "file":"fs/binfmt_elf.c", "line":1528, "type":"c", "scope_line":1446, "scope_name":"fill_note_info", }
+,{"id":"notesize", "file":"fs/proc/kcore.c", "line":272, "type":"f", }
+,{"id":"notesize", "file":"fs/proc/kcore.c", "line":390, "type":"c", "scope_line":314, "scope_name":"elf_kcore_store_hdr", }
+,{"id":"notesize", "file":"fs/proc/kcore.c", "line":407, "type":"c", "scope_line":314, "scope_name":"elf_kcore_store_hdr", }
+,{"id":"notesize", "file":"fs/proc/kcore.c", "line":416, "type":"c", "scope_line":314, "scope_name":"elf_kcore_store_hdr", }
+,{"id":"notif_lock", "file":"security/selinux/avc.c", "line":360, "type":"v", }
+,{"id":"notification_class", "file":"include/linux/cdrom.h", "line":1165, "type":"m", "scope_line":1158, "scope_name":"struct event_header", }
+,{"id":"notification_enabled", "file":"drivers/pci/hotplug/pciehp.h", "line":98, "type":"m", "scope_line":88, "scope_name":"struct controller", }
+,{"id":"notification_list", "file":"include/linux/fsnotify_backend.h", "line":128, "type":"m", "scope_line":113, "scope_name":"struct fsnotify_group", }
+,{"id":"notification_mutex", "file":"include/linux/fsnotify_backend.h", "line":127, "type":"m", "scope_line":113, "scope_name":"struct fsnotify_group", }
+,{"id":"notification_type", "file":"include/linux/cper.h", "line":222, "type":"m", "scope_line":210, "scope_name":"struct cper_record_header", }
+,{"id":"notification_waitq", "file":"include/linux/fsnotify_backend.h", "line":129, "type":"m", "scope_line":113, "scope_name":"struct fsnotify_group", }
+,{"id":"notifier", "file":"include/linux/sched.h", "line":1332, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"notifier_add", "file":"drivers/char/hvc_console.h", "line":73, "type":"m", "scope_line":68, "scope_name":"struct hv_ops", }
+,{"id":"notifier_add_irq", "file":"drivers/char/hvc_irq.c", "line":23, "type":"f", }
+,{"id":"notifier_block", "file":"include/linux/notifier.h", "line":50, "type":"s", }
+,{"id":"notifier_call", "file":"include/linux/notifier.h", "line":51, "type":"m", "scope_line":50, "scope_name":"struct notifier_block", }
+,{"id":"notifier_call_chain", "file":"kernel/notifier.c", "line":182, "type":"c", "scope_line":175, "scope_name":"__atomic_notifier_call_chain", }
+,{"id":"notifier_call_chain", "file":"kernel/notifier.c", "line":314, "type":"c", "scope_line":301, "scope_name":"__blocking_notifier_call_chain", }
+,{"id":"notifier_call_chain", "file":"kernel/notifier.c", "line":391, "type":"c", "scope_line":387, "scope_name":"__raw_notifier_call_chain", }
+,{"id":"notifier_call_chain", "file":"kernel/notifier.c", "line":494, "type":"c", "scope_line":486, "scope_name":"__srcu_notifier_call_chain", }
+,{"id":"notifier_call_chain", "file":"kernel/notifier.c", "line":74, "type":"f", }
+,{"id":"notifier_chain_cond_register", "file":"kernel/notifier.c", "line":247, "type":"c", "scope_line":241, "scope_name":"blocking_notifier_chain_cond_register", }
+,{"id":"notifier_chain_cond_register", "file":"kernel/notifier.c", "line":34, "type":"f", }
+,{"id":"notifier_chain_register", "file":"kernel/notifier.c", "line":127, "type":"c", "scope_line":120, "scope_name":"atomic_notifier_chain_register", }
+,{"id":"notifier_chain_register", "file":"kernel/notifier.c", "line":21, "type":"f", }
+,{"id":"notifier_chain_register", "file":"kernel/notifier.c", "line":221, "type":"c", "scope_line":210, "scope_name":"blocking_notifier_chain_register", }
+,{"id":"notifier_chain_register", "file":"kernel/notifier.c", "line":224, "type":"c", "scope_line":210, "scope_name":"blocking_notifier_chain_register", }
+,{"id":"notifier_chain_register", "file":"kernel/notifier.c", "line":347, "type":"c", "scope_line":344, "scope_name":"raw_notifier_chain_register", }
+,{"id":"notifier_chain_register", "file":"kernel/notifier.c", "line":428, "type":"c", "scope_line":417, "scope_name":"srcu_notifier_chain_register", }
+,{"id":"notifier_chain_register", "file":"kernel/notifier.c", "line":431, "type":"c", "scope_line":417, "scope_name":"srcu_notifier_chain_register", }
+,{"id":"notifier_chain_unregister", "file":"kernel/notifier.c", "line":149, "type":"c", "scope_line":142, "scope_name":"atomic_notifier_chain_unregister", }
+,{"id":"notifier_chain_unregister", "file":"kernel/notifier.c", "line":274, "type":"c", "scope_line":263, "scope_name":"blocking_notifier_chain_unregister", }
+,{"id":"notifier_chain_unregister", "file":"kernel/notifier.c", "line":277, "type":"c", "scope_line":263, "scope_name":"blocking_notifier_chain_unregister", }
+,{"id":"notifier_chain_unregister", "file":"kernel/notifier.c", "line":364, "type":"c", "scope_line":361, "scope_name":"raw_notifier_chain_unregister", }
+,{"id":"notifier_chain_unregister", "file":"kernel/notifier.c", "line":458, "type":"c", "scope_line":447, "scope_name":"srcu_notifier_chain_unregister", }
+,{"id":"notifier_chain_unregister", "file":"kernel/notifier.c", "line":461, "type":"c", "scope_line":447, "scope_name":"srcu_notifier_chain_unregister", }
+,{"id":"notifier_chain_unregister", "file":"kernel/notifier.c", "line":49, "type":"f", }
+,{"id":"notifier_data", "file":"include/linux/sched.h", "line":1333, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"notifier_del", "file":"drivers/char/hvc_console.h", "line":74, "type":"m", "scope_line":68, "scope_name":"struct hv_ops", }
+,{"id":"notifier_del_irq", "file":"drivers/char/hvc_irq.c", "line":38, "type":"f", }
+,{"id":"notifier_del_irq", "file":"drivers/char/hvc_irq.c", "line":48, "type":"c", "scope_line":46, "scope_name":"notifier_hangup_irq", }
+,{"id":"notifier_delay", "file":"include/linux/dvb/frontend.h", "line":83, "type":"m", "scope_line":73, "scope_name":"struct dvb_frontend_info", }
+,{"id":"notifier_from_errno", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":269, "type":"c", "scope_line":241, "scope_name":"thermal_throttle_cpu_callback", }
+,{"id":"notifier_from_errno", "file":"drivers/base/topology.c", "line":165, "type":"c", "scope_line":147, "scope_name":"topology_cpu_callback", }
+,{"id":"notifier_from_errno", "file":"include/linux/notifier.h", "line":165, "type":"f", }
+,{"id":"notifier_from_errno", "file":"kernel/profile.c", "line":375, "type":"c", "scope_line":359, "scope_name":"profile_cpu_callback", }
+,{"id":"notifier_from_errno", "file":"kernel/profile.c", "line":391, "type":"c", "scope_line":359, "scope_name":"profile_cpu_callback", }
+,{"id":"notifier_from_errno", "file":"kernel/relay.c", "line":542, "type":"c", "scope_line":522, "scope_name":"relay_hotcpu_callback", }
+,{"id":"notifier_from_errno", "file":"kernel/smp.c", "line":55, "type":"c", "scope_line":44, "scope_name":"hotplug_cfd", }
+,{"id":"notifier_from_errno", "file":"kernel/softirq.c", "line":811, "type":"c", "scope_line":798, "scope_name":"cpu_callback", }
+,{"id":"notifier_from_errno", "file":"kernel/timer.c", "line":1708, "type":"c", "scope_line":1697, "scope_name":"timer_cpu_notify", }
+,{"id":"notifier_from_errno", "file":"kernel/workqueue.c", "line":3299, "type":"c", "scope_line":3282, "scope_name":"workqueue_cpu_callback", }
+,{"id":"notifier_from_errno", "file":"kernel/workqueue.c", "line":3372, "type":"c", "scope_line":3282, "scope_name":"workqueue_cpu_callback", }
+,{"id":"notifier_from_errno", "file":"mm/page_cgroup.c", "line":247, "type":"c", "scope_line":224, "scope_name":"page_cgroup_callback", }
+,{"id":"notifier_from_errno", "file":"mm/slab.c", "line":1323, "type":"c", "scope_line":1270, "scope_name":"cpuup_callback", }
+,{"id":"notifier_from_errno", "file":"mm/slab.c", "line":1390, "type":"c", "scope_line":1361, "scope_name":"slab_memory_callback", }
+,{"id":"notifier_from_errno", "file":"net/ipv4/devinet.c", "line":1046, "type":"c", "scope_line":1034, "scope_name":"inetdev_event", }
+,{"id":"notifier_from_errno", "file":"net/ipv6/addrconf.c", "line":2498, "type":"c", "scope_line":2485, "scope_name":"addrconf_notify", }
+,{"id":"notifier_from_errno", "file":"net/ipv6/addrconf.c", "line":2622, "type":"c", "scope_line":2485, "scope_name":"addrconf_notify", }
+,{"id":"notifier_hangup", "file":"drivers/char/hvc_console.h", "line":75, "type":"m", "scope_line":68, "scope_name":"struct hv_ops", }
+,{"id":"notifier_hangup_irq", "file":"drivers/char/hvc_irq.c", "line":46, "type":"f", }
+,{"id":"notifier_mask", "file":"include/linux/sched.h", "line":1334, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"notifier_policy_block", "file":"drivers/cpufreq/cpufreq_stats.c", "line":332, "type":"v", }
+,{"id":"notifier_present", "file":"include/acpi/acpi_bus.h", "line":246, "type":"m", "scope_line":242, "scope_name":"struct acpi_device_wakeup_flags", }
+,{"id":"notifier_to_errno", "file":"include/linux/notifier.h", "line":174, "type":"f", }
+,{"id":"notifier_to_errno", "file":"kernel/cpu.c", "line":149, "type":"c", "scope_line":141, "scope_name":"__cpu_notify", }
+,{"id":"notifier_to_errno", "file":"mm/memory_hotplug.c", "line":402, "type":"c", "scope_line":384, "scope_name":"online_pages", }
+,{"id":"notifier_to_errno", "file":"mm/memory_hotplug.c", "line":824, "type":"c", "scope_line":786, "scope_name":"offline_pages", }
+,{"id":"notifier_to_errno", "file":"mm/page_alloc.c", "line":5322, "type":"c", "scope_line":5284, "scope_name":"set_migratetype_isolate", }
+,{"id":"notifier_to_errno", "file":"net/core/dev.c", "line":1020, "type":"c", "scope_line":979, "scope_name":"dev_change_name", }
+,{"id":"notifier_to_errno", "file":"net/core/dev.c", "line":1142, "type":"c", "scope_line":1128, "scope_name":"__dev_open", }
+,{"id":"notifier_to_errno", "file":"net/core/dev.c", "line":1363, "type":"c", "scope_line":1347, "scope_name":"register_netdevice_notifier", }
+,{"id":"notifier_to_errno", "file":"net/core/dev.c", "line":5039, "type":"c", "scope_line":4961, "scope_name":"register_netdevice", }
+,{"id":"notifier_to_errno", "file":"net/core/dev.c", "line":5061, "type":"c", "scope_line":4961, "scope_name":"register_netdevice", }
+,{"id":"notifier_trans_block", "file":"drivers/cpufreq/cpufreq_stats.c", "line":336, "type":"v", }
+,{"id":"notifiers", "file":"kernel/pm_qos_params.c", "line":58, "type":"m", "scope_line":56, "scope_name":"struct pm_qos_object", }
+,{"id":"notify", "file":"drivers/acpi/acpica/aclocal.h", "line":628, "type":"m", "scope_line":619, "scope_name":"union acpi_generic_state", }
+,{"id":"notify", "file":"drivers/acpi/acpica/acobject.h", "line":399, "type":"m", "scope_line":379, "scope_name":"union acpi_operand_object", }
+,{"id":"notify", "file":"drivers/virtio/virtio_ring.c", "line":96, "type":"m", "scope_line":72, "scope_name":"struct vring_virtqueue", }
+,{"id":"notify", "file":"include/acpi/acpi_bus.h", "line":109, "type":"m", "scope_line":101, "scope_name":"struct acpi_device_ops", }
+,{"id":"notify", "file":"include/acpi/actbl1.h", "line":510, "type":"m", "scope_line":503, "scope_name":"struct acpi_hest_ia_corrected", }
+,{"id":"notify", "file":"include/acpi/actbl1.h", "line":563, "type":"m", "scope_line":554, "scope_name":"struct acpi_hest_generic", }
+,{"id":"notify", "file":"include/linux/dm-io.h", "line":62, "type":"m", "scope_line":59, "scope_name":"struct dm_io_request", }
+,{"id":"notify", "file":"include/linux/thermal.h", "line":62, "type":"m", "scope_line":47, "scope_name":"struct thermal_zone_device_ops", }
+,{"id":"notify", "file":"include/net/xfrm.h", "line":547, "type":"m", "scope_line":544, "scope_name":"struct xfrm_mgr", }
+,{"id":"notify", "file":"ipc/mqueue.c", "line":66, "type":"m", "scope_line":58, "scope_name":"struct mqueue_inode_info", }
+,{"id":"notify_and_destroy", "file":"net/sched/sch_api.c", "line":656, "type":"f", }
+,{"id":"notify_and_destroy", "file":"net/sched/sch_api.c", "line":718, "type":"c", "scope_line":676, "scope_name":"qdisc_graft", }
+,{"id":"notify_and_destroy", "file":"net/sched/sch_api.c", "line":724, "type":"c", "scope_line":676, "scope_name":"qdisc_graft", }
+,{"id":"notify_and_destroy", "file":"net/sched/sch_api.c", "line":742, "type":"c", "scope_line":676, "scope_name":"qdisc_graft", }
+,{"id":"notify_change", "file":"drivers/base/devtmpfs.c", "line":180, "type":"c", "scope_line":133, "scope_name":"devtmpfs_create_node", }
+,{"id":"notify_change", "file":"drivers/base/devtmpfs.c", "line":321, "type":"c", "scope_line":280, "scope_name":"devtmpfs_delete_node", }
+,{"id":"notify_change", "file":"fs/attr.c", "line":165, "type":"f", }
+,{"id":"notify_change", "file":"fs/open.c", "line":464, "type":"c", "scope_line":436, "scope_name":"sys_fchmod", }
+,{"id":"notify_change", "file":"fs/open.c", "line":497, "type":"c", "scope_line":474, "scope_name":"sys_fchmodat", }
+,{"id":"notify_change", "file":"fs/open.c", "line":533, "type":"c", "scope_line":512, "scope_name":"chown_common", }
+,{"id":"notify_change", "file":"fs/open.c", "line":59, "type":"c", "scope_line":36, "scope_name":"do_truncate", }
+,{"id":"notify_change", "file":"fs/utimes.c", "line":105, "type":"c", "scope_line":51, "scope_name":"utimes_common", }
+,{"id":"notify_change", "file":"mm/filemap.c", "line":1856, "type":"c", "scope_line":1851, "scope_name":"__remove_suid", }
+,{"id":"notify_cmos_timer", "file":"kernel/time/ntp.c", "line":324, "type":"f", }
+,{"id":"notify_cmos_timer", "file":"kernel/time/ntp.c", "line":534, "type":"c", "scope_line":446, "scope_name":"do_adjtimex", }
+,{"id":"notify_cookie", "file":"ipc/mqueue.c", "line":70, "type":"m", "scope_line":58, "scope_name":"struct mqueue_inode_info", }
+,{"id":"notify_count", "file":"include/linux/sched.h", "line":536, "type":"m", "scope_line":516, "scope_name":"struct signal_struct", }
+,{"id":"notify_cpu_starting", "file":"arch/x86/kernel/smpboot.c", "line":284, "type":"c", "scope_line":199, "scope_name":"smp_callin", }
+,{"id":"notify_cpu_starting", "file":"kernel/cpu.c", "line":481, "type":"f", }
+,{"id":"notify_daemon", "file":"drivers/char/hvc_xen.c", "line":121, "type":"c", "scope_line":104, "scope_name":"read_console", }
+,{"id":"notify_daemon", "file":"drivers/char/hvc_xen.c", "line":54, "type":"f", }
+,{"id":"notify_daemon", "file":"drivers/char/hvc_xen.c", "line":77, "type":"c", "scope_line":60, "scope_name":"__write_console", }
+,{"id":"notify_die", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":947, "type":"c", "scope_line":919, "scope_name":"do_machine_check", }
+,{"id":"notify_die", "file":"arch/x86/kernel/dumpstack.c", "line":286, "type":"c", "scope_line":268, "scope_name":"__die", }
+,{"id":"notify_die", "file":"arch/x86/kernel/dumpstack.c", "line":333, "type":"c", "scope_line":328, "scope_name":"die_nmi", }
+,{"id":"notify_die", "file":"arch/x86/kernel/traps.c", "line":208, "type":"c", "scope_line":208, "scope_name":"do_divide_error", }
+,{"id":"notify_die", "file":"arch/x86/kernel/traps.c", "line":209, "type":"c", "scope_line":209, "scope_name":"do_overflow", }
+,{"id":"notify_die", "file":"arch/x86/kernel/traps.c", "line":210, "type":"c", "scope_line":210, "scope_name":"do_bounds", }
+,];
+xr_frag_insert('t/1a/208957754fbeb343a090e8af7416979a1fe9e4.xr', __xr_tmp);

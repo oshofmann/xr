@@ -1,0 +1,95 @@
+var __xr_tmp = [
+{"id":"debug_object_destroy", "file":"include/linux/debugobjects.h", "line":85, "type":"f", }
+,{"id":"debug_object_free", "file":"include/linux/debugobjects.h", "line":87, "type":"f", }
+,{"id":"debug_object_init", "file":"include/linux/debugobjects.h", "line":77, "type":"f", }
+,{"id":"debug_object_init_on_stack", "file":"include/linux/debugobjects.h", "line":79, "type":"f", }
+,{"id":"debug_objects_early_init", "file":"include/linux/debugobjects.h", "line":90, "type":"f", }
+,{"id":"debug_objects_early_init", "file":"init/main.c", "line":548, "type":"c", "scope_line":536, "scope_name":"start_kernel", }
+,{"id":"debug_objects_mem_init", "file":"include/linux/debugobjects.h", "line":91, "type":"f", }
+,{"id":"debug_objects_mem_init", "file":"init/main.c", "line":663, "type":"c", "scope_line":536, "scope_name":"start_kernel", }
+,{"id":"debug_packet", "file":"include/net/ip_vs.h", "line":346, "type":"m", "scope_line":292, "scope_name":"struct ip_vs_protocol", }
+,{"id":"debug_pagealloc", "file":"arch/x86/mm/pageattr.c", "line":111, "type":"d", }
+,{"id":"debug_port", "file":"include/acpi/actbl2.h", "line":246, "type":"m", "scope_line":242, "scope_name":"struct acpi_table_dbgp", }
+,{"id":"debug_print", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":59, "type":"v", }
+,{"id":"debug_print_probes", "file":"kernel/tracepoint.c", "line":111, "type":"c", "scope_line":102, "scope_name":"tracepoint_entry_add_probe", }
+,{"id":"debug_print_probes", "file":"kernel/tracepoint.c", "line":131, "type":"c", "scope_line":102, "scope_name":"tracepoint_entry_add_probe", }
+,{"id":"debug_print_probes", "file":"kernel/tracepoint.c", "line":147, "type":"c", "scope_line":135, "scope_name":"tracepoint_entry_remove_probe", }
+,{"id":"debug_print_probes", "file":"kernel/tracepoint.c", "line":160, "type":"c", "scope_line":135, "scope_name":"tracepoint_entry_remove_probe", }
+,{"id":"debug_print_probes", "file":"kernel/tracepoint.c", "line":177, "type":"c", "scope_line":135, "scope_name":"tracepoint_entry_remove_probe", }
+,{"id":"debug_print_probes", "file":"kernel/tracepoint.c", "line":91, "type":"f", }
+,{"id":"debug_print_tree", "file":"fs/ext4/block_validity.c", "line":124, "type":"f", }
+,{"id":"debug_print_tree", "file":"fs/ext4/block_validity.c", "line":178, "type":"c", "scope_line":142, "scope_name":"ext4_setup_system_zone", }
+,{"id":"debug_rcu_head_queue", "file":"include/linux/rcupdate.h", "line":560, "type":"f", }
+,{"id":"debug_rcu_head_queue", "file":"kernel/rcutree.c", "line":1392, "type":"c", "scope_line":1385, "scope_name":"__call_rcu", }
+,{"id":"debug_rcu_head_unqueue", "file":"include/linux/rcupdate.h", "line":564, "type":"f", }
+,{"id":"debug_rcu_head_unqueue", "file":"kernel/rcutree.c", "line":1115, "type":"c", "scope_line":1086, "scope_name":"rcu_do_batch", }
+,{"id":"debug_rt_mutex_deadlock", "file":"kernel/rtmutex.h", "line":23, "type":"d", }
+,{"id":"debug_rt_mutex_detect_deadlock", "file":"kernel/rtmutex.h", "line":25, "type":"d", }
+,{"id":"debug_rt_mutex_free_waiter", "file":"kernel/rtmutex.h", "line":17, "type":"d", }
+,{"id":"debug_rt_mutex_init", "file":"kernel/rtmutex.h", "line":22, "type":"d", }
+,{"id":"debug_rt_mutex_init_waiter", "file":"kernel/rtmutex.h", "line":16, "type":"d", }
+,{"id":"debug_rt_mutex_lock", "file":"kernel/rtmutex.h", "line":18, "type":"d", }
+,{"id":"debug_rt_mutex_print_deadlock", "file":"kernel/rtmutex.h", "line":24, "type":"d", }
+,{"id":"debug_rt_mutex_proxy_lock", "file":"kernel/rtmutex.h", "line":19, "type":"d", }
+,{"id":"debug_rt_mutex_proxy_unlock", "file":"kernel/rtmutex.h", "line":20, "type":"d", }
+,{"id":"debug_rt_mutex_reset_waiter", "file":"kernel/rtmutex.h", "line":26, "type":"d", }
+,{"id":"debug_rt_mutex_unlock", "file":"kernel/rtmutex.h", "line":21, "type":"d", }
+,{"id":"debug_show_all_locks", "file":"include/linux/debug_locks.h", "line":57, "type":"f", }
+,{"id":"debug_show_all_locks", "file":"kernel/sched.c", "line":5312, "type":"c", "scope_line":5280, "scope_name":"show_state_filter", }
+,{"id":"debug_show_held_locks", "file":"include/linux/debug_locks.h", "line":65, "type":"f", }
+,{"id":"debug_show_held_locks", "file":"kernel/sched.c", "line":3664, "type":"c", "scope_line":3657, "scope_name":"__schedule_bug", }
+,{"id":"debug_show_held_locks", "file":"kernel/workqueue.c", "line":1837, "type":"c", "scope_line":1750, "scope_name":"process_one_work", }
+,{"id":"debug_stats", "file":"include/linux/backing-dev.h", "line":93, "type":"m", "scope_line":62, "scope_name":"struct backing_dev_info", }
+,{"id":"debug_store", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":45, "type":"s", }
+,{"id":"debug_table", "file":"kernel/sysctl.c", "line":1490, "type":"v", }
+,{"id":"debug_timer_activate", "file":"kernel/timer.c", "line":548, "type":"f", }
+,{"id":"debug_timer_activate", "file":"kernel/timer.c", "line":561, "type":"c", "scope_line":558, "scope_name":"debug_activate", }
+,{"id":"debug_timer_deactivate", "file":"kernel/timer.c", "line":549, "type":"f", }
+,{"id":"debug_timer_deactivate", "file":"kernel/timer.c", "line":567, "type":"c", "scope_line":565, "scope_name":"debug_deactivate", }
+,{"id":"debug_timer_init", "file":"kernel/timer.c", "line":547, "type":"f", }
+,{"id":"debug_timer_init", "file":"kernel/timer.c", "line":554, "type":"c", "scope_line":552, "scope_name":"debug_init", }
+,{"id":"debug_work_activate", "file":"kernel/workqueue.c", "line":2096, "type":"c", "scope_line":2064, "scope_name":"insert_wq_barrier", }
+,{"id":"debug_work_activate", "file":"kernel/workqueue.c", "line":3240, "type":"c", "scope_line":3102, "scope_name":"trustee_thread", }
+,{"id":"debug_work_activate", "file":"kernel/workqueue.c", "line":434, "type":"f", }
+,{"id":"debug_work_activate", "file":"kernel/workqueue.c", "line":957, "type":"c", "scope_line":948, "scope_name":"__queue_work", }
+,{"id":"debug_work_deactivate", "file":"kernel/workqueue.c", "line":1784, "type":"c", "scope_line":1750, "scope_name":"process_one_work", }
+,{"id":"debug_work_deactivate", "file":"kernel/workqueue.c", "line":2413, "type":"c", "scope_line":2388, "scope_name":"try_to_grab_pending", }
+,{"id":"debug_work_deactivate", "file":"kernel/workqueue.c", "line":435, "type":"f", }
+,{"id":"debugfs_blob_wrapper", "file":"include/linux/debugfs.h", "line":24, "type":"s", }
+,{"id":"debugfs_create", "file":"fs/debugfs/inode.c", "line":113, "type":"f", }
+,{"id":"debugfs_create", "file":"fs/debugfs/inode.c", "line":181, "type":"c", "scope_line":151, "scope_name":"debugfs_create_by_name", }
+,{"id":"debugfs_create_blob", "file":"fs/debugfs/file.c", "line":527, "type":"f", }
+,{"id":"debugfs_create_bool", "file":"arch/x86/kernel/amd_iommu.c", "line":243, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"debugfs_create_bool", "file":"fs/debugfs/file.c", "line":483, "type":"f", }
+,{"id":"debugfs_create_by_name", "file":"fs/debugfs/inode.c", "line":151, "type":"f", }
+,{"id":"debugfs_create_by_name", "file":"fs/debugfs/inode.c", "line":233, "type":"c", "scope_line":219, "scope_name":"debugfs_create_file", }
+,{"id":"debugfs_create_dir", "file":"arch/x86/kernel/amd_iommu.c", "line":239, "type":"c", "scope_line":237, "scope_name":"amd_iommu_stats_init", }
+,{"id":"debugfs_create_dir", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":2165, "type":"c", "scope_line":2160, "scope_name":"mce_get_debugfs_dir", }
+,{"id":"debugfs_create_dir", "file":"arch/x86/kernel/kdebugfs.c", "line":208, "type":"c", "scope_line":204, "scope_name":"arch_kdebugfs_init", }
+,{"id":"debugfs_create_dir", "file":"drivers/acpi/debugfs.c", "line":78, "type":"c", "scope_line":74, "scope_name":"acpi_debugfs_init", }
+,{"id":"debugfs_create_dir", "file":"drivers/block/pktcdvd.c", "line":470, "type":"c", "scope_line":465, "scope_name":"pkt_debugfs_dev_new", }
+,{"id":"debugfs_create_dir", "file":"drivers/block/pktcdvd.c", "line":497, "type":"c", "scope_line":495, "scope_name":"pkt_debugfs_init", }
+,{"id":"debugfs_create_dir", "file":"fs/debugfs/inode.c", "line":263, "type":"f", }
+,{"id":"debugfs_create_dir", "file":"kernel/kprobes.c", "line":2002, "type":"c", "scope_line":1997, "scope_name":"debugfs_kprobe_init", }
+,{"id":"debugfs_create_dir", "file":"kernel/trace/blktrace.c", "line":469, "type":"c", "scope_line":430, "scope_name":"do_blk_trace_setup", }
+,{"id":"debugfs_create_dir", "file":"kernel/trace/blktrace.c", "line":477, "type":"c", "scope_line":430, "scope_name":"do_blk_trace_setup", }
+,{"id":"debugfs_create_dir", "file":"kernel/trace/trace.c", "line":3958, "type":"c", "scope_line":3948, "scope_name":"tracing_init_dentry", }
+,{"id":"debugfs_create_dir", "file":"kernel/trace/trace.c", "line":3984, "type":"c", "scope_line":3971, "scope_name":"tracing_dentry_percpu", }
+,{"id":"debugfs_create_dir", "file":"kernel/trace/trace.c", "line":4006, "type":"c", "scope_line":3995, "scope_name":"tracing_init_debugfs_percpu", }
+,{"id":"debugfs_create_dir", "file":"kernel/trace/trace.c", "line":4179, "type":"c", "scope_line":4167, "scope_name":"trace_options_init_dentry", }
+,{"id":"debugfs_create_dir", "file":"kernel/trace/trace_events.c", "line":1003, "type":"c", "scope_line":991, "scope_name":"event_trace_events_dir", }
+,{"id":"debugfs_create_dir", "file":"kernel/trace/trace_events.c", "line":1035, "type":"c", "scope_line":1013, "scope_name":"event_subsystem_dir", }
+,{"id":"debugfs_create_dir", "file":"kernel/trace/trace_events.c", "line":1095, "type":"c", "scope_line":1078, "scope_name":"event_create_dir", }
+,{"id":"debugfs_create_dir", "file":"kernel/trace/trace_stat.c", "line":311, "type":"c", "scope_line":305, "scope_name":"tracing_stat_init", }
+,{"id":"debugfs_create_dir", "file":"mm/backing-dev.c", "line":124, "type":"c", "scope_line":122, "scope_name":"bdi_debug_register", }
+,{"id":"debugfs_create_dir", "file":"mm/backing-dev.c", "line":62, "type":"c", "scope_line":60, "scope_name":"bdi_debug_init", }
+,{"id":"debugfs_create_file", "file":"arch/x86/kernel/cpu/mcheck/mce-severity.c", "line":204, "type":"c", "scope_line":197, "scope_name":"severities_debugfs_init", }
+,{"id":"debugfs_create_file", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":2202, "type":"c", "scope_line":2195, "scope_name":"mcheck_debugfs_init", }
+,{"id":"debugfs_create_file", "file":"arch/x86/mm/pat.c", "line":820, "type":"c", "scope_line":817, "scope_name":"pat_memtype_list_init", }
+,{"id":"debugfs_create_file", "file":"drivers/acpi/debugfs.c", "line":82, "type":"c", "scope_line":74, "scope_name":"acpi_debugfs_init", }
+,{"id":"debugfs_create_file", "file":"drivers/block/pktcdvd.c", "line":475, "type":"c", "scope_line":465, "scope_name":"pkt_debugfs_dev_new", }
+,{"id":"debugfs_create_file", "file":"drivers/gpio/gpiolib.c", "line":1760, "type":"c", "scope_line":1757, "scope_name":"gpiolib_debugfs_init", }
+,{"id":"debugfs_create_file", "file":"fs/debugfs/file.c", "line":102, "type":"c", "scope_line":97, "scope_name":"debugfs_create_u8", }
+,{"id":"debugfs_create_file", "file":"fs/debugfs/file.c", "line":105, "type":"c", "scope_line":97, "scope_name":"debugfs_create_u8", }
+,];
+xr_frag_insert('t/c7/290b1b15fb1008c5e275fcac37fd3ade8a527d.xr', __xr_tmp);

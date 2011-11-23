@@ -1,0 +1,77 @@
+var __xr_tmp = [
+{"id":"write", "file":"include/linux/cdrom.h", "line":773, "type":"m", "scope_line":755, "scope_name":"struct mrw_feature_desc", }
+,{"id":"write", "file":"include/linux/cgroup.h", "line":354, "type":"m", "scope_line":307, "scope_name":"struct cftype", }
+,{"id":"write", "file":"include/linux/console.h", "line":116, "type":"m", "scope_line":114, "scope_name":"struct console", }
+,{"id":"write", "file":"include/linux/fs.h", "line":1492, "type":"m", "scope_line":1488, "scope_name":"struct file_operations", }
+,{"id":"write", "file":"include/linux/memory.h", "line":138, "type":"m", "scope_line":135, "scope_name":"struct memory_accessor", }
+,{"id":"write", "file":"include/linux/pci.h", "line":472, "type":"m", "scope_line":470, "scope_name":"struct pci_ops", }
+,{"id":"write", "file":"include/linux/phy.h", "line":98, "type":"m", "scope_line":93, "scope_name":"struct mii_bus", }
+,{"id":"write", "file":"include/linux/serio.h", "line":38, "type":"m", "scope_line":26, "scope_name":"struct serio", }
+,{"id":"write", "file":"include/linux/smb_fs.h", "line":124, "type":"m", "scope_line":121, "scope_name":"struct smb_ops", }
+,{"id":"write", "file":"include/linux/sysfs.h", "line":94, "type":"m", "scope_line":88, "scope_name":"struct bin_attribute", }
+,{"id":"write", "file":"include/linux/tty_driver.h", "line":245, "type":"m", "scope_line":236, "scope_name":"struct tty_operations", }
+,{"id":"write", "file":"include/linux/tty_ldisc.h", "line":128, "type":"m", "scope_line":113, "scope_name":"struct tty_ldisc_ops", }
+,{"id":"write", "file":"kernel/trace/ring_buffer.c", "line":343, "type":"m", "scope_line":341, "scope_name":"struct buffer_page", }
+,{"id":"write", "file":"lib/zlib_inflate/inflate.h", "line":86, "type":"m", "scope_line":72, "scope_name":"struct inflate_state", }
+,{"id":"write", "file":"security/tomoyo/common.h", "line":537, "type":"m", "scope_line":535, "scope_name":"struct tomoyo_io_buffer", }
+,{"id":"writeCRC", "file":"lib/decompress_bunzip2.c", "line":103, "type":"m", "scope_line":93, "scope_name":"struct bunzip_data", }
+,{"id":"writeCopies", "file":"lib/decompress_bunzip2.c", "line":95, "type":"m", "scope_line":93, "scope_name":"struct bunzip_data", }
+,{"id":"writeCount", "file":"lib/decompress_bunzip2.c", "line":95, "type":"m", "scope_line":93, "scope_name":"struct bunzip_data", }
+,{"id":"writeCurrent", "file":"lib/decompress_bunzip2.c", "line":95, "type":"m", "scope_line":93, "scope_name":"struct bunzip_data", }
+,{"id":"writePos", "file":"lib/decompress_bunzip2.c", "line":95, "type":"m", "scope_line":93, "scope_name":"struct bunzip_data", }
+,{"id":"writeRunCountdown", "file":"lib/decompress_bunzip2.c", "line":95, "type":"m", "scope_line":93, "scope_name":"struct bunzip_data", }
+,{"id":"write_ar", "file":"drivers/video/asiliantfb.c", "line":89, "type":"d", }
+,{"id":"write_avail", "file":"security/tomoyo/common.h", "line":569, "type":"m", "scope_line":535, "scope_name":"struct tomoyo_io_buffer", }
+,{"id":"write_begin", "file":"include/linux/fs.h", "line":585, "type":"m", "scope_line":571, "scope_name":"struct address_space_operations", }
+,{"id":"write_boundary_block", "file":"fs/buffer.c", "line":624, "type":"f", }
+,{"id":"write_boundary_block", "file":"fs/mpage.c", "line":634, "type":"c", "scope_line":451, "scope_name":"__mpage_writepage", }
+,{"id":"write_buf", "file":"include/linux/tty.h", "line":324, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"write_buf", "file":"security/tomoyo/common.h", "line":567, "type":"m", "scope_line":535, "scope_name":"struct tomoyo_io_buffer", }
+,{"id":"write_buffer", "file":"init/initramfs.c", "line":377, "type":"f", }
+,{"id":"write_buffer", "file":"init/initramfs.c", "line":394, "type":"c", "scope_line":387, "scope_name":"flush_buffer", }
+,{"id":"write_buffer", "file":"init/initramfs.c", "line":435, "type":"c", "scope_line":414, "scope_name":"unpack_to_rootfs", }
+,{"id":"write_byte", "file":"lib/decompress_unlzma.c", "line":322, "type":"f", }
+,{"id":"write_byte", "file":"lib/decompress_unlzma.c", "line":335, "type":"c", "scope_line":333, "scope_name":"copy_byte", }
+,{"id":"write_byte", "file":"lib/decompress_unlzma.c", "line":381, "type":"c", "scope_line":347, "scope_name":"process_bit0", }
+,{"id":"write_bytes", "file":"include/linux/task_io_accounting.h", "line":34, "type":"m", "scope_line":11, "scope_name":"struct task_io_accounting", }
+,{"id":"write_bytes", "file":"include/linux/taskstats.h", "line":152, "type":"m", "scope_line":40, "scope_name":"struct taskstats", }
+,{"id":"write_cache_pages", "file":"fs/mpage.c", "line":696, "type":"c", "scope_line":680, "scope_name":"mpage_writepages", }
+,{"id":"write_cache_pages", "file":"mm/page-writeback.c", "line":1049, "type":"c", "scope_line":1042, "scope_name":"generic_writepages", }
+,{"id":"write_cache_pages", "file":"mm/page-writeback.c", "line":866, "type":"f", }
+,{"id":"write_cache_pages_da", "file":"fs/ext4/inode.c", "line":2825, "type":"f", }
+,{"id":"write_cache_pages_da", "file":"fs/ext4/inode.c", "line":3062, "type":"c", "scope_line":2934, "scope_name":"ext4_da_writepages", }
+,{"id":"write_can_lock", "file":"include/linux/rwlock.h", "line":54, "type":"d", }
+,{"id":"write_char", "file":"include/linux/kgdb.h", "line":280, "type":"m", "scope_line":277, "scope_name":"struct kgdb_io", }
+,{"id":"write_char", "file":"include/linux/taskstats.h", "line":144, "type":"m", "scope_line":40, "scope_name":"struct taskstats", }
+,{"id":"write_class", "file":"arch/x86/kernel/audit_64.c", "line":16, "type":"v", }
+,{"id":"write_classid", "file":"net/sched/cls_cgroup.c", "line":80, "type":"f", }
+,{"id":"write_cnt", "file":"include/linux/tty.h", "line":325, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"write_combine", "file":"drivers/pci/proc.c", "line":202, "type":"m", "scope_line":200, "scope_name":"struct pci_filp_private", }
+,{"id":"write_config_nybble", "file":"arch/x86/pci/irq.c", "line":186, "type":"f", }
+,{"id":"write_config_nybble", "file":"arch/x86/pci/irq.c", "line":217, "type":"c", "scope_line":210, "scope_name":"pirq_ali_set", }
+,{"id":"write_config_nybble", "file":"arch/x86/pci/irq.c", "line":253, "type":"c", "scope_line":251, "scope_name":"pirq_via_set", }
+,{"id":"write_config_nybble", "file":"arch/x86/pci/irq.c", "line":275, "type":"c", "scope_line":270, "scope_name":"pirq_via586_set", }
+,{"id":"write_config_nybble", "file":"arch/x86/pci/irq.c", "line":297, "type":"c", "scope_line":292, "scope_name":"pirq_ite_set", }
+,{"id":"write_config_nybble", "file":"arch/x86/pci/irq.c", "line":312, "type":"c", "scope_line":310, "scope_name":"pirq_opti_set", }
+,{"id":"write_config_nybble", "file":"arch/x86/pci/irq.c", "line":328, "type":"c", "scope_line":326, "scope_name":"pirq_cyrix_set", }
+,{"id":"write_config_nybble", "file":"arch/x86/pci/irq.c", "line":450, "type":"c", "scope_line":443, "scope_name":"pirq_vlsi_set", }
+,{"id":"write_config_nybble", "file":"arch/x86/pci/irq.c", "line":505, "type":"c", "scope_line":499, "scope_name":"pirq_amd756_set", }
+,{"id":"write_congestion_off", "file":"drivers/block/pktcdvd.c", "line":93, "type":"v", }
+,{"id":"write_congestion_off", "file":"include/linux/pktcdvd.h", "line":289, "type":"m", "scope_line":258, "scope_name":"struct pktcdvd_device", }
+,{"id":"write_congestion_on", "file":"drivers/block/pktcdvd.c", "line":92, "type":"v", }
+,{"id":"write_congestion_on", "file":"include/linux/pktcdvd.h", "line":290, "type":"m", "scope_line":258, "scope_name":"struct pktcdvd_device", }
+,{"id":"write_console", "file":"drivers/char/hvc_xen.c", "line":203, "type":"c", "scope_line":195, "scope_name":"xenboot_write_console", }
+,{"id":"write_console", "file":"drivers/char/hvc_xen.c", "line":208, "type":"c", "scope_line":195, "scope_name":"xenboot_write_console", }
+,{"id":"write_console", "file":"drivers/char/hvc_xen.c", "line":209, "type":"c", "scope_line":195, "scope_name":"xenboot_write_console", }
+,{"id":"write_console", "file":"drivers/char/hvc_xen.c", "line":213, "type":"c", "scope_line":195, "scope_name":"xenboot_write_console", }
+,{"id":"write_console", "file":"drivers/char/hvc_xen.c", "line":81, "type":"f", }
+,{"id":"write_counter", "file":"drivers/char/hpet.c", "line":63, "type":"d", }
+,{"id":"write_cr", "file":"drivers/video/asiliantfb.c", "line":70, "type":"d", }
+,{"id":"write_cr0", "file":"arch/x86/include/asm/i387.h", "line":339, "type":"c", "scope_line":335, "scope_name":"__unlazy_fpu", }
+,{"id":"write_cr0", "file":"arch/x86/include/asm/i387.h", "line":349, "type":"c", "scope_line":344, "scope_name":"__clear_fpu", }
+,{"id":"write_cr0", "file":"arch/x86/include/asm/i387.h", "line":365, "type":"c", "scope_line":363, "scope_name":"kernel_fpu_end", }
+,{"id":"write_cr0", "file":"arch/x86/include/asm/i387.h", "line":405, "type":"c", "scope_line":402, "scope_name":"irq_ts_restore", }
+,{"id":"write_cr0", "file":"arch/x86/include/asm/i387.h", "line":413, "type":"c", "scope_line":410, "scope_name":"save_init_fpu", }
+,{"id":"write_cr0", "file":"arch/x86/include/asm/paravirt.h", "line":57, "type":"f", }
+,];
+xr_frag_insert('t/94/119e9fe5f818e447adfcdd56c15a47fbf4efcf.xr', __xr_tmp);

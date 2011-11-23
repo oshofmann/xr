@@ -1,0 +1,96 @@
+var __xr_tmp = [
+{"id":"drop_nlink", "file":"fs/ext3/namei.c", "line":2109, "type":"c", "scope_line":2058, "scope_name":"ext3_rmdir", }
+,{"id":"drop_nlink", "file":"fs/ext3/namei.c", "line":2162, "type":"c", "scope_line":2119, "scope_name":"ext3_unlink", }
+,{"id":"drop_nlink", "file":"fs/ext3/namei.c", "line":2213, "type":"c", "scope_line":2175, "scope_name":"ext3_symlink", }
+,{"id":"drop_nlink", "file":"fs/ext3/namei.c", "line":2270, "type":"c", "scope_line":2233, "scope_name":"ext3_link", }
+,{"id":"drop_nlink", "file":"fs/ext3/namei.c", "line":2407, "type":"c", "scope_line":2286, "scope_name":"ext3_rename", }
+,{"id":"drop_nlink", "file":"fs/ext3/namei.c", "line":2418, "type":"c", "scope_line":2286, "scope_name":"ext3_rename", }
+,{"id":"drop_nlink", "file":"fs/ext3/namei.c", "line":2420, "type":"c", "scope_line":2286, "scope_name":"ext3_rename", }
+,{"id":"drop_nlink", "file":"fs/ext4/namei.c", "line":1697, "type":"c", "scope_line":1695, "scope_name":"ext4_dec_count", }
+,{"id":"drop_nlink", "file":"fs/ext4/namei.c", "line":1713, "type":"c", "scope_line":1703, "scope_name":"ext4_add_nondir", }
+,{"id":"drop_nlink", "file":"fs/ext4/namei.c", "line":2211, "type":"c", "scope_line":2168, "scope_name":"ext4_unlink", }
+,{"id":"drop_nlink", "file":"fs/ext4/namei.c", "line":2322, "type":"c", "scope_line":2285, "scope_name":"ext4_link", }
+,{"id":"drop_nlink", "file":"fs/libfs.c", "line":289, "type":"c", "scope_line":284, "scope_name":"simple_unlink", }
+,{"id":"drop_nlink", "file":"fs/libfs.c", "line":299, "type":"c", "scope_line":294, "scope_name":"simple_rmdir", }
+,{"id":"drop_nlink", "file":"fs/libfs.c", "line":301, "type":"c", "scope_line":294, "scope_name":"simple_rmdir", }
+,{"id":"drop_nlink", "file":"fs/libfs.c", "line":317, "type":"c", "scope_line":305, "scope_name":"simple_rename", }
+,{"id":"drop_nlink", "file":"fs/libfs.c", "line":319, "type":"c", "scope_line":305, "scope_name":"simple_rename", }
+,{"id":"drop_nlink", "file":"include/linux/fs.h", "line":1688, "type":"f", }
+,{"id":"drop_nlink", "file":"include/linux/fs.h", "line":1708, "type":"c", "scope_line":1706, "scope_name":"inode_dec_link_count", }
+,{"id":"drop_nlink", "file":"ipc/mqueue.c", "line":337, "type":"c", "scope_line":331, "scope_name":"mqueue_unlink", }
+,{"id":"drop_nlink", "file":"mm/shmem.c", "line":1922, "type":"c", "scope_line":1913, "scope_name":"shmem_unlink", }
+,{"id":"drop_nlink", "file":"mm/shmem.c", "line":1932, "type":"c", "scope_line":1927, "scope_name":"shmem_rmdir", }
+,{"id":"drop_nlink", "file":"mm/shmem.c", "line":1933, "type":"c", "scope_line":1927, "scope_name":"shmem_rmdir", }
+,{"id":"drop_nlink", "file":"mm/shmem.c", "line":1954, "type":"c", "scope_line":1943, "scope_name":"shmem_rename", }
+,{"id":"drop_nlink", "file":"mm/shmem.c", "line":1956, "type":"c", "scope_line":1943, "scope_name":"shmem_rename", }
+,{"id":"drop_other_mm_ref", "file":"arch/x86/xen/mmu.c", "line":1218, "type":"f", }
+,{"id":"drop_overlaps_that_are_ok", "file":"kernel/early_res.c", "line":120, "type":"f", }
+,{"id":"drop_overlaps_that_are_ok", "file":"kernel/early_res.c", "line":222, "type":"c", "scope_line":220, "scope_name":"reserve_early_overlap_ok", }
+,{"id":"drop_overlaps_that_are_ok", "file":"kernel/early_res.c", "line":296, "type":"c", "scope_line":289, "scope_name":"reserve_early", }
+,{"id":"drop_pagecache_sb", "file":"fs/drop_caches.c", "line":15, "type":"f", }
+,{"id":"drop_pages", "file":"drivers/md/dm-kcopyd.c", "line":133, "type":"f", }
+,{"id":"drop_pages", "file":"drivers/md/dm-kcopyd.c", "line":153, "type":"c", "scope_line":144, "scope_name":"client_alloc_pages", }
+,{"id":"drop_pages", "file":"drivers/md/dm-kcopyd.c", "line":168, "type":"c", "scope_line":165, "scope_name":"client_free_pages", }
+,{"id":"drop_parsed_module_refcounts", "file":"kernel/cgroup.c", "line":1206, "type":"f", }
+,{"id":"drop_parsed_module_refcounts", "file":"kernel/cgroup.c", "line":1238, "type":"c", "scope_line":1218, "scope_name":"cgroup_remount", }
+,{"id":"drop_parsed_module_refcounts", "file":"kernel/cgroup.c", "line":1244, "type":"c", "scope_line":1218, "scope_name":"cgroup_remount", }
+,{"id":"drop_parsed_module_refcounts", "file":"kernel/cgroup.c", "line":1556, "type":"c", "scope_line":1423, "scope_name":"cgroup_get_sb", }
+,{"id":"drop_parsed_module_refcounts", "file":"kernel/cgroup.c", "line":1567, "type":"c", "scope_line":1423, "scope_name":"cgroup_get_sb", }
+,{"id":"drop_range", "file":"kernel/early_res.c", "line":106, "type":"c", "scope_line":66, "scope_name":"drop_range_partial", }
+,{"id":"drop_range", "file":"kernel/early_res.c", "line":165, "type":"c", "scope_line":120, "scope_name":"drop_overlaps_that_are_ok", }
+,{"id":"drop_range", "file":"kernel/early_res.c", "line":332, "type":"c", "scope_line":319, "scope_name":"free_early", }
+,{"id":"drop_range", "file":"kernel/early_res.c", "line":52, "type":"f", }
+,{"id":"drop_range_partial", "file":"kernel/early_res.c", "line":356, "type":"c", "scope_line":335, "scope_name":"free_early_partial", }
+,{"id":"drop_range_partial", "file":"kernel/early_res.c", "line":360, "type":"c", "scope_line":335, "scope_name":"free_early_partial", }
+,{"id":"drop_range_partial", "file":"kernel/early_res.c", "line":66, "type":"f", }
+,{"id":"drop_slab", "file":"fs/drop_caches.c", "line":36, "type":"f", }
+,{"id":"drop_slab", "file":"fs/drop_caches.c", "line":53, "type":"c", "scope_line":45, "scope_name":"drop_caches_sysctl_handler", }
+,{"id":"drop_super", "file":"fs/block_dev.c", "line":1778, "type":"c", "scope_line":1764, "scope_name":"__invalidate_device", }
+,{"id":"drop_super", "file":"fs/block_dev.c", "line":208, "type":"c", "scope_line":203, "scope_name":"fsync_bdev", }
+,{"id":"drop_super", "file":"fs/block_dev.c", "line":240, "type":"c", "scope_line":227, "scope_name":"freeze_bdev", }
+,{"id":"drop_super", "file":"fs/compat.c", "line":385, "type":"c", "scope_line":374, "scope_name":"compat_sys_ustat", }
+,{"id":"drop_super", "file":"fs/fs-writeback.c", "line":548, "type":"c", "scope_line":527, "scope_name":"writeback_inodes_wb", }
+,{"id":"drop_super", "file":"fs/quota/quota.c", "line":360, "type":"c", "scope_line":333, "scope_name":"sys_quotactl", }
+,{"id":"drop_super", "file":"fs/statfs.c", "line":234, "type":"c", "scope_line":222, "scope_name":"sys_ustat", }
+,{"id":"drop_super", "file":"fs/super.c", "line":362, "type":"f", }
+,{"id":"dropcount", "file":"include/linux/skbuff.h", "line":403, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"dropped", "file":"include/linux/blktrace_api.h", "line":164, "type":"m", "scope_line":151, "scope_name":"struct blk_trace", }
+,{"id":"dropped", "file":"include/linux/netdevice.h", "line":1426, "type":"m", "scope_line":1403, "scope_name":"struct softnet_data", }
+,{"id":"dropped", "file":"include/trace/events/jbd2.h", "line":171, "type":"m", "scope_line":171, "scope_name":"struct ftrace_raw_jbd2_checkpoint_stats", }
+,{"id":"dropped_count", "file":"kernel/trace/trace_mmiotrace.c", "line":27, "type":"v", }
+,{"id":"dropped_file", "file":"include/linux/blktrace_api.h", "line":162, "type":"m", "scope_line":151, "scope_name":"struct blk_trace", }
+,{"id":"drops", "file":"drivers/net/loopback.c", "line":67, "type":"m", "scope_line":63, "scope_name":"struct pcpu_lstats", }
+,{"id":"drops", "file":"include/linux/gen_stats.h", "line":51, "type":"m", "scope_line":48, "scope_name":"struct gnet_stats_queue", }
+,{"id":"drops", "file":"include/linux/pkt_sched.h", "line":35, "type":"m", "scope_line":32, "scope_name":"struct tc_stats", }
+,{"id":"drv", "file":"drivers/pci/pci-driver.c", "line":284, "type":"m", "scope_line":283, "scope_name":"struct drv_dev_and_id", }
+,{"id":"drv", "file":"include/acpi/acpi_bus.h", "line":120, "type":"m", "scope_line":114, "scope_name":"struct acpi_driver", }
+,{"id":"drv", "file":"include/linux/phy.h", "line":272, "type":"m", "scope_line":269, "scope_name":"struct phy_device", }
+,{"id":"drv", "file":"include/linux/serio.h", "line":47, "type":"m", "scope_line":26, "scope_name":"struct serio", }
+,{"id":"drv", "file":"net/dsa/dsa_priv.h", "line":35, "type":"m", "scope_line":20, "scope_name":"struct dsa_switch", }
+,{"id":"drv_attr_show", "file":"drivers/base/bus.c", "line":50, "type":"f", }
+,{"id":"drv_attr_store", "file":"drivers/base/bus.c", "line":62, "type":"f", }
+,{"id":"drv_attrs", "file":"include/linux/device.h", "line":55, "type":"m", "scope_line":51, "scope_name":"struct bus_type", }
+,{"id":"drv_cmd", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":138, "type":"s", }
+,{"id":"drv_dev_and_id", "file":"drivers/pci/pci-driver.c", "line":283, "type":"s", }
+,{"id":"drv_mutex", "file":"include/linux/serio.h", "line":48, "type":"m", "scope_line":26, "scope_name":"struct serio", }
+,{"id":"drv_read", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":190, "type":"f", }
+,{"id":"drv_read", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":234, "type":"c", "scope_line":210, "scope_name":"get_cur_val", }
+,{"id":"drv_write", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":199, "type":"f", }
+,{"id":"drv_write", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":356, "type":"c", "scope_line":284, "scope_name":"acpi_cpufreq_target", }
+,{"id":"drvwrap", "file":"include/linux/usb.h", "line":861, "type":"m", "scope_line":840, "scope_name":"struct usb_driver", }
+,{"id":"drvwrap", "file":"include/linux/usb.h", "line":895, "type":"m", "scope_line":887, "scope_name":"struct usb_device_driver", }
+,{"id":"ds", "file":"arch/x86/boot/boot.h", "line":270, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"ds", "file":"arch/x86/boot/boot.h", "line":85, "type":"f", }
+,{"id":"ds", "file":"arch/x86/boot/regs.c", "line":25, "type":"c", "scope_line":21, "scope_name":"initregs", }
+,{"id":"ds", "file":"arch/x86/boot/regs.c", "line":26, "type":"c", "scope_line":21, "scope_name":"initregs", }
+,{"id":"ds", "file":"arch/x86/include/asm/processor.h", "line":438, "type":"m", "scope_line":428, "scope_name":"struct thread_struct", }
+,{"id":"ds", "file":"arch/x86/include/asm/sigcontext32.h", "line":56, "type":"m", "scope_line":52, "scope_name":"struct sigcontext_ia32", }
+,{"id":"ds", "file":"arch/x86/include/asm/suspend_64.h", "line":27, "type":"m", "scope_line":25, "scope_name":"struct saved_context", }
+,{"id":"ds", "file":"arch/x86/include/asm/svm.h", "line":135, "type":"m", "scope_line":131, "scope_name":"struct vmcb_save_area", }
+,{"id":"ds", "file":"arch/x86/include/asm/user32.h", "line":37, "type":"m", "scope_line":35, "scope_name":"struct user_regs_struct32", }
+,{"id":"ds", "file":"arch/x86/include/asm/user_64.h", "line":92, "type":"m", "scope_line":68, "scope_name":"struct user_regs_struct", }
+,{"id":"ds", "file":"arch/x86/include/asm/vm86.h", "line":150, "type":"m", "scope_line":141, "scope_name":"struct kernel_vm86_regs", }
+,{"id":"ds", "file":"arch/x86/include/asm/vm86.h", "line":87, "type":"m", "scope_line":62, "scope_name":"struct vm86_regs", }
+,{"id":"ds", "file":"arch/x86/include/asm/vmi.h", "line":257, "type":"m", "scope_line":237, "scope_name":"struct vmi_ap_state", }
+,];
+xr_frag_insert('t/94/c844a3f5798d7fb103c333f2698d5937d823f3.xr', __xr_tmp);

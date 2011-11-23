@@ -1,0 +1,23 @@
+var __xr_tmp = [
+"<span class=\"comment\">/*</span>", 
+"<span class=\"comment\"> *  Deadline i/o scheduler.</span>", 
+"<span class=\"comment\"> *</span>", 
+"<span class=\"comment\"> *  Copyright (C) 2002 Jens Axboe &lt;axboe@kernel.dk&gt;</span>", 
+"<span class=\"comment\"> */</span>", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#kernel\">kernel</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#fs\">fs</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#blkdev\">blkdev</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#elevator\">elevator</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#bio\">bio</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#module\">module</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#slab\">slab</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#init\">init</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#compiler\">compiler</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#rbtree\">rbtree</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"", 
+"<span class=\"comment\">/*</span>", 
+"<span class=\"comment\"> * See Documentation/block/deadline-iosched.txt</span>", 
+"<span class=\"comment\"> */</span>", 
+"static const int <a class=\"id\" href=\"#read_expire\">read_expire</a> = <a class=\"id\" href=\"#HZ\">HZ</a> / 2;  <span class=\"comment\">/* max time before a read is submitted. */</span>", 
+];
+xr_frag_insert('l/54/69aa66f556bf2f4e76e5a34afda7910a950a77.xr', __xr_tmp);

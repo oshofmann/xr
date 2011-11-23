@@ -1,0 +1,21 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#_NET_INET_DATALINK_H_\">_NET_INET_DATALINK_H_</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#_NET_INET_DATALINK_H_\">_NET_INET_DATALINK_H_</a>", 
+"", 
+"struct <a class=\"id\" href=\"#datalink_proto\">datalink_proto</a> {", 
+"        unsigned char   <a class=\"id\" href=\"#type\">type</a>[8];", 
+"", 
+"<span class=\"ts\"/>struct <a class=\"id\" href=\"#llc_sap\">llc_sap</a>   *<a class=\"id\" href=\"#sap\">sap</a>;", 
+"", 
+"        unsigned short  <a class=\"id\" href=\"#header_length\">header_length</a>;", 
+"", 
+"        int     (*<a class=\"id\" href=\"#rcvfunc\">rcvfunc</a>)(struct <a class=\"id\" href=\"#sk_buff\">sk_buff</a> *, struct <a class=\"id\" href=\"#net_device\">net_device</a> *,", 
+"                                struct <a class=\"id\" href=\"#packet_type\">packet_type</a> *, struct <a class=\"id\" href=\"#net_device\">net_device</a> *);", 
+"<span class=\"ts\"/>int     (*<a class=\"id\" href=\"#request\">request</a>)(struct <a class=\"id\" href=\"#datalink_proto\">datalink_proto</a> *, struct <a class=\"id\" href=\"#sk_buff\">sk_buff</a> *,", 
+"                                        unsigned char *);", 
+"<span class=\"ts\"/>struct <a class=\"id\" href=\"#list_head\">list_head</a> <a class=\"id\" href=\"#node\">node</a>;", 
+"};", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+];
+xr_frag_insert('l/a6/26eed43b11dc10d0475d64604d5158fedec4ce.xr', __xr_tmp);

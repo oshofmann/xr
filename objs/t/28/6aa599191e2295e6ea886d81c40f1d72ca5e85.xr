@@ -1,0 +1,87 @@
+var __xr_tmp = [
+{"id":"put_ipc_ns", "file":"ipc/shm.c", "line":270, "type":"c", "scope_line":266, "scope_name":"shm_release", }
+,{"id":"put_ipc_ns", "file":"ipc/util.c", "line":983, "type":"c", "scope_line":979, "scope_name":"sysvipc_proc_release", }
+,{"id":"put_ipc_ns", "file":"kernel/nsproxy.c", "line":103, "type":"c", "scope_line":56, "scope_name":"create_new_namespaces", }
+,{"id":"put_ipc_ns", "file":"kernel/nsproxy.c", "line":171, "type":"c", "scope_line":164, "scope_name":"free_nsproxy", }
+,{"id":"put_ldisc", "file":"drivers/char/tty_ldisc.c", "line":369, "type":"c", "scope_line":367, "scope_name":"tty_ldisc_deref", }
+,{"id":"put_ldisc", "file":"drivers/char/tty_ldisc.c", "line":375, "type":"c", "scope_line":373, "scope_name":"tty_ldisc_put", }
+,{"id":"put_ldisc", "file":"drivers/char/tty_ldisc.c", "line":60, "type":"f", }
+,{"id":"put_ldops", "file":"drivers/char/tty_ldisc.c", "line":169, "type":"f", }
+,{"id":"put_ldops", "file":"drivers/char/tty_ldisc.c", "line":214, "type":"c", "scope_line":192, "scope_name":"tty_ldisc_get", }
+,{"id":"put_ldops", "file":"drivers/char/tty_ldisc.c", "line":247, "type":"c", "scope_line":238, "scope_name":"tty_ldiscs_seq_show", }
+,{"id":"put_link", "file":"include/linux/fs.h", "line":1529, "type":"m", "scope_line":1516, "scope_name":"struct inode_operations", }
+,{"id":"put_long", "file":"block/ioctl.c", "line":150, "type":"f", }
+,{"id":"put_long", "file":"block/ioctl.c", "line":261, "type":"c", "scope_line":185, "scope_name":"blkdev_ioctl", }
+,{"id":"put_mems_allowed", "file":"include/linux/cpuset.h", "line":110, "type":"f", }
+,{"id":"put_mems_allowed", "file":"mm/filemap.c", "line":472, "type":"c", "scope_line":463, "scope_name":"__page_cache_alloc", }
+,{"id":"put_mems_allowed", "file":"mm/hugetlb.c", "line":516, "type":"c", "scope_line":469, "scope_name":"dequeue_huge_page_vma", }
+,{"id":"put_mems_allowed", "file":"mm/mempolicy.c", "line":1822, "type":"c", "scope_line":1808, "scope_name":"alloc_page_vma", }
+,{"id":"put_mems_allowed", "file":"mm/mempolicy.c", "line":1833, "type":"c", "scope_line":1808, "scope_name":"alloc_page_vma", }
+,{"id":"put_mems_allowed", "file":"mm/mempolicy.c", "line":1840, "type":"c", "scope_line":1808, "scope_name":"alloc_page_vma", }
+,{"id":"put_mems_allowed", "file":"mm/mempolicy.c", "line":1881, "type":"c", "scope_line":1863, "scope_name":"alloc_pages_current", }
+,{"id":"put_mems_allowed", "file":"mm/page_alloc.c", "line":2150, "type":"c", "scope_line":2120, "scope_name":"__alloc_pages_nodemask", }
+,{"id":"put_mems_allowed", "file":"mm/page_alloc.c", "line":2162, "type":"c", "scope_line":2120, "scope_name":"__alloc_pages_nodemask", }
+,{"id":"put_mems_allowed", "file":"mm/slab.c", "line":3224, "type":"c", "scope_line":3212, "scope_name":"alternate_node_alloc", }
+,{"id":"put_mems_allowed", "file":"mm/slab.c", "line":3307, "type":"c", "scope_line":3238, "scope_name":"fallback_alloc", }
+,{"id":"put_mems_allowed", "file":"mm/vmscan.c", "line":1956, "type":"c", "scope_line":1880, "scope_name":"do_try_to_free_pages", }
+,{"id":"put_mnt_ns", "file":"fs/namespace.c", "line":2164, "type":"c", "scope_line":2151, "scope_name":"copy_mnt_ns", }
+,{"id":"put_mnt_ns", "file":"fs/namespace.c", "line":2406, "type":"f", }
+,{"id":"put_mnt_ns", "file":"fs/proc/base.c", "line":632, "type":"c", "scope_line":581, "scope_name":"mounts_open_common", }
+,{"id":"put_mnt_ns", "file":"fs/proc/base.c", "line":641, "type":"c", "scope_line":637, "scope_name":"mounts_release", }
+,{"id":"put_mnt_ns", "file":"kernel/nsproxy.c", "line":109, "type":"c", "scope_line":56, "scope_name":"create_new_namespaces", }
+,{"id":"put_mnt_ns", "file":"kernel/nsproxy.c", "line":167, "type":"c", "scope_line":164, "scope_name":"free_nsproxy", }
+,{"id":"put_net", "file":"drivers/net/tun.c", "line":1496, "type":"c", "scope_line":1470, "scope_name":"tun_chr_close", }
+,{"id":"put_net", "file":"fs/proc/proc_net.c", "line":131, "type":"c", "scope_line":121, "scope_name":"proc_tgid_net_lookup", }
+,{"id":"put_net", "file":"fs/proc/proc_net.c", "line":148, "type":"c", "scope_line":136, "scope_name":"proc_tgid_net_getattr", }
+,{"id":"put_net", "file":"fs/proc/proc_net.c", "line":169, "type":"c", "scope_line":159, "scope_name":"proc_tgid_net_readdir", }
+,{"id":"put_net", "file":"fs/proc/proc_net.c", "line":49, "type":"c", "scope_line":35, "scope_name":"seq_open_net", }
+,{"id":"put_net", "file":"fs/proc/proc_net.c", "line":77, "type":"c", "scope_line":59, "scope_name":"single_open_net", }
+,{"id":"put_net", "file":"fs/proc/proc_net.c", "line":89, "type":"c", "scope_line":83, "scope_name":"seq_release_net", }
+,{"id":"put_net", "file":"fs/proc/proc_net.c", "line":98, "type":"c", "scope_line":95, "scope_name":"single_release_net", }
+,{"id":"put_net", "file":"include/net/net_namespace.h", "line":139, "type":"f", }
+,{"id":"put_net", "file":"include/net/sock.h", "line":1731, "type":"c", "scope_line":1729, "scope_name":"sk_change_net", }
+,{"id":"put_net", "file":"kernel/nsproxy.c", "line":174, "type":"c", "scope_line":164, "scope_name":"free_nsproxy", }
+,{"id":"put_net", "file":"net/core/rtnetlink.c", "line":1087, "type":"c", "scope_line":1073, "scope_name":"do_setlink", }
+,{"id":"put_net", "file":"net/core/rtnetlink.c", "line":1567, "type":"c", "scope_line":1429, "scope_name":"rtnl_newlink", }
+,{"id":"put_net", "file":"net/core/sock.c", "line":1144, "type":"c", "scope_line":1120, "scope_name":"__sk_free", }
+,{"id":"put_nsproxy", "file":"include/linux/nsproxy.h", "line":72, "type":"f", }
+,{"id":"put_nsproxy", "file":"kernel/fork.c", "line":1710, "type":"c", "scope_line":1625, "scope_name":"sys_unshare", }
+,{"id":"put_nsproxy", "file":"kernel/nsproxy.c", "line":160, "type":"c", "scope_line":119, "scope_name":"copy_namespaces", }
+,{"id":"put_nsproxy", "file":"kernel/nsproxy.c", "line":203, "type":"c", "scope_line":182, "scope_name":"unshare_nsproxy_namespaces", }
+,{"id":"put_online_cpus", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":1426, "type":"c", "scope_line":1409, "scope_name":"_cpb_toggle_msrs", }
+,{"id":"put_online_cpus", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":461, "type":"c", "scope_line":359, "scope_name":"mtrr_add_page", }
+,{"id":"put_online_cpus", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":582, "type":"c", "scope_line":535, "scope_name":"mtrr_del_page", }
+,{"id":"put_online_cpus", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":102, "type":"c", "scope_line":77, "scope_name":"release_ds_buffers", }
+,{"id":"put_online_cpus", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":169, "type":"c", "scope_line":105, "scope_name":"reserve_ds_buffers", }
+,{"id":"put_online_cpus", "file":"arch/x86/mm/mmio-mod.c", "line":400, "type":"c", "scope_line":384, "scope_name":"enter_uniprocessor", }
+,{"id":"put_online_cpus", "file":"drivers/pci/pci-driver.c", "line":334, "type":"c", "scope_line":314, "scope_name":"pci_call_probe", }
+,{"id":"put_online_cpus", "file":"kernel/cpu.c", "line":72, "type":"f", }
+,{"id":"put_online_cpus", "file":"kernel/cpuset.c", "line":733, "type":"c", "scope_line":717, "scope_name":"do_rebuild_sched_domains", }
+,{"id":"put_online_cpus", "file":"kernel/hw_breakpoint.c", "line":528, "type":"c", "scope_line":504, "scope_name":"register_wide_hw_breakpoint", }
+,{"id":"put_online_cpus", "file":"kernel/hw_breakpoint.c", "line":539, "type":"c", "scope_line":504, "scope_name":"register_wide_hw_breakpoint", }
+,{"id":"put_online_cpus", "file":"kernel/kprobes.c", "line":1208, "type":"c", "scope_line":1125, "scope_name":"register_kprobe", }
+,{"id":"put_online_cpus", "file":"kernel/kprobes.c", "line":1936, "type":"c", "scope_line":1905, "scope_name":"disarm_all_kprobes", }
+,{"id":"put_online_cpus", "file":"kernel/kprobes.c", "line":467, "type":"c", "scope_line":429, "scope_name":"kprobe_optimizer", }
+,{"id":"put_online_cpus", "file":"kernel/kprobes.c", "line":644, "type":"c", "scope_line":620, "scope_name":"unoptimize_all_kprobes", }
+,{"id":"put_online_cpus", "file":"kernel/kprobes.c", "line":737, "type":"c", "scope_line":731, "scope_name":"disarm_kprobe", }
+,{"id":"put_online_cpus", "file":"kernel/perf_event.c", "line":4578, "type":"c", "scope_line":4562, "scope_name":"swevent_hlist_get", }
+,{"id":"put_online_cpus", "file":"kernel/perf_event.c", "line":4588, "type":"c", "scope_line":4562, "scope_name":"swevent_hlist_get", }
+,{"id":"put_online_cpus", "file":"kernel/sched.c", "line":4870, "type":"c", "scope_line":4858, "scope_name":"sched_setaffinity", }
+,{"id":"put_online_cpus", "file":"kernel/sched.c", "line":4917, "type":"c", "scope_line":4858, "scope_name":"sched_setaffinity", }
+,{"id":"put_online_cpus", "file":"kernel/sched.c", "line":4979, "type":"c", "scope_line":4954, "scope_name":"sched_getaffinity", }
+,{"id":"put_online_cpus", "file":"kernel/sched.c", "line":7402, "type":"c", "scope_line":7394, "scope_name":"arch_reinit_sched_domains", }
+,{"id":"put_online_cpus", "file":"kernel/sched.c", "line":7558, "type":"c", "scope_line":7539, "scope_name":"sched_init_smp", }
+,{"id":"put_online_cpus", "file":"kernel/sched.c", "line":9171, "type":"c", "scope_line":9161, "scope_name":"synchronize_sched_expedited", }
+,{"id":"put_online_cpus", "file":"kernel/sched.c", "line":9186, "type":"c", "scope_line":9161, "scope_name":"synchronize_sched_expedited", }
+,{"id":"put_online_cpus", "file":"kernel/stop_machine.c", "line":481, "type":"c", "scope_line":474, "scope_name":"stop_machine", }
+,{"id":"put_online_cpus", "file":"kernel/trace/ftrace.c", "line":2826, "type":"c", "scope_line":2816, "scope_name":"clear_ftrace_swapper", }
+,{"id":"put_online_cpus", "file":"kernel/trace/ftrace.c", "line":2839, "type":"c", "scope_line":2829, "scope_name":"set_ftrace_swapper", }
+,{"id":"put_online_cpus", "file":"kernel/trace/ring_buffer.c", "line":1158, "type":"c", "scope_line":1101, "scope_name":"__ring_buffer_alloc", }
+,{"id":"put_online_cpus", "file":"kernel/trace/ring_buffer.c", "line":1172, "type":"c", "scope_line":1101, "scope_name":"__ring_buffer_alloc", }
+,{"id":"put_online_cpus", "file":"kernel/trace/ring_buffer.c", "line":1198, "type":"c", "scope_line":1184, "scope_name":"ring_buffer_free", }
+,{"id":"put_online_cpus", "file":"kernel/trace/ring_buffer.c", "line":1369, "type":"c", "scope_line":1278, "scope_name":"ring_buffer_resize", }
+,{"id":"put_online_cpus", "file":"kernel/trace/ring_buffer.c", "line":1381, "type":"c", "scope_line":1278, "scope_name":"ring_buffer_resize", }
+,{"id":"put_online_cpus", "file":"kernel/trace/ring_buffer.c", "line":1391, "type":"c", "scope_line":1278, "scope_name":"ring_buffer_resize", }
+,{"id":"put_online_cpus", "file":"kernel/workqueue.c", "line":2624, "type":"c", "scope_line":2603, "scope_name":"schedule_on_each_cpu", }
+,];
+xr_frag_insert('t/28/6aa599191e2295e6ea886d81c40f1d72ca5e85.xr', __xr_tmp);

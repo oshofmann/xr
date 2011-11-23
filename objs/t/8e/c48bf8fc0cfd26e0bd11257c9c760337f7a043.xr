@@ -1,0 +1,91 @@
+var __xr_tmp = [
+{"id":"bit_waitqueue", "file":"fs/fs-writeback.c", "line":290, "type":"c", "scope_line":285, "scope_name":"inode_wait_for_writeback", }
+,{"id":"bit_waitqueue", "file":"fs/inode.c", "line":1449, "type":"c", "scope_line":1445, "scope_name":"__wait_on_freeing_inode", }
+,{"id":"bit_waitqueue", "file":"fs/jbd/transaction.c", "line":635, "type":"c", "scope_line":514, "scope_name":"do_get_write_access", }
+,{"id":"bit_waitqueue", "file":"fs/jbd2/journal.c", "line":2212, "type":"c", "scope_line":2201, "scope_name":"jbd2_journal_release_jbd_inode", }
+,{"id":"bit_waitqueue", "file":"fs/jbd2/transaction.c", "line":695, "type":"c", "scope_line":574, "scope_name":"do_get_write_access", }
+,{"id":"bit_waitqueue", "file":"kernel/wait.c", "line":212, "type":"c", "scope_line":209, "scope_name":"out_of_line_wait_on_bit", }
+,{"id":"bit_waitqueue", "file":"kernel/wait.c", "line":243, "type":"c", "scope_line":240, "scope_name":"out_of_line_wait_on_bit_lock", }
+,{"id":"bit_waitqueue", "file":"kernel/wait.c", "line":277, "type":"c", "scope_line":275, "scope_name":"wake_up_bit", }
+,{"id":"bit_waitqueue", "file":"kernel/wait.c", "line":281, "type":"f", }
+,{"id":"bit_width", "file":"arch/x86/include/asm/perf_event.h", "line":63, "type":"m", "scope_line":59, "scope_name":"union cpuid10_eax", }
+,{"id":"bit_width", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":135, "type":"m", "scope_line":133, "scope_name":"struct io_addr", }
+,{"id":"bit_width", "file":"drivers/acpi/acpica/amlresrc.h", "line":260, "type":"m", "scope_line":258, "scope_name":"struct aml_resource_generic_register", }
+,{"id":"bit_width", "file":"include/acpi/acrestyp.h", "line":326, "type":"m", "scope_line":324, "scope_name":"struct acpi_resource_generic_register", }
+,{"id":"bit_width", "file":"include/acpi/actbl.h", "line":118, "type":"m", "scope_line":116, "scope_name":"struct acpi_generic_address", }
+,{"id":"bit_width", "file":"include/acpi/processor.h", "line":135, "type":"m", "scope_line":131, "scope_name":"struct acpi_ptc_register", }
+,{"id":"bit_width", "file":"include/acpi/processor.h", "line":49, "type":"m", "scope_line":45, "scope_name":"struct acpi_power_register", }
+,{"id":"bit_width", "file":"include/acpi/processor.h", "line":94, "type":"m", "scope_line":90, "scope_name":"struct acpi_pct_register", }
+,{"id":"bit_width_fixed", "file":"arch/x86/include/asm/perf_event.h", "line":72, "type":"m", "scope_line":69, "scope_name":"union cpuid10_edx", }
+,{"id":"bitcpy", "file":"drivers/video/cfbcopyarea.c", "line":418, "type":"c", "scope_line":369, "scope_name":"cfb_copyarea", }
+,{"id":"bitcpy", "file":"drivers/video/cfbcopyarea.c", "line":45, "type":"f", }
+,{"id":"bitcpy_rev", "file":"drivers/video/cfbcopyarea.c", "line":204, "type":"f", }
+,{"id":"bitcpy_rev", "file":"drivers/video/cfbcopyarea.c", "line":409, "type":"c", "scope_line":369, "scope_name":"cfb_copyarea", }
+,{"id":"bitfill_aligned", "file":"drivers/video/cfbfillrect.c", "line":34, "type":"f", }
+,{"id":"bitfill_aligned_rev", "file":"drivers/video/cfbfillrect.c", "line":145, "type":"f", }
+,{"id":"bitfill_unaligned", "file":"drivers/video/cfbfillrect.c", "line":91, "type":"f", }
+,{"id":"bitfill_unaligned_rev", "file":"drivers/video/cfbfillrect.c", "line":216, "type":"f", }
+,{"id":"bitmap", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":306, "type":"m", "scope_line":303, "scope_name":"struct aperture_range", }
+,{"id":"bitmap", "file":"include/linux/idr.h", "line":127, "type":"m", "scope_line":125, "scope_name":"struct ida_bitmap", }
+,{"id":"bitmap", "file":"include/linux/idr.h", "line":52, "type":"m", "scope_line":51, "scope_name":"struct idr_layer", }
+,{"id":"bitmap", "file":"include/linux/videodev2.h", "line":591, "type":"m", "scope_line":585, "scope_name":"struct v4l2_window", }
+,{"id":"bitmap", "file":"include/linux/xfrm.h", "line":84, "type":"m", "scope_line":81, "scope_name":"struct xfrm_replay_state", }
+,{"id":"bitmap", "file":"include/net/netlabel.h", "line":168, "type":"m", "scope_line":166, "scope_name":"struct netlbl_lsm_secattr_catmap", }
+,{"id":"bitmap", "file":"include/xen/interface/physdev.h", "line":78, "type":"m", "scope_line":76, "scope_name":"struct physdev_set_iobitmap", }
+,{"id":"bitmap", "file":"kernel/sched.c", "line":140, "type":"m", "scope_line":139, "scope_name":"struct rt_prio_array", }
+,{"id":"bitmap", "file":"mm/percpu-vm.c", "line":46, "type":"v", }
+,{"id":"bitmap", "file":"net/sched/sch_generic.c", "line":430, "type":"m", "scope_line":429, "scope_name":"struct pfifo_fast_priv", }
+,{"id":"bitmap1_name", "file":"fs/partitions/ldm.h", "line":128, "type":"m", "scope_line":127, "scope_name":"struct tocblock", }
+,{"id":"bitmap1_size", "file":"fs/partitions/ldm.h", "line":130, "type":"m", "scope_line":127, "scope_name":"struct tocblock", }
+,{"id":"bitmap1_start", "file":"fs/partitions/ldm.h", "line":129, "type":"m", "scope_line":127, "scope_name":"struct tocblock", }
+,{"id":"bitmap2_name", "file":"fs/partitions/ldm.h", "line":131, "type":"m", "scope_line":127, "scope_name":"struct tocblock", }
+,{"id":"bitmap2_size", "file":"fs/partitions/ldm.h", "line":133, "type":"m", "scope_line":127, "scope_name":"struct tocblock", }
+,{"id":"bitmap2_start", "file":"fs/partitions/ldm.h", "line":132, "type":"m", "scope_line":127, "scope_name":"struct tocblock", }
+,{"id":"bitmap2band", "file":"net/sched/sch_generic.c", "line":440, "type":"v", }
+,{"id":"bitmap_allocate_region", "file":"lib/bitmap.c", "line":1071, "type":"f", }
+,{"id":"bitmap_allocate_region", "file":"mm/vmalloc.c", "line":931, "type":"c", "scope_line":908, "scope_name":"vb_free", }
+,{"id":"bitmap_and", "file":"drivers/dma/dmaengine.c", "line":177, "type":"c", "scope_line":172, "scope_name":"__dma_device_satisfies_mask", }
+,{"id":"bitmap_and", "file":"include/linux/bitmap.h", "line":185, "type":"f", }
+,{"id":"bitmap_and", "file":"include/linux/cpumask.h", "line":331, "type":"c", "scope_line":327, "scope_name":"cpumask_and", }
+,{"id":"bitmap_and", "file":"include/linux/cpumask.h", "line":847, "type":"c", "scope_line":844, "scope_name":"__cpus_and", }
+,{"id":"bitmap_and", "file":"include/linux/nodemask.h", "line":138, "type":"c", "scope_line":135, "scope_name":"__nodes_and", }
+,{"id":"bitmap_andnot", "file":"include/linux/bitmap.h", "line":211, "type":"f", }
+,{"id":"bitmap_andnot", "file":"include/linux/cpumask.h", "line":372, "type":"c", "scope_line":368, "scope_name":"cpumask_andnot", }
+,{"id":"bitmap_andnot", "file":"include/linux/cpumask.h", "line":869, "type":"c", "scope_line":866, "scope_name":"__cpus_andnot", }
+,{"id":"bitmap_andnot", "file":"include/linux/nodemask.h", "line":162, "type":"c", "scope_line":159, "scope_name":"__nodes_andnot", }
+,{"id":"bitmap_bitremap", "file":"include/linux/nodemask.h", "line":331, "type":"c", "scope_line":328, "scope_name":"__node_remap", }
+,{"id":"bitmap_bitremap", "file":"lib/bitmap.c", "line":773, "type":"f", }
+,{"id":"bitmap_clear", "file":"arch/x86/kernel/amd_iommu.c", "line":1233, "type":"c", "scope_line":1214, "scope_name":"dma_ops_free_addresses", }
+,{"id":"bitmap_clear", "file":"arch/x86/kernel/pci-calgary_64.c", "line":311, "type":"c", "scope_line":288, "scope_name":"iommu_free", }
+,{"id":"bitmap_clear", "file":"arch/x86/kernel/pci-gart_64.c", "line":130, "type":"c", "scope_line":125, "scope_name":"free_iommu", }
+,{"id":"bitmap_clear", "file":"lib/bitmap.c", "line":297, "type":"f", }
+,{"id":"bitmap_complement", "file":"include/linux/bitmap.h", "line":219, "type":"f", }
+,{"id":"bitmap_complement", "file":"include/linux/cpumask.h", "line":384, "type":"c", "scope_line":381, "scope_name":"cpumask_complement", }
+,{"id":"bitmap_complement", "file":"include/linux/nodemask.h", "line":170, "type":"c", "scope_line":167, "scope_name":"__nodes_complement", }
+,{"id":"bitmap_copy", "file":"include/linux/bitmap.h", "line":174, "type":"f", }
+,{"id":"bitmap_copy", "file":"include/linux/cpumask.h", "line":485, "type":"c", "scope_line":482, "scope_name":"cpumask_copy", }
+,{"id":"bitmap_copy", "file":"mm/percpu-vm.c", "line":343, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"bitmap_copy", "file":"mm/percpu-vm.c", "line":411, "type":"c", "scope_line":374, "scope_name":"pcpu_depopulate_chunk", }
+,{"id":"bitmap_copy", "file":"mm/percpu-vm.c", "line":61, "type":"c", "scope_line":41, "scope_name":"pcpu_get_pages_and_bitmap", }
+,{"id":"bitmap_copy_le", "file":"lib/bitmap.c", "line":1088, "type":"f", }
+,{"id":"bitmap_ctrl", "file":"include/linux/ieee80211.h", "line":590, "type":"m", "scope_line":587, "scope_name":"struct ieee80211_tim_ie", }
+,{"id":"bitmap_empty", "file":"drivers/pnp/interface.c", "line":84, "type":"c", "scope_line":66, "scope_name":"pnp_print_irq", }
+,{"id":"bitmap_empty", "file":"drivers/pnp/manager.c", "line":138, "type":"c", "scope_line":116, "scope_name":"pnp_assign_irq", }
+,{"id":"bitmap_empty", "file":"drivers/pnp/support.c", "line":144, "type":"c", "scope_line":104, "scope_name":"dbg_pnp_show_option", }
+,{"id":"bitmap_empty", "file":"include/linux/bitmap.h", "line":255, "type":"f", }
+,{"id":"bitmap_empty", "file":"include/linux/cpumask.h", "line":430, "type":"c", "scope_line":428, "scope_name":"cpumask_empty", }
+,{"id":"bitmap_empty", "file":"include/linux/cpumask.h", "line":896, "type":"c", "scope_line":894, "scope_name":"__cpus_empty", }
+,{"id":"bitmap_empty", "file":"include/linux/nodemask.h", "line":200, "type":"c", "scope_line":198, "scope_name":"__nodes_empty", }
+,{"id":"bitmap_equal", "file":"drivers/dma/dmaengine.c", "line":179, "type":"c", "scope_line":172, "scope_name":"__dma_device_satisfies_mask", }
+,{"id":"bitmap_equal", "file":"include/linux/bitmap.h", "line":228, "type":"f", }
+,{"id":"bitmap_equal", "file":"include/linux/cpumask.h", "line":396, "type":"c", "scope_line":393, "scope_name":"cpumask_equal", }
+,{"id":"bitmap_equal", "file":"include/linux/cpumask.h", "line":876, "type":"c", "scope_line":873, "scope_name":"__cpus_equal", }
+,{"id":"bitmap_equal", "file":"include/linux/nodemask.h", "line":178, "type":"c", "scope_line":175, "scope_name":"__nodes_equal", }
+,{"id":"bitmap_fill", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":1286, "type":"c", "scope_line":1277, "scope_name":"__mcheck_cpu_init_generic", }
+,{"id":"bitmap_fill", "file":"drivers/dma/dmaengine.c", "line":295, "type":"c", "scope_line":290, "scope_name":"dma_channel_table_init", }
+,{"id":"bitmap_fill", "file":"include/linux/bitmap.h", "line":164, "type":"f", }
+,{"id":"bitmap_fill", "file":"include/linux/cpumask.h", "line":309, "type":"c", "scope_line":307, "scope_name":"cpumask_setall", }
+,{"id":"bitmap_fill", "file":"include/linux/cpumask.h", "line":825, "type":"c", "scope_line":823, "scope_name":"__cpus_setall", }
+,{"id":"bitmap_fill", "file":"include/linux/inetdevice.h", "line":93, "type":"c", "scope_line":91, "scope_name":"ipv4_devconf_setall", }
+,];
+xr_frag_insert('t/8e/c48bf8fc0cfd26e0bd11257c9c760337f7a043.xr', __xr_tmp);

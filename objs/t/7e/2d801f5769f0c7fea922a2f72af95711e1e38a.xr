@@ -1,0 +1,52 @@
+var __xr_tmp = [
+{"id":"sem_init", "file":"ipc/util.c", "line":102, "type":"c", "scope_line":100, "scope_name":"ipc_init", }
+,{"id":"sem_init_ns", "file":"ipc/namespace.c", "line":34, "type":"c", "scope_line":17, "scope_name":"create_ipc_ns", }
+,{"id":"sem_init_ns", "file":"ipc/sem.c", "line":121, "type":"f", }
+,{"id":"sem_init_ns", "file":"ipc/sem.c", "line":141, "type":"c", "scope_line":139, "scope_name":"sem_init", }
+,{"id":"sem_lock", "file":"ipc/sem.c", "line":1456, "type":"c", "scope_line":1288, "scope_name":"sys_semtimedop", }
+,{"id":"sem_lock", "file":"ipc/sem.c", "line":151, "type":"f", }
+,{"id":"sem_lock", "file":"ipc/sem.c", "line":808, "type":"c", "scope_line":761, "scope_name":"semctl_nolock", }
+,{"id":"sem_lock_and_putref", "file":"ipc/sem.c", "line":1226, "type":"c", "scope_line":1189, "scope_name":"find_alloc_undo", }
+,{"id":"sem_lock_and_putref", "file":"ipc/sem.c", "line":172, "type":"f", }
+,{"id":"sem_lock_and_putref", "file":"ipc/sem.c", "line":888, "type":"c", "scope_line":846, "scope_name":"semctl_main", }
+,{"id":"sem_lock_and_putref", "file":"ipc/sem.c", "line":932, "type":"c", "scope_line":846, "scope_name":"semctl_main", }
+,{"id":"sem_lock_check", "file":"ipc/sem.c", "line":1211, "type":"c", "scope_line":1189, "scope_name":"find_alloc_undo", }
+,{"id":"sem_lock_check", "file":"ipc/sem.c", "line":1351, "type":"c", "scope_line":1288, "scope_name":"sys_semtimedop", }
+,{"id":"sem_lock_check", "file":"ipc/sem.c", "line":1559, "type":"c", "scope_line":1528, "scope_name":"exit_sem", }
+,{"id":"sem_lock_check", "file":"ipc/sem.c", "line":161, "type":"f", }
+,{"id":"sem_lock_check", "file":"ipc/sem.c", "line":813, "type":"c", "scope_line":761, "scope_name":"semctl_nolock", }
+,{"id":"sem_lock_check", "file":"ipc/sem.c", "line":857, "type":"c", "scope_line":846, "scope_name":"semctl_main", }
+,{"id":"sem_more_checks", "file":"ipc/sem.c", "line":309, "type":"f", }
+,{"id":"sem_nsems", "file":"arch/x86/include/asm/compat.h", "line":147, "type":"m", "scope_line":141, "scope_name":"struct compat_semid64_ds", }
+,{"id":"sem_nsems", "file":"arch/x86/include/asm/sembuf.h", "line":19, "type":"m", "scope_line":13, "scope_name":"struct semid64_ds", }
+,{"id":"sem_nsems", "file":"include/linux/sem.h", "line":102, "type":"m", "scope_line":94, "scope_name":"struct sem_array", }
+,{"id":"sem_nsems", "file":"include/linux/sem.h", "line":31, "type":"m", "scope_line":23, "scope_name":"struct semid_ds", }
+,{"id":"sem_nsems", "file":"ipc/compat.c", "line":59, "type":"m", "scope_line":51, "scope_name":"struct compat_semid_ds", }
+,{"id":"sem_num", "file":"include/linux/sem.h", "line":39, "type":"m", "scope_line":38, "scope_name":"struct sembuf", }
+,{"id":"sem_op", "file":"include/linux/sem.h", "line":40, "type":"m", "scope_line":38, "scope_name":"struct sembuf", }
+,{"id":"sem_otime", "file":"arch/x86/include/asm/compat.h", "line":143, "type":"m", "scope_line":141, "scope_name":"struct compat_semid64_ds", }
+,{"id":"sem_otime", "file":"arch/x86/include/asm/sembuf.h", "line":15, "type":"m", "scope_line":13, "scope_name":"struct semid64_ds", }
+,{"id":"sem_otime", "file":"include/linux/sem.h", "line":25, "type":"m", "scope_line":23, "scope_name":"struct semid_ds", }
+,{"id":"sem_otime", "file":"include/linux/sem.h", "line":97, "type":"m", "scope_line":94, "scope_name":"struct sem_array", }
+,{"id":"sem_otime", "file":"ipc/compat.c", "line":53, "type":"m", "scope_line":51, "scope_name":"struct compat_semid_ds", }
+,{"id":"sem_pending", "file":"include/linux/sem.h", "line":100, "type":"m", "scope_line":94, "scope_name":"struct sem_array", }
+,{"id":"sem_pending", "file":"include/linux/sem.h", "line":28, "type":"m", "scope_line":23, "scope_name":"struct semid_ds", }
+,{"id":"sem_pending", "file":"include/linux/sem.h", "line":90, "type":"m", "scope_line":87, "scope_name":"struct sem", }
+,{"id":"sem_pending", "file":"ipc/compat.c", "line":56, "type":"m", "scope_line":51, "scope_name":"struct compat_semid_ds", }
+,{"id":"sem_pending_last", "file":"include/linux/sem.h", "line":29, "type":"m", "scope_line":23, "scope_name":"struct semid_ds", }
+,{"id":"sem_pending_last", "file":"ipc/compat.c", "line":57, "type":"m", "scope_line":51, "scope_name":"struct compat_semid_ds", }
+,{"id":"sem_perm", "file":"arch/x86/include/asm/compat.h", "line":142, "type":"m", "scope_line":141, "scope_name":"struct compat_semid64_ds", }
+,{"id":"sem_perm", "file":"arch/x86/include/asm/sembuf.h", "line":14, "type":"m", "scope_line":13, "scope_name":"struct semid64_ds", }
+,{"id":"sem_perm", "file":"include/linux/sem.h", "line":24, "type":"m", "scope_line":23, "scope_name":"struct semid_ds", }
+,{"id":"sem_perm", "file":"include/linux/sem.h", "line":96, "type":"m", "scope_line":94, "scope_name":"struct sem_array", }
+,{"id":"sem_perm", "file":"ipc/compat.c", "line":52, "type":"m", "scope_line":51, "scope_name":"struct compat_semid_ds", }
+,{"id":"sem_putref", "file":"ipc/sem.c", "line":1221, "type":"c", "scope_line":1189, "scope_name":"find_alloc_undo", }
+,{"id":"sem_putref", "file":"ipc/sem.c", "line":184, "type":"f", }
+,{"id":"sem_putref", "file":"ipc/sem.c", "line":884, "type":"c", "scope_line":846, "scope_name":"semctl_main", }
+,{"id":"sem_putref", "file":"ipc/sem.c", "line":914, "type":"c", "scope_line":846, "scope_name":"semctl_main", }
+,{"id":"sem_putref", "file":"ipc/sem.c", "line":920, "type":"c", "scope_line":846, "scope_name":"semctl_main", }
+,{"id":"sem_putref", "file":"ipc/sem.c", "line":927, "type":"c", "scope_line":846, "scope_name":"semctl_main", }
+,{"id":"sem_queue", "file":"include/linux/sem.h", "line":107, "type":"s", }
+,{"id":"sem_rmid", "file":"ipc/sem.c", "line":191, "type":"f", }
+,];
+xr_frag_insert('t/7e/2d801f5769f0c7fea922a2f72af95711e1e38a.xr', __xr_tmp);

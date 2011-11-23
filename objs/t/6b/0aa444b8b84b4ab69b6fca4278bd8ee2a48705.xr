@@ -1,0 +1,143 @@
+var __xr_tmp = [
+{"id":"tomoyo_same_acl_head", "file":"security/tomoyo/file.c", "line":819, "type":"c", "scope_line":812, "scope_name":"tomoyo_same_path_number_acl", }
+,{"id":"tomoyo_same_acl_head", "file":"security/tomoyo/mount.c", "line":245, "type":"c", "scope_line":240, "scope_name":"tomoyo_same_mount_acl", }
+,{"id":"tomoyo_same_aggregator", "file":"security/tomoyo/domain.c", "line":291, "type":"f", }
+,{"id":"tomoyo_same_globally_readable", "file":"security/tomoyo/file.c", "line":270, "type":"f", }
+,{"id":"tomoyo_same_manager", "file":"security/tomoyo/common.c", "line":586, "type":"f", }
+,{"id":"tomoyo_same_mkdev_acl", "file":"security/tomoyo/file.c", "line":629, "type":"f", }
+,{"id":"tomoyo_same_mount_acl", "file":"security/tomoyo/mount.c", "line":240, "type":"f", }
+,{"id":"tomoyo_same_name_union", "file":"security/tomoyo/common.h", "line":990, "type":"f", }
+,{"id":"tomoyo_same_name_union", "file":"security/tomoyo/file.c", "line":568, "type":"c", "scope_line":563, "scope_name":"tomoyo_same_path_acl", }
+,{"id":"tomoyo_same_name_union", "file":"security/tomoyo/file.c", "line":636, "type":"c", "scope_line":629, "scope_name":"tomoyo_same_mkdev_acl", }
+,{"id":"tomoyo_same_name_union", "file":"security/tomoyo/file.c", "line":706, "type":"c", "scope_line":701, "scope_name":"tomoyo_same_path2_acl", }
+,{"id":"tomoyo_same_name_union", "file":"security/tomoyo/file.c", "line":819, "type":"c", "scope_line":812, "scope_name":"tomoyo_same_path_number_acl", }
+,{"id":"tomoyo_same_name_union", "file":"security/tomoyo/mount.c", "line":245, "type":"c", "scope_line":240, "scope_name":"tomoyo_same_mount_acl", }
+,{"id":"tomoyo_same_no_rewrite", "file":"security/tomoyo/file.c", "line":432, "type":"f", }
+,{"id":"tomoyo_same_number_group", "file":"security/tomoyo/group.c", "line":17, "type":"f", }
+,{"id":"tomoyo_same_number_union", "file":"security/tomoyo/common.h", "line":997, "type":"f", }
+,{"id":"tomoyo_same_number_union", "file":"security/tomoyo/file.c", "line":636, "type":"c", "scope_line":629, "scope_name":"tomoyo_same_mkdev_acl", }
+,{"id":"tomoyo_same_number_union", "file":"security/tomoyo/file.c", "line":819, "type":"c", "scope_line":812, "scope_name":"tomoyo_same_path_number_acl", }
+,{"id":"tomoyo_same_number_union", "file":"security/tomoyo/mount.c", "line":245, "type":"c", "scope_line":240, "scope_name":"tomoyo_same_mount_acl", }
+,{"id":"tomoyo_same_path2_acl", "file":"security/tomoyo/file.c", "line":701, "type":"f", }
+,{"id":"tomoyo_same_path_acl", "file":"security/tomoyo/file.c", "line":563, "type":"f", }
+,{"id":"tomoyo_same_path_group", "file":"security/tomoyo/group.c", "line":10, "type":"f", }
+,{"id":"tomoyo_same_path_number_acl", "file":"security/tomoyo/file.c", "line":812, "type":"f", }
+,{"id":"tomoyo_same_pattern", "file":"security/tomoyo/file.c", "line":349, "type":"f", }
+,{"id":"tomoyo_same_transition_control", "file":"security/tomoyo/domain.c", "line":151, "type":"f", }
+,{"id":"tomoyo_sb_mount", "file":"security/tomoyo/tomoyo.c", "line":222, "type":"f", }
+,{"id":"tomoyo_sb_pivotroot", "file":"security/tomoyo/tomoyo.c", "line":234, "type":"f", }
+,{"id":"tomoyo_sb_umount", "file":"security/tomoyo/tomoyo.c", "line":228, "type":"f", }
+,{"id":"tomoyo_security_ops", "file":"security/tomoyo/tomoyo.c", "line":243, "type":"v", }
+,{"id":"tomoyo_securityfs_interface_index", "file":"security/tomoyo/common.h", "line":172, "type":"t", }
+,{"id":"tomoyo_select_one", "file":"security/tomoyo/common.c", "line":737, "type":"f", }
+,{"id":"tomoyo_select_one", "file":"security/tomoyo/common.c", "line":850, "type":"c", "scope_line":838, "scope_name":"tomoyo_write_domain", }
+,{"id":"tomoyo_serial", "file":"security/tomoyo/common.c", "line":1512, "type":"v", }
+,{"id":"tomoyo_set_bool", "file":"security/tomoyo/common.c", "line":317, "type":"f", }
+,{"id":"tomoyo_set_bool", "file":"security/tomoyo/common.c", "line":377, "type":"c", "scope_line":337, "scope_name":"tomoyo_set_pref", }
+,{"id":"tomoyo_set_lf", "file":"security/tomoyo/common.c", "line":1041, "type":"c", "scope_line":1027, "scope_name":"tomoyo_read_domain", }
+,{"id":"tomoyo_set_lf", "file":"security/tomoyo/common.c", "line":1054, "type":"c", "scope_line":1027, "scope_name":"tomoyo_read_domain", }
+,{"id":"tomoyo_set_lf", "file":"security/tomoyo/common.c", "line":1060, "type":"c", "scope_line":1027, "scope_name":"tomoyo_read_domain", }
+,{"id":"tomoyo_set_lf", "file":"security/tomoyo/common.c", "line":1135, "type":"c", "scope_line":1122, "scope_name":"tomoyo_read_domain_profile", }
+,{"id":"tomoyo_set_lf", "file":"security/tomoyo/common.c", "line":1284, "type":"c", "scope_line":1259, "scope_name":"tomoyo_read_group", }
+,{"id":"tomoyo_set_lf", "file":"security/tomoyo/common.c", "line":1373, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_lf", "file":"security/tomoyo/common.c", "line":180, "type":"f", }
+,{"id":"tomoyo_set_lf", "file":"security/tomoyo/common.c", "line":549, "type":"c", "scope_line":521, "scope_name":"tomoyo_read_profile", }
+,{"id":"tomoyo_set_lf", "file":"security/tomoyo/common.c", "line":668, "type":"c", "scope_line":655, "scope_name":"tomoyo_read_manager", }
+,{"id":"tomoyo_set_mode", "file":"security/tomoyo/common.c", "line":380, "type":"f", }
+,{"id":"tomoyo_set_mode", "file":"security/tomoyo/common.c", "line":467, "type":"c", "scope_line":429, "scope_name":"tomoyo_write_profile", }
+,{"id":"tomoyo_set_pref", "file":"security/tomoyo/common.c", "line":337, "type":"f", }
+,{"id":"tomoyo_set_pref", "file":"security/tomoyo/common.c", "line":456, "type":"c", "scope_line":429, "scope_name":"tomoyo_write_profile", }
+,{"id":"tomoyo_set_space", "file":"security/tomoyo/common.c", "line":1274, "type":"c", "scope_line":1259, "scope_name":"tomoyo_read_group", }
+,{"id":"tomoyo_set_space", "file":"security/tomoyo/common.c", "line":1347, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_space", "file":"security/tomoyo/common.c", "line":175, "type":"f", }
+,{"id":"tomoyo_set_space", "file":"security/tomoyo/common.c", "line":195, "type":"c", "scope_line":192, "scope_name":"tomoyo_print_name_union", }
+,{"id":"tomoyo_set_space", "file":"security/tomoyo/common.c", "line":213, "type":"c", "scope_line":210, "scope_name":"tomoyo_print_number_union", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1040, "type":"c", "scope_line":1027, "scope_name":"tomoyo_read_domain", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1046, "type":"c", "scope_line":1027, "scope_name":"tomoyo_read_domain", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1048, "type":"c", "scope_line":1027, "scope_name":"tomoyo_read_domain", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1050, "type":"c", "scope_line":1027, "scope_name":"tomoyo_read_domain", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1134, "type":"c", "scope_line":1122, "scope_name":"tomoyo_read_domain_profile", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1195, "type":"c", "scope_line":1163, "scope_name":"tomoyo_read_pid", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1271, "type":"c", "scope_line":1259, "scope_name":"tomoyo_read_group", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1272, "type":"c", "scope_line":1259, "scope_name":"tomoyo_read_group", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1275, "type":"c", "scope_line":1259, "scope_name":"tomoyo_read_group", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1316, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1320, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1323, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1325, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1334, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1336, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1343, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1345, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1348, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1356, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1358, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1365, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":1367, "type":"c", "scope_line":1302, "scope_name":"tomoyo_read_policy", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":141, "type":"f", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":172, "type":"c", "scope_line":156, "scope_name":"tomoyo_io_printf", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":177, "type":"c", "scope_line":175, "scope_name":"tomoyo_set_space", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":182, "type":"c", "scope_line":180, "scope_name":"tomoyo_set_lf", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":197, "type":"c", "scope_line":192, "scope_name":"tomoyo_print_name_union", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":198, "type":"c", "scope_line":192, "scope_name":"tomoyo_print_name_union", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":200, "type":"c", "scope_line":192, "scope_name":"tomoyo_print_name_union", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":215, "type":"c", "scope_line":210, "scope_name":"tomoyo_print_number_union", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":216, "type":"c", "scope_line":210, "scope_name":"tomoyo_print_number_union", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":548, "type":"c", "scope_line":521, "scope_name":"tomoyo_read_profile", }
+,{"id":"tomoyo_set_string", "file":"security/tomoyo/common.c", "line":667, "type":"c", "scope_line":655, "scope_name":"tomoyo_read_manager", }
+,{"id":"tomoyo_set_uint", "file":"security/tomoyo/common.c", "line":329, "type":"f", }
+,{"id":"tomoyo_set_uint", "file":"security/tomoyo/common.c", "line":367, "type":"c", "scope_line":337, "scope_name":"tomoyo_set_pref", }
+,{"id":"tomoyo_ss", "file":"security/tomoyo/common.h", "line":889, "type":"v", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/common.c", "line":1179, "type":"c", "scope_line":1163, "scope_name":"tomoyo_read_pid", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/common.c", "line":1224, "type":"c", "scope_line":1221, "scope_name":"tomoyo_write_exception", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/common.c", "line":1237, "type":"c", "scope_line":1221, "scope_name":"tomoyo_write_exception", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/common.c", "line":1241, "type":"c", "scope_line":1221, "scope_name":"tomoyo_write_exception", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/common.c", "line":1244, "type":"c", "scope_line":1221, "scope_name":"tomoyo_write_exception", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/common.c", "line":389, "type":"c", "scope_line":380, "scope_name":"tomoyo_set_mode", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/common.c", "line":455, "type":"c", "scope_line":429, "scope_name":"tomoyo_write_profile", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/common.c", "line":639, "type":"c", "scope_line":636, "scope_name":"tomoyo_write_manager", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/common.c", "line":824, "type":"c", "scope_line":821, "scope_name":"tomoyo_write_domain2", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/common.c", "line":846, "type":"c", "scope_line":838, "scope_name":"tomoyo_write_domain", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/common.c", "line":848, "type":"c", "scope_line":838, "scope_name":"tomoyo_write_domain", }
+,{"id":"tomoyo_str_starts", "file":"security/tomoyo/util.c", "line":198, "type":"f", }
+,{"id":"tomoyo_strendswith", "file":"security/tomoyo/file.c", "line":142, "type":"f", }
+,{"id":"tomoyo_strendswith", "file":"security/tomoyo/file.c", "line":405, "type":"c", "scope_line":393, "scope_name":"tomoyo_pattern", }
+,{"id":"tomoyo_supervisor", "file":"security/tomoyo/common.c", "line":1506, "type":"f", }
+,{"id":"tomoyo_supervisor", "file":"security/tomoyo/domain.c", "line":516, "type":"c", "scope_line":414, "scope_name":"tomoyo_find_next_domain", }
+,{"id":"tomoyo_supervisor", "file":"security/tomoyo/file.c", "line":184, "type":"c", "scope_line":177, "scope_name":"tomoyo_audit_path_log", }
+,{"id":"tomoyo_supervisor", "file":"security/tomoyo/file.c", "line":204, "type":"c", "scope_line":195, "scope_name":"tomoyo_audit_path2_log", }
+,{"id":"tomoyo_supervisor", "file":"security/tomoyo/file.c", "line":227, "type":"c", "scope_line":216, "scope_name":"tomoyo_audit_mkdev_log", }
+,{"id":"tomoyo_supervisor", "file":"security/tomoyo/file.c", "line":266, "type":"c", "scope_line":239, "scope_name":"tomoyo_audit_path_number_log", }
+,{"id":"tomoyo_supervisor", "file":"security/tomoyo/mount.c", "line":56, "type":"c", "scope_line":34, "scope_name":"tomoyo_audit_mount_log", }
+,{"id":"tomoyo_tokenize", "file":"security/tomoyo/file.c", "line":1146, "type":"c", "scope_line":1141, "scope_name":"tomoyo_write_file", }
+,{"id":"tomoyo_tokenize", "file":"security/tomoyo/group.c", "line":43, "type":"c", "scope_line":37, "scope_name":"tomoyo_write_group", }
+,{"id":"tomoyo_tokenize", "file":"security/tomoyo/mount.c", "line":269, "type":"c", "scope_line":263, "scope_name":"tomoyo_write_mount", }
+,{"id":"tomoyo_tokenize", "file":"security/tomoyo/util.c", "line":249, "type":"f", }
+,{"id":"tomoyo_transition_control", "file":"security/tomoyo/common.h", "line":631, "type":"s", }
+,{"id":"tomoyo_transition_type", "file":"security/tomoyo/common.c", "line":1198, "type":"v", }
+,{"id":"tomoyo_transition_type", "file":"security/tomoyo/common.h", "line":99, "type":"t", }
+,{"id":"tomoyo_transition_type", "file":"security/tomoyo/domain.c", "line":246, "type":"f", }
+,{"id":"tomoyo_transition_type", "file":"security/tomoyo/domain.c", "line":483, "type":"c", "scope_line":414, "scope_name":"tomoyo_find_next_domain", }
+,{"id":"tomoyo_update_aggregator_entry", "file":"security/tomoyo/domain.c", "line":311, "type":"f", }
+,{"id":"tomoyo_update_aggregator_entry", "file":"security/tomoyo/domain.c", "line":352, "type":"c", "scope_line":345, "scope_name":"tomoyo_write_aggregator", }
+,{"id":"tomoyo_update_domain", "file":"security/tomoyo/domain.c", "line":75, "type":"f", }
+,{"id":"tomoyo_update_domain", "file":"security/tomoyo/file.c", "line":622, "type":"c", "scope_line":609, "scope_name":"tomoyo_update_path_acl", }
+,{"id":"tomoyo_update_domain", "file":"security/tomoyo/file.c", "line":690, "type":"c", "scope_line":675, "scope_name":"tomoyo_update_mkdev_acl", }
+,{"id":"tomoyo_update_domain", "file":"security/tomoyo/file.c", "line":753, "type":"c", "scope_line":740, "scope_name":"tomoyo_update_path2_acl", }
+,{"id":"tomoyo_update_domain", "file":"security/tomoyo/file.c", "line":867, "type":"c", "scope_line":852, "scope_name":"tomoyo_update_path_number_acl", }
+,{"id":"tomoyo_update_domain", "file":"security/tomoyo/mount.c", "line":276, "type":"c", "scope_line":263, "scope_name":"tomoyo_write_mount", }
+,{"id":"tomoyo_update_file_pattern_entry", "file":"security/tomoyo/file.c", "line":366, "type":"f", }
+,{"id":"tomoyo_update_file_pattern_entry", "file":"security/tomoyo/file.c", "line":429, "type":"c", "scope_line":427, "scope_name":"tomoyo_write_pattern", }
+,{"id":"tomoyo_update_globally_readable_entry", "file":"security/tomoyo/file.c", "line":289, "type":"f", }
+,{"id":"tomoyo_update_globally_readable_entry", "file":"security/tomoyo/file.c", "line":346, "type":"c", "scope_line":344, "scope_name":"tomoyo_write_globally_readable", }
+,{"id":"tomoyo_update_manager_entry", "file":"security/tomoyo/common.c", "line":603, "type":"f", }
+,{"id":"tomoyo_update_manager_entry", "file":"security/tomoyo/common.c", "line":645, "type":"c", "scope_line":636, "scope_name":"tomoyo_write_manager", }
+,{"id":"tomoyo_update_mkdev_acl", "file":"security/tomoyo/file.c", "line":1175, "type":"c", "scope_line":1141, "scope_name":"tomoyo_write_file", }
+,{"id":"tomoyo_update_mkdev_acl", "file":"security/tomoyo/file.c", "line":675, "type":"f", }
+,{"id":"tomoyo_update_no_rewrite_entry", "file":"security/tomoyo/file.c", "line":450, "type":"f", }
+,{"id":"tomoyo_update_no_rewrite_entry", "file":"security/tomoyo/file.c", "line":507, "type":"c", "scope_line":505, "scope_name":"tomoyo_write_no_rewrite", }
+,{"id":"tomoyo_update_path2_acl", "file":"security/tomoyo/file.c", "line":1161, "type":"c", "scope_line":1141, "scope_name":"tomoyo_write_file", }
+,{"id":"tomoyo_update_path2_acl", "file":"security/tomoyo/file.c", "line":740, "type":"f", }
+,{"id":"tomoyo_update_path_acl", "file":"security/tomoyo/file.c", "line":1154, "type":"c", "scope_line":1141, "scope_name":"tomoyo_write_file", }
+,];
+xr_frag_insert('t/6b/0aa444b8b84b4ab69b6fca4278bd8ee2a48705.xr', __xr_tmp);

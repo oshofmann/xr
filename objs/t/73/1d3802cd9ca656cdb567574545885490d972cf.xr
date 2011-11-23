@@ -1,0 +1,58 @@
+var __xr_tmp = [
+{"id":"nr_stat", "file":"include/linux/perf_event.h", "line":790, "type":"m", "scope_line":771, "scope_name":"struct perf_event_context", }
+,{"id":"nr_stopped", "file":"include/linux/cgroupstats.h", "line":34, "type":"m", "scope_line":31, "scope_name":"struct cgroupstats", }
+,{"id":"nr_swap_pages", "file":"include/linux/swap.h", "line":315, "type":"v", }
+,{"id":"nr_swapfiles", "file":"mm/swapfile.c", "line":45, "type":"v", }
+,{"id":"nr_switches", "file":"kernel/sched.c", "line":470, "type":"m", "scope_line":449, "scope_name":"struct rq", }
+,{"id":"nr_table_entries", "file":"include/net/request_sock.h", "line":104, "type":"m", "scope_line":97, "scope_name":"struct listen_sock", }
+,{"id":"nr_tables", "file":"include/linux/efi.h", "line":233, "type":"m", "scope_line":221, "scope_name":"efi_system_table_t", }
+,{"id":"nr_taken", "file":"include/trace/events/vmscan.h", "line":173, "type":"m", "scope_line":173, "scope_name":"struct ftrace_raw_mm_vmscan_lru_isolate_template", }
+,{"id":"nr_task_bp_pinned", "file":"kernel/hw_breakpoint.c", "line":59, "type":"v", }
+,{"id":"nr_task_events", "file":"kernel/perf_event.c", "line":50, "type":"v", }
+,{"id":"nr_tasks", "file":"include/linux/iocontext.h", "line":36, "type":"m", "scope_line":34, "scope_name":"struct io_context", }
+,{"id":"nr_threads", "file":"include/linux/mm_types.h", "line":204, "type":"m", "scope_line":203, "scope_name":"struct core_state", }
+,{"id":"nr_threads", "file":"include/linux/sched.h", "line":136, "type":"v", }
+,{"id":"nr_threads", "file":"include/linux/sched.h", "line":519, "type":"m", "scope_line":516, "scope_name":"struct signal_struct", }
+,{"id":"nr_to_reclaim", "file":"mm/vmscan.c", "line":62, "type":"m", "scope_line":54, "scope_name":"struct scan_control", }
+,{"id":"nr_to_write", "file":"include/linux/writeback.h", "line":36, "type":"m", "scope_line":29, "scope_name":"struct writeback_control", }
+,{"id":"nr_to_write", "file":"include/trace/events/ext4.h", "line":219, "type":"m", "scope_line":219, "scope_name":"struct ftrace_raw_ext4_da_writepages", }
+,{"id":"nr_to_write", "file":"include/trace/events/writeback.h", "line":91, "type":"m", "scope_line":91, "scope_name":"struct ftrace_raw_wbc_class", }
+,{"id":"nr_todo", "file":"kernel/stop_machine.c", "line":29, "type":"m", "scope_line":28, "scope_name":"struct cpu_stop_done", }
+,{"id":"nr_transmit_refusal", "file":"include/net/netrom.h", "line":236, "type":"d", }
+,{"id":"nr_transmit_reset", "file":"include/net/netrom.h", "line":245, "type":"d", }
+,{"id":"nr_uarts", "file":"drivers/serial/8250.c", "line":59, "type":"v", }
+,{"id":"nr_uninterruptible", "file":"include/linux/cgroupstats.h", "line":35, "type":"m", "scope_line":31, "scope_name":"struct cgroupstats", }
+,{"id":"nr_uninterruptible", "file":"kernel/sched.c", "line":2905, "type":"f", }
+,{"id":"nr_uninterruptible", "file":"kernel/sched.c", "line":489, "type":"m", "scope_line":449, "scope_name":"struct rq", }
+,{"id":"nr_units", "file":"include/linux/percpu.h", "line":78, "type":"m", "scope_line":77, "scope_name":"struct pcpu_group_info", }
+,{"id":"nr_unshown", "file":"mm/memory.c", "line":482, "type":"v", }
+,{"id":"nr_unshown", "file":"mm/page_alloc.c", "line":279, "type":"v", }
+,{"id":"nr_unused", "file":"include/linux/dcache.h", "line":41, "type":"m", "scope_line":39, "scope_name":"struct dentry_stat_t", }
+,{"id":"nr_unused", "file":"include/linux/fs.h", "line":44, "type":"m", "scope_line":42, "scope_name":"struct inodes_stat_t", }
+,{"id":"nr_vecs", "file":"fs/bio-integrity.c", "line":31, "type":"m", "scope_line":29, "scope_name":"struct integrity_slab", }
+,{"id":"nr_vecs", "file":"include/linux/bio.h", "line":305, "type":"m", "scope_line":304, "scope_name":"struct biovec_slab", }
+,{"id":"nr_virtfn", "file":"drivers/pci/pci.h", "line":241, "type":"m", "scope_line":234, "scope_name":"struct pci_sriov", }
+,{"id":"nr_vlans", "file":"include/linux/if_vlan.h", "line":87, "type":"m", "scope_line":83, "scope_name":"struct vlan_group", }
+,{"id":"nr_voices", "file":"include/linux/soundcard.h", "line":506, "type":"m", "scope_line":488, "scope_name":"struct synth_info", }
+,{"id":"nr_wakeups", "file":"include/linux/sched.h", "line":1107, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"nr_wakeups_affine", "file":"include/linux/sched.h", "line":1112, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"nr_wakeups_affine_attempts", "file":"include/linux/sched.h", "line":1113, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"nr_wakeups_idle", "file":"include/linux/sched.h", "line":1115, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"nr_wakeups_local", "file":"include/linux/sched.h", "line":1110, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"nr_wakeups_migrate", "file":"include/linux/sched.h", "line":1109, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"nr_wakeups_passive", "file":"include/linux/sched.h", "line":1114, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"nr_wakeups_remote", "file":"include/linux/sched.h", "line":1111, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"nr_wakeups_sync", "file":"include/linux/sched.h", "line":1108, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"nr_warps", "file":"arch/x86/kernel/tsc_sync.c", "line":40, "type":"v", }
+,{"id":"nr_workers", "file":"kernel/workqueue.c", "line":154, "type":"m", "scope_line":148, "scope_name":"struct global_cwq", }
+,{"id":"nr_zones", "file":"include/linux/mmzone.h", "line":610, "type":"m", "scope_line":607, "scope_name":"struct pglist_data", }
+,{"id":"nrbufs", "file":"include/linux/pipe_fs_i.h", "line":47, "type":"m", "scope_line":45, "scope_name":"struct pipe_inode_info", }
+,{"id":"nrcpus", "file":"init/main.c", "line":153, "type":"f", }
+,{"id":"nrec", "file":"fs/partitions/ldm.h", "line":182, "type":"m", "scope_line":179, "scope_name":"struct vblk_head", }
+,{"id":"nres", "file":"drivers/pci/pci.h", "line":236, "type":"m", "scope_line":234, "scope_name":"struct pci_sriov", }
+,{"id":"nrm", "file":"include/linux/atm.h", "line":152, "type":"m", "scope_line":135, "scope_name":"struct atm_trafprm", }
+,{"id":"nrm_pres", "file":"include/linux/atm.h", "line":148, "type":"m", "scope_line":135, "scope_name":"struct atm_trafprm", }
+,{"id":"nrpages", "file":"include/linux/fs.h", "line":631, "type":"m", "scope_line":622, "scope_name":"struct address_space", }
+,{"id":"nrprocs", "file":"include/linux/sunrpc/clnt.h", "line":83, "type":"m", "scope_line":81, "scope_name":"struct rpc_version", }
+,];
+xr_frag_insert('t/73/1d3802cd9ca656cdb567574545885490d972cf.xr', __xr_tmp);

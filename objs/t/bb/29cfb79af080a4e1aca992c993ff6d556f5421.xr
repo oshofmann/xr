@@ -1,0 +1,113 @@
+var __xr_tmp = [
+{"id":"atomic_long_set", "file":"kernel/trace/ring_buffer.c", "line":3482, "type":"c", "scope_line":3459, "scope_name":"rb_reset_cpu", }
+,{"id":"atomic_long_set", "file":"kernel/trace/ring_buffer.c", "line":3483, "type":"c", "scope_line":3459, "scope_name":"rb_reset_cpu", }
+,{"id":"atomic_long_set", "file":"kernel/trace/ring_buffer.c", "line":3484, "type":"c", "scope_line":3459, "scope_name":"rb_reset_cpu", }
+,{"id":"atomic_long_set", "file":"kernel/trace/ring_buffer.c", "line":3485, "type":"c", "scope_line":3459, "scope_name":"rb_reset_cpu", }
+,{"id":"atomic_long_set", "file":"kernel/trace/ring_buffer.c", "line":367, "type":"c", "scope_line":365, "scope_name":"rb_init_page", }
+,{"id":"atomic_long_set", "file":"kernel/trace/ring_buffer.c", "line":3855, "type":"c", "scope_line":3762, "scope_name":"ring_buffer_read_page", }
+,{"id":"atomic_long_set", "file":"kernel/trace/ring_buffer.c", "line":3868, "type":"c", "scope_line":3762, "scope_name":"ring_buffer_read_page", }
+,{"id":"atomic_long_set", "file":"kernel/trace/ring_buffer.c", "line":3869, "type":"c", "scope_line":3762, "scope_name":"ring_buffer_read_page", }
+,{"id":"atomic_long_set", "file":"kernel/trace/ring_buffer.c", "line":3879, "type":"c", "scope_line":3762, "scope_name":"ring_buffer_read_page", }
+,{"id":"atomic_long_set", "file":"kernel/trace/ring_buffer.c", "line":889, "type":"c", "scope_line":834, "scope_name":"rb_tail_page_update", }
+,{"id":"atomic_long_set", "file":"kernel/workqueue.c", "line":527, "type":"c", "scope_line":523, "scope_name":"set_work_data", }
+,{"id":"atomic_long_set", "file":"net/unix/af_unix.c", "line":628, "type":"c", "scope_line":604, "scope_name":"unix_create1", }
+,{"id":"atomic_long_sub", "file":"include/asm-generic/atomic-long.h", "line":62, "type":"f", }
+,{"id":"atomic_long_sub", "file":"kernel/perf_event.c", "line":2685, "type":"c", "scope_line":2676, "scope_name":"perf_mmap_close", }
+,{"id":"atomic_long_sub", "file":"kernel/sched.c", "line":5721, "type":"c", "scope_line":5719, "scope_name":"calc_global_load_remove", }
+,{"id":"atomic_long_sub", "file":"mm/memory-failure.c", "line":1042, "type":"c", "scope_line":952, "scope_name":"__memory_failure", }
+,{"id":"atomic_long_sub", "file":"mm/memory-failure.c", "line":1158, "type":"c", "scope_line":1136, "scope_name":"unpoison_memory", }
+,{"id":"atomic_long_sub", "file":"mm/memory-failure.c", "line":1172, "type":"c", "scope_line":1136, "scope_name":"unpoison_memory", }
+,{"id":"atomic_long_sub_and_test", "file":"include/asm-generic/atomic-long.h", "line":69, "type":"f", }
+,{"id":"atomic_long_sub_return", "file":"include/asm-generic/atomic-long.h", "line":104, "type":"f", }
+,{"id":"atomic_long_t", "file":"include/asm-generic/atomic-long.h", "line":23, "type":"t", }
+,{"id":"atomic_long_xchg", "file":"include/asm-generic/atomic-long.h", "line":136, "type":"d", }
+,{"id":"atomic_notifier_call_chain", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":241, "type":"c", "scope_line":212, "scope_name":"print_mce", }
+,{"id":"atomic_notifier_call_chain", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":591, "type":"c", "scope_line":544, "scope_name":"machine_check_poll", }
+,{"id":"atomic_notifier_call_chain", "file":"arch/x86/kernel/process_64.c", "line":78, "type":"c", "scope_line":75, "scope_name":"enter_idle", }
+,{"id":"atomic_notifier_call_chain", "file":"arch/x86/kernel/process_64.c", "line":85, "type":"c", "scope_line":81, "scope_name":"__exit_idle", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/acpi/dock.c", "line":722, "type":"c", "scope_line":687, "scope_name":"dock_notify", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/base/memory.c", "line":177, "type":"c", "scope_line":175, "scope_name":"memory_isolate_notify", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/char/keyboard.c", "line":1235, "type":"c", "scope_line":1154, "scope_name":"kbd_keycode", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/char/keyboard.c", "line":1238, "type":"c", "scope_line":1154, "scope_name":"kbd_keycode", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/char/keyboard.c", "line":1256, "type":"c", "scope_line":1154, "scope_name":"kbd_keycode", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/char/keyboard.c", "line":1276, "type":"c", "scope_line":1154, "scope_name":"kbd_keycode", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/char/keyboard.c", "line":1287, "type":"c", "scope_line":1154, "scope_name":"kbd_keycode", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/char/vt.c", "line":1010, "type":"c", "scope_line":1002, "scope_name":"vc_deallocate", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/char/vt.c", "line":2254, "type":"c", "scope_line":2113, "scope_name":"do_con_write", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/char/vt.c", "line":258, "type":"c", "scope_line":255, "scope_name":"notify_write", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/char/vt.c", "line":264, "type":"c", "scope_line":261, "scope_name":"notify_update", }
+,{"id":"atomic_notifier_call_chain", "file":"drivers/char/vt.c", "line":806, "type":"c", "scope_line":763, "scope_name":"vc_allocate", }
+,{"id":"atomic_notifier_call_chain", "file":"kernel/notifier.c", "line":188, "type":"f", }
+,{"id":"atomic_notifier_call_chain", "file":"kernel/notifier.c", "line":572, "type":"c", "scope_line":561, "scope_name":"notify_die", }
+,{"id":"atomic_notifier_call_chain", "file":"kernel/panic.c", "line":99, "type":"c", "scope_line":59, "scope_name":"panic", }
+,{"id":"atomic_notifier_call_chain", "file":"kernel/profile.c", "line":153, "type":"c", "scope_line":150, "scope_name":"profile_handoff_task", }
+,{"id":"atomic_notifier_call_chain", "file":"net/core/netevent.c", "line":67, "type":"c", "scope_line":65, "scope_name":"call_netevent_notifiers", }
+,{"id":"atomic_notifier_call_chain", "file":"net/ipv6/addrconf.c", "line":2764, "type":"c", "scope_line":2655, "scope_name":"addrconf_ifdown", }
+,{"id":"atomic_notifier_call_chain", "file":"net/ipv6/addrconf.c", "line":701, "type":"c", "scope_line":599, "scope_name":"ipv6_add_addr", }
+,{"id":"atomic_notifier_call_chain", "file":"net/ipv6/addrconf.c", "line":794, "type":"c", "scope_line":715, "scope_name":"ipv6_del_addr", }
+,{"id":"atomic_notifier_call_chain", "file":"net/netlink/af_netlink.c", "line":512, "type":"c", "scope_line":484, "scope_name":"netlink_release", }
+,{"id":"atomic_notifier_chain_register", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":1723, "type":"c", "scope_line":1721, "scope_name":"mcheck_init", }
+,{"id":"atomic_notifier_chain_register", "file":"arch/x86/kernel/process_64.c", "line":65, "type":"c", "scope_line":63, "scope_name":"idle_notifier_register", }
+,{"id":"atomic_notifier_chain_register", "file":"arch/x86/xen/enlighten.c", "line":1061, "type":"c", "scope_line":1059, "scope_name":"xen_panic_handler_init", }
+,{"id":"atomic_notifier_chain_register", "file":"drivers/acpi/dock.c", "line":564, "type":"c", "scope_line":559, "scope_name":"register_dock_notifier", }
+,{"id":"atomic_notifier_chain_register", "file":"drivers/base/memory.c", "line":71, "type":"c", "scope_line":69, "scope_name":"register_memory_isolate_notifier", }
+,{"id":"atomic_notifier_chain_register", "file":"drivers/char/keyboard.c", "line":157, "type":"c", "scope_line":155, "scope_name":"register_keyboard_notifier", }
+,{"id":"atomic_notifier_chain_register", "file":"drivers/char/vt.c", "line":245, "type":"c", "scope_line":243, "scope_name":"register_vt_notifier", }
+,{"id":"atomic_notifier_chain_register", "file":"kernel/debug/debug_core.c", "line":803, "type":"c", "scope_line":796, "scope_name":"kgdb_register_callbacks", }
+,{"id":"atomic_notifier_chain_register", "file":"kernel/hung_task.c", "line":211, "type":"c", "scope_line":209, "scope_name":"hung_task_init", }
+,{"id":"atomic_notifier_chain_register", "file":"kernel/notifier.c", "line":120, "type":"f", }
+,{"id":"atomic_notifier_chain_register", "file":"kernel/notifier.c", "line":578, "type":"c", "scope_line":575, "scope_name":"register_die_notifier", }
+,{"id":"atomic_notifier_chain_register", "file":"kernel/profile.c", "line":164, "type":"c", "scope_line":162, "scope_name":"task_handoff_register", }
+,{"id":"atomic_notifier_chain_register", "file":"kernel/trace/trace.c", "line":4587, "type":"c", "scope_line":4531, "scope_name":"tracer_alloc_buffers", }
+,{"id":"atomic_notifier_chain_register", "file":"net/core/netevent.c", "line":35, "type":"c", "scope_line":31, "scope_name":"register_netevent_notifier", }
+,{"id":"atomic_notifier_chain_register", "file":"net/ipv6/addrconf.c", "line":4618, "type":"c", "scope_line":4616, "scope_name":"register_inet6addr_notifier", }
+,{"id":"atomic_notifier_chain_register", "file":"net/netlink/af_netlink.c", "line":2052, "type":"c", "scope_line":2050, "scope_name":"netlink_register_notifier", }
+,{"id":"atomic_notifier_chain_unregister", "file":"arch/x86/kernel/process_64.c", "line":71, "type":"c", "scope_line":69, "scope_name":"idle_notifier_unregister", }
+,{"id":"atomic_notifier_chain_unregister", "file":"drivers/acpi/dock.c", "line":577, "type":"c", "scope_line":572, "scope_name":"unregister_dock_notifier", }
+,{"id":"atomic_notifier_chain_unregister", "file":"drivers/base/memory.c", "line":77, "type":"c", "scope_line":75, "scope_name":"unregister_memory_isolate_notifier", }
+,{"id":"atomic_notifier_chain_unregister", "file":"drivers/char/keyboard.c", "line":163, "type":"c", "scope_line":161, "scope_name":"unregister_keyboard_notifier", }
+,{"id":"atomic_notifier_chain_unregister", "file":"drivers/char/vt.c", "line":251, "type":"c", "scope_line":249, "scope_name":"unregister_vt_notifier", }
+,{"id":"atomic_notifier_chain_unregister", "file":"kernel/debug/debug_core.c", "line":824, "type":"c", "scope_line":815, "scope_name":"kgdb_unregister_callbacks", }
+,{"id":"atomic_notifier_chain_unregister", "file":"kernel/notifier.c", "line":142, "type":"f", }
+,{"id":"atomic_notifier_chain_unregister", "file":"kernel/notifier.c", "line":584, "type":"c", "scope_line":582, "scope_name":"unregister_die_notifier", }
+,{"id":"atomic_notifier_chain_unregister", "file":"kernel/profile.c", "line":170, "type":"c", "scope_line":168, "scope_name":"task_handoff_unregister", }
+,{"id":"atomic_notifier_chain_unregister", "file":"net/core/netevent.c", "line":52, "type":"c", "scope_line":50, "scope_name":"unregister_netevent_notifier", }
+,{"id":"atomic_notifier_chain_unregister", "file":"net/ipv6/addrconf.c", "line":4624, "type":"c", "scope_line":4622, "scope_name":"unregister_inet6addr_notifier", }
+,{"id":"atomic_notifier_chain_unregister", "file":"net/netlink/af_netlink.c", "line":2058, "type":"c", "scope_line":2056, "scope_name":"netlink_unregister_notifier", }
+,{"id":"atomic_notifier_head", "file":"include/linux/notifier.h", "line":56, "type":"s", }
+,{"id":"atomic_or_long", "file":"arch/x86/include/asm/atomic.h", "line":294, "type":"f", }
+,{"id":"atomic_read", "file":"arch/x86/include/asm/apic.h", "line":463, "type":"c", "scope_line":461, "scope_name":"default_wait_for_init_deassert", }
+,{"id":"atomic_read", "file":"arch/x86/include/asm/atomic.h", "line":23, "type":"f", }
+,{"id":"atomic_read", "file":"arch/x86/include/asm/atomic.h", "line":235, "type":"c", "scope_line":232, "scope_name":"atomic_add_unless", }
+,{"id":"atomic_read", "file":"arch/x86/include/asm/atomic.h", "line":259, "type":"c", "scope_line":256, "scope_name":"atomic_dec_if_positive", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/apic/nmi.c", "line":136, "type":"c", "scope_line":131, "scope_name":"check_nmi_watchdog", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/apic/nmi.c", "line":162, "type":"c", "scope_line":131, "scope_name":"check_nmi_watchdog", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/apic/nmi.c", "line":228, "type":"c", "scope_line":225, "scope_name":"lapic_nmi_suspend", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/apic/nmi.c", "line":230, "type":"c", "scope_line":225, "scope_name":"lapic_nmi_suspend", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/apic/nmi.c", "line":266, "type":"c", "scope_line":255, "scope_name":"init_lapic_nmi_sysfs", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/apic/nmi.c", "line":290, "type":"c", "scope_line":288, "scope_name":"acpi_nmi_enable", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/apic/nmi.c", "line":299, "type":"c", "scope_line":297, "scope_name":"acpi_nmi_disable", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/apic/nmi.c", "line":319, "type":"c", "scope_line":312, "scope_name":"setup_apic_nmi_watchdog", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/apic/nmi.c", "line":511, "type":"c", "scope_line":506, "scope_name":"proc_nmi_enabled", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/apic/nmi.c", "line":517, "type":"c", "scope_line":506, "scope_name":"proc_nmi_enabled", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/apic/nmi.c", "line":72, "type":"c", "scope_line":69, "scope_name":"mce_in_progress", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":649, "type":"c", "scope_line":640, "scope_name":"mce_timed_out", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":771, "type":"c", "scope_line":752, "scope_name":"mce_start", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":796, "type":"c", "scope_line":752, "scope_name":"mce_start", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":808, "type":"c", "scope_line":752, "scope_name":"mce_start", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":840, "type":"c", "scope_line":817, "scope_name":"mce_end", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":853, "type":"c", "scope_line":817, "scope_name":"mce_end", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":282, "type":"c", "scope_line":277, "scope_name":"thermal_throttle_init_device", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":162, "type":"c", "scope_line":155, "scope_name":"mtrr_work_handler", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":168, "type":"c", "scope_line":155, "scope_name":"mtrr_work_handler", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":183, "type":"c", "scope_line":155, "scope_name":"mtrr_work_handler", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":273, "type":"c", "scope_line":243, "scope_name":"set_mtrr", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":283, "type":"c", "scope_line":243, "scope_name":"set_mtrr", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":306, "type":"c", "scope_line":243, "scope_name":"set_mtrr", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":317, "type":"c", "scope_line":243, "scope_name":"set_mtrr", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1228, "type":"c", "scope_line":1220, "scope_name":"perf_event_nmi_handler", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/perf_event.c", "line":544, "type":"c", "scope_line":534, "scope_name":"__hw_perf_event_init", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":180, "type":"c", "scope_line":176, "scope_name":"disable_lapic_nmi_watchdog", }
+,{"id":"atomic_read", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":188, "type":"c", "scope_line":176, "scope_name":"disable_lapic_nmi_watchdog", }
+,];
+xr_frag_insert('t/bb/29cfb79af080a4e1aca992c993ff6d556f5421.xr', __xr_tmp);

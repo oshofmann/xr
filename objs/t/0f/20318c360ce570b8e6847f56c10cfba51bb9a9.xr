@@ -1,0 +1,123 @@
+var __xr_tmp = [
+{"id":"DCCPF_CLOSING", "file":"include/linux/dccp.h", "line":271, "type":"e", "scope_line":265, }
+,{"id":"DCCPF_DATA_CHECKSUM", "file":"include/linux/dccp.h", "line":191, "type":"e", "scope_line":181, "scope_name":"dccp_feature_numbers", }
+,{"id":"DCCPF_ECN_INCAPABLE", "file":"include/linux/dccp.h", "line":186, "type":"e", "scope_line":181, "scope_name":"dccp_feature_numbers", }
+,{"id":"DCCPF_LISTEN", "file":"include/linux/dccp.h", "line":268, "type":"e", "scope_line":265, }
+,{"id":"DCCPF_MAX_CCID_SPECIFIC", "file":"include/linux/dccp.h", "line":195, "type":"e", "scope_line":181, "scope_name":"dccp_feature_numbers", }
+,{"id":"DCCPF_MIN_CCID_SPECIFIC", "file":"include/linux/dccp.h", "line":193, "type":"e", "scope_line":181, "scope_name":"dccp_feature_numbers", }
+,{"id":"DCCPF_MIN_CSUM_COVER", "file":"include/linux/dccp.h", "line":190, "type":"e", "scope_line":181, "scope_name":"dccp_feature_numbers", }
+,{"id":"DCCPF_OPEN", "file":"include/linux/dccp.h", "line":266, "type":"e", "scope_line":265, }
+,{"id":"DCCPF_PARTOPEN", "file":"include/linux/dccp.h", "line":274, "type":"e", "scope_line":265, }
+,{"id":"DCCPF_REQUESTING", "file":"include/linux/dccp.h", "line":267, "type":"e", "scope_line":265, }
+,{"id":"DCCPF_RESERVED", "file":"include/linux/dccp.h", "line":182, "type":"e", "scope_line":181, "scope_name":"dccp_feature_numbers", }
+,{"id":"DCCPF_RESPOND", "file":"include/linux/dccp.h", "line":269, "type":"e", "scope_line":265, }
+,{"id":"DCCPF_SEND_ACK_VECTOR", "file":"include/linux/dccp.h", "line":188, "type":"e", "scope_line":181, "scope_name":"dccp_feature_numbers", }
+,{"id":"DCCPF_SEND_LEV_RATE", "file":"include/linux/dccp.h", "line":194, "type":"e", "scope_line":181, "scope_name":"dccp_feature_numbers", }
+,{"id":"DCCPF_SEND_NDP_COUNT", "file":"include/linux/dccp.h", "line":189, "type":"e", "scope_line":181, "scope_name":"dccp_feature_numbers", }
+,{"id":"DCCPF_SEQUENCE_WINDOW", "file":"include/linux/dccp.h", "line":185, "type":"e", "scope_line":181, "scope_name":"dccp_feature_numbers", }
+,{"id":"DCCPF_SHORT_SEQNOS", "file":"include/linux/dccp.h", "line":184, "type":"e", "scope_line":181, "scope_name":"dccp_feature_numbers", }
+,{"id":"DCCPF_TIME_WAIT", "file":"include/linux/dccp.h", "line":272, "type":"e", "scope_line":265, }
+,{"id":"DCCPO_ACK_VECTOR_0", "file":"include/linux/dccp.h", "line":162, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_ACK_VECTOR_1", "file":"include/linux/dccp.h", "line":163, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_CHANGE_L", "file":"include/linux/dccp.h", "line":157, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_CHANGE_R", "file":"include/linux/dccp.h", "line":159, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_CONFIRM_L", "file":"include/linux/dccp.h", "line":158, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_CONFIRM_R", "file":"include/linux/dccp.h", "line":160, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_ELAPSED_TIME", "file":"include/linux/dccp.h", "line":166, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_MANDATORY", "file":"include/linux/dccp.h", "line":154, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_MAX", "file":"include/linux/dccp.h", "line":167, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_MAX_CCID_SPECIFIC", "file":"include/linux/dccp.h", "line":169, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_MAX_RESERVED", "file":"include/linux/dccp.h", "line":156, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_MIN_CCID_SPECIFIC", "file":"include/linux/dccp.h", "line":168, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_MIN_RESERVED", "file":"include/linux/dccp.h", "line":155, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_NDP_COUNT", "file":"include/linux/dccp.h", "line":161, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_PADDING", "file":"include/linux/dccp.h", "line":153, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_TIMESTAMP", "file":"include/linux/dccp.h", "line":164, "type":"e", "scope_line":152, }
+,{"id":"DCCPO_TIMESTAMP_ECHO", "file":"include/linux/dccp.h", "line":165, "type":"e", "scope_line":152, }
+,{"id":"DCCP_ACTIVE_CLOSEREQ", "file":"include/linux/dccp.h", "line":253, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCCP_CLOSED", "file":"include/linux/dccp.h", "line":257, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCCP_CLOSING", "file":"include/linux/dccp.h", "line":255, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCCP_LISTEN", "file":"include/linux/dccp.h", "line":233, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCCP_MAX_RESET_CODES", "file":"include/linux/dccp.h", "line":148, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_MAX_STATES", "file":"include/linux/dccp.h", "line":260, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCCP_NR_PKT_TYPES", "file":"include/linux/dccp.h", "line":115, "type":"d", }
+,{"id":"DCCP_OPEN", "file":"include/linux/dccp.h", "line":231, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCCP_PARTOPEN", "file":"include/linux/dccp.h", "line":258, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCCP_PASSIVE_CLOSE", "file":"include/linux/dccp.h", "line":254, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCCP_PASSIVE_CLOSEREQ", "file":"include/linux/dccp.h", "line":259, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCCP_PKT_ACK", "file":"include/linux/dccp.h", "line":105, "type":"e", "scope_line":101, "scope_name":"dccp_pkt_type", }
+,{"id":"DCCP_PKT_CLOSE", "file":"include/linux/dccp.h", "line":108, "type":"e", "scope_line":101, "scope_name":"dccp_pkt_type", }
+,{"id":"DCCP_PKT_CLOSEREQ", "file":"include/linux/dccp.h", "line":107, "type":"e", "scope_line":101, "scope_name":"dccp_pkt_type", }
+,{"id":"DCCP_PKT_DATA", "file":"include/linux/dccp.h", "line":104, "type":"e", "scope_line":101, "scope_name":"dccp_pkt_type", }
+,{"id":"DCCP_PKT_DATAACK", "file":"include/linux/dccp.h", "line":106, "type":"e", "scope_line":101, "scope_name":"dccp_pkt_type", }
+,{"id":"DCCP_PKT_INVALID", "file":"include/linux/dccp.h", "line":112, "type":"e", "scope_line":101, "scope_name":"dccp_pkt_type", }
+,{"id":"DCCP_PKT_REQUEST", "file":"include/linux/dccp.h", "line":102, "type":"e", "scope_line":101, "scope_name":"dccp_pkt_type", }
+,{"id":"DCCP_PKT_RESET", "file":"include/linux/dccp.h", "line":109, "type":"e", "scope_line":101, "scope_name":"dccp_pkt_type", }
+,{"id":"DCCP_PKT_RESPONSE", "file":"include/linux/dccp.h", "line":103, "type":"e", "scope_line":101, "scope_name":"dccp_pkt_type", }
+,{"id":"DCCP_PKT_SYNC", "file":"include/linux/dccp.h", "line":110, "type":"e", "scope_line":101, "scope_name":"dccp_pkt_type", }
+,{"id":"DCCP_PKT_SYNCACK", "file":"include/linux/dccp.h", "line":111, "type":"e", "scope_line":101, "scope_name":"dccp_pkt_type", }
+,{"id":"DCCP_REQUESTING", "file":"include/linux/dccp.h", "line":232, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCCP_RESET_CODE_ABORTED", "file":"include/linux/dccp.h", "line":137, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESET_CODE_AGGRESSION_PENALTY", "file":"include/linux/dccp.h", "line":146, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESET_CODE_BAD_INIT_COOKIE", "file":"include/linux/dccp.h", "line":145, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESET_CODE_BAD_SERVICE_CODE", "file":"include/linux/dccp.h", "line":143, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESET_CODE_CLOSED", "file":"include/linux/dccp.h", "line":136, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESET_CODE_CONNECTION_REFUSED", "file":"include/linux/dccp.h", "line":142, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESET_CODE_MANDATORY_ERROR", "file":"include/linux/dccp.h", "line":141, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESET_CODE_NO_CONNECTION", "file":"include/linux/dccp.h", "line":138, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESET_CODE_OPTION_ERROR", "file":"include/linux/dccp.h", "line":140, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESET_CODE_PACKET_ERROR", "file":"include/linux/dccp.h", "line":139, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESET_CODE_TOO_BUSY", "file":"include/linux/dccp.h", "line":144, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESET_CODE_UNSPECIFIED", "file":"include/linux/dccp.h", "line":135, "type":"e", "scope_line":134, "scope_name":"dccp_reset_codes", }
+,{"id":"DCCP_RESPOND", "file":"include/linux/dccp.h", "line":234, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCCP_ROLE_CLIENT", "file":"include/linux/dccp.h", "line":401, "type":"e", "scope_line":398, "scope_name":"dccp_role", }
+,{"id":"DCCP_ROLE_LISTEN", "file":"include/linux/dccp.h", "line":400, "type":"e", "scope_line":398, "scope_name":"dccp_role", }
+,{"id":"DCCP_ROLE_SERVER", "file":"include/linux/dccp.h", "line":402, "type":"e", "scope_line":398, "scope_name":"dccp_role", }
+,{"id":"DCCP_ROLE_UNDEFINED", "file":"include/linux/dccp.h", "line":399, "type":"e", "scope_line":398, "scope_name":"dccp_role", }
+,{"id":"DCCP_SERVICE_CODE_IS_ABSENT", "file":"include/linux/dccp.h", "line":411, "type":"d", }
+,{"id":"DCCP_SERVICE_INVALID_VALUE", "file":"include/linux/dccp.h", "line":410, "type":"d", }
+,{"id":"DCCP_SERVICE_LIST_MAX_LEN", "file":"include/linux/dccp.h", "line":215, "type":"d", }
+,{"id":"DCCP_SINGLE_OPT_MAXLEN", "file":"include/linux/dccp.h", "line":172, "type":"d", }
+,{"id":"DCCP_SOCKET__ACCEPT", "file":"security/selinux/av_permissions.h", "line":798, "type":"d", }
+,{"id":"DCCP_SOCKET__APPEND", "file":"security/selinux/av_permissions.h", "line":794, "type":"d", }
+,{"id":"DCCP_SOCKET__BIND", "file":"security/selinux/av_permissions.h", "line":795, "type":"d", }
+,{"id":"DCCP_SOCKET__CONNECT", "file":"security/selinux/av_permissions.h", "line":796, "type":"d", }
+,{"id":"DCCP_SOCKET__CREATE", "file":"security/selinux/av_permissions.h", "line":788, "type":"d", }
+,{"id":"DCCP_SOCKET__GETATTR", "file":"security/selinux/av_permissions.h", "line":789, "type":"d", }
+,{"id":"DCCP_SOCKET__GETOPT", "file":"security/selinux/av_permissions.h", "line":799, "type":"d", }
+,{"id":"DCCP_SOCKET__IOCTL", "file":"security/selinux/av_permissions.h", "line":785, "type":"d", }
+,{"id":"DCCP_SOCKET__LISTEN", "file":"security/selinux/av_permissions.h", "line":797, "type":"d", }
+,{"id":"DCCP_SOCKET__LOCK", "file":"security/selinux/av_permissions.h", "line":791, "type":"d", }
+,{"id":"DCCP_SOCKET__NAME_BIND", "file":"security/selinux/av_permissions.h", "line":806, "type":"d", }
+,{"id":"DCCP_SOCKET__NAME_CONNECT", "file":"security/selinux/av_permissions.h", "line":808, "type":"d", }
+,{"id":"DCCP_SOCKET__NODE_BIND", "file":"security/selinux/av_permissions.h", "line":807, "type":"d", }
+,{"id":"DCCP_SOCKET__READ", "file":"security/selinux/av_permissions.h", "line":786, "type":"d", }
+,{"id":"DCCP_SOCKET__RECVFROM", "file":"security/selinux/av_permissions.h", "line":802, "type":"d", }
+,{"id":"DCCP_SOCKET__RECV_MSG", "file":"security/selinux/av_permissions.h", "line":804, "type":"d", }
+,{"id":"DCCP_SOCKET__RELABELFROM", "file":"security/selinux/av_permissions.h", "line":792, "type":"d", }
+,{"id":"DCCP_SOCKET__RELABELTO", "file":"security/selinux/av_permissions.h", "line":793, "type":"d", }
+,{"id":"DCCP_SOCKET__SENDTO", "file":"security/selinux/av_permissions.h", "line":803, "type":"d", }
+,{"id":"DCCP_SOCKET__SEND_MSG", "file":"security/selinux/av_permissions.h", "line":805, "type":"d", }
+,{"id":"DCCP_SOCKET__SETATTR", "file":"security/selinux/av_permissions.h", "line":790, "type":"d", }
+,{"id":"DCCP_SOCKET__SETOPT", "file":"security/selinux/av_permissions.h", "line":800, "type":"d", }
+,{"id":"DCCP_SOCKET__SHUTDOWN", "file":"security/selinux/av_permissions.h", "line":801, "type":"d", }
+,{"id":"DCCP_SOCKET__WRITE", "file":"security/selinux/av_permissions.h", "line":787, "type":"d", }
+,{"id":"DCCP_SOCKOPT_AVAILABLE_CCIDS", "file":"include/linux/dccp.h", "line":207, "type":"d", }
+,{"id":"DCCP_SOCKOPT_CCID", "file":"include/linux/dccp.h", "line":208, "type":"d", }
+,{"id":"DCCP_SOCKOPT_CCID_RX_INFO", "file":"include/linux/dccp.h", "line":211, "type":"d", }
+,{"id":"DCCP_SOCKOPT_CCID_TX_INFO", "file":"include/linux/dccp.h", "line":212, "type":"d", }
+,{"id":"DCCP_SOCKOPT_CHANGE_L", "file":"include/linux/dccp.h", "line":201, "type":"d", }
+,{"id":"DCCP_SOCKOPT_CHANGE_R", "file":"include/linux/dccp.h", "line":202, "type":"d", }
+,{"id":"DCCP_SOCKOPT_GET_CUR_MPS", "file":"include/linux/dccp.h", "line":203, "type":"d", }
+,{"id":"DCCP_SOCKOPT_PACKET_SIZE", "file":"include/linux/dccp.h", "line":199, "type":"d", }
+,{"id":"DCCP_SOCKOPT_RECV_CSCOV", "file":"include/linux/dccp.h", "line":206, "type":"d", }
+,{"id":"DCCP_SOCKOPT_RX_CCID", "file":"include/linux/dccp.h", "line":210, "type":"d", }
+,{"id":"DCCP_SOCKOPT_SEND_CSCOV", "file":"include/linux/dccp.h", "line":205, "type":"d", }
+,{"id":"DCCP_SOCKOPT_SERVER_TIMEWAIT", "file":"include/linux/dccp.h", "line":204, "type":"d", }
+,{"id":"DCCP_SOCKOPT_SERVICE", "file":"include/linux/dccp.h", "line":200, "type":"d", }
+,{"id":"DCCP_SOCKOPT_TX_CCID", "file":"include/linux/dccp.h", "line":209, "type":"d", }
+,{"id":"DCCP_STATE_MASK", "file":"include/linux/dccp.h", "line":263, "type":"d", }
+,{"id":"DCCP_TIME_WAIT", "file":"include/linux/dccp.h", "line":256, "type":"e", "scope_line":230, "scope_name":"dccp_state", }
+,{"id":"DCOOKIES_H", "file":"include/linux/dcookies.h", "line":10, "type":"d", }
+,];
+xr_frag_insert('t/0f/20318c360ce570b8e6847f56c10cfba51bb9a9.xr', __xr_tmp);

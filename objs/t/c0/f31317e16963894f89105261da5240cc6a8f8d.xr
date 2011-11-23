@@ -1,0 +1,135 @@
+var __xr_tmp = [
+{"id":"ATA_REG_ERR", "file":"include/linux/ata.h", "line":194, "type":"e", "scope_line":41, }
+,{"id":"ATA_REG_FEATURE", "file":"include/linux/ata.h", "line":202, "type":"e", "scope_line":41, }
+,{"id":"ATA_REG_IRQ", "file":"include/linux/ata.h", "line":207, "type":"e", "scope_line":41, }
+,{"id":"ATA_REG_LBAH", "file":"include/linux/ata.h", "line":198, "type":"e", "scope_line":41, }
+,{"id":"ATA_REG_LBAL", "file":"include/linux/ata.h", "line":196, "type":"e", "scope_line":41, }
+,{"id":"ATA_REG_LBAM", "file":"include/linux/ata.h", "line":197, "type":"e", "scope_line":41, }
+,{"id":"ATA_REG_NSECT", "file":"include/linux/ata.h", "line":195, "type":"e", "scope_line":41, }
+,{"id":"ATA_REG_STATUS", "file":"include/linux/ata.h", "line":200, "type":"e", "scope_line":41, }
+,{"id":"ATA_SCSI_RBUF_SIZE", "file":"drivers/ata/libata-scsi.c", "line":56, "type":"d", }
+,{"id":"ATA_SECONDARY_IRQ", "file":"include/asm-generic/libata-portmap.h", "line":5, "type":"d", }
+,{"id":"ATA_SECT_SIZE", "file":"include/linux/ata.h", "line":45, "type":"e", "scope_line":41, }
+,{"id":"ATA_SET_MAX_ADDR", "file":"include/linux/ata.h", "line":347, "type":"e", "scope_line":41, }
+,{"id":"ATA_SET_MAX_FREEZE_LOCK", "file":"include/linux/ata.h", "line":351, "type":"e", "scope_line":41, }
+,{"id":"ATA_SET_MAX_LOCK", "file":"include/linux/ata.h", "line":349, "type":"e", "scope_line":41, }
+,{"id":"ATA_SET_MAX_PASSWD", "file":"include/linux/ata.h", "line":348, "type":"e", "scope_line":41, }
+,{"id":"ATA_SET_MAX_UNLOCK", "file":"include/linux/ata.h", "line":350, "type":"e", "scope_line":41, }
+,{"id":"ATA_SHIFT_MWDMA", "file":"include/linux/libata.h", "line":305, "type":"e", "scope_line":111, }
+,{"id":"ATA_SHIFT_PIO", "file":"include/linux/libata.h", "line":304, "type":"e", "scope_line":111, }
+,{"id":"ATA_SHIFT_UDMA", "file":"include/linux/libata.h", "line":306, "type":"e", "scope_line":111, }
+,{"id":"ATA_SHORT_PAUSE", "file":"include/linux/libata.h", "line":119, "type":"e", "scope_line":111, }
+,{"id":"ATA_SHT_CMD_PER_LUN", "file":"include/linux/libata.h", "line":126, "type":"e", "scope_line":111, }
+,{"id":"ATA_SHT_EMULATED", "file":"include/linux/libata.h", "line":125, "type":"e", "scope_line":111, }
+,{"id":"ATA_SHT_THIS_ID", "file":"include/linux/libata.h", "line":127, "type":"e", "scope_line":111, }
+,{"id":"ATA_SHT_USE_CLUSTERING", "file":"include/linux/libata.h", "line":128, "type":"e", "scope_line":111, }
+,{"id":"ATA_SMART_ENABLE", "file":"include/linux/ata.h", "line":360, "type":"e", "scope_line":41, }
+,{"id":"ATA_SMART_LBAH_PASS", "file":"include/linux/ata.h", "line":369, "type":"e", "scope_line":41, }
+,{"id":"ATA_SMART_LBAM_PASS", "file":"include/linux/ata.h", "line":368, "type":"e", "scope_line":41, }
+,{"id":"ATA_SMART_READ_THRESHOLDS", "file":"include/linux/ata.h", "line":362, "type":"e", "scope_line":41, }
+,{"id":"ATA_SMART_READ_VALUES", "file":"include/linux/ata.h", "line":361, "type":"e", "scope_line":41, }
+,{"id":"ATA_SRST", "file":"include/linux/ata.h", "line":176, "type":"e", "scope_line":41, }
+,{"id":"ATA_SWDMA0", "file":"include/linux/ata.h", "line":118, "type":"e", "scope_line":41, }
+,{"id":"ATA_SWDMA1", "file":"include/linux/ata.h", "line":119, "type":"e", "scope_line":41, }
+,{"id":"ATA_SWDMA2", "file":"include/linux/ata.h", "line":120, "type":"e", "scope_line":41, }
+,{"id":"ATA_SWDMA2_ONLY", "file":"include/linux/ata.h", "line":122, "type":"e", "scope_line":41, }
+,{"id":"ATA_TAG_INTERNAL", "file":"include/linux/libata.h", "line":118, "type":"e", "scope_line":111, }
+,{"id":"ATA_TAG_POISON", "file":"include/linux/libata.h", "line":109, "type":"d", }
+,{"id":"ATA_TFLAG_DEVICE", "file":"include/linux/ata.h", "line":437, "type":"e", "scope_line":41, }
+,{"id":"ATA_TFLAG_FUA", "file":"include/linux/ata.h", "line":440, "type":"e", "scope_line":41, }
+,{"id":"ATA_TFLAG_ISADDR", "file":"include/linux/ata.h", "line":436, "type":"e", "scope_line":41, }
+,{"id":"ATA_TFLAG_LBA", "file":"include/linux/ata.h", "line":439, "type":"e", "scope_line":41, }
+,{"id":"ATA_TFLAG_LBA48", "file":"include/linux/ata.h", "line":435, "type":"e", "scope_line":41, }
+,{"id":"ATA_TFLAG_POLLING", "file":"include/linux/ata.h", "line":441, "type":"e", "scope_line":41, }
+,{"id":"ATA_TFLAG_WRITE", "file":"include/linux/ata.h", "line":438, "type":"e", "scope_line":41, }
+,{"id":"ATA_TIMING_8BIT", "file":"include/linux/libata.h", "line":410, "type":"e", "scope_line":111, }
+,{"id":"ATA_TIMING_ACT8B", "file":"include/linux/libata.h", "line":407, "type":"e", "scope_line":111, }
+,{"id":"ATA_TIMING_ACTIVE", "file":"include/linux/libata.h", "line":412, "type":"e", "scope_line":111, }
+,{"id":"ATA_TIMING_ALL", "file":"include/linux/libata.h", "line":417, "type":"e", "scope_line":111, }
+,{"id":"ATA_TIMING_CYC8B", "file":"include/linux/libata.h", "line":409, "type":"e", "scope_line":111, }
+,{"id":"ATA_TIMING_CYCLE", "file":"include/linux/libata.h", "line":415, "type":"e", "scope_line":111, }
+,{"id":"ATA_TIMING_DMACK_HOLD", "file":"include/linux/libata.h", "line":414, "type":"e", "scope_line":111, }
+,{"id":"ATA_TIMING_REC8B", "file":"include/linux/libata.h", "line":408, "type":"e", "scope_line":111, }
+,{"id":"ATA_TIMING_RECOVER", "file":"include/linux/libata.h", "line":413, "type":"e", "scope_line":111, }
+,{"id":"ATA_TIMING_SETUP", "file":"include/linux/libata.h", "line":406, "type":"e", "scope_line":111, }
+,{"id":"ATA_TIMING_UDMA", "file":"include/linux/libata.h", "line":416, "type":"e", "scope_line":111, }
+,{"id":"ATA_TMOUT_BOOT", "file":"include/linux/libata.h", "line":248, "type":"e", "scope_line":111, }
+,{"id":"ATA_TMOUT_BOOT_QUICK", "file":"include/linux/libata.h", "line":249, "type":"e", "scope_line":111, }
+,{"id":"ATA_TMOUT_FF_WAIT", "file":"include/linux/libata.h", "line":259, "type":"e", "scope_line":111, }
+,{"id":"ATA_TMOUT_FF_WAIT_LONG", "file":"include/linux/libata.h", "line":258, "type":"e", "scope_line":111, }
+,{"id":"ATA_TMOUT_INTERNAL_QUICK", "file":"include/linux/libata.h", "line":250, "type":"e", "scope_line":111, }
+,{"id":"ATA_TMOUT_MAX_PARK", "file":"include/linux/libata.h", "line":251, "type":"e", "scope_line":111, }
+,{"id":"ATA_TMOUT_PMP_SRST_WAIT", "file":"include/linux/libata.h", "line":278, "type":"e", "scope_line":111, }
+,{"id":"ATA_TRK0NF", "file":"include/linux/ata.h", "line":184, "type":"e", "scope_line":41, }
+,{"id":"ATA_UDMA0", "file":"include/linux/ata.h", "line":133, "type":"e", "scope_line":41, }
+,{"id":"ATA_UDMA1", "file":"include/linux/ata.h", "line":134, "type":"e", "scope_line":41, }
+,{"id":"ATA_UDMA2", "file":"include/linux/ata.h", "line":135, "type":"e", "scope_line":41, }
+,{"id":"ATA_UDMA24_ONLY", "file":"include/linux/ata.h", "line":143, "type":"e", "scope_line":41, }
+,{"id":"ATA_UDMA3", "file":"include/linux/ata.h", "line":136, "type":"e", "scope_line":41, }
+,{"id":"ATA_UDMA4", "file":"include/linux/ata.h", "line":137, "type":"e", "scope_line":41, }
+,{"id":"ATA_UDMA5", "file":"include/linux/ata.h", "line":138, "type":"e", "scope_line":41, }
+,{"id":"ATA_UDMA6", "file":"include/linux/ata.h", "line":139, "type":"e", "scope_line":41, }
+,{"id":"ATA_UDMA7", "file":"include/linux/ata.h", "line":140, "type":"e", "scope_line":41, }
+,{"id":"ATA_UDMA_MASK_40C", "file":"include/linux/ata.h", "line":145, "type":"e", "scope_line":41, }
+,{"id":"ATA_UNC", "file":"include/linux/ata.h", "line":179, "type":"e", "scope_line":41, }
+,{"id":"ATA_VERBOSE_DEBUG", "file":"include/linux/libata.h", "line":56, "type":"d", }
+,{"id":"ATA_WAIT_AFTER_RESET", "file":"include/linux/libata.h", "line":271, "type":"e", "scope_line":111, }
+,{"id":"ATF_COM", "file":"include/linux/if_arp.h", "line":125, "type":"d", }
+,{"id":"ATF_DONTPUB", "file":"include/linux/if_arp.h", "line":131, "type":"d", }
+,{"id":"ATF_NETMASK", "file":"include/linux/if_arp.h", "line":129, "type":"d", }
+,{"id":"ATF_PERM", "file":"include/linux/if_arp.h", "line":126, "type":"d", }
+,{"id":"ATF_PUBL", "file":"include/linux/if_arp.h", "line":127, "type":"d", }
+,{"id":"ATF_USETRAILERS", "file":"include/linux/if_arp.h", "line":128, "type":"d", }
+,{"id":"ATIF_PROBE", "file":"include/linux/atalk.h", "line":67, "type":"d", }
+,{"id":"ATIF_PROBE_FAIL", "file":"include/linux/atalk.h", "line":68, "type":"d", }
+,{"id":"ATIXL_BUSMOUSE_MINOR", "file":"include/linux/miscdevice.h", "line":14, "type":"d", }
+,{"id":"ATI_FORCE_HPET_RESUME", "file":"arch/x86/kernel/quirks.c", "line":65, "type":"e", "scope_line":59, }
+,{"id":"ATKBD_CMD_ENABLE", "file":"drivers/input/keyboard/atkbd.c", "line":136, "type":"d", }
+,{"id":"ATKBD_CMD_EX_ENABLE", "file":"drivers/input/keyboard/atkbd.c", "line":142, "type":"d", }
+,{"id":"ATKBD_CMD_EX_SETLEDS", "file":"drivers/input/keyboard/atkbd.c", "line":143, "type":"d", }
+,{"id":"ATKBD_CMD_GETID", "file":"drivers/input/keyboard/atkbd.c", "line":134, "type":"d", }
+,{"id":"ATKBD_CMD_GSCANSET", "file":"drivers/input/keyboard/atkbd.c", "line":132, "type":"d", }
+,{"id":"ATKBD_CMD_OK_GETID", "file":"drivers/input/keyboard/atkbd.c", "line":144, "type":"d", }
+,{"id":"ATKBD_CMD_RESEND", "file":"drivers/input/keyboard/atkbd.c", "line":141, "type":"d", }
+,{"id":"ATKBD_CMD_RESET_BAT", "file":"drivers/input/keyboard/atkbd.c", "line":140, "type":"d", }
+,{"id":"ATKBD_CMD_RESET_DEF", "file":"drivers/input/keyboard/atkbd.c", "line":138, "type":"d", }
+,{"id":"ATKBD_CMD_RESET_DIS", "file":"drivers/input/keyboard/atkbd.c", "line":137, "type":"d", }
+,{"id":"ATKBD_CMD_SETALL_MBR", "file":"drivers/input/keyboard/atkbd.c", "line":139, "type":"d", }
+,{"id":"ATKBD_CMD_SETLEDS", "file":"drivers/input/keyboard/atkbd.c", "line":131, "type":"d", }
+,{"id":"ATKBD_CMD_SETREP", "file":"drivers/input/keyboard/atkbd.c", "line":135, "type":"d", }
+,{"id":"ATKBD_CMD_SSCANSET", "file":"drivers/input/keyboard/atkbd.c", "line":133, "type":"d", }
+,{"id":"ATKBD_DEFINE_ATTR", "file":"drivers/input/keyboard/atkbd.c", "line":245, "type":"d", }
+,{"id":"ATKBD_DEFINE_RO_ATTR", "file":"drivers/input/keyboard/atkbd.c", "line":268, "type":"d", }
+,{"id":"ATKBD_KEYMAP_SIZE", "file":"drivers/input/keyboard/atkbd.c", "line":71, "type":"d", }
+,{"id":"ATKBD_KEY_NULL", "file":"drivers/input/keyboard/atkbd.c", "line":157, "type":"d", }
+,{"id":"ATKBD_KEY_UNKNOWN", "file":"drivers/input/keyboard/atkbd.c", "line":156, "type":"d", }
+,{"id":"ATKBD_LED_EVENT_BIT", "file":"drivers/input/keyboard/atkbd.c", "line":169, "type":"d", }
+,{"id":"ATKBD_REP_EVENT_BIT", "file":"drivers/input/keyboard/atkbd.c", "line":170, "type":"d", }
+,{"id":"ATKBD_RET_ACK", "file":"drivers/input/keyboard/atkbd.c", "line":146, "type":"d", }
+,{"id":"ATKBD_RET_BAT", "file":"drivers/input/keyboard/atkbd.c", "line":148, "type":"d", }
+,{"id":"ATKBD_RET_EMUL0", "file":"drivers/input/keyboard/atkbd.c", "line":149, "type":"d", }
+,{"id":"ATKBD_RET_EMUL1", "file":"drivers/input/keyboard/atkbd.c", "line":150, "type":"d", }
+,{"id":"ATKBD_RET_ERR", "file":"drivers/input/keyboard/atkbd.c", "line":154, "type":"d", }
+,{"id":"ATKBD_RET_HANGEUL", "file":"drivers/input/keyboard/atkbd.c", "line":153, "type":"d", }
+,{"id":"ATKBD_RET_HANJA", "file":"drivers/input/keyboard/atkbd.c", "line":152, "type":"d", }
+,{"id":"ATKBD_RET_NAK", "file":"drivers/input/keyboard/atkbd.c", "line":147, "type":"d", }
+,{"id":"ATKBD_RET_RELEASE", "file":"drivers/input/keyboard/atkbd.c", "line":151, "type":"d", }
+,{"id":"ATKBD_SCR_1", "file":"drivers/input/keyboard/atkbd.c", "line":159, "type":"d", }
+,{"id":"ATKBD_SCR_2", "file":"drivers/input/keyboard/atkbd.c", "line":160, "type":"d", }
+,{"id":"ATKBD_SCR_4", "file":"drivers/input/keyboard/atkbd.c", "line":161, "type":"d", }
+,{"id":"ATKBD_SCR_8", "file":"drivers/input/keyboard/atkbd.c", "line":162, "type":"d", }
+,{"id":"ATKBD_SCR_CLICK", "file":"drivers/input/keyboard/atkbd.c", "line":163, "type":"d", }
+,{"id":"ATKBD_SCR_LEFT", "file":"drivers/input/keyboard/atkbd.c", "line":164, "type":"d", }
+,{"id":"ATKBD_SCR_RIGHT", "file":"drivers/input/keyboard/atkbd.c", "line":165, "type":"d", }
+,{"id":"ATKBD_SPECIAL", "file":"drivers/input/keyboard/atkbd.c", "line":167, "type":"d", }
+,{"id":"ATKBD_XL_ACK", "file":"drivers/input/keyboard/atkbd.c", "line":174, "type":"d", }
+,{"id":"ATKBD_XL_BAT", "file":"drivers/input/keyboard/atkbd.c", "line":173, "type":"d", }
+,{"id":"ATKBD_XL_ERR", "file":"drivers/input/keyboard/atkbd.c", "line":172, "type":"d", }
+,{"id":"ATKBD_XL_HANGEUL", "file":"drivers/input/keyboard/atkbd.c", "line":176, "type":"d", }
+,{"id":"ATKBD_XL_HANJA", "file":"drivers/input/keyboard/atkbd.c", "line":177, "type":"d", }
+,{"id":"ATKBD_XL_NAK", "file":"drivers/input/keyboard/atkbd.c", "line":175, "type":"d", }
+,{"id":"ATMARPD_CTRL", "file":"include/linux/atmarp.h", "line":21, "type":"d", }
+,{"id":"ATMARP_ENCAP", "file":"include/linux/atmarp.h", "line":24, "type":"d", }
+,{"id":"ATMARP_MAX_UNRES_PACKETS", "file":"include/linux/atmarp.h", "line":17, "type":"d", }
+,];
+xr_frag_insert('t/c0/f31317e16963894f89105261da5240cc6a8f8d.xr', __xr_tmp);

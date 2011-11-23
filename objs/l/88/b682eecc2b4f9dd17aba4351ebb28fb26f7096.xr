@@ -1,0 +1,19 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#XEN_HVC_CONSOLE_H\">XEN_HVC_CONSOLE_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#XEN_HVC_CONSOLE_H\">XEN_HVC_CONSOLE_H</a>", 
+"", 
+"extern struct <a class=\"id\" href=\"#console\">console</a> <a class=\"id\" href=\"#xenboot_console\">xenboot_console</a>;", 
+"", 
+"#<a class=\"id\" href=\"#ifdef\">ifdef</a> <a class=\"id\" href=\"#CONFIG_HVC_XEN\">CONFIG_HVC_XEN</a>", 
+"void <a class=\"id\" href=\"#xen_console_resume\">xen_console_resume</a>(void);", 
+"void <a class=\"id\" href=\"#xen_raw_console_write\">xen_raw_console_write</a>(const char *<a class=\"id\" href=\"#str\">str</a>);", 
+"void <a class=\"id\" href=\"#xen_raw_printk\">xen_raw_printk</a>(const char *<a class=\"id\" href=\"#fmt\">fmt</a>, ...);", 
+"#else", 
+"static <a class=\"id\" href=\"#inline\">inline</a> void <a class=\"id\" href=\"#xen_console_resume\">xen_console_resume</a>(void) { }", 
+"static <a class=\"id\" href=\"#inline\">inline</a> void <a class=\"id\" href=\"#xen_raw_console_write\">xen_raw_console_write</a>(const char *<a class=\"id\" href=\"#str\">str</a>) { }", 
+"static <a class=\"id\" href=\"#inline\">inline</a> void <a class=\"id\" href=\"#xen_raw_printk\">xen_raw_printk</a>(const char *<a class=\"id\" href=\"#fmt\">fmt</a>, ...) { }", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a><span class=\"ts\"/><span class=\"comment\">/* XEN_HVC_CONSOLE_H */</span>", 
+];
+xr_frag_insert('l/88/b682eecc2b4f9dd17aba4351ebb28fb26f7096.xr', __xr_tmp);

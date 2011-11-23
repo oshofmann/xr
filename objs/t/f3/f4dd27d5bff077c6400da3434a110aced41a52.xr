@@ -1,0 +1,180 @@
+var __xr_tmp = [
+{"id":"mutex", "file":"drivers/acpi/acpica/aclocal.h", "line":136, "type":"m", "scope_line":135, "scope_name":"struct acpi_mutex_info", }
+,{"id":"mutex", "file":"drivers/acpi/acpica/acobject.h", "line":181, "type":"m", "scope_line":177, "scope_name":"struct acpi_object_method", }
+,{"id":"mutex", "file":"drivers/acpi/acpica/acobject.h", "line":387, "type":"m", "scope_line":379, "scope_name":"union acpi_operand_object", }
+,{"id":"mutex", "file":"drivers/char/tty_audit.c", "line":18, "type":"m", "scope_line":16, "scope_name":"struct tty_audit_buf", }
+,{"id":"mutex", "file":"drivers/input/evdev.c", "line":34, "type":"m", "scope_line":26, "scope_name":"struct evdev", }
+,{"id":"mutex", "file":"drivers/input/keyboard/atkbd.c", "line":231, "type":"m", "scope_line":196, "scope_name":"struct atkbd", }
+,{"id":"mutex", "file":"drivers/input/mousedev.c", "line":67, "type":"m", "scope_line":60, "scope_name":"struct mousedev", }
+,{"id":"mutex", "file":"fs/libfs.c", "line":720, "type":"m", "scope_line":713, "scope_name":"struct simple_attr", }
+,{"id":"mutex", "file":"fs/sysfs/bin.c", "line":40, "type":"m", "scope_line":39, "scope_name":"struct bin_buffer", }
+,{"id":"mutex", "file":"fs/sysfs/file.c", "line":57, "type":"m", "scope_line":52, "scope_name":"struct sysfs_buffer", }
+,{"id":"mutex", "file":"include/linux/cgroup.h", "line":188, "type":"m", "scope_line":171, "scope_name":"struct cgroup_pidlist", }
+,{"id":"mutex", "file":"include/linux/device.h", "line":415, "type":"m", "scope_line":406, "scope_name":"struct device", }
+,{"id":"mutex", "file":"include/linux/ftrace_event.h", "line":55, "type":"m", "scope_line":50, "scope_name":"struct trace_iterator", }
+,{"id":"mutex", "file":"include/linux/input.h", "line":1202, "type":"m", "scope_line":1150, "scope_name":"struct input_dev", }
+,{"id":"mutex", "file":"include/linux/input.h", "line":1530, "type":"m", "scope_line":1515, "scope_name":"struct ff_device", }
+,{"id":"mutex", "file":"include/linux/mutex.h", "line":48, "type":"s", }
+,{"id":"mutex", "file":"include/linux/notifier.h", "line":71, "type":"m", "scope_line":70, "scope_name":"struct srcu_notifier_head", }
+,{"id":"mutex", "file":"include/linux/perf_event.h", "line":782, "type":"m", "scope_line":771, "scope_name":"struct perf_event_context", }
+,{"id":"mutex", "file":"include/linux/proportions.h", "line":40, "type":"m", "scope_line":37, "scope_name":"struct prop_descriptor", }
+,{"id":"mutex", "file":"include/linux/srcu.h", "line":39, "type":"m", "scope_line":36, "scope_name":"struct srcu_struct", }
+,{"id":"mutex", "file":"include/linux/tty.h", "line":231, "type":"m", "scope_line":220, "scope_name":"struct tty_port", }
+,{"id":"mutex", "file":"kernel/sched.c", "line":8655, "type":"v", }
+,{"id":"mutex", "file":"kernel/trace/ring_buffer.c", "line":477, "type":"m", "scope_line":468, "scope_name":"struct ring_buffer", }
+,{"id":"mutex_acquire", "file":"include/linux/lockdep.h", "line":500, "type":"d", }
+,{"id":"mutex_acquired", "file":"drivers/input/input.c", "line":920, "type":"m", "scope_line":917, "scope_name":"union input_seq_state", }
+,{"id":"mutex_clear_owner", "file":"kernel/mutex.c", "line":122, "type":"c", "scope_line":110, "scope_name":"mutex_unlock", }
+,{"id":"mutex_clear_owner", "file":"kernel/mutex.c", "line":45, "type":"c", "scope_line":39, "scope_name":"__mutex_init", }
+,{"id":"mutex_clear_owner", "file":"kernel/mutex.h", "line":25, "type":"f", }
+,{"id":"mutex_destroy", "file":"include/linux/mutex.h", "line":95, "type":"d", }
+,{"id":"mutex_init", "file":"include/linux/mutex.h", "line":89, "type":"d", }
+,{"id":"mutex_is_locked", "file":"drivers/char/n_tty.c", "line":2046, "type":"c", "scope_line":2025, "scope_name":"n_tty_poll", }
+,{"id":"mutex_is_locked", "file":"fs/namei.c", "line":1210, "type":"c", "scope_line":1205, "scope_name":"lookup_one_len", }
+,{"id":"mutex_is_locked", "file":"fs/notify/notification.c", "line":241, "type":"c", "scope_line":236, "scope_name":"fsnotify_remove_notify_event", }
+,{"id":"mutex_is_locked", "file":"fs/notify/notification.c", "line":271, "type":"c", "scope_line":266, "scope_name":"fsnotify_peek_notify_event", }
+,{"id":"mutex_is_locked", "file":"fs/notify/notification.c", "line":75, "type":"c", "scope_line":73, "scope_name":"fsnotify_notify_queue_is_empty", }
+,{"id":"mutex_is_locked", "file":"include/linux/mutex.h", "line":124, "type":"f", }
+,{"id":"mutex_is_locked", "file":"kernel/audit_watch.c", "line":411, "type":"c", "scope_line":405, "scope_name":"audit_add_to_parent", }
+,{"id":"mutex_is_locked", "file":"kernel/cgroup.c", "line":1074, "type":"c", "scope_line":1067, "scope_name":"parse_cgroupfs_options", }
+,{"id":"mutex_is_locked", "file":"kernel/cgroup.c", "line":217, "type":"c", "scope_line":215, "scope_name":"cgroup_lock_is_held", }
+,{"id":"mutex_is_locked", "file":"kernel/cgroup.c", "line":2265, "type":"c", "scope_line":2250, "scope_name":"cgroup_add_file", }
+,{"id":"mutex_is_locked", "file":"kernel/cgroup.c", "line":3364, "type":"c", "scope_line":3307, "scope_name":"cgroup_create", }
+,{"id":"mutex_is_locked", "file":"kernel/cgroup.c", "line":659, "type":"c", "scope_line":653, "scope_name":"task_cgroup_from_root", }
+,{"id":"mutex_is_locked", "file":"kernel/cgroup.c", "line":871, "type":"c", "scope_line":867, "scope_name":"cgroup_clear_directory", }
+,{"id":"mutex_is_locked", "file":"kernel/cgroup.c", "line":945, "type":"c", "scope_line":938, "scope_name":"rebind_subsystems", }
+,{"id":"mutex_is_locked", "file":"kernel/hw_breakpoint.c", "line":370, "type":"c", "scope_line":368, "scope_name":"dbg_reserve_bp_slot", }
+,{"id":"mutex_is_locked", "file":"kernel/hw_breakpoint.c", "line":378, "type":"c", "scope_line":376, "scope_name":"dbg_release_bp_slot", }
+,{"id":"mutex_is_locked", "file":"kernel/params.c", "line":404, "type":"c", "scope_line":372, "scope_name":"param_array", }
+,{"id":"mutex_is_locked", "file":"kernel/params.c", "line":443, "type":"c", "scope_line":432, "scope_name":"param_array_get", }
+,{"id":"mutex_is_locked", "file":"mm/mmap.c", "line":2647, "type":"c", "scope_line":2641, "scope_name":"mm_drop_all_locks", }
+,{"id":"mutex_is_locked", "file":"mm/page_alloc.c", "line":108, "type":"c", "scope_line":106, "scope_name":"set_gfp_allowed_mask", }
+,{"id":"mutex_is_locked", "file":"mm/page_alloc.c", "line":116, "type":"c", "scope_line":112, "scope_name":"clear_gfp_allowed_mask", }
+,{"id":"mutex_is_locked", "file":"net/core/net_namespace.c", "line":42, "type":"c", "scope_line":38, "scope_name":"net_assign_generic", }
+,{"id":"mutex_is_locked", "file":"net/core/rtnetlink.c", "line":89, "type":"c", "scope_line":87, "scope_name":"rtnl_is_locked", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/alternative.c", "line":244, "type":"c", "scope_line":239, "scope_name":"alternatives_smp_lock", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/alternative.c", "line":265, "type":"c", "scope_line":257, "scope_name":"alternatives_smp_unlock", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/alternative.c", "line":328, "type":"c", "scope_line":297, "scope_name":"alternatives_smp_module_add", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/alternative.c", "line":343, "type":"c", "scope_line":336, "scope_name":"alternatives_smp_module_del", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/alternative.c", "line":375, "type":"c", "scope_line":356, "scope_name":"alternatives_smp_switch", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/amd_iommu.c", "line":2526, "type":"c", "scope_line":2513, "scope_name":"amd_iommu_map", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/amd_iommu.c", "line":2541, "type":"c", "scope_line":2533, "scope_name":"amd_iommu_unmap", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":1184, "type":"c", "scope_line":1126, "scope_name":"powernowk8_target", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":1553, "type":"c", "scope_line":1541, "scope_name":"mce_read", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":255, "type":"c", "scope_line":241, "scope_name":"thermal_throttle_cpu_callback", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":264, "type":"c", "scope_line":241, "scope_name":"thermal_throttle_cpu_callback", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":288, "type":"c", "scope_line":277, "scope_name":"thermal_throttle_init_device", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":401, "type":"c", "scope_line":359, "scope_name":"mtrr_add_page", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":548, "type":"c", "scope_line":535, "scope_name":"mtrr_del_page", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/cpu/perf_event.c", "line":543, "type":"c", "scope_line":534, "scope_name":"__hw_perf_event_init", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/ldt.c", "line":115, "type":"c", "scope_line":106, "scope_name":"init_new_context", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/ldt.c", "line":155, "type":"c", "scope_line":144, "scope_name":"read_ldt", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/ldt.c", "line":217, "type":"c", "scope_line":193, "scope_name":"write_ldt", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/smpboot.c", "line":102, "type":"c", "scope_line":100, "scope_name":"cpu_hotplug_driver_lock", }
+,{"id":"mutex_lock", "file":"arch/x86/kernel/step.c", "line":32, "type":"c", "scope_line":9, "scope_name":"convert_ip_to_linear", }
+,{"id":"mutex_lock", "file":"arch/x86/mm/mmio-mod.c", "line":448, "type":"c", "scope_line":446, "scope_name":"enable_mmiotrace", }
+,{"id":"mutex_lock", "file":"arch/x86/mm/mmio-mod.c", "line":466, "type":"c", "scope_line":464, "scope_name":"disable_mmiotrace", }
+,{"id":"mutex_lock", "file":"block/blk-core.c", "line":455, "type":"c", "scope_line":444, "scope_name":"blk_cleanup_queue", }
+,{"id":"mutex_lock", "file":"block/blk-sysfs.c", "line":408, "type":"c", "scope_line":398, "scope_name":"queue_attr_show", }
+,{"id":"mutex_lock", "file":"block/blk-sysfs.c", "line":430, "type":"c", "scope_line":418, "scope_name":"queue_attr_store", }
+,{"id":"mutex_lock", "file":"block/bsg.c", "line":1013, "type":"c", "scope_line":990, "scope_name":"bsg_register_queue", }
+,{"id":"mutex_lock", "file":"block/bsg.c", "line":727, "type":"c", "scope_line":722, "scope_name":"bsg_put_device", }
+,{"id":"mutex_lock", "file":"block/bsg.c", "line":784, "type":"c", "scope_line":760, "scope_name":"bsg_add_device", }
+,{"id":"mutex_lock", "file":"block/bsg.c", "line":800, "type":"c", "scope_line":795, "scope_name":"__bsg_get_device", }
+,{"id":"mutex_lock", "file":"block/bsg.c", "line":822, "type":"c", "scope_line":814, "scope_name":"bsg_get_device", }
+,{"id":"mutex_lock", "file":"block/bsg.c", "line":980, "type":"c", "scope_line":973, "scope_name":"bsg_unregister_queue", }
+,{"id":"mutex_lock", "file":"block/elevator.c", "line":300, "type":"c", "scope_line":298, "scope_name":"elevator_exit", }
+,{"id":"mutex_lock", "file":"block/elevator.c", "line":891, "type":"c", "scope_line":880, "scope_name":"elv_attr_show", }
+,{"id":"mutex_lock", "file":"block/elevator.c", "line":909, "type":"c", "scope_line":897, "scope_name":"elv_attr_store", }
+,{"id":"mutex_lock", "file":"block/genhd.c", "line":255, "type":"c", "scope_line":250, "scope_name":"blkdev_show", }
+,{"id":"mutex_lock", "file":"block/genhd.c", "line":284, "type":"c", "scope_line":279, "scope_name":"register_blkdev", }
+,{"id":"mutex_lock", "file":"block/genhd.c", "line":341, "type":"c", "scope_line":335, "scope_name":"unregister_blkdev", }
+,{"id":"mutex_lock", "file":"block/genhd.c", "line":452, "type":"c", "scope_line":444, "scope_name":"blk_free_devt", }
+,{"id":"mutex_lock", "file":"block/genhd.c", "line":588, "type":"c", "scope_line":575, "scope_name":"get_gendisk", }
+,{"id":"mutex_lock", "file":"block/ioctl.c", "line":48, "type":"c", "scope_line":12, "scope_name":"blkpg_ioctl", }
+,{"id":"mutex_lock", "file":"block/ioctl.c", "line":78, "type":"c", "scope_line":12, "scope_name":"blkpg_ioctl", }
+,{"id":"mutex_lock", "file":"block/ioctl.c", "line":88, "type":"c", "scope_line":12, "scope_name":"blkpg_ioctl", }
+,{"id":"mutex_lock", "file":"crypto/rng.c", "line":117, "type":"c", "scope_line":115, "scope_name":"crypto_put_default_rng", }
+,{"id":"mutex_lock", "file":"crypto/rng.c", "line":89, "type":"c", "scope_line":84, "scope_name":"crypto_get_default_rng", }
+,{"id":"mutex_lock", "file":"drivers/acpi/battery.c", "line":398, "type":"c", "scope_line":387, "scope_name":"acpi_battery_get_info", }
+,{"id":"mutex_lock", "file":"drivers/acpi/battery.c", "line":432, "type":"c", "scope_line":418, "scope_name":"acpi_battery_get_state", }
+,{"id":"mutex_lock", "file":"drivers/acpi/battery.c", "line":466, "type":"c", "scope_line":454, "scope_name":"acpi_battery_set_alarm", }
+,{"id":"mutex_lock", "file":"drivers/acpi/cm_sbs.c", "line":47, "type":"c", "scope_line":45, "scope_name":"acpi_lock_ac_dir", }
+,{"id":"mutex_lock", "file":"drivers/acpi/cm_sbs.c", "line":63, "type":"c", "scope_line":61, "scope_name":"acpi_unlock_ac_dir", }
+,{"id":"mutex_lock", "file":"drivers/acpi/cm_sbs.c", "line":76, "type":"c", "scope_line":74, "scope_name":"acpi_lock_battery_dir", }
+,{"id":"mutex_lock", "file":"drivers/acpi/cm_sbs.c", "line":94, "type":"c", "scope_line":92, "scope_name":"acpi_unlock_battery_dir", }
+,{"id":"mutex_lock", "file":"drivers/acpi/dock.c", "line":133, "type":"c", "scope_line":129, "scope_name":"dock_add_hotplug_device", }
+,{"id":"mutex_lock", "file":"drivers/acpi/dock.c", "line":149, "type":"c", "scope_line":145, "scope_name":"dock_del_hotplug_device", }
+,{"id":"mutex_lock", "file":"drivers/acpi/dock.c", "line":368, "type":"c", "scope_line":364, "scope_name":"hotplug_dock_devices", }
+,{"id":"mutex_lock", "file":"drivers/acpi/ec.c", "line":285, "type":"c", "scope_line":277, "scope_name":"acpi_ec_transaction", }
+,{"id":"mutex_lock", "file":"drivers/acpi/ec.c", "line":452, "type":"c", "scope_line":445, "scope_name":"acpi_ec_block_transactions", }
+,{"id":"mutex_lock", "file":"drivers/acpi/ec.c", "line":465, "type":"c", "scope_line":458, "scope_name":"acpi_ec_unblock_transactions", }
+,{"id":"mutex_lock", "file":"drivers/acpi/ec.c", "line":520, "type":"c", "scope_line":507, "scope_name":"acpi_ec_add_query_handler", }
+,{"id":"mutex_lock", "file":"drivers/acpi/ec.c", "line":531, "type":"c", "scope_line":528, "scope_name":"acpi_ec_remove_query_handler", }
+,{"id":"mutex_lock", "file":"drivers/acpi/ec.c", "line":585, "type":"c", "scope_line":580, "scope_name":"acpi_ec_gpe_query", }
+,{"id":"mutex_lock", "file":"drivers/acpi/ec.c", "line":840, "type":"c", "scope_line":830, "scope_name":"acpi_ec_remove", }
+,{"id":"mutex_lock", "file":"drivers/acpi/pci_link.c", "line":615, "type":"c", "scope_line":590, "scope_name":"acpi_pci_link_allocate_irq", }
+,{"id":"mutex_lock", "file":"drivers/acpi/pci_link.c", "line":663, "type":"c", "scope_line":645, "scope_name":"acpi_pci_link_free_irq", }
+,{"id":"mutex_lock", "file":"drivers/acpi/pci_link.c", "line":712, "type":"c", "scope_line":696, "scope_name":"acpi_pci_link_add", }
+,{"id":"mutex_lock", "file":"drivers/acpi/pci_link.c", "line":777, "type":"c", "scope_line":771, "scope_name":"acpi_pci_link_remove", }
+,{"id":"mutex_lock", "file":"drivers/acpi/pci_root.c", "line":265, "type":"c", "scope_line":257, "scope_name":"acpi_pci_osc_support", }
+,{"id":"mutex_lock", "file":"drivers/acpi/pci_root.c", "line":412, "type":"c", "scope_line":390, "scope_name":"acpi_pci_osc_control_set", }
+,{"id":"mutex_lock", "file":"drivers/acpi/pci_slot.c", "line":165, "type":"c", "scope_line":133, "scope_name":"register_slot", }
+,{"id":"mutex_lock", "file":"drivers/acpi/pci_slot.c", "line":319, "type":"c", "scope_line":313, "scope_name":"acpi_pci_slot_remove", }
+,{"id":"mutex_lock", "file":"drivers/acpi/power.c", "line":201, "type":"c", "scope_line":187, "scope_name":"acpi_power_on", }
+,{"id":"mutex_lock", "file":"drivers/acpi/power.c", "line":251, "type":"c", "scope_line":239, "scope_name":"acpi_power_off_device", }
+,{"id":"mutex_lock", "file":"drivers/acpi/power.c", "line":360, "type":"c", "scope_line":353, "scope_name":"acpi_enable_wakeup_device_power", }
+,{"id":"mutex_lock", "file":"drivers/acpi/power.c", "line":404, "type":"c", "scope_line":397, "scope_name":"acpi_disable_wakeup_device_power", }
+,{"id":"mutex_lock", "file":"drivers/acpi/power.c", "line":606, "type":"c", "scope_line":595, "scope_name":"acpi_power_remove", }
+,{"id":"mutex_lock", "file":"drivers/acpi/power.c", "line":634, "type":"c", "scope_line":619, "scope_name":"acpi_power_resume", }
+,{"id":"mutex_lock", "file":"drivers/acpi/proc.c", "line":300, "type":"c", "scope_line":293, "scope_name":"acpi_system_wakeup_device_seq_show", }
+,{"id":"mutex_lock", "file":"drivers/acpi/proc.c", "line":356, "type":"c", "scope_line":335, "scope_name":"acpi_system_write_wakeup_device", }
+,{"id":"mutex_lock", "file":"drivers/acpi/processor_perflib.c", "line":100, "type":"c", "scope_line":82, "scope_name":"acpi_processor_ppc_notifier", }
+,{"id":"mutex_lock", "file":"drivers/acpi/processor_perflib.c", "line":579, "type":"c", "scope_line":564, "scope_name":"acpi_processor_preregister_performance", }
+,{"id":"mutex_lock", "file":"drivers/acpi/processor_perflib.c", "line":726, "type":"c", "scope_line":717, "scope_name":"acpi_processor_register_performance", }
+,{"id":"mutex_lock", "file":"drivers/acpi/processor_perflib.c", "line":761, "type":"c", "scope_line":755, "scope_name":"acpi_processor_unregister_performance", }
+,{"id":"mutex_lock", "file":"drivers/acpi/sbs.c", "line":550, "type":"c", "scope_line":544, "scope_name":"acpi_battery_read_info", }
+,{"id":"mutex_lock", "file":"drivers/acpi/sbs.c", "line":594, "type":"c", "scope_line":588, "scope_name":"acpi_battery_read_state", }
+,{"id":"mutex_lock", "file":"drivers/acpi/sbs.c", "line":633, "type":"c", "scope_line":627, "scope_name":"acpi_battery_read_alarm", }
+,{"id":"mutex_lock", "file":"drivers/acpi/sbs.c", "line":663, "type":"c", "scope_line":654, "scope_name":"acpi_battery_write_alarm", }
+,{"id":"mutex_lock", "file":"drivers/acpi/sbs.c", "line":726, "type":"c", "scope_line":721, "scope_name":"acpi_ac_read_state", }
+,{"id":"mutex_lock", "file":"drivers/acpi/sbs.c", "line":980, "type":"c", "scope_line":970, "scope_name":"acpi_sbs_remove", }
+,{"id":"mutex_lock", "file":"drivers/acpi/sbshc.c", "line":134, "type":"c", "scope_line":123, "scope_name":"acpi_smbus_transaction", }
+,{"id":"mutex_lock", "file":"drivers/acpi/sbshc.c", "line":198, "type":"c", "scope_line":195, "scope_name":"acpi_smbus_register_callback", }
+,{"id":"mutex_lock", "file":"drivers/acpi/sbshc.c", "line":209, "type":"c", "scope_line":207, "scope_name":"acpi_smbus_unregister_callback", }
+,{"id":"mutex_lock", "file":"drivers/acpi/sbshc.c", "line":237, "type":"c", "scope_line":225, "scope_name":"smbus_alarm", }
+,{"id":"mutex_lock", "file":"drivers/acpi/scan.c", "line":463, "type":"c", "scope_line":442, "scope_name":"acpi_device_register", }
+,{"id":"mutex_lock", "file":"drivers/acpi/scan.c", "line":510, "type":"c", "scope_line":442, "scope_name":"acpi_device_register", }
+,{"id":"mutex_lock", "file":"drivers/acpi/scan.c", "line":520, "type":"c", "scope_line":518, "scope_name":"acpi_device_unregister", }
+,{"id":"mutex_lock", "file":"drivers/acpi/wakeup.c", "line":82, "type":"c", "scope_line":78, "scope_name":"acpi_wakeup_device_init", }
+,{"id":"mutex_lock", "file":"drivers/ata/libata-scsi.c", "line":3488, "type":"c", "scope_line":3476, "scope_name":"ata_scsi_remove_dev", }
+,{"id":"mutex_lock", "file":"drivers/ata/libata-scsi.c", "line":3585, "type":"c", "scope_line":3573, "scope_name":"ata_scsi_hotplug", }
+,{"id":"mutex_lock", "file":"drivers/ata/libata-scsi.c", "line":3691, "type":"c", "scope_line":3683, "scope_name":"ata_scsi_dev_rescan", }
+,{"id":"mutex_lock", "file":"drivers/base/attribute_container.c", "line":149, "type":"c", "scope_line":141, "scope_name":"attribute_container_add_device", }
+,{"id":"mutex_lock", "file":"drivers/base/attribute_container.c", "line":214, "type":"c", "scope_line":206, "scope_name":"attribute_container_remove_device", }
+,{"id":"mutex_lock", "file":"drivers/base/attribute_container.c", "line":258, "type":"c", "scope_line":250, "scope_name":"attribute_container_device_trigger", }
+,{"id":"mutex_lock", "file":"drivers/base/attribute_container.c", "line":298, "type":"c", "scope_line":291, "scope_name":"attribute_container_trigger", }
+,{"id":"mutex_lock", "file":"drivers/base/attribute_container.c", "line":81, "type":"c", "scope_line":74, "scope_name":"attribute_container_register", }
+,{"id":"mutex_lock", "file":"drivers/base/attribute_container.c", "line":98, "type":"c", "scope_line":94, "scope_name":"attribute_container_unregister", }
+,{"id":"mutex_lock", "file":"drivers/base/class.c", "line":469, "type":"c", "scope_line":456, "scope_name":"class_interface_register", }
+,{"id":"mutex_lock", "file":"drivers/base/class.c", "line":491, "type":"c", "scope_line":482, "scope_name":"class_interface_unregister", }
+,{"id":"mutex_lock", "file":"drivers/base/core.c", "line":1032, "type":"c", "scope_line":938, "scope_name":"device_add", }
+,{"id":"mutex_lock", "file":"drivers/base/core.c", "line":1157, "type":"c", "scope_line":1134, "scope_name":"device_del", }
+,{"id":"mutex_lock", "file":"drivers/base/core.c", "line":681, "type":"c", "scope_line":660, "scope_name":"get_device_parent", }
+,{"id":"mutex_lock", "file":"drivers/base/devtmpfs.c", "line":102, "type":"c", "scope_line":98, "scope_name":"create_path", }
+,{"id":"mutex_lock", "file":"drivers/base/devtmpfs.c", "line":179, "type":"c", "scope_line":133, "scope_name":"devtmpfs_create_node", }
+,{"id":"mutex_lock", "file":"drivers/base/devtmpfs.c", "line":210, "type":"c", "scope_line":199, "scope_name":"dev_rmdir", }
+,{"id":"mutex_lock", "file":"drivers/base/devtmpfs.c", "line":241, "type":"c", "scope_line":232, "scope_name":"delete_path", }
+,{"id":"mutex_lock", "file":"drivers/base/devtmpfs.c", "line":304, "type":"c", "scope_line":280, "scope_name":"devtmpfs_delete_node", }
+,{"id":"mutex_lock", "file":"drivers/base/devtmpfs.c", "line":320, "type":"c", "scope_line":280, "scope_name":"devtmpfs_delete_node", }
+,{"id":"mutex_lock", "file":"drivers/base/firmware_class.c", "line":231, "type":"c", "scope_line":221, "scope_name":"firmware_loading_store", }
+,{"id":"mutex_lock", "file":"drivers/base/firmware_class.c", "line":292, "type":"c", "scope_line":283, "scope_name":"firmware_data_read", }
+,{"id":"mutex_lock", "file":"drivers/base/firmware_class.c", "line":389, "type":"c", "scope_line":377, "scope_name":"firmware_data_write", }
+,{"id":"mutex_lock", "file":"drivers/base/firmware_class.c", "line":560, "type":"c", "scope_line":513, "scope_name":"_request_firmware", }
+,{"id":"mutex_lock", "file":"drivers/base/map.c", "line":103, "type":"c", "scope_line":96, "scope_name":"kobj_lookup", }
+,{"id":"mutex_lock", "file":"drivers/base/map.c", "line":57, "type":"c", "scope_line":32, "scope_name":"kobj_map", }
+,{"id":"mutex_lock", "file":"drivers/base/map.c", "line":79, "type":"c", "scope_line":69, "scope_name":"kobj_unmap", }
+,{"id":"mutex_lock", "file":"drivers/base/memory.c", "line":242, "type":"c", "scope_line":238, "scope_name":"memory_block_change_state", }
+,{"id":"mutex_lock", "file":"drivers/base/power/main.c", "line":1015, "type":"c", "scope_line":1009, "scope_name":"dpm_prepare", }
+,];
+xr_frag_insert('t/f3/f4dd27d5bff077c6400da3434a110aced41a52.xr', __xr_tmp);

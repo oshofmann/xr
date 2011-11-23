@@ -1,0 +1,89 @@
+var __xr_tmp = [
+{"id":"mls_context_cpy", "file":"security/selinux/ss/mls.c", "line":276, "type":"c", "scope_line":242, "scope_name":"mls_context_to_sid", }
+,{"id":"mls_context_cpy", "file":"security/selinux/ss/mls.c", "line":535, "type":"c", "scope_line":510, "scope_name":"mls_compute_sid", }
+,{"id":"mls_context_cpy", "file":"security/selinux/ss/services.c", "line":2472, "type":"c", "scope_line":2436, "scope_name":"security_sid_mls_copy", }
+,{"id":"mls_context_cpy_low", "file":"security/selinux/ss/context.h", "line":60, "type":"f", }
+,{"id":"mls_context_cpy_low", "file":"security/selinux/ss/mls.c", "line":538, "type":"c", "scope_line":510, "scope_name":"mls_compute_sid", }
+,{"id":"mls_context_cpy_low", "file":"security/selinux/ss/mls.c", "line":541, "type":"c", "scope_line":510, "scope_name":"mls_compute_sid", }
+,{"id":"mls_context_destroy", "file":"security/selinux/ss/context.h", "line":127, "type":"c", "scope_line":121, "scope_name":"context_destroy", }
+,{"id":"mls_context_destroy", "file":"security/selinux/ss/context.h", "line":85, "type":"f", }
+,{"id":"mls_context_destroy", "file":"security/selinux/ss/services.c", "line":1683, "type":"c", "scope_line":1594, "scope_name":"convert_context", }
+,{"id":"mls_context_init", "file":"security/selinux/ss/context.h", "line":35, "type":"f", }
+,{"id":"mls_context_init", "file":"security/selinux/ss/context.h", "line":89, "type":"c", "scope_line":85, "scope_name":"mls_context_destroy", }
+,{"id":"mls_context_isvalid", "file":"security/selinux/ss/mls.c", "line":199, "type":"f", }
+,{"id":"mls_context_isvalid", "file":"security/selinux/ss/policydb.c", "line":856, "type":"c", "scope_line":819, "scope_name":"policydb_context_isvalid", }
+,{"id":"mls_context_isvalid", "file":"security/selinux/ss/services.c", "line":3064, "type":"c", "scope_line":3026, "scope_name":"security_netlbl_secattr_to_sid", }
+,{"id":"mls_context_to_sid", "file":"security/selinux/ss/mls.c", "line":242, "type":"f", }
+,{"id":"mls_context_to_sid", "file":"security/selinux/ss/mls.c", "line":399, "type":"c", "scope_line":385, "scope_name":"mls_from_string", }
+,{"id":"mls_context_to_sid", "file":"security/selinux/ss/services.c", "line":1178, "type":"c", "scope_line":1114, "scope_name":"string_to_context_struct", }
+,{"id":"mls_convert_context", "file":"security/selinux/ss/mls.c", "line":470, "type":"f", }
+,{"id":"mls_convert_context", "file":"security/selinux/ss/services.c", "line":1674, "type":"c", "scope_line":1594, "scope_name":"convert_context", }
+,{"id":"mls_enabled", "file":"security/selinux/ss/policydb.h", "line":192, "type":"m", "scope_line":191, "scope_name":"struct policydb", }
+,{"id":"mls_export_netlbl_cat", "file":"security/selinux/ss/mls.c", "line":599, "type":"f", }
+,{"id":"mls_export_netlbl_cat", "file":"security/selinux/ss/services.c", "line":3120, "type":"c", "scope_line":3097, "scope_name":"security_netlbl_sid_to_secattr", }
+,{"id":"mls_export_netlbl_lvl", "file":"security/selinux/ss/mls.c", "line":559, "type":"f", }
+,{"id":"mls_export_netlbl_lvl", "file":"security/selinux/ss/services.c", "line":3119, "type":"c", "scope_line":3097, "scope_name":"security_netlbl_sid_to_secattr", }
+,{"id":"mls_from_string", "file":"security/selinux/ss/mls.c", "line":385, "type":"f", }
+,{"id":"mls_from_string", "file":"security/selinux/ss/services.c", "line":2801, "type":"c", "scope_line":2724, "scope_name":"selinux_audit_rule_init", }
+,{"id":"mls_import_netlbl_cat", "file":"security/selinux/ss/mls.c", "line":627, "type":"f", }
+,{"id":"mls_import_netlbl_lvl", "file":"security/selinux/ss/mls.c", "line":579, "type":"f", }
+,{"id":"mls_import_netlbl_lvl", "file":"security/selinux/ss/services.c", "line":3055, "type":"c", "scope_line":3026, "scope_name":"security_netlbl_secattr_to_sid", }
+,{"id":"mls_level", "file":"security/selinux/ss/mls_types.h", "line":20, "type":"s", }
+,{"id":"mls_level_between", "file":"security/selinux/ss/mls_types.h", "line":44, "type":"d", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/mls.c", "line":190, "type":"c", "scope_line":188, "scope_name":"mls_range_isvalid", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/mls.c", "line":218, "type":"c", "scope_line":199, "scope_name":"mls_context_isvalid", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/mls.c", "line":440, "type":"c", "scope_line":427, "scope_name":"mls_setup_user_range", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/mls.c", "line":442, "type":"c", "scope_line":427, "scope_name":"mls_setup_user_range", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/mls.c", "line":444, "type":"c", "scope_line":427, "scope_name":"mls_setup_user_range", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/mls.c", "line":454, "type":"c", "scope_line":427, "scope_name":"mls_setup_user_range", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/mls.c", "line":456, "type":"c", "scope_line":427, "scope_name":"mls_setup_user_range", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/mls_types.h", "line":35, "type":"f", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/services.c", "line":2927, "type":"c", "scope_line":2842, "scope_name":"selinux_audit_rule_match", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/services.c", "line":2933, "type":"c", "scope_line":2842, "scope_name":"selinux_audit_rule_match", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/services.c", "line":2937, "type":"c", "scope_line":2842, "scope_name":"selinux_audit_rule_match", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/services.c", "line":2943, "type":"c", "scope_line":2842, "scope_name":"selinux_audit_rule_match", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/services.c", "line":354, "type":"c", "scope_line":256, "scope_name":"constraint_expr_eval", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/services.c", "line":357, "type":"c", "scope_line":256, "scope_name":"constraint_expr_eval", }
+,{"id":"mls_level_dom", "file":"security/selinux/ss/services.c", "line":360, "type":"c", "scope_line":256, "scope_name":"constraint_expr_eval", }
+,{"id":"mls_level_eq", "file":"security/selinux/ss/mls.c", "line":148, "type":"c", "scope_line":88, "scope_name":"mls_sid_to_context", }
+,{"id":"mls_level_eq", "file":"security/selinux/ss/mls.c", "line":72, "type":"c", "scope_line":35, "scope_name":"mls_compute_context_len", }
+,{"id":"mls_level_eq", "file":"security/selinux/ss/mls_types.h", "line":29, "type":"f", }
+,{"id":"mls_level_eq", "file":"security/selinux/ss/services.c", "line":2919, "type":"c", "scope_line":2842, "scope_name":"selinux_audit_rule_match", }
+,{"id":"mls_level_eq", "file":"security/selinux/ss/services.c", "line":2923, "type":"c", "scope_line":2842, "scope_name":"selinux_audit_rule_match", }
+,{"id":"mls_level_eq", "file":"security/selinux/ss/services.c", "line":2927, "type":"c", "scope_line":2842, "scope_name":"selinux_audit_rule_match", }
+,{"id":"mls_level_eq", "file":"security/selinux/ss/services.c", "line":2937, "type":"c", "scope_line":2842, "scope_name":"selinux_audit_rule_match", }
+,{"id":"mls_level_eq", "file":"security/selinux/ss/services.c", "line":348, "type":"c", "scope_line":256, "scope_name":"constraint_expr_eval", }
+,{"id":"mls_level_eq", "file":"security/selinux/ss/services.c", "line":351, "type":"c", "scope_line":256, "scope_name":"constraint_expr_eval", }
+,{"id":"mls_level_incomp", "file":"security/selinux/ss/mls_types.h", "line":41, "type":"d", }
+,{"id":"mls_level_isvalid", "file":"security/selinux/ss/mls.c", "line":160, "type":"f", }
+,{"id":"mls_level_isvalid", "file":"security/selinux/ss/mls.c", "line":190, "type":"c", "scope_line":188, "scope_name":"mls_range_isvalid", }
+,{"id":"mls_range", "file":"security/selinux/ss/mls_types.h", "line":25, "type":"s", }
+,{"id":"mls_range_contains", "file":"security/selinux/ss/mls_types.h", "line":47, "type":"d", }
+,{"id":"mls_range_isvalid", "file":"security/selinux/ss/mls.c", "line":188, "type":"f", }
+,{"id":"mls_range_isvalid", "file":"security/selinux/ss/mls.c", "line":206, "type":"c", "scope_line":199, "scope_name":"mls_context_isvalid", }
+,{"id":"mls_range_isvalid", "file":"security/selinux/ss/policydb.c", "line":1766, "type":"c", "scope_line":1714, "scope_name":"range_read", }
+,{"id":"mls_range_set", "file":"security/selinux/ss/mls.c", "line":410, "type":"f", }
+,{"id":"mls_range_set", "file":"security/selinux/ss/mls.c", "line":530, "type":"c", "scope_line":510, "scope_name":"mls_compute_sid", }
+,{"id":"mls_range_set", "file":"security/selinux/ss/services.c", "line":1701, "type":"c", "scope_line":1594, "scope_name":"convert_context", }
+,{"id":"mls_read_level", "file":"security/selinux/ss/policydb.c", "line":1360, "type":"f", }
+,{"id":"mls_read_level", "file":"security/selinux/ss/policydb.c", "line":1430, "type":"c", "scope_line":1386, "scope_name":"user_read", }
+,{"id":"mls_read_level", "file":"security/selinux/ss/policydb.c", "line":1481, "type":"c", "scope_line":1445, "scope_name":"sens_read", }
+,{"id":"mls_read_range_helper", "file":"security/selinux/ss/policydb.c", "line":1427, "type":"c", "scope_line":1386, "scope_name":"user_read", }
+,{"id":"mls_read_range_helper", "file":"security/selinux/ss/policydb.c", "line":1761, "type":"c", "scope_line":1714, "scope_name":"range_read", }
+,{"id":"mls_read_range_helper", "file":"security/selinux/ss/policydb.c", "line":866, "type":"f", }
+,{"id":"mls_read_range_helper", "file":"security/selinux/ss/policydb.c", "line":942, "type":"c", "scope_line":926, "scope_name":"context_read_and_validate", }
+,{"id":"mls_setup_user_range", "file":"security/selinux/ss/mls.c", "line":427, "type":"f", }
+,{"id":"mls_setup_user_range", "file":"security/selinux/ss/services.c", "line":2118, "type":"c", "scope_line":2070, "scope_name":"security_get_user_sids", }
+,{"id":"mls_sid_to_context", "file":"security/selinux/ss/mls.c", "line":88, "type":"f", }
+,{"id":"mls_sid_to_context", "file":"security/selinux/ss/services.c", "line":1028, "type":"c", "scope_line":990, "scope_name":"context_struct_to_string", }
+,{"id":"mm", "file":"include/asm-generic/tlb.h", "line":40, "type":"m", "scope_line":39, "scope_name":"struct mmu_gather", }
+,{"id":"mm", "file":"include/linux/aio.h", "line":181, "type":"m", "scope_line":178, "scope_name":"struct kioctx", }
+,{"id":"mm", "file":"include/linux/binfmts.h", "line":36, "type":"m", "scope_line":28, "scope_name":"struct linux_binprm", }
+,{"id":"mm", "file":"include/linux/futex.h", "line":164, "type":"m", "scope_line":156, "scope_name":"union futex_key", }
+,{"id":"mm", "file":"include/linux/mm.h", "line":796, "type":"m", "scope_line":788, "scope_name":"struct mm_walk", }
+,{"id":"mm", "file":"include/linux/sched.h", "line":1219, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"mm", "file":"kernel/auditsc.c", "line":132, "type":"m", "scope_line":128, "scope_name":"struct audit_aux_data_execve", }
+,{"id":"mm", "file":"mm/ksm.c", "line":137, "type":"m", "scope_line":134, "scope_name":"struct rmap_item", }
+,{"id":"mm", "file":"mm/ksm.c", "line":92, "type":"m", "scope_line":88, "scope_name":"struct mm_slot", }
+,];
+xr_frag_insert('t/8a/a8b237407a49a6c8143c259a692b13570d6061.xr', __xr_tmp);

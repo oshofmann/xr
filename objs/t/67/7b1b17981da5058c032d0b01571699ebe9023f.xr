@@ -1,0 +1,261 @@
+var __xr_tmp = [
+{"id":"bus_register", "file":"drivers/spi/spi.c", "line":1035, "type":"c", "scope_line":1025, "scope_name":"spi_init", }
+,{"id":"bus_register", "file":"drivers/virtio/virtio.c", "line":224, "type":"c", "scope_line":222, "scope_name":"virtio_init", }
+,{"id":"bus_register", "file":"drivers/xen/xenbus/xenbus_probe.c", "line":812, "type":"c", "scope_line":801, "scope_name":"xenbus_init", }
+,{"id":"bus_register_notifier", "file":"arch/x86/kernel/amd_iommu.c", "line":1708, "type":"c", "scope_line":1706, "scope_name":"amd_iommu_init_notifier", }
+,{"id":"bus_register_notifier", "file":"drivers/base/bus.c", "line":976, "type":"f", }
+,{"id":"bus_register_notifier", "file":"drivers/gpu/vga/vgaarb.c", "line":1229, "type":"c", "scope_line":1220, "scope_name":"vga_arb_device_init", }
+,{"id":"bus_remove_attrs", "file":"drivers/base/bus.c", "line":835, "type":"f", }
+,{"id":"bus_remove_attrs", "file":"drivers/base/bus.c", "line":965, "type":"c", "scope_line":962, "scope_name":"bus_unregister", }
+,{"id":"bus_remove_device", "file":"drivers/base/bus.c", "line":529, "type":"f", }
+,{"id":"bus_remove_device", "file":"drivers/base/core.c", "line":1048, "type":"c", "scope_line":938, "scope_name":"device_add", }
+,{"id":"bus_remove_device", "file":"drivers/base/core.c", "line":1169, "type":"c", "scope_line":1134, "scope_name":"device_del", }
+,{"id":"bus_remove_driver", "file":"drivers/base/bus.c", "line":723, "type":"f", }
+,{"id":"bus_remove_driver", "file":"drivers/base/driver.c", "line":248, "type":"c", "scope_line":222, "scope_name":"driver_register", }
+,{"id":"bus_remove_driver", "file":"drivers/base/driver.c", "line":266, "type":"c", "scope_line":259, "scope_name":"driver_unregister", }
+,{"id":"bus_remove_file", "file":"drivers/base/bus.c", "line":136, "type":"f", }
+,{"id":"bus_remove_file", "file":"drivers/base/bus.c", "line":616, "type":"c", "scope_line":606, "scope_name":"add_probe_files", }
+,{"id":"bus_remove_file", "file":"drivers/base/bus.c", "line":623, "type":"c", "scope_line":621, "scope_name":"remove_probe_files", }
+,{"id":"bus_remove_file", "file":"drivers/base/bus.c", "line":624, "type":"c", "scope_line":621, "scope_name":"remove_probe_files", }
+,{"id":"bus_remove_file", "file":"drivers/base/bus.c", "line":831, "type":"c", "scope_line":815, "scope_name":"bus_add_attrs", }
+,{"id":"bus_remove_file", "file":"drivers/base/bus.c", "line":841, "type":"c", "scope_line":835, "scope_name":"bus_remove_attrs", }
+,{"id":"bus_remove_file", "file":"drivers/base/bus.c", "line":945, "type":"c", "scope_line":880, "scope_name":"bus_register", }
+,{"id":"bus_remove_file", "file":"drivers/base/bus.c", "line":969, "type":"c", "scope_line":962, "scope_name":"bus_unregister", }
+,{"id":"bus_rescan_devices", "file":"drivers/base/bus.c", "line":764, "type":"f", }
+,{"id":"bus_rescan_devices_helper", "file":"drivers/base/bus.c", "line":248, "type":"c", "scope_line":240, "scope_name":"store_drivers_probe", }
+,{"id":"bus_rescan_devices_helper", "file":"drivers/base/bus.c", "line":741, "type":"f", }
+,{"id":"bus_rescan_devices_helper", "file":"drivers/base/bus.c", "line":788, "type":"c", "scope_line":779, "scope_name":"device_reprobe", }
+,{"id":"bus_rescan_store", "file":"drivers/pci/pci-sysfs.c", "line":251, "type":"f", }
+,{"id":"bus_sort_breadthfirst", "file":"drivers/base/bus.c", "line":1029, "type":"f", }
+,{"id":"bus_sort_breadthfirst", "file":"drivers/pci/probe.c", "line":1553, "type":"c", "scope_line":1551, "scope_name":"pci_sort_breadthfirst", }
+,{"id":"bus_spec", "file":"lib/vsprintf.c", "line":615, "type":"v", }
+,{"id":"bus_speed_read", "file":"drivers/pci/slot.c", "line":78, "type":"f", }
+,{"id":"bus_speed_read", "file":"drivers/pci/slot.c", "line":92, "type":"c", "scope_line":90, "scope_name":"max_speed_read_file", }
+,{"id":"bus_speed_read", "file":"drivers/pci/slot.c", "line":97, "type":"c", "scope_line":95, "scope_name":"cur_speed_read_file", }
+,{"id":"bus_sync_unlock", "file":"include/linux/irq.h", "line":132, "type":"m", "scope_line":111, "scope_name":"struct irq_chip", }
+,{"id":"bus_sysfs_ops", "file":"drivers/base/bus.c", "line":119, "type":"v", }
+,{"id":"bus_to_virt", "file":"arch/x86/include/asm/io.h", "line":178, "type":"d", }
+,{"id":"bus_type", "file":"include/linux/device.h", "line":51, "type":"s", }
+,{"id":"bus_type_list", "file":"drivers/acpi/glue.c", "line":24, "type":"v", }
+,{"id":"bus_type_private", "file":"drivers/base/base.h", "line":19, "type":"s", }
+,{"id":"bus_type_sem", "file":"drivers/acpi/glue.c", "line":25, "type":"v", }
+,{"id":"bus_uevent_filter", "file":"drivers/base/bus.c", "line":149, "type":"f", }
+,{"id":"bus_uevent_ops", "file":"drivers/base/bus.c", "line":158, "type":"v", }
+,{"id":"bus_uevent_store", "file":"drivers/base/bus.c", "line":861, "type":"f", }
+,{"id":"bus_unregister", "file":"drivers/base/bus.c", "line":962, "type":"f", }
+,{"id":"bus_unregister", "file":"drivers/i2c/i2c-core.c", "line":1245, "type":"c", "scope_line":1221, "scope_name":"i2c_init", }
+,{"id":"bus_unregister", "file":"drivers/i2c/i2c-core.c", "line":1255, "type":"c", "scope_line":1249, "scope_name":"i2c_exit", }
+,{"id":"bus_unregister", "file":"drivers/ide/ide.c", "line":398, "type":"c", "scope_line":373, "scope_name":"ide_init", }
+,{"id":"bus_unregister", "file":"drivers/ide/ide.c", "line":409, "type":"c", "scope_line":403, "scope_name":"ide_exit", }
+,{"id":"bus_unregister", "file":"drivers/input/serio/serio.c", "line":1008, "type":"c", "scope_line":996, "scope_name":"serio_init", }
+,{"id":"bus_unregister", "file":"drivers/input/serio/serio.c", "line":1019, "type":"c", "scope_line":1017, "scope_name":"serio_exit", }
+,{"id":"bus_unregister", "file":"drivers/net/phy/mdio_bus.c", "line":402, "type":"c", "scope_line":399, "scope_name":"mdio_bus_exit", }
+,{"id":"bus_unregister", "file":"drivers/pci/pcie/portdrv_bus.c", "line":54, "type":"c", "scope_line":52, "scope_name":"pcie_port_bus_unregister", }
+,{"id":"bus_unregister", "file":"drivers/scsi/scsi_sysfs.c", "line":398, "type":"c", "scope_line":390, "scope_name":"scsi_sysfs_register", }
+,{"id":"bus_unregister", "file":"drivers/scsi/scsi_sysfs.c", "line":407, "type":"c", "scope_line":404, "scope_name":"scsi_sysfs_unregister", }
+,{"id":"bus_unregister", "file":"drivers/spi/spi.c", "line":1045, "type":"c", "scope_line":1025, "scope_name":"spi_init", }
+,{"id":"bus_unregister", "file":"drivers/virtio/virtio.c", "line":231, "type":"c", "scope_line":229, "scope_name":"virtio_exit", }
+,{"id":"bus_unregister", "file":"drivers/xen/xenbus/xenbus_probe.c", "line":867, "type":"c", "scope_line":801, "scope_name":"xenbus_init", }
+,{"id":"bus_unregister_notifier", "file":"drivers/base/bus.c", "line":982, "type":"f", }
+,{"id":"buses_init", "file":"drivers/base/bus.c", "line":1054, "type":"f", }
+,{"id":"buses_init", "file":"drivers/base/init.c", "line":25, "type":"c", "scope_line":20, "scope_name":"driver_init", }
+,{"id":"busid", "file":"arch/x86/include/asm/mpspec_def.h", "line":86, "type":"m", "scope_line":84, "scope_name":"struct mpc_bus", }
+,{"id":"busiest", "file":"kernel/sched_fair.c", "line":2023, "type":"m", "scope_line":2022, "scope_name":"struct sd_lb_stats", }
+,{"id":"busiest_group_capacity", "file":"kernel/sched_fair.c", "line":2038, "type":"m", "scope_line":2022, "scope_name":"struct sd_lb_stats", }
+,{"id":"busiest_load_per_task", "file":"kernel/sched_fair.c", "line":2036, "type":"m", "scope_line":2022, "scope_name":"struct sd_lb_stats", }
+,{"id":"busiest_nr_running", "file":"kernel/sched_fair.c", "line":2037, "type":"m", "scope_line":2022, "scope_name":"struct sd_lb_stats", }
+,{"id":"busno_to_bbar", "file":"arch/x86/kernel/pci-calgary_64.c", "line":1059, "type":"c", "scope_line":1053, "scope_name":"calgary_init_one", }
+,{"id":"busno_to_bbar", "file":"arch/x86/kernel/pci-calgary_64.c", "line":487, "type":"f", }
+,{"id":"busno_to_phbid", "file":"arch/x86/kernel/pci-calgary_64.c", "line":492, "type":"f", }
+,{"id":"busno_to_phbid", "file":"arch/x86/kernel/pci-calgary_64.c", "line":499, "type":"c", "scope_line":497, "scope_name":"split_queue_offset", }
+,{"id":"busno_to_phbid", "file":"arch/x86/kernel/pci-calgary_64.c", "line":506, "type":"c", "scope_line":504, "scope_name":"tar_offset", }
+,{"id":"busno_to_phbid", "file":"arch/x86/kernel/pci-calgary_64.c", "line":513, "type":"c", "scope_line":511, "scope_name":"phb_offset", }
+,{"id":"busno_to_phbid", "file":"arch/x86/kernel/pci-calgary_64.c", "line":932, "type":"c", "scope_line":924, "scope_name":"calgary_set_split_completion_timeout", }
+,{"id":"busno_to_phbid", "file":"arch/x86/kernel/pci-calgary_64.c", "line":942, "type":"c", "scope_line":924, "scope_name":"calgary_set_split_completion_timeout", }
+,{"id":"busnum", "file":"arch/x86/pci/acpi.c", "line":16, "type":"m", "scope_line":10, "scope_name":"struct pci_root_info", }
+,{"id":"busnum", "file":"drivers/i2c/i2c-core.h", "line":23, "type":"m", "scope_line":21, "scope_name":"struct i2c_devinfo", }
+,{"id":"busnum", "file":"include/linux/hiddev.h", "line":43, "type":"m", "scope_line":41, "scope_name":"struct hiddev_devinfo", }
+,{"id":"busnum", "file":"include/linux/usb.h", "line":313, "type":"m", "scope_line":311, "scope_name":"struct usb_bus", }
+,{"id":"bust_spinlocks", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":277, "type":"c", "scope_line":265, "scope_name":"mce_panic", }
+,{"id":"bust_spinlocks", "file":"arch/x86/kernel/dumpstack.c", "line":240, "type":"c", "scope_line":221, "scope_name":"oops_begin", }
+,{"id":"bust_spinlocks", "file":"arch/x86/kernel/dumpstack.c", "line":249, "type":"c", "scope_line":244, "scope_name":"oops_end", }
+,{"id":"bust_spinlocks", "file":"kernel/panic.c", "line":101, "type":"c", "scope_line":59, "scope_name":"panic", }
+,{"id":"bust_spinlocks", "file":"kernel/panic.c", "line":74, "type":"c", "scope_line":59, "scope_name":"panic", }
+,{"id":"bust_spinlocks", "file":"lib/bust_spinlocks.c", "line":18, "type":"f", }
+,{"id":"bustype", "file":"arch/x86/include/asm/mpspec_def.h", "line":87, "type":"m", "scope_line":84, "scope_name":"struct mpc_bus", }
+,{"id":"bustype", "file":"include/linux/hiddev.h", "line":42, "type":"m", "scope_line":41, "scope_name":"struct hiddev_devinfo", }
+,{"id":"bustype", "file":"include/linux/input.h", "line":44, "type":"m", "scope_line":43, "scope_name":"struct input_id", }
+,{"id":"bustype", "file":"include/linux/mod_devicetable.h", "line":316, "type":"m", "scope_line":312, "scope_name":"struct input_device_id", }
+,{"id":"busy", "file":"drivers/pci/access.c", "line":191, "type":"m", "scope_line":187, "scope_name":"struct pci_vpd_pci22", }
+,{"id":"busy", "file":"include/linux/blkdev.h", "line":220, "type":"m", "scope_line":217, "scope_name":"struct blk_queue_tag", }
+,{"id":"busy", "file":"include/linux/device-mapper.h", "line":154, "type":"m", "scope_line":134, "scope_name":"struct target_type", }
+,{"id":"busy", "file":"include/linux/ide.h", "line":735, "type":"m", "scope_line":667, "scope_name":"struct hwif_s", }
+,{"id":"busy", "file":"include/scsi/scsi_device.h", "line":118, "type":"m", "scope_line":68, "scope_name":"struct scsi_device", }
+,{"id":"busy_factor", "file":"include/linux/sched.h", "line":899, "type":"m", "scope_line":892, "scope_name":"struct sched_domain", }
+,{"id":"busy_hash", "file":"kernel/workqueue.c", "line":159, "type":"m", "scope_line":148, "scope_name":"struct global_cwq", }
+,{"id":"busy_idx", "file":"include/linux/sched.h", "line":902, "type":"m", "scope_line":892, "scope_name":"struct sched_domain", }
+,{"id":"busy_list", "file":"block/bsg.c", "line":39, "type":"m", "scope_line":36, "scope_name":"struct bsg_device", }
+,{"id":"busy_queues", "file":"block/cfq-iosched.c", "line":233, "type":"m", "scope_line":211, "scope_name":"struct cfq_data", }
+,{"id":"busy_queues_avg", "file":"block/cfq-iosched.c", "line":188, "type":"m", "scope_line":175, "scope_name":"struct cfq_group", }
+,{"id":"busy_worker_head", "file":"kernel/workqueue.c", "line":1756, "type":"c", "scope_line":1750, "scope_name":"process_one_work", }
+,{"id":"busy_worker_head", "file":"kernel/workqueue.c", "line":803, "type":"f", }
+,{"id":"busy_worker_head", "file":"kernel/workqueue.c", "line":866, "type":"c", "scope_line":863, "scope_name":"find_worker_executing_work", }
+,{"id":"busylock", "file":"include/net/sch_generic.h", "line":84, "type":"m", "scope_line":44, "scope_name":"struct Qdisc", }
+,{"id":"button", "file":"include/linux/input.h", "line":860, "type":"m", "scope_line":859, "scope_name":"struct ff_trigger", }
+,{"id":"button_device_ids", "file":"drivers/acpi/button.c", "line":67, "type":"v", }
+,{"id":"buttons", "file":"drivers/input/mousedev.c", "line":57, "type":"m", "scope_line":53, "scope_name":"struct mousedev_hw_data", }
+,{"id":"buttons", "file":"drivers/input/mousedev.c", "line":89, "type":"m", "scope_line":87, "scope_name":"struct mousedev_motion", }
+,{"id":"buttons", "file":"include/linux/joystick.h", "line":112, "type":"m", "scope_line":111, "scope_name":"struct JS_DATA_TYPE", }
+,{"id":"bv1", "file":"include/linux/bio.h", "line":204, "type":"m", "scope_line":202, "scope_name":"struct bio_pair", }
+,{"id":"bv2", "file":"include/linux/bio.h", "line":204, "type":"m", "scope_line":202, "scope_name":"struct bio_pair", }
+,{"id":"bv_len", "file":"include/linux/blk_types.h", "line":25, "type":"m", "scope_line":23, "scope_name":"struct bio_vec", }
+,{"id":"bv_offset", "file":"include/linux/blk_types.h", "line":26, "type":"m", "scope_line":23, "scope_name":"struct bio_vec", }
+,{"id":"bv_page", "file":"include/linux/blk_types.h", "line":24, "type":"m", "scope_line":23, "scope_name":"struct bio_vec", }
+,{"id":"bvec", "file":"include/linux/dm-io.h", "line":44, "type":"m", "scope_line":37, "scope_name":"struct dm_io_memory", }
+,{"id":"bvec_alloc_bs", "file":"fs/bio.c", "line":170, "type":"f", }
+,{"id":"bvec_alloc_bs", "file":"fs/bio.c", "line":299, "type":"c", "scope_line":278, "scope_name":"bio_alloc_bioset", }
+,{"id":"bvec_dp_init", "file":"drivers/md/dm-io.c", "line":232, "type":"f", }
+,{"id":"bvec_dp_init", "file":"drivers/md/dm-io.c", "line":460, "type":"c", "scope_line":451, "scope_name":"dp_init", }
+,{"id":"bvec_free_bs", "file":"fs/bio.c", "line":157, "type":"f", }
+,{"id":"bvec_free_bs", "file":"fs/bio.c", "line":238, "type":"c", "scope_line":233, "scope_name":"bio_free", }
+,{"id":"bvec_get_page", "file":"drivers/md/dm-io.c", "line":217, "type":"f", }
+,{"id":"bvec_kmap_irq", "file":"include/linux/bio.h", "line":349, "type":"d", }
+,{"id":"bvec_kunmap_irq", "file":"include/linux/bio.h", "line":350, "type":"d", }
+,{"id":"bvec_merge_data", "file":"include/linux/blkdev.h", "line":192, "type":"s", }
+,{"id":"bvec_next_page", "file":"drivers/md/dm-io.c", "line":226, "type":"f", }
+,{"id":"bvec_nr_vecs", "file":"fs/bio-integrity.c", "line":179, "type":"c", "scope_line":173, "scope_name":"bio_integrity_add_page", }
+,{"id":"bvec_nr_vecs", "file":"fs/bio.c", "line":152, "type":"f", }
+,{"id":"bvec_nr_vecs", "file":"fs/bio.c", "line":303, "type":"c", "scope_line":278, "scope_name":"bio_alloc_bioset", }
+,{"id":"bvec_pool", "file":"include/linux/bio.h", "line":301, "type":"m", "scope_line":293, "scope_name":"struct bio_set", }
+,{"id":"bvec_slabs", "file":"fs/bio.c", "line":46, "type":"v", }
+,{"id":"bvec_to_phys", "file":"include/linux/bio.h", "line":99, "type":"d", }
+,{"id":"bw_mpx_cap", "file":"include/linux/atmsap.h", "line":127, "type":"m", "scope_line":103, "scope_name":"struct atm_blli", }
+,{"id":"bx", "file":"arch/x86/boot/boot.h", "line":265, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"bx", "file":"arch/x86/include/asm/ptrace.h", "line":105, "type":"m", "scope_line":99, "scope_name":"struct pt_regs", }
+,{"id":"bx", "file":"arch/x86/include/asm/sigcontext.h", "line":202, "type":"m", "scope_line":190, "scope_name":"struct sigcontext", }
+,{"id":"bx", "file":"arch/x86/include/asm/sigcontext32.h", "line":61, "type":"m", "scope_line":52, "scope_name":"struct sigcontext_ia32", }
+,{"id":"bx", "file":"arch/x86/include/asm/user_64.h", "line":74, "type":"m", "scope_line":68, "scope_name":"struct user_regs_struct", }
+,{"id":"bx", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":25, "type":"m", "scope_line":23, "scope_name":"struct pebs_record_core", }
+,{"id":"bx", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":33, "type":"m", "scope_line":31, "scope_name":"struct pebs_record_nhm", }
+,{"id":"bydst", "file":"include/net/xfrm.h", "line":135, "type":"m", "scope_line":129, "scope_name":"struct xfrm_state", }
+,{"id":"bydst", "file":"include/net/xfrm.h", "line":477, "type":"m", "scope_line":473, "scope_name":"struct xfrm_policy", }
+,{"id":"byid", "file":"include/net/xfrm.h", "line":249, "type":"m", "scope_line":245, "scope_name":"struct km_event", }
+,{"id":"byidx", "file":"include/net/xfrm.h", "line":478, "type":"m", "scope_line":473, "scope_name":"struct xfrm_policy", }
+,{"id":"bypass_mode", "file":"include/linux/dvb/audio.h", "line":64, "type":"m", "scope_line":58, "scope_name":"struct audio_status", }
+,{"id":"byspi", "file":"include/net/xfrm.h", "line":138, "type":"m", "scope_line":129, "scope_name":"struct xfrm_state", }
+,{"id":"bysrc", "file":"include/net/xfrm.h", "line":137, "type":"m", "scope_line":129, "scope_name":"struct xfrm_state", }
+,{"id":"byte", "file":"include/linux/i2c.h", "line":566, "type":"m", "scope_line":565, "scope_name":"union i2c_smbus_data", }
+,{"id":"byte4", "file":"include/scsi/scsi_eh.h", "line":24, "type":"m", "scope_line":19, "scope_name":"struct scsi_sense_hdr", }
+,{"id":"byte5", "file":"include/scsi/scsi_eh.h", "line":25, "type":"m", "scope_line":19, "scope_name":"struct scsi_sense_hdr", }
+,{"id":"byte6", "file":"include/scsi/scsi_eh.h", "line":26, "type":"m", "scope_line":19, "scope_name":"struct scsi_sense_hdr", }
+,{"id":"byteCount", "file":"lib/decompress_bunzip2.c", "line":110, "type":"m", "scope_line":93, "scope_name":"struct bunzip_data", }
+,{"id":"byte_count", "file":"include/crypto/md5.h", "line":14, "type":"m", "scope_line":11, "scope_name":"struct md5_state", }
+,{"id":"byte_data", "file":"include/acpi/acrestyp.h", "line":197, "type":"m", "scope_line":195, "scope_name":"struct acpi_resource_vendor", }
+,{"id":"byte_data", "file":"include/acpi/acrestyp.h", "line":206, "type":"m", "scope_line":202, "scope_name":"struct acpi_resource_vendor_typed", }
+,{"id":"byte_item", "file":"drivers/acpi/acpica/amlresrc.h", "line":308, "type":"m", "scope_line":272, "scope_name":"union aml_resource", }
+,{"id":"byte_length", "file":"include/acpi/acrestyp.h", "line":196, "type":"m", "scope_line":195, "scope_name":"struct acpi_resource_vendor", }
+,{"id":"byte_length", "file":"include/acpi/acrestyp.h", "line":203, "type":"m", "scope_line":202, "scope_name":"struct acpi_resource_vendor_typed", }
+,{"id":"byte_rev_table", "file":"lib/bitrev.c", "line":9, "type":"v", }
+,{"id":"byte_rx", "file":"include/net/bluetooth/hci.h", "line":967, "type":"m", "scope_line":958, "scope_name":"struct hci_dev_stats", }
+,{"id":"byte_t", "file":"include/net/slhc_vj.h", "line":119, "type":"t", }
+,{"id":"byte_tx", "file":"include/net/bluetooth/hci.h", "line":968, "type":"m", "scope_line":958, "scope_name":"struct hci_dev_stats", }
+,{"id":"bytecnt", "file":"include/linux/mroute.h", "line":99, "type":"m", "scope_line":95, "scope_name":"struct sioc_sg_req", }
+,{"id":"bytecnt", "file":"include/linux/mroute6.h", "line":94, "type":"m", "scope_line":90, "scope_name":"struct sioc_sg_req6", }
+,{"id":"bytes", "file":"arch/x86/include/asm/insn.h", "line":29, "type":"m", "scope_line":26, "scope_name":"struct insn_field", }
+,{"id":"bytes", "file":"drivers/net/loopback.c", "line":65, "type":"m", "scope_line":63, "scope_name":"struct pcpu_lstats", }
+,{"id":"bytes", "file":"include/linux/blktrace_api.h", "line":107, "type":"m", "scope_line":102, "scope_name":"struct blk_io_trace", }
+,{"id":"bytes", "file":"include/linux/gen_stats.h", "line":22, "type":"m", "scope_line":21, "scope_name":"struct gnet_stats_basic", }
+,{"id":"bytes", "file":"include/linux/gen_stats.h", "line":26, "type":"m", "scope_line":25, "scope_name":"struct gnet_stats_basic_packed", }
+,{"id":"bytes", "file":"include/linux/mroute.h", "line":210, "type":"m", "scope_line":194, "scope_name":"struct mfc_cache", }
+,{"id":"bytes", "file":"include/linux/mroute6.h", "line":201, "type":"m", "scope_line":185, "scope_name":"struct mfc6_cache", }
+,{"id":"bytes", "file":"include/linux/pkt_sched.h", "line":33, "type":"m", "scope_line":32, "scope_name":"struct tc_stats", }
+,{"id":"bytes", "file":"include/linux/sched.h", "line":1493, "type":"m", "scope_line":1163, "scope_name":"struct memcg_batch_info", }
+,{"id":"bytes", "file":"include/linux/soundcard.h", "line":585, "type":"m", "scope_line":580, "scope_name":"struct audio_buf_info", }
+,{"id":"bytes", "file":"include/linux/soundcard.h", "line":615, "type":"m", "scope_line":614, "scope_name":"struct count_info", }
+,{"id":"bytes", "file":"include/linux/usb.h", "line":1452, "type":"m", "scope_line":1450, "scope_name":"struct usb_sg_request", }
+,{"id":"bytes", "file":"include/linux/xfrm.h", "line":75, "type":"m", "scope_line":74, "scope_name":"struct xfrm_lifetime_cur", }
+,{"id":"bytes", "file":"include/trace/events/block.h", "line":96, "type":"m", "scope_line":96, "scope_name":"struct ftrace_raw_block_rq", }
+,{"id":"bytes_acked", "file":"include/linux/tcp.h", "line":388, "type":"m", "scope_line":291, "scope_name":"struct tcp_sock", }
+,{"id":"bytes_alloc", "file":"include/trace/events/kmem.h", "line":11, "type":"m", "scope_line":11, "scope_name":"struct ftrace_raw_kmem_alloc", }
+,{"id":"bytes_alloc", "file":"include/trace/events/kmem.h", "line":61, "type":"m", "scope_line":61, "scope_name":"struct ftrace_raw_kmem_alloc_node", }
+,{"id":"bytes_consumed", "file":"include/linux/relay.h", "line":50, "type":"m", "scope_line":33, "scope_name":"struct rchan_buf", }
+,{"id":"bytes_in", "file":"include/linux/mroute.h", "line":183, "type":"m", "scope_line":181, "scope_name":"struct vif_device", }
+,{"id":"bytes_in", "file":"include/linux/mroute6.h", "line":175, "type":"m", "scope_line":173, "scope_name":"struct mif_device", }
+,{"id":"bytes_out", "file":"include/linux/mroute.h", "line":183, "type":"m", "scope_line":181, "scope_name":"struct vif_device", }
+,{"id":"bytes_out", "file":"include/linux/mroute6.h", "line":175, "type":"m", "scope_line":173, "scope_name":"struct mif_device", }
+,{"id":"bytes_out", "file":"include/linux/ppp_defs.h", "line":160, "type":"m", "scope_line":150, "scope_name":"struct compstat", }
+,{"id":"bytes_per_sector", "file":"include/linux/edd.h", "line":78, "type":"m", "scope_line":71, "scope_name":"struct edd_device_params", }
+,{"id":"bytes_req", "file":"include/trace/events/kmem.h", "line":11, "type":"m", "scope_line":11, "scope_name":"struct ftrace_raw_kmem_alloc", }
+,{"id":"bytes_req", "file":"include/trace/events/kmem.h", "line":61, "type":"m", "scope_line":61, "scope_name":"struct ftrace_raw_kmem_alloc_node", }
+,{"id":"bytes_transferred", "file":"include/linux/dmaengine.h", "line":164, "type":"m", "scope_line":161, "scope_name":"struct dma_chan_percpu", }
+,{"id":"bytes_used", "file":"fs/squashfs/squashfs_fs.h", "line":255, "type":"m", "scope_line":242, "scope_name":"struct squashfs_super_block", }
+,{"id":"bytesin", "file":"include/linux/pkt_sched.h", "line":238, "type":"m", "scope_line":222, "scope_name":"struct tc_gred_qopt", }
+,{"id":"bytesize", "file":"include/linux/nbd.h", "line":68, "type":"m", "scope_line":51, "scope_name":"struct nbd_device", }
+,{"id":"bytesperline", "file":"include/linux/videodev2.h", "line":265, "type":"m", "scope_line":260, "scope_name":"struct v4l2_pix_format", }
+,{"id":"bytesused", "file":"include/linux/videodev2.h", "line":521, "type":"m", "scope_line":518, "scope_name":"struct v4l2_buffer", }
+,{"id":"c", "file":"include/linux/ide.h", "line":332, "type":"m", "scope_line":330, "scope_name":"struct ide_atapi_pc", }
+,{"id":"c", "file":"include/linux/ppp_defs.h", "line":171, "type":"m", "scope_line":170, "scope_name":"struct ppp_comp_stats", }
+,{"id":"c", "file":"include/linux/srcu.h", "line":33, "type":"m", "scope_line":32, "scope_name":"struct srcu_struct_array", }
+,{"id":"c", "file":"include/linux/videodev2.h", "line":581, "type":"m", "scope_line":580, "scope_name":"struct v4l2_clip", }
+,{"id":"c", "file":"include/linux/videodev2.h", "line":632, "type":"m", "scope_line":630, "scope_name":"struct v4l2_crop", }
+,{"id":"c", "file":"include/linux/vt_kern.h", "line":170, "type":"m", "scope_line":168, "scope_name":"struct vt_notifier_param", }
+,{"id":"c", "file":"kernel/auditsc.c", "line":162, "type":"m", "scope_line":160, "scope_name":"struct audit_tree_refs", }
+,{"id":"c1e_detected", "file":"arch/x86/include/asm/processor.h", "line":765, "type":"v", }
+,{"id":"c1e_idle", "file":"arch/x86/kernel/process.c", "line":546, "type":"f", }
+,{"id":"c1e_mask", "file":"arch/x86/kernel/process.c", "line":533, "type":"v", }
+,{"id":"c1e_remove_cpu", "file":"arch/x86/kernel/process.c", "line":535, "type":"f", }
+,{"id":"c1e_remove_cpu", "file":"arch/x86/kernel/smpboot.c", "line":1374, "type":"c", "scope_line":1369, "scope_name":"play_dead_common", }
+,{"id":"c3_cpu_count", "file":"drivers/acpi/processor_idle.c", "line":848, "type":"v", }
+,{"id":"c3_lock", "file":"drivers/acpi/processor_idle.c", "line":849, "type":"v", }
+,{"id":"c_block_hash", "file":"fs/mbcache.c", "line":86, "type":"m", "scope_line":79, "scope_name":"struct mb_cache", }
+,{"id":"c_bucket_bits", "file":"fs/mbcache.c", "line":84, "type":"m", "scope_line":79, "scope_name":"struct mb_cache", }
+,{"id":"c_cache_list", "file":"fs/mbcache.c", "line":80, "type":"m", "scope_line":79, "scope_name":"struct mb_cache", }
+,{"id":"c_cc", "file":"include/asm-generic/termbits.h", "line":17, "type":"m", "scope_line":11, "scope_name":"struct termios", }
+,{"id":"c_cc", "file":"include/asm-generic/termbits.h", "line":26, "type":"m", "scope_line":20, "scope_name":"struct termios2", }
+,{"id":"c_cc", "file":"include/asm-generic/termbits.h", "line":37, "type":"m", "scope_line":31, "scope_name":"struct ktermios", }
+,{"id":"c_cc", "file":"include/asm-generic/termios.h", "line":28, "type":"m", "scope_line":22, "scope_name":"struct termio", }
+,{"id":"c_cflag", "file":"include/asm-generic/termbits.h", "line":14, "type":"m", "scope_line":11, "scope_name":"struct termios", }
+,{"id":"c_cflag", "file":"include/asm-generic/termbits.h", "line":23, "type":"m", "scope_line":20, "scope_name":"struct termios2", }
+,{"id":"c_cflag", "file":"include/asm-generic/termbits.h", "line":34, "type":"m", "scope_line":31, "scope_name":"struct ktermios", }
+,{"id":"c_cflag", "file":"include/asm-generic/termios.h", "line":25, "type":"m", "scope_line":22, "scope_name":"struct termio", }
+,{"id":"c_early_init", "file":"arch/x86/kernel/cpu/cpu.h", "line":20, "type":"m", "scope_line":12, "scope_name":"struct cpu_dev", }
+,{"id":"c_entry_cache", "file":"fs/mbcache.c", "line":85, "type":"m", "scope_line":79, "scope_name":"struct mb_cache", }
+,{"id":"c_entry_count", "file":"fs/mbcache.c", "line":82, "type":"m", "scope_line":79, "scope_name":"struct mb_cache", }
+,{"id":"c_ident", "file":"arch/x86/kernel/cpu/cpu.h", "line":16, "type":"m", "scope_line":12, "scope_name":"struct cpu_dev", }
+,{"id":"c_identify", "file":"arch/x86/kernel/cpu/cpu.h", "line":22, "type":"m", "scope_line":12, "scope_name":"struct cpu_dev", }
+,{"id":"c_iflag", "file":"include/asm-generic/termbits.h", "line":12, "type":"m", "scope_line":11, "scope_name":"struct termios", }
+,{"id":"c_iflag", "file":"include/asm-generic/termbits.h", "line":21, "type":"m", "scope_line":20, "scope_name":"struct termios2", }
+,{"id":"c_iflag", "file":"include/asm-generic/termbits.h", "line":32, "type":"m", "scope_line":31, "scope_name":"struct ktermios", }
+,{"id":"c_iflag", "file":"include/asm-generic/termios.h", "line":23, "type":"m", "scope_line":22, "scope_name":"struct termio", }
+,{"id":"c_index_hash", "file":"fs/mbcache.c", "line":87, "type":"m", "scope_line":79, "scope_name":"struct mb_cache", }
+,{"id":"c_init", "file":"arch/x86/kernel/cpu/cpu.h", "line":21, "type":"m", "scope_line":12, "scope_name":"struct cpu_dev", }
+,{"id":"c_ispeed", "file":"include/asm-generic/termbits.h", "line":27, "type":"m", "scope_line":20, "scope_name":"struct termios2", }
+,{"id":"c_ispeed", "file":"include/asm-generic/termbits.h", "line":38, "type":"m", "scope_line":31, "scope_name":"struct ktermios", }
+,{"id":"c_lflag", "file":"include/asm-generic/termbits.h", "line":15, "type":"m", "scope_line":11, "scope_name":"struct termios", }
+,{"id":"c_lflag", "file":"include/asm-generic/termbits.h", "line":24, "type":"m", "scope_line":20, "scope_name":"struct termios2", }
+,{"id":"c_lflag", "file":"include/asm-generic/termbits.h", "line":35, "type":"m", "scope_line":31, "scope_name":"struct ktermios", }
+,{"id":"c_lflag", "file":"include/asm-generic/termios.h", "line":26, "type":"m", "scope_line":22, "scope_name":"struct termio", }
+,{"id":"c_line", "file":"include/asm-generic/termbits.h", "line":16, "type":"m", "scope_line":11, "scope_name":"struct termios", }
+,{"id":"c_line", "file":"include/asm-generic/termbits.h", "line":25, "type":"m", "scope_line":20, "scope_name":"struct termios2", }
+,{"id":"c_line", "file":"include/asm-generic/termbits.h", "line":36, "type":"m", "scope_line":31, "scope_name":"struct ktermios", }
+,{"id":"c_line", "file":"include/asm-generic/termios.h", "line":27, "type":"m", "scope_line":22, "scope_name":"struct termio", }
+,{"id":"c_list", "file":"include/net/ip_vs.h", "line":362, "type":"m", "scope_line":361, "scope_name":"struct ip_vs_conn", }
+,{"id":"c_max_entries", "file":"fs/mbcache.c", "line":83, "type":"m", "scope_line":79, "scope_name":"struct mb_cache", }
+,{"id":"c_models", "file":"arch/x86/kernel/cpu/cpu.h", "line":18, "type":"m", "scope_line":12, "scope_name":"struct cpu_dev", }
+,{"id":"c_name", "file":"fs/mbcache.c", "line":81, "type":"m", "scope_line":79, "scope_name":"struct mb_cache", }
+,{"id":"c_next", "file":"arch/x86/kernel/cpu/proc.c", "line":152, "type":"f", }
+,{"id":"c_next", "file":"crypto/proc.c", "line":69, "type":"f", }
+,{"id":"c_oflag", "file":"include/asm-generic/termbits.h", "line":13, "type":"m", "scope_line":11, "scope_name":"struct termios", }
+,{"id":"c_oflag", "file":"include/asm-generic/termbits.h", "line":22, "type":"m", "scope_line":20, "scope_name":"struct termios2", }
+,{"id":"c_oflag", "file":"include/asm-generic/termbits.h", "line":33, "type":"m", "scope_line":31, "scope_name":"struct ktermios", }
+,{"id":"c_oflag", "file":"include/asm-generic/termios.h", "line":24, "type":"m", "scope_line":22, "scope_name":"struct termio", }
+,{"id":"c_ospeed", "file":"include/asm-generic/termbits.h", "line":28, "type":"m", "scope_line":20, "scope_name":"struct termios2", }
+,{"id":"c_ospeed", "file":"include/asm-generic/termbits.h", "line":39, "type":"m", "scope_line":31, "scope_name":"struct ktermios", }
+,{"id":"c_show", "file":"crypto/proc.c", "line":79, "type":"f", }
+,{"id":"c_size_cache", "file":"arch/x86/kernel/cpu/cpu.h", "line":23, "type":"m", "scope_line":12, "scope_name":"struct cpu_dev", }
+,{"id":"c_start", "file":"arch/x86/kernel/cpu/proc.c", "line":141, "type":"f", }
+,{"id":"c_start", "file":"arch/x86/kernel/cpu/proc.c", "line":155, "type":"c", "scope_line":152, "scope_name":"c_next", }
+,{"id":"c_start", "file":"crypto/proc.c", "line":63, "type":"f", }
+,{"id":"c_stop", "file":"arch/x86/kernel/cpu/proc.c", "line":158, "type":"f", }
+,];
+xr_frag_insert('t/67/7b1b17981da5058c032d0b01571699ebe9023f.xr', __xr_tmp);

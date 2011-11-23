@@ -1,0 +1,53 @@
+var __xr_tmp = [
+{"id":"rb_erase", "file":"mm/mmap.c", "line":497, "type":"c", "scope_line":488, "scope_name":"__vma_unlink", }
+,{"id":"rb_erase", "file":"mm/vmalloc.c", "line":431, "type":"c", "scope_line":428, "scope_name":"__free_vmap_area", }
+,{"id":"rb_erase", "file":"net/core/gen_estimator.c", "line":275, "type":"c", "scope_line":268, "scope_name":"gen_kill_estimator", }
+,{"id":"rb_erase", "file":"security/keys/key.c", "line":143, "type":"c", "scope_line":140, "scope_name":"key_user_put", }
+,{"id":"rb_erase", "file":"security/keys/key.c", "line":570, "type":"c", "scope_line":548, "scope_name":"key_cleanup", }
+,{"id":"rb_erase_init", "file":"block/cfq-iosched.c", "line":770, "type":"f", }
+,{"id":"rb_erase_init", "file":"block/cfq-iosched.c", "line":780, "type":"c", "scope_line":776, "scope_name":"cfq_rb_erase", }
+,{"id":"rb_event_data", "file":"kernel/trace/ring_buffer.c", "line":2509, "type":"c", "scope_line":2474, "scope_name":"ring_buffer_write", }
+,{"id":"rb_event_data", "file":"kernel/trace/ring_buffer.c", "line":294, "type":"f", }
+,{"id":"rb_event_data", "file":"kernel/trace/ring_buffer.c", "line":311, "type":"c", "scope_line":309, "scope_name":"ring_buffer_event_data", }
+,{"id":"rb_event_data_length", "file":"kernel/trace/ring_buffer.c", "line":2357, "type":"c", "scope_line":2354, "scope_name":"rb_event_discard", }
+,{"id":"rb_event_data_length", "file":"kernel/trace/ring_buffer.c", "line":239, "type":"f", }
+,{"id":"rb_event_data_length", "file":"kernel/trace/ring_buffer.c", "line":269, "type":"c", "scope_line":252, "scope_name":"rb_event_length", }
+,{"id":"rb_event_discard", "file":"kernel/trace/ring_buffer.c", "line":2354, "type":"f", }
+,{"id":"rb_event_discard", "file":"kernel/trace/ring_buffer.c", "line":2430, "type":"c", "scope_line":2423, "scope_name":"ring_buffer_discard_commit", }
+,{"id":"rb_event_index", "file":"kernel/trace/ring_buffer.c", "line":1449, "type":"f", }
+,{"id":"rb_event_index", "file":"kernel/trace/ring_buffer.c", "line":1464, "type":"c", "scope_line":1457, "scope_name":"rb_event_is_commit", }
+,{"id":"rb_event_index", "file":"kernel/trace/ring_buffer.c", "line":1979, "type":"c", "scope_line":1970, "scope_name":"rb_try_to_discard", }
+,{"id":"rb_event_index", "file":"kernel/trace/ring_buffer.c", "line":2040, "type":"c", "scope_line":2006, "scope_name":"rb_add_time_stamp", }
+,{"id":"rb_event_is_commit", "file":"kernel/trace/ring_buffer.c", "line":1457, "type":"f", }
+,{"id":"rb_event_is_commit", "file":"kernel/trace/ring_buffer.c", "line":2034, "type":"c", "scope_line":2006, "scope_name":"rb_add_time_stamp", }
+,{"id":"rb_event_is_commit", "file":"kernel/trace/ring_buffer.c", "line":2194, "type":"c", "scope_line":2107, "scope_name":"rb_reserve_next_event", }
+,{"id":"rb_event_is_commit", "file":"kernel/trace/ring_buffer.c", "line":2315, "type":"c", "scope_line":2307, "scope_name":"rb_update_write_stamp", }
+,{"id":"rb_event_length", "file":"kernel/trace/ring_buffer.c", "line":1980, "type":"c", "scope_line":1970, "scope_name":"rb_try_to_discard", }
+,{"id":"rb_event_length", "file":"kernel/trace/ring_buffer.c", "line":252, "type":"f", }
+,{"id":"rb_event_length", "file":"kernel/trace/ring_buffer.c", "line":283, "type":"c", "scope_line":281, "scope_name":"ring_buffer_event_length", }
+,{"id":"rb_event_length", "file":"kernel/trace/ring_buffer.c", "line":2982, "type":"c", "scope_line":2963, "scope_name":"rb_advance_reader", }
+,{"id":"rb_event_length", "file":"kernel/trace/ring_buffer.c", "line":3007, "type":"c", "scope_line":2986, "scope_name":"rb_advance_iter", }
+,{"id":"rb_event_length", "file":"kernel/trace/ring_buffer.c", "line":3829, "type":"c", "scope_line":3762, "scope_name":"ring_buffer_read_page", }
+,{"id":"rb_event_length", "file":"kernel/trace/ring_buffer.c", "line":3851, "type":"c", "scope_line":3762, "scope_name":"ring_buffer_read_page", }
+,{"id":"rb_event_set_padding", "file":"kernel/trace/ring_buffer.c", "line":1808, "type":"c", "scope_line":1759, "scope_name":"rb_reset_tail", }
+,{"id":"rb_event_set_padding", "file":"kernel/trace/ring_buffer.c", "line":232, "type":"f", }
+,{"id":"rb_first", "file":"arch/x86/mm/pat_rbtree.c", "line":239, "type":"c", "scope_line":234, "scope_name":"rbt_memtype_copy_nth_element", }
+,{"id":"rb_first", "file":"block/cfq-iosched.c", "line":2539, "type":"c", "scope_line":2528, "scope_name":"cfq_put_queue", }
+,{"id":"rb_first", "file":"block/cfq-iosched.c", "line":751, "type":"c", "scope_line":744, "scope_name":"cfq_rb_first", }
+,{"id":"rb_first", "file":"block/cfq-iosched.c", "line":762, "type":"c", "scope_line":759, "scope_name":"cfq_rb_first_group", }
+,{"id":"rb_first", "file":"block/cfq-iosched.c", "line":803, "type":"c", "scope_line":787, "scope_name":"cfq_find_next_rq", }
+,{"id":"rb_first", "file":"drivers/block/pktcdvd.c", "line":1281, "type":"c", "scope_line":1257, "scope_name":"pkt_handle_queue", }
+,{"id":"rb_first", "file":"drivers/block/pktcdvd.c", "line":1299, "type":"c", "scope_line":1257, "scope_name":"pkt_handle_queue", }
+,{"id":"rb_first", "file":"fs/eventpoll.c", "line":594, "type":"c", "scope_line":572, "scope_name":"ep_free", }
+,{"id":"rb_first", "file":"fs/eventpoll.c", "line":606, "type":"c", "scope_line":572, "scope_name":"ep_free", }
+,{"id":"rb_first", "file":"fs/ext2/balloc.c", "line":218, "type":"c", "scope_line":210, "scope_name":"__rsv_window_dump", }
+,{"id":"rb_first", "file":"fs/ext3/balloc.c", "line":205, "type":"c", "scope_line":197, "scope_name":"__rsv_window_dump", }
+,{"id":"rb_first", "file":"fs/ext3/dir.c", "line":461, "type":"c", "scope_line":424, "scope_name":"ext3_dx_readdir", }
+,{"id":"rb_first", "file":"fs/ext3/dir.c", "line":483, "type":"c", "scope_line":424, "scope_name":"ext3_dx_readdir", }
+,{"id":"rb_first", "file":"fs/ext4/block_validity.c", "line":131, "type":"c", "scope_line":124, "scope_name":"debug_print_tree", }
+,{"id":"rb_first", "file":"fs/ext4/dir.c", "line":469, "type":"c", "scope_line":432, "scope_name":"ext4_dx_readdir", }
+,{"id":"rb_first", "file":"fs/ext4/dir.c", "line":491, "type":"c", "scope_line":432, "scope_name":"ext4_dx_readdir", }
+,{"id":"rb_first", "file":"fs/ext4/mballoc.c", "line":3247, "type":"c", "scope_line":3239, "scope_name":"ext4_mb_generate_from_freelist", }
+,{"id":"rb_first", "file":"kernel/hrtimer.c", "line":1647, "type":"c", "scope_line":1641, "scope_name":"migrate_hrtimer_list", }
+,];
+xr_frag_insert('t/c2/042bacbb748a058af5da91f36482d5f3304e3f.xr', __xr_tmp);

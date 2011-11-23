@@ -1,0 +1,16 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#__CRYPTOHASH_H\">__CRYPTOHASH_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#__CRYPTOHASH_H\">__CRYPTOHASH_H</a>", 
+"", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#SHA_DIGEST_WORDS\">SHA_DIGEST_WORDS</a> 5", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#SHA_MESSAGE_BYTES\">SHA_MESSAGE_BYTES</a> (512 <span class=\"comment\">/*bits*/</span> / 8)", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#SHA_WORKSPACE_WORDS\">SHA_WORKSPACE_WORDS</a> 80", 
+"", 
+"void <a class=\"id\" href=\"#sha_init\">sha_init</a>(<a class=\"id\" href=\"#__u32\">__u32</a> *<a class=\"id\" href=\"#buf\">buf</a>);", 
+"void <a class=\"id\" href=\"#sha_transform\">sha_transform</a>(<a class=\"id\" href=\"#__u32\">__u32</a> *<a class=\"id\" href=\"#digest\">digest</a>, const char *<a class=\"id\" href=\"#data\">data</a>, <a class=\"id\" href=\"#__u32\">__u32</a> *<a class=\"id\" href=\"#W\">W</a>);", 
+"", 
+"<a class=\"id\" href=\"#__u32\">__u32</a> <a class=\"id\" href=\"#half_md4_transform\">half_md4_transform</a>(<a class=\"id\" href=\"#__u32\">__u32</a> <a class=\"id\" href=\"#buf\">buf</a>[4], <a class=\"id\" href=\"#__u32\">__u32</a> const <a class=\"id\" href=\"#in\">in</a>[8]);", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+];
+xr_frag_insert('l/dd/9f85e32e060d46cc19da0ff1706aab262ea309.xr', __xr_tmp);

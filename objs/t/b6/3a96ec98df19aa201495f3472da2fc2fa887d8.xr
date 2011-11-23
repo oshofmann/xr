@@ -1,0 +1,275 @@
+var __xr_tmp = [
+{"id":"FIFO_FILE__SWAPON", "file":"security/selinux/av_permissions.h", "line":235, "type":"d", }
+,{"id":"FIFO_FILE__UNLINK", "file":"security/selinux/av_permissions.h", "line":231, "type":"d", }
+,{"id":"FIFO_FILE__WRITE", "file":"security/selinux/av_permissions.h", "line":223, "type":"d", }
+,{"id":"FIFREEZE", "file":"include/linux/fs.h", "line":317, "type":"d", }
+,{"id":"FIGETBSZ", "file":"include/linux/fs.h", "line":316, "type":"d", }
+,{"id":"FILEHASH", "file":"drivers/base/power/trace.c", "line":71, "type":"d", }
+,{"id":"FILEID_BTRFS_WITHOUT_PARENT", "file":"include/linux/exportfs.h", "line":41, "type":"e", "scope_line":19, "scope_name":"fid_type", }
+,{"id":"FILEID_BTRFS_WITH_PARENT", "file":"include/linux/exportfs.h", "line":48, "type":"e", "scope_line":19, "scope_name":"fid_type", }
+,{"id":"FILEID_BTRFS_WITH_PARENT_ROOT", "file":"include/linux/exportfs.h", "line":56, "type":"e", "scope_line":19, "scope_name":"fid_type", }
+,{"id":"FILEID_INO32_GEN", "file":"include/linux/exportfs.h", "line":29, "type":"e", "scope_line":19, "scope_name":"fid_type", }
+,{"id":"FILEID_INO32_GEN_PARENT", "file":"include/linux/exportfs.h", "line":35, "type":"e", "scope_line":19, "scope_name":"fid_type", }
+,{"id":"FILEID_ROOT", "file":"include/linux/exportfs.h", "line":24, "type":"e", "scope_line":19, "scope_name":"fid_type", }
+,{"id":"FILEID_UDF_WITHOUT_PARENT", "file":"include/linux/exportfs.h", "line":62, "type":"e", "scope_line":19, "scope_name":"fid_type", }
+,{"id":"FILEID_UDF_WITH_PARENT", "file":"include/linux/exportfs.h", "line":69, "type":"e", "scope_line":19, "scope_name":"fid_type", }
+,{"id":"FILENT_SIZE", "file":"ipc/mqueue.c", "line":42, "type":"d", }
+,{"id":"FILESYSTEM__ASSOCIATE", "file":"security/selinux/av_permissions.h", "line":90, "type":"d", }
+,{"id":"FILESYSTEM__GETATTR", "file":"security/selinux/av_permissions.h", "line":86, "type":"d", }
+,{"id":"FILESYSTEM__MOUNT", "file":"security/selinux/av_permissions.h", "line":83, "type":"d", }
+,{"id":"FILESYSTEM__QUOTAGET", "file":"security/selinux/av_permissions.h", "line":92, "type":"d", }
+,{"id":"FILESYSTEM__QUOTAMOD", "file":"security/selinux/av_permissions.h", "line":91, "type":"d", }
+,{"id":"FILESYSTEM__RELABELFROM", "file":"security/selinux/av_permissions.h", "line":87, "type":"d", }
+,{"id":"FILESYSTEM__RELABELTO", "file":"security/selinux/av_permissions.h", "line":88, "type":"d", }
+,{"id":"FILESYSTEM__REMOUNT", "file":"security/selinux/av_permissions.h", "line":84, "type":"d", }
+,{"id":"FILESYSTEM__TRANSITION", "file":"security/selinux/av_permissions.h", "line":89, "type":"d", }
+,{"id":"FILESYSTEM__UNMOUNT", "file":"security/selinux/av_permissions.h", "line":85, "type":"d", }
+,{"id":"FILE_CPULIST", "file":"kernel/cpuset.c", "line":1486, "type":"e", "scope_line":1484, }
+,{"id":"FILE_CPU_EXCLUSIVE", "file":"kernel/cpuset.c", "line":1488, "type":"e", "scope_line":1484, }
+,{"id":"FILE_DESCRIPTION_RO", "file":"drivers/acpi/battery.c", "line":784, "type":"d", }
+,{"id":"FILE_DESCRIPTION_RO", "file":"drivers/acpi/battery.c", "line":821, "type":"d", }
+,{"id":"FILE_DESCRIPTION_RW", "file":"drivers/acpi/battery.c", "line":797, "type":"d", }
+,{"id":"FILE_DESCRIPTION_RW", "file":"drivers/acpi/battery.c", "line":822, "type":"d", }
+,{"id":"FILE_FCOUNT", "file":"arch/x86/kernel/cpu/mtrr/if.c", "line":17, "type":"d", }
+,{"id":"FILE_LOCK_DEFERRED", "file":"include/linux/fs.h", "line":1020, "type":"d", }
+,{"id":"FILE_MEMLIST", "file":"kernel/cpuset.c", "line":1487, "type":"e", "scope_line":1484, }
+,{"id":"FILE_MEMORY_MIGRATE", "file":"kernel/cpuset.c", "line":1485, "type":"e", "scope_line":1484, }
+,{"id":"FILE_MEMORY_PRESSURE", "file":"kernel/cpuset.c", "line":1494, "type":"e", "scope_line":1484, }
+,{"id":"FILE_MEMORY_PRESSURE_ENABLED", "file":"kernel/cpuset.c", "line":1493, "type":"e", "scope_line":1484, }
+,{"id":"FILE_MEM_EXCLUSIVE", "file":"kernel/cpuset.c", "line":1489, "type":"e", "scope_line":1484, }
+,{"id":"FILE_MEM_HARDWALL", "file":"kernel/cpuset.c", "line":1490, "type":"e", "scope_line":1484, }
+,{"id":"FILE_MNT_WRITE_RELEASED", "file":"include/linux/fs.h", "line":907, "type":"d", }
+,{"id":"FILE_MNT_WRITE_TAKEN", "file":"include/linux/fs.h", "line":906, "type":"d", }
+,{"id":"FILE_SCHED_LOAD_BALANCE", "file":"kernel/cpuset.c", "line":1491, "type":"e", "scope_line":1484, }
+,{"id":"FILE_SCHED_RELAX_DOMAIN_LEVEL", "file":"kernel/cpuset.c", "line":1492, "type":"e", "scope_line":1484, }
+,{"id":"FILE_SPREAD_PAGE", "file":"kernel/cpuset.c", "line":1495, "type":"e", "scope_line":1484, }
+,{"id":"FILE_SPREAD_SLAB", "file":"kernel/cpuset.c", "line":1496, "type":"e", "scope_line":1484, }
+,{"id":"FILE__APPEND", "file":"security/selinux/av_permissions.h", "line":102, "type":"d", }
+,{"id":"FILE__AUDIT_ACCESS", "file":"security/selinux/av_permissions.h", "line":110, "type":"d", }
+,{"id":"FILE__CREATE", "file":"security/selinux/av_permissions.h", "line":96, "type":"d", }
+,{"id":"FILE__ENTRYPOINT", "file":"security/selinux/av_permissions.h", "line":114, "type":"d", }
+,{"id":"FILE__EXECMOD", "file":"security/selinux/av_permissions.h", "line":112, "type":"d", }
+,{"id":"FILE__EXECUTE", "file":"security/selinux/av_permissions.h", "line":106, "type":"d", }
+,{"id":"FILE__EXECUTE_NO_TRANS", "file":"security/selinux/av_permissions.h", "line":113, "type":"d", }
+,{"id":"FILE__GETATTR", "file":"security/selinux/av_permissions.h", "line":97, "type":"d", }
+,{"id":"FILE__IOCTL", "file":"security/selinux/av_permissions.h", "line":93, "type":"d", }
+,{"id":"FILE__LINK", "file":"security/selinux/av_permissions.h", "line":104, "type":"d", }
+,{"id":"FILE__LOCK", "file":"security/selinux/av_permissions.h", "line":99, "type":"d", }
+,{"id":"FILE__MOUNTON", "file":"security/selinux/av_permissions.h", "line":109, "type":"d", }
+,{"id":"FILE__OPEN", "file":"security/selinux/av_permissions.h", "line":111, "type":"d", }
+,{"id":"FILE__QUOTAON", "file":"security/selinux/av_permissions.h", "line":108, "type":"d", }
+,{"id":"FILE__READ", "file":"security/selinux/av_permissions.h", "line":94, "type":"d", }
+,{"id":"FILE__RELABELFROM", "file":"security/selinux/av_permissions.h", "line":100, "type":"d", }
+,{"id":"FILE__RELABELTO", "file":"security/selinux/av_permissions.h", "line":101, "type":"d", }
+,{"id":"FILE__RENAME", "file":"security/selinux/av_permissions.h", "line":105, "type":"d", }
+,{"id":"FILE__SETATTR", "file":"security/selinux/av_permissions.h", "line":98, "type":"d", }
+,{"id":"FILE__SWAPON", "file":"security/selinux/av_permissions.h", "line":107, "type":"d", }
+,{"id":"FILE__UNLINK", "file":"security/selinux/av_permissions.h", "line":103, "type":"d", }
+,{"id":"FILE__WRITE", "file":"security/selinux/av_permissions.h", "line":95, "type":"d", }
+,{"id":"FILTER", "file":"fs/binfmt_elf.c", "line":1096, "type":"d", }
+,{"id":"FILTER", "file":"fs/binfmt_elf.c", "line":1165, "type":"d", }
+,{"id":"FILTER_DYN_STRING", "file":"include/linux/ftrace_event.h", "line":214, "type":"e", "scope_line":211, }
+,{"id":"FILTER_OTHER", "file":"include/linux/ftrace_event.h", "line":212, "type":"e", "scope_line":211, }
+,{"id":"FILTER_PTR_STRING", "file":"include/linux/ftrace_event.h", "line":215, "type":"e", "scope_line":211, }
+,{"id":"FILTER_STATIC_STRING", "file":"include/linux/ftrace_event.h", "line":213, "type":"e", "scope_line":211, }
+,{"id":"FILT_ERR_BAD_SUBSYS_FILTER", "file":"kernel/trace/trace_events_filter.c", "line":74, "type":"e", "scope_line":65, }
+,{"id":"FILT_ERR_FIELD_NOT_FOUND", "file":"kernel/trace/trace_events_filter.c", "line":71, "type":"e", "scope_line":65, }
+,{"id":"FILT_ERR_ILLEGAL_FIELD_OP", "file":"kernel/trace/trace_events_filter.c", "line":72, "type":"e", "scope_line":65, }
+,{"id":"FILT_ERR_ILLEGAL_INTVAL", "file":"kernel/trace/trace_events_filter.c", "line":73, "type":"e", "scope_line":65, }
+,{"id":"FILT_ERR_INVALID_FILTER", "file":"kernel/trace/trace_events_filter.c", "line":77, "type":"e", "scope_line":65, }
+,{"id":"FILT_ERR_INVALID_OP", "file":"kernel/trace/trace_events_filter.c", "line":67, "type":"e", "scope_line":65, }
+,{"id":"FILT_ERR_MISSING_FIELD", "file":"kernel/trace/trace_events_filter.c", "line":76, "type":"e", "scope_line":65, }
+,{"id":"FILT_ERR_NONE", "file":"kernel/trace/trace_events_filter.c", "line":66, "type":"e", "scope_line":65, }
+,{"id":"FILT_ERR_OPERAND_TOO_LONG", "file":"kernel/trace/trace_events_filter.c", "line":70, "type":"e", "scope_line":65, }
+,{"id":"FILT_ERR_TOO_MANY_OPERANDS", "file":"kernel/trace/trace_events_filter.c", "line":69, "type":"e", "scope_line":65, }
+,{"id":"FILT_ERR_TOO_MANY_PREDS", "file":"kernel/trace/trace_events_filter.c", "line":75, "type":"e", "scope_line":65, }
+,{"id":"FILT_ERR_UNBALANCED_PAREN", "file":"kernel/trace/trace_events_filter.c", "line":68, "type":"e", "scope_line":65, }
+,{"id":"FIOASYNC", "file":"include/asm-generic/ioctls.h", "line":76, "type":"d", }
+,{"id":"FIOCLEX", "file":"include/asm-generic/ioctls.h", "line":75, "type":"d", }
+,{"id":"FIOGETOWN", "file":"include/asm-generic/sockios.h", "line":7, "type":"d", }
+,{"id":"FIONBIO", "file":"include/asm-generic/ioctls.h", "line":52, "type":"d", }
+,{"id":"FIONCLEX", "file":"include/asm-generic/ioctls.h", "line":74, "type":"d", }
+,{"id":"FIONREAD", "file":"include/asm-generic/ioctls.h", "line":45, "type":"d", }
+,{"id":"FIOQSIZE", "file":"include/asm-generic/ioctls.h", "line":95, "type":"d", }
+,{"id":"FIOSETOWN", "file":"include/asm-generic/sockios.h", "line":5, "type":"d", }
+,{"id":"FIRST_ENTRY", "file":"fs/ext2/xattr.c", "line":70, "type":"d", }
+,{"id":"FIRST_EXTERNAL_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":34, "type":"d", }
+,{"id":"FIRST_NFS4_OP", "file":"include/linux/nfs4.h", "line":238, "type":"d", }
+,{"id":"FIRST_PROCESS_ENTRY", "file":"include/linux/proc_fs.h", "line":21, "type":"d", }
+,{"id":"FIRST_RESERVED_GDT_BYTE", "file":"arch/x86/include/asm/xen/interface.h", "line":81, "type":"d", }
+,{"id":"FIRST_RESERVED_GDT_ENTRY", "file":"arch/x86/include/asm/xen/interface.h", "line":82, "type":"d", }
+,{"id":"FIRST_RESERVED_GDT_PAGE", "file":"arch/x86/include/asm/xen/interface.h", "line":80, "type":"d", }
+,{"id":"FIRST_USER_ADDRESS", "file":"arch/x86/include/asm/pgtable_types.h", "line":7, "type":"d", }
+,{"id":"FIRST_VM86_IRQ", "file":"arch/x86/include/asm/irq_vectors.h", "line":135, "type":"d", }
+,{"id":"FITHAW", "file":"include/linux/fs.h", "line":318, "type":"d", }
+,{"id":"FIXADDR_BOOT_SIZE", "file":"arch/x86/include/asm/fixmap.h", "line":151, "type":"d", }
+,{"id":"FIXADDR_BOOT_START", "file":"arch/x86/include/asm/fixmap.h", "line":153, "type":"d", }
+,{"id":"FIXADDR_SIZE", "file":"arch/x86/include/asm/fixmap.h", "line":150, "type":"d", }
+,{"id":"FIXADDR_START", "file":"arch/x86/include/asm/fixmap.h", "line":152, "type":"d", }
+,{"id":"FIXADDR_TOP", "file":"arch/x86/include/asm/fixmap.h", "line":46, "type":"d", }
+,{"id":"FIXADDR_USER_END", "file":"arch/x86/include/asm/fixmap.h", "line":50, "type":"d", }
+,{"id":"FIXADDR_USER_START", "file":"arch/x86/include/asm/fixmap.h", "line":49, "type":"d", }
+,{"id":"FIXED_1", "file":"include/linux/sched.h", "line":124, "type":"d", }
+,{"id":"FIXED_EVENT_CONSTRAINT", "file":"arch/x86/kernel/cpu/perf_event.c", "line":164, "type":"d", }
+,{"id":"FIX_APIC_BASE", "file":"arch/x86/include/asm/fixmap.h", "line":89, "type":"e", "scope_line":73, "scope_name":"fixed_addresses", }
+,{"id":"FIX_BTMAPS_SLOTS", "file":"arch/x86/include/asm/fixmap.h", "line":128, "type":"d", }
+,{"id":"FIX_BTMAP_BEGIN", "file":"arch/x86/include/asm/fixmap.h", "line":137, "type":"e", "scope_line":73, "scope_name":"fixed_addresses", }
+,{"id":"FIX_BTMAP_END", "file":"arch/x86/include/asm/fixmap.h", "line":130, "type":"e", "scope_line":73, "scope_name":"fixed_addresses", }
+,{"id":"FIX_DBGP_BASE", "file":"arch/x86/include/asm/fixmap.h", "line":83, "type":"e", "scope_line":73, "scope_name":"fixed_addresses", }
+,{"id":"FIX_EARLYCON_MEM_BASE", "file":"arch/x86/include/asm/fixmap.h", "line":84, "type":"e", "scope_line":73, "scope_name":"fixed_addresses", }
+,{"id":"FIX_EFLAGS", "file":"arch/x86/ia32/ia32_signal.c", "line":38, "type":"d", }
+,{"id":"FIX_EFLAGS", "file":"arch/x86/kernel/signal.c", "line":50, "type":"d", }
+,{"id":"FIX_IO_APIC_BASE_0", "file":"arch/x86/include/asm/fixmap.h", "line":92, "type":"e", "scope_line":73, "scope_name":"fixed_addresses", }
+,{"id":"FIX_IO_APIC_BASE_END", "file":"arch/x86/include/asm/fixmap.h", "line":93, "type":"e", "scope_line":73, "scope_name":"fixed_addresses", }
+,{"id":"FIX_PARAVIRT_BOOTMAP", "file":"arch/x86/include/asm/fixmap.h", "line":115, "type":"e", "scope_line":73, "scope_name":"fixed_addresses", }
+,{"id":"FIX_SIZE", "file":"include/linux/relay.h", "line":23, "type":"d", }
+,{"id":"FIX_TEXT_POKE0", "file":"arch/x86/include/asm/fixmap.h", "line":118, "type":"e", "scope_line":73, "scope_name":"fixed_addresses", }
+,{"id":"FIX_TEXT_POKE1", "file":"arch/x86/include/asm/fixmap.h", "line":117, "type":"e", "scope_line":73, "scope_name":"fixed_addresses", }
+,{"id":"FLAGS", "file":"drivers/video/edid.h", "line":119, "type":"d", }
+,{"id":"FLAGS", "file":"lib/zlib_inflate/inflate.h", "line":17, "type":"e", "scope_line":15, }
+,{"id":"FLAGS_CLOCKRT", "file":"kernel/futex.c", "line":1592, "type":"d", }
+,{"id":"FLAGS_HAS_TIMEOUT", "file":"kernel/futex.c", "line":1593, "type":"d", }
+,{"id":"FLAGS_SHARED", "file":"kernel/futex.c", "line":1591, "type":"d", }
+,{"id":"FLAGS_TS_OR_DROPS", "file":"include/net/sock.h", "line":1658, "type":"d", }
+,{"id":"FLAG_ACKED", "file":"net/ipv4/tcp_input.c", "line":116, "type":"d", }
+,{"id":"FLAG_ACTIVE_LOW", "file":"drivers/gpio/gpiolib.c", "line":58, "type":"d", }
+,{"id":"FLAG_ANY_PROGRESS", "file":"net/ipv4/tcp_input.c", "line":120, "type":"d", }
+,{"id":"FLAG_BUF_SIZE", "file":"lib/vsprintf.c", "line":640, "type":"d", }
+,{"id":"FLAG_CA_ALERT", "file":"net/ipv4/tcp_input.c", "line":118, "type":"d", }
+,{"id":"FLAG_CF", "file":"include/linux/usb/ehci_def.h", "line":113, "type":"d", }
+,{"id":"FLAG_DATA", "file":"net/ipv4/tcp_input.c", "line":101, "type":"d", }
+,{"id":"FLAG_DATA_ACKED", "file":"net/ipv4/tcp_input.c", "line":103, "type":"d", }
+,{"id":"FLAG_DATA_LOST", "file":"net/ipv4/tcp_input.c", "line":108, "type":"d", }
+,{"id":"FLAG_DATA_SACKED", "file":"net/ipv4/tcp_input.c", "line":106, "type":"d", }
+,{"id":"FLAG_DSACKING_ACK", "file":"net/ipv4/tcp_input.c", "line":112, "type":"d", }
+,{"id":"FLAG_ECE", "file":"net/ipv4/tcp_input.c", "line":107, "type":"d", }
+,{"id":"FLAG_EXPORT", "file":"drivers/gpio/gpiolib.c", "line":54, "type":"d", }
+,{"id":"FLAG_FORWARD_PROGRESS", "file":"net/ipv4/tcp_input.c", "line":119, "type":"d", }
+,{"id":"FLAG_IS_OUT", "file":"drivers/gpio/gpiolib.c", "line":52, "type":"d", }
+,{"id":"FLAG_MASK", "file":"arch/x86/kernel/ptrace.c", "line":230, "type":"d", }
+,{"id":"FLAG_MASK_32", "file":"arch/x86/kernel/ptrace.c", "line":148, "type":"d", }
+,{"id":"FLAG_NONHEAD_RETRANS_ACKED", "file":"net/ipv4/tcp_input.c", "line":113, "type":"d", }
+,{"id":"FLAG_NOT_DUP", "file":"net/ipv4/tcp_input.c", "line":117, "type":"d", }
+,{"id":"FLAG_ONLY_ORIG_SACKED", "file":"net/ipv4/tcp_input.c", "line":110, "type":"d", }
+,{"id":"FLAG_REQUESTED", "file":"drivers/gpio/gpiolib.c", "line":51, "type":"d", }
+,{"id":"FLAG_RESERVED", "file":"drivers/gpio/gpiolib.c", "line":53, "type":"d", }
+,{"id":"FLAG_RETRANS_DATA_ACKED", "file":"net/ipv4/tcp_input.c", "line":104, "type":"d", }
+,{"id":"FLAG_SACK_RENEGING", "file":"net/ipv4/tcp_input.c", "line":114, "type":"d", }
+,{"id":"FLAG_SLOWPATH", "file":"net/ipv4/tcp_input.c", "line":109, "type":"d", }
+,{"id":"FLAG_SND_UNA_ADVANCED", "file":"net/ipv4/tcp_input.c", "line":111, "type":"d", }
+,{"id":"FLAG_SYN_ACKED", "file":"net/ipv4/tcp_input.c", "line":105, "type":"d", }
+,{"id":"FLAG_SYSFS", "file":"drivers/gpio/gpiolib.c", "line":55, "type":"d", }
+,{"id":"FLAG_TRIG_FALL", "file":"drivers/gpio/gpiolib.c", "line":56, "type":"d", }
+,{"id":"FLAG_TRIG_RISE", "file":"drivers/gpio/gpiolib.c", "line":57, "type":"d", }
+,{"id":"FLAG_WIN_UPDATE", "file":"net/ipv4/tcp_input.c", "line":102, "type":"d", }
+,{"id":"FLAT_KERNEL_CS", "file":"arch/x86/include/asm/xen/interface_64.h", "line":23, "type":"d", }
+,{"id":"FLAT_KERNEL_CS32", "file":"arch/x86/include/asm/xen/interface_64.h", "line":22, "type":"d", }
+,{"id":"FLAT_KERNEL_CS64", "file":"arch/x86/include/asm/xen/interface_64.h", "line":21, "type":"d", }
+,{"id":"FLAT_KERNEL_DS", "file":"arch/x86/include/asm/xen/interface_64.h", "line":20, "type":"d", }
+,{"id":"FLAT_KERNEL_DS32", "file":"arch/x86/include/asm/xen/interface_64.h", "line":19, "type":"d", }
+,{"id":"FLAT_KERNEL_DS64", "file":"arch/x86/include/asm/xen/interface_64.h", "line":18, "type":"d", }
+,{"id":"FLAT_KERNEL_SS", "file":"arch/x86/include/asm/xen/interface_64.h", "line":26, "type":"d", }
+,{"id":"FLAT_KERNEL_SS32", "file":"arch/x86/include/asm/xen/interface_64.h", "line":25, "type":"d", }
+,{"id":"FLAT_KERNEL_SS64", "file":"arch/x86/include/asm/xen/interface_64.h", "line":24, "type":"d", }
+,{"id":"FLAT_RING3_CS32", "file":"arch/x86/include/asm/xen/interface_64.h", "line":11, "type":"d", }
+,{"id":"FLAT_RING3_CS64", "file":"arch/x86/include/asm/xen/interface_64.h", "line":12, "type":"d", }
+,{"id":"FLAT_RING3_DS32", "file":"arch/x86/include/asm/xen/interface_64.h", "line":13, "type":"d", }
+,{"id":"FLAT_RING3_DS64", "file":"arch/x86/include/asm/xen/interface_64.h", "line":14, "type":"d", }
+,{"id":"FLAT_RING3_SS32", "file":"arch/x86/include/asm/xen/interface_64.h", "line":15, "type":"d", }
+,{"id":"FLAT_RING3_SS64", "file":"arch/x86/include/asm/xen/interface_64.h", "line":16, "type":"d", }
+,{"id":"FLAT_USER_CS", "file":"arch/x86/include/asm/xen/interface_64.h", "line":33, "type":"d", }
+,{"id":"FLAT_USER_CS32", "file":"arch/x86/include/asm/xen/interface_64.h", "line":32, "type":"d", }
+,{"id":"FLAT_USER_CS64", "file":"arch/x86/include/asm/xen/interface_64.h", "line":31, "type":"d", }
+,{"id":"FLAT_USER_DS", "file":"arch/x86/include/asm/xen/interface_64.h", "line":30, "type":"d", }
+,{"id":"FLAT_USER_DS32", "file":"arch/x86/include/asm/xen/interface_64.h", "line":29, "type":"d", }
+,{"id":"FLAT_USER_DS64", "file":"arch/x86/include/asm/xen/interface_64.h", "line":28, "type":"d", }
+,{"id":"FLAT_USER_SS", "file":"arch/x86/include/asm/xen/interface_64.h", "line":36, "type":"d", }
+,{"id":"FLAT_USER_SS32", "file":"arch/x86/include/asm/xen/interface_64.h", "line":35, "type":"d", }
+,{"id":"FLAT_USER_SS64", "file":"arch/x86/include/asm/xen/interface_64.h", "line":34, "type":"d", }
+,{"id":"FLEX_ARRAY_BASE_BYTES_LEFT", "file":"include/linux/flex_array.h", "line":35, "type":"d", }
+,{"id":"FLEX_ARRAY_BASE_SIZE", "file":"include/linux/flex_array.h", "line":8, "type":"d", }
+,{"id":"FLEX_ARRAY_ELEMENTS_PER_PART", "file":"include/linux/flex_array.h", "line":43, "type":"d", }
+,{"id":"FLEX_ARRAY_FREE", "file":"include/linux/poison.h", "line":81, "type":"d", }
+,{"id":"FLEX_ARRAY_NR_BASE_PTRS", "file":"include/linux/flex_array.h", "line":39, "type":"d", }
+,{"id":"FLEX_ARRAY_PART_SIZE", "file":"include/linux/flex_array.h", "line":7, "type":"d", }
+,{"id":"FLOCK_VERIFY_READ", "file":"include/linux/fs.h", "line":1829, "type":"d", }
+,{"id":"FLOCK_VERIFY_WRITE", "file":"include/linux/fs.h", "line":1830, "type":"d", }
+,{"id":"FLOPPY_MAJOR", "file":"include/linux/major.h", "line":12, "type":"d", }
+,{"id":"FLOWI_FLAG_ANYSRC", "file":"include/net/flow.h", "line":51, "type":"d", }
+,{"id":"FLOW_CTRL_RX", "file":"include/linux/mii.h", "line":140, "type":"d", }
+,{"id":"FLOW_CTRL_TX", "file":"include/linux/mii.h", "line":139, "type":"d", }
+,{"id":"FLOW_DIR_FWD", "file":"include/net/flow.h", "line":85, "type":"d", }
+,{"id":"FLOW_DIR_IN", "file":"include/net/flow.h", "line":83, "type":"d", }
+,{"id":"FLOW_DIR_OUT", "file":"include/net/flow.h", "line":84, "type":"d", }
+,{"id":"FLOW_HASH_RND_PERIOD", "file":"net/core/flow.c", "line":73, "type":"d", }
+,{"id":"FLOW_KEY_DST", "file":"include/linux/pkt_cls.h", "line":319, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_IIF", "file":"include/linux/pkt_cls.h", "line":323, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_MARK", "file":"include/linux/pkt_cls.h", "line":325, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_MAX", "file":"include/linux/pkt_cls.h", "line":338, "type":"d", }
+,{"id":"FLOW_KEY_NFCT", "file":"include/linux/pkt_cls.h", "line":326, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_NFCT_DST", "file":"include/linux/pkt_cls.h", "line":328, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_NFCT_PROTO_DST", "file":"include/linux/pkt_cls.h", "line":330, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_NFCT_PROTO_SRC", "file":"include/linux/pkt_cls.h", "line":329, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_NFCT_SRC", "file":"include/linux/pkt_cls.h", "line":327, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_PRIORITY", "file":"include/linux/pkt_cls.h", "line":324, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_PROTO", "file":"include/linux/pkt_cls.h", "line":320, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_PROTO_DST", "file":"include/linux/pkt_cls.h", "line":322, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_PROTO_SRC", "file":"include/linux/pkt_cls.h", "line":321, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_RTCLASSID", "file":"include/linux/pkt_cls.h", "line":331, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_SKGID", "file":"include/linux/pkt_cls.h", "line":333, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_SKUID", "file":"include/linux/pkt_cls.h", "line":332, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_SRC", "file":"include/linux/pkt_cls.h", "line":318, "type":"e", "scope_line":317, }
+,{"id":"FLOW_KEY_VLAN_TAG", "file":"include/linux/pkt_cls.h", "line":334, "type":"e", "scope_line":317, }
+,{"id":"FLOW_MODE_HASH", "file":"include/linux/pkt_cls.h", "line":342, "type":"e", "scope_line":340, }
+,{"id":"FLOW_MODE_MAP", "file":"include/linux/pkt_cls.h", "line":341, "type":"e", "scope_line":340, }
+,{"id":"FLT_EXACT_COUNT", "file":"drivers/net/tun.c", "line":86, "type":"d", }
+,{"id":"FLUSH", "file":"drivers/char/vt.c", "line":2118, "type":"d", }
+,{"id":"FLUSH", "file":"drivers/char/vt.c", "line":2371, "type":"d", }
+,{"id":"FLUSHO", "file":"include/asm-generic/termbits.h", "line":178, "type":"d", }
+,{"id":"FLUSH_HIGHPRI", "file":"include/linux/nfs_fs.h", "line":35, "type":"d", }
+,{"id":"FLUSH_KERNEL", "file":"arch/x86/include/asm/ink_para.h", "line":13, "type":"e", "scope_line":6, }
+,{"id":"FLUSH_LOWPRI", "file":"include/linux/nfs_fs.h", "line":34, "type":"d", }
+,{"id":"FLUSH_OTHERS", "file":"arch/x86/include/asm/ink_para.h", "line":15, "type":"e", "scope_line":6, }
+,{"id":"FLUSH_SINGLE", "file":"arch/x86/include/asm/ink_para.h", "line":14, "type":"e", "scope_line":6, }
+,{"id":"FLUSH_STABLE", "file":"include/linux/nfs_fs.h", "line":33, "type":"d", }
+,{"id":"FLUSH_SYNC", "file":"include/linux/nfs_fs.h", "line":32, "type":"d", }
+,{"id":"FLUSH_USER", "file":"arch/x86/include/asm/ink_para.h", "line":12, "type":"e", "scope_line":6, }
+,{"id":"FLYBACK", "file":"drivers/video/fbmon.c", "line":980, "type":"d", }
+,{"id":"FL_ACCESS", "file":"include/linux/fs.h", "line":1010, "type":"d", }
+,{"id":"FL_ARGS", "file":"arch/x86/xen/multicalls.c", "line":59, "type":"e", "scope_line":56, "scope_name":"flush_reasons", }
+,{"id":"FL_BASE0", "file":"include/linux/8250_pci.h", "line":5, "type":"d", }
+,{"id":"FL_BASE1", "file":"include/linux/8250_pci.h", "line":6, "type":"d", }
+,{"id":"FL_BASE2", "file":"include/linux/8250_pci.h", "line":7, "type":"d", }
+,{"id":"FL_BASE3", "file":"include/linux/8250_pci.h", "line":8, "type":"d", }
+,{"id":"FL_BASE4", "file":"include/linux/8250_pci.h", "line":9, "type":"d", }
+,{"id":"FL_BASE_BARS", "file":"include/linux/8250_pci.h", "line":14, "type":"d", }
+,{"id":"FL_BASE_MASK", "file":"include/linux/8250_pci.h", "line":4, "type":"d", }
+,{"id":"FL_CALLBACKS", "file":"arch/x86/xen/multicalls.c", "line":60, "type":"e", "scope_line":56, "scope_name":"flush_reasons", }
+,{"id":"FL_CLOSE", "file":"include/linux/fs.h", "line":1013, "type":"d", }
+,{"id":"FL_EXISTS", "file":"include/linux/fs.h", "line":1011, "type":"d", }
+,{"id":"FL_FLOCK", "file":"include/linux/fs.h", "line":1009, "type":"d", }
+,{"id":"FL_GET_BASE", "file":"include/linux/8250_pci.h", "line":10, "type":"d", }
+,{"id":"FL_HASH", "file":"net/ipv6/ip6_flowlabel.c", "line":49, "type":"d", }
+,{"id":"FL_HASH_MASK", "file":"net/ipv6/ip6_flowlabel.c", "line":48, "type":"d", }
+,{"id":"FL_LEASE", "file":"include/linux/fs.h", "line":1012, "type":"d", }
+,{"id":"FL_MAX_LINGER", "file":"net/ipv6/ip6_flowlabel.c", "line":42, "type":"d", }
+,{"id":"FL_MAX_PER_SOCK", "file":"net/ipv6/ip6_flowlabel.c", "line":46, "type":"d", }
+,{"id":"FL_MAX_SIZE", "file":"net/ipv6/ip6_flowlabel.c", "line":47, "type":"d", }
+,{"id":"FL_MIN_LINGER", "file":"net/ipv6/ip6_flowlabel.c", "line":39, "type":"d", }
+,{"id":"FL_NOIRQ", "file":"include/linux/8250_pci.h", "line":17, "type":"d", }
+,{"id":"FL_N_REASONS", "file":"arch/x86/xen/multicalls.c", "line":62, "type":"e", "scope_line":56, "scope_name":"flush_reasons", }
+,{"id":"FL_POSIX", "file":"include/linux/fs.h", "line":1008, "type":"d", }
+,{"id":"FL_REGION_SZ_CAP", "file":"include/linux/8250_pci.h", "line":20, "type":"d", }
+,{"id":"FL_SLEEP", "file":"include/linux/fs.h", "line":1014, "type":"d", }
+,{"id":"FL_SLOTS", "file":"arch/x86/xen/multicalls.c", "line":58, "type":"e", "scope_line":56, "scope_name":"flush_reasons", }
+,{"id":"FMODE_EXCL", "file":"include/linux/fs.h", "line":79, "type":"d", }
+,{"id":"FMODE_EXEC", "file":"include/linux/fs.h", "line":75, "type":"d", }
+,{"id":"FMODE_LSEEK", "file":"include/linux/fs.h", "line":69, "type":"d", }
+,{"id":"FMODE_NDELAY", "file":"include/linux/fs.h", "line":77, "type":"d", }
+,{"id":"FMODE_NOCMTIME", "file":"include/linux/fs.h", "line":90, "type":"d", }
+,{"id":"FMODE_NONOTIFY", "file":"include/linux/fs.h", "line":96, "type":"d", }
+,{"id":"FMODE_PREAD", "file":"include/linux/fs.h", "line":71, "type":"d", }
+,{"id":"FMODE_PWRITE", "file":"include/linux/fs.h", "line":73, "type":"d", }
+,{"id":"FMODE_RANDOM", "file":"include/linux/fs.h", "line":93, "type":"d", }
+,];
+xr_frag_insert('t/b6/3a96ec98df19aa201495f3472da2fc2fa887d8.xr', __xr_tmp);

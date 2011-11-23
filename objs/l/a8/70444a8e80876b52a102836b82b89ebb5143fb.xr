@@ -1,0 +1,21 @@
+var __xr_tmp = [
+"<span class=\"comment\"> * dioread_nolock code uses b_private to pass information back to the</span>", 
+"<span class=\"comment\"> * I/O completion handler, and this conflicts with the jbd's use of</span>", 
+"<span class=\"comment\"> * b_private.</span>", 
+"<span class=\"comment\"> */</span>", 
+"static <a class=\"id\" href=\"#inline\">inline</a> int <a class=\"id\" href=\"#ext4_should_dioread_nolock\">ext4_should_dioread_nolock</a>(struct <a class=\"id\" href=\"#inode\">inode</a> *<a class=\"id\" href=\"#inode\">inode</a>)", 
+"{", 
+"<span class=\"ts\"/>if (!<a class=\"id\" href=\"#test_opt\">test_opt</a>(<a class=\"id\" href=\"#inode\">inode</a>-><a class=\"id\" href=\"#i_sb\">i_sb</a>, <a class=\"id\" href=\"#DIOREAD_NOLOCK\">DIOREAD_NOLOCK</a>))", 
+"<span class=\"ts\"/><span class=\"ts\"/>return 0;", 
+"<span class=\"ts\"/>if (!<a class=\"id\" href=\"#S_ISREG\">S_ISREG</a>(<a class=\"id\" href=\"#inode\">inode</a>-><a class=\"id\" href=\"#i_mode\">i_mode</a>))", 
+"<span class=\"ts\"/><span class=\"ts\"/>return 0;", 
+"<span class=\"ts\"/>if (!(<a class=\"id\" href=\"#ext4_test_inode_flag\">ext4_test_inode_flag</a>(<a class=\"id\" href=\"#inode\">inode</a>, <a class=\"id\" href=\"#EXT4_INODE_EXTENTS\">EXT4_INODE_EXTENTS</a>)))", 
+"<span class=\"ts\"/><span class=\"ts\"/>return 0;", 
+"<span class=\"ts\"/>if (<a class=\"id\" href=\"#ext4_should_journal_data\">ext4_should_journal_data</a>(<a class=\"id\" href=\"#inode\">inode</a>))", 
+"<span class=\"ts\"/><span class=\"ts\"/>return 0;", 
+"<span class=\"ts\"/>return 1;", 
+"}", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a><span class=\"ts\"/><span class=\"comment\">/* _EXT4_JBD2_H */</span>", 
+];
+xr_frag_insert('l/a8/70444a8e80876b52a102836b82b89ebb5143fb.xr', __xr_tmp);

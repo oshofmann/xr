@@ -1,0 +1,19 @@
+var __xr_tmp = [
+{"id":"test_taint", "file":"kernel/module.c", "line":1809, "type":"c", "scope_line":1803, "scope_name":"set_license", }
+,{"id":"test_taint", "file":"kernel/panic.c", "line":218, "type":"f", }
+,{"id":"test_task", "file":"include/linux/cgroup.h", "line":406, "type":"m", "scope_line":404, "scope_name":"struct cgroup_scanner", }
+,{"id":"test_thread_flag", "file":"include/linux/thread_info.h", "line":98, "type":"d", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1676, "type":"c", "scope_line":1669, "scope_name":"perf_callchain_user32", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/hw_breakpoint.c", "line":203, "type":"c", "scope_line":194, "scope_name":"arch_check_bp_in_kernelspace", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/kgdb.c", "line":551, "type":"c", "scope_line":511, "scope_name":"__kgdb_notify", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/kprobes.c", "line":427, "type":"c", "scope_line":425, "scope_name":"clear_btf", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/kprobes.c", "line":437, "type":"c", "scope_line":435, "scope_name":"restore_btf", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/process.c", "line":169, "type":"c", "scope_line":165, "scope_name":"get_tsc_mode", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/process_64.c", "line":311, "type":"c", "scope_line":259, "scope_name":"copy_thread", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/ptrace.c", "line":1362, "type":"c", "scope_line":1351, "scope_name":"syscall_trace_enter", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/ptrace.c", "line":1368, "type":"c", "scope_line":1351, "scope_name":"syscall_trace_enter", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/ptrace.c", "line":1371, "type":"c", "scope_line":1351, "scope_name":"syscall_trace_enter", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/ptrace.c", "line":1375, "type":"c", "scope_line":1351, "scope_name":"syscall_trace_enter", }
+,{"id":"test_ti_thread_flag", "file":"arch/x86/kernel/ptrace.c", "line":1403, "type":"c", "scope_line":1396, "scope_name":"syscall_trace_leave", }
+,];
+xr_frag_insert('t/90/b8432da2923c293f8cad16a4a84f8d1e342b06.xr', __xr_tmp);

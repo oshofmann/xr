@@ -1,0 +1,100 @@
+var __xr_tmp = [
+{"id":"sigev_value", "file":"include/linux/compat.h", "line":146, "type":"m", "scope_line":145, "scope_name":"struct compat_sigevent", }
+,{"id":"sigevent", "file":"include/asm-generic/siginfo.h", "line":259, "type":"s", }
+,{"id":"sigevent_t", "file":"include/asm-generic/siginfo.h", "line":259, "type":"t", }
+,{"id":"sigfillset", "file":"include/linux/signal.h", "line":168, "type":"f", }
+,{"id":"sigfillset", "file":"kernel/exit.c", "line":446, "type":"c", "scope_line":417, "scope_name":"daemonize", }
+,{"id":"sigfindinword", "file":"include/linux/signal.h", "line":67, "type":"f", }
+,{"id":"sigframe_ia32", "file":"arch/x86/include/asm/sigframe.h", "line":23, "type":"s", }
+,{"id":"sighand", "file":"include/linux/sched.h", "line":1324, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"sighand_cachep", "file":"include/linux/signal.h", "line":252, "type":"v", }
+,{"id":"sighand_ctor", "file":"kernel/fork.c", "line":1483, "type":"f", }
+,{"id":"sighand_struct", "file":"include/linux/sched.h", "line":434, "type":"s", }
+,{"id":"siginfo", "file":"include/asm-generic/siginfo.h", "line":40, "type":"s", }
+,{"id":"siginfo_t", "file":"include/asm-generic/siginfo.h", "line":40, "type":"t", }
+,{"id":"siginitset", "file":"arch/x86/ia32/ia32_signal.c", "line":133, "type":"c", "scope_line":128, "scope_name":"sys32_sigsuspend", }
+,{"id":"siginitset", "file":"arch/x86/ia32/sys_ia32.c", "line":272, "type":"c", "scope_line":252, "scope_name":"sys32_sigaction", }
+,{"id":"siginitset", "file":"include/linux/signal.h", "line":197, "type":"f", }
+,{"id":"siginitset", "file":"kernel/compat.c", "line":853, "type":"c", "scope_line":805, "scope_name":"compat_sys_rt_sigtimedwait", }
+,{"id":"siginitset", "file":"kernel/signal.c", "line":2304, "type":"c", "scope_line":2250, "scope_name":"sys_rt_sigtimedwait", }
+,{"id":"siginitset", "file":"kernel/signal.c", "line":2678, "type":"c", "scope_line":2671, "scope_name":"sys_ssetmask", }
+,{"id":"siginitsetinv", "file":"include/linux/signal.h", "line":209, "type":"f", }
+,{"id":"siginmask", "file":"include/linux/signal.h", "line":341, "type":"d", }
+,{"id":"sigio_perm", "file":"fs/fcntl.c", "line":500, "type":"f", }
+,{"id":"sigio_perm", "file":"fs/fcntl.c", "line":526, "type":"c", "scope_line":516, "scope_name":"send_sigio_to_task", }
+,{"id":"sigio_perm", "file":"fs/fcntl.c", "line":589, "type":"c", "scope_line":586, "scope_name":"send_sigurg_to_task", }
+,{"id":"sigisemptyset", "file":"include/linux/signal.h", "line":74, "type":"f", }
+,{"id":"sigisemptyset", "file":"kernel/signal.c", "line":591, "type":"c", "scope_line":585, "scope_name":"rm_from_queue_full", }
+,{"id":"sigismember", "file":"drivers/char/n_tty.c", "line":1435, "type":"c", "scope_line":1433, "scope_name":"is_ignored", }
+,{"id":"sigismember", "file":"fs/proc/array.c", "line":226, "type":"c", "scope_line":214, "scope_name":"render_sigset_t", }
+,{"id":"sigismember", "file":"fs/proc/array.c", "line":227, "type":"c", "scope_line":214, "scope_name":"render_sigset_t", }
+,{"id":"sigismember", "file":"fs/proc/array.c", "line":228, "type":"c", "scope_line":214, "scope_name":"render_sigset_t", }
+,{"id":"sigismember", "file":"fs/proc/array.c", "line":229, "type":"c", "scope_line":214, "scope_name":"render_sigset_t", }
+,{"id":"sigismember", "file":"include/linux/sched.h", "line":2318, "type":"c", "scope_line":2316, "scope_name":"__fatal_signal_pending", }
+,{"id":"sigismember", "file":"include/linux/signal.h", "line":58, "type":"f", }
+,{"id":"sigismember", "file":"kernel/signal.c", "line":1069, "type":"c", "scope_line":1059, "scope_name":"force_sig_info", }
+,{"id":"sigismember", "file":"kernel/signal.c", "line":1604, "type":"c", "scope_line":1602, "scope_name":"sigkill_pending", }
+,{"id":"sigismember", "file":"kernel/signal.c", "line":1822, "type":"c", "scope_line":1791, "scope_name":"ptrace_signal", }
+,{"id":"sigismember", "file":"kernel/signal.c", "line":456, "type":"c", "scope_line":449, "scope_name":"__dequeue_signal", }
+,{"id":"sigismember", "file":"kernel/signal.c", "line":596, "type":"c", "scope_line":585, "scope_name":"rm_from_queue_full", }
+,{"id":"sigismember", "file":"kernel/signal.c", "line":738, "type":"c", "scope_line":694, "scope_name":"prepare_signal", }
+,{"id":"sigismember", "file":"kernel/signal.c", "line":791, "type":"c", "scope_line":789, "scope_name":"wants_signal", }
+,{"id":"sigismember", "file":"kernel/signal.c", "line":81, "type":"c", "scope_line":74, "scope_name":"sig_ignored", }
+,{"id":"sigismember", "file":"kernel/signal.c", "line":843, "type":"c", "scope_line":802, "scope_name":"complete_signal", }
+,{"id":"sigismember", "file":"kernel/signal.c", "line":880, "type":"c", "scope_line":878, "scope_name":"legacy_queue", }
+,{"id":"sigkill_pending", "file":"kernel/signal.c", "line":1602, "type":"f", }
+,{"id":"siglock", "file":"include/linux/sched.h", "line":437, "type":"m", "scope_line":434, "scope_name":"struct sighand_struct", }
+,{"id":"sigmask", "file":"fs/signalfd.c", "line":34, "type":"m", "scope_line":33, "scope_name":"struct signalfd_ctx", }
+,{"id":"sigmask", "file":"include/linux/signal.h", "line":91, "type":"d", }
+,{"id":"signal", "file":"arch/x86/include/asm/user32.h", "line":59, "type":"m", "scope_line":45, "scope_name":"struct user32", }
+,{"id":"signal", "file":"arch/x86/include/asm/user_64.h", "line":120, "type":"m", "scope_line":102, "scope_name":"struct user", }
+,{"id":"signal", "file":"include/linux/atmdev.h", "line":365, "type":"m", "scope_line":351, "scope_name":"struct atm_dev", }
+,{"id":"signal", "file":"include/linux/fb.h", "line":469, "type":"m", "scope_line":451, "scope_name":"struct fb_monspecs", }
+,{"id":"signal", "file":"include/linux/sched.h", "line":1323, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"signal", "file":"include/linux/signal.h", "line":28, "type":"m", "scope_line":26, "scope_name":"struct sigpending", }
+,{"id":"signal", "file":"include/linux/videodev2.h", "line":1343, "type":"m", "scope_line":1334, "scope_name":"struct v4l2_tuner", }
+,{"id":"signal", "file":"include/net/cfg80211.h", "line":424, "type":"m", "scope_line":416, "scope_name":"struct station_info", }
+,{"id":"signal", "file":"include/net/cfg80211.h", "line":666, "type":"m", "scope_line":652, "scope_name":"struct cfg80211_bss", }
+,{"id":"signal_cachep", "file":"kernel/fork.c", "line":133, "type":"v", }
+,{"id":"signal_class", "file":"arch/x86/kernel/audit_64.c", "line":26, "type":"v", }
+,{"id":"signal_fault", "file":"arch/x86/ia32/ia32_signal.c", "line":292, "type":"c", "scope_line":266, "scope_name":"sys32_sigreturn", }
+,{"id":"signal_fault", "file":"arch/x86/ia32/ia32_signal.c", "line":326, "type":"c", "scope_line":296, "scope_name":"sys32_rt_sigreturn", }
+,{"id":"signal_fault", "file":"arch/x86/kernel/signal.c", "line":618, "type":"c", "scope_line":591, "scope_name":"sys_rt_sigreturn", }
+,{"id":"signal_fault", "file":"arch/x86/kernel/signal.c", "line":865, "type":"f", }
+,{"id":"signal_group_exit", "file":"fs/exec.c", "line":1610, "type":"c", "scope_line":1602, "scope_name":"zap_threads", }
+,{"id":"signal_group_exit", "file":"fs/exec.c", "line":794, "type":"c", "scope_line":781, "scope_name":"de_thread", }
+,{"id":"signal_group_exit", "file":"include/linux/sched.h", "line":650, "type":"f", }
+,{"id":"signal_group_exit", "file":"kernel/exit.c", "line":1065, "type":"c", "scope_line":1058, "scope_name":"do_group_exit", }
+,{"id":"signal_group_exit", "file":"kernel/exit.c", "line":1070, "type":"c", "scope_line":1058, "scope_name":"do_group_exit", }
+,{"id":"signal_group_exit", "file":"kernel/signal.c", "line":1732, "type":"c", "scope_line":1724, "scope_name":"do_signal_stop", }
+,{"id":"signal_group_exit", "file":"kernel/signal.c", "line":2006, "type":"c", "scope_line":2001, "scope_name":"exit_signals", }
+,{"id":"signal_invmap", "file":"include/linux/personality.h", "line":97, "type":"m", "scope_line":91, "scope_name":"struct exec_domain", }
+,{"id":"signal_map", "file":"include/linux/personality.h", "line":96, "type":"m", "scope_line":91, "scope_name":"struct exec_domain", }
+,{"id":"signal_pending", "file":"block/bsg.c", "line":408, "type":"c", "scope_line":393, "scope_name":"bsg_get_done_cmd", }
+,{"id":"signal_pending", "file":"crypto/ablkcipher.c", "line":642, "type":"c", "scope_line":614, "scope_name":"crypto_alloc_ablkcipher", }
+,{"id":"signal_pending", "file":"crypto/aead.c", "line":495, "type":"c", "scope_line":466, "scope_name":"crypto_alloc_aead", }
+,{"id":"signal_pending", "file":"crypto/algboss.c", "line":71, "type":"c", "scope_line":60, "scope_name":"cryptomgr_probe", }
+,{"id":"signal_pending", "file":"crypto/api.c", "line":439, "type":"c", "scope_line":415, "scope_name":"crypto_alloc_base", }
+,{"id":"signal_pending", "file":"crypto/api.c", "line":556, "type":"c", "scope_line":531, "scope_name":"crypto_alloc_tfm", }
+,{"id":"signal_pending", "file":"drivers/acpi/bus.c", "line":608, "type":"c", "scope_line":586, "scope_name":"acpi_bus_receive_event", }
+,{"id":"signal_pending", "file":"drivers/base/power/wakeup.c", "line":213, "type":"c", "scope_line":205, "scope_name":"pm_get_wakeup_count", }
+,{"id":"signal_pending", "file":"drivers/block/loop.c", "line":602, "type":"c", "scope_line":593, "scope_name":"loop_thread", }
+,{"id":"signal_pending", "file":"drivers/char/hpet.c", "line":312, "type":"c", "scope_line":282, "scope_name":"hpet_read", }
+,{"id":"signal_pending", "file":"drivers/char/hw_random/core.c", "line":156, "type":"c", "scope_line":100, "scope_name":"rng_dev_read", }
+,{"id":"signal_pending", "file":"drivers/char/mem.c", "line":664, "type":"c", "scope_line":642, "scope_name":"read_zero", }
+,{"id":"signal_pending", "file":"drivers/char/n_tty.c", "line":1805, "type":"c", "scope_line":1710, "scope_name":"n_tty_read", }
+,{"id":"signal_pending", "file":"drivers/char/n_tty.c", "line":1954, "type":"c", "scope_line":1933, "scope_name":"n_tty_write", }
+,{"id":"signal_pending", "file":"drivers/char/random.c", "line":1025, "type":"c", "scope_line":997, "scope_name":"random_read", }
+,{"id":"signal_pending", "file":"drivers/char/random.c", "line":1031, "type":"c", "scope_line":997, "scope_name":"random_read", }
+,{"id":"signal_pending", "file":"drivers/char/random.c", "line":895, "type":"c", "scope_line":884, "scope_name":"extract_entropy_user", }
+,{"id":"signal_pending", "file":"drivers/char/tty_io.c", "line":1045, "type":"c", "scope_line":975, "scope_name":"do_tty_write", }
+,{"id":"signal_pending", "file":"drivers/char/tty_io.c", "line":1909, "type":"c", "scope_line":1787, "scope_name":"tty_open", }
+,{"id":"signal_pending", "file":"drivers/char/tty_io.c", "line":2426, "type":"c", "scope_line":2410, "scope_name":"send_break", }
+,{"id":"signal_pending", "file":"drivers/char/tty_io.c", "line":2431, "type":"c", "scope_line":2410, "scope_name":"send_break", }
+,{"id":"signal_pending", "file":"drivers/char/tty_io.c", "line":2554, "type":"c", "scope_line":2526, "scope_name":"tty_ioctl", }
+,{"id":"signal_pending", "file":"drivers/char/tty_ioctl.c", "line":158, "type":"c", "scope_line":149, "scope_name":"tty_wait_until_sent", }
+,{"id":"signal_pending", "file":"drivers/char/tty_ioctl.c", "line":619, "type":"c", "scope_line":571, "scope_name":"set_termios", }
+,{"id":"signal_pending", "file":"drivers/char/tty_ioctl.c", "line":686, "type":"c", "scope_line":668, "scope_name":"set_termiox", }
+,{"id":"signal_pending", "file":"drivers/char/tty_port.c", "line":234, "type":"c", "scope_line":224, "scope_name":"tty_port_block_til_ready", }
+,];
+xr_frag_insert('t/ba/44c2fd199bdad80cbafd7a64e84959774f45be.xr', __xr_tmp);

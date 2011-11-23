@@ -1,0 +1,46 @@
+var __xr_tmp = [
+{"id":"lapic_get_maxlvt", "file":"arch/x86/kernel/smpboot.c", "line":584, "type":"c", "scope_line":578, "scope_name":"wakeup_secondary_cpu_via_init", }
+,{"id":"lapic_get_version", "file":"arch/x86/kernel/apic/apic.c", "line":209, "type":"f", }
+,{"id":"lapic_get_version", "file":"arch/x86/kernel/apic/apic.c", "line":235, "type":"c", "scope_line":229, "scope_name":"modern_apic", }
+,{"id":"lapic_id", "file":"include/linux/cper.h", "line":266, "type":"m", "scope_line":264, "scope_name":"struct cper_sec_proc_ia", }
+,{"id":"lapic_insert_resource", "file":"arch/x86/kernel/apic/apic.c", "line":2317, "type":"f", }
+,{"id":"lapic_is_integrated", "file":"arch/x86/kernel/apic/apic.c", "line":1103, "type":"c", "scope_line":1064, "scope_name":"init_bsp_APIC", }
+,{"id":"lapic_is_integrated", "file":"arch/x86/kernel/apic/apic.c", "line":1112, "type":"c", "scope_line":1108, "scope_name":"lapic_setup_esr", }
+,{"id":"lapic_is_integrated", "file":"arch/x86/kernel/apic/apic.c", "line":1314, "type":"c", "scope_line":1153, "scope_name":"setup_local_APIC", }
+,{"id":"lapic_is_integrated", "file":"arch/x86/kernel/apic/apic.c", "line":217, "type":"f", }
+,{"id":"lapic_is_integrated", "file":"arch/x86/kernel/apic/apic.c", "line":297, "type":"c", "scope_line":289, "scope_name":"enable_NMI_through_LVT0", }
+,{"id":"lapic_is_integrated", "file":"arch/x86/kernel/apic/apic.c", "line":352, "type":"c", "scope_line":345, "scope_name":"__setup_APIC_LVTT", }
+,{"id":"lapic_is_integrated", "file":"arch/x86/kernel/apic/apic.c", "line":908, "type":"c", "scope_line":848, "scope_name":"clear_local_APIC", }
+,{"id":"lapic_next_event", "file":"arch/x86/kernel/apic/apic.c", "line":409, "type":"f", }
+,{"id":"lapic_nmi_resume", "file":"arch/x86/kernel/apic/nmi.c", "line":234, "type":"f", }
+,{"id":"lapic_nmi_suspend", "file":"arch/x86/kernel/apic/nmi.c", "line":225, "type":"f", }
+,{"id":"lapic_register_intr", "file":"arch/x86/kernel/apic/io_apic.c", "line":2828, "type":"f", }
+,{"id":"lapic_register_intr", "file":"arch/x86/kernel/apic/io_apic.c", "line":3072, "type":"c", "scope_line":2931, "scope_name":"check_timer", }
+,{"id":"lapic_resource", "file":"arch/x86/kernel/apic/apic.c", "line":174, "type":"v", }
+,{"id":"lapic_resume", "file":"arch/x86/kernel/apic/apic.c", "line":2020, "type":"f", }
+,{"id":"lapic_setup_esr", "file":"arch/x86/kernel/apic/apic.c", "line":1108, "type":"f", }
+,{"id":"lapic_setup_esr", "file":"arch/x86/kernel/apic/apic.c", "line":1329, "type":"c", "scope_line":1327, "scope_name":"end_local_APIC_setup", }
+,{"id":"lapic_shutdown", "file":"arch/x86/kernel/apic/apic.c", "line":958, "type":"f", }
+,{"id":"lapic_shutdown", "file":"arch/x86/kernel/crash.c", "line":101, "type":"c", "scope_line":79, "scope_name":"native_machine_crash_shutdown", }
+,{"id":"lapic_shutdown", "file":"arch/x86/kernel/reboot.c", "line":647, "type":"c", "scope_line":619, "scope_name":"native_machine_shutdown", }
+,{"id":"lapic_suspend", "file":"arch/x86/kernel/apic/apic.c", "line":1982, "type":"f", }
+,{"id":"lapic_sysclass", "file":"arch/x86/kernel/apic/apic.c", "line":2107, "type":"v", }
+,{"id":"lapic_timer_broadcast", "file":"arch/x86/kernel/apic/apic.c", "line":455, "type":"f", }
+,{"id":"lapic_timer_check_state", "file":"drivers/acpi/processor_idle.c", "line":149, "type":"f", }
+,{"id":"lapic_timer_check_state", "file":"drivers/acpi/processor_idle.c", "line":635, "type":"c", "scope_line":606, "scope_name":"acpi_processor_power_verify", }
+,{"id":"lapic_timer_propagate_broadcast", "file":"drivers/acpi/processor_idle.c", "line":183, "type":"f", }
+,{"id":"lapic_timer_propagate_broadcast", "file":"drivers/acpi/processor_idle.c", "line":640, "type":"c", "scope_line":606, "scope_name":"acpi_processor_power_verify", }
+,{"id":"lapic_timer_setup", "file":"arch/x86/kernel/apic/apic.c", "line":419, "type":"f", }
+,{"id":"lapic_timer_setup", "file":"arch/x86/kernel/apic/apic.c", "line":683, "type":"c", "scope_line":593, "scope_name":"calibrate_APIC_clock", }
+,{"id":"lapic_timer_setup", "file":"arch/x86/kernel/apic/apic.c", "line":693, "type":"c", "scope_line":593, "scope_name":"calibrate_APIC_clock", }
+,{"id":"lapic_timer_setup", "file":"arch/x86/kernel/apic/apic.c", "line":790, "type":"c", "scope_line":771, "scope_name":"local_apic_timer_interrupt", }
+,{"id":"lapic_timer_state_broadcast", "file":"drivers/acpi/processor_idle.c", "line":190, "type":"f", }
+,{"id":"lapic_timer_state_broadcast", "file":"drivers/acpi/processor_idle.c", "line":764, "type":"c", "scope_line":742, "scope_name":"acpi_idle_enter_c1", }
+,{"id":"lapic_timer_state_broadcast", "file":"drivers/acpi/processor_idle.c", "line":772, "type":"c", "scope_line":742, "scope_name":"acpi_idle_enter_c1", }
+,{"id":"lapic_timer_state_broadcast", "file":"drivers/acpi/processor_idle.c", "line":820, "type":"c", "scope_line":782, "scope_name":"acpi_idle_enter_simple", }
+,{"id":"lapic_timer_state_broadcast", "file":"drivers/acpi/processor_idle.c", "line":843, "type":"c", "scope_line":782, "scope_name":"acpi_idle_enter_simple", }
+,{"id":"lapic_timer_state_broadcast", "file":"drivers/acpi/processor_idle.c", "line":913, "type":"c", "scope_line":858, "scope_name":"acpi_idle_enter_bm", }
+,{"id":"lapic_timer_state_broadcast", "file":"drivers/acpi/processor_idle.c", "line":960, "type":"c", "scope_line":858, "scope_name":"acpi_idle_enter_bm", }
+,{"id":"lapic_watchdog_init", "file":"arch/x86/kernel/apic/nmi.c", "line":324, "type":"c", "scope_line":312, "scope_name":"setup_apic_nmi_watchdog", }
+,];
+xr_frag_insert('t/06/e838139c14068bd9a8485e8727bf62cdb57260.xr', __xr_tmp);

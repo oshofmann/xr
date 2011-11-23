@@ -1,0 +1,303 @@
+var __xr_tmp = [
+{"id":"proc_fork_connector", "file":"drivers/connector/cn_proc.c", "line":51, "type":"f", }
+,{"id":"proc_fork_connector", "file":"kernel/fork.c", "line":1288, "type":"c", "scope_line":965, "scope_name":"copy_process", }
+,{"id":"proc_fs_info", "file":"fs/namespace.c", "line":793, "type":"s", }
+,{"id":"proc_fs_type", "file":"fs/proc/root.c", "line":98, "type":"v", }
+,{"id":"proc_genhd_init", "file":"block/genhd.c", "line":1099, "type":"f", }
+,{"id":"proc_get_inode", "file":"fs/proc/generic.c", "line":434, "type":"c", "scope_line":417, "scope_name":"proc_lookup_de", }
+,{"id":"proc_get_inode", "file":"fs/proc/inode.c", "line":413, "type":"f", }
+,{"id":"proc_get_inode", "file":"fs/proc/inode.c", "line":468, "type":"c", "scope_line":456, "scope_name":"proc_fill_super", }
+,{"id":"proc_get_link", "file":"include/linux/proc_fs.h", "line":254, "type":"m", "scope_line":253, "scope_name":"union proc_op", }
+,{"id":"proc_get_long", "file":"kernel/sysctl.c", "line":2134, "type":"f", }
+,{"id":"proc_get_long", "file":"kernel/sysctl.c", "line":2291, "type":"c", "scope_line":2244, "scope_name":"__do_proc_dointvec", }
+,{"id":"proc_get_long", "file":"kernel/sysctl.c", "line":2496, "type":"c", "scope_line":2451, "scope_name":"__do_proc_doulongvec_minmax", }
+,{"id":"proc_get_long", "file":"kernel/sysctl.c", "line":2806, "type":"c", "scope_line":2762, "scope_name":"proc_do_large_bitmap", }
+,{"id":"proc_get_long", "file":"kernel/sysctl.c", "line":2822, "type":"c", "scope_line":2762, "scope_name":"proc_do_large_bitmap", }
+,{"id":"proc_get_sb", "file":"fs/proc/root.c", "line":38, "type":"f", }
+,{"id":"proc_getattr", "file":"fs/proc/generic.c", "line":280, "type":"f", }
+,{"id":"proc_handler", "file":"include/linux/sysctl.h", "line":1022, "type":"m", "scope_line":1014, "scope_name":"struct ctl_table", }
+,{"id":"proc_handler", "file":"include/linux/sysctl.h", "line":964, "type":"t", }
+,{"id":"proc_id", "file":"drivers/acpi/acpica/acobject.h", "line":223, "type":"m", "scope_line":220, "scope_name":"struct acpi_object_processor", }
+,{"id":"proc_id", "file":"include/acpi/actypes.h", "line":818, "type":"m", "scope_line":785, "scope_name":"union acpi_object", }
+,{"id":"proc_id", "file":"include/linux/cper.h", "line":256, "type":"m", "scope_line":245, "scope_name":"struct cper_sec_proc_generic", }
+,{"id":"proc_id_connector", "file":"drivers/connector/cn_proc.c", "line":104, "type":"f", }
+,{"id":"proc_id_connector", "file":"kernel/cred.c", "line":526, "type":"c", "scope_line":469, "scope_name":"commit_creds", }
+,{"id":"proc_id_connector", "file":"kernel/cred.c", "line":532, "type":"c", "scope_line":469, "scope_name":"commit_creds", }
+,{"id":"proc_ide_create", "file":"drivers/ide/ide.c", "line":393, "type":"c", "scope_line":373, "scope_name":"ide_init", }
+,{"id":"proc_ide_create", "file":"include/linux/ide.h", "line":939, "type":"f", }
+,{"id":"proc_ide_destroy", "file":"drivers/ide/ide.c", "line":405, "type":"c", "scope_line":403, "scope_name":"ide_exit", }
+,{"id":"proc_ide_destroy", "file":"include/linux/ide.h", "line":940, "type":"f", }
+,{"id":"proc_info", "file":"include/scsi/scsi_host.h", "line":344, "type":"m", "scope_line":52, "scope_name":"struct scsi_host_template", }
+,{"id":"proc_info_file_operations", "file":"fs/proc/base.c", "line":727, "type":"v", }
+,{"id":"proc_info_read", "file":"fs/proc/base.c", "line":697, "type":"f", }
+,{"id":"proc_init_inodecache", "file":"fs/proc/inode.c", "line":81, "type":"f", }
+,{"id":"proc_init_inodecache", "file":"fs/proc/root.c", "line":108, "type":"c", "scope_line":104, "scope_name":"proc_root_init", }
+,{"id":"proc_initialized", "file":"drivers/pci/proc.c", "line":19, "type":"v", }
+,{"id":"proc_inode", "file":"include/linux/proc_fs.h", "line":264, "type":"s", }
+,{"id":"proc_inode_cachep", "file":"fs/proc/inode.c", "line":48, "type":"v", }
+,{"id":"proc_interrupts_init", "file":"fs/proc/interrupts.c", "line":48, "type":"f", }
+,{"id":"proc_interrupts_operations", "file":"fs/proc/interrupts.c", "line":41, "type":"v", }
+,{"id":"proc_inum_ida", "file":"fs/proc/generic.c", "line":344, "type":"v", }
+,{"id":"proc_inum_lock", "file":"fs/proc/generic.c", "line":345, "type":"v", }
+,{"id":"proc_iomem_operations", "file":"kernel/resource.c", "line":127, "type":"v", }
+,{"id":"proc_ioports_operations", "file":"kernel/resource.c", "line":120, "type":"v", }
+,{"id":"proc_iops", "file":"include/linux/proc_fs.h", "line":60, "type":"m", "scope_line":51, "scope_name":"struct proc_dir_entry", }
+,{"id":"proc_ipc_callback_dointvec", "file":"ipc/ipc_sysctl.c", "line":40, "type":"f", }
+,{"id":"proc_ipc_dointvec", "file":"ipc/ipc_sysctl.c", "line":30, "type":"f", }
+,{"id":"proc_ipc_doulongvec_minmax", "file":"ipc/ipc_sysctl.c", "line":63, "type":"f", }
+,{"id":"proc_ipcauto_dointvec_minmax", "file":"ipc/ipc_sysctl.c", "line":97, "type":"f", }
+,{"id":"proc_isa", "file":"include/linux/cper.h", "line":248, "type":"m", "scope_line":245, "scope_name":"struct cper_sec_proc_generic", }
+,{"id":"proc_jbd2_stats", "file":"fs/jbd2/journal.c", "line":795, "type":"v", }
+,{"id":"proc_kcore_init", "file":"fs/proc/kcore.c", "line":615, "type":"f", }
+,{"id":"proc_kcore_operations", "file":"fs/proc/kcore.c", "line":558, "type":"v", }
+,{"id":"proc_kcore_text_init", "file":"fs/proc/kcore.c", "line":589, "type":"f", }
+,{"id":"proc_kcore_text_init", "file":"fs/proc/kcore.c", "line":624, "type":"c", "scope_line":615, "scope_name":"proc_kcore_init", }
+,{"id":"proc_key_users_fops", "file":"security/keys/proc.c", "line":56, "type":"v", }
+,{"id":"proc_key_users_next", "file":"security/keys/proc.c", "line":322, "type":"f", }
+,{"id":"proc_key_users_open", "file":"security/keys/proc.c", "line":300, "type":"f", }
+,{"id":"proc_key_users_ops", "file":"security/keys/proc.c", "line":49, "type":"v", }
+,{"id":"proc_key_users_show", "file":"security/keys/proc.c", "line":334, "type":"f", }
+,{"id":"proc_key_users_start", "file":"security/keys/proc.c", "line":305, "type":"f", }
+,{"id":"proc_key_users_stop", "file":"security/keys/proc.c", "line":328, "type":"f", }
+,{"id":"proc_kill_sb", "file":"fs/proc/root.c", "line":89, "type":"f", }
+,{"id":"proc_kmsg_init", "file":"fs/proc/kmsg.c", "line":59, "type":"f", }
+,{"id":"proc_kmsg_operations", "file":"fs/proc/kmsg.c", "line":51, "type":"v", }
+,{"id":"proc_kpagecount_operations", "file":"fs/proc/page.c", "line":64, "type":"v", }
+,{"id":"proc_kpageflags_operations", "file":"fs/proc/page.c", "line":199, "type":"v", }
+,{"id":"proc_kprobes_optimization_handler", "file":"kernel/kprobes.c", "line":650, "type":"f", }
+,{"id":"proc_link_inode_operations", "file":"fs/proc/generic.c", "line":392, "type":"v", }
+,{"id":"proc_loadavg_init", "file":"fs/proc/loadavg.c", "line":40, "type":"f", }
+,{"id":"proc_locks_init", "file":"fs/locks.c", "line":2209, "type":"f", }
+,{"id":"proc_locks_operations", "file":"fs/locks.c", "line":2202, "type":"v", }
+,{"id":"proc_loginuid_operations", "file":"fs/proc/base.c", "line":1222, "type":"v", }
+,{"id":"proc_loginuid_read", "file":"fs/proc/base.c", "line":1158, "type":"f", }
+,{"id":"proc_loginuid_write", "file":"fs/proc/base.c", "line":1174, "type":"f", }
+,{"id":"proc_lookup", "file":"fs/proc/generic.c", "line":451, "type":"f", }
+,{"id":"proc_lookup", "file":"fs/proc/root.c", "line":150, "type":"c", "scope_line":148, "scope_name":"proc_root_lookup", }
+,{"id":"proc_lookup_de", "file":"fs/proc/generic.c", "line":417, "type":"f", }
+,{"id":"proc_lookup_de", "file":"fs/proc/generic.c", "line":454, "type":"c", "scope_line":451, "scope_name":"proc_lookup", }
+,{"id":"proc_lookup_de", "file":"fs/proc/proc_net.c", "line":130, "type":"c", "scope_line":121, "scope_name":"proc_tgid_net_lookup", }
+,{"id":"proc_lookupfd", "file":"fs/proc/base.c", "line":2018, "type":"f", }
+,{"id":"proc_lookupfd_common", "file":"fs/proc/base.c", "line":1939, "type":"f", }
+,{"id":"proc_lookupfd_common", "file":"fs/proc/base.c", "line":2021, "type":"c", "scope_line":2018, "scope_name":"proc_lookupfd", }
+,{"id":"proc_lookupfd_common", "file":"fs/proc/base.c", "line":2103, "type":"c", "scope_line":2099, "scope_name":"proc_lookupfdinfo", }
+,{"id":"proc_lookupfdinfo", "file":"fs/proc/base.c", "line":2099, "type":"f", }
+,{"id":"proc_lstats_operations", "file":"fs/proc/base.c", "line":421, "type":"v", }
+,{"id":"proc_maps_operations", "file":"fs/proc/task_mmu.c", "line":295, "type":"v", }
+,{"id":"proc_maps_private", "file":"include/linux/proc_fs.h", "line":289, "type":"s", }
+,{"id":"proc_match", "file":"fs/proc/generic.c", "line":31, "type":"f", }
+,{"id":"proc_match", "file":"fs/proc/generic.c", "line":319, "type":"c", "scope_line":301, "scope_name":"__xlate_proc_name", }
+,{"id":"proc_match", "file":"fs/proc/generic.c", "line":807, "type":"c", "scope_line":792, "scope_name":"remove_proc_entry", }
+,{"id":"proc_mem_operations", "file":"fs/proc/base.c", "line":912, "type":"v", }
+,{"id":"proc_meminfo_init", "file":"fs/proc/meminfo.c", "line":176, "type":"f", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/ac.c", "line":196, "type":"c", "scope_line":190, "scope_name":"acpi_ac_add_fs", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/battery.c", "line":830, "type":"c", "scope_line":824, "scope_name":"acpi_battery_add_fs", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/bus.c", "line":973, "type":"c", "scope_line":903, "scope_name":"acpi_bus_init", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/button.c", "line":172, "type":"c", "scope_line":164, "scope_name":"acpi_button_add_fs", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/button.c", "line":178, "type":"c", "scope_line":164, "scope_name":"acpi_button_add_fs", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/button.c", "line":184, "type":"c", "scope_line":164, "scope_name":"acpi_button_add_fs", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/button.c", "line":193, "type":"c", "scope_line":164, "scope_name":"acpi_button_add_fs", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/button.c", "line":465, "type":"c", "scope_line":461, "scope_name":"acpi_button_init", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/cm_sbs.c", "line":49, "type":"c", "scope_line":45, "scope_name":"acpi_lock_ac_dir", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/cm_sbs.c", "line":78, "type":"c", "scope_line":74, "scope_name":"acpi_lock_battery_dir", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/fan.c", "line":198, "type":"c", "scope_line":189, "scope_name":"acpi_fan_add_fs", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/fan.c", "line":351, "type":"c", "scope_line":346, "scope_name":"acpi_fan_init", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/processor_driver.c", "line":255, "type":"c", "scope_line":249, "scope_name":"acpi_processor_add_fs", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/processor_driver.c", "line":845, "type":"c", "scope_line":836, "scope_name":"acpi_processor_init", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/sbs.c", "line":499, "type":"c", "scope_line":490, "scope_name":"acpi_sbs_add_fs", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/thermal.c", "line":1234, "type":"c", "scope_line":1228, "scope_name":"acpi_thermal_add_fs", }
+,{"id":"proc_mkdir", "file":"drivers/acpi/thermal.c", "line":1584, "type":"c", "scope_line":1572, "scope_name":"acpi_thermal_init", }
+,{"id":"proc_mkdir", "file":"drivers/block/pktcdvd.c", "line":3089, "type":"c", "scope_line":3058, "scope_name":"pkt_init", }
+,{"id":"proc_mkdir", "file":"drivers/input/input.c", "line":1114, "type":"c", "scope_line":1110, "scope_name":"input_proc_init", }
+,{"id":"proc_mkdir", "file":"drivers/pci/proc.c", "line":413, "type":"c", "scope_line":397, "scope_name":"pci_proc_attach_device", }
+,{"id":"proc_mkdir", "file":"drivers/pci/proc.c", "line":482, "type":"c", "scope_line":479, "scope_name":"pci_proc_init", }
+,{"id":"proc_mkdir", "file":"fs/ext4/super.c", "line":2896, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"proc_mkdir", "file":"fs/ext4/super.c", "line":4303, "type":"c", "scope_line":4292, "scope_name":"init_ext4_fs", }
+,{"id":"proc_mkdir", "file":"fs/jbd2/journal.c", "line":2273, "type":"c", "scope_line":2271, "scope_name":"jbd2_create_jbd_stats_proc_entry", }
+,{"id":"proc_mkdir", "file":"fs/jbd2/journal.c", "line":799, "type":"c", "scope_line":797, "scope_name":"jbd2_stats_proc_init", }
+,{"id":"proc_mkdir", "file":"fs/proc/generic.c", "line":698, "type":"f", }
+,{"id":"proc_mkdir", "file":"fs/proc/proc_sysctl.c", "line":418, "type":"c", "scope_line":414, "scope_name":"proc_sys_init", }
+,{"id":"proc_mkdir", "file":"fs/proc/proc_tty.c", "line":177, "type":"c", "scope_line":175, "scope_name":"proc_tty_init", }
+,{"id":"proc_mkdir", "file":"fs/proc/proc_tty.c", "line":179, "type":"c", "scope_line":175, "scope_name":"proc_tty_init", }
+,{"id":"proc_mkdir", "file":"fs/proc/root.c", "line":123, "type":"c", "scope_line":104, "scope_name":"proc_root_init", }
+,{"id":"proc_mkdir", "file":"fs/proc/root.c", "line":125, "type":"c", "scope_line":104, "scope_name":"proc_root_init", }
+,{"id":"proc_mkdir", "file":"fs/proc/root.c", "line":126, "type":"c", "scope_line":104, "scope_name":"proc_root_init", }
+,{"id":"proc_mkdir", "file":"fs/proc/root.c", "line":127, "type":"c", "scope_line":104, "scope_name":"proc_root_init", }
+,{"id":"proc_mkdir", "file":"fs/proc/root.c", "line":136, "type":"c", "scope_line":104, "scope_name":"proc_root_init", }
+,{"id":"proc_mkdir", "file":"kernel/irq/proc.c", "line":261, "type":"c", "scope_line":248, "scope_name":"register_handler_proc", }
+,{"id":"proc_mkdir", "file":"kernel/irq/proc.c", "line":279, "type":"c", "scope_line":268, "scope_name":"register_irq_proc", }
+,{"id":"proc_mkdir", "file":"kernel/irq/proc.c", "line":325, "type":"c", "scope_line":319, "scope_name":"init_irq_proc", }
+,{"id":"proc_mkdir", "file":"net/ipv6/proc.c", "line":293, "type":"c", "scope_line":284, "scope_name":"ipv6_proc_init_net", }
+,{"id":"proc_mkdir", "file":"net/netfilter/core.c", "line":264, "type":"c", "scope_line":255, "scope_name":"netfilter_init", }
+,{"id":"proc_mkdir_mode", "file":"fs/proc/generic.c", "line":666, "type":"f", }
+,{"id":"proc_mkdir_mode", "file":"fs/proc/generic.c", "line":701, "type":"c", "scope_line":698, "scope_name":"proc_mkdir", }
+,{"id":"proc_mkdir_mode", "file":"fs/proc/proc_tty.c", "line":186, "type":"c", "scope_line":175, "scope_name":"proc_tty_init", }
+,{"id":"proc_mnt", "file":"fs/proc/internal.h", "line":109, "type":"v", }
+,{"id":"proc_mnt", "file":"include/linux/pid_namespace.h", "line":28, "type":"m", "scope_line":19, "scope_name":"struct pid_namespace", }
+,{"id":"proc_modules_init", "file":"kernel/module.c", "line":3076, "type":"f", }
+,{"id":"proc_modules_operations", "file":"kernel/module.c", "line":3069, "type":"v", }
+,{"id":"proc_mountinfo_operations", "file":"fs/proc/base.c", "line":675, "type":"v", }
+,{"id":"proc_mounts", "file":"include/linux/mnt_namespace.h", "line":17, "type":"s", }
+,{"id":"proc_mounts_operations", "file":"fs/proc/base.c", "line":662, "type":"v", }
+,{"id":"proc_mountstats_operations", "file":"fs/proc/base.c", "line":688, "type":"v", }
+,{"id":"proc_mq_dointvec", "file":"ipc/mq_sysctl.c", "line":34, "type":"f", }
+,{"id":"proc_mq_dointvec_minmax", "file":"ipc/mq_sysctl.c", "line":44, "type":"f", }
+,{"id":"proc_name", "file":"include/linux/atmdev.h", "line":371, "type":"m", "scope_line":351, "scope_name":"struct atm_dev", }
+,{"id":"proc_name", "file":"include/scsi/scsi_host.h", "line":362, "type":"m", "scope_line":52, "scope_name":"struct scsi_host_template", }
+,{"id":"proc_net", "file":"include/net/net_namespace.h", "line":48, "type":"m", "scope_line":35, "scope_name":"struct net", }
+,{"id":"proc_net_devsnmp6", "file":"include/net/netns/mib.h", "line":16, "type":"m", "scope_line":6, "scope_name":"struct netns_mib", }
+,{"id":"proc_net_fops_create", "file":"drivers/connector/connector.c", "line":295, "type":"c", "scope_line":275, "scope_name":"cn_init", }
+,{"id":"proc_net_fops_create", "file":"fs/proc/proc_net.c", "line":181, "type":"f", }
+,{"id":"proc_net_fops_create", "file":"net/core/dev.c", "line":3957, "type":"c", "scope_line":3953, "scope_name":"dev_proc_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/core/dev.c", "line":3959, "type":"c", "scope_line":3953, "scope_name":"dev_proc_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/core/dev.c", "line":3961, "type":"c", "scope_line":3953, "scope_name":"dev_proc_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/core/dev_addr_lists.c", "line":722, "type":"c", "scope_line":720, "scope_name":"dev_mc_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/core/sock.c", "line":2520, "type":"c", "scope_line":2518, "scope_name":"proto_init_net", }
+,{"id":"proc_net_fops_create", "file":"net/ipv4/arp.c", "line":1434, "type":"c", "scope_line":1432, "scope_name":"arp_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv4/fib_hash.c", "line":1061, "type":"c", "scope_line":1059, "scope_name":"fib_proc_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv4/igmp.c", "line":2665, "type":"c", "scope_line":2661, "scope_name":"igmp_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv4/igmp.c", "line":2668, "type":"c", "scope_line":2661, "scope_name":"igmp_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv4/ipmr.c", "line":2387, "type":"c", "scope_line":2377, "scope_name":"ipmr_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv4/ipmr.c", "line":2389, "type":"c", "scope_line":2377, "scope_name":"ipmr_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv4/proc.c", "line":461, "type":"c", "scope_line":459, "scope_name":"ip_proc_init_net", }
+,{"id":"proc_net_fops_create", "file":"net/ipv4/proc.c", "line":463, "type":"c", "scope_line":459, "scope_name":"ip_proc_init_net", }
+,{"id":"proc_net_fops_create", "file":"net/ipv4/proc.c", "line":465, "type":"c", "scope_line":459, "scope_name":"ip_proc_init_net", }
+,{"id":"proc_net_fops_create", "file":"net/ipv4/raw.c", "line":1009, "type":"c", "scope_line":1007, "scope_name":"raw_init_net", }
+,{"id":"proc_net_fops_create", "file":"net/ipv4/route.c", "line":556, "type":"c", "scope_line":552, "scope_name":"ip_rt_do_proc_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv6/addrconf.c", "line":3113, "type":"c", "scope_line":3111, "scope_name":"if6_proc_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv6/anycast.c", "line":538, "type":"c", "scope_line":536, "scope_name":"ac6_proc_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv6/ip6_flowlabel.c", "line":742, "type":"c", "scope_line":740, "scope_name":"ip6_flowlabel_proc_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv6/mcast.c", "line":2594, "type":"c", "scope_line":2589, "scope_name":"igmp6_proc_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv6/mcast.c", "line":2596, "type":"c", "scope_line":2589, "scope_name":"igmp6_proc_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv6/proc.c", "line":286, "type":"c", "scope_line":284, "scope_name":"ipv6_proc_init_net", }
+,{"id":"proc_net_fops_create", "file":"net/ipv6/proc.c", "line":290, "type":"c", "scope_line":284, "scope_name":"ipv6_proc_init_net", }
+,{"id":"proc_net_fops_create", "file":"net/ipv6/raw.c", "line":1285, "type":"c", "scope_line":1283, "scope_name":"raw6_init_net", }
+,{"id":"proc_net_fops_create", "file":"net/ipv6/route.c", "line":2700, "type":"c", "scope_line":2654, "scope_name":"ip6_route_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/ipv6/route.c", "line":2701, "type":"c", "scope_line":2654, "scope_name":"ip6_route_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/netlink/af_netlink.c", "line":2092, "type":"c", "scope_line":2089, "scope_name":"netlink_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/packet/af_packet.c", "line":2682, "type":"c", "scope_line":2677, "scope_name":"packet_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/sched/sch_api.c", "line":1717, "type":"c", "scope_line":1713, "scope_name":"psched_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/unix/af_unix.c", "line":2269, "type":"c", "scope_line":2260, "scope_name":"unix_net_init", }
+,{"id":"proc_net_fops_create", "file":"net/wireless/wext-proc.c", "line":146, "type":"c", "scope_line":143, "scope_name":"wext_proc_init", }
+,{"id":"proc_net_init", "file":"fs/proc/proc_net.c", "line":236, "type":"f", }
+,{"id":"proc_net_init", "file":"fs/proc/root.c", "line":120, "type":"c", "scope_line":104, "scope_name":"proc_root_init", }
+,{"id":"proc_net_inode_operations", "file":"fs/proc/proc_net.c", "line":154, "type":"v", }
+,{"id":"proc_net_mkdir", "file":"fs/proc/generic.c", "line":681, "type":"f", }
+,{"id":"proc_net_mkdir", "file":"fs/proc/proc_net.c", "line":211, "type":"c", "scope_line":194, "scope_name":"proc_net_ns_init", }
+,{"id":"proc_net_netfilter", "file":"include/linux/netfilter.h", "line":330, "type":"v", }
+,{"id":"proc_net_ns_exit", "file":"fs/proc/proc_net.c", "line":225, "type":"f", }
+,{"id":"proc_net_ns_init", "file":"fs/proc/proc_net.c", "line":194, "type":"f", }
+,{"id":"proc_net_ns_ops", "file":"fs/proc/proc_net.c", "line":231, "type":"v", }
+,{"id":"proc_net_operations", "file":"fs/proc/proc_net.c", "line":174, "type":"v", }
+,{"id":"proc_net_remove", "file":"drivers/connector/connector.c", "line":306, "type":"c", "scope_line":300, "scope_name":"cn_fini", }
+,{"id":"proc_net_remove", "file":"fs/proc/proc_net.c", "line":188, "type":"f", }
+,{"id":"proc_net_remove", "file":"net/core/dev.c", "line":3970, "type":"c", "scope_line":3953, "scope_name":"dev_proc_net_init", }
+,{"id":"proc_net_remove", "file":"net/core/dev.c", "line":3972, "type":"c", "scope_line":3953, "scope_name":"dev_proc_net_init", }
+,{"id":"proc_net_remove", "file":"net/core/dev.c", "line":3974, "type":"c", "scope_line":3953, "scope_name":"dev_proc_net_init", }
+,{"id":"proc_net_remove", "file":"net/core/dev.c", "line":3982, "type":"c", "scope_line":3978, "scope_name":"dev_proc_net_exit", }
+,{"id":"proc_net_remove", "file":"net/core/dev.c", "line":3983, "type":"c", "scope_line":3978, "scope_name":"dev_proc_net_exit", }
+,{"id":"proc_net_remove", "file":"net/core/dev.c", "line":3984, "type":"c", "scope_line":3978, "scope_name":"dev_proc_net_exit", }
+,{"id":"proc_net_remove", "file":"net/core/dev_addr_lists.c", "line":729, "type":"c", "scope_line":727, "scope_name":"dev_mc_net_exit", }
+,{"id":"proc_net_remove", "file":"net/core/sock.c", "line":2528, "type":"c", "scope_line":2526, "scope_name":"proto_exit_net", }
+,{"id":"proc_net_remove", "file":"net/ipv4/arp.c", "line":1441, "type":"c", "scope_line":1439, "scope_name":"arp_net_exit", }
+,{"id":"proc_net_remove", "file":"net/ipv4/fib_hash.c", "line":1068, "type":"c", "scope_line":1066, "scope_name":"fib_proc_exit", }
+,{"id":"proc_net_remove", "file":"net/ipv4/igmp.c", "line":2674, "type":"c", "scope_line":2661, "scope_name":"igmp_net_init", }
+,{"id":"proc_net_remove", "file":"net/ipv4/igmp.c", "line":2681, "type":"c", "scope_line":2679, "scope_name":"igmp_net_exit", }
+,{"id":"proc_net_remove", "file":"net/ipv4/igmp.c", "line":2682, "type":"c", "scope_line":2679, "scope_name":"igmp_net_exit", }
+,{"id":"proc_net_remove", "file":"net/ipv4/ipmr.c", "line":2396, "type":"c", "scope_line":2377, "scope_name":"ipmr_net_init", }
+,{"id":"proc_net_remove", "file":"net/ipv4/ipmr.c", "line":2407, "type":"c", "scope_line":2404, "scope_name":"ipmr_net_exit", }
+,{"id":"proc_net_remove", "file":"net/ipv4/ipmr.c", "line":2408, "type":"c", "scope_line":2404, "scope_name":"ipmr_net_exit", }
+,{"id":"proc_net_remove", "file":"net/ipv4/proc.c", "line":471, "type":"c", "scope_line":459, "scope_name":"ip_proc_init_net", }
+,{"id":"proc_net_remove", "file":"net/ipv4/proc.c", "line":473, "type":"c", "scope_line":459, "scope_name":"ip_proc_init_net", }
+,{"id":"proc_net_remove", "file":"net/ipv4/proc.c", "line":480, "type":"c", "scope_line":478, "scope_name":"ip_proc_exit_net", }
+,{"id":"proc_net_remove", "file":"net/ipv4/proc.c", "line":481, "type":"c", "scope_line":478, "scope_name":"ip_proc_exit_net", }
+,{"id":"proc_net_remove", "file":"net/ipv4/proc.c", "line":482, "type":"c", "scope_line":478, "scope_name":"ip_proc_exit_net", }
+,{"id":"proc_net_remove", "file":"net/ipv4/raw.c", "line":1017, "type":"c", "scope_line":1015, "scope_name":"raw_exit_net", }
+,{"id":"proc_net_remove", "file":"net/ipv4/tcp_ipv4.c", "line":2377, "type":"c", "scope_line":2375, "scope_name":"tcp_proc_unregister", }
+,{"id":"proc_net_remove", "file":"net/ipv4/udp.c", "line":2034, "type":"c", "scope_line":2032, "scope_name":"udp_proc_unregister", }
+,{"id":"proc_net_remove", "file":"net/ipv6/addrconf.c", "line":3120, "type":"c", "scope_line":3118, "scope_name":"if6_proc_net_exit", }
+,{"id":"proc_net_remove", "file":"net/ipv6/anycast.c", "line":546, "type":"c", "scope_line":544, "scope_name":"ac6_proc_exit", }
+,{"id":"proc_net_remove", "file":"net/ipv6/ip6_flowlabel.c", "line":750, "type":"c", "scope_line":748, "scope_name":"ip6_flowlabel_proc_fini", }
+,{"id":"proc_net_remove", "file":"net/ipv6/mcast.c", "line":2605, "type":"c", "scope_line":2589, "scope_name":"igmp6_proc_init", }
+,{"id":"proc_net_remove", "file":"net/ipv6/mcast.c", "line":2611, "type":"c", "scope_line":2609, "scope_name":"igmp6_proc_exit", }
+,{"id":"proc_net_remove", "file":"net/ipv6/mcast.c", "line":2612, "type":"c", "scope_line":2609, "scope_name":"igmp6_proc_exit", }
+,{"id":"proc_net_remove", "file":"net/ipv6/proc.c", "line":299, "type":"c", "scope_line":284, "scope_name":"ipv6_proc_init_net", }
+,{"id":"proc_net_remove", "file":"net/ipv6/proc.c", "line":301, "type":"c", "scope_line":284, "scope_name":"ipv6_proc_init_net", }
+,{"id":"proc_net_remove", "file":"net/ipv6/proc.c", "line":307, "type":"c", "scope_line":305, "scope_name":"ipv6_proc_exit_net", }
+,{"id":"proc_net_remove", "file":"net/ipv6/proc.c", "line":308, "type":"c", "scope_line":305, "scope_name":"ipv6_proc_exit_net", }
+,{"id":"proc_net_remove", "file":"net/ipv6/proc.c", "line":309, "type":"c", "scope_line":305, "scope_name":"ipv6_proc_exit_net", }
+,{"id":"proc_net_remove", "file":"net/ipv6/raw.c", "line":1293, "type":"c", "scope_line":1291, "scope_name":"raw6_exit_net", }
+,{"id":"proc_net_remove", "file":"net/ipv6/route.c", "line":2722, "type":"c", "scope_line":2719, "scope_name":"ip6_route_net_exit", }
+,{"id":"proc_net_remove", "file":"net/ipv6/route.c", "line":2723, "type":"c", "scope_line":2719, "scope_name":"ip6_route_net_exit", }
+,{"id":"proc_net_remove", "file":"net/netlink/af_netlink.c", "line":2101, "type":"c", "scope_line":2098, "scope_name":"netlink_net_exit", }
+,{"id":"proc_net_remove", "file":"net/packet/af_packet.c", "line":2690, "type":"c", "scope_line":2688, "scope_name":"packet_net_exit", }
+,{"id":"proc_net_remove", "file":"net/sched/sch_api.c", "line":1726, "type":"c", "scope_line":1724, "scope_name":"psched_net_exit", }
+,{"id":"proc_net_remove", "file":"net/unix/af_unix.c", "line":2282, "type":"c", "scope_line":2279, "scope_name":"unix_net_exit", }
+,{"id":"proc_net_remove", "file":"net/wireless/wext-proc.c", "line":154, "type":"c", "scope_line":152, "scope_name":"wext_proc_exit", }
+,{"id":"proc_net_stat", "file":"include/net/net_namespace.h", "line":49, "type":"m", "scope_line":35, "scope_name":"struct net", }
+,{"id":"proc_nmi_enabled", "file":"arch/x86/kernel/apic/nmi.c", "line":506, "type":"f", }
+,{"id":"proc_notify_change", "file":"fs/proc/generic.c", "line":254, "type":"f", }
+,{"id":"proc_nr_files", "file":"fs/file_table.c", "line":81, "type":"f", }
+,{"id":"proc_numa_maps_operations", "file":"fs/proc/task_mmu.c", "line":825, "type":"v", }
+,{"id":"proc_oom_adjust_operations", "file":"fs/proc/base.c", "line":1074, "type":"v", }
+,{"id":"proc_oom_score", "file":"fs/proc/base.c", "line":431, "type":"f", }
+,{"id":"proc_oom_score_adj_operations", "file":"fs/proc/base.c", "line":1151, "type":"v", }
+,{"id":"proc_op", "file":"include/linux/proc_fs.h", "line":253, "type":"u", }
+,{"id":"proc_page_init", "file":"fs/proc/page.c", "line":204, "type":"f", }
+,{"id":"proc_pagemap_operations", "file":"fs/proc/task_mmu.c", "line":804, "type":"v", }
+,{"id":"proc_partitions_operations", "file":"block/genhd.c", "line":776, "type":"v", }
+,{"id":"proc_pid", "file":"fs/proc/base.c", "line":1186, "type":"c", "scope_line":1174, "scope_name":"proc_loginuid_write", }
+,{"id":"proc_pid", "file":"fs/proc/base.c", "line":1641, "type":"c", "scope_line":1630, "scope_name":"pid_getattr", }
+,{"id":"proc_pid", "file":"fs/proc/base.c", "line":1704, "type":"c", "scope_line":1698, "scope_name":"pid_delete_dentry", }
+,{"id":"proc_pid", "file":"fs/proc/base.c", "line":2060, "type":"c", "scope_line":2053, "scope_name":"proc_fd_permission", }
+,{"id":"proc_pid", "file":"fs/proc/base.c", "line":741, "type":"c", "scope_line":732, "scope_name":"proc_single_show", }
+,{"id":"proc_pid", "file":"fs/proc/internal.h", "line":66, "type":"f", }
+,{"id":"proc_pid", "file":"fs/proc/internal.h", "line":73, "type":"c", "scope_line":71, "scope_name":"get_proc_task", }
+,{"id":"proc_pid", "file":"fs/proc/proc_net.c", "line":110, "type":"c", "scope_line":103, "scope_name":"get_proc_task_net", }
+,{"id":"proc_pid", "file":"fs/proc/task_mmu.c", "line":194, "type":"c", "scope_line":187, "scope_name":"do_maps_open", }
+,{"id":"proc_pid_attr_operations", "file":"fs/proc/base.c", "line":2321, "type":"v", }
+,{"id":"proc_pid_attr_read", "file":"fs/proc/base.c", "line":2255, "type":"f", }
+,{"id":"proc_pid_attr_write", "file":"fs/proc/base.c", "line":2276, "type":"f", }
+,{"id":"proc_pid_auxv", "file":"fs/proc/base.c", "line":280, "type":"f", }
+,{"id":"proc_pid_cmdline", "file":"fs/proc/base.c", "line":243, "type":"f", }
+,{"id":"proc_pid_fill_cache", "file":"fs/proc/base.c", "line":2959, "type":"f", }
+,{"id":"proc_pid_fill_cache", "file":"fs/proc/base.c", "line":2992, "type":"c", "scope_line":2969, "scope_name":"proc_pid_readdir", }
+,{"id":"proc_pid_follow_link", "file":"fs/proc/base.c", "line":1503, "type":"f", }
+,{"id":"proc_pid_instantiate", "file":"fs/proc/base.c", "line":2855, "type":"f", }
+,{"id":"proc_pid_instantiate", "file":"fs/proc/base.c", "line":2908, "type":"c", "scope_line":2884, "scope_name":"proc_pid_lookup", }
+,{"id":"proc_pid_limits", "file":"fs/proc/base.c", "line":468, "type":"f", }
+,{"id":"proc_pid_link_inode_operations", "file":"fs/proc/base.c", "line":1564, "type":"v", }
+,{"id":"proc_pid_lookup", "file":"fs/proc/base.c", "line":2884, "type":"f", }
+,{"id":"proc_pid_lookup", "file":"fs/proc/root.c", "line":154, "type":"c", "scope_line":148, "scope_name":"proc_root_lookup", }
+,{"id":"proc_pid_make_inode", "file":"fs/proc/base.c", "line":1589, "type":"f", }
+,{"id":"proc_pid_make_inode", "file":"fs/proc/base.c", "line":1895, "type":"c", "scope_line":1885, "scope_name":"proc_fd_instantiate", }
+,{"id":"proc_pid_make_inode", "file":"fs/proc/base.c", "line":2082, "type":"c", "scope_line":2074, "scope_name":"proc_fdinfo_instantiate", }
+,{"id":"proc_pid_make_inode", "file":"fs/proc/base.c", "line":2134, "type":"c", "scope_line":2126, "scope_name":"proc_pident_instantiate", }
+,{"id":"proc_pid_make_inode", "file":"fs/proc/base.c", "line":2862, "type":"c", "scope_line":2855, "scope_name":"proc_pid_instantiate", }
+,{"id":"proc_pid_make_inode", "file":"fs/proc/base.c", "line":3104, "type":"c", "scope_line":3099, "scope_name":"proc_task_instantiate", }
+,{"id":"proc_pid_maps_op", "file":"fs/proc/task_mmu.c", "line":283, "type":"v", }
+,{"id":"proc_pid_numa_maps_op", "file":"fs/proc/task_mmu.c", "line":813, "type":"v", }
+,{"id":"proc_pid_personality", "file":"fs/proc/base.c", "line":2654, "type":"f", }
+,{"id":"proc_pid_readdir", "file":"fs/proc/base.c", "line":2969, "type":"f", }
+,{"id":"proc_pid_readdir", "file":"fs/proc/root.c", "line":170, "type":"c", "scope_line":157, "scope_name":"proc_root_readdir", }
+,{"id":"proc_pid_readlink", "file":"fs/proc/base.c", "line":1544, "type":"f", }
+,{"id":"proc_pid_sched_operations", "file":"fs/proc/base.c", "line":1352, "type":"v", }
+,{"id":"proc_pid_schedstat", "file":"fs/proc/base.c", "line":356, "type":"f", }
+,{"id":"proc_pid_set_comm_operations", "file":"fs/proc/base.c", "line":1420, "type":"v", }
+,{"id":"proc_pid_smaps_op", "file":"fs/proc/task_mmu.c", "line":433, "type":"v", }
+,{"id":"proc_pid_stack", "file":"fs/proc/base.c", "line":325, "type":"f", }
+,{"id":"proc_pid_statm", "file":"fs/proc/array.c", "line":535, "type":"f", }
+,{"id":"proc_pid_status", "file":"fs/proc/array.c", "line":340, "type":"f", }
+,{"id":"proc_pid_syscall", "file":"fs/proc/base.c", "line":513, "type":"f", }
+,{"id":"proc_pid_wchan", "file":"fs/proc/base.c", "line":304, "type":"f", }
+,{"id":"proc_pident_fill_cache", "file":"fs/proc/base.c", "line":2191, "type":"f", }
+,{"id":"proc_pident_fill_cache", "file":"fs/proc/base.c", "line":2240, "type":"c", "scope_line":2198, "scope_name":"proc_pident_readdir", }
+,{"id":"proc_pident_instantiate", "file":"fs/proc/base.c", "line":2126, "type":"f", }
+,{"id":"proc_pident_instantiate", "file":"fs/proc/base.c", "line":2184, "type":"c", "scope_line":2156, "scope_name":"proc_pident_lookup", }
+,{"id":"proc_pident_lookup", "file":"fs/proc/base.c", "line":2156, "type":"f", }
+,{"id":"proc_pident_lookup", "file":"fs/proc/base.c", "line":2351, "type":"c", "scope_line":2348, "scope_name":"proc_attr_dir_lookup", }
+,{"id":"proc_pident_lookup", "file":"fs/proc/base.c", "line":2757, "type":"c", "scope_line":2756, "scope_name":"proc_tgid_base_lookup", }
+,{"id":"proc_pident_lookup", "file":"fs/proc/base.c", "line":3084, "type":"c", "scope_line":3083, "scope_name":"proc_tid_base_lookup", }
+,{"id":"proc_pident_readdir", "file":"fs/proc/base.c", "line":2198, "type":"f", }
+,];
+xr_frag_insert('t/cd/337c8160165e89531e40b1f137a7b33bc05a4f.xr', __xr_tmp);

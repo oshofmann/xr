@@ -1,0 +1,194 @@
+var __xr_tmp = [
+{"id":"kernel_restart_prepare", "file":"kernel/sys.c", "line":292, "type":"f", }
+,{"id":"kernel_restart_prepare", "file":"kernel/sys.c", "line":310, "type":"c", "scope_line":308, "scope_name":"kernel_restart", }
+,{"id":"kernel_root_table2", "file":"arch/x86/kernel/vsyscall_64.c", "line":245, "type":"v", }
+,{"id":"kernel_rpl", "file":"arch/x86/include/asm/paravirt_types.h", "line":64, "type":"m", "scope_line":63, "scope_name":"struct pv_info", }
+,{"id":"kernel_sendmsg", "file":"net/core/sock.c", "line":1840, "type":"c", "scope_line":1832, "scope_name":"sock_no_sendpage", }
+,{"id":"kernel_sendmsg", "file":"net/socket.c", "line":585, "type":"f", }
+,{"id":"kernel_sendpage", "file":"net/socket.c", "line":3087, "type":"f", }
+,{"id":"kernel_sendpage", "file":"net/socket.c", "line":770, "type":"c", "scope_line":758, "scope_name":"sock_sendpage", }
+,{"id":"kernel_set_to_readonly", "file":"arch/x86/include/asm/cacheflush.h", "line":188, "type":"v", }
+,{"id":"kernel_setsockopt", "file":"net/socket.c", "line":3070, "type":"f", }
+,{"id":"kernel_shutdown_prepare", "file":"kernel/sys.c", "line":319, "type":"f", }
+,{"id":"kernel_shutdown_prepare", "file":"kernel/sys.c", "line":333, "type":"c", "scope_line":331, "scope_name":"kernel_halt", }
+,{"id":"kernel_shutdown_prepare", "file":"kernel/sys.c", "line":348, "type":"c", "scope_line":346, "scope_name":"kernel_power_off", }
+,{"id":"kernel_sock_ioctl", "file":"net/socket.c", "line":3099, "type":"f", }
+,{"id":"kernel_sock_shutdown", "file":"net/socket.c", "line":3112, "type":"f", }
+,{"id":"kernel_sp", "file":"arch/x86/include/asm/xen/interface.h", "line":138, "type":"m", "scope_line":127, "scope_name":"struct vcpu_guest_context", }
+,{"id":"kernel_ss", "file":"arch/x86/include/asm/xen/interface.h", "line":138, "type":"m", "scope_line":127, "scope_name":"struct vcpu_guest_context", }
+,{"id":"kernel_stack", "file":"arch/x86/kernel/cpu/common.c", "line":1017, "type":"v", }
+,{"id":"kernel_stack_pointer", "file":"arch/x86/include/asm/ptrace.h", "line":196, "type":"f", }
+,{"id":"kernel_stack_pointer", "file":"arch/x86/include/asm/ptrace.h", "line":253, "type":"c", "scope_line":250, "scope_name":"regs_within_kernel_stack", }
+,{"id":"kernel_stack_pointer", "file":"arch/x86/include/asm/ptrace.h", "line":269, "type":"c", "scope_line":266, "scope_name":"regs_get_kernel_stack_nth", }
+,{"id":"kernel_stack_pointer", "file":"arch/x86/kernel/kprobes.c", "line":1046, "type":"c", "scope_line":1039, "scope_name":"setjmp_pre_handler", }
+,{"id":"kernel_stack_pointer", "file":"arch/x86/kernel/kprobes.c", "line":1089, "type":"c", "scope_line":1081, "scope_name":"longjmp_break_handler", }
+,{"id":"kernel_stack_pointer", "file":"arch/x86/kernel/kprobes.c", "line":1091, "type":"c", "scope_line":1081, "scope_name":"longjmp_break_handler", }
+,{"id":"kernel_stack_pointer", "file":"arch/x86/kernel/kprobes.c", "line":448, "type":"c", "scope_line":445, "scope_name":"arch_prepare_kretprobe", }
+,{"id":"kernel_stack_pointer", "file":"arch/x86/kernel/kprobes.c", "line":822, "type":"c", "scope_line":819, "scope_name":"resume_execution", }
+,{"id":"kernel_stack_pointer", "file":"arch/x86/kernel/process.c", "line":94, "type":"c", "scope_line":91, "scope_name":"show_regs", }
+,{"id":"kernel_stack_pointer", "file":"kernel/trace/trace_kprobe.c", "line":444, "type":"c", "scope_line":441, "scope_name":"fetch_stack_address", }
+,{"id":"kernel_stat", "file":"include/linux/kernel_stat.h", "line":31, "type":"s", }
+,{"id":"kernel_symbol", "file":"include/linux/module.h", "line":37, "type":"s", }
+,{"id":"kernel_table2", "file":"arch/x86/kernel/vsyscall_64.c", "line":237, "type":"v", }
+,{"id":"kernel_termios_to_user_termio", "file":"drivers/char/tty_ioctl.c", "line":650, "type":"c", "scope_line":646, "scope_name":"get_termio", }
+,{"id":"kernel_termios_to_user_termio", "file":"include/asm-generic/termios.h", "line":100, "type":"f", }
+,{"id":"kernel_termios_to_user_termios", "file":"drivers/char/tty_ioctl.c", "line":1000, "type":"c", "scope_line":946, "scope_name":"tty_mode_ioctl", }
+,{"id":"kernel_termios_to_user_termios", "file":"include/asm-generic/termios.h", "line":121, "type":"f", }
+,{"id":"kernel_termios_to_user_termios_1", "file":"drivers/char/tty_ioctl.c", "line":1038, "type":"c", "scope_line":946, "scope_name":"tty_mode_ioctl", }
+,{"id":"kernel_termios_to_user_termios_1", "file":"drivers/char/tty_ioctl.c", "line":995, "type":"c", "scope_line":946, "scope_name":"tty_mode_ioctl", }
+,{"id":"kernel_termios_to_user_termios_1", "file":"include/asm-generic/termios.h", "line":133, "type":"f", }
+,{"id":"kernel_text_address", "file":"kernel/extable.c", "line":94, "type":"f", }
+,{"id":"kernel_text_address", "file":"kernel/kprobes.c", "line":1142, "type":"c", "scope_line":1125, "scope_name":"register_kprobe", }
+,{"id":"kernel_text_address", "file":"kernel/kprobes.c", "line":1346, "type":"c", "scope_line":1334, "scope_name":"register_jprobes", }
+,{"id":"kernel_thread", "file":"arch/x86/kernel/process.c", "line":273, "type":"f", }
+,{"id":"kernel_thread", "file":"init/do_mounts_initrd.c", "line":61, "type":"c", "scope_line":38, "scope_name":"handle_initrd", }
+,{"id":"kernel_thread", "file":"init/main.c", "line":437, "type":"c", "scope_line":426, "scope_name":"rest_init", }
+,{"id":"kernel_thread", "file":"init/main.c", "line":439, "type":"c", "scope_line":426, "scope_name":"rest_init", }
+,{"id":"kernel_thread", "file":"kernel/kmod.c", "line":185, "type":"c", "scope_line":175, "scope_name":"wait_for_helper", }
+,{"id":"kernel_thread", "file":"kernel/kmod.c", "line":226, "type":"c", "scope_line":215, "scope_name":"__call_usermodehelper", }
+,{"id":"kernel_thread", "file":"kernel/kmod.c", "line":229, "type":"c", "scope_line":215, "scope_name":"__call_usermodehelper", }
+,{"id":"kernel_thread", "file":"kernel/kthread.c", "line":106, "type":"c", "scope_line":101, "scope_name":"create_kthread", }
+,{"id":"kernel_to_ipc64_perm", "file":"ipc/msg.c", "line":551, "type":"c", "scope_line":469, "scope_name":"sys_msgctl", }
+,{"id":"kernel_to_ipc64_perm", "file":"ipc/sem.c", "line":829, "type":"c", "scope_line":761, "scope_name":"semctl_nolock", }
+,{"id":"kernel_to_ipc64_perm", "file":"ipc/shm.c", "line":728, "type":"c", "scope_line":635, "scope_name":"sys_shmctl", }
+,{"id":"kernel_to_ipc64_perm", "file":"ipc/util.c", "line":651, "type":"f", }
+,{"id":"kernel_ulong_t", "file":"include/linux/mod_devicetable.h", "line":12, "type":"t", }
+,{"id":"kernel_version", "file":"arch/x86/include/asm/bootparam.h", "line":40, "type":"m", "scope_line":24, "scope_name":"struct setup_header", }
+,{"id":"kernel_vm86_regs", "file":"arch/x86/include/asm/vm86.h", "line":141, "type":"s", }
+,{"id":"kernel_vm86_struct", "file":"arch/x86/include/asm/vm86.h", "line":155, "type":"s", }
+,{"id":"kernel_write", "file":"fs/splice.c", "line":1052, "type":"c", "scope_line":1041, "scope_name":"write_pipe_buf", }
+,{"id":"kernel_write", "file":"fs/splice.c", "line":565, "type":"f", }
+,{"id":"keventd_up", "file":"drivers/char/vt.c", "line":3829, "type":"c", "scope_line":3827, "scope_name":"blank_screen_t", }
+,{"id":"keventd_up", "file":"kernel/workqueue.c", "line":2685, "type":"f", }
+,{"id":"keventd_up", "file":"mm/slab.c", "line":861, "type":"c", "scope_line":852, "scope_name":"start_cpu_timer", }
+,{"id":"kexec_crash_image", "file":"include/linux/kexec.h", "line":160, "type":"v", }
+,{"id":"kexec_crash_loaded_attr", "file":"kernel/ksysfs.c", "line":101, "type":"v", }
+,{"id":"kexec_crash_loaded_show", "file":"kernel/ksysfs.c", "line":96, "type":"f", }
+,{"id":"kexec_crash_size_attr", "file":"kernel/ksysfs.c", "line":121, "type":"v", }
+,{"id":"kexec_crash_size_show", "file":"kernel/ksysfs.c", "line":103, "type":"f", }
+,{"id":"kexec_crash_size_store", "file":"kernel/ksysfs.c", "line":108, "type":"f", }
+,{"id":"kexec_flush_icache_page", "file":"include/linux/kexec.h", "line":163, "type":"d", }
+,{"id":"kexec_image", "file":"include/linux/kexec.h", "line":159, "type":"v", }
+,{"id":"kexec_loaded_attr", "file":"kernel/ksysfs.c", "line":94, "type":"v", }
+,{"id":"kexec_loaded_show", "file":"kernel/ksysfs.c", "line":89, "type":"f", }
+,{"id":"kexec_mutex", "file":"kernel/kexec.c", "line":939, "type":"v", }
+,{"id":"kexec_segment", "file":"include/linux/kexec.h", "line":61, "type":"s", }
+,{"id":"kexec_should_crash", "file":"arch/x86/kernel/dumpstack.c", "line":246, "type":"c", "scope_line":244, "scope_name":"oops_end", }
+,{"id":"kexec_should_crash", "file":"kernel/kexec.c", "line":60, "type":"f", }
+,{"id":"key", "file":"arch/x86/include/asm/compat.h", "line":128, "type":"m", "scope_line":127, "scope_name":"struct compat_ipc64_perm", }
+,{"id":"key", "file":"drivers/scsi/scsi_devinfo.c", "line":32, "type":"m", "scope_line":28, "scope_name":"struct scsi_dev_info_list_table", }
+,{"id":"key", "file":"fs/ext2/inode.c", "line":112, "type":"m", "scope_line":110, "scope_name":"Indirect", }
+,{"id":"key", "file":"fs/ext3/inode.c", "line":271, "type":"m", "scope_line":269, "scope_name":"Indirect", }
+,{"id":"key", "file":"fs/ext4/inode.c", "line":265, "type":"m", "scope_line":263, "scope_name":"Indirect", }
+,{"id":"key", "file":"include/asm-generic/ipcbuf.h", "line":20, "type":"m", "scope_line":19, "scope_name":"struct ipc64_perm", }
+,{"id":"key", "file":"include/linux/agp_backend.h", "line":75, "type":"m", "scope_line":69, "scope_name":"struct agp_memory", }
+,{"id":"key", "file":"include/linux/cdrom.h", "line":632, "type":"m", "scope_line":628, "scope_name":"struct dvd_send_key", }
+,{"id":"key", "file":"include/linux/cgroup.h", "line":176, "type":"m", "scope_line":171, "scope_name":"struct cgroup_pidlist", }
+,{"id":"key", "file":"include/linux/edd.h", "line":80, "type":"m", "scope_line":71, "scope_name":"struct edd_device_params", }
+,{"id":"key", "file":"include/linux/inktag.h", "line":56, "type":"m", "scope_line":53, "scope_name":"struct ink_page_prot", }
+,{"id":"key", "file":"include/linux/input.h", "line":1189, "type":"m", "scope_line":1150, "scope_name":"struct input_dev", }
+,{"id":"key", "file":"include/linux/iocontext.h", "line":9, "type":"m", "scope_line":8, "scope_name":"struct cfq_io_context", }
+,{"id":"key", "file":"include/linux/ipc.h", "line":11, "type":"m", "scope_line":9, "scope_name":"struct ipc_perm", }
+,{"id":"key", "file":"include/linux/ipc.h", "line":91, "type":"m", "scope_line":86, "scope_name":"struct kern_ipc_perm", }
+,{"id":"key", "file":"include/linux/key-type.h", "line":24, "type":"m", "scope_line":23, "scope_name":"struct key_construction", }
+,{"id":"key", "file":"include/linux/key.h", "line":124, "type":"s", }
+,{"id":"key", "file":"include/linux/lsm_audit.h", "line":66, "type":"m", "scope_line":28, "scope_name":"struct common_audit_data", }
+,{"id":"key", "file":"include/linux/pkt_cls.h", "line":255, "type":"m", "scope_line":254, "scope_name":"struct tc_rsvp_gpi", }
+,{"id":"key", "file":"include/linux/poll.h", "line":37, "type":"m", "scope_line":35, "scope_name":"struct poll_table_struct", }
+,{"id":"key", "file":"include/linux/poll.h", "line":54, "type":"m", "scope_line":52, "scope_name":"struct poll_table_entry", }
+,{"id":"key", "file":"include/linux/soundcard.h", "line":222, "type":"m", "scope_line":221, "scope_name":"struct patch_info", }
+,{"id":"key", "file":"include/linux/soundcard.h", "line":311, "type":"m", "scope_line":310, "scope_name":"struct sysex_info", }
+,{"id":"key", "file":"include/linux/soundcard.h", "line":480, "type":"m", "scope_line":479, "scope_name":"struct sbi_instrument", }
+,{"id":"key", "file":"include/linux/wait.h", "line":46, "type":"m", "scope_line":45, "scope_name":"struct wait_bit_queue", }
+,{"id":"key", "file":"include/linux/wireless.h", "line":852, "type":"m", "scope_line":842, "scope_name":"struct iw_encode_ext", }
+,{"id":"key", "file":"include/net/cfg80211.h", "line":233, "type":"m", "scope_line":232, "scope_name":"struct key_params", }
+,{"id":"key", "file":"include/net/cfg80211.h", "line":728, "type":"m", "scope_line":723, "scope_name":"struct cfg80211_auth_request", }
+,{"id":"key", "file":"include/net/cfg80211.h", "line":858, "type":"m", "scope_line":848, "scope_name":"struct cfg80211_connect_params", }
+,{"id":"key", "file":"include/net/neighbour.h", "line":134, "type":"m", "scope_line":127, "scope_name":"struct pneigh_entry", }
+,{"id":"key", "file":"include/net/tcp.h", "line":1095, "type":"m", "scope_line":1094, "scope_name":"struct tcp_md5sig_key", }
+,{"id":"key", "file":"ipc/compat.c", "line":42, "type":"m", "scope_line":41, "scope_name":"struct compat_ipc_perm", }
+,{"id":"key", "file":"ipc/util.h", "line":55, "type":"m", "scope_line":54, "scope_name":"struct ipc_params", }
+,{"id":"key", "file":"kernel/futex.c", "line":118, "type":"m", "scope_line":113, "scope_name":"struct futex_q", }
+,{"id":"key", "file":"kernel/futex.c", "line":89, "type":"m", "scope_line":74, "scope_name":"struct futex_pi_state", }
+,{"id":"key", "file":"net/core/flow.c", "line":36, "type":"m", "scope_line":28, "scope_name":"struct flow_cache_entry", }
+,{"id":"key", "file":"net/ipv4/cipso_ipv4.c", "line":78, "type":"m", "scope_line":76, "scope_name":"struct cipso_v4_map_cache_entry", }
+,{"id":"key", "file":"security/selinux/ss/avtab.h", "line":48, "type":"m", "scope_line":47, "scope_name":"struct avtab_node", }
+,{"id":"key", "file":"security/selinux/ss/hashtab.h", "line":16, "type":"m", "scope_line":15, "scope_name":"struct hashtab_node", }
+,{"id":"key_alloc", "file":"include/linux/security.h", "line":1623, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"key_alloc", "file":"net/dns_resolver/dns_key.c", "line":249, "type":"c", "scope_line":230, "scope_name":"init_dns_resolver", }
+,{"id":"key_alloc", "file":"security/keys/key.c", "line":227, "type":"f", }
+,{"id":"key_alloc", "file":"security/keys/key.c", "line":824, "type":"c", "scope_line":753, "scope_name":"key_create_or_update", }
+,{"id":"key_alloc", "file":"security/keys/keyring.c", "line":258, "type":"c", "scope_line":251, "scope_name":"keyring_alloc", }
+,{"id":"key_alloc", "file":"security/keys/request_key.c", "line":346, "type":"c", "scope_line":328, "scope_name":"construct_alloc_key", }
+,{"id":"key_alloc", "file":"security/keys/request_key_auth.c", "line":197, "type":"c", "scope_line":142, "scope_name":"request_key_auth_new", }
+,{"id":"key_alloc_serial", "file":"security/keys/key.c", "line":158, "type":"f", }
+,{"id":"key_alloc_serial", "file":"security/keys/key.c", "line":310, "type":"c", "scope_line":227, "scope_name":"key_alloc", }
+,{"id":"key_check", "file":"security/keys/internal.h", "line":230, "type":"d", }
+,{"id":"key_cleanup", "file":"security/keys/key.c", "line":548, "type":"f", }
+,{"id":"key_cleanup_task", "file":"security/keys/key.c", "line":40, "type":"v", }
+,{"id":"key_construction", "file":"include/linux/key-type.h", "line":23, "type":"s", }
+,{"id":"key_construction_mutex", "file":"security/keys/key.c", "line":43, "type":"v", }
+,{"id":"key_create_or_update", "file":"security/keys/key.c", "line":753, "type":"f", }
+,{"id":"key_create_or_update", "file":"security/keys/keyctl.c", "line":114, "type":"c", "scope_line":57, "scope_name":"sys_add_key", }
+,{"id":"key_data", "file":"include/linux/loop.h", "line":54, "type":"m", "scope_line":31, "scope_name":"struct loop_device", }
+,{"id":"key_desc", "file":"include/linux/lsm_audit.h", "line":67, "type":"m", "scope_line":28, "scope_name":"struct common_audit_data", }
+,{"id":"key_down", "file":"drivers/char/keyboard.c", "line":134, "type":"v", }
+,{"id":"key_free", "file":"include/linux/security.h", "line":1624, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"key_fsgid_changed", "file":"kernel/cred.c", "line":504, "type":"c", "scope_line":469, "scope_name":"commit_creds", }
+,{"id":"key_fsgid_changed", "file":"security/keys/process_keys.c", "line":298, "type":"f", }
+,{"id":"key_fsuid_changed", "file":"kernel/cred.c", "line":502, "type":"c", "scope_line":469, "scope_name":"commit_creds", }
+,{"id":"key_fsuid_changed", "file":"security/keys/process_keys.c", "line":282, "type":"f", }
+,{"id":"key_garbage_collector", "file":"security/keys/gc.c", "line":114, "type":"f", }
+,{"id":"key_gc_again", "file":"security/keys/gc.c", "line":29, "type":"v", }
+,{"id":"key_gc_cursor", "file":"security/keys/gc.c", "line":28, "type":"v", }
+,{"id":"key_gc_delay", "file":"security/keys/gc.c", "line":19, "type":"v", }
+,{"id":"key_gc_executing", "file":"security/keys/gc.c", "line":30, "type":"v", }
+,{"id":"key_gc_keyring", "file":"security/keys/gc.c", "line":182, "type":"c", "scope_line":114, "scope_name":"key_garbage_collector", }
+,{"id":"key_gc_keyring", "file":"security/keys/gc.c", "line":67, "type":"f", }
+,{"id":"key_gc_new_timer", "file":"security/keys/gc.c", "line":32, "type":"v", }
+,{"id":"key_gc_next_run", "file":"security/keys/gc.c", "line":31, "type":"v", }
+,{"id":"key_gc_timer", "file":"security/keys/gc.c", "line":26, "type":"v", }
+,{"id":"key_gc_timer_func", "file":"security/keys/gc.c", "line":56, "type":"f", }
+,{"id":"key_gc_work", "file":"security/keys/gc.c", "line":27, "type":"v", }
+,{"id":"key_get", "file":"include/linux/key.h", "line":201, "type":"f", }
+,{"id":"key_get", "file":"kernel/cred.c", "line":306, "type":"c", "scope_line":283, "scope_name":"prepare_creds", }
+,{"id":"key_get", "file":"kernel/cred.c", "line":307, "type":"c", "scope_line":283, "scope_name":"prepare_creds", }
+,{"id":"key_get", "file":"kernel/cred.c", "line":360, "type":"c", "scope_line":330, "scope_name":"prepare_exec_creds", }
+,{"id":"key_get", "file":"kernel/cred.c", "line":437, "type":"c", "scope_line":379, "scope_name":"copy_creds", }
+,{"id":"key_get", "file":"security/keys/gc.c", "line":101, "type":"c", "scope_line":67, "scope_name":"key_gc_keyring", }
+,{"id":"key_get", "file":"security/keys/keyctl.c", "line":874, "type":"c", "scope_line":847, "scope_name":"get_instantiation_keyring", }
+,{"id":"key_get", "file":"security/keys/keyctl.c", "line":893, "type":"c", "scope_line":884, "scope_name":"keyctl_change_reqkey_auth", }
+,{"id":"key_get", "file":"security/keys/keyring.c", "line":1110, "type":"c", "scope_line":1068, "scope_name":"keyring_gc", }
+,{"id":"key_get", "file":"security/keys/process_keys.c", "line":832, "type":"c", "scope_line":797, "scope_name":"key_replace_session_keyring", }
+,{"id":"key_get", "file":"security/keys/process_keys.c", "line":834, "type":"c", "scope_line":797, "scope_name":"key_replace_session_keyring", }
+,{"id":"key_get", "file":"security/keys/request_key.c", "line":227, "type":"c", "scope_line":204, "scope_name":"construct_key", }
+,{"id":"key_get", "file":"security/keys/request_key.c", "line":228, "type":"c", "scope_line":204, "scope_name":"construct_key", }
+,{"id":"key_get", "file":"security/keys/request_key.c", "line":264, "type":"c", "scope_line":253, "scope_name":"construct_get_dest_keyring", }
+,{"id":"key_get", "file":"security/keys/request_key.c", "line":277, "type":"c", "scope_line":253, "scope_name":"construct_get_dest_keyring", }
+,{"id":"key_get", "file":"security/keys/request_key.c", "line":285, "type":"c", "scope_line":253, "scope_name":"construct_get_dest_keyring", }
+,{"id":"key_get", "file":"security/keys/request_key.c", "line":290, "type":"c", "scope_line":253, "scope_name":"construct_get_dest_keyring", }
+,{"id":"key_get", "file":"security/keys/request_key.c", "line":297, "type":"c", "scope_line":253, "scope_name":"construct_get_dest_keyring", }
+,{"id":"key_get", "file":"security/keys/request_key.c", "line":304, "type":"c", "scope_line":253, "scope_name":"construct_get_dest_keyring", }
+,{"id":"key_get", "file":"security/keys/request_key.c", "line":309, "type":"c", "scope_line":253, "scope_name":"construct_get_dest_keyring", }
+,{"id":"key_get", "file":"security/keys/request_key.c", "line":88, "type":"c", "scope_line":78, "scope_name":"call_usermodehelper_keys", }
+,{"id":"key_get", "file":"security/keys/request_key_auth.c", "line":189, "type":"c", "scope_line":142, "scope_name":"request_key_auth_new", }
+,{"id":"key_get", "file":"security/keys/request_key_auth.c", "line":190, "type":"c", "scope_line":142, "scope_name":"request_key_auth_new", }
+,{"id":"key_get_instantiation_authkey", "file":"security/keys/keyctl.c", "line":1103, "type":"c", "scope_line":1089, "scope_name":"keyctl_set_timeout", }
+,{"id":"key_get_instantiation_authkey", "file":"security/keys/keyctl.c", "line":1167, "type":"c", "scope_line":1146, "scope_name":"keyctl_assume_authority", }
+,{"id":"key_get_instantiation_authkey", "file":"security/keys/keyctl.c", "line":1208, "type":"c", "scope_line":1192, "scope_name":"keyctl_get_security", }
+,{"id":"key_get_instantiation_authkey", "file":"security/keys/keyctl.c", "line":482, "type":"c", "scope_line":468, "scope_name":"keyctl_describe_key", }
+,{"id":"key_get_instantiation_authkey", "file":"security/keys/request_key_auth.c", "line":256, "type":"f", }
+,{"id":"key_get_instantiation_authkey_match", "file":"security/keys/request_key_auth.c", "line":238, "type":"f", }
+,{"id":"key_get_type_from_user", "file":"security/keys/keyctl.c", "line":162, "type":"c", "scope_line":149, "scope_name":"sys_request_key", }
+,{"id":"key_get_type_from_user", "file":"security/keys/keyctl.c", "line":27, "type":"f", }
+,{"id":"key_get_type_from_user", "file":"security/keys/keyctl.c", "line":558, "type":"c", "scope_line":547, "scope_name":"keyctl_keyring_search", }
+,{"id":"key_get_type_from_user", "file":"security/keys/keyctl.c", "line":74, "type":"c", "scope_line":57, "scope_name":"sys_add_key", }
+,{"id":"key_getsecurity", "file":"include/linux/security.h", "line":1628, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"key_id", "file":"include/linux/ieee80211.h", "line":766, "type":"m", "scope_line":763, "scope_name":"struct ieee80211_mmie", }
+,{"id":"key_idx", "file":"include/net/cfg80211.h", "line":729, "type":"m", "scope_line":723, "scope_name":"struct cfg80211_auth_request", }
+,{"id":"key_idx", "file":"include/net/cfg80211.h", "line":859, "type":"m", "scope_line":848, "scope_name":"struct cfg80211_connect_params", }
+,{"id":"key_init", "file":"init/main.c", "line":682, "type":"c", "scope_line":536, "scope_name":"start_kernel", }
+,{"id":"key_init", "file":"security/keys/key.c", "line":1022, "type":"f", }
+,{"id":"key_instantiate_and_link", "file":"net/dns_resolver/dns_key.c", "line":258, "type":"c", "scope_line":230, "scope_name":"init_dns_resolver", }
+,];
+xr_frag_insert('t/73/62b902934286bf4698e7b90113f09a77a8b27c.xr', __xr_tmp);

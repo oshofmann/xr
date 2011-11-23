@@ -1,0 +1,98 @@
+var __xr_tmp = [
+{"id":"mv88e6xxx_ppu_disable", "file":"net/dsa/mv88e6xxx.c", "line":220, "type":"f", }
+,{"id":"mv88e6xxx_ppu_disable", "file":"net/dsa/mv88e6xxx.c", "line":291, "type":"c", "scope_line":277, "scope_name":"mv88e6xxx_ppu_access_get", }
+,{"id":"mv88e6xxx_ppu_enable", "file":"net/dsa/mv88e6xxx.c", "line":238, "type":"f", }
+,{"id":"mv88e6xxx_ppu_enable", "file":"net/dsa/mv88e6xxx.c", "line":264, "type":"c", "scope_line":256, "scope_name":"mv88e6xxx_ppu_reenable_work", }
+,{"id":"mv88e6xxx_ppu_reenable_timer", "file":"net/dsa/mv88e6xxx.c", "line":270, "type":"f", }
+,{"id":"mv88e6xxx_ppu_reenable_work", "file":"net/dsa/mv88e6xxx.c", "line":256, "type":"f", }
+,{"id":"mv88e6xxx_ppu_state_init", "file":"net/dsa/mv88e6131.c", "line":286, "type":"c", "scope_line":279, "scope_name":"mv88e6131_setup", }
+,{"id":"mv88e6xxx_ppu_state_init", "file":"net/dsa/mv88e6xxx.c", "line":316, "type":"f", }
+,{"id":"mv88e6xxx_priv_state", "file":"net/dsa/mv88e6xxx.h", "line":18, "type":"s", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6123_61_65.c", "line":44, "type":"c", "scope_line":35, "scope_name":"mv88e6123_61_65_switch_reset", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6123_61_65.c", "line":62, "type":"c", "scope_line":35, "scope_name":"mv88e6123_61_65_switch_reset", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6131.c", "line":42, "type":"c", "scope_line":33, "scope_name":"mv88e6131_switch_reset", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6131.c", "line":60, "type":"c", "scope_line":33, "scope_name":"mv88e6131_switch_reset", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":194, "type":"c", "scope_line":177, "scope_name":"mv88e6xxx_set_addr_indirect", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":208, "type":"c", "scope_line":205, "scope_name":"mv88e6xxx_phy_read", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":225, "type":"c", "scope_line":220, "scope_name":"mv88e6xxx_ppu_disable", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":229, "type":"c", "scope_line":220, "scope_name":"mv88e6xxx_ppu_disable", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":243, "type":"c", "scope_line":238, "scope_name":"mv88e6xxx_ppu_enable", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":247, "type":"c", "scope_line":238, "scope_name":"mv88e6xxx_ppu_enable", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":333, "type":"c", "scope_line":327, "scope_name":"mv88e6xxx_phy_read_ppu", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":373, "type":"c", "scope_line":355, "scope_name":"mv88e6xxx_poll_link", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":421, "type":"c", "scope_line":415, "scope_name":"mv88e6xxx_stats_wait", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":463, "type":"c", "scope_line":448, "scope_name":"mv88e6xxx_stats_read", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":469, "type":"c", "scope_line":448, "scope_name":"mv88e6xxx_stats_read", }
+,{"id":"mv88e6xxx_reg_read", "file":"net/dsa/mv88e6xxx.c", "line":81, "type":"f", }
+,{"id":"mv88e6xxx_reg_wait_ready", "file":"net/dsa/mv88e6xxx.c", "line":105, "type":"c", "scope_line":94, "scope_name":"__mv88e6xxx_reg_write", }
+,{"id":"mv88e6xxx_reg_wait_ready", "file":"net/dsa/mv88e6xxx.c", "line":126, "type":"c", "scope_line":94, "scope_name":"__mv88e6xxx_reg_write", }
+,{"id":"mv88e6xxx_reg_wait_ready", "file":"net/dsa/mv88e6xxx.c", "line":26, "type":"f", }
+,{"id":"mv88e6xxx_reg_wait_ready", "file":"net/dsa/mv88e6xxx.c", "line":53, "type":"c", "scope_line":43, "scope_name":"__mv88e6xxx_reg_read", }
+,{"id":"mv88e6xxx_reg_wait_ready", "file":"net/dsa/mv88e6xxx.c", "line":67, "type":"c", "scope_line":43, "scope_name":"__mv88e6xxx_reg_read", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":105, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":111, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":117, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":123, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":133, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":145, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":152, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":158, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":165, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":170, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":176, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":195, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":197, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":204, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":232, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":238, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":251, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":257, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":268, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":273, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":278, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":286, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":292, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":297, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":302, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":308, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":314, "type":"c", "scope_line":183, "scope_name":"mv88e6123_61_65_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":45, "type":"c", "scope_line":35, "scope_name":"mv88e6123_61_65_switch_reset", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":56, "type":"c", "scope_line":35, "scope_name":"mv88e6123_61_65_switch_reset", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":84, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6123_61_65.c", "line":91, "type":"c", "scope_line":74, "scope_name":"mv88e6123_61_65_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":102, "type":"c", "scope_line":72, "scope_name":"mv88e6131_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":109, "type":"c", "scope_line":72, "scope_name":"mv88e6131_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":115, "type":"c", "scope_line":72, "scope_name":"mv88e6131_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":121, "type":"c", "scope_line":72, "scope_name":"mv88e6131_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":129, "type":"c", "scope_line":72, "scope_name":"mv88e6131_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":141, "type":"c", "scope_line":72, "scope_name":"mv88e6131_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":148, "type":"c", "scope_line":72, "scope_name":"mv88e6131_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":154, "type":"c", "scope_line":72, "scope_name":"mv88e6131_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":160, "type":"c", "scope_line":72, "scope_name":"mv88e6131_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":177, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":179, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":201, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":207, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":220, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":226, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":244, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":249, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":254, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":262, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":268, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":274, "type":"c", "scope_line":165, "scope_name":"mv88e6131_setup_port", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":43, "type":"c", "scope_line":33, "scope_name":"mv88e6131_switch_reset", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":54, "type":"c", "scope_line":33, "scope_name":"mv88e6131_switch_reset", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":83, "type":"c", "scope_line":72, "scope_name":"mv88e6131_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6131.c", "line":90, "type":"c", "scope_line":72, "scope_name":"mv88e6131_setup_global", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6xxx.c", "line":133, "type":"f", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6xxx.c", "line":151, "type":"c", "scope_line":146, "scope_name":"mv88e6xxx_config_prio", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6xxx.c", "line":152, "type":"c", "scope_line":146, "scope_name":"mv88e6xxx_config_prio", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6xxx.c", "line":153, "type":"c", "scope_line":146, "scope_name":"mv88e6xxx_config_prio", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6xxx.c", "line":154, "type":"c", "scope_line":146, "scope_name":"mv88e6xxx_config_prio", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6xxx.c", "line":155, "type":"c", "scope_line":146, "scope_name":"mv88e6xxx_config_prio", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6xxx.c", "line":156, "type":"c", "scope_line":146, "scope_name":"mv88e6xxx_config_prio", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6xxx.c", "line":157, "type":"c", "scope_line":146, "scope_name":"mv88e6xxx_config_prio", }
+,{"id":"mv88e6xxx_reg_write", "file":"net/dsa/mv88e6xxx.c", "line":158, "type":"c", "scope_line":146, "scope_name":"mv88e6xxx_config_prio", }
+,];
+xr_frag_insert('t/c3/c00ea2cc2bcb0f11df17caed689f1dbca662d9.xr', __xr_tmp);

@@ -1,0 +1,245 @@
+var __xr_tmp = [
+{"id":"BLK_BOUNCE_HIGH", "file":"include/linux/blkdev.h", "line":621, "type":"d", }
+,{"id":"BLK_BOUNCE_ISA", "file":"include/linux/blkdev.h", "line":624, "type":"d", }
+,{"id":"BLK_DEFAULT_SG_TIMEOUT", "file":"include/linux/blkdev.h", "line":629, "type":"d", }
+,{"id":"BLK_DEF_MAX_SECTORS", "file":"include/linux/blkdev.h", "line":950, "type":"e", "scope_line":947, "scope_name":"blk_default_limits", }
+,{"id":"BLK_EH_HANDLED", "file":"include/linux/blkdev.h", "line":206, "type":"e", "scope_line":204, "scope_name":"blk_eh_timer_return", }
+,{"id":"BLK_EH_NOT_HANDLED", "file":"include/linux/blkdev.h", "line":205, "type":"e", "scope_line":204, "scope_name":"blk_eh_timer_return", }
+,{"id":"BLK_EH_RESET_TIMER", "file":"include/linux/blkdev.h", "line":207, "type":"e", "scope_line":204, "scope_name":"blk_eh_timer_return", }
+,{"id":"BLK_FILE__APPEND", "file":"security/selinux/av_permissions.h", "line":190, "type":"d", }
+,{"id":"BLK_FILE__AUDIT_ACCESS", "file":"security/selinux/av_permissions.h", "line":198, "type":"d", }
+,{"id":"BLK_FILE__CREATE", "file":"security/selinux/av_permissions.h", "line":184, "type":"d", }
+,{"id":"BLK_FILE__EXECMOD", "file":"security/selinux/av_permissions.h", "line":200, "type":"d", }
+,{"id":"BLK_FILE__EXECUTE", "file":"security/selinux/av_permissions.h", "line":194, "type":"d", }
+,{"id":"BLK_FILE__GETATTR", "file":"security/selinux/av_permissions.h", "line":185, "type":"d", }
+,{"id":"BLK_FILE__IOCTL", "file":"security/selinux/av_permissions.h", "line":181, "type":"d", }
+,{"id":"BLK_FILE__LINK", "file":"security/selinux/av_permissions.h", "line":192, "type":"d", }
+,{"id":"BLK_FILE__LOCK", "file":"security/selinux/av_permissions.h", "line":187, "type":"d", }
+,{"id":"BLK_FILE__MOUNTON", "file":"security/selinux/av_permissions.h", "line":197, "type":"d", }
+,{"id":"BLK_FILE__OPEN", "file":"security/selinux/av_permissions.h", "line":199, "type":"d", }
+,{"id":"BLK_FILE__QUOTAON", "file":"security/selinux/av_permissions.h", "line":196, "type":"d", }
+,{"id":"BLK_FILE__READ", "file":"security/selinux/av_permissions.h", "line":182, "type":"d", }
+,{"id":"BLK_FILE__RELABELFROM", "file":"security/selinux/av_permissions.h", "line":188, "type":"d", }
+,{"id":"BLK_FILE__RELABELTO", "file":"security/selinux/av_permissions.h", "line":189, "type":"d", }
+,{"id":"BLK_FILE__RENAME", "file":"security/selinux/av_permissions.h", "line":193, "type":"d", }
+,{"id":"BLK_FILE__SETATTR", "file":"security/selinux/av_permissions.h", "line":186, "type":"d", }
+,{"id":"BLK_FILE__SWAPON", "file":"security/selinux/av_permissions.h", "line":195, "type":"d", }
+,{"id":"BLK_FILE__UNLINK", "file":"security/selinux/av_permissions.h", "line":191, "type":"d", }
+,{"id":"BLK_FILE__WRITE", "file":"security/selinux/av_permissions.h", "line":183, "type":"d", }
+,{"id":"BLK_INTERNAL_H", "file":"block/blk.h", "line":2, "type":"d", }
+,{"id":"BLK_IOPOLL_H", "file":"include/linux/blk-iopoll.h", "line":2, "type":"d", }
+,{"id":"BLK_IO_TRACE_MAGIC", "file":"include/linux/blktrace_api.h", "line":96, "type":"d", }
+,{"id":"BLK_IO_TRACE_VERSION", "file":"include/linux/blktrace_api.h", "line":97, "type":"d", }
+,{"id":"BLK_MAX_CDB", "file":"include/linux/blkdev.h", "line":72, "type":"d", }
+,{"id":"BLK_MAX_SEGMENTS", "file":"include/linux/blkdev.h", "line":948, "type":"e", "scope_line":947, "scope_name":"blk_default_limits", }
+,{"id":"BLK_MAX_SEGMENT_SIZE", "file":"include/linux/blkdev.h", "line":951, "type":"e", "scope_line":947, "scope_name":"blk_default_limits", }
+,{"id":"BLK_MIN_SG_TIMEOUT", "file":"include/linux/blkdev.h", "line":630, "type":"d", }
+,{"id":"BLK_RW_ASYNC", "file":"include/linux/backing-dev.h", "line":281, "type":"e", "scope_line":280, }
+,{"id":"BLK_RW_SYNC", "file":"include/linux/backing-dev.h", "line":282, "type":"e", "scope_line":280, }
+,{"id":"BLK_SAFE_MAX_SECTORS", "file":"include/linux/blkdev.h", "line":949, "type":"e", "scope_line":947, "scope_name":"blk_default_limits", }
+,{"id":"BLK_SCSI_CMD_PER_LONG", "file":"include/linux/blkdev.h", "line":227, "type":"d", }
+,{"id":"BLK_SCSI_CMD_PER_LONG", "file":"include/linux/genhd.h", "line":121, "type":"d", }
+,{"id":"BLK_SCSI_MAX_CMDS", "file":"include/linux/blkdev.h", "line":226, "type":"d", }
+,{"id":"BLK_SCSI_MAX_CMDS", "file":"include/linux/genhd.h", "line":120, "type":"d", }
+,{"id":"BLK_SEG_BOUNDARY_MASK", "file":"include/linux/blkdev.h", "line":952, "type":"e", "scope_line":947, "scope_name":"blk_default_limits", }
+,{"id":"BLK_TA_ABORT", "file":"include/linux/blktrace_api.h", "line":89, "type":"d", }
+,{"id":"BLK_TA_BACKMERGE", "file":"include/linux/blktrace_api.h", "line":75, "type":"d", }
+,{"id":"BLK_TA_BOUNCE", "file":"include/linux/blktrace_api.h", "line":87, "type":"d", }
+,{"id":"BLK_TA_COMPLETE", "file":"include/linux/blktrace_api.h", "line":81, "type":"d", }
+,{"id":"BLK_TA_DRV_DATA", "file":"include/linux/blktrace_api.h", "line":90, "type":"d", }
+,{"id":"BLK_TA_FRONTMERGE", "file":"include/linux/blktrace_api.h", "line":76, "type":"d", }
+,{"id":"BLK_TA_GETRQ", "file":"include/linux/blktrace_api.h", "line":77, "type":"d", }
+,{"id":"BLK_TA_INSERT", "file":"include/linux/blktrace_api.h", "line":85, "type":"d", }
+,{"id":"BLK_TA_ISSUE", "file":"include/linux/blktrace_api.h", "line":80, "type":"d", }
+,{"id":"BLK_TA_PLUG", "file":"include/linux/blktrace_api.h", "line":82, "type":"d", }
+,{"id":"BLK_TA_QUEUE", "file":"include/linux/blktrace_api.h", "line":74, "type":"d", }
+,{"id":"BLK_TA_REMAP", "file":"include/linux/blktrace_api.h", "line":88, "type":"d", }
+,{"id":"BLK_TA_REQUEUE", "file":"include/linux/blktrace_api.h", "line":79, "type":"d", }
+,{"id":"BLK_TA_SLEEPRQ", "file":"include/linux/blktrace_api.h", "line":78, "type":"d", }
+,{"id":"BLK_TA_SPLIT", "file":"include/linux/blktrace_api.h", "line":86, "type":"d", }
+,{"id":"BLK_TA_UNPLUG_IO", "file":"include/linux/blktrace_api.h", "line":83, "type":"d", }
+,{"id":"BLK_TA_UNPLUG_TIMER", "file":"include/linux/blktrace_api.h", "line":84, "type":"d", }
+,{"id":"BLK_TC_ACT", "file":"include/linux/blktrace_api.h", "line":36, "type":"d", }
+,{"id":"BLK_TC_AHEAD", "file":"include/linux/blktrace_api.h", "line":27, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_BARRIER", "file":"include/linux/blktrace_api.h", "line":17, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_COMPLETE", "file":"include/linux/blktrace_api.h", "line":23, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_DISCARD", "file":"include/linux/blktrace_api.h", "line":29, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_DRV_DATA", "file":"include/linux/blktrace_api.h", "line":30, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_END", "file":"include/linux/blktrace_api.h", "line":32, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_FS", "file":"include/linux/blktrace_api.h", "line":24, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_HARDBARRIER", "file":"kernel/trace/blktrace.c", "line":172, "type":"d", }
+,{"id":"BLK_TC_ISSUE", "file":"include/linux/blktrace_api.h", "line":22, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_META", "file":"include/linux/blktrace_api.h", "line":28, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_NOTIFY", "file":"include/linux/blktrace_api.h", "line":26, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_PC", "file":"include/linux/blktrace_api.h", "line":25, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_QUEUE", "file":"include/linux/blktrace_api.h", "line":20, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_RAHEAD", "file":"kernel/trace/blktrace.c", "line":173, "type":"d", }
+,{"id":"BLK_TC_READ", "file":"include/linux/blktrace_api.h", "line":15, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_REQUEUE", "file":"include/linux/blktrace_api.h", "line":21, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_SHIFT", "file":"include/linux/blktrace_api.h", "line":35, "type":"d", }
+,{"id":"BLK_TC_SYNC", "file":"include/linux/blktrace_api.h", "line":18, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_SYNCIO", "file":"include/linux/blktrace_api.h", "line":19, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TC_WRITE", "file":"include/linux/blktrace_api.h", "line":16, "type":"e", "scope_line":14, "scope_name":"blktrace_cat", }
+,{"id":"BLK_TN_MAX_MSG", "file":"include/linux/blktrace_api.h", "line":193, "type":"d", }
+,{"id":"BLK_TN_MESSAGE", "file":"include/linux/blktrace_api.h", "line":94, "type":"d", }
+,{"id":"BLK_TN_PROCESS", "file":"include/linux/blktrace_api.h", "line":92, "type":"d", }
+,{"id":"BLK_TN_TIMESTAMP", "file":"include/linux/blktrace_api.h", "line":93, "type":"d", }
+,{"id":"BLK_TRACE_DEVICE_ATTR", "file":"kernel/trace/blktrace.c", "line":1542, "type":"d", }
+,{"id":"BLOCKING_INIT_NOTIFIER_HEAD", "file":"include/linux/notifier.h", "line":80, "type":"d", }
+,{"id":"BLOCKING_NOTIFIER_HEAD", "file":"include/linux/notifier.h", "line":106, "type":"d", }
+,{"id":"BLOCKING_NOTIFIER_INIT", "file":"include/linux/notifier.h", "line":96, "type":"d", }
+,{"id":"BLOCKS_PER_PAGE", "file":"mm/shmem.c", "line":89, "type":"d", }
+,{"id":"BLOCK_COST", "file":"fs/ext2/ialloc.c", "line":258, "type":"d", }
+,{"id":"BLOCK_COST", "file":"fs/ext3/ialloc.c", "line":240, "type":"d", }
+,{"id":"BLOCK_EXT_MAJOR", "file":"include/linux/major.h", "line":174, "type":"d", }
+,{"id":"BLOCK_HASH_SHIFT", "file":"fs/ext2/xattr.c", "line":1024, "type":"d", }
+,{"id":"BLOCK_HASH_SHIFT", "file":"fs/ext2/xattr.c", "line":995, "type":"d", }
+,{"id":"BLOCK_HASH_SHIFT", "file":"fs/ext3/xattr.c", "line":1282, "type":"d", }
+,{"id":"BLOCK_HASH_SHIFT", "file":"fs/ext3/xattr.c", "line":1311, "type":"d", }
+,{"id":"BLOCK_HASH_SHIFT", "file":"fs/ext4/xattr.c", "line":1559, "type":"d", }
+,{"id":"BLOCK_HASH_SHIFT", "file":"fs/ext4/xattr.c", "line":1588, "type":"d", }
+,{"id":"BLOCK_IOPOLL_SOFTIRQ", "file":"include/linux/interrupt.h", "line":383, "type":"e", "scope_line":376, }
+,{"id":"BLOCK_SIZE", "file":"include/linux/fs.h", "line":28, "type":"d", }
+,{"id":"BLOCK_SIZE_BITS", "file":"include/linux/fs.h", "line":27, "type":"d", }
+,{"id":"BLOCK_SOFTIRQ", "file":"include/linux/interrupt.h", "line":382, "type":"e", "scope_line":376, }
+,{"id":"BLTCTL", "file":"drivers/video/imsttfb.c", "line":55, "type":"e", "scope_line":45, }
+,{"id":"BL_CORE_DRIVER1", "file":"include/linux/backlight.h", "line":74, "type":"d", }
+,{"id":"BL_CORE_DRIVER2", "file":"include/linux/backlight.h", "line":73, "type":"d", }
+,{"id":"BL_CORE_DRIVER3", "file":"include/linux/backlight.h", "line":72, "type":"d", }
+,{"id":"BL_CORE_DRIVER4", "file":"include/linux/backlight.h", "line":71, "type":"d", }
+,{"id":"BL_CORE_FBBLANK", "file":"include/linux/backlight.h", "line":70, "type":"d", }
+,{"id":"BL_CORE_SUSPENDED", "file":"include/linux/backlight.h", "line":69, "type":"d", }
+,{"id":"BL_CORE_SUSPENDRESUME", "file":"include/linux/backlight.h", "line":41, "type":"d", }
+,{"id":"BMAP_IOCTL", "file":"include/linux/fs.h", "line":314, "type":"d", }
+,{"id":"BMCR_ANENABLE", "file":"include/linux/mii.h", "line":45, "type":"d", }
+,{"id":"BMCR_ANRESTART", "file":"include/linux/mii.h", "line":42, "type":"d", }
+,{"id":"BMCR_CTST", "file":"include/linux/mii.h", "line":40, "type":"d", }
+,{"id":"BMCR_FULLDPLX", "file":"include/linux/mii.h", "line":41, "type":"d", }
+,{"id":"BMCR_ISOLATE", "file":"include/linux/mii.h", "line":43, "type":"d", }
+,{"id":"BMCR_LOOPBACK", "file":"include/linux/mii.h", "line":47, "type":"d", }
+,{"id":"BMCR_PDOWN", "file":"include/linux/mii.h", "line":44, "type":"d", }
+,{"id":"BMCR_RESET", "file":"include/linux/mii.h", "line":48, "type":"d", }
+,{"id":"BMCR_RESV", "file":"include/linux/mii.h", "line":38, "type":"d", }
+,{"id":"BMCR_SPEED100", "file":"include/linux/mii.h", "line":46, "type":"d", }
+,{"id":"BMCR_SPEED1000", "file":"include/linux/mii.h", "line":39, "type":"d", }
+,{"id":"BMSR_100BASE4", "file":"include/linux/mii.h", "line":65, "type":"d", }
+,{"id":"BMSR_100FULL", "file":"include/linux/mii.h", "line":64, "type":"d", }
+,{"id":"BMSR_100FULL2", "file":"include/linux/mii.h", "line":60, "type":"d", }
+,{"id":"BMSR_100HALF", "file":"include/linux/mii.h", "line":63, "type":"d", }
+,{"id":"BMSR_100HALF2", "file":"include/linux/mii.h", "line":59, "type":"d", }
+,{"id":"BMSR_10FULL", "file":"include/linux/mii.h", "line":62, "type":"d", }
+,{"id":"BMSR_10HALF", "file":"include/linux/mii.h", "line":61, "type":"d", }
+,{"id":"BMSR_ANEGCAPABLE", "file":"include/linux/mii.h", "line":54, "type":"d", }
+,{"id":"BMSR_ANEGCOMPLETE", "file":"include/linux/mii.h", "line":56, "type":"d", }
+,{"id":"BMSR_ERCAP", "file":"include/linux/mii.h", "line":51, "type":"d", }
+,{"id":"BMSR_ESTATEN", "file":"include/linux/mii.h", "line":58, "type":"d", }
+,{"id":"BMSR_JCD", "file":"include/linux/mii.h", "line":52, "type":"d", }
+,{"id":"BMSR_LSTATUS", "file":"include/linux/mii.h", "line":53, "type":"d", }
+,{"id":"BMSR_RESV", "file":"include/linux/mii.h", "line":57, "type":"d", }
+,{"id":"BMSR_RFAULT", "file":"include/linux/mii.h", "line":55, "type":"d", }
+,{"id":"BM_BITS_PER_BLOCK", "file":"kernel/power/snapshot.c", "line":237, "type":"d", }
+,{"id":"BM_END_OF_MAP", "file":"kernel/power/snapshot.c", "line":235, "type":"d", }
+,{"id":"BNEPCONNADD", "file":"fs/compat_ioctl.c", "line":587, "type":"d", }
+,{"id":"BNEPCONNDEL", "file":"fs/compat_ioctl.c", "line":588, "type":"d", }
+,{"id":"BNEPGETCONNINFO", "file":"fs/compat_ioctl.c", "line":590, "type":"d", }
+,{"id":"BNEPGETCONNLIST", "file":"fs/compat_ioctl.c", "line":589, "type":"d", }
+,{"id":"BOGO_DIRENT_SIZE", "file":"mm/shmem.c", "line":100, "type":"d", }
+,{"id":"BOND_ABI_VERSION", "file":"include/linux/if_bonding.h", "line":51, "type":"d", }
+,{"id":"BOND_CHANGE_ACTIVE_OLD", "file":"include/linux/if_bonding.h", "line":62, "type":"d", }
+,{"id":"BOND_CHECK_MII_STATUS", "file":"include/linux/if_bonding.h", "line":64, "type":"d", }
+,{"id":"BOND_DEFAULT_MAX_BONDS", "file":"include/linux/if_bonding.h", "line":84, "type":"d", }
+,{"id":"BOND_DEFAULT_TX_QUEUES", "file":"include/linux/if_bonding.h", "line":86, "type":"d", }
+,{"id":"BOND_ENSLAVE_OLD", "file":"include/linux/if_bonding.h", "line":57, "type":"d", }
+,{"id":"BOND_INFO_QUERY_OLD", "file":"include/linux/if_bonding.h", "line":61, "type":"d", }
+,{"id":"BOND_LINK_BACK", "file":"include/linux/if_bonding.h", "line":78, "type":"d", }
+,{"id":"BOND_LINK_DOWN", "file":"include/linux/if_bonding.h", "line":77, "type":"d", }
+,{"id":"BOND_LINK_FAIL", "file":"include/linux/if_bonding.h", "line":76, "type":"d", }
+,{"id":"BOND_LINK_UP", "file":"include/linux/if_bonding.h", "line":75, "type":"d", }
+,{"id":"BOND_MODE_8023AD", "file":"include/linux/if_bonding.h", "line":70, "type":"d", }
+,{"id":"BOND_MODE_ACTIVEBACKUP", "file":"include/linux/if_bonding.h", "line":67, "type":"d", }
+,{"id":"BOND_MODE_ALB", "file":"include/linux/if_bonding.h", "line":72, "type":"d", }
+,{"id":"BOND_MODE_BROADCAST", "file":"include/linux/if_bonding.h", "line":69, "type":"d", }
+,{"id":"BOND_MODE_ROUNDROBIN", "file":"include/linux/if_bonding.h", "line":66, "type":"d", }
+,{"id":"BOND_MODE_TLB", "file":"include/linux/if_bonding.h", "line":71, "type":"d", }
+,{"id":"BOND_MODE_XOR", "file":"include/linux/if_bonding.h", "line":68, "type":"d", }
+,{"id":"BOND_RELEASE_OLD", "file":"include/linux/if_bonding.h", "line":58, "type":"d", }
+,{"id":"BOND_SETHWADDR_OLD", "file":"include/linux/if_bonding.h", "line":59, "type":"d", }
+,{"id":"BOND_SLAVE_INFO_QUERY_OLD", "file":"include/linux/if_bonding.h", "line":60, "type":"d", }
+,{"id":"BOND_STATE_ACTIVE", "file":"include/linux/if_bonding.h", "line":81, "type":"d", }
+,{"id":"BOND_STATE_BACKUP", "file":"include/linux/if_bonding.h", "line":82, "type":"d", }
+,{"id":"BOND_XMIT_POLICY_LAYER2", "file":"include/linux/if_bonding.h", "line":88, "type":"d", }
+,{"id":"BOND_XMIT_POLICY_LAYER23", "file":"include/linux/if_bonding.h", "line":90, "type":"d", }
+,{"id":"BOND_XMIT_POLICY_LAYER34", "file":"include/linux/if_bonding.h", "line":89, "type":"d", }
+,{"id":"BOOLEAN", "file":"include/acpi/actypes.h", "line":127, "type":"t", }
+,{"id":"BOOL_DIR_NAME", "file":"security/selinux/selinuxfs.c", "line":974, "type":"d", }
+,{"id":"BOOT", "file":"include/linux/memory.h", "line":118, "type":"e", "scope_line":118, "scope_name":"mem_add_context", }
+,{"id":"BOOTMEM_DEFAULT", "file":"include/linux/bootmem.h", "line":69, "type":"d", }
+,{"id":"BOOTMEM_EXCLUSIVE", "file":"include/linux/bootmem.h", "line":70, "type":"d", }
+,{"id":"BOOT_ACPI", "file":"arch/x86/include/asm/emergency-restart.h", "line":10, "type":"e", "scope_line":4, "scope_name":"reboot_type", }
+,{"id":"BOOT_BITOPS_H", "file":"arch/x86/kernel/acpi/realmode/../../../boot/bitops.h", "line":16, "type":"d", }
+,{"id":"BOOT_BOOT_H", "file":"arch/x86/kernel/acpi/realmode/../../../boot/boot.h", "line":17, "type":"d", }
+,{"id":"BOOT_CF9", "file":"arch/x86/include/asm/emergency-restart.h", "line":12, "type":"e", "scope_line":4, "scope_name":"reboot_type", }
+,{"id":"BOOT_CF9_COND", "file":"arch/x86/include/asm/emergency-restart.h", "line":13, "type":"e", "scope_line":4, "scope_name":"reboot_type", }
+,{"id":"BOOT_CPUCACHE_ENTRIES", "file":"mm/slab.c", "line":260, "type":"d", }
+,{"id":"BOOT_EFI", "file":"arch/x86/include/asm/emergency-restart.h", "line":11, "type":"e", "scope_line":4, "scope_name":"reboot_type", }
+,{"id":"BOOT_HEAP_SIZE", "file":"arch/x86/include/asm/boot.h", "line":36, "type":"d", }
+,{"id":"BOOT_ISDIGIT_H", "file":"arch/x86/kernel/acpi/realmode/../../../boot/ctype.h", "line":3, "type":"d", }
+,{"id":"BOOT_KBD", "file":"arch/x86/include/asm/emergency-restart.h", "line":6, "type":"e", "scope_line":4, "scope_name":"reboot_type", }
+,{"id":"BOOT_PERCPU_OFFSET", "file":"arch/x86/kernel/setup_percpu.c", "line":28, "type":"d", }
+,{"id":"BOOT_STACK_SIZE", "file":"arch/x86/include/asm/boot.h", "line":44, "type":"d", }
+,{"id":"BOOT_TRIPLE", "file":"arch/x86/include/asm/emergency-restart.h", "line":5, "type":"e", "scope_line":4, "scope_name":"reboot_type", }
+,{"id":"BOOT_VESA_H", "file":"arch/x86/kernel/acpi/realmode/../../../boot/vesa.h", "line":14, "type":"d", }
+,{"id":"BOOT_VIDEO_H", "file":"arch/x86/kernel/acpi/realmode/../../../boot/video.h", "line":16, "type":"d", }
+,{"id":"BORDB", "file":"drivers/video/imsttfb.c", "line":162, "type":"e", "scope_line":115, }
+,{"id":"BORDG", "file":"drivers/video/imsttfb.c", "line":161, "type":"e", "scope_line":115, }
+,{"id":"BORDR", "file":"drivers/video/imsttfb.c", "line":160, "type":"e", "scope_line":115, }
+,{"id":"BOTHER", "file":"include/asm-generic/termbits.h", "line":143, "type":"d", }
+,{"id":"BOTH_EMPTY", "file":"drivers/serial/8250.c", "line":87, "type":"d", }
+,{"id":"BOTH_EMPTY", "file":"drivers/serial/8250_early.c", "line":80, "type":"d", }
+,{"id":"BPF_A", "file":"include/linux/filter.h", "line":87, "type":"d", }
+,{"id":"BPF_ABS", "file":"include/linux/filter.h", "line":59, "type":"d", }
+,{"id":"BPF_ADD", "file":"include/linux/filter.h", "line":67, "type":"d", }
+,{"id":"BPF_ALU", "file":"include/linux/filter.h", "line":47, "type":"d", }
+,{"id":"BPF_AND", "file":"include/linux/filter.h", "line":72, "type":"d", }
+,{"id":"BPF_B", "file":"include/linux/filter.h", "line":56, "type":"d", }
+,{"id":"BPF_CLASS", "file":"include/linux/filter.h", "line":42, "type":"d", }
+,{"id":"BPF_DIV", "file":"include/linux/filter.h", "line":70, "type":"d", }
+,{"id":"BPF_H", "file":"include/linux/filter.h", "line":55, "type":"d", }
+,{"id":"BPF_IMM", "file":"include/linux/filter.h", "line":58, "type":"d", }
+,{"id":"BPF_IND", "file":"include/linux/filter.h", "line":60, "type":"d", }
+,{"id":"BPF_JA", "file":"include/linux/filter.h", "line":76, "type":"d", }
+,{"id":"BPF_JEQ", "file":"include/linux/filter.h", "line":77, "type":"d", }
+,{"id":"BPF_JGE", "file":"include/linux/filter.h", "line":79, "type":"d", }
+,{"id":"BPF_JGT", "file":"include/linux/filter.h", "line":78, "type":"d", }
+,{"id":"BPF_JMP", "file":"include/linux/filter.h", "line":48, "type":"d", }
+,{"id":"BPF_JSET", "file":"include/linux/filter.h", "line":80, "type":"d", }
+,{"id":"BPF_JUMP", "file":"include/linux/filter.h", "line":153, "type":"d", }
+,{"id":"BPF_K", "file":"include/linux/filter.h", "line":82, "type":"d", }
+,{"id":"BPF_LD", "file":"include/linux/filter.h", "line":43, "type":"d", }
+,{"id":"BPF_LDX", "file":"include/linux/filter.h", "line":44, "type":"d", }
+,{"id":"BPF_LEN", "file":"include/linux/filter.h", "line":62, "type":"d", }
+,{"id":"BPF_LSH", "file":"include/linux/filter.h", "line":73, "type":"d", }
+,{"id":"BPF_MAJOR_VERSION", "file":"include/linux/filter.h", "line":18, "type":"d", }
+,{"id":"BPF_MAXINSNS", "file":"include/linux/filter.h", "line":143, "type":"d", }
+,{"id":"BPF_MEM", "file":"include/linux/filter.h", "line":61, "type":"d", }
+,{"id":"BPF_MEMWORDS", "file":"include/linux/filter.h", "line":159, "type":"d", }
+,{"id":"BPF_MINOR_VERSION", "file":"include/linux/filter.h", "line":19, "type":"d", }
+,{"id":"BPF_MISC", "file":"include/linux/filter.h", "line":50, "type":"d", }
+,{"id":"BPF_MISCOP", "file":"include/linux/filter.h", "line":90, "type":"d", }
+,{"id":"BPF_MODE", "file":"include/linux/filter.h", "line":57, "type":"d", }
+,{"id":"BPF_MSH", "file":"include/linux/filter.h", "line":63, "type":"d", }
+,{"id":"BPF_MUL", "file":"include/linux/filter.h", "line":69, "type":"d", }
+,{"id":"BPF_NEG", "file":"include/linux/filter.h", "line":75, "type":"d", }
+,{"id":"BPF_OP", "file":"include/linux/filter.h", "line":66, "type":"d", }
+,{"id":"BPF_OR", "file":"include/linux/filter.h", "line":71, "type":"d", }
+,{"id":"BPF_RET", "file":"include/linux/filter.h", "line":49, "type":"d", }
+,{"id":"BPF_RSH", "file":"include/linux/filter.h", "line":74, "type":"d", }
+,{"id":"BPF_RVAL", "file":"include/linux/filter.h", "line":86, "type":"d", }
+,{"id":"BPF_SIZE", "file":"include/linux/filter.h", "line":53, "type":"d", }
+,{"id":"BPF_SRC", "file":"include/linux/filter.h", "line":81, "type":"d", }
+,{"id":"BPF_ST", "file":"include/linux/filter.h", "line":45, "type":"d", }
+,{"id":"BPF_STMT", "file":"include/linux/filter.h", "line":150, "type":"d", }
+,{"id":"BPF_STX", "file":"include/linux/filter.h", "line":46, "type":"d", }
+,{"id":"BPF_SUB", "file":"include/linux/filter.h", "line":68, "type":"d", }
+,];
+xr_frag_insert('t/c4/3e0435849f3dbd26d3bdd8aff9beffc13e1487.xr', __xr_tmp);

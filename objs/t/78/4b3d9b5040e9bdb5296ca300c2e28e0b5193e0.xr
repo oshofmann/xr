@@ -1,0 +1,187 @@
+var __xr_tmp = [
+{"id":"reserve_backup_gdb", "file":"fs/ext4/resize.c", "line":814, "type":"c", "scope_line":722, "scope_name":"ext4_group_add", }
+,{"id":"reserve_bootmem", "file":"arch/x86/mm/init_64.c", "line":831, "type":"c", "scope_line":802, "scope_name":"reserve_bootmem_generic", }
+,{"id":"reserve_bootmem", "file":"mm/bootmem.c", "line":512, "type":"f", }
+,{"id":"reserve_bootmem_generic", "file":"arch/x86/mm/init_64.c", "line":802, "type":"f", }
+,{"id":"reserve_bootmem_node", "file":"arch/x86/mm/init_64.c", "line":829, "type":"c", "scope_line":802, "scope_name":"reserve_bootmem_generic", }
+,{"id":"reserve_bootmem_node", "file":"mm/bootmem.c", "line":486, "type":"f", }
+,{"id":"reserve_bp_slot", "file":"kernel/hw_breakpoint.c", "line":330, "type":"f", }
+,{"id":"reserve_bp_slot", "file":"kernel/hw_breakpoint.c", "line":412, "type":"c", "scope_line":408, "scope_name":"register_perf_hw_breakpoint", }
+,{"id":"reserve_brk", "file":"arch/x86/kernel/setup.c", "line":302, "type":"f", }
+,{"id":"reserve_brk", "file":"arch/x86/kernel/setup.c", "line":933, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"reserve_crashkernel", "file":"arch/x86/kernel/setup.c", "line":505, "type":"f", }
+,{"id":"reserve_crashkernel", "file":"arch/x86/kernel/setup.c", "line":977, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"reserve_ds_buffers", "file":"arch/x86/kernel/cpu/perf_event.c", "line":548, "type":"c", "scope_line":534, "scope_name":"__hw_perf_event_init", }
+,{"id":"reserve_ds_buffers", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":105, "type":"f", }
+,{"id":"reserve_early", "file":"arch/x86/kernel/acpi/sleep.c", "line":144, "type":"c", "scope_line":126, "scope_name":"acpi_reserve_wakeup_memory", }
+,{"id":"reserve_early", "file":"arch/x86/kernel/efi.c", "line":293, "type":"c", "scope_line":278, "scope_name":"efi_reserve_early", }
+,{"id":"reserve_early", "file":"arch/x86/kernel/head64.c", "line":101, "type":"c", "scope_line":97, "scope_name":"x86_64_start_reservations", }
+,{"id":"reserve_early", "file":"arch/x86/kernel/head64.c", "line":110, "type":"c", "scope_line":97, "scope_name":"x86_64_start_reservations", }
+,{"id":"reserve_early", "file":"arch/x86/kernel/setup.c", "line":305, "type":"c", "scope_line":302, "scope_name":"reserve_brk", }
+,{"id":"reserve_early", "file":"arch/x86/kernel/setup.c", "line":336, "type":"c", "scope_line":315, "scope_name":"relocate_initrd", }
+,{"id":"reserve_early", "file":"arch/x86/kernel/setup.c", "line":484, "type":"c", "scope_line":472, "scope_name":"reserve_early_setup_data", }
+,{"id":"reserve_early", "file":"arch/x86/kernel/setup.c", "line":538, "type":"c", "scope_line":505, "scope_name":"reserve_crashkernel", }
+,{"id":"reserve_early", "file":"arch/x86/kernel/trampoline.c", "line":28, "type":"c", "scope_line":18, "scope_name":"reserve_trampoline_memory", }
+,{"id":"reserve_early", "file":"arch/x86/mm/init.c", "line":302, "type":"c", "scope_line":124, "scope_name":"init_memory_mapping", }
+,{"id":"reserve_early", "file":"arch/x86/mm/numa_64.c", "line":229, "type":"c", "scope_line":195, "scope_name":"setup_node_bootmem", }
+,{"id":"reserve_early", "file":"arch/x86/mm/numa_64.c", "line":98, "type":"c", "scope_line":79, "scope_name":"allocate_cachealigned_memnodemap", }
+,{"id":"reserve_early", "file":"arch/x86/mm/srat_64.c", "line":109, "type":"c", "scope_line":95, "scope_name":"acpi_numa_slit_init", }
+,{"id":"reserve_early", "file":"arch/x86/xen/mmu.c", "line":1817, "type":"c", "scope_line":1763, "scope_name":"xen_setup_kernel_pagetable", }
+,{"id":"reserve_early", "file":"arch/x86/xen/setup.c", "line":132, "type":"c", "scope_line":108, "scope_name":"xen_memory_setup", }
+,{"id":"reserve_early", "file":"kernel/early_res.c", "line":289, "type":"f", }
+,{"id":"reserve_early_overlap_ok", "file":"arch/x86/kernel/head.c", "line":54, "type":"c", "scope_line":19, "scope_name":"reserve_ebda_region", }
+,{"id":"reserve_early_overlap_ok", "file":"arch/x86/kernel/mpparse.c", "line":660, "type":"c", "scope_line":656, "scope_name":"smp_reserve_memory", }
+,{"id":"reserve_early_overlap_ok", "file":"arch/x86/kernel/mpparse.c", "line":689, "type":"c", "scope_line":663, "scope_name":"smp_scan_config", }
+,{"id":"reserve_early_overlap_ok", "file":"arch/x86/kernel/setup.c", "line":618, "type":"c", "scope_line":611, "scope_name":"reserve_ibft_region", }
+,{"id":"reserve_early_overlap_ok", "file":"kernel/early_res.c", "line":171, "type":"c", "scope_line":120, "scope_name":"drop_overlaps_that_are_ok", }
+,{"id":"reserve_early_overlap_ok", "file":"kernel/early_res.c", "line":173, "type":"c", "scope_line":120, "scope_name":"drop_overlaps_that_are_ok", }
+,{"id":"reserve_early_overlap_ok", "file":"kernel/early_res.c", "line":220, "type":"f", }
+,{"id":"reserve_early_setup_data", "file":"arch/x86/kernel/setup.c", "line":472, "type":"f", }
+,{"id":"reserve_early_setup_data", "file":"arch/x86/kernel/setup.c", "line":845, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"reserve_early_without_check", "file":"kernel/early_res.c", "line":300, "type":"f", }
+,{"id":"reserve_early_without_check", "file":"kernel/early_res.c", "line":96, "type":"c", "scope_line":66, "scope_name":"drop_range_partial", }
+,{"id":"reserve_early_without_check", "file":"mm/page_alloc.c", "line":3688, "type":"c", "scope_line":3655, "scope_name":"__alloc_memory_core_early", }
+,{"id":"reserve_early_without_check", "file":"mm/sparse-vmemmap.c", "line":229, "type":"c", "scope_line":188, "scope_name":"sparse_mem_maps_populate_node", }
+,{"id":"reserve_ebda_region", "file":"arch/x86/kernel/head.c", "line":19, "type":"f", }
+,{"id":"reserve_ebda_region", "file":"arch/x86/kernel/head64.c", "line":114, "type":"c", "scope_line":97, "scope_name":"x86_64_start_reservations", }
+,{"id":"reserve_evntsel_nmi", "file":"arch/x86/kernel/cpu/perf_event.c", "line":342, "type":"c", "scope_line":329, "scope_name":"reserve_pmc_hardware", }
+,{"id":"reserve_evntsel_nmi", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":148, "type":"f", }
+,{"id":"reserve_evntsel_nmi", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":317, "type":"c", "scope_line":312, "scope_name":"single_msr_reserve", }
+,{"id":"reserve_evntsel_nmi", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":576, "type":"c", "scope_line":568, "scope_name":"p4_reserve", }
+,{"id":"reserve_evntsel_nmi", "file":"arch/x86/kernel/tsc.c", "line":921, "type":"c", "scope_line":901, "scope_name":"calibrate_cpu", }
+,{"id":"reserve_ibft_region", "file":"arch/x86/kernel/setup.c", "line":611, "type":"f", }
+,{"id":"reserve_ibft_region", "file":"arch/x86/kernel/setup.c", "line":940, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"reserve_initrd", "file":"arch/x86/kernel/setup.c", "line":378, "type":"f", }
+,{"id":"reserve_initrd", "file":"arch/x86/kernel/setup.c", "line":975, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"reserve_ioports", "file":"arch/x86/kernel/paravirt.c", "line":211, "type":"v", }
+,{"id":"reserve_lock", "file":"include/linux/sunrpc/xprt.h", "line":199, "type":"m", "scope_line":148, "scope_name":"struct rpc_xprt", }
+,{"id":"reserve_memtype", "file":"arch/x86/mm/ioremap.c", "line":119, "type":"c", "scope_line":62, "scope_name":"__ioremap_caller", }
+,{"id":"reserve_memtype", "file":"arch/x86/mm/pageattr.c", "line":1010, "type":"c", "scope_line":1000, "scope_name":"_set_memory_array", }
+,{"id":"reserve_memtype", "file":"arch/x86/mm/pageattr.c", "line":1071, "type":"c", "scope_line":1064, "scope_name":"set_memory_wc", }
+,{"id":"reserve_memtype", "file":"arch/x86/mm/pageattr.c", "line":1188, "type":"c", "scope_line":1174, "scope_name":"_set_pages_array", }
+,{"id":"reserve_memtype", "file":"arch/x86/mm/pageattr.c", "line":982, "type":"c", "scope_line":975, "scope_name":"set_memory_uc", }
+,{"id":"reserve_memtype", "file":"arch/x86/mm/pat.c", "line":256, "type":"f", }
+,{"id":"reserve_memtype", "file":"arch/x86/mm/pat.c", "line":439, "type":"c", "scope_line":429, "scope_name":"io_reserve_memtype", }
+,{"id":"reserve_memtype", "file":"arch/x86/mm/pat.c", "line":608, "type":"c", "scope_line":573, "scope_name":"reserve_pfn_range", }
+,{"id":"reserve_perfctr_nmi", "file":"arch/x86/kernel/cpu/perf_event.c", "line":337, "type":"c", "scope_line":329, "scope_name":"reserve_pmc_hardware", }
+,{"id":"reserve_perfctr_nmi", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":120, "type":"f", }
+,{"id":"reserve_perfctr_nmi", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":314, "type":"c", "scope_line":312, "scope_name":"single_msr_reserve", }
+,{"id":"reserve_perfctr_nmi", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":570, "type":"c", "scope_line":568, "scope_name":"p4_reserve", }
+,{"id":"reserve_perfctr_nmi", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":573, "type":"c", "scope_line":568, "scope_name":"p4_reserve", }
+,{"id":"reserve_perfctr_nmi", "file":"arch/x86/kernel/tsc.c", "line":920, "type":"c", "scope_line":901, "scope_name":"calibrate_cpu", }
+,{"id":"reserve_pfn_range", "file":"arch/x86/mm/pat.c", "line":573, "type":"f", }
+,{"id":"reserve_pfn_range", "file":"arch/x86/mm/pat.c", "line":678, "type":"c", "scope_line":661, "scope_name":"track_pfn_vma_copy", }
+,{"id":"reserve_pfn_range", "file":"arch/x86/mm/pat.c", "line":702, "type":"c", "scope_line":692, "scope_name":"track_pfn_vma_new", }
+,{"id":"reserve_pmc_hardware", "file":"arch/x86/kernel/cpu/perf_event.c", "line":329, "type":"f", }
+,{"id":"reserve_pmc_hardware", "file":"arch/x86/kernel/cpu/perf_event.c", "line":545, "type":"c", "scope_line":534, "scope_name":"__hw_perf_event_init", }
+,{"id":"reserve_ram_pages_type", "file":"arch/x86/mm/pat.c", "line":194, "type":"f", }
+,{"id":"reserve_ram_pages_type", "file":"arch/x86/mm/pat.c", "line":298, "type":"c", "scope_line":256, "scope_name":"reserve_memtype", }
+,{"id":"reserve_range", "file":"drivers/pnp/system.c", "line":25, "type":"f", }
+,{"id":"reserve_range", "file":"drivers/pnp/system.c", "line":78, "type":"c", "scope_line":55, "scope_name":"reserve_resources_of_dev", }
+,{"id":"reserve_range", "file":"drivers/pnp/system.c", "line":85, "type":"c", "scope_line":55, "scope_name":"reserve_resources_of_dev", }
+,{"id":"reserve_region_with_split", "file":"arch/x86/kernel/e820.c", "line":1161, "type":"c", "scope_line":1131, "scope_name":"e820_reserve_resources_late", }
+,{"id":"reserve_region_with_split", "file":"kernel/resource.c", "line":643, "type":"f", }
+,{"id":"reserve_resources", "file":"arch/x86/include/asm/x86_init.h", "line":43, "type":"m", "scope_line":41, "scope_name":"struct x86_init_resources", }
+,{"id":"reserve_resources_of_dev", "file":"drivers/pnp/system.c", "line":55, "type":"f", }
+,{"id":"reserve_resources_of_dev", "file":"drivers/pnp/system.c", "line":92, "type":"c", "scope_line":89, "scope_name":"system_pnp_probe", }
+,{"id":"reserve_setup", "file":"kernel/resource.c", "line":887, "type":"f", }
+,{"id":"reserve_standard_io_resources", "file":"arch/x86/kernel/setup.c", "line":579, "type":"f", }
+,{"id":"reserve_top_address", "file":"arch/x86/mm/pgtable.c", "line":347, "type":"f", }
+,{"id":"reserve_trampoline_memory", "file":"arch/x86/kernel/setup.c", "line":942, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"reserve_trampoline_memory", "file":"arch/x86/kernel/trampoline.c", "line":18, "type":"f", }
+,{"id":"reserve_xprt", "file":"include/linux/sunrpc/xprt.h", "line":115, "type":"m", "scope_line":113, "scope_name":"struct rpc_xprt_ops", }
+,{"id":"reserved", "file":"arch/x86/boot/vesa.h", "line":29, "type":"m", "scope_line":21, "scope_name":"struct vesa_general_info", }
+,{"id":"reserved", "file":"arch/x86/boot/vesa.h", "line":69, "type":"m", "scope_line":34, "scope_name":"struct vesa_mode_info", }
+,{"id":"reserved", "file":"arch/x86/include/asm/io_apic.h", "line":104, "type":"m", "scope_line":95, "scope_name":"struct IR_IO_APIC_route_entry", }
+,{"id":"reserved", "file":"arch/x86/include/asm/mpspec_def.h", "line":54, "type":"m", "scope_line":43, "scope_name":"struct mpc_table", }
+,{"id":"reserved", "file":"arch/x86/include/asm/mpspec_def.h", "line":81, "type":"m", "scope_line":74, "scope_name":"struct mpc_cpu", }
+,{"id":"reserved", "file":"arch/x86/include/asm/perf_event.h", "line":73, "type":"m", "scope_line":69, "scope_name":"union cpuid10_edx", }
+,{"id":"reserved", "file":"arch/x86/include/asm/sigcontext32.h", "line":42, "type":"m", "scope_line":26, "scope_name":"struct _fpstate_ia32", }
+,{"id":"reserved", "file":"arch/x86/include/asm/user32.h", "line":29, "type":"m", "scope_line":19, "scope_name":"struct user32_fxsr_struct", }
+,{"id":"reserved", "file":"arch/x86/include/asm/user32.h", "line":60, "type":"m", "scope_line":45, "scope_name":"struct user32", }
+,{"id":"reserved", "file":"arch/x86/include/asm/user_64.h", "line":121, "type":"m", "scope_line":102, "scope_name":"struct user", }
+,{"id":"reserved", "file":"arch/x86/include/asm/vmi.h", "line":160, "type":"m", "scope_line":157, "scope_name":"struct vmi_relocation_info", }
+,{"id":"reserved", "file":"arch/x86/include/asm/vmi.h", "line":191, "type":"m", "scope_line":175, "scope_name":"struct vrom_header", }
+,{"id":"reserved", "file":"arch/x86/include/asm/vmi.h", "line":222, "type":"m", "scope_line":207, "scope_name":"struct pci_header", }
+,{"id":"reserved", "file":"arch/x86/include/asm/vmx.h", "line":410, "type":"m", "scope_line":408, "scope_name":"struct vmx_msr_entry", }
+,{"id":"reserved", "file":"arch/x86/kernel/amd_iommu_init.c", "line":91, "type":"m", "scope_line":82, "scope_name":"struct ivhd_header", }
+,{"id":"reserved", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":128, "type":"m", "scope_line":122, "scope_name":"union _cpuid4_leaf_eax", }
+,{"id":"reserved", "file":"block/compat_ioctl.c", "line":117, "type":"m", "scope_line":108, "scope_name":"struct compat_cdrom_generic_command", }
+,{"id":"reserved", "file":"drivers/acpi/acpica/aclocal.h", "line":345, "type":"m", "scope_line":339, "scope_name":"struct acpi_package_info", }
+,{"id":"reserved", "file":"drivers/acpi/acpica/aclocal.h", "line":363, "type":"m", "scope_line":358, "scope_name":"struct acpi_package_info3", }
+,{"id":"reserved", "file":"drivers/acpi/acpica/acobject.h", "line":325, "type":"m", "scope_line":322, "scope_name":"struct acpi_object_reference", }
+,{"id":"reserved", "file":"drivers/acpi/acpica/amlresrc.h", "line":213, "type":"m", "scope_line":210, "scope_name":"struct aml_resource_extended_address64", }
+,{"id":"reserved", "file":"drivers/acpi/pci_link.c", "line":88, "type":"m", "scope_line":80, "scope_name":"struct acpi_pci_link_irq", }
+,{"id":"reserved", "file":"drivers/acpi/sbshc.c", "line":59, "type":"m", "scope_line":55, "scope_name":"union acpi_smb_status", }
+,{"id":"reserved", "file":"drivers/acpi/thermal.c", "line":133, "type":"m", "scope_line":128, "scope_name":"struct acpi_thermal_state", }
+,{"id":"reserved", "file":"drivers/acpi/thermal.c", "line":140, "type":"m", "scope_line":137, "scope_name":"struct acpi_thermal_state_flags", }
+,{"id":"reserved", "file":"drivers/acpi/thermal.c", "line":178, "type":"m", "scope_line":175, "scope_name":"struct acpi_thermal_flags", }
+,{"id":"reserved", "file":"drivers/ata/ahci.h", "line":247, "type":"m", "scope_line":242, "scope_name":"struct ahci_cmd_hdr", }
+,{"id":"reserved", "file":"drivers/ata/ahci.h", "line":253, "type":"m", "scope_line":250, "scope_name":"struct ahci_sg", }
+,{"id":"reserved", "file":"drivers/block/loop.c", "line":1266, "type":"m", "scope_line":1254, "scope_name":"struct compat_loop_info", }
+,{"id":"reserved", "file":"drivers/video/fbmem.c", "line":1184, "type":"m", "scope_line":1170, "scope_name":"struct fb_fix_screeninfo32", }
+,{"id":"reserved", "file":"fs/compat_ioctl.c", "line":685, "type":"m", "scope_line":666, "scope_name":"struct serial_struct32", }
+,{"id":"reserved", "file":"fs/ext4/ext4.h", "line":622, "type":"m", "scope_line":621, "scope_name":"struct move_extent", }
+,{"id":"reserved", "file":"fs/partitions/efi.h", "line":91, "type":"m", "scope_line":89, "scope_name":"struct _gpt_entry_attributes", }
+,{"id":"reserved", "file":"include/acpi/acpi_bus.h", "line":137, "type":"m", "scope_line":131, "scope_name":"struct acpi_device_status", }
+,{"id":"reserved", "file":"include/acpi/acpi_bus.h", "line":153, "type":"m", "scope_line":142, "scope_name":"struct acpi_device_flags", }
+,{"id":"reserved", "file":"include/acpi/acpi_bus.h", "line":198, "type":"m", "scope_line":193, "scope_name":"struct acpi_device_power_flags", }
+,{"id":"reserved", "file":"include/acpi/acpi_bus.h", "line":205, "type":"m", "scope_line":201, "scope_name":"struct acpi_device_power_state", }
+,{"id":"reserved", "file":"include/acpi/acpi_bus.h", "line":221, "type":"m", "scope_line":220, "scope_name":"struct acpi_device_perf_flags", }
+,{"id":"reserved", "file":"include/acpi/acpi_bus.h", "line":227, "type":"m", "scope_line":224, "scope_name":"struct acpi_device_perf_state", }
+,{"id":"reserved", "file":"include/acpi/actbl.h", "line":140, "type":"m", "scope_line":131, "scope_name":"struct acpi_table_rsdp", }
+,{"id":"reserved", "file":"include/acpi/actbl.h", "line":177, "type":"m", "scope_line":168, "scope_name":"struct acpi_table_facs", }
+,{"id":"reserved", "file":"include/acpi/actbl.h", "line":243, "type":"m", "scope_line":205, "scope_name":"struct acpi_table_fadt", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":106, "type":"m", "scope_line":102, "scope_name":"struct acpi_whea_header", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":167, "type":"m", "scope_line":165, "scope_name":"struct acpi_table_cpep", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":206, "type":"m", "scope_line":202, "scope_name":"struct acpi_table_einj", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":289, "type":"m", "scope_line":286, "scope_name":"struct acpi_table_erst", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":416, "type":"m", "scope_line":412, "scope_name":"struct acpi_hest_ia_error_bank", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":519, "type":"m", "scope_line":517, "scope_name":"struct acpi_hest_ia_nmi", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":557, "type":"m", "scope_line":554, "scope_name":"struct acpi_hest_generic", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":655, "type":"m", "scope_line":652, "scope_name":"struct acpi_madt_io_apic", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":691, "type":"m", "scope_line":689, "scope_name":"struct acpi_madt_local_apic_override", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":700, "type":"m", "scope_line":697, "scope_name":"struct acpi_madt_io_sapic", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":712, "type":"m", "scope_line":707, "scope_name":"struct acpi_madt_local_sapic", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":739, "type":"m", "scope_line":737, "scope_name":"struct acpi_madt_local_x2apic", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":752, "type":"m", "scope_line":747, "scope_name":"struct acpi_madt_local_x2apic_nmi", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":843, "type":"m", "scope_line":840, "scope_name":"struct acpi_table_srat", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":868, "type":"m", "scope_line":861, "scope_name":"struct acpi_srat_cpu_affinity", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":880, "type":"m", "scope_line":877, "scope_name":"struct acpi_srat_mem_affinity", }
+,{"id":"reserved", "file":"include/acpi/actbl1.h", "line":898, "type":"m", "scope_line":896, "scope_name":"struct acpi_srat_x2apic_cpu_affinity", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":121, "type":"m", "scope_line":119, "scope_name":"struct acpi_asf_header", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":230, "type":"m", "scope_line":227, "scope_name":"struct acpi_table_boot", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":245, "type":"m", "scope_line":242, "scope_name":"struct acpi_table_dbgp", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":263, "type":"m", "scope_line":259, "scope_name":"struct acpi_table_dmar", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":292, "type":"m", "scope_line":289, "scope_name":"struct acpi_dmar_device_scope", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":322, "type":"m", "scope_line":319, "scope_name":"struct acpi_dmar_hardware_unit", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":335, "type":"m", "scope_line":333, "scope_name":"struct acpi_dmar_reserved_memory", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":350, "type":"m", "scope_line":347, "scope_name":"struct acpi_dmar_atsr", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":362, "type":"m", "scope_line":360, "scope_name":"struct acpi_dmar_rhsa", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":413, "type":"m", "scope_line":411, "scope_name":"struct acpi_table_ibft", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":508, "type":"m", "scope_line":505, "scope_name":"struct acpi_table_ivrs", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":562, "type":"m", "scope_line":556, "scope_name":"struct acpi_ivrs_hardware", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":662, "type":"m", "scope_line":659, "scope_name":"struct acpi_ivrs_memory", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":678, "type":"m", "scope_line":676, "scope_name":"struct acpi_table_mcfg", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":688, "type":"m", "scope_line":683, "scope_name":"struct acpi_mcfg_allocation", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":730, "type":"m", "scope_line":727, "scope_name":"struct acpi_table_spcr", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":769, "type":"m", "scope_line":766, "scope_name":"struct acpi_table_spmi", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":807, "type":"m", "scope_line":805, "scope_name":"struct acpi_table_tcpa", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":864, "type":"m", "scope_line":857, "scope_name":"struct acpi_table_wdat", }
+,{"id":"reserved", "file":"include/acpi/actbl2.h", "line":883, "type":"m", "scope_line":880, "scope_name":"struct acpi_wdat_entry", }
+,{"id":"reserved", "file":"include/acpi/processor.h", "line":137, "type":"m", "scope_line":131, "scope_name":"struct acpi_ptc_register", }
+,{"id":"reserved", "file":"include/acpi/processor.h", "line":222, "type":"m", "scope_line":217, "scope_name":"struct acpi_processor_errata", }
+,{"id":"reserved", "file":"include/acpi/processor.h", "line":96, "type":"m", "scope_line":90, "scope_name":"struct acpi_pct_register", }
+,{"id":"reserved", "file":"include/linux/capi.h", "line":72, "type":"m", "scope_line":65, "scope_name":"struct capi_profile", }
+,{"id":"reserved", "file":"include/linux/cdrom.h", "line":291, "type":"m", "scope_line":281, "scope_name":"struct cdrom_generic_command", }
+,{"id":"reserved", "file":"include/linux/cdrom.h", "line":926, "type":"m", "scope_line":916, "scope_name":"struct packet_command", }
+,{"id":"reserved", "file":"include/linux/cdrom.h", "line":953, "type":"m", "scope_line":937, "scope_name":"struct cdrom_device_info", }
+,{"id":"reserved", "file":"include/linux/cper.h", "line":226, "type":"m", "scope_line":210, "scope_name":"struct cper_record_header", }
+,{"id":"reserved", "file":"include/linux/cper.h", "line":236, "type":"m", "scope_line":229, "scope_name":"struct cper_section_descriptor", }
+,{"id":"reserved", "file":"include/linux/cper.h", "line":253, "type":"m", "scope_line":245, "scope_name":"struct cper_sec_proc_generic", }
+,{"id":"reserved", "file":"include/linux/dvb/frontend.h", "line":350, "type":"m", "scope_line":342, "scope_name":"struct dtv_cmds_h", }
+,{"id":"reserved", "file":"include/linux/dvb/frontend.h", "line":355, "type":"m", "scope_line":353, "scope_name":"struct dtv_property", }
+,{"id":"reserved", "file":"include/linux/edd.h", "line":101, "type":"m", "scope_line":71, "scope_name":"struct edd_device_params", }
+,{"id":"reserved", "file":"include/linux/edd.h", "line":104, "type":"m", "scope_line":71, "scope_name":"struct edd_device_params", }
+,];
+xr_frag_insert('t/78/4b3d9b5040e9bdb5296ca300c2e28e0b5193e0.xr', __xr_tmp);

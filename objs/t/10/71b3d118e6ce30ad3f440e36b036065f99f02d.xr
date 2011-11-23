@@ -1,0 +1,107 @@
+var __xr_tmp = [
+{"id":"klist_iter_init", "file":"drivers/base/attribute_container.c", "line":430, "type":"c", "scope_line":422, "scope_name":"attribute_container_find_class_device", }
+,{"id":"klist_iter_init", "file":"drivers/base/core.c", "line":1285, "type":"c", "scope_line":1275, "scope_name":"device_for_each_child", }
+,{"id":"klist_iter_init", "file":"drivers/base/core.c", "line":1316, "type":"c", "scope_line":1307, "scope_name":"device_find_child", }
+,{"id":"klist_iter_init", "file":"lib/klist.c", "line":298, "type":"f", }
+,{"id":"klist_iter_init_node", "file":"drivers/base/bus.c", "line":296, "type":"c", "scope_line":286, "scope_name":"bus_for_each_dev", }
+,{"id":"klist_iter_init_node", "file":"drivers/base/bus.c", "line":330, "type":"c", "scope_line":320, "scope_name":"bus_find_device", }
+,{"id":"klist_iter_init_node", "file":"drivers/base/bus.c", "line":405, "type":"c", "scope_line":395, "scope_name":"bus_for_each_drv", }
+,{"id":"klist_iter_init_node", "file":"drivers/base/class.c", "line":317, "type":"c", "scope_line":310, "scope_name":"class_dev_iter_init", }
+,{"id":"klist_iter_init_node", "file":"drivers/base/driver.c", "line":52, "type":"c", "scope_line":42, "scope_name":"driver_for_each_device", }
+,{"id":"klist_iter_init_node", "file":"drivers/base/driver.c", "line":86, "type":"c", "scope_line":76, "scope_name":"driver_find_device", }
+,{"id":"klist_iter_init_node", "file":"lib/klist.c", "line":281, "type":"f", }
+,{"id":"klist_iter_init_node", "file":"lib/klist.c", "line":300, "type":"c", "scope_line":298, "scope_name":"klist_iter_init", }
+,{"id":"klist_next", "file":"drivers/base/attribute_container.c", "line":225, "type":"c", "scope_line":206, "scope_name":"attribute_container_remove_device", }
+,{"id":"klist_next", "file":"drivers/base/attribute_container.c", "line":271, "type":"c", "scope_line":250, "scope_name":"attribute_container_device_trigger", }
+,{"id":"klist_next", "file":"drivers/base/attribute_container.c", "line":430, "type":"c", "scope_line":422, "scope_name":"attribute_container_find_class_device", }
+,{"id":"klist_next", "file":"drivers/base/bus.c", "line":256, "type":"c", "scope_line":254, "scope_name":"next_device", }
+,{"id":"klist_next", "file":"drivers/base/bus.c", "line":366, "type":"c", "scope_line":364, "scope_name":"next_driver", }
+,{"id":"klist_next", "file":"drivers/base/class.c", "line":340, "type":"c", "scope_line":334, "scope_name":"class_dev_iter_next", }
+,{"id":"klist_next", "file":"drivers/base/core.c", "line":1209, "type":"c", "scope_line":1207, "scope_name":"next_device", }
+,{"id":"klist_next", "file":"drivers/base/driver.c", "line":22, "type":"c", "scope_line":20, "scope_name":"next_device", }
+,{"id":"klist_next", "file":"lib/klist.c", "line":334, "type":"f", }
+,{"id":"klist_node", "file":"include/linux/klist.h", "line":39, "type":"s", }
+,{"id":"klist_node_attached", "file":"drivers/base/bus.c", "line":537, "type":"c", "scope_line":529, "scope_name":"bus_remove_device", }
+,{"id":"klist_node_attached", "file":"drivers/base/dd.c", "line":34, "type":"c", "scope_line":32, "scope_name":"driver_bound", }
+,{"id":"klist_node_attached", "file":"lib/klist.c", "line":266, "type":"f", }
+,{"id":"klist_node_init", "file":"lib/klist.c", "line":109, "type":"f", }
+,{"id":"klist_node_init", "file":"lib/klist.c", "line":125, "type":"c", "scope_line":123, "scope_name":"klist_add_head", }
+,{"id":"klist_node_init", "file":"lib/klist.c", "line":137, "type":"c", "scope_line":135, "scope_name":"klist_add_tail", }
+,{"id":"klist_node_init", "file":"lib/klist.c", "line":151, "type":"c", "scope_line":147, "scope_name":"klist_add_after", }
+,{"id":"klist_node_init", "file":"lib/klist.c", "line":167, "type":"c", "scope_line":163, "scope_name":"klist_add_before", }
+,{"id":"klist_put", "file":"lib/klist.c", "line":210, "type":"f", }
+,{"id":"klist_put", "file":"lib/klist.c", "line":231, "type":"c", "scope_line":229, "scope_name":"klist_del", }
+,{"id":"klist_put", "file":"lib/klist.c", "line":315, "type":"c", "scope_line":312, "scope_name":"klist_iter_exit", }
+,{"id":"klist_release", "file":"lib/klist.c", "line":184, "type":"f", }
+,{"id":"klist_remove", "file":"drivers/base/bus.c", "line":732, "type":"c", "scope_line":723, "scope_name":"bus_remove_driver", }
+,{"id":"klist_remove", "file":"drivers/base/core.c", "line":1735, "type":"c", "scope_line":1709, "scope_name":"device_move", }
+,{"id":"klist_remove", "file":"drivers/base/core.c", "line":1750, "type":"c", "scope_line":1709, "scope_name":"device_move", }
+,{"id":"klist_remove", "file":"drivers/base/dd.c", "line":335, "type":"c", "scope_line":313, "scope_name":"__device_release_driver", }
+,{"id":"klist_remove", "file":"lib/klist.c", "line":239, "type":"f", }
+,{"id":"klist_remove_lock", "file":"lib/klist.c", "line":181, "type":"v", }
+,{"id":"klist_remove_waiters", "file":"lib/klist.c", "line":182, "type":"v", }
+,{"id":"klist_waiter", "file":"lib/klist.c", "line":174, "type":"s", }
+,{"id":"km", "file":"include/net/xfrm.h", "line":150, "type":"m", "scope_line":129, "scope_name":"struct xfrm_state", }
+,{"id":"km_dp_init", "file":"drivers/md/dm-io.c", "line":291, "type":"f", }
+,{"id":"km_dp_init", "file":"drivers/md/dm-io.c", "line":468, "type":"c", "scope_line":451, "scope_name":"dp_init", }
+,{"id":"km_event", "file":"include/net/xfrm.h", "line":245, "type":"s", }
+,{"id":"km_get_page", "file":"drivers/md/dm-io.c", "line":277, "type":"f", }
+,{"id":"km_new_mapping", "file":"net/xfrm/xfrm_state.c", "line":1789, "type":"f", }
+,{"id":"km_next_page", "file":"drivers/md/dm-io.c", "line":285, "type":"f", }
+,{"id":"km_policy_expired", "file":"net/xfrm/xfrm_policy.c", "line":202, "type":"c", "scope_line":149, "scope_name":"xfrm_policy_timer", }
+,{"id":"km_policy_expired", "file":"net/xfrm/xfrm_policy.c", "line":215, "type":"c", "scope_line":149, "scope_name":"xfrm_policy_timer", }
+,{"id":"km_policy_expired", "file":"net/xfrm/xfrm_state.c", "line":1806, "type":"f", }
+,{"id":"km_policy_notify", "file":"net/xfrm/xfrm_state.c", "line":1730, "type":"f", }
+,{"id":"km_policy_notify", "file":"net/xfrm/xfrm_state.c", "line":1814, "type":"c", "scope_line":1806, "scope_name":"km_policy_expired", }
+,{"id":"km_query", "file":"net/xfrm/xfrm_state.c", "line":1773, "type":"f", }
+,{"id":"km_query", "file":"net/xfrm/xfrm_state.c", "line":864, "type":"c", "scope_line":786, "scope_name":"xfrm_state_find", }
+,{"id":"km_report", "file":"net/xfrm/xfrm_state.c", "line":1844, "type":"f", }
+,{"id":"km_state_expired", "file":"net/xfrm/xfrm_state.c", "line":1365, "type":"c", "scope_line":1346, "scope_name":"xfrm_state_check_expire", }
+,{"id":"km_state_expired", "file":"net/xfrm/xfrm_state.c", "line":1754, "type":"f", }
+,{"id":"km_state_expired", "file":"net/xfrm/xfrm_state.c", "line":456, "type":"c", "scope_line":404, "scope_name":"xfrm_timer_handler", }
+,{"id":"km_state_expired", "file":"net/xfrm/xfrm_state.c", "line":474, "type":"c", "scope_line":404, "scope_name":"xfrm_timer_handler", }
+,{"id":"km_state_notify", "file":"net/xfrm/xfrm_state.c", "line":1653, "type":"c", "scope_line":1613, "scope_name":"xfrm_replay_notify", }
+,{"id":"km_state_notify", "file":"net/xfrm/xfrm_state.c", "line":1741, "type":"f", }
+,{"id":"km_state_notify", "file":"net/xfrm/xfrm_state.c", "line":1762, "type":"c", "scope_line":1754, "scope_name":"km_state_expired", }
+,{"id":"km_type", "file":"include/asm-generic/kmap_types.h", "line":10, "type":"t", }
+,{"id":"km_waitq", "file":"include/net/netns/xfrm.h", "line":36, "type":"m", "scope_line":17, "scope_name":"struct netns_xfrm", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/apic/nmi.c", "line":139, "type":"c", "scope_line":131, "scope_name":"check_nmi_watchdog", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":599, "type":"c", "scope_line":509, "scope_name":"acpi_cpufreq_cpu_init", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":689, "type":"c", "scope_line":660, "scope_name":"fill_powernow_table", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":859, "type":"c", "scope_line":831, "scope_name":"powernow_k8_cpu_init_acpi", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":1549, "type":"c", "scope_line":1541, "scope_name":"mce_read", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1517, "type":"c", "scope_line":1511, "scope_name":"validate_event", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1552, "type":"c", "scope_line":1545, "scope_name":"validate_group", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/cpu/perf_event_amd.c", "line":283, "type":"c", "scope_line":278, "scope_name":"amd_alloc_nb", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/ioport.c", "line":53, "type":"c", "scope_line":36, "scope_name":"sys_ioperm", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/k8.c", "line":50, "type":"c", "scope_line":38, "scope_name":"cache_k8_northbridges", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/k8.c", "line":60, "type":"c", "scope_line":38, "scope_name":"cache_k8_northbridges", }
+,{"id":"kmalloc", "file":"arch/x86/kernel/process_64.c", "line":296, "type":"c", "scope_line":259, "scope_name":"copy_thread", }
+,{"id":"kmalloc", "file":"arch/x86/mm/kmmio.c", "line":523, "type":"c", "scope_line":503, "scope_name":"unregister_kmmio_probe", }
+,{"id":"kmalloc", "file":"arch/x86/mm/mmio-mod.c", "line":239, "type":"c", "scope_line":235, "scope_name":"ioremap_trace_core", }
+,{"id":"kmalloc", "file":"arch/x86/pci/acpi.c", "line":215, "type":"c", "scope_line":196, "scope_name":"get_current_resources", }
+,{"id":"kmalloc", "file":"arch/x86/vdso/vma.c", "line":45, "type":"c", "scope_line":38, "scope_name":"init_vdso_vars", }
+,{"id":"kmalloc", "file":"block/blk-tag.c", "line":145, "type":"c", "scope_line":140, "scope_name":"__blk_queue_init_tags", }
+,{"id":"kmalloc", "file":"block/compat_ioctl.c", "line":343, "type":"c", "scope_line":317, "scope_name":"compat_fd_ioctl", }
+,{"id":"kmalloc", "file":"block/compat_ioctl.c", "line":372, "type":"c", "scope_line":317, "scope_name":"compat_fd_ioctl", }
+,{"id":"kmalloc", "file":"block/compat_ioctl.c", "line":404, "type":"c", "scope_line":317, "scope_name":"compat_fd_ioctl", }
+,{"id":"kmalloc", "file":"block/compat_ioctl.c", "line":409, "type":"c", "scope_line":317, "scope_name":"compat_fd_ioctl", }
+,{"id":"kmalloc", "file":"block/compat_ioctl.c", "line":414, "type":"c", "scope_line":317, "scope_name":"compat_fd_ioctl", }
+,{"id":"kmalloc", "file":"block/genhd.c", "line":303, "type":"c", "scope_line":279, "scope_name":"register_blkdev", }
+,{"id":"kmalloc", "file":"block/genhd.c", "line":690, "type":"c", "scope_line":684, "scope_name":"disk_seqf_start", }
+,{"id":"kmalloc", "file":"block/scsi_ioctl.c", "line":326, "type":"c", "scope_line":283, "scope_name":"sg_io", }
+,{"id":"kmalloc", "file":"crypto/ablkcipher.c", "line":166, "type":"c", "scope_line":151, "scope_name":"ablkcipher_next_slow", }
+,{"id":"kmalloc", "file":"crypto/ablkcipher.c", "line":203, "type":"c", "scope_line":191, "scope_name":"ablkcipher_copy_iv", }
+,{"id":"kmalloc", "file":"crypto/ablkcipher.c", "line":318, "type":"c", "scope_line":308, "scope_name":"setkey_unaligned", }
+,{"id":"kmalloc", "file":"crypto/aead.c", "line":37, "type":"c", "scope_line":27, "scope_name":"setkey_unaligned", }
+,{"id":"kmalloc", "file":"crypto/ahash.c", "line":156, "type":"c", "scope_line":147, "scope_name":"ahash_setkey_unaligned", }
+,{"id":"kmalloc", "file":"crypto/ahash.c", "line":226, "type":"c", "scope_line":217, "scope_name":"ahash_op_unaligned", }
+,{"id":"kmalloc", "file":"crypto/ahash.c", "line":336, "type":"c", "scope_line":329, "scope_name":"ahash_def_finup", }
+,{"id":"kmalloc", "file":"crypto/blkcipher.c", "line":164, "type":"c", "scope_line":147, "scope_name":"blkcipher_next_slow", }
+,{"id":"kmalloc", "file":"crypto/blkcipher.c", "line":290, "type":"c", "scope_line":278, "scope_name":"blkcipher_copy_iv", }
+,{"id":"kmalloc", "file":"crypto/blkcipher.c", "line":369, "type":"c", "scope_line":359, "scope_name":"setkey_unaligned", }
+,{"id":"kmalloc", "file":"crypto/cipher.c", "line":33, "type":"c", "scope_line":23, "scope_name":"setkey_unaligned", }
+,{"id":"kmalloc", "file":"crypto/rng.c", "line":36, "type":"c", "scope_line":30, "scope_name":"rngapi_reset", }
+,{"id":"kmalloc", "file":"crypto/shash.c", "line":41, "type":"c", "scope_line":31, "scope_name":"shash_setkey_unaligned", }
+,];
+xr_frag_insert('t/10/71b3d118e6ce30ad3f440e36b036065f99f02d.xr', __xr_tmp);

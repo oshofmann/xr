@@ -1,0 +1,23 @@
+var __xr_tmp = [
+"<span class=\"ts\"/><span class=\"ts\"/>return -<a class=\"id\" href=\"#ENODEV\">ENODEV</a>;", 
+"<span class=\"ts\"/>}", 
+"", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#ret\">ret</a> = <a class=\"id\" href=\"#pnp_assign_resources\">pnp_assign_resources</a>(<a class=\"id\" href=\"#dev\">dev</a>, 0);", 
+"<span class=\"ts\"/>if (<a class=\"id\" href=\"#ret\">ret</a> == 0)", 
+"<span class=\"ts\"/><span class=\"ts\"/>return 0;", 
+"", 
+"<span class=\"ts\"/>for (<a class=\"id\" href=\"#i\">i</a> = 1; <a class=\"id\" href=\"#i\">i</a> &lt; <a class=\"id\" href=\"#dev\">dev</a>-><a class=\"id\" href=\"#num_dependent_sets\">num_dependent_sets</a>; <a class=\"id\" href=\"#i\">i</a>++) {", 
+"<span class=\"ts\"/><span class=\"ts\"/><a class=\"id\" href=\"#ret\">ret</a> = <a class=\"id\" href=\"#pnp_assign_resources\">pnp_assign_resources</a>(<a class=\"id\" href=\"#dev\">dev</a>, <a class=\"id\" href=\"#i\">i</a>);", 
+"<span class=\"ts\"/><span class=\"ts\"/>if (<a class=\"id\" href=\"#ret\">ret</a> == 0)", 
+"<span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/>return 0;", 
+"<span class=\"ts\"/>}", 
+"", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#dev_err\">dev_err</a>(&amp;<a class=\"id\" href=\"#dev\">dev</a>-><a class=\"id\" href=\"#dev\">dev</a>, \"unable to assign resources\\n\");", 
+"<span class=\"ts\"/>return <a class=\"id\" href=\"#ret\">ret</a>;", 
+"}", 
+"", 
+"<span class=\"comment\">/**</span>", 
+"<span class=\"comment\"> * pnp_start_dev - low-level start of the PnP device</span>", 
+"<span class=\"comment\"> * @dev: pointer to the desired device</span>", 
+];
+xr_frag_insert('l/b2/c481deedafeb383f9d585cf70143f2b2bf5c9d.xr', __xr_tmp);

@@ -1,0 +1,220 @@
+var __xr_tmp = [
+{"id":"irq_canonicalize", "file":"drivers/serial/8250.c", "line":2712, "type":"c", "scope_line":2677, "scope_name":"serial8250_isa_init_ports", }
+,{"id":"irq_canonicalize", "file":"drivers/serial/serial_core.c", "line":695, "type":"c", "scope_line":676, "scope_name":"uart_set_info", }
+,{"id":"irq_cfg", "file":"arch/x86/include/asm/hw_irq.h", "line":86, "type":"s", }
+,{"id":"irq_cfg", "file":"arch/x86/kernel/apic/io_apic.c", "line":1292, "type":"c", "scope_line":1257, "scope_name":"__setup_vector_irq", }
+,{"id":"irq_cfg", "file":"arch/x86/kernel/apic/io_apic.c", "line":186, "type":"f", }
+,{"id":"irq_cfg", "file":"arch/x86/kernel/apic/io_apic.c", "line":2254, "type":"c", "scope_line":2242, "scope_name":"startup_ioapic_irq", }
+,{"id":"irq_cfg", "file":"arch/x86/kernel/apic/io_apic.c", "line":2264, "type":"c", "scope_line":2261, "scope_name":"ioapic_retrigger_irq", }
+,{"id":"irq_cfg", "file":"arch/x86/kernel/apic/io_apic.c", "line":2481, "type":"c", "scope_line":2458, "scope_name":"smp_irq_move_cleanup_interrupt", }
+,{"id":"irq_cfg", "file":"arch/x86/kernel/apic/io_apic.c", "line":3328, "type":"c", "scope_line":3318, "scope_name":"msi_compose_msg", }
+,{"id":"irq_cfg", "file":"arch/x86/kernel/apic/io_apic.c", "line":3808, "type":"c", "scope_line":3800, "scope_name":"arch_setup_ht_irq", }
+,{"id":"irq_cfg", "file":"arch/x86/kernel/apic/io_apic.c", "line":4329, "type":"c", "scope_line":4316, "scope_name":"pre_init_apic_IRQ0", }
+,{"id":"irq_cfgx", "file":"arch/x86/kernel/apic/io_apic.c", "line":145, "type":"v", }
+,{"id":"irq_chip", "file":"include/linux/irq.h", "line":111, "type":"s", }
+,{"id":"irq_chip_set_defaults", "file":"kernel/irq/chip.c", "line":142, "type":"c", "scope_line":128, "scope_name":"set_irq_chip", }
+,{"id":"irq_chip_set_defaults", "file":"kernel/irq/chip.c", "line":330, "type":"f", }
+,{"id":"irq_chip_set_defaults", "file":"kernel/irq/manage.c", "line":461, "type":"c", "scope_line":431, "scope_name":"__irq_set_trigger", }
+,{"id":"irq_chip_set_defaults", "file":"kernel/irq/manage.c", "line":755, "type":"c", "scope_line":648, "scope_name":"__setup_irq", }
+,{"id":"irq_complete_move", "file":"arch/x86/kernel/apic/io_apic.c", "line":2529, "type":"f", }
+,{"id":"irq_complete_move", "file":"arch/x86/kernel/apic/io_apic.c", "line":2552, "type":"c", "scope_line":2548, "scope_name":"ack_apic_edge", }
+,{"id":"irq_complete_move", "file":"arch/x86/kernel/apic/io_apic.c", "line":2620, "type":"c", "scope_line":2612, "scope_name":"ack_apic_level", }
+,{"id":"irq_count", "file":"arch/x86/kernel/cpu/common.c", "line":1024, "type":"v", }
+,{"id":"irq_count", "file":"drivers/acpi/ec.c", "line":101, "type":"m", "scope_line":98, "scope_name":"struct transaction", }
+,{"id":"irq_count", "file":"include/linux/hardirq.h", "line":79, "type":"d", }
+,{"id":"irq_count", "file":"include/linux/irq.h", "line":192, "type":"m", "scope_line":175, "scope_name":"struct irq_desc", }
+,{"id":"irq_cpustat_t", "file":"arch/x86/include/asm/hardirq.h", "line":7, "type":"t", }
+,{"id":"irq_ctx_exit", "file":"arch/x86/include/asm/irq.h", "line":28, "type":"d", }
+,{"id":"irq_ctx_init", "file":"arch/x86/include/asm/irq.h", "line":27, "type":"d", }
+,{"id":"irq_data", "file":"include/linux/rtc.h", "line":173, "type":"m", "scope_line":159, "scope_name":"struct rtc_device", }
+,{"id":"irq_default_affinity", "file":"include/linux/interrupt.h", "line":235, "type":"v", }
+,{"id":"irq_default_primary_handler", "file":"kernel/irq/manage.c", "line":472, "type":"f", }
+,{"id":"irq_delivery_mode", "file":"arch/x86/include/asm/apic.h", "line":292, "type":"m", "scope_line":285, "scope_name":"struct apic", }
+,{"id":"irq_depth", "file":"kernel/debug/debug_core.h", "line":42, "type":"m", "scope_line":37, "scope_name":"struct debuggerinfo_struct", }
+,{"id":"irq_desc", "file":"include/linux/irq.h", "line":175, "type":"s", }
+,{"id":"irq_desc_init", "file":"kernel/irq/handle.c", "line":77, "type":"v", }
+,{"id":"irq_desc_legacy", "file":"kernel/irq/handle.c", "line":152, "type":"v", }
+,{"id":"irq_desc_lock_class", "file":"kernel/irq/internals.h", "line":18, "type":"v", }
+,{"id":"irq_desc_table", "file":"arch/x86/include/asm/bootparam.h", "line":78, "type":"m", "scope_line":74, "scope_name":"struct olpc_ofw_header", }
+,{"id":"irq_desc_tree", "file":"kernel/irq/handle.c", "line":131, "type":"v", }
+,{"id":"irq_dest_mode", "file":"arch/x86/include/asm/apic.h", "line":293, "type":"m", "scope_line":285, "scope_name":"struct apic", }
+,{"id":"irq_devres", "file":"kernel/irq/devres.c", "line":9, "type":"s", }
+,{"id":"irq_disable", "file":"arch/x86/include/asm/paravirt_types.h", "line":203, "type":"m", "scope_line":191, "scope_name":"struct pv_irq_ops", }
+,{"id":"irq_disable", "file":"include/linux/phy.h", "line":326, "type":"m", "scope_line":269, "scope_name":"struct phy_device", }
+,{"id":"irq_enable", "file":"arch/x86/include/asm/paravirt_types.h", "line":204, "type":"m", "scope_line":191, "scope_name":"struct pv_irq_ops", }
+,{"id":"irq_enable_sysexit", "file":"arch/x86/include/asm/paravirt_types.h", "line":163, "type":"m", "scope_line":95, "scope_name":"struct pv_cpu_ops", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/apic/apic.c", "line":1733, "type":"c", "scope_line":1728, "scope_name":"smp_spurious_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/apic/apic.c", "line":1759, "type":"c", "scope_line":1754, "scope_name":"smp_error_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/apic/apic.c", "line":825, "type":"c", "scope_line":810, "scope_name":"smp_apic_timer_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/apic/io_apic.c", "line":2464, "type":"c", "scope_line":2458, "scope_name":"smp_irq_move_cleanup_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":481, "type":"c", "scope_line":477, "scope_name":"smp_mce_self_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":363, "type":"c", "scope_line":360, "scope_name":"smp_thermal_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/cpu/mcheck/threshold.c", "line":23, "type":"c", "scope_line":20, "scope_name":"smp_threshold_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1185, "type":"c", "scope_line":1183, "scope_name":"smp_perf_pending_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/irq.c", "line":235, "type":"c", "scope_line":226, "scope_name":"do_IRQ", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/irq.c", "line":264, "type":"c", "scope_line":256, "scope_name":"smp_x86_platform_ipi", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/smp.c", "line":157, "type":"c", "scope_line":154, "scope_name":"smp_reboot_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/smp.c", "line":210, "type":"c", "scope_line":207, "scope_name":"smp_call_function_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/kernel/smp.c", "line":219, "type":"c", "scope_line":216, "scope_name":"smp_call_function_single_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/xen/smp.c", "line":445, "type":"c", "scope_line":443, "scope_name":"xen_call_function_interrupt", }
+,{"id":"irq_enter", "file":"arch/x86/xen/smp.c", "line":455, "type":"c", "scope_line":453, "scope_name":"xen_call_function_single_interrupt", }
+,{"id":"irq_enter", "file":"drivers/xen/events.c", "line":691, "type":"c", "scope_line":686, "scope_name":"xen_evtchn_do_upcall", }
+,{"id":"irq_enter", "file":"kernel/softirq.c", "line":276, "type":"f", }
+,{"id":"irq_err_count", "file":"arch/x86/include/asm/hw_irq.h", "line":107, "type":"v", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/apic/apic.c", "line":1748, "type":"c", "scope_line":1728, "scope_name":"smp_spurious_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/apic/apic.c", "line":1780, "type":"c", "scope_line":1754, "scope_name":"smp_error_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/apic/apic.c", "line":827, "type":"c", "scope_line":810, "scope_name":"smp_apic_timer_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/apic/io_apic.c", "line":2511, "type":"c", "scope_line":2458, "scope_name":"smp_irq_move_cleanup_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":484, "type":"c", "scope_line":477, "scope_name":"smp_mce_self_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":366, "type":"c", "scope_line":360, "scope_name":"smp_thermal_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/cpu/mcheck/threshold.c", "line":26, "type":"c", "scope_line":20, "scope_name":"smp_threshold_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1189, "type":"c", "scope_line":1183, "scope_name":"smp_perf_pending_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/irq.c", "line":247, "type":"c", "scope_line":226, "scope_name":"do_IRQ", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/irq.c", "line":271, "type":"c", "scope_line":256, "scope_name":"smp_x86_platform_ipi", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/smp.c", "line":159, "type":"c", "scope_line":154, "scope_name":"smp_reboot_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/smp.c", "line":213, "type":"c", "scope_line":207, "scope_name":"smp_call_function_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/kernel/smp.c", "line":222, "type":"c", "scope_line":216, "scope_name":"smp_call_function_single_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/xen/smp.c", "line":448, "type":"c", "scope_line":443, "scope_name":"xen_call_function_interrupt", }
+,{"id":"irq_exit", "file":"arch/x86/xen/smp.c", "line":458, "type":"c", "scope_line":453, "scope_name":"xen_call_function_single_interrupt", }
+,{"id":"irq_exit", "file":"drivers/xen/events.c", "line":695, "type":"c", "scope_line":686, "scope_name":"xen_evtchn_do_upcall", }
+,{"id":"irq_exit", "file":"kernel/softirq.c", "line":297, "type":"f", }
+,{"id":"irq_finalize_oneshot", "file":"kernel/irq/manage.c", "line":507, "type":"f", }
+,{"id":"irq_finalize_oneshot", "file":"kernel/irq/manage.c", "line":606, "type":"c", "scope_line":573, "scope_name":"irq_thread", }
+,{"id":"irq_flags", "file":"drivers/pci/hotplug/cpci_hotplug.h", "line":66, "type":"m", "scope_line":64, "scope_name":"struct cpci_hp_controller", }
+,{"id":"irq_flags", "file":"drivers/pnp/pnpacpi/rsparser.c", "line":126, "type":"c", "scope_line":97, "scope_name":"pnpacpi_parse_allocated_irqresource", }
+,{"id":"irq_flags", "file":"drivers/pnp/pnpacpi/rsparser.c", "line":40, "type":"f", }
+,{"id":"irq_flags", "file":"drivers/pnp/pnpacpi/rsparser.c", "line":540, "type":"c", "scope_line":524, "scope_name":"pnpacpi_parse_irq_option", }
+,{"id":"irq_flags", "file":"drivers/pnp/pnpacpi/rsparser.c", "line":567, "type":"c", "scope_line":544, "scope_name":"pnpacpi_parse_ext_irq_option", }
+,{"id":"irq_flags", "file":"include/linux/ide.h", "line":1313, "type":"m", "scope_line":1288, "scope_name":"struct ide_port_info", }
+,{"id":"irq_flags", "file":"include/linux/ide.h", "line":789, "type":"m", "scope_line":775, "scope_name":"struct ide_host", }
+,{"id":"irq_flow_handler_t", "file":"include/linux/irq.h", "line":32, "type":"t", }
+,{"id":"irq_force_complete_move", "file":"arch/x86/kernel/apic/io_apic.c", "line":2534, "type":"f", }
+,{"id":"irq_force_complete_move", "file":"arch/x86/kernel/irq.c", "line":311, "type":"c", "scope_line":280, "scope_name":"fixup_irqs", }
+,{"id":"irq_fpu_usable", "file":"arch/x86/include/asm/i387.h", "line":369, "type":"f", }
+,{"id":"irq_freq", "file":"include/linux/rtc.h", "line":180, "type":"m", "scope_line":159, "scope_name":"struct rtc_device", }
+,{"id":"irq_from_evtchn", "file":"drivers/xen/events.c", "line":161, "type":"f", }
+,{"id":"irq_handler", "file":"arch/x86/kernel/hpet.c", "line":1020, "type":"v", }
+,{"id":"irq_handler", "file":"include/linux/ide.h", "line":565, "type":"m", "scope_line":486, "scope_name":"struct ide_drive_s", }
+,{"id":"irq_handler", "file":"include/linux/ide.h", "line":785, "type":"m", "scope_line":775, "scope_name":"struct ide_host", }
+,{"id":"irq_handler_t", "file":"include/linux/interrupt.h", "line":98, "type":"t", }
+,{"id":"irq_has_action", "file":"arch/x86/kernel/irq.c", "line":300, "type":"c", "scope_line":280, "scope_name":"fixup_irqs", }
+,{"id":"irq_has_action", "file":"drivers/pci/msi.c", "line":310, "type":"c", "scope_line":300, "scope_name":"free_msi_irqs", }
+,{"id":"irq_has_action", "file":"include/linux/irq.h", "line":396, "type":"f", }
+,{"id":"irq_info", "file":"arch/x86/include/asm/pci_x86.h", "line":61, "type":"s", }
+,{"id":"irq_info", "file":"drivers/serial/8250.c", "line":165, "type":"s", }
+,{"id":"irq_info", "file":"drivers/xen/events.c", "line":81, "type":"s", }
+,{"id":"irq_info", "file":"drivers/xen/events.c", "line":97, "type":"v", }
+,{"id":"irq_info", "file":"include/linux/sfi.h", "line":174, "type":"m", "scope_line":171, "scope_name":"struct sfi_spi_table_entry", }
+,{"id":"irq_info", "file":"include/linux/sfi.h", "line":182, "type":"m", "scope_line":179, "scope_name":"struct sfi_i2c_table_entry", }
+,{"id":"irq_lists", "file":"drivers/serial/8250.c", "line":173, "type":"v", }
+,{"id":"irq_lock", "file":"include/linux/rtc.h", "line":174, "type":"m", "scope_line":159, "scope_name":"struct rtc_device", }
+,{"id":"irq_mapping_update_lock", "file":"drivers/xen/events.c", "line":53, "type":"v", }
+,{"id":"irq_mask", "file":"drivers/acpi/acpica/amlresrc.h", "line":124, "type":"m", "scope_line":123, "scope_name":"struct aml_resource_irq", }
+,{"id":"irq_mask", "file":"drivers/acpi/acpica/amlresrc.h", "line":129, "type":"m", "scope_line":128, "scope_name":"struct aml_resource_irq_noflags", }
+,{"id":"irq_mis_count", "file":"arch/x86/include/asm/hw_irq.h", "line":108, "type":"v", }
+,{"id":"irq_nested_primary_handler", "file":"kernel/irq/manage.c", "line":481, "type":"f", }
+,{"id":"irq_node", "file":"include/linux/irqnr.h", "line":45, "type":"d", }
+,{"id":"irq_node_proc_fops", "file":"kernel/irq/proc.c", "line":197, "type":"v", }
+,{"id":"irq_node_proc_open", "file":"kernel/irq/proc.c", "line":192, "type":"f", }
+,{"id":"irq_node_proc_show", "file":"kernel/irq/proc.c", "line":184, "type":"f", }
+,{"id":"irq_op", "file":"include/xen/interface/physdev.h", "line":120, "type":"m", "scope_line":113, "scope_name":"struct physdev_op", }
+,{"id":"irq_pending", "file":"arch/x86/include/asm/i8259.h", "line":61, "type":"m", "scope_line":55, "scope_name":"struct legacy_pic", }
+,{"id":"irq_pin_list", "file":"arch/x86/kernel/apic/io_apic.c", "line":129, "type":"s", }
+,{"id":"irq_polarity", "file":"arch/x86/kernel/apic/io_apic.c", "line":1014, "type":"f", }
+,{"id":"irq_polarity", "file":"arch/x86/kernel/apic/io_apic.c", "line":1103, "type":"c", "scope_line":1072, "scope_name":"IO_APIC_get_PCI_irq_vector", }
+,{"id":"irq_polarity", "file":"arch/x86/kernel/apic/io_apic.c", "line":1114, "type":"c", "scope_line":1072, "scope_name":"IO_APIC_get_PCI_irq_vector", }
+,{"id":"irq_polarity", "file":"arch/x86/kernel/apic/io_apic.c", "line":1539, "type":"c", "scope_line":1485, "scope_name":"setup_IO_APIC_irqs", }
+,{"id":"irq_polarity", "file":"arch/x86/kernel/apic/io_apic.c", "line":1594, "type":"c", "scope_line":1553, "scope_name":"setup_IO_APIC_irq_extra", }
+,{"id":"irq_polarity", "file":"arch/x86/kernel/apic/io_apic.c", "line":4092, "type":"c", "scope_line":4072, "scope_name":"acpi_get_override_irq", }
+,{"id":"irq_queue", "file":"include/linux/rtc.h", "line":175, "type":"m", "scope_line":159, "scope_name":"struct rtc_device", }
+,{"id":"irq_regs", "file":"arch/x86/include/asm/irq_regs.h", "line":14, "type":"v", }
+,{"id":"irq_remapped", "file":"include/linux/dmar.h", "line":180, "type":"d", }
+,{"id":"irq_requested", "file":"drivers/char/hvc_console.h", "line":59, "type":"m", "scope_line":48, "scope_name":"struct hvc_struct", }
+,{"id":"irq_reroute_variant", "file":"include/linux/pci.h", "line":304, "type":"m", "scope_line":231, "scope_name":"struct pci_dev", }
+,{"id":"irq_resched_count", "file":"arch/x86/include/asm/hardirq.h", "line":19, "type":"m", "scope_line":7, "scope_name":"irq_cpustat_t", }
+,{"id":"irq_router", "file":"arch/x86/pci/irq.c", "line":42, "type":"s", }
+,{"id":"irq_router_handler", "file":"arch/x86/pci/irq.c", "line":50, "type":"s", }
+,{"id":"irq_routing_table", "file":"arch/x86/include/asm/pci_x86.h", "line":72, "type":"s", }
+,{"id":"irq_select_affinity_usr", "file":"kernel/irq/manage.c", "line":194, "type":"f", }
+,{"id":"irq_select_affinity_usr", "file":"kernel/irq/proc.c", "line":92, "type":"c", "scope_line":61, "scope_name":"irq_affinity_proc_write", }
+,{"id":"irq_set_affinity", "file":"arch/x86/kernel/hpet.c", "line":371, "type":"c", "scope_line":317, "scope_name":"hpet_set_mode", }
+,{"id":"irq_set_affinity", "file":"arch/x86/kernel/hpet.c", "line":546, "type":"c", "scope_line":537, "scope_name":"hpet_setup_irq", }
+,{"id":"irq_set_affinity", "file":"drivers/xen/events.c", "line":728, "type":"c", "scope_line":706, "scope_name":"rebind_evtchn_irq", }
+,{"id":"irq_set_affinity", "file":"kernel/irq/manage.c", "line":109, "type":"f", }
+,{"id":"irq_set_affinity", "file":"kernel/irq/proc.c", "line":94, "type":"c", "scope_line":61, "scope_name":"irq_affinity_proc_write", }
+,{"id":"irq_set_affinity", "file":"kernel/time/tick-common.c", "line":185, "type":"c", "scope_line":147, "scope_name":"tick_setup_device", }
+,{"id":"irq_set_affinity_hint", "file":"kernel/irq/manage.c", "line":141, "type":"f", }
+,{"id":"irq_set_freq", "file":"include/linux/rtc.h", "line":147, "type":"m", "scope_line":136, "scope_name":"struct rtc_class_ops", }
+,{"id":"irq_set_state", "file":"drivers/gpu/vga/vgaarb.c", "line":67, "type":"m", "scope_line":54, "scope_name":"struct vga_device", }
+,{"id":"irq_set_state", "file":"include/linux/rtc.h", "line":146, "type":"m", "scope_line":136, "scope_name":"struct rtc_class_ops", }
+,{"id":"irq_set_thread_affinity", "file":"kernel/irq/manage.c", "line":123, "type":"c", "scope_line":109, "scope_name":"irq_set_affinity", }
+,{"id":"irq_set_thread_affinity", "file":"kernel/irq/manage.c", "line":203, "type":"c", "scope_line":194, "scope_name":"irq_select_affinity_usr", }
+,{"id":"irq_set_thread_affinity", "file":"kernel/irq/manage.c", "line":92, "type":"f", }
+,{"id":"irq_set_thread_affinity", "file":"kernel/irq/migration.c", "line":48, "type":"c", "scope_line":7, "scope_name":"move_masked_irq", }
+,{"id":"irq_show", "file":"drivers/pci/pci-sysfs.c", "line":48, "type":"f", }
+,{"id":"irq_spurious_count", "file":"arch/x86/include/asm/hardirq.h", "line":13, "type":"m", "scope_line":7, "scope_name":"irq_cpustat_t", }
+,{"id":"irq_spurious_proc_fops", "file":"kernel/irq/proc.c", "line":220, "type":"v", }
+,{"id":"irq_spurious_proc_open", "file":"kernel/irq/proc.c", "line":215, "type":"f", }
+,{"id":"irq_spurious_proc_show", "file":"kernel/irq/proc.c", "line":205, "type":"f", }
+,{"id":"irq_stack", "file":"arch/x86/include/asm/processor.h", "line":387, "type":"m", "scope_line":386, "scope_name":"union irq_stack_union", }
+,{"id":"irq_stack_ptr", "file":"arch/x86/kernel/cpu/common.c", "line":1021, "type":"v", }
+,{"id":"irq_stack_union", "file":"arch/x86/include/asm/processor.h", "line":386, "type":"u", }
+,{"id":"irq_stack_union", "file":"arch/x86/include/asm/processor.h", "line":399, "type":"v", }
+,{"id":"irq_stat", "file":"arch/x86/include/asm/hardirq.h", "line":31, "type":"v", }
+,{"id":"irq_stats", "file":"arch/x86/kernel/irq.c", "line":44, "type":"d", }
+,{"id":"irq_status_query", "file":"include/xen/interface/physdev.h", "line":116, "type":"m", "scope_line":113, "scope_name":"struct physdev_op", }
+,{"id":"irq_task", "file":"include/linux/rtc.h", "line":178, "type":"m", "scope_line":159, "scope_name":"struct rtc_device", }
+,{"id":"irq_task_lock", "file":"include/linux/rtc.h", "line":179, "type":"m", "scope_line":159, "scope_name":"struct rtc_device", }
+,{"id":"irq_thermal_count", "file":"arch/x86/include/asm/hardirq.h", "line":24, "type":"m", "scope_line":7, "scope_name":"irq_cpustat_t", }
+,{"id":"irq_thread", "file":"kernel/irq/manage.c", "line":573, "type":"f", }
+,{"id":"irq_thread_check_affinity", "file":"kernel/irq/manage.c", "line":541, "type":"f", }
+,{"id":"irq_thread_check_affinity", "file":"kernel/irq/manage.c", "line":585, "type":"c", "scope_line":573, "scope_name":"irq_thread", }
+,{"id":"irq_threshold_count", "file":"arch/x86/include/asm/hardirq.h", "line":27, "type":"m", "scope_line":7, "scope_name":"irq_cpustat_t", }
+,{"id":"irq_tlb_count", "file":"arch/x86/include/asm/hardirq.h", "line":21, "type":"m", "scope_line":7, "scope_name":"irq_cpustat_t", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":1271, "type":"c", "scope_line":1257, "scope_name":"__setup_vector_irq", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":1574, "type":"c", "scope_line":1553, "scope_name":"setup_IO_APIC_irq_extra", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":168, "type":"c", "scope_line":150, "scope_name":"arch_early_irq_init", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":1732, "type":"c", "scope_line":1636, "scope_name":"print_IO_APIC", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":191, "type":"c", "scope_line":186, "scope_name":"irq_cfg", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":2379, "type":"c", "scope_line":2374, "scope_name":"set_ioapic_affinity_irq", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":2477, "type":"c", "scope_line":2458, "scope_name":"smp_irq_move_cleanup_interrupt", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":2536, "type":"c", "scope_line":2534, "scope_name":"irq_force_complete_move", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":2550, "type":"c", "scope_line":2548, "scope_name":"ack_apic_edge", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":2614, "type":"c", "scope_line":2612, "scope_name":"ack_apic_level", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":2779, "type":"c", "scope_line":2762, "scope_name":"init_IO_APIC_traps", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":2933, "type":"c", "scope_line":2931, "scope_name":"check_timer", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":3310, "type":"c", "scope_line":3302, "scope_name":"destroy_irq", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":3397, "type":"c", "scope_line":3395, "scope_name":"set_msi_irq_affinity", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":3666, "type":"c", "scope_line":3664, "scope_name":"hpet_msi_set_affinity", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":3718, "type":"c", "scope_line":3714, "scope_name":"arch_setup_hpet_msi", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":3773, "type":"c", "scope_line":3771, "scope_name":"set_ht_irq_affinity", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":4121, "type":"c", "scope_line":4102, "scope_name":"setup_ioapic_dest", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":619, "type":"c", "scope_line":617, "scope_name":"mask_IO_APIC_irq", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/apic/io_apic.c", "line":625, "type":"c", "scope_line":623, "scope_name":"unmask_IO_APIC_irq", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/hpet.c", "line":445, "type":"c", "scope_line":443, "scope_name":"hpet_msi_unmask", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/hpet.c", "line":457, "type":"c", "scope_line":454, "scope_name":"hpet_msi_mask", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/hpet.c", "line":467, "type":"c", "scope_line":465, "scope_name":"hpet_msi_write", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/hpet.c", "line":475, "type":"c", "scope_line":473, "scope_name":"hpet_msi_read", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/irq.c", "line":148, "type":"c", "scope_line":124, "scope_name":"show_interrupts", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/irq.c", "line":286, "type":"c", "scope_line":280, "scope_name":"fixup_irqs", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/irq.c", "line":358, "type":"c", "scope_line":280, "scope_name":"fixup_irqs", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/irq_64.c", "line":57, "type":"c", "scope_line":51, "scope_name":"handle_irq", }
+,{"id":"irq_to_desc", "file":"arch/x86/kernel/irqinit.c", "line":114, "type":"c", "scope_line":101, "scope_name":"init_ISA_irqs", }
+,{"id":"irq_to_desc", "file":"arch/x86/xen/spinlock.c", "line":249, "type":"c", "scope_line":185, "scope_name":"xen_spin_lock_slow", }
+,{"id":"irq_to_desc", "file":"drivers/char/random.c", "line":589, "type":"c", "scope_line":585, "scope_name":"get_timer_rand_state", }
+,{"id":"irq_to_desc", "file":"drivers/char/random.c", "line":599, "type":"c", "scope_line":594, "scope_name":"set_timer_rand_state", }
+,{"id":"irq_to_desc", "file":"drivers/gpio/gpiolib.c", "line":1659, "type":"c", "scope_line":1638, "scope_name":"gpiolib_dbg_show", }
+,{"id":"irq_to_desc", "file":"drivers/pci/htirq.c", "line":171, "type":"c", "scope_line":167, "scope_name":"ht_destroy_irq", }
+,{"id":"irq_to_desc", "file":"drivers/pci/htirq.c", "line":37, "type":"c", "scope_line":35, "scope_name":"write_ht_irq_msg", }
+,{"id":"irq_to_desc", "file":"drivers/pci/htirq.c", "line":56, "type":"c", "scope_line":54, "scope_name":"fetch_ht_irq_msg", }
+,{"id":"irq_to_desc", "file":"drivers/pci/htirq.c", "line":65, "type":"c", "scope_line":60, "scope_name":"mask_ht_irq", }
+,{"id":"irq_to_desc", "file":"drivers/pci/htirq.c", "line":77, "type":"c", "scope_line":72, "scope_name":"unmask_ht_irq", }
+,{"id":"irq_to_desc", "file":"drivers/pci/msi.c", "line":175, "type":"c", "scope_line":173, "scope_name":"msi_set_mask_bit", }
+,{"id":"irq_to_desc", "file":"drivers/pci/msi.c", "line":230, "type":"c", "scope_line":228, "scope_name":"read_msi_msg", }
+,{"id":"irq_to_desc", "file":"drivers/pci/msi.c", "line":249, "type":"c", "scope_line":247, "scope_name":"get_cached_msi_msg", }
+,{"id":"irq_to_desc", "file":"drivers/pci/msi.c", "line":295, "type":"c", "scope_line":293, "scope_name":"write_msi_msg", }
+,{"id":"irq_to_desc", "file":"drivers/pci/msi.c", "line":352, "type":"c", "scope_line":343, "scope_name":"__pci_restore_msi_state", }
+,{"id":"irq_to_desc", "file":"drivers/xen/events.c", "line":243, "type":"c", "scope_line":237, "scope_name":"bind_evtchn_to_cpu", }
+,{"id":"irq_to_desc", "file":"drivers/xen/events.c", "line":259, "type":"c", "scope_line":252, "scope_name":"init_evtchn_cpu_bindings", }
+,];
+xr_frag_insert('t/c8/a8cd9e876d0f4a273ff9e5ce0f4d84e5c2abe8.xr', __xr_tmp);

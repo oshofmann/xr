@@ -1,0 +1,48 @@
+MAKEFILE_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+include $(MAKEFILE_DIR)/make.conf
+
+C_JSON = $(XR)/lexer/c_json
+C_BLOCKER = $(XR)/lexer/blocker
+C_BLOCK_FLAGS = $(GEN_SRC)/objs $(FILE_BLOCK_LINES) l/ $*.xr lines
+
+TAGS_JSON = $(XR)/lexer/tags_json
+TAGS_JSON_FLAGS = $(INPUT_STRIP) $(INPUT_PREFIX)
+
+TAG_BLOCKER = $(XR)/lexer/blocker
+TAG_BLOCK_FLAGS = $(GEN_SRC)/objs $(TAG_BLOCK_LINES) t/ tags.xr objs
+PRE_TAG_BLOCK_FLAGS = $(GEN_SRC)/pre_tag $(TAG_BLOCK_LINES) t. x no_json
+
+PREPROC_FLAGS := -E -dD
+
+CMD := $(shell find -name "*.cmd")
+CMD := $(filter-out $(FILTER_OUT),$(CMD))
+DEP_CMD := $(shell find -name "*.dep_cmd")
+
+OBJS := $(CMD:.cmd=.xr) $(DEP_CMD:.dep_cmd=.xr)
+
+PRE_TAGS := $(CMD:.cmd=.pre_tags)
+
+all: objs tags.xr
+
+objs: $(OBJS)
+
+tags.xr: TAGS
+	$(TAG_BLOCKER) $(TAG_BLOCK_FLAGS) > $@ < $<
+
+TAGS: $(PRE_TAGS)
+	LC_ALL=C sort -u `find $(GEN_SRC)/pre_tag -name "*.xr"` > $@
+
+%.pre_tags: %.tags
+	$(TAG_BLOCKER) $(PRE_TAG_BLOCK_FLAGS) < $<
+	touch $@
+
+$(OBJS): %.xr: %
+	$(C_JSON) $^ | $(C_BLOCKER) $(C_BLOCK_FLAGS) > $*.xr
+
+.PHONY: all objs 
+.DELETE_ON_ERROR:
+
+clean:
+	rm -f $(OBJS) $(PRE_TAGS) TAGS tags.xr
+	rm -rf $(GEN_SRC)/objs/*
+	rm -rf $(GEN_SRC)/pre_tag/*

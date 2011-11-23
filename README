@@ -1,0 +1,38 @@
+A source cross-reference designed to suit my needs better than LXR.
+
+Some nice features:
+
+Takes preprocessed source, making references much less ambiguous.
+Especially within the macro-heavy and multiply-implemented arch/
+directory.  Downside: you only cross-reference your specific build.
+
+All dynamic features are implemented in javascript, meaning it works
+entirely offline, or with a server just serving static pages.
+
+Should deduplicate source pretty well.  Tags less so, due to line numbering
+issues.
+
+CIL is currently the source indexer.  It will also translate ctags files,
+which is partially used now to index #defines.  CIL is much slower, but
+provides any possible fact about the source very easily.  The tree checked
+in here contains a 1-line patch to the parser for gcc inline asm, to make
+it work correctly for the Linux kernel.
+
+compile cil-1.4.0/, lexer/, tagger/
+
+prepare build environment in gen/build/ and set up gen/make.conf
+INPUT_STRIP is the primary variable to modify - this prefix will
+be stripped from all source file names. INPUT_PREFIX will be added
+to any non-absolute filenames during processing, and stripped
+later.
+
+and for the following, -jN is probably a good choice
+
+in gen/
+make
+
+in gen/tree/
+make -f ../Makefile.deps
+make -f ../Makefile.tags
+make -f ../Makefile.objs
+../dir_listing.sh

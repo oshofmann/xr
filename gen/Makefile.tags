@@ -1,0 +1,44 @@
+MAKEFILE_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+include $(MAKEFILE_DIR)/make.conf
+
+TAGGER := $(XR)/tagger/tagger
+TAGGER_FLAGS := $(INPUT_PREFIX) $(INPUT_STRIP)
+
+CTAGS := ctags
+CTAGS_FLAGS := --fields=k --c-kinds=d --line-directives=yes -n -u
+
+TAGS_JSON = $(XR)/lexer/tags_json
+TAGS_JSON_FLAGS = $(INPUT_STRIP) $(INPUT_PREFIX)
+
+ERROUT := 2> /dev/null
+
+PREPROC_FLAGS := -E -dD
+
+CMD := $(shell find -name "*.cmd")
+CMD := $(filter-out $(FILTER_OUT),$(CMD))
+
+DEP_CMD := $(shell find -name "*.dep_cmd")
+
+TAGS := $(CMD:.cmd=.tags)
+
+all: $(TAGS)
+
+echo:
+	@for f in $(TAGS); do echo $$f; done
+
+%.tags: DIR = $(dir $(*))
+%.tags: FILE = $(notdir $(*))
+%.tags: PREPROC_FILE = __xr_preproc__.$(FILE)
+%.tags: PREPROC = $(DIR)$(PREPROC_FILE)
+%.tags: %.cmd
+	$(shell cat $(*).cmd) $(PREPROC_FLAGS) -o $(PREPROC) $(*)
+	$(TAGGER) $(PREPROC) $(TAGGER_FLAGS) $(ERROUT) > $@
+	cd $(DIR); $(CTAGS) $(CTAGS_FLAGS) -f $(FILE).ctags $(PREPROC_FILE)
+	$(TAGS_JSON) $*.ctags $(TAGS_JSON_FLAGS) >> $@
+	rm $(PREPROC)
+	rm $(*).ctags
+
+.DELETE_ON_ERROR:
+
+clean:
+	rm -f $(TAGS)

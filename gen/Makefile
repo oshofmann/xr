@@ -1,6 +1,6 @@
 include make.conf
 
-MAKE_ARGS = CC=$(GCC_PY) vmlinux
+MAKE_ARGS = CC=$(GCC_PY)
 
 all: build
 

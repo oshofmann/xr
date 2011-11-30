@@ -289,7 +289,7 @@ function click_close_identifier(ev, line, ident, expt)
 	ev.stopPropagation();
 	expt.unload(line, ident);
 	$(ev.target).off('click');
-	$(ev.target).removeClass('id_select');
+	$(ev.target).removeClass('select');
 }
 
 function click_identifier(ev, expt)
@@ -302,7 +302,7 @@ function click_identifier(ev, expt)
    ev.preventDefault();
 	ev.stopPropagation();
 
-	target.addClass('id_select');
+	target.addClass('select');
 
 	var line_id = $(ev.currentTarget).attr('id');
    var line = parseInt(line_id.substr(line_id.indexOf('_') + 1));

@@ -1,0 +1,149 @@
+var __xr_tmp = [
+{"id":"ide_devset_pio_mode", "file":"drivers/ide/ide-devsets.c", "line":156, "type":"v", }
+,{"id":"ide_devset_rw", "file":"include/linux/ide.h", "line":865, "type":"d", }
+,{"id":"ide_devset_set", "file":"include/linux/ide.h", "line":835, "type":"d", }
+,{"id":"ide_devset_set_flag", "file":"include/linux/ide.h", "line":848, "type":"d", }
+,{"id":"ide_devset_unmaskirq", "file":"drivers/ide/ide-devsets.c", "line":154, "type":"v", }
+,{"id":"ide_devset_using_dma", "file":"drivers/ide/ide-devsets.c", "line":155, "type":"v", }
+,{"id":"ide_devset_w", "file":"include/linux/ide.h", "line":868, "type":"d", }
+,{"id":"ide_disable_port", "file":"drivers/ide/ide-probe.c", "line":1351, "type":"f", }
+,{"id":"ide_disable_port", "file":"drivers/ide/ide-probe.c", "line":1410, "type":"c", "scope_line":1368, "scope_name":"ide_host_register", }
+,{"id":"ide_disable_port", "file":"drivers/ide/ide-probe.c", "line":1429, "type":"c", "scope_line":1368, "scope_name":"ide_host_register", }
+,{"id":"ide_disk", "file":"include/linux/ide.h", "line":205, "type":"d", }
+,{"id":"ide_disk_init_chs", "file":"drivers/ide/ide-probe.c", "line":529, "type":"c", "scope_line":473, "scope_name":"probe_for_drive", }
+,{"id":"ide_disk_init_chs", "file":"drivers/ide/ide-probe.c", "line":60, "type":"f", }
+,{"id":"ide_disk_init_mult_count", "file":"drivers/ide/ide-probe.c", "line":530, "type":"c", "scope_line":473, "scope_name":"probe_for_drive", }
+,{"id":"ide_disk_init_mult_count", "file":"drivers/ide/ide-probe.c", "line":86, "type":"f", }
+,{"id":"ide_disk_ops", "file":"include/linux/ide.h", "line":362, "type":"s", }
+,{"id":"ide_disk_pre_reset", "file":"drivers/ide/ide-eh.c", "line":268, "type":"f", }
+,{"id":"ide_disk_pre_reset", "file":"drivers/ide/ide-eh.c", "line":291, "type":"c", "scope_line":286, "scope_name":"pre_reset", }
+,{"id":"ide_disks", "file":"drivers/ide/ide.c", "line":245, "type":"v", }
+,{"id":"ide_disks_chs", "file":"drivers/ide/ide.c", "line":246, "type":"v", }
+,{"id":"ide_dma_intr", "file":"include/linux/ide.h", "line":1398, "type":"f", }
+,{"id":"ide_dma_off", "file":"drivers/ide/ide-eh.c", "line":299, "type":"c", "scope_line":286, "scope_name":"pre_reset", }
+,{"id":"ide_dma_off", "file":"include/linux/ide.h", "line":1393, "type":"f", }
+,{"id":"ide_dma_off_quietly", "file":"include/linux/ide.h", "line":1392, "type":"f", }
+,{"id":"ide_dma_on", "file":"drivers/ide/ide-devsets.c", "line":127, "type":"c", "scope_line":96, "scope_name":"set_pio_mode", }
+,{"id":"ide_dma_on", "file":"drivers/ide/ide-io.c", "line":67, "type":"c", "scope_line":57, "scope_name":"ide_end_rq", }
+,{"id":"ide_dma_on", "file":"include/linux/ide.h", "line":1394, "type":"f", }
+,{"id":"ide_dma_ops", "file":"include/linux/ide.h", "line":643, "type":"s", }
+,{"id":"ide_dma_prepare", "file":"drivers/ide/ide-taskfile.c", "line":136, "type":"c", "scope_line":77, "scope_name":"do_rw_taskfile", }
+,{"id":"ide_dma_prepare", "file":"include/linux/ide.h", "line":1401, "type":"f", }
+,{"id":"ide_dma_timeout_retry", "file":"drivers/ide/ide-io.c", "line":684, "type":"c", "scope_line":621, "scope_name":"ide_timer_expiry", }
+,{"id":"ide_dma_timeout_retry", "file":"include/linux/ide.h", "line":1399, "type":"f", }
+,{"id":"ide_dma_unmap_sg", "file":"include/linux/ide.h", "line":1403, "type":"f", }
+,{"id":"ide_dma_verbose", "file":"include/linux/ide.h", "line":1395, "type":"f", }
+,{"id":"ide_do_devset", "file":"drivers/ide/ide-devsets.c", "line":182, "type":"f", }
+,{"id":"ide_do_devset", "file":"drivers/ide/ide-io.c", "line":289, "type":"c", "scope_line":280, "scope_name":"ide_special_rq", }
+,{"id":"ide_do_park_unpark", "file":"drivers/ide/ide-io.c", "line":287, "type":"c", "scope_line":280, "scope_name":"ide_special_rq", }
+,{"id":"ide_do_park_unpark", "file":"drivers/ide/ide-park.c", "line":61, "type":"f", }
+,{"id":"ide_do_reset", "file":"drivers/ide/ide-eh.c", "line":437, "type":"f", }
+,{"id":"ide_do_reset", "file":"drivers/ide/ide-eh.c", "line":51, "type":"c", "scope_line":6, "scope_name":"ide_ata_error", }
+,{"id":"ide_do_reset", "file":"drivers/ide/ide-eh.c", "line":84, "type":"c", "scope_line":62, "scope_name":"ide_atapi_error", }
+,{"id":"ide_do_reset", "file":"drivers/ide/ide-io.c", "line":291, "type":"c", "scope_line":280, "scope_name":"ide_special_rq", }
+,{"id":"ide_drive_s", "file":"include/linux/ide.h", "line":486, "type":"s", }
+,{"id":"ide_drive_t", "file":"include/linux/ide.h", "line":577, "type":"t", }
+,{"id":"ide_driveid_update", "file":"drivers/ide/ide-iops.c", "line":310, "type":"f", }
+,{"id":"ide_driveid_update", "file":"drivers/ide/ide-taskfile.c", "line":335, "type":"c", "scope_line":324, "scope_name":"ide_finish_cmd", }
+,{"id":"ide_driver", "file":"include/linux/ide.h", "line":1017, "type":"s", }
+,{"id":"ide_drv_g", "file":"include/linux/ide.h", "line":584, "type":"d", }
+,{"id":"ide_dtc2278", "file":"include/linux/ide.h", "line":164, "type":"e", "scope_line":163, }
+,{"id":"ide_dump_ata_error", "file":"drivers/ide/ide-lib.c", "line":160, "type":"c", "scope_line":132, "scope_name":"ide_dump_status", }
+,{"id":"ide_dump_ata_error", "file":"drivers/ide/ide-lib.c", "line":74, "type":"f", }
+,{"id":"ide_dump_atapi_error", "file":"drivers/ide/ide-lib.c", "line":104, "type":"f", }
+,{"id":"ide_dump_atapi_error", "file":"drivers/ide/ide-lib.c", "line":162, "type":"c", "scope_line":132, "scope_name":"ide_dump_status", }
+,{"id":"ide_dump_identify", "file":"include/linux/ide.h", "line":1521, "type":"f", }
+,{"id":"ide_dump_sector", "file":"drivers/ide/ide-lib.c", "line":50, "type":"f", }
+,{"id":"ide_dump_sector", "file":"drivers/ide/ide-lib.c", "line":95, "type":"c", "scope_line":74, "scope_name":"ide_dump_ata_error", }
+,{"id":"ide_dump_status", "file":"drivers/ide/ide-eh.c", "line":118, "type":"c", "scope_line":113, "scope_name":"ide_error", }
+,{"id":"ide_dump_status", "file":"drivers/ide/ide-iops.c", "line":391, "type":"c", "scope_line":342, "scope_name":"ide_config_drive_speed", }
+,{"id":"ide_dump_status", "file":"drivers/ide/ide-lib.c", "line":132, "type":"f", }
+,{"id":"ide_dump_status", "file":"drivers/ide/ide-taskfile.c", "line":169, "type":"c", "scope_line":147, "scope_name":"task_no_data_intr", }
+,{"id":"ide_end_rq", "file":"drivers/ide/ide-io.c", "line":128, "type":"c", "scope_line":115, "scope_name":"ide_complete_rq", }
+,{"id":"ide_end_rq", "file":"drivers/ide/ide-io.c", "line":57, "type":"f", }
+,{"id":"ide_error", "file":"drivers/ide/ide-eh.c", "line":113, "type":"f", }
+,{"id":"ide_error", "file":"drivers/ide/ide-io.c", "line":686, "type":"c", "scope_line":621, "scope_name":"ide_timer_expiry", }
+,{"id":"ide_error", "file":"drivers/ide/ide-iops.c", "line":180, "type":"c", "scope_line":164, "scope_name":"ide_wait_stat", }
+,{"id":"ide_error", "file":"drivers/ide/ide-taskfile.c", "line":178, "type":"c", "scope_line":147, "scope_name":"task_no_data_intr", }
+,{"id":"ide_error", "file":"drivers/ide/ide-taskfile.c", "line":400, "type":"c", "scope_line":344, "scope_name":"task_pio_intr", }
+,{"id":"ide_error_cmd", "file":"drivers/ide/ide-taskfile.c", "line":306, "type":"f", }
+,{"id":"ide_error_cmd", "file":"drivers/ide/ide-taskfile.c", "line":399, "type":"c", "scope_line":344, "scope_name":"task_pio_intr", }
+,{"id":"ide_exec_command", "file":"drivers/ide/ide-io-std.c", "line":40, "type":"f", }
+,{"id":"ide_execute_command", "file":"drivers/ide/ide-iops.c", "line":481, "type":"f", }
+,{"id":"ide_execute_command", "file":"drivers/ide/ide-taskfile.c", "line":133, "type":"c", "scope_line":77, "scope_name":"do_rw_taskfile", }
+,{"id":"ide_execute_command", "file":"drivers/ide/ide-taskfile.c", "line":139, "type":"c", "scope_line":77, "scope_name":"do_rw_taskfile", }
+,{"id":"ide_exit", "file":"drivers/ide/ide.c", "line":403, "type":"f", }
+,{"id":"ide_expiry_t", "file":"include/linux/ide.h", "line":804, "type":"t", }
+,{"id":"ide_ext_devset_rw", "file":"include/linux/ide.h", "line":871, "type":"d", }
+,{"id":"ide_ext_devset_rw_sync", "file":"include/linux/ide.h", "line":874, "type":"d", }
+,{"id":"ide_find_dma_mode", "file":"drivers/ide/ide-ioctls.c", "line":166, "type":"c", "scope_line":116, "scope_name":"ide_cmd_ioctl", }
+,{"id":"ide_find_dma_mode", "file":"include/linux/ide.h", "line":1390, "type":"f", }
+,{"id":"ide_find_port_slot", "file":"drivers/ide/ide-probe.c", "line":1197, "type":"f", }
+,{"id":"ide_find_port_slot", "file":"drivers/ide/ide-probe.c", "line":1308, "type":"c", "scope_line":1280, "scope_name":"ide_host_alloc", }
+,{"id":"ide_finish_cmd", "file":"drivers/ide/ide-taskfile.c", "line":191, "type":"c", "scope_line":147, "scope_name":"task_no_data_intr", }
+,{"id":"ide_finish_cmd", "file":"drivers/ide/ide-taskfile.c", "line":324, "type":"f", }
+,{"id":"ide_finish_cmd", "file":"drivers/ide/ide-taskfile.c", "line":394, "type":"c", "scope_line":344, "scope_name":"task_pio_intr", }
+,{"id":"ide_fix_driveid", "file":"drivers/ide/ide-iops.c", "line":48, "type":"f", }
+,{"id":"ide_fix_driveid", "file":"drivers/ide/ide-probe.c", "line":209, "type":"c", "scope_line":191, "scope_name":"do_identify", }
+,{"id":"ide_fixstring", "file":"drivers/ide/ide-iops.c", "line":69, "type":"f", }
+,{"id":"ide_fixstring", "file":"drivers/ide/ide-probe.c", "line":223, "type":"c", "scope_line":191, "scope_name":"do_identify", }
+,{"id":"ide_fixstring", "file":"drivers/ide/ide-probe.c", "line":224, "type":"c", "scope_line":191, "scope_name":"do_identify", }
+,{"id":"ide_fixstring", "file":"drivers/ide/ide-probe.c", "line":225, "type":"c", "scope_line":191, "scope_name":"do_identify", }
+,{"id":"ide_floppy", "file":"include/linux/ide.h", "line":209, "type":"d", }
+,{"id":"ide_free_port_slot", "file":"drivers/ide/ide-probe.c", "line":1230, "type":"f", }
+,{"id":"ide_free_port_slot", "file":"drivers/ide/ide-probe.c", "line":1347, "type":"c", "scope_line":1344, "scope_name":"ide_port_free", }
+,{"id":"ide_generic", "file":"include/linux/ide.h", "line":163, "type":"e", "scope_line":163, }
+,{"id":"ide_get_drivedata", "file":"include/linux/ide.h", "line":1538, "type":"f", }
+,{"id":"ide_get_hwifdata", "file":"include/linux/ide.h", "line":1448, "type":"f", }
+,{"id":"ide_get_identity_ioctl", "file":"drivers/ide/ide-ioctls.c", "line":247, "type":"c", "scope_line":233, "scope_name":"generic_ide_ioctl", }
+,{"id":"ide_get_identity_ioctl", "file":"drivers/ide/ide-ioctls.c", "line":56, "type":"f", }
+,{"id":"ide_get_lba_addr", "file":"drivers/ide/ide-lib.c", "line":34, "type":"f", }
+,{"id":"ide_get_lba_addr", "file":"drivers/ide/ide-lib.c", "line":67, "type":"c", "scope_line":50, "scope_name":"ide_dump_sector", }
+,{"id":"ide_get_nice_ioctl", "file":"drivers/ide/ide-ioctls.c", "line":249, "type":"c", "scope_line":233, "scope_name":"generic_ide_ioctl", }
+,{"id":"ide_get_nice_ioctl", "file":"drivers/ide/ide-ioctls.c", "line":86, "type":"f", }
+,{"id":"ide_get_pair_dev", "file":"drivers/ide/ide-pm.c", "line":44, "type":"c", "scope_line":41, "scope_name":"generic_ide_resume", }
+,{"id":"ide_get_pair_dev", "file":"drivers/ide/ide-pm.c", "line":8, "type":"c", "scope_line":5, "scope_name":"generic_ide_suspend", }
+,{"id":"ide_get_pair_dev", "file":"include/linux/ide.h", "line":1531, "type":"f", }
+,{"id":"ide_handler_t", "file":"include/linux/ide.h", "line":803, "type":"t", }
+,{"id":"ide_host", "file":"include/linux/ide.h", "line":775, "type":"s", }
+,{"id":"ide_host_add", "file":"drivers/ide/ide-probe.c", "line":1464, "type":"f", }
+,{"id":"ide_host_alloc", "file":"drivers/ide/ide-probe.c", "line":1280, "type":"f", }
+,{"id":"ide_host_alloc", "file":"drivers/ide/ide-probe.c", "line":1470, "type":"c", "scope_line":1464, "scope_name":"ide_host_add", }
+,{"id":"ide_host_enable_irqs", "file":"drivers/ide/ide-probe.c", "line":1419, "type":"c", "scope_line":1368, "scope_name":"ide_host_register", }
+,{"id":"ide_host_enable_irqs", "file":"drivers/ide/ide-probe.c", "line":825, "type":"f", }
+,{"id":"ide_host_for_each_port", "file":"include/linux/ide.h", "line":1555, "type":"d", }
+,{"id":"ide_host_free", "file":"drivers/ide/ide-probe.c", "line":1476, "type":"c", "scope_line":1464, "scope_name":"ide_host_add", }
+,{"id":"ide_host_free", "file":"drivers/ide/ide-probe.c", "line":1554, "type":"f", }
+,{"id":"ide_host_free", "file":"drivers/ide/ide-probe.c", "line":1578, "type":"c", "scope_line":1568, "scope_name":"ide_host_remove", }
+,{"id":"ide_host_register", "file":"drivers/ide/ide-probe.c", "line":1368, "type":"f", }
+,{"id":"ide_host_register", "file":"drivers/ide/ide-probe.c", "line":1474, "type":"c", "scope_line":1464, "scope_name":"ide_host_add", }
+,{"id":"ide_host_remove", "file":"drivers/ide/ide-probe.c", "line":1568, "type":"f", }
+,{"id":"ide_ht6560b", "file":"include/linux/ide.h", "line":165, "type":"e", "scope_line":163, }
+,{"id":"ide_hw", "file":"include/linux/ide.h", "line":175, "type":"s", }
+,{"id":"ide_hwif_setup_dma", "file":"drivers/ide/ide-probe.c", "line":1079, "type":"c", "scope_line":1046, "scope_name":"ide_init_port", }
+,{"id":"ide_hwif_setup_dma", "file":"include/linux/ide.h", "line":1200, "type":"f", }
+,{"id":"ide_hwif_t", "file":"include/linux/ide.h", "line":667, "type":"t", }
+,{"id":"ide_hwif_to_major", "file":"drivers/ide/ide-probe.c", "line":1121, "type":"v", }
+,{"id":"ide_ignore_cable", "file":"drivers/ide/ide.c", "line":330, "type":"v", }
+,{"id":"ide_in_drive_list", "file":"drivers/ide/ide-iops.c", "line":196, "type":"f", }
+,{"id":"ide_in_drive_list", "file":"drivers/ide/ide-iops.c", "line":232, "type":"c", "scope_line":228, "scope_name":"eighty_ninty_three", }
+,{"id":"ide_inb", "file":"drivers/ide/ide-io-std.c", "line":16, "type":"f", }
+,{"id":"ide_indexes", "file":"drivers/ide/ide-probe.c", "line":1188, "type":"v", }
+,{"id":"ide_init", "file":"drivers/ide/ide.c", "line":373, "type":"f", }
+,{"id":"ide_init_disk", "file":"drivers/ide/ide-probe.c", "line":935, "type":"f", }
+,{"id":"ide_init_port", "file":"drivers/ide/ide-probe.c", "line":1046, "type":"f", }
+,{"id":"ide_init_port", "file":"drivers/ide/ide-probe.c", "line":1390, "type":"c", "scope_line":1368, "scope_name":"ide_host_register", }
+,{"id":"ide_init_port_data", "file":"drivers/ide/ide-probe.c", "line":1155, "type":"f", }
+,{"id":"ide_init_port_data", "file":"drivers/ide/ide-probe.c", "line":1317, "type":"c", "scope_line":1280, "scope_name":"ide_host_alloc", }
+,{"id":"ide_init_port_hw", "file":"drivers/ide/ide-probe.c", "line":1179, "type":"f", }
+,{"id":"ide_init_port_hw", "file":"drivers/ide/ide-probe.c", "line":1380, "type":"c", "scope_line":1368, "scope_name":"ide_host_register", }
+,{"id":"ide_init_queue", "file":"drivers/ide/ide-probe.c", "line":747, "type":"f", }
+,{"id":"ide_init_queue", "file":"drivers/ide/ide-probe.c", "line":811, "type":"c", "scope_line":804, "scope_name":"ide_port_setup_devices", }
+,{"id":"ide_init_sg_cmd", "file":"drivers/ide/ide-io.c", "line":233, "type":"f", }
+,{"id":"ide_init_sg_cmd", "file":"drivers/ide/ide-io.c", "line":260, "type":"c", "scope_line":253, "scope_name":"execute_drive_cmd", }
+,{"id":"ide_input_data", "file":"drivers/ide/ide-io-std.c", "line":163, "type":"f", }
+,{"id":"ide_intr", "file":"drivers/ide/ide-io.c", "line":778, "type":"f", }
+,{"id":"ide_io_ports", "file":"include/linux/ide.h", "line":58, "type":"s", }
+,{"id":"ide_ioctl_devset", "file":"include/linux/ide.h", "line":1036, "type":"s", }
+,];
+xr_frag_insert('t/9b/c9cd3342b150405c953df8d0d732fbe18f41a0.xr', __xr_tmp);

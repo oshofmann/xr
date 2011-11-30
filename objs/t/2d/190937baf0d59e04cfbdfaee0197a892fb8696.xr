@@ -1,0 +1,88 @@
+var __xr_tmp = [
+{"id":"pipe_close", "file":"kernel/trace/trace.h", "line":256, "type":"m", "scope_line":246, "scope_name":"struct tracer", }
+,{"id":"pipe_dir_name", "file":"include/linux/sunrpc/clnt.h", "line":78, "type":"m", "scope_line":72, "scope_name":"struct rpc_program", }
+,{"id":"pipe_double_lock", "file":"fs/pipe.c", "line":75, "type":"f", }
+,{"id":"pipe_double_lock", "file":"fs/splice.c", "line":1842, "type":"c", "scope_line":1819, "scope_name":"splice_pipe_to_pipe", }
+,{"id":"pipe_double_lock", "file":"fs/splice.c", "line":1949, "type":"c", "scope_line":1937, "scope_name":"link_pipe", }
+,{"id":"pipe_fcntl", "file":"fs/fcntl.c", "line":421, "type":"c", "scope_line":343, "scope_name":"do_fcntl", }
+,{"id":"pipe_fcntl", "file":"fs/pipe.c", "line":1200, "type":"f", }
+,{"id":"pipe_fs_type", "file":"fs/pipe.c", "line":1255, "type":"v", }
+,{"id":"pipe_info", "file":"fs/splice.c", "line":1319, "type":"f", }
+,{"id":"pipe_info", "file":"fs/splice.c", "line":1339, "type":"c", "scope_line":1330, "scope_name":"do_splice", }
+,{"id":"pipe_info", "file":"fs/splice.c", "line":1340, "type":"c", "scope_line":1330, "scope_name":"do_splice", }
+,{"id":"pipe_info", "file":"fs/splice.c", "line":1558, "type":"c", "scope_line":1549, "scope_name":"vmsplice_to_user", }
+,{"id":"pipe_info", "file":"fs/splice.c", "line":1645, "type":"c", "scope_line":1630, "scope_name":"vmsplice_to_pipe", }
+,{"id":"pipe_info", "file":"fs/splice.c", "line":2025, "type":"c", "scope_line":2022, "scope_name":"do_tee", }
+,{"id":"pipe_info", "file":"fs/splice.c", "line":2026, "type":"c", "scope_line":2022, "scope_name":"do_tee", }
+,{"id":"pipe_inode_info", "file":"include/linux/pipe_fs_i.h", "line":45, "type":"s", }
+,{"id":"pipe_ioctl", "file":"fs/pipe.c", "line":647, "type":"f", }
+,{"id":"pipe_iov_copy_from_user", "file":"fs/pipe.c", "line":105, "type":"f", }
+,{"id":"pipe_iov_copy_from_user", "file":"fs/pipe.c", "line":510, "type":"c", "scope_line":461, "scope_name":"pipe_write", }
+,{"id":"pipe_iov_copy_from_user", "file":"fs/pipe.c", "line":572, "type":"c", "scope_line":461, "scope_name":"pipe_write", }
+,{"id":"pipe_iov_copy_to_user", "file":"fs/pipe.c", "line":131, "type":"f", }
+,{"id":"pipe_iov_copy_to_user", "file":"fs/pipe.c", "line":392, "type":"c", "scope_line":348, "scope_name":"pipe_read", }
+,{"id":"pipe_lock", "file":"fs/exec.c", "line":1790, "type":"c", "scope_line":1784, "scope_name":"wait_for_dump_helpers", }
+,{"id":"pipe_lock", "file":"fs/pipe.c", "line":102, "type":"c", "scope_line":90, "scope_name":"pipe_wait", }
+,{"id":"pipe_lock", "file":"fs/pipe.c", "line":59, "type":"f", }
+,{"id":"pipe_lock", "file":"fs/splice.c", "line":1562, "type":"c", "scope_line":1549, "scope_name":"vmsplice_to_user", }
+,{"id":"pipe_lock", "file":"fs/splice.c", "line":1753, "type":"c", "scope_line":1741, "scope_name":"ipipe_prep", }
+,{"id":"pipe_lock", "file":"fs/splice.c", "line":1791, "type":"c", "scope_line":1779, "scope_name":"opipe_prep", }
+,{"id":"pipe_lock", "file":"fs/splice.c", "line":186, "type":"c", "scope_line":176, "scope_name":"splice_to_pipe", }
+,{"id":"pipe_lock", "file":"fs/splice.c", "line":965, "type":"c", "scope_line":953, "scope_name":"splice_from_pipe", }
+,{"id":"pipe_lock", "file":"fs/splice.c", "line":999, "type":"c", "scope_line":985, "scope_name":"generic_file_splice_write", }
+,{"id":"pipe_lock_nested", "file":"fs/pipe.c", "line":53, "type":"f", }
+,{"id":"pipe_lock_nested", "file":"fs/pipe.c", "line":64, "type":"c", "scope_line":59, "scope_name":"pipe_lock", }
+,{"id":"pipe_lock_nested", "file":"fs/pipe.c", "line":81, "type":"c", "scope_line":75, "scope_name":"pipe_double_lock", }
+,{"id":"pipe_lock_nested", "file":"fs/pipe.c", "line":82, "type":"c", "scope_line":75, "scope_name":"pipe_double_lock", }
+,{"id":"pipe_lock_nested", "file":"fs/pipe.c", "line":84, "type":"c", "scope_line":75, "scope_name":"pipe_double_lock", }
+,{"id":"pipe_lock_nested", "file":"fs/pipe.c", "line":85, "type":"c", "scope_line":75, "scope_name":"pipe_double_lock", }
+,{"id":"pipe_max_size", "file":"fs/pipe.c", "line":31, "type":"v", }
+,{"id":"pipe_min_size", "file":"fs/pipe.c", "line":36, "type":"v", }
+,{"id":"pipe_mnt", "file":"fs/pipe.c", "line":934, "type":"v", }
+,{"id":"pipe_open", "file":"kernel/trace/trace.h", "line":253, "type":"m", "scope_line":246, "scope_name":"struct tracer", }
+,{"id":"pipe_poll", "file":"fs/pipe.c", "line":673, "type":"f", }
+,{"id":"pipe_proc_fn", "file":"fs/pipe.c", "line":1187, "type":"f", }
+,{"id":"pipe_rdwr_fasync", "file":"fs/pipe.c", "line":755, "type":"f", }
+,{"id":"pipe_rdwr_open", "file":"fs/pipe.c", "line":830, "type":"f", }
+,{"id":"pipe_rdwr_release", "file":"fs/pipe.c", "line":786, "type":"f", }
+,{"id":"pipe_read", "file":"fs/pipe.c", "line":348, "type":"f", }
+,{"id":"pipe_read_fasync", "file":"fs/pipe.c", "line":727, "type":"f", }
+,{"id":"pipe_read_open", "file":"fs/pipe.c", "line":796, "type":"f", }
+,{"id":"pipe_read_release", "file":"fs/pipe.c", "line":774, "type":"f", }
+,{"id":"pipe_release", "file":"fs/pipe.c", "line":705, "type":"f", }
+,{"id":"pipe_release", "file":"fs/pipe.c", "line":777, "type":"c", "scope_line":774, "scope_name":"pipe_read_release", }
+,{"id":"pipe_release", "file":"fs/pipe.c", "line":783, "type":"c", "scope_line":780, "scope_name":"pipe_write_release", }
+,{"id":"pipe_release", "file":"fs/pipe.c", "line":793, "type":"c", "scope_line":786, "scope_name":"pipe_rdwr_release", }
+,{"id":"pipe_set_size", "file":"fs/pipe.c", "line":1126, "type":"f", }
+,{"id":"pipe_set_size", "file":"fs/pipe.c", "line":1226, "type":"c", "scope_line":1200, "scope_name":"pipe_fcntl", }
+,{"id":"pipe_to_file", "file":"fs/splice.c", "line":720, "type":"f", }
+,{"id":"pipe_to_null", "file":"drivers/char/mem.c", "line":630, "type":"f", }
+,{"id":"pipe_to_sendpage", "file":"fs/splice.c", "line":680, "type":"f", }
+,{"id":"pipe_to_user", "file":"fs/splice.c", "line":1504, "type":"f", }
+,{"id":"pipe_unlock", "file":"fs/exec.c", "line":1802, "type":"c", "scope_line":1784, "scope_name":"wait_for_dump_helpers", }
+,{"id":"pipe_unlock", "file":"fs/pipe.c", "line":68, "type":"f", }
+,{"id":"pipe_unlock", "file":"fs/pipe.c", "line":99, "type":"c", "scope_line":90, "scope_name":"pipe_wait", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":1017, "type":"c", "scope_line":985, "scope_name":"generic_file_splice_write", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":1617, "type":"c", "scope_line":1549, "scope_name":"vmsplice_to_user", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":1771, "type":"c", "scope_line":1741, "scope_name":"ipipe_prep", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":1812, "type":"c", "scope_line":1779, "scope_name":"opipe_prep", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":1874, "type":"c", "scope_line":1819, "scope_name":"splice_pipe_to_pipe", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":1875, "type":"c", "scope_line":1819, "scope_name":"splice_pipe_to_pipe", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":1916, "type":"c", "scope_line":1819, "scope_name":"splice_pipe_to_pipe", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":1917, "type":"c", "scope_line":1819, "scope_name":"splice_pipe_to_pipe", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":2000, "type":"c", "scope_line":1937, "scope_name":"link_pipe", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":2001, "type":"c", "scope_line":1937, "scope_name":"link_pipe", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":248, "type":"c", "scope_line":176, "scope_name":"splice_to_pipe", }
+,{"id":"pipe_unlock", "file":"fs/splice.c", "line":967, "type":"c", "scope_line":953, "scope_name":"splice_from_pipe", }
+,{"id":"pipe_wait", "file":"fs/exec.c", "line":1797, "type":"c", "scope_line":1784, "scope_name":"wait_for_dump_helpers", }
+,{"id":"pipe_wait", "file":"fs/fifo.c", "line":22, "type":"c", "scope_line":17, "scope_name":"wait_for_partner", }
+,{"id":"pipe_wait", "file":"fs/pipe.c", "line":447, "type":"c", "scope_line":348, "scope_name":"pipe_read", }
+,{"id":"pipe_wait", "file":"fs/pipe.c", "line":620, "type":"c", "scope_line":461, "scope_name":"pipe_write", }
+,{"id":"pipe_wait", "file":"fs/pipe.c", "line":90, "type":"f", }
+,{"id":"pipe_wait", "file":"fs/splice.c", "line":1768, "type":"c", "scope_line":1741, "scope_name":"ipipe_prep", }
+,{"id":"pipe_wait", "file":"fs/splice.c", "line":1808, "type":"c", "scope_line":1779, "scope_name":"opipe_prep", }
+,{"id":"pipe_wait", "file":"fs/splice.c", "line":244, "type":"c", "scope_line":176, "scope_name":"splice_to_pipe", }
+,{"id":"pipe_wait", "file":"fs/splice.c", "line":869, "type":"c", "scope_line":849, "scope_name":"splice_from_pipe_next", }
+,{"id":"pipe_write", "file":"fs/pipe.c", "line":461, "type":"f", }
+,];
+xr_frag_insert('t/2d/190937baf0d59e04cfbdfaee0197a892fb8696.xr', __xr_tmp);

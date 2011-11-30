@@ -1,0 +1,159 @@
+var __xr_tmp = [
+{"id":"print_fmt_ext4_allocate_inode", "file":"include/trace/events/ext4.h", "line":69, "type":"v", }
+,{"id":"print_fmt_ext4_da_release_space", "file":"include/trace/events/ext4.h", "line":919, "type":"v", }
+,{"id":"print_fmt_ext4_da_reserve_space", "file":"include/trace/events/ext4.h", "line":887, "type":"v", }
+,{"id":"print_fmt_ext4_da_update_reserve_space", "file":"include/trace/events/ext4.h", "line":853, "type":"v", }
+,{"id":"print_fmt_ext4_da_write_pages", "file":"include/trace/events/ext4.h", "line":262, "type":"v", }
+,{"id":"print_fmt_ext4_da_writepages", "file":"include/trace/events/ext4.h", "line":219, "type":"v", }
+,{"id":"print_fmt_ext4_da_writepages_result", "file":"include/trace/events/ext4.h", "line":296, "type":"v", }
+,{"id":"print_fmt_ext4_discard_blocks", "file":"include/trace/events/ext4.h", "line":330, "type":"v", }
+,{"id":"print_fmt_ext4_discard_preallocations", "file":"include/trace/events/ext4.h", "line":453, "type":"v", }
+,{"id":"print_fmt_ext4_forget", "file":"include/trace/events/ext4.h", "line":827, "type":"v", }
+,{"id":"print_fmt_ext4_free_blocks", "file":"include/trace/events/ext4.h", "line":579, "type":"v", }
+,{"id":"print_fmt_ext4_free_inode", "file":"include/trace/events/ext4.h", "line":18, "type":"v", }
+,{"id":"print_fmt_ext4_mb_discard_preallocations", "file":"include/trace/events/ext4.h", "line":473, "type":"v", }
+,{"id":"print_fmt_ext4_mb_release_group_pa", "file":"include/trace/events/ext4.h", "line":426, "type":"v", }
+,{"id":"print_fmt_ext4_mb_release_inode_pa", "file":"include/trace/events/ext4.h", "line":397, "type":"v", }
+,{"id":"print_fmt_ext4_mballoc_alloc", "file":"include/trace/events/ext4.h", "line":679, "type":"v", }
+,{"id":"print_fmt_ext4_mballoc_prealloc", "file":"include/trace/events/ext4.h", "line":745, "type":"v", }
+,{"id":"print_fmt_ext4_request_blocks", "file":"include/trace/events/ext4.h", "line":493, "type":"v", }
+,{"id":"print_fmt_ext4_request_inode", "file":"include/trace/events/ext4.h", "line":47, "type":"v", }
+,{"id":"print_fmt_ext4_sync_file", "file":"include/trace/events/ext4.h", "line":609, "type":"v", }
+,{"id":"print_fmt_ext4_sync_fs", "file":"include/trace/events/ext4.h", "line":635, "type":"v", }
+,{"id":"print_fmt_ext4_writepage", "file":"include/trace/events/ext4.h", "line":196, "type":"v", }
+,{"id":"print_fmt_hrtimer_class", "file":"include/trace/events/timer.h", "line":218, "type":"v", }
+,{"id":"print_fmt_hrtimer_expire_entry", "file":"include/trace/events/timer.h", "line":196, "type":"v", }
+,{"id":"print_fmt_hrtimer_init", "file":"include/trace/events/timer.h", "line":130, "type":"v", }
+,{"id":"print_fmt_hrtimer_start", "file":"include/trace/events/timer.h", "line":160, "type":"v", }
+,{"id":"print_fmt_irq_handler_entry", "file":"include/trace/events/irq.h", "line":35, "type":"v", }
+,{"id":"print_fmt_irq_handler_exit", "file":"include/trace/events/irq.h", "line":65, "type":"v", }
+,{"id":"print_fmt_itimer_expire", "file":"include/trace/events/timer.h", "line":304, "type":"v", }
+,{"id":"print_fmt_itimer_state", "file":"include/trace/events/timer.h", "line":267, "type":"v", }
+,{"id":"print_fmt_jbd2_checkpoint", "file":"include/trace/events/jbd2.h", "line":13, "type":"v", }
+,{"id":"print_fmt_jbd2_checkpoint_stats", "file":"include/trace/events/jbd2.h", "line":171, "type":"v", }
+,{"id":"print_fmt_jbd2_cleanup_journal_tail", "file":"include/trace/events/jbd2.h", "line":202, "type":"v", }
+,{"id":"print_fmt_jbd2_commit", "file":"include/trace/events/jbd2.h", "line":33, "type":"v", }
+,{"id":"print_fmt_jbd2_end_commit", "file":"include/trace/events/jbd2.h", "line":84, "type":"v", }
+,{"id":"print_fmt_jbd2_run_stats", "file":"include/trace/events/jbd2.h", "line":127, "type":"v", }
+,{"id":"print_fmt_jbd2_submit_inode_data", "file":"include/trace/events/jbd2.h", "line":108, "type":"v", }
+,{"id":"print_fmt_kfree_skb", "file":"include/trace/events/skb.h", "line":14, "type":"v", }
+,{"id":"print_fmt_kmem_alloc", "file":"include/trace/events/kmem.h", "line":11, "type":"v", }
+,{"id":"print_fmt_kmem_alloc_node", "file":"include/trace/events/kmem.h", "line":61, "type":"v", }
+,{"id":"print_fmt_kmem_free", "file":"include/trace/events/kmem.h", "line":117, "type":"v", }
+,{"id":"print_fmt_lock_kernel", "file":"include/trace/events/bkl.h", "line":9, "type":"v", }
+,{"id":"print_fmt_mce_record", "file":"include/trace/events/mce.h", "line":11, "type":"v", }
+,{"id":"print_fmt_mm_page", "file":"include/trace/events/kmem.h", "line":223, "type":"v", }
+,{"id":"print_fmt_mm_page_alloc", "file":"include/trace/events/kmem.h", "line":194, "type":"v", }
+,{"id":"print_fmt_mm_page_alloc_extfrag", "file":"include/trace/events/kmem.h", "line":267, "type":"v", }
+,{"id":"print_fmt_mm_page_free_direct", "file":"include/trace/events/kmem.h", "line":150, "type":"v", }
+,{"id":"print_fmt_mm_page_pcpu_drain", "file":"include/trace/events/kmem.h", "line":256, "type":"v", }
+,{"id":"print_fmt_mm_pagevec_free", "file":"include/trace/events/kmem.h", "line":172, "type":"v", }
+,{"id":"print_fmt_mm_vmscan_direct_reclaim_begin_template", "file":"include/trace/events/vmscan.h", "line":89, "type":"v", }
+,{"id":"print_fmt_mm_vmscan_direct_reclaim_end_template", "file":"include/trace/events/vmscan.h", "line":134, "type":"v", }
+,{"id":"print_fmt_mm_vmscan_kswapd_sleep", "file":"include/trace/events/vmscan.h", "line":29, "type":"v", }
+,{"id":"print_fmt_mm_vmscan_kswapd_wake", "file":"include/trace/events/vmscan.h", "line":46, "type":"v", }
+,{"id":"print_fmt_mm_vmscan_lru_isolate_template", "file":"include/trace/events/vmscan.h", "line":173, "type":"v", }
+,{"id":"print_fmt_mm_vmscan_wakeup_kswapd", "file":"include/trace/events/vmscan.h", "line":65, "type":"v", }
+,{"id":"print_fmt_mm_vmscan_writepage", "file":"include/trace/events/vmscan.h", "line":249, "type":"v", }
+,{"id":"print_fmt_module_free", "file":"include/trace/events/module.h", "line":37, "type":"v", }
+,{"id":"print_fmt_module_load", "file":"include/trace/events/module.h", "line":18, "type":"v", }
+,{"id":"print_fmt_module_refcnt", "file":"include/trace/events/module.h", "line":57, "type":"v", }
+,{"id":"print_fmt_module_request", "file":"include/trace/events/module.h", "line":94, "type":"v", }
+,{"id":"print_fmt_power", "file":"include/trace/events/power.h", "line":19, "type":"v", }
+,{"id":"print_fmt_power_end", "file":"include/trace/events/power.h", "line":55, "type":"v", }
+,{"id":"print_fmt_sched_kthread_stop", "file":"include/trace/events/sched.h", "line":13, "type":"v", }
+,{"id":"print_fmt_sched_kthread_stop_ret", "file":"include/trace/events/sched.h", "line":35, "type":"v", }
+,{"id":"print_fmt_sched_migrate_task", "file":"include/trace/events/sched.h", "line":153, "type":"v", }
+,{"id":"print_fmt_sched_process_fork", "file":"include/trace/events/sched.h", "line":252, "type":"v", }
+,{"id":"print_fmt_sched_process_template", "file":"include/trace/events/sched.h", "line":180, "type":"v", }
+,{"id":"print_fmt_sched_process_wait", "file":"include/trace/events/sched.h", "line":227, "type":"v", }
+,{"id":"print_fmt_sched_stat_runtime", "file":"include/trace/events/sched.h", "line":336, "type":"v", }
+,{"id":"print_fmt_sched_stat_template", "file":"include/trace/events/sched.h", "line":281, "type":"v", }
+,{"id":"print_fmt_sched_switch", "file":"include/trace/events/sched.h", "line":113, "type":"v", }
+,{"id":"print_fmt_sched_wakeup_template", "file":"include/trace/events/sched.h", "line":55, "type":"v", }
+,{"id":"print_fmt_scsi_cmd_done_timeout_template", "file":"include/trace/events/scsi.h", "line":271, "type":"v", }
+,{"id":"print_fmt_scsi_dispatch_cmd_error", "file":"include/trace/events/scsi.h", "line":229, "type":"v", }
+,{"id":"print_fmt_scsi_dispatch_cmd_start", "file":"include/trace/events/scsi.h", "line":190, "type":"v", }
+,{"id":"print_fmt_scsi_eh_wakeup", "file":"include/trace/events/scsi.h", "line":325, "type":"v", }
+,{"id":"print_fmt_signal_deliver", "file":"include/trace/events/signal.h", "line":78, "type":"v", }
+,{"id":"print_fmt_signal_generate", "file":"include/trace/events/signal.h", "line":38, "type":"v", }
+,{"id":"print_fmt_signal_queue_overflow", "file":"include/trace/events/signal.h", "line":104, "type":"v", }
+,{"id":"print_fmt_skb_copy_datagram_iovec", "file":"include/trace/events/skb.h", "line":38, "type":"v", }
+,{"id":"print_fmt_softirq", "file":"include/trace/events/irq.h", "line":85, "type":"v", }
+,{"id":"print_fmt_sys_enter", "file":"include/trace/events/syscalls.h", "line":19, "type":"v", }
+,{"id":"print_fmt_sys_exit", "file":"include/trace/events/syscalls.h", "line":43, "type":"v", }
+,{"id":"print_fmt_timer_class", "file":"include/trace/events/timer.h", "line":11, "type":"v", }
+,{"id":"print_fmt_timer_expire_entry", "file":"include/trace/events/timer.h", "line":75, "type":"v", }
+,{"id":"print_fmt_timer_start", "file":"include/trace/events/timer.h", "line":44, "type":"v", }
+,{"id":"print_fmt_unlock_kernel", "file":"include/trace/events/bkl.h", "line":34, "type":"v", }
+,{"id":"print_fmt_wbc_class", "file":"include/trace/events/writeback.h", "line":91, "type":"v", }
+,{"id":"print_fmt_workqueue_execute_end", "file":"include/trace/events/workqueue.h", "line":41, "type":"v", }
+,{"id":"print_fmt_workqueue_execute_start", "file":"include/trace/events/workqueue.h", "line":16, "type":"v", }
+,{"id":"print_fmt_writeback_class", "file":"include/trace/events/writeback.h", "line":65, "type":"v", }
+,{"id":"print_fmt_writeback_pages_written", "file":"include/trace/events/writeback.h", "line":53, "type":"v", }
+,{"id":"print_fmt_writeback_work_class", "file":"include/trace/events/writeback.h", "line":13, "type":"v", }
+,{"id":"print_fn_t", "file":"kernel/time/timer_list.c", "line":23, "type":"t", }
+,{"id":"print_ftrace_graph_addr", "file":"arch/x86/kernel/dumpstack.c", "line":105, "type":"c", "scope_line":85, "scope_name":"print_context_stack", }
+,{"id":"print_ftrace_graph_addr", "file":"arch/x86/kernel/dumpstack.c", "line":131, "type":"c", "scope_line":113, "scope_name":"print_context_stack_bp", }
+,{"id":"print_ftrace_graph_addr", "file":"arch/x86/kernel/dumpstack.c", "line":35, "type":"f", }
+,{"id":"print_func", "file":"drivers/acpi/battery.c", "line":753, "type":"t", }
+,{"id":"print_func_help_header", "file":"kernel/trace/trace.c", "line":1742, "type":"f", }
+,{"id":"print_func_help_header", "file":"kernel/trace/trace.c", "line":2039, "type":"c", "scope_line":2026, "scope_name":"trace_default_header", }
+,{"id":"print_graph_abs_time", "file":"kernel/trace/trace_functions_graph.c", "line":562, "type":"f", }
+,{"id":"print_graph_abs_time", "file":"kernel/trace/trace_functions_graph.c", "line":586, "type":"c", "scope_line":573, "scope_name":"print_graph_irq", }
+,{"id":"print_graph_abs_time", "file":"kernel/trace/trace_functions_graph.c", "line":825, "type":"c", "scope_line":803, "scope_name":"print_graph_prologue", }
+,{"id":"print_graph_comment", "file":"kernel/trace/trace_functions_graph.c", "line":1111, "type":"c", "scope_line":1056, "scope_name":"print_graph_function_flags", }
+,{"id":"print_graph_comment", "file":"kernel/trace/trace_functions_graph.c", "line":979, "type":"f", }
+,{"id":"print_graph_cpu", "file":"kernel/trace/trace_functions_graph.c", "line":337, "type":"f", }
+,{"id":"print_graph_cpu", "file":"kernel/trace/trace_functions_graph.c", "line":441, "type":"c", "scope_line":408, "scope_name":"verif_pid", }
+,{"id":"print_graph_cpu", "file":"kernel/trace/trace_functions_graph.c", "line":593, "type":"c", "scope_line":573, "scope_name":"print_graph_irq", }
+,{"id":"print_graph_cpu", "file":"kernel/trace/trace_functions_graph.c", "line":832, "type":"c", "scope_line":803, "scope_name":"print_graph_prologue", }
+,{"id":"print_graph_duration", "file":"kernel/trace/trace_functions_graph.c", "line":673, "type":"f", }
+,{"id":"print_graph_duration", "file":"kernel/trace/trace_functions_graph.c", "line":732, "type":"c", "scope_line":690, "scope_name":"print_graph_entry_leaf", }
+,{"id":"print_graph_duration", "file":"kernel/trace/trace_functions_graph.c", "line":935, "type":"c", "scope_line":892, "scope_name":"print_graph_return", }
+,{"id":"print_graph_entry", "file":"kernel/trace/trace_functions_graph.c", "line":1078, "type":"c", "scope_line":1056, "scope_name":"print_graph_function_flags", }
+,{"id":"print_graph_entry", "file":"kernel/trace/trace_functions_graph.c", "line":1098, "type":"c", "scope_line":1056, "scope_name":"print_graph_function_flags", }
+,{"id":"print_graph_entry", "file":"kernel/trace/trace_functions_graph.c", "line":858, "type":"f", }
+,{"id":"print_graph_entry_leaf", "file":"kernel/trace/trace_functions_graph.c", "line":690, "type":"f", }
+,{"id":"print_graph_entry_leaf", "file":"kernel/trace/trace_functions_graph.c", "line":873, "type":"c", "scope_line":858, "scope_name":"print_graph_entry", }
+,{"id":"print_graph_entry_nested", "file":"kernel/trace/trace_functions_graph.c", "line":751, "type":"f", }
+,{"id":"print_graph_entry_nested", "file":"kernel/trace/trace_functions_graph.c", "line":875, "type":"c", "scope_line":858, "scope_name":"print_graph_entry", }
+,{"id":"print_graph_function", "file":"kernel/trace/trace_functions_graph.c", "line":1117, "type":"f", }
+,{"id":"print_graph_function", "file":"kernel/trace/trace_functions_graph.c", "line":1127, "type":"c", "scope_line":1123, "scope_name":"print_graph_function_event", }
+,{"id":"print_graph_function_event", "file":"kernel/trace/trace_functions_graph.c", "line":1123, "type":"f", }
+,{"id":"print_graph_function_flags", "file":"kernel/trace/trace_functions_graph.c", "line":1056, "type":"f", }
+,{"id":"print_graph_function_flags", "file":"kernel/trace/trace_functions_graph.c", "line":1120, "type":"c", "scope_line":1117, "scope_name":"print_graph_function", }
+,{"id":"print_graph_headers", "file":"kernel/trace/trace_functions_graph.c", "line":1188, "type":"f", }
+,{"id":"print_graph_headers_flags", "file":"kernel/trace/trace_functions_graph.c", "line":1152, "type":"f", }
+,{"id":"print_graph_headers_flags", "file":"kernel/trace/trace_functions_graph.c", "line":1190, "type":"c", "scope_line":1188, "scope_name":"print_graph_headers", }
+,{"id":"print_graph_irq", "file":"kernel/trace/trace_functions_graph.c", "line":573, "type":"f", }
+,{"id":"print_graph_irq", "file":"kernel/trace/trace_functions_graph.c", "line":818, "type":"c", "scope_line":803, "scope_name":"print_graph_prologue", }
+,{"id":"print_graph_irq", "file":"kernel/trace/trace_functions_graph.c", "line":971, "type":"c", "scope_line":892, "scope_name":"print_graph_return", }
+,{"id":"print_graph_lat_fmt", "file":"kernel/trace/trace_functions_graph.c", "line":398, "type":"f", }
+,{"id":"print_graph_lat_fmt", "file":"kernel/trace/trace_functions_graph.c", "line":850, "type":"c", "scope_line":803, "scope_name":"print_graph_prologue", }
+,{"id":"print_graph_overhead", "file":"kernel/trace/trace_functions_graph.c", "line":537, "type":"f", }
+,{"id":"print_graph_overhead", "file":"kernel/trace/trace_functions_graph.c", "line":609, "type":"c", "scope_line":573, "scope_name":"print_graph_irq", }
+,{"id":"print_graph_overhead", "file":"kernel/trace/trace_functions_graph.c", "line":726, "type":"c", "scope_line":690, "scope_name":"print_graph_entry_leaf", }
+,{"id":"print_graph_overhead", "file":"kernel/trace/trace_functions_graph.c", "line":774, "type":"c", "scope_line":751, "scope_name":"print_graph_entry_nested", }
+,{"id":"print_graph_overhead", "file":"kernel/trace/trace_functions_graph.c", "line":929, "type":"c", "scope_line":892, "scope_name":"print_graph_return", }
+,{"id":"print_graph_overhead", "file":"kernel/trace/trace_functions_graph.c", "line":997, "type":"c", "scope_line":979, "scope_name":"print_graph_comment", }
+,{"id":"print_graph_proc", "file":"kernel/trace/trace_functions_graph.c", "line":356, "type":"f", }
+,{"id":"print_graph_proc", "file":"kernel/trace/trace_functions_graph.c", "line":445, "type":"c", "scope_line":408, "scope_name":"verif_pid", }
+,{"id":"print_graph_proc", "file":"kernel/trace/trace_functions_graph.c", "line":453, "type":"c", "scope_line":408, "scope_name":"verif_pid", }
+,{"id":"print_graph_proc", "file":"kernel/trace/trace_functions_graph.c", "line":600, "type":"c", "scope_line":573, "scope_name":"print_graph_irq", }
+,{"id":"print_graph_proc", "file":"kernel/trace/trace_functions_graph.c", "line":839, "type":"c", "scope_line":803, "scope_name":"print_graph_prologue", }
+,{"id":"print_graph_prologue", "file":"kernel/trace/trace_functions_graph.c", "line":803, "type":"f", }
+,{"id":"print_graph_prologue", "file":"kernel/trace/trace_functions_graph.c", "line":868, "type":"c", "scope_line":858, "scope_name":"print_graph_entry", }
+,{"id":"print_graph_prologue", "file":"kernel/trace/trace_functions_graph.c", "line":925, "type":"c", "scope_line":892, "scope_name":"print_graph_return", }
+,{"id":"print_graph_prologue", "file":"kernel/trace/trace_functions_graph.c", "line":993, "type":"c", "scope_line":979, "scope_name":"print_graph_comment", }
+,{"id":"print_graph_return", "file":"kernel/trace/trace_functions_graph.c", "line":1103, "type":"c", "scope_line":1056, "scope_name":"print_graph_function_flags", }
+,{"id":"print_graph_return", "file":"kernel/trace/trace_functions_graph.c", "line":892, "type":"f", }
+,{"id":"print_header", "file":"kernel/trace/trace.h", "line":270, "type":"m", "scope_line":246, "scope_name":"struct tracer", }
+,{"id":"print_hex_dump", "file":"arch/x86/kernel/mpparse.c", "line":271, "type":"c", "scope_line":267, "scope_name":"smp_dump_mptable", }
+,{"id":"print_hex_dump", "file":"drivers/ata/libata-core.c", "line":2131, "type":"c", "scope_line":2032, "scope_name":"ata_dev_read_id", }
+,{"id":"print_hex_dump", "file":"drivers/net/tun.c", "line":749, "type":"c", "scope_line":703, "scope_name":"tun_put_user", }
+,{"id":"print_hex_dump", "file":"fs/ext3/super.c", "line":493, "type":"c", "scope_line":488, "scope_name":"ext3_destroy_inode", }
+,{"id":"print_hex_dump", "file":"fs/ext4/super.c", "line":835, "type":"c", "scope_line":828, "scope_name":"ext4_destroy_inode", }
+,{"id":"print_hex_dump", "file":"include/linux/ide.h", "line":1523, "type":"c", "scope_line":1521, "scope_name":"ide_dump_identify", }
+,];
+xr_frag_insert('t/e5/4b374724eb5175229ae89dedf67159582b6548.xr', __xr_tmp);

@@ -1,0 +1,108 @@
+var __xr_tmp = [
+{"id":"sem_rmid", "file":"ipc/sem.c", "line":728, "type":"c", "scope_line":702, "scope_name":"freeary", }
+,{"id":"sem_security", "file":"ipc/sem.c", "line":298, "type":"f", }
+,{"id":"sem_semctl", "file":"include/linux/security.h", "line":1543, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sem_semop", "file":"include/linux/security.h", "line":1544, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"sem_undo", "file":"include/linux/sem.h", "line":122, "type":"s", }
+,{"id":"sem_undo_list", "file":"include/linux/sem.h", "line":135, "type":"s", }
+,{"id":"sem_unlock", "file":"ipc/sem.c", "line":95, "type":"d", }
+,{"id":"sema_init", "file":"drivers/acpi/osl.c", "line":810, "type":"c", "scope_line":800, "scope_name":"acpi_os_create_semaphore", }
+,{"id":"sema_init", "file":"include/linux/semaphore.h", "line":35, "type":"f", }
+,{"id":"sema_init", "file":"kernel/printk.c", "line":564, "type":"c", "scope_line":551, "scope_name":"zap_locks", }
+,{"id":"semadj", "file":"include/linux/sem.h", "line":129, "type":"m", "scope_line":122, "scope_name":"struct sem_undo", }
+,{"id":"semaem", "file":"include/linux/sem.h", "line":63, "type":"m", "scope_line":53, "scope_name":"struct seminfo", }
+,{"id":"semaphore", "file":"include/linux/semaphore.h", "line":16, "type":"s", }
+,{"id":"semaphore_waiter", "file":"kernel/semaphore.c", "line":193, "type":"s", }
+,{"id":"sembuf", "file":"include/linux/sem.h", "line":38, "type":"s", }
+,{"id":"semctl_down", "file":"ipc/sem.c", "line":1037, "type":"f", }
+,{"id":"semctl_down", "file":"ipc/sem.c", "line":1109, "type":"c", "scope_line":1079, "scope_name":"sys_semctl", }
+,{"id":"semctl_main", "file":"ipc/sem.c", "line":1105, "type":"c", "scope_line":1079, "scope_name":"sys_semctl", }
+,{"id":"semctl_main", "file":"ipc/sem.c", "line":846, "type":"f", }
+,{"id":"semctl_nolock", "file":"ipc/sem.c", "line":1096, "type":"c", "scope_line":1079, "scope_name":"sys_semctl", }
+,{"id":"semctl_nolock", "file":"ipc/sem.c", "line":761, "type":"f", }
+,{"id":"semid", "file":"include/linux/sem.h", "line":128, "type":"m", "scope_line":122, "scope_name":"struct sem_undo", }
+,{"id":"semid64_ds", "file":"arch/x86/include/asm/sembuf.h", "line":13, "type":"s", }
+,{"id":"semid_ds", "file":"include/linux/sem.h", "line":23, "type":"s", }
+,{"id":"seminfo", "file":"include/linux/sem.h", "line":53, "type":"s", }
+,{"id":"semmap", "file":"include/linux/sem.h", "line":54, "type":"m", "scope_line":53, "scope_name":"struct seminfo", }
+,{"id":"semmni", "file":"include/linux/sem.h", "line":55, "type":"m", "scope_line":53, "scope_name":"struct seminfo", }
+,{"id":"semmns", "file":"include/linux/sem.h", "line":56, "type":"m", "scope_line":53, "scope_name":"struct seminfo", }
+,{"id":"semmnu", "file":"include/linux/sem.h", "line":57, "type":"m", "scope_line":53, "scope_name":"struct seminfo", }
+,{"id":"semmsl", "file":"include/linux/sem.h", "line":58, "type":"m", "scope_line":53, "scope_name":"struct seminfo", }
+,{"id":"semopm", "file":"include/linux/sem.h", "line":59, "type":"m", "scope_line":53, "scope_name":"struct seminfo", }
+,{"id":"sempid", "file":"include/linux/sem.h", "line":89, "type":"m", "scope_line":87, "scope_name":"struct sem", }
+,{"id":"semume", "file":"include/linux/sem.h", "line":60, "type":"m", "scope_line":53, "scope_name":"struct seminfo", }
+,{"id":"semun", "file":"include/linux/sem.h", "line":45, "type":"u", }
+,{"id":"semusz", "file":"include/linux/sem.h", "line":61, "type":"m", "scope_line":53, "scope_name":"struct seminfo", }
+,{"id":"semval", "file":"include/linux/sem.h", "line":88, "type":"m", "scope_line":87, "scope_name":"struct sem", }
+,{"id":"semvmx", "file":"include/linux/sem.h", "line":62, "type":"m", "scope_line":53, "scope_name":"struct seminfo", }
+,{"id":"send", "file":"include/linux/atmdev.h", "line":313, "type":"m", "scope_line":298, "scope_name":"struct atm_vcc", }
+,{"id":"send", "file":"include/linux/atmdev.h", "line":401, "type":"m", "scope_line":388, "scope_name":"struct atmdev_ops", }
+,{"id":"send", "file":"include/xen/interface/event_channel.h", "line":189, "type":"m", "scope_line":180, "scope_name":"struct evtchn_op", }
+,{"id":"send_IPI_all", "file":"arch/x86/include/asm/apic.h", "line":339, "type":"m", "scope_line":285, "scope_name":"struct apic", }
+,{"id":"send_IPI_allbutself", "file":"arch/x86/include/asm/apic.h", "line":338, "type":"m", "scope_line":285, "scope_name":"struct apic", }
+,{"id":"send_IPI_mask", "file":"arch/x86/include/asm/apic.h", "line":335, "type":"m", "scope_line":285, "scope_name":"struct apic", }
+,{"id":"send_IPI_mask_allbutself", "file":"arch/x86/include/asm/apic.h", "line":336, "type":"m", "scope_line":285, "scope_name":"struct apic", }
+,{"id":"send_IPI_self", "file":"arch/x86/include/asm/apic.h", "line":340, "type":"m", "scope_line":285, "scope_name":"struct apic", }
+,{"id":"send_accept_error", "file":"arch/x86/include/asm/apicdef.h", "line":268, "type":"m", "scope_line":172, "scope_name":"struct local_apic", }
+,{"id":"send_ack", "file":"include/net/request_sock.h", "line":43, "type":"m", "scope_line":35, "scope_name":"struct request_sock_ops", }
+,{"id":"send_break", "file":"drivers/char/tty_io.c", "line":2410, "type":"f", }
+,{"id":"send_break", "file":"drivers/char/tty_io.c", "line":2614, "type":"c", "scope_line":2526, "scope_name":"tty_ioctl", }
+,{"id":"send_break", "file":"drivers/char/tty_io.c", "line":2617, "type":"c", "scope_line":2526, "scope_name":"tty_ioctl", }
+,{"id":"send_call_func_ipi", "file":"arch/x86/include/asm/smp.h", "line":61, "type":"m", "scope_line":48, "scope_name":"struct smp_ops", }
+,{"id":"send_call_func_single_ipi", "file":"arch/x86/include/asm/smp.h", "line":62, "type":"m", "scope_line":48, "scope_name":"struct smp_ops", }
+,{"id":"send_check", "file":"include/net/inet_connection_sock.h", "line":40, "type":"m", "scope_line":38, "scope_name":"struct inet_connection_sock_af_ops", }
+,{"id":"send_cleanup_vector", "file":"arch/x86/kernel/apic/io_apic.c", "line":2284, "type":"f", }
+,{"id":"send_cleanup_vector", "file":"arch/x86/kernel/apic/io_apic.c", "line":2526, "type":"c", "scope_line":2514, "scope_name":"__irq_complete_move", }
+,{"id":"send_covered", "file":"kernel/sched.c", "line":6517, "type":"m", "scope_line":6507, "scope_name":"struct s_data", }
+,{"id":"send_cpu_listeners", "file":"kernel/taskstats.c", "line":128, "type":"f", }
+,{"id":"send_cpu_listeners", "file":"kernel/taskstats.c", "line":575, "type":"c", "scope_line":520, "scope_name":"taskstats_exit", }
+,{"id":"send_cs_error", "file":"arch/x86/include/asm/apicdef.h", "line":266, "type":"m", "scope_line":172, "scope_name":"struct local_apic", }
+,{"id":"send_illegal_vector", "file":"arch/x86/include/asm/apicdef.h", "line":271, "type":"m", "scope_line":172, "scope_name":"struct local_apic", }
+,{"id":"send_mayday", "file":"kernel/workqueue.c", "line":1442, "type":"f", }
+,{"id":"send_mayday", "file":"kernel/workqueue.c", "line":1476, "type":"c", "scope_line":1461, "scope_name":"gcwq_mayday_timeout", }
+,{"id":"send_mayday", "file":"kernel/workqueue.c", "line":3178, "type":"c", "scope_line":3102, "scope_name":"trustee_thread", }
+,{"id":"send_morse", "file":"arch/x86/kernel/acpi/realmode/wakemain.c", "line":39, "type":"f", }
+,{"id":"send_morse", "file":"arch/x86/kernel/acpi/realmode/wakemain.c", "line":71, "type":"c", "scope_line":64, "scope_name":"main", }
+,{"id":"send_oam", "file":"include/linux/atmdev.h", "line":402, "type":"m", "scope_line":388, "scope_name":"struct atmdev_ops", }
+,{"id":"send_prio_char", "file":"drivers/char/tty_ioctl.c", "line":1142, "type":"c", "scope_line":1116, "scope_name":"n_tty_ioctl_helper", }
+,{"id":"send_prio_char", "file":"drivers/char/tty_ioctl.c", "line":1146, "type":"c", "scope_line":1116, "scope_name":"n_tty_ioctl_helper", }
+,{"id":"send_prio_char", "file":"drivers/char/tty_ioctl.c", "line":886, "type":"f", }
+,{"id":"send_remote_softirq", "file":"kernel/softirq.c", "line":629, "type":"f", }
+,{"id":"send_reply", "file":"kernel/taskstats.c", "line":110, "type":"f", }
+,{"id":"send_reply", "file":"kernel/taskstats.c", "line":420, "type":"c", "scope_line":382, "scope_name":"cgroupstats_user_cmd", }
+,{"id":"send_reply", "file":"kernel/taskstats.c", "line":489, "type":"c", "scope_line":427, "scope_name":"taskstats_user_cmd", }
+,{"id":"send_request", "file":"include/linux/sunrpc/xprt.h", "line":122, "type":"m", "scope_line":113, "scope_name":"struct rpc_xprt_ops", }
+,{"id":"send_reset", "file":"include/net/request_sock.h", "line":45, "type":"m", "scope_line":35, "scope_name":"struct request_sock_ops", }
+,{"id":"send_sig", "file":"drivers/char/tty_io.c", "line":2722, "type":"c", "scope_line":2697, "scope_name":"__do_SAK", }
+,{"id":"send_sig", "file":"drivers/char/tty_io.c", "line":2732, "type":"c", "scope_line":2697, "scope_name":"__do_SAK", }
+,{"id":"send_sig", "file":"fs/attr.c", "line":117, "type":"c", "scope_line":95, "scope_name":"inode_newsize_ok", }
+,{"id":"send_sig", "file":"fs/binfmt_elf.c", "line":742, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"send_sig", "file":"fs/binfmt_elf.c", "line":767, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"send_sig", "file":"fs/binfmt_elf.c", "line":813, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"send_sig", "file":"fs/binfmt_elf.c", "line":844, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"send_sig", "file":"fs/binfmt_elf.c", "line":877, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"send_sig", "file":"fs/binfmt_elf.c", "line":881, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"send_sig", "file":"fs/binfmt_elf.c", "line":928, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"send_sig", "file":"fs/binfmt_elf.c", "line":938, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"send_sig", "file":"fs/pipe.c", "line":485, "type":"c", "scope_line":461, "scope_name":"pipe_write", }
+,{"id":"send_sig", "file":"fs/pipe.c", "line":534, "type":"c", "scope_line":461, "scope_name":"pipe_write", }
+,{"id":"send_sig", "file":"fs/splice.c", "line":1795, "type":"c", "scope_line":1779, "scope_name":"opipe_prep", }
+,{"id":"send_sig", "file":"fs/splice.c", "line":1846, "type":"c", "scope_line":1819, "scope_name":"splice_pipe_to_pipe", }
+,{"id":"send_sig", "file":"fs/splice.c", "line":190, "type":"c", "scope_line":176, "scope_name":"splice_to_pipe", }
+,{"id":"send_sig", "file":"fs/splice.c", "line":1953, "type":"c", "scope_line":1937, "scope_name":"link_pipe", }
+,{"id":"send_sig", "file":"include/linux/tracehook.h", "line":206, "type":"c", "scope_line":200, "scope_name":"tracehook_report_exec", }
+,{"id":"send_sig", "file":"include/linux/tracehook.h", "line":87, "type":"c", "scope_line":72, "scope_name":"ptrace_report_syscall", }
+,{"id":"send_sig", "file":"kernel/auditsc.c", "line":1045, "type":"c", "scope_line":1018, "scope_name":"audit_log_single_execve_arg", }
+,{"id":"send_sig", "file":"kernel/auditsc.c", "line":1063, "type":"c", "scope_line":1018, "scope_name":"audit_log_single_execve_arg", }
+,{"id":"send_sig", "file":"kernel/auditsc.c", "line":1127, "type":"c", "scope_line":1018, "scope_name":"audit_log_single_execve_arg", }
+,{"id":"send_sig", "file":"kernel/exec_domain.c", "line":55, "type":"c", "scope_line":47, "scope_name":"default_handler", }
+,{"id":"send_sig", "file":"kernel/signal.c", "line":1303, "type":"f", }
+,{"id":"send_sig", "file":"mm/filemap.c", "line":2040, "type":"c", "scope_line":2025, "scope_name":"generic_write_checks", }
+,{"id":"send_sig", "file":"net/core/stream.c", "line":181, "type":"c", "scope_line":176, "scope_name":"sk_stream_error", }
+,{"id":"send_sig", "file":"net/unix/af_unix.c", "line":1642, "type":"c", "scope_line":1533, "scope_name":"unix_stream_sendmsg", }
+,{"id":"send_sig_all", "file":"drivers/char/sysrq.c", "line":321, "type":"f", }
+,{"id":"send_sig_all", "file":"drivers/char/sysrq.c", "line":334, "type":"c", "scope_line":332, "scope_name":"sysrq_handle_term", }
+,{"id":"send_sig_all", "file":"drivers/char/sysrq.c", "line":377, "type":"c", "scope_line":375, "scope_name":"sysrq_handle_kill", }
+,];
+xr_frag_insert('t/bc/5f939e0ce11a96dc28dcc711900fda7c4637f5.xr', __xr_tmp);

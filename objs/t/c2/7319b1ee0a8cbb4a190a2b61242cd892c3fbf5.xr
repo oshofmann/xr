@@ -1,0 +1,209 @@
+var __xr_tmp = [
+{"id":"policydb_read", "file":"security/selinux/ss/services.c", "line":1766, "type":"c", "scope_line":1753, "scope_name":"security_load_policy", }
+,{"id":"policydb_read", "file":"security/selinux/ss/services.c", "line":1803, "type":"c", "scope_line":1753, "scope_name":"security_load_policy", }
+,{"id":"policydb_role_isvalid", "file":"security/selinux/ss/policydb.c", "line":2200, "type":"c", "scope_line":2045, "scope_name":"policydb_read", }
+,{"id":"policydb_role_isvalid", "file":"security/selinux/ss/policydb.c", "line":2229, "type":"c", "scope_line":2045, "scope_name":"policydb_read", }
+,{"id":"policydb_role_isvalid", "file":"security/selinux/ss/policydb.c", "line":801, "type":"f", }
+,{"id":"policydb_type_isvalid", "file":"security/selinux/ss/avtab.c", "line":423, "type":"c", "scope_line":326, "scope_name":"avtab_read_item", }
+,{"id":"policydb_type_isvalid", "file":"security/selinux/ss/avtab.c", "line":446, "type":"c", "scope_line":326, "scope_name":"avtab_read_item", }
+,{"id":"policydb_type_isvalid", "file":"security/selinux/ss/policydb.c", "line":1751, "type":"c", "scope_line":1714, "scope_name":"range_read", }
+,{"id":"policydb_type_isvalid", "file":"security/selinux/ss/policydb.c", "line":2200, "type":"c", "scope_line":2045, "scope_name":"policydb_read", }
+,{"id":"policydb_type_isvalid", "file":"security/selinux/ss/policydb.c", "line":808, "type":"f", }
+,{"id":"policyvers", "file":"security/selinux/ss/policydb.h", "line":257, "type":"m", "scope_line":191, "scope_name":"struct policydb", }
+,{"id":"poll", "file":"fs/sysfs/file.c", "line":48, "type":"m", "scope_line":45, "scope_name":"struct sysfs_open_dirent", }
+,{"id":"poll", "file":"include/linux/blk-iopoll.h", "line":13, "type":"m", "scope_line":7, "scope_name":"struct blk_iopoll", }
+,{"id":"poll", "file":"include/linux/fs.h", "line":1496, "type":"m", "scope_line":1488, "scope_name":"struct file_operations", }
+,{"id":"poll", "file":"include/linux/mnt_namespace.h", "line":13, "type":"m", "scope_line":9, "scope_name":"struct mnt_namespace", }
+,{"id":"poll", "file":"include/linux/net.h", "line":176, "type":"m", "scope_line":159, "scope_name":"struct proto_ops", }
+,{"id":"poll", "file":"include/linux/netdevice.h", "line":355, "type":"m", "scope_line":344, "scope_name":"struct napi_struct", }
+,{"id":"poll", "file":"include/linux/perf_event.h", "line":620, "type":"m", "scope_line":610, "scope_name":"struct perf_buffer", }
+,{"id":"poll", "file":"include/linux/rfkill.h", "line":146, "type":"m", "scope_line":145, "scope_name":"struct rfkill_ops", }
+,{"id":"poll", "file":"include/linux/thread_info.h", "line":49, "type":"m", "scope_line":18, "scope_name":"struct restart_block", }
+,{"id":"poll", "file":"include/linux/tty_ldisc.h", "line":135, "type":"m", "scope_line":113, "scope_name":"struct tty_ldisc_ops", }
+,{"id":"poll", "file":"security/tomoyo/common.h", "line":538, "type":"m", "scope_line":535, "scope_name":"struct tomoyo_io_buffer", }
+,{"id":"poll_freewait", "file":"fs/select.c", "line":133, "type":"f", }
+,{"id":"poll_freewait", "file":"fs/select.c", "line":505, "type":"c", "scope_line":396, "scope_name":"do_select", }
+,{"id":"poll_freewait", "file":"fs/select.c", "line":870, "type":"c", "scope_line":828, "scope_name":"do_sys_poll", }
+,{"id":"poll_get_char", "file":"include/linux/serial_core.h", "line":259, "type":"m", "scope_line":218, "scope_name":"struct uart_ops", }
+,{"id":"poll_get_char", "file":"include/linux/tty_driver.h", "line":273, "type":"m", "scope_line":236, "scope_name":"struct tty_operations", }
+,{"id":"poll_get_entry", "file":"fs/select.c", "line":155, "type":"f", }
+,{"id":"poll_get_entry", "file":"fs/select.c", "line":220, "type":"c", "scope_line":216, "scope_name":"__pollwait", }
+,{"id":"poll_idle", "file":"arch/x86/kernel/process.c", "line":481, "type":"f", }
+,{"id":"poll_idle", "file":"drivers/cpuidle/cpuidle.c", "line":236, "type":"f", }
+,{"id":"poll_idle_init", "file":"drivers/cpuidle/cpuidle.c", "line":256, "type":"f", }
+,{"id":"poll_idle_init", "file":"drivers/cpuidle/cpuidle.c", "line":294, "type":"c", "scope_line":281, "scope_name":"__cpuidle_register_device", }
+,{"id":"poll_init", "file":"include/linux/tty_driver.h", "line":272, "type":"m", "scope_line":236, "scope_name":"struct tty_operations", }
+,{"id":"poll_initwait", "file":"fs/select.c", "line":116, "type":"f", }
+,{"id":"poll_initwait", "file":"fs/select.c", "line":412, "type":"c", "scope_line":396, "scope_name":"do_select", }
+,{"id":"poll_initwait", "file":"fs/select.c", "line":868, "type":"c", "scope_line":828, "scope_name":"do_sys_poll", }
+,{"id":"poll_interval", "file":"include/acpi/actbl1.h", "line":454, "type":"m", "scope_line":450, "scope_name":"struct acpi_hest_notify", }
+,{"id":"poll_link", "file":"net/dsa/dsa_priv.h", "line":149, "type":"m", "scope_line":126, "scope_name":"struct dsa_switch_driver", }
+,{"id":"poll_list", "file":"fs/select.c", "line":711, "type":"s", }
+,{"id":"poll_list", "file":"include/linux/netdevice.h", "line":1406, "type":"m", "scope_line":1403, "scope_name":"struct softnet_data", }
+,{"id":"poll_list", "file":"include/linux/netdevice.h", "line":351, "type":"m", "scope_line":344, "scope_name":"struct napi_struct", }
+,{"id":"poll_put_char", "file":"include/linux/serial_core.h", "line":258, "type":"m", "scope_line":218, "scope_name":"struct uart_ops", }
+,{"id":"poll_put_char", "file":"include/linux/tty_driver.h", "line":274, "type":"m", "scope_line":236, "scope_name":"struct tty_operations", }
+,{"id":"poll_queue", "file":"include/linux/thermal.h", "line":122, "type":"m", "scope_line":104, "scope_name":"struct thermal_zone_device", }
+,{"id":"poll_queue_proc", "file":"include/linux/poll.h", "line":33, "type":"t", }
+,{"id":"poll_readywalk_ncalls", "file":"fs/eventpoll.c", "line":234, "type":"v", }
+,{"id":"poll_safewake_ncalls", "file":"fs/eventpoll.c", "line":231, "type":"v", }
+,{"id":"poll_schedule", "file":"include/linux/poll.h", "line":77, "type":"f", }
+,{"id":"poll_schedule_timeout", "file":"fs/select.c", "line":232, "type":"f", }
+,{"id":"poll_schedule_timeout", "file":"fs/select.c", "line":500, "type":"c", "scope_line":396, "scope_name":"do_select", }
+,{"id":"poll_schedule_timeout", "file":"fs/select.c", "line":819, "type":"c", "scope_line":757, "scope_name":"do_poll", }
+,{"id":"poll_schedule_timeout", "file":"include/linux/poll.h", "line":79, "type":"c", "scope_line":77, "scope_name":"poll_schedule", }
+,{"id":"poll_select_copy_remaining", "file":"fs/compat.c", "line":1596, "type":"f", }
+,{"id":"poll_select_copy_remaining", "file":"fs/compat.c", "line":1818, "type":"c", "scope_line":1798, "scope_name":"compat_sys_select", }
+,{"id":"poll_select_copy_remaining", "file":"fs/compat.c", "line":1874, "type":"c", "scope_line":1842, "scope_name":"do_compat_pselect", }
+,{"id":"poll_select_copy_remaining", "file":"fs/compat.c", "line":1960, "type":"c", "scope_line":1912, "scope_name":"compat_sys_ppoll", }
+,{"id":"poll_select_copy_remaining", "file":"fs/select.c", "line":287, "type":"f", }
+,{"id":"poll_select_copy_remaining", "file":"fs/select.c", "line":615, "type":"c", "scope_line":596, "scope_name":"sys_select", }
+,{"id":"poll_select_copy_remaining", "file":"fs/select.c", "line":650, "type":"c", "scope_line":621, "scope_name":"do_pselect", }
+,{"id":"poll_select_copy_remaining", "file":"fs/select.c", "line":996, "type":"c", "scope_line":950, "scope_name":"sys_ppoll", }
+,{"id":"poll_select_set_timeout", "file":"fs/compat.c", "line":1811, "type":"c", "scope_line":1798, "scope_name":"compat_sys_select", }
+,{"id":"poll_select_set_timeout", "file":"fs/compat.c", "line":1858, "type":"c", "scope_line":1842, "scope_name":"do_compat_pselect", }
+,{"id":"poll_select_set_timeout", "file":"fs/compat.c", "line":1927, "type":"c", "scope_line":1912, "scope_name":"compat_sys_ppoll", }
+,{"id":"poll_select_set_timeout", "file":"fs/select.c", "line":270, "type":"f", }
+,{"id":"poll_select_set_timeout", "file":"fs/select.c", "line":608, "type":"c", "scope_line":596, "scope_name":"sys_select", }
+,{"id":"poll_select_set_timeout", "file":"fs/select.c", "line":634, "type":"c", "scope_line":621, "scope_name":"do_pselect", }
+,{"id":"poll_select_set_timeout", "file":"fs/select.c", "line":923, "type":"c", "scope_line":915, "scope_name":"sys_poll", }
+,{"id":"poll_select_set_timeout", "file":"fs/select.c", "line":963, "type":"c", "scope_line":950, "scope_name":"sys_ppoll", }
+,{"id":"poll_select_set_timeout", "file":"net/socket.c", "line":2074, "type":"c", "scope_line":2064, "scope_name":"__sys_recvmmsg", }
+,{"id":"poll_spurious_irq_timer", "file":"kernel/irq/spurious.c", "line":21, "type":"v", }
+,{"id":"poll_spurious_irqs", "file":"kernel/irq/spurious.c", "line":107, "type":"f", }
+,{"id":"poll_table", "file":"include/linux/poll.h", "line":35, "type":"t", }
+,{"id":"poll_table_entry", "file":"include/linux/poll.h", "line":52, "type":"s", }
+,{"id":"poll_table_page", "file":"fs/select.c", "line":92, "type":"s", }
+,{"id":"poll_table_struct", "file":"include/linux/poll.h", "line":35, "type":"s", }
+,{"id":"poll_thread", "file":"drivers/pci/hotplug/cpci_hotplug_core.c", "line":533, "type":"f", }
+,{"id":"poll_timeout", "file":"drivers/serial/8250.c", "line":1726, "type":"f", }
+,{"id":"poll_timeout", "file":"drivers/serial/8250.c", "line":1745, "type":"c", "scope_line":1737, "scope_name":"serial8250_timeout", }
+,{"id":"poll_timeout", "file":"drivers/serial/8250.c", "line":1789, "type":"c", "scope_line":1748, "scope_name":"serial8250_backup_timeout", }
+,{"id":"poll_timeout", "file":"drivers/serial/8250.c", "line":2071, "type":"c", "scope_line":1948, "scope_name":"serial8250_startup", }
+,{"id":"poll_timeout", "file":"drivers/serial/8250.c", "line":2082, "type":"c", "scope_line":1948, "scope_name":"serial8250_startup", }
+,{"id":"poll_timeout", "file":"include/linux/ide.h", "line":763, "type":"m", "scope_line":667, "scope_name":"struct hwif_s", }
+,{"id":"poll_timer", "file":"drivers/pci/hotplug/pciehp.h", "line":94, "type":"m", "scope_line":88, "scope_name":"struct controller", }
+,{"id":"poll_wait", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":1627, "type":"c", "scope_line":1625, "scope_name":"mce_poll", }
+,{"id":"poll_wait", "file":"block/bsg.c", "line":870, "type":"c", "scope_line":865, "scope_name":"bsg_poll", }
+,{"id":"poll_wait", "file":"block/bsg.c", "line":871, "type":"c", "scope_line":865, "scope_name":"bsg_poll", }
+,{"id":"poll_wait", "file":"drivers/acpi/event.c", "line":101, "type":"c", "scope_line":99, "scope_name":"acpi_system_poll_event", }
+,{"id":"poll_wait", "file":"drivers/char/hpet.c", "line":339, "type":"c", "scope_line":329, "scope_name":"hpet_poll", }
+,{"id":"poll_wait", "file":"drivers/char/n_tty.c", "line":2030, "type":"c", "scope_line":2025, "scope_name":"n_tty_poll", }
+,{"id":"poll_wait", "file":"drivers/char/n_tty.c", "line":2031, "type":"c", "scope_line":2025, "scope_name":"n_tty_poll", }
+,{"id":"poll_wait", "file":"drivers/char/random.c", "line":1064, "type":"c", "scope_line":1059, "scope_name":"random_poll", }
+,{"id":"poll_wait", "file":"drivers/char/random.c", "line":1065, "type":"c", "scope_line":1059, "scope_name":"random_poll", }
+,{"id":"poll_wait", "file":"drivers/gpu/vga/vgaarb.c", "line":1086, "type":"c", "scope_line":1078, "scope_name":"vga_arb_fpoll", }
+,{"id":"poll_wait", "file":"drivers/input/evdev.c", "line":408, "type":"c", "scope_line":402, "scope_name":"evdev_poll", }
+,{"id":"poll_wait", "file":"drivers/input/input.c", "line":908, "type":"c", "scope_line":906, "scope_name":"input_proc_devices_poll", }
+,{"id":"poll_wait", "file":"drivers/input/mousedev.c", "line":778, "type":"c", "scope_line":772, "scope_name":"mousedev_poll", }
+,{"id":"poll_wait", "file":"drivers/net/ppp_generic.c", "line":507, "type":"c", "scope_line":500, "scope_name":"ppp_poll", }
+,{"id":"poll_wait", "file":"drivers/net/tun.c", "line":504, "type":"c", "scope_line":490, "scope_name":"tun_chr_poll", }
+,{"id":"poll_wait", "file":"drivers/rtc/rtc-dev.c", "line":209, "type":"c", "scope_line":204, "scope_name":"rtc_dev_poll", }
+,{"id":"poll_wait", "file":"drivers/scsi/sg.c", "line":1138, "type":"c", "scope_line":1125, "scope_name":"sg_poll", }
+,{"id":"poll_wait", "file":"fs/eventfd.c", "line":125, "type":"c", "scope_line":119, "scope_name":"eventfd_poll", }
+,{"id":"poll_wait", "file":"fs/eventpoll.c", "line":170, "type":"m", "scope_line":154, "scope_name":"struct eventpoll", }
+,{"id":"poll_wait", "file":"fs/eventpoll.c", "line":660, "type":"c", "scope_line":654, "scope_name":"ep_eventpoll_poll", }
+,{"id":"poll_wait", "file":"fs/notify/inotify/inotify_user.c", "line":117, "type":"c", "scope_line":112, "scope_name":"inotify_poll", }
+,{"id":"poll_wait", "file":"fs/pipe.c", "line":681, "type":"c", "scope_line":673, "scope_name":"pipe_poll", }
+,{"id":"poll_wait", "file":"fs/proc/base.c", "line":650, "type":"c", "scope_line":645, "scope_name":"mounts_poll", }
+,{"id":"poll_wait", "file":"fs/proc/kmsg.c", "line":44, "type":"c", "scope_line":42, "scope_name":"kmsg_poll", }
+,{"id":"poll_wait", "file":"fs/signalfd.c", "line":48, "type":"c", "scope_line":43, "scope_name":"signalfd_poll", }
+,{"id":"poll_wait", "file":"fs/sysfs/file.c", "line":443, "type":"c", "scope_line":433, "scope_name":"sysfs_poll", }
+,{"id":"poll_wait", "file":"fs/timerfd.c", "line":97, "type":"c", "scope_line":91, "scope_name":"timerfd_poll", }
+,{"id":"poll_wait", "file":"include/linux/poll.h", "line":40, "type":"f", }
+,{"id":"poll_wait", "file":"include/net/sock.h", "line":1478, "type":"c", "scope_line":1474, "scope_name":"sock_poll_wait", }
+,{"id":"poll_wait", "file":"ipc/mqueue.c", "line":394, "type":"c", "scope_line":389, "scope_name":"mqueue_poll_file", }
+,{"id":"poll_wait", "file":"kernel/perf_event.c", "line":2154, "type":"c", "scope_line":2142, "scope_name":"perf_poll", }
+,{"id":"poll_wait", "file":"kernel/relay.c", "line":913, "type":"c", "scope_line":904, "scope_name":"relay_file_poll", }
+,{"id":"poll_wait", "file":"kernel/trace/trace.c", "line":3044, "type":"c", "scope_line":3031, "scope_name":"tracing_poll_pipe", }
+,{"id":"poll_wait", "file":"net/rfkill/core.c", "line":1072, "type":"c", "scope_line":1067, "scope_name":"rfkill_fop_poll", }
+,{"id":"poll_wait", "file":"security/tomoyo/common.c", "line":1644, "type":"c", "scope_line":1624, "scope_name":"tomoyo_poll_query", }
+,{"id":"poll_wait_pipe", "file":"kernel/trace/trace.c", "line":3077, "type":"f", }
+,{"id":"poll_work", "file":"net/rfkill/core.c", "line":74, "type":"m", "scope_line":50, "scope_name":"struct rfkill", }
+,{"id":"poll_wqueues", "file":"include/linux/poll.h", "line":62, "type":"s", }
+,{"id":"pollfd", "file":"include/asm-generic/poll.h", "line":31, "type":"s", }
+,{"id":"polling", "file":"include/linux/ide.h", "line":752, "type":"m", "scope_line":667, "scope_name":"struct hwif_s", }
+,{"id":"polling_delay", "file":"include/linux/thermal.h", "line":113, "type":"m", "scope_line":104, "scope_name":"struct thermal_zone_device", }
+,{"id":"polling_frequency", "file":"drivers/acpi/thermal.c", "line":186, "type":"m", "scope_line":181, "scope_name":"struct acpi_thermal", }
+,{"id":"polling_task", "file":"include/linux/poll.h", "line":65, "type":"m", "scope_line":62, "scope_name":"struct poll_wqueues", }
+,{"id":"polling_threshold_value", "file":"include/acpi/actbl1.h", "line":456, "type":"m", "scope_line":450, "scope_name":"struct acpi_hest_notify", }
+,{"id":"polling_threshold_window", "file":"include/acpi/actbl1.h", "line":457, "type":"m", "scope_line":450, "scope_name":"struct acpi_hest_notify", }
+,{"id":"pollwake", "file":"fs/select.c", "line":205, "type":"f", }
+,{"id":"pols", "file":"include/net/xfrm.h", "line":876, "type":"m", "scope_line":868, "scope_name":"struct xfrm_dst", }
+,{"id":"pool", "file":"drivers/block/virtio_blk.c", "line":28, "type":"m", "scope_line":15, "scope_name":"struct virtio_blk", }
+,{"id":"pool", "file":"drivers/char/random.c", "line":408, "type":"m", "scope_line":405, "scope_name":"struct entropy_store", }
+,{"id":"pool", "file":"drivers/md/dm-io.c", "line":24, "type":"m", "scope_line":23, "scope_name":"struct dm_io_client", }
+,{"id":"pool", "file":"drivers/scsi/scsi_lib.c", "line":42, "type":"m", "scope_line":38, "scope_name":"struct scsi_host_sg_pool", }
+,{"id":"pool_alloc_page", "file":"mm/dmapool.c", "line":215, "type":"f", }
+,{"id":"pool_alloc_page", "file":"mm/dmapool.c", "line":320, "type":"c", "scope_line":306, "scope_name":"dma_pool_alloc", }
+,{"id":"pool_data", "file":"include/linux/mempool.h", "line":20, "type":"m", "scope_line":14, "scope_name":"struct mempool_s", }
+,{"id":"pool_find_page", "file":"mm/dmapool.c", "line":354, "type":"f", }
+,{"id":"pool_find_page", "file":"mm/dmapool.c", "line":387, "type":"c", "scope_line":381, "scope_name":"dma_pool_free", }
+,{"id":"pool_free_page", "file":"mm/dmapool.c", "line":244, "type":"f", }
+,{"id":"pool_free_page", "file":"mm/dmapool.c", "line":289, "type":"c", "scope_line":264, "scope_name":"dma_pool_destroy", }
+,{"id":"pool_initialise_page", "file":"mm/dmapool.c", "line":199, "type":"f", }
+,{"id":"pool_initialise_page", "file":"mm/dmapool.c", "line":228, "type":"c", "scope_line":215, "scope_name":"pool_alloc_page", }
+,{"id":"poolinfo", "file":"drivers/char/random.c", "line":292, "type":"s", }
+,{"id":"poolinfo", "file":"drivers/char/random.c", "line":407, "type":"m", "scope_line":405, "scope_name":"struct entropy_store", }
+,{"id":"poolinfo_table", "file":"drivers/char/random.c", "line":292, "type":"v", }
+,{"id":"pools", "file":"mm/dmapool.c", "line":53, "type":"m", "scope_line":44, "scope_name":"struct dma_pool", }
+,{"id":"pools_lock", "file":"mm/dmapool.c", "line":66, "type":"v", }
+,{"id":"poolwords", "file":"drivers/char/random.c", "line":293, "type":"m", "scope_line":292, "scope_name":"struct poolinfo", }
+,{"id":"pop", "file":"drivers/md/dm-kcopyd.c", "line":245, "type":"f", }
+,{"id":"pop", "file":"drivers/md/dm-kcopyd.c", "line":395, "type":"c", "scope_line":389, "scope_name":"process_jobs", }
+,{"id":"pop", "file":"include/linux/atmdev.h", "line":311, "type":"m", "scope_line":298, "scope_name":"struct atm_vcc", }
+,{"id":"pop_n", "file":"kernel/trace/trace.h", "line":703, "type":"m", "scope_line":695, "scope_name":"struct filter_pred", }
+,{"id":"poplmovl", "file":"arch/x86/ia32/ia32_signal.c", "line":420, "type":"m", "scope_line":419, "scope_name":"code", }
+,{"id":"populate", "file":"include/linux/cgroup.h", "line":474, "type":"m", "scope_line":460, "scope_name":"struct cgroup_subsys", }
+,{"id":"populate_dir", "file":"lib/kobject.c", "line":30, "type":"f", }
+,{"id":"populate_dir", "file":"lib/kobject.c", "line":53, "type":"c", "scope_line":47, "scope_name":"create_dir", }
+,{"id":"populate_extra_pmd", "file":"arch/x86/mm/init_64.c", "line":194, "type":"f", }
+,{"id":"populate_extra_pmd", "file":"arch/x86/mm/init_64.c", "line":208, "type":"c", "scope_line":204, "scope_name":"populate_extra_pte", }
+,{"id":"populate_extra_pte", "file":"arch/x86/kernel/setup_percpu.c", "line":157, "type":"c", "scope_line":155, "scope_name":"pcpup_populate_pte", }
+,{"id":"populate_extra_pte", "file":"arch/x86/mm/init_64.c", "line":204, "type":"f", }
+,{"id":"populate_memnodemap", "file":"arch/x86/mm/numa_64.c", "line":145, "type":"c", "scope_line":134, "scope_name":"compute_hash_shift", }
+,{"id":"populate_memnodemap", "file":"arch/x86/mm/numa_64.c", "line":49, "type":"f", }
+,{"id":"populate_range", "file":"mm/fremap.c", "line":233, "type":"c", "scope_line":123, "scope_name":"sys_remap_file_pages", }
+,{"id":"populate_range", "file":"mm/fremap.c", "line":84, "type":"f", }
+,{"id":"populate_rootfs", "file":"init/initramfs.c", "line":571, "type":"f", }
+,{"id":"populate_table", "file":"drivers/md/dm-ioctl.c", "line":1099, "type":"f", }
+,{"id":"populate_table", "file":"drivers/md/dm-ioctl.c", "line":1152, "type":"c", "scope_line":1137, "scope_name":"table_load", }
+,{"id":"populated", "file":"mm/percpu.c", "line":103, "type":"m", "scope_line":93, "scope_name":"struct pcpu_chunk", }
+,{"id":"populated_zone", "file":"include/linux/mmzone.h", "line":685, "type":"f", }
+,{"id":"populated_zone", "file":"kernel/power/snapshot.c", "line":1014, "type":"c", "scope_line":1008, "scope_name":"copy_data_pages", }
+,{"id":"populated_zone", "file":"kernel/power/snapshot.c", "line":1069, "type":"c", "scope_line":1064, "scope_name":"swsusp_free", }
+,{"id":"populated_zone", "file":"kernel/power/snapshot.c", "line":1308, "type":"c", "scope_line":1274, "scope_name":"hibernate_preallocate_memory", }
+,{"id":"populated_zone", "file":"kernel/power/snapshot.c", "line":1446, "type":"c", "scope_line":1441, "scope_name":"enough_free_mem", }
+,{"id":"populated_zone", "file":"kernel/power/snapshot.c", "line":1720, "type":"c", "scope_line":1714, "scope_name":"mark_unsafe_pages", }
+,{"id":"populated_zone", "file":"kernel/power/snapshot.c", "line":333, "type":"c", "scope_line":327, "scope_name":"create_mem_extents", }
+,{"id":"populated_zone", "file":"kernel/power/snapshot.c", "line":920, "type":"c", "scope_line":914, "scope_name":"count_data_pages", }
+,{"id":"populated_zone", "file":"mm/memory_hotplug.c", "line":419, "type":"c", "scope_line":384, "scope_name":"online_pages", }
+,{"id":"populated_zone", "file":"mm/mm_init.c", "line":44, "type":"c", "scope_line":22, "scope_name":"mminit_verify_zonelist", }
+,{"id":"populated_zone", "file":"mm/oom_kill.c", "line":606, "type":"c", "scope_line":600, "scope_name":"try_set_system_oom", }
+,{"id":"populated_zone", "file":"mm/oom_kill.c", "line":611, "type":"c", "scope_line":600, "scope_name":"try_set_system_oom", }
+,{"id":"populated_zone", "file":"mm/oom_kill.c", "line":627, "type":"c", "scope_line":622, "scope_name":"clear_system_oom", }
+,{"id":"populated_zone", "file":"mm/page_alloc.c", "line":1084, "type":"c", "scope_line":1079, "scope_name":"drain_pages", }
+,{"id":"populated_zone", "file":"mm/page_alloc.c", "line":2367, "type":"c", "scope_line":2362, "scope_name":"show_free_areas", }
+,{"id":"populated_zone", "file":"mm/page_alloc.c", "line":2406, "type":"c", "scope_line":2362, "scope_name":"show_free_areas", }
+,{"id":"populated_zone", "file":"mm/page_alloc.c", "line":2473, "type":"c", "scope_line":2362, "scope_name":"show_free_areas", }
+,{"id":"populated_zone", "file":"mm/page_alloc.c", "line":2517, "type":"c", "scope_line":2506, "scope_name":"build_zonelists_node", }
+,{"id":"populated_zone", "file":"mm/page_alloc.c", "line":2744, "type":"c", "scope_line":2731, "scope_name":"build_zonelists_in_zone_order", }
+,{"id":"populated_zone", "file":"mm/page_alloc.c", "line":2773, "type":"c", "scope_line":2755, "scope_name":"default_zonelist_order", }
+,{"id":"populated_zone", "file":"mm/page_alloc.c", "line":2804, "type":"c", "scope_line":2755, "scope_name":"default_zonelist_order", }
+,{"id":"populated_zone", "file":"mm/page_alloc.c", "line":3415, "type":"c", "scope_line":3411, "scope_name":"setup_per_cpu_pageset", }
+,{"id":"populated_zone", "file":"mm/page_alloc.c", "line":5082, "type":"c", "scope_line":5072, "scope_name":"percpu_pagelist_fraction_sysctl_handler", }
+,{"id":"populated_zone", "file":"mm/vmscan.c", "line":1815, "type":"c", "scope_line":1807, "scope_name":"shrink_zones", }
+,{"id":"populated_zone", "file":"mm/vmscan.c", "line":1851, "type":"c", "scope_line":1842, "scope_name":"all_unreclaimable", }
+,{"id":"populated_zone", "file":"mm/vmscan.c", "line":2079, "type":"c", "scope_line":2067, "scope_name":"sleeping_prematurely", }
+,{"id":"populated_zone", "file":"mm/vmscan.c", "line":2158, "type":"c", "scope_line":2114, "scope_name":"balance_pgdat", }
+,{"id":"populated_zone", "file":"mm/vmscan.c", "line":2200, "type":"c", "scope_line":2114, "scope_name":"balance_pgdat", }
+,{"id":"populated_zone", "file":"mm/vmscan.c", "line":2417, "type":"c", "scope_line":2413, "scope_name":"wakeup_kswapd", }
+,{"id":"populated_zone", "file":"mm/vmscan.c", "line":3015, "type":"c", "scope_line":3002, "scope_name":"write_scan_unevictable_node", }
+,{"id":"populated_zone", "file":"mm/vmstat.c", "line":140, "type":"c", "scope_line":134, "scope_name":"refresh_zone_stat_thresholds", }
+,{"id":"populated_zone", "file":"mm/vmstat.c", "line":317, "type":"c", "scope_line":311, "scope_name":"refresh_cpu_vm_stats", }
+,{"id":"populated_zone", "file":"mm/vmstat.c", "line":520, "type":"c", "scope_line":512, "scope_name":"walk_zones_in_node", }
+,{"id":"port", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":134, "type":"m", "scope_line":133, "scope_name":"struct io_addr", }
+,{"id":"port", "file":"drivers/ata/libata-core.c", "line":112, "type":"m", "scope_line":111, "scope_name":"struct ata_force_ent", }
+,{"id":"port", "file":"drivers/pnp/base.h", "line":72, "type":"m", "scope_line":66, "scope_name":"struct pnp_option", }
+,];
+xr_frag_insert('t/c2/7319b1ee0a8cbb4a190a2b61242cd892c3fbf5.xr', __xr_tmp);

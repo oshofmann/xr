@@ -1,0 +1,216 @@
+var __xr_tmp = [
+{"id":"end_page_writeback", "file":"fs/buffer.c", "line":412, "type":"c", "scope_line":370, "scope_name":"end_buffer_async_write", }
+,{"id":"end_page_writeback", "file":"fs/mpage.c", "line":81, "type":"c", "scope_line":65, "scope_name":"mpage_end_io_write", }
+,{"id":"end_page_writeback", "file":"mm/filemap.c", "line":561, "type":"f", }
+,{"id":"end_page_writeback", "file":"mm/migrate.c", "line":326, "type":"c", "scope_line":281, "scope_name":"migrate_page_copy", }
+,{"id":"end_page_writeback", "file":"mm/page_io.c", "line":65, "type":"c", "scope_line":43, "scope_name":"end_swap_bio_write", }
+,{"id":"end_pfn", "file":"include/linux/mmzone.h", "line":585, "type":"m", "scope_line":583, "scope_name":"struct node_active_region", }
+,{"id":"end_pfn", "file":"kernel/power/snapshot.c", "line":242, "type":"m", "scope_line":239, "scope_name":"struct bm_block", }
+,{"id":"end_pfn", "file":"kernel/power/snapshot.c", "line":588, "type":"m", "scope_line":585, "scope_name":"struct nosave_region", }
+,{"id":"end_sector", "file":"include/linux/blkdev.h", "line":281, "type":"m", "scope_line":253, "scope_name":"struct request_queue", }
+,{"id":"end_sector", "file":"include/linux/cdrom.h", "line":538, "type":"m", "scope_line":526, "scope_name":"struct dvd_layer", }
+,{"id":"end_sector", "file":"include/linux/genhd.h", "line":75, "type":"m", "scope_line":68, "scope_name":"struct partition", }
+,{"id":"end_sector_l0", "file":"include/linux/cdrom.h", "line":539, "type":"m", "scope_line":526, "scope_name":"struct dvd_layer", }
+,{"id":"end_seq", "file":"include/linux/tcp.h", "line":231, "type":"m", "scope_line":229, "scope_name":"struct tcp_sack_block_wire", }
+,{"id":"end_seq", "file":"include/linux/tcp.h", "line":236, "type":"m", "scope_line":234, "scope_name":"struct tcp_sack_block", }
+,{"id":"end_seq", "file":"include/net/tcp.h", "line":610, "type":"m", "scope_line":602, "scope_name":"struct tcp_skb_cb", }
+,{"id":"end_seq", "file":"net/ipv4/tcp_cubic.c", "line":97, "type":"m", "scope_line":80, "scope_name":"struct bictcp", }
+,{"id":"end_show", "file":"drivers/firmware/memmap.c", "line":209, "type":"f", }
+,{"id":"end_slot", "file":"include/linux/cdrom.h", "line":1187, "type":"m", "scope_line":1172, "scope_name":"struct media_event_desc", }
+,{"id":"end_swap_bio_read", "file":"mm/page_io.c", "line":69, "type":"f", }
+,{"id":"end_swap_bio_write", "file":"mm/page_io.c", "line":43, "type":"f", }
+,{"id":"end_tag", "file":"drivers/acpi/acpica/amlresrc.h", "line":288, "type":"m", "scope_line":272, "scope_name":"union aml_resource", }
+,{"id":"end_tag", "file":"include/acpi/acrestyp.h", "line":363, "type":"m", "scope_line":355, "scope_name":"union acpi_resource_data", }
+,{"id":"end_transaction", "file":"fs/jbd/recovery.c", "line":32, "type":"m", "scope_line":29, "scope_name":"struct recovery_info", }
+,{"id":"end_transaction", "file":"fs/jbd2/recovery.c", "line":33, "type":"m", "scope_line":30, "scope_name":"struct recovery_info", }
+,{"id":"end_writeback", "file":"fs/block_dev.c", "line":435, "type":"c", "scope_line":429, "scope_name":"bdev_evict_inode", }
+,{"id":"end_writeback", "file":"fs/ext2/inode.c", "line":98, "type":"c", "scope_line":72, "scope_name":"ext2_evict_inode", }
+,{"id":"end_writeback", "file":"fs/ext3/inode.c", "line":254, "type":"c", "scope_line":195, "scope_name":"ext3_evict_inode", }
+,{"id":"end_writeback", "file":"fs/ext3/inode.c", "line":259, "type":"c", "scope_line":195, "scope_name":"ext3_evict_inode", }
+,{"id":"end_writeback", "file":"fs/ext3/inode.c", "line":265, "type":"c", "scope_line":195, "scope_name":"ext3_evict_inode", }
+,{"id":"end_writeback", "file":"fs/ext4/super.c", "line":874, "type":"c", "scope_line":871, "scope_name":"ext4_clear_inode", }
+,{"id":"end_writeback", "file":"fs/hugetlbfs/inode.c", "line":377, "type":"c", "scope_line":374, "scope_name":"hugetlbfs_evict_inode", }
+,{"id":"end_writeback", "file":"fs/inode.c", "line":292, "type":"f", }
+,{"id":"end_writeback", "file":"fs/inode.c", "line":313, "type":"c", "scope_line":304, "scope_name":"evict", }
+,{"id":"end_writeback", "file":"fs/proc/inode.c", "line":33, "type":"c", "scope_line":28, "scope_name":"proc_evict_inode", }
+,{"id":"end_writeback", "file":"fs/sysfs/inode.c", "line":323, "type":"c", "scope_line":318, "scope_name":"sysfs_evict_inode", }
+,{"id":"end_writeback", "file":"ipc/mqueue.c", "line":252, "type":"c", "scope_line":244, "scope_name":"mqueue_evict_inode", }
+,{"id":"end_writeback", "file":"mm/shmem.c", "line":839, "type":"c", "scope_line":822, "scope_name":"shmem_evict_inode", }
+,{"id":"endflag", "file":"arch/x86/kernel/apic/nmi.c", "line":62, "type":"v", }
+,{"id":"endfor_ifa", "file":"include/linux/inetdevice.h", "line":197, "type":"d", }
+,{"id":"endfor_nexthops", "file":"net/ipv4/fib_semantics.c", "line":81, "type":"d", }
+,{"id":"ending_lba", "file":"fs/partitions/efi.h", "line":99, "type":"m", "scope_line":95, "scope_name":"struct _gpt_entry", }
+,{"id":"endio", "file":"drivers/md/dm-io.c", "line":154, "type":"f", }
+,{"id":"endio_lock", "file":"drivers/md/dm.c", "line":52, "type":"m", "scope_line":46, "scope_name":"struct dm_io", }
+,{"id":"endpoint", "file":"include/linux/usb.h", "line":82, "type":"m", "scope_line":76, "scope_name":"struct usb_host_interface", }
+,{"id":"endpoint", "file":"include/linux/usbdevice_fs.h", "line":156, "type":"m", "scope_line":154, "scope_name":"struct usbdevfs_urb32", }
+,{"id":"endpoint", "file":"include/linux/usbdevice_fs.h", "line":98, "type":"m", "scope_line":96, "scope_name":"struct usbdevfs_urb", }
+,{"id":"energy_battery_props", "file":"drivers/acpi/battery.c", "line":269, "type":"v", }
+,{"id":"energy_empty_design", "file":"include/linux/power_supply.h", "line":190, "type":"m", "scope_line":182, "scope_name":"struct power_supply_info", }
+,{"id":"energy_full_design", "file":"include/linux/power_supply.h", "line":189, "type":"m", "scope_line":182, "scope_name":"struct power_supply_info", }
+,{"id":"enforcing", "file":"security/tomoyo/common.h", "line":684, "type":"m", "scope_line":680, "scope_name":"struct tomoyo_profile", }
+,{"id":"enforcing_setup", "file":"security/selinux/hooks.c", "line":101, "type":"f", }
+,{"id":"enforcing_verbose", "file":"security/tomoyo/common.h", "line":675, "type":"m", "scope_line":673, "scope_name":"struct tomoyo_preference", }
+,{"id":"eng_timeout", "file":"include/linux/libata.h", "line":885, "type":"m", "scope_line":793, "scope_name":"struct ata_port_operations", }
+,{"id":"enlarged", "file":"arch/x86/mm/pf_in.c", "line":84, "type":"m", "scope_line":82, "scope_name":"struct prefix_bits", }
+,{"id":"enough_free_mem", "file":"kernel/power/snapshot.c", "line":1441, "type":"f", }
+,{"id":"enough_free_mem", "file":"kernel/power/snapshot.c", "line":1556, "type":"c", "scope_line":1545, "scope_name":"swsusp_save", }
+,{"id":"enough_swap", "file":"kernel/power/swap.c", "line":414, "type":"f", }
+,{"id":"enough_swap", "file":"kernel/power/swap.c", "line":446, "type":"c", "scope_line":432, "scope_name":"swsusp_write", }
+,{"id":"enqueue", "file":"include/net/sch_generic.h", "line":137, "type":"m", "scope_line":131, "scope_name":"struct Qdisc_ops", }
+,{"id":"enqueue", "file":"include/net/sch_generic.h", "line":45, "type":"m", "scope_line":44, "scope_name":"struct Qdisc", }
+,{"id":"enqueue_entity", "file":"kernel/sched.c", "line":8330, "type":"c", "scope_line":8317, "scope_name":"__set_se_shares", }
+,{"id":"enqueue_entity", "file":"kernel/sched_fair.c", "line":1054, "type":"c", "scope_line":1044, "scope_name":"enqueue_task_fair", }
+,{"id":"enqueue_entity", "file":"kernel/sched_fair.c", "line":760, "type":"f", }
+,{"id":"enqueue_hrtimer", "file":"kernel/hrtimer.c", "line":1238, "type":"c", "scope_line":1206, "scope_name":"__run_hrtimer", }
+,{"id":"enqueue_hrtimer", "file":"kernel/hrtimer.c", "line":1667, "type":"c", "scope_line":1641, "scope_name":"migrate_hrtimer_list", }
+,{"id":"enqueue_hrtimer", "file":"kernel/hrtimer.c", "line":840, "type":"f", }
+,{"id":"enqueue_hrtimer", "file":"kernel/hrtimer.c", "line":994, "type":"c", "scope_line":960, "scope_name":"__hrtimer_start_range_ns", }
+,{"id":"enqueue_huge_page", "file":"mm/hugetlb.c", "line":461, "type":"f", }
+,{"id":"enqueue_huge_page", "file":"mm/hugetlb.c", "line":573, "type":"c", "scope_line":550, "scope_name":"free_huge_page", }
+,{"id":"enqueue_huge_page", "file":"mm/hugetlb.c", "line":917, "type":"c", "scope_line":854, "scope_name":"gather_surplus_pages", }
+,{"id":"enqueue_pushable_task", "file":"kernel/sched_rt.c", "line":1111, "type":"c", "scope_line":1101, "scope_name":"put_prev_task_rt", }
+,{"id":"enqueue_pushable_task", "file":"kernel/sched_rt.c", "line":127, "type":"f", }
+,{"id":"enqueue_pushable_task", "file":"kernel/sched_rt.c", "line":1526, "type":"c", "scope_line":1498, "scope_name":"set_cpus_allowed_rt", }
+,{"id":"enqueue_pushable_task", "file":"kernel/sched_rt.c", "line":901, "type":"c", "scope_line":890, "scope_name":"enqueue_task_rt", }
+,{"id":"enqueue_rt_entity", "file":"kernel/sched_rt.c", "line":210, "type":"c", "scope_line":200, "scope_name":"sched_rt_rq_enqueue", }
+,{"id":"enqueue_rt_entity", "file":"kernel/sched_rt.c", "line":868, "type":"f", }
+,{"id":"enqueue_rt_entity", "file":"kernel/sched_rt.c", "line":898, "type":"c", "scope_line":890, "scope_name":"enqueue_task_rt", }
+,{"id":"enqueue_sleeper", "file":"kernel/sched_fair.c", "line":653, "type":"f", }
+,{"id":"enqueue_sleeper", "file":"kernel/sched_fair.c", "line":778, "type":"c", "scope_line":760, "scope_name":"enqueue_entity", }
+,{"id":"enqueue_task", "file":"include/linux/sched.h", "line":1035, "type":"m", "scope_line":1032, "scope_name":"struct sched_class", }
+,{"id":"enqueue_task", "file":"kernel/sched.c", "line":1880, "type":"f", }
+,{"id":"enqueue_task", "file":"kernel/sched.c", "line":1904, "type":"c", "scope_line":1899, "scope_name":"activate_task", }
+,{"id":"enqueue_task", "file":"kernel/sched.c", "line":4380, "type":"c", "scope_line":4350, "scope_name":"rt_mutex_setprio", }
+,{"id":"enqueue_task", "file":"kernel/sched.c", "line":4423, "type":"c", "scope_line":4389, "scope_name":"set_user_nice", }
+,{"id":"enqueue_task", "file":"kernel/sched.c", "line":8310, "type":"c", "scope_line":8284, "scope_name":"sched_move_task", }
+,{"id":"enqueue_task_fair", "file":"kernel/sched_fair.c", "line":1044, "type":"f", }
+,{"id":"enqueue_task_rt", "file":"kernel/sched_rt.c", "line":890, "type":"f", }
+,{"id":"enqueue_to_backlog", "file":"net/core/dev.c", "line":2449, "type":"f", }
+,{"id":"enqueue_to_backlog", "file":"net/core/dev.c", "line":2527, "type":"c", "scope_line":2504, "scope_name":"netif_rx", }
+,{"id":"enqueue_to_backlog", "file":"net/core/dev.c", "line":2978, "type":"c", "scope_line":2960, "scope_name":"netif_receive_skb", }
+,{"id":"ent", "file":"include/linux/ftrace_event.h", "line":64, "type":"m", "scope_line":50, "scope_name":"struct trace_iterator", }
+,{"id":"ent", "file":"include/trace/events/bkl.h", "line":34, "type":"m", "scope_line":34, "scope_name":"struct ftrace_raw_unlock_kernel", }
+,{"id":"ent", "file":"include/trace/events/bkl.h", "line":9, "type":"m", "scope_line":9, "scope_name":"struct ftrace_raw_lock_kernel", }
+,{"id":"ent", "file":"include/trace/events/block.h", "line":11, "type":"m", "scope_line":11, "scope_name":"struct ftrace_raw_block_rq_with_error", }
+,{"id":"ent", "file":"include/trace/events/block.h", "line":176, "type":"m", "scope_line":176, "scope_name":"struct ftrace_raw_block_bio_bounce", }
+,{"id":"ent", "file":"include/trace/events/block.h", "line":213, "type":"m", "scope_line":213, "scope_name":"struct ftrace_raw_block_bio_complete", }
+,{"id":"ent", "file":"include/trace/events/block.h", "line":240, "type":"m", "scope_line":240, "scope_name":"struct ftrace_raw_block_bio", }
+,{"id":"ent", "file":"include/trace/events/block.h", "line":312, "type":"m", "scope_line":312, "scope_name":"struct ftrace_raw_block_get_rq", }
+,{"id":"ent", "file":"include/trace/events/block.h", "line":383, "type":"m", "scope_line":383, "scope_name":"struct ftrace_raw_block_plug", }
+,{"id":"ent", "file":"include/trace/events/block.h", "line":400, "type":"m", "scope_line":400, "scope_name":"struct ftrace_raw_block_unplug", }
+,{"id":"ent", "file":"include/trace/events/block.h", "line":458, "type":"m", "scope_line":458, "scope_name":"struct ftrace_raw_block_split", }
+,{"id":"ent", "file":"include/trace/events/block.h", "line":498, "type":"m", "scope_line":498, "scope_name":"struct ftrace_raw_block_remap", }
+,{"id":"ent", "file":"include/trace/events/block.h", "line":542, "type":"m", "scope_line":542, "scope_name":"struct ftrace_raw_block_rq_remap", }
+,{"id":"ent", "file":"include/trace/events/block.h", "line":96, "type":"m", "scope_line":96, "scope_name":"struct ftrace_raw_block_rq", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":137, "type":"m", "scope_line":137, "scope_name":"struct ftrace_raw_ext4__write_end", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":18, "type":"m", "scope_line":18, "scope_name":"struct ftrace_raw_ext4_free_inode", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":196, "type":"m", "scope_line":196, "scope_name":"struct ftrace_raw_ext4_writepage", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":219, "type":"m", "scope_line":219, "scope_name":"struct ftrace_raw_ext4_da_writepages", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":262, "type":"m", "scope_line":262, "scope_name":"struct ftrace_raw_ext4_da_write_pages", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":296, "type":"m", "scope_line":296, "scope_name":"struct ftrace_raw_ext4_da_writepages_result", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":330, "type":"m", "scope_line":330, "scope_name":"struct ftrace_raw_ext4_discard_blocks", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":353, "type":"m", "scope_line":353, "scope_name":"struct ftrace_raw_ext4__mb_new_pa", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":397, "type":"m", "scope_line":397, "scope_name":"struct ftrace_raw_ext4_mb_release_inode_pa", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":426, "type":"m", "scope_line":426, "scope_name":"struct ftrace_raw_ext4_mb_release_group_pa", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":453, "type":"m", "scope_line":453, "scope_name":"struct ftrace_raw_ext4_discard_preallocations", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":47, "type":"m", "scope_line":47, "scope_name":"struct ftrace_raw_ext4_request_inode", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":473, "type":"m", "scope_line":473, "scope_name":"struct ftrace_raw_ext4_mb_discard_preallocations", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":493, "type":"m", "scope_line":493, "scope_name":"struct ftrace_raw_ext4_request_blocks", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":535, "type":"m", "scope_line":535, "scope_name":"struct ftrace_raw_ext4_allocate_blocks", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":579, "type":"m", "scope_line":579, "scope_name":"struct ftrace_raw_ext4_free_blocks", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":609, "type":"m", "scope_line":609, "scope_name":"struct ftrace_raw_ext4_sync_file", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":635, "type":"m", "scope_line":635, "scope_name":"struct ftrace_raw_ext4_sync_fs", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":655, "type":"m", "scope_line":655, "scope_name":"struct ftrace_raw_ext4_alloc_da_blocks", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":679, "type":"m", "scope_line":679, "scope_name":"struct ftrace_raw_ext4_mballoc_alloc", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":69, "type":"m", "scope_line":69, "scope_name":"struct ftrace_raw_ext4_allocate_inode", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":745, "type":"m", "scope_line":745, "scope_name":"struct ftrace_raw_ext4_mballoc_prealloc", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":784, "type":"m", "scope_line":784, "scope_name":"struct ftrace_raw_ext4__mballoc", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":827, "type":"m", "scope_line":827, "scope_name":"struct ftrace_raw_ext4_forget", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":853, "type":"m", "scope_line":853, "scope_name":"struct ftrace_raw_ext4_da_update_reserve_space", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":887, "type":"m", "scope_line":887, "scope_name":"struct ftrace_raw_ext4_da_reserve_space", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":919, "type":"m", "scope_line":919, "scope_name":"struct ftrace_raw_ext4_da_release_space", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":93, "type":"m", "scope_line":93, "scope_name":"struct ftrace_raw_ext4__write_begin", }
+,{"id":"ent", "file":"include/trace/events/ext4.h", "line":953, "type":"m", "scope_line":953, "scope_name":"struct ftrace_raw_ext4__bitmap_load", }
+,{"id":"ent", "file":"include/trace/events/irq.h", "line":35, "type":"m", "scope_line":35, "scope_name":"struct ftrace_raw_irq_handler_entry", }
+,{"id":"ent", "file":"include/trace/events/irq.h", "line":65, "type":"m", "scope_line":65, "scope_name":"struct ftrace_raw_irq_handler_exit", }
+,{"id":"ent", "file":"include/trace/events/irq.h", "line":85, "type":"m", "scope_line":85, "scope_name":"struct ftrace_raw_softirq", }
+,{"id":"ent", "file":"include/trace/events/jbd2.h", "line":108, "type":"m", "scope_line":108, "scope_name":"struct ftrace_raw_jbd2_submit_inode_data", }
+,{"id":"ent", "file":"include/trace/events/jbd2.h", "line":127, "type":"m", "scope_line":127, "scope_name":"struct ftrace_raw_jbd2_run_stats", }
+,{"id":"ent", "file":"include/trace/events/jbd2.h", "line":13, "type":"m", "scope_line":13, "scope_name":"struct ftrace_raw_jbd2_checkpoint", }
+,{"id":"ent", "file":"include/trace/events/jbd2.h", "line":171, "type":"m", "scope_line":171, "scope_name":"struct ftrace_raw_jbd2_checkpoint_stats", }
+,{"id":"ent", "file":"include/trace/events/jbd2.h", "line":202, "type":"m", "scope_line":202, "scope_name":"struct ftrace_raw_jbd2_cleanup_journal_tail", }
+,{"id":"ent", "file":"include/trace/events/jbd2.h", "line":33, "type":"m", "scope_line":33, "scope_name":"struct ftrace_raw_jbd2_commit", }
+,{"id":"ent", "file":"include/trace/events/jbd2.h", "line":84, "type":"m", "scope_line":84, "scope_name":"struct ftrace_raw_jbd2_end_commit", }
+,{"id":"ent", "file":"include/trace/events/kmem.h", "line":11, "type":"m", "scope_line":11, "scope_name":"struct ftrace_raw_kmem_alloc", }
+,{"id":"ent", "file":"include/trace/events/kmem.h", "line":117, "type":"m", "scope_line":117, "scope_name":"struct ftrace_raw_kmem_free", }
+,{"id":"ent", "file":"include/trace/events/kmem.h", "line":150, "type":"m", "scope_line":150, "scope_name":"struct ftrace_raw_mm_page_free_direct", }
+,{"id":"ent", "file":"include/trace/events/kmem.h", "line":172, "type":"m", "scope_line":172, "scope_name":"struct ftrace_raw_mm_pagevec_free", }
+,{"id":"ent", "file":"include/trace/events/kmem.h", "line":194, "type":"m", "scope_line":194, "scope_name":"struct ftrace_raw_mm_page_alloc", }
+,{"id":"ent", "file":"include/trace/events/kmem.h", "line":223, "type":"m", "scope_line":223, "scope_name":"struct ftrace_raw_mm_page", }
+,{"id":"ent", "file":"include/trace/events/kmem.h", "line":267, "type":"m", "scope_line":267, "scope_name":"struct ftrace_raw_mm_page_alloc_extfrag", }
+,{"id":"ent", "file":"include/trace/events/kmem.h", "line":61, "type":"m", "scope_line":61, "scope_name":"struct ftrace_raw_kmem_alloc_node", }
+,{"id":"ent", "file":"include/trace/events/mce.h", "line":11, "type":"m", "scope_line":11, "scope_name":"struct ftrace_raw_mce_record", }
+,{"id":"ent", "file":"include/trace/events/module.h", "line":18, "type":"m", "scope_line":18, "scope_name":"struct ftrace_raw_module_load", }
+,{"id":"ent", "file":"include/trace/events/module.h", "line":37, "type":"m", "scope_line":37, "scope_name":"struct ftrace_raw_module_free", }
+,{"id":"ent", "file":"include/trace/events/module.h", "line":57, "type":"m", "scope_line":57, "scope_name":"struct ftrace_raw_module_refcnt", }
+,{"id":"ent", "file":"include/trace/events/module.h", "line":94, "type":"m", "scope_line":94, "scope_name":"struct ftrace_raw_module_request", }
+,{"id":"ent", "file":"include/trace/events/power.h", "line":19, "type":"m", "scope_line":19, "scope_name":"struct ftrace_raw_power", }
+,{"id":"ent", "file":"include/trace/events/power.h", "line":55, "type":"m", "scope_line":55, "scope_name":"struct ftrace_raw_power_end", }
+,{"id":"ent", "file":"include/trace/events/sched.h", "line":113, "type":"m", "scope_line":113, "scope_name":"struct ftrace_raw_sched_switch", }
+,{"id":"ent", "file":"include/trace/events/sched.h", "line":13, "type":"m", "scope_line":13, "scope_name":"struct ftrace_raw_sched_kthread_stop", }
+,{"id":"ent", "file":"include/trace/events/sched.h", "line":153, "type":"m", "scope_line":153, "scope_name":"struct ftrace_raw_sched_migrate_task", }
+,{"id":"ent", "file":"include/trace/events/sched.h", "line":180, "type":"m", "scope_line":180, "scope_name":"struct ftrace_raw_sched_process_template", }
+,{"id":"ent", "file":"include/trace/events/sched.h", "line":227, "type":"m", "scope_line":227, "scope_name":"struct ftrace_raw_sched_process_wait", }
+,{"id":"ent", "file":"include/trace/events/sched.h", "line":252, "type":"m", "scope_line":252, "scope_name":"struct ftrace_raw_sched_process_fork", }
+,{"id":"ent", "file":"include/trace/events/sched.h", "line":281, "type":"m", "scope_line":281, "scope_name":"struct ftrace_raw_sched_stat_template", }
+,{"id":"ent", "file":"include/trace/events/sched.h", "line":336, "type":"m", "scope_line":336, "scope_name":"struct ftrace_raw_sched_stat_runtime", }
+,{"id":"ent", "file":"include/trace/events/sched.h", "line":35, "type":"m", "scope_line":35, "scope_name":"struct ftrace_raw_sched_kthread_stop_ret", }
+,{"id":"ent", "file":"include/trace/events/sched.h", "line":55, "type":"m", "scope_line":55, "scope_name":"struct ftrace_raw_sched_wakeup_template", }
+,{"id":"ent", "file":"include/trace/events/scsi.h", "line":190, "type":"m", "scope_line":190, "scope_name":"struct ftrace_raw_scsi_dispatch_cmd_start", }
+,{"id":"ent", "file":"include/trace/events/scsi.h", "line":229, "type":"m", "scope_line":229, "scope_name":"struct ftrace_raw_scsi_dispatch_cmd_error", }
+,{"id":"ent", "file":"include/trace/events/scsi.h", "line":271, "type":"m", "scope_line":271, "scope_name":"struct ftrace_raw_scsi_cmd_done_timeout_template", }
+,{"id":"ent", "file":"include/trace/events/scsi.h", "line":325, "type":"m", "scope_line":325, "scope_name":"struct ftrace_raw_scsi_eh_wakeup", }
+,{"id":"ent", "file":"include/trace/events/signal.h", "line":104, "type":"m", "scope_line":104, "scope_name":"struct ftrace_raw_signal_queue_overflow", }
+,{"id":"ent", "file":"include/trace/events/signal.h", "line":38, "type":"m", "scope_line":38, "scope_name":"struct ftrace_raw_signal_generate", }
+,{"id":"ent", "file":"include/trace/events/signal.h", "line":78, "type":"m", "scope_line":78, "scope_name":"struct ftrace_raw_signal_deliver", }
+,{"id":"ent", "file":"include/trace/events/skb.h", "line":14, "type":"m", "scope_line":14, "scope_name":"struct ftrace_raw_kfree_skb", }
+,{"id":"ent", "file":"include/trace/events/skb.h", "line":38, "type":"m", "scope_line":38, "scope_name":"struct ftrace_raw_skb_copy_datagram_iovec", }
+,{"id":"ent", "file":"include/trace/events/syscalls.h", "line":19, "type":"m", "scope_line":19, "scope_name":"struct ftrace_raw_sys_enter", }
+,{"id":"ent", "file":"include/trace/events/syscalls.h", "line":43, "type":"m", "scope_line":43, "scope_name":"struct ftrace_raw_sys_exit", }
+,{"id":"ent", "file":"include/trace/events/timer.h", "line":11, "type":"m", "scope_line":11, "scope_name":"struct ftrace_raw_timer_class", }
+,{"id":"ent", "file":"include/trace/events/timer.h", "line":130, "type":"m", "scope_line":130, "scope_name":"struct ftrace_raw_hrtimer_init", }
+,{"id":"ent", "file":"include/trace/events/timer.h", "line":160, "type":"m", "scope_line":160, "scope_name":"struct ftrace_raw_hrtimer_start", }
+,{"id":"ent", "file":"include/trace/events/timer.h", "line":196, "type":"m", "scope_line":196, "scope_name":"struct ftrace_raw_hrtimer_expire_entry", }
+,{"id":"ent", "file":"include/trace/events/timer.h", "line":218, "type":"m", "scope_line":218, "scope_name":"struct ftrace_raw_hrtimer_class", }
+,{"id":"ent", "file":"include/trace/events/timer.h", "line":267, "type":"m", "scope_line":267, "scope_name":"struct ftrace_raw_itimer_state", }
+,{"id":"ent", "file":"include/trace/events/timer.h", "line":304, "type":"m", "scope_line":304, "scope_name":"struct ftrace_raw_itimer_expire", }
+,{"id":"ent", "file":"include/trace/events/timer.h", "line":44, "type":"m", "scope_line":44, "scope_name":"struct ftrace_raw_timer_start", }
+,{"id":"ent", "file":"include/trace/events/timer.h", "line":75, "type":"m", "scope_line":75, "scope_name":"struct ftrace_raw_timer_expire_entry", }
+,{"id":"ent", "file":"include/trace/events/vmscan.h", "line":134, "type":"m", "scope_line":134, "scope_name":"struct ftrace_raw_mm_vmscan_direct_reclaim_end_template", }
+,{"id":"ent", "file":"include/trace/events/vmscan.h", "line":173, "type":"m", "scope_line":173, "scope_name":"struct ftrace_raw_mm_vmscan_lru_isolate_template", }
+,{"id":"ent", "file":"include/trace/events/vmscan.h", "line":249, "type":"m", "scope_line":249, "scope_name":"struct ftrace_raw_mm_vmscan_writepage", }
+,{"id":"ent", "file":"include/trace/events/vmscan.h", "line":29, "type":"m", "scope_line":29, "scope_name":"struct ftrace_raw_mm_vmscan_kswapd_sleep", }
+,{"id":"ent", "file":"include/trace/events/vmscan.h", "line":46, "type":"m", "scope_line":46, "scope_name":"struct ftrace_raw_mm_vmscan_kswapd_wake", }
+,{"id":"ent", "file":"include/trace/events/vmscan.h", "line":65, "type":"m", "scope_line":65, "scope_name":"struct ftrace_raw_mm_vmscan_wakeup_kswapd", }
+,{"id":"ent", "file":"include/trace/events/vmscan.h", "line":89, "type":"m", "scope_line":89, "scope_name":"struct ftrace_raw_mm_vmscan_direct_reclaim_begin_template", }
+,{"id":"ent", "file":"include/trace/events/workqueue.h", "line":16, "type":"m", "scope_line":16, "scope_name":"struct ftrace_raw_workqueue_execute_start", }
+,{"id":"ent", "file":"include/trace/events/workqueue.h", "line":41, "type":"m", "scope_line":41, "scope_name":"struct ftrace_raw_workqueue_execute_end", }
+,{"id":"ent", "file":"include/trace/events/writeback.h", "line":13, "type":"m", "scope_line":13, "scope_name":"struct ftrace_raw_writeback_work_class", }
+,{"id":"ent", "file":"include/trace/events/writeback.h", "line":53, "type":"m", "scope_line":53, "scope_name":"struct ftrace_raw_writeback_pages_written", }
+,{"id":"ent", "file":"include/trace/events/writeback.h", "line":65, "type":"m", "scope_line":65, "scope_name":"struct ftrace_raw_writeback_class", }
+,{"id":"ent", "file":"include/trace/events/writeback.h", "line":91, "type":"m", "scope_line":91, "scope_name":"struct ftrace_raw_wbc_class", }
+,{"id":"ent", "file":"kernel/trace/trace.h", "line":78, "type":"m", "scope_line":77, "scope_name":"struct syscall_trace_enter", }
+,{"id":"ent", "file":"kernel/trace/trace.h", "line":84, "type":"m", "scope_line":83, "scope_name":"struct syscall_trace_exit", }
+,{"id":"ent", "file":"kernel/trace/trace.h", "line":90, "type":"m", "scope_line":89, "scope_name":"struct kprobe_trace_entry_head", }
+,{"id":"ent", "file":"kernel/trace/trace.h", "line":95, "type":"m", "scope_line":94, "scope_name":"struct kretprobe_trace_entry_head", }
+,{"id":"ent", "file":"kernel/trace/trace_entries.h", "line":119, "type":"m", "scope_line":119, "scope_name":"struct ctx_switch_entry", }
+,{"id":"ent", "file":"kernel/trace/trace_entries.h", "line":159, "type":"m", "scope_line":159, "scope_name":"struct stack_entry", }
+,{"id":"ent", "file":"kernel/trace/trace_entries.h", "line":174, "type":"m", "scope_line":174, "scope_name":"struct userstack_entry", }
+,{"id":"ent", "file":"kernel/trace/trace_entries.h", "line":193, "type":"m", "scope_line":193, "scope_name":"struct bprint_entry", }
+,{"id":"ent", "file":"kernel/trace/trace_entries.h", "line":207, "type":"m", "scope_line":207, "scope_name":"struct print_entry", }
+,{"id":"ent", "file":"kernel/trace/trace_entries.h", "line":220, "type":"m", "scope_line":220, "scope_name":"struct trace_mmiotrace_rw", }
+,{"id":"ent", "file":"kernel/trace/trace_entries.h", "line":239, "type":"m", "scope_line":239, "scope_name":"struct trace_mmiotrace_map", }
+,{"id":"ent", "file":"kernel/trace/trace_entries.h", "line":261, "type":"m", "scope_line":261, "scope_name":"struct trace_branch", }
+,];
+xr_frag_insert('t/87/f5dba0f39bd9bd082c0ebe486694c534a912f2.xr', __xr_tmp);

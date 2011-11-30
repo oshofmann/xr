@@ -1,0 +1,153 @@
+var __xr_tmp = [
+{"id":"ACPI_ERST_NOT_AVAILABLE", "file":"include/acpi/actbl1.h", "line":355, "type":"e", "scope_line":352, "scope_name":"acpi_erst_command_status", }
+,{"id":"ACPI_ERST_NOT_FOUND", "file":"include/acpi/actbl1.h", "line":358, "type":"e", "scope_line":352, "scope_name":"acpi_erst_command_status", }
+,{"id":"ACPI_ERST_NOT_USED", "file":"include/acpi/actbl1.h", "line":318, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_NO_SPACE", "file":"include/acpi/actbl1.h", "line":354, "type":"e", "scope_line":352, "scope_name":"acpi_erst_command_status", }
+,{"id":"ACPI_ERST_PRESERVE", "file":"include/acpi/actbl1.h", "line":301, "type":"d", }
+,{"id":"ACPI_ERST_READ_REGISTER", "file":"include/acpi/actbl1.h", "line":328, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_READ_REGISTER_VALUE", "file":"include/acpi/actbl1.h", "line":329, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_RECORD_EMPTY", "file":"include/acpi/actbl1.h", "line":357, "type":"e", "scope_line":352, "scope_name":"acpi_erst_command_status", }
+,{"id":"ACPI_ERST_SET_DST_ADDRESS_BASE", "file":"include/acpi/actbl1.h", "line":345, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_SET_RECORD_ID", "file":"include/acpi/actbl1.h", "line":315, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_SET_RECORD_OFFSET", "file":"include/acpi/actbl1.h", "line":310, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_SET_SRC_ADDRESS_BASE", "file":"include/acpi/actbl1.h", "line":344, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_SKIP_NEXT_IF_TRUE", "file":"include/acpi/actbl1.h", "line":342, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_STALL", "file":"include/acpi/actbl1.h", "line":340, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_STALL_WHILE_TRUE", "file":"include/acpi/actbl1.h", "line":341, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_STATUS_RESERVED", "file":"include/acpi/actbl1.h", "line":359, "type":"e", "scope_line":352, "scope_name":"acpi_erst_command_status", }
+,{"id":"ACPI_ERST_STORE_VAR1", "file":"include/acpi/actbl1.h", "line":335, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_SUBTRACT", "file":"include/acpi/actbl1.h", "line":337, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_SUBTRACT_VALUE", "file":"include/acpi/actbl1.h", "line":339, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_SUCESS", "file":"include/acpi/actbl1.h", "line":353, "type":"e", "scope_line":352, "scope_name":"acpi_erst_command_status", }
+,{"id":"ACPI_ERST_WRITE_REGISTER", "file":"include/acpi/actbl1.h", "line":330, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_WRITE_REGISTER_VALUE", "file":"include/acpi/actbl1.h", "line":331, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_EVENTS", "file":"include/acpi/acoutput.h", "line":57, "type":"d", }
+,{"id":"ACPI_EVENT_FLAG_DISABLED", "file":"include/acpi/actypes.h", "line":653, "type":"d", }
+,{"id":"ACPI_EVENT_FLAG_ENABLED", "file":"include/acpi/actypes.h", "line":654, "type":"d", }
+,{"id":"ACPI_EVENT_FLAG_HANDLE", "file":"include/acpi/actypes.h", "line":657, "type":"d", }
+,{"id":"ACPI_EVENT_FLAG_SET", "file":"include/acpi/actypes.h", "line":656, "type":"d", }
+,{"id":"ACPI_EVENT_FLAG_WAKE_ENABLED", "file":"include/acpi/actypes.h", "line":655, "type":"d", }
+,{"id":"ACPI_EVENT_GLOBAL", "file":"include/acpi/actypes.h", "line":629, "type":"d", }
+,{"id":"ACPI_EVENT_MAX", "file":"include/acpi/actypes.h", "line":633, "type":"d", }
+,{"id":"ACPI_EVENT_PMTIMER", "file":"include/acpi/actypes.h", "line":628, "type":"d", }
+,{"id":"ACPI_EVENT_POWER_BUTTON", "file":"include/acpi/actypes.h", "line":630, "type":"d", }
+,{"id":"ACPI_EVENT_RTC", "file":"include/acpi/actypes.h", "line":632, "type":"d", }
+,{"id":"ACPI_EVENT_SLEEP_BUTTON", "file":"include/acpi/actypes.h", "line":631, "type":"d", }
+,{"id":"ACPI_EXAMPLE", "file":"include/acpi/acoutput.h", "line":72, "type":"d", }
+,{"id":"ACPI_EXCEPTION", "file":"include/acpi/acoutput.h", "line":208, "type":"d", }
+,{"id":"ACPI_EXCLUSIVE", "file":"include/acpi/acrestyp.h", "line":92, "type":"d", }
+,{"id":"ACPI_EXD_ADDRESS", "file":"drivers/acpi/acpica/acinterp.h", "line":84, "type":"d", }
+,{"id":"ACPI_EXD_BUFFER", "file":"drivers/acpi/acpica/acinterp.h", "line":86, "type":"d", }
+,{"id":"ACPI_EXD_FIELD", "file":"drivers/acpi/acpica/acinterp.h", "line":88, "type":"d", }
+,{"id":"ACPI_EXD_INIT", "file":"drivers/acpi/acpica/acinterp.h", "line":76, "type":"d", }
+,{"id":"ACPI_EXD_LITERAL", "file":"drivers/acpi/acpica/acinterp.h", "line":82, "type":"d", }
+,{"id":"ACPI_EXD_NSOFFSET", "file":"drivers/acpi/acpica/acinterp.h", "line":52, "type":"d", }
+,{"id":"ACPI_EXD_OFFSET", "file":"drivers/acpi/acpica/acinterp.h", "line":51, "type":"d", }
+,{"id":"ACPI_EXD_PACKAGE", "file":"drivers/acpi/acpica/acinterp.h", "line":87, "type":"d", }
+,{"id":"ACPI_EXD_POINTER", "file":"drivers/acpi/acpica/acinterp.h", "line":83, "type":"d", }
+,{"id":"ACPI_EXD_REFERENCE", "file":"drivers/acpi/acpica/acinterp.h", "line":89, "type":"d", }
+,{"id":"ACPI_EXD_STRING", "file":"drivers/acpi/acpica/acinterp.h", "line":85, "type":"d", }
+,{"id":"ACPI_EXD_TABLE_SIZE", "file":"drivers/acpi/acpica/acinterp.h", "line":53, "type":"d", }
+,{"id":"ACPI_EXD_TYPE", "file":"drivers/acpi/acpica/acinterp.h", "line":77, "type":"d", }
+,{"id":"ACPI_EXD_UINT16", "file":"drivers/acpi/acpica/acinterp.h", "line":79, "type":"d", }
+,{"id":"ACPI_EXD_UINT32", "file":"drivers/acpi/acpica/acinterp.h", "line":80, "type":"d", }
+,{"id":"ACPI_EXD_UINT64", "file":"drivers/acpi/acpica/acinterp.h", "line":81, "type":"d", }
+,{"id":"ACPI_EXD_UINT8", "file":"drivers/acpi/acpica/acinterp.h", "line":78, "type":"d", }
+,{"id":"ACPI_EXECUTER", "file":"include/acpi/acoutput.h", "line":62, "type":"d", }
+,{"id":"ACPI_EXECUTE_OP", "file":"drivers/acpi/acpica/aclocal.h", "line":637, "type":"t", }
+,{"id":"ACPI_EXPLICIT_BYTE_COPY", "file":"drivers/acpi/acpica/acinterp.h", "line":112, "type":"d", }
+,{"id":"ACPI_EXPLICIT_CONVERT_DECIMAL", "file":"drivers/acpi/acpica/acinterp.h", "line":115, "type":"d", }
+,{"id":"ACPI_EXPLICIT_CONVERT_HEX", "file":"drivers/acpi/acpica/acinterp.h", "line":113, "type":"d", }
+,{"id":"ACPI_EXPORT_SYMBOL", "file":"include/acpi/platform/aclinux.h", "line":72, "type":"d", }
+,{"id":"ACPI_EXTERN", "file":"drivers/acpi/acpica/acglobal.h", "line":54, "type":"d", }
+,{"id":"ACPI_EXTERN", "file":"drivers/acpi/acpica/acglobal.h", "line":57, "type":"d", }
+,{"id":"ACPI_EXTERNAL_XFACE", "file":"arch/x86/include/asm/acpi.h", "line":45, "type":"d", }
+,{"id":"ACPI_FACS_64BIT_ENVIRONMENT", "file":"include/acpi/actbl.h", "line":194, "type":"d", }
+,{"id":"ACPI_FACS_64BIT_WAKE", "file":"include/acpi/actbl.h", "line":190, "type":"d", }
+,{"id":"ACPI_FACS_S4_BIOS_PRESENT", "file":"include/acpi/actbl.h", "line":189, "type":"d", }
+,{"id":"ACPI_FADT_32BIT_TIMER", "file":"include/acpi/actbl.h", "line":280, "type":"d", }
+,{"id":"ACPI_FADT_8042", "file":"include/acpi/actbl.h", "line":263, "type":"d", }
+,{"id":"ACPI_FADT_APIC_CLUSTER", "file":"include/acpi/actbl.h", "line":290, "type":"d", }
+,{"id":"ACPI_FADT_APIC_PHYSICAL", "file":"include/acpi/actbl.h", "line":291, "type":"d", }
+,{"id":"ACPI_FADT_C1_SUPPORTED", "file":"include/acpi/actbl.h", "line":274, "type":"d", }
+,{"id":"ACPI_FADT_C2_MP_SUPPORTED", "file":"include/acpi/actbl.h", "line":275, "type":"d", }
+,{"id":"ACPI_FADT_DOCKING_SUPPORTED", "file":"include/acpi/actbl.h", "line":281, "type":"d", }
+,{"id":"ACPI_FADT_FIXED_RTC", "file":"include/acpi/actbl.h", "line":278, "type":"d", }
+,{"id":"ACPI_FADT_HEADLESS", "file":"include/acpi/actbl.h", "line":284, "type":"d", }
+,{"id":"ACPI_FADT_INFO_ENTRIES", "file":"drivers/acpi/acpica/tbfadt.c", "line":135, "type":"d", }
+,{"id":"ACPI_FADT_LEGACY_DEVICES", "file":"include/acpi/actbl.h", "line":262, "type":"d", }
+,{"id":"ACPI_FADT_NO_ASPM", "file":"include/acpi/actbl.h", "line":266, "type":"d", }
+,{"id":"ACPI_FADT_NO_MSI", "file":"include/acpi/actbl.h", "line":265, "type":"d", }
+,{"id":"ACPI_FADT_NO_VGA", "file":"include/acpi/actbl.h", "line":264, "type":"d", }
+,{"id":"ACPI_FADT_OFFSET", "file":"include/acpi/actbl.h", "line":309, "type":"d", }
+,{"id":"ACPI_FADT_PCI_EXPRESS_WAKE", "file":"include/acpi/actbl.h", "line":286, "type":"d", }
+,{"id":"ACPI_FADT_PLATFORM_CLOCK", "file":"include/acpi/actbl.h", "line":287, "type":"d", }
+,{"id":"ACPI_FADT_PM_INFO_ENTRIES", "file":"drivers/acpi/acpica/tbfadt.c", "line":165, "type":"d", }
+,{"id":"ACPI_FADT_POWER_BUTTON", "file":"include/acpi/actbl.h", "line":276, "type":"d", }
+,{"id":"ACPI_FADT_REMOTE_POWER_ON", "file":"include/acpi/actbl.h", "line":289, "type":"d", }
+,{"id":"ACPI_FADT_REQUIRED", "file":"drivers/acpi/acpica/tbfadt.c", "line":74, "type":"d", }
+,{"id":"ACPI_FADT_RESET_REGISTER", "file":"include/acpi/actbl.h", "line":282, "type":"d", }
+,{"id":"ACPI_FADT_S4_RTC_VALID", "file":"include/acpi/actbl.h", "line":288, "type":"d", }
+,{"id":"ACPI_FADT_S4_RTC_WAKE", "file":"include/acpi/actbl.h", "line":279, "type":"d", }
+,{"id":"ACPI_FADT_SEALED_CASE", "file":"include/acpi/actbl.h", "line":283, "type":"d", }
+,{"id":"ACPI_FADT_SEPARATE_LENGTH", "file":"drivers/acpi/acpica/tbfadt.c", "line":75, "type":"d", }
+,{"id":"ACPI_FADT_SLEEP_BUTTON", "file":"include/acpi/actbl.h", "line":277, "type":"d", }
+,{"id":"ACPI_FADT_SLEEP_TYPE", "file":"include/acpi/actbl.h", "line":285, "type":"d", }
+,{"id":"ACPI_FADT_WBINVD", "file":"include/acpi/actbl.h", "line":272, "type":"d", }
+,{"id":"ACPI_FADT_WBINVD_FLUSH", "file":"include/acpi/actbl.h", "line":273, "type":"d", }
+,{"id":"ACPI_FAILURE", "file":"include/acpi/acexcep.h", "line":58, "type":"d", }
+,{"id":"ACPI_FAN_CLASS", "file":"drivers/acpi/fan.c", "line":39, "type":"d", }
+,{"id":"ACPI_FAN_COMPONENT", "file":"include/acpi/acpi_drivers.h", "line":43, "type":"d", }
+,{"id":"ACPI_FAN_FILE_STATE", "file":"drivers/acpi/fan.c", "line":40, "type":"d", }
+,{"id":"ACPI_FDE_BYTE_BUFFER_SIZE", "file":"drivers/acpi/acpica/nsrepair2.c", "line":133, "type":"d", }
+,{"id":"ACPI_FDE_DWORD_BUFFER_SIZE", "file":"drivers/acpi/acpica/nsrepair2.c", "line":134, "type":"d", }
+,{"id":"ACPI_FDE_FIELD_COUNT", "file":"drivers/acpi/acpica/nsrepair2.c", "line":132, "type":"d", }
+,{"id":"ACPI_FIELD_BYTE_GRANULARITY", "file":"drivers/acpi/acpica/aclocal.h", "line":148, "type":"d", }
+,{"id":"ACPI_FIELD_DWORD_GRANULARITY", "file":"drivers/acpi/acpica/aclocal.h", "line":150, "type":"d", }
+,{"id":"ACPI_FIELD_QWORD_GRANULARITY", "file":"drivers/acpi/acpica/aclocal.h", "line":151, "type":"d", }
+,{"id":"ACPI_FIELD_WORD_GRANULARITY", "file":"drivers/acpi/acpica/aclocal.h", "line":149, "type":"d", }
+,{"id":"ACPI_FIXED_HARDWARE_EVENT", "file":"include/acpi/acpi_drivers.h", "line":79, "type":"d", }
+,{"id":"ACPI_FIXED_LENGTH", "file":"drivers/acpi/acpica/acutils.h", "line":76, "type":"d", }
+,{"id":"ACPI_FLUSH_CPU_CACHE", "file":"arch/x86/include/asm/acpi.h", "line":55, "type":"d", }
+,{"id":"ACPI_FORMAT_NATIVE_UINT", "file":"drivers/acpi/acpica/acmacros.h", "line":70, "type":"d", }
+,{"id":"ACPI_FORMAT_UINT64", "file":"drivers/acpi/acpica/acmacros.h", "line":67, "type":"d", }
+,{"id":"ACPI_FREE", "file":"include/acpi/platform/aclinux.h", "line":149, "type":"d", }
+,{"id":"ACPI_FULL_INITIALIZATION", "file":"include/acpi/actypes.h", "line":478, "type":"d", }
+,{"id":"ACPI_FULL_PATHNAME", "file":"include/acpi/actypes.h", "line":853, "type":"d", }
+,{"id":"ACPI_FUNCTION_ENTRY", "file":"drivers/acpi/acpica/acmacros.h", "line":501, "type":"d", }
+,{"id":"ACPI_FUNCTION_EXIT", "file":"drivers/acpi/acpica/acmacros.h", "line":498, "type":"d", }
+,{"id":"ACPI_FUNCTION_NAME", "file":"include/acpi/acoutput.h", "line":271, "type":"d", }
+,{"id":"ACPI_FUNCTION_STATUS_EXIT", "file":"drivers/acpi/acpica/acmacros.h", "line":499, "type":"d", }
+,{"id":"ACPI_FUNCTION_TRACE", "file":"drivers/acpi/acpica/acmacros.h", "line":494, "type":"d", }
+,{"id":"ACPI_FUNCTION_TRACE_PTR", "file":"drivers/acpi/acpica/acmacros.h", "line":495, "type":"d", }
+,{"id":"ACPI_FUNCTION_TRACE_STR", "file":"drivers/acpi/acpica/acmacros.h", "line":497, "type":"d", }
+,{"id":"ACPI_FUNCTION_TRACE_U32", "file":"drivers/acpi/acpica/acmacros.h", "line":496, "type":"d", }
+,{"id":"ACPI_FUNCTION_VALUE_EXIT", "file":"drivers/acpi/acpica/acmacros.h", "line":500, "type":"d", }
+,{"id":"ACPI_GENL_ATTR_EVENT", "file":"drivers/acpi/event.c", "line":156, "type":"e", "scope_line":154, }
+,{"id":"ACPI_GENL_ATTR_MAX", "file":"drivers/acpi/event.c", "line":159, "type":"d", }
+,{"id":"ACPI_GENL_ATTR_UNSPEC", "file":"drivers/acpi/event.c", "line":155, "type":"e", "scope_line":154, }
+,{"id":"ACPI_GENL_CMD_EVENT", "file":"drivers/acpi/event.c", "line":164, "type":"e", "scope_line":162, }
+,{"id":"ACPI_GENL_CMD_MAX", "file":"drivers/acpi/event.c", "line":167, "type":"d", }
+,{"id":"ACPI_GENL_CMD_UNSPEC", "file":"drivers/acpi/event.c", "line":163, "type":"e", "scope_line":162, }
+,{"id":"ACPI_GENL_FAMILY_NAME", "file":"drivers/acpi/event.c", "line":169, "type":"d", }
+,{"id":"ACPI_GENL_MCAST_GROUP_NAME", "file":"drivers/acpi/event.c", "line":171, "type":"d", }
+,{"id":"ACPI_GENL_VERSION", "file":"drivers/acpi/event.c", "line":170, "type":"d", }
+,{"id":"ACPI_GET16", "file":"drivers/acpi/acpica/acmacros.h", "line":53, "type":"d", }
+,{"id":"ACPI_GET32", "file":"drivers/acpi/acpica/acmacros.h", "line":54, "type":"d", }
+,{"id":"ACPI_GET64", "file":"drivers/acpi/acpica/acmacros.h", "line":55, "type":"d", }
+,{"id":"ACPI_GET8", "file":"drivers/acpi/acpica/acmacros.h", "line":52, "type":"d", }
+,{"id":"ACPI_GET_DESCRIPTOR_TYPE", "file":"drivers/acpi/acpica/acmacros.h", "line":292, "type":"d", }
+,{"id":"ACPI_GET_FUNCTION_NAME", "file":"include/acpi/platform/acgcc.h", "line":49, "type":"d", }
+,{"id":"ACPI_GLOBAL_LOCK", "file":"drivers/acpi/acpica/aclocal.h", "line":52, "type":"d", }
+,{"id":"ACPI_GLOCK_OWNED", "file":"include/acpi/actbl.h", "line":185, "type":"d", }
+,{"id":"ACPI_GLOCK_PENDING", "file":"include/acpi/actbl.h", "line":184, "type":"d", }
+,{"id":"ACPI_GLUE_DEBUG", "file":"drivers/acpi/glue.c", "line":18, "type":"d", }
+,{"id":"ACPI_GOOD_CONFIGURATION", "file":"include/acpi/acrestyp.h", "line":113, "type":"d", }
+,{"id":"ACPI_GPE_CAN_WAKE", "file":"include/acpi/actypes.h", "line":687, "type":"d", }
+,{"id":"ACPI_GPE_COND_ENABLE", "file":"include/acpi/actypes.h", "line":670, "type":"d", }
+,{"id":"ACPI_GPE_DISABLE", "file":"include/acpi/actypes.h", "line":669, "type":"d", }
+,{"id":"ACPI_GPE_DISPATCH_HANDLER", "file":"include/acpi/actypes.h", "line":690, "type":"d", }
+,{"id":"ACPI_GPE_DISPATCH_MASK", "file":"include/acpi/actypes.h", "line":689, "type":"d", }
+,{"id":"ACPI_GPE_DISPATCH_METHOD", "file":"include/acpi/actypes.h", "line":691, "type":"d", }
+,];
+xr_frag_insert('t/90/14c0cc7c7651b81f14a5b5a31261e0252f2c31.xr', __xr_tmp);

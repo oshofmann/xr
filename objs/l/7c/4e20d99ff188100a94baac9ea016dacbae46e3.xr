@@ -1,0 +1,14 @@
+var __xr_tmp = [
+"<span class=\"comment\"> *<span class=\"ts\"/>This is the format the mroute daemon expects to see IGMP control</span>", 
+"<span class=\"comment\"> *<span class=\"ts\"/>data. Magically happens to be like an IP packet as per the original</span>", 
+"<span class=\"comment\"> */</span>", 
+" ", 
+"struct <a class=\"id\" href=\"#igmpmsg\">igmpmsg</a> {", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#__u32\">__u32</a> <a class=\"id\" href=\"#unused1\">unused1</a>,<a class=\"id\" href=\"#unused2\">unused2</a>;", 
+"<span class=\"ts\"/>unsigned char <a class=\"id\" href=\"#im_msgtype\">im_msgtype</a>;<span class=\"ts\"/><span class=\"ts\"/><span class=\"comment\">/* What is this */</span>", 
+"<span class=\"ts\"/>unsigned char <a class=\"id\" href=\"#im_mbz\">im_mbz</a>;<span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/><span class=\"comment\">/* Must be zero */</span>", 
+"<span class=\"ts\"/>unsigned char <a class=\"id\" href=\"#im_vif\">im_vif</a>;<span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/><span class=\"comment\">/* Interface (this ought to be a vifi_t!) */</span>", 
+"<span class=\"ts\"/>unsigned char <a class=\"id\" href=\"#unused3\">unused3</a>;", 
+"<span class=\"ts\"/>struct <a class=\"id\" href=\"#in_addr\">in_addr</a> <a class=\"id\" href=\"#im_src\">im_src</a>,<a class=\"id\" href=\"#im_dst\">im_dst</a>;", 
+];
+xr_frag_insert('l/7c/4e20d99ff188100a94baac9ea016dacbae46e3.xr', __xr_tmp);

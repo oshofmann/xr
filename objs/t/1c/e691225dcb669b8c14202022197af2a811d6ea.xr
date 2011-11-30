@@ -1,0 +1,75 @@
+var __xr_tmp = [
+{"id":"discrete", "file":"include/linux/videodev2.h", "line":443, "type":"m", "scope_line":435, "scope_name":"struct v4l2_frmivalenum", }
+,{"id":"disk", "file":"drivers/block/virtio_blk.c", "line":23, "type":"m", "scope_line":15, "scope_name":"struct virtio_blk", }
+,{"id":"disk", "file":"drivers/md/dm.c", "line":132, "type":"m", "scope_line":118, "scope_name":"struct mapped_device", }
+,{"id":"disk", "file":"drivers/scsi/sd.h", "line":49, "type":"m", "scope_line":45, "scope_name":"struct scsi_disk", }
+,{"id":"disk", "file":"drivers/scsi/sg.c", "line":175, "type":"m", "scope_line":166, "scope_name":"struct sg_device", }
+,{"id":"disk", "file":"drivers/scsi/sr.h", "line":48, "type":"m", "scope_line":33, "scope_name":"struct scsi_cd", }
+,{"id":"disk", "file":"fs/partitions/ldm.h", "line":194, "type":"m", "scope_line":185, "scope_name":"struct vblk", }
+,{"id":"disk", "file":"include/linux/cdrom.h", "line":940, "type":"m", "scope_line":937, "scope_name":"struct cdrom_device_info", }
+,{"id":"disk", "file":"include/linux/genhd.h", "line":223, "type":"m", "scope_line":222, "scope_name":"struct disk_part_iter", }
+,{"id":"disk", "file":"include/linux/nbd.h", "line":66, "type":"m", "scope_line":51, "scope_name":"struct nbd_device", }
+,{"id":"disk", "file":"include/linux/pktcdvd.h", "line":287, "type":"m", "scope_line":258, "scope_name":"struct pktcdvd_device", }
+,{"id":"disk2mem_dqblk", "file":"include/linux/dqblk_qtree.h", "line":22, "type":"m", "scope_line":20, "scope_name":"struct qtree_fmt_operations", }
+,{"id":"disk_alignment_offset_show", "file":"block/genhd.c", "line":856, "type":"f", }
+,{"id":"disk_attr", "file":"kernel/power/hibernate.c", "line":907, "type":"v", }
+,{"id":"disk_attr_group", "file":"block/genhd.c", "line":915, "type":"v", }
+,{"id":"disk_attr_groups", "file":"block/genhd.c", "line":919, "type":"v", }
+,{"id":"disk_attrs", "file":"block/genhd.c", "line":895, "type":"v", }
+,{"id":"disk_capability_show", "file":"block/genhd.c", "line":848, "type":"f", }
+,{"id":"disk_devt", "file":"block/genhd.c", "line":544, "type":"c", "scope_line":516, "scope_name":"add_disk", }
+,{"id":"disk_devt", "file":"block/genhd.c", "line":550, "type":"c", "scope_line":516, "scope_name":"add_disk", }
+,{"id":"disk_devt", "file":"block/genhd.c", "line":564, "type":"c", "scope_line":559, "scope_name":"unlink_gendisk", }
+,{"id":"disk_devt", "file":"drivers/char/random.c", "line":714, "type":"c", "scope_line":706, "scope_name":"add_disk_randomness", }
+,{"id":"disk_devt", "file":"drivers/md/dm-ioctl.c", "line":454, "type":"c", "scope_line":411, "scope_name":"list_devices", }
+,{"id":"disk_devt", "file":"drivers/md/dm-ioctl.c", "line":599, "type":"c", "scope_line":588, "scope_name":"__dev_status", }
+,{"id":"disk_devt", "file":"drivers/md/dm-stripe.c", "line":355, "type":"c", "scope_line":338, "scope_name":"stripe_end_io", }
+,{"id":"disk_devt", "file":"drivers/md/dm.c", "line":1697, "type":"c", "scope_line":1674, "scope_name":"map_request", }
+,{"id":"disk_devt", "file":"drivers/md/dm.c", "line":2047, "type":"c", "scope_line":2045, "scope_name":"free_dev", }
+,{"id":"disk_devt", "file":"drivers/md/dm.c", "line":2280, "type":"c", "scope_line":2269, "scope_name":"dm_find_md", }
+,{"id":"disk_devt", "file":"drivers/md/dm.c", "line":2334, "type":"c", "scope_line":2326, "scope_name":"__dm_destroy", }
+,{"id":"disk_devt", "file":"drivers/scsi/sr.c", "line":888, "type":"c", "scope_line":882, "scope_name":"sr_kref_release", }
+,{"id":"disk_devt", "file":"include/linux/genhd.h", "line":196, "type":"f", }
+,{"id":"disk_devt", "file":"include/trace/events/block.h", "line":11, "type":"c", "scope_line":11, "scope_name":"ftrace_raw_event_block_rq_with_error", }
+,{"id":"disk_devt", "file":"include/trace/events/block.h", "line":11, "type":"c", "scope_line":11, "scope_name":"perf_trace_block_rq_with_error", }
+,{"id":"disk_devt", "file":"include/trace/events/block.h", "line":542, "type":"c", "scope_line":542, "scope_name":"ftrace_raw_event_block_rq_remap", }
+,{"id":"disk_devt", "file":"include/trace/events/block.h", "line":542, "type":"c", "scope_line":542, "scope_name":"perf_trace_block_rq_remap", }
+,{"id":"disk_devt", "file":"include/trace/events/block.h", "line":96, "type":"c", "scope_line":96, "scope_name":"ftrace_raw_event_block_rq", }
+,{"id":"disk_devt", "file":"include/trace/events/block.h", "line":96, "type":"c", "scope_line":96, "scope_name":"perf_trace_block_rq", }
+,{"id":"disk_devt", "file":"kernel/trace/blktrace.c", "line":949, "type":"c", "scope_line":937, "scope_name":"blk_add_trace_rq_remap", }
+,{"id":"disk_discard_alignment_show", "file":"block/genhd.c", "line":865, "type":"f", }
+,{"id":"disk_expand_part_tbl", "file":"block/genhd.c", "line":1184, "type":"c", "scope_line":1172, "scope_name":"alloc_disk_node", }
+,{"id":"disk_expand_part_tbl", "file":"block/genhd.c", "line":970, "type":"f", }
+,{"id":"disk_expand_part_tbl", "file":"fs/partitions/check.c", "line":414, "type":"c", "scope_line":403, "scope_name":"add_partition", }
+,{"id":"disk_expand_part_tbl", "file":"fs/partitions/check.c", "line":640, "type":"c", "scope_line":573, "scope_name":"rescan_partitions", }
+,{"id":"disk_ext_range_show", "file":"block/genhd.c", "line":823, "type":"f", }
+,{"id":"disk_free_ptbl_rcu_cb", "file":"block/genhd.c", "line":924, "type":"f", }
+,{"id":"disk_get_part", "file":"block/genhd.c", "line":1153, "type":"c", "scope_line":1131, "scope_name":"blk_lookup_devt", }
+,{"id":"disk_get_part", "file":"block/genhd.c", "line":54, "type":"f", }
+,{"id":"disk_get_part", "file":"block/genhd.c", "line":619, "type":"c", "scope_line":614, "scope_name":"bdget_disk", }
+,{"id":"disk_get_part", "file":"block/ioctl.c", "line":69, "type":"c", "scope_line":12, "scope_name":"blkpg_ioctl", }
+,{"id":"disk_get_part", "file":"fs/block_dev.c", "line":1366, "type":"c", "scope_line":1329, "scope_name":"__blkdev_get", }
+,{"id":"disk_get_part", "file":"fs/block_dev.c", "line":1410, "type":"c", "scope_line":1329, "scope_name":"__blkdev_get", }
+,{"id":"disk_guid", "file":"fs/partitions/efi.h", "line":76, "type":"m", "scope_line":66, "scope_name":"struct _gpt_header", }
+,{"id":"disk_id", "file":"fs/partitions/ldm.h", "line":124, "type":"m", "scope_line":117, "scope_name":"struct privhead", }
+,{"id":"disk_id", "file":"fs/partitions/ldm.h", "line":153, "type":"m", "scope_line":152, "scope_name":"struct vblk_dgrp", }
+,{"id":"disk_id", "file":"fs/partitions/ldm.h", "line":157, "type":"m", "scope_line":156, "scope_name":"struct vblk_disk", }
+,{"id":"disk_id", "file":"fs/partitions/ldm.h", "line":166, "type":"m", "scope_line":161, "scope_name":"struct vblk_part", }
+,{"id":"disk_map_sector_rcu", "file":"block/blk-core.c", "line":1762, "type":"c", "scope_line":1754, "scope_name":"blk_account_io_completion", }
+,{"id":"disk_map_sector_rcu", "file":"block/blk-core.c", "line":1782, "type":"c", "scope_line":1768, "scope_name":"blk_account_io_done", }
+,{"id":"disk_map_sector_rcu", "file":"block/blk-core.c", "line":67, "type":"c", "scope_line":57, "scope_name":"drive_stat_acct", }
+,{"id":"disk_map_sector_rcu", "file":"block/blk-merge.c", "line":346, "type":"c", "scope_line":339, "scope_name":"blk_account_io_merge", }
+,{"id":"disk_map_sector_rcu", "file":"block/genhd.c", "line":209, "type":"f", }
+,{"id":"disk_max_parts", "file":"block/genhd.c", "line":828, "type":"c", "scope_line":823, "scope_name":"disk_ext_range_show", }
+,{"id":"disk_max_parts", "file":"block/genhd.c", "line":980, "type":"c", "scope_line":970, "scope_name":"disk_expand_part_tbl", }
+,{"id":"disk_max_parts", "file":"fs/partitions/check.c", "line":180, "type":"c", "scope_line":158, "scope_name":"check_partition", }
+,{"id":"disk_max_parts", "file":"include/linux/genhd.h", "line":184, "type":"f", }
+,{"id":"disk_max_parts", "file":"include/linux/genhd.h", "line":193, "type":"c", "scope_line":191, "scope_name":"disk_partitionable", }
+,{"id":"disk_name", "file":"block/blk-settings.c", "line":651, "type":"c", "scope_line":642, "scope_name":"disk_stack_limits", }
+,{"id":"disk_name", "file":"block/genhd.c", "line":1062, "type":"c", "scope_line":1037, "scope_name":"diskstats_show", }
+,{"id":"disk_name", "file":"block/genhd.c", "line":663, "type":"c", "scope_line":633, "scope_name":"printk_all_partitions", }
+,{"id":"disk_name", "file":"block/genhd.c", "line":755, "type":"c", "scope_line":738, "scope_name":"show_partition", }
+,{"id":"disk_name", "file":"fs/block_dev.c", "line":1212, "type":"c", "scope_line":1206, "scope_name":"flush_disk", }
+,{"id":"disk_name", "file":"fs/block_dev.c", "line":1240, "type":"c", "scope_line":1231, "scope_name":"check_disk_size_change", }
+,];
+xr_frag_insert('t/1c/e691225dcb669b8c14202022197af2a811d6ea.xr', __xr_tmp);

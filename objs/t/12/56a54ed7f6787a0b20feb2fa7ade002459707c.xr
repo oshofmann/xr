@@ -1,0 +1,197 @@
+var __xr_tmp = [
+{"id":"perf_enable", "file":"kernel/perf_event.c", "line":1611, "type":"c", "scope_line":1570, "scope_name":"perf_ctx_adjust_freq", }
+,{"id":"perf_enable", "file":"kernel/perf_event.c", "line":1666, "type":"c", "scope_line":1629, "scope_name":"perf_event_task_tick", }
+,{"id":"perf_enable", "file":"kernel/perf_event.c", "line":510, "type":"c", "scope_line":475, "scope_name":"__perf_event_remove_from_context", }
+,{"id":"perf_enable", "file":"kernel/perf_event.c", "line":862, "type":"c", "scope_line":790, "scope_name":"__perf_install_in_context", }
+,{"id":"perf_enable", "file":"kernel/perf_event.c", "line":96, "type":"f", }
+,{"id":"perf_enable", "file":"kernel/perf_event.c", "line":987, "type":"c", "scope_line":943, "scope_name":"__perf_event_enable", }
+,{"id":"perf_event", "file":"include/linux/perf_event.h", "line":663, "type":"s", }
+,{"id":"perf_event_active_state", "file":"include/linux/perf_event.h", "line":599, "type":"t", }
+,{"id":"perf_event_alloc", "file":"kernel/perf_event.c", "line":4828, "type":"f", }
+,{"id":"perf_event_alloc", "file":"kernel/perf_event.c", "line":5173, "type":"c", "scope_line":5091, "scope_name":"sys_perf_event_open", }
+,{"id":"perf_event_alloc", "file":"kernel/perf_event.c", "line":5251, "type":"c", "scope_line":5232, "scope_name":"perf_event_create_kernel_counter", }
+,{"id":"perf_event_alloc", "file":"kernel/perf_event.c", "line":5302, "type":"c", "scope_line":5283, "scope_name":"inherit_event", }
+,{"id":"perf_event_attr", "file":"include/linux/perf_event.h", "line":166, "type":"s", }
+,{"id":"perf_event_comm", "file":"fs/exec.c", "line":975, "type":"c", "scope_line":961, "scope_name":"set_task_comm", }
+,{"id":"perf_event_comm", "file":"kernel/perf_event.c", "line":3717, "type":"f", }
+,{"id":"perf_event_comm_ctx", "file":"kernel/perf_event.c", "line":3680, "type":"f", }
+,{"id":"perf_event_comm_ctx", "file":"kernel/perf_event.c", "line":3709, "type":"c", "scope_line":3691, "scope_name":"perf_event_comm_event", }
+,{"id":"perf_event_comm_ctx", "file":"kernel/perf_event.c", "line":3712, "type":"c", "scope_line":3691, "scope_name":"perf_event_comm_event", }
+,{"id":"perf_event_comm_event", "file":"kernel/perf_event.c", "line":3691, "type":"f", }
+,{"id":"perf_event_comm_event", "file":"kernel/perf_event.c", "line":3742, "type":"c", "scope_line":3717, "scope_name":"perf_event_comm", }
+,{"id":"perf_event_comm_match", "file":"kernel/perf_event.c", "line":3666, "type":"f", }
+,{"id":"perf_event_comm_match", "file":"kernel/perf_event.c", "line":3686, "type":"c", "scope_line":3680, "scope_name":"perf_event_comm_ctx", }
+,{"id":"perf_event_comm_output", "file":"kernel/perf_event.c", "line":3647, "type":"f", }
+,{"id":"perf_event_comm_output", "file":"kernel/perf_event.c", "line":3687, "type":"c", "scope_line":3680, "scope_name":"perf_event_comm_ctx", }
+,{"id":"perf_event_context", "file":"include/linux/perf_event.h", "line":771, "type":"s", }
+,{"id":"perf_event_count", "file":"kernel/perf_event.c", "line":1757, "type":"f", }
+,{"id":"perf_event_count", "file":"kernel/perf_event.c", "line":1781, "type":"c", "scope_line":1762, "scope_name":"perf_event_read", }
+,{"id":"perf_event_count", "file":"kernel/perf_event.c", "line":2376, "type":"c", "scope_line":2356, "scope_name":"perf_event_update_userpage", }
+,{"id":"perf_event_count", "file":"kernel/perf_event.c", "line":3230, "type":"c", "scope_line":3223, "scope_name":"perf_output_read_one", }
+,{"id":"perf_event_count", "file":"kernel/perf_event.c", "line":3267, "type":"c", "scope_line":3248, "scope_name":"perf_output_read_group", }
+,{"id":"perf_event_count", "file":"kernel/perf_event.c", "line":3279, "type":"c", "scope_line":3248, "scope_name":"perf_output_read_group", }
+,{"id":"perf_event_count", "file":"kernel/perf_event.c", "line":5388, "type":"c", "scope_line":5379, "scope_name":"sync_child_event", }
+,{"id":"perf_event_create_kernel_counter", "file":"kernel/hw_breakpoint.c", "line":436, "type":"c", "scope_line":431, "scope_name":"register_user_hw_breakpoint", }
+,{"id":"perf_event_create_kernel_counter", "file":"kernel/hw_breakpoint.c", "line":519, "type":"c", "scope_line":504, "scope_name":"register_wide_hw_breakpoint", }
+,{"id":"perf_event_create_kernel_counter", "file":"kernel/perf_event.c", "line":5232, "type":"f", }
+,{"id":"perf_event_ctxp", "file":"include/linux/sched.h", "line":1434, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"perf_event_disable", "file":"kernel/hw_breakpoint.c", "line":455, "type":"c", "scope_line":448, "scope_name":"modify_user_hw_breakpoint", }
+,{"id":"perf_event_disable", "file":"kernel/perf_event.c", "line":1938, "type":"c", "scope_line":1930, "scope_name":"perf_event_release_kernel", }
+,{"id":"perf_event_disable", "file":"kernel/perf_event.c", "line":4010, "type":"c", "scope_line":3955, "scope_name":"__perf_event_overflow", }
+,{"id":"perf_event_disable", "file":"kernel/perf_event.c", "line":617, "type":"f", }
+,{"id":"perf_event_do_pending", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1188, "type":"c", "scope_line":1183, "scope_name":"smp_perf_pending_interrupt", }
+,{"id":"perf_event_do_pending", "file":"kernel/perf_event.c", "line":2951, "type":"f", }
+,{"id":"perf_event_do_pending", "file":"kernel/timer.c", "line":1282, "type":"c", "scope_line":1272, "scope_name":"update_process_times", }
+,{"id":"perf_event_enable", "file":"kernel/hw_breakpoint.c", "line":466, "type":"c", "scope_line":448, "scope_name":"modify_user_hw_breakpoint", }
+,{"id":"perf_event_enable", "file":"kernel/hw_breakpoint.c", "line":473, "type":"c", "scope_line":448, "scope_name":"modify_user_hw_breakpoint", }
+,{"id":"perf_event_enable", "file":"kernel/perf_event.c", "line":1016, "type":"f", }
+,{"id":"perf_event_enable", "file":"kernel/perf_event.c", "line":1077, "type":"c", "scope_line":1068, "scope_name":"perf_event_refresh", }
+,{"id":"perf_event_enable_on_exec", "file":"kernel/perf_event.c", "line":1688, "type":"f", }
+,{"id":"perf_event_enable_on_exec", "file":"kernel/perf_event.c", "line":3722, "type":"c", "scope_line":3717, "scope_name":"perf_event_comm", }
+,{"id":"perf_event_exit_cpu", "file":"kernel/perf_event.c", "line":5740, "type":"f", }
+,{"id":"perf_event_exit_cpu", "file":"kernel/perf_event.c", "line":5771, "type":"c", "scope_line":5757, "scope_name":"perf_cpu_notify", }
+,{"id":"perf_event_exit_task", "file":"fs/exec.c", "line":1061, "type":"c", "scope_line":1012, "scope_name":"setup_new_exec", }
+,{"id":"perf_event_exit_task", "file":"kernel/exit.c", "line":994, "type":"c", "scope_line":892, "scope_name":"do_exit", }
+,{"id":"perf_event_exit_task", "file":"kernel/perf_event.c", "line":5438, "type":"f", }
+,{"id":"perf_event_for_each", "file":"kernel/perf_event.c", "line":2185, "type":"f", }
+,{"id":"perf_event_for_each", "file":"kernel/perf_event.c", "line":2308, "type":"c", "scope_line":2258, "scope_name":"perf_ioctl", }
+,{"id":"perf_event_for_each_child", "file":"kernel/perf_event.c", "line":2172, "type":"f", }
+,{"id":"perf_event_for_each_child", "file":"kernel/perf_event.c", "line":2195, "type":"c", "scope_line":2185, "scope_name":"perf_event_for_each", }
+,{"id":"perf_event_for_each_child", "file":"kernel/perf_event.c", "line":2198, "type":"c", "scope_line":2185, "scope_name":"perf_event_for_each", }
+,{"id":"perf_event_for_each_child", "file":"kernel/perf_event.c", "line":2310, "type":"c", "scope_line":2258, "scope_name":"perf_ioctl", }
+,{"id":"perf_event_for_each_child", "file":"kernel/perf_event.c", "line":2321, "type":"c", "scope_line":2315, "scope_name":"perf_event_task_enable", }
+,{"id":"perf_event_for_each_child", "file":"kernel/perf_event.c", "line":2333, "type":"c", "scope_line":2327, "scope_name":"perf_event_task_disable", }
+,{"id":"perf_event_fork", "file":"kernel/fork.c", "line":1290, "type":"c", "scope_line":965, "scope_name":"copy_process", }
+,{"id":"perf_event_fork", "file":"kernel/perf_event.c", "line":3625, "type":"f", }
+,{"id":"perf_event_free_filter", "file":"kernel/perf_event.c", "line":1897, "type":"c", "scope_line":1890, "scope_name":"free_event_rcu", }
+,{"id":"perf_event_free_filter", "file":"kernel/perf_event.c", "line":4698, "type":"f", }
+,{"id":"perf_event_free_task", "file":"kernel/fork.c", "line":1318, "type":"c", "scope_line":965, "scope_name":"copy_process", }
+,{"id":"perf_event_free_task", "file":"kernel/perf_event.c", "line":5541, "type":"f", }
+,{"id":"perf_event_header", "file":"include/linux/perf_event.h", "line":321, "type":"s", }
+,{"id":"perf_event_id", "file":"kernel/perf_event.c", "line":68, "type":"v", }
+,{"id":"perf_event_index", "file":"kernel/perf_event.c", "line":2343, "type":"f", }
+,{"id":"perf_event_index", "file":"kernel/perf_event.c", "line":2375, "type":"c", "scope_line":2356, "scope_name":"perf_event_update_userpage", }
+,{"id":"perf_event_init", "file":"kernel/perf_event.c", "line":5789, "type":"f", }
+,{"id":"perf_event_init", "file":"kernel/sched.c", "line":7881, "type":"c", "scope_line":7696, "scope_name":"sched_init", }
+,{"id":"perf_event_init_all_cpus", "file":"kernel/perf_event.c", "line":5695, "type":"f", }
+,{"id":"perf_event_init_all_cpus", "file":"kernel/perf_event.c", "line":5791, "type":"c", "scope_line":5789, "scope_name":"perf_event_init", }
+,{"id":"perf_event_init_cpu", "file":"kernel/perf_event.c", "line":5707, "type":"f", }
+,{"id":"perf_event_init_cpu", "file":"kernel/perf_event.c", "line":5766, "type":"c", "scope_line":5757, "scope_name":"perf_cpu_notify", }
+,{"id":"perf_event_init_task", "file":"kernel/fork.c", "line":1129, "type":"c", "scope_line":965, "scope_name":"copy_process", }
+,{"id":"perf_event_init_task", "file":"kernel/perf_event.c", "line":5612, "type":"f", }
+,{"id":"perf_event_ioc_flags", "file":"include/linux/perf_event.h", "line":242, "type":"t", }
+,{"id":"perf_event_list", "file":"include/linux/sched.h", "line":1436, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"perf_event_mmap", "file":"kernel/perf_event.c", "line":3887, "type":"f", }
+,{"id":"perf_event_mmap", "file":"mm/mmap.c", "line":1345, "type":"c", "scope_line":1215, "scope_name":"mmap_region", }
+,{"id":"perf_event_mmap", "file":"mm/mmap.c", "line":1805, "type":"c", "scope_line":1769, "scope_name":"expand_downwards", }
+,{"id":"perf_event_mmap", "file":"mm/mmap.c", "line":2237, "type":"c", "scope_line":2150, "scope_name":"do_brk", }
+,{"id":"perf_event_mmap", "file":"mm/mmap.c", "line":2487, "type":"c", "scope_line":2459, "scope_name":"install_special_mapping", }
+,{"id":"perf_event_mmap", "file":"mm/mprotect.c", "line":302, "type":"c", "scope_line":221, "scope_name":"sys_mprotect", }
+,{"id":"perf_event_mmap_ctx", "file":"kernel/perf_event.c", "line":3802, "type":"f", }
+,{"id":"perf_event_mmap_ctx", "file":"kernel/perf_event.c", "line":3877, "type":"c", "scope_line":3814, "scope_name":"perf_event_mmap_event", }
+,{"id":"perf_event_mmap_ctx", "file":"kernel/perf_event.c", "line":3880, "type":"c", "scope_line":3814, "scope_name":"perf_event_mmap_event", }
+,{"id":"perf_event_mmap_event", "file":"kernel/perf_event.c", "line":3814, "type":"f", }
+,{"id":"perf_event_mmap_event", "file":"kernel/perf_event.c", "line":3912, "type":"c", "scope_line":3887, "scope_name":"perf_event_mmap", }
+,{"id":"perf_event_mmap_match", "file":"kernel/perf_event.c", "line":3785, "type":"f", }
+,{"id":"perf_event_mmap_match", "file":"kernel/perf_event.c", "line":3809, "type":"c", "scope_line":3802, "scope_name":"perf_event_mmap_ctx", }
+,{"id":"perf_event_mmap_output", "file":"kernel/perf_event.c", "line":3766, "type":"f", }
+,{"id":"perf_event_mmap_output", "file":"kernel/perf_event.c", "line":3810, "type":"c", "scope_line":3802, "scope_name":"perf_event_mmap_ctx", }
+,{"id":"perf_event_mmap_page", "file":"include/linux/perf_event.h", "line":249, "type":"s", }
+,{"id":"perf_event_mutex", "file":"include/linux/sched.h", "line":1435, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"perf_event_nmi_handler", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1220, "type":"f", }
+,{"id":"perf_event_nmi_notifier", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1280, "type":"v", }
+,{"id":"perf_event_output", "file":"kernel/perf_event.c", "line":3453, "type":"f", }
+,{"id":"perf_event_output", "file":"kernel/perf_event.c", "line":4016, "type":"c", "scope_line":3955, "scope_name":"__perf_event_overflow", }
+,{"id":"perf_event_overflow", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1173, "type":"c", "scope_line":1132, "scope_name":"x86_pmu_handle_irq", }
+,{"id":"perf_event_overflow", "file":"arch/x86/kernel/cpu/perf_event_intel.c", "line":765, "type":"c", "scope_line":710, "scope_name":"intel_pmu_handle_irq", }
+,{"id":"perf_event_overflow", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":493, "type":"c", "scope_line":455, "scope_name":"__intel_pmu_pebs_event", }
+,{"id":"perf_event_overflow", "file":"arch/x86/kernel/cpu/perf_event_p4.c", "line":689, "type":"c", "scope_line":646, "scope_name":"p4_pmu_handle_irq", }
+,{"id":"perf_event_overflow", "file":"kernel/perf_event.c", "line":4021, "type":"f", }
+,{"id":"perf_event_overflow", "file":"kernel/perf_event.c", "line":4340, "type":"c", "scope_line":4323, "scope_name":"perf_swevent_hrtimer", }
+,{"id":"perf_event_period", "file":"kernel/perf_event.c", "line":2202, "type":"f", }
+,{"id":"perf_event_period", "file":"kernel/perf_event.c", "line":2279, "type":"c", "scope_line":2258, "scope_name":"perf_ioctl", }
+,{"id":"perf_event_pid", "file":"kernel/perf_event.c", "line":3201, "type":"f", }
+,{"id":"perf_event_pid", "file":"kernel/perf_event.c", "line":3389, "type":"c", "scope_line":3366, "scope_name":"perf_prepare_sample", }
+,{"id":"perf_event_pid", "file":"kernel/perf_event.c", "line":3486, "type":"c", "scope_line":3481, "scope_name":"perf_event_read_event", }
+,{"id":"perf_event_pid", "file":"kernel/perf_event.c", "line":3541, "type":"c", "scope_line":3528, "scope_name":"perf_event_task_output", }
+,{"id":"perf_event_pid", "file":"kernel/perf_event.c", "line":3542, "type":"c", "scope_line":3528, "scope_name":"perf_event_task_output", }
+,{"id":"perf_event_pid", "file":"kernel/perf_event.c", "line":3657, "type":"c", "scope_line":3647, "scope_name":"perf_event_comm_output", }
+,{"id":"perf_event_pid", "file":"kernel/perf_event.c", "line":3776, "type":"c", "scope_line":3766, "scope_name":"perf_event_mmap_output", }
+,{"id":"perf_event_print_debug", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1027, "type":"f", }
+,{"id":"perf_event_print_debug", "file":"arch/x86/kernel/cpu/perf_event_intel.c", "line":735, "type":"c", "scope_line":710, "scope_name":"intel_pmu_handle_irq", }
+,{"id":"perf_event_print_debug", "file":"drivers/char/sysrq.c", "line":259, "type":"c", "scope_line":254, "scope_name":"sysrq_handle_showregs", }
+,{"id":"perf_event_print_debug", "file":"kernel/perf_event.c", "line":86, "type":"f", }
+,{"id":"perf_event_read", "file":"kernel/perf_event.c", "line":1762, "type":"f", }
+,{"id":"perf_event_read", "file":"kernel/perf_event.c", "line":2017, "type":"c", "scope_line":2008, "scope_name":"perf_event_read_value", }
+,{"id":"perf_event_read", "file":"kernel/perf_event.c", "line":2024, "type":"c", "scope_line":2008, "scope_name":"perf_event_read_value", }
+,{"id":"perf_event_read", "file":"kernel/perf_event.c", "line":2161, "type":"c", "scope_line":2159, "scope_name":"perf_event_reset", }
+,{"id":"perf_event_read_event", "file":"kernel/perf_event.c", "line":3481, "type":"f", }
+,{"id":"perf_event_read_event", "file":"kernel/perf_event.c", "line":5386, "type":"c", "scope_line":5379, "scope_name":"sync_child_event", }
+,{"id":"perf_event_read_format", "file":"include/linux/perf_event.h", "line":152, "type":"t", }
+,{"id":"perf_event_read_group", "file":"kernel/perf_event.c", "line":2034, "type":"f", }
+,{"id":"perf_event_read_group", "file":"kernel/perf_event.c", "line":2127, "type":"c", "scope_line":2108, "scope_name":"perf_read_hw", }
+,{"id":"perf_event_read_one", "file":"kernel/perf_event.c", "line":2084, "type":"f", }
+,{"id":"perf_event_read_one", "file":"kernel/perf_event.c", "line":2129, "type":"c", "scope_line":2108, "scope_name":"perf_read_hw", }
+,{"id":"perf_event_read_size", "file":"kernel/perf_event.c", "line":1983, "type":"f", }
+,{"id":"perf_event_read_size", "file":"kernel/perf_event.c", "line":2122, "type":"c", "scope_line":2108, "scope_name":"perf_read_hw", }
+,{"id":"perf_event_read_size", "file":"kernel/perf_event.c", "line":3427, "type":"c", "scope_line":3366, "scope_name":"perf_prepare_sample", }
+,{"id":"perf_event_read_size", "file":"kernel/perf_event.c", "line":3486, "type":"c", "scope_line":3481, "scope_name":"perf_event_read_event", }
+,{"id":"perf_event_read_value", "file":"kernel/perf_event.c", "line":2008, "type":"f", }
+,{"id":"perf_event_read_value", "file":"kernel/perf_event.c", "line":2044, "type":"c", "scope_line":2034, "scope_name":"perf_event_read_group", }
+,{"id":"perf_event_read_value", "file":"kernel/perf_event.c", "line":2065, "type":"c", "scope_line":2034, "scope_name":"perf_event_read_group", }
+,{"id":"perf_event_read_value", "file":"kernel/perf_event.c", "line":2091, "type":"c", "scope_line":2084, "scope_name":"perf_event_read_one", }
+,{"id":"perf_event_refresh", "file":"kernel/perf_event.c", "line":1068, "type":"f", }
+,{"id":"perf_event_refresh", "file":"kernel/perf_event.c", "line":2276, "type":"c", "scope_line":2258, "scope_name":"perf_ioctl", }
+,{"id":"perf_event_release_kernel", "file":"kernel/hw_breakpoint.c", "line":493, "type":"c", "scope_line":489, "scope_name":"unregister_hw_breakpoint", }
+,{"id":"perf_event_release_kernel", "file":"kernel/perf_event.c", "line":1930, "type":"f", }
+,{"id":"perf_event_release_kernel", "file":"kernel/perf_event.c", "line":1980, "type":"c", "scope_line":1974, "scope_name":"perf_release", }
+,{"id":"perf_event_remove_from_context", "file":"kernel/perf_event.c", "line":530, "type":"f", }
+,{"id":"perf_event_remove_from_context", "file":"kernel/perf_event.c", "line":5421, "type":"c", "scope_line":5414, "scope_name":"__perf_event_exit_task", }
+,{"id":"perf_event_reset", "file":"kernel/perf_event.c", "line":2159, "type":"f", }
+,{"id":"perf_event_sample_format", "file":"include/linux/perf_event.h", "line":116, "type":"t", }
+,{"id":"perf_event_set_filter", "file":"kernel/perf_event.c", "line":2301, "type":"c", "scope_line":2258, "scope_name":"perf_ioctl", }
+,{"id":"perf_event_set_filter", "file":"kernel/perf_event.c", "line":4680, "type":"f", }
+,{"id":"perf_event_set_output", "file":"kernel/perf_event.c", "line":2293, "type":"c", "scope_line":2258, "scope_name":"perf_ioctl", }
+,{"id":"perf_event_set_output", "file":"kernel/perf_event.c", "line":5033, "type":"f", }
+,{"id":"perf_event_set_output", "file":"kernel/perf_event.c", "line":5181, "type":"c", "scope_line":5091, "scope_name":"sys_perf_event_open", }
+,{"id":"perf_event_start", "file":"kernel/perf_event.c", "line":1535, "type":"f", }
+,{"id":"perf_event_start", "file":"kernel/perf_event.c", "line":1565, "type":"c", "scope_line":1543, "scope_name":"perf_adjust_period", }
+,{"id":"perf_event_stop", "file":"kernel/perf_event.c", "line":1527, "type":"f", }
+,{"id":"perf_event_stop", "file":"kernel/perf_event.c", "line":1563, "type":"c", "scope_line":1543, "scope_name":"perf_adjust_period", }
+,{"id":"perf_event_sync_stat", "file":"kernel/perf_event.c", "line":1186, "type":"f", }
+,{"id":"perf_event_sync_stat", "file":"kernel/perf_event.c", "line":1264, "type":"c", "scope_line":1223, "scope_name":"perf_event_task_sched_out", }
+,{"id":"perf_event_sysfs_init", "file":"kernel/perf_event.c", "line":5890, "type":"f", }
+,{"id":"perf_event_task", "file":"kernel/perf_event.c", "line":3594, "type":"f", }
+,{"id":"perf_event_task", "file":"kernel/perf_event.c", "line":3627, "type":"c", "scope_line":3625, "scope_name":"perf_event_fork", }
+,{"id":"perf_event_task", "file":"kernel/perf_event.c", "line":5445, "type":"c", "scope_line":5438, "scope_name":"perf_event_exit_task", }
+,{"id":"perf_event_task", "file":"kernel/perf_event.c", "line":5480, "type":"c", "scope_line":5438, "scope_name":"perf_event_exit_task", }
+,{"id":"perf_event_task_ctx", "file":"kernel/perf_event.c", "line":3567, "type":"f", }
+,{"id":"perf_event_task_ctx", "file":"kernel/perf_event.c", "line":3585, "type":"c", "scope_line":3578, "scope_name":"perf_event_task_event", }
+,{"id":"perf_event_task_ctx", "file":"kernel/perf_event.c", "line":3589, "type":"c", "scope_line":3578, "scope_name":"perf_event_task_event", }
+,{"id":"perf_event_task_disable", "file":"kernel/perf_event.c", "line":2327, "type":"f", }
+,{"id":"perf_event_task_disable", "file":"kernel/sys.c", "line":1679, "type":"c", "scope_line":1582, "scope_name":"sys_prctl", }
+,{"id":"perf_event_task_enable", "file":"kernel/perf_event.c", "line":2315, "type":"f", }
+,{"id":"perf_event_task_enable", "file":"kernel/sys.c", "line":1682, "type":"c", "scope_line":1582, "scope_name":"sys_prctl", }
+,{"id":"perf_event_task_event", "file":"kernel/perf_event.c", "line":3578, "type":"f", }
+,{"id":"perf_event_task_event", "file":"kernel/perf_event.c", "line":3622, "type":"c", "scope_line":3594, "scope_name":"perf_event_task", }
+,{"id":"perf_event_task_match", "file":"kernel/perf_event.c", "line":3552, "type":"f", }
+,{"id":"perf_event_task_match", "file":"kernel/perf_event.c", "line":3573, "type":"c", "scope_line":3567, "scope_name":"perf_event_task_ctx", }
+,{"id":"perf_event_task_output", "file":"kernel/perf_event.c", "line":3528, "type":"f", }
+,{"id":"perf_event_task_output", "file":"kernel/perf_event.c", "line":3574, "type":"c", "scope_line":3567, "scope_name":"perf_event_task_ctx", }
+,{"id":"perf_event_task_sched_in", "file":"kernel/perf_event.c", "line":1421, "type":"f", }
+,{"id":"perf_event_task_sched_in", "file":"kernel/perf_event.c", "line":1725, "type":"c", "scope_line":1688, "scope_name":"perf_event_enable_on_exec", }
+,{"id":"perf_event_task_sched_in", "file":"kernel/sched.c", "line":2754, "type":"c", "scope_line":2730, "scope_name":"finish_task_switch", }
+,{"id":"perf_event_task_sched_out", "file":"kernel/perf_event.c", "line":1223, "type":"f", }
+,{"id":"perf_event_task_sched_out", "file":"kernel/sched.c", "line":3800, "type":"c", "scope_line":3742, "scope_name":"schedule", }
+,{"id":"perf_event_task_tick", "file":"kernel/perf_event.c", "line":1629, "type":"f", }
+,{"id":"perf_event_task_tick", "file":"kernel/sched.c", "line":3587, "type":"c", "scope_line":3573, "scope_name":"scheduler_tick", }
+,{"id":"perf_event_tid", "file":"kernel/perf_event.c", "line":3212, "type":"f", }
+,{"id":"perf_event_tid", "file":"kernel/perf_event.c", "line":3390, "type":"c", "scope_line":3366, "scope_name":"perf_prepare_sample", }
+,{"id":"perf_event_tid", "file":"kernel/perf_event.c", "line":3486, "type":"c", "scope_line":3481, "scope_name":"perf_event_read_event", }
+,{"id":"perf_event_tid", "file":"kernel/perf_event.c", "line":3544, "type":"c", "scope_line":3528, "scope_name":"perf_event_task_output", }
+,{"id":"perf_event_tid", "file":"kernel/perf_event.c", "line":3545, "type":"c", "scope_line":3528, "scope_name":"perf_event_task_output", }
+,{"id":"perf_event_tid", "file":"kernel/perf_event.c", "line":3658, "type":"c", "scope_line":3647, "scope_name":"perf_event_comm_output", }
+,{"id":"perf_event_tid", "file":"kernel/perf_event.c", "line":3777, "type":"c", "scope_line":3766, "scope_name":"perf_event_mmap_output", }
+,{"id":"perf_event_type", "file":"include/linux/perf_event.h", "line":327, "type":"t", }
+,];
+xr_frag_insert('t/12/56a54ed7f6787a0b20feb2fa7ade002459707c.xr', __xr_tmp);

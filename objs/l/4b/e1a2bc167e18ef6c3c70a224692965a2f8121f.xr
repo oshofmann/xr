@@ -1,0 +1,12 @@
+var __xr_tmp = [
+"<span class=\"ts\"/>return (struct <a class=\"id\" href=\"#nlattr\">nlattr</a> *) ((char *) <a class=\"id\" href=\"#rtnh\">rtnh</a> + <a class=\"id\" href=\"#NLA_ALIGN\">NLA_ALIGN</a>(sizeof(*<a class=\"id\" href=\"#rtnh\">rtnh</a>)));", 
+"}", 
+"", 
+"static <a class=\"id\" href=\"#inline\">inline</a> int <a class=\"id\" href=\"#rtnh_attrlen\">rtnh_attrlen</a>(const struct <a class=\"id\" href=\"#rtnexthop\">rtnexthop</a> *<a class=\"id\" href=\"#rtnh\">rtnh</a>)", 
+"{", 
+"<span class=\"ts\"/>return <a class=\"id\" href=\"#rtnh\">rtnh</a>-><a class=\"id\" href=\"#rtnh_len\">rtnh_len</a> - <a class=\"id\" href=\"#NLA_ALIGN\">NLA_ALIGN</a>(sizeof(*<a class=\"id\" href=\"#rtnh\">rtnh</a>));", 
+"}", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+];
+xr_frag_insert('l/4b/e1a2bc167e18ef6c3c70a224692965a2f8121f.xr', __xr_tmp);

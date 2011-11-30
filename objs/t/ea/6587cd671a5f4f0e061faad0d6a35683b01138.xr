@@ -1,0 +1,330 @@
+var __xr_tmp = [
+{"id":"nf_afinfo", "file":"include/linux/netfilter.h", "line":251, "type":"s", }
+,{"id":"nf_afinfo", "file":"include/linux/netfilter.h", "line":268, "type":"v", }
+,{"id":"nf_br_hook_priorities", "file":"include/linux/netfilter_bridge.h", "line":29, "type":"t", }
+,{"id":"nf_bridge", "file":"include/linux/skbuff.h", "line":370, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"nf_bridge_copy_header", "file":"include/linux/netfilter_bridge.h", "line":55, "type":"c", "scope_line":51, "scope_name":"nf_bridge_maybe_copy_header", }
+,{"id":"nf_bridge_encap_header_len", "file":"include/linux/netfilter_bridge.h", "line":59, "type":"f", }
+,{"id":"nf_bridge_encap_header_len", "file":"include/linux/netfilter_bridge.h", "line":97, "type":"c", "scope_line":94, "scope_name":"nf_bridge_pad", }
+,{"id":"nf_bridge_get", "file":"include/linux/skbuff.h", "line":2069, "type":"f", }
+,{"id":"nf_bridge_get", "file":"include/linux/skbuff.h", "line":2101, "type":"c", "scope_line":2090, "scope_name":"__nf_copy", }
+,{"id":"nf_bridge_info", "file":"include/linux/skbuff.h", "line":105, "type":"s", }
+,{"id":"nf_bridge_maybe_copy_header", "file":"include/linux/netfilter_bridge.h", "line":51, "type":"f", }
+,{"id":"nf_bridge_mtu_reduction", "file":"include/linux/netfilter_bridge.h", "line":71, "type":"f", }
+,{"id":"nf_bridge_mtu_reduction", "file":"net/ipv4/ip_output.c", "line":479, "type":"c", "scope_line":443, "scope_name":"ip_fragment", }
+,{"id":"nf_bridge_pad", "file":"include/linux/netfilter_bridge.h", "line":94, "type":"f", }
+,{"id":"nf_bridge_pad", "file":"net/ipv4/ip_output.c", "line":595, "type":"c", "scope_line":443, "scope_name":"ip_fragment", }
+,{"id":"nf_bridge_put", "file":"include/linux/skbuff.h", "line":2064, "type":"f", }
+,{"id":"nf_bridge_put", "file":"include/linux/skbuff.h", "line":2084, "type":"c", "scope_line":2075, "scope_name":"nf_reset", }
+,{"id":"nf_bridge_put", "file":"include/linux/skbuff.h", "line":2112, "type":"c", "scope_line":2105, "scope_name":"nf_copy", }
+,{"id":"nf_bridge_put", "file":"net/core/skbuff.c", "line":399, "type":"c", "scope_line":384, "scope_name":"skb_release_head_state", }
+,{"id":"nf_checksum", "file":"include/linux/netfilter.h", "line":274, "type":"f", }
+,{"id":"nf_checksum_partial", "file":"include/linux/netfilter.h", "line":289, "type":"f", }
+,{"id":"nf_conntrack", "file":"include/linux/skbuff.h", "line":99, "type":"s", }
+,{"id":"nf_conntrack_cachep", "file":"include/net/netns/conntrack.h", "line":15, "type":"m", "scope_line":11, "scope_name":"struct netns_ct", }
+,{"id":"nf_conntrack_destroy", "file":"include/linux/skbuff.h", "line":2045, "type":"c", "scope_line":2042, "scope_name":"nf_conntrack_put", }
+,{"id":"nf_conntrack_destroy", "file":"net/netfilter/core.c", "line":237, "type":"f", }
+,{"id":"nf_conntrack_get", "file":"include/linux/skbuff.h", "line":2047, "type":"f", }
+,{"id":"nf_conntrack_get", "file":"include/linux/skbuff.h", "line":2094, "type":"c", "scope_line":2090, "scope_name":"__nf_copy", }
+,{"id":"nf_conntrack_get_reasm", "file":"include/linux/skbuff.h", "line":2052, "type":"f", }
+,{"id":"nf_conntrack_get_reasm", "file":"include/linux/skbuff.h", "line":2097, "type":"c", "scope_line":2090, "scope_name":"__nf_copy", }
+,{"id":"nf_conntrack_put", "file":"include/linux/skbuff.h", "line":2042, "type":"f", }
+,{"id":"nf_conntrack_put", "file":"include/linux/skbuff.h", "line":2078, "type":"c", "scope_line":2075, "scope_name":"nf_reset", }
+,{"id":"nf_conntrack_put", "file":"include/linux/skbuff.h", "line":2108, "type":"c", "scope_line":2105, "scope_name":"nf_copy", }
+,{"id":"nf_conntrack_put", "file":"net/core/skbuff.c", "line":395, "type":"c", "scope_line":384, "scope_name":"skb_release_head_state", }
+,{"id":"nf_conntrack_put_reasm", "file":"include/linux/skbuff.h", "line":2057, "type":"f", }
+,{"id":"nf_conntrack_put_reasm", "file":"include/linux/skbuff.h", "line":2080, "type":"c", "scope_line":2075, "scope_name":"nf_reset", }
+,{"id":"nf_conntrack_put_reasm", "file":"include/linux/skbuff.h", "line":2109, "type":"c", "scope_line":2105, "scope_name":"nf_copy", }
+,{"id":"nf_conntrack_put_reasm", "file":"net/core/skbuff.c", "line":396, "type":"c", "scope_line":384, "scope_name":"skb_release_head_state", }
+,{"id":"nf_copy", "file":"include/linux/skbuff.h", "line":2105, "type":"f", }
+,{"id":"nf_copy", "file":"net/ipv4/ip_output.c", "line":425, "type":"c", "scope_line":409, "scope_name":"ip_copy_metadata", }
+,{"id":"nf_copy", "file":"net/ipv6/ip6_output.c", "line":557, "type":"c", "scope_line":544, "scope_name":"ip6_copy_metadata", }
+,{"id":"nf_ct_attach", "file":"net/ipv4/icmp.c", "line":322, "type":"c", "scope_line":310, "scope_name":"icmp_glue_bits", }
+,{"id":"nf_ct_attach", "file":"net/ipv6/icmp.c", "line":273, "type":"c", "scope_line":263, "scope_name":"icmpv6_getfrag", }
+,{"id":"nf_ct_attach", "file":"net/netfilter/core.c", "line":220, "type":"f", }
+,{"id":"nf_ct_destroy", "file":"include/linux/netfilter.h", "line":360, "type":"v", }
+,{"id":"nf_get_afinfo", "file":"include/linux/netfilter.h", "line":269, "type":"f", }
+,{"id":"nf_get_afinfo", "file":"include/linux/netfilter.h", "line":282, "type":"c", "scope_line":274, "scope_name":"nf_checksum", }
+,{"id":"nf_get_afinfo", "file":"include/linux/netfilter.h", "line":298, "type":"c", "scope_line":289, "scope_name":"nf_checksum_partial", }
+,{"id":"nf_get_afinfo", "file":"net/netfilter/nf_queue.c", "line":134, "type":"c", "scope_line":110, "scope_name":"__nf_queue", }
+,{"id":"nf_get_afinfo", "file":"net/netfilter/nf_queue.c", "line":252, "type":"c", "scope_line":235, "scope_name":"nf_reinject", }
+,{"id":"nf_getsockopt", "file":"net/ipv4/ip_sockglue.c", "line":1291, "type":"c", "scope_line":1275, "scope_name":"ip_getsockopt", }
+,{"id":"nf_getsockopt", "file":"net/ipv6/ipv6_sockglue.c", "line":1208, "type":"c", "scope_line":1187, "scope_name":"ipv6_getsockopt", }
+,{"id":"nf_getsockopt", "file":"net/netfilter/nf_sockopt.c", "line":122, "type":"f", }
+,{"id":"nf_hook", "file":"include/linux/netfilter.h", "line":175, "type":"f", }
+,{"id":"nf_hook", "file":"net/ipv4/ip_output.c", "line":100, "type":"c", "scope_line":94, "scope_name":"__ip_local_out", }
+,{"id":"nf_hook", "file":"net/ipv6/ip6_output.c", "line":70, "type":"c", "scope_line":61, "scope_name":"__ip6_local_out", }
+,{"id":"nf_hook", "file":"net/xfrm/xfrm_output.c", "line":131, "type":"c", "scope_line":119, "scope_name":"xfrm_output_resume", }
+,{"id":"nf_hook_mutex", "file":"net/netfilter/core.c", "line":57, "type":"v", }
+,{"id":"nf_hook_ops", "file":"include/linux/netfilter.h", "line":96, "type":"s", }
+,{"id":"nf_hook_slow", "file":"include/linux/netfilter.h", "line":172, "type":"c", "scope_line":162, "scope_name":"nf_hook_thresh", }
+,{"id":"nf_hook_slow", "file":"net/netfilter/core.c", "line":159, "type":"f", }
+,{"id":"nf_hook_thresh", "file":"include/linux/netfilter.h", "line":162, "type":"f", }
+,{"id":"nf_hook_thresh", "file":"include/linux/netfilter.h", "line":179, "type":"c", "scope_line":175, "scope_name":"nf_hook", }
+,{"id":"nf_hook_thresh", "file":"include/linux/netfilter.h", "line":204, "type":"c", "scope_line":199, "scope_name":"NF_HOOK_THRESH", }
+,{"id":"nf_hook_thresh", "file":"include/linux/netfilter.h", "line":217, "type":"c", "scope_line":210, "scope_name":"NF_HOOK_COND", }
+,{"id":"nf_hookfn", "file":"include/linux/netfilter.h", "line":90, "type":"t", }
+,{"id":"nf_hooks", "file":"include/linux/netfilter.h", "line":149, "type":"v", }
+,{"id":"nf_inet_addr", "file":"include/linux/netfilter.h", "line":63, "type":"u", }
+,{"id":"nf_inet_addr_cmp", "file":"include/linux/netfilter.h", "line":74, "type":"f", }
+,{"id":"nf_inet_hooks", "file":"include/linux/netfilter.h", "line":44, "type":"t", }
+,{"id":"nf_ip6_afinfo", "file":"net/ipv6/netfilter.c", "line":159, "type":"v", }
+,{"id":"nf_ip6_checksum", "file":"net/ipv6/netfilter.c", "line":100, "type":"f", }
+,{"id":"nf_ip6_checksum", "file":"net/ipv6/netfilter.c", "line":144, "type":"c", "scope_line":133, "scope_name":"nf_ip6_checksum_partial", }
+,{"id":"nf_ip6_checksum_partial", "file":"net/ipv6/netfilter.c", "line":133, "type":"f", }
+,{"id":"nf_ip6_hook_priorities", "file":"include/linux/netfilter_ipv6.h", "line":59, "type":"t", }
+,{"id":"nf_ip6_reroute", "file":"net/ipv6/netfilter.c", "line":79, "type":"f", }
+,{"id":"nf_ip6_route", "file":"net/ipv6/netfilter.c", "line":94, "type":"f", }
+,{"id":"nf_ip6_saveroute", "file":"net/ipv6/netfilter.c", "line":65, "type":"f", }
+,{"id":"nf_ip_afinfo", "file":"net/ipv4/netfilter.c", "line":225, "type":"v", }
+,{"id":"nf_ip_checksum", "file":"net/ipv4/netfilter.c", "line":168, "type":"f", }
+,{"id":"nf_ip_checksum", "file":"net/ipv4/netfilter.c", "line":209, "type":"c", "scope_line":199, "scope_name":"nf_ip_checksum_partial", }
+,{"id":"nf_ip_checksum_partial", "file":"net/ipv4/netfilter.c", "line":199, "type":"f", }
+,{"id":"nf_ip_hook_priorities", "file":"include/linux/netfilter_ipv4.h", "line":54, "type":"t", }
+,{"id":"nf_ip_reroute", "file":"net/ipv4/netfilter.c", "line":151, "type":"f", }
+,{"id":"nf_ip_route", "file":"net/ipv4/netfilter.c", "line":220, "type":"f", }
+,{"id":"nf_ip_saveroute", "file":"net/ipv4/netfilter.c", "line":136, "type":"f", }
+,{"id":"nf_iterate", "file":"net/netfilter/core.c", "line":115, "type":"f", }
+,{"id":"nf_iterate", "file":"net/netfilter/core.c", "line":174, "type":"c", "scope_line":159, "scope_name":"nf_hook_slow", }
+,{"id":"nf_iterate", "file":"net/netfilter/nf_queue.c", "line":259, "type":"c", "scope_line":235, "scope_name":"nf_reinject", }
+,{"id":"nf_log_bind_pf", "file":"net/netfilter/nf_log.c", "line":86, "type":"f", }
+,{"id":"nf_log_dir_header", "file":"net/netfilter/nf_log.c", "line":221, "type":"v", }
+,{"id":"nf_log_mutex", "file":"net/netfilter/nf_log.c", "line":21, "type":"v", }
+,{"id":"nf_log_packet", "file":"net/netfilter/nf_log.c", "line":107, "type":"f", }
+,{"id":"nf_log_proc_dostring", "file":"net/netfilter/nf_log.c", "line":223, "type":"f", }
+,{"id":"nf_log_register", "file":"net/netfilter/nf_log.c", "line":36, "type":"f", }
+,{"id":"nf_log_sysctl_fnames", "file":"net/netfilter/nf_log.c", "line":219, "type":"v", }
+,{"id":"nf_log_sysctl_path", "file":"net/netfilter/nf_log.c", "line":212, "type":"v", }
+,{"id":"nf_log_sysctl_table", "file":"net/netfilter/nf_log.c", "line":220, "type":"v", }
+,{"id":"nf_log_unbind_pf", "file":"net/netfilter/nf_log.c", "line":239, "type":"c", "scope_line":223, "scope_name":"nf_log_proc_dostring", }
+,{"id":"nf_log_unbind_pf", "file":"net/netfilter/nf_log.c", "line":99, "type":"f", }
+,{"id":"nf_log_unregister", "file":"net/netfilter/nf_log.c", "line":67, "type":"f", }
+,{"id":"nf_logfn", "file":"include/net/netfilter/nf_log.h", "line":33, "type":"t", }
+,{"id":"nf_logger", "file":"include/net/netfilter/nf_log.h", "line":41, "type":"s", }
+,{"id":"nf_loggers", "file":"net/netfilter/nf_log.c", "line":19, "type":"v", }
+,{"id":"nf_loggers_l", "file":"net/netfilter/nf_log.c", "line":20, "type":"v", }
+,{"id":"nf_loginfo", "file":"include/net/netfilter/nf_log.h", "line":18, "type":"s", }
+,{"id":"nf_nat_decode_session", "file":"include/linux/netfilter.h", "line":312, "type":"f", }
+,{"id":"nf_nat_decode_session", "file":"net/xfrm/xfrm_policy.c", "line":2019, "type":"c", "scope_line":1996, "scope_name":"__xfrm_policy_check", }
+,{"id":"nf_net_ipv4_netfilter_sysctl_path", "file":"net/ipv4/netfilter.c", "line":249, "type":"v", }
+,{"id":"nf_net_netfilter_sysctl_path", "file":"net/netfilter/core.c", "line":276, "type":"v", }
+,{"id":"nf_queue", "file":"net/netfilter/core.c", "line":182, "type":"c", "scope_line":159, "scope_name":"nf_hook_slow", }
+,{"id":"nf_queue", "file":"net/netfilter/nf_queue.c", "line":195, "type":"f", }
+,{"id":"nf_queue_entry", "file":"include/net/netfilter/nf_queue.h", "line":5, "type":"s", }
+,{"id":"nf_queue_entry_release_refs", "file":"net/netfilter/nf_queue.c", "line":181, "type":"c", "scope_line":110, "scope_name":"__nf_queue", }
+,{"id":"nf_queue_entry_release_refs", "file":"net/netfilter/nf_queue.c", "line":243, "type":"c", "scope_line":235, "scope_name":"nf_reinject", }
+,{"id":"nf_queue_entry_release_refs", "file":"net/netfilter/nf_queue.c", "line":85, "type":"f", }
+,{"id":"nf_queue_entry_reroute", "file":"include/net/netfilter/nf_queue.h", "line":18, "type":"d", }
+,{"id":"nf_queue_handler", "file":"include/net/netfilter/nf_queue.h", "line":21, "type":"s", }
+,{"id":"nf_register_afinfo", "file":"net/ipv4/netfilter.c", "line":237, "type":"c", "scope_line":235, "scope_name":"ipv4_netfilter_init", }
+,{"id":"nf_register_afinfo", "file":"net/ipv6/netfilter.c", "line":171, "type":"c", "scope_line":169, "scope_name":"ipv6_netfilter_init", }
+,{"id":"nf_register_afinfo", "file":"net/netfilter/core.c", "line":33, "type":"f", }
+,{"id":"nf_register_hook", "file":"net/netfilter/core.c", "line":59, "type":"f", }
+,{"id":"nf_register_hook", "file":"net/netfilter/core.c", "line":93, "type":"c", "scope_line":87, "scope_name":"nf_register_hooks", }
+,{"id":"nf_register_hooks", "file":"net/netfilter/core.c", "line":87, "type":"f", }
+,{"id":"nf_register_hooks", "file":"security/selinux/hooks.c", "line":5678, "type":"c", "scope_line":5669, "scope_name":"selinux_nf_ip_init", }
+,{"id":"nf_register_hooks", "file":"security/selinux/hooks.c", "line":5683, "type":"c", "scope_line":5669, "scope_name":"selinux_nf_ip_init", }
+,{"id":"nf_register_queue_handler", "file":"net/netfilter/nf_queue.c", "line":27, "type":"f", }
+,{"id":"nf_register_sockopt", "file":"net/netfilter/nf_sockopt.c", "line":24, "type":"f", }
+,{"id":"nf_reinject", "file":"net/netfilter/nf_queue.c", "line":235, "type":"f", }
+,{"id":"nf_reset", "file":"drivers/net/virtio_net.c", "line":592, "type":"c", "scope_line":560, "scope_name":"start_xmit", }
+,{"id":"nf_reset", "file":"include/linux/skbuff.h", "line":2075, "type":"f", }
+,{"id":"nf_reset", "file":"include/net/dst.h", "line":247, "type":"c", "scope_line":238, "scope_name":"skb_tunnel_rx", }
+,{"id":"nf_reset", "file":"net/core/dev.c", "line":1485, "type":"c", "scope_line":1482, "scope_name":"dev_forward_skb", }
+,{"id":"nf_reset", "file":"net/core/dev.c", "line":1690, "type":"c", "scope_line":1685, "scope_name":"skb_set_dev", }
+,{"id":"nf_reset", "file":"net/ipv4/ip_input.c", "line":224, "type":"c", "scope_line":188, "scope_name":"ip_local_deliver_finish", }
+,{"id":"nf_reset", "file":"net/ipv4/ipmr.c", "line":1496, "type":"c", "scope_line":1473, "scope_name":"ip_encap", }
+,{"id":"nf_reset", "file":"net/ipv4/ipmr.c", "line":1751, "type":"c", "scope_line":1718, "scope_name":"ip_mr_input", }
+,{"id":"nf_reset", "file":"net/ipv4/raw.c", "line":308, "type":"c", "scope_line":301, "scope_name":"raw_rcv", }
+,{"id":"nf_reset", "file":"net/ipv4/tcp_ipv4.c", "line":1676, "type":"c", "scope_line":1620, "scope_name":"tcp_v4_rcv", }
+,{"id":"nf_reset", "file":"net/ipv4/udp.c", "line":1349, "type":"c", "scope_line":1338, "scope_name":"udp_queue_rcv_skb", }
+,{"id":"nf_reset", "file":"net/ipv4/udp.c", "line":1621, "type":"c", "scope_line":1567, "scope_name":"__udp4_lib_rcv", }
+,{"id":"nf_reset", "file":"net/ipv6/ip6_input.c", "line":194, "type":"c", "scope_line":161, "scope_name":"ip6_input_finish", }
+,{"id":"nf_reset", "file":"net/ipv6/raw.c", "line":214, "type":"c", "scope_line":154, "scope_name":"ipv6_raw_deliver", }
+,{"id":"nf_reset", "file":"net/packet/af_packet.c", "line":377, "type":"c", "scope_line":339, "scope_name":"packet_rcv_spkt", }
+,{"id":"nf_reset", "file":"net/packet/af_packet.c", "line":619, "type":"c", "scope_line":532, "scope_name":"packet_rcv", }
+,{"id":"nf_reset", "file":"net/xfrm/xfrm_input.c", "line":251, "type":"c", "scope_line":105, "scope_name":"xfrm_input", }
+,{"id":"nf_reset", "file":"net/xfrm/xfrm_output.c", "line":122, "type":"c", "scope_line":119, "scope_name":"xfrm_output_resume", }
+,{"id":"nf_setsockopt", "file":"net/ipv4/ip_sockglue.c", "line":1012, "type":"c", "scope_line":996, "scope_name":"ip_setsockopt", }
+,{"id":"nf_setsockopt", "file":"net/ipv6/ipv6_sockglue.c", "line":815, "type":"c", "scope_line":798, "scope_name":"ipv6_setsockopt", }
+,{"id":"nf_setsockopt", "file":"net/netfilter/nf_sockopt.c", "line":115, "type":"f", }
+,{"id":"nf_sockopt", "file":"net/netfilter/nf_sockopt.c", "line":118, "type":"c", "scope_line":115, "scope_name":"nf_setsockopt", }
+,{"id":"nf_sockopt", "file":"net/netfilter/nf_sockopt.c", "line":125, "type":"c", "scope_line":122, "scope_name":"nf_getsockopt", }
+,{"id":"nf_sockopt", "file":"net/netfilter/nf_sockopt.c", "line":96, "type":"f", }
+,{"id":"nf_sockopt_find", "file":"net/netfilter/nf_sockopt.c", "line":102, "type":"c", "scope_line":96, "scope_name":"nf_sockopt", }
+,{"id":"nf_sockopt_find", "file":"net/netfilter/nf_sockopt.c", "line":136, "type":"c", "scope_line":130, "scope_name":"compat_nf_sockopt", }
+,{"id":"nf_sockopt_find", "file":"net/netfilter/nf_sockopt.c", "line":63, "type":"f", }
+,{"id":"nf_sockopt_mutex", "file":"net/netfilter/nf_sockopt.c", "line":14, "type":"v", }
+,{"id":"nf_sockopt_ops", "file":"include/linux/netfilter.h", "line":108, "type":"s", }
+,{"id":"nf_sockopts", "file":"net/netfilter/nf_sockopt.c", "line":15, "type":"v", }
+,{"id":"nf_trace", "file":"include/linux/skbuff.h", "line":360, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"nf_unregister_afinfo", "file":"net/ipv4/netfilter.c", "line":242, "type":"c", "scope_line":240, "scope_name":"ipv4_netfilter_fini", }
+,{"id":"nf_unregister_afinfo", "file":"net/ipv6/netfilter.c", "line":179, "type":"c", "scope_line":177, "scope_name":"ipv6_netfilter_fini", }
+,{"id":"nf_unregister_afinfo", "file":"net/netfilter/core.c", "line":46, "type":"f", }
+,{"id":"nf_unregister_hook", "file":"net/netfilter/core.c", "line":111, "type":"c", "scope_line":106, "scope_name":"nf_unregister_hooks", }
+,{"id":"nf_unregister_hook", "file":"net/netfilter/core.c", "line":77, "type":"f", }
+,{"id":"nf_unregister_hooks", "file":"net/netfilter/core.c", "line":101, "type":"c", "scope_line":87, "scope_name":"nf_register_hooks", }
+,{"id":"nf_unregister_hooks", "file":"net/netfilter/core.c", "line":106, "type":"f", }
+,{"id":"nf_unregister_hooks", "file":"security/selinux/hooks.c", "line":5699, "type":"c", "scope_line":5695, "scope_name":"selinux_nf_ip_exit", }
+,{"id":"nf_unregister_hooks", "file":"security/selinux/hooks.c", "line":5701, "type":"c", "scope_line":5695, "scope_name":"selinux_nf_ip_exit", }
+,{"id":"nf_unregister_queue_handler", "file":"net/netfilter/nf_queue.c", "line":50, "type":"f", }
+,{"id":"nf_unregister_queue_handlers", "file":"net/netfilter/nf_queue.c", "line":70, "type":"f", }
+,{"id":"nf_unregister_sockopt", "file":"net/netfilter/nf_sockopt.c", "line":55, "type":"f", }
+,{"id":"nfct", "file":"include/linux/skbuff.h", "line":366, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"nfct_reasm", "file":"include/linux/skbuff.h", "line":367, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"nfctinfo", "file":"include/linux/skbuff.h", "line":355, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"nfds", "file":"include/linux/thread_info.h", "line":45, "type":"m", "scope_line":18, "scope_name":"struct restart_block", }
+,{"id":"nflog_file_ops", "file":"net/netfilter/nf_log.c", "line":200, "type":"v", }
+,{"id":"nflog_open", "file":"net/netfilter/nf_log.c", "line":195, "type":"f", }
+,{"id":"nflog_seq_ops", "file":"net/netfilter/nf_log.c", "line":188, "type":"v", }
+,{"id":"nfnl", "file":"include/net/net_namespace.h", "line":84, "type":"m", "scope_line":35, "scope_name":"struct net", }
+,{"id":"nfnl_stash", "file":"include/net/net_namespace.h", "line":85, "type":"m", "scope_line":35, "scope_name":"struct net", }
+,{"id":"nfqueue_file_ops", "file":"net/netfilter/nf_queue.c", "line":340, "type":"v", }
+,{"id":"nfqueue_open", "file":"net/netfilter/nf_queue.c", "line":335, "type":"f", }
+,{"id":"nfqueue_seq_ops", "file":"net/netfilter/nf_queue.c", "line":328, "type":"v", }
+,{"id":"nframes", "file":"block/compat_ioctl.c", "line":104, "type":"m", "scope_line":101, "scope_name":"struct compat_cdrom_read_audio", }
+,{"id":"nframes", "file":"include/linux/cdrom.h", "line":242, "type":"m", "scope_line":238, "scope_name":"struct cdrom_read_audio", }
+,{"id":"nfs", "file":"include/linux/ncp.h", "line":159, "type":"m", "scope_line":130, "scope_name":"struct nw_info_struct", }
+,{"id":"nfs2", "file":"include/linux/nfs_xdr.h", "line":42, "type":"m", "scope_line":30, "scope_name":"struct nfs_fattr", }
+,{"id":"nfs2_fh", "file":"include/linux/nfs2.h", "line":40, "type":"s", }
+,{"id":"nfs2_fsstat", "file":"include/linux/nfs_xdr.h", "line":128, "type":"s", }
+,{"id":"nfs2_ftype", "file":"include/linux/nfs2.h", "line":28, "type":"t", }
+,{"id":"nfs3", "file":"include/linux/nfs_xdr.h", "line":45, "type":"m", "scope_line":30, "scope_name":"struct nfs_fattr", }
+,{"id":"nfs3_accessargs", "file":"include/linux/nfs_xdr.h", "line":550, "type":"s", }
+,{"id":"nfs3_accessres", "file":"include/linux/nfs_xdr.h", "line":620, "type":"s", }
+,{"id":"nfs3_createargs", "file":"include/linux/nfs_xdr.h", "line":555, "type":"s", }
+,{"id":"nfs3_createmode", "file":"include/linux/nfs3.h", "line":34, "type":"t", }
+,{"id":"nfs3_diropargs", "file":"include/linux/nfs_xdr.h", "line":544, "type":"s", }
+,{"id":"nfs3_diropres", "file":"include/linux/nfs_xdr.h", "line":614, "type":"s", }
+,{"id":"nfs3_fh", "file":"include/linux/nfs3.h", "line":62, "type":"s", }
+,{"id":"nfs3_ftype", "file":"include/linux/nfs3.h", "line":50, "type":"t", }
+,{"id":"nfs3_getaclargs", "file":"include/linux/nfs_xdr.h", "line":509, "type":"s", }
+,{"id":"nfs3_getaclres", "file":"include/linux/nfs_xdr.h", "line":648, "type":"s", }
+,{"id":"nfs3_linkargs", "file":"include/linux/nfs_xdr.h", "line":598, "type":"s", }
+,{"id":"nfs3_linkres", "file":"include/linux/nfs_xdr.h", "line":637, "type":"s", }
+,{"id":"nfs3_mkdirargs", "file":"include/linux/nfs_xdr.h", "line":564, "type":"s", }
+,{"id":"nfs3_mknodargs", "file":"include/linux/nfs_xdr.h", "line":580, "type":"s", }
+,{"id":"nfs3_readdirargs", "file":"include/linux/nfs_xdr.h", "line":605, "type":"s", }
+,{"id":"nfs3_readdirres", "file":"include/linux/nfs_xdr.h", "line":642, "type":"s", }
+,{"id":"nfs3_readlinkargs", "file":"include/linux/nfs_xdr.h", "line":625, "type":"s", }
+,{"id":"nfs3_renameargs", "file":"include/linux/nfs_xdr.h", "line":589, "type":"s", }
+,{"id":"nfs3_renameres", "file":"include/linux/nfs_xdr.h", "line":632, "type":"s", }
+,{"id":"nfs3_sattrargs", "file":"include/linux/nfs_xdr.h", "line":537, "type":"s", }
+,{"id":"nfs3_setaclargs", "file":"include/linux/nfs_xdr.h", "line":515, "type":"s", }
+,{"id":"nfs3_stable_how", "file":"include/linux/nfs.h", "line":165, "type":"t", }
+,{"id":"nfs3_symlinkargs", "file":"include/linux/nfs_xdr.h", "line":571, "type":"s", }
+,{"id":"nfs4_accessargs", "file":"include/linux/nfs_xdr.h", "line":661, "type":"s", }
+,{"id":"nfs4_accessres", "file":"include/linux/nfs_xdr.h", "line":668, "type":"s", }
+,{"id":"nfs4_ace", "file":"include/linux/nfs4.h", "line":156, "type":"s", }
+,{"id":"nfs4_acl", "file":"include/linux/nfs4.h", "line":164, "type":"s", }
+,{"id":"nfs4_acl", "file":"include/linux/nfs_fs.h", "line":185, "type":"m", "scope_line":110, "scope_name":"struct nfs_inode", }
+,{"id":"nfs4_acl_whotype", "file":"include/linux/nfs4.h", "line":146, "type":"t", }
+,{"id":"nfs4_change_info", "file":"include/linux/nfs_xdr.h", "line":142, "type":"s", }
+,{"id":"nfs4_channel_attrs", "file":"include/linux/nfs_xdr.h", "line":151, "type":"s", }
+,{"id":"nfs4_create_arg", "file":"include/linux/nfs_xdr.h", "line":676, "type":"s", }
+,{"id":"nfs4_create_res", "file":"include/linux/nfs_xdr.h", "line":696, "type":"s", }
+,{"id":"nfs4_delegreturnargs", "file":"include/linux/nfs_xdr.h", "line":322, "type":"s", }
+,{"id":"nfs4_delegreturnres", "file":"include/linux/nfs_xdr.h", "line":329, "type":"s", }
+,{"id":"nfs4_fl", "file":"include/linux/fs.h", "line":1079, "type":"m", "scope_line":1058, "scope_name":"struct file_lock", }
+,{"id":"nfs4_fs_location", "file":"include/linux/nfs_xdr.h", "line":876, "type":"s", }
+,{"id":"nfs4_fs_locations", "file":"include/linux/nfs_xdr.h", "line":883, "type":"s", }
+,{"id":"nfs4_fs_locations_arg", "file":"include/linux/nfs_xdr.h", "line":891, "type":"s", }
+,{"id":"nfs4_fs_locations_res", "file":"include/linux/nfs_xdr.h", "line":899, "type":"s", }
+,{"id":"nfs4_fsinfo_arg", "file":"include/linux/nfs_xdr.h", "line":705, "type":"s", }
+,{"id":"nfs4_fsinfo_res", "file":"include/linux/nfs_xdr.h", "line":711, "type":"s", }
+,{"id":"nfs4_get_lease_time_args", "file":"include/linux/nfs_xdr.h", "line":179, "type":"s", }
+,{"id":"nfs4_get_lease_time_res", "file":"include/linux/nfs_xdr.h", "line":183, "type":"s", }
+,{"id":"nfs4_getattr_arg", "file":"include/linux/nfs_xdr.h", "line":716, "type":"s", }
+,{"id":"nfs4_getattr_res", "file":"include/linux/nfs_xdr.h", "line":722, "type":"s", }
+,{"id":"nfs4_link_arg", "file":"include/linux/nfs_xdr.h", "line":728, "type":"s", }
+,{"id":"nfs4_link_res", "file":"include/linux/nfs_xdr.h", "line":736, "type":"s", }
+,{"id":"nfs4_lock_info", "file":"include/linux/nfs_fs_i.h", "line":20, "type":"s", }
+,{"id":"nfs4_lookup_arg", "file":"include/linux/nfs_xdr.h", "line":745, "type":"s", }
+,{"id":"nfs4_lookup_res", "file":"include/linux/nfs_xdr.h", "line":752, "type":"s", }
+,{"id":"nfs4_lookup_root_arg", "file":"include/linux/nfs_xdr.h", "line":759, "type":"s", }
+,{"id":"nfs4_mount_data", "file":"include/linux/nfs4_mount.h", "line":26, "type":"s", }
+,{"id":"nfs4_pathconf_arg", "file":"include/linux/nfs_xdr.h", "line":764, "type":"s", }
+,{"id":"nfs4_pathconf_res", "file":"include/linux/nfs_xdr.h", "line":770, "type":"s", }
+,{"id":"nfs4_pathname", "file":"include/linux/nfs_xdr.h", "line":870, "type":"s", }
+,{"id":"nfs4_readdir_arg", "file":"include/linux/nfs_xdr.h", "line":775, "type":"s", }
+,{"id":"nfs4_readdir_res", "file":"include/linux/nfs_xdr.h", "line":786, "type":"s", }
+,{"id":"nfs4_readlink", "file":"include/linux/nfs_xdr.h", "line":792, "type":"s", }
+,{"id":"nfs4_readlink_res", "file":"include/linux/nfs_xdr.h", "line":800, "type":"s", }
+,{"id":"nfs4_rename_arg", "file":"include/linux/nfs_xdr.h", "line":804, "type":"s", }
+,{"id":"nfs4_rename_res", "file":"include/linux/nfs_xdr.h", "line":813, "type":"s", }
+,{"id":"nfs4_sequence_args", "file":"include/linux/nfs_xdr.h", "line":165, "type":"s", }
+,{"id":"nfs4_sequence_res", "file":"include/linux/nfs_xdr.h", "line":171, "type":"s", }
+,{"id":"nfs4_server_caps_arg", "file":"include/linux/nfs_xdr.h", "line":851, "type":"s", }
+,{"id":"nfs4_server_caps_res", "file":"include/linux/nfs_xdr.h", "line":856, "type":"s", }
+,{"id":"nfs4_sessionid", "file":"include/linux/nfs4.h", "line":538, "type":"s", }
+,{"id":"nfs4_setclientid", "file":"include/linux/nfs_xdr.h", "line":823, "type":"s", }
+,{"id":"nfs4_setclientid_res", "file":"include/linux/nfs_xdr.h", "line":835, "type":"s", }
+,{"id":"nfs4_slot", "file":"include/linux/nfs_xdr.h", "line":161, "type":"s", }
+,{"id":"nfs4_stateid", "file":"include/linux/nfs4.h", "line":170, "type":"t", }
+,{"id":"nfs4_statfs_arg", "file":"include/linux/nfs_xdr.h", "line":840, "type":"s", }
+,{"id":"nfs4_statfs_res", "file":"include/linux/nfs_xdr.h", "line":846, "type":"s", }
+,{"id":"nfs4_string", "file":"include/linux/nfs_xdr.h", "line":864, "type":"s", }
+,{"id":"nfs4_verifier", "file":"include/linux/nfs4.h", "line":169, "type":"t", }
+,{"id":"nfs_access_entry", "file":"include/linux/nfs_fs.h", "line":67, "type":"s", }
+,{"id":"nfs_client", "file":"include/linux/nfs_fs_sb.h", "line":23, "type":"s", }
+,{"id":"nfs_client", "file":"include/linux/nfs_fs_sb.h", "line":96, "type":"m", "scope_line":95, "scope_name":"struct nfs_server", }
+,{"id":"nfs_closeargs", "file":"include/linux/nfs_xdr.h", "line":247, "type":"s", }
+,{"id":"nfs_closeres", "file":"include/linux/nfs_xdr.h", "line":256, "type":"s", }
+,{"id":"nfs_compare_fh", "file":"include/linux/nfs.h", "line":146, "type":"f", }
+,{"id":"nfs_copy_fh", "file":"include/linux/nfs.h", "line":151, "type":"f", }
+,{"id":"nfs_createargs", "file":"include/linux/nfs_xdr.h", "line":430, "type":"s", }
+,{"id":"nfs_diropargs", "file":"include/linux/nfs_xdr.h", "line":424, "type":"s", }
+,{"id":"nfs_diropok", "file":"include/linux/nfs_xdr.h", "line":525, "type":"s", }
+,{"id":"nfs_entry", "file":"include/linux/nfs_xdr.h", "line":405, "type":"s", }
+,{"id":"nfs_fattr", "file":"include/linux/nfs_xdr.h", "line":30, "type":"s", }
+,{"id":"nfs_fh", "file":"include/linux/nfs.h", "line":137, "type":"s", }
+,{"id":"nfs_fhbase_new", "file":"include/linux/nfsd/nfsfh.h", "line":83, "type":"s", }
+,{"id":"nfs_fhbase_old", "file":"include/linux/nfsd/nfsfh.h", "line":29, "type":"s", }
+,{"id":"nfs_file_cred", "file":"include/linux/nfs_fs.h", "line":401, "type":"f", }
+,{"id":"nfs_file_open_context", "file":"include/linux/nfs_fs.h", "line":396, "type":"f", }
+,{"id":"nfs_file_open_context", "file":"include/linux/nfs_fs.h", "line":404, "type":"c", "scope_line":401, "scope_name":"nfs_file_cred", }
+,{"id":"nfs_fileid_to_ino_t", "file":"include/linux/nfs_fs.h", "line":578, "type":"f", }
+,{"id":"nfs_fl", "file":"include/linux/fs.h", "line":1078, "type":"m", "scope_line":1058, "scope_name":"struct file_lock", }
+,{"id":"nfs_free_fattr", "file":"include/linux/nfs_fs.h", "line":370, "type":"f", }
+,{"id":"nfs_free_fhandle", "file":"include/linux/nfs_fs.h", "line":377, "type":"f", }
+,{"id":"nfs_fsid", "file":"include/linux/nfs_xdr.h", "line":17, "type":"s", }
+,{"id":"nfs_fsid_equal", "file":"include/linux/nfs_xdr.h", "line":25, "type":"f", }
+,{"id":"nfs_fsinfo", "file":"include/linux/nfs_xdr.h", "line":105, "type":"s", }
+,{"id":"nfs_fsstat", "file":"include/linux/nfs_xdr.h", "line":118, "type":"s", }
+,{"id":"nfs_ftype", "file":"include/linux/nfs.h", "line":117, "type":"t", }
+,{"id":"nfs_ftype4", "file":"include/linux/nfs4.h", "line":356, "type":"t", }
+,{"id":"nfs_getaclargs", "file":"include/linux/nfs_xdr.h", "line":467, "type":"s", }
+,{"id":"nfs_getaclres", "file":"include/linux/nfs_xdr.h", "line":475, "type":"s", }
+,{"id":"nfs_have_writebacks", "file":"include/linux/nfs_fs.h", "line":516, "type":"f", }
+,{"id":"nfs_inode", "file":"include/linux/nfs_fs.h", "line":110, "type":"s", }
+,{"id":"nfs_linkargs", "file":"include/linux/nfs_xdr.h", "line":486, "type":"s", }
+,{"id":"nfs_lock_args", "file":"include/linux/nfs_xdr.h", "line":271, "type":"s", }
+,{"id":"nfs_lock_context", "file":"include/linux/nfs_fs.h", "line":75, "type":"s", }
+,{"id":"nfs_lock_info", "file":"include/linux/nfs_fs_i.h", "line":13, "type":"s", }
+,{"id":"nfs_lock_res", "file":"include/linux/nfs_xdr.h", "line":285, "type":"s", }
+,{"id":"nfs_lockt_args", "file":"include/linux/nfs_xdr.h", "line":306, "type":"s", }
+,{"id":"nfs_lockt_res", "file":"include/linux/nfs_xdr.h", "line":313, "type":"s", }
+,{"id":"nfs_locku_args", "file":"include/linux/nfs_xdr.h", "line":292, "type":"s", }
+,{"id":"nfs_locku_res", "file":"include/linux/nfs_xdr.h", "line":300, "type":"s", }
+,{"id":"nfs_lowner", "file":"include/linux/nfs_xdr.h", "line":266, "type":"s", }
+,{"id":"nfs_mark_for_revalidate", "file":"include/linux/nfs_fs.h", "line":288, "type":"f", }
+,{"id":"nfs_mount_data", "file":"include/linux/nfs_mount.h", "line":26, "type":"s", }
+,{"id":"nfs_open_confirmargs", "file":"include/linux/nfs_xdr.h", "line":233, "type":"s", }
+,{"id":"nfs_open_confirmres", "file":"include/linux/nfs_xdr.h", "line":239, "type":"s", }
+,{"id":"nfs_open_context", "file":"include/linux/nfs_fs.h", "line":84, "type":"s", }
+,{"id":"nfs_openargs", "file":"include/linux/nfs_xdr.h", "line":191, "type":"s", }
+,{"id":"nfs_openres", "file":"include/linux/nfs_xdr.h", "line":213, "type":"s", }
+,{"id":"nfs_opnum4", "file":"include/linux/nfs4.h", "line":172, "type":"t", }
+,{"id":"nfs_page_tree", "file":"include/linux/nfs_fs.h", "line":170, "type":"m", "scope_line":110, "scope_name":"struct nfs_inode", }
+,{"id":"nfs_pathconf", "file":"include/linux/nfs_xdr.h", "line":136, "type":"s", }
+,{"id":"nfs_read_data", "file":"include/linux/nfs_xdr.h", "line":972, "type":"s", }
+,{"id":"nfs_readargs", "file":"include/linux/nfs_xdr.h", "line":338, "type":"s", }
+,{"id":"nfs_readdirargs", "file":"include/linux/nfs_xdr.h", "line":502, "type":"s", }
+,{"id":"nfs_readlinkargs", "file":"include/linux/nfs_xdr.h", "line":530, "type":"s", }
+,{"id":"nfs_readres", "file":"include/linux/nfs_xdr.h", "line":349, "type":"s", }
+,{"id":"nfs_release_lockowner_args", "file":"include/linux/nfs_xdr.h", "line":318, "type":"s", }
+,{"id":"nfs_removeargs", "file":"include/linux/nfs_xdr.h", "line":388, "type":"s", }
+,{"id":"nfs_removeres", "file":"include/linux/nfs_xdr.h", "line":395, "type":"s", }
+,{"id":"nfs_renameargs", "file":"include/linux/nfs_xdr.h", "line":437, "type":"s", }
+,];
+xr_frag_insert('t/ea/6587cd671a5f4f0e061faad0d6a35683b01138.xr', __xr_tmp);

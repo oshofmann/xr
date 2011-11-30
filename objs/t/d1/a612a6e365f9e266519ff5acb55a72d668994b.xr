@@ -1,0 +1,175 @@
+var __xr_tmp = [
+{"id":"sock_reset_flag", "file":"net/ipv4/tcp_output.c", "line":2570, "type":"c", "scope_line":2526, "scope_name":"tcp_connect_init", }
+,{"id":"sock_reset_flag", "file":"net/socket.c", "line":1104, "type":"c", "scope_line":1091, "scope_name":"sock_fasync", }
+,{"id":"sock_rfree", "file":"net/core/sock.c", "line":1339, "type":"f", }
+,{"id":"sock_rmalloc", "file":"net/core/sock.c", "line":1392, "type":"f", }
+,{"id":"sock_rmalloc", "file":"net/netlink/af_netlink.c", "line":1692, "type":"c", "scope_line":1684, "scope_name":"netlink_dump", }
+,{"id":"sock_rmem_free", "file":"net/core/skbuff.c", "line":2974, "type":"f", }
+,{"id":"sock_rps_record_flow", "file":"include/net/sock.h", "line":644, "type":"f", }
+,{"id":"sock_rps_record_flow", "file":"net/ipv4/af_inet.c", "line":727, "type":"c", "scope_line":722, "scope_name":"inet_sendmsg", }
+,{"id":"sock_rps_record_flow", "file":"net/ipv4/af_inet.c", "line":743, "type":"c", "scope_line":738, "scope_name":"inet_sendpage", }
+,{"id":"sock_rps_record_flow", "file":"net/ipv4/af_inet.c", "line":763, "type":"c", "scope_line":756, "scope_name":"inet_recvmsg", }
+,{"id":"sock_rps_record_flow", "file":"net/ipv4/tcp.c", "line":615, "type":"c", "scope_line":601, "scope_name":"tcp_splice_read", }
+,{"id":"sock_rps_reset_flow", "file":"include/net/sock.h", "line":656, "type":"f", }
+,{"id":"sock_rps_reset_flow", "file":"include/net/sock.h", "line":672, "type":"c", "scope_line":668, "scope_name":"sock_rps_save_rxhash", }
+,{"id":"sock_rps_reset_flow", "file":"net/ipv4/af_inet.c", "line":424, "type":"c", "scope_line":417, "scope_name":"inet_release", }
+,{"id":"sock_rps_save_rxhash", "file":"include/net/sock.h", "line":668, "type":"f", }
+,{"id":"sock_rps_save_rxhash", "file":"net/ipv4/tcp_ipv4.c", "line":1562, "type":"c", "scope_line":1547, "scope_name":"tcp_v4_do_rcv", }
+,{"id":"sock_rps_save_rxhash", "file":"net/ipv4/tcp_ipv4.c", "line":1588, "type":"c", "scope_line":1547, "scope_name":"tcp_v4_do_rcv", }
+,{"id":"sock_rps_save_rxhash", "file":"net/ipv4/udp.c", "line":1223, "type":"c", "scope_line":1213, "scope_name":"udp_disconnect", }
+,{"id":"sock_rps_save_rxhash", "file":"net/ipv4/udp.c", "line":1311, "type":"c", "scope_line":1306, "scope_name":"__udp_queue_rcv_skb", }
+,{"id":"sock_sendmsg", "file":"net/socket.c", "line":1676, "type":"c", "scope_line":1643, "scope_name":"sys_sendto", }
+,{"id":"sock_sendmsg", "file":"net/socket.c", "line":1931, "type":"c", "scope_line":1844, "scope_name":"sys_sendmsg", }
+,{"id":"sock_sendmsg", "file":"net/socket.c", "line":570, "type":"f", }
+,{"id":"sock_sendmsg", "file":"net/socket.c", "line":598, "type":"c", "scope_line":585, "scope_name":"kernel_sendmsg", }
+,{"id":"sock_sendpage", "file":"net/socket.c", "line":758, "type":"f", }
+,{"id":"sock_set_flag", "file":"include/net/sock.h", "line":1255, "type":"c", "scope_line":1252, "scope_name":"sock_orphan", }
+,{"id":"sock_set_flag", "file":"include/net/sock.h", "line":553, "type":"f", }
+,{"id":"sock_set_flag", "file":"include/net/sock.h", "line":978, "type":"c", "scope_line":976, "scope_name":"sk_wmem_free_skb", }
+,{"id":"sock_set_flag", "file":"net/core/sock.c", "line":1956, "type":"c", "scope_line":1937, "scope_name":"sock_init_data", }
+,{"id":"sock_set_flag", "file":"net/core/sock.c", "line":2100, "type":"c", "scope_line":2097, "scope_name":"sock_enable_timestamp", }
+,{"id":"sock_set_flag", "file":"net/core/sock.c", "line":470, "type":"c", "scope_line":467, "scope_name":"sock_valbool_flag", }
+,{"id":"sock_set_flag", "file":"net/core/sock.c", "line":636, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_set_flag", "file":"net/core/sock.c", "line":657, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_set_flag", "file":"net/core/sock.c", "line":658, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_set_flag", "file":"net/core/sock.c", "line":739, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_set_flag", "file":"net/ipv4/icmp.c", "line":1175, "type":"c", "scope_line":1147, "scope_name":"icmp_sk_init", }
+,{"id":"sock_set_flag", "file":"net/ipv4/tcp_input.c", "line":4082, "type":"c", "scope_line":4075, "scope_name":"tcp_fin", }
+,{"id":"sock_set_flag", "file":"net/ipv4/tcp_ipv4.c", "line":1887, "type":"c", "scope_line":1855, "scope_name":"tcp_v4_init_sock", }
+,{"id":"sock_set_flag", "file":"net/ipv4/tcp_output.c", "line":1126, "type":"c", "scope_line":1109, "scope_name":"tcp_trim_head", }
+,{"id":"sock_set_flag", "file":"net/ipv6/tcp_ipv6.c", "line":1920, "type":"c", "scope_line":1886, "scope_name":"tcp_v6_init_sock", }
+,{"id":"sock_set_flag", "file":"net/socket.c", "line":1106, "type":"c", "scope_line":1091, "scope_name":"sock_fasync", }
+,{"id":"sock_set_timeout", "file":"net/core/sock.c", "line":227, "type":"f", }
+,{"id":"sock_set_timeout", "file":"net/core/sock.c", "line":698, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_set_timeout", "file":"net/core/sock.c", "line":702, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_setsockopt", "file":"net/compat.c", "line":350, "type":"c", "scope_line":334, "scope_name":"do_set_attach_filter", }
+,{"id":"sock_setsockopt", "file":"net/compat.c", "line":370, "type":"c", "scope_line":354, "scope_name":"do_set_sock_timeout", }
+,{"id":"sock_setsockopt", "file":"net/compat.c", "line":385, "type":"c", "scope_line":376, "scope_name":"compat_sock_setsockopt", }
+,{"id":"sock_setsockopt", "file":"net/core/sock.c", "line":480, "type":"f", }
+,{"id":"sock_setsockopt", "file":"net/socket.c", "line":1770, "type":"c", "scope_line":1754, "scope_name":"sys_setsockopt", }
+,{"id":"sock_setsockopt", "file":"net/socket.c", "line":3078, "type":"c", "scope_line":3070, "scope_name":"kernel_setsockopt", }
+,{"id":"sock_shutdown_cmd", "file":"include/linux/net.h", "line":114, "type":"t", }
+,{"id":"sock_sndtimeo", "file":"include/net/sock.h", "line":1603, "type":"f", }
+,{"id":"sock_sndtimeo", "file":"net/core/sock.c", "line":1481, "type":"c", "scope_line":1468, "scope_name":"sock_alloc_send_pskb", }
+,{"id":"sock_sndtimeo", "file":"net/ipv4/af_inet.c", "line":624, "type":"c", "scope_line":576, "scope_name":"inet_stream_connect", }
+,{"id":"sock_sndtimeo", "file":"net/ipv4/tcp.c", "line":758, "type":"c", "scope_line":751, "scope_name":"do_tcp_sendpages", }
+,{"id":"sock_sndtimeo", "file":"net/ipv4/tcp.c", "line":922, "type":"c", "scope_line":907, "scope_name":"tcp_sendmsg", }
+,{"id":"sock_sndtimeo", "file":"net/netlink/af_netlink.c", "line":909, "type":"c", "scope_line":900, "scope_name":"netlink_unicast", }
+,{"id":"sock_sndtimeo", "file":"net/unix/af_unix.c", "line":1069, "type":"c", "scope_line":1045, "scope_name":"unix_stream_connect", }
+,{"id":"sock_sndtimeo", "file":"net/unix/af_unix.c", "line":1443, "type":"c", "scope_line":1381, "scope_name":"unix_dgram_sendmsg", }
+,{"id":"sock_spd_release", "file":"net/core/skbuff.c", "line":1368, "type":"f", }
+,{"id":"sock_splice_read", "file":"net/socket.c", "line":773, "type":"f", }
+,{"id":"sock_tx_timestamp", "file":"net/ipv4/udp.c", "line":848, "type":"c", "scope_line":772, "scope_name":"udp_sendmsg", }
+,{"id":"sock_tx_timestamp", "file":"net/packet/af_packet.c", "line":1212, "type":"c", "scope_line":1095, "scope_name":"packet_snd", }
+,{"id":"sock_tx_timestamp", "file":"net/packet/af_packet.c", "line":491, "type":"c", "scope_line":411, "scope_name":"packet_sendmsg_spkt", }
+,{"id":"sock_tx_timestamp", "file":"net/socket.c", "line":538, "type":"f", }
+,{"id":"sock_type", "file":"include/linux/net.h", "line":91, "type":"t", }
+,{"id":"sock_unregister", "file":"net/ipv6/af_inet6.c", "line":1247, "type":"c", "scope_line":1064, "scope_name":"inet6_init", }
+,{"id":"sock_unregister", "file":"net/ipv6/af_inet6.c", "line":1269, "type":"c", "scope_line":1263, "scope_name":"inet6_exit", }
+,{"id":"sock_unregister", "file":"net/packet/af_packet.c", "line":2703, "type":"c", "scope_line":2699, "scope_name":"packet_exit", }
+,{"id":"sock_unregister", "file":"net/socket.c", "line":2355, "type":"f", }
+,{"id":"sock_unregister", "file":"net/unix/af_unix.c", "line":2312, "type":"c", "scope_line":2310, "scope_name":"af_unix_exit", }
+,{"id":"sock_update_classid", "file":"drivers/net/tun.c", "line":531, "type":"c", "scope_line":523, "scope_name":"tun_alloc_skb", }
+,{"id":"sock_update_classid", "file":"net/core/sock.c", "line":1079, "type":"f", }
+,{"id":"sock_update_classid", "file":"net/core/sock.c", "line":1113, "type":"c", "scope_line":1096, "scope_name":"sk_alloc", }
+,{"id":"sock_update_classid", "file":"net/socket.c", "line":3090, "type":"c", "scope_line":3087, "scope_name":"kernel_sendpage", }
+,{"id":"sock_update_classid", "file":"net/socket.c", "line":556, "type":"c", "scope_line":550, "scope_name":"__sock_sendmsg", }
+,{"id":"sock_update_classid", "file":"net/socket.c", "line":685, "type":"c", "scope_line":680, "scope_name":"__sock_recvmsg_nosec", }
+,{"id":"sock_update_classid", "file":"net/socket.c", "line":782, "type":"c", "scope_line":773, "scope_name":"sock_splice_read", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":467, "type":"f", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":511, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":523, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":526, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":600, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":604, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":671, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":673, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":675, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":683, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":685, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_valbool_flag", "file":"net/core/sock.c", "line":687, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_wait_for_wmem", "file":"net/core/sock.c", "line":1439, "type":"f", }
+,{"id":"sock_wait_for_wmem", "file":"net/core/sock.c", "line":1538, "type":"c", "scope_line":1468, "scope_name":"sock_alloc_send_pskb", }
+,{"id":"sock_wake_async", "file":"include/net/sock.h", "line":1557, "type":"c", "scope_line":1554, "scope_name":"sk_wake_async", }
+,{"id":"sock_wake_async", "file":"net/core/stream.c", "line":42, "type":"c", "scope_line":28, "scope_name":"sk_stream_write_space", }
+,{"id":"sock_wake_async", "file":"net/socket.c", "line":1114, "type":"f", }
+,{"id":"sock_warn_obsolete_bsdism", "file":"net/core/sock.c", "line":258, "type":"f", }
+,{"id":"sock_warn_obsolete_bsdism", "file":"net/core/sock.c", "line":641, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"sock_warn_obsolete_bsdism", "file":"net/core/sock.c", "line":854, "type":"c", "scope_line":767, "scope_name":"sock_getsockopt", }
+,{"id":"sock_wfree", "file":"net/core/sock.c", "line":1313, "type":"f", }
+,{"id":"sock_wfree", "file":"net/packet/af_packet.c", "line":841, "type":"c", "scope_line":826, "scope_name":"tpacket_destruct_skb", }
+,{"id":"sock_wfree", "file":"net/unix/af_unix.c", "line":1343, "type":"c", "scope_line":1331, "scope_name":"unix_destruct_scm", }
+,{"id":"sock_wmalloc", "file":"net/core/sock.c", "line":1375, "type":"f", }
+,{"id":"sock_wmalloc", "file":"net/ipv4/ip_output.c", "line":1159, "type":"c", "scope_line":1087, "scope_name":"ip_append_page", }
+,{"id":"sock_wmalloc", "file":"net/ipv4/ip_output.c", "line":955, "type":"c", "scope_line":794, "scope_name":"ip_append_data", }
+,{"id":"sock_wmalloc", "file":"net/ipv4/tcp_output.c", "line":2415, "type":"c", "scope_line":2397, "scope_name":"tcp_make_synack", }
+,{"id":"sock_wmalloc", "file":"net/ipv6/ip6_output.c", "line":1309, "type":"c", "scope_line":1109, "scope_name":"ip6_append_data", }
+,{"id":"sock_wmalloc", "file":"net/packet/af_packet.c", "line":463, "type":"c", "scope_line":411, "scope_name":"packet_sendmsg_spkt", }
+,{"id":"sock_wmalloc", "file":"net/unix/af_unix.c", "line":1084, "type":"c", "scope_line":1045, "scope_name":"unix_stream_connect", }
+,{"id":"sock_writeable", "file":"drivers/net/tun.c", "line":509, "type":"c", "scope_line":490, "scope_name":"tun_chr_poll", }
+,{"id":"sock_writeable", "file":"drivers/net/tun.c", "line":881, "type":"c", "scope_line":876, "scope_name":"tun_sock_write_space", }
+,{"id":"sock_writeable", "file":"include/net/sock.h", "line":1588, "type":"f", }
+,{"id":"sock_writeable", "file":"net/core/datagram.c", "line":768, "type":"c", "scope_line":736, "scope_name":"datagram_poll", }
+,{"id":"sock_writeable", "file":"net/core/sock.c", "line":1902, "type":"c", "scope_line":1886, "scope_name":"sock_def_write_space", }
+,{"id":"sock_wspace", "file":"include/net/sock.h", "line":1542, "type":"f", }
+,{"id":"sockaddr", "file":"include/linux/socket.h", "line":46, "type":"s", }
+,{"id":"sockaddr", "file":"kernel/auditsc.c", "line":184, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"sockaddr_at", "file":"include/linux/atalk.h", "line":30, "type":"s", }
+,{"id":"sockaddr_atmpvc", "file":"include/linux/atm.h", "line":175, "type":"s", }
+,{"id":"sockaddr_atmsvc", "file":"include/linux/atm.h", "line":205, "type":"s", }
+,{"id":"sockaddr_ax25", "file":"include/linux/ax25.h", "line":49, "type":"s", }
+,{"id":"sockaddr_hci", "file":"include/net/bluetooth/hci.h", "line":934, "type":"s", }
+,{"id":"sockaddr_in", "file":"include/linux/in.h", "line":184, "type":"s", }
+,{"id":"sockaddr_in6", "file":"include/linux/in6.h", "line":58, "type":"s", }
+,{"id":"sockaddr_len", "file":"include/net/inet_connection_sock.h", "line":48, "type":"m", "scope_line":38, "scope_name":"struct inet_connection_sock_af_ops", }
+,{"id":"sockaddr_len", "file":"kernel/auditsc.c", "line":185, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"sockaddr_ll", "file":"include/linux/if_packet.h", "line":12, "type":"s", }
+,{"id":"sockaddr_nl", "file":"include/linux/netlink.h", "line":30, "type":"s", }
+,{"id":"sockaddr_pkt", "file":"include/linux/if_packet.h", "line":6, "type":"s", }
+,{"id":"sockaddr_pppol2tp", "file":"include/linux/if_pppox.h", "line":69, "type":"s", }
+,{"id":"sockaddr_pppol2tpv3", "file":"include/linux/if_pppox.h", "line":78, "type":"s", }
+,{"id":"sockaddr_pppox", "file":"include/linux/if_pppox.h", "line":56, "type":"s", }
+,{"id":"sockaddr_rc", "file":"include/net/bluetooth/rfcomm.h", "line":287, "type":"s", }
+,{"id":"sockaddr_storage", "file":"include/linux/socket.h", "line":56, "type":"d", }
+,{"id":"sockaddr_un", "file":"include/linux/un.h", "line":6, "type":"s", }
+,{"id":"sockcreate_sid", "file":"security/selinux/include/objsec.h", "line":36, "type":"m", "scope_line":30, "scope_name":"struct task_security_struct", }
+,{"id":"socket", "file":"drivers/net/tun.c", "line":111, "type":"m", "scope_line":101, "scope_name":"struct tun_struct", }
+,{"id":"socket", "file":"include/linux/net.h", "line":136, "type":"s", }
+,{"id":"socket", "file":"include/net/sock.h", "line":894, "type":"m", "scope_line":893, "scope_name":"struct socket_alloc", }
+,{"id":"socket_accept", "file":"include/linux/security.h", "line":1575, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_alloc", "file":"include/net/sock.h", "line":893, "type":"s", }
+,{"id":"socket_bind", "file":"include/linux/security.h", "line":1570, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_connect", "file":"include/linux/security.h", "line":1572, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_create", "file":"include/linux/security.h", "line":1567, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_file_ops", "file":"net/socket.c", "line":135, "type":"v", }
+,{"id":"socket_getpeername", "file":"include/linux/security.h", "line":1581, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_getpeersec_dgram", "file":"include/linux/security.h", "line":1587, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_getpeersec_stream", "file":"include/linux/security.h", "line":1586, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_getsockname", "file":"include/linux/security.h", "line":1580, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_getsockopt", "file":"include/linux/security.h", "line":1582, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_listen", "file":"include/linux/security.h", "line":1574, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_lock_t", "file":"include/net/sock.h", "line":87, "type":"t", }
+,{"id":"socket_post_create", "file":"include/linux/security.h", "line":1568, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_recvmsg", "file":"include/linux/security.h", "line":1578, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_sendmsg", "file":"include/linux/security.h", "line":1576, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_seq_show", "file":"net/ipv4/proc.c", "line":61, "type":"c", "scope_line":51, "scope_name":"sockstat_seq_show", }
+,{"id":"socket_seq_show", "file":"net/socket.c", "line":2407, "type":"f", }
+,{"id":"socket_setsockopt", "file":"include/linux/security.h", "line":1583, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_shutdown", "file":"include/linux/security.h", "line":1584, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_smack", "file":"security/smack/smack.h", "line":43, "type":"s", }
+,{"id":"socket_sock_rcv_skb", "file":"include/linux/security.h", "line":1585, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"socket_sockcreate_sid", "file":"security/selinux/hooks.c", "line":3644, "type":"f", }
+,{"id":"socket_sockcreate_sid", "file":"security/selinux/hooks.c", "line":3674, "type":"c", "scope_line":3664, "scope_name":"selinux_socket_create", }
+,{"id":"socket_sockcreate_sid", "file":"security/selinux/hooks.c", "line":3690, "type":"c", "scope_line":3679, "scope_name":"selinux_socket_post_create", }
+,{"id":"socket_state", "file":"include/linux/net.h", "line":46, "type":"t", }
+,{"id":"socket_type_to_security_class", "file":"security/selinux/hooks.c", "line":1055, "type":"f", }
+,{"id":"socket_type_to_security_class", "file":"security/selinux/hooks.c", "line":3675, "type":"c", "scope_line":3664, "scope_name":"selinux_socket_create", }
+,{"id":"socket_type_to_security_class", "file":"security/selinux/hooks.c", "line":3692, "type":"c", "scope_line":3679, "scope_name":"selinux_socket_post_create", }
+,{"id":"socket_wq", "file":"include/linux/net.h", "line":120, "type":"s", }
+,{"id":"socketcall", "file":"kernel/auditsc.c", "line":209, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"socketid", "file":"arch/x86/include/asm/mce.h", "line":71, "type":"m", "scope_line":54, "scope_name":"struct mce", }
+,{"id":"socketid", "file":"include/trace/events/mce.h", "line":11, "type":"m", "scope_line":11, "scope_name":"struct ftrace_raw_mce_record", }
+,{"id":"socketpair", "file":"include/linux/net.h", "line":169, "type":"m", "scope_line":159, "scope_name":"struct proto_ops", }
+,{"id":"sockets_allocated", "file":"include/net/sock.h", "line":766, "type":"m", "scope_line":707, "scope_name":"struct proto", }
+,];
+xr_frag_insert('t/d1/a612a6e365f9e266519ff5acb55a72d668994b.xr', __xr_tmp);

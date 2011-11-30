@@ -1,0 +1,44 @@
+var __xr_tmp = [
+{"id":"ring_buffer_read_page", "file":"kernel/trace/trace.c", "line":3663, "type":"c", "scope_line":3640, "scope_name":"tracing_buffers_read", }
+,{"id":"ring_buffer_read_page", "file":"kernel/trace/trace.c", "line":3815, "type":"c", "scope_line":3759, "scope_name":"tracing_buffers_splice_read", }
+,{"id":"ring_buffer_read_prepare", "file":"kernel/trace/ring_buffer.c", "line":3334, "type":"f", }
+,{"id":"ring_buffer_read_prepare", "file":"kernel/trace/trace.c", "line":2143, "type":"c", "scope_line":2091, "scope_name":"__tracing_open", }
+,{"id":"ring_buffer_read_prepare", "file":"kernel/trace/trace.c", "line":2153, "type":"c", "scope_line":2091, "scope_name":"__tracing_open", }
+,{"id":"ring_buffer_read_prepare_sync", "file":"kernel/trace/ring_buffer.c", "line":3364, "type":"f", }
+,{"id":"ring_buffer_read_prepare_sync", "file":"kernel/trace/trace.c", "line":2146, "type":"c", "scope_line":2091, "scope_name":"__tracing_open", }
+,{"id":"ring_buffer_read_prepare_sync", "file":"kernel/trace/trace.c", "line":2155, "type":"c", "scope_line":2091, "scope_name":"__tracing_open", }
+,{"id":"ring_buffer_read_start", "file":"kernel/trace/ring_buffer.c", "line":3382, "type":"f", }
+,{"id":"ring_buffer_read_start", "file":"kernel/trace/trace.c", "line":2148, "type":"c", "scope_line":2091, "scope_name":"__tracing_open", }
+,{"id":"ring_buffer_read_start", "file":"kernel/trace/trace.c", "line":2156, "type":"c", "scope_line":2091, "scope_name":"__tracing_open", }
+,{"id":"ring_buffer_record_disable", "file":"kernel/trace/ring_buffer.c", "line":2548, "type":"f", }
+,{"id":"ring_buffer_record_disable", "file":"kernel/trace/trace.c", "line":1003, "type":"c", "scope_line":988, "scope_name":"tracing_stop", }
+,{"id":"ring_buffer_record_disable", "file":"kernel/trace/trace.c", "line":1007, "type":"c", "scope_line":988, "scope_name":"tracing_stop", }
+,{"id":"ring_buffer_record_disable", "file":"kernel/trace/trace.c", "line":865, "type":"c", "scope_line":861, "scope_name":"tracing_reset", }
+,{"id":"ring_buffer_record_disable", "file":"kernel/trace/trace.c", "line":879, "type":"c", "scope_line":874, "scope_name":"tracing_reset_online_cpus", }
+,{"id":"ring_buffer_record_disable_cpu", "file":"kernel/trace/ring_buffer.c", "line":2577, "type":"f", }
+,{"id":"ring_buffer_record_enable", "file":"kernel/trace/ring_buffer.c", "line":2561, "type":"f", }
+,{"id":"ring_buffer_record_enable", "file":"kernel/trace/trace.c", "line":871, "type":"c", "scope_line":861, "scope_name":"tracing_reset", }
+,{"id":"ring_buffer_record_enable", "file":"kernel/trace/trace.c", "line":889, "type":"c", "scope_line":874, "scope_name":"tracing_reset_online_cpus", }
+,{"id":"ring_buffer_record_enable", "file":"kernel/trace/trace.c", "line":969, "type":"c", "scope_line":946, "scope_name":"tracing_start", }
+,{"id":"ring_buffer_record_enable", "file":"kernel/trace/trace.c", "line":973, "type":"c", "scope_line":946, "scope_name":"tracing_start", }
+,{"id":"ring_buffer_record_enable_cpu", "file":"kernel/trace/ring_buffer.c", "line":2597, "type":"f", }
+,{"id":"ring_buffer_reset", "file":"kernel/trace/ring_buffer.c", "line":3534, "type":"f", }
+,{"id":"ring_buffer_reset_cpu", "file":"kernel/trace/ring_buffer.c", "line":3502, "type":"f", }
+,{"id":"ring_buffer_reset_cpu", "file":"kernel/trace/ring_buffer.c", "line":3539, "type":"c", "scope_line":3534, "scope_name":"ring_buffer_reset", }
+,{"id":"ring_buffer_reset_cpu", "file":"kernel/trace/trace.c", "line":857, "type":"c", "scope_line":854, "scope_name":"__tracing_reset", }
+,{"id":"ring_buffer_resize", "file":"kernel/trace/ring_buffer.c", "line":1278, "type":"f", }
+,{"id":"ring_buffer_resize", "file":"kernel/trace/trace.c", "line":2742, "type":"c", "scope_line":2731, "scope_name":"tracing_resize_ring_buffer", }
+,{"id":"ring_buffer_resize", "file":"kernel/trace/trace.c", "line":2749, "type":"c", "scope_line":2731, "scope_name":"tracing_resize_ring_buffer", }
+,{"id":"ring_buffer_resize", "file":"kernel/trace/trace.c", "line":2753, "type":"c", "scope_line":2731, "scope_name":"tracing_resize_ring_buffer", }
+,{"id":"ring_buffer_resize", "file":"kernel/trace/trace.c", "line":2850, "type":"c", "scope_line":2814, "scope_name":"tracing_set_tracer", }
+,{"id":"ring_buffer_resize", "file":"kernel/trace/trace.c", "line":2859, "type":"c", "scope_line":2814, "scope_name":"tracing_set_tracer", }
+,{"id":"ring_buffer_set_clock", "file":"kernel/trace/ring_buffer.c", "line":1207, "type":"f", }
+,{"id":"ring_buffer_set_clock", "file":"kernel/trace/trace.c", "line":3541, "type":"c", "scope_line":3513, "scope_name":"tracing_clock_write", }
+,{"id":"ring_buffer_set_clock", "file":"kernel/trace/trace.c", "line":3543, "type":"c", "scope_line":3513, "scope_name":"tracing_clock_write", }
+,{"id":"ring_buffer_size", "file":"kernel/trace/ring_buffer.c", "line":3453, "type":"f", }
+,{"id":"ring_buffer_size", "file":"kernel/trace/trace.c", "line":4560, "type":"c", "scope_line":4531, "scope_name":"tracer_alloc_buffers", }
+,{"id":"ring_buffer_swap_cpu", "file":"kernel/trace/ring_buffer.c", "line":3617, "type":"f", }
+,{"id":"ring_buffer_time_stamp", "file":"kernel/trace/ring_buffer.c", "line":521, "type":"f", }
+,{"id":"ring_buffer_time_stamp", "file":"kernel/trace/trace.c", "line":195, "type":"c", "scope_line":187, "scope_name":"ftrace_now", }
+,];
+xr_frag_insert('t/eb/8e2b9fca08a81a3f5ddc4fce525ab53e5ed10a.xr', __xr_tmp);

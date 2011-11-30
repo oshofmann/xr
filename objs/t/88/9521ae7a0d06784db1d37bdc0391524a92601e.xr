@@ -1,0 +1,224 @@
+var __xr_tmp = [
+{"id":"__alloc_percpu", "file":"kernel/sched.c", "line":8889, "type":"c", "scope_line":8880, "scope_name":"cpuacct_create", }
+,{"id":"__alloc_percpu", "file":"kernel/srcu.c", "line":40, "type":"c", "scope_line":36, "scope_name":"init_srcu_struct_fields", }
+,{"id":"__alloc_percpu", "file":"kernel/trace/blktrace.c", "line":1507, "type":"c", "scope_line":1497, "scope_name":"blk_trace_setup_queue", }
+,{"id":"__alloc_percpu", "file":"kernel/trace/blktrace.c", "line":457, "type":"c", "scope_line":430, "scope_name":"do_blk_trace_setup", }
+,{"id":"__alloc_percpu", "file":"kernel/trace/blktrace.c", "line":461, "type":"c", "scope_line":430, "scope_name":"do_blk_trace_setup", }
+,{"id":"__alloc_percpu", "file":"kernel/trace/trace_event_perf.c", "line":35, "type":"c", "scope_line":24, "scope_name":"perf_trace_event_init", }
+,{"id":"__alloc_percpu", "file":"kernel/trace/trace_event_perf.c", "line":49, "type":"c", "scope_line":24, "scope_name":"perf_trace_event_init", }
+,{"id":"__alloc_percpu", "file":"kernel/trace/trace_functions_graph.c", "line":1205, "type":"c", "scope_line":1193, "scope_name":"graph_trace_open", }
+,{"id":"__alloc_percpu", "file":"kernel/workqueue.c", "line":2608, "type":"c", "scope_line":2603, "scope_name":"schedule_on_each_cpu", }
+,{"id":"__alloc_percpu", "file":"kernel/workqueue.c", "line":2707, "type":"c", "scope_line":2690, "scope_name":"alloc_cwqs", }
+,{"id":"__alloc_percpu", "file":"lib/percpu_counter.c", "line":75, "type":"c", "scope_line":69, "scope_name":"__percpu_counter_init", }
+,{"id":"__alloc_percpu", "file":"mm/memcontrol.c", "line":4027, "type":"c", "scope_line":4012, "scope_name":"mem_cgroup_alloc", }
+,{"id":"__alloc_percpu", "file":"mm/page_alloc.c", "line":3393, "type":"c", "scope_line":3389, "scope_name":"setup_zone_pageset", }
+,{"id":"__alloc_percpu", "file":"mm/percpu.c", "line":832, "type":"f", }
+,{"id":"__alloc_percpu", "file":"net/core/flow.c", "line":401, "type":"c", "scope_line":386, "scope_name":"flow_cache_init", }
+,{"id":"__alloc_percpu", "file":"net/core/neighbour.c", "line":1429, "type":"c", "scope_line":1414, "scope_name":"neigh_table_init_no_netlink", }
+,{"id":"__alloc_percpu", "file":"net/core/sock.c", "line":2253, "type":"c", "scope_line":2251, "scope_name":"sock_inuse_init_net", }
+,{"id":"__alloc_percpu", "file":"net/ipv4/af_inet.c", "line":1472, "type":"c", "scope_line":1469, "scope_name":"snmp_mib_init", }
+,{"id":"__alloc_percpu", "file":"net/ipv4/af_inet.c", "line":1475, "type":"c", "scope_line":1469, "scope_name":"snmp_mib_init", }
+,{"id":"__alloc_percpu", "file":"net/ipv4/route.c", "line":3315, "type":"c", "scope_line":3310, "scope_name":"ip_rt_init", }
+,{"id":"__alloc_percpu", "file":"net/ipv4/tcp.c", "line":2890, "type":"c", "scope_line":2884, "scope_name":"__tcp_alloc_md5sig_pool", }
+,{"id":"__alloc_preds", "file":"kernel/trace/trace_events_filter.c", "line":1413, "type":"c", "scope_line":1390, "scope_name":"ftrace_profile_set_filter", }
+,{"id":"__alloc_preds", "file":"kernel/trace/trace_events_filter.c", "line":592, "type":"f", }
+,{"id":"__alloc_preds", "file":"kernel/trace/trace_events_filter.c", "line":629, "type":"c", "scope_line":623, "scope_name":"init_preds", }
+,{"id":"__alloc_reserved_percpu", "file":"kernel/module.c", "line":402, "type":"c", "scope_line":393, "scope_name":"percpu_modalloc", }
+,{"id":"__alloc_reserved_percpu", "file":"mm/percpu.c", "line":853, "type":"f", }
+,{"id":"__alloc_skb", "file":"include/linux/skbuff.h", "line":501, "type":"c", "scope_line":498, "scope_name":"alloc_skb", }
+,{"id":"__alloc_skb", "file":"include/linux/skbuff.h", "line":507, "type":"c", "scope_line":504, "scope_name":"alloc_skb_fclone", }
+,{"id":"__alloc_skb", "file":"net/core/skbuff.c", "line":170, "type":"f", }
+,{"id":"__alloc_skb", "file":"net/core/skbuff.c", "line":255, "type":"c", "scope_line":249, "scope_name":"__netdev_alloc_skb", }
+,{"id":"__alloc_workqueue_key", "file":"block/blk-core.c", "line":2587, "type":"c", "scope_line":2582, "scope_name":"blk_dev_init", }
+,{"id":"__alloc_workqueue_key", "file":"crypto/crypto_wq.c", "line":23, "type":"c", "scope_line":21, "scope_name":"crypto_wq_init", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/acpi/osl.c", "line":195, "type":"c", "scope_line":193, "scope_name":"acpi_os_initialize1", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/acpi/osl.c", "line":196, "type":"c", "scope_line":193, "scope_name":"acpi_os_initialize1", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/acpi/osl.c", "line":197, "type":"c", "scope_line":193, "scope_name":"acpi_os_initialize1", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/ata/libata-sff.c", "line":3338, "type":"c", "scope_line":3336, "scope_name":"ata_sff_init", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/connector/cn_queue.c", "line":49, "type":"c", "scope_line":43, "scope_name":"cn_queue_create", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/cpufreq/cpufreq_conservative.c", "line":721, "type":"c", "scope_line":717, "scope_name":"cpufreq_gov_dbs_init", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/cpufreq/cpufreq_ondemand.c", "line":801, "type":"c", "scope_line":775, "scope_name":"cpufreq_gov_dbs_init", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/md/dm-kcopyd.c", "line":627, "type":"c", "scope_line":606, "scope_name":"dm_kcopyd_client_create", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/md/dm-stripe.c", "line":425, "type":"c", "scope_line":415, "scope_name":"dm_stripe_init", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/md/dm.c", "line":2010, "type":"c", "scope_line":1948, "scope_name":"alloc_dev", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/pci/hotplug/pciehp_hpc.c", "line":920, "type":"c", "scope_line":863, "scope_name":"pcie_init", }
+,{"id":"__alloc_workqueue_key", "file":"drivers/scsi/hosts.c", "line":254, "type":"c", "scope_line":200, "scope_name":"scsi_add_host_with_dma", }
+,{"id":"__alloc_workqueue_key", "file":"fs/aio.c", "line":88, "type":"c", "scope_line":83, "scope_name":"aio_setup", }
+,{"id":"__alloc_workqueue_key", "file":"fs/bio-integrity.c", "line":785, "type":"c", "scope_line":781, "scope_name":"bio_integrity_init", }
+,{"id":"__alloc_workqueue_key", "file":"fs/ext4/super.c", "line":3041, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"__alloc_workqueue_key", "file":"fs/sysfs/file.c", "line":728, "type":"c", "scope_line":710, "scope_name":"sysfs_schedule_callback", }
+,{"id":"__alloc_workqueue_key", "file":"kernel/cpuset.c", "line":2192, "type":"c", "scope_line":2185, "scope_name":"cpuset_init_smp", }
+,{"id":"__alloc_workqueue_key", "file":"kernel/kmod.c", "line":423, "type":"c", "scope_line":421, "scope_name":"usermodehelper_init", }
+,{"id":"__alloc_workqueue_key", "file":"kernel/power/main.c", "line":311, "type":"c", "scope_line":309, "scope_name":"pm_start_workqueue", }
+,{"id":"__alloc_workqueue_key", "file":"kernel/workqueue.c", "line":2757, "type":"f", }
+,{"id":"__alloc_workqueue_key", "file":"kernel/workqueue.c", "line":3610, "type":"c", "scope_line":3563, "scope_name":"init_workqueues", }
+,{"id":"__alloc_workqueue_key", "file":"kernel/workqueue.c", "line":3611, "type":"c", "scope_line":3563, "scope_name":"init_workqueues", }
+,{"id":"__alloc_workqueue_key", "file":"kernel/workqueue.c", "line":3612, "type":"c", "scope_line":3563, "scope_name":"init_workqueues", }
+,{"id":"__alloc_workqueue_key", "file":"kernel/workqueue.c", "line":3613, "type":"c", "scope_line":3563, "scope_name":"init_workqueues", }
+,{"id":"__alloc_workqueue_key", "file":"net/core/net_namespace.c", "line":354, "type":"c", "scope_line":344, "scope_name":"net_ns_init", }
+,{"id":"__alloc_zeroed_user_highpage", "file":"arch/x86/include/asm/page.h", "line":32, "type":"d", }
+,{"id":"__always_inline", "file":"include/linux/compiler-gcc4.h", "line":15, "type":"d", }
+,{"id":"__always_unused", "file":"include/linux/compiler-gcc.h", "line":85, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/ia32/audit.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/ia32/ia32_signal.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/ia32/ipc32.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/ia32/sys_ia32.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/acpi/boot.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/acpi/cstate.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/acpi/realmode/regs.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/acpi/realmode/video-bios.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/acpi/realmode/video-mode.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/acpi/realmode/video-vesa.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/acpi/realmode/video-vga.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/acpi/realmode/wakemain.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/acpi/sleep.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/alternative.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/amd_iommu.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/amd_iommu_init.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/aperture_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/apic/apic.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/apic/apic_noop.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/apic/io_apic.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/apic/ipi.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/apic/nmi.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/apic/probe_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/audit_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/bootflag.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/check.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/amd.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/bugs_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/centaur.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/common.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/cpufreq/mperf.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/hypervisor.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/intel.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/mcheck/mce-severity.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/mcheck/mce_intel.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/mcheck/threshold.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/mshyperv.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/mtrr/cleanup.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/mtrr/generic.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/mtrr/if.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/mtrr/main.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/perf_event.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/powerflags.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/proc.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/scattered.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/sched.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/topology.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/cpu/vmware.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/crash.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/crash_dump_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/dumpstack.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/dumpstack_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/e820.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/early-quirks.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/early_printk.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/efi.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/efi_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/ftrace.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/head.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/head64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/hpet.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/hw_breakpoint.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/i387.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/i8237.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/i8253.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/i8259.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/init_task.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/inktag_pvops.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/io_delay.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/ioport.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/irq.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/irq_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/irqinit.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/k8.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/kdebugfs.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/kgdb.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/kprobes.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/kvm.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/kvmclock.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/ldt.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/machine_kexec_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/mmconf-fam10h_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/module.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/mpparse.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/paravirt-spinlocks.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/paravirt.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/paravirt_patch_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/pci-calgary_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/pci-dma.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/pci-gart_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/pci-nommu.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/pci-swiotlb.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/pcspeaker.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/pmtimer_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/process.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/process_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/ptrace.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/pvclock.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/quirks.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/reboot.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/rtc.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/setup.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/setup_percpu.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/sfi.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/signal.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/smp.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/smpboot.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/stacktrace.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/step.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/sys_x86_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/syscall_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/tce_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/time.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/tls.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/topology.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/trampoline.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/traps.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/tsc.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/tsc_sync.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/vsmp_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/vsyscall_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/x8664_ksyms_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/x86_init.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/kernel/xsave.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/lib/cache-smp.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/lib/csum-partial_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/lib/csum-wrappers_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/lib/delay.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/lib/inat.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/lib/insn.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/lib/memmove_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/lib/msr-reg-export.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/lib/msr-smp.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/lib/msr.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/lib/usercopy_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/extable.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/fault.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/gup.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/hugetlbpage.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/init.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/init_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/ioremap.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/k8topology_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/kmmio.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/mmap.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/mmio-mod.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/numa.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/numa_64.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/pageattr.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/pat.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/pat_rbtree.c", "line":114, "type":"d", }
+,{"id":"__amd64", "file":"arch/x86/mm/pf_in.c", "line":114, "type":"d", }
+,];
+xr_frag_insert('t/88/9521ae7a0d06784db1d37bdc0391524a92601e.xr', __xr_tmp);

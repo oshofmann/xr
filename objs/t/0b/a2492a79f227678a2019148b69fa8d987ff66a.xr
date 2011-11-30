@@ -1,0 +1,191 @@
+var __xr_tmp = [
+{"id":"IEEE80211_CHAN_NO_HT40MINUS", "file":"include/net/cfg80211.h", "line":71, "type":"e", "scope_line":65, "scope_name":"ieee80211_channel_flags", }
+,{"id":"IEEE80211_CHAN_NO_HT40PLUS", "file":"include/net/cfg80211.h", "line":70, "type":"e", "scope_line":65, "scope_name":"ieee80211_channel_flags", }
+,{"id":"IEEE80211_CHAN_NO_IBSS", "file":"include/net/cfg80211.h", "line":68, "type":"e", "scope_line":65, "scope_name":"ieee80211_channel_flags", }
+,{"id":"IEEE80211_CHAN_PASSIVE_SCAN", "file":"include/net/cfg80211.h", "line":67, "type":"e", "scope_line":65, "scope_name":"ieee80211_channel_flags", }
+,{"id":"IEEE80211_CHAN_RADAR", "file":"include/net/cfg80211.h", "line":69, "type":"e", "scope_line":65, "scope_name":"ieee80211_channel_flags", }
+,{"id":"IEEE80211_COUNTRY_EXTENSION_ID", "file":"include/linux/ieee80211.h", "line":1284, "type":"d", }
+,{"id":"IEEE80211_COUNTRY_IE_MIN_LEN", "file":"include/linux/ieee80211.h", "line":1259, "type":"d", }
+,{"id":"IEEE80211_DELBA_PARAM_INITIATOR_MASK", "file":"include/linux/ieee80211.h", "line":964, "type":"d", }
+,{"id":"IEEE80211_DELBA_PARAM_TID_MASK", "file":"include/linux/ieee80211.h", "line":963, "type":"d", }
+,{"id":"IEEE80211_FCTL_FROMDS", "file":"include/linux/ieee80211.h", "line":43, "type":"d", }
+,{"id":"IEEE80211_FCTL_FTYPE", "file":"include/linux/ieee80211.h", "line":40, "type":"d", }
+,{"id":"IEEE80211_FCTL_MOREDATA", "file":"include/linux/ieee80211.h", "line":47, "type":"d", }
+,{"id":"IEEE80211_FCTL_MOREFRAGS", "file":"include/linux/ieee80211.h", "line":44, "type":"d", }
+,{"id":"IEEE80211_FCTL_ORDER", "file":"include/linux/ieee80211.h", "line":49, "type":"d", }
+,{"id":"IEEE80211_FCTL_PM", "file":"include/linux/ieee80211.h", "line":46, "type":"d", }
+,{"id":"IEEE80211_FCTL_PROTECTED", "file":"include/linux/ieee80211.h", "line":48, "type":"d", }
+,{"id":"IEEE80211_FCTL_RETRY", "file":"include/linux/ieee80211.h", "line":45, "type":"d", }
+,{"id":"IEEE80211_FCTL_STYPE", "file":"include/linux/ieee80211.h", "line":41, "type":"d", }
+,{"id":"IEEE80211_FCTL_TODS", "file":"include/linux/ieee80211.h", "line":42, "type":"d", }
+,{"id":"IEEE80211_FCTL_VERS", "file":"include/linux/ieee80211.h", "line":39, "type":"d", }
+,{"id":"IEEE80211_FTYPE_CTL", "file":"include/linux/ieee80211.h", "line":55, "type":"d", }
+,{"id":"IEEE80211_FTYPE_DATA", "file":"include/linux/ieee80211.h", "line":56, "type":"d", }
+,{"id":"IEEE80211_FTYPE_MGMT", "file":"include/linux/ieee80211.h", "line":54, "type":"d", }
+,{"id":"IEEE80211_HT_AMPDU_PARM_DENSITY", "file":"include/linux/ieee80211.h", "line":889, "type":"d", }
+,{"id":"IEEE80211_HT_AMPDU_PARM_DENSITY_SHIFT", "file":"include/linux/ieee80211.h", "line":890, "type":"d", }
+,{"id":"IEEE80211_HT_AMPDU_PARM_FACTOR", "file":"include/linux/ieee80211.h", "line":888, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_40MHZ_INTOLERANT", "file":"include/linux/ieee80211.h", "line":884, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_DELAY_BA", "file":"include/linux/ieee80211.h", "line":880, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_DSSSCCK40", "file":"include/linux/ieee80211.h", "line":882, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_GRN_FLD", "file":"include/linux/ieee80211.h", "line":874, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_LDPC_CODING", "file":"include/linux/ieee80211.h", "line":870, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_LSIG_TXOP_PROT", "file":"include/linux/ieee80211.h", "line":885, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_MAX_AMSDU", "file":"include/linux/ieee80211.h", "line":881, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_RESERVED", "file":"include/linux/ieee80211.h", "line":883, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_RX_STBC", "file":"include/linux/ieee80211.h", "line":878, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_RX_STBC_SHIFT", "file":"include/linux/ieee80211.h", "line":879, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_SGI_20", "file":"include/linux/ieee80211.h", "line":875, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_SGI_40", "file":"include/linux/ieee80211.h", "line":876, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_SM_PS", "file":"include/linux/ieee80211.h", "line":872, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_SM_PS_SHIFT", "file":"include/linux/ieee80211.h", "line":873, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_SUP_WIDTH_20_40", "file":"include/linux/ieee80211.h", "line":871, "type":"d", }
+,{"id":"IEEE80211_HT_CAP_TX_STBC", "file":"include/linux/ieee80211.h", "line":877, "type":"d", }
+,{"id":"IEEE80211_HT_CTL_LEN", "file":"include/linux/ieee80211.h", "line":141, "type":"d", }
+,{"id":"IEEE80211_HT_MAX_AMPDU_16K", "file":"include/linux/ieee80211.h", "line":898, "type":"e", "scope_line":896, "scope_name":"ieee80211_max_ampdu_length_exp", }
+,{"id":"IEEE80211_HT_MAX_AMPDU_32K", "file":"include/linux/ieee80211.h", "line":899, "type":"e", "scope_line":896, "scope_name":"ieee80211_max_ampdu_length_exp", }
+,{"id":"IEEE80211_HT_MAX_AMPDU_64K", "file":"include/linux/ieee80211.h", "line":900, "type":"e", "scope_line":896, "scope_name":"ieee80211_max_ampdu_length_exp", }
+,{"id":"IEEE80211_HT_MAX_AMPDU_8K", "file":"include/linux/ieee80211.h", "line":897, "type":"e", "scope_line":896, "scope_name":"ieee80211_max_ampdu_length_exp", }
+,{"id":"IEEE80211_HT_MAX_AMPDU_FACTOR", "file":"include/linux/ieee80211.h", "line":903, "type":"d", }
+,{"id":"IEEE80211_HT_MCS_MASK_LEN", "file":"include/linux/ieee80211.h", "line":812, "type":"d", }
+,{"id":"IEEE80211_HT_MCS_RX_HIGHEST_MASK", "file":"include/linux/ieee80211.h", "line":831, "type":"d", }
+,{"id":"IEEE80211_HT_MCS_TX_DEFINED", "file":"include/linux/ieee80211.h", "line":832, "type":"d", }
+,{"id":"IEEE80211_HT_MCS_TX_MAX_STREAMS", "file":"include/linux/ieee80211.h", "line":837, "type":"d", }
+,{"id":"IEEE80211_HT_MCS_TX_MAX_STREAMS_MASK", "file":"include/linux/ieee80211.h", "line":835, "type":"d", }
+,{"id":"IEEE80211_HT_MCS_TX_MAX_STREAMS_SHIFT", "file":"include/linux/ieee80211.h", "line":836, "type":"d", }
+,{"id":"IEEE80211_HT_MCS_TX_RX_DIFF", "file":"include/linux/ieee80211.h", "line":833, "type":"d", }
+,{"id":"IEEE80211_HT_MCS_TX_UNEQUAL_MODULATION", "file":"include/linux/ieee80211.h", "line":838, "type":"d", }
+,{"id":"IEEE80211_HT_MCS_UNEQUAL_MODULATION_START", "file":"include/linux/ieee80211.h", "line":847, "type":"d", }
+,{"id":"IEEE80211_HT_MCS_UNEQUAL_MODULATION_START_BYTE", "file":"include/linux/ieee80211.h", "line":848, "type":"d", }
+,{"id":"IEEE80211_HT_MPDU_DENSITY_0_25", "file":"include/linux/ieee80211.h", "line":908, "type":"e", "scope_line":906, "scope_name":"ieee80211_min_mpdu_spacing", }
+,{"id":"IEEE80211_HT_MPDU_DENSITY_0_5", "file":"include/linux/ieee80211.h", "line":909, "type":"e", "scope_line":906, "scope_name":"ieee80211_min_mpdu_spacing", }
+,{"id":"IEEE80211_HT_MPDU_DENSITY_1", "file":"include/linux/ieee80211.h", "line":910, "type":"e", "scope_line":906, "scope_name":"ieee80211_min_mpdu_spacing", }
+,{"id":"IEEE80211_HT_MPDU_DENSITY_16", "file":"include/linux/ieee80211.h", "line":914, "type":"e", "scope_line":906, "scope_name":"ieee80211_min_mpdu_spacing", }
+,{"id":"IEEE80211_HT_MPDU_DENSITY_2", "file":"include/linux/ieee80211.h", "line":911, "type":"e", "scope_line":906, "scope_name":"ieee80211_min_mpdu_spacing", }
+,{"id":"IEEE80211_HT_MPDU_DENSITY_4", "file":"include/linux/ieee80211.h", "line":912, "type":"e", "scope_line":906, "scope_name":"ieee80211_min_mpdu_spacing", }
+,{"id":"IEEE80211_HT_MPDU_DENSITY_8", "file":"include/linux/ieee80211.h", "line":913, "type":"e", "scope_line":906, "scope_name":"ieee80211_min_mpdu_spacing", }
+,{"id":"IEEE80211_HT_MPDU_DENSITY_NONE", "file":"include/linux/ieee80211.h", "line":907, "type":"e", "scope_line":906, "scope_name":"ieee80211_min_mpdu_spacing", }
+,{"id":"IEEE80211_HT_OP_MODE_NON_GF_STA_PRSNT", "file":"include/linux/ieee80211.h", "line":947, "type":"d", }
+,{"id":"IEEE80211_HT_OP_MODE_NON_HT_STA_PRSNT", "file":"include/linux/ieee80211.h", "line":948, "type":"d", }
+,{"id":"IEEE80211_HT_OP_MODE_PROTECTION", "file":"include/linux/ieee80211.h", "line":942, "type":"d", }
+,{"id":"IEEE80211_HT_OP_MODE_PROTECTION_20MHZ", "file":"include/linux/ieee80211.h", "line":945, "type":"d", }
+,{"id":"IEEE80211_HT_OP_MODE_PROTECTION_NONE", "file":"include/linux/ieee80211.h", "line":943, "type":"d", }
+,{"id":"IEEE80211_HT_OP_MODE_PROTECTION_NONHT_MIXED", "file":"include/linux/ieee80211.h", "line":946, "type":"d", }
+,{"id":"IEEE80211_HT_OP_MODE_PROTECTION_NONMEMBER", "file":"include/linux/ieee80211.h", "line":944, "type":"d", }
+,{"id":"IEEE80211_HT_PARAM_CHAN_WIDTH_ANY", "file":"include/linux/ieee80211.h", "line":936, "type":"d", }
+,{"id":"IEEE80211_HT_PARAM_CHA_SEC_ABOVE", "file":"include/linux/ieee80211.h", "line":934, "type":"d", }
+,{"id":"IEEE80211_HT_PARAM_CHA_SEC_BELOW", "file":"include/linux/ieee80211.h", "line":935, "type":"d", }
+,{"id":"IEEE80211_HT_PARAM_CHA_SEC_NONE", "file":"include/linux/ieee80211.h", "line":933, "type":"d", }
+,{"id":"IEEE80211_HT_PARAM_CHA_SEC_OFFSET", "file":"include/linux/ieee80211.h", "line":932, "type":"d", }
+,{"id":"IEEE80211_HT_PARAM_RIFS_MODE", "file":"include/linux/ieee80211.h", "line":937, "type":"d", }
+,{"id":"IEEE80211_HT_PARAM_SERV_INTERVAL_GRAN", "file":"include/linux/ieee80211.h", "line":939, "type":"d", }
+,{"id":"IEEE80211_HT_PARAM_SPSMP_SUPPORT", "file":"include/linux/ieee80211.h", "line":938, "type":"d", }
+,{"id":"IEEE80211_HT_STBC_PARAM_DUAL_BEACON", "file":"include/linux/ieee80211.h", "line":951, "type":"d", }
+,{"id":"IEEE80211_HT_STBC_PARAM_DUAL_CTS_PROT", "file":"include/linux/ieee80211.h", "line":952, "type":"d", }
+,{"id":"IEEE80211_HT_STBC_PARAM_LSIG_TXOP_FULLPROT", "file":"include/linux/ieee80211.h", "line":954, "type":"d", }
+,{"id":"IEEE80211_HT_STBC_PARAM_PCO_ACTIVE", "file":"include/linux/ieee80211.h", "line":955, "type":"d", }
+,{"id":"IEEE80211_HT_STBC_PARAM_PCO_PHASE", "file":"include/linux/ieee80211.h", "line":956, "type":"d", }
+,{"id":"IEEE80211_HT_STBC_PARAM_STBC_BEACON", "file":"include/linux/ieee80211.h", "line":953, "type":"d", }
+,{"id":"IEEE80211_MAX_AID", "file":"include/linux/ieee80211.h", "line":104, "type":"d", }
+,{"id":"IEEE80211_MAX_AMPDU_BUF", "file":"include/linux/ieee80211.h", "line":971, "type":"d", }
+,{"id":"IEEE80211_MAX_DATA_LEN", "file":"include/linux/ieee80211.h", "line":111, "type":"d", }
+,{"id":"IEEE80211_MAX_FRAG_THRESHOLD", "file":"include/linux/ieee80211.h", "line":102, "type":"d", }
+,{"id":"IEEE80211_MAX_FRAME_LEN", "file":"include/linux/ieee80211.h", "line":113, "type":"d", }
+,{"id":"IEEE80211_MAX_MESH_ID_LEN", "file":"include/linux/ieee80211.h", "line":117, "type":"d", }
+,{"id":"IEEE80211_MAX_RTS_THRESHOLD", "file":"include/linux/ieee80211.h", "line":103, "type":"d", }
+,{"id":"IEEE80211_MAX_SSID_LEN", "file":"include/linux/ieee80211.h", "line":115, "type":"d", }
+,{"id":"IEEE80211_MAX_TIM_LEN", "file":"include/linux/ieee80211.h", "line":105, "type":"d", }
+,{"id":"IEEE80211_MIN_ACTION_SIZE", "file":"include/linux/ieee80211.h", "line":759, "type":"d", }
+,{"id":"IEEE80211_MIN_AMPDU_BUF", "file":"include/linux/ieee80211.h", "line":970, "type":"d", }
+,{"id":"IEEE80211_NUM_BANDS", "file":"include/net/cfg80211.h", "line":47, "type":"e", "scope_line":42, "scope_name":"ieee80211_band", }
+,{"id":"IEEE80211_QOS_CONTROL_A_MSDU_PRESENT", "file":"include/linux/ieee80211.h", "line":1340, "type":"d", }
+,{"id":"IEEE80211_QOS_CTL_LEN", "file":"include/linux/ieee80211.h", "line":119, "type":"d", }
+,{"id":"IEEE80211_QOS_CTL_TAG1D_MASK", "file":"include/linux/ieee80211.h", "line":121, "type":"d", }
+,{"id":"IEEE80211_QOS_CTL_TID_MASK", "file":"include/linux/ieee80211.h", "line":120, "type":"d", }
+,{"id":"IEEE80211_RATE_ERP_G", "file":"include/net/cfg80211.h", "line":135, "type":"e", "scope_line":130, "scope_name":"ieee80211_rate_flags", }
+,{"id":"IEEE80211_RATE_MANDATORY_A", "file":"include/net/cfg80211.h", "line":132, "type":"e", "scope_line":130, "scope_name":"ieee80211_rate_flags", }
+,{"id":"IEEE80211_RATE_MANDATORY_B", "file":"include/net/cfg80211.h", "line":133, "type":"e", "scope_line":130, "scope_name":"ieee80211_rate_flags", }
+,{"id":"IEEE80211_RATE_MANDATORY_G", "file":"include/net/cfg80211.h", "line":134, "type":"e", "scope_line":130, "scope_name":"ieee80211_rate_flags", }
+,{"id":"IEEE80211_RATE_SHORT_PREAMBLE", "file":"include/net/cfg80211.h", "line":131, "type":"e", "scope_line":130, "scope_name":"ieee80211_rate_flags", }
+,{"id":"IEEE80211_SCTL_FRAG", "file":"include/linux/ieee80211.h", "line":51, "type":"d", }
+,{"id":"IEEE80211_SCTL_SEQ", "file":"include/linux/ieee80211.h", "line":52, "type":"d", }
+,{"id":"IEEE80211_SPCT_MSR_RPRT_MODE_INCAPABLE", "file":"include/linux/ieee80211.h", "line":1009, "type":"d", }
+,{"id":"IEEE80211_SPCT_MSR_RPRT_MODE_LATE", "file":"include/linux/ieee80211.h", "line":1008, "type":"d", }
+,{"id":"IEEE80211_SPCT_MSR_RPRT_MODE_REFUSED", "file":"include/linux/ieee80211.h", "line":1010, "type":"d", }
+,{"id":"IEEE80211_SPCT_MSR_RPRT_TYPE_BASIC", "file":"include/linux/ieee80211.h", "line":1012, "type":"d", }
+,{"id":"IEEE80211_SPCT_MSR_RPRT_TYPE_CCA", "file":"include/linux/ieee80211.h", "line":1013, "type":"d", }
+,{"id":"IEEE80211_SPCT_MSR_RPRT_TYPE_RPI", "file":"include/linux/ieee80211.h", "line":1014, "type":"d", }
+,{"id":"IEEE80211_STYPE_ACK", "file":"include/linux/ieee80211.h", "line":78, "type":"d", }
+,{"id":"IEEE80211_STYPE_ACTION", "file":"include/linux/ieee80211.h", "line":70, "type":"d", }
+,{"id":"IEEE80211_STYPE_ASSOC_REQ", "file":"include/linux/ieee80211.h", "line":59, "type":"d", }
+,{"id":"IEEE80211_STYPE_ASSOC_RESP", "file":"include/linux/ieee80211.h", "line":60, "type":"d", }
+,{"id":"IEEE80211_STYPE_ATIM", "file":"include/linux/ieee80211.h", "line":66, "type":"d", }
+,{"id":"IEEE80211_STYPE_AUTH", "file":"include/linux/ieee80211.h", "line":68, "type":"d", }
+,{"id":"IEEE80211_STYPE_BACK", "file":"include/linux/ieee80211.h", "line":74, "type":"d", }
+,{"id":"IEEE80211_STYPE_BACK_REQ", "file":"include/linux/ieee80211.h", "line":73, "type":"d", }
+,{"id":"IEEE80211_STYPE_BEACON", "file":"include/linux/ieee80211.h", "line":65, "type":"d", }
+,{"id":"IEEE80211_STYPE_CFACK", "file":"include/linux/ieee80211.h", "line":88, "type":"d", }
+,{"id":"IEEE80211_STYPE_CFACKPOLL", "file":"include/linux/ieee80211.h", "line":90, "type":"d", }
+,{"id":"IEEE80211_STYPE_CFEND", "file":"include/linux/ieee80211.h", "line":79, "type":"d", }
+,{"id":"IEEE80211_STYPE_CFENDACK", "file":"include/linux/ieee80211.h", "line":80, "type":"d", }
+,{"id":"IEEE80211_STYPE_CFPOLL", "file":"include/linux/ieee80211.h", "line":89, "type":"d", }
+,{"id":"IEEE80211_STYPE_CTS", "file":"include/linux/ieee80211.h", "line":77, "type":"d", }
+,{"id":"IEEE80211_STYPE_DATA", "file":"include/linux/ieee80211.h", "line":83, "type":"d", }
+,{"id":"IEEE80211_STYPE_DATA_CFACK", "file":"include/linux/ieee80211.h", "line":84, "type":"d", }
+,{"id":"IEEE80211_STYPE_DATA_CFACKPOLL", "file":"include/linux/ieee80211.h", "line":86, "type":"d", }
+,{"id":"IEEE80211_STYPE_DATA_CFPOLL", "file":"include/linux/ieee80211.h", "line":85, "type":"d", }
+,{"id":"IEEE80211_STYPE_DEAUTH", "file":"include/linux/ieee80211.h", "line":69, "type":"d", }
+,{"id":"IEEE80211_STYPE_DISASSOC", "file":"include/linux/ieee80211.h", "line":67, "type":"d", }
+,{"id":"IEEE80211_STYPE_NULLFUNC", "file":"include/linux/ieee80211.h", "line":87, "type":"d", }
+,{"id":"IEEE80211_STYPE_PROBE_REQ", "file":"include/linux/ieee80211.h", "line":63, "type":"d", }
+,{"id":"IEEE80211_STYPE_PROBE_RESP", "file":"include/linux/ieee80211.h", "line":64, "type":"d", }
+,{"id":"IEEE80211_STYPE_PSPOLL", "file":"include/linux/ieee80211.h", "line":75, "type":"d", }
+,{"id":"IEEE80211_STYPE_QOS_CFACK", "file":"include/linux/ieee80211.h", "line":96, "type":"d", }
+,{"id":"IEEE80211_STYPE_QOS_CFACKPOLL", "file":"include/linux/ieee80211.h", "line":98, "type":"d", }
+,{"id":"IEEE80211_STYPE_QOS_CFPOLL", "file":"include/linux/ieee80211.h", "line":97, "type":"d", }
+,{"id":"IEEE80211_STYPE_QOS_DATA", "file":"include/linux/ieee80211.h", "line":91, "type":"d", }
+,{"id":"IEEE80211_STYPE_QOS_DATA_CFACK", "file":"include/linux/ieee80211.h", "line":92, "type":"d", }
+,{"id":"IEEE80211_STYPE_QOS_DATA_CFACKPOLL", "file":"include/linux/ieee80211.h", "line":94, "type":"d", }
+,{"id":"IEEE80211_STYPE_QOS_DATA_CFPOLL", "file":"include/linux/ieee80211.h", "line":93, "type":"d", }
+,{"id":"IEEE80211_STYPE_QOS_NULLFUNC", "file":"include/linux/ieee80211.h", "line":95, "type":"d", }
+,{"id":"IEEE80211_STYPE_REASSOC_REQ", "file":"include/linux/ieee80211.h", "line":61, "type":"d", }
+,{"id":"IEEE80211_STYPE_REASSOC_RESP", "file":"include/linux/ieee80211.h", "line":62, "type":"d", }
+,{"id":"IEEE80211_STYPE_RTS", "file":"include/linux/ieee80211.h", "line":76, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_AP_QOSINFO_UAPSD", "file":"include/linux/ieee80211.h", "line":124, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_STA_QOSINFO_AC_BE", "file":"include/linux/ieee80211.h", "line":130, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_STA_QOSINFO_AC_BK", "file":"include/linux/ieee80211.h", "line":129, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_STA_QOSINFO_AC_MASK", "file":"include/linux/ieee80211.h", "line":131, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_STA_QOSINFO_AC_VI", "file":"include/linux/ieee80211.h", "line":128, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_STA_QOSINFO_AC_VO", "file":"include/linux/ieee80211.h", "line":127, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_STA_QOSINFO_SP_2", "file":"include/linux/ieee80211.h", "line":135, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_STA_QOSINFO_SP_4", "file":"include/linux/ieee80211.h", "line":136, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_STA_QOSINFO_SP_6", "file":"include/linux/ieee80211.h", "line":137, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_STA_QOSINFO_SP_ALL", "file":"include/linux/ieee80211.h", "line":134, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_STA_QOSINFO_SP_MASK", "file":"include/linux/ieee80211.h", "line":138, "type":"d", }
+,{"id":"IEEE80211_WMM_IE_STA_QOSINFO_SP_SHIFT", "file":"include/linux/ieee80211.h", "line":139, "type":"d", }
+,{"id":"IER", "file":"arch/x86/kernel/early_printk.c", "line":84, "type":"d", }
+,{"id":"IEXTEN", "file":"include/asm-generic/termbits.h", "line":180, "type":"d", }
+,{"id":"IFALIASZ", "file":"include/linux/if.h", "line":27, "type":"d", }
+,{"id":"IFAL_ADDRESS", "file":"include/linux/if_addrlabel.h", "line":25, "type":"e", "scope_line":24, }
+,{"id":"IFAL_LABEL", "file":"include/linux/if_addrlabel.h", "line":26, "type":"e", "scope_line":24, }
+,{"id":"IFAL_MAX", "file":"include/linux/if_addrlabel.h", "line":30, "type":"d", }
+,{"id":"IFA_ADDRESS", "file":"include/linux/if_addr.h", "line":24, "type":"e", "scope_line":22, }
+,{"id":"IFA_ANYCAST", "file":"include/linux/if_addr.h", "line":28, "type":"e", "scope_line":22, }
+,{"id":"IFA_BROADCAST", "file":"include/linux/if_addr.h", "line":27, "type":"e", "scope_line":22, }
+,{"id":"IFA_CACHEINFO", "file":"include/linux/if_addr.h", "line":29, "type":"e", "scope_line":22, }
+,{"id":"IFA_F_DADFAILED", "file":"include/linux/if_addr.h", "line":42, "type":"d", }
+,{"id":"IFA_F_DEPRECATED", "file":"include/linux/if_addr.h", "line":44, "type":"d", }
+,{"id":"IFA_F_HOMEADDRESS", "file":"include/linux/if_addr.h", "line":43, "type":"d", }
+,{"id":"IFA_F_NODAD", "file":"include/linux/if_addr.h", "line":40, "type":"d", }
+,{"id":"IFA_F_OPTIMISTIC", "file":"include/linux/if_addr.h", "line":41, "type":"d", }
+,{"id":"IFA_F_PERMANENT", "file":"include/linux/if_addr.h", "line":46, "type":"d", }
+,{"id":"IFA_F_SECONDARY", "file":"include/linux/if_addr.h", "line":37, "type":"d", }
+,{"id":"IFA_F_TEMPORARY", "file":"include/linux/if_addr.h", "line":38, "type":"d", }
+,{"id":"IFA_F_TENTATIVE", "file":"include/linux/if_addr.h", "line":45, "type":"d", }
+,{"id":"IFA_HOST", "file":"include/net/if_inet6.h", "line":151, "type":"d", }
+,{"id":"IFA_LABEL", "file":"include/linux/if_addr.h", "line":26, "type":"e", "scope_line":22, }
+,{"id":"IFA_LINK", "file":"include/net/if_inet6.h", "line":152, "type":"d", }
+,{"id":"IFA_LOCAL", "file":"include/linux/if_addr.h", "line":25, "type":"e", "scope_line":22, }
+,{"id":"IFA_MAX", "file":"include/linux/if_addr.h", "line":34, "type":"d", }
+,];
+xr_frag_insert('t/0b/a2492a79f227678a2019148b69fa8d987ff66a.xr', __xr_tmp);

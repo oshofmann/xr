@@ -1,0 +1,77 @@
+var __xr_tmp = [
+{"id":"cpupri_find", "file":"kernel/sched_rt.c", "line":1180, "type":"c", "scope_line":1170, "scope_name":"find_lowest_rq", }
+,{"id":"cpupri_find", "file":"kernel/sched_rt.c", "line":993, "type":"c", "scope_line":988, "scope_name":"check_preempt_equal_prio", }
+,{"id":"cpupri_find", "file":"kernel/sched_rt.c", "line":997, "type":"c", "scope_line":988, "scope_name":"check_preempt_equal_prio", }
+,{"id":"cpupri_init", "file":"kernel/sched.c", "line":6278, "type":"c", "scope_line":6267, "scope_name":"init_rootdomain", }
+,{"id":"cpupri_init", "file":"kernel/sched_cpupri.c", "line":169, "type":"f", }
+,{"id":"cpupri_set", "file":"kernel/sched_cpupri.c", "line":114, "type":"f", }
+,{"id":"cpupri_set", "file":"kernel/sched_rt.c", "line":1552, "type":"c", "scope_line":1545, "scope_name":"rq_online_rt", }
+,{"id":"cpupri_set", "file":"kernel/sched_rt.c", "line":1563, "type":"c", "scope_line":1556, "scope_name":"rq_offline_rt", }
+,{"id":"cpupri_set", "file":"kernel/sched_rt.c", "line":671, "type":"c", "scope_line":656, "scope_name":"inc_rt_prio_smp", }
+,{"id":"cpupri_set", "file":"kernel/sched_rt.c", "line":696, "type":"c", "scope_line":687, "scope_name":"dec_rt_prio_smp", }
+,{"id":"cpupri_vec", "file":"kernel/sched_cpupri.h", "line":14, "type":"s", }
+,{"id":"cpus", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":71, "type":"m", "scope_line":68, "scope_name":"struct threshold_bank", }
+,{"id":"cpus", "file":"include/linux/cpufreq.h", "line":86, "type":"m", "scope_line":85, "scope_name":"struct cpufreq_policy", }
+,{"id":"cpus", "file":"include/linux/netdevice.h", "line":522, "type":"m", "scope_line":519, "scope_name":"struct rps_map", }
+,{"id":"cpus", "file":"kernel/power/power.h", "line":10, "type":"m", "scope_line":6, "scope_name":"struct swsusp_info", }
+,{"id":"cpus", "file":"kernel/sched.c", "line":6499, "type":"m", "scope_line":6497, "scope_name":"struct static_sched_group", }
+,{"id":"cpus", "file":"kernel/trace/ring_buffer.c", "line":471, "type":"m", "scope_line":468, "scope_name":"struct ring_buffer", }
+,{"id":"cpus_addr", "file":"include/linux/cpumask.h", "line":808, "type":"d", }
+,{"id":"cpus_allowed", "file":"include/linux/sched.h", "line":1203, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"cpus_allowed", "file":"kernel/cpuset.c", "line":95, "type":"m", "scope_line":91, "scope_name":"struct cpuset", }
+,{"id":"cpus_and", "file":"include/linux/cpumask.h", "line":843, "type":"d", }
+,{"id":"cpus_andnot", "file":"include/linux/cpumask.h", "line":864, "type":"d", }
+,{"id":"cpus_are_in_xmon", "file":"drivers/char/hvc_console.c", "line":722, "type":"c", "scope_line":710, "scope_name":"khvcd", }
+,{"id":"cpus_are_in_xmon", "file":"drivers/char/hvc_console.h", "line":113, "type":"f", }
+,{"id":"cpus_attach", "file":"kernel/cpuset.c", "line":1377, "type":"v", }
+,{"id":"cpus_buf", "file":"mm/percpu.c", "line":1340, "type":"v", }
+,{"id":"cpus_clear", "file":"include/linux/cpumask.h", "line":828, "type":"d", }
+,{"id":"cpus_empty", "file":"include/linux/cpumask.h", "line":893, "type":"d", }
+,{"id":"cpus_equal", "file":"include/linux/cpumask.h", "line":872, "type":"d", }
+,{"id":"cpus_intersects", "file":"include/linux/cpumask.h", "line":879, "type":"d", }
+,{"id":"cpus_or", "file":"include/linux/cpumask.h", "line":850, "type":"d", }
+,{"id":"cpus_setall", "file":"include/linux/cpumask.h", "line":822, "type":"d", }
+,{"id":"cpus_shift_left", "file":"include/linux/cpumask.h", "line":905, "type":"d", }
+,{"id":"cpus_subset", "file":"include/linux/cpumask.h", "line":886, "type":"d", }
+,{"id":"cpus_using_userspace_governor", "file":"drivers/cpufreq/cpufreq_userspace.c", "line":38, "type":"v", }
+,{"id":"cpus_weight", "file":"include/linux/cpumask.h", "line":899, "type":"d", }
+,{"id":"cpus_xor", "file":"include/linux/cpumask.h", "line":857, "type":"d", }
+,{"id":"cpuset", "file":"kernel/cpuset.c", "line":91, "type":"s", }
+,{"id":"cpuset_attach", "file":"kernel/cpuset.c", "line":1435, "type":"f", }
+,{"id":"cpuset_attach_task", "file":"kernel/cpuset.c", "line":1419, "type":"f", }
+,{"id":"cpuset_attach_task", "file":"kernel/cpuset.c", "line":1456, "type":"c", "scope_line":1435, "scope_name":"cpuset_attach", }
+,{"id":"cpuset_attach_task", "file":"kernel/cpuset.c", "line":1461, "type":"c", "scope_line":1435, "scope_name":"cpuset_attach", }
+,{"id":"cpuset_being_rebound", "file":"kernel/cpuset.c", "line":1043, "type":"v", }
+,{"id":"cpuset_buffer_lock", "file":"kernel/cpuset.c", "line":227, "type":"v", }
+,{"id":"cpuset_can_attach", "file":"kernel/cpuset.c", "line":1380, "type":"f", }
+,{"id":"cpuset_change_cpumask", "file":"kernel/cpuset.c", "line":816, "type":"f", }
+,{"id":"cpuset_change_flag", "file":"kernel/cpuset.c", "line":1192, "type":"f", }
+,{"id":"cpuset_change_nodemask", "file":"kernel/cpuset.c", "line":1012, "type":"f", }
+,{"id":"cpuset_change_task_nodemask", "file":"kernel/cpuset.c", "line":1027, "type":"c", "scope_line":1012, "scope_name":"cpuset_change_nodemask", }
+,{"id":"cpuset_change_task_nodemask", "file":"kernel/cpuset.c", "line":1430, "type":"c", "scope_line":1419, "scope_name":"cpuset_attach_task", }
+,{"id":"cpuset_change_task_nodemask", "file":"kernel/cpuset.c", "line":950, "type":"f", }
+,{"id":"cpuset_common_file_read", "file":"kernel/cpuset.c", "line":1641, "type":"f", }
+,{"id":"cpuset_cpu_active", "file":"kernel/sched.c", "line":7491, "type":"f", }
+,{"id":"cpuset_cpu_active_nb", "file":"kernel/sched.c", "line":7560, "type":"v", }
+,{"id":"cpuset_cpu_inactive", "file":"kernel/sched.c", "line":7504, "type":"f", }
+,{"id":"cpuset_cpu_inactive_nb", "file":"kernel/sched.c", "line":7561, "type":"v", }
+,{"id":"cpuset_cpus_allowed", "file":"kernel/cpuset.c", "line":2207, "type":"f", }
+,{"id":"cpuset_cpus_allowed", "file":"kernel/sched.c", "line":4894, "type":"c", "scope_line":4858, "scope_name":"sched_setaffinity", }
+,{"id":"cpuset_cpus_allowed", "file":"kernel/sched.c", "line":4900, "type":"c", "scope_line":4858, "scope_name":"sched_setaffinity", }
+,{"id":"cpuset_cpus_allowed_fallback", "file":"kernel/cpuset.c", "line":2216, "type":"f", }
+,{"id":"cpuset_cpus_allowed_fallback", "file":"kernel/sched.c", "line":2240, "type":"c", "scope_line":2223, "scope_name":"select_fallback_rq", }
+,{"id":"cpuset_create", "file":"kernel/cpuset.c", "line":1874, "type":"f", }
+,{"id":"cpuset_current_mems_allowed", "file":"include/linux/cpuset.h", "line":27, "type":"d", }
+,{"id":"cpuset_destroy", "file":"kernel/cpuset.c", "line":1915, "type":"f", }
+,{"id":"cpuset_do_move_task", "file":"kernel/cpuset.c", "line":1978, "type":"f", }
+,{"id":"cpuset_do_page_mem_spread", "file":"include/linux/cpuset.h", "line":75, "type":"f", }
+,{"id":"cpuset_do_page_mem_spread", "file":"mm/filemap.c", "line":468, "type":"c", "scope_line":463, "scope_name":"__page_cache_alloc", }
+,{"id":"cpuset_do_slab_mem_spread", "file":"include/linux/cpuset.h", "line":80, "type":"f", }
+,{"id":"cpuset_do_slab_mem_spread", "file":"mm/slab.c", "line":3220, "type":"c", "scope_line":3212, "scope_name":"alternate_node_alloc", }
+,{"id":"cpuset_filetype_t", "file":"kernel/cpuset.c", "line":1484, "type":"t", }
+,{"id":"cpuset_flagbits_t", "file":"kernel/cpuset.c", "line":127, "type":"t", }
+,{"id":"cpuset_fs_type", "file":"kernel/cpuset.c", "line":251, "type":"v", }
+,{"id":"cpuset_get_sb", "file":"kernel/cpuset.c", "line":234, "type":"f", }
+,{"id":"cpuset_init", "file":"init/main.c", "line":693, "type":"c", "scope_line":536, "scope_name":"start_kernel", }
+,];
+xr_frag_insert('t/9e/033b568912cdbce608db5ed64006bbafc4f697.xr', __xr_tmp);

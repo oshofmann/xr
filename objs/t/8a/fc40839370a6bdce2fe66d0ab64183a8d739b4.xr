@@ -1,0 +1,159 @@
+var __xr_tmp = [
+{"id":"PTRACE_SETFPREGS", "file":"arch/x86/include/asm/ptrace-abi.h", "line":64, "type":"d", }
+,{"id":"PTRACE_SETFPXREGS", "file":"arch/x86/include/asm/ptrace-abi.h", "line":66, "type":"d", }
+,{"id":"PTRACE_SETOPTIONS", "file":"include/linux/ptrace.h", "line":25, "type":"d", }
+,{"id":"PTRACE_SETREGS", "file":"arch/x86/include/asm/ptrace-abi.h", "line":62, "type":"d", }
+,{"id":"PTRACE_SETREGSET", "file":"include/linux/ptrace.h", "line":48, "type":"d", }
+,{"id":"PTRACE_SETSIGINFO", "file":"include/linux/ptrace.h", "line":28, "type":"d", }
+,{"id":"PTRACE_SET_THREAD_AREA", "file":"arch/x86/include/asm/ptrace-abi.h", "line":72, "type":"d", }
+,{"id":"PTRACE_SINGLEBLOCK", "file":"arch/x86/include/asm/ptrace-abi.h", "line":81, "type":"d", }
+,{"id":"PTRACE_SINGLESTEP", "file":"include/linux/ptrace.h", "line":17, "type":"d", }
+,{"id":"PTRACE_SYSCALL", "file":"include/linux/ptrace.h", "line":22, "type":"d", }
+,{"id":"PTRACE_SYSEMU", "file":"arch/x86/include/asm/ptrace-abi.h", "line":78, "type":"d", }
+,{"id":"PTRACE_SYSEMU_SINGLESTEP", "file":"arch/x86/include/asm/ptrace-abi.h", "line":79, "type":"d", }
+,{"id":"PTRACE_TRACEME", "file":"include/linux/ptrace.h", "line":8, "type":"d", }
+,{"id":"PTRS_PER_PGD", "file":"arch/x86/include/asm/pgtable_64_types.h", "line":27, "type":"d", }
+,{"id":"PTRS_PER_PMD", "file":"arch/x86/include/asm/pgtable_64_types.h", "line":40, "type":"d", }
+,{"id":"PTRS_PER_PTE", "file":"arch/x86/include/asm/pgtable_64_types.h", "line":45, "type":"d", }
+,{"id":"PTRS_PER_PUD", "file":"arch/x86/include/asm/pgtable_64_types.h", "line":33, "type":"d", }
+,{"id":"PTR_ALIGN", "file":"include/linux/kernel.h", "line":44, "type":"d", }
+,{"id":"PTR_ERR", "file":"arch/x86/ia32/sys_ia32.c", "line":459, "type":"c", "scope_line":452, "scope_name":"sys32_execve", }
+,{"id":"PTR_ERR", "file":"arch/x86/kernel/amd_iommu.c", "line":2001, "type":"c", "scope_line":1987, "scope_name":"map_page", }
+,{"id":"PTR_ERR", "file":"arch/x86/kernel/amd_iommu.c", "line":2084, "type":"c", "scope_line":2069, "scope_name":"map_sg", }
+,{"id":"PTR_ERR", "file":"arch/x86/kernel/amd_iommu.c", "line":2173, "type":"c", "scope_line":2161, "scope_name":"alloc_coherent", }
+,{"id":"PTR_ERR", "file":"arch/x86/kernel/pcspeaker.c", "line":11, "type":"c", "scope_line":5, "scope_name":"add_pcspkr", }
+,{"id":"PTR_ERR", "file":"arch/x86/kernel/process.c", "line":312, "type":"c", "scope_line":304, "scope_name":"sys_execve", }
+,{"id":"PTR_ERR", "file":"arch/x86/kernel/ptrace.c", "line":713, "type":"c", "scope_line":683, "scope_name":"ptrace_set_breakpoint_addr", }
+,{"id":"PTR_ERR", "file":"arch/x86/kernel/smpboot.c", "line":768, "type":"c", "scope_line":735, "scope_name":"do_boot_cpu", }
+,{"id":"PTR_ERR", "file":"arch/x86/kernel/traps.c", "line":568, "type":"c", "scope_line":533, "scope_name":"do_debug", }
+,{"id":"PTR_ERR", "file":"block/blk-map.c", "line":217, "type":"c", "scope_line":190, "scope_name":"blk_rq_map_user_iov", }
+,{"id":"PTR_ERR", "file":"block/blk-map.c", "line":307, "type":"c", "scope_line":287, "scope_name":"blk_rq_map_kern", }
+,{"id":"PTR_ERR", "file":"block/blk-map.c", "line":63, "type":"c", "scope_line":42, "scope_name":"__blk_rq_map_user", }
+,{"id":"PTR_ERR", "file":"block/bsg.c", "line":1039, "type":"c", "scope_line":990, "scope_name":"bsg_register_queue", }
+,{"id":"PTR_ERR", "file":"block/bsg.c", "line":1089, "type":"c", "scope_line":1072, "scope_name":"bsg_init", }
+,{"id":"PTR_ERR", "file":"block/bsg.c", "line":540, "type":"c", "scope_line":525, "scope_name":"__bsg_read", }
+,{"id":"PTR_ERR", "file":"block/bsg.c", "line":628, "type":"c", "scope_line":608, "scope_name":"__bsg_write", }
+,{"id":"PTR_ERR", "file":"block/bsg.c", "line":643, "type":"c", "scope_line":608, "scope_name":"__bsg_write", }
+,{"id":"PTR_ERR", "file":"block/bsg.c", "line":851, "type":"c", "scope_line":842, "scope_name":"bsg_open", }
+,{"id":"PTR_ERR", "file":"block/bsg.c", "line":936, "type":"c", "scope_line":883, "scope_name":"bsg_ioctl", }
+,{"id":"PTR_ERR", "file":"block/ioctl.c", "line":67, "type":"c", "scope_line":12, "scope_name":"blkpg_ioctl", }
+,{"id":"PTR_ERR", "file":"crypto/ablkcipher.c", "line":494, "type":"c", "scope_line":473, "scope_name":"crypto_givcipher_default", }
+,{"id":"PTR_ERR", "file":"crypto/ablkcipher.c", "line":532, "type":"c", "scope_line":473, "scope_name":"crypto_givcipher_default", }
+,{"id":"PTR_ERR", "file":"crypto/ablkcipher.c", "line":606, "type":"c", "scope_line":595, "scope_name":"crypto_grab_skcipher", }
+,{"id":"PTR_ERR", "file":"crypto/ablkcipher.c", "line":628, "type":"c", "scope_line":614, "scope_name":"crypto_alloc_ablkcipher", }
+,{"id":"PTR_ERR", "file":"crypto/ablkcipher.c", "line":637, "type":"c", "scope_line":614, "scope_name":"crypto_alloc_ablkcipher", }
+,{"id":"PTR_ERR", "file":"crypto/aead.c", "line":204, "type":"c", "scope_line":192, "scope_name":"crypto_grab_nivaead", }
+,{"id":"PTR_ERR", "file":"crypto/aead.c", "line":223, "type":"c", "scope_line":211, "scope_name":"aead_geniv_alloc", }
+,{"id":"PTR_ERR", "file":"crypto/aead.c", "line":232, "type":"c", "scope_line":211, "scope_name":"aead_geniv_alloc", }
+,{"id":"PTR_ERR", "file":"crypto/aead.c", "line":322, "type":"c", "scope_line":315, "scope_name":"aead_geniv_init", }
+,{"id":"PTR_ERR", "file":"crypto/aead.c", "line":357, "type":"c", "scope_line":337, "scope_name":"crypto_nivaead_default", }
+,{"id":"PTR_ERR", "file":"crypto/aead.c", "line":388, "type":"c", "scope_line":337, "scope_name":"crypto_nivaead_default", }
+,{"id":"PTR_ERR", "file":"crypto/aead.c", "line":458, "type":"c", "scope_line":445, "scope_name":"crypto_grab_aead", }
+,{"id":"PTR_ERR", "file":"crypto/aead.c", "line":481, "type":"c", "scope_line":466, "scope_name":"crypto_alloc_aead", }
+,{"id":"PTR_ERR", "file":"crypto/aead.c", "line":490, "type":"c", "scope_line":466, "scope_name":"crypto_alloc_aead", }
+,{"id":"PTR_ERR", "file":"crypto/algapi.c", "line":367, "type":"c", "scope_line":353, "scope_name":"crypto_register_alg", }
+,{"id":"PTR_ERR", "file":"crypto/algapi.c", "line":509, "type":"c", "scope_line":485, "scope_name":"crypto_register_instance", }
+,{"id":"PTR_ERR", "file":"crypto/algapi.c", "line":673, "type":"c", "scope_line":667, "scope_name":"crypto_check_attr_type", }
+,{"id":"PTR_ERR", "file":"crypto/algapi.c", "line":708, "type":"c", "scope_line":700, "scope_name":"crypto_attr_alg2", }
+,{"id":"PTR_ERR", "file":"crypto/algboss.c", "line":79, "type":"c", "scope_line":60, "scope_name":"cryptomgr_probe", }
+,{"id":"PTR_ERR", "file":"crypto/api.c", "line":425, "type":"c", "scope_line":415, "scope_name":"crypto_alloc_base", }
+,{"id":"PTR_ERR", "file":"crypto/api.c", "line":434, "type":"c", "scope_line":415, "scope_name":"crypto_alloc_base", }
+,{"id":"PTR_ERR", "file":"crypto/api.c", "line":542, "type":"c", "scope_line":531, "scope_name":"crypto_alloc_tfm", }
+,{"id":"PTR_ERR", "file":"crypto/api.c", "line":551, "type":"c", "scope_line":531, "scope_name":"crypto_alloc_tfm", }
+,{"id":"PTR_ERR", "file":"crypto/blkcipher.c", "line":528, "type":"c", "scope_line":517, "scope_name":"crypto_grab_nivcipher", }
+,{"id":"PTR_ERR", "file":"crypto/blkcipher.c", "line":559, "type":"c", "scope_line":535, "scope_name":"skcipher_geniv_alloc", }
+,{"id":"PTR_ERR", "file":"crypto/blkcipher.c", "line":568, "type":"c", "scope_line":535, "scope_name":"skcipher_geniv_alloc", }
+,{"id":"PTR_ERR", "file":"crypto/blkcipher.c", "line":684, "type":"c", "scope_line":677, "scope_name":"skcipher_geniv_init", }
+,{"id":"PTR_ERR", "file":"crypto/cbc.c", "line":202, "type":"c", "scope_line":193, "scope_name":"crypto_cbc_init_tfm", }
+,{"id":"PTR_ERR", "file":"crypto/chainiv.c", "line":294, "type":"c", "scope_line":287, "scope_name":"chainiv_alloc", }
+,{"id":"PTR_ERR", "file":"crypto/ecb.c", "line":106, "type":"c", "scope_line":97, "scope_name":"crypto_ecb_init_tfm", }
+,{"id":"PTR_ERR", "file":"crypto/hmac.c", "line":169, "type":"c", "scope_line":159, "scope_name":"hmac_init_tfm", }
+,{"id":"PTR_ERR", "file":"crypto/hmac.c", "line":199, "type":"c", "scope_line":184, "scope_name":"hmac_create", }
+,{"id":"PTR_ERR", "file":"crypto/hmac.c", "line":210, "type":"c", "scope_line":184, "scope_name":"hmac_create", }
+,{"id":"PTR_ERR", "file":"crypto/rng.c", "line":92, "type":"c", "scope_line":84, "scope_name":"crypto_get_default_rng", }
+,{"id":"PTR_ERR", "file":"crypto/shash.c", "line":337, "type":"c", "scope_line":323, "scope_name":"crypto_init_shash_ops_async", }
+,{"id":"PTR_ERR", "file":"crypto/shash.c", "line":460, "type":"c", "scope_line":445, "scope_name":"crypto_init_shash_ops_compat", }
+,{"id":"PTR_ERR", "file":"drivers/acpi/dock.c", "line":942, "type":"c", "scope_line":932, "scope_name":"dock_add", }
+,{"id":"PTR_ERR", "file":"drivers/acpi/fan.c", "line":266, "type":"c", "scope_line":241, "scope_name":"acpi_fan_add", }
+,{"id":"PTR_ERR", "file":"drivers/acpi/pci_slot.c", "line":157, "type":"c", "scope_line":133, "scope_name":"register_slot", }
+,{"id":"PTR_ERR", "file":"drivers/acpi/processor_driver.c", "line":551, "type":"c", "scope_line":479, "scope_name":"acpi_processor_add", }
+,{"id":"PTR_ERR", "file":"drivers/base/devtmpfs.c", "line":188, "type":"c", "scope_line":133, "scope_name":"devtmpfs_create_node", }
+,{"id":"PTR_ERR", "file":"drivers/base/devtmpfs.c", "line":224, "type":"c", "scope_line":199, "scope_name":"dev_rmdir", }
+,{"id":"PTR_ERR", "file":"drivers/base/devtmpfs.c", "line":333, "type":"c", "scope_line":280, "scope_name":"devtmpfs_delete_node", }
+,{"id":"PTR_ERR", "file":"drivers/base/devtmpfs.c", "line":387, "type":"c", "scope_line":372, "scope_name":"devtmpfs_init", }
+,{"id":"PTR_ERR", "file":"drivers/base/devtmpfs.c", "line":90, "type":"c", "scope_line":71, "scope_name":"dev_mkdir", }
+,{"id":"PTR_ERR", "file":"drivers/base/firmware_class.c", "line":542, "type":"c", "scope_line":513, "scope_name":"_request_firmware", }
+,{"id":"PTR_ERR", "file":"drivers/base/firmware_class.c", "line":693, "type":"c", "scope_line":662, "scope_name":"request_firmware_nowait", }
+,{"id":"PTR_ERR", "file":"drivers/block/loop.c", "line":847, "type":"c", "scope_line":740, "scope_name":"loop_set_fd", }
+,{"id":"PTR_ERR", "file":"drivers/block/virtio_blk.c", "line":210, "type":"c", "scope_line":200, "scope_name":"virtblk_get_id", }
+,{"id":"PTR_ERR", "file":"drivers/block/virtio_blk.c", "line":215, "type":"c", "scope_line":200, "scope_name":"virtblk_get_id", }
+,{"id":"PTR_ERR", "file":"drivers/block/virtio_blk.c", "line":350, "type":"c", "scope_line":310, "scope_name":"virtblk_probe", }
+,{"id":"PTR_ERR", "file":"drivers/char/hvc_console.c", "line":874, "type":"c", "scope_line":847, "scope_name":"hvc_init", }
+,{"id":"PTR_ERR", "file":"drivers/char/hvc_xen.c", "line":148, "type":"c", "scope_line":133, "scope_name":"xen_init", }
+,{"id":"PTR_ERR", "file":"drivers/char/mem.c", "line":910, "type":"c", "scope_line":896, "scope_name":"chr_dev_init", }
+,{"id":"PTR_ERR", "file":"drivers/char/misc.c", "line":217, "type":"c", "scope_line":183, "scope_name":"misc_register", }
+,{"id":"PTR_ERR", "file":"drivers/char/misc.c", "line":279, "type":"c", "scope_line":271, "scope_name":"misc_init", }
+,{"id":"PTR_ERR", "file":"drivers/char/pty.c", "line":673, "type":"c", "scope_line":652, "scope_name":"ptmx_open", }
+,{"id":"PTR_ERR", "file":"drivers/char/tty_io.c", "line":1860, "type":"c", "scope_line":1787, "scope_name":"tty_open", }
+,{"id":"PTR_ERR", "file":"drivers/char/tty_io.c", "line":1875, "type":"c", "scope_line":1787, "scope_name":"tty_open", }
+,{"id":"PTR_ERR", "file":"drivers/char/tty_io.c", "line":3162, "type":"c", "scope_line":3158, "scope_name":"tty_class_init", }
+,{"id":"PTR_ERR", "file":"drivers/char/tty_ldisc.c", "line":555, "type":"c", "scope_line":546, "scope_name":"tty_set_ldisc", }
+,{"id":"PTR_ERR", "file":"drivers/char/vt.c", "line":3565, "type":"c", "scope_line":3510, "scope_name":"register_con_driver", }
+,{"id":"PTR_ERR", "file":"drivers/char/vt.c", "line":3660, "type":"c", "scope_line":3654, "scope_name":"vtconsole_class_init", }
+,{"id":"PTR_ERR", "file":"drivers/char/vt.c", "line":3676, "type":"c", "scope_line":3654, "scope_name":"vtconsole_class_init", }
+,{"id":"PTR_ERR", "file":"drivers/char/vt.c", "line":4057, "type":"c", "scope_line":4015, "scope_name":"con_font_set", }
+,{"id":"PTR_ERR", "file":"drivers/hwmon/hwmon.c", "line":123, "type":"c", "scope_line":116, "scope_name":"hwmon_init", }
+,{"id":"PTR_ERR", "file":"drivers/ide/ide-probe.c", "line":564, "type":"c", "scope_line":543, "scope_name":"ide_register_port", }
+,{"id":"PTR_ERR", "file":"drivers/ide/ide.c", "line":387, "type":"c", "scope_line":373, "scope_name":"ide_init", }
+,{"id":"PTR_ERR", "file":"drivers/input/mousedev.c", "line":1078, "type":"c", "scope_line":1072, "scope_name":"mousedev_init", }
+,{"id":"PTR_ERR", "file":"drivers/input/mousedev.c", "line":985, "type":"c", "scope_line":966, "scope_name":"mousedev_connect", }
+,{"id":"PTR_ERR", "file":"drivers/input/serio/i8042.c", "line":1473, "type":"c", "scope_line":1456, "scope_name":"i8042_init", }
+,{"id":"PTR_ERR", "file":"drivers/input/serio/serio.c", "line":1009, "type":"c", "scope_line":996, "scope_name":"serio_init", }
+,{"id":"PTR_ERR", "file":"drivers/md/dm-ioctl.c", "line":793, "type":"c", "scope_line":774, "scope_name":"dev_rename", }
+,{"id":"PTR_ERR", "file":"drivers/md/dm-ioctl.c", "line":915, "type":"c", "scope_line":876, "scope_name":"do_resume", }
+,{"id":"PTR_ERR", "file":"drivers/md/dm-kcopyd.c", "line":639, "type":"c", "scope_line":606, "scope_name":"dm_kcopyd_client_create", }
+,{"id":"PTR_ERR", "file":"drivers/md/dm-table.c", "line":330, "type":"c", "scope_line":318, "scope_name":"open_dev", }
+,{"id":"PTR_ERR", "file":"drivers/md/dm-table.c", "line":454, "type":"c", "scope_line":434, "scope_name":"__table_get_device", }
+,{"id":"PTR_ERR", "file":"drivers/md/dm.c", "line":2598, "type":"c", "scope_line":2590, "scope_name":"lock_fs", }
+,{"id":"PTR_ERR", "file":"drivers/net/Space.c", "line":114, "type":"c", "scope_line":104, "scope_name":"probe_list2", }
+,{"id":"PTR_ERR", "file":"drivers/net/phy/fixed.c", "line":213, "type":"c", "scope_line":206, "scope_name":"fixed_mdio_bus_init", }
+,{"id":"PTR_ERR", "file":"drivers/net/phy/mdio_bus.c", "line":121, "type":"c", "scope_line":87, "scope_name":"mdiobus_register", }
+,{"id":"PTR_ERR", "file":"drivers/net/phy/phy_device.c", "line":158, "type":"c", "scope_line":149, "scope_name":"phy_device_create", }
+,{"id":"PTR_ERR", "file":"drivers/net/ppp_generic.c", "line":915, "type":"c", "scope_line":895, "scope_name":"ppp_init", }
+,{"id":"PTR_ERR", "file":"drivers/net/tun.c", "line":595, "type":"c", "scope_line":551, "scope_name":"tun_get_user", }
+,{"id":"PTR_ERR", "file":"drivers/net/tun.c", "line":597, "type":"c", "scope_line":551, "scope_name":"tun_get_user", }
+,{"id":"PTR_ERR", "file":"drivers/pci/hotplug/cpci_hotplug_core.c", "line":569, "type":"c", "scope_line":560, "scope_name":"cpci_start_thread", }
+,{"id":"PTR_ERR", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":462, "type":"c", "scope_line":434, "scope_name":"__pci_hp_register", }
+,{"id":"PTR_ERR", "file":"drivers/power/power_supply_core.c", "line":215, "type":"c", "scope_line":210, "scope_name":"power_supply_class_init", }
+,{"id":"PTR_ERR", "file":"drivers/rtc/class.c", "line":217, "type":"c", "scope_line":212, "scope_name":"rtc_init", }
+,{"id":"PTR_ERR", "file":"drivers/rtc/rtc-cmos.c", "line":728, "type":"c", "scope_line":651, "scope_name":"cmos_do_probe", }
+,{"id":"PTR_ERR", "file":"drivers/scsi/hosts.c", "line":428, "type":"c", "scope_line":330, "scope_name":"scsi_host_alloc", }
+,{"id":"PTR_ERR", "file":"drivers/scsi/scsi_devinfo.c", "line":353, "type":"c", "scope_line":345, "scope_name":"scsi_dev_info_list_add_keyed", }
+,{"id":"PTR_ERR", "file":"drivers/scsi/scsi_devinfo.c", "line":480, "type":"c", "scope_line":469, "scope_name":"scsi_get_device_flags_keyed", }
+,{"id":"PTR_ERR", "file":"drivers/scsi/scsi_scan.c", "line":1541, "type":"c", "scope_line":1535, "scope_name":"scsi_add_device", }
+,{"id":"PTR_ERR", "file":"drivers/scsi/sg.c", "line":1453, "type":"c", "scope_line":1424, "scope_name":"sg_add", }
+,{"id":"PTR_ERR", "file":"drivers/scsi/sg.c", "line":1472, "type":"c", "scope_line":1424, "scope_name":"sg_add", }
+,{"id":"PTR_ERR", "file":"drivers/scsi/sg.c", "line":1591, "type":"c", "scope_line":1571, "scope_name":"init_sg", }
+,{"id":"PTR_ERR", "file":"drivers/scsi/sg.c", "line":1691, "type":"c", "scope_line":1622, "scope_name":"sg_start_req", }
+,{"id":"PTR_ERR", "file":"drivers/scsi/sg.c", "line":237, "type":"c", "scope_line":221, "scope_name":"sg_open", }
+,{"id":"PTR_ERR", "file":"drivers/serial/8250_pci.c", "line":2570, "type":"c", "scope_line":2515, "scope_name":"pciserial_init_one", }
+,{"id":"PTR_ERR", "file":"drivers/serial/serial_core.c", "line":1616, "type":"c", "scope_line":1587, "scope_name":"uart_open", }
+,{"id":"PTR_ERR", "file":"drivers/sfi/sfi_core.c", "line":325, "type":"c", "scope_line":311, "scope_name":"sfi_parse_syst", }
+,{"id":"PTR_ERR", "file":"drivers/video/backlight/backlight.c", "line":359, "type":"c", "scope_line":355, "scope_name":"backlight_class_init", }
+,{"id":"PTR_ERR", "file":"drivers/video/backlight/backlight.c", "line":361, "type":"c", "scope_line":355, "scope_name":"backlight_class_init", }
+,{"id":"PTR_ERR", "file":"drivers/video/fbmem.c", "line":1574, "type":"c", "scope_line":1546, "scope_name":"register_framebuffer", }
+,{"id":"PTR_ERR", "file":"drivers/video/fbmem.c", "line":1717, "type":"c", "scope_line":1707, "scope_name":"fbmem_init", }
+,{"id":"PTR_ERR", "file":"drivers/virtio/virtio_pci.c", "line":532, "type":"c", "scope_line":488, "scope_name":"vp_try_to_find_vqs", }
+,{"id":"PTR_ERR", "file":"drivers/virtio/virtio_pci.c", "line":724, "type":"c", "scope_line":718, "scope_name":"virtio_pci_init", }
+,{"id":"PTR_ERR", "file":"drivers/xen/xenbus/xenbus_probe.c", "line":580, "type":"c", "scope_line":571, "scope_name":"xenbus_probe_device_type", }
+,{"id":"PTR_ERR", "file":"drivers/xen/xenbus/xenbus_probe.c", "line":599, "type":"c", "scope_line":591, "scope_name":"xenbus_probe_devices", }
+,{"id":"PTR_ERR", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":300, "type":"c", "scope_line":297, "scope_name":"xs_error", }
+,{"id":"PTR_ERR", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":417, "type":"c", "scope_line":408, "scope_name":"xenbus_write", }
+,{"id":"PTR_ERR", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":439, "type":"c", "scope_line":431, "scope_name":"xenbus_mkdir", }
+,{"id":"PTR_ERR", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":455, "type":"c", "scope_line":448, "scope_name":"xenbus_rm", }
+,{"id":"PTR_ERR", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":475, "type":"c", "scope_line":466, "scope_name":"xenbus_transaction_start", }
+,{"id":"PTR_ERR", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":515, "type":"c", "scope_line":506, "scope_name":"xenbus_scanf", }
+,{"id":"PTR_ERR", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":569, "type":"c", "scope_line":555, "scope_name":"xenbus_gather", }
+,{"id":"PTR_ERR", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":823, "type":"c", "scope_line":770, "scope_name":"process_msg", }
+,];
+xr_frag_insert('t/8a/fc40839370a6bdce2fe66d0ab64183a8d739b4.xr', __xr_tmp);

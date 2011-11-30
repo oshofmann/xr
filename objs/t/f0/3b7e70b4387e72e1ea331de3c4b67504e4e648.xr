@@ -1,0 +1,154 @@
+var __xr_tmp = [
+{"id":"NFS_MOUNT_VERSION", "file":"include/linux/nfs_mount.h", "line":23, "type":"d", }
+,{"id":"NFS_OFFSET_MAX", "file":"include/linux/nfs.h", "line":162, "type":"d", }
+,{"id":"NFS_OK", "file":"include/linux/nfs.h", "line":41, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFS_OPTION_FSCACHE", "file":"include/linux/nfs_fs_sb.h", "line":123, "type":"d", }
+,{"id":"NFS_PAGEVEC_SIZE", "file":"include/linux/nfs_xdr.h", "line":970, "type":"d", }
+,{"id":"NFS_PORT", "file":"include/linux/nfs.h", "line":11, "type":"d", }
+,{"id":"NFS_PROGRAM", "file":"include/linux/nfs.h", "line":10, "type":"d", }
+,{"id":"NFS_PROTO", "file":"include/linux/nfs_fs.h", "line":246, "type":"f", }
+,{"id":"NFS_RPC_SWAPFLAGS", "file":"include/linux/nfs_fs.h", "line":62, "type":"d", }
+,{"id":"NFS_SB", "file":"include/linux/nfs_fs.h", "line":226, "type":"f", }
+,{"id":"NFS_SB", "file":"include/linux/nfs_fs.h", "line":238, "type":"c", "scope_line":236, "scope_name":"NFS_SERVER", }
+,{"id":"NFS_SERVER", "file":"include/linux/nfs_fs.h", "line":236, "type":"f", }
+,{"id":"NFS_SERVER", "file":"include/linux/nfs_fs.h", "line":243, "type":"c", "scope_line":241, "scope_name":"NFS_CLIENT", }
+,{"id":"NFS_SERVER", "file":"include/linux/nfs_fs.h", "line":248, "type":"c", "scope_line":246, "scope_name":"NFS_PROTO", }
+,{"id":"NFS_SERVER", "file":"include/linux/nfs_fs.h", "line":258, "type":"c", "scope_line":256, "scope_name":"NFS_MINATTRTIMEO", }
+,{"id":"NFS_SERVER", "file":"include/linux/nfs_fs.h", "line":264, "type":"c", "scope_line":262, "scope_name":"NFS_MAXATTRTIMEO", }
+,{"id":"NFS_SERVER", "file":"include/linux/nfs_fs.h", "line":301, "type":"c", "scope_line":299, "scope_name":"nfs_server_capable", }
+,{"id":"NFS_STALE", "file":"include/linux/nfs_fs.h", "line":268, "type":"f", }
+,{"id":"NFS_SUPER_MAGIC", "file":"include/linux/magic.h", "line":38, "type":"d", }
+,{"id":"NFS_UNSTABLE", "file":"include/linux/nfs.h", "line":166, "type":"e", "scope_line":165, "scope_name":"nfs3_stable_how", }
+,{"id":"NFS_USE_READDIRPLUS", "file":"include/linux/nfs_fs.h", "line":304, "type":"f", }
+,{"id":"NFY_EXPIRE", "file":"include/linux/auto_fs4.h", "line":96, "type":"e", "scope_line":93, "scope_name":"autofs_notify", }
+,{"id":"NFY_MOUNT", "file":"include/linux/auto_fs4.h", "line":95, "type":"e", "scope_line":93, "scope_name":"autofs_notify", }
+,{"id":"NFY_NONE", "file":"include/linux/auto_fs4.h", "line":94, "type":"e", "scope_line":93, "scope_name":"autofs_notify", }
+,{"id":"NF_ACCEPT", "file":"include/linux/netfilter.h", "line":19, "type":"d", }
+,{"id":"NF_ARP", "file":"include/linux/netfilter_arp.h", "line":11, "type":"d", }
+,{"id":"NF_ARP_FORWARD", "file":"include/linux/netfilter_arp.h", "line":16, "type":"d", }
+,{"id":"NF_ARP_IN", "file":"include/linux/netfilter_arp.h", "line":14, "type":"d", }
+,{"id":"NF_ARP_NUMHOOKS", "file":"include/linux/netfilter_arp.h", "line":17, "type":"d", }
+,{"id":"NF_ARP_OUT", "file":"include/linux/netfilter_arp.h", "line":15, "type":"d", }
+,{"id":"NF_BR_BROUTING", "file":"include/linux/netfilter_bridge.h", "line":24, "type":"d", }
+,{"id":"NF_BR_FORWARD", "file":"include/linux/netfilter_bridge.h", "line":18, "type":"d", }
+,{"id":"NF_BR_LOCAL_IN", "file":"include/linux/netfilter_bridge.h", "line":16, "type":"d", }
+,{"id":"NF_BR_LOCAL_OUT", "file":"include/linux/netfilter_bridge.h", "line":20, "type":"d", }
+,{"id":"NF_BR_NUMHOOKS", "file":"include/linux/netfilter_bridge.h", "line":25, "type":"d", }
+,{"id":"NF_BR_POST_ROUTING", "file":"include/linux/netfilter_bridge.h", "line":22, "type":"d", }
+,{"id":"NF_BR_PRE_ROUTING", "file":"include/linux/netfilter_bridge.h", "line":14, "type":"d", }
+,{"id":"NF_BR_PRI_BRNF", "file":"include/linux/netfilter_bridge.h", "line":33, "type":"e", "scope_line":29, "scope_name":"nf_br_hook_priorities", }
+,{"id":"NF_BR_PRI_FILTER_BRIDGED", "file":"include/linux/netfilter_bridge.h", "line":32, "type":"e", "scope_line":29, "scope_name":"nf_br_hook_priorities", }
+,{"id":"NF_BR_PRI_FILTER_OTHER", "file":"include/linux/netfilter_bridge.h", "line":35, "type":"e", "scope_line":29, "scope_name":"nf_br_hook_priorities", }
+,{"id":"NF_BR_PRI_FIRST", "file":"include/linux/netfilter_bridge.h", "line":30, "type":"e", "scope_line":29, "scope_name":"nf_br_hook_priorities", }
+,{"id":"NF_BR_PRI_LAST", "file":"include/linux/netfilter_bridge.h", "line":37, "type":"e", "scope_line":29, "scope_name":"nf_br_hook_priorities", }
+,{"id":"NF_BR_PRI_NAT_DST_BRIDGED", "file":"include/linux/netfilter_bridge.h", "line":31, "type":"e", "scope_line":29, "scope_name":"nf_br_hook_priorities", }
+,{"id":"NF_BR_PRI_NAT_DST_OTHER", "file":"include/linux/netfilter_bridge.h", "line":34, "type":"e", "scope_line":29, "scope_name":"nf_br_hook_priorities", }
+,{"id":"NF_BR_PRI_NAT_SRC", "file":"include/linux/netfilter_bridge.h", "line":36, "type":"e", "scope_line":29, "scope_name":"nf_br_hook_priorities", }
+,{"id":"NF_DROP", "file":"include/linux/netfilter.h", "line":18, "type":"d", }
+,{"id":"NF_HOOK", "file":"include/linux/netfilter.h", "line":223, "type":"f", }
+,{"id":"NF_HOOK", "file":"net/ipv4/arp.c", "line":715, "type":"c", "scope_line":712, "scope_name":"arp_xmit", }
+,{"id":"NF_HOOK", "file":"net/ipv4/arp.c", "line":983, "type":"c", "scope_line":961, "scope_name":"arp_rcv", }
+,{"id":"NF_HOOK", "file":"net/ipv4/ip_forward.c", "line":115, "type":"c", "scope_line":54, "scope_name":"ip_forward", }
+,{"id":"NF_HOOK", "file":"net/ipv4/ip_input.c", "line":264, "type":"c", "scope_line":253, "scope_name":"ip_local_deliver", }
+,{"id":"NF_HOOK", "file":"net/ipv4/ip_input.c", "line":443, "type":"c", "scope_line":375, "scope_name":"ip_rcv", }
+,{"id":"NF_HOOK", "file":"net/ipv4/ip_output.c", "line":275, "type":"c", "scope_line":239, "scope_name":"ip_mc_output", }
+,{"id":"NF_HOOK", "file":"net/ipv4/ip_output.c", "line":291, "type":"c", "scope_line":239, "scope_name":"ip_mc_output", }
+,{"id":"NF_HOOK", "file":"net/ipv4/ipmr.c", "line":1607, "type":"c", "scope_line":1515, "scope_name":"ipmr_queue_xmit", }
+,{"id":"NF_HOOK", "file":"net/ipv4/raw.c", "line":386, "type":"c", "scope_line":316, "scope_name":"raw_send_hdrinc", }
+,{"id":"NF_HOOK", "file":"net/ipv4/xfrm4_input.c", "line":64, "type":"c", "scope_line":49, "scope_name":"xfrm4_transport_finish", }
+,{"id":"NF_HOOK", "file":"net/ipv6/ip6_input.c", "line":146, "type":"c", "scope_line":58, "scope_name":"ipv6_rcv", }
+,{"id":"NF_HOOK", "file":"net/ipv6/ip6_input.c", "line":239, "type":"c", "scope_line":237, "scope_name":"ip6_input", }
+,{"id":"NF_HOOK", "file":"net/ipv6/ip6_output.c", "line":121, "type":"c", "scope_line":99, "scope_name":"ip6_finish_output2", }
+,{"id":"NF_HOOK", "file":"net/ipv6/ip6_output.c", "line":257, "type":"c", "scope_line":185, "scope_name":"ip6_xmit", }
+,{"id":"NF_HOOK", "file":"net/ipv6/ip6_output.c", "line":534, "type":"c", "scope_line":393, "scope_name":"ip6_forward", }
+,{"id":"NF_HOOK", "file":"net/ipv6/mcast.c", "line":1426, "type":"c", "scope_line":1383, "scope_name":"mld_sendpack", }
+,{"id":"NF_HOOK", "file":"net/ipv6/mcast.c", "line":1791, "type":"c", "scope_line":1709, "scope_name":"igmp6_send", }
+,{"id":"NF_HOOK", "file":"net/ipv6/ndisc.c", "line":1619, "type":"c", "scope_line":1489, "scope_name":"ndisc_send_redirect", }
+,{"id":"NF_HOOK", "file":"net/ipv6/ndisc.c", "line":539, "type":"c", "scope_line":503, "scope_name":"ndisc_send_skb", }
+,{"id":"NF_HOOK", "file":"net/ipv6/raw.c", "line":645, "type":"c", "scope_line":604, "scope_name":"rawv6_send_hdrinc", }
+,{"id":"NF_HOOK", "file":"net/ipv6/xfrm6_input.c", "line":45, "type":"c", "scope_line":32, "scope_name":"xfrm6_transport_finish", }
+,{"id":"NF_HOOK", "file":"net/ipv6/xfrm6_output.c", "line":93, "type":"c", "scope_line":91, "scope_name":"xfrm6_output", }
+,{"id":"NF_HOOK_COND", "file":"include/linux/netfilter.h", "line":210, "type":"f", }
+,{"id":"NF_HOOK_COND", "file":"net/ipv4/ip_output.c", "line":295, "type":"c", "scope_line":239, "scope_name":"ip_mc_output", }
+,{"id":"NF_HOOK_COND", "file":"net/ipv4/ip_output.c", "line":309, "type":"c", "scope_line":300, "scope_name":"ip_output", }
+,{"id":"NF_HOOK_COND", "file":"net/ipv4/xfrm4_output.c", "line":89, "type":"c", "scope_line":87, "scope_name":"xfrm4_output", }
+,{"id":"NF_HOOK_COND", "file":"net/ipv6/ip6_output.c", "line":176, "type":"c", "scope_line":165, "scope_name":"ip6_output", }
+,{"id":"NF_HOOK_THRESH", "file":"include/linux/netfilter.h", "line":199, "type":"f", }
+,{"id":"NF_HOOK_THRESH", "file":"include/linux/netfilter.h", "line":228, "type":"c", "scope_line":223, "scope_name":"NF_HOOK", }
+,{"id":"NF_INET_FORWARD", "file":"include/linux/netfilter.h", "line":47, "type":"e", "scope_line":44, "scope_name":"nf_inet_hooks", }
+,{"id":"NF_INET_LOCAL_IN", "file":"include/linux/netfilter.h", "line":46, "type":"e", "scope_line":44, "scope_name":"nf_inet_hooks", }
+,{"id":"NF_INET_LOCAL_OUT", "file":"include/linux/netfilter.h", "line":48, "type":"e", "scope_line":44, "scope_name":"nf_inet_hooks", }
+,{"id":"NF_INET_NUMHOOKS", "file":"include/linux/netfilter.h", "line":50, "type":"e", "scope_line":44, "scope_name":"nf_inet_hooks", }
+,{"id":"NF_INET_POST_ROUTING", "file":"include/linux/netfilter.h", "line":49, "type":"e", "scope_line":44, "scope_name":"nf_inet_hooks", }
+,{"id":"NF_INET_PRE_ROUTING", "file":"include/linux/netfilter.h", "line":45, "type":"e", "scope_line":44, "scope_name":"nf_inet_hooks", }
+,{"id":"NF_IP6_PRI_CONNTRACK", "file":"include/linux/netfilter_ipv6.h", "line":64, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP6_PRI_CONNTRACK_DEFRAG", "file":"include/linux/netfilter_ipv6.h", "line":61, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP6_PRI_FILTER", "file":"include/linux/netfilter_ipv6.h", "line":67, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP6_PRI_FIRST", "file":"include/linux/netfilter_ipv6.h", "line":60, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP6_PRI_LAST", "file":"include/linux/netfilter_ipv6.h", "line":71, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP6_PRI_MANGLE", "file":"include/linux/netfilter_ipv6.h", "line":65, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP6_PRI_NAT_DST", "file":"include/linux/netfilter_ipv6.h", "line":66, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP6_PRI_NAT_SRC", "file":"include/linux/netfilter_ipv6.h", "line":69, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP6_PRI_RAW", "file":"include/linux/netfilter_ipv6.h", "line":62, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP6_PRI_SECURITY", "file":"include/linux/netfilter_ipv6.h", "line":68, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP6_PRI_SELINUX_FIRST", "file":"include/linux/netfilter_ipv6.h", "line":63, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP6_PRI_SELINUX_LAST", "file":"include/linux/netfilter_ipv6.h", "line":70, "type":"e", "scope_line":59, "scope_name":"nf_ip6_hook_priorities", }
+,{"id":"NF_IP_PRI_CONNTRACK", "file":"include/linux/netfilter_ipv4.h", "line":59, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_CONNTRACK_CONFIRM", "file":"include/linux/netfilter_ipv4.h", "line":66, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_CONNTRACK_DEFRAG", "file":"include/linux/netfilter_ipv4.h", "line":56, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_FILTER", "file":"include/linux/netfilter_ipv4.h", "line":62, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_FIRST", "file":"include/linux/netfilter_ipv4.h", "line":55, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_LAST", "file":"include/linux/netfilter_ipv4.h", "line":67, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_MANGLE", "file":"include/linux/netfilter_ipv4.h", "line":60, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_NAT_DST", "file":"include/linux/netfilter_ipv4.h", "line":61, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_NAT_SRC", "file":"include/linux/netfilter_ipv4.h", "line":64, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_RAW", "file":"include/linux/netfilter_ipv4.h", "line":57, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_SECURITY", "file":"include/linux/netfilter_ipv4.h", "line":63, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_SELINUX_FIRST", "file":"include/linux/netfilter_ipv4.h", "line":58, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_IP_PRI_SELINUX_LAST", "file":"include/linux/netfilter_ipv4.h", "line":65, "type":"e", "scope_line":54, "scope_name":"nf_ip_hook_priorities", }
+,{"id":"NF_LOG_IPOPT", "file":"include/net/netfilter/nf_log.h", "line":11, "type":"d", }
+,{"id":"NF_LOG_MASK", "file":"include/net/netfilter/nf_log.h", "line":13, "type":"d", }
+,{"id":"NF_LOG_PREFIXLEN", "file":"net/netfilter/nf_log.c", "line":16, "type":"d", }
+,{"id":"NF_LOG_TCPOPT", "file":"include/net/netfilter/nf_log.h", "line":10, "type":"d", }
+,{"id":"NF_LOG_TCPSEQ", "file":"include/net/netfilter/nf_log.h", "line":9, "type":"d", }
+,{"id":"NF_LOG_TYPE_LOG", "file":"include/net/netfilter/nf_log.h", "line":15, "type":"d", }
+,{"id":"NF_LOG_TYPE_ULOG", "file":"include/net/netfilter/nf_log.h", "line":16, "type":"d", }
+,{"id":"NF_LOG_UID", "file":"include/net/netfilter/nf_log.h", "line":12, "type":"d", }
+,{"id":"NF_MAX_HOOKS", "file":"include/linux/netfilter.h", "line":86, "type":"d", }
+,{"id":"NF_MAX_VERDICT", "file":"include/linux/netfilter.h", "line":24, "type":"d", }
+,{"id":"NF_QUEUE", "file":"include/linux/netfilter.h", "line":21, "type":"d", }
+,{"id":"NF_QUEUE_NR", "file":"include/linux/netfilter.h", "line":34, "type":"d", }
+,{"id":"NF_REPEAT", "file":"include/linux/netfilter.h", "line":22, "type":"d", }
+,{"id":"NF_STOLEN", "file":"include/linux/netfilter.h", "line":20, "type":"d", }
+,{"id":"NF_STOP", "file":"include/linux/netfilter.h", "line":23, "type":"d", }
+,{"id":"NF_VERDICT_BITS", "file":"include/linux/netfilter.h", "line":29, "type":"d", }
+,{"id":"NF_VERDICT_MASK", "file":"include/linux/netfilter.h", "line":28, "type":"d", }
+,{"id":"NF_VERDICT_QBITS", "file":"include/linux/netfilter.h", "line":32, "type":"d", }
+,{"id":"NF_VERDICT_QMASK", "file":"include/linux/netfilter.h", "line":31, "type":"d", }
+,{"id":"NGROUPS_MAX", "file":"include/linux/limits.h", "line":6, "type":"d", }
+,{"id":"NGROUPS_PER_BLOCK", "file":"include/linux/cred.h", "line":29, "type":"d", }
+,{"id":"NGROUPS_SMALL", "file":"include/linux/cred.h", "line":28, "type":"d", }
+,{"id":"NI8420_INT_ENABLE_BIT", "file":"drivers/serial/8250_pci.c", "line":311, "type":"d", }
+,{"id":"NI8420_INT_ENABLE_REG", "file":"drivers/serial/8250_pci.c", "line":310, "type":"d", }
+,{"id":"NI8430_PORTCON", "file":"drivers/serial/8250_pci.c", "line":726, "type":"d", }
+,{"id":"NI8430_PORTCON_TXVR_ENABLE", "file":"drivers/serial/8250_pci.c", "line":727, "type":"d", }
+,{"id":"NICE_0_LOAD", "file":"kernel/sched.c", "line":108, "type":"d", }
+,{"id":"NICE_0_SHIFT", "file":"kernel/sched.c", "line":109, "type":"d", }
+,{"id":"NICE_TO_PRIO", "file":"kernel/sched.c", "line":90, "type":"d", }
+,{"id":"NID_INVAL", "file":"include/linux/acpi.h", "line":242, "type":"d", }
+,{"id":"NIFBITS", "file":"include/linux/mroute6.h", "line":44, "type":"d", }
+,{"id":"NL0", "file":"include/asm-generic/termbits.h", "line":88, "type":"d", }
+,{"id":"NL1", "file":"include/asm-generic/termbits.h", "line":89, "type":"d", }
+,{"id":"NL80211_ATTR_4ADDR", "file":"include/linux/nl80211.h", "line":864, "type":"e", "scope_line":737, "scope_name":"nl80211_attrs", }
+,{"id":"NL80211_ATTR_ACK", "file":"include/linux/nl80211.h", "line":881, "type":"e", "scope_line":737, "scope_name":"nl80211_attrs", }
+,{"id":"NL80211_ATTR_AKM_SUITES", "file":"include/linux/nl80211.h", "line":852, "type":"e", "scope_line":737, "scope_name":"nl80211_attrs", }
+,{"id":"NL80211_ATTR_AKM_SUITES", "file":"include/linux/nl80211.h", "line":924, "type":"d", }
+,{"id":"NL80211_ATTR_AP_ISOLATE", "file":"include/linux/nl80211.h", "line":889, "type":"e", "scope_line":737, "scope_name":"nl80211_attrs", }
+,{"id":"NL80211_ATTR_AUTH_TYPE", "file":"include/linux/nl80211.h", "line":815, "type":"e", "scope_line":737, "scope_name":"nl80211_attrs", }
+,{"id":"NL80211_ATTR_AUTH_TYPE", "file":"include/linux/nl80211.h", "line":919, "type":"d", }
+,{"id":"NL80211_ATTR_BEACON_HEAD", "file":"include/linux/nl80211.h", "line":758, "type":"e", "scope_line":737, "scope_name":"nl80211_attrs", }
+,{"id":"NL80211_ATTR_BEACON_INTERVAL", "file":"include/linux/nl80211.h", "line":756, "type":"e", "scope_line":737, "scope_name":"nl80211_attrs", }
+,{"id":"NL80211_ATTR_BEACON_TAIL", "file":"include/linux/nl80211.h", "line":759, "type":"e", "scope_line":737, "scope_name":"nl80211_attrs", }
+,{"id":"NL80211_ATTR_BSS", "file":"include/linux/nl80211.h", "line":806, "type":"e", "scope_line":737, "scope_name":"nl80211_attrs", }
+,];
+xr_frag_insert('t/f0/3b7e70b4387e72e1ea331de3c4b67504e4e648.xr', __xr_tmp);

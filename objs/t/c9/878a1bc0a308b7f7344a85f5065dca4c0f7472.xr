@@ -1,0 +1,144 @@
+var __xr_tmp = [
+{"id":"zalloc_cpumask_var", "file":"kernel/sched.c", "line":7878, "type":"c", "scope_line":7696, "scope_name":"sched_init", }
+,{"id":"zalloc_cpumask_var", "file":"kernel/sched_cpupri.c", "line":180, "type":"c", "scope_line":169, "scope_name":"cpupri_init", }
+,{"id":"zalloc_cpumask_var", "file":"kernel/trace/trace.c", "line":2119, "type":"c", "scope_line":2091, "scope_name":"__tracing_open", }
+,{"id":"zalloc_cpumask_var", "file":"kernel/workqueue.c", "line":2809, "type":"c", "scope_line":2757, "scope_name":"__alloc_workqueue_key", }
+,{"id":"zalloc_cpumask_var", "file":"net/core/net-sysfs.c", "line":531, "type":"c", "scope_line":523, "scope_name":"show_rps_map", }
+,{"id":"zalloc_cpumask_var_node", "file":"arch/x86/kernel/apic/io_apic.c", "line":170, "type":"c", "scope_line":150, "scope_name":"arch_early_irq_init", }
+,{"id":"zalloc_cpumask_var_node", "file":"arch/x86/kernel/apic/io_apic.c", "line":171, "type":"c", "scope_line":150, "scope_name":"arch_early_irq_init", }
+,{"id":"zalloc_cpumask_var_node", "file":"arch/x86/kernel/apic/io_apic.c", "line":204, "type":"c", "scope_line":198, "scope_name":"get_one_free_irq_cfg", }
+,{"id":"zalloc_cpumask_var_node", "file":"arch/x86/kernel/apic/io_apic.c", "line":207, "type":"c", "scope_line":198, "scope_name":"get_one_free_irq_cfg", }
+,{"id":"zalloc_cpumask_var_node", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":445, "type":"c", "scope_line":433, "scope_name":"acpi_cpufreq_early_init", }
+,{"id":"zalloc_cpumask_var_node", "file":"include/linux/cpumask.h", "line":637, "type":"f", }
+,{"id":"zalloc_cpumask_var_node", "file":"kernel/sched_rt.c", "line":1589, "type":"c", "scope_line":1584, "scope_name":"init_sched_rt_class", }
+,{"id":"zalloc_cpumask_var_node", "file":"kernel/smp.c", "line":53, "type":"c", "scope_line":44, "scope_name":"hotplug_cfd", }
+,{"id":"zap_details", "file":"include/linux/mm.h", "line":756, "type":"s", }
+,{"id":"zap_identity_mappings", "file":"arch/x86/kernel/head64.c", "line":29, "type":"f", }
+,{"id":"zap_identity_mappings", "file":"arch/x86/kernel/head64.c", "line":77, "type":"c", "scope_line":55, "scope_name":"x86_64_start_kernel", }
+,{"id":"zap_last_2bytes", "file":"include/linux/etherdevice.h", "line":159, "type":"f", }
+,{"id":"zap_last_2bytes", "file":"include/linux/etherdevice.h", "line":190, "type":"c", "scope_line":182, "scope_name":"compare_ether_addr_64bits", }
+,{"id":"zap_last_2bytes", "file":"include/linux/etherdevice.h", "line":192, "type":"c", "scope_line":182, "scope_name":"compare_ether_addr_64bits", }
+,{"id":"zap_locks", "file":"kernel/printk.c", "line":551, "type":"f", }
+,{"id":"zap_locks", "file":"kernel/printk.c", "line":728, "type":"c", "scope_line":697, "scope_name":"vprintk", }
+,{"id":"zap_other_threads", "file":"fs/exec.c", "line":804, "type":"c", "scope_line":781, "scope_name":"de_thread", }
+,{"id":"zap_other_threads", "file":"kernel/exit.c", "line":1076, "type":"c", "scope_line":1058, "scope_name":"do_group_exit", }
+,{"id":"zap_other_threads", "file":"kernel/signal.c", "line":1088, "type":"f", }
+,{"id":"zap_page_range", "file":"mm/madvise.c", "line":174, "type":"c", "scope_line":161, "scope_name":"madvise_dontneed", }
+,{"id":"zap_page_range", "file":"mm/madvise.c", "line":176, "type":"c", "scope_line":161, "scope_name":"madvise_dontneed", }
+,{"id":"zap_page_range", "file":"mm/memory.c", "line":1188, "type":"f", }
+,{"id":"zap_page_range", "file":"mm/memory.c", "line":1223, "type":"c", "scope_line":1217, "scope_name":"zap_vma_ptes", }
+,{"id":"zap_page_range", "file":"mm/memory.c", "line":2459, "type":"c", "scope_line":2434, "scope_name":"unmap_mapping_range_vma", }
+,{"id":"zap_pid_ns_processes", "file":"kernel/exit.c", "line":723, "type":"c", "scope_line":704, "scope_name":"find_new_reaper", }
+,{"id":"zap_pid_ns_processes", "file":"kernel/pid_namespace.c", "line":140, "type":"f", }
+,{"id":"zap_pmd_range", "file":"mm/memory.c", "line":1026, "type":"c", "scope_line":1011, "scope_name":"zap_pud_range", }
+,{"id":"zap_pmd_range", "file":"mm/memory.c", "line":989, "type":"f", }
+,{"id":"zap_process", "file":"fs/exec.c", "line":1581, "type":"f", }
+,{"id":"zap_process", "file":"fs/exec.c", "line":1612, "type":"c", "scope_line":1602, "scope_name":"zap_threads", }
+,{"id":"zap_process", "file":"fs/exec.c", "line":1661, "type":"c", "scope_line":1602, "scope_name":"zap_threads", }
+,{"id":"zap_pte", "file":"mm/fremap.c", "line":26, "type":"f", }
+,{"id":"zap_pte", "file":"mm/fremap.c", "line":68, "type":"c", "scope_line":56, "scope_name":"install_file_pte", }
+,{"id":"zap_pte_range", "file":"mm/memory.c", "line":1004, "type":"c", "scope_line":989, "scope_name":"zap_pmd_range", }
+,{"id":"zap_pte_range", "file":"mm/memory.c", "line":891, "type":"f", }
+,{"id":"zap_pud_range", "file":"mm/memory.c", "line":1011, "type":"f", }
+,{"id":"zap_pud_range", "file":"mm/memory.c", "line":1054, "type":"c", "scope_line":1033, "scope_name":"unmap_page_range", }
+,{"id":"zap_threads", "file":"fs/exec.c", "line":1602, "type":"f", }
+,{"id":"zap_threads", "file":"fs/exec.c", "line":1687, "type":"c", "scope_line":1674, "scope_name":"coredump_wait", }
+,{"id":"zap_vma_ptes", "file":"mm/memory.c", "line":1217, "type":"f", }
+,{"id":"zap_zone_vm_stats", "file":"include/linux/vmstat.h", "line":235, "type":"f", }
+,{"id":"zap_zone_vm_stats", "file":"mm/page_alloc.c", "line":4125, "type":"c", "scope_line":4050, "scope_name":"free_area_init_core", }
+,{"id":"zero", "file":"arch/x86/include/asm/io_apic.h", "line":97, "type":"m", "scope_line":95, "scope_name":"struct IR_IO_APIC_route_entry", }
+,{"id":"zero", "file":"drivers/char/keyboard.c", "line":244, "type":"v", }
+,{"id":"zero", "file":"fs/eventpoll.c", "line":246, "type":"v", }
+,{"id":"zero", "file":"fs/notify/inotify/inotify_user.c", "line":58, "type":"v", }
+,{"id":"zero", "file":"ipc/ipc_sysctl.c", "line":132, "type":"v", }
+,{"id":"zero", "file":"kernel/sysctl.c", "line":116, "type":"v", }
+,{"id":"zero", "file":"net/ipv4/ip_fragment.c", "line":638, "type":"v", }
+,{"id":"zero", "file":"net/ipv4/sysctl_net_ipv4.c", "line":25, "type":"v", }
+,{"id":"zero", "file":"security/keys/sysctl.c", "line":16, "type":"v", }
+,{"id":"zero0", "file":"arch/x86/include/asm/desc_defs.h", "line":54, "type":"m", "scope_line":51, "scope_name":"struct gate_struct64", }
+,{"id":"zero0", "file":"arch/x86/include/asm/desc_defs.h", "line":75, "type":"m", "scope_line":71, "scope_name":"struct ldttss_desc64", }
+,{"id":"zero1", "file":"arch/x86/include/asm/desc_defs.h", "line":57, "type":"m", "scope_line":51, "scope_name":"struct gate_struct64", }
+,{"id":"zero1", "file":"arch/x86/include/asm/desc_defs.h", "line":77, "type":"m", "scope_line":71, "scope_name":"struct ldttss_desc64", }
+,{"id":"zero_bdi", "file":"drivers/char/mem.c", "line":793, "type":"v", }
+,{"id":"zero_fd_set", "file":"fs/compat.c", "line":1772, "type":"c", "scope_line":1727, "scope_name":"compat_core_sys_select", }
+,{"id":"zero_fd_set", "file":"fs/compat.c", "line":1773, "type":"c", "scope_line":1727, "scope_name":"compat_core_sys_select", }
+,{"id":"zero_fd_set", "file":"fs/compat.c", "line":1774, "type":"c", "scope_line":1727, "scope_name":"compat_core_sys_select", }
+,{"id":"zero_fd_set", "file":"fs/select.c", "line":569, "type":"c", "scope_line":521, "scope_name":"core_sys_select", }
+,{"id":"zero_fd_set", "file":"fs/select.c", "line":570, "type":"c", "scope_line":521, "scope_name":"core_sys_select", }
+,{"id":"zero_fd_set", "file":"fs/select.c", "line":571, "type":"c", "scope_line":521, "scope_name":"core_sys_select", }
+,{"id":"zero_fd_set", "file":"include/linux/poll.h", "line":123, "type":"f", }
+,{"id":"zero_fill_bio", "file":"drivers/md/dm-io.c", "line":160, "type":"c", "scope_line":154, "scope_name":"endio", }
+,{"id":"zero_fill_bio", "file":"fs/bio.c", "line":388, "type":"f", }
+,{"id":"zero_fops", "file":"drivers/char/mem.c", "line":781, "type":"v", }
+,{"id":"zero_it", "file":"kernel/posix-cpu-timers.c", "line":1434, "type":"v", }
+,{"id":"zero_lseek", "file":"drivers/char/mem.c", "line":737, "type":"d", }
+,{"id":"zero_pfn", "file":"mm/memory.c", "line":112, "type":"v", }
+,{"id":"zero_user", "file":"fs/buffer.c", "line":1822, "type":"c", "scope_line":1800, "scope_name":"page_zero_new_buffers", }
+,{"id":"zero_user", "file":"fs/buffer.c", "line":2156, "type":"c", "scope_line":2120, "scope_name":"block_read_full_page", }
+,{"id":"zero_user", "file":"fs/buffer.c", "line":2265, "type":"c", "scope_line":2237, "scope_name":"cont_expand_zero", }
+,{"id":"zero_user", "file":"fs/buffer.c", "line":2294, "type":"c", "scope_line":2237, "scope_name":"cont_expand_zero", }
+,{"id":"zero_user", "file":"fs/buffer.c", "line":2734, "type":"c", "scope_line":2668, "scope_name":"nobh_truncate_page", }
+,{"id":"zero_user", "file":"fs/buffer.c", "line":2810, "type":"c", "scope_line":2746, "scope_name":"block_truncate_page", }
+,{"id":"zero_user", "file":"fs/direct-io.c", "line":924, "type":"c", "scope_line":833, "scope_name":"do_direct_IO", }
+,{"id":"zero_user", "file":"fs/ext3/inode.c", "line":2013, "type":"c", "scope_line":1951, "scope_name":"ext3_block_truncate_page", }
+,{"id":"zero_user", "file":"fs/ext4/inode.c", "line":4221, "type":"c", "scope_line":4152, "scope_name":"ext4_block_truncate_page", }
+,{"id":"zero_user", "file":"fs/libfs.c", "line":426, "type":"c", "scope_line":415, "scope_name":"simple_write_end", }
+,{"id":"zero_user", "file":"include/linux/highmem.h", "line":182, "type":"f", }
+,{"id":"zero_user", "file":"include/linux/highmem.h", "line":191, "type":"c", "scope_line":188, "scope_name":"memclear_highpage_flush", }
+,{"id":"zero_user_segment", "file":"fs/buffer.c", "line":2658, "type":"c", "scope_line":2621, "scope_name":"nobh_writepage", }
+,{"id":"zero_user_segment", "file":"fs/buffer.c", "line":2859, "type":"c", "scope_line":2826, "scope_name":"block_write_full_page_endio", }
+,{"id":"zero_user_segment", "file":"fs/mpage.c", "line":279, "type":"c", "scope_line":168, "scope_name":"do_mpage_readpage", }
+,{"id":"zero_user_segment", "file":"fs/mpage.c", "line":575, "type":"c", "scope_line":451, "scope_name":"__mpage_writepage", }
+,{"id":"zero_user_segment", "file":"include/linux/highmem.h", "line":176, "type":"f", }
+,{"id":"zero_user_segment", "file":"mm/truncate.c", "line":53, "type":"c", "scope_line":51, "scope_name":"truncate_partial_page", }
+,{"id":"zero_user_segments", "file":"fs/buffer.c", "line":1887, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,{"id":"zero_user_segments", "file":"fs/buffer.c", "line":2524, "type":"c", "scope_line":2439, "scope_name":"nobh_write_begin", }
+,{"id":"zero_user_segments", "file":"fs/libfs.c", "line":389, "type":"c", "scope_line":371, "scope_name":"simple_write_begin", }
+,{"id":"zero_user_segments", "file":"include/linux/highmem.h", "line":158, "type":"f", }
+,{"id":"zero_user_segments", "file":"include/linux/highmem.h", "line":179, "type":"c", "scope_line":176, "scope_name":"zero_user_segment", }
+,{"id":"zero_user_segments", "file":"include/linux/highmem.h", "line":185, "type":"c", "scope_line":182, "scope_name":"zero_user", }
+,{"id":"zid", "file":"include/trace/events/vmscan.h", "line":65, "type":"m", "scope_line":65, "scope_name":"struct ftrace_raw_mm_vmscan_wakeup_kswapd", }
+,{"id":"zl_order_mutex", "file":"mm/page_alloc.c", "line":2597, "type":"v", }
+,{"id":"zlc_mark_zone_full", "file":"mm/page_alloc.c", "line":1576, "type":"f", }
+,{"id":"zlc_mark_zone_full", "file":"mm/page_alloc.c", "line":1676, "type":"c", "scope_line":1612, "scope_name":"get_page_from_freelist", }
+,{"id":"zlc_setup", "file":"mm/page_alloc.c", "line":1511, "type":"f", }
+,{"id":"zlc_setup", "file":"mm/page_alloc.c", "line":1683, "type":"c", "scope_line":1612, "scope_name":"get_page_from_freelist", }
+,{"id":"zlc_zone_worth_trying", "file":"mm/page_alloc.c", "line":1553, "type":"f", }
+,{"id":"zlc_zone_worth_trying", "file":"mm/page_alloc.c", "line":1633, "type":"c", "scope_line":1612, "scope_name":"get_page_from_freelist", }
+,{"id":"zlcache", "file":"include/linux/mmzone.h", "line":578, "type":"m", "scope_line":574, "scope_name":"struct zonelist", }
+,{"id":"zlcache_ptr", "file":"include/linux/mmzone.h", "line":575, "type":"m", "scope_line":574, "scope_name":"struct zonelist", }
+,{"id":"zlib_adler32", "file":"include/linux/zutil.h", "line":78, "type":"f", }
+,{"id":"zlib_adler32", "file":"lib/zlib_inflate/inflate.c", "line":391, "type":"c", "scope_line":332, "scope_name":"zlib_inflate", }
+,{"id":"zlib_adler32", "file":"lib/zlib_inflate/inflate.c", "line":405, "type":"c", "scope_line":332, "scope_name":"zlib_inflate", }
+,{"id":"zlib_adler32", "file":"lib/zlib_inflate/inflate.c", "line":700, "type":"c", "scope_line":332, "scope_name":"zlib_inflate", }
+,{"id":"zlib_adler32", "file":"lib/zlib_inflate/inflate.c", "line":741, "type":"c", "scope_line":332, "scope_name":"zlib_inflate", }
+,{"id":"zlib_adler32", "file":"lib/zlib_inflate/inflate.c", "line":908, "type":"c", "scope_line":889, "scope_name":"zlib_inflateIncomp", }
+,{"id":"zlib_comp_params", "file":"include/crypto/compress.h", "line":33, "type":"t", }
+,{"id":"zlib_decomp_params", "file":"include/crypto/compress.h", "line":45, "type":"t", }
+,{"id":"zlib_deflateInit", "file":"include/linux/zlib.h", "line":687, "type":"d", }
+,{"id":"zlib_fixedtables", "file":"lib/zlib_inflate/inflate.c", "line":423, "type":"c", "scope_line":332, "scope_name":"zlib_inflate", }
+,{"id":"zlib_fixedtables", "file":"lib/zlib_inflate/inflate.c", "line":93, "type":"f", }
+,{"id":"zlib_inflate", "file":"lib/decompress_inflate.c", "line":133, "type":"c", "scope_line":36, "scope_name":"gunzip", }
+,{"id":"zlib_inflate", "file":"lib/zlib_inflate/inflate.c", "line":332, "type":"f", }
+,{"id":"zlib_inflate", "file":"lib/zlib_inflate/infutil.c", "line":34, "type":"c", "scope_line":9, "scope_name":"zlib_inflate_blob", }
+,{"id":"zlib_inflateEnd", "file":"lib/decompress_inflate.c", "line":157, "type":"c", "scope_line":36, "scope_name":"gunzip", }
+,{"id":"zlib_inflateEnd", "file":"lib/zlib_inflate/inflate.c", "line":757, "type":"f", }
+,{"id":"zlib_inflateEnd", "file":"lib/zlib_inflate/infutil.c", "line":40, "type":"c", "scope_line":9, "scope_name":"zlib_inflate_blob", }
+,{"id":"zlib_inflateIncomp", "file":"lib/zlib_inflate/inflate.c", "line":889, "type":"f", }
+,{"id":"zlib_inflateInit", "file":"include/linux/zlib.h", "line":690, "type":"d", }
+,{"id":"zlib_inflateInit2", "file":"lib/decompress_inflate.c", "line":114, "type":"c", "scope_line":36, "scope_name":"gunzip", }
+,{"id":"zlib_inflateInit2", "file":"lib/zlib_inflate/inflate.c", "line":63, "type":"f", }
+,{"id":"zlib_inflateInit2", "file":"lib/zlib_inflate/infutil.c", "line":32, "type":"c", "scope_line":9, "scope_name":"zlib_inflate_blob", }
+,{"id":"zlib_inflateReset", "file":"lib/zlib_inflate/inflate.c", "line":23, "type":"f", }
+,{"id":"zlib_inflateReset", "file":"lib/zlib_inflate/inflate.c", "line":86, "type":"c", "scope_line":63, "scope_name":"zlib_inflateInit2", }
+,{"id":"zlib_inflateSyncPacket", "file":"lib/zlib_inflate/inflate.c", "line":161, "type":"f", }
+,{"id":"zlib_inflateSyncPacket", "file":"lib/zlib_inflate/inflate.c", "line":749, "type":"c", "scope_line":332, "scope_name":"zlib_inflate", }
+,{"id":"zlib_inflate_blob", "file":"lib/zlib_inflate/infutil.c", "line":9, "type":"f", }
+,{"id":"zlib_inflate_table", "file":"lib/zlib_inflate/inflate.c", "line":490, "type":"c", "scope_line":332, "scope_name":"zlib_inflate", }
+,{"id":"zlib_inflate_table", "file":"lib/zlib_inflate/inflate.c", "line":555, "type":"c", "scope_line":332, "scope_name":"zlib_inflate", }
+,{"id":"zlib_inflate_table", "file":"lib/zlib_inflate/inflate.c", "line":564, "type":"c", "scope_line":332, "scope_name":"zlib_inflate", }
+,{"id":"zlib_inflate_table", "file":"lib/zlib_inflate/inftrees.c", "line":23, "type":"f", }
+,{"id":"zlib_inflate_workspacesize", "file":"lib/decompress_inflate.c", "line":77, "type":"c", "scope_line":36, "scope_name":"gunzip", }
+,{"id":"zlib_inflate_workspacesize", "file":"lib/zlib_inflate/inflate.c", "line":18, "type":"f", }
+,];
+xr_frag_insert('t/c9/878a1bc0a308b7f7344a85f5065dca4c0f7472.xr', __xr_tmp);

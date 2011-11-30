@@ -1,0 +1,85 @@
+var __xr_tmp = [
+{"id":"do_exit", "file":"kernel/kthread.c", "line":98, "type":"c", "scope_line":73, "scope_name":"kthread", }
+,{"id":"do_exit", "file":"kernel/module.c", "line":152, "type":"c", "scope_line":149, "scope_name":"__module_put_and_exit", }
+,{"id":"do_exit", "file":"kernel/seccomp.c", "line":57, "type":"c", "scope_line":33, "scope_name":"__secure_computing", }
+,{"id":"do_exit", "file":"kernel/sys.c", "line":408, "type":"c", "scope_line":368, "scope_name":"sys_reboot", }
+,{"id":"do_exit", "file":"kernel/sys.c", "line":413, "type":"c", "scope_line":368, "scope_name":"sys_reboot", }
+,{"id":"do_exit", "file":"security/tomoyo/gc.c", "line":345, "type":"c", "scope_line":331, "scope_name":"tomoyo_gc_thread", }
+,{"id":"do_fallocate", "file":"fs/ioctl.c", "line":440, "type":"c", "scope_line":419, "scope_name":"ioctl_preallocate", }
+,{"id":"do_fallocate", "file":"fs/open.c", "line":217, "type":"f", }
+,{"id":"do_fallocate", "file":"fs/open.c", "line":266, "type":"c", "scope_line":259, "scope_name":"sys_fallocate", }
+,{"id":"do_fb_ioctl", "file":"drivers/video/fbmem.c", "line":1030, "type":"f", }
+,{"id":"do_fb_ioctl", "file":"drivers/video/fbmem.c", "line":1166, "type":"c", "scope_line":1160, "scope_name":"fb_ioctl", }
+,{"id":"do_fb_ioctl", "file":"drivers/video/fbmem.c", "line":1220, "type":"c", "scope_line":1196, "scope_name":"fb_getput_cmap", }
+,{"id":"do_fb_ioctl", "file":"drivers/video/fbmem.c", "line":1274, "type":"c", "scope_line":1262, "scope_name":"fb_get_fscreeninfo", }
+,{"id":"do_fb_ioctl", "file":"drivers/video/fbmem.c", "line":1300, "type":"c", "scope_line":1283, "scope_name":"fb_compat_ioctl", }
+,{"id":"do_fcntl", "file":"fs/fcntl.c", "line":343, "type":"f", }
+,{"id":"do_fcntl", "file":"fs/fcntl.c", "line":444, "type":"c", "scope_line":429, "scope_name":"sys_fcntl", }
+,{"id":"do_file_list_for_each_entry", "file":"fs/file_table.c", "line":403, "type":"d", }
+,{"id":"do_filp_open", "file":"fs/exec.c", "line":115, "type":"c", "scope_line":106, "scope_name":"sys_uselib", }
+,{"id":"do_filp_open", "file":"fs/exec.c", "line":688, "type":"c", "scope_line":683, "scope_name":"open_exec", }
+,{"id":"do_filp_open", "file":"fs/namei.c", "line":1741, "type":"f", }
+,{"id":"do_filp_open", "file":"fs/namei.c", "line":1891, "type":"c", "scope_line":1889, "scope_name":"filp_open", }
+,{"id":"do_filp_open", "file":"fs/open.c", "line":886, "type":"c", "scope_line":878, "scope_name":"do_sys_open", }
+,{"id":"do_flush_tlb_all", "file":"arch/x86/mm/tlb.c", "line":279, "type":"f", }
+,{"id":"do_follow_link", "file":"fs/namei.c", "line":565, "type":"f", }
+,{"id":"do_follow_link", "file":"fs/namei.c", "line":891, "type":"c", "scope_line":817, "scope_name":"link_path_walk", }
+,{"id":"do_follow_link", "file":"fs/namei.c", "line":930, "type":"c", "scope_line":817, "scope_name":"link_path_walk", }
+,{"id":"do_fontx_ioctl", "file":"drivers/char/vt_ioctl.c", "line":1238, "type":"c", "scope_line":498, "scope_name":"vt_ioctl", }
+,{"id":"do_fontx_ioctl", "file":"drivers/char/vt_ioctl.c", "line":428, "type":"f", }
+,{"id":"do_for_each_ftrace_rec", "file":"kernel/trace/ftrace.c", "line":920, "type":"d", }
+,{"id":"do_fork", "file":"arch/x86/ia32/sys_ia32.c", "line":475, "type":"c", "scope_line":467, "scope_name":"sys32_clone", }
+,{"id":"do_fork", "file":"arch/x86/kernel/process.c", "line":235, "type":"c", "scope_line":233, "scope_name":"sys_fork", }
+,{"id":"do_fork", "file":"arch/x86/kernel/process.c", "line":250, "type":"c", "scope_line":248, "scope_name":"sys_vfork", }
+,{"id":"do_fork", "file":"arch/x86/kernel/process.c", "line":260, "type":"c", "scope_line":254, "scope_name":"sys_clone", }
+,{"id":"do_fork", "file":"arch/x86/kernel/process.c", "line":297, "type":"c", "scope_line":273, "scope_name":"kernel_thread", }
+,{"id":"do_fork", "file":"kernel/fork.c", "line":1372, "type":"f", }
+,{"id":"do_fork_idle", "file":"arch/x86/kernel/smpboot.c", "line":700, "type":"f", }
+,{"id":"do_fpu_end", "file":"arch/x86/power/cpu.c", "line":122, "type":"f", }
+,{"id":"do_fpu_end", "file":"arch/x86/power/cpu.c", "line":225, "type":"c", "scope_line":156, "scope_name":"__restore_processor_state", }
+,{"id":"do_free_callbacks", "file":"drivers/xen/grant-table.c", "line":108, "type":"f", }
+,{"id":"do_free_callbacks", "file":"drivers/xen/grant-table.c", "line":131, "type":"c", "scope_line":128, "scope_name":"check_free_callbacks", }
+,{"id":"do_fscreeninfo_to_user", "file":"drivers/video/fbmem.c", "line":1231, "type":"f", }
+,{"id":"do_fscreeninfo_to_user", "file":"drivers/video/fbmem.c", "line":1278, "type":"c", "scope_line":1262, "scope_name":"fb_get_fscreeninfo", }
+,{"id":"do_fsync", "file":"fs/sync.c", "line":183, "type":"f", }
+,{"id":"do_fsync", "file":"fs/sync.c", "line":198, "type":"c", "scope_line":196, "scope_name":"sys_fsync", }
+,{"id":"do_fsync", "file":"fs/sync.c", "line":203, "type":"c", "scope_line":201, "scope_name":"sys_fdatasync", }
+,{"id":"do_ftrace_mod_code", "file":"arch/x86/kernel/ftrace.c", "line":224, "type":"f", }
+,{"id":"do_ftrace_mod_code", "file":"arch/x86/kernel/ftrace.c", "line":295, "type":"c", "scope_line":270, "scope_name":"ftrace_modify_code", }
+,{"id":"do_ftrace_mod_code", "file":"arch/x86/kernel/ftrace.c", "line":422, "type":"c", "scope_line":409, "scope_name":"ftrace_mod_jmp", }
+,{"id":"do_futex", "file":"kernel/futex.c", "line":2542, "type":"f", }
+,{"id":"do_futex", "file":"kernel/futex.c", "line":2635, "type":"c", "scope_line":2605, "scope_name":"sys_futex", }
+,{"id":"do_futex", "file":"kernel/futex_compat.c", "line":199, "type":"c", "scope_line":173, "scope_name":"compat_sys_futex", }
+,{"id":"do_general_protection", "file":"arch/x86/kernel/traps.c", "line":252, "type":"f", }
+,{"id":"do_generic_file_read", "file":"mm/filemap.c", "line":1350, "type":"c", "scope_line":1273, "scope_name":"generic_file_aio_read", }
+,{"id":"do_generic_file_read", "file":"mm/filemap.c", "line":972, "type":"f", }
+,{"id":"do_get_dqblk", "file":"fs/quota/dquot.c", "line":2301, "type":"f", }
+,{"id":"do_get_dqblk", "file":"fs/quota/dquot.c", "line":2331, "type":"c", "scope_line":2323, "scope_name":"dquot_get_dqblk", }
+,{"id":"do_get_mempolicy", "file":"mm/mempolicy.c", "line":1371, "type":"c", "scope_line":1360, "scope_name":"sys_get_mempolicy", }
+,{"id":"do_get_mempolicy", "file":"mm/mempolicy.c", "line":803, "type":"f", }
+,{"id":"do_get_sock_timeout", "file":"net/compat.c", "line":415, "type":"f", }
+,{"id":"do_get_sock_timeout", "file":"net/compat.c", "line":448, "type":"c", "scope_line":444, "scope_name":"compat_sock_getsockopt", }
+,{"id":"do_get_thread_area", "file":"arch/x86/kernel/ptrace.c", "line":893, "type":"c", "scope_line":804, "scope_name":"arch_ptrace", }
+,{"id":"do_get_thread_area", "file":"arch/x86/kernel/tls.c", "line":124, "type":"f", }
+,{"id":"do_get_thread_area", "file":"arch/x86/kernel/tls.c", "line":145, "type":"c", "scope_line":143, "scope_name":"sys_get_thread_area", }
+,{"id":"do_get_tz", "file":"arch/x86/kernel/vsyscall_64.c", "line":164, "type":"c", "scope_line":159, "scope_name":"vgettimeofday", }
+,{"id":"do_get_tz", "file":"arch/x86/kernel/vsyscall_64.c", "line":98, "type":"f", }
+,{"id":"do_get_write_access", "file":"fs/jbd/transaction.c", "line":514, "type":"f", }
+,{"id":"do_get_write_access", "file":"fs/jbd/transaction.c", "line":756, "type":"c", "scope_line":748, "scope_name":"journal_get_write_access", }
+,{"id":"do_get_write_access", "file":"fs/jbd/transaction.c", "line":891, "type":"c", "scope_line":878, "scope_name":"journal_get_undo_access", }
+,{"id":"do_get_write_access", "file":"fs/jbd2/transaction.c", "line":574, "type":"f", }
+,{"id":"do_get_write_access", "file":"fs/jbd2/transaction.c", "line":826, "type":"c", "scope_line":818, "scope_name":"jbd2_journal_get_write_access", }
+,{"id":"do_get_write_access", "file":"fs/jbd2/transaction.c", "line":963, "type":"c", "scope_line":950, "scope_name":"jbd2_journal_get_undo_access", }
+,{"id":"do_getitimer", "file":"kernel/compat.c", "line":187, "type":"c", "scope_line":181, "scope_name":"compat_sys_getitimer", }
+,{"id":"do_getitimer", "file":"kernel/itimer.c", "line":109, "type":"c", "scope_line":103, "scope_name":"sys_getitimer", }
+,{"id":"do_getitimer", "file":"kernel/itimer.c", "line":79, "type":"f", }
+,{"id":"do_getname", "file":"fs/namei.c", "line":117, "type":"f", }
+,{"id":"do_getname", "file":"fs/namei.c", "line":146, "type":"c", "scope_line":139, "scope_name":"getname", }
+,{"id":"do_gettimeofday", "file":"drivers/input/evdev.c", "line":82, "type":"c", "scope_line":75, "scope_name":"evdev_event", }
+,{"id":"do_gettimeofday", "file":"fs/exec.c", "line":1524, "type":"c", "scope_line":1461, "scope_name":"format_corename", }
+,{"id":"do_gettimeofday", "file":"kernel/compat.c", "line":60, "type":"c", "scope_line":55, "scope_name":"compat_sys_gettimeofday", }
+,{"id":"do_gettimeofday", "file":"kernel/compat.c", "line":892, "type":"c", "scope_line":887, "scope_name":"compat_sys_time", }
+,{"id":"do_gettimeofday", "file":"kernel/power/process.c", "line":44, "type":"c", "scope_line":34, "scope_name":"try_to_freeze_tasks", }
+,{"id":"do_gettimeofday", "file":"kernel/power/process.c", "line":88, "type":"c", "scope_line":34, "scope_name":"try_to_freeze_tasks", }
+,];
+xr_frag_insert('t/64/b66e1d3e625dae4c9a0014a881edb7e836e3a8.xr', __xr_tmp);

@@ -1,0 +1,98 @@
+var __xr_tmp = [
+{"id":"acpi_old_suspend_ordering", "file":"arch/x86/kernel/acpi/sleep.c", "line":169, "type":"c", "scope_line":148, "scope_name":"acpi_sleep_setup", }
+,{"id":"acpi_old_suspend_ordering", "file":"drivers/acpi/sleep.c", "line":105, "type":"f", }
+,{"id":"acpi_op_add", "file":"include/acpi/acpi_bus.h", "line":86, "type":"t", }
+,{"id":"acpi_op_add", "file":"include/acpi/acpi_bus.h", "line":97, "type":"m", "scope_line":96, "scope_name":"struct acpi_bus_ops", }
+,{"id":"acpi_op_bind", "file":"include/acpi/acpi_bus.h", "line":92, "type":"t", }
+,{"id":"acpi_op_notify", "file":"include/acpi/acpi_bus.h", "line":94, "type":"t", }
+,{"id":"acpi_op_remove", "file":"include/acpi/acpi_bus.h", "line":87, "type":"t", }
+,{"id":"acpi_op_resume", "file":"include/acpi/acpi_bus.h", "line":91, "type":"t", }
+,{"id":"acpi_op_start", "file":"include/acpi/acpi_bus.h", "line":88, "type":"t", }
+,{"id":"acpi_op_start", "file":"include/acpi/acpi_bus.h", "line":98, "type":"m", "scope_line":96, "scope_name":"struct acpi_bus_ops", }
+,{"id":"acpi_op_suspend", "file":"include/acpi/acpi_bus.h", "line":89, "type":"t", }
+,{"id":"acpi_op_unbind", "file":"include/acpi/acpi_bus.h", "line":93, "type":"t", }
+,{"id":"acpi_opcode_info", "file":"drivers/acpi/acpica/aclocal.h", "line":648, "type":"s", }
+,{"id":"acpi_operand_object", "file":"drivers/acpi/acpica/acobject.h", "line":379, "type":"u", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evgpe.c", "line":347, "type":"c", "scope_line":321, "scope_name":"acpi_ev_gpe_detect", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evgpeblk.c", "line":159, "type":"c", "scope_line":131, "scope_name":"acpi_ev_delete_gpe_block", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evgpeblk.c", "line":98, "type":"c", "scope_line":74, "scope_name":"acpi_ev_install_gpe_block", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evgpeutil.c", "line":201, "type":"c", "scope_line":170, "scope_name":"acpi_ev_get_gpe_xrupt_block", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evgpeutil.c", "line":270, "type":"c", "scope_line":245, "scope_name":"acpi_ev_delete_gpe_xrupt", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evgpeutil.c", "line":73, "type":"c", "scope_line":63, "scope_name":"acpi_ev_walk_gpe_list", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evxface.c", "line":702, "type":"c", "scope_line":671, "scope_name":"acpi_install_gpe_handler", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evxface.c", "line":803, "type":"c", "scope_line":777, "scope_name":"acpi_remove_gpe_handler", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evxfevnt.c", "line":237, "type":"c", "scope_line":227, "scope_name":"acpi_gpe_wakeup", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evxfevnt.c", "line":303, "type":"c", "scope_line":295, "scope_name":"acpi_enable_gpe", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evxfevnt.c", "line":339, "type":"c", "scope_line":331, "scope_name":"acpi_disable_gpe", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evxfevnt.c", "line":377, "type":"c", "scope_line":369, "scope_name":"acpi_gpe_can_wake", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evxfevnt.c", "line":513, "type":"c", "scope_line":505, "scope_name":"acpi_clear_gpe", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/evxfevnt.c", "line":612, "type":"c", "scope_line":602, "scope_name":"acpi_get_gpe_status", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/hwregs.c", "line":266, "type":"c", "scope_line":255, "scope_name":"acpi_hw_clear_acpi_status", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/acpica/hwxface.c", "line":389, "type":"c", "scope_line":373, "scope_name":"acpi_write_bit_register", }
+,{"id":"acpi_os_acquire_lock", "file":"drivers/acpi/osl.c", "line":1185, "type":"f", }
+,{"id":"acpi_os_acquire_mutex", "file":"include/acpi/actypes.h", "line":247, "type":"d", }
+,{"id":"acpi_os_acquire_object", "file":"drivers/acpi/acpica/nsalloc.c", "line":71, "type":"c", "scope_line":62, "scope_name":"acpi_ns_create_node", }
+,{"id":"acpi_os_acquire_object", "file":"drivers/acpi/acpica/psutils.c", "line":142, "type":"c", "scope_line":116, "scope_name":"acpi_ps_alloc_op", }
+,{"id":"acpi_os_acquire_object", "file":"drivers/acpi/acpica/psutils.c", "line":146, "type":"c", "scope_line":116, "scope_name":"acpi_ps_alloc_op", }
+,{"id":"acpi_os_acquire_object", "file":"drivers/acpi/acpica/utobject.c", "line":387, "type":"c", "scope_line":380, "scope_name":"acpi_ut_allocate_object_desc_dbg", }
+,{"id":"acpi_os_acquire_object", "file":"drivers/acpi/acpica/utstate.c", "line":161, "type":"c", "scope_line":155, "scope_name":"acpi_ut_create_generic_state", }
+,{"id":"acpi_os_acquire_object", "file":"include/acpi/platform/aclinux.h", "line":141, "type":"f", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/exconfig.c", "line":379, "type":"c", "scope_line":336, "scope_name":"acpi_ex_load_op", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/exconfig.c", "line":419, "type":"c", "scope_line":336, "scope_name":"acpi_ex_load_op", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/exconfig.c", "line":469, "type":"c", "scope_line":336, "scope_name":"acpi_ex_load_op", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/exnames.c", "line":102, "type":"c", "scope_line":75, "scope_name":"acpi_ex_allocate_name_string", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/exoparg3.c", "line":104, "type":"c", "scope_line":86, "scope_name":"acpi_ex_opcode_3A_0T_0R", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/exstorob.c", "line":90, "type":"c", "scope_line":64, "scope_name":"acpi_ex_store_buffer_to_buffer", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/nseval.c", "line":318, "type":"c", "scope_line":300, "scope_name":"acpi_ns_exec_module_code_list", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/nsxfname.c", "line":554, "type":"c", "scope_line":505, "scope_name":"acpi_install_method", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/tbutils.c", "line":409, "type":"c", "scope_line":402, "scope_name":"acpi_tb_copy_dsdt", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/utalloc.c", "line":274, "type":"c", "scope_line":240, "scope_name":"acpi_ut_initialize_buffer", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/utalloc.c", "line":281, "type":"c", "scope_line":240, "scope_name":"acpi_ut_initialize_buffer", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/utcopy.c", "line":719, "type":"c", "scope_line":673, "scope_name":"acpi_ut_copy_simple_object", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/acpica/utcopy.c", "line":740, "type":"c", "scope_line":673, "scope_name":"acpi_ut_copy_simple_object", }
+,{"id":"acpi_os_allocate", "file":"drivers/acpi/osl.c", "line":805, "type":"c", "scope_line":800, "scope_name":"acpi_os_create_semaphore", }
+,{"id":"acpi_os_allocate", "file":"include/acpi/platform/aclinux.h", "line":131, "type":"f", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/dsmethod.c", "line":380, "type":"c", "scope_line":320, "scope_name":"acpi_ds_call_control_method", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/dsobject.c", "line":332, "type":"c", "scope_line":264, "scope_name":"acpi_ds_build_internal_buffer_obj", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/dsobject.c", "line":425, "type":"c", "scope_line":381, "scope_name":"acpi_ds_build_internal_package_obj", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/dswstate.c", "line":548, "type":"c", "scope_line":539, "scope_name":"acpi_ds_create_walk_state", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/evgpe.c", "line":482, "type":"c", "scope_line":440, "scope_name":"acpi_ev_asynch_execute_gpe_method", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/evgpeblk.c", "line":213, "type":"c", "scope_line":198, "scope_name":"acpi_ev_create_gpe_info_blocks", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/evgpeblk.c", "line":227, "type":"c", "scope_line":198, "scope_name":"acpi_ev_create_gpe_info_blocks", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/evgpeblk.c", "line":355, "type":"c", "scope_line":335, "scope_name":"acpi_ev_create_gpe_block", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/evgpeutil.c", "line":192, "type":"c", "scope_line":170, "scope_name":"acpi_ev_get_gpe_xrupt_block", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/evregion.c", "line":272, "type":"c", "scope_line":251, "scope_name":"acpi_ev_execute_reg_method", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/evrgnini.c", "line":102, "type":"c", "scope_line":70, "scope_name":"acpi_ev_system_memory_region_setup", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/evrgnini.c", "line":269, "type":"c", "scope_line":165, "scope_name":"acpi_ev_pci_config_region_setup", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/evxface.c", "line":272, "type":"c", "scope_line":262, "scope_name":"acpi_add_handler_object", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/evxface.c", "line":696, "type":"c", "scope_line":671, "scope_name":"acpi_install_gpe_handler", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/exfldio.c", "line":832, "type":"c", "scope_line":797, "scope_name":"acpi_ex_insert_into_field", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/exoparg3.c", "line":198, "type":"c", "scope_line":145, "scope_name":"acpi_ex_opcode_3A_1T_1R", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/exoparg3.c", "line":213, "type":"c", "scope_line":145, "scope_name":"acpi_ex_opcode_3A_1T_1R", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/exstorob.c", "line":207, "type":"c", "scope_line":161, "scope_name":"acpi_ex_store_string_to_string", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/hwxface.c", "line":486, "type":"c", "scope_line":470, "scope_name":"acpi_get_sleep_type_data", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/nsinit.c", "line":167, "type":"c", "scope_line":138, "scope_name":"acpi_ns_initialize_devices", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/nsnames.c", "line":150, "type":"c", "scope_line":133, "scope_name":"acpi_ns_get_external_pathname", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/nspredef.c", "line":210, "type":"c", "scope_line":131, "scope_name":"acpi_ns_check_predefined_names", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/nsutils.c", "line":502, "type":"c", "scope_line":482, "scope_name":"acpi_ns_internalize_name", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/nsutils.c", "line":641, "type":"c", "scope_line":537, "scope_name":"acpi_ns_externalize_name", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/nsxfeval.c", "line":184, "type":"c", "scope_line":169, "scope_name":"acpi_evaluate_object", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/nsxfeval.c", "line":208, "type":"c", "scope_line":169, "scope_name":"acpi_evaluate_object", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/nsxfname.c", "line":359, "type":"c", "scope_line":265, "scope_name":"acpi_get_object_info", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/rsutils.c", "line":675, "type":"c", "scope_line":662, "scope_name":"acpi_rs_set_srs_method_data", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/tbinstal.c", "line":275, "type":"c", "scope_line":259, "scope_name":"acpi_tb_resize_root_table_list", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/tbxface.c", "line":200, "type":"c", "scope_line":171, "scope_name":"acpi_reallocate_root_table", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/utcopy.c", "line":498, "type":"c", "scope_line":453, "scope_name":"acpi_ut_copy_esimple_to_isimple", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/utcopy.c", "line":515, "type":"c", "scope_line":453, "scope_name":"acpi_ut_copy_esimple_to_isimple", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/utcopy.c", "line":935, "type":"c", "scope_line":919, "scope_name":"acpi_ut_copy_ipackage_to_ipackage", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/uteval.c", "line":231, "type":"c", "scope_line":217, "scope_name":"acpi_ut_evaluate_object", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/utids.c", "line":133, "type":"c", "scope_line":105, "scope_name":"acpi_ut_execute_HID", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/utids.c", "line":210, "type":"c", "scope_line":182, "scope_name":"acpi_ut_execute_UID", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/utids.c", "line":334, "type":"c", "scope_line":264, "scope_name":"acpi_ut_execute_CID", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/utobject.c", "line":179, "type":"c", "scope_line":161, "scope_name":"acpi_ut_create_package_object", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/utobject.c", "line":252, "type":"c", "scope_line":232, "scope_name":"acpi_ut_create_buffer_object", }
+,{"id":"acpi_os_allocate_zeroed", "file":"drivers/acpi/acpica/utobject.c", "line":304, "type":"c", "scope_line":286, "scope_name":"acpi_ut_create_string_object", }
+,{"id":"acpi_os_allocate_zeroed", "file":"include/acpi/platform/aclinux.h", "line":136, "type":"f", }
+,{"id":"acpi_os_create_cache", "file":"drivers/acpi/acpica/utalloc.c", "line":103, "type":"c", "scope_line":62, "scope_name":"acpi_ut_create_caches", }
+,];
+xr_frag_insert('t/c4/b833c0bd0e441ddee40586f2d63cd58efe12dc.xr', __xr_tmp);

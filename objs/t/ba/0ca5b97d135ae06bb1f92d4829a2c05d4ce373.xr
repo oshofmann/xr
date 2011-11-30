@@ -1,0 +1,62 @@
+var __xr_tmp = [
+{"id":"dmi_check_system", "file":"arch/x86/pci/common.c", "line":122, "type":"c", "scope_line":120, "scope_name":"dmi_check_skip_isa_align", }
+,{"id":"dmi_check_system", "file":"arch/x86/pci/common.c", "line":390, "type":"c", "scope_line":388, "scope_name":"dmi_check_pciprobe", }
+,{"id":"dmi_check_system", "file":"arch/x86/pci/fixup.c", "line":383, "type":"c", "scope_line":380, "scope_name":"pci_fixup_msi_k8t_onboard_sound", }
+,{"id":"dmi_check_system", "file":"arch/x86/pci/fixup.c", "line":443, "type":"c", "scope_line":441, "scope_name":"pci_pre_fixup_toshiba_ohci1394", }
+,{"id":"dmi_check_system", "file":"arch/x86/pci/fixup.c", "line":454, "type":"c", "scope_line":452, "scope_name":"pci_post_fixup_toshiba_ohci1394", }
+,{"id":"dmi_check_system", "file":"arch/x86/pci/irq.c", "line":1126, "type":"c", "scope_line":1119, "scope_name":"pcibios_irq_init", }
+,{"id":"dmi_check_system", "file":"drivers/acpi/blacklist.c", "line":172, "type":"c", "scope_line":112, "scope_name":"acpi_blacklisted", }
+,{"id":"dmi_check_system", "file":"drivers/acpi/bus.c", "line":1024, "type":"c", "scope_line":985, "scope_name":"acpi_init", }
+,{"id":"dmi_check_system", "file":"drivers/acpi/bus.c", "line":845, "type":"c", "scope_line":826, "scope_name":"acpi_early_init", }
+,{"id":"dmi_check_system", "file":"drivers/acpi/ec.c", "line":950, "type":"c", "scope_line":938, "scope_name":"acpi_ec_ecdt_probe", }
+,{"id":"dmi_check_system", "file":"drivers/acpi/pci_irq.c", "line":170, "type":"c", "scope_line":157, "scope_name":"do_prt_fixups", }
+,{"id":"dmi_check_system", "file":"drivers/acpi/pci_slot.c", "line":360, "type":"c", "scope_line":357, "scope_name":"acpi_pci_slot_init", }
+,{"id":"dmi_check_system", "file":"drivers/acpi/processor_core.c", "line":344, "type":"c", "scope_line":338, "scope_name":"acpi_early_processor_set_pdc", }
+,{"id":"dmi_check_system", "file":"drivers/acpi/processor_idle.c", "line":1107, "type":"c", "scope_line":1088, "scope_name":"acpi_processor_power_init", }
+,{"id":"dmi_check_system", "file":"drivers/acpi/sleep.c", "line":730, "type":"c", "scope_line":723, "scope_name":"acpi_sleep_init", }
+,{"id":"dmi_check_system", "file":"drivers/acpi/thermal.c", "line":1576, "type":"c", "scope_line":1572, "scope_name":"acpi_thermal_init", }
+,{"id":"dmi_check_system", "file":"drivers/ata/ahci.c", "line":745, "type":"c", "scope_line":730, "scope_name":"ahci_p5wdh_workaround", }
+,{"id":"dmi_check_system", "file":"drivers/ata/ata_piix.c", "line":1126, "type":"c", "scope_line":996, "scope_name":"piix_broken_suspend", }
+,{"id":"dmi_check_system", "file":"drivers/ata/ata_piix.c", "line":1474, "type":"c", "scope_line":1454, "scope_name":"piix_iocfg_bit18_quirk", }
+,{"id":"dmi_check_system", "file":"drivers/firmware/dmi_scan.c", "line":485, "type":"f", }
+,{"id":"dmi_check_system", "file":"drivers/input/keyboard/atkbd.c", "line":1723, "type":"c", "scope_line":1721, "scope_name":"atkbd_init", }
+,{"id":"dmi_check_system", "file":"drivers/input/serio/i8042-x86ia64io.h", "line":739, "type":"c", "scope_line":732, "scope_name":"i8042_pnp_init", }
+,{"id":"dmi_check_system", "file":"drivers/input/serio/i8042-x86ia64io.h", "line":838, "type":"c", "scope_line":732, "scope_name":"i8042_pnp_init", }
+,{"id":"dmi_check_system", "file":"drivers/input/serio/i8042-x86ia64io.h", "line":880, "type":"c", "scope_line":850, "scope_name":"i8042_platform_init", }
+,{"id":"dmi_check_system", "file":"drivers/input/serio/i8042-x86ia64io.h", "line":883, "type":"c", "scope_line":850, "scope_name":"i8042_platform_init", }
+,{"id":"dmi_check_system", "file":"drivers/input/serio/i8042-x86ia64io.h", "line":886, "type":"c", "scope_line":850, "scope_name":"i8042_platform_init", }
+,{"id":"dmi_check_system", "file":"drivers/input/serio/i8042-x86ia64io.h", "line":889, "type":"c", "scope_line":850, "scope_name":"i8042_platform_init", }
+,{"id":"dmi_check_system", "file":"drivers/pci/pcie/portdrv_pci.c", "line":335, "type":"c", "scope_line":326, "scope_name":"pcie_portdrv_init", }
+,{"id":"dmi_check_system", "file":"drivers/video/efifb.c", "line":481, "type":"c", "scope_line":476, "scope_name":"efifb_init", }
+,{"id":"dmi_checksum", "file":"drivers/firmware/dmi_scan.c", "line":117, "type":"f", }
+,{"id":"dmi_checksum", "file":"drivers/firmware/dmi_scan.c", "line":369, "type":"c", "scope_line":364, "scope_name":"dmi_present", }
+,{"id":"dmi_decode", "file":"drivers/firmware/dmi_scan.c", "line":321, "type":"f", }
+,{"id":"dmi_dev_onboard", "file":"include/linux/dmi.h", "line":41, "type":"s", }
+,{"id":"dmi_device", "file":"include/linux/dmi.h", "line":32, "type":"s", }
+,{"id":"dmi_device_id", "file":"include/linux/mod_devicetable.h", "line":463, "type":"d", }
+,{"id":"dmi_device_type", "file":"include/linux/dmi.h", "line":9, "type":"t", }
+,{"id":"dmi_devices", "file":"drivers/firmware/dmi_scan.c", "line":129, "type":"v", }
+,{"id":"dmi_disable_acpi", "file":"arch/x86/kernel/acpi/boot.c", "line":1323, "type":"f", }
+,{"id":"dmi_disable_osi_vista", "file":"drivers/acpi/blacklist.c", "line":182, "type":"f", }
+,{"id":"dmi_disable_osi_win7", "file":"drivers/acpi/blacklist.c", "line":190, "type":"f", }
+,{"id":"dmi_empty_string", "file":"drivers/firmware/dmi_scan.c", "line":15, "type":"v", }
+,{"id":"dmi_enable_osi_linux", "file":"drivers/acpi/blacklist.c", "line":177, "type":"f", }
+,{"id":"dmi_field", "file":"include/linux/mod_devicetable.h", "line":414, "type":"t", }
+,{"id":"dmi_find_device", "file":"drivers/ata/ata_piix.c", "line":1130, "type":"c", "scope_line":996, "scope_name":"piix_broken_suspend", }
+,{"id":"dmi_find_device", "file":"drivers/firmware/dmi_scan.c", "line":197, "type":"c", "scope_line":192, "scope_name":"dmi_save_one_device", }
+,{"id":"dmi_find_device", "file":"drivers/firmware/dmi_scan.c", "line":581, "type":"f", }
+,{"id":"dmi_find_device", "file":"drivers/pci/pci-label.c", "line":43, "type":"c", "scope_line":30, "scope_name":"find_smbios_instance_string", }
+,{"id":"dmi_first_match", "file":"drivers/ata/ahci.c", "line":1023, "type":"c", "scope_line":1002, "scope_name":"ahci_gtf_filter_workaround", }
+,{"id":"dmi_first_match", "file":"drivers/ata/ahci.c", "line":807, "type":"c", "scope_line":758, "scope_name":"ahci_sb600_enable_64bit", }
+,{"id":"dmi_first_match", "file":"drivers/ata/ahci.c", "line":856, "type":"c", "scope_line":832, "scope_name":"ahci_broken_system_poweroff", }
+,{"id":"dmi_first_match", "file":"drivers/ata/ahci.c", "line":938, "type":"c", "scope_line":867, "scope_name":"ahci_broken_suspend", }
+,{"id":"dmi_first_match", "file":"drivers/ata/ahci.c", "line":990, "type":"c", "scope_line":951, "scope_name":"ahci_broken_online", }
+,{"id":"dmi_first_match", "file":"drivers/ata/ata_piix.c", "line":1513, "type":"c", "scope_line":1489, "scope_name":"piix_broken_system_poweroff", }
+,{"id":"dmi_first_match", "file":"drivers/firmware/dmi_scan.c", "line":513, "type":"f", }
+,{"id":"dmi_get_date", "file":"arch/x86/pci/acpi.c", "line":53, "type":"c", "scope_line":49, "scope_name":"pci_acpi_crs_quirks", }
+,{"id":"dmi_get_date", "file":"arch/x86/pci/direct.c", "line":201, "type":"c", "scope_line":192, "scope_name":"pci_sanity_check", }
+,{"id":"dmi_get_date", "file":"arch/x86/pci/mmconfig-shared.c", "line":528, "type":"c", "scope_line":516, "scope_name":"acpi_mcfg_check_entry", }
+,{"id":"dmi_get_date", "file":"drivers/ata/ahci.c", "line":815, "type":"c", "scope_line":758, "scope_name":"ahci_sb600_enable_64bit", }
+,{"id":"dmi_get_date", "file":"drivers/ata/ahci.c", "line":945, "type":"c", "scope_line":867, "scope_name":"ahci_broken_suspend", }
+,];
+xr_frag_insert('t/ba/0ca5b97d135ae06bb1f92d4829a2c05d4ce373.xr', __xr_tmp);

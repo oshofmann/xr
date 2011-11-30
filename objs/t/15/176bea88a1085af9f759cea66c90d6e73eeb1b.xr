@@ -1,0 +1,113 @@
+var __xr_tmp = [
+{"id":"blocking_notifier_chain_unregister", "file":"kernel/module.c", "line":109, "type":"c", "scope_line":107, "scope_name":"unregister_module_notifier", }
+,{"id":"blocking_notifier_chain_unregister", "file":"kernel/notifier.c", "line":263, "type":"f", }
+,{"id":"blocking_notifier_chain_unregister", "file":"kernel/notifier.c", "line":555, "type":"c", "scope_line":553, "scope_name":"unregister_reboot_notifier", }
+,{"id":"blocking_notifier_chain_unregister", "file":"kernel/pm_qos_params.c", "line":340, "type":"c", "scope_line":336, "scope_name":"pm_qos_remove_notifier", }
+,{"id":"blocking_notifier_chain_unregister", "file":"kernel/power/main.c", "line":37, "type":"c", "scope_line":35, "scope_name":"unregister_pm_notifier", }
+,{"id":"blocking_notifier_chain_unregister", "file":"kernel/profile.c", "line":199, "type":"c", "scope_line":193, "scope_name":"profile_event_unregister", }
+,{"id":"blocking_notifier_chain_unregister", "file":"kernel/profile.c", "line":203, "type":"c", "scope_line":193, "scope_name":"profile_event_unregister", }
+,{"id":"blocking_notifier_chain_unregister", "file":"mm/oom_kill.c", "line":541, "type":"c", "scope_line":539, "scope_name":"unregister_oom_notifier", }
+,{"id":"blocking_notifier_chain_unregister", "file":"net/ipv4/devinet.c", "line":994, "type":"c", "scope_line":992, "scope_name":"unregister_inetaddr_notifier", }
+,{"id":"blocking_notifier_head", "file":"include/linux/notifier.h", "line":61, "type":"s", }
+,{"id":"blocking_pool", "file":"drivers/char/random.c", "line":433, "type":"v", }
+,{"id":"blocking_pool_data", "file":"drivers/char/random.c", "line":422, "type":"v", }
+,{"id":"blocknr", "file":"fs/jbd/revoke.c", "line":104, "type":"m", "scope_line":100, "scope_name":"struct jbd_revoke_record_s", }
+,{"id":"blocknr", "file":"fs/jbd2/revoke.c", "line":104, "type":"m", "scope_line":100, "scope_name":"struct jbd2_revoke_record_s", }
+,{"id":"blocks", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":70, "type":"m", "scope_line":68, "scope_name":"struct threshold_bank", }
+,{"id":"blocks", "file":"include/linux/cramfs_fs.h", "line":47, "type":"m", "scope_line":44, "scope_name":"struct cramfs_info", }
+,{"id":"blocks", "file":"include/linux/cred.h", "line":36, "type":"m", "scope_line":31, "scope_name":"struct group_info", }
+,{"id":"blocks", "file":"include/linux/nfs_xdr.h", "line":131, "type":"m", "scope_line":128, "scope_name":"struct nfs2_fsstat", }
+,{"id":"blocks", "file":"include/linux/nfs_xdr.h", "line":41, "type":"m", "scope_line":30, "scope_name":"struct nfs_fattr", }
+,{"id":"blocks", "file":"include/linux/soundcard.h", "line":616, "type":"m", "scope_line":614, "scope_name":"struct count_info", }
+,{"id":"blocks", "file":"include/linux/stat.h", "line":75, "type":"m", "scope_line":62, "scope_name":"struct kstat", }
+,{"id":"blocks", "file":"include/trace/events/ext4.h", "line":18, "type":"m", "scope_line":18, "scope_name":"struct ftrace_raw_ext4_free_inode", }
+,{"id":"blocks", "file":"include/trace/events/jbd2.h", "line":127, "type":"m", "scope_line":127, "scope_name":"struct ftrace_raw_jbd2_run_stats", }
+,{"id":"blocks", "file":"kernel/power/snapshot.c", "line":259, "type":"m", "scope_line":258, "scope_name":"struct memory_bitmap", }
+,{"id":"blocks_available", "file":"fs/direct-io.c", "line":78, "type":"m", "scope_line":58, "scope_name":"struct dio", }
+,{"id":"blocks_count", "file":"fs/ext4/ext4.h", "line":438, "type":"m", "scope_line":433, "scope_name":"struct ext4_new_group_input", }
+,{"id":"blocks_count", "file":"fs/ext4/ext4.h", "line":449, "type":"m", "scope_line":444, "scope_name":"struct compat_ext4_new_group_input", }
+,{"id":"blocks_count", "file":"fs/ext4/ext4.h", "line":461, "type":"m", "scope_line":456, "scope_name":"struct ext4_new_group_data", }
+,{"id":"blocks_count", "file":"include/linux/ext3_fs.h", "line":211, "type":"m", "scope_line":206, "scope_name":"struct ext3_new_group_input", }
+,{"id":"blocks_count", "file":"include/linux/ext3_fs.h", "line":222, "type":"m", "scope_line":217, "scope_name":"struct ext3_new_group_data", }
+,{"id":"blocks_for_truncate", "file":"fs/ext3/inode.c", "line":110, "type":"f", }
+,{"id":"blocks_for_truncate", "file":"fs/ext3/inode.c", "line":147, "type":"c", "scope_line":143, "scope_name":"start_transaction", }
+,{"id":"blocks_for_truncate", "file":"fs/ext3/inode.c", "line":165, "type":"c", "scope_line":161, "scope_name":"try_to_extend_transaction", }
+,{"id":"blocks_for_truncate", "file":"fs/ext3/inode.c", "line":187, "type":"c", "scope_line":175, "scope_name":"truncate_restart_transaction", }
+,{"id":"blocks_for_truncate", "file":"fs/ext4/inode.c", "line":116, "type":"c", "scope_line":112, "scope_name":"start_transaction", }
+,{"id":"blocks_for_truncate", "file":"fs/ext4/inode.c", "line":136, "type":"c", "scope_line":130, "scope_name":"try_to_extend_transaction", }
+,{"id":"blocks_for_truncate", "file":"fs/ext4/inode.c", "line":160, "type":"c", "scope_line":146, "scope_name":"ext4_truncate_restart_trans", }
+,{"id":"blocks_for_truncate", "file":"fs/ext4/inode.c", "line":190, "type":"c", "scope_line":170, "scope_name":"ext4_evict_inode", }
+,{"id":"blocks_for_truncate", "file":"fs/ext4/inode.c", "line":4371, "type":"c", "scope_line":4345, "scope_name":"ext4_clear_blocks", }
+,{"id":"blocks_for_truncate", "file":"fs/ext4/inode.c", "line":4554, "type":"c", "scope_line":4486, "scope_name":"ext4_free_branches", }
+,{"id":"blocks_for_truncate", "file":"fs/ext4/inode.c", "line":79, "type":"f", }
+,{"id":"blocks_logged", "file":"include/trace/events/jbd2.h", "line":127, "type":"m", "scope_line":127, "scope_name":"struct ftrace_raw_jbd2_run_stats", }
+,{"id":"blocks_per_huge_page", "file":"include/linux/hugetlb.h", "line":292, "type":"f", }
+,{"id":"blocks_per_huge_page", "file":"mm/hugetlb.c", "line":2506, "type":"c", "scope_line":2449, "scope_name":"hugetlb_no_page", }
+,{"id":"blocks_per_huge_page", "file":"mm/hugetlb.c", "line":2874, "type":"c", "scope_line":2868, "scope_name":"hugetlb_unreserve_pages", }
+,{"id":"blocksize", "file":"include/crypto/algapi.h", "line":103, "type":"m", "scope_line":79, "scope_name":"struct blkcipher_walk", }
+,{"id":"blocksize", "file":"include/crypto/algapi.h", "line":120, "type":"m", "scope_line":106, "scope_name":"struct ablkcipher_walk", }
+,{"id":"blocksize", "file":"include/linux/nfs_xdr.h", "line":40, "type":"m", "scope_line":30, "scope_name":"struct nfs_fattr", }
+,{"id":"blocksize", "file":"include/linux/smb.h", "line":36, "type":"m", "scope_line":33, "scope_name":"struct smb_dskattr", }
+,{"id":"blue", "file":"drivers/video/fbmem.c", "line":1192, "type":"m", "scope_line":1187, "scope_name":"struct fb_cmap32", }
+,{"id":"blue", "file":"include/linux/fb.h", "line":251, "type":"m", "scope_line":238, "scope_name":"struct fb_var_screeninfo", }
+,{"id":"blue", "file":"include/linux/fb.h", "line":282, "type":"m", "scope_line":277, "scope_name":"struct fb_cmap", }
+,{"id":"blue", "file":"include/linux/fb.h", "line":486, "type":"m", "scope_line":481, "scope_name":"struct fb_cmap_user", }
+,{"id":"blue16", "file":"drivers/video/fbcmap.c", "line":58, "type":"v", }
+,{"id":"blue2", "file":"drivers/video/fbcmap.c", "line":26, "type":"v", }
+,{"id":"blue4", "file":"drivers/video/fbcmap.c", "line":36, "type":"v", }
+,{"id":"blue8", "file":"drivers/video/fbcmap.c", "line":46, "type":"v", }
+,{"id":"blue_pos", "file":"include/linux/screen_info.h", "line":38, "type":"m", "scope_line":10, "scope_name":"struct screen_info", }
+,{"id":"blue_size", "file":"include/linux/screen_info.h", "line":37, "type":"m", "scope_line":10, "scope_name":"struct screen_info", }
+,{"id":"bluex", "file":"include/linux/fb.h", "line":443, "type":"m", "scope_line":440, "scope_name":"struct fb_chroma", }
+,{"id":"bluey", "file":"include/linux/fb.h", "line":447, "type":"m", "scope_line":440, "scope_name":"struct fb_chroma", }
+,{"id":"bmAttributes", "file":"include/linux/usb/ch9.h", "line":283, "type":"m", "scope_line":275, "scope_name":"struct usb_config_descriptor", }
+,{"id":"bmAttributes", "file":"include/linux/usb/ch9.h", "line":335, "type":"m", "scope_line":330, "scope_name":"struct usb_endpoint_descriptor", }
+,{"id":"bmAttributes", "file":"include/linux/usb/ch9.h", "line":556, "type":"m", "scope_line":551, "scope_name":"struct usb_ss_ep_comp_descriptor", }
+,{"id":"bmAttributes", "file":"include/linux/usb/ch9.h", "line":588, "type":"m", "scope_line":584, "scope_name":"struct usb_otg_descriptor", }
+,{"id":"bmAttributes", "file":"include/linux/usb/ch9.h", "line":694, "type":"m", "scope_line":689, "scope_name":"struct usb_wireless_cap_descriptor", }
+,{"id":"bmAttributes", "file":"include/linux/usb/ch9.h", "line":721, "type":"m", "scope_line":717, "scope_name":"struct usb_ext_cap_descriptor", }
+,{"id":"bmBandGroup", "file":"include/linux/usb/ch9.h", "line":711, "type":"m", "scope_line":689, "scope_name":"struct usb_wireless_cap_descriptor", }
+,{"id":"bmCompAttributes", "file":"include/linux/usb/ch9.h", "line":739, "type":"m", "scope_line":730, "scope_name":"struct usb_wireless_ep_comp_descriptor", }
+,{"id":"bmFFITXPowerInfo", "file":"include/linux/usb/ch9.h", "line":710, "type":"m", "scope_line":689, "scope_name":"struct usb_wireless_cap_descriptor", }
+,{"id":"bmTFITXPowerInfo", "file":"include/linux/usb/ch9.h", "line":709, "type":"m", "scope_line":689, "scope_name":"struct usb_wireless_cap_descriptor", }
+,{"id":"bm_block", "file":"kernel/power/snapshot.c", "line":239, "type":"s", }
+,{"id":"bm_block_bits", "file":"kernel/power/snapshot.c", "line":246, "type":"f", }
+,{"id":"bm_block_bits", "file":"kernel/power/snapshot.c", "line":563, "type":"c", "scope_line":555, "scope_name":"memory_bm_next_pfn", }
+,{"id":"bm_block_bits", "file":"kernel/power/snapshot.c", "line":564, "type":"c", "scope_line":555, "scope_name":"memory_bm_next_pfn", }
+,{"id":"bm_check", "file":"include/acpi/processor.h", "line":194, "type":"m", "scope_line":188, "scope_name":"struct acpi_processor_flags", }
+,{"id":"bm_check_disable", "file":"drivers/acpi/processor_idle.c", "line":77, "type":"v", }
+,{"id":"bm_check_flag", "file":"drivers/acpi/processor_idle.c", "line":527, "type":"v", }
+,{"id":"bm_check_timestamp", "file":"include/acpi/processor.h", "line":73, "type":"m", "scope_line":70, "scope_name":"struct acpi_processor_power", }
+,{"id":"bm_control", "file":"include/acpi/processor.h", "line":193, "type":"m", "scope_line":188, "scope_name":"struct acpi_processor_flags", }
+,{"id":"bm_control_flag", "file":"drivers/acpi/processor_idle.c", "line":528, "type":"v", }
+,{"id":"bm_position", "file":"kernel/power/snapshot.c", "line":253, "type":"s", }
+,{"id":"bm_pte", "file":"arch/x86/mm/ioremap.c", "line":347, "type":"v", }
+,{"id":"bm_rld_set", "file":"include/acpi/processor.h", "line":197, "type":"m", "scope_line":188, "scope_name":"struct acpi_processor_flags", }
+,{"id":"bm_sts_skip", "file":"include/acpi/processor.h", "line":66, "type":"m", "scope_line":55, "scope_name":"struct acpi_processor_cx", }
+,{"id":"bmap", "file":"fs/inode.c", "line":1279, "type":"f", }
+,{"id":"bmap", "file":"fs/jbd/journal.c", "line":633, "type":"c", "scope_line":626, "scope_name":"journal_bmap", }
+,{"id":"bmap", "file":"fs/jbd2/journal.c", "line":638, "type":"c", "scope_line":631, "scope_name":"jbd2_journal_bmap", }
+,{"id":"bmap", "file":"include/linux/fs.h", "line":593, "type":"m", "scope_line":571, "scope_name":"struct address_space_operations", }
+,{"id":"bmap", "file":"mm/swapfile.c", "line":1485, "type":"c", "scope_line":1450, "scope_name":"setup_swap_extents", }
+,{"id":"bmap", "file":"mm/swapfile.c", "line":1501, "type":"c", "scope_line":1450, "scope_name":"setup_swap_extents", }
+,{"id":"bmask", "file":"arch/x86/boot/vesa.h", "line":59, "type":"m", "scope_line":34, "scope_name":"struct vesa_mode_info", }
+,{"id":"bmdma_addr", "file":"include/linux/libata.h", "line":519, "type":"m", "scope_line":504, "scope_name":"struct ata_ioports", }
+,{"id":"bmdma_prd", "file":"include/linux/libata.h", "line":730, "type":"m", "scope_line":711, "scope_name":"struct ata_port", }
+,{"id":"bmdma_prd_dma", "file":"include/linux/libata.h", "line":731, "type":"m", "scope_line":711, "scope_name":"struct ata_port", }
+,{"id":"bmdma_setup", "file":"include/linux/libata.h", "line":868, "type":"m", "scope_line":793, "scope_name":"struct ata_port_operations", }
+,{"id":"bmdma_start", "file":"include/linux/libata.h", "line":869, "type":"m", "scope_line":793, "scope_name":"struct ata_port_operations", }
+,{"id":"bmdma_status", "file":"include/linux/libata.h", "line":871, "type":"m", "scope_line":793, "scope_name":"struct ata_port_operations", }
+,{"id":"bmdma_stop", "file":"include/linux/libata.h", "line":870, "type":"m", "scope_line":793, "scope_name":"struct ata_port_operations", }
+,{"id":"bmisx", "file":"include/acpi/processor.h", "line":223, "type":"m", "scope_line":217, "scope_name":"struct acpi_processor_errata", }
+,{"id":"board_added", "file":"drivers/pci/hotplug/pciehp_ctrl.c", "line":194, "type":"f", }
+,{"id":"board_added", "file":"drivers/pci/hotplug/pciehp_ctrl.c", "line":511, "type":"c", "scope_line":480, "scope_name":"pciehp_enable_slot", }
+,{"id":"board_ahci", "file":"drivers/ata/ahci.c", "line":60, "type":"e", "scope_line":58, "scope_name":"board_ids", }
+,{"id":"board_ahci_ign_iferr", "file":"drivers/ata/ahci.c", "line":61, "type":"e", "scope_line":58, "scope_name":"board_ids", }
+,{"id":"board_ahci_mcp65", "file":"drivers/ata/ahci.c", "line":66, "type":"e", "scope_line":58, "scope_name":"board_ids", }
+,{"id":"board_ahci_mcp67", "file":"drivers/ata/ahci.c", "line":76, "type":"e", "scope_line":58, "scope_name":"board_ids", }
+,{"id":"board_ahci_mcp73", "file":"drivers/ata/ahci.c", "line":77, "type":"e", "scope_line":58, "scope_name":"board_ids", }
+,{"id":"board_ahci_mcp77", "file":"drivers/ata/ahci.c", "line":67, "type":"e", "scope_line":58, "scope_name":"board_ids", }
+,{"id":"board_ahci_mcp79", "file":"drivers/ata/ahci.c", "line":78, "type":"e", "scope_line":58, "scope_name":"board_ids", }
+,{"id":"board_ahci_mcp89", "file":"drivers/ata/ahci.c", "line":68, "type":"e", "scope_line":58, "scope_name":"board_ids", }
+,];
+xr_frag_insert('t/15/176bea88a1085af9f759cea66c90d6e73eeb1b.xr', __xr_tmp);

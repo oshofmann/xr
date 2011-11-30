@@ -1,0 +1,93 @@
+var __xr_tmp = [
+{"id":"pipe_write_fasync", "file":"fs/pipe.c", "line":741, "type":"f", }
+,{"id":"pipe_write_open", "file":"fs/pipe.c", "line":813, "type":"f", }
+,{"id":"pipe_write_release", "file":"fs/pipe.c", "line":780, "type":"f", }
+,{"id":"pipefs", "file":"include/linux/sunrpc/cache.h", "line":117, "type":"m", "scope_line":71, "scope_name":"struct cache_detail", }
+,{"id":"pipefs_dentry_operations", "file":"fs/pipe.c", "line":945, "type":"v", }
+,{"id":"pipefs_dname", "file":"fs/pipe.c", "line":939, "type":"f", }
+,{"id":"pipefs_get_sb", "file":"fs/pipe.c", "line":1248, "type":"f", }
+,{"id":"pipelined_receive", "file":"ipc/mqueue.c", "line":822, "type":"f", }
+,{"id":"pipelined_receive", "file":"ipc/mqueue.c", "line":998, "type":"c", "scope_line":933, "scope_name":"sys_mq_timedreceive", }
+,{"id":"pipelined_send", "file":"ipc/mqueue.c", "line":808, "type":"f", }
+,{"id":"pipelined_send", "file":"ipc/mqueue.c", "line":916, "type":"c", "scope_line":839, "scope_name":"sys_mq_timedsend", }
+,{"id":"pipelined_send", "file":"ipc/msg.c", "line":600, "type":"f", }
+,{"id":"pipelined_send", "file":"ipc/msg.c", "line":706, "type":"c", "scope_line":635, "scope_name":"do_msgsnd", }
+,{"id":"pirq", "file":"drivers/xen/events.c", "line":93, "type":"m", "scope_line":81, "scope_name":"struct irq_info", }
+,{"id":"pirq", "file":"include/xen/interface/event_channel.h", "line":148, "type":"m", "scope_line":127, "scope_name":"struct evtchn_status", }
+,{"id":"pirq", "file":"include/xen/interface/event_channel.h", "line":77, "type":"m", "scope_line":75, "scope_name":"struct evtchn_bind_pirq", }
+,{"id":"pirq_440gx", "file":"arch/x86/pci/irq.c", "line":542, "type":"v", }
+,{"id":"pirq_ali_get", "file":"arch/x86/pci/irq.c", "line":202, "type":"f", }
+,{"id":"pirq_ali_set", "file":"arch/x86/pci/irq.c", "line":210, "type":"f", }
+,{"id":"pirq_amd756_get", "file":"arch/x86/pci/irq.c", "line":487, "type":"f", }
+,{"id":"pirq_amd756_set", "file":"arch/x86/pci/irq.c", "line":499, "type":"f", }
+,{"id":"pirq_check_routing_table", "file":"arch/x86/pci/irq.c", "line":104, "type":"c", "scope_line":92, "scope_name":"pirq_find_routing_table", }
+,{"id":"pirq_check_routing_table", "file":"arch/x86/pci/irq.c", "line":63, "type":"f", }
+,{"id":"pirq_check_routing_table", "file":"arch/x86/pci/irq.c", "line":98, "type":"c", "scope_line":92, "scope_name":"pirq_find_routing_table", }
+,{"id":"pirq_cyrix_get", "file":"arch/x86/pci/irq.c", "line":321, "type":"f", }
+,{"id":"pirq_cyrix_set", "file":"arch/x86/pci/irq.c", "line":326, "type":"f", }
+,{"id":"pirq_enable_irq", "file":"arch/x86/pci/irq.c", "line":1162, "type":"c", "scope_line":1119, "scope_name":"pcibios_irq_init", }
+,{"id":"pirq_enable_irq", "file":"arch/x86/pci/irq.c", "line":1190, "type":"f", }
+,{"id":"pirq_find_router", "file":"arch/x86/pci/irq.c", "line":1136, "type":"c", "scope_line":1119, "scope_name":"pcibios_irq_init", }
+,{"id":"pirq_find_router", "file":"arch/x86/pci/irq.c", "line":820, "type":"f", }
+,{"id":"pirq_find_routing_table", "file":"arch/x86/pci/irq.c", "line":1128, "type":"c", "scope_line":1119, "scope_name":"pcibios_irq_init", }
+,{"id":"pirq_find_routing_table", "file":"arch/x86/pci/irq.c", "line":92, "type":"f", }
+,{"id":"pirq_get_info", "file":"arch/x86/pci/irq.c", "line":866, "type":"f", }
+,{"id":"pirq_get_info", "file":"arch/x86/pci/irq.c", "line":906, "type":"c", "scope_line":880, "scope_name":"pcibios_lookup_irq", }
+,{"id":"pirq_get_info", "file":"arch/x86/pci/irq.c", "line":997, "type":"c", "scope_line":880, "scope_name":"pcibios_lookup_irq", }
+,{"id":"pirq_ite_get", "file":"arch/x86/pci/irq.c", "line":284, "type":"f", }
+,{"id":"pirq_ite_set", "file":"arch/x86/pci/irq.c", "line":292, "type":"f", }
+,{"id":"pirq_opti_get", "file":"arch/x86/pci/irq.c", "line":305, "type":"f", }
+,{"id":"pirq_opti_set", "file":"arch/x86/pci/irq.c", "line":310, "type":"f", }
+,{"id":"pirq_peer_trick", "file":"arch/x86/pci/irq.c", "line":1135, "type":"c", "scope_line":1119, "scope_name":"pcibios_irq_init", }
+,{"id":"pirq_peer_trick", "file":"arch/x86/pci/irq.c", "line":117, "type":"f", }
+,{"id":"pirq_penalize_isa_irq", "file":"arch/x86/pci/irq.c", "line":1166, "type":"f", }
+,{"id":"pirq_penalize_isa_irq", "file":"arch/x86/pci/irq.c", "line":1187, "type":"c", "scope_line":1180, "scope_name":"pcibios_penalize_isa_irq", }
+,{"id":"pirq_penalty", "file":"arch/x86/pci/irq.c", "line":37, "type":"v", }
+,{"id":"pirq_pico_get", "file":"arch/x86/pci/irq.c", "line":512, "type":"f", }
+,{"id":"pirq_pico_set", "file":"arch/x86/pci/irq.c", "line":518, "type":"f", }
+,{"id":"pirq_piix_get", "file":"arch/x86/pci/irq.c", "line":227, "type":"f", }
+,{"id":"pirq_piix_set", "file":"arch/x86/pci/irq.c", "line":235, "type":"f", }
+,{"id":"pirq_router", "file":"arch/x86/pci/irq.c", "line":811, "type":"v", }
+,{"id":"pirq_router_dev", "file":"arch/x86/pci/irq.c", "line":812, "type":"v", }
+,{"id":"pirq_routers", "file":"arch/x86/pci/irq.c", "line":796, "type":"v", }
+,{"id":"pirq_serverworks_get", "file":"arch/x86/pci/irq.c", "line":465, "type":"f", }
+,{"id":"pirq_serverworks_set", "file":"arch/x86/pci/irq.c", "line":471, "type":"f", }
+,{"id":"pirq_sis_get", "file":"arch/x86/pci/irq.c", "line":397, "type":"f", }
+,{"id":"pirq_sis_set", "file":"arch/x86/pci/irq.c", "line":409, "type":"f", }
+,{"id":"pirq_table", "file":"arch/x86/pci/irq.c", "line":26, "type":"v", }
+,{"id":"pirq_table_addr", "file":"arch/x86/include/asm/pci_x86.h", "line":36, "type":"v", }
+,{"id":"pirq_via586_get", "file":"arch/x86/pci/irq.c", "line":262, "type":"f", }
+,{"id":"pirq_via586_set", "file":"arch/x86/pci/irq.c", "line":270, "type":"f", }
+,{"id":"pirq_via_get", "file":"arch/x86/pci/irq.c", "line":246, "type":"f", }
+,{"id":"pirq_via_set", "file":"arch/x86/pci/irq.c", "line":251, "type":"f", }
+,{"id":"pirq_vlsi_get", "file":"arch/x86/pci/irq.c", "line":433, "type":"f", }
+,{"id":"pirq_vlsi_set", "file":"arch/x86/pci/irq.c", "line":443, "type":"f", }
+,{"id":"pirqmap", "file":"arch/x86/pci/irq.c", "line":264, "type":"v", }
+,{"id":"pirqmap___0", "file":"arch/x86/pci/irq.c", "line":272, "type":"v", }
+,{"id":"pirqmap___1", "file":"arch/x86/pci/irq.c", "line":286, "type":"v", }
+,{"id":"pirqmap___2", "file":"arch/x86/pci/irq.c", "line":294, "type":"v", }
+,{"id":"pit_calibrate_tsc", "file":"arch/x86/kernel/tsc.c", "line":193, "type":"f", }
+,{"id":"pit_calibrate_tsc", "file":"arch/x86/kernel/tsc.c", "line":455, "type":"c", "scope_line":401, "scope_name":"native_calibrate_tsc", }
+,{"id":"pit_ce", "file":"arch/x86/kernel/i8253.c", "line":91, "type":"v", }
+,{"id":"pit_expect_msb", "file":"arch/x86/kernel/tsc.c", "line":287, "type":"f", }
+,{"id":"pit_expect_msb", "file":"arch/x86/kernel/tsc.c", "line":348, "type":"c", "scope_line":316, "scope_name":"quick_pit_calibrate", }
+,{"id":"pit_expect_msb", "file":"arch/x86/kernel/tsc.c", "line":350, "type":"c", "scope_line":316, "scope_name":"quick_pit_calibrate", }
+,{"id":"pit_next_event", "file":"arch/x86/kernel/i8253.c", "line":73, "type":"f", }
+,{"id":"pit_verify_msb", "file":"arch/x86/kernel/tsc.c", "line":280, "type":"f", }
+,{"id":"pit_verify_msb", "file":"arch/x86/kernel/tsc.c", "line":293, "type":"c", "scope_line":287, "scope_name":"pit_expect_msb", }
+,{"id":"pit_verify_msb", "file":"arch/x86/kernel/tsc.c", "line":346, "type":"c", "scope_line":316, "scope_name":"quick_pit_calibrate", }
+,{"id":"pit_verify_msb", "file":"arch/x86/kernel/tsc.c", "line":367, "type":"c", "scope_line":316, "scope_name":"quick_pit_calibrate", }
+,{"id":"pitch", "file":"drivers/video/imsttfb.c", "line":309, "type":"m", "scope_line":308, "scope_name":"struct imstt_regvals", }
+,{"id":"pix", "file":"include/linux/videodev2.h", "line":1622, "type":"m", "scope_line":1619, "scope_name":"struct v4l2_format", }
+,{"id":"pixclock", "file":"drivers/video/fbcvt.c", "line":40, "type":"m", "scope_line":35, "scope_name":"struct fb_cvt_data", }
+,{"id":"pixclock", "file":"include/linux/fb.h", "line":1132, "type":"m", "scope_line":1127, "scope_name":"struct fb_videomode", }
+,{"id":"pixclock", "file":"include/linux/fb.h", "line":264, "type":"m", "scope_line":238, "scope_name":"struct fb_var_screeninfo", }
+,{"id":"pixel_format", "file":"include/linux/videodev2.h", "line":409, "type":"m", "scope_line":407, "scope_name":"struct v4l2_frmsizeenum", }
+,{"id":"pixel_format", "file":"include/linux/videodev2.h", "line":437, "type":"m", "scope_line":435, "scope_name":"struct v4l2_frmivalenum", }
+,{"id":"pixel_to_pat", "file":"drivers/video/cfbfillrect.c", "line":296, "type":"c", "scope_line":278, "scope_name":"cfb_fillrect", }
+,{"id":"pixel_to_pat", "file":"drivers/video/fb_draw.h", "line":23, "type":"f", }
+,{"id":"pixelaspect", "file":"include/linux/videodev2.h", "line":627, "type":"m", "scope_line":623, "scope_name":"struct v4l2_cropcap", }
+,{"id":"pixelclock", "file":"include/linux/videodev2.h", "line":790, "type":"m", "scope_line":785, "scope_name":"struct v4l2_bt_timings", }
+,{"id":"pixelformat", "file":"include/linux/videodev2.h", "line":263, "type":"m", "scope_line":260, "scope_name":"struct v4l2_pix_format", }
+,];
+xr_frag_insert('t/db/6402cf091e437b4416929f70cb9b5e3fddef28.xr', __xr_tmp);

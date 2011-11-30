@@ -1,0 +1,201 @@
+var __xr_tmp = [
+{"id":"ide_requeue_and_plug", "file":"drivers/ide/ide-io.c", "line":569, "type":"f", }
+,{"id":"ide_requeue_and_plug", "file":"drivers/ide/ide-io.c", "line":702, "type":"c", "scope_line":621, "scope_name":"ide_timer_expiry", }
+,{"id":"ide_requeue_and_plug", "file":"drivers/ide/ide-io.c", "line":880, "type":"c", "scope_line":778, "scope_name":"ide_intr", }
+,{"id":"ide_reset_report_error", "file":"drivers/ide/ide-eh.c", "line":197, "type":"f", }
+,{"id":"ide_reset_report_error", "file":"drivers/ide/ide-eh.c", "line":257, "type":"c", "scope_line":222, "scope_name":"reset_pollfunc", }
+,{"id":"ide_scsi", "file":"include/linux/ide.h", "line":204, "type":"d", }
+,{"id":"ide_set_dev_param_mask", "file":"drivers/ide/ide.c", "line":180, "type":"f", }
+,{"id":"ide_set_disk_chs", "file":"drivers/ide/ide.c", "line":248, "type":"f", }
+,{"id":"ide_set_dma", "file":"drivers/ide/ide-pm.c", "line":158, "type":"c", "scope_line":111, "scope_name":"ide_start_power_step", }
+,{"id":"ide_set_dma", "file":"drivers/ide/ide-probe.c", "line":740, "type":"c", "scope_line":721, "scope_name":"ide_port_tune_devices", }
+,{"id":"ide_set_dma", "file":"include/linux/ide.h", "line":1396, "type":"f", }
+,{"id":"ide_set_drivedata", "file":"include/linux/ide.h", "line":1543, "type":"f", }
+,{"id":"ide_set_handler", "file":"drivers/ide/ide-eh.c", "line":180, "type":"c", "scope_line":166, "scope_name":"atapi_reset_pollfunc", }
+,{"id":"ide_set_handler", "file":"drivers/ide/ide-eh.c", "line":242, "type":"c", "scope_line":222, "scope_name":"reset_pollfunc", }
+,{"id":"ide_set_handler", "file":"drivers/ide/ide-iops.c", "line":456, "type":"f", }
+,{"id":"ide_set_handler", "file":"drivers/ide/ide-taskfile.c", "line":173, "type":"c", "scope_line":147, "scope_name":"task_no_data_intr", }
+,{"id":"ide_set_handler", "file":"drivers/ide/ide-taskfile.c", "line":390, "type":"c", "scope_line":344, "scope_name":"task_pio_intr", }
+,{"id":"ide_set_handler", "file":"drivers/ide/ide-taskfile.c", "line":419, "type":"c", "scope_line":403, "scope_name":"pre_task_out_intr", }
+,{"id":"ide_set_hwifdata", "file":"include/linux/ide.h", "line":1453, "type":"f", }
+,{"id":"ide_set_ignore_cable", "file":"drivers/ide/ide.c", "line":332, "type":"f", }
+,{"id":"ide_set_max_pio", "file":"drivers/ide/ide-pm.c", "line":135, "type":"c", "scope_line":111, "scope_name":"ide_start_power_step", }
+,{"id":"ide_set_max_pio", "file":"drivers/ide/ide-probe.c", "line":735, "type":"c", "scope_line":721, "scope_name":"ide_port_tune_devices", }
+,{"id":"ide_set_max_pio", "file":"include/linux/ide.h", "line":1510, "type":"f", }
+,{"id":"ide_set_nice_ioctl", "file":"drivers/ide/ide-ioctls.c", "line":253, "type":"c", "scope_line":233, "scope_name":"generic_ide_ioctl", }
+,{"id":"ide_set_nice_ioctl", "file":"drivers/ide/ide-ioctls.c", "line":94, "type":"f", }
+,{"id":"ide_set_pio", "file":"drivers/ide/ide-devsets.c", "line":123, "type":"c", "scope_line":96, "scope_name":"set_pio_mode", }
+,{"id":"ide_set_pio", "file":"include/linux/ide.h", "line":1506, "type":"f", }
+,{"id":"ide_set_pio", "file":"include/linux/ide.h", "line":1512, "type":"c", "scope_line":1510, "scope_name":"ide_set_max_pio", }
+,{"id":"ide_set_xfer_rate", "file":"drivers/ide/ide-taskfile.c", "line":334, "type":"c", "scope_line":324, "scope_name":"ide_finish_cmd", }
+,{"id":"ide_set_xfer_rate", "file":"include/linux/ide.h", "line":1507, "type":"f", }
+,{"id":"ide_setting_ioctl", "file":"drivers/ide/ide-ioctls.c", "line":18, "type":"f", }
+,{"id":"ide_setting_ioctl", "file":"drivers/ide/ide-ioctls.c", "line":238, "type":"c", "scope_line":233, "scope_name":"generic_ide_ioctl", }
+,{"id":"ide_setting_mtx", "file":"drivers/ide/ide-devsets.c", "line":6, "type":"v", }
+,{"id":"ide_special_rq", "file":"drivers/ide/ide-io.c", "line":280, "type":"f", }
+,{"id":"ide_special_rq", "file":"drivers/ide/ide-io.c", "line":365, "type":"c", "scope_line":306, "scope_name":"start_request", }
+,{"id":"ide_stall_queue", "file":"drivers/ide/ide-io.c", "line":386, "type":"f", }
+,{"id":"ide_start_power_step", "file":"drivers/ide/ide-io.c", "line":351, "type":"c", "scope_line":306, "scope_name":"start_request", }
+,{"id":"ide_start_power_step", "file":"drivers/ide/ide-pm.c", "line":111, "type":"f", }
+,{"id":"ide_started", "file":"include/linux/ide.h", "line":225, "type":"e", "scope_line":223, }
+,{"id":"ide_startstop_t", "file":"include/linux/ide.h", "line":223, "type":"t", }
+,{"id":"ide_std_init_ports", "file":"include/linux/ide.h", "line":186, "type":"f", }
+,{"id":"ide_stopped", "file":"include/linux/ide.h", "line":224, "type":"e", "scope_line":223, }
+,{"id":"ide_sysfs_register_port", "file":"drivers/ide/ide-probe.c", "line":1451, "type":"c", "scope_line":1368, "scope_name":"ide_host_register", }
+,{"id":"ide_sysfs_register_port", "file":"drivers/ide/ide-sysfs.c", "line":114, "type":"f", }
+,{"id":"ide_tape", "file":"include/linux/ide.h", "line":208, "type":"d", }
+,{"id":"ide_task_ioctl", "file":"drivers/ide/ide-ioctls.c", "line":191, "type":"f", }
+,{"id":"ide_task_ioctl", "file":"drivers/ide/ide-ioctls.c", "line":269, "type":"c", "scope_line":233, "scope_name":"generic_ide_ioctl", }
+,{"id":"ide_task_request_s", "file":"include/linux/hdreg.h", "line":59, "type":"s", }
+,{"id":"ide_task_request_t", "file":"include/linux/hdreg.h", "line":59, "type":"t", }
+,{"id":"ide_taskfile", "file":"include/linux/ide.h", "line":271, "type":"s", }
+,{"id":"ide_tf_dump", "file":"drivers/ide/ide-io.c", "line":100, "type":"c", "scope_line":74, "scope_name":"ide_complete_cmd", }
+,{"id":"ide_tf_dump", "file":"drivers/ide/ide-taskfile.c", "line":43, "type":"f", }
+,{"id":"ide_tf_dump", "file":"drivers/ide/ide-taskfile.c", "line":99, "type":"c", "scope_line":77, "scope_name":"do_rw_taskfile", }
+,{"id":"ide_tf_load", "file":"drivers/ide/ide-io-std.c", "line":88, "type":"f", }
+,{"id":"ide_tf_read", "file":"drivers/ide/ide-io-std.c", "line":115, "type":"f", }
+,{"id":"ide_tf_readback", "file":"drivers/ide/ide-io.c", "line":93, "type":"c", "scope_line":74, "scope_name":"ide_complete_cmd", }
+,{"id":"ide_tf_readback", "file":"drivers/ide/ide-lib.c", "line":64, "type":"c", "scope_line":50, "scope_name":"ide_dump_sector", }
+,{"id":"ide_tf_readback", "file":"drivers/ide/ide-taskfile.c", "line":26, "type":"f", }
+,{"id":"ide_tf_set_restore_cmd", "file":"drivers/ide/ide-io.c", "line":165, "type":"f", }
+,{"id":"ide_tf_set_restore_cmd", "file":"drivers/ide/ide-io.c", "line":207, "type":"c", "scope_line":185, "scope_name":"do_special", }
+,{"id":"ide_tf_set_setmult_cmd", "file":"drivers/ide/ide-io.c", "line":171, "type":"f", }
+,{"id":"ide_tf_set_setmult_cmd", "file":"drivers/ide/ide-io.c", "line":210, "type":"c", "scope_line":185, "scope_name":"do_special", }
+,{"id":"ide_tf_set_specify_cmd", "file":"drivers/ide/ide-io.c", "line":155, "type":"f", }
+,{"id":"ide_tf_set_specify_cmd", "file":"drivers/ide/ide-io.c", "line":204, "type":"c", "scope_line":185, "scope_name":"do_special", }
+,{"id":"ide_timer_expiry", "file":"drivers/ide/ide-io.c", "line":621, "type":"f", }
+,{"id":"ide_timing", "file":"include/linux/ide.h", "line":1463, "type":"s", }
+,{"id":"ide_toggle_bounce", "file":"drivers/ide/ide-lib.c", "line":17, "type":"f", }
+,{"id":"ide_toggle_bounce", "file":"drivers/ide/ide-probe.c", "line":793, "type":"c", "scope_line":747, "scope_name":"ide_init_queue", }
+,{"id":"ide_tp_ops", "file":"include/linux/ide.h", "line":589, "type":"s", }
+,{"id":"ide_uevent", "file":"drivers/ide/ide.c", "line":116, "type":"f", }
+,{"id":"ide_umc8672", "file":"include/linux/ide.h", "line":165, "type":"e", "scope_line":163, }
+,{"id":"ide_undecoded_slave", "file":"drivers/ide/ide-probe.c", "line":649, "type":"f", }
+,{"id":"ide_unknown", "file":"include/linux/ide.h", "line":163, "type":"e", "scope_line":163, }
+,{"id":"ide_unlock_host", "file":"drivers/ide/ide-io.c", "line":424, "type":"f", }
+,{"id":"ide_unlock_host", "file":"drivers/ide/ide-io.c", "line":553, "type":"c", "scope_line":436, "scope_name":"do_ide_request", }
+,{"id":"ide_unlock_host", "file":"drivers/ide/ide-io.c", "line":559, "type":"c", "scope_line":436, "scope_name":"do_ide_request", }
+,{"id":"ide_unlock_host", "file":"drivers/ide/ide-io.c", "line":701, "type":"c", "scope_line":621, "scope_name":"ide_timer_expiry", }
+,{"id":"ide_unlock_host", "file":"drivers/ide/ide-io.c", "line":879, "type":"c", "scope_line":778, "scope_name":"ide_intr", }
+,{"id":"ide_unlock_port", "file":"drivers/ide/ide-io.c", "line":405, "type":"f", }
+,{"id":"ide_unlock_port", "file":"drivers/ide/ide-io.c", "line":475, "type":"c", "scope_line":436, "scope_name":"do_ide_request", }
+,{"id":"ide_unlock_port", "file":"drivers/ide/ide-io.c", "line":512, "type":"c", "scope_line":436, "scope_name":"do_ide_request", }
+,{"id":"ide_unlock_port", "file":"drivers/ide/ide-io.c", "line":533, "type":"c", "scope_line":436, "scope_name":"do_ide_request", }
+,{"id":"ide_unlock_port", "file":"drivers/ide/ide-io.c", "line":694, "type":"c", "scope_line":621, "scope_name":"ide_timer_expiry", }
+,{"id":"ide_unlock_port", "file":"drivers/ide/ide-io.c", "line":871, "type":"c", "scope_line":778, "scope_name":"ide_intr", }
+,{"id":"ide_unregister", "file":"drivers/ide/ide-probe.c", "line":1522, "type":"f", }
+,{"id":"ide_unregister", "file":"drivers/ide/ide-probe.c", "line":1575, "type":"c", "scope_line":1568, "scope_name":"ide_host_remove", }
+,{"id":"ide_unregister_region", "file":"drivers/ide/ide-probe.c", "line":927, "type":"f", }
+,{"id":"ide_vlb_clk", "file":"include/linux/ide.h", "line":1047, "type":"v", }
+,{"id":"ide_wait_not_busy", "file":"drivers/ide/ide-iops.c", "line":507, "type":"f", }
+,{"id":"ide_wait_not_busy", "file":"drivers/ide/ide-pm.c", "line":235, "type":"c", "scope_line":209, "scope_name":"ide_check_pm_state", }
+,{"id":"ide_wait_not_busy", "file":"drivers/ide/ide-pm.c", "line":240, "type":"c", "scope_line":209, "scope_name":"ide_check_pm_state", }
+,{"id":"ide_wait_not_busy", "file":"drivers/ide/ide-probe.c", "line":613, "type":"c", "scope_line":597, "scope_name":"ide_port_wait_ready", }
+,{"id":"ide_wait_not_busy", "file":"drivers/ide/ide-probe.c", "line":625, "type":"c", "scope_line":597, "scope_name":"ide_port_wait_ready", }
+,{"id":"ide_wait_stat", "file":"drivers/ide/ide-io.c", "line":327, "type":"c", "scope_line":306, "scope_name":"start_request", }
+,{"id":"ide_wait_stat", "file":"drivers/ide/ide-iops.c", "line":164, "type":"f", }
+,{"id":"ide_wait_stat", "file":"drivers/ide/ide-taskfile.c", "line":408, "type":"c", "scope_line":403, "scope_name":"pre_task_out_intr", }
+,{"id":"ide_write_devctl", "file":"drivers/ide/ide-io-std.c", "line":67, "type":"f", }
+,{"id":"ident", "file":"include/linux/mod_devicetable.h", "line":453, "type":"m", "scope_line":451, "scope_name":"struct dmi_system_id", }
+,{"id":"ident", "file":"include/linux/rtnetlink.h", "line":399, "type":"m", "scope_line":385, "scope_name":"struct rta_session", }
+,{"id":"ident", "file":"include/linux/sunrpc/xprt.h", "line":251, "type":"m", "scope_line":250, "scope_name":"struct xprt_create", }
+,{"id":"ident", "file":"include/linux/sunrpc/xprt.h", "line":260, "type":"m", "scope_line":258, "scope_name":"struct xprt_class", }
+,{"id":"ident", "file":"include/linux/videodev2.h", "line":1706, "type":"m", "scope_line":1704, "scope_name":"struct v4l2_dbg_chip_ident", }
+,{"id":"ident_map", "file":"kernel/exec_domain.c", "line":30, "type":"v", }
+,{"id":"identification", "file":"include/net/ipv6.h", "line":99, "type":"m", "scope_line":95, "scope_name":"struct frag_hdr", }
+,{"id":"identifier", "file":"include/acpi/actbl2.h", "line":824, "type":"m", "scope_line":822, "scope_name":"struct acpi_table_uefi", }
+,{"id":"identifier", "file":"include/linux/icmpv6.h", "line":20, "type":"m", "scope_line":7, "scope_name":"struct icmpv6_echo", }
+,{"id":"identify_boot_cpu", "file":"arch/x86/kernel/cpu/bugs_64.c", "line":16, "type":"c", "scope_line":14, "scope_name":"check_bugs", }
+,{"id":"identify_boot_cpu", "file":"arch/x86/kernel/cpu/common.c", "line":882, "type":"f", }
+,{"id":"identify_cpu", "file":"arch/x86/kernel/cpu/common.c", "line":759, "type":"f", }
+,{"id":"identify_cpu", "file":"arch/x86/kernel/cpu/common.c", "line":884, "type":"c", "scope_line":882, "scope_name":"identify_boot_cpu", }
+,{"id":"identify_cpu", "file":"arch/x86/kernel/cpu/common.c", "line":898, "type":"c", "scope_line":895, "scope_name":"identify_secondary_cpu", }
+,{"id":"identify_cpu_without_cpuid", "file":"arch/x86/kernel/cpu/common.c", "line":600, "type":"f", }
+,{"id":"identify_cpu_without_cpuid", "file":"arch/x86/kernel/cpu/common.c", "line":652, "type":"c", "scope_line":635, "scope_name":"early_identify_cpu", }
+,{"id":"identify_cpu_without_cpuid", "file":"arch/x86/kernel/cpu/common.c", "line":724, "type":"c", "scope_line":719, "scope_name":"generic_identify", }
+,{"id":"identify_ramdisk_image", "file":"init/do_mounts_rd.c", "line":179, "type":"c", "scope_line":158, "scope_name":"rd_load_image", }
+,{"id":"identify_ramdisk_image", "file":"init/do_mounts_rd.c", "line":52, "type":"f", }
+,{"id":"identify_secondary_cpu", "file":"arch/x86/kernel/cpu/common.c", "line":895, "type":"f", }
+,{"id":"identify_secondary_cpu", "file":"arch/x86/kernel/smpboot.c", "line":397, "type":"c", "scope_line":390, "scope_name":"smp_store_cpu_info", }
+,{"id":"identity", "file":"include/linux/watchdog.h", "line":20, "type":"m", "scope_line":17, "scope_name":"struct watchdog_info", }
+,{"id":"identity_tag", "file":"include/linux/edd.h", "line":148, "type":"m", "scope_line":71, "scope_name":"struct edd_device_params", }
+,{"id":"idev", "file":"include/net/if_inet6.h", "line":115, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"idev", "file":"include/net/if_inet6.h", "line":64, "type":"m", "scope_line":42, "scope_name":"struct inet6_ifaddr", }
+,{"id":"idev", "file":"include/net/route.h", "line":58, "type":"m", "scope_line":52, "scope_name":"struct rtable", }
+,{"id":"idev", "file":"net/ipv4/igmp.c", "line":2504, "type":"m", "scope_line":2501, "scope_name":"struct igmp_mcf_iter_state", }
+,{"id":"idev", "file":"net/ipv6/anycast.c", "line":417, "type":"m", "scope_line":414, "scope_name":"struct ac6_iter_state", }
+,{"id":"idev", "file":"net/ipv6/mcast.c", "line":2306, "type":"m", "scope_line":2303, "scope_name":"struct igmp6_mc_iter_state", }
+,{"id":"idev", "file":"net/ipv6/mcast.c", "line":2433, "type":"m", "scope_line":2430, "scope_name":"struct igmp6_mcf_iter_state", }
+,{"id":"idiag_cookie", "file":"include/linux/inet_diag.h", "line":19, "type":"m", "scope_line":13, "scope_name":"struct inet_diag_sockid", }
+,{"id":"idiag_dbs", "file":"include/linux/inet_diag.h", "line":34, "type":"m", "scope_line":25, "scope_name":"struct inet_diag_req", }
+,{"id":"idiag_dport", "file":"include/linux/inet_diag.h", "line":15, "type":"m", "scope_line":13, "scope_name":"struct inet_diag_sockid", }
+,{"id":"idiag_dst", "file":"include/linux/inet_diag.h", "line":17, "type":"m", "scope_line":13, "scope_name":"struct inet_diag_sockid", }
+,{"id":"idiag_dst_len", "file":"include/linux/inet_diag.h", "line":28, "type":"m", "scope_line":25, "scope_name":"struct inet_diag_req", }
+,{"id":"idiag_expires", "file":"include/linux/inet_diag.h", "line":85, "type":"m", "scope_line":77, "scope_name":"struct inet_diag_msg", }
+,{"id":"idiag_ext", "file":"include/linux/inet_diag.h", "line":29, "type":"m", "scope_line":25, "scope_name":"struct inet_diag_req", }
+,{"id":"idiag_family", "file":"include/linux/inet_diag.h", "line":26, "type":"m", "scope_line":25, "scope_name":"struct inet_diag_req", }
+,{"id":"idiag_family", "file":"include/linux/inet_diag.h", "line":78, "type":"m", "scope_line":77, "scope_name":"struct inet_diag_msg", }
+,{"id":"idiag_fmem", "file":"include/linux/inet_diag.h", "line":110, "type":"m", "scope_line":107, "scope_name":"struct inet_diag_meminfo", }
+,{"id":"idiag_get_info", "file":"include/linux/inet_diag.h", "line":129, "type":"m", "scope_line":127, "scope_name":"struct inet_diag_handler", }
+,{"id":"idiag_hashinfo", "file":"include/linux/inet_diag.h", "line":128, "type":"m", "scope_line":127, "scope_name":"struct inet_diag_handler", }
+,{"id":"idiag_if", "file":"include/linux/inet_diag.h", "line":18, "type":"m", "scope_line":13, "scope_name":"struct inet_diag_sockid", }
+,{"id":"idiag_info_size", "file":"include/linux/inet_diag.h", "line":132, "type":"m", "scope_line":127, "scope_name":"struct inet_diag_handler", }
+,{"id":"idiag_inode", "file":"include/linux/inet_diag.h", "line":89, "type":"m", "scope_line":77, "scope_name":"struct inet_diag_msg", }
+,{"id":"idiag_retrans", "file":"include/linux/inet_diag.h", "line":81, "type":"m", "scope_line":77, "scope_name":"struct inet_diag_msg", }
+,{"id":"idiag_rmem", "file":"include/linux/inet_diag.h", "line":108, "type":"m", "scope_line":107, "scope_name":"struct inet_diag_meminfo", }
+,{"id":"idiag_rqueue", "file":"include/linux/inet_diag.h", "line":86, "type":"m", "scope_line":77, "scope_name":"struct inet_diag_msg", }
+,{"id":"idiag_sport", "file":"include/linux/inet_diag.h", "line":14, "type":"m", "scope_line":13, "scope_name":"struct inet_diag_sockid", }
+,{"id":"idiag_src", "file":"include/linux/inet_diag.h", "line":16, "type":"m", "scope_line":13, "scope_name":"struct inet_diag_sockid", }
+,{"id":"idiag_src_len", "file":"include/linux/inet_diag.h", "line":27, "type":"m", "scope_line":25, "scope_name":"struct inet_diag_req", }
+,{"id":"idiag_state", "file":"include/linux/inet_diag.h", "line":79, "type":"m", "scope_line":77, "scope_name":"struct inet_diag_msg", }
+,{"id":"idiag_states", "file":"include/linux/inet_diag.h", "line":33, "type":"m", "scope_line":25, "scope_name":"struct inet_diag_req", }
+,{"id":"idiag_timer", "file":"include/linux/inet_diag.h", "line":80, "type":"m", "scope_line":77, "scope_name":"struct inet_diag_msg", }
+,{"id":"idiag_tmem", "file":"include/linux/inet_diag.h", "line":111, "type":"m", "scope_line":107, "scope_name":"struct inet_diag_meminfo", }
+,{"id":"idiag_type", "file":"include/linux/inet_diag.h", "line":133, "type":"m", "scope_line":127, "scope_name":"struct inet_diag_handler", }
+,{"id":"idiag_uid", "file":"include/linux/inet_diag.h", "line":88, "type":"m", "scope_line":77, "scope_name":"struct inet_diag_msg", }
+,{"id":"idiag_wmem", "file":"include/linux/inet_diag.h", "line":109, "type":"m", "scope_line":107, "scope_name":"struct inet_diag_meminfo", }
+,{"id":"idiag_wqueue", "file":"include/linux/inet_diag.h", "line":87, "type":"m", "scope_line":77, "scope_name":"struct inet_diag_msg", }
+,{"id":"idiagnl", "file":"net/ipv4/inet_diag.c", "line":48, "type":"v", }
+,{"id":"idle", "file":"arch/x86/kernel/smpboot.c", "line":695, "type":"m", "scope_line":693, "scope_name":"struct create_idle", }
+,{"id":"idle", "file":"include/linux/ax25.h", "line":103, "type":"m", "scope_line":98, "scope_name":"struct ax25_info_struct", }
+,{"id":"idle", "file":"include/linux/ax25.h", "line":93, "type":"m", "scope_line":88, "scope_name":"struct ax25_info_struct_deprecated", }
+,{"id":"idle", "file":"include/linux/kernel_stat.h", "line":24, "type":"m", "scope_line":18, "scope_name":"struct cpu_usage_stat", }
+,{"id":"idle", "file":"include/net/ax25.h", "line":236, "type":"m", "scope_line":225, "scope_name":"struct ax25_cb", }
+,{"id":"idle", "file":"include/net/netrom.h", "line":72, "type":"m", "scope_line":63, "scope_name":"struct nr_sock", }
+,{"id":"idle", "file":"kernel/sched.c", "line":491, "type":"m", "scope_line":449, "scope_name":"struct rq", }
+,{"id":"idle_active", "file":"include/linux/tick.h", "line":59, "type":"m", "scope_line":49, "scope_name":"struct tick_sched", }
+,{"id":"idle_at_tick", "file":"kernel/sched.c", "line":505, "type":"m", "scope_line":449, "scope_name":"struct rq", }
+,{"id":"idle_balance", "file":"kernel/sched.c", "line":3793, "type":"c", "scope_line":3742, "scope_name":"schedule", }
+,{"id":"idle_balance", "file":"kernel/sched_fair.c", "line":3124, "type":"f", }
+,{"id":"idle_calls", "file":"include/linux/tick.h", "line":57, "type":"m", "scope_line":49, "scope_name":"struct tick_sched", }
+,{"id":"idle_cpu", "file":"drivers/char/sysrq.c", "line":212, "type":"c", "scope_line":207, "scope_name":"showacpu", }
+,{"id":"idle_cpu", "file":"kernel/cpu.c", "line":257, "type":"c", "scope_line":220, "scope_name":"_cpu_down", }
+,{"id":"idle_cpu", "file":"kernel/hrtimer.c", "line":147, "type":"c", "scope_line":144, "scope_name":"hrtimer_get_target", }
+,{"id":"idle_cpu", "file":"kernel/rcutree.c", "line":1165, "type":"c", "scope_line":1163, "scope_name":"rcu_check_callbacks", }
+,{"id":"idle_cpu", "file":"kernel/sched.c", "line":1213, "type":"c", "scope_line":1205, "scope_name":"get_nohz_timer_target", }
+,{"id":"idle_cpu", "file":"kernel/sched.c", "line":3590, "type":"c", "scope_line":3573, "scope_name":"scheduler_tick", }
+,{"id":"idle_cpu", "file":"kernel/sched.c", "line":4519, "type":"f", }
+,{"id":"idle_cpu", "file":"kernel/sched_fair.c", "line":1399, "type":"c", "scope_line":1388, "scope_name":"select_idle_sibling", }
+,{"id":"idle_cpu", "file":"kernel/sched_fair.c", "line":1406, "type":"c", "scope_line":1388, "scope_name":"select_idle_sibling", }
+,{"id":"idle_cpu", "file":"kernel/sched_fair.c", "line":1417, "type":"c", "scope_line":1388, "scope_name":"select_idle_sibling", }
+,{"id":"idle_cpu", "file":"kernel/sched_fair.c", "line":2401, "type":"c", "scope_line":2375, "scope_name":"update_sg_lb_stats", }
+,{"id":"idle_cpu", "file":"kernel/softirq.c", "line":281, "type":"c", "scope_line":276, "scope_name":"irq_enter", }
+,{"id":"idle_cpu", "file":"kernel/softirq.c", "line":308, "type":"c", "scope_line":297, "scope_name":"irq_exit", }
+,{"id":"idle_cpu", "file":"kernel/timer.c", "line":701, "type":"c", "scope_line":672, "scope_name":"__mod_timer", }
+,{"id":"idle_cpus_mask", "file":"kernel/sched_fair.c", "line":3262, "type":"m", "scope_line":3258, "scope_name":"nohz", }
+,{"id":"idle_entrytime", "file":"include/linux/tick.h", "line":60, "type":"m", "scope_line":49, "scope_name":"struct tick_sched", }
+,{"id":"idle_exittime", "file":"include/linux/tick.h", "line":62, "type":"m", "scope_line":49, "scope_name":"struct tick_sched", }
+,{"id":"idle_expires", "file":"include/linux/tick.h", "line":68, "type":"m", "scope_line":49, "scope_name":"struct tick_sched", }
+,{"id":"idle_halt", "file":"arch/x86/include/asm/processor.h", "line":763, "type":"v", }
+,{"id":"idle_idx", "file":"include/linux/sched.h", "line":903, "type":"m", "scope_line":892, "scope_name":"struct sched_domain", }
+,{"id":"idle_irq", "file":"include/linux/libata.h", "line":580, "type":"m", "scope_line":578, "scope_name":"struct ata_port_stats", }
+,{"id":"idle_jiffies", "file":"include/linux/tick.h", "line":56, "type":"m", "scope_line":49, "scope_name":"struct tick_sched", }
+,{"id":"idle_list", "file":"kernel/workqueue.c", "line":158, "type":"m", "scope_line":148, "scope_name":"struct global_cwq", }
+,{"id":"idle_nomwait", "file":"arch/x86/include/asm/processor.h", "line":764, "type":"v", }
+,{"id":"idle_notification", "file":"include/linux/pm.h", "line":472, "type":"m", "scope_line":451, "scope_name":"struct dev_pm_info", }
+,{"id":"idle_notifier", "file":"arch/x86/kernel/process_64.c", "line":61, "type":"v", }
+,{"id":"idle_notifier_register", "file":"arch/x86/kernel/process_64.c", "line":63, "type":"f", }
+,{"id":"idle_notifier_unregister", "file":"arch/x86/kernel/process_64.c", "line":69, "type":"f", }
+,{"id":"idle_regs", "file":"kernel/fork.c", "line":1335, "type":"f", }
+,];
+xr_frag_insert('t/2b/0659cc7270e75269654ffe63f357ac3098a6fe.xr', __xr_tmp);

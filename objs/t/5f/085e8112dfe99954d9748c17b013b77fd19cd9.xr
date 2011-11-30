@@ -1,0 +1,79 @@
+var __xr_tmp = [
+{"id":"bd_claim", "file":"block/ioctl.c", "line":297, "type":"c", "scope_line":185, "scope_name":"blkdev_ioctl", }
+,{"id":"bd_claim", "file":"drivers/block/pktcdvd.c", "line":2303, "type":"c", "scope_line":2288, "scope_name":"pkt_open_dev", }
+,{"id":"bd_claim", "file":"fs/block_dev.c", "line":1108, "type":"c", "scope_line":1093, "scope_name":"bd_claim_by_kobject", }
+,{"id":"bd_claim", "file":"fs/block_dev.c", "line":839, "type":"f", }
+,{"id":"bd_claim", "file":"fs/ext3/super.c", "line":2147, "type":"c", "scope_line":2130, "scope_name":"ext3_get_dev_journal", }
+,{"id":"bd_claim", "file":"fs/ext4/super.c", "line":3309, "type":"c", "scope_line":3290, "scope_name":"ext4_get_dev_journal", }
+,{"id":"bd_claim", "file":"mm/swapfile.c", "line":1898, "type":"c", "scope_line":1806, "scope_name":"sys_swapon", }
+,{"id":"bd_claim_by_disk", "file":"drivers/md/dm-table.c", "line":331, "type":"c", "scope_line":318, "scope_name":"open_dev", }
+,{"id":"bd_claim_by_disk", "file":"fs/block_dev.c", "line":1156, "type":"f", }
+,{"id":"bd_claim_by_kobject", "file":"fs/block_dev.c", "line":1093, "type":"f", }
+,{"id":"bd_claim_by_kobject", "file":"fs/block_dev.c", "line":1159, "type":"c", "scope_line":1156, "scope_name":"bd_claim_by_disk", }
+,{"id":"bd_claiming", "file":"include/linux/fs.h", "line":653, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_contains", "file":"include/linux/fs.h", "line":659, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_dev", "file":"include/linux/fs.h", "line":647, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_disk", "file":"include/linux/fs.h", "line":665, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_finish_claiming", "file":"fs/block_dev.c", "line":1502, "type":"c", "scope_line":1463, "scope_name":"blkdev_open", }
+,{"id":"bd_finish_claiming", "file":"fs/block_dev.c", "line":1736, "type":"c", "scope_line":1713, "scope_name":"open_bdev_exclusive", }
+,{"id":"bd_finish_claiming", "file":"fs/block_dev.c", "line":817, "type":"f", }
+,{"id":"bd_forget", "file":"fs/block_dev.c", "line":611, "type":"f", }
+,{"id":"bd_forget", "file":"fs/inode.c", "line":316, "type":"c", "scope_line":304, "scope_name":"evict", }
+,{"id":"bd_fsfreeze_count", "file":"include/linux/fs.h", "line":676, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_fsfreeze_mutex", "file":"include/linux/fs.h", "line":678, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_get_sb", "file":"fs/block_dev.c", "line":452, "type":"f", }
+,{"id":"bd_group", "file":"fs/ext4/mballoc.h", "line":217, "type":"m", "scope_line":209, "scope_name":"struct ext4_buddy", }
+,{"id":"bd_holder", "file":"fs/block_dev.c", "line":905, "type":"s", }
+,{"id":"bd_holder", "file":"include/linux/fs.h", "line":654, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_holder_grab_dirs", "file":"fs/block_dev.c", "line":1024, "type":"c", "scope_line":1017, "scope_name":"add_bd_holder", }
+,{"id":"bd_holder_grab_dirs", "file":"fs/block_dev.c", "line":920, "type":"f", }
+,{"id":"bd_holder_list", "file":"include/linux/fs.h", "line":657, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_holder_release_dirs", "file":"fs/block_dev.c", "line":1069, "type":"c", "scope_line":1056, "scope_name":"del_bd_holder", }
+,{"id":"bd_holder_release_dirs", "file":"fs/block_dev.c", "line":955, "type":"f", }
+,{"id":"bd_holders", "file":"include/linux/fs.h", "line":655, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_info", "file":"fs/ext4/mballoc.h", "line":214, "type":"m", "scope_line":209, "scope_name":"struct ext4_buddy", }
+,{"id":"bd_inode", "file":"include/linux/fs.h", "line":648, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_inodes", "file":"include/linux/fs.h", "line":652, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_invalidated", "file":"include/linux/fs.h", "line":664, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_list", "file":"include/linux/fs.h", "line":666, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_may_claim", "file":"fs/block_dev.c", "line":641, "type":"f", }
+,{"id":"bd_may_claim", "file":"fs/block_dev.c", "line":682, "type":"c", "scope_line":677, "scope_name":"bd_prepare_to_claim", }
+,{"id":"bd_may_claim", "file":"fs/block_dev.c", "line":821, "type":"c", "scope_line":817, "scope_name":"bd_finish_claiming", }
+,{"id":"bd_mutex", "file":"include/linux/fs.h", "line":651, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_openers", "file":"include/linux/fs.h", "line":650, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_part", "file":"include/linux/fs.h", "line":661, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_part_count", "file":"include/linux/fs.h", "line":663, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_prepare_to_claim", "file":"fs/block_dev.c", "line":677, "type":"f", }
+,{"id":"bd_prepare_to_claim", "file":"fs/block_dev.c", "line":751, "type":"c", "scope_line":725, "scope_name":"bd_start_claiming", }
+,{"id":"bd_prepare_to_claim", "file":"fs/block_dev.c", "line":847, "type":"c", "scope_line":839, "scope_name":"bd_claim", }
+,{"id":"bd_private", "file":"include/linux/fs.h", "line":673, "type":"m", "scope_line":646, "scope_name":"struct block_device", }
+,{"id":"bd_release", "file":"block/ioctl.c", "line":301, "type":"c", "scope_line":185, "scope_name":"blkdev_ioctl", }
+,{"id":"bd_release", "file":"drivers/block/pktcdvd.c", "line":2347, "type":"c", "scope_line":2288, "scope_name":"pkt_open_dev", }
+,{"id":"bd_release", "file":"drivers/block/pktcdvd.c", "line":2366, "type":"c", "scope_line":2358, "scope_name":"pkt_release_dev", }
+,{"id":"bd_release", "file":"fs/block_dev.c", "line":1118, "type":"c", "scope_line":1093, "scope_name":"bd_claim_by_kobject", }
+,{"id":"bd_release", "file":"fs/block_dev.c", "line":1142, "type":"c", "scope_line":1135, "scope_name":"bd_release_from_kobject", }
+,{"id":"bd_release", "file":"fs/block_dev.c", "line":1558, "type":"c", "scope_line":1554, "scope_name":"blkdev_close", }
+,{"id":"bd_release", "file":"fs/block_dev.c", "line":1758, "type":"c", "scope_line":1756, "scope_name":"close_bdev_exclusive", }
+,{"id":"bd_release", "file":"fs/block_dev.c", "line":856, "type":"f", }
+,{"id":"bd_release", "file":"fs/ext3/super.c", "line":367, "type":"c", "scope_line":365, "scope_name":"ext3_blkdev_put", }
+,{"id":"bd_release", "file":"fs/ext4/super.c", "line":659, "type":"c", "scope_line":657, "scope_name":"ext4_blkdev_put", }
+,{"id":"bd_release", "file":"mm/swapfile.c", "line":1675, "type":"c", "scope_line":1546, "scope_name":"sys_swapoff", }
+,{"id":"bd_release", "file":"mm/swapfile.c", "line":2092, "type":"c", "scope_line":1806, "scope_name":"sys_swapon", }
+,{"id":"bd_release_from_disk", "file":"drivers/md/dm-table.c", "line":347, "type":"c", "scope_line":342, "scope_name":"close_dev", }
+,{"id":"bd_release_from_disk", "file":"fs/block_dev.c", "line":1171, "type":"f", }
+,{"id":"bd_release_from_kobject", "file":"fs/block_dev.c", "line":1135, "type":"f", }
+,{"id":"bd_release_from_kobject", "file":"fs/block_dev.c", "line":1173, "type":"c", "scope_line":1171, "scope_name":"bd_release_from_disk", }
+,{"id":"bd_sb", "file":"fs/ext4/mballoc.h", "line":215, "type":"m", "scope_line":209, "scope_name":"struct ext4_buddy", }
+,{"id":"bd_set_size", "file":"drivers/block/loop.c", "line":1198, "type":"c", "scope_line":1181, "scope_name":"loop_set_capacity", }
+,{"id":"bd_set_size", "file":"drivers/block/loop.c", "line":838, "type":"c", "scope_line":740, "scope_name":"loop_set_fd", }
+,{"id":"bd_set_size", "file":"drivers/block/loop.c", "line":863, "type":"c", "scope_line":740, "scope_name":"loop_set_fd", }
+,{"id":"bd_set_size", "file":"drivers/block/loop.c", "line":952, "type":"c", "scope_line":912, "scope_name":"loop_clr_fd", }
+,{"id":"bd_set_size", "file":"drivers/block/pktcdvd.c", "line":2313, "type":"c", "scope_line":2288, "scope_name":"pkt_open_dev", }
+,{"id":"bd_set_size", "file":"fs/block_dev.c", "line":1305, "type":"f", }
+,{"id":"bd_set_size", "file":"fs/block_dev.c", "line":1389, "type":"c", "scope_line":1329, "scope_name":"__blkdev_get", }
+,{"id":"bd_set_size", "file":"fs/block_dev.c", "line":1416, "type":"c", "scope_line":1329, "scope_name":"__blkdev_get", }
+,{"id":"bd_start_claiming", "file":"fs/block_dev.c", "line":1489, "type":"c", "scope_line":1463, "scope_name":"blkdev_open", }
+,{"id":"bd_start_claiming", "file":"fs/block_dev.c", "line":1722, "type":"c", "scope_line":1713, "scope_name":"open_bdev_exclusive", }
+,{"id":"bd_start_claiming", "file":"fs/block_dev.c", "line":725, "type":"f", }
+,];
+xr_frag_insert('t/5f/085e8112dfe99954d9748c17b013b77fd19cd9.xr', __xr_tmp);

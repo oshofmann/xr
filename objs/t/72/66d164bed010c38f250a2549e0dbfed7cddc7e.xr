@@ -1,0 +1,85 @@
+var __xr_tmp = [
+{"id":"msg_insert", "file":"ipc/mqueue.c", "line":487, "type":"f", }
+,{"id":"msg_insert", "file":"ipc/mqueue.c", "line":831, "type":"c", "scope_line":822, "scope_name":"pipelined_receive", }
+,{"id":"msg_insert", "file":"ipc/mqueue.c", "line":919, "type":"c", "scope_line":839, "scope_name":"sys_mq_timedsend", }
+,{"id":"msg_iov", "file":"include/linux/socket.h", "line":67, "type":"m", "scope_line":64, "scope_name":"struct msghdr", }
+,{"id":"msg_iov", "file":"include/net/compat.h", "line":14, "type":"m", "scope_line":11, "scope_name":"struct compat_msghdr", }
+,{"id":"msg_iovlen", "file":"include/linux/socket.h", "line":68, "type":"m", "scope_line":64, "scope_name":"struct msghdr", }
+,{"id":"msg_iovlen", "file":"include/net/compat.h", "line":15, "type":"m", "scope_line":11, "scope_name":"struct compat_msghdr", }
+,{"id":"msg_last", "file":"include/linux/msg.h", "line":18, "type":"m", "scope_line":15, "scope_name":"struct msqid_ds", }
+,{"id":"msg_last", "file":"ipc/compat.c", "line":65, "type":"m", "scope_line":62, "scope_name":"struct compat_msqid_ds", }
+,{"id":"msg_lcbytes", "file":"include/linux/msg.h", "line":22, "type":"m", "scope_line":15, "scope_name":"struct msqid_ds", }
+,{"id":"msg_lcbytes", "file":"ipc/compat.c", "line":69, "type":"m", "scope_line":62, "scope_name":"struct compat_msqid_ds", }
+,{"id":"msg_len", "file":"include/linux/dvb/frontend.h", "line":100, "type":"m", "scope_line":98, "scope_name":"struct dvb_diseqc_slave_reply", }
+,{"id":"msg_len", "file":"include/linux/dvb/frontend.h", "line":94, "type":"m", "scope_line":92, "scope_name":"struct dvb_diseqc_master_cmd", }
+,{"id":"msg_len", "file":"include/linux/socket.h", "line":77, "type":"m", "scope_line":75, "scope_name":"struct mmsghdr", }
+,{"id":"msg_len", "file":"include/net/compat.h", "line":23, "type":"m", "scope_line":21, "scope_name":"struct compat_mmsghdr", }
+,{"id":"msg_len", "file":"kernel/auditsc.c", "line":231, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"msg_level", "file":"kernel/printk.c", "line":494, "type":"v", }
+,{"id":"msg_lock", "file":"ipc/msg.c", "line":147, "type":"f", }
+,{"id":"msg_lock", "file":"ipc/msg.c", "line":531, "type":"c", "scope_line":469, "scope_name":"sys_msgctl", }
+,{"id":"msg_lock_check", "file":"ipc/msg.c", "line":157, "type":"f", }
+,{"id":"msg_lock_check", "file":"ipc/msg.c", "line":536, "type":"c", "scope_line":469, "scope_name":"sys_msgctl", }
+,{"id":"msg_lock_check", "file":"ipc/msg.c", "line":657, "type":"c", "scope_line":635, "scope_name":"do_msgsnd", }
+,{"id":"msg_lock_check", "file":"ipc/msg.c", "line":768, "type":"c", "scope_line":755, "scope_name":"do_msgrcv", }
+,{"id":"msg_lqbytes", "file":"include/linux/msg.h", "line":23, "type":"m", "scope_line":15, "scope_name":"struct msqid_ds", }
+,{"id":"msg_lqbytes", "file":"ipc/compat.c", "line":70, "type":"m", "scope_line":62, "scope_name":"struct compat_msqid_ds", }
+,{"id":"msg_lrpid", "file":"arch/x86/include/asm/compat.h", "line":164, "type":"m", "scope_line":152, "scope_name":"struct compat_msqid64_ds", }
+,{"id":"msg_lrpid", "file":"include/asm-generic/msgbuf.h", "line":42, "type":"m", "scope_line":24, "scope_name":"struct msqid64_ds", }
+,{"id":"msg_lrpid", "file":"include/linux/msg.h", "line":28, "type":"m", "scope_line":15, "scope_name":"struct msqid_ds", }
+,{"id":"msg_lrpid", "file":"ipc/compat.c", "line":75, "type":"m", "scope_line":62, "scope_name":"struct compat_msqid_ds", }
+,{"id":"msg_lspid", "file":"arch/x86/include/asm/compat.h", "line":163, "type":"m", "scope_line":152, "scope_name":"struct compat_msqid64_ds", }
+,{"id":"msg_lspid", "file":"include/asm-generic/msgbuf.h", "line":41, "type":"m", "scope_line":24, "scope_name":"struct msqid64_ds", }
+,{"id":"msg_lspid", "file":"include/linux/msg.h", "line":27, "type":"m", "scope_line":15, "scope_name":"struct msqid_ds", }
+,{"id":"msg_lspid", "file":"ipc/compat.c", "line":74, "type":"m", "scope_line":62, "scope_name":"struct compat_msqid_ds", }
+,{"id":"msg_max_limit_max", "file":"ipc/mq_sysctl.c", "line":60, "type":"v", }
+,{"id":"msg_max_limit_min", "file":"ipc/mq_sysctl.c", "line":59, "type":"v", }
+,{"id":"msg_maxsize_limit_max", "file":"ipc/mq_sysctl.c", "line":63, "type":"v", }
+,{"id":"msg_maxsize_limit_min", "file":"ipc/mq_sysctl.c", "line":62, "type":"v", }
+,{"id":"msg_msg", "file":"include/linux/msg.h", "line":78, "type":"s", }
+,{"id":"msg_msg_alloc_security", "file":"include/linux/security.h", "line":1519, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"msg_msg_alloc_security", "file":"security/selinux/hooks.c", "line":4686, "type":"f", }
+,{"id":"msg_msg_alloc_security", "file":"security/selinux/hooks.c", "line":4725, "type":"c", "scope_line":4723, "scope_name":"selinux_msg_msg_alloc_security", }
+,{"id":"msg_msg_free_security", "file":"include/linux/security.h", "line":1520, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"msg_msg_free_security", "file":"security/selinux/hooks.c", "line":4700, "type":"f", }
+,{"id":"msg_msg_free_security", "file":"security/selinux/hooks.c", "line":4730, "type":"c", "scope_line":4728, "scope_name":"selinux_msg_msg_free_security", }
+,{"id":"msg_msgseg", "file":"ipc/msgutil.c", "line":39, "type":"s", }
+,{"id":"msg_name", "file":"include/linux/socket.h", "line":65, "type":"m", "scope_line":64, "scope_name":"struct msghdr", }
+,{"id":"msg_name", "file":"include/net/compat.h", "line":12, "type":"m", "scope_line":11, "scope_name":"struct compat_msghdr", }
+,{"id":"msg_namelen", "file":"include/linux/socket.h", "line":66, "type":"m", "scope_line":64, "scope_name":"struct msghdr", }
+,{"id":"msg_namelen", "file":"include/net/compat.h", "line":13, "type":"m", "scope_line":11, "scope_name":"struct compat_msghdr", }
+,{"id":"msg_perm", "file":"arch/x86/include/asm/compat.h", "line":153, "type":"m", "scope_line":152, "scope_name":"struct compat_msqid64_ds", }
+,{"id":"msg_perm", "file":"include/asm-generic/msgbuf.h", "line":25, "type":"m", "scope_line":24, "scope_name":"struct msqid64_ds", }
+,{"id":"msg_perm", "file":"include/linux/msg.h", "line":16, "type":"m", "scope_line":15, "scope_name":"struct msqid_ds", }
+,{"id":"msg_perm", "file":"ipc/compat.c", "line":63, "type":"m", "scope_line":62, "scope_name":"struct compat_msqid_ds", }
+,{"id":"msg_prio", "file":"kernel/auditsc.c", "line":232, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"msg_qbytes", "file":"arch/x86/include/asm/compat.h", "line":162, "type":"m", "scope_line":152, "scope_name":"struct compat_msqid64_ds", }
+,{"id":"msg_qbytes", "file":"include/asm-generic/msgbuf.h", "line":40, "type":"m", "scope_line":24, "scope_name":"struct msqid64_ds", }
+,{"id":"msg_qbytes", "file":"include/linux/msg.h", "line":26, "type":"m", "scope_line":15, "scope_name":"struct msqid_ds", }
+,{"id":"msg_qbytes", "file":"ipc/compat.c", "line":73, "type":"m", "scope_line":62, "scope_name":"struct compat_msqid_ds", }
+,{"id":"msg_qnum", "file":"arch/x86/include/asm/compat.h", "line":161, "type":"m", "scope_line":152, "scope_name":"struct compat_msqid64_ds", }
+,{"id":"msg_qnum", "file":"include/asm-generic/msgbuf.h", "line":39, "type":"m", "scope_line":24, "scope_name":"struct msqid64_ds", }
+,{"id":"msg_qnum", "file":"include/linux/msg.h", "line":25, "type":"m", "scope_line":15, "scope_name":"struct msqid_ds", }
+,{"id":"msg_qnum", "file":"ipc/compat.c", "line":72, "type":"m", "scope_line":62, "scope_name":"struct compat_msqid_ds", }
+,{"id":"msg_queue", "file":"include/linux/msg.h", "line":88, "type":"s", }
+,{"id":"msg_queue_alloc_security", "file":"include/linux/security.h", "line":1522, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"msg_queue_associate", "file":"include/linux/security.h", "line":1524, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"msg_queue_free_security", "file":"include/linux/security.h", "line":1523, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"msg_queue_msgctl", "file":"include/linux/security.h", "line":1525, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"msg_queue_msgrcv", "file":"include/linux/security.h", "line":1528, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"msg_queue_msgsnd", "file":"include/linux/security.h", "line":1526, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"msg_receiver", "file":"ipc/msg.c", "line":48, "type":"s", }
+,{"id":"msg_rmid", "file":"ipc/msg.c", "line":168, "type":"f", }
+,{"id":"msg_rmid", "file":"ipc/msg.c", "line":286, "type":"c", "scope_line":279, "scope_name":"freeque", }
+,{"id":"msg_rtime", "file":"arch/x86/include/asm/compat.h", "line":156, "type":"m", "scope_line":152, "scope_name":"struct compat_msqid64_ds", }
+,{"id":"msg_rtime", "file":"include/asm-generic/msgbuf.h", "line":30, "type":"m", "scope_line":24, "scope_name":"struct msqid64_ds", }
+,{"id":"msg_rtime", "file":"include/linux/msg.h", "line":20, "type":"m", "scope_line":15, "scope_name":"struct msqid_ds", }
+,{"id":"msg_rtime", "file":"ipc/compat.c", "line":67, "type":"m", "scope_line":62, "scope_name":"struct compat_msqid_ds", }
+,{"id":"msg_security", "file":"ipc/msg.c", "line":305, "type":"f", }
+,{"id":"msg_security_struct", "file":"security/selinux/include/objsec.h", "line":68, "type":"s", }
+,{"id":"msg_sender", "file":"ipc/msg.c", "line":60, "type":"s", }
+,{"id":"msg_status", "file":"fs/compat_ioctl.c", "line":243, "type":"m", "scope_line":226, "scope_name":"struct sg_io_hdr32", }
+,{"id":"msg_status", "file":"include/scsi/sg.h", "line":104, "type":"m", "scope_line":86, "scope_name":"struct sg_io_hdr", }
+,{"id":"msg_stime", "file":"arch/x86/include/asm/compat.h", "line":154, "type":"m", "scope_line":152, "scope_name":"struct compat_msqid64_ds", }
+,];
+xr_frag_insert('t/72/66d164bed010c38f250a2549e0dbfed7cddc7e.xr', __xr_tmp);

@@ -1,0 +1,22 @@
+var __xr_tmp = [
+"<span class=\"comment\">/*</span>", 
+"<span class=\"comment\"> * linux/fs/ext3/xattr_security.c</span>", 
+"<span class=\"comment\"> * Handler for storing security labels as extended attributes.</span>", 
+"<span class=\"comment\"> */</span>", 
+"", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#module\">module</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#slab\">slab</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#string\">string</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#fs\">fs</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#ext3_jbd\">ext3_jbd</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#ext3_fs\">ext3_fs</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#security\">security</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> \"xattr.h\"", 
+"", 
+"static <a class=\"id\" href=\"#size_t\">size_t</a>", 
+"<a class=\"id\" href=\"#ext3_xattr_security_list\">ext3_xattr_security_list</a>(struct <a class=\"id\" href=\"#dentry\">dentry</a> *<a class=\"id\" href=\"#dentry\">dentry</a>, char *<a class=\"id\" href=\"#list\">list</a>, <a class=\"id\" href=\"#size_t\">size_t</a> <a class=\"id\" href=\"#list_size\">list_size</a>,", 
+"<span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/> const char *<a class=\"id\" href=\"#name\">name</a>, <a class=\"id\" href=\"#size_t\">size_t</a> <a class=\"id\" href=\"#name_len\">name_len</a>, int <a class=\"id\" href=\"#type\">type</a>)", 
+"{", 
+"<span class=\"ts\"/>const <a class=\"id\" href=\"#size_t\">size_t</a> <a class=\"id\" href=\"#prefix_len\">prefix_len</a> = <a class=\"id\" href=\"#XATTR_SECURITY_PREFIX_LEN\">XATTR_SECURITY_PREFIX_LEN</a>;", 
+];
+xr_frag_insert('l/eb/a3e5556822ac4d8ef0b41035091a6956c25525.xr', __xr_tmp);

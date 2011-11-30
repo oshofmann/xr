@@ -1,0 +1,230 @@
+var __xr_tmp = [
+{"id":"cap_get_target_pid", "file":"kernel/capability.c", "line":129, "type":"f", }
+,{"id":"cap_get_target_pid", "file":"kernel/capability.c", "line":178, "type":"c", "scope_line":161, "scope_name":"sys_capget", }
+,{"id":"cap_getprocattr", "file":"security/capability.c", "line":762, "type":"f", }
+,{"id":"cap_inet_conn_established", "file":"security/capability.c", "line":676, "type":"f", }
+,{"id":"cap_inet_conn_request", "file":"security/capability.c", "line":665, "type":"f", }
+,{"id":"cap_inet_csk_clone", "file":"security/capability.c", "line":671, "type":"f", }
+,{"id":"cap_info", "file":"include/linux/ieee80211.h", "line":858, "type":"m", "scope_line":857, "scope_name":"struct ieee80211_ht_cap", }
+,{"id":"cap_inh_is_capped", "file":"security/commoncap.c", "line":175, "type":"f", }
+,{"id":"cap_inh_is_capped", "file":"security/commoncap.c", "line":205, "type":"c", "scope_line":199, "scope_name":"cap_capset", }
+,{"id":"cap_inheritable", "file":"include/linux/cred.h", "line":134, "type":"m", "scope_line":116, "scope_name":"struct cred", }
+,{"id":"cap_inode_alloc_security", "file":"security/capability.c", "line":106, "type":"f", }
+,{"id":"cap_inode_create", "file":"security/capability.c", "line":121, "type":"f", }
+,{"id":"cap_inode_follow_link", "file":"security/capability.c", "line":172, "type":"f", }
+,{"id":"cap_inode_free_security", "file":"security/capability.c", "line":111, "type":"f", }
+,{"id":"cap_inode_getattr", "file":"security/capability.c", "line":188, "type":"f", }
+,{"id":"cap_inode_getsecctx", "file":"security/capability.c", "line":797, "type":"f", }
+,{"id":"cap_inode_getsecid", "file":"security/capability.c", "line":226, "type":"f", }
+,{"id":"cap_inode_getsecurity", "file":"security/capability.c", "line":208, "type":"f", }
+,{"id":"cap_inode_getxattr", "file":"security/capability.c", "line":198, "type":"f", }
+,{"id":"cap_inode_init_security", "file":"security/capability.c", "line":115, "type":"f", }
+,{"id":"cap_inode_killpriv", "file":"security/commoncap.c", "line":274, "type":"f", }
+,{"id":"cap_inode_link", "file":"security/capability.c", "line":127, "type":"f", }
+,{"id":"cap_inode_listsecurity", "file":"security/capability.c", "line":220, "type":"f", }
+,{"id":"cap_inode_listxattr", "file":"security/capability.c", "line":203, "type":"f", }
+,{"id":"cap_inode_mkdir", "file":"security/capability.c", "line":144, "type":"f", }
+,{"id":"cap_inode_mknod", "file":"security/capability.c", "line":155, "type":"f", }
+,{"id":"cap_inode_need_killpriv", "file":"security/commoncap.c", "line":252, "type":"f", }
+,{"id":"cap_inode_notifysecctx", "file":"security/capability.c", "line":787, "type":"f", }
+,{"id":"cap_inode_permission", "file":"security/capability.c", "line":178, "type":"f", }
+,{"id":"cap_inode_post_setxattr", "file":"security/capability.c", "line":193, "type":"f", }
+,{"id":"cap_inode_readlink", "file":"security/capability.c", "line":167, "type":"f", }
+,{"id":"cap_inode_removexattr", "file":"security/commoncap.c", "line":590, "type":"f", }
+,{"id":"cap_inode_removexattr", "file":"security/smack/smack_lsm.c", "line":768, "type":"c", "scope_line":757, "scope_name":"smack_inode_removexattr", }
+,{"id":"cap_inode_rename", "file":"security/capability.c", "line":161, "type":"f", }
+,{"id":"cap_inode_rmdir", "file":"security/capability.c", "line":150, "type":"f", }
+,{"id":"cap_inode_setattr", "file":"security/capability.c", "line":183, "type":"f", }
+,{"id":"cap_inode_setsecctx", "file":"security/capability.c", "line":792, "type":"f", }
+,{"id":"cap_inode_setsecurity", "file":"security/capability.c", "line":214, "type":"f", }
+,{"id":"cap_inode_setxattr", "file":"security/commoncap.c", "line":563, "type":"f", }
+,{"id":"cap_inode_setxattr", "file":"security/smack/smack_lsm.c", "line":682, "type":"c", "scope_line":663, "scope_name":"smack_inode_setxattr", }
+,{"id":"cap_inode_symlink", "file":"security/capability.c", "line":138, "type":"f", }
+,{"id":"cap_inode_unlink", "file":"security/capability.c", "line":133, "type":"f", }
+,{"id":"cap_intersect", "file":"include/linux/capability.h", "line":447, "type":"f", }
+,{"id":"cap_intersect", "file":"include/linux/capability.h", "line":512, "type":"c", "scope_line":508, "scope_name":"cap_raise_fs_set", }
+,{"id":"cap_intersect", "file":"include/linux/capability.h", "line":526, "type":"c", "scope_line":522, "scope_name":"cap_raise_nfsd_set", }
+,{"id":"cap_intersect", "file":"security/commoncap.c", "line":480, "type":"c", "scope_line":429, "scope_name":"cap_bprm_set_creds", }
+,{"id":"cap_invert", "file":"include/linux/capability.h", "line":463, "type":"f", }
+,{"id":"cap_ipc_getsecid", "file":"security/capability.c", "line":450, "type":"f", }
+,{"id":"cap_ipc_permission", "file":"security/capability.c", "line":445, "type":"f", }
+,{"id":"cap_is_fs_cap", "file":"include/linux/capability.h", "line":496, "type":"f", }
+,{"id":"cap_isclear", "file":"include/linux/capability.h", "line":470, "type":"f", }
+,{"id":"cap_isclear", "file":"include/linux/capability.h", "line":491, "type":"c", "scope_line":487, "scope_name":"cap_issubset", }
+,{"id":"cap_isclear", "file":"kernel/auditsc.c", "line":1208, "type":"c", "scope_line":1202, "scope_name":"audit_log_fcaps", }
+,{"id":"cap_isclear", "file":"kernel/auditsc.c", "line":1212, "type":"c", "scope_line":1202, "scope_name":"audit_log_fcaps", }
+,{"id":"cap_isclear", "file":"security/commoncap.c", "line":510, "type":"c", "scope_line":429, "scope_name":"cap_bprm_set_creds", }
+,{"id":"cap_isclear", "file":"security/commoncap.c", "line":541, "type":"c", "scope_line":534, "scope_name":"cap_bprm_secureexec", }
+,{"id":"cap_issubset", "file":"include/linux/capability.h", "line":487, "type":"f", }
+,{"id":"cap_issubset", "file":"kernel/cred.c", "line":489, "type":"c", "scope_line":469, "scope_name":"commit_creds", }
+,{"id":"cap_issubset", "file":"security/commoncap.c", "line":118, "type":"c", "scope_line":113, "scope_name":"cap_ptrace_access_check", }
+,{"id":"cap_issubset", "file":"security/commoncap.c", "line":139, "type":"c", "scope_line":133, "scope_name":"cap_ptrace_traceme", }
+,{"id":"cap_issubset", "file":"security/commoncap.c", "line":205, "type":"c", "scope_line":199, "scope_name":"cap_capset", }
+,{"id":"cap_issubset", "file":"security/commoncap.c", "line":212, "type":"c", "scope_line":199, "scope_name":"cap_capset", }
+,{"id":"cap_issubset", "file":"security/commoncap.c", "line":219, "type":"c", "scope_line":199, "scope_name":"cap_capset", }
+,{"id":"cap_issubset", "file":"security/commoncap.c", "line":223, "type":"c", "scope_line":199, "scope_name":"cap_capset", }
+,{"id":"cap_issubset", "file":"security/commoncap.c", "line":471, "type":"c", "scope_line":429, "scope_name":"cap_bprm_set_creds", }
+,{"id":"cap_issubset", "file":"security/commoncap.c", "line":511, "type":"c", "scope_line":429, "scope_name":"cap_bprm_set_creds", }
+,{"id":"cap_issubset", "file":"security/commoncap.c", "line":710, "type":"c", "scope_line":705, "scope_name":"cap_safe_nice", }
+,{"id":"cap_kernel_act_as", "file":"security/capability.c", "line":374, "type":"f", }
+,{"id":"cap_kernel_create_files_as", "file":"security/capability.c", "line":379, "type":"f", }
+,{"id":"cap_kernel_module_request", "file":"security/capability.c", "line":384, "type":"f", }
+,{"id":"cap_key_alloc", "file":"security/capability.c", "line":802, "type":"f", }
+,{"id":"cap_key_free", "file":"security/capability.c", "line":808, "type":"f", }
+,{"id":"cap_key_getsecurity", "file":"security/capability.c", "line":818, "type":"f", }
+,{"id":"cap_key_permission", "file":"security/capability.c", "line":812, "type":"f", }
+,{"id":"cap_lower", "file":"include/linux/capability.h", "line":420, "type":"d", }
+,{"id":"cap_mask", "file":"include/linux/dmaengine.h", "line":439, "type":"m", "scope_line":433, "scope_name":"struct dma_device", }
+,{"id":"cap_msg_msg_alloc_security", "file":"security/capability.c", "line":455, "type":"f", }
+,{"id":"cap_msg_msg_free_security", "file":"security/capability.c", "line":460, "type":"f", }
+,{"id":"cap_msg_queue_alloc_security", "file":"security/capability.c", "line":464, "type":"f", }
+,{"id":"cap_msg_queue_associate", "file":"security/capability.c", "line":473, "type":"f", }
+,{"id":"cap_msg_queue_free_security", "file":"security/capability.c", "line":469, "type":"f", }
+,{"id":"cap_msg_queue_msgctl", "file":"security/capability.c", "line":478, "type":"f", }
+,{"id":"cap_msg_queue_msgrcv", "file":"security/capability.c", "line":489, "type":"f", }
+,{"id":"cap_msg_queue_msgsnd", "file":"security/capability.c", "line":483, "type":"f", }
+,{"id":"cap_netlink_recv", "file":"security/commoncap.c", "line":60, "type":"f", }
+,{"id":"cap_netlink_recv", "file":"security/selinux/hooks.c", "line":4649, "type":"c", "scope_line":4644, "scope_name":"selinux_netlink_recv", }
+,{"id":"cap_netlink_send", "file":"security/commoncap.c", "line":54, "type":"f", }
+,{"id":"cap_netlink_send", "file":"security/selinux/hooks.c", "line":4637, "type":"c", "scope_line":4633, "scope_name":"selinux_netlink_send", }
+,{"id":"cap_nr", "file":"include/linux/pci.h", "line":219, "type":"m", "scope_line":217, "scope_name":"struct pci_cap_saved_state", }
+,{"id":"cap_path_chmod", "file":"security/capability.c", "line":276, "type":"f", }
+,{"id":"cap_path_chown", "file":"security/capability.c", "line":282, "type":"f", }
+,{"id":"cap_path_chroot", "file":"security/capability.c", "line":287, "type":"f", }
+,{"id":"cap_path_link", "file":"security/capability.c", "line":259, "type":"f", }
+,{"id":"cap_path_mkdir", "file":"security/capability.c", "line":238, "type":"f", }
+,{"id":"cap_path_mknod", "file":"security/capability.c", "line":232, "type":"f", }
+,{"id":"cap_path_rename", "file":"security/capability.c", "line":265, "type":"f", }
+,{"id":"cap_path_rmdir", "file":"security/capability.c", "line":243, "type":"f", }
+,{"id":"cap_path_symlink", "file":"security/capability.c", "line":253, "type":"f", }
+,{"id":"cap_path_truncate", "file":"security/capability.c", "line":271, "type":"f", }
+,{"id":"cap_path_unlink", "file":"security/capability.c", "line":248, "type":"f", }
+,{"id":"cap_permitted", "file":"include/linux/cred.h", "line":135, "type":"m", "scope_line":116, "scope_name":"struct cred", }
+,{"id":"cap_prctl_drop", "file":"security/commoncap.c", "line":764, "type":"f", }
+,{"id":"cap_prctl_drop", "file":"security/commoncap.c", "line":806, "type":"c", "scope_line":787, "scope_name":"cap_task_prctl", }
+,{"id":"cap_ptr", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":379, "type":"m", "scope_line":351, "scope_name":"struct amd_iommu", }
+,{"id":"cap_ptr", "file":"arch/x86/kernel/amd_iommu_init.c", "line":87, "type":"m", "scope_line":82, "scope_name":"struct ivhd_header", }
+,{"id":"cap_ptrace_access_check", "file":"security/commoncap.c", "line":113, "type":"f", }
+,{"id":"cap_ptrace_access_check", "file":"security/selinux/hooks.c", "line":1792, "type":"c", "scope_line":1787, "scope_name":"selinux_ptrace_access_check", }
+,{"id":"cap_ptrace_access_check", "file":"security/smack/smack_lsm.c", "line":102, "type":"c", "scope_line":96, "scope_name":"smack_ptrace_access_check", }
+,{"id":"cap_ptrace_traceme", "file":"security/commoncap.c", "line":133, "type":"f", }
+,{"id":"cap_ptrace_traceme", "file":"security/selinux/hooks.c", "line":1809, "type":"c", "scope_line":1805, "scope_name":"selinux_ptrace_traceme", }
+,{"id":"cap_ptrace_traceme", "file":"security/smack/smack_lsm.c", "line":134, "type":"c", "scope_line":128, "scope_name":"smack_ptrace_traceme", }
+,{"id":"cap_quota_on", "file":"security/capability.c", "line":25, "type":"f", }
+,{"id":"cap_quotactl", "file":"security/capability.c", "line":20, "type":"f", }
+,{"id":"cap_raise", "file":"include/linux/capability.h", "line":419, "type":"d", }
+,{"id":"cap_raise_fs_set", "file":"include/linux/capability.h", "line":508, "type":"f", }
+,{"id":"cap_raise_fs_set", "file":"security/commoncap.c", "line":682, "type":"c", "scope_line":657, "scope_name":"cap_task_fix_setuid", }
+,{"id":"cap_raise_nfsd_set", "file":"include/linux/capability.h", "line":522, "type":"f", }
+,{"id":"cap_raised", "file":"include/linux/capability.h", "line":421, "type":"d", }
+,{"id":"cap_release_secctx", "file":"security/capability.c", "line":783, "type":"f", }
+,{"id":"cap_req_classify_flow", "file":"security/capability.c", "line":682, "type":"f", }
+,{"id":"cap_resource", "file":"arch/x86/pci/amd_bus.c", "line":200, "type":"c", "scope_line":68, "scope_name":"early_fill_mp_bus_info", }
+,{"id":"cap_resource", "file":"arch/x86/pci/amd_bus.c", "line":289, "type":"c", "scope_line":68, "scope_name":"early_fill_mp_bus_info", }
+,{"id":"cap_resource", "file":"arch/x86/pci/amd_bus.c", "line":325, "type":"c", "scope_line":68, "scope_name":"early_fill_mp_bus_info", }
+,{"id":"cap_resource", "file":"include/linux/range.h", "line":23, "type":"f", }
+,{"id":"cap_safe_nice", "file":"security/commoncap.c", "line":705, "type":"f", }
+,{"id":"cap_safe_nice", "file":"security/commoncap.c", "line":731, "type":"c", "scope_line":728, "scope_name":"cap_task_setscheduler", }
+,{"id":"cap_safe_nice", "file":"security/commoncap.c", "line":744, "type":"c", "scope_line":742, "scope_name":"cap_task_setioprio", }
+,{"id":"cap_safe_nice", "file":"security/commoncap.c", "line":757, "type":"c", "scope_line":755, "scope_name":"cap_task_setnice", }
+,{"id":"cap_sb_alloc_security", "file":"security/capability.c", "line":43, "type":"f", }
+,{"id":"cap_sb_clone_mnt_opts", "file":"security/capability.c", "line":96, "type":"f", }
+,{"id":"cap_sb_copy_data", "file":"security/capability.c", "line":52, "type":"f", }
+,{"id":"cap_sb_free_security", "file":"security/capability.c", "line":48, "type":"f", }
+,{"id":"cap_sb_kern_mount", "file":"security/capability.c", "line":57, "type":"f", }
+,{"id":"cap_sb_mount", "file":"security/capability.c", "line":72, "type":"f", }
+,{"id":"cap_sb_parse_opts_str", "file":"security/capability.c", "line":101, "type":"f", }
+,{"id":"cap_sb_pivotroot", "file":"security/capability.c", "line":83, "type":"f", }
+,{"id":"cap_sb_set_mnt_opts", "file":"security/capability.c", "line":88, "type":"f", }
+,{"id":"cap_sb_show_options", "file":"security/capability.c", "line":62, "type":"f", }
+,{"id":"cap_sb_statfs", "file":"security/capability.c", "line":67, "type":"f", }
+,{"id":"cap_sb_umount", "file":"security/capability.c", "line":78, "type":"f", }
+,{"id":"cap_secctx_to_secid", "file":"security/capability.c", "line":778, "type":"f", }
+,{"id":"cap_secid_to_secctx", "file":"security/capability.c", "line":773, "type":"f", }
+,{"id":"cap_sem_alloc_security", "file":"security/capability.c", "line":520, "type":"f", }
+,{"id":"cap_sem_associate", "file":"security/capability.c", "line":529, "type":"f", }
+,{"id":"cap_sem_free_security", "file":"security/capability.c", "line":525, "type":"f", }
+,{"id":"cap_sem_semctl", "file":"security/capability.c", "line":534, "type":"f", }
+,{"id":"cap_sem_semop", "file":"security/capability.c", "line":539, "type":"f", }
+,{"id":"cap_set_full", "file":"include/linux/capability.h", "line":416, "type":"d", }
+,{"id":"cap_set_init_eff", "file":"include/linux/capability.h", "line":417, "type":"d", }
+,{"id":"cap_setprocattr", "file":"security/capability.c", "line":767, "type":"f", }
+,{"id":"cap_settime", "file":"security/commoncap.c", "line":97, "type":"f", }
+,{"id":"cap_shm_alloc_security", "file":"security/capability.c", "line":495, "type":"f", }
+,{"id":"cap_shm_associate", "file":"security/capability.c", "line":504, "type":"f", }
+,{"id":"cap_shm_free_security", "file":"security/capability.c", "line":500, "type":"f", }
+,{"id":"cap_shm_shmat", "file":"security/capability.c", "line":514, "type":"f", }
+,{"id":"cap_shm_shmctl", "file":"security/capability.c", "line":509, "type":"f", }
+,{"id":"cap_sk_alloc_security", "file":"security/capability.c", "line":644, "type":"f", }
+,{"id":"cap_sk_clone_security", "file":"security/capability.c", "line":653, "type":"f", }
+,{"id":"cap_sk_free_security", "file":"security/capability.c", "line":649, "type":"f", }
+,{"id":"cap_sk_getsecid", "file":"security/capability.c", "line":657, "type":"f", }
+,{"id":"cap_sock_graft", "file":"security/capability.c", "line":661, "type":"f", }
+,{"id":"cap_socket_accept", "file":"security/capability.c", "line":585, "type":"f", }
+,{"id":"cap_socket_bind", "file":"security/capability.c", "line":568, "type":"f", }
+,{"id":"cap_socket_connect", "file":"security/capability.c", "line":574, "type":"f", }
+,{"id":"cap_socket_create", "file":"security/capability.c", "line":557, "type":"f", }
+,{"id":"cap_socket_getpeername", "file":"security/capability.c", "line":606, "type":"f", }
+,{"id":"cap_socket_getpeersec_dgram", "file":"security/capability.c", "line":638, "type":"f", }
+,{"id":"cap_socket_getpeersec_stream", "file":"security/capability.c", "line":631, "type":"f", }
+,{"id":"cap_socket_getsockname", "file":"security/capability.c", "line":601, "type":"f", }
+,{"id":"cap_socket_getsockopt", "file":"security/capability.c", "line":616, "type":"f", }
+,{"id":"cap_socket_listen", "file":"security/capability.c", "line":580, "type":"f", }
+,{"id":"cap_socket_post_create", "file":"security/capability.c", "line":562, "type":"f", }
+,{"id":"cap_socket_recvmsg", "file":"security/capability.c", "line":595, "type":"f", }
+,{"id":"cap_socket_sendmsg", "file":"security/capability.c", "line":590, "type":"f", }
+,{"id":"cap_socket_setsockopt", "file":"security/capability.c", "line":611, "type":"f", }
+,{"id":"cap_socket_shutdown", "file":"security/capability.c", "line":621, "type":"f", }
+,{"id":"cap_socket_sock_rcv_skb", "file":"security/capability.c", "line":626, "type":"f", }
+,{"id":"cap_sysctl", "file":"security/capability.c", "line":15, "type":"f", }
+,{"id":"cap_syslog", "file":"security/commoncap.c", "line":897, "type":"f", }
+,{"id":"cap_syslog", "file":"security/selinux/hooks.c", "line":1980, "type":"c", "scope_line":1976, "scope_name":"selinux_syslog", }
+,{"id":"cap_syslog", "file":"security/smack/smack_lsm.c", "line":165, "type":"c", "scope_line":160, "scope_name":"smack_syslog", }
+,{"id":"cap_task_create", "file":"security/capability.c", "line":351, "type":"f", }
+,{"id":"cap_task_fix_setuid", "file":"security/commoncap.c", "line":657, "type":"f", }
+,{"id":"cap_task_getioprio", "file":"security/capability.c", "line":409, "type":"f", }
+,{"id":"cap_task_getpgid", "file":"security/capability.c", "line":394, "type":"f", }
+,{"id":"cap_task_getscheduler", "file":"security/capability.c", "line":420, "type":"f", }
+,{"id":"cap_task_getsecid", "file":"security/capability.c", "line":404, "type":"f", }
+,{"id":"cap_task_getsid", "file":"security/capability.c", "line":399, "type":"f", }
+,{"id":"cap_task_kill", "file":"security/capability.c", "line":435, "type":"f", }
+,{"id":"cap_task_movememory", "file":"security/capability.c", "line":425, "type":"f", }
+,{"id":"cap_task_prctl", "file":"security/commoncap.c", "line":787, "type":"f", }
+,{"id":"cap_task_setioprio", "file":"security/commoncap.c", "line":742, "type":"f", }
+,{"id":"cap_task_setioprio", "file":"security/selinux/hooks.c", "line":3330, "type":"c", "scope_line":3326, "scope_name":"selinux_task_setioprio", }
+,{"id":"cap_task_setioprio", "file":"security/smack/smack_lsm.c", "line":1259, "type":"c", "scope_line":1255, "scope_name":"smack_task_setioprio", }
+,{"id":"cap_task_setnice", "file":"security/commoncap.c", "line":755, "type":"f", }
+,{"id":"cap_task_setnice", "file":"security/selinux/hooks.c", "line":3319, "type":"c", "scope_line":3315, "scope_name":"selinux_task_setnice", }
+,{"id":"cap_task_setnice", "file":"security/smack/smack_lsm.c", "line":1242, "type":"c", "scope_line":1238, "scope_name":"smack_task_setnice", }
+,{"id":"cap_task_setpgid", "file":"security/capability.c", "line":389, "type":"f", }
+,{"id":"cap_task_setrlimit", "file":"security/capability.c", "line":414, "type":"f", }
+,{"id":"cap_task_setscheduler", "file":"security/commoncap.c", "line":728, "type":"f", }
+,{"id":"cap_task_setscheduler", "file":"security/selinux/hooks.c", "line":3361, "type":"c", "scope_line":3357, "scope_name":"selinux_task_setscheduler", }
+,{"id":"cap_task_setscheduler", "file":"security/smack/smack_lsm.c", "line":1289, "type":"c", "scope_line":1284, "scope_name":"smack_task_setscheduler", }
+,{"id":"cap_task_to_inode", "file":"security/capability.c", "line":441, "type":"f", }
+,{"id":"cap_task_wait", "file":"security/capability.c", "line":430, "type":"f", }
+,{"id":"cap_tun_dev_attach", "file":"security/capability.c", "line":696, "type":"f", }
+,{"id":"cap_tun_dev_create", "file":"security/capability.c", "line":687, "type":"f", }
+,{"id":"cap_tun_dev_post_create", "file":"security/capability.c", "line":692, "type":"f", }
+,{"id":"cap_unix_may_send", "file":"security/capability.c", "line":552, "type":"f", }
+,{"id":"cap_unix_stream_connect", "file":"security/capability.c", "line":546, "type":"f", }
+,{"id":"cap_user_data_t", "file":"include/linux/capability.h", "line":45, "type":"t", }
+,{"id":"cap_user_header_t", "file":"include/linux/capability.h", "line":40, "type":"t", }
+,{"id":"cap_valid", "file":"include/linux/capability.h", "line":357, "type":"d", }
+,{"id":"cap_validate_magic", "file":"kernel/capability.c", "line":168, "type":"c", "scope_line":161, "scope_name":"sys_capget", }
+,{"id":"cap_validate_magic", "file":"kernel/capability.c", "line":244, "type":"c", "scope_line":235, "scope_name":"sys_capset", }
+,{"id":"cap_validate_magic", "file":"kernel/capability.c", "line":93, "type":"f", }
+,{"id":"cap_vm_enough_memory", "file":"security/commoncap.c", "line":915, "type":"f", }
+,{"id":"capab", "file":"include/linux/ieee80211.h", "line":712, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"capab", "file":"include/linux/ieee80211.h", "line":720, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"capab", "file":"include/linux/pkt_cls.h", "line":135, "type":"m", "scope_line":119, "scope_name":"struct tc_police", }
+,{"id":"capab", "file":"include/net/act_api.h", "line":87, "type":"m", "scope_line":82, "scope_name":"struct tc_action_ops", }
+,{"id":"capab_info", "file":"include/linux/ieee80211.h", "line":645, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"capab_info", "file":"include/linux/ieee80211.h", "line":651, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"capab_info", "file":"include/linux/ieee80211.h", "line":658, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"capab_info", "file":"include/linux/ieee80211.h", "line":670, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"capab_info", "file":"include/linux/ieee80211.h", "line":682, "type":"m", "scope_line":626, "scope_name":"struct ieee80211_mgmt", }
+,{"id":"capabilities", "file":"arch/x86/boot/vesa.h", "line":25, "type":"m", "scope_line":21, "scope_name":"struct vesa_general_info", }
+,{"id":"capabilities", "file":"arch/x86/kernel/cpu/perf_event.c", "line":187, "type":"m", "scope_line":179, "scope_name":"union perf_capabilities", }
+,];
+xr_frag_insert('t/10/6bd04ec20a8f39995a4235e42b91a2d3591764.xr', __xr_tmp);

@@ -1,0 +1,21 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#kernel\">kernel</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#gcd\">gcd</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#module\">module</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"", 
+"<span class=\"comment\">/* Greatest common divisor */</span>", 
+"unsigned long <a class=\"id\" href=\"#gcd\">gcd</a>(unsigned long <a class=\"id\" href=\"#a\">a</a>, unsigned long <a class=\"id\" href=\"#b\">b</a>)", 
+"{", 
+"<span class=\"ts\"/>unsigned long <a class=\"id\" href=\"#r\">r</a>;", 
+"", 
+"<span class=\"ts\"/>if (<a class=\"id\" href=\"#a\">a</a> &lt; <a class=\"id\" href=\"#b\">b</a>)", 
+"<span class=\"ts\"/><span class=\"ts\"/><a class=\"id\" href=\"#swap\">swap</a>(<a class=\"id\" href=\"#a\">a</a>, <a class=\"id\" href=\"#b\">b</a>);", 
+"<span class=\"ts\"/>while ((<a class=\"id\" href=\"#r\">r</a> = <a class=\"id\" href=\"#a\">a</a> % <a class=\"id\" href=\"#b\">b</a>) != 0) {", 
+"<span class=\"ts\"/><span class=\"ts\"/><a class=\"id\" href=\"#a\">a</a> = <a class=\"id\" href=\"#b\">b</a>;", 
+"<span class=\"ts\"/><span class=\"ts\"/><a class=\"id\" href=\"#b\">b</a> = <a class=\"id\" href=\"#r\">r</a>;", 
+"<span class=\"ts\"/>}", 
+"<span class=\"ts\"/>return <a class=\"id\" href=\"#b\">b</a>;", 
+"}", 
+"<a class=\"id\" href=\"#EXPORT_SYMBOL_GPL\">EXPORT_SYMBOL_GPL</a>(<a class=\"id\" href=\"#gcd\">gcd</a>);", 
+];
+xr_frag_insert('l/9e/20caf871efb1385f415c23c1e891e9c0759ee9.xr', __xr_tmp);

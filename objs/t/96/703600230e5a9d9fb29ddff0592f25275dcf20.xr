@@ -1,0 +1,117 @@
+var __xr_tmp = [
+{"id":"SMK_CIPSO", "file":"security/smack/smackfs.c", "line":39, "type":"e", "scope_line":36, "scope_name":"smk_inos", }
+,{"id":"SMK_CIPSOMAX", "file":"security/smack/smackfs.c", "line":104, "type":"d", }
+,{"id":"SMK_CIPSOMIN", "file":"security/smack/smackfs.c", "line":103, "type":"d", }
+,{"id":"SMK_DIGITLEN", "file":"security/smack/smackfs.c", "line":102, "type":"d", }
+,{"id":"SMK_DIRECT", "file":"security/smack/smackfs.c", "line":41, "type":"e", "scope_line":36, "scope_name":"smk_inos", }
+,{"id":"SMK_DOI", "file":"security/smack/smackfs.c", "line":40, "type":"e", "scope_line":36, "scope_name":"smk_inos", }
+,{"id":"SMK_FSDEFAULT", "file":"security/smack/smack.h", "line":121, "type":"d", }
+,{"id":"SMK_FSFLOOR", "file":"security/smack/smack.h", "line":122, "type":"d", }
+,{"id":"SMK_FSHAT", "file":"security/smack/smack.h", "line":123, "type":"d", }
+,{"id":"SMK_FSROOT", "file":"security/smack/smack.h", "line":124, "type":"d", }
+,{"id":"SMK_INODE_INSTANT", "file":"security/smack/smack.h", "line":58, "type":"d", }
+,{"id":"SMK_LABELLEN", "file":"security/smack/smack.h", "line":32, "type":"d", }
+,{"id":"SMK_LOAD", "file":"security/smack/smackfs.c", "line":38, "type":"e", "scope_line":36, "scope_name":"smk_inos", }
+,{"id":"SMK_LOADLEN", "file":"security/smack/smackfs.c", "line":114, "type":"d", }
+,{"id":"SMK_LOGGING", "file":"security/smack/smackfs.c", "line":45, "type":"e", "scope_line":36, "scope_name":"smk_inos", }
+,{"id":"SMK_MAXLEN", "file":"security/smack/smack.h", "line":31, "type":"d", }
+,{"id":"SMK_NETLBLADDR", "file":"security/smack/smackfs.c", "line":43, "type":"e", "scope_line":36, "scope_name":"smk_inos", }
+,{"id":"SMK_NETLBLADDRMAX", "file":"security/smack/smackfs.c", "line":133, "type":"d", }
+,{"id":"SMK_NETLBLADDRMIN", "file":"security/smack/smackfs.c", "line":132, "type":"d", }
+,{"id":"SMK_NUM_ACCESS_TYPE", "file":"security/smack/smack.h", "line":175, "type":"d", }
+,{"id":"SMK_ONLYCAP", "file":"security/smack/smackfs.c", "line":44, "type":"e", "scope_line":36, "scope_name":"smk_inos", }
+,{"id":"SMK_ROOT_INO", "file":"security/smack/smackfs.c", "line":37, "type":"e", "scope_line":36, "scope_name":"smk_inos", }
+,{"id":"SMP_CACHE_BYTES", "file":"include/linux/cache.h", "line":12, "type":"d", }
+,{"id":"SMP_DEBUG_LOCKS_WARN_ON", "file":"include/linux/debug_locks.h", "line":37, "type":"d", }
+,{"id":"SMP_MAGIC_IDENT", "file":"arch/x86/include/asm/mpspec_def.h", "line":14, "type":"d", }
+,{"id":"SMT_LEVEL", "file":"arch/x86/kernel/cpu/topology.c", "line":13, "type":"d", }
+,{"id":"SMT_TYPE", "file":"arch/x86/kernel/cpu/topology.c", "line":17, "type":"d", }
+,{"id":"SM_DOWN", "file":"include/linux/console.h", "line":92, "type":"d", }
+,{"id":"SM_UP", "file":"include/linux/console.h", "line":91, "type":"d", }
+,{"id":"SNAPSHOT_ALLOC_SWAP_PAGE", "file":"include/linux/suspend_ioctls.h", "line":30, "type":"d", }
+,{"id":"SNAPSHOT_ATOMIC_RESTORE", "file":"include/linux/suspend_ioctls.h", "line":18, "type":"d", }
+,{"id":"SNAPSHOT_ATOMIC_SNAPSHOT", "file":"kernel/power/user.c", "line":49, "type":"d", }
+,{"id":"SNAPSHOT_AVAIL_SWAP", "file":"kernel/power/user.c", "line":51, "type":"d", }
+,{"id":"SNAPSHOT_AVAIL_SWAP_SIZE", "file":"include/linux/suspend_ioctls.h", "line":29, "type":"d", }
+,{"id":"SNAPSHOT_CREATE_IMAGE", "file":"include/linux/suspend_ioctls.h", "line":27, "type":"d", }
+,{"id":"SNAPSHOT_FREE", "file":"include/linux/suspend_ioctls.h", "line":19, "type":"d", }
+,{"id":"SNAPSHOT_FREEZE", "file":"include/linux/suspend_ioctls.h", "line":16, "type":"d", }
+,{"id":"SNAPSHOT_FREE_SWAP_PAGES", "file":"include/linux/suspend_ioctls.h", "line":20, "type":"d", }
+,{"id":"SNAPSHOT_GET_IMAGE_SIZE", "file":"include/linux/suspend_ioctls.h", "line":24, "type":"d", }
+,{"id":"SNAPSHOT_GET_SWAP_PAGE", "file":"kernel/power/user.c", "line":52, "type":"d", }
+,{"id":"SNAPSHOT_IOC_MAGIC", "file":"include/linux/suspend_ioctls.h", "line":15, "type":"d", }
+,{"id":"SNAPSHOT_IOC_MAXNR", "file":"include/linux/suspend_ioctls.h", "line":31, "type":"d", }
+,{"id":"SNAPSHOT_MINOR", "file":"kernel/power/user.c", "line":55, "type":"d", }
+,{"id":"SNAPSHOT_PLATFORM_SUPPORT", "file":"include/linux/suspend_ioctls.h", "line":25, "type":"d", }
+,{"id":"SNAPSHOT_PMOPS", "file":"kernel/power/user.c", "line":38, "type":"d", }
+,{"id":"SNAPSHOT_POWER_OFF", "file":"include/linux/suspend_ioctls.h", "line":26, "type":"d", }
+,{"id":"SNAPSHOT_PREF_IMAGE_SIZE", "file":"include/linux/suspend_ioctls.h", "line":28, "type":"d", }
+,{"id":"SNAPSHOT_S2RAM", "file":"include/linux/suspend_ioctls.h", "line":21, "type":"d", }
+,{"id":"SNAPSHOT_SET_IMAGE_SIZE", "file":"kernel/power/user.c", "line":50, "type":"d", }
+,{"id":"SNAPSHOT_SET_SWAP_AREA", "file":"include/linux/suspend_ioctls.h", "line":22, "type":"d", }
+,{"id":"SNAPSHOT_SET_SWAP_FILE", "file":"kernel/power/user.c", "line":37, "type":"d", }
+,{"id":"SNAPSHOT_UNFREEZE", "file":"include/linux/suspend_ioctls.h", "line":17, "type":"d", }
+,{"id":"SNDCARD_ADLIB", "file":"include/linux/soundcard.h", "line":53, "type":"d", }
+,{"id":"SNDCARD_CS4232", "file":"include/linux/soundcard.h", "line":73, "type":"d", }
+,{"id":"SNDCARD_CS4232_MPU", "file":"include/linux/soundcard.h", "line":74, "type":"d", }
+,{"id":"SNDCARD_GUS", "file":"include/linux/soundcard.h", "line":56, "type":"d", }
+,{"id":"SNDCARD_GUS16", "file":"include/linux/soundcard.h", "line":61, "type":"d", }
+,{"id":"SNDCARD_GUSPNP", "file":"include/linux/soundcard.h", "line":77, "type":"d", }
+,{"id":"SNDCARD_MAD16", "file":"include/linux/soundcard.h", "line":71, "type":"d", }
+,{"id":"SNDCARD_MAD16_MPU", "file":"include/linux/soundcard.h", "line":72, "type":"d", }
+,{"id":"SNDCARD_MAUI", "file":"include/linux/soundcard.h", "line":75, "type":"d", }
+,{"id":"SNDCARD_MPU401", "file":"include/linux/soundcard.h", "line":57, "type":"d", }
+,{"id":"SNDCARD_MSS", "file":"include/linux/soundcard.h", "line":62, "type":"d", }
+,{"id":"SNDCARD_PAS", "file":"include/linux/soundcard.h", "line":55, "type":"d", }
+,{"id":"SNDCARD_PSEUDO_MSS", "file":"include/linux/soundcard.h", "line":76, "type":"d", }
+,{"id":"SNDCARD_PSS", "file":"include/linux/soundcard.h", "line":63, "type":"d", }
+,{"id":"SNDCARD_PSS_MPU", "file":"include/linux/soundcard.h", "line":65, "type":"d", }
+,{"id":"SNDCARD_PSS_MSS", "file":"include/linux/soundcard.h", "line":66, "type":"d", }
+,{"id":"SNDCARD_SB", "file":"include/linux/soundcard.h", "line":54, "type":"d", }
+,{"id":"SNDCARD_SB16", "file":"include/linux/soundcard.h", "line":58, "type":"d", }
+,{"id":"SNDCARD_SB16MIDI", "file":"include/linux/soundcard.h", "line":59, "type":"d", }
+,{"id":"SNDCARD_SSCAPE", "file":"include/linux/soundcard.h", "line":64, "type":"d", }
+,{"id":"SNDCARD_SSCAPE_MSS", "file":"include/linux/soundcard.h", "line":67, "type":"d", }
+,{"id":"SNDCARD_TRXPRO", "file":"include/linux/soundcard.h", "line":68, "type":"d", }
+,{"id":"SNDCARD_TRXPRO_MPU", "file":"include/linux/soundcard.h", "line":70, "type":"d", }
+,{"id":"SNDCARD_TRXPRO_SB", "file":"include/linux/soundcard.h", "line":69, "type":"d", }
+,{"id":"SNDCARD_UART401", "file":"include/linux/soundcard.h", "line":78, "type":"d", }
+,{"id":"SNDCARD_UART6850", "file":"include/linux/soundcard.h", "line":60, "type":"d", }
+,{"id":"SNDCTL_COPR_HALT", "file":"include/linux/soundcard.h", "line":737, "type":"d", }
+,{"id":"SNDCTL_COPR_LOAD", "file":"include/linux/soundcard.h", "line":731, "type":"d", }
+,{"id":"SNDCTL_COPR_RCODE", "file":"include/linux/soundcard.h", "line":733, "type":"d", }
+,{"id":"SNDCTL_COPR_RCVMSG", "file":"include/linux/soundcard.h", "line":739, "type":"d", }
+,{"id":"SNDCTL_COPR_RDATA", "file":"include/linux/soundcard.h", "line":732, "type":"d", }
+,{"id":"SNDCTL_COPR_RESET", "file":"include/linux/soundcard.h", "line":730, "type":"d", }
+,{"id":"SNDCTL_COPR_RUN", "file":"include/linux/soundcard.h", "line":736, "type":"d", }
+,{"id":"SNDCTL_COPR_SENDMSG", "file":"include/linux/soundcard.h", "line":738, "type":"d", }
+,{"id":"SNDCTL_COPR_WCODE", "file":"include/linux/soundcard.h", "line":735, "type":"d", }
+,{"id":"SNDCTL_COPR_WDATA", "file":"include/linux/soundcard.h", "line":734, "type":"d", }
+,{"id":"SNDCTL_DSP_BIND_CHANNEL", "file":"include/linux/soundcard.h", "line":634, "type":"d", }
+,{"id":"SNDCTL_DSP_CHANNELS", "file":"include/linux/soundcard.h", "line":554, "type":"d", }
+,{"id":"SNDCTL_DSP_GETBLKSIZE", "file":"include/linux/soundcard.h", "line":552, "type":"d", }
+,{"id":"SNDCTL_DSP_GETCAPS", "file":"include/linux/soundcard.h", "line":592, "type":"d", }
+,{"id":"SNDCTL_DSP_GETCHANNELMASK", "file":"include/linux/soundcard.h", "line":633, "type":"d", }
+,{"id":"SNDCTL_DSP_GETFMTS", "file":"include/linux/soundcard.h", "line":562, "type":"d", }
+,{"id":"SNDCTL_DSP_GETIPTR", "file":"include/linux/soundcard.h", "line":620, "type":"d", }
+,{"id":"SNDCTL_DSP_GETISPACE", "file":"include/linux/soundcard.h", "line":590, "type":"d", }
+,{"id":"SNDCTL_DSP_GETODELAY", "file":"include/linux/soundcard.h", "line":631, "type":"d", }
+,{"id":"SNDCTL_DSP_GETOPTR", "file":"include/linux/soundcard.h", "line":621, "type":"d", }
+,{"id":"SNDCTL_DSP_GETOSPACE", "file":"include/linux/soundcard.h", "line":589, "type":"d", }
+,{"id":"SNDCTL_DSP_GETSPDIF", "file":"include/linux/soundcard.h", "line":647, "type":"d", }
+,{"id":"SNDCTL_DSP_GETTRIGGER", "file":"include/linux/soundcard.h", "line":609, "type":"d", }
+,{"id":"SNDCTL_DSP_MAPINBUF", "file":"include/linux/soundcard.h", "line":627, "type":"d", }
+,{"id":"SNDCTL_DSP_MAPOUTBUF", "file":"include/linux/soundcard.h", "line":628, "type":"d", }
+,{"id":"SNDCTL_DSP_NONBLOCK", "file":"include/linux/soundcard.h", "line":591, "type":"d", }
+,{"id":"SNDCTL_DSP_POST", "file":"include/linux/soundcard.h", "line":557, "type":"d", }
+,{"id":"SNDCTL_DSP_PROFILE", "file":"include/linux/soundcard.h", "line":668, "type":"d", }
+,{"id":"SNDCTL_DSP_RESET", "file":"include/linux/soundcard.h", "line":548, "type":"d", }
+,{"id":"SNDCTL_DSP_SAMPLESIZE", "file":"include/linux/soundcard.h", "line":553, "type":"d", }
+,{"id":"SNDCTL_DSP_SETDUPLEX", "file":"include/linux/soundcard.h", "line":630, "type":"d", }
+,{"id":"SNDCTL_DSP_SETFMT", "file":"include/linux/soundcard.h", "line":563, "type":"d", }
+,{"id":"SNDCTL_DSP_SETFRAGMENT", "file":"include/linux/soundcard.h", "line":559, "type":"d", }
+,{"id":"SNDCTL_DSP_SETSPDIF", "file":"include/linux/soundcard.h", "line":646, "type":"d", }
+,{"id":"SNDCTL_DSP_SETSYNCRO", "file":"include/linux/soundcard.h", "line":629, "type":"d", }
+,{"id":"SNDCTL_DSP_SETTRIGGER", "file":"include/linux/soundcard.h", "line":610, "type":"d", }
+,];
+xr_frag_insert('t/96/703600230e5a9d9fb29ddff0592f25275dcf20.xr', __xr_tmp);

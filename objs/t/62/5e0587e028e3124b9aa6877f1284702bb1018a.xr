@@ -1,0 +1,113 @@
+var __xr_tmp = [
+{"id":"task_lock", "file":"kernel/cpuset.c", "line":2572, "type":"c", "scope_line":2570, "scope_name":"__cpuset_memory_pressure_bump", }
+,{"id":"task_lock", "file":"kernel/cpuset.c", "line":963, "type":"c", "scope_line":950, "scope_name":"cpuset_change_task_nodemask", }
+,{"id":"task_lock", "file":"kernel/exit.c", "line":501, "type":"c", "scope_line":497, "scope_name":"get_files_struct", }
+,{"id":"task_lock", "file":"kernel/exit.c", "line":537, "type":"c", "scope_line":531, "scope_name":"reset_files_struct", }
+,{"id":"task_lock", "file":"kernel/exit.c", "line":548, "type":"c", "scope_line":543, "scope_name":"exit_files", }
+,{"id":"task_lock", "file":"kernel/exit.c", "line":623, "type":"c", "scope_line":573, "scope_name":"mm_update_next_owner", }
+,{"id":"task_lock", "file":"kernel/exit.c", "line":686, "type":"c", "scope_line":644, "scope_name":"exit_mm", }
+,{"id":"task_lock", "file":"kernel/exit.c", "line":998, "type":"c", "scope_line":892, "scope_name":"do_exit", }
+,{"id":"task_lock", "file":"kernel/fork.c", "line":1678, "type":"c", "scope_line":1625, "scope_name":"sys_unshare", }
+,{"id":"task_lock", "file":"kernel/fork.c", "line":1752, "type":"c", "scope_line":1740, "scope_name":"unshare_files", }
+,{"id":"task_lock", "file":"kernel/fork.c", "line":570, "type":"c", "scope_line":566, "scope_name":"get_task_mm", }
+,{"id":"task_lock", "file":"kernel/fork.c", "line":896, "type":"c", "scope_line":871, "scope_name":"copy_signal", }
+,{"id":"task_lock", "file":"kernel/freezer.c", "line":152, "type":"c", "scope_line":150, "scope_name":"thaw_process", }
+,{"id":"task_lock", "file":"kernel/freezer.c", "line":32, "type":"c", "scope_line":26, "scope_name":"refrigerator", }
+,{"id":"task_lock", "file":"kernel/power/process.c", "line":109, "type":"c", "scope_line":34, "scope_name":"try_to_freeze_tasks", }
+,{"id":"task_lock", "file":"kernel/ptrace.c", "line":160, "type":"c", "scope_line":157, "scope_name":"ptrace_may_access", }
+,{"id":"task_lock", "file":"kernel/ptrace.c", "line":187, "type":"c", "scope_line":166, "scope_name":"ptrace_attach", }
+,{"id":"task_lock", "file":"kernel/sys.c", "line":1264, "type":"c", "scope_line":1257, "scope_name":"sys_old_getrlimit", }
+,{"id":"task_lock", "file":"kernel/sys.c", "line":1334, "type":"c", "scope_line":1310, "scope_name":"do_prlimit", }
+,{"id":"task_lock", "file":"mm/mempolicy.c", "line":1129, "type":"c", "scope_line":1073, "scope_name":"do_mbind", }
+,{"id":"task_lock", "file":"mm/mempolicy.c", "line":1701, "type":"c", "scope_line":1693, "scope_name":"init_nodemask_of_mempolicy", }
+,{"id":"task_lock", "file":"mm/mempolicy.c", "line":1745, "type":"c", "scope_line":1737, "scope_name":"mempolicy_nodemask_intersects", }
+,{"id":"task_lock", "file":"mm/mempolicy.c", "line":1907, "type":"c", "scope_line":1898, "scope_name":"__mpol_dup", }
+,{"id":"task_lock", "file":"mm/mempolicy.c", "line":2159, "type":"c", "scope_line":2140, "scope_name":"mpol_shared_policy_init", }
+,{"id":"task_lock", "file":"mm/mempolicy.c", "line":2409, "type":"c", "scope_line":2310, "scope_name":"mpol_parse_str", }
+,{"id":"task_lock", "file":"mm/mempolicy.c", "line":736, "type":"c", "scope_line":712, "scope_name":"do_set_mempolicy", }
+,{"id":"task_lock", "file":"mm/mempolicy.c", "line":819, "type":"c", "scope_line":803, "scope_name":"do_get_mempolicy", }
+,{"id":"task_lock", "file":"mm/mempolicy.c", "line":880, "type":"c", "scope_line":803, "scope_name":"do_get_mempolicy", }
+,{"id":"task_lock", "file":"mm/mmu_context.c", "line":28, "type":"c", "scope_line":23, "scope_name":"use_mm", }
+,{"id":"task_lock", "file":"mm/mmu_context.c", "line":55, "type":"c", "scope_line":51, "scope_name":"unuse_mm", }
+,{"id":"task_lock", "file":"mm/oom_kill.c", "line":114, "type":"c", "scope_line":109, "scope_name":"find_lock_task_mm", }
+,{"id":"task_lock", "file":"mm/oom_kill.c", "line":389, "type":"c", "scope_line":386, "scope_name":"dump_header", }
+,{"id":"task_lock", "file":"mm/oom_kill.c", "line":454, "type":"c", "scope_line":431, "scope_name":"oom_kill_process", }
+,{"id":"task_lock", "file":"security/selinux/hooks.c", "line":2291, "type":"c", "scope_line":2261, "scope_name":"selinux_bprm_committing_creds", }
+,{"id":"task_lock", "file":"security/selinux/hooks.c", "line":5238, "type":"c", "scope_line":5141, "scope_name":"selinux_setprocattr", }
+,{"id":"task_mem", "file":"fs/proc/array.c", "line":349, "type":"c", "scope_line":340, "scope_name":"proc_pid_status", }
+,{"id":"task_mem", "file":"fs/proc/task_mmu.c", "line":18, "type":"f", }
+,{"id":"task_movememory", "file":"include/linux/security.h", "line":1507, "type":"m", "scope_line":1363, "scope_name":"struct security_operations", }
+,{"id":"task_name", "file":"fs/proc/array.c", "line":345, "type":"c", "scope_line":340, "scope_name":"proc_pid_status", }
+,{"id":"task_name", "file":"fs/proc/array.c", "line":89, "type":"f", }
+,{"id":"task_nice", "file":"fs/binfmt_elf.c", "line":1334, "type":"c", "scope_line":1303, "scope_name":"fill_psinfo", }
+,{"id":"task_nice", "file":"fs/proc/array.c", "line":458, "type":"c", "scope_line":363, "scope_name":"do_task_stat", }
+,{"id":"task_nice", "file":"fs/select.c", "line":55, "type":"c", "scope_line":47, "scope_name":"__estimate_accuracy", }
+,{"id":"task_nice", "file":"include/linux/ioprio.h", "line":67, "type":"c", "scope_line":65, "scope_name":"task_nice_ioprio", }
+,{"id":"task_nice", "file":"kernel/exit.c", "line":342, "type":"c", "scope_line":330, "scope_name":"reparent_to_kthreadd", }
+,{"id":"task_nice", "file":"kernel/sched.c", "line":4509, "type":"f", }
+,{"id":"task_nice", "file":"kernel/sys.c", "line":133, "type":"c", "scope_line":123, "scope_name":"set_one_prio", }
+,{"id":"task_nice", "file":"kernel/sys.c", "line":236, "type":"c", "scope_line":216, "scope_name":"sys_getpriority", }
+,{"id":"task_nice", "file":"kernel/sys.c", "line":247, "type":"c", "scope_line":216, "scope_name":"sys_getpriority", }
+,{"id":"task_nice", "file":"kernel/sys.c", "line":262, "type":"c", "scope_line":216, "scope_name":"sys_getpriority", }
+,{"id":"task_nice", "file":"kernel/tsacct.c", "line":56, "type":"c", "scope_line":29, "scope_name":"bacct_add_tsk", }
+,{"id":"task_nice_ioclass", "file":"block/cfq-iosched.c", "line":2770, "type":"c", "scope_line":2753, "scope_name":"cfq_init_prio_data", }
+,{"id":"task_nice_ioclass", "file":"include/linux/ioprio.h", "line":74, "type":"f", }
+,{"id":"task_nice_ioprio", "file":"block/cfq-iosched.c", "line":2769, "type":"c", "scope_line":2753, "scope_name":"cfq_init_prio_data", }
+,{"id":"task_nice_ioprio", "file":"include/linux/ioprio.h", "line":65, "type":"f", }
+,{"id":"task_no_data_intr", "file":"drivers/ide/ide-taskfile.c", "line":147, "type":"f", }
+,{"id":"task_nsproxy", "file":"fs/proc/base.c", "line":593, "type":"c", "scope_line":581, "scope_name":"mounts_open_common", }
+,{"id":"task_nsproxy", "file":"fs/proc/proc_net.c", "line":112, "type":"c", "scope_line":103, "scope_name":"get_proc_task_net", }
+,{"id":"task_nsproxy", "file":"include/linux/nsproxy.h", "line":60, "type":"f", }
+,{"id":"task_nsproxy", "file":"net/core/net_namespace.c", "line":335, "type":"c", "scope_line":324, "scope_name":"get_net_ns_by_pid", }
+,{"id":"task_of", "file":"kernel/sched_fair.c", "line":109, "type":"f", }
+,{"id":"task_of", "file":"kernel/sched_fair.c", "line":1633, "type":"c", "scope_line":1631, "scope_name":"set_last_buddy", }
+,{"id":"task_of", "file":"kernel/sched_fair.c", "line":1641, "type":"c", "scope_line":1639, "scope_name":"set_next_buddy", }
+,{"id":"task_of", "file":"kernel/sched_fair.c", "line":1731, "type":"c", "scope_line":1716, "scope_name":"pick_next_task_fair", }
+,{"id":"task_of", "file":"kernel/sched_fair.c", "line":541, "type":"c", "scope_line":519, "scope_name":"update_curr", }
+,{"id":"task_of", "file":"kernel/sched_fair.c", "line":578, "type":"c", "scope_line":568, "scope_name":"update_stats_wait_end", }
+,{"id":"task_of", "file":"kernel/sched_fair.c", "line":659, "type":"c", "scope_line":653, "scope_name":"enqueue_sleeper", }
+,{"id":"task_of", "file":"kernel/sched_fair.c", "line":814, "type":"c", "scope_line":802, "scope_name":"dequeue_entity", }
+,{"id":"task_oncpu_function_call", "file":"kernel/perf_event.c", "line":1046, "type":"c", "scope_line":1016, "scope_name":"perf_event_enable", }
+,{"id":"task_oncpu_function_call", "file":"kernel/perf_event.c", "line":547, "type":"c", "scope_line":530, "scope_name":"perf_event_remove_from_context", }
+,{"id":"task_oncpu_function_call", "file":"kernel/perf_event.c", "line":632, "type":"c", "scope_line":617, "scope_name":"perf_event_disable", }
+,{"id":"task_oncpu_function_call", "file":"kernel/perf_event.c", "line":897, "type":"c", "scope_line":879, "scope_name":"perf_install_in_context", }
+,{"id":"task_oncpu_function_call", "file":"kernel/sched.c", "line":2207, "type":"f", }
+,{"id":"task_pgrp", "file":"drivers/char/n_tty.c", "line":1682, "type":"c", "scope_line":1671, "scope_name":"job_control", }
+,{"id":"task_pgrp", "file":"drivers/char/n_tty.c", "line":1686, "type":"c", "scope_line":1671, "scope_name":"job_control", }
+,{"id":"task_pgrp", "file":"drivers/char/tty_io.c", "line":3087, "type":"c", "scope_line":3079, "scope_name":"__proc_set_tty", }
+,{"id":"task_pgrp", "file":"drivers/char/tty_io.c", "line":397, "type":"c", "scope_line":383, "scope_name":"tty_check_change", }
+,{"id":"task_pgrp", "file":"drivers/char/tty_io.c", "line":406, "type":"c", "scope_line":383, "scope_name":"tty_check_change", }
+,{"id":"task_pgrp", "file":"fs/ioprio.c", "line":123, "type":"c", "scope_line":76, "scope_name":"sys_ioprio_set", }
+,{"id":"task_pgrp", "file":"fs/ioprio.c", "line":212, "type":"c", "scope_line":192, "scope_name":"sys_ioprio_get", }
+,{"id":"task_pgrp", "file":"include/linux/sched.h", "line":1548, "type":"f", }
+,{"id":"task_pgrp", "file":"kernel/exit.c", "line":254, "type":"c", "scope_line":244, "scope_name":"will_become_orphaned_pgrp", }
+,{"id":"task_pgrp", "file":"kernel/exit.c", "line":267, "type":"c", "scope_line":262, "scope_name":"is_current_pgrp_orphaned", }
+,{"id":"task_pgrp", "file":"kernel/exit.c", "line":295, "type":"c", "scope_line":292, "scope_name":"kill_orphaned_pgrp", }
+,{"id":"task_pgrp", "file":"kernel/exit.c", "line":309, "type":"c", "scope_line":292, "scope_name":"kill_orphaned_pgrp", }
+,{"id":"task_pgrp", "file":"kernel/exit.c", "line":362, "type":"c", "scope_line":355, "scope_name":"__set_special_pids", }
+,{"id":"task_pgrp", "file":"kernel/fork.c", "line":1275, "type":"c", "scope_line":965, "scope_name":"copy_process", }
+,{"id":"task_pgrp", "file":"kernel/signal.c", "line":1261, "type":"c", "scope_line":1248, "scope_name":"kill_something_info", }
+,{"id":"task_pgrp", "file":"kernel/sys.c", "line":1000, "type":"c", "scope_line":992, "scope_name":"sys_getpgid", }
+,{"id":"task_pgrp", "file":"kernel/sys.c", "line":1006, "type":"c", "scope_line":992, "scope_name":"sys_getpgid", }
+,{"id":"task_pgrp", "file":"kernel/sys.c", "line":182, "type":"c", "scope_line":149, "scope_name":"sys_setpriority", }
+,{"id":"task_pgrp", "file":"kernel/sys.c", "line":245, "type":"c", "scope_line":216, "scope_name":"sys_getpriority", }
+,{"id":"task_pgrp", "file":"kernel/sys.c", "line":981, "type":"c", "scope_line":921, "scope_name":"sys_setpgid", }
+,{"id":"task_pgrp_nr", "file":"include/linux/sched.h", "line":1630, "type":"f", }
+,{"id":"task_pgrp_nr_ns", "file":"fs/proc/array.c", "line":441, "type":"c", "scope_line":363, "scope_name":"do_task_stat", }
+,{"id":"task_pgrp_nr_ns", "file":"include/linux/sched.h", "line":1606, "type":"f", }
+,{"id":"task_pgrp_nr_ns", "file":"include/linux/sched.h", "line":1632, "type":"c", "scope_line":1630, "scope_name":"task_pgrp_nr", }
+,{"id":"task_pgrp_vnr", "file":"fs/binfmt_elf.c", "line":1283, "type":"c", "scope_line":1273, "scope_name":"fill_prstatus", }
+,{"id":"task_pgrp_vnr", "file":"fs/binfmt_elf.c", "line":1327, "type":"c", "scope_line":1303, "scope_name":"fill_psinfo", }
+,{"id":"task_pgrp_vnr", "file":"include/linux/sched.h", "line":1612, "type":"f", }
+,{"id":"task_pid", "file":"drivers/char/tty_io.c", "line":1992, "type":"c", "scope_line":1969, "scope_name":"__tty_fasync", }
+,{"id":"task_pid", "file":"drivers/char/vt_ioctl.c", "line":1003, "type":"c", "scope_line":498, "scope_name":"vt_ioctl", }
+,{"id":"task_pid", "file":"drivers/char/vt_ioctl.c", "line":874, "type":"c", "scope_line":498, "scope_name":"vt_ioctl", }
+,{"id":"task_pid", "file":"drivers/char/vt_ioctl.c", "line":900, "type":"c", "scope_line":498, "scope_name":"vt_ioctl", }
+,{"id":"task_pid", "file":"drivers/net/tun.c", "line":1442, "type":"c", "scope_line":1428, "scope_name":"tun_chr_fasync", }
+,{"id":"task_pid", "file":"fs/exec.c", "line":862, "type":"c", "scope_line":781, "scope_name":"de_thread", }
+,{"id":"task_pid", "file":"fs/locks.c", "line":1517, "type":"c", "scope_line":1491, "scope_name":"fcntl_setlease", }
+,{"id":"task_pid", "file":"fs/notify/dnotify/dnotify.c", "line":366, "type":"c", "scope_line":271, "scope_name":"fcntl_dirnotify", }
+,{"id":"task_pid", "file":"fs/proc/base.c", "line":2060, "type":"c", "scope_line":2053, "scope_name":"proc_fd_permission", }
+,{"id":"task_pid", "file":"fs/proc/base.c", "line":2841, "type":"c", "scope_line":2835, "scope_name":"proc_flush_task", }
+,];
+xr_frag_insert('t/62/5e0587e028e3124b9aa6877f1284702bb1018a.xr', __xr_tmp);

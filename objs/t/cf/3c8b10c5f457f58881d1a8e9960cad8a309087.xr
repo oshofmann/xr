@@ -1,0 +1,138 @@
+var __xr_tmp = [
+{"id":"zone_padding", "file":"include/linux/mmzone.h", "line":71, "type":"s", }
+,{"id":"zone_page_state", "file":"include/linux/vmstat.h", "line":162, "type":"f", }
+,{"id":"zone_page_state", "file":"include/linux/vmstat.h", "line":209, "type":"c", "scope_line":204, "scope_name":"node_page_state", }
+,{"id":"zone_page_state", "file":"kernel/power/snapshot.c", "line":1311, "type":"c", "scope_line":1274, "scope_name":"hibernate_preallocate_memory", }
+,{"id":"zone_page_state", "file":"kernel/power/snapshot.c", "line":1313, "type":"c", "scope_line":1274, "scope_name":"hibernate_preallocate_memory", }
+,{"id":"zone_page_state", "file":"kernel/power/snapshot.c", "line":1448, "type":"c", "scope_line":1441, "scope_name":"enough_free_mem", }
+,{"id":"zone_page_state", "file":"mm/mmzone.c", "line":95, "type":"c", "scope_line":93, "scope_name":"zone_nr_free_pages", }
+,{"id":"zone_page_state", "file":"mm/page_alloc.c", "line":2410, "type":"c", "scope_line":2362, "scope_name":"show_free_areas", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":1146, "type":"c", "scope_line":1134, "scope_name":"too_many_isolated", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":1147, "type":"c", "scope_line":1134, "scope_name":"too_many_isolated", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":1149, "type":"c", "scope_line":1134, "scope_name":"too_many_isolated", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":1150, "type":"c", "scope_line":1134, "scope_name":"too_many_isolated", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":1513, "type":"c", "scope_line":1509, "scope_name":"inactive_anon_is_low_global", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":1514, "type":"c", "scope_line":1509, "scope_name":"inactive_anon_is_low_global", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":1545, "type":"c", "scope_line":1541, "scope_name":"inactive_file_is_low_global", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":1546, "type":"c", "scope_line":1541, "scope_name":"inactive_file_is_low_global", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":157, "type":"c", "scope_line":151, "scope_name":"zone_nr_lru_pages", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":1654, "type":"c", "scope_line":1628, "scope_name":"get_scan_count", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":2458, "type":"c", "scope_line":2454, "scope_name":"zone_reclaimable_pages", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":2462, "type":"c", "scope_line":2454, "scope_name":"zone_reclaimable_pages", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":2614, "type":"c", "scope_line":2612, "scope_name":"zone_unmapped_file_pages", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":2615, "type":"c", "scope_line":2612, "scope_name":"zone_unmapped_file_pages", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":2639, "type":"c", "scope_line":2627, "scope_name":"zone_pagecache_reclaimable", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":2645, "type":"c", "scope_line":2627, "scope_name":"zone_pagecache_reclaimable", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":2699, "type":"c", "scope_line":2657, "scope_name":"__zone_reclaim", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":2719, "type":"c", "scope_line":2657, "scope_name":"__zone_reclaim", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":2729, "type":"c", "scope_line":2657, "scope_name":"__zone_reclaim", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":2755, "type":"c", "scope_line":2740, "scope_name":"zone_reclaim", }
+,{"id":"zone_page_state", "file":"mm/vmscan.c", "line":2924, "type":"c", "scope_line":2920, "scope_name":"scan_zone_unevictable_pages", }
+,{"id":"zone_page_state", "file":"mm/vmstat.c", "line":838, "type":"c", "scope_line":816, "scope_name":"zoneinfo_show_print", }
+,{"id":"zone_page_state_add", "file":"include/linux/vmstat.h", "line":145, "type":"f", }
+,{"id":"zone_page_state_add", "file":"mm/vmstat.c", "line":176, "type":"c", "scope_line":165, "scope_name":"__mod_zone_page_state", }
+,{"id":"zone_page_state_add", "file":"mm/vmstat.c", "line":230, "type":"c", "scope_line":220, "scope_name":"__inc_zone_state", }
+,{"id":"zone_page_state_add", "file":"mm/vmstat.c", "line":251, "type":"c", "scope_line":241, "scope_name":"__dec_zone_state", }
+,{"id":"zone_page_state_snapshot", "file":"include/linux/vmstat.h", "line":179, "type":"f", }
+,{"id":"zone_page_state_snapshot", "file":"mm/mmzone.c", "line":106, "type":"c", "scope_line":93, "scope_name":"zone_nr_free_pages", }
+,{"id":"zone_pagecache_reclaimable", "file":"mm/vmscan.c", "line":2627, "type":"f", }
+,{"id":"zone_pagecache_reclaimable", "file":"mm/vmscan.c", "line":2687, "type":"c", "scope_line":2657, "scope_name":"__zone_reclaim", }
+,{"id":"zone_pagecache_reclaimable", "file":"mm/vmscan.c", "line":2755, "type":"c", "scope_line":2740, "scope_name":"zone_reclaim", }
+,{"id":"zone_pcp_init", "file":"mm/page_alloc.c", "line":3488, "type":"f", }
+,{"id":"zone_pcp_init", "file":"mm/page_alloc.c", "line":4116, "type":"c", "scope_line":4050, "scope_name":"free_area_init_core", }
+,{"id":"zone_pcp_update", "file":"mm/memory_hotplug.c", "line":437, "type":"c", "scope_line":384, "scope_name":"online_pages", }
+,{"id":"zone_pcp_update", "file":"mm/page_alloc.c", "line":3483, "type":"f", }
+,{"id":"zone_pgdat", "file":"include/linux/mmzone.h", "line":398, "type":"m", "scope_line":280, "scope_name":"struct zone", }
+,{"id":"zone_reclaim", "file":"mm/page_alloc.c", "line":1653, "type":"c", "scope_line":1612, "scope_name":"get_page_from_freelist", }
+,{"id":"zone_reclaim", "file":"mm/vmscan.c", "line":2740, "type":"f", }
+,{"id":"zone_reclaim_mode", "file":"include/linux/swap.h", "line":256, "type":"v", }
+,{"id":"zone_reclaim_stat", "file":"include/linux/mmzone.h", "line":262, "type":"s", }
+,{"id":"zone_reclaimable", "file":"mm/vmscan.c", "line":1832, "type":"f", }
+,{"id":"zone_reclaimable", "file":"mm/vmscan.c", "line":1855, "type":"c", "scope_line":1842, "scope_name":"all_unreclaimable", }
+,{"id":"zone_reclaimable", "file":"mm/vmscan.c", "line":2228, "type":"c", "scope_line":2114, "scope_name":"balance_pgdat", }
+,{"id":"zone_reclaimable_pages", "file":"mm/vmscan.c", "line":1834, "type":"c", "scope_line":1832, "scope_name":"zone_reclaimable", }
+,{"id":"zone_reclaimable_pages", "file":"mm/vmscan.c", "line":1912, "type":"c", "scope_line":1880, "scope_name":"do_try_to_free_pages", }
+,{"id":"zone_reclaimable_pages", "file":"mm/vmscan.c", "line":2184, "type":"c", "scope_line":2114, "scope_name":"balance_pgdat", }
+,{"id":"zone_reclaimable_pages", "file":"mm/vmscan.c", "line":2454, "type":"f", }
+,{"id":"zone_reclaimable_pages", "file":"mm/vmscan.c", "line":2712, "type":"c", "scope_line":2657, "scope_name":"__zone_reclaim", }
+,{"id":"zone_scan_lock", "file":"mm/oom_kill.c", "line":38, "type":"v", }
+,{"id":"zone_seqlock_init", "file":"include/linux/memory_hotplug.h", "line":60, "type":"f", }
+,{"id":"zone_seqlock_init", "file":"mm/page_alloc.c", "line":4113, "type":"c", "scope_line":4050, "scope_name":"free_area_init_core", }
+,{"id":"zone_set_flag", "file":"include/linux/mmzone.h", "line":426, "type":"f", }
+,{"id":"zone_set_flag", "file":"mm/oom_kill.c", "line":570, "type":"c", "scope_line":550, "scope_name":"try_set_zonelist_oom", }
+,{"id":"zone_set_flag", "file":"mm/oom_kill.c", "line":612, "type":"c", "scope_line":600, "scope_name":"try_set_system_oom", }
+,{"id":"zone_span_seqbegin", "file":"include/linux/memory_hotplug.h", "line":44, "type":"f", }
+,{"id":"zone_span_seqretry", "file":"include/linux/memory_hotplug.h", "line":48, "type":"f", }
+,{"id":"zone_span_writelock", "file":"include/linux/memory_hotplug.h", "line":52, "type":"f", }
+,{"id":"zone_span_writelock", "file":"mm/memory_hotplug.c", "line":172, "type":"c", "scope_line":167, "scope_name":"grow_zone_span", }
+,{"id":"zone_span_writeunlock", "file":"include/linux/memory_hotplug.h", "line":56, "type":"f", }
+,{"id":"zone_span_writeunlock", "file":"mm/memory_hotplug.c", "line":181, "type":"c", "scope_line":167, "scope_name":"grow_zone_span", }
+,{"id":"zone_spanned_pages_in_node", "file":"mm/page_alloc.c", "line":3820, "type":"f", }
+,{"id":"zone_spanned_pages_in_node", "file":"mm/page_alloc.c", "line":3957, "type":"c", "scope_line":3950, "scope_name":"calculate_node_totalpages", }
+,{"id":"zone_spanned_pages_in_node", "file":"mm/page_alloc.c", "line":4069, "type":"c", "scope_line":4050, "scope_name":"free_area_init_core", }
+,{"id":"zone_start_pfn", "file":"include/linux/mmzone.h", "line":400, "type":"m", "scope_line":280, "scope_name":"struct zone", }
+,{"id":"zone_stat_item", "file":"include/linux/mmzone.h", "line":79, "type":"t", }
+,{"id":"zone_statistics", "file":"mm/page_alloc.c", "line":1335, "type":"c", "scope_line":1280, "scope_name":"buffered_rmqueue", }
+,{"id":"zone_statistics", "file":"mm/vmstat.c", "line":381, "type":"f", }
+,{"id":"zone_test_and_set_flag", "file":"include/linux/mmzone.h", "line":431, "type":"f", }
+,{"id":"zone_test_and_set_flag", "file":"mm/vmscan.c", "line":2778, "type":"c", "scope_line":2740, "scope_name":"zone_reclaim", }
+,{"id":"zone_to_nid", "file":"include/linux/cpuset.h", "line":48, "type":"c", "scope_line":46, "scope_name":"cpuset_zone_allowed_softwall", }
+,{"id":"zone_to_nid", "file":"include/linux/cpuset.h", "line":53, "type":"c", "scope_line":51, "scope_name":"cpuset_zone_allowed_hardwall", }
+,{"id":"zone_to_nid", "file":"include/linux/mm.h", "line":540, "type":"f", }
+,{"id":"zone_to_nid", "file":"mm/hugetlb.c", "line":499, "type":"c", "scope_line":469, "scope_name":"dequeue_huge_page_vma", }
+,{"id":"zone_to_nid", "file":"mm/memcontrol.c", "line":2880, "type":"c", "scope_line":2867, "scope_name":"mem_cgroup_soft_limit_reclaim", }
+,{"id":"zone_to_nid", "file":"mm/memcontrol.c", "line":922, "type":"c", "scope_line":918, "scope_name":"mem_cgroup_zone_nr_pages", }
+,{"id":"zone_to_nid", "file":"mm/memcontrol.c", "line":932, "type":"c", "scope_line":929, "scope_name":"mem_cgroup_get_reclaim_stat", }
+,{"id":"zone_to_nid", "file":"mm/memcontrol.c", "line":977, "type":"c", "scope_line":964, "scope_name":"mem_cgroup_isolate_pages", }
+,{"id":"zone_to_nid", "file":"mm/memory_hotplug.c", "line":443, "type":"c", "scope_line":384, "scope_name":"online_pages", }
+,{"id":"zone_to_nid", "file":"mm/memory_hotplug.c", "line":444, "type":"c", "scope_line":384, "scope_name":"online_pages", }
+,{"id":"zone_to_nid", "file":"mm/memory_hotplug.c", "line":809, "type":"c", "scope_line":786, "scope_name":"offline_pages", }
+,{"id":"zone_to_nid", "file":"mm/page_alloc.c", "line":2320, "type":"c", "scope_line":2317, "scope_name":"show_node", }
+,{"id":"zone_to_nid", "file":"mm/page_alloc.c", "line":3196, "type":"c", "scope_line":3168, "scope_name":"setup_zone_migrate_reserve", }
+,{"id":"zone_to_nid", "file":"mm/page_alloc.c", "line":854, "type":"c", "scope_line":833, "scope_name":"move_freepages", }
+,{"id":"zone_to_nid", "file":"mm/slab.c", "line":3261, "type":"c", "scope_line":3238, "scope_name":"fallback_alloc", }
+,{"id":"zone_to_nid", "file":"mm/vmscan.c", "line":2774, "type":"c", "scope_line":2740, "scope_name":"zone_reclaim", }
+,{"id":"zone_to_nid", "file":"mm/vmstat.c", "line":353, "type":"c", "scope_line":311, "scope_name":"refresh_cpu_vm_stats", }
+,{"id":"zone_type", "file":"include/linux/mmzone.h", "line":191, "type":"t", }
+,{"id":"zone_unmapped_file_pages", "file":"mm/vmscan.c", "line":2612, "type":"f", }
+,{"id":"zone_unmapped_file_pages", "file":"mm/vmscan.c", "line":2641, "type":"c", "scope_line":2627, "scope_name":"zone_pagecache_reclaimable", }
+,{"id":"zone_wait_table_init", "file":"mm/page_alloc.c", "line":3419, "type":"f", }
+,{"id":"zone_wait_table_init", "file":"mm/page_alloc.c", "line":3510, "type":"c", "scope_line":3503, "scope_name":"init_currently_empty_zone", }
+,{"id":"zone_watermark_ok", "file":"mm/page_alloc.c", "line":1253, "type":"c", "scope_line":1240, "scope_name":"split_free_page", }
+,{"id":"zone_watermark_ok", "file":"mm/page_alloc.c", "line":1460, "type":"f", }
+,{"id":"zone_watermark_ok", "file":"mm/page_alloc.c", "line":1646, "type":"c", "scope_line":1612, "scope_name":"get_page_from_freelist", }
+,{"id":"zone_watermark_ok", "file":"mm/page_alloc.c", "line":1663, "type":"c", "scope_line":1612, "scope_name":"get_page_from_freelist", }
+,{"id":"zone_watermark_ok", "file":"mm/vmscan.c", "line":2085, "type":"c", "scope_line":2067, "scope_name":"sleeping_prematurely", }
+,{"id":"zone_watermark_ok", "file":"mm/vmscan.c", "line":2172, "type":"c", "scope_line":2114, "scope_name":"balance_pgdat", }
+,{"id":"zone_watermark_ok", "file":"mm/vmscan.c", "line":2218, "type":"c", "scope_line":2114, "scope_name":"balance_pgdat", }
+,{"id":"zone_watermark_ok", "file":"mm/vmscan.c", "line":2239, "type":"c", "scope_line":2114, "scope_name":"balance_pgdat", }
+,{"id":"zone_watermark_ok", "file":"mm/vmscan.c", "line":2247, "type":"c", "scope_line":2114, "scope_name":"balance_pgdat", }
+,{"id":"zone_watermark_ok", "file":"mm/vmscan.c", "line":2421, "type":"c", "scope_line":2413, "scope_name":"wakeup_kswapd", }
+,{"id":"zone_watermarks", "file":"include/linux/mmzone.h", "line":158, "type":"t", }
+,{"id":"zoneinfo", "file":"mm/memcontrol.c", "line":123, "type":"m", "scope_line":122, "scope_name":"struct mem_cgroup_per_node", }
+,{"id":"zoneinfo_op", "file":"mm/vmstat.c", "line":887, "type":"v", }
+,{"id":"zoneinfo_open", "file":"mm/vmstat.c", "line":895, "type":"f", }
+,{"id":"zoneinfo_show", "file":"mm/vmstat.c", "line":880, "type":"f", }
+,{"id":"zoneinfo_show_print", "file":"mm/vmstat.c", "line":816, "type":"f", }
+,{"id":"zonelist", "file":"include/linux/mmzone.h", "line":574, "type":"s", }
+,{"id":"zonelist_cache", "file":"include/linux/mmzone.h", "line":538, "type":"s", }
+,{"id":"zonelist_node_idx", "file":"include/linux/mmzone.h", "line":830, "type":"f", }
+,{"id":"zonelist_node_idx", "file":"mm/mmzone.c", "line":49, "type":"c", "scope_line":46, "scope_name":"zref_in_nodemask", }
+,{"id":"zonelist_node_idx", "file":"mm/page_alloc.c", "line":2896, "type":"c", "scope_line":2886, "scope_name":"build_zonelist_cache", }
+,{"id":"zonelist_order_name", "file":"mm/page_alloc.c", "line":2545, "type":"v", }
+,{"id":"zonelist_zone", "file":"include/linux/mmzone.h", "line":820, "type":"f", }
+,{"id":"zonelist_zone", "file":"mm/mempolicy.c", "line":1781, "type":"c", "scope_line":1773, "scope_name":"alloc_page_interleave", }
+,{"id":"zonelist_zone", "file":"mm/mmzone.c", "line":73, "type":"c", "scope_line":56, "scope_name":"next_zones_zonelist", }
+,{"id":"zonelist_zone_idx", "file":"include/linux/mmzone.h", "line":825, "type":"f", }
+,{"id":"zonelist_zone_idx", "file":"mm/mmzone.c", "line":66, "type":"c", "scope_line":56, "scope_name":"next_zones_zonelist", }
+,{"id":"zonelist_zone_idx", "file":"mm/mmzone.c", "line":69, "type":"c", "scope_line":56, "scope_name":"next_zones_zonelist", }
+,{"id":"zonelists_mutex", "file":"mm/page_alloc.c", "line":2992, "type":"v", }
+,{"id":"zoneref", "file":"include/linux/mmzone.h", "line":552, "type":"s", }
+,{"id":"zoneref_set_zone", "file":"mm/page_alloc.c", "line":2495, "type":"f", }
+,{"id":"zoneref_set_zone", "file":"mm/page_alloc.c", "line":2518, "type":"c", "scope_line":2506, "scope_name":"build_zonelists_node", }
+,{"id":"zoneref_set_zone", "file":"mm/page_alloc.c", "line":2745, "type":"c", "scope_line":2731, "scope_name":"build_zonelists_in_zone_order", }
+,{"id":"zorro_device_id", "file":"include/linux/mod_devicetable.h", "line":503, "type":"s", }
+,{"id":"zref_in_nodemask", "file":"mm/mmzone.c", "line":46, "type":"f", }
+,{"id":"zref_in_nodemask", "file":"mm/mmzone.c", "line":69, "type":"c", "scope_line":56, "scope_name":"next_zones_zonelist", }
+,];
+xr_frag_insert('t/cf/3c8b10c5f457f58881d1a8e9960cad8a309087.xr', __xr_tmp);

@@ -1,0 +1,21 @@
+var __xr_tmp = [
+"<span class=\"comment\"> */</span>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#ARCH_HAS_DMA_DECLARE_COHERENT_MEMORY\">ARCH_HAS_DMA_DECLARE_COHERENT_MEMORY</a>", 
+"extern int", 
+"<a class=\"id\" href=\"#dma_declare_coherent_memory\">dma_declare_coherent_memory</a>(struct <a class=\"id\" href=\"#device\">device</a> *<a class=\"id\" href=\"#dev\">dev</a>, <a class=\"id\" href=\"#dma_addr_t\">dma_addr_t</a> <a class=\"id\" href=\"#bus_addr\">bus_addr</a>,", 
+"<span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/>    <a class=\"id\" href=\"#dma_addr_t\">dma_addr_t</a> <a class=\"id\" href=\"#device_addr\">device_addr</a>, <a class=\"id\" href=\"#size_t\">size_t</a> <a class=\"id\" href=\"#size\">size</a>, int <a class=\"id\" href=\"#flags\">flags</a>);", 
+"", 
+"extern void", 
+"<a class=\"id\" href=\"#dma_release_declared_memory\">dma_release_declared_memory</a>(struct <a class=\"id\" href=\"#device\">device</a> *<a class=\"id\" href=\"#dev\">dev</a>);", 
+"", 
+"extern void *", 
+"<a class=\"id\" href=\"#dma_mark_declared_memory_occupied\">dma_mark_declared_memory_occupied</a>(struct <a class=\"id\" href=\"#device\">device</a> *<a class=\"id\" href=\"#dev\">dev</a>,", 
+"<span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/>  <a class=\"id\" href=\"#dma_addr_t\">dma_addr_t</a> <a class=\"id\" href=\"#device_addr\">device_addr</a>, <a class=\"id\" href=\"#size_t\">size_t</a> <a class=\"id\" href=\"#size\">size</a>);", 
+"#else", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#dma_alloc_from_coherent\">dma_alloc_from_coherent</a>(<a class=\"id\" href=\"#dev\">dev</a>, <a class=\"id\" href=\"#size\">size</a>, <a class=\"id\" href=\"#handle\">handle</a>, <a class=\"id\" href=\"#ret\">ret</a>) (0)", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#dma_release_from_coherent\">dma_release_from_coherent</a>(<a class=\"id\" href=\"#dev\">dev</a>, <a class=\"id\" href=\"#order\">order</a>, <a class=\"id\" href=\"#vaddr\">vaddr</a>) (0)", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+];
+xr_frag_insert('l/18/03d599e54b8b5e290b8a0f27322672b1210f3c.xr', __xr_tmp);

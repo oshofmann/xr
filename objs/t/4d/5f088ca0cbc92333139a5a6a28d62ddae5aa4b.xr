@@ -1,0 +1,339 @@
+var __xr_tmp = [
+{"id":"acpi_ds_create_operand", "file":"drivers/acpi/acpica/dsutils.c", "line":809, "type":"c", "scope_line":783, "scope_name":"acpi_ds_evaluate_name_path", }
+,{"id":"acpi_ds_create_operand", "file":"drivers/acpi/acpica/dswexec.c", "line":109, "type":"c", "scope_line":88, "scope_name":"acpi_ds_get_predicate_value", }
+,{"id":"acpi_ds_create_operands", "file":"drivers/acpi/acpica/dsopcode.c", "line":1326, "type":"c", "scope_line":1229, "scope_name":"acpi_ds_exec_end_control_op", }
+,{"id":"acpi_ds_create_operands", "file":"drivers/acpi/acpica/dsopcode.c", "line":682, "type":"c", "scope_line":659, "scope_name":"acpi_ds_eval_buffer_field_operands", }
+,{"id":"acpi_ds_create_operands", "file":"drivers/acpi/acpica/dsopcode.c", "line":771, "type":"c", "scope_line":743, "scope_name":"acpi_ds_eval_region_operands", }
+,{"id":"acpi_ds_create_operands", "file":"drivers/acpi/acpica/dsopcode.c", "line":862, "type":"c", "scope_line":834, "scope_name":"acpi_ds_eval_table_region_operands", }
+,{"id":"acpi_ds_create_operands", "file":"drivers/acpi/acpica/dsutils.c", "line":699, "type":"f", }
+,{"id":"acpi_ds_create_operands", "file":"drivers/acpi/acpica/dswexec.c", "line":396, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_create_operands", "file":"drivers/acpi/acpica/dswexec.c", "line":516, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_create_operands", "file":"drivers/acpi/acpica/dswload.c", "line":1125, "type":"c", "scope_line":844, "scope_name":"acpi_ds_load2_end_op", }
+,{"id":"acpi_ds_create_operands", "file":"drivers/acpi/acpica/dswload.c", "line":505, "type":"c", "scope_line":391, "scope_name":"acpi_ds_load1_end_op", }
+,{"id":"acpi_ds_create_operands", "file":"drivers/acpi/acpica/dswload.c", "line":991, "type":"c", "scope_line":844, "scope_name":"acpi_ds_load2_end_op", }
+,{"id":"acpi_ds_create_walk_state", "file":"drivers/acpi/acpica/dsmethod.c", "line":361, "type":"c", "scope_line":320, "scope_name":"acpi_ds_call_control_method", }
+,{"id":"acpi_ds_create_walk_state", "file":"drivers/acpi/acpica/dsopcode.c", "line":112, "type":"c", "scope_line":87, "scope_name":"acpi_ds_execute_arguments", }
+,{"id":"acpi_ds_create_walk_state", "file":"drivers/acpi/acpica/dsopcode.c", "line":153, "type":"c", "scope_line":87, "scope_name":"acpi_ds_execute_arguments", }
+,{"id":"acpi_ds_create_walk_state", "file":"drivers/acpi/acpica/dswstate.c", "line":539, "type":"f", }
+,{"id":"acpi_ds_create_walk_state", "file":"drivers/acpi/acpica/nsparse.c", "line":95, "type":"c", "scope_line":66, "scope_name":"acpi_ns_one_complete_parse", }
+,{"id":"acpi_ds_create_walk_state", "file":"drivers/acpi/acpica/psxface.c", "line":271, "type":"c", "scope_line":216, "scope_name":"acpi_ps_execute_method", }
+,{"id":"acpi_ds_delete_result_if_not_used", "file":"drivers/acpi/acpica/dsutils.c", "line":339, "type":"f", }
+,{"id":"acpi_ds_delete_result_if_not_used", "file":"drivers/acpi/acpica/dswexec.c", "line":725, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/dsmethod.c", "line":431, "type":"c", "scope_line":320, "scope_name":"acpi_ds_call_control_method", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/dsopcode.c", "line":121, "type":"c", "scope_line":87, "scope_name":"acpi_ds_execute_arguments", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/dsopcode.c", "line":164, "type":"c", "scope_line":87, "scope_name":"acpi_ds_execute_arguments", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/dswstate.c", "line":700, "type":"f", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/nsparse.c", "line":103, "type":"c", "scope_line":66, "scope_name":"acpi_ns_one_complete_parse", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/nsparse.c", "line":121, "type":"c", "scope_line":66, "scope_name":"acpi_ns_one_complete_parse", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/nsparse.c", "line":132, "type":"c", "scope_line":66, "scope_name":"acpi_ns_one_complete_parse", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/psparse.c", "line":467, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/psparse.c", "line":687, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/psxface.c", "line":284, "type":"c", "scope_line":216, "scope_name":"acpi_ps_execute_method", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/psxface.c", "line":305, "type":"c", "scope_line":216, "scope_name":"acpi_ps_execute_method", }
+,{"id":"acpi_ds_delete_walk_state", "file":"drivers/acpi/acpica/psxface.c", "line":318, "type":"c", "scope_line":216, "scope_name":"acpi_ps_execute_method", }
+,{"id":"acpi_ds_do_implicit_return", "file":"drivers/acpi/acpica/dsmethod.c", "line":509, "type":"c", "scope_line":451, "scope_name":"acpi_ds_restart_control_method", }
+,{"id":"acpi_ds_do_implicit_return", "file":"drivers/acpi/acpica/dsutils.c", "line":115, "type":"f", }
+,{"id":"acpi_ds_do_implicit_return", "file":"drivers/acpi/acpica/dsutils.c", "line":193, "type":"c", "scope_line":169, "scope_name":"acpi_ds_is_result_used", }
+,{"id":"acpi_ds_do_implicit_return", "file":"drivers/acpi/acpica/dswexec.c", "line":171, "type":"c", "scope_line":88, "scope_name":"acpi_ds_get_predicate_value", }
+,{"id":"acpi_ds_eval_bank_field_operands", "file":"drivers/acpi/acpica/dsopcode.c", "line":1034, "type":"f", }
+,{"id":"acpi_ds_eval_bank_field_operands", "file":"drivers/acpi/acpica/dswexec.c", "line":656, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_eval_buffer_field_operands", "file":"drivers/acpi/acpica/dsopcode.c", "line":659, "type":"f", }
+,{"id":"acpi_ds_eval_buffer_field_operands", "file":"drivers/acpi/acpica/dswexec.c", "line":558, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_eval_data_object_operands", "file":"drivers/acpi/acpica/dsopcode.c", "line":933, "type":"f", }
+,{"id":"acpi_ds_eval_data_object_operands", "file":"drivers/acpi/acpica/dswexec.c", "line":592, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_eval_data_object_operands", "file":"drivers/acpi/acpica/dswexec.c", "line":602, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_eval_region_operands", "file":"drivers/acpi/acpica/dsopcode.c", "line":743, "type":"f", }
+,{"id":"acpi_ds_eval_region_operands", "file":"drivers/acpi/acpica/dswexec.c", "line":634, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_eval_table_region_operands", "file":"drivers/acpi/acpica/dsopcode.c", "line":834, "type":"f", }
+,{"id":"acpi_ds_eval_table_region_operands", "file":"drivers/acpi/acpica/dswexec.c", "line":645, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_evaluate_name_path", "file":"drivers/acpi/acpica/dsutils.c", "line":783, "type":"f", }
+,{"id":"acpi_ds_evaluate_name_path", "file":"drivers/acpi/acpica/dswexec.c", "line":385, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_exec_begin_control_op", "file":"drivers/acpi/acpica/dsopcode.c", "line":1132, "type":"f", }
+,{"id":"acpi_ds_exec_begin_control_op", "file":"drivers/acpi/acpica/dswexec.c", "line":292, "type":"c", "scope_line":212, "scope_name":"acpi_ds_exec_begin_op", }
+,{"id":"acpi_ds_exec_begin_op", "file":"drivers/acpi/acpica/dswexec.c", "line":212, "type":"f", }
+,{"id":"acpi_ds_exec_begin_op", "file":"drivers/acpi/acpica/dswload.c", "line":578, "type":"c", "scope_line":554, "scope_name":"acpi_ds_load2_begin_op", }
+,{"id":"acpi_ds_exec_end_control_op", "file":"drivers/acpi/acpica/dsopcode.c", "line":1229, "type":"f", }
+,{"id":"acpi_ds_exec_end_control_op", "file":"drivers/acpi/acpica/dswexec.c", "line":471, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_exec_end_op", "file":"drivers/acpi/acpica/dswexec.c", "line":341, "type":"f", }
+,{"id":"acpi_ds_execute_arguments", "file":"drivers/acpi/acpica/dsopcode.c", "line":216, "type":"c", "scope_line":191, "scope_name":"acpi_ds_get_buffer_field_arguments", }
+,{"id":"acpi_ds_execute_arguments", "file":"drivers/acpi/acpica/dsopcode.c", "line":260, "type":"c", "scope_line":235, "scope_name":"acpi_ds_get_bank_field_arguments", }
+,{"id":"acpi_ds_execute_arguments", "file":"drivers/acpi/acpica/dsopcode.c", "line":304, "type":"c", "scope_line":279, "scope_name":"acpi_ds_get_buffer_arguments", }
+,{"id":"acpi_ds_execute_arguments", "file":"drivers/acpi/acpica/dsopcode.c", "line":348, "type":"c", "scope_line":323, "scope_name":"acpi_ds_get_package_arguments", }
+,{"id":"acpi_ds_execute_arguments", "file":"drivers/acpi/acpica/dsopcode.c", "line":397, "type":"c", "scope_line":367, "scope_name":"acpi_ds_get_region_arguments", }
+,{"id":"acpi_ds_execute_arguments", "file":"drivers/acpi/acpica/dsopcode.c", "line":87, "type":"f", }
+,{"id":"acpi_ds_get_bank_field_arguments", "file":"drivers/acpi/acpica/dsopcode.c", "line":235, "type":"f", }
+,{"id":"acpi_ds_get_bank_field_arguments", "file":"drivers/acpi/acpica/nsinit.c", "line":325, "type":"c", "scope_line":242, "scope_name":"acpi_ns_init_one_object", }
+,{"id":"acpi_ds_get_buffer_arguments", "file":"drivers/acpi/acpica/dsopcode.c", "line":279, "type":"f", }
+,{"id":"acpi_ds_get_buffer_arguments", "file":"drivers/acpi/acpica/exoparg1.c", "line":750, "type":"c", "scope_line":585, "scope_name":"acpi_ex_opcode_1A_0T_1R", }
+,{"id":"acpi_ds_get_buffer_arguments", "file":"drivers/acpi/acpica/exresnte.c", "line":163, "type":"c", "scope_line":79, "scope_name":"acpi_ex_resolve_node_to_value", }
+,{"id":"acpi_ds_get_buffer_arguments", "file":"drivers/acpi/acpica/exresolv.c", "line":285, "type":"c", "scope_line":137, "scope_name":"acpi_ex_resolve_object_to_value", }
+,{"id":"acpi_ds_get_buffer_arguments", "file":"drivers/acpi/acpica/nsinit.c", "line":331, "type":"c", "scope_line":242, "scope_name":"acpi_ns_init_one_object", }
+,{"id":"acpi_ds_get_buffer_field_arguments", "file":"drivers/acpi/acpica/dsopcode.c", "line":191, "type":"f", }
+,{"id":"acpi_ds_get_buffer_field_arguments", "file":"drivers/acpi/acpica/exfield.c", "line":242, "type":"c", "scope_line":217, "scope_name":"acpi_ex_write_data_to_field", }
+,{"id":"acpi_ds_get_buffer_field_arguments", "file":"drivers/acpi/acpica/exfield.c", "line":94, "type":"c", "scope_line":66, "scope_name":"acpi_ex_read_data_from_field", }
+,{"id":"acpi_ds_get_buffer_field_arguments", "file":"drivers/acpi/acpica/exfldio.c", "line":399, "type":"c", "scope_line":360, "scope_name":"acpi_ex_field_datum_io", }
+,{"id":"acpi_ds_get_buffer_field_arguments", "file":"drivers/acpi/acpica/nsinit.c", "line":319, "type":"c", "scope_line":242, "scope_name":"acpi_ns_init_one_object", }
+,{"id":"acpi_ds_get_current_walk_state", "file":"drivers/acpi/acpica/dswstate.c", "line":445, "type":"f", }
+,{"id":"acpi_ds_get_current_walk_state", "file":"drivers/acpi/acpica/psparse.c", "line":527, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_get_current_walk_state", "file":"drivers/acpi/acpica/psparse.c", "line":595, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_get_field_names", "file":"drivers/acpi/acpica/dsfield.c", "line":217, "type":"f", }
+,{"id":"acpi_ds_get_field_names", "file":"drivers/acpi/acpica/dsfield.c", "line":388, "type":"c", "scope_line":351, "scope_name":"acpi_ds_create_field", }
+,{"id":"acpi_ds_get_field_names", "file":"drivers/acpi/acpica/dsfield.c", "line":588, "type":"c", "scope_line":522, "scope_name":"acpi_ds_create_bank_field", }
+,{"id":"acpi_ds_get_field_names", "file":"drivers/acpi/acpica/dsfield.c", "line":653, "type":"c", "scope_line":606, "scope_name":"acpi_ds_create_index_field", }
+,{"id":"acpi_ds_get_package_arguments", "file":"drivers/acpi/acpica/dsopcode.c", "line":323, "type":"f", }
+,{"id":"acpi_ds_get_package_arguments", "file":"drivers/acpi/acpica/exoparg1.c", "line":758, "type":"c", "scope_line":585, "scope_name":"acpi_ex_opcode_1A_0T_1R", }
+,{"id":"acpi_ds_get_package_arguments", "file":"drivers/acpi/acpica/exresnte.c", "line":145, "type":"c", "scope_line":79, "scope_name":"acpi_ex_resolve_node_to_value", }
+,{"id":"acpi_ds_get_package_arguments", "file":"drivers/acpi/acpica/exresolv.c", "line":290, "type":"c", "scope_line":137, "scope_name":"acpi_ex_resolve_object_to_value", }
+,{"id":"acpi_ds_get_package_arguments", "file":"drivers/acpi/acpica/nsinit.c", "line":337, "type":"c", "scope_line":242, "scope_name":"acpi_ns_init_one_object", }
+,{"id":"acpi_ds_get_predicate_value", "file":"drivers/acpi/acpica/dswexec.c", "line":705, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_get_predicate_value", "file":"drivers/acpi/acpica/dswexec.c", "line":88, "type":"f", }
+,{"id":"acpi_ds_get_predicate_value", "file":"drivers/acpi/acpica/psloop.c", "line":1014, "type":"c", "scope_line":974, "scope_name":"acpi_ps_parse_loop", }
+,{"id":"acpi_ds_get_region_arguments", "file":"drivers/acpi/acpica/dsopcode.c", "line":367, "type":"f", }
+,{"id":"acpi_ds_get_region_arguments", "file":"drivers/acpi/acpica/exconfig.c", "line":371, "type":"c", "scope_line":336, "scope_name":"acpi_ex_load_op", }
+,{"id":"acpi_ds_get_region_arguments", "file":"drivers/acpi/acpica/exfldio.c", "line":109, "type":"c", "scope_line":83, "scope_name":"acpi_ex_setup_region", }
+,{"id":"acpi_ds_get_region_arguments", "file":"drivers/acpi/acpica/nsinit.c", "line":313, "type":"c", "scope_line":242, "scope_name":"acpi_ns_init_one_object", }
+,{"id":"acpi_ds_init_aml_walk", "file":"drivers/acpi/acpica/dsmethod.c", "line":387, "type":"c", "scope_line":320, "scope_name":"acpi_ds_call_control_method", }
+,{"id":"acpi_ds_init_aml_walk", "file":"drivers/acpi/acpica/dsopcode.c", "line":118, "type":"c", "scope_line":87, "scope_name":"acpi_ds_execute_arguments", }
+,{"id":"acpi_ds_init_aml_walk", "file":"drivers/acpi/acpica/dsopcode.c", "line":161, "type":"c", "scope_line":87, "scope_name":"acpi_ds_execute_arguments", }
+,{"id":"acpi_ds_init_aml_walk", "file":"drivers/acpi/acpica/dswstate.c", "line":594, "type":"f", }
+,{"id":"acpi_ds_init_aml_walk", "file":"drivers/acpi/acpica/nsparse.c", "line":115, "type":"c", "scope_line":66, "scope_name":"acpi_ns_one_complete_parse", }
+,{"id":"acpi_ds_init_aml_walk", "file":"drivers/acpi/acpica/psxface.c", "line":279, "type":"c", "scope_line":216, "scope_name":"acpi_ps_execute_method", }
+,{"id":"acpi_ds_init_buffer_field", "file":"drivers/acpi/acpica/dsopcode.c", "line":469, "type":"f", }
+,{"id":"acpi_ds_init_buffer_field", "file":"drivers/acpi/acpica/dsopcode.c", "line":710, "type":"c", "scope_line":659, "scope_name":"acpi_ds_eval_buffer_field_operands", }
+,{"id":"acpi_ds_init_buffer_field", "file":"drivers/acpi/acpica/dsopcode.c", "line":719, "type":"c", "scope_line":659, "scope_name":"acpi_ds_eval_buffer_field_operands", }
+,{"id":"acpi_ds_init_callbacks", "file":"drivers/acpi/acpica/dswload.c", "line":72, "type":"f", }
+,{"id":"acpi_ds_init_callbacks", "file":"drivers/acpi/acpica/dswstate.c", "line":684, "type":"c", "scope_line":594, "scope_name":"acpi_ds_init_aml_walk", }
+,{"id":"acpi_ds_init_field_objects", "file":"drivers/acpi/acpica/dsfield.c", "line":408, "type":"f", }
+,{"id":"acpi_ds_init_field_objects", "file":"drivers/acpi/acpica/dswload.c", "line":423, "type":"c", "scope_line":391, "scope_name":"acpi_ds_load1_end_op", }
+,{"id":"acpi_ds_init_field_objects", "file":"drivers/acpi/acpica/dswload.c", "line":957, "type":"c", "scope_line":844, "scope_name":"acpi_ds_load2_end_op", }
+,{"id":"acpi_ds_init_object_from_op", "file":"drivers/acpi/acpica/dsobject.c", "line":235, "type":"c", "scope_line":77, "scope_name":"acpi_ds_build_internal_object", }
+,{"id":"acpi_ds_init_object_from_op", "file":"drivers/acpi/acpica/dsobject.c", "line":626, "type":"f", }
+,{"id":"acpi_ds_init_object_from_op", "file":"drivers/acpi/acpica/dsutils.c", "line":661, "type":"c", "scope_line":460, "scope_name":"acpi_ds_create_operand", }
+,{"id":"acpi_ds_init_one_object", "file":"drivers/acpi/acpica/dsinit.c", "line":78, "type":"f", }
+,{"id":"acpi_ds_initialize_objects", "file":"drivers/acpi/acpica/dsinit.c", "line":154, "type":"f", }
+,{"id":"acpi_ds_initialize_objects", "file":"drivers/acpi/acpica/nsload.c", "line":133, "type":"c", "scope_line":74, "scope_name":"acpi_ns_load_table", }
+,{"id":"acpi_ds_initialize_region", "file":"drivers/acpi/acpica/dsinit.c", "line":108, "type":"c", "scope_line":78, "scope_name":"acpi_ds_init_one_object", }
+,{"id":"acpi_ds_initialize_region", "file":"drivers/acpi/acpica/dsopcode.c", "line":439, "type":"f", }
+,{"id":"acpi_ds_is_result_used", "file":"drivers/acpi/acpica/dsutils.c", "line":169, "type":"f", }
+,{"id":"acpi_ds_is_result_used", "file":"drivers/acpi/acpica/dsutils.c", "line":358, "type":"c", "scope_line":339, "scope_name":"acpi_ds_delete_result_if_not_used", }
+,{"id":"acpi_ds_is_result_used", "file":"drivers/acpi/acpica/psparse.c", "line":408, "type":"c", "scope_line":325, "scope_name":"acpi_ps_next_parse_state", }
+,{"id":"acpi_ds_load1_begin_op", "file":"drivers/acpi/acpica/dswload.c", "line":120, "type":"f", }
+,{"id":"acpi_ds_load1_end_op", "file":"drivers/acpi/acpica/dswload.c", "line":391, "type":"f", }
+,{"id":"acpi_ds_load2_begin_op", "file":"drivers/acpi/acpica/dswexec.c", "line":224, "type":"c", "scope_line":212, "scope_name":"acpi_ds_exec_begin_op", }
+,{"id":"acpi_ds_load2_begin_op", "file":"drivers/acpi/acpica/dswexec.c", "line":304, "type":"c", "scope_line":212, "scope_name":"acpi_ds_exec_begin_op", }
+,{"id":"acpi_ds_load2_begin_op", "file":"drivers/acpi/acpica/dswload.c", "line":554, "type":"f", }
+,{"id":"acpi_ds_load2_end_op", "file":"drivers/acpi/acpica/dswexec.c", "line":553, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_load2_end_op", "file":"drivers/acpi/acpica/dswexec.c", "line":624, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_load2_end_op", "file":"drivers/acpi/acpica/dswload.c", "line":844, "type":"f", }
+,{"id":"acpi_ds_method_data_delete_all", "file":"drivers/acpi/acpica/dsmethod.c", "line":558, "type":"c", "scope_line":541, "scope_name":"acpi_ds_terminate_control_method", }
+,{"id":"acpi_ds_method_data_delete_all", "file":"drivers/acpi/acpica/dsmthdat.c", "line":137, "type":"f", }
+,{"id":"acpi_ds_method_data_delete_value", "file":"drivers/acpi/acpica/dsmthdat.c", "line":473, "type":"f", }
+,{"id":"acpi_ds_method_data_delete_value", "file":"drivers/acpi/acpica/dsmthdat.c", "line":647, "type":"c", "scope_line":532, "scope_name":"acpi_ds_store_object_to_local", }
+,{"id":"acpi_ds_method_data_get_node", "file":"drivers/acpi/acpica/dsmthdat.c", "line":247, "type":"f", }
+,{"id":"acpi_ds_method_data_get_node", "file":"drivers/acpi/acpica/dsmthdat.c", "line":330, "type":"c", "scope_line":312, "scope_name":"acpi_ds_method_data_set_value", }
+,{"id":"acpi_ds_method_data_get_node", "file":"drivers/acpi/acpica/dsmthdat.c", "line":387, "type":"c", "scope_line":366, "scope_name":"acpi_ds_method_data_get_value", }
+,{"id":"acpi_ds_method_data_get_node", "file":"drivers/acpi/acpica/dsmthdat.c", "line":485, "type":"c", "scope_line":473, "scope_name":"acpi_ds_method_data_delete_value", }
+,{"id":"acpi_ds_method_data_get_node", "file":"drivers/acpi/acpica/dsmthdat.c", "line":555, "type":"c", "scope_line":532, "scope_name":"acpi_ds_store_object_to_local", }
+,{"id":"acpi_ds_method_data_get_node", "file":"drivers/acpi/acpica/dsobject.c", "line":769, "type":"c", "scope_line":626, "scope_name":"acpi_ds_init_object_from_op", }
+,{"id":"acpi_ds_method_data_get_node", "file":"drivers/acpi/acpica/dsobject.c", "line":789, "type":"c", "scope_line":626, "scope_name":"acpi_ds_init_object_from_op", }
+,{"id":"acpi_ds_method_data_get_node", "file":"drivers/acpi/acpica/exresolv.c", "line":480, "type":"c", "scope_line":335, "scope_name":"acpi_ex_resolve_multiple", }
+,{"id":"acpi_ds_method_data_get_value", "file":"drivers/acpi/acpica/dsmthdat.c", "line":366, "type":"f", }
+,{"id":"acpi_ds_method_data_get_value", "file":"drivers/acpi/acpica/exoparg1.c", "line":829, "type":"c", "scope_line":585, "scope_name":"acpi_ex_opcode_1A_0T_1R", }
+,{"id":"acpi_ds_method_data_get_value", "file":"drivers/acpi/acpica/exresolv.c", "line":165, "type":"c", "scope_line":137, "scope_name":"acpi_ex_resolve_object_to_value", }
+,{"id":"acpi_ds_method_data_get_value", "file":"drivers/acpi/acpica/exresolv.c", "line":466, "type":"c", "scope_line":335, "scope_name":"acpi_ex_resolve_multiple", }
+,{"id":"acpi_ds_method_data_init", "file":"drivers/acpi/acpica/dsmthdat.c", "line":91, "type":"f", }
+,{"id":"acpi_ds_method_data_init", "file":"drivers/acpi/acpica/dswstate.c", "line":564, "type":"c", "scope_line":539, "scope_name":"acpi_ds_create_walk_state", }
+,{"id":"acpi_ds_method_data_init_args", "file":"drivers/acpi/acpica/dsmthdat.c", "line":192, "type":"f", }
+,{"id":"acpi_ds_method_data_init_args", "file":"drivers/acpi/acpica/dswstate.c", "line":646, "type":"c", "scope_line":594, "scope_name":"acpi_ds_init_aml_walk", }
+,{"id":"acpi_ds_method_data_set_value", "file":"drivers/acpi/acpica/dsmthdat.c", "line":217, "type":"c", "scope_line":192, "scope_name":"acpi_ds_method_data_init_args", }
+,{"id":"acpi_ds_method_data_set_value", "file":"drivers/acpi/acpica/dsmthdat.c", "line":312, "type":"f", }
+,{"id":"acpi_ds_method_data_set_value", "file":"drivers/acpi/acpica/dsmthdat.c", "line":655, "type":"c", "scope_line":532, "scope_name":"acpi_ds_store_object_to_local", }
+,{"id":"acpi_ds_method_error", "file":"drivers/acpi/acpica/dsmethod.c", "line":77, "type":"f", }
+,{"id":"acpi_ds_method_error", "file":"drivers/acpi/acpica/dswexec.c", "line":323, "type":"c", "scope_line":212, "scope_name":"acpi_ds_exec_begin_op", }
+,{"id":"acpi_ds_method_error", "file":"drivers/acpi/acpica/dswexec.c", "line":738, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_method_error", "file":"drivers/acpi/acpica/psargs.c", "line":366, "type":"c", "scope_line":229, "scope_name":"acpi_ps_get_next_namepath", }
+,{"id":"acpi_ds_method_error", "file":"drivers/acpi/acpica/psparse.c", "line":519, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_obj_stack_pop", "file":"drivers/acpi/acpica/dsopcode.c", "line":972, "type":"c", "scope_line":933, "scope_name":"acpi_ds_eval_data_object_operands", }
+,{"id":"acpi_ds_obj_stack_pop", "file":"drivers/acpi/acpica/dsutils.c", "line":848, "type":"c", "scope_line":783, "scope_name":"acpi_ds_evaluate_name_path", }
+,{"id":"acpi_ds_obj_stack_pop", "file":"drivers/acpi/acpica/dswstate.c", "line":355, "type":"f", }
+,{"id":"acpi_ds_obj_stack_pop_and_delete", "file":"drivers/acpi/acpica/dsutils.c", "line":761, "type":"c", "scope_line":699, "scope_name":"acpi_ds_create_operands", }
+,{"id":"acpi_ds_obj_stack_pop_and_delete", "file":"drivers/acpi/acpica/dswstate.c", "line":400, "type":"f", }
+,{"id":"acpi_ds_obj_stack_push", "file":"drivers/acpi/acpica/dsutils.c", "line":593, "type":"c", "scope_line":460, "scope_name":"acpi_ds_create_operand", }
+,{"id":"acpi_ds_obj_stack_push", "file":"drivers/acpi/acpica/dsutils.c", "line":672, "type":"c", "scope_line":460, "scope_name":"acpi_ds_create_operand", }
+,{"id":"acpi_ds_obj_stack_push", "file":"drivers/acpi/acpica/dswstate.c", "line":308, "type":"f", }
+,{"id":"acpi_ds_pop_walk_state", "file":"drivers/acpi/acpica/dswstate.c", "line":499, "type":"f", }
+,{"id":"acpi_ds_pop_walk_state", "file":"drivers/acpi/acpica/psparse.c", "line":565, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_push_walk_state", "file":"drivers/acpi/acpica/dswstate.c", "line":473, "type":"f", }
+,{"id":"acpi_ds_push_walk_state", "file":"drivers/acpi/acpica/dswstate.c", "line":570, "type":"c", "scope_line":539, "scope_name":"acpi_ds_create_walk_state", }
+,{"id":"acpi_ds_push_walk_state", "file":"drivers/acpi/acpica/psparse.c", "line":482, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_resolve_operands", "file":"drivers/acpi/acpica/dsutils.c", "line":385, "type":"f", }
+,{"id":"acpi_ds_resolve_operands", "file":"drivers/acpi/acpica/dswexec.c", "line":526, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_restart_control_method", "file":"drivers/acpi/acpica/dsmethod.c", "line":451, "type":"f", }
+,{"id":"acpi_ds_restart_control_method", "file":"drivers/acpi/acpica/psparse.c", "line":624, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_restart_control_method", "file":"drivers/acpi/acpica/psparse.c", "line":637, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_result_pop", "file":"drivers/acpi/acpica/dsutils.c", "line":362, "type":"c", "scope_line":339, "scope_name":"acpi_ds_delete_result_if_not_used", }
+,{"id":"acpi_ds_result_pop", "file":"drivers/acpi/acpica/dsutils.c", "line":639, "type":"c", "scope_line":460, "scope_name":"acpi_ds_create_operand", }
+,{"id":"acpi_ds_result_pop", "file":"drivers/acpi/acpica/dswexec.c", "line":101, "type":"c", "scope_line":88, "scope_name":"acpi_ds_get_predicate_value", }
+,{"id":"acpi_ds_result_pop", "file":"drivers/acpi/acpica/dswstate.c", "line":70, "type":"f", }
+,{"id":"acpi_ds_result_push", "file":"drivers/acpi/acpica/dsmethod.c", "line":485, "type":"c", "scope_line":451, "scope_name":"acpi_ds_restart_control_method", }
+,{"id":"acpi_ds_result_push", "file":"drivers/acpi/acpica/dsutils.c", "line":858, "type":"c", "scope_line":783, "scope_name":"acpi_ds_evaluate_name_path", }
+,{"id":"acpi_ds_result_push", "file":"drivers/acpi/acpica/dswexec.c", "line":458, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_result_push", "file":"drivers/acpi/acpica/dswexec.c", "line":613, "type":"c", "scope_line":341, "scope_name":"acpi_ds_exec_end_op", }
+,{"id":"acpi_ds_result_push", "file":"drivers/acpi/acpica/dswstate.c", "line":144, "type":"f", }
+,{"id":"acpi_ds_result_stack_pop", "file":"drivers/acpi/acpica/dswstate.c", "line":117, "type":"c", "scope_line":70, "scope_name":"acpi_ds_result_pop", }
+,{"id":"acpi_ds_result_stack_pop", "file":"drivers/acpi/acpica/dswstate.c", "line":261, "type":"f", }
+,{"id":"acpi_ds_result_stack_push", "file":"drivers/acpi/acpica/dswstate.c", "line":161, "type":"c", "scope_line":144, "scope_name":"acpi_ds_result_push", }
+,{"id":"acpi_ds_result_stack_push", "file":"drivers/acpi/acpica/dswstate.c", "line":216, "type":"f", }
+,{"id":"acpi_ds_scope_stack_clear", "file":"drivers/acpi/acpica/dswscope.c", "line":63, "type":"f", }
+,{"id":"acpi_ds_scope_stack_clear", "file":"drivers/acpi/acpica/psparse.c", "line":569, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_scope_stack_clear", "file":"drivers/acpi/acpica/psxface.c", "line":301, "type":"c", "scope_line":216, "scope_name":"acpi_ps_execute_method", }
+,{"id":"acpi_ds_scope_stack_pop", "file":"drivers/acpi/acpica/dswexec.c", "line":243, "type":"c", "scope_line":212, "scope_name":"acpi_ds_exec_begin_op", }
+,{"id":"acpi_ds_scope_stack_pop", "file":"drivers/acpi/acpica/dswload.c", "line":535, "type":"c", "scope_line":391, "scope_name":"acpi_ds_load1_end_op", }
+,{"id":"acpi_ds_scope_stack_pop", "file":"drivers/acpi/acpica/dswload.c", "line":898, "type":"c", "scope_line":844, "scope_name":"acpi_ds_load2_end_op", }
+,{"id":"acpi_ds_scope_stack_pop", "file":"drivers/acpi/acpica/dswscope.c", "line":177, "type":"f", }
+,{"id":"acpi_ds_scope_stack_push", "file":"drivers/acpi/acpica/dswload.c", "line":323, "type":"c", "scope_line":120, "scope_name":"acpi_ds_load1_begin_op", }
+,{"id":"acpi_ds_scope_stack_push", "file":"drivers/acpi/acpica/dswload.c", "line":651, "type":"c", "scope_line":554, "scope_name":"acpi_ds_load2_begin_op", }
+,{"id":"acpi_ds_scope_stack_push", "file":"drivers/acpi/acpica/dswload.c", "line":744, "type":"c", "scope_line":554, "scope_name":"acpi_ds_load2_begin_op", }
+,{"id":"acpi_ds_scope_stack_push", "file":"drivers/acpi/acpica/dswscope.c", "line":99, "type":"f", }
+,{"id":"acpi_ds_scope_stack_push", "file":"drivers/acpi/acpica/dswstate.c", "line":637, "type":"c", "scope_line":594, "scope_name":"acpi_ds_init_aml_walk", }
+,{"id":"acpi_ds_scope_stack_push", "file":"drivers/acpi/acpica/dswstate.c", "line":674, "type":"c", "scope_line":594, "scope_name":"acpi_ds_init_aml_walk", }
+,{"id":"acpi_ds_scope_stack_push", "file":"drivers/acpi/acpica/nsaccess.c", "line":660, "type":"c", "scope_line":279, "scope_name":"acpi_ns_lookup", }
+,{"id":"acpi_ds_scope_stack_push", "file":"drivers/acpi/acpica/nsparse.c", "line":128, "type":"c", "scope_line":66, "scope_name":"acpi_ns_one_complete_parse", }
+,{"id":"acpi_ds_store_object_to_local", "file":"drivers/acpi/acpica/dsmthdat.c", "line":532, "type":"f", }
+,{"id":"acpi_ds_store_object_to_local", "file":"drivers/acpi/acpica/exstore.c", "line":174, "type":"c", "scope_line":80, "scope_name":"acpi_ex_store", }
+,{"id":"acpi_ds_terminate_control_method", "file":"drivers/acpi/acpica/dsmethod.c", "line":429, "type":"c", "scope_line":320, "scope_name":"acpi_ds_call_control_method", }
+,{"id":"acpi_ds_terminate_control_method", "file":"drivers/acpi/acpica/dsmethod.c", "line":541, "type":"f", }
+,{"id":"acpi_ds_terminate_control_method", "file":"drivers/acpi/acpica/psparse.c", "line":463, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_terminate_control_method", "file":"drivers/acpi/acpica/psparse.c", "line":578, "type":"c", "scope_line":437, "scope_name":"acpi_ps_parse_aml", }
+,{"id":"acpi_ds_terminate_control_method", "file":"drivers/acpi/acpica/psxface.c", "line":303, "type":"c", "scope_line":216, "scope_name":"acpi_ps_execute_method", }
+,{"id":"acpi_early_init", "file":"drivers/acpi/bus.c", "line":826, "type":"f", }
+,{"id":"acpi_early_init", "file":"init/main.c", "line":699, "type":"c", "scope_line":536, "scope_name":"start_kernel", }
+,{"id":"acpi_early_processor_set_pdc", "file":"drivers/acpi/bus.c", "line":938, "type":"c", "scope_line":903, "scope_name":"acpi_bus_init", }
+,{"id":"acpi_early_processor_set_pdc", "file":"drivers/acpi/processor_core.c", "line":338, "type":"f", }
+,{"id":"acpi_ec", "file":"drivers/acpi/internal.h", "line":54, "type":"s", }
+,{"id":"acpi_ec_add", "file":"drivers/acpi/ec.c", "line":780, "type":"f", }
+,{"id":"acpi_ec_add_query_handler", "file":"drivers/acpi/ec.c", "line":507, "type":"f", }
+,{"id":"acpi_ec_add_query_handler", "file":"drivers/acpi/ec.c", "line":696, "type":"c", "scope_line":683, "scope_name":"acpi_ec_register_query_methods", }
+,{"id":"acpi_ec_add_query_handler", "file":"drivers/acpi/sbshc.c", "line":289, "type":"c", "scope_line":260, "scope_name":"acpi_smbus_hc_add", }
+,{"id":"acpi_ec_block_transactions", "file":"drivers/acpi/ec.c", "line":445, "type":"f", }
+,{"id":"acpi_ec_block_transactions", "file":"drivers/acpi/sleep.c", "line":117, "type":"c", "scope_line":113, "scope_name":"acpi_pm_freeze", }
+,{"id":"acpi_ec_burst_disable", "file":"drivers/acpi/ec.c", "line":342, "type":"f", }
+,{"id":"acpi_ec_burst_disable", "file":"drivers/acpi/ec.c", "line":391, "type":"c", "scope_line":387, "scope_name":"ec_burst_disable", }
+,{"id":"acpi_ec_burst_disable", "file":"drivers/acpi/ec.c", "line":647, "type":"c", "scope_line":623, "scope_name":"acpi_ec_space_handler", }
+,{"id":"acpi_ec_burst_enable", "file":"drivers/acpi/ec.c", "line":332, "type":"f", }
+,{"id":"acpi_ec_burst_enable", "file":"drivers/acpi/ec.c", "line":382, "type":"c", "scope_line":378, "scope_name":"ec_burst_enable", }
+,{"id":"acpi_ec_burst_enable", "file":"drivers/acpi/ec.c", "line":639, "type":"c", "scope_line":623, "scope_name":"acpi_ec_space_handler", }
+,{"id":"acpi_ec_driver", "file":"drivers/acpi/ec.c", "line":1014, "type":"v", }
+,{"id":"acpi_ec_ecdt_probe", "file":"drivers/acpi/bus.c", "line":927, "type":"c", "scope_line":903, "scope_name":"acpi_bus_init", }
+,{"id":"acpi_ec_ecdt_probe", "file":"drivers/acpi/ec.c", "line":938, "type":"f", }
+,{"id":"acpi_ec_gpe_handler", "file":"drivers/acpi/ec.c", "line":604, "type":"f", }
+,{"id":"acpi_ec_gpe_query", "file":"drivers/acpi/ec.c", "line":580, "type":"f", }
+,{"id":"acpi_ec_init", "file":"drivers/acpi/bus.c", "line":1027, "type":"c", "scope_line":985, "scope_name":"acpi_init", }
+,{"id":"acpi_ec_init", "file":"drivers/acpi/ec.c", "line":1024, "type":"f", }
+,{"id":"acpi_ec_query_func", "file":"drivers/acpi/ec.c", "line":88, "type":"t", }
+,{"id":"acpi_ec_query_func", "file":"drivers/acpi/sbshc.c", "line":254, "type":"t", }
+,{"id":"acpi_ec_query_handler", "file":"drivers/acpi/ec.c", "line":90, "type":"s", }
+,{"id":"acpi_ec_query_unlocked", "file":"drivers/acpi/ec.c", "line":481, "type":"f", }
+,{"id":"acpi_ec_query_unlocked", "file":"drivers/acpi/ec.c", "line":562, "type":"c", "scope_line":557, "scope_name":"acpi_ec_sync_query", }
+,{"id":"acpi_ec_read", "file":"drivers/acpi/ec.c", "line":352, "type":"f", }
+,{"id":"acpi_ec_read", "file":"drivers/acpi/ec.c", "line":404, "type":"c", "scope_line":396, "scope_name":"ec_read", }
+,{"id":"acpi_ec_read", "file":"drivers/acpi/ec.c", "line":642, "type":"c", "scope_line":623, "scope_name":"acpi_ec_space_handler", }
+,{"id":"acpi_ec_read_data", "file":"drivers/acpi/ec.c", "line":128, "type":"f", }
+,{"id":"acpi_ec_read_data", "file":"drivers/acpi/ec.c", "line":179, "type":"c", "scope_line":165, "scope_name":"advance_transaction", }
+,{"id":"acpi_ec_read_status", "file":"drivers/acpi/ec.c", "line":121, "type":"f", }
+,{"id":"acpi_ec_read_status", "file":"drivers/acpi/ec.c", "line":226, "type":"c", "scope_line":207, "scope_name":"ec_poll", }
+,{"id":"acpi_ec_read_status", "file":"drivers/acpi/ec.c", "line":228, "type":"c", "scope_line":207, "scope_name":"ec_poll", }
+,{"id":"acpi_ec_read_status", "file":"drivers/acpi/ec.c", "line":262, "type":"c", "scope_line":260, "scope_name":"ec_check_ibf0", }
+,{"id":"acpi_ec_read_status", "file":"drivers/acpi/ec.c", "line":313, "type":"c", "scope_line":277, "scope_name":"acpi_ec_transaction", }
+,{"id":"acpi_ec_read_status", "file":"drivers/acpi/ec.c", "line":348, "type":"c", "scope_line":342, "scope_name":"acpi_ec_burst_disable", }
+,{"id":"acpi_ec_read_status", "file":"drivers/acpi/ec.c", "line":610, "type":"c", "scope_line":604, "scope_name":"acpi_ec_gpe_handler", }
+,{"id":"acpi_ec_read_status", "file":"drivers/acpi/ec.c", "line":611, "type":"c", "scope_line":604, "scope_name":"acpi_ec_gpe_handler", }
+,{"id":"acpi_ec_read_status", "file":"drivers/acpi/ec.c", "line":614, "type":"c", "scope_line":604, "scope_name":"acpi_ec_gpe_handler", }
+,{"id":"acpi_ec_register_query_methods", "file":"drivers/acpi/ec.c", "line":683, "type":"f", }
+,{"id":"acpi_ec_remove", "file":"drivers/acpi/ec.c", "line":830, "type":"f", }
+,{"id":"acpi_ec_remove_query_handler", "file":"drivers/acpi/ec.c", "line":528, "type":"f", }
+,{"id":"acpi_ec_remove_query_handler", "file":"drivers/acpi/sbshc.c", "line":306, "type":"c", "scope_line":298, "scope_name":"acpi_smbus_hc_remove", }
+,{"id":"acpi_ec_run", "file":"drivers/acpi/ec.c", "line":543, "type":"f", }
+,{"id":"acpi_ec_space_handler", "file":"drivers/acpi/ec.c", "line":623, "type":"f", }
+,{"id":"acpi_ec_sync_query", "file":"drivers/acpi/ec.c", "line":202, "type":"c", "scope_line":198, "scope_name":"ec_check_sci_sync", }
+,{"id":"acpi_ec_sync_query", "file":"drivers/acpi/ec.c", "line":557, "type":"f", }
+,{"id":"acpi_ec_sync_query", "file":"drivers/acpi/ec.c", "line":586, "type":"c", "scope_line":580, "scope_name":"acpi_ec_gpe_query", }
+,{"id":"acpi_ec_transaction", "file":"drivers/acpi/ec.c", "line":277, "type":"f", }
+,{"id":"acpi_ec_transaction", "file":"drivers/acpi/ec.c", "line":339, "type":"c", "scope_line":332, "scope_name":"acpi_ec_burst_enable", }
+,{"id":"acpi_ec_transaction", "file":"drivers/acpi/ec.c", "line":348, "type":"c", "scope_line":342, "scope_name":"acpi_ec_burst_disable", }
+,{"id":"acpi_ec_transaction", "file":"drivers/acpi/ec.c", "line":360, "type":"c", "scope_line":352, "scope_name":"acpi_ec_read", }
+,{"id":"acpi_ec_transaction", "file":"drivers/acpi/ec.c", "line":372, "type":"c", "scope_line":365, "scope_name":"acpi_ec_write", }
+,{"id":"acpi_ec_transaction", "file":"drivers/acpi/ec.c", "line":440, "type":"c", "scope_line":429, "scope_name":"ec_transaction", }
+,{"id":"acpi_ec_transaction_unlocked", "file":"drivers/acpi/ec.c", "line":238, "type":"f", }
+,{"id":"acpi_ec_transaction_unlocked", "file":"drivers/acpi/ec.c", "line":310, "type":"c", "scope_line":277, "scope_name":"acpi_ec_transaction", }
+,{"id":"acpi_ec_transaction_unlocked", "file":"drivers/acpi/ec.c", "line":495, "type":"c", "scope_line":481, "scope_name":"acpi_ec_query_unlocked", }
+,{"id":"acpi_ec_unblock_transactions", "file":"drivers/acpi/ec.c", "line":458, "type":"f", }
+,{"id":"acpi_ec_unblock_transactions", "file":"drivers/acpi/sleep.c", "line":169, "type":"c", "scope_line":165, "scope_name":"acpi_pm_finish", }
+,{"id":"acpi_ec_unblock_transactions", "file":"drivers/acpi/sleep.c", "line":489, "type":"c", "scope_line":487, "scope_name":"acpi_pm_thaw", }
+,{"id":"acpi_ec_unblock_transactions_early", "file":"drivers/acpi/ec.c", "line":471, "type":"f", }
+,{"id":"acpi_ec_unblock_transactions_early", "file":"drivers/acpi/sleep.c", "line":292, "type":"c", "scope_line":244, "scope_name":"acpi_suspend_enter", }
+,{"id":"acpi_ec_unblock_transactions_early", "file":"drivers/acpi/sleep.c", "line":484, "type":"c", "scope_line":466, "scope_name":"acpi_hibernation_leave", }
+,{"id":"acpi_ec_write", "file":"drivers/acpi/ec.c", "line":365, "type":"f", }
+,{"id":"acpi_ec_write", "file":"drivers/acpi/ec.c", "line":422, "type":"c", "scope_line":415, "scope_name":"ec_write", }
+,{"id":"acpi_ec_write", "file":"drivers/acpi/ec.c", "line":642, "type":"c", "scope_line":623, "scope_name":"acpi_ec_space_handler", }
+,{"id":"acpi_ec_write_cmd", "file":"drivers/acpi/ec.c", "line":135, "type":"f", }
+,{"id":"acpi_ec_write_cmd", "file":"drivers/acpi/ec.c", "line":162, "type":"c", "scope_line":158, "scope_name":"start_transaction", }
+,{"id":"acpi_ec_write_data", "file":"drivers/acpi/ec.c", "line":141, "type":"f", }
+,{"id":"acpi_ec_write_data", "file":"drivers/acpi/ec.c", "line":173, "type":"c", "scope_line":165, "scope_name":"advance_transaction", }
+,{"id":"acpi_einj_actions", "file":"include/acpi/actbl1.h", "line":222, "type":"t", }
+,{"id":"acpi_einj_command_status", "file":"include/acpi/actbl1.h", "line":257, "type":"t", }
+,{"id":"acpi_einj_entry", "file":"include/acpi/actbl1.h", "line":212, "type":"s", }
+,{"id":"acpi_einj_instructions", "file":"include/acpi/actbl1.h", "line":237, "type":"t", }
+,{"id":"acpi_einj_trigger", "file":"include/acpi/actbl1.h", "line":248, "type":"s", }
+,{"id":"acpi_eject_store", "file":"drivers/acpi/scan.c", "line":134, "type":"f", }
+,{"id":"acpi_enable", "file":"drivers/acpi/acpica/evxfevnt.c", "line":70, "type":"f", }
+,{"id":"acpi_enable", "file":"drivers/acpi/acpica/utxface.c", "line":145, "type":"c", "scope_line":131, "scope_name":"acpi_enable_subsystem", }
+,{"id":"acpi_enable", "file":"drivers/acpi/sleep.c", "line":472, "type":"c", "scope_line":466, "scope_name":"acpi_hibernation_leave", }
+,{"id":"acpi_enable", "file":"include/acpi/actbl.h", "line":213, "type":"m", "scope_line":205, "scope_name":"struct acpi_table_fadt", }
+,{"id":"acpi_enable_all_runtime_gpes", "file":"drivers/acpi/acpica/evxfevnt.c", "line":911, "type":"f", }
+,{"id":"acpi_enable_all_runtime_gpes", "file":"drivers/acpi/sleep.c", "line":490, "type":"c", "scope_line":487, "scope_name":"acpi_pm_thaw", }
+,{"id":"acpi_enable_event", "file":"drivers/acpi/acpica/evxface.c", "line":143, "type":"c", "scope_line":110, "scope_name":"acpi_install_fixed_event_handler", }
+,{"id":"acpi_enable_event", "file":"drivers/acpi/acpica/evxfevnt.c", "line":169, "type":"f", }
+,{"id":"acpi_enable_event", "file":"drivers/acpi/sysfs.c", "line":587, "type":"c", "scope_line":538, "scope_name":"counter_set", }
+,{"id":"acpi_enable_event", "file":"drivers/rtc/rtc-cmos.c", "line":994, "type":"c", "scope_line":991, "scope_name":"rtc_wake_on", }
+,{"id":"acpi_enable_gpe", "file":"drivers/acpi/acpica/evgpeblk.c", "line":486, "type":"c", "scope_line":436, "scope_name":"acpi_ev_initialize_gpe_block", }
+,{"id":"acpi_enable_gpe", "file":"drivers/acpi/acpica/evgpeinit.c", "line":439, "type":"c", "scope_line":309, "scope_name":"acpi_ev_match_gpe_method", }
+,{"id":"acpi_enable_gpe", "file":"drivers/acpi/acpica/evxfevnt.c", "line":295, "type":"f", }
+,{"id":"acpi_enable_gpe", "file":"drivers/acpi/button.c", "line":426, "type":"c", "scope_line":337, "scope_name":"acpi_button_add", }
+,{"id":"acpi_enable_gpe", "file":"drivers/acpi/ec.c", "line":317, "type":"c", "scope_line":277, "scope_name":"acpi_ec_transaction", }
+,{"id":"acpi_enable_gpe", "file":"drivers/acpi/ec.c", "line":742, "type":"c", "scope_line":731, "scope_name":"ec_install_handlers", }
+,{"id":"acpi_enable_gpe", "file":"drivers/acpi/sysfs.c", "line":574, "type":"c", "scope_line":538, "scope_name":"counter_set", }
+,{"id":"acpi_enable_gpe", "file":"drivers/pci/pci-acpi.c", "line":298, "type":"c", "scope_line":279, "scope_name":"acpi_dev_run_wake", }
+,{"id":"acpi_enable_subsystem", "file":"drivers/acpi/acpica/utxface.c", "line":131, "type":"f", }
+,{"id":"acpi_enable_subsystem", "file":"drivers/acpi/bus.c", "line":887, "type":"c", "scope_line":826, "scope_name":"acpi_early_init", }
+,{"id":"acpi_enable_subsystem", "file":"drivers/acpi/bus.c", "line":911, "type":"c", "scope_line":903, "scope_name":"acpi_bus_init", }
+,{"id":"acpi_enable_wakeup_device_power", "file":"drivers/acpi/power.c", "line":353, "type":"f", }
+,{"id":"acpi_enable_wakeup_device_power", "file":"drivers/acpi/sleep.c", "line":671, "type":"c", "scope_line":656, "scope_name":"acpi_pm_device_sleep_wake", }
+,{"id":"acpi_enable_wakeup_device_power", "file":"drivers/acpi/wakeup.c", "line":45, "type":"c", "scope_line":31, "scope_name":"acpi_enable_wakeup_devices", }
+,{"id":"acpi_enable_wakeup_device_power", "file":"drivers/pci/pci-acpi.c", "line":297, "type":"c", "scope_line":279, "scope_name":"acpi_dev_run_wake", }
+,{"id":"acpi_enable_wakeup_devices", "file":"drivers/acpi/sleep.c", "line":76, "type":"c", "scope_line":60, "scope_name":"acpi_sleep_prepare", }
+,{"id":"acpi_enable_wakeup_devices", "file":"drivers/acpi/wakeup.c", "line":31, "type":"f", }
+,{"id":"acpi_enforce_resources", "file":"drivers/acpi/osl.c", "line":1068, "type":"v", }
+,{"id":"acpi_enforce_resources_setup", "file":"drivers/acpi/osl.c", "line":1070, "type":"f", }
+,{"id":"acpi_enter_sleep_state", "file":"drivers/acpi/acpica/hwsleep.c", "line":233, "type":"f", }
+,{"id":"acpi_enter_sleep_state", "file":"drivers/acpi/sleep.c", "line":264, "type":"c", "scope_line":244, "scope_name":"acpi_suspend_enter", }
+,{"id":"acpi_enter_sleep_state", "file":"drivers/acpi/sleep.c", "line":458, "type":"c", "scope_line":449, "scope_name":"acpi_hibernation_enter", }
+,{"id":"acpi_enter_sleep_state", "file":"drivers/acpi/sleep.c", "line":694, "type":"c", "scope_line":689, "scope_name":"acpi_power_off", }
+,{"id":"acpi_enter_sleep_state_prep", "file":"drivers/acpi/acpica/hwsleep.c", "line":146, "type":"f", }
+,{"id":"acpi_enter_sleep_state_prep", "file":"drivers/acpi/sleep.c", "line":77, "type":"c", "scope_line":60, "scope_name":"acpi_sleep_prepare", }
+,{"id":"acpi_enter_sleep_state_s4bios", "file":"drivers/acpi/acpica/hwsleep.c", "line":407, "type":"f", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsfield.c", "line":247, "type":"c", "scope_line":217, "scope_name":"acpi_ds_get_field_names", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsfield.c", "line":312, "type":"c", "scope_line":217, "scope_name":"acpi_ds_get_field_names", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsfield.c", "line":325, "type":"c", "scope_line":217, "scope_name":"acpi_ds_get_field_names", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsmethod.c", "line":196, "type":"c", "scope_line":180, "scope_name":"acpi_ds_begin_method_execution", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsmethod.c", "line":227, "type":"c", "scope_line":180, "scope_name":"acpi_ds_begin_method_execution", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsmethod.c", "line":611, "type":"c", "scope_line":541, "scope_name":"acpi_ds_terminate_control_method", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsmthdat.c", "line":262, "type":"c", "scope_line":247, "scope_name":"acpi_ds_method_data_get_node", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsmthdat.c", "line":276, "type":"c", "scope_line":247, "scope_name":"acpi_ds_method_data_get_node", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsmthdat.c", "line":288, "type":"c", "scope_line":247, "scope_name":"acpi_ds_method_data_get_node", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsmthdat.c", "line":381, "type":"c", "scope_line":366, "scope_name":"acpi_ds_method_data_get_value", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsmthdat.c", "line":424, "type":"c", "scope_line":366, "scope_name":"acpi_ds_method_data_get_value", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsmthdat.c", "line":440, "type":"c", "scope_line":366, "scope_name":"acpi_ds_method_data_get_value", }
+,{"id":"acpi_error", "file":"drivers/acpi/acpica/dsobject.c", "line":304, "type":"c", "scope_line":264, "scope_name":"acpi_ds_build_internal_buffer_obj", }
+,];
+xr_frag_insert('t/4d/5f088ca0cbc92333139a5a6a28d62ddae5aa4b.xr', __xr_tmp);

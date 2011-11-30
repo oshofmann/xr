@@ -1,0 +1,56 @@
+var __xr_tmp = [
+{"id":"tcp_init_tso_segs", "file":"net/ipv4/tcp_output.c", "line":2105, "type":"c", "scope_line":2058, "scope_name":"tcp_retransmit_skb", }
+,{"id":"tcp_init_wl", "file":"include/net/tcp.h", "line":844, "type":"f", }
+,{"id":"tcp_init_wl", "file":"net/ipv4/tcp_input.c", "line":5525, "type":"c", "scope_line":5447, "scope_name":"tcp_rcv_synsent_state_process", }
+,{"id":"tcp_init_wl", "file":"net/ipv4/tcp_input.c", "line":5811, "type":"c", "scope_line":5724, "scope_name":"tcp_rcv_state_process", }
+,{"id":"tcp_init_wl", "file":"net/ipv4/tcp_minisocks.c", "line":427, "type":"c", "scope_line":379, "scope_name":"tcp_create_openreq_child", }
+,{"id":"tcp_init_wl", "file":"net/ipv4/tcp_output.c", "line":2572, "type":"c", "scope_line":2526, "scope_name":"tcp_connect_init", }
+,{"id":"tcp_init_xmit_timers", "file":"net/ipv4/tcp_ipv4.c", "line":1861, "type":"c", "scope_line":1855, "scope_name":"tcp_v4_init_sock", }
+,{"id":"tcp_init_xmit_timers", "file":"net/ipv4/tcp_minisocks.c", "line":454, "type":"c", "scope_line":379, "scope_name":"tcp_create_openreq_child", }
+,{"id":"tcp_init_xmit_timers", "file":"net/ipv4/tcp_timer.c", "line":39, "type":"f", }
+,{"id":"tcp_init_xmit_timers", "file":"net/ipv6/tcp_ipv6.c", "line":1892, "type":"c", "scope_line":1886, "scope_name":"tcp_v6_init_sock", }
+,{"id":"tcp_initialize_rcv_mss", "file":"net/ipv4/tcp_input.c", "line":414, "type":"f", }
+,{"id":"tcp_initialize_rcv_mss", "file":"net/ipv4/tcp_input.c", "line":5547, "type":"c", "scope_line":5447, "scope_name":"tcp_rcv_synsent_state_process", }
+,{"id":"tcp_initialize_rcv_mss", "file":"net/ipv4/tcp_input.c", "line":5684, "type":"c", "scope_line":5447, "scope_name":"tcp_rcv_synsent_state_process", }
+,{"id":"tcp_initialize_rcv_mss", "file":"net/ipv4/tcp_input.c", "line":5837, "type":"c", "scope_line":5724, "scope_name":"tcp_rcv_state_process", }
+,{"id":"tcp_initialize_rcv_mss", "file":"net/ipv4/tcp_ipv4.c", "line":1452, "type":"c", "scope_line":1405, "scope_name":"tcp_v4_syn_recv_sock", }
+,{"id":"tcp_initialize_rcv_mss", "file":"net/ipv4/tcp_output.c", "line":2556, "type":"c", "scope_line":2526, "scope_name":"tcp_connect_init", }
+,{"id":"tcp_initialize_rcv_mss", "file":"net/ipv6/tcp_ipv6.c", "line":1480, "type":"c", "scope_line":1313, "scope_name":"tcp_v6_syn_recv_sock", }
+,{"id":"tcp_insert_write_queue_after", "file":"include/net/tcp.h", "line":1281, "type":"f", }
+,{"id":"tcp_insert_write_queue_after", "file":"net/ipv4/tcp_output.c", "line":1072, "type":"c", "scope_line":989, "scope_name":"tcp_fragment", }
+,{"id":"tcp_insert_write_queue_after", "file":"net/ipv4/tcp_output.c", "line":1507, "type":"c", "scope_line":1465, "scope_name":"tso_fragment", }
+,{"id":"tcp_insert_write_queue_before", "file":"include/net/tcp.h", "line":1289, "type":"f", }
+,{"id":"tcp_insert_write_queue_before", "file":"net/ipv4/tcp_output.c", "line":1654, "type":"c", "scope_line":1591, "scope_name":"tcp_mtu_probe", }
+,{"id":"tcp_ioctl", "file":"net/ipv4/tcp.c", "line":467, "type":"f", }
+,{"id":"tcp_ip4_spec", "file":"include/linux/ethtool.h", "line":363, "type":"m", "scope_line":360, "scope_name":"struct ethtool_rx_flow_spec", }
+,{"id":"tcp_ip4_spec", "file":"include/linux/ethtool.h", "line":401, "type":"m", "scope_line":398, "scope_name":"struct ethtool_rx_ntuple_flow_spec", }
+,{"id":"tcp_is_cwnd_limited", "file":"net/ipv4/tcp_cong.c", "line":282, "type":"f", }
+,{"id":"tcp_is_cwnd_limited", "file":"net/ipv4/tcp_cong.c", "line":365, "type":"c", "scope_line":361, "scope_name":"tcp_reno_cong_avoid", }
+,{"id":"tcp_is_cwnd_limited", "file":"net/ipv4/tcp_cubic.c", "line":288, "type":"c", "scope_line":283, "scope_name":"bictcp_cong_avoid", }
+,{"id":"tcp_is_fack", "file":"include/net/tcp.h", "line":747, "type":"f", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":1163, "type":"c", "scope_line":1154, "scope_name":"tcp_mark_lost_retrans", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":1362, "type":"c", "scope_line":1303, "scope_name":"tcp_sacktag_one", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":1394, "type":"c", "scope_line":1383, "scope_name":"tcp_shifted_skb", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":2312, "type":"c", "scope_line":2310, "scope_name":"tcp_dupack_heuristics", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":2441, "type":"c", "scope_line":2421, "scope_name":"tcp_time_to_recover", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":2487, "type":"c", "scope_line":2482, "scope_name":"tcp_timeout_skbs", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":2543, "type":"c", "scope_line":2511, "scope_name":"tcp_mark_head_lost", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":2548, "type":"c", "scope_line":2511, "scope_name":"tcp_mark_head_lost", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":2572, "type":"c", "scope_line":2566, "scope_name":"tcp_update_scoreboard", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":2983, "type":"c", "scope_line":2959, "scope_name":"tcp_fastretrans_alert", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":3113, "type":"c", "scope_line":2959, "scope_name":"tcp_fastretrans_alert", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":3341, "type":"c", "scope_line":3226, "scope_name":"tcp_clean_rtx_queue", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":860, "type":"c", "scope_line":857, "scope_name":"tcp_disable_fack", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_input.c", "line":960, "type":"c", "scope_line":946, "scope_name":"tcp_update_reordering", }
+,{"id":"tcp_is_fack", "file":"net/ipv4/tcp_output.c", "line":976, "type":"c", "scope_line":957, "scope_name":"tcp_adjust_pcount", }
+,{"id":"tcp_is_reno", "file":"include/net/tcp.h", "line":742, "type":"f", }
+,{"id":"tcp_is_reno", "file":"net/ipv4/tcp_input.c", "line":1999, "type":"c", "scope_line":1997, "scope_name":"tcp_is_sackfrto", }
+,{"id":"tcp_is_reno", "file":"net/ipv4/tcp_input.c", "line":2133, "type":"c", "scope_line":2126, "scope_name":"tcp_enter_frto_loss", }
+,{"id":"tcp_is_reno", "file":"net/ipv4/tcp_input.c", "line":2230, "type":"c", "scope_line":2210, "scope_name":"tcp_enter_loss", }
+,{"id":"tcp_is_reno", "file":"net/ipv4/tcp_input.c", "line":2292, "type":"c", "scope_line":2290, "scope_name":"tcp_fackets_out", }
+,{"id":"tcp_is_reno", "file":"net/ipv4/tcp_input.c", "line":2543, "type":"c", "scope_line":2511, "scope_name":"tcp_mark_head_lost", }
+,{"id":"tcp_is_reno", "file":"net/ipv4/tcp_input.c", "line":2570, "type":"c", "scope_line":2566, "scope_name":"tcp_update_scoreboard", }
+,{"id":"tcp_is_reno", "file":"net/ipv4/tcp_input.c", "line":2613, "type":"c", "scope_line":2608, "scope_name":"tcp_cwnd_down", }
+,{"id":"tcp_is_reno", "file":"net/ipv4/tcp_input.c", "line":2717, "type":"c", "scope_line":2697, "scope_name":"tcp_try_undo_recovery", }
+,];
+xr_frag_insert('t/d8/22dc6c1501bdd71393ba81b4ccddea81bcb7c3.xr', __xr_tmp);

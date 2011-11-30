@@ -1,0 +1,23 @@
+var __xr_tmp = [
+"<span class=\"comment\">/* Core PCI functionality used only by PCI hotplug */</span>", 
+"", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#pci\">pci</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> \"pci.h\"", 
+"", 
+"", 
+"unsigned int <a class=\"id\" href=\"#__devinit\">__devinit</a> <a class=\"id\" href=\"#pci_do_scan_bus\">pci_do_scan_bus</a>(struct <a class=\"id\" href=\"#pci_bus\">pci_bus</a> *<a class=\"id\" href=\"#bus\">bus</a>)", 
+"{", 
+"<span class=\"ts\"/>unsigned int <a class=\"id\" href=\"#max\">max</a>;", 
+"", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#max\">max</a> = <a class=\"id\" href=\"#pci_scan_child_bus\">pci_scan_child_bus</a>(<a class=\"id\" href=\"#bus\">bus</a>);", 
+"", 
+"<span class=\"ts\"/><span class=\"comment\">/*</span>", 
+"<span class=\"comment\"><span class=\"ts\"/> * Make the discovered devices available.</span>", 
+"<span class=\"comment\"><span class=\"ts\"/> */</span>", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#pci_bus_add_devices\">pci_bus_add_devices</a>(<a class=\"id\" href=\"#bus\">bus</a>);", 
+"", 
+"<span class=\"ts\"/>return <a class=\"id\" href=\"#max\">max</a>;", 
+"}", 
+"<a class=\"id\" href=\"#EXPORT_SYMBOL\">EXPORT_SYMBOL</a>(<a class=\"id\" href=\"#pci_do_scan_bus\">pci_do_scan_bus</a>);", 
+];
+xr_frag_insert('l/68/668468767d9f227110af88e953c7ee02179e0b.xr', __xr_tmp);

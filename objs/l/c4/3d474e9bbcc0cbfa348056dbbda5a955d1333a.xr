@@ -1,0 +1,15 @@
+var __xr_tmp = [
+"<span class=\"comment\"> * Ensure that CONFIG_WANT_PAGE_DEBUG_FLAGS reliably</span>", 
+"<span class=\"comment\"> * gets turned off when no debug features are enabling it!</span>", 
+"<span class=\"comment\"> */</span>", 
+"", 
+"#<a class=\"id\" href=\"#ifdef\">ifdef</a> <a class=\"id\" href=\"#CONFIG_WANT_PAGE_DEBUG_FLAGS\">CONFIG_WANT_PAGE_DEBUG_FLAGS</a>", 
+"#if !<a class=\"id\" href=\"#defined\">defined</a>(<a class=\"id\" href=\"#CONFIG_PAGE_POISONING\">CONFIG_PAGE_POISONING</a>) \\", 
+"<span class=\"comment\">/* &amp;&amp; !defined(CONFIG_PAGE_DEBUG_SOMETHING_ELSE) &amp;&amp; ... */</span>", 
+"#<a class=\"id\" href=\"#error\">error</a> <a class=\"id\" href=\"#WANT_PAGE_DEBUG_FLAGS\">WANT_PAGE_DEBUG_FLAGS</a> <a class=\"id\" href=\"#is\">is</a> <a class=\"id\" href=\"#turned\">turned</a> <a class=\"id\" href=\"#on\">on</a> <a class=\"id\" href=\"#with\">with</a> <a class=\"id\" href=\"#no\">no</a> <a class=\"id\" href=\"#debug\">debug</a> <a class=\"id\" href=\"#features\">features</a>!", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* CONFIG_WANT_PAGE_DEBUG_FLAGS */</span>", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* LINUX_PAGE_DEBUG_FLAGS_H */</span>", 
+];
+xr_frag_insert('l/c4/3d474e9bbcc0cbfa348056dbbda5a955d1333a.xr', __xr_tmp);

@@ -1,0 +1,18 @@
+var __xr_tmp = [
+"<span class=\"comment\">/*</span>", 
+"<span class=\"comment\"> * Provide a default dump_stack() function for architectures</span>", 
+"<span class=\"comment\"> * which don't implement their own.</span>", 
+"<span class=\"comment\"> */</span>", 
+"", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#kernel\">kernel</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#module\">module</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"", 
+"void <a class=\"id\" href=\"#dump_stack\">dump_stack</a>(void)", 
+"{", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#printk\">printk</a>(<a class=\"id\" href=\"#KERN_NOTICE\">KERN_NOTICE</a>", 
+"<span class=\"ts\"/><span class=\"ts\"/>\"This architecture does not implement dump_stack()\\n\");", 
+"}", 
+"", 
+"<a class=\"id\" href=\"#EXPORT_SYMBOL\">EXPORT_SYMBOL</a>(<a class=\"id\" href=\"#dump_stack\">dump_stack</a>);", 
+];
+xr_frag_insert('l/e7/49a18ae7bb3770d6de19ba23e89bfcad7c5513.xr', __xr_tmp);

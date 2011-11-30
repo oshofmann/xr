@@ -1,0 +1,130 @@
+#ts-test {
+	position: absolute;
+}
+
+#header {
+	background-color: #CCCCCC;
+	position: fixed; 
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+#header, #header-spacer {
+	font-size: 125%;
+}
+
+#location {
+	margin-left: .5em;
+	float: left;
+}
+
+#search {
+	margin-right: .5em;
+	float: right;
+}
+
+#search_results {
+	font-family: monospace;
+	position: fixed;
+	background-color: #EEEEEE;
+	height: 0px;
+	right: .5em;
+}
+
+div.search_header {
+	float: left;
+	font-weight: bold;
+}
+
+div.search_close {
+	float:right;
+}
+
+div.search_close a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+div.search_clear {
+	clear: both;
+}
+
+div.search_result {
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+div.line {
+	font-family: monospace;
+	white-space: pre;
+}
+
+a.more_bar {
+	font-family: sans-serif;
+	display: inline-block;
+	background-color: #CCCCFF;
+	vertical-align: bottom;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+div.line_select {
+	background-color: #FFFF66;
+}
+
+div.inner { background-color: #EEEEEE; }
+
+a.lno {
+	color: #333333;
+	background-color: #CCCCCC;
+	text-align: right;
+}
+
+a.id_select { background-color: #FFFF66; }
+
+div.lno_space {
+	display: inline-block;
+	background-color: #CCCCCC;
+	text-align: right;
+}
+
+span.comment {
+	font-weight: bold;
+	font-style: italic;
+}
+
+div.expand {
+	display: none;
+	border-top: 1px solid #CCCCCC;
+}
+
+div.tag_select_bar {
+	font-family: monospace;
+	white-space: pre;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+div.tag_select_bar_even { background-color: #EEEEEE; }
+div.tag_select_bar_odd	{ background-color: #F8F8F8; }
+
+div.src_window {
+	display: none;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+div.src_window_even { background-color: #EEEEEE; }
+div.src_window_odd { background-color: #F8F8F8; }
+
+a.tag_select {
+	display: inline-block;
+	padding-right: .5em;
+	padding-left: .5em;
+	margin-right: .5em;
+	border-right: 1px solid #CCCCCC;
+}

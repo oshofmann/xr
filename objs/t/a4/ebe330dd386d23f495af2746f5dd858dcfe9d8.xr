@@ -1,0 +1,136 @@
+var __xr_tmp = [
+{"id":"serial", "file":"include/linux/pnp.h", "line":213, "type":"m", "scope_line":200, "scope_name":"struct pnp_card", }
+,{"id":"serial", "file":"include/linux/sctp.h", "line":642, "type":"m", "scope_line":641, "scope_name":"struct sctp_addiphdr", }
+,{"id":"serial", "file":"include/linux/usb.h", "line":465, "type":"m", "scope_line":423, "scope_name":"struct usb_device", }
+,{"id":"serial", "file":"kernel/audit.c", "line":1099, "type":"v", }
+,{"id":"serial", "file":"kernel/auditsc.c", "line":170, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"serial", "file":"security/tomoyo/common.c", "line":1481, "type":"m", "scope_line":1477, "scope_name":"struct tomoyo_query", }
+,{"id":"serial8250_backup_timeout", "file":"drivers/serial/8250.c", "line":1748, "type":"f", }
+,{"id":"serial8250_break_ctl", "file":"drivers/serial/8250.c", "line":1848, "type":"f", }
+,{"id":"serial8250_clear_fifos", "file":"drivers/serial/8250.c", "line":1256, "type":"c", "scope_line":1098, "scope_name":"autoconfig", }
+,{"id":"serial8250_clear_fifos", "file":"drivers/serial/8250.c", "line":1986, "type":"c", "scope_line":1948, "scope_name":"serial8250_startup", }
+,{"id":"serial8250_clear_fifos", "file":"drivers/serial/8250.c", "line":2202, "type":"c", "scope_line":2176, "scope_name":"serial8250_shutdown", }
+,{"id":"serial8250_clear_fifos", "file":"drivers/serial/8250.c", "line":642, "type":"f", }
+,{"id":"serial8250_config", "file":"drivers/serial/8250.h", "line":34, "type":"s", }
+,{"id":"serial8250_config_port", "file":"drivers/serial/8250.c", "line":2592, "type":"f", }
+,{"id":"serial8250_console", "file":"drivers/serial/8250.c", "line":2857, "type":"v", }
+,{"id":"serial8250_console_early_setup", "file":"drivers/serial/8250.c", "line":2852, "type":"f", }
+,{"id":"serial8250_console_init", "file":"drivers/serial/8250.c", "line":2868, "type":"f", }
+,{"id":"serial8250_console_putchar", "file":"drivers/serial/8250.c", "line":2760, "type":"f", }
+,{"id":"serial8250_console_setup", "file":"drivers/serial/8250.c", "line":2827, "type":"f", }
+,{"id":"serial8250_console_write", "file":"drivers/serial/8250.c", "line":2774, "type":"f", }
+,{"id":"serial8250_do_set_termios", "file":"drivers/serial/8250.c", "line":2243, "type":"f", }
+,{"id":"serial8250_do_set_termios", "file":"drivers/serial/8250.c", "line":2430, "type":"c", "scope_line":2423, "scope_name":"serial8250_set_termios", }
+,{"id":"serial8250_enable_ms", "file":"drivers/serial/8250.c", "line":1379, "type":"f", }
+,{"id":"serial8250_enable_ms", "file":"drivers/serial/8250.c", "line":2438, "type":"c", "scope_line":2433, "scope_name":"serial8250_set_ldisc", }
+,{"id":"serial8250_exit", "file":"drivers/serial/8250.c", "line":3265, "type":"f", }
+,{"id":"serial8250_find_match_or_unused", "file":"drivers/serial/8250.c", "line":3094, "type":"f", }
+,{"id":"serial8250_find_match_or_unused", "file":"drivers/serial/8250.c", "line":3149, "type":"c", "scope_line":3139, "scope_name":"serial8250_register_port", }
+,{"id":"serial8250_find_port", "file":"drivers/serial/8250.c", "line":2879, "type":"f", }
+,{"id":"serial8250_find_port", "file":"drivers/serial/8250_early.c", "line":274, "type":"c", "scope_line":264, "scope_name":"serial8250_find_port_for_earlycon", }
+,{"id":"serial8250_find_port_for_earlycon", "file":"drivers/serial/8250.c", "line":2854, "type":"c", "scope_line":2852, "scope_name":"serial8250_console_early_setup", }
+,{"id":"serial8250_find_port_for_earlycon", "file":"drivers/serial/8250_early.c", "line":264, "type":"f", }
+,{"id":"serial8250_get_divisor", "file":"drivers/serial/8250.c", "line":2223, "type":"f", }
+,{"id":"serial8250_get_divisor", "file":"drivers/serial/8250.c", "line":2285, "type":"c", "scope_line":2243, "scope_name":"serial8250_do_set_termios", }
+,{"id":"serial8250_get_mctrl", "file":"drivers/serial/8250.c", "line":1807, "type":"f", }
+,{"id":"serial8250_get_poll_char", "file":"drivers/serial/8250.c", "line":1900, "type":"f", }
+,{"id":"serial8250_handle_port", "file":"drivers/serial/8250.c", "line":1531, "type":"f", }
+,{"id":"serial8250_handle_port", "file":"drivers/serial/8250.c", "line":1584, "type":"c", "scope_line":1565, "scope_name":"serial8250_interrupt", }
+,{"id":"serial8250_handle_port", "file":"drivers/serial/8250.c", "line":1744, "type":"c", "scope_line":1737, "scope_name":"serial8250_timeout", }
+,{"id":"serial8250_handle_port", "file":"drivers/serial/8250.c", "line":1783, "type":"c", "scope_line":1748, "scope_name":"serial8250_backup_timeout", }
+,{"id":"serial8250_init", "file":"drivers/serial/8250.c", "line":3215, "type":"f", }
+,{"id":"serial8250_init_fixed_type_port", "file":"drivers/serial/8250.c", "line":2725, "type":"f", }
+,{"id":"serial8250_init_fixed_type_port", "file":"drivers/serial/8250.c", "line":2752, "type":"c", "scope_line":2734, "scope_name":"serial8250_register_ports", }
+,{"id":"serial8250_init_fixed_type_port", "file":"drivers/serial/8250.c", "line":3168, "type":"c", "scope_line":3139, "scope_name":"serial8250_register_port", }
+,{"id":"serial8250_interrupt", "file":"drivers/serial/8250.c", "line":1565, "type":"f", }
+,{"id":"serial8250_isa_devs", "file":"drivers/serial/8250.c", "line":3085, "type":"v", }
+,{"id":"serial8250_isa_driver", "file":"drivers/serial/8250.c", "line":3070, "type":"v", }
+,{"id":"serial8250_isa_init_ports", "file":"drivers/serial/8250.c", "line":2677, "type":"f", }
+,{"id":"serial8250_isa_init_ports", "file":"drivers/serial/8250.c", "line":2744, "type":"c", "scope_line":2734, "scope_name":"serial8250_register_ports", }
+,{"id":"serial8250_isa_init_ports", "file":"drivers/serial/8250.c", "line":2873, "type":"c", "scope_line":2868, "scope_name":"serial8250_console_init", }
+,{"id":"serial8250_isa_init_ports", "file":"drivers/serial/8250.c", "line":2919, "type":"c", "scope_line":2912, "scope_name":"early_serial_setup", }
+,{"id":"serial8250_pci_exit", "file":"drivers/serial/8250_pci.c", "line":3799, "type":"f", }
+,{"id":"serial8250_pci_init", "file":"drivers/serial/8250_pci.c", "line":3794, "type":"f", }
+,{"id":"serial8250_pm", "file":"drivers/serial/8250.c", "line":2443, "type":"f", }
+,{"id":"serial8250_pnp_exit", "file":"drivers/serial/8250_pnp.c", "line":514, "type":"f", }
+,{"id":"serial8250_pnp_init", "file":"drivers/serial/8250_pnp.c", "line":509, "type":"f", }
+,{"id":"serial8250_pops", "file":"drivers/serial/8250.c", "line":2650, "type":"v", }
+,{"id":"serial8250_port_size", "file":"drivers/serial/8250.c", "line":2455, "type":"f", }
+,{"id":"serial8250_port_size", "file":"drivers/serial/8250.c", "line":2471, "type":"c", "scope_line":2469, "scope_name":"serial8250_request_std_resource", }
+,{"id":"serial8250_port_size", "file":"drivers/serial/8250.c", "line":2509, "type":"c", "scope_line":2507, "scope_name":"serial8250_release_std_resource", }
+,{"id":"serial8250_ports", "file":"drivers/serial/8250.c", "line":2675, "type":"v", }
+,{"id":"serial8250_probe", "file":"drivers/serial/8250.c", "line":2986, "type":"f", }
+,{"id":"serial8250_put_poll_char", "file":"drivers/serial/8250.c", "line":1912, "type":"f", }
+,{"id":"serial8250_reg", "file":"drivers/serial/8250.c", "line":2897, "type":"v", }
+,{"id":"serial8250_register_port", "file":"drivers/serial/8250.c", "line":3015, "type":"c", "scope_line":2986, "scope_name":"serial8250_probe", }
+,{"id":"serial8250_register_port", "file":"drivers/serial/8250.c", "line":3139, "type":"f", }
+,{"id":"serial8250_register_port", "file":"drivers/serial/8250_pci.c", "line":2443, "type":"c", "scope_line":2385, "scope_name":"pciserial_init_ports", }
+,{"id":"serial8250_register_port", "file":"drivers/serial/8250_pnp.c", "line":460, "type":"c", "scope_line":423, "scope_name":"serial_pnp_probe", }
+,{"id":"serial8250_register_ports", "file":"drivers/serial/8250.c", "line":2734, "type":"f", }
+,{"id":"serial8250_register_ports", "file":"drivers/serial/8250.c", "line":3246, "type":"c", "scope_line":3215, "scope_name":"serial8250_init", }
+,{"id":"serial8250_release_port", "file":"drivers/serial/8250.c", "line":2568, "type":"f", }
+,{"id":"serial8250_release_rsa_resource", "file":"drivers/serial/8250.c", "line":2555, "type":"f", }
+,{"id":"serial8250_release_rsa_resource", "file":"drivers/serial/8250.c", "line":2574, "type":"c", "scope_line":2568, "scope_name":"serial8250_release_port", }
+,{"id":"serial8250_release_rsa_resource", "file":"drivers/serial/8250.c", "line":2624, "type":"c", "scope_line":2592, "scope_name":"serial8250_config_port", }
+,{"id":"serial8250_release_std_resource", "file":"drivers/serial/8250.c", "line":2507, "type":"f", }
+,{"id":"serial8250_release_std_resource", "file":"drivers/serial/8250.c", "line":2572, "type":"c", "scope_line":2568, "scope_name":"serial8250_release_port", }
+,{"id":"serial8250_release_std_resource", "file":"drivers/serial/8250.c", "line":2586, "type":"c", "scope_line":2577, "scope_name":"serial8250_request_port", }
+,{"id":"serial8250_release_std_resource", "file":"drivers/serial/8250.c", "line":2626, "type":"c", "scope_line":2592, "scope_name":"serial8250_config_port", }
+,{"id":"serial8250_remove", "file":"drivers/serial/8250.c", "line":3029, "type":"f", }
+,{"id":"serial8250_request_port", "file":"drivers/serial/8250.c", "line":2577, "type":"f", }
+,{"id":"serial8250_request_rsa_resource", "file":"drivers/serial/8250.c", "line":2535, "type":"f", }
+,{"id":"serial8250_request_rsa_resource", "file":"drivers/serial/8250.c", "line":2584, "type":"c", "scope_line":2577, "scope_name":"serial8250_request_port", }
+,{"id":"serial8250_request_rsa_resource", "file":"drivers/serial/8250.c", "line":2606, "type":"c", "scope_line":2592, "scope_name":"serial8250_config_port", }
+,{"id":"serial8250_request_std_resource", "file":"drivers/serial/8250.c", "line":2469, "type":"f", }
+,{"id":"serial8250_request_std_resource", "file":"drivers/serial/8250.c", "line":2582, "type":"c", "scope_line":2577, "scope_name":"serial8250_request_port", }
+,{"id":"serial8250_request_std_resource", "file":"drivers/serial/8250.c", "line":2602, "type":"c", "scope_line":2592, "scope_name":"serial8250_config_port", }
+,{"id":"serial8250_resume", "file":"drivers/serial/8250.c", "line":3056, "type":"f", }
+,{"id":"serial8250_resume_port", "file":"drivers/serial/8250.c", "line":2961, "type":"f", }
+,{"id":"serial8250_resume_port", "file":"drivers/serial/8250.c", "line":3064, "type":"c", "scope_line":3056, "scope_name":"serial8250_resume", }
+,{"id":"serial8250_resume_port", "file":"drivers/serial/8250_pci.c", "line":2507, "type":"c", "scope_line":2495, "scope_name":"pciserial_resume_ports", }
+,{"id":"serial8250_resume_port", "file":"drivers/serial/8250_pnp.c", "line":492, "type":"c", "scope_line":486, "scope_name":"serial_pnp_resume", }
+,{"id":"serial8250_set_ldisc", "file":"drivers/serial/8250.c", "line":2433, "type":"f", }
+,{"id":"serial8250_set_mctrl", "file":"drivers/serial/8250.c", "line":1827, "type":"f", }
+,{"id":"serial8250_set_mctrl", "file":"drivers/serial/8250.c", "line":2105, "type":"c", "scope_line":1948, "scope_name":"serial8250_startup", }
+,{"id":"serial8250_set_mctrl", "file":"drivers/serial/8250.c", "line":2195, "type":"c", "scope_line":2176, "scope_name":"serial8250_shutdown", }
+,{"id":"serial8250_set_mctrl", "file":"drivers/serial/8250.c", "line":2415, "type":"c", "scope_line":2243, "scope_name":"serial8250_do_set_termios", }
+,{"id":"serial8250_set_sleep", "file":"drivers/serial/8250.c", "line":2449, "type":"c", "scope_line":2443, "scope_name":"serial8250_pm", }
+,{"id":"serial8250_set_sleep", "file":"drivers/serial/8250.c", "line":657, "type":"f", }
+,{"id":"serial8250_set_termios", "file":"drivers/serial/8250.c", "line":2423, "type":"f", }
+,{"id":"serial8250_shutdown", "file":"drivers/serial/8250.c", "line":2176, "type":"f", }
+,{"id":"serial8250_start_tx", "file":"drivers/serial/8250.c", "line":1342, "type":"f", }
+,{"id":"serial8250_startup", "file":"drivers/serial/8250.c", "line":1948, "type":"f", }
+,{"id":"serial8250_stop_rx", "file":"drivers/serial/8250.c", "line":1370, "type":"f", }
+,{"id":"serial8250_stop_tx", "file":"drivers/serial/8250.c", "line":1325, "type":"f", }
+,{"id":"serial8250_stop_tx", "file":"drivers/serial/8250.c", "line":1479, "type":"c", "scope_line":1467, "scope_name":"transmit_chars", }
+,{"id":"serial8250_suspend", "file":"drivers/serial/8250.c", "line":3042, "type":"f", }
+,{"id":"serial8250_suspend_port", "file":"drivers/serial/8250.c", "line":2950, "type":"f", }
+,{"id":"serial8250_suspend_port", "file":"drivers/serial/8250_pci.c", "line":2491, "type":"c", "scope_line":2485, "scope_name":"pciserial_suspend_ports", }
+,{"id":"serial8250_suspend_port", "file":"drivers/serial/8250_pnp.c", "line":482, "type":"c", "scope_line":476, "scope_name":"serial_pnp_suspend", }
+,{"id":"serial8250_timeout", "file":"drivers/serial/8250.c", "line":1737, "type":"f", }
+,{"id":"serial8250_tx_empty", "file":"drivers/serial/8250.c", "line":1793, "type":"f", }
+,{"id":"serial8250_type", "file":"drivers/serial/8250.c", "line":2640, "type":"f", }
+,{"id":"serial8250_unregister_port", "file":"drivers/serial/8250.c", "line":3037, "type":"c", "scope_line":3029, "scope_name":"serial8250_remove", }
+,{"id":"serial8250_unregister_port", "file":"drivers/serial/8250.c", "line":3197, "type":"f", }
+,{"id":"serial8250_unregister_port", "file":"drivers/serial/8250_pci.c", "line":2466, "type":"c", "scope_line":2460, "scope_name":"pciserial_remove_ports", }
+,{"id":"serial8250_unregister_port", "file":"drivers/serial/8250_pnp.c", "line":472, "type":"c", "scope_line":468, "scope_name":"serial_pnp_remove", }
+,{"id":"serial8250_verify_port", "file":"drivers/serial/8250.c", "line":2629, "type":"f", }
+,{"id":"serial_dl_read", "file":"drivers/serial/8250.c", "line":614, "type":"d", }
+,{"id":"serial_dl_write", "file":"drivers/serial/8250.c", "line":615, "type":"d", }
+,{"id":"serial_do_unlink", "file":"drivers/serial/8250.c", "line":1629, "type":"f", }
+,{"id":"serial_do_unlink", "file":"drivers/serial/8250.c", "line":1693, "type":"c", "scope_line":1649, "scope_name":"serial_link_irq_chain", }
+,{"id":"serial_do_unlink", "file":"drivers/serial/8250.c", "line":1721, "type":"c", "scope_line":1699, "scope_name":"serial_unlink_irq_chain", }
+,{"id":"serial_icounter_struct", "file":"include/linux/serial.h", "line":193, "type":"s", }
+,{"id":"serial_icr_read", "file":"drivers/serial/8250.c", "line":627, "type":"f", }
+,{"id":"serial_icr_read", "file":"drivers/serial/8250.c", "line":847, "type":"c", "scope_line":817, "scope_name":"autoconfig_has_efr", }
+,{"id":"serial_icr_read", "file":"drivers/serial/8250.c", "line":848, "type":"c", "scope_line":817, "scope_name":"autoconfig_has_efr", }
+,{"id":"serial_icr_read", "file":"drivers/serial/8250.c", "line":849, "type":"c", "scope_line":817, "scope_name":"autoconfig_has_efr", }
+,{"id":"serial_icr_read", "file":"drivers/serial/8250.c", "line":850, "type":"c", "scope_line":817, "scope_name":"autoconfig_has_efr", }
+,{"id":"serial_icr_write", "file":"drivers/serial/8250.c", "line":1336, "type":"c", "scope_line":1325, "scope_name":"serial8250_stop_tx", }
+,{"id":"serial_icr_write", "file":"drivers/serial/8250.c", "line":1366, "type":"c", "scope_line":1342, "scope_name":"serial8250_start_tx", }
+,{"id":"serial_icr_write", "file":"drivers/serial/8250.c", "line":1968, "type":"c", "scope_line":1948, "scope_name":"serial8250_startup", }
+,{"id":"serial_icr_write", "file":"drivers/serial/8250.c", "line":621, "type":"f", }
+,{"id":"serial_icr_write", "file":"drivers/serial/8250.c", "line":631, "type":"c", "scope_line":627, "scope_name":"serial_icr_read", }
+,{"id":"serial_icr_write", "file":"drivers/serial/8250.c", "line":634, "type":"c", "scope_line":627, "scope_name":"serial_icr_read", }
+,];
+xr_frag_insert('t/a4/ebe330dd386d23f495af2746f5dd858dcfe9d8.xr', __xr_tmp);

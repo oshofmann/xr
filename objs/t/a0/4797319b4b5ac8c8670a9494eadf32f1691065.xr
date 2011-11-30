@@ -1,0 +1,160 @@
+var __xr_tmp = [
+{"id":"ext4_fs_is_busy", "file":"fs/ext4/mballoc.c", "line":3968, "type":"c", "scope_line":3952, "scope_name":"ext4_mb_group_or_file", }
+,{"id":"ext4_fs_type", "file":"fs/ext4/super.c", "line":4284, "type":"v", }
+,{"id":"ext4_fsblk_t", "file":"fs/ext4/ext4.h", "line":72, "type":"t", }
+,{"id":"ext4_generic_write_end", "file":"fs/ext4/inode.c", "line":1662, "type":"f", }
+,{"id":"ext4_generic_write_end", "file":"fs/ext4/inode.c", "line":1728, "type":"c", "scope_line":1715, "scope_name":"ext4_ordered_write_end", }
+,{"id":"ext4_generic_write_end", "file":"fs/ext4/inode.c", "line":1769, "type":"c", "scope_line":1759, "scope_name":"ext4_writeback_write_end", }
+,{"id":"ext4_get_acl", "file":"fs/ext4/acl.c", "line":134, "type":"f", }
+,{"id":"ext4_get_acl", "file":"fs/ext4/acl.c", "line":243, "type":"c", "scope_line":240, "scope_name":"ext4_check_acl", }
+,{"id":"ext4_get_acl", "file":"fs/ext4/acl.c", "line":270, "type":"c", "scope_line":262, "scope_name":"ext4_init_acl", }
+,{"id":"ext4_get_acl", "file":"fs/ext4/acl.c", "line":333, "type":"c", "scope_line":323, "scope_name":"ext4_acl_chmod", }
+,{"id":"ext4_get_acl", "file":"fs/ext4/acl.c", "line":405, "type":"c", "scope_line":393, "scope_name":"ext4_xattr_get_acl", }
+,{"id":"ext4_get_block", "file":"fs/ext4/inode.c", "line":1388, "type":"f", }
+,{"id":"ext4_get_block", "file":"fs/ext4/inode.c", "line":4193, "type":"c", "scope_line":4152, "scope_name":"ext4_block_truncate_page", }
+,{"id":"ext4_get_block", "file":"fs/ext4/move_extent.c", "line":905, "type":"c", "scope_line":789, "scope_name":"move_extent_per_page", }
+,{"id":"ext4_get_block_write", "file":"fs/ext4/inode.c", "line":3636, "type":"f", }
+,{"id":"ext4_get_branch", "file":"fs/ext4/inode.c", "line":409, "type":"f", }
+,{"id":"ext4_get_branch", "file":"fs/ext4/inode.c", "line":4299, "type":"c", "scope_line":4288, "scope_name":"ext4_find_shared", }
+,{"id":"ext4_get_branch", "file":"fs/ext4/inode.c", "line":953, "type":"c", "scope_line":930, "scope_name":"ext4_ind_map_blocks", }
+,{"id":"ext4_get_dev_journal", "file":"fs/ext4/super.c", "line":3290, "type":"f", }
+,{"id":"ext4_get_dev_journal", "file":"fs/ext4/super.c", "line":3434, "type":"c", "scope_line":3383, "scope_name":"ext4_load_journal", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/balloc.c", "line":198, "type":"f", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/balloc.c", "line":299, "type":"c", "scope_line":292, "scope_name":"ext4_read_block_bitmap", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/balloc.c", "line":399, "type":"c", "scope_line":371, "scope_name":"ext4_add_groupblocks", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/balloc.c", "line":649, "type":"c", "scope_line":609, "scope_name":"ext4_count_free_blocks", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/block_validity.c", "line":164, "type":"c", "scope_line":142, "scope_name":"ext4_setup_system_zone", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":107, "type":"c", "scope_line":100, "scope_name":"ext4_read_inode_bitmap", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":1184, "type":"c", "scope_line":1147, "scope_name":"ext4_count_free_inodes", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":1201, "type":"c", "scope_line":1195, "scope_name":"ext4_count_dirs", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":244, "type":"c", "scope_line":178, "scope_name":"ext4_free_inode", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":314, "type":"c", "scope_line":301, "scope_name":"find_group_dir", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":391, "type":"c", "scope_line":332, "scope_name":"find_group_flex", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":427, "type":"c", "scope_line":414, "scope_name":"get_orlov_stats", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":541, "type":"c", "scope_line":460, "scope_name":"find_group_orlov", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":585, "type":"c", "scope_line":460, "scope_name":"find_group_orlov", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":629, "type":"c", "scope_line":605, "scope_name":"find_group_other", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":655, "type":"c", "scope_line":605, "scope_name":"find_group_other", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":679, "type":"c", "scope_line":605, "scope_name":"find_group_other", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":693, "type":"c", "scope_line":605, "scope_name":"find_group_other", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":715, "type":"c", "scope_line":709, "scope_name":"ext4_claim_inode", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/ialloc.c", "line":861, "type":"c", "scope_line":788, "scope_name":"ext4_new_inode", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/inode.c", "line":4814, "type":"c", "scope_line":4800, "scope_name":"__ext4_get_inode_loc", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/mballoc.c", "line":2378, "type":"c", "scope_line":2324, "scope_name":"ext4_mb_init_backend", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/mballoc.c", "line":2738, "type":"c", "scope_line":2710, "scope_name":"ext4_mb_mark_diskspace_used", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/mballoc.c", "line":4572, "type":"c", "scope_line":4488, "scope_name":"ext4_free_blocks", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/mballoc.c", "line":805, "type":"c", "scope_line":756, "scope_name":"ext4_mb_init_cache", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/super.c", "line":1891, "type":"c", "scope_line":1855, "scope_name":"ext4_fill_flex_info", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/super.c", "line":1962, "type":"c", "scope_line":1945, "scope_name":"ext4_check_descriptors", }
+,{"id":"ext4_get_group_desc", "file":"fs/ext4/super.c", "line":3806, "type":"c", "scope_line":3709, "scope_name":"ext4_remount", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/balloc.c", "line":388, "type":"c", "scope_line":371, "scope_name":"ext4_add_groupblocks", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/ext4.h", "line":1816, "type":"f", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":1062, "type":"c", "scope_line":1045, "scope_name":"ext4_mb_load_buddy", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":1065, "type":"c", "scope_line":1045, "scope_name":"ext4_mb_load_buddy", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":1869, "type":"c", "scope_line":1864, "scope_name":"ext4_mb_good_group", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":1953, "type":"c", "scope_line":1925, "scope_name":"ext4_mb_get_buddy_cache_lock", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":1985, "type":"c", "scope_line":1964, "scope_name":"ext4_mb_put_buddy_cache_lock", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":2189, "type":"c", "scope_line":2160, "scope_name":"ext4_mb_seq_groups_show", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":2392, "type":"c", "scope_line":2324, "scope_name":"ext4_mb_init_backend", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":2509, "type":"c", "scope_line":2499, "scope_name":"ext4_mb_release", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":3246, "type":"c", "scope_line":3239, "scope_name":"ext4_mb_generate_from_freelist", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":3266, "type":"c", "scope_line":3262, "scope_name":"ext4_mb_generate_from_pa", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":3440, "type":"c", "scope_line":3368, "scope_name":"ext4_mb_new_inode_pa", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":3499, "type":"c", "scope_line":3459, "scope_name":"ext4_mb_new_group_pa", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":3644, "type":"c", "scope_line":3640, "scope_name":"ext4_mb_discard_group_preallocations", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":687, "type":"c", "scope_line":683, "scope_name":"ext4_mb_generate_buddy", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":895, "type":"c", "scope_line":756, "scope_name":"ext4_mb_init_cache", }
+,{"id":"ext4_get_group_info", "file":"fs/ext4/mballoc.c", "line":962, "type":"c", "scope_line":946, "scope_name":"ext4_mb_init_group", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/balloc.c", "line":31, "type":"f", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/balloc.c", "line":387, "type":"c", "scope_line":371, "scope_name":"ext4_add_groupblocks", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/balloc.c", "line":50, "type":"c", "scope_line":46, "scope_name":"ext4_block_in_group", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":3008, "type":"c", "scope_line":2843, "scope_name":"ext4_mb_normalize_request", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":3015, "type":"c", "scope_line":2843, "scope_name":"ext4_mb_normalize_request", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":3080, "type":"c", "scope_line":3069, "scope_name":"ext4_mb_use_inode_pa", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":3102, "type":"c", "scope_line":3097, "scope_name":"ext4_mb_use_group_pa", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":3286, "type":"c", "scope_line":3262, "scope_name":"ext4_mb_generate_from_pa", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":3338, "type":"c", "scope_line":3311, "scope_name":"ext4_mb_put_pa", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":3552, "type":"c", "scope_line":3536, "scope_name":"ext4_mb_release_inode_pa", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":3613, "type":"c", "scope_line":3602, "scope_name":"ext4_mb_release_group_pa", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":3836, "type":"c", "scope_line":3759, "scope_name":"ext4_discard_preallocations", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":4021, "type":"c", "scope_line":3997, "scope_name":"ext4_mb_initialize_context", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":4114, "type":"c", "scope_line":4054, "scope_name":"ext4_mb_discard_lg_preallocations", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/mballoc.c", "line":4557, "type":"c", "scope_line":4488, "scope_name":"ext4_free_blocks", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/resize.c", "line":49, "type":"c", "scope_line":22, "scope_name":"verify_group_input", }
+,{"id":"ext4_get_group_no_and_offset", "file":"fs/ext4/resize.c", "line":989, "type":"c", "scope_line":951, "scope_name":"ext4_group_extend", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/balloc.c", "line":204, "type":"c", "scope_line":198, "scope_name":"ext4_get_group_desc", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/balloc.c", "line":614, "type":"c", "scope_line":609, "scope_name":"ext4_count_free_blocks", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/balloc.c", "line":90, "type":"c", "scope_line":86, "scope_name":"ext4_init_block_bitmap", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/block_validity.c", "line":144, "type":"c", "scope_line":142, "scope_name":"ext4_setup_system_zone", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/ext4.h", "line":1833, "type":"f", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/ialloc.c", "line":1151, "type":"c", "scope_line":1147, "scope_name":"ext4_count_free_inodes", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/ialloc.c", "line":1198, "type":"c", "scope_line":1195, "scope_name":"ext4_count_dirs", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/ialloc.c", "line":304, "type":"c", "scope_line":301, "scope_name":"find_group_dir", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/ialloc.c", "line":340, "type":"c", "scope_line":332, "scope_name":"find_group_flex", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/ialloc.c", "line":466, "type":"c", "scope_line":460, "scope_name":"find_group_orlov", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/ialloc.c", "line":609, "type":"c", "scope_line":605, "scope_name":"find_group_other", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/ialloc.c", "line":812, "type":"c", "scope_line":788, "scope_name":"ext4_new_inode", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/inode.c", "line":5648, "type":"c", "scope_line":5646, "scope_name":"ext4_meta_trans_blocks", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/mballoc.c", "line":1931, "type":"c", "scope_line":1925, "scope_name":"ext4_mb_get_buddy_cache_lock", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/mballoc.c", "line":2008, "type":"c", "scope_line":1996, "scope_name":"ext4_mb_regular_allocator", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/mballoc.c", "line":2142, "type":"c", "scope_line":2137, "scope_name":"ext4_mb_seq_groups_start", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/mballoc.c", "line":2154, "type":"c", "scope_line":2148, "scope_name":"ext4_mb_seq_groups_next", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/mballoc.c", "line":2326, "type":"c", "scope_line":2324, "scope_name":"ext4_mb_init_backend", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/mballoc.c", "line":2501, "type":"c", "scope_line":2499, "scope_name":"ext4_mb_release", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/mballoc.c", "line":4236, "type":"c", "scope_line":4234, "scope_name":"ext4_mb_discard_preallocations", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/mballoc.c", "line":777, "type":"c", "scope_line":756, "scope_name":"ext4_mb_init_cache", }
+,{"id":"ext4_get_groups_count", "file":"fs/ext4/super.c", "line":3902, "type":"c", "scope_line":3892, "scope_name":"ext4_statfs", }
+,{"id":"ext4_get_inode_flags", "file":"fs/ext4/inode.c", "line":4964, "type":"f", }
+,{"id":"ext4_get_inode_flags", "file":"fs/ext4/inode.c", "line":5266, "type":"c", "scope_line":5252, "scope_name":"ext4_do_update_inode", }
+,{"id":"ext4_get_inode_flags", "file":"fs/ext4/ioctl.c", "line":31, "type":"c", "scope_line":21, "scope_name":"ext4_ioctl", }
+,{"id":"ext4_get_inode_loc", "file":"fs/ext4/extents.c", "line":3908, "type":"c", "scope_line":3894, "scope_name":"ext4_xattr_fiemap", }
+,{"id":"ext4_get_inode_loc", "file":"fs/ext4/inode.c", "line":4939, "type":"f", }
+,{"id":"ext4_get_inode_loc", "file":"fs/ext4/inode.c", "line":5759, "type":"c", "scope_line":5753, "scope_name":"ext4_reserve_inode_write", }
+,{"id":"ext4_get_inode_loc", "file":"fs/ext4/xattr.c", "line":1290, "type":"c", "scope_line":1135, "scope_name":"ext4_expand_extra_isize_ea", }
+,{"id":"ext4_get_inode_loc", "file":"fs/ext4/xattr.c", "line":272, "type":"c", "scope_line":258, "scope_name":"ext4_xattr_ibody_get", }
+,{"id":"ext4_get_inode_loc", "file":"fs/ext4/xattr.c", "line":400, "type":"c", "scope_line":388, "scope_name":"ext4_xattr_ibody_list", }
+,{"id":"ext4_get_inode_loc", "file":"fs/ext4/xattr.c", "line":988, "type":"c", "scope_line":959, "scope_name":"ext4_xattr_set_handle", }
+,{"id":"ext4_get_journal", "file":"fs/ext4/super.c", "line":3247, "type":"f", }
+,{"id":"ext4_get_journal", "file":"fs/ext4/super.c", "line":3431, "type":"c", "scope_line":3383, "scope_name":"ext4_load_journal", }
+,{"id":"ext4_get_nojournal", "file":"fs/ext4/super.c", "line":201, "type":"f", }
+,{"id":"ext4_get_nojournal", "file":"fs/ext4/super.c", "line":256, "type":"c", "scope_line":237, "scope_name":"ext4_journal_start_sb", }
+,{"id":"ext4_get_parent", "file":"fs/ext4/namei.c", "line":1063, "type":"f", }
+,{"id":"ext4_get_reserved_space", "file":"fs/ext4/inode.c", "line":1034, "type":"f", }
+,{"id":"ext4_get_sb", "file":"fs/ext4/super.c", "line":4232, "type":"f", }
+,{"id":"ext4_get_stripe_size", "file":"fs/ext4/super.c", "line":2258, "type":"f", }
+,{"id":"ext4_get_stripe_size", "file":"fs/ext4/super.c", "line":2927, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"ext4_getattr", "file":"fs/ext4/inode.c", "line":5576, "type":"f", }
+,{"id":"ext4_getblk", "file":"fs/ext4/inode.c", "line":1398, "type":"f", }
+,{"id":"ext4_getblk", "file":"fs/ext4/inode.c", "line":1462, "type":"c", "scope_line":1457, "scope_name":"ext4_bread", }
+,{"id":"ext4_getblk", "file":"fs/ext4/namei.c", "line":910, "type":"c", "scope_line":851, "scope_name":"ext4_find_entry", }
+,{"id":"ext4_group_add", "file":"fs/ext4/ioctl.c", "line":285, "type":"c", "scope_line":21, "scope_name":"ext4_ioctl", }
+,{"id":"ext4_group_add", "file":"fs/ext4/resize.c", "line":722, "type":"f", }
+,{"id":"ext4_group_desc", "file":"fs/ext4/ext4.h", "line":236, "type":"s", }
+,{"id":"ext4_group_desc_csum", "file":"fs/ext4/balloc.c", "line":451, "type":"c", "scope_line":371, "scope_name":"ext4_add_groupblocks", }
+,{"id":"ext4_group_desc_csum", "file":"fs/ext4/ialloc.c", "line":263, "type":"c", "scope_line":178, "scope_name":"ext4_free_inode", }
+,{"id":"ext4_group_desc_csum", "file":"fs/ext4/ialloc.c", "line":772, "type":"c", "scope_line":709, "scope_name":"ext4_claim_inode", }
+,{"id":"ext4_group_desc_csum", "file":"fs/ext4/ialloc.c", "line":944, "type":"c", "scope_line":788, "scope_name":"ext4_new_inode", }
+,{"id":"ext4_group_desc_csum", "file":"fs/ext4/mballoc.c", "line":2788, "type":"c", "scope_line":2710, "scope_name":"ext4_mb_mark_diskspace_used", }
+,{"id":"ext4_group_desc_csum", "file":"fs/ext4/mballoc.c", "line":4653, "type":"c", "scope_line":4488, "scope_name":"ext4_free_blocks", }
+,{"id":"ext4_group_desc_csum", "file":"fs/ext4/resize.c", "line":850, "type":"c", "scope_line":722, "scope_name":"ext4_group_add", }
+,{"id":"ext4_group_desc_csum", "file":"fs/ext4/super.c", "line":1907, "type":"f", }
+,{"id":"ext4_group_desc_csum", "file":"fs/ext4/super.c", "line":1936, "type":"c", "scope_line":1933, "scope_name":"ext4_group_desc_csum_verify", }
+,{"id":"ext4_group_desc_csum", "file":"fs/ext4/super.c", "line":1994, "type":"c", "scope_line":1945, "scope_name":"ext4_check_descriptors", }
+,{"id":"ext4_group_desc_csum", "file":"fs/ext4/super.c", "line":3810, "type":"c", "scope_line":3709, "scope_name":"ext4_remount", }
+,{"id":"ext4_group_desc_csum_verify", "file":"fs/ext4/balloc.c", "line":99, "type":"c", "scope_line":86, "scope_name":"ext4_init_block_bitmap", }
+,{"id":"ext4_group_desc_csum_verify", "file":"fs/ext4/ialloc.c", "line":78, "type":"c", "scope_line":68, "scope_name":"ext4_init_inode_bitmap", }
+,{"id":"ext4_group_desc_csum_verify", "file":"fs/ext4/super.c", "line":1933, "type":"f", }
+,{"id":"ext4_group_desc_csum_verify", "file":"fs/ext4/super.c", "line":1993, "type":"c", "scope_line":1945, "scope_name":"ext4_check_descriptors", }
+,{"id":"ext4_group_desc_csum_verify", "file":"fs/ext4/super.c", "line":3809, "type":"c", "scope_line":3709, "scope_name":"ext4_remount", }
+,{"id":"ext4_group_extend", "file":"fs/ext4/ioctl.c", "line":215, "type":"c", "scope_line":21, "scope_name":"ext4_ioctl", }
+,{"id":"ext4_group_extend", "file":"fs/ext4/resize.c", "line":951, "type":"f", }
+,{"id":"ext4_group_extend", "file":"fs/ext4/super.c", "line":3842, "type":"c", "scope_line":3709, "scope_name":"ext4_remount", }
+,{"id":"ext4_group_first_block_no", "file":"fs/ext4/balloc.c", "line":132, "type":"c", "scope_line":86, "scope_name":"ext4_init_block_bitmap", }
+,{"id":"ext4_group_first_block_no", "file":"fs/ext4/balloc.c", "line":147, "type":"c", "scope_line":86, "scope_name":"ext4_init_block_bitmap", }
+,{"id":"ext4_group_first_block_no", "file":"fs/ext4/balloc.c", "line":251, "type":"c", "scope_line":232, "scope_name":"ext4_valid_block_bitmap", }
+,{"id":"ext4_group_first_block_no", "file":"fs/ext4/block_validity.c", "line":162, "type":"c", "scope_line":142, "scope_name":"ext4_setup_system_zone", }
+,{"id":"ext4_group_first_block_no", "file":"fs/ext4/ext4.h", "line":1521, "type":"f", }
+,{"id":"ext4_group_first_block_no", "file":"fs/ext4/extents.c", "line":195, "type":"c", "scope_line":153, "scope_name":"ext4_ext_find_goal", }
+,{"id":"ext4_group_first_block_no", "file":"fs/ext4/inode.c", "line":503, "type":"c", "scope_line":472, "scope_name":"ext4_find_near", }
+,];
+xr_frag_insert('t/a0/4797319b4b5ac8c8670a9494eadf32f1691065.xr', __xr_tmp);

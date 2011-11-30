@@ -1,0 +1,124 @@
+var __xr_tmp = [
+{"id":"optimize_all_kprobes", "file":"kernel/kprobes.c", "line":597, "type":"f", }
+,{"id":"optimize_all_kprobes", "file":"kernel/kprobes.c", "line":661, "type":"c", "scope_line":650, "scope_name":"proc_kprobes_optimization_handler", }
+,{"id":"optimize_kprobe", "file":"kernel/kprobes.c", "line":1259, "type":"c", "scope_line":1221, "scope_name":"__unregister_kprobe_top", }
+,{"id":"optimize_kprobe", "file":"kernel/kprobes.c", "line":474, "type":"f", }
+,{"id":"optimize_kprobe", "file":"kernel/kprobes.c", "line":593, "type":"c", "scope_line":576, "scope_name":"try_to_optimize_kprobe", }
+,{"id":"optimize_kprobe", "file":"kernel/kprobes.c", "line":614, "type":"c", "scope_line":597, "scope_name":"optimize_all_kprobes", }
+,{"id":"optimize_kprobe", "file":"kernel/kprobes.c", "line":680, "type":"c", "scope_line":670, "scope_name":"__arm_kprobe", }
+,{"id":"optimize_kprobe", "file":"kernel/kprobes.c", "line":693, "type":"c", "scope_line":683, "scope_name":"__disarm_kprobe", }
+,{"id":"optimized_callback", "file":"arch/x86/kernel/kprobes.c", "line":1185, "type":"f", }
+,{"id":"optimized_kprobe", "file":"include/linux/kprobes.h", "line":267, "type":"s", }
+,{"id":"optimizing_list", "file":"kernel/kprobes.c", "line":422, "type":"v", }
+,{"id":"optimizing_work", "file":"kernel/kprobes.c", "line":425, "type":"v", }
+,{"id":"optinsn", "file":"include/linux/kprobes.h", "line":270, "type":"m", "scope_line":267, "scope_name":"struct optimized_kprobe", }
+,{"id":"option_flags", "file":"drivers/pnp/pnpacpi/rsparser.c", "line":696, "type":"m", "scope_line":694, "scope_name":"struct acpipnp_parse_option_s", }
+,{"id":"optional", "file":"include/linux/xfrm.h", "line":228, "type":"m", "scope_line":221, "scope_name":"struct xfrm_user_tmpl", }
+,{"id":"optional", "file":"include/net/xfrm.h", "line":449, "type":"m", "scope_line":426, "scope_name":"struct xfrm_tmpl", }
+,{"id":"options", "file":"drivers/serial/8250_early.c", "line":45, "type":"m", "scope_line":43, "scope_name":"struct early_serial8250_device", }
+,{"id":"options", "file":"include/linux/backlight.h", "line":39, "type":"m", "scope_line":38, "scope_name":"struct backlight_ops", }
+,{"id":"options", "file":"include/linux/cdrom.h", "line":947, "type":"m", "scope_line":937, "scope_name":"struct cdrom_device_info", }
+,{"id":"options", "file":"include/linux/net_dropmon.h", "line":31, "type":"m", "scope_line":29, "scope_name":"struct net_dm_config_msg", }
+,{"id":"options", "file":"include/linux/nfs_fs_sb.h", "line":122, "type":"m", "scope_line":95, "scope_name":"struct nfs_server", }
+,{"id":"options", "file":"include/linux/pnp.h", "line":265, "type":"m", "scope_line":243, "scope_name":"struct pnp_dev", }
+,{"id":"options", "file":"include/linux/watchdog.h", "line":18, "type":"m", "scope_line":17, "scope_name":"struct watchdog_info", }
+,{"id":"options", "file":"kernel/printk.c", "line":132, "type":"m", "scope_line":128, "scope_name":"struct console_cmdline", }
+,{"id":"options", "file":"net/ipv4/tcp_output.c", "line":382, "type":"m", "scope_line":381, "scope_name":"struct tcp_out_options", }
+,{"id":"optlen", "file":"include/net/inet_sock.h", "line":44, "type":"m", "scope_line":42, "scope_name":"struct ip_options", }
+,{"id":"optlen", "file":"include/net/xfrm.h", "line":606, "type":"m", "scope_line":583, "scope_name":"struct xfrm_mode_skb_cb", }
+,{"id":"optlength", "file":"include/net/inet_sock.h", "line":60, "type":"d", }
+,{"id":"optname", "file":"drivers/video/efifb.c", "line":71, "type":"m", "scope_line":70, "scope_name":"struct efifb_dmi_info", }
+,{"id":"opts", "file":"drivers/ata/ahci.h", "line":243, "type":"m", "scope_line":242, "scope_name":"struct ahci_cmd_hdr", }
+,{"id":"opts", "file":"kernel/trace/trace.h", "line":219, "type":"m", "scope_line":217, "scope_name":"struct tracer_flags", }
+,{"id":"or_softirq_pending", "file":"arch/x86/include/asm/hardirq.h", "line":45, "type":"d", }
+,{"id":"ordcolor", "file":"include/linux/blkdev.h", "line":361, "type":"m", "scope_line":253, "scope_name":"struct request_queue", }
+,{"id":"order", "file":"drivers/acpi/power.c", "line":92, "type":"m", "scope_line":88, "scope_name":"struct acpi_power_resource", }
+,{"id":"order", "file":"include/linux/hugetlb.h", "line":211, "type":"m", "scope_line":208, "scope_name":"struct hstate", }
+,{"id":"order", "file":"include/net/act_api.h", "line":77, "type":"m", "scope_line":73, "scope_name":"struct tc_action", }
+,{"id":"order", "file":"include/trace/events/kmem.h", "line":150, "type":"m", "scope_line":150, "scope_name":"struct ftrace_raw_mm_page_free_direct", }
+,{"id":"order", "file":"include/trace/events/kmem.h", "line":194, "type":"m", "scope_line":194, "scope_name":"struct ftrace_raw_mm_page_alloc", }
+,{"id":"order", "file":"include/trace/events/kmem.h", "line":223, "type":"m", "scope_line":223, "scope_name":"struct ftrace_raw_mm_page", }
+,{"id":"order", "file":"include/trace/events/vmscan.h", "line":173, "type":"m", "scope_line":173, "scope_name":"struct ftrace_raw_mm_vmscan_lru_isolate_template", }
+,{"id":"order", "file":"include/trace/events/vmscan.h", "line":46, "type":"m", "scope_line":46, "scope_name":"struct ftrace_raw_mm_vmscan_kswapd_wake", }
+,{"id":"order", "file":"include/trace/events/vmscan.h", "line":65, "type":"m", "scope_line":65, "scope_name":"struct ftrace_raw_mm_vmscan_wakeup_kswapd", }
+,{"id":"order", "file":"include/trace/events/vmscan.h", "line":89, "type":"m", "scope_line":89, "scope_name":"struct ftrace_raw_mm_vmscan_direct_reclaim_begin_template", }
+,{"id":"order", "file":"lib/zlib_inflate/inflate.c", "line":347, "type":"v", }
+,{"id":"order", "file":"mm/vmscan.c", "line":79, "type":"m", "scope_line":54, "scope_name":"struct scan_control", }
+,{"id":"order", "file":"net/core/flow.c", "line":56, "type":"m", "scope_line":54, "scope_name":"struct flow_cache", }
+,{"id":"order_base_2", "file":"include/linux/log2.h", "line":207, "type":"d", }
+,{"id":"ordered", "file":"include/linux/blkdev.h", "line":360, "type":"m", "scope_line":253, "scope_name":"struct request_queue", }
+,{"id":"ordered_tag", "file":"include/scsi/scsi_host.h", "line":461, "type":"m", "scope_line":52, "scope_name":"struct scsi_host_template", }
+,{"id":"ordered_tag", "file":"include/scsi/scsi_host.h", "line":631, "type":"m", "scope_line":521, "scope_name":"struct Scsi_Host", }
+,{"id":"ordered_tags", "file":"include/scsi/scsi_device.h", "line":130, "type":"m", "scope_line":68, "scope_name":"struct scsi_device", }
+,{"id":"orderly_poweroff", "file":"drivers/thermal/thermal_sys.c", "line":984, "type":"c", "scope_line":953, "scope_name":"thermal_zone_device_update", }
+,{"id":"orderly_poweroff", "file":"drivers/xen/manage.c", "line":197, "type":"c", "scope_line":164, "scope_name":"shutdown_handler", }
+,{"id":"orderly_poweroff", "file":"kernel/sys.c", "line":1763, "type":"f", }
+,{"id":"ordernum", "file":"net/unix/af_unix.c", "line":692, "type":"v", }
+,{"id":"orderr", "file":"include/linux/blkdev.h", "line":361, "type":"m", "scope_line":253, "scope_name":"struct request_queue", }
+,{"id":"ordseq", "file":"include/linux/blkdev.h", "line":360, "type":"m", "scope_line":253, "scope_name":"struct request_queue", }
+,{"id":"org", "file":"drivers/char/vc_screen.c", "line":44, "type":"d", }
+,{"id":"org", "file":"include/linux/atmmpc.h", "line":68, "type":"m", "scope_line":63, "scope_name":"struct llc_snap_hdr", }
+,{"id":"org_ioprio", "file":"block/cfq-iosched.c", "line":139, "type":"m", "scope_line":98, "scope_name":"struct cfq_queue", }
+,{"id":"org_ioprio_class", "file":"block/cfq-iosched.c", "line":140, "type":"m", "scope_line":98, "scope_name":"struct cfq_queue", }
+,{"id":"orig", "file":"drivers/md/dm.c", "line":73, "type":"m", "scope_line":70, "scope_name":"struct dm_rq_target_io", }
+,{"id":"orig", "file":"drivers/md/dm.c", "line":83, "type":"m", "scope_line":82, "scope_name":"struct dm_rq_clone_bio_info", }
+,{"id":"orig", "file":"kernel/trace/trace_kprobe.c", "line":327, "type":"m", "scope_line":326, "scope_name":"struct deref_fetch_param", }
+,{"id":"orig_address", "file":"include/linux/suspend.h", "line":160, "type":"m", "scope_line":158, "scope_name":"struct pbe", }
+,{"id":"orig_ax", "file":"arch/x86/include/asm/ptrace.h", "line":116, "type":"m", "scope_line":99, "scope_name":"struct pt_regs", }
+,{"id":"orig_ax", "file":"arch/x86/include/asm/user_64.h", "line":84, "type":"m", "scope_line":68, "scope_name":"struct user_regs_struct", }
+,{"id":"orig_bar_rq", "file":"include/linux/blkdev.h", "line":363, "type":"m", "scope_line":253, "scope_name":"struct request_queue", }
+,{"id":"orig_bios", "file":"include/linux/pktcdvd.h", "line":207, "type":"m", "scope_line":200, "scope_name":"struct packet_data", }
+,{"id":"orig_bm", "file":"kernel/power/snapshot.c", "line":1046, "type":"v", }
+,{"id":"orig_cfqg", "file":"block/cfq-iosched.c", "line":150, "type":"m", "scope_line":98, "scope_name":"struct cfq_queue", }
+,{"id":"orig_cpu", "file":"include/trace/events/sched.h", "line":153, "type":"m", "scope_line":153, "scope_name":"struct ftrace_raw_sched_migrate_task", }
+,{"id":"orig_eax", "file":"arch/x86/include/asm/user32.h", "line":39, "type":"m", "scope_line":35, "scope_name":"struct user_regs_struct32", }
+,{"id":"orig_eax", "file":"arch/x86/include/asm/vm86.h", "line":77, "type":"m", "scope_line":62, "scope_name":"struct vm86_regs", }
+,{"id":"orig_fgconsole", "file":"kernel/power/console.c", "line":16, "type":"v", }
+,{"id":"orig_flags", "file":"drivers/acpi/acpica/aclocal.h", "line":415, "type":"m", "scope_line":411, "scope_name":"struct acpi_handler_info", }
+,{"id":"orig_flags", "file":"include/net/cfg80211.h", "line":105, "type":"m", "scope_line":97, "scope_name":"struct ieee80211_channel", }
+,{"id":"orig_group", "file":"include/trace/events/ext4.h", "line":679, "type":"m", "scope_line":679, "scope_name":"struct ftrace_raw_ext4_mballoc_alloc", }
+,{"id":"orig_group", "file":"include/trace/events/ext4.h", "line":745, "type":"m", "scope_line":745, "scope_name":"struct ftrace_raw_ext4_mballoc_prealloc", }
+,{"id":"orig_intx", "file":"drivers/pci/pci.c", "line":1061, "type":"m", "scope_line":1058, "scope_name":"struct pci_devres", }
+,{"id":"orig_ist", "file":"arch/x86/include/asm/processor.h", "line":277, "type":"s", }
+,{"id":"orig_ist", "file":"arch/x86/include/asm/processor.h", "line":384, "type":"v", }
+,{"id":"orig_kmsg", "file":"kernel/power/console.c", "line":16, "type":"v", }
+,{"id":"orig_len", "file":"include/trace/events/ext4.h", "line":679, "type":"m", "scope_line":679, "scope_name":"struct ftrace_raw_ext4_mballoc_alloc", }
+,{"id":"orig_len", "file":"include/trace/events/ext4.h", "line":745, "type":"m", "scope_line":745, "scope_name":"struct ftrace_raw_ext4_mballoc_prealloc", }
+,{"id":"orig_logical", "file":"include/trace/events/ext4.h", "line":679, "type":"m", "scope_line":679, "scope_name":"struct ftrace_raw_ext4_mballoc_alloc", }
+,{"id":"orig_logical", "file":"include/trace/events/ext4.h", "line":745, "type":"m", "scope_line":745, "scope_name":"struct ftrace_raw_ext4_mballoc_prealloc", }
+,{"id":"orig_mag", "file":"include/net/cfg80211.h", "line":106, "type":"m", "scope_line":97, "scope_name":"struct ieee80211_channel", }
+,{"id":"orig_mpwr", "file":"include/net/cfg80211.h", "line":106, "type":"m", "scope_line":97, "scope_name":"struct ieee80211_channel", }
+,{"id":"orig_n_elem", "file":"include/linux/libata.h", "line":553, "type":"m", "scope_line":540, "scope_name":"struct ata_queued_cmd", }
+,{"id":"orig_nents", "file":"include/linux/scatterlist.h", "line":13, "type":"m", "scope_line":10, "scope_name":"struct sg_table", }
+,{"id":"orig_sg_nents", "file":"include/linux/ide.h", "line":303, "type":"m", "scope_line":288, "scope_name":"struct ide_cmd", }
+,{"id":"orig_sig", "file":"kernel/power/swap.c", "line":70, "type":"m", "scope_line":66, "scope_name":"struct swsusp_header", }
+,{"id":"orig_start", "file":"fs/ext4/ext4.h", "line":624, "type":"m", "scope_line":621, "scope_name":"struct move_extent", }
+,{"id":"orig_start", "file":"include/trace/events/ext4.h", "line":679, "type":"m", "scope_line":679, "scope_name":"struct ftrace_raw_ext4_mballoc_alloc", }
+,{"id":"orig_start", "file":"include/trace/events/ext4.h", "line":745, "type":"m", "scope_line":745, "scope_name":"struct ftrace_raw_ext4_mballoc_prealloc", }
+,{"id":"orig_video_cols", "file":"include/linux/screen_info.h", "line":16, "type":"m", "scope_line":10, "scope_name":"struct screen_info", }
+,{"id":"orig_video_ega_bx", "file":"include/linux/screen_info.h", "line":19, "type":"m", "scope_line":10, "scope_name":"struct screen_info", }
+,{"id":"orig_video_isVGA", "file":"include/linux/screen_info.h", "line":22, "type":"m", "scope_line":10, "scope_name":"struct screen_info", }
+,{"id":"orig_video_lines", "file":"include/linux/screen_info.h", "line":21, "type":"m", "scope_line":10, "scope_name":"struct screen_info", }
+,{"id":"orig_video_mode", "file":"include/linux/screen_info.h", "line":15, "type":"m", "scope_line":10, "scope_name":"struct screen_info", }
+,{"id":"orig_video_page", "file":"include/linux/screen_info.h", "line":14, "type":"m", "scope_line":10, "scope_name":"struct screen_info", }
+,{"id":"orig_video_points", "file":"include/linux/screen_info.h", "line":23, "type":"m", "scope_line":10, "scope_name":"struct screen_info", }
+,{"id":"orig_x", "file":"include/linux/screen_info.h", "line":11, "type":"m", "scope_line":10, "scope_name":"struct screen_info", }
+,{"id":"orig_y", "file":"include/linux/screen_info.h", "line":12, "type":"m", "scope_line":10, "scope_name":"struct screen_info", }
+,{"id":"origdev", "file":"net/packet/af_packet.c", "line":196, "type":"m", "scope_line":185, "scope_name":"struct packet_sock", }
+,{"id":"origin", "file":"drivers/acpi/acpica/acstruct.h", "line":118, "type":"m", "scope_line":76, "scope_name":"struct acpi_walk_state", }
+,{"id":"origin", "file":"include/acpi/actbl2.h", "line":464, "type":"m", "scope_line":460, "scope_name":"struct acpi_ibft_nic", }
+,{"id":"original_name", "file":"security/tomoyo/common.h", "line":651, "type":"m", "scope_line":649, "scope_name":"struct tomoyo_aggregator", }
+,{"id":"original_sync_level", "file":"drivers/acpi/acpica/acobject.h", "line":165, "type":"m", "scope_line":156, "scope_name":"struct acpi_object_mutex", }
+,{"id":"origlen", "file":"net/packet/af_packet.c", "line":211, "type":"m", "scope_line":210, "scope_name":"struct packet_skb_cb", }
+,{"id":"orlov_stats", "file":"fs/ext4/ialloc.c", "line":403, "type":"s", }
+,{"id":"orphan", "file":"drivers/scsi/sg.c", "line":135, "type":"m", "scope_line":128, "scope_name":"struct sg_request", }
+,{"id":"orphan", "file":"fs/compat_ioctl.c", "line":373, "type":"m", "scope_line":371, "scope_name":"struct compat_sg_req_info", }
+,{"id":"orphan", "file":"include/scsi/sg.h", "line":157, "type":"m", "scope_line":155, "scope_name":"struct sg_req_info", }
+,{"id":"orphan_cbs_list", "file":"kernel/rcutree.h", "line":308, "type":"m", "scope_line":281, "scope_name":"struct rcu_state", }
+,{"id":"orphan_cbs_tail", "file":"kernel/rcutree.h", "line":312, "type":"m", "scope_line":281, "scope_name":"struct rcu_state", }
+,{"id":"orphan_count", "file":"include/net/sock.h", "line":784, "type":"m", "scope_line":707, "scope_name":"struct proto", }
+,{"id":"orphan_list_entry", "file":"fs/ext3/super.c", "line":384, "type":"f", }
+,{"id":"orphan_list_entry", "file":"fs/ext3/super.c", "line":398, "type":"c", "scope_line":389, "scope_name":"dump_orphan_list", }
+,{"id":"orphan_list_entry", "file":"fs/ext4/super.c", "line":676, "type":"f", }
+,];
+xr_frag_insert('t/d1/c4b5223f44f9775aed597074a62b7c2eb46933.xr', __xr_tmp);

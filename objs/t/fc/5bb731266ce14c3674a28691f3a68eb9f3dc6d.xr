@@ -1,0 +1,384 @@
+var __xr_tmp = [
+{"id":"BPF_S_JMP_JEQ_X", "file":"include/linux/filter.h", "line":133, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_JMP_JGE_K", "file":"include/linux/filter.h", "line":134, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_JMP_JGE_X", "file":"include/linux/filter.h", "line":135, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_JMP_JGT_K", "file":"include/linux/filter.h", "line":136, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_JMP_JGT_X", "file":"include/linux/filter.h", "line":137, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_JMP_JSET_K", "file":"include/linux/filter.h", "line":138, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_JMP_JSET_X", "file":"include/linux/filter.h", "line":139, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LDX_B_MSH", "file":"include/linux/filter.h", "line":122, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LDX_IMM", "file":"include/linux/filter.h", "line":123, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LDX_MEM", "file":"include/linux/filter.h", "line":128, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LDX_W_LEN", "file":"include/linux/filter.h", "line":121, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LD_B_ABS", "file":"include/linux/filter.h", "line":115, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LD_B_IND", "file":"include/linux/filter.h", "line":119, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LD_H_ABS", "file":"include/linux/filter.h", "line":114, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LD_H_IND", "file":"include/linux/filter.h", "line":118, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LD_IMM", "file":"include/linux/filter.h", "line":120, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LD_MEM", "file":"include/linux/filter.h", "line":127, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LD_W_ABS", "file":"include/linux/filter.h", "line":113, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LD_W_IND", "file":"include/linux/filter.h", "line":117, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_LD_W_LEN", "file":"include/linux/filter.h", "line":116, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_MISC_TAX", "file":"include/linux/filter.h", "line":124, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_MISC_TXA", "file":"include/linux/filter.h", "line":125, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_RET_A", "file":"include/linux/filter.h", "line":96, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_RET_K", "file":"include/linux/filter.h", "line":95, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_ST", "file":"include/linux/filter.h", "line":129, "type":"e", "scope_line":94, }
+,{"id":"BPF_S_STX", "file":"include/linux/filter.h", "line":130, "type":"e", "scope_line":94, }
+,{"id":"BPF_TAX", "file":"include/linux/filter.h", "line":91, "type":"d", }
+,{"id":"BPF_TXA", "file":"include/linux/filter.h", "line":92, "type":"d", }
+,{"id":"BPF_W", "file":"include/linux/filter.h", "line":54, "type":"d", }
+,{"id":"BPF_X", "file":"include/linux/filter.h", "line":83, "type":"d", }
+,{"id":"BPP16", "file":"drivers/video/imsttfb.c", "line":125, "type":"e", "scope_line":115, }
+,{"id":"BPP24", "file":"drivers/video/imsttfb.c", "line":126, "type":"e", "scope_line":115, }
+,{"id":"BPP32", "file":"drivers/video/imsttfb.c", "line":127, "type":"e", "scope_line":115, }
+,{"id":"BPP8", "file":"drivers/video/imsttfb.c", "line":124, "type":"e", "scope_line":115, }
+,{"id":"BPRINTK", "file":"include/linux/libata.h", "line":74, "type":"d", }
+,{"id":"BP_ACCESS_WATCHPOINT", "file":"include/linux/kgdb.h", "line":76, "type":"e", "scope_line":71, "scope_name":"kgdb_bptype", }
+,{"id":"BP_ACTIVE", "file":"include/linux/kgdb.h", "line":83, "type":"e", "scope_line":79, "scope_name":"kgdb_bpstate", }
+,{"id":"BP_BREAKPOINT", "file":"include/linux/kgdb.h", "line":72, "type":"e", "scope_line":71, "scope_name":"kgdb_bptype", }
+,{"id":"BP_HARDWARE_BREAKPOINT", "file":"include/linux/kgdb.h", "line":73, "type":"e", "scope_line":71, "scope_name":"kgdb_bptype", }
+,{"id":"BP_READ_WATCHPOINT", "file":"include/linux/kgdb.h", "line":75, "type":"e", "scope_line":71, "scope_name":"kgdb_bptype", }
+,{"id":"BP_REMOVED", "file":"include/linux/kgdb.h", "line":81, "type":"e", "scope_line":79, "scope_name":"kgdb_bpstate", }
+,{"id":"BP_SET", "file":"include/linux/kgdb.h", "line":82, "type":"e", "scope_line":79, "scope_name":"kgdb_bpstate", }
+,{"id":"BP_UNDEFINED", "file":"include/linux/kgdb.h", "line":80, "type":"e", "scope_line":79, "scope_name":"kgdb_bpstate", }
+,{"id":"BP_WRITE_WATCHPOINT", "file":"include/linux/kgdb.h", "line":74, "type":"e", "scope_line":71, "scope_name":"kgdb_bptype", }
+,{"id":"BP_hardware_subarch", "file":"include/generated/asm-offsets.h", "line":81, "type":"d", }
+,{"id":"BP_kernel_alignment", "file":"include/generated/asm-offsets.h", "line":83, "type":"d", }
+,{"id":"BP_loadflags", "file":"include/generated/asm-offsets.h", "line":80, "type":"d", }
+,{"id":"BP_scratch", "file":"include/generated/asm-offsets.h", "line":79, "type":"d", }
+,{"id":"BP_version", "file":"include/generated/asm-offsets.h", "line":82, "type":"d", }
+,{"id":"BRCM_PHY_MODEL", "file":"drivers/net/phy/broadcom.c", "line":22, "type":"d", }
+,{"id":"BRCM_PHY_REV", "file":"drivers/net/phy/broadcom.c", "line":25, "type":"d", }
+,{"id":"BRCTL_ADD_BRIDGE", "file":"include/linux/if_bridge.h", "line":28, "type":"d", }
+,{"id":"BRCTL_ADD_IF", "file":"include/linux/if_bridge.h", "line":30, "type":"d", }
+,{"id":"BRCTL_DEL_BRIDGE", "file":"include/linux/if_bridge.h", "line":29, "type":"d", }
+,{"id":"BRCTL_DEL_IF", "file":"include/linux/if_bridge.h", "line":31, "type":"d", }
+,{"id":"BRCTL_GET_BRIDGES", "file":"include/linux/if_bridge.h", "line":27, "type":"d", }
+,{"id":"BRCTL_GET_BRIDGE_INFO", "file":"include/linux/if_bridge.h", "line":32, "type":"d", }
+,{"id":"BRCTL_GET_FDB_ENTRIES", "file":"include/linux/if_bridge.h", "line":44, "type":"d", }
+,{"id":"BRCTL_GET_PORT_INFO", "file":"include/linux/if_bridge.h", "line":39, "type":"d", }
+,{"id":"BRCTL_GET_PORT_LIST", "file":"include/linux/if_bridge.h", "line":33, "type":"d", }
+,{"id":"BRCTL_GET_VERSION", "file":"include/linux/if_bridge.h", "line":26, "type":"d", }
+,{"id":"BRCTL_SET_AGEING_TIME", "file":"include/linux/if_bridge.h", "line":37, "type":"d", }
+,{"id":"BRCTL_SET_BRIDGE_FORWARD_DELAY", "file":"include/linux/if_bridge.h", "line":34, "type":"d", }
+,{"id":"BRCTL_SET_BRIDGE_HELLO_TIME", "file":"include/linux/if_bridge.h", "line":35, "type":"d", }
+,{"id":"BRCTL_SET_BRIDGE_MAX_AGE", "file":"include/linux/if_bridge.h", "line":36, "type":"d", }
+,{"id":"BRCTL_SET_BRIDGE_PRIORITY", "file":"include/linux/if_bridge.h", "line":41, "type":"d", }
+,{"id":"BRCTL_SET_BRIDGE_STP_STATE", "file":"include/linux/if_bridge.h", "line":40, "type":"d", }
+,{"id":"BRCTL_SET_GC_INTERVAL", "file":"include/linux/if_bridge.h", "line":38, "type":"d", }
+,{"id":"BRCTL_SET_PATH_COST", "file":"include/linux/if_bridge.h", "line":43, "type":"d", }
+,{"id":"BRCTL_SET_PORT_PRIORITY", "file":"include/linux/if_bridge.h", "line":42, "type":"d", }
+,{"id":"BRCTL_VERSION", "file":"include/linux/if_bridge.h", "line":24, "type":"d", }
+,{"id":"BRD0_OK", "file":"net/ipv4/fib_frontend.c", "line":783, "type":"d", }
+,{"id":"BRD0_OK", "file":"net/ipv4/fib_frontend.c", "line":838, "type":"d", }
+,{"id":"BRD1_OK", "file":"net/ipv4/fib_frontend.c", "line":784, "type":"d", }
+,{"id":"BRD1_OK", "file":"net/ipv4/fib_frontend.c", "line":839, "type":"d", }
+,{"id":"BRD_OK", "file":"net/ipv4/fib_frontend.c", "line":782, "type":"d", }
+,{"id":"BRD_OK", "file":"net/ipv4/fib_frontend.c", "line":837, "type":"d", }
+,{"id":"BREAKPOINT3", "file":"arch/x86/include/asm/acpi.h", "line":52, "type":"d", }
+,{"id":"BREAKPOINT_INSTRUCTION", "file":"arch/x86/include/asm/kprobes.h", "line":35, "type":"d", }
+,{"id":"BREAK_GFP_ORDER_HI", "file":"mm/slab.c", "line":480, "type":"d", }
+,{"id":"BREAK_GFP_ORDER_LO", "file":"mm/slab.c", "line":481, "type":"d", }
+,{"id":"BREAK_INSTR_SIZE", "file":"arch/x86/include/asm/kgdb.h", "line":78, "type":"d", }
+,{"id":"BRKINT", "file":"include/asm-generic/termbits.h", "line":63, "type":"d", }
+,{"id":"BRL_UC_ROW", "file":"include/linux/kbd_kern.h", "line":138, "type":"d", }
+,{"id":"BRNF_8021Q", "file":"include/linux/netfilter_bridge.h", "line":46, "type":"d", }
+,{"id":"BRNF_BRIDGED", "file":"include/linux/netfilter_bridge.h", "line":44, "type":"d", }
+,{"id":"BRNF_BRIDGED_DNAT", "file":"include/linux/netfilter_bridge.h", "line":43, "type":"d", }
+,{"id":"BRNF_NF_BRIDGE_PREROUTING", "file":"include/linux/netfilter_bridge.h", "line":45, "type":"d", }
+,{"id":"BRNF_PKT_TYPE", "file":"include/linux/netfilter_bridge.h", "line":42, "type":"d", }
+,{"id":"BRNF_PPPoE", "file":"include/linux/netfilter_bridge.h", "line":47, "type":"d", }
+,{"id":"BROKEN_GRAPHICS_PROGRAMS", "file":"include/linux/vt_kern.h", "line":27, "type":"d", }
+,{"id":"BR_STATE_BLOCKING", "file":"include/linux/if_bridge.h", "line":50, "type":"d", }
+,{"id":"BR_STATE_DISABLED", "file":"include/linux/if_bridge.h", "line":46, "type":"d", }
+,{"id":"BR_STATE_FORWARDING", "file":"include/linux/if_bridge.h", "line":49, "type":"d", }
+,{"id":"BR_STATE_LEARNING", "file":"include/linux/if_bridge.h", "line":48, "type":"d", }
+,{"id":"BR_STATE_LISTENING", "file":"include/linux/if_bridge.h", "line":47, "type":"d", }
+,{"id":"BS0", "file":"include/asm-generic/termbits.h", "line":102, "type":"d", }
+,{"id":"BS1", "file":"include/asm-generic/termbits.h", "line":103, "type":"d", }
+,{"id":"BSDI_PARTITION", "file":"include/linux/genhd.h", "line":53, "type":"e", "scope_line":28, }
+,{"id":"BSDLY", "file":"include/asm-generic/termbits.h", "line":101, "type":"d", }
+,{"id":"BSD_CURRENT_VERSION", "file":"include/linux/ppp-comp.h", "line":171, "type":"d", }
+,{"id":"BSD_DISKMAGIC", "file":"include/linux/genhd.h", "line":416, "type":"d", }
+,{"id":"BSD_FS_UNUSED", "file":"include/linux/genhd.h", "line":419, "type":"d", }
+,{"id":"BSD_MAKE_OPT", "file":"include/linux/ppp-comp.h", "line":172, "type":"d", }
+,{"id":"BSD_MAXPARTITIONS", "file":"include/linux/genhd.h", "line":417, "type":"d", }
+,{"id":"BSD_MAX_BITS", "file":"include/linux/ppp-comp.h", "line":175, "type":"d", }
+,{"id":"BSD_MIN_BITS", "file":"include/linux/ppp-comp.h", "line":174, "type":"d", }
+,{"id":"BSD_NBITS", "file":"include/linux/ppp-comp.h", "line":169, "type":"d", }
+,{"id":"BSD_VERSION", "file":"include/linux/ppp-comp.h", "line":170, "type":"d", }
+,{"id":"BSG_DEBUG", "file":"block/bsg.c", "line":59, "type":"d", }
+,{"id":"BSG_DEFAULT_CMDS", "file":"block/bsg.c", "line":56, "type":"d", }
+,{"id":"BSG_DESCRIPTION", "file":"block/bsg.c", "line":33, "type":"d", }
+,{"id":"BSG_FLAG_Q_AT_TAIL", "file":"include/linux/bsg.h", "line":18, "type":"d", }
+,{"id":"BSG_F_BLOCK", "file":"block/bsg.c", "line":53, "type":"e", "scope_line":52, }
+,{"id":"BSG_H", "file":"include/linux/bsg.h", "line":2, "type":"d", }
+,{"id":"BSG_LIST_ARRAY_SIZE", "file":"block/bsg.c", "line":70, "type":"d", }
+,{"id":"BSG_MAX_DEVS", "file":"block/bsg.c", "line":57, "type":"d", }
+,{"id":"BSG_PROTOCOL_SCSI", "file":"include/linux/bsg.h", "line":6, "type":"d", }
+,{"id":"BSG_SUB_PROTOCOL_SCSI_CMD", "file":"include/linux/bsg.h", "line":8, "type":"d", }
+,{"id":"BSG_SUB_PROTOCOL_SCSI_TMF", "file":"include/linux/bsg.h", "line":9, "type":"d", }
+,{"id":"BSG_SUB_PROTOCOL_SCSI_TRANSPORT", "file":"include/linux/bsg.h", "line":10, "type":"d", }
+,{"id":"BSG_VERSION", "file":"block/bsg.c", "line":34, "type":"d", }
+,{"id":"BTN_0", "file":"include/linux/input.h", "line":384, "type":"d", }
+,{"id":"BTN_1", "file":"include/linux/input.h", "line":385, "type":"d", }
+,{"id":"BTN_2", "file":"include/linux/input.h", "line":386, "type":"d", }
+,{"id":"BTN_3", "file":"include/linux/input.h", "line":387, "type":"d", }
+,{"id":"BTN_4", "file":"include/linux/input.h", "line":388, "type":"d", }
+,{"id":"BTN_5", "file":"include/linux/input.h", "line":389, "type":"d", }
+,{"id":"BTN_6", "file":"include/linux/input.h", "line":390, "type":"d", }
+,{"id":"BTN_7", "file":"include/linux/input.h", "line":391, "type":"d", }
+,{"id":"BTN_8", "file":"include/linux/input.h", "line":392, "type":"d", }
+,{"id":"BTN_9", "file":"include/linux/input.h", "line":393, "type":"d", }
+,{"id":"BTN_A", "file":"include/linux/input.h", "line":421, "type":"d", }
+,{"id":"BTN_B", "file":"include/linux/input.h", "line":422, "type":"d", }
+,{"id":"BTN_BACK", "file":"include/linux/input.h", "line":402, "type":"d", }
+,{"id":"BTN_BASE", "file":"include/linux/input.h", "line":412, "type":"d", }
+,{"id":"BTN_BASE2", "file":"include/linux/input.h", "line":413, "type":"d", }
+,{"id":"BTN_BASE3", "file":"include/linux/input.h", "line":414, "type":"d", }
+,{"id":"BTN_BASE4", "file":"include/linux/input.h", "line":415, "type":"d", }
+,{"id":"BTN_BASE5", "file":"include/linux/input.h", "line":416, "type":"d", }
+,{"id":"BTN_BASE6", "file":"include/linux/input.h", "line":417, "type":"d", }
+,{"id":"BTN_C", "file":"include/linux/input.h", "line":423, "type":"d", }
+,{"id":"BTN_DEAD", "file":"include/linux/input.h", "line":418, "type":"d", }
+,{"id":"BTN_DIGI", "file":"include/linux/input.h", "line":437, "type":"d", }
+,{"id":"BTN_EXTRA", "file":"include/linux/input.h", "line":400, "type":"d", }
+,{"id":"BTN_FORWARD", "file":"include/linux/input.h", "line":401, "type":"d", }
+,{"id":"BTN_GAMEPAD", "file":"include/linux/input.h", "line":420, "type":"d", }
+,{"id":"BTN_GEAR_DOWN", "file":"include/linux/input.h", "line":454, "type":"d", }
+,{"id":"BTN_GEAR_UP", "file":"include/linux/input.h", "line":455, "type":"d", }
+,{"id":"BTN_JOYSTICK", "file":"include/linux/input.h", "line":405, "type":"d", }
+,{"id":"BTN_LEFT", "file":"include/linux/input.h", "line":396, "type":"d", }
+,{"id":"BTN_MIDDLE", "file":"include/linux/input.h", "line":398, "type":"d", }
+,{"id":"BTN_MISC", "file":"include/linux/input.h", "line":383, "type":"d", }
+,{"id":"BTN_MODE", "file":"include/linux/input.h", "line":433, "type":"d", }
+,{"id":"BTN_MOUSE", "file":"include/linux/input.h", "line":395, "type":"d", }
+,{"id":"BTN_PINKIE", "file":"include/linux/input.h", "line":411, "type":"d", }
+,{"id":"BTN_RIGHT", "file":"include/linux/input.h", "line":397, "type":"d", }
+,{"id":"BTN_SELECT", "file":"include/linux/input.h", "line":431, "type":"d", }
+,{"id":"BTN_SIDE", "file":"include/linux/input.h", "line":399, "type":"d", }
+,{"id":"BTN_START", "file":"include/linux/input.h", "line":432, "type":"d", }
+,{"id":"BTN_STYLUS", "file":"include/linux/input.h", "line":447, "type":"d", }
+,{"id":"BTN_STYLUS2", "file":"include/linux/input.h", "line":448, "type":"d", }
+,{"id":"BTN_TASK", "file":"include/linux/input.h", "line":403, "type":"d", }
+,{"id":"BTN_THUMB", "file":"include/linux/input.h", "line":407, "type":"d", }
+,{"id":"BTN_THUMB2", "file":"include/linux/input.h", "line":408, "type":"d", }
+,{"id":"BTN_THUMBL", "file":"include/linux/input.h", "line":434, "type":"d", }
+,{"id":"BTN_THUMBR", "file":"include/linux/input.h", "line":435, "type":"d", }
+,{"id":"BTN_TL", "file":"include/linux/input.h", "line":427, "type":"d", }
+,{"id":"BTN_TL2", "file":"include/linux/input.h", "line":429, "type":"d", }
+,{"id":"BTN_TOOL_AIRBRUSH", "file":"include/linux/input.h", "line":442, "type":"d", }
+,{"id":"BTN_TOOL_BRUSH", "file":"include/linux/input.h", "line":440, "type":"d", }
+,{"id":"BTN_TOOL_DOUBLETAP", "file":"include/linux/input.h", "line":449, "type":"d", }
+,{"id":"BTN_TOOL_FINGER", "file":"include/linux/input.h", "line":443, "type":"d", }
+,{"id":"BTN_TOOL_LENS", "file":"include/linux/input.h", "line":445, "type":"d", }
+,{"id":"BTN_TOOL_MOUSE", "file":"include/linux/input.h", "line":444, "type":"d", }
+,{"id":"BTN_TOOL_PEN", "file":"include/linux/input.h", "line":438, "type":"d", }
+,{"id":"BTN_TOOL_PENCIL", "file":"include/linux/input.h", "line":441, "type":"d", }
+,{"id":"BTN_TOOL_QUADTAP", "file":"include/linux/input.h", "line":451, "type":"d", }
+,{"id":"BTN_TOOL_RUBBER", "file":"include/linux/input.h", "line":439, "type":"d", }
+,{"id":"BTN_TOOL_TRIPLETAP", "file":"include/linux/input.h", "line":450, "type":"d", }
+,{"id":"BTN_TOP", "file":"include/linux/input.h", "line":409, "type":"d", }
+,{"id":"BTN_TOP2", "file":"include/linux/input.h", "line":410, "type":"d", }
+,{"id":"BTN_TOUCH", "file":"include/linux/input.h", "line":446, "type":"d", }
+,{"id":"BTN_TR", "file":"include/linux/input.h", "line":428, "type":"d", }
+,{"id":"BTN_TR2", "file":"include/linux/input.h", "line":430, "type":"d", }
+,{"id":"BTN_TRIGGER", "file":"include/linux/input.h", "line":406, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY", "file":"include/linux/input.h", "line":602, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY1", "file":"include/linux/input.h", "line":603, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY10", "file":"include/linux/input.h", "line":612, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY11", "file":"include/linux/input.h", "line":613, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY12", "file":"include/linux/input.h", "line":614, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY13", "file":"include/linux/input.h", "line":615, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY14", "file":"include/linux/input.h", "line":616, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY15", "file":"include/linux/input.h", "line":617, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY16", "file":"include/linux/input.h", "line":618, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY17", "file":"include/linux/input.h", "line":619, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY18", "file":"include/linux/input.h", "line":620, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY19", "file":"include/linux/input.h", "line":621, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY2", "file":"include/linux/input.h", "line":604, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY20", "file":"include/linux/input.h", "line":622, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY21", "file":"include/linux/input.h", "line":623, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY22", "file":"include/linux/input.h", "line":624, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY23", "file":"include/linux/input.h", "line":625, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY24", "file":"include/linux/input.h", "line":626, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY25", "file":"include/linux/input.h", "line":627, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY26", "file":"include/linux/input.h", "line":628, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY27", "file":"include/linux/input.h", "line":629, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY28", "file":"include/linux/input.h", "line":630, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY29", "file":"include/linux/input.h", "line":631, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY3", "file":"include/linux/input.h", "line":605, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY30", "file":"include/linux/input.h", "line":632, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY31", "file":"include/linux/input.h", "line":633, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY32", "file":"include/linux/input.h", "line":634, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY33", "file":"include/linux/input.h", "line":635, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY34", "file":"include/linux/input.h", "line":636, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY35", "file":"include/linux/input.h", "line":637, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY36", "file":"include/linux/input.h", "line":638, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY37", "file":"include/linux/input.h", "line":639, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY38", "file":"include/linux/input.h", "line":640, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY39", "file":"include/linux/input.h", "line":641, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY4", "file":"include/linux/input.h", "line":606, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY40", "file":"include/linux/input.h", "line":642, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY5", "file":"include/linux/input.h", "line":607, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY6", "file":"include/linux/input.h", "line":608, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY7", "file":"include/linux/input.h", "line":609, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY8", "file":"include/linux/input.h", "line":610, "type":"d", }
+,{"id":"BTN_TRIGGER_HAPPY9", "file":"include/linux/input.h", "line":611, "type":"d", }
+,{"id":"BTN_WHEEL", "file":"include/linux/input.h", "line":453, "type":"d", }
+,{"id":"BTN_X", "file":"include/linux/input.h", "line":424, "type":"d", }
+,{"id":"BTN_Y", "file":"include/linux/input.h", "line":425, "type":"d", }
+,{"id":"BTN_Z", "file":"include/linux/input.h", "line":426, "type":"d", }
+,{"id":"BTPROTO_AVDTP", "file":"include/net/bluetooth/bluetooth.h", "line":49, "type":"d", }
+,{"id":"BTPROTO_BNEP", "file":"include/net/bluetooth/bluetooth.h", "line":46, "type":"d", }
+,{"id":"BTPROTO_CMTP", "file":"include/net/bluetooth/bluetooth.h", "line":47, "type":"d", }
+,{"id":"BTPROTO_HCI", "file":"include/net/bluetooth/bluetooth.h", "line":43, "type":"d", }
+,{"id":"BTPROTO_HIDP", "file":"include/net/bluetooth/bluetooth.h", "line":48, "type":"d", }
+,{"id":"BTPROTO_L2CAP", "file":"include/net/bluetooth/bluetooth.h", "line":42, "type":"d", }
+,{"id":"BTPROTO_RFCOMM", "file":"include/net/bluetooth/bluetooth.h", "line":45, "type":"d", }
+,{"id":"BTPROTO_SCO", "file":"include/net/bluetooth/bluetooth.h", "line":44, "type":"d", }
+,{"id":"BTRFS_MINOR", "file":"include/linux/miscdevice.h", "line":40, "type":"d", }
+,{"id":"BTRFS_SUPER_MAGIC", "file":"include/linux/magic.h", "line":24, "type":"d", }
+,{"id":"BTS_BUFFER_SIZE", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":9, "type":"d", }
+,{"id":"BTS_RECORD_SIZE", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":7, "type":"d", }
+,{"id":"BT_BOUND", "file":"include/net/bluetooth/bluetooth.h", "line":75, "type":"e", "scope_line":72, }
+,{"id":"BT_CLOSED", "file":"include/net/bluetooth/bluetooth.h", "line":81, "type":"e", "scope_line":72, }
+,{"id":"BT_CONFIG", "file":"include/net/bluetooth/bluetooth.h", "line":79, "type":"e", "scope_line":72, }
+,{"id":"BT_CONNECT", "file":"include/net/bluetooth/bluetooth.h", "line":77, "type":"e", "scope_line":72, }
+,{"id":"BT_CONNECT2", "file":"include/net/bluetooth/bluetooth.h", "line":78, "type":"e", "scope_line":72, }
+,{"id":"BT_CONNECTED", "file":"include/net/bluetooth/bluetooth.h", "line":73, "type":"e", "scope_line":72, }
+,{"id":"BT_DBG", "file":"include/net/bluetooth/bluetooth.h", "line":69, "type":"d", }
+,{"id":"BT_DEFER_SETUP", "file":"include/net/bluetooth/bluetooth.h", "line":65, "type":"d", }
+,{"id":"BT_DISCONN", "file":"include/net/bluetooth/bluetooth.h", "line":80, "type":"e", "scope_line":72, }
+,{"id":"BT_ERR", "file":"include/net/bluetooth/bluetooth.h", "line":68, "type":"d", }
+,{"id":"BT_INFO", "file":"include/net/bluetooth/bluetooth.h", "line":67, "type":"d", }
+,{"id":"BT_LISTEN", "file":"include/net/bluetooth/bluetooth.h", "line":76, "type":"e", "scope_line":72, }
+,{"id":"BT_OPEN", "file":"include/net/bluetooth/bluetooth.h", "line":74, "type":"e", "scope_line":72, }
+,{"id":"BT_SECURITY", "file":"include/net/bluetooth/bluetooth.h", "line":56, "type":"d", }
+,{"id":"BT_SECURITY_HIGH", "file":"include/net/bluetooth/bluetooth.h", "line":63, "type":"d", }
+,{"id":"BT_SECURITY_LOW", "file":"include/net/bluetooth/bluetooth.h", "line":61, "type":"d", }
+,{"id":"BT_SECURITY_MEDIUM", "file":"include/net/bluetooth/bluetooth.h", "line":62, "type":"d", }
+,{"id":"BT_SECURITY_SDP", "file":"include/net/bluetooth/bluetooth.h", "line":60, "type":"d", }
+,{"id":"BT_SKB_RESERVE", "file":"include/net/bluetooth/bluetooth.h", "line":40, "type":"d", }
+,{"id":"BUCKETS", "file":"drivers/cpuidle/governors/menu.c", "line":23, "type":"d", }
+,{"id":"BUFCTL_ACTIVE", "file":"mm/slab.c", "line":190, "type":"d", }
+,{"id":"BUFCTL_END", "file":"mm/slab.c", "line":188, "type":"d", }
+,{"id":"BUFCTL_FREE", "file":"mm/slab.c", "line":189, "type":"d", }
+,{"id":"BUFFER_FNS", "file":"include/linux/buffer_head.h", "line":82, "type":"d", }
+,{"id":"BUFFER_TRACE", "file":"include/linux/jbd.h", "line":1091, "type":"d", }
+,{"id":"BUFFER_TRACE", "file":"include/linux/jbd2.h", "line":1288, "type":"d", }
+,{"id":"BUFFER_TRACE2", "file":"include/linux/jbd.h", "line":1092, "type":"d", }
+,{"id":"BUFFER_TRACE2", "file":"include/linux/jbd2.h", "line":1289, "type":"d", }
+,{"id":"BUFMAX", "file":"arch/x86/include/asm/kgdb.h", "line":14, "type":"d", }
+,{"id":"BUFSZ", "file":"kernel/sysctl_binary.c", "line":39, "type":"d", }
+,{"id":"BUF_MAX_DATA_SIZE", "file":"kernel/trace/ring_buffer.c", "line":405, "type":"d", }
+,{"id":"BUF_PAGE_HDR_SIZE", "file":"kernel/trace/ring_buffer.c", "line":158, "type":"d", }
+,{"id":"BUF_PAGE_SIZE", "file":"kernel/trace/ring_buffer.c", "line":402, "type":"d", }
+,{"id":"BUF_SIZE", "file":"init/initramfs.c", "line":523, "type":"d", }
+,{"id":"BUF_THREAD_ID_SIZE", "file":"kernel/debug/gdbstub.c", "line":395, "type":"d", }
+,{"id":"BUG", "file":"arch/x86/include/asm/bug.h", "line":15, "type":"d", }
+,{"id":"BUGFLAG_TAINT", "file":"include/asm-generic/bug.h", "line":29, "type":"d", }
+,{"id":"BUGFLAG_WARNING", "file":"include/asm-generic/bug.h", "line":28, "type":"d", }
+,{"id":"BUG_GET_TAINT", "file":"include/asm-generic/bug.h", "line":30, "type":"d", }
+,{"id":"BUG_ON", "file":"include/asm-generic/bug.h", "line":53, "type":"d", }
+,{"id":"BUG_TRAP_TYPE_BUG", "file":"include/linux/bug.h", "line":9, "type":"e", "scope_line":6, "scope_name":"bug_trap_type", }
+,{"id":"BUG_TRAP_TYPE_NONE", "file":"include/linux/bug.h", "line":7, "type":"e", "scope_line":6, "scope_name":"bug_trap_type", }
+,{"id":"BUG_TRAP_TYPE_WARN", "file":"include/linux/bug.h", "line":8, "type":"e", "scope_line":6, "scope_name":"bug_trap_type", }
+,{"id":"BUILDIO", "file":"arch/x86/include/asm/io.h", "line":287, "type":"d", }
+,{"id":"BUILD_BUG_ON", "file":"arch/x86/kernel/acpi/realmode/../../../boot/boot.h", "line":34, "type":"d", }
+,{"id":"BUILD_BUG_ON", "file":"include/linux/kernel.h", "line":754, "type":"d", }
+,{"id":"BUILD_BUG_ON_NOT_POWER_OF_2", "file":"include/linux/kernel.h", "line":760, "type":"d", }
+,{"id":"BUILD_BUG_ON_NULL", "file":"include/linux/kernel.h", "line":768, "type":"d", }
+,{"id":"BUILD_BUG_ON_ZERO", "file":"include/linux/kernel.h", "line":767, "type":"d", }
+,{"id":"BUSSTATE_OFF", "file":"include/linux/hdreg.h", "line":378, "type":"e", "scope_line":377, }
+,{"id":"BUSSTATE_ON", "file":"include/linux/hdreg.h", "line":379, "type":"e", "scope_line":377, }
+,{"id":"BUSSTATE_TRISTATE", "file":"include/linux/hdreg.h", "line":380, "type":"e", "scope_line":377, }
+,{"id":"BUSTYPE_CBUS", "file":"arch/x86/include/asm/mpspec_def.h", "line":98, "type":"d", }
+,{"id":"BUSTYPE_CBUSII", "file":"arch/x86/include/asm/mpspec_def.h", "line":99, "type":"d", }
+,{"id":"BUSTYPE_EISA", "file":"arch/x86/include/asm/mpspec_def.h", "line":91, "type":"d", }
+,{"id":"BUSTYPE_FUTURE", "file":"arch/x86/include/asm/mpspec_def.h", "line":100, "type":"d", }
+,{"id":"BUSTYPE_INTERN", "file":"arch/x86/include/asm/mpspec_def.h", "line":93, "type":"d", }
+,{"id":"BUSTYPE_ISA", "file":"arch/x86/include/asm/mpspec_def.h", "line":92, "type":"d", }
+,{"id":"BUSTYPE_MBI", "file":"arch/x86/include/asm/mpspec_def.h", "line":101, "type":"d", }
+,{"id":"BUSTYPE_MBII", "file":"arch/x86/include/asm/mpspec_def.h", "line":102, "type":"d", }
+,{"id":"BUSTYPE_MCA", "file":"arch/x86/include/asm/mpspec_def.h", "line":94, "type":"d", }
+,{"id":"BUSTYPE_MPI", "file":"arch/x86/include/asm/mpspec_def.h", "line":103, "type":"d", }
+,{"id":"BUSTYPE_MPSA", "file":"arch/x86/include/asm/mpspec_def.h", "line":104, "type":"d", }
+,{"id":"BUSTYPE_NUBUS", "file":"arch/x86/include/asm/mpspec_def.h", "line":105, "type":"d", }
+,{"id":"BUSTYPE_PCI", "file":"arch/x86/include/asm/mpspec_def.h", "line":96, "type":"d", }
+,{"id":"BUSTYPE_PCMCIA", "file":"arch/x86/include/asm/mpspec_def.h", "line":97, "type":"d", }
+,{"id":"BUSTYPE_TC", "file":"arch/x86/include/asm/mpspec_def.h", "line":106, "type":"d", }
+,{"id":"BUSTYPE_VL", "file":"arch/x86/include/asm/mpspec_def.h", "line":95, "type":"d", }
+,{"id":"BUSTYPE_VME", "file":"arch/x86/include/asm/mpspec_def.h", "line":107, "type":"d", }
+,{"id":"BUSTYPE_XPRESS", "file":"arch/x86/include/asm/mpspec_def.h", "line":108, "type":"d", }
+,{"id":"BUSY", "file":"include/linux/joystick.h", "line":119, "type":"m", "scope_line":117, "scope_name":"struct JS_DATA_SAVE_TYPE_32", }
+,{"id":"BUSY", "file":"include/linux/joystick.h", "line":128, "type":"m", "scope_line":126, "scope_name":"struct JS_DATA_SAVE_TYPE_64", }
+,{"id":"BUSY", "file":"include/scsi/scsi.h", "line":227, "type":"d", }
+,{"id":"BUSY_WORKER_HASH_MASK", "file":"kernel/workqueue.c", "line":80, "type":"e", "scope_line":50, }
+,{"id":"BUSY_WORKER_HASH_ORDER", "file":"kernel/workqueue.c", "line":78, "type":"e", "scope_line":50, }
+,{"id":"BUSY_WORKER_HASH_SIZE", "file":"kernel/workqueue.c", "line":79, "type":"e", "scope_line":50, }
+,{"id":"BUS_ADB", "file":"include/linux/input.h", "line":814, "type":"d", }
+,{"id":"BUS_ADRALN", "file":"include/asm-generic/siginfo.h", "line":194, "type":"d", }
+,{"id":"BUS_ADRERR", "file":"include/asm-generic/siginfo.h", "line":195, "type":"d", }
+,{"id":"BUS_AMIGA", "file":"include/linux/input.h", "line":813, "type":"d", }
+,{"id":"BUS_ATARI", "file":"include/linux/input.h", "line":818, "type":"d", }
+,{"id":"BUS_ATTR", "file":"include/linux/device.h", "line":44, "type":"d", }
+,{"id":"BUS_BLUETOOTH", "file":"include/linux/input.h", "line":804, "type":"d", }
+,{"id":"BUS_DEVICE_RESET", "file":"include/scsi/scsi.h", "line":373, "type":"d", }
+,{"id":"BUS_DMA", "file":"include/linux/libata.h", "line":282, "type":"e", "scope_line":111, }
+,{"id":"BUS_EDD", "file":"include/linux/libata.h", "line":288, "type":"e", "scope_line":111, }
+,{"id":"BUS_GAMEPORT", "file":"include/linux/input.h", "line":811, "type":"d", }
+,{"id":"BUS_GSC", "file":"include/linux/input.h", "line":817, "type":"d", }
+,{"id":"BUS_HIL", "file":"include/linux/input.h", "line":803, "type":"d", }
+,{"id":"BUS_HOST", "file":"include/linux/input.h", "line":816, "type":"d", }
+,{"id":"BUS_I2C", "file":"include/linux/input.h", "line":815, "type":"d", }
+,{"id":"BUS_I8042", "file":"include/linux/input.h", "line":808, "type":"d", }
+,{"id":"BUS_IDENTIFY", "file":"include/linux/libata.h", "line":289, "type":"e", "scope_line":111, }
+,{"id":"BUS_IDLE", "file":"include/linux/libata.h", "line":283, "type":"e", "scope_line":111, }
+,{"id":"BUS_ISA", "file":"include/linux/input.h", "line":807, "type":"d", }
+,{"id":"BUS_ISAPNP", "file":"include/linux/input.h", "line":801, "type":"d", }
+,{"id":"BUS_ISA_MEM_BASE", "file":"include/linux/sysctl.h", "line":248, "type":"e", "scope_line":246, }
+,{"id":"BUS_ISA_PORT_BASE", "file":"include/linux/sysctl.h", "line":249, "type":"e", "scope_line":246, }
+,{"id":"BUS_ISA_PORT_SHIFT", "file":"include/linux/sysctl.h", "line":250, "type":"e", "scope_line":246, }
+,{"id":"BUS_MCEERR_AO", "file":"include/asm-generic/siginfo.h", "line":200, "type":"d", }
+,{"id":"BUS_MCEERR_AR", "file":"include/asm-generic/siginfo.h", "line":198, "type":"d", }
+,{"id":"BUS_NODATA", "file":"include/linux/libata.h", "line":285, "type":"e", "scope_line":111, }
+,{"id":"BUS_NOINTR", "file":"include/linux/libata.h", "line":284, "type":"e", "scope_line":111, }
+,{"id":"BUS_NOTIFY_ADD_DEVICE", "file":"include/linux/device.h", "line":110, "type":"d", }
+,{"id":"BUS_NOTIFY_BIND_DRIVER", "file":"include/linux/device.h", "line":112, "type":"d", }
+,{"id":"BUS_NOTIFY_BOUND_DRIVER", "file":"include/linux/device.h", "line":114, "type":"d", }
+,{"id":"BUS_NOTIFY_DEL_DEVICE", "file":"include/linux/device.h", "line":111, "type":"d", }
+,{"id":"BUS_NOTIFY_UNBIND_DRIVER", "file":"include/linux/device.h", "line":115, "type":"d", }
+,{"id":"BUS_NOTIFY_UNBOUND_DRIVER", "file":"include/linux/device.h", "line":117, "type":"d", }
+,{"id":"BUS_NR", "file":"arch/x86/pci/common.c", "line":634, "type":"d", }
+,{"id":"BUS_OBJERR", "file":"include/asm-generic/siginfo.h", "line":196, "type":"d", }
+,{"id":"BUS_PACKET", "file":"include/linux/libata.h", "line":290, "type":"e", "scope_line":111, }
+,{"id":"BUS_PARPORT", "file":"include/linux/input.h", "line":812, "type":"d", }
+,{"id":"BUS_PCI", "file":"include/linux/input.h", "line":800, "type":"d", }
+,{"id":"BUS_PIO", "file":"include/linux/libata.h", "line":287, "type":"e", "scope_line":111, }
+,{"id":"BUS_RESET_SETTLE_TIME", "file":"drivers/scsi/scsi_error.c", "line":50, "type":"d", }
+,{"id":"BUS_RS232", "file":"include/linux/input.h", "line":810, "type":"d", }
+,{"id":"BUS_SPI", "file":"include/linux/input.h", "line":819, "type":"d", }
+,{"id":"BUS_TIMER", "file":"include/linux/libata.h", "line":286, "type":"e", "scope_line":111, }
+,{"id":"BUS_UNKNOWN", "file":"include/linux/libata.h", "line":281, "type":"e", "scope_line":111, }
+,{"id":"BUS_USB", "file":"include/linux/input.h", "line":802, "type":"d", }
+,{"id":"BUS_VIRTUAL", "file":"include/linux/input.h", "line":805, "type":"d", }
+,{"id":"BUS_XTKBD", "file":"include/linux/input.h", "line":809, "type":"d", }
+,{"id":"BV", "file":"fs/bio.c", "line":45, "type":"d", }
+,{"id":"BV", "file":"fs/bio.c", "line":49, "type":"d", }
+,{"id":"BYPASS_APIC_DEASSERT", "file":"drivers/pci/quirks.c", "line":777, "type":"d", }
+,{"id":"BYTEBITS", "file":"lib/zlib_inflate/inflate.c", "line":239, "type":"d", }
+,{"id":"BYTES_PER_LONG", "file":"drivers/video/fbsysfs.c", "line":41, "type":"d", }
+,{"id":"BYTES_PER_LONG", "file":"drivers/video/fbsysfs.c", "line":68, "type":"d", }
+,{"id":"BYTES_PER_WORD", "file":"mm/slab.c", "line":144, "type":"d", }
+,{"id":"BZIP2_IOBUF_SIZE", "file":"lib/decompress_bunzip2.c", "line":80, "type":"d", }
+,{"id":"Bad_file", "file":"mm/swapfile.c", "line":50, "type":"v", }
+,{"id":"Bad_offset", "file":"mm/swapfile.c", "line":52, "type":"v", }
+,{"id":"Bc_bwd", "file":"include/linux/if_frad.h", "line":51, "type":"m", "scope_line":45, "scope_name":"struct dlci_conf", }
+,{"id":"Bc_bwd", "file":"include/linux/if_frad.h", "line":99, "type":"m", "scope_line":83, "scope_name":"struct frad_conf", }
+,{"id":"Bc_fwd", "file":"include/linux/if_frad.h", "line":48, "type":"m", "scope_line":45, "scope_name":"struct dlci_conf", }
+,{"id":"Bc_fwd", "file":"include/linux/if_frad.h", "line":96, "type":"m", "scope_line":83, "scope_name":"struct frad_conf", }
+,{"id":"Be_bwd", "file":"include/linux/if_frad.h", "line":100, "type":"m", "scope_line":83, "scope_name":"struct frad_conf", }
+,];
+xr_frag_insert('t/fc/5bb731266ce14c3674a28691f3a68eb9f3dc6d.xr', __xr_tmp);

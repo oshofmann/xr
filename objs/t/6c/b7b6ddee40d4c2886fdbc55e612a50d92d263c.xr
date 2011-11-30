@@ -1,0 +1,128 @@
+var __xr_tmp = [
+{"id":"HVM_PARAM_STORE_PFN", "file":"include/xen/interface/hvm/params.h", "line":41, "type":"d", }
+,{"id":"HVM_PARAM_TIMER_MODE", "file":"include/xen/interface/hvm/params.h", "line":69, "type":"d", }
+,{"id":"HVM_PARAM_VM86_TSS", "file":"include/xen/interface/hvm/params.h", "line":88, "type":"d", }
+,{"id":"HVM_PARAM_VPT_ALIGN", "file":"include/xen/interface/hvm/params.h", "line":91, "type":"d", }
+,{"id":"HV_PROCESSOR_POWER_STATE_C0", "file":"arch/x86/include/asm/hyperv.h", "line":184, "type":"d", }
+,{"id":"HV_PROCESSOR_POWER_STATE_C1", "file":"arch/x86/include/asm/hyperv.h", "line":185, "type":"d", }
+,{"id":"HV_PROCESSOR_POWER_STATE_C2", "file":"arch/x86/include/asm/hyperv.h", "line":186, "type":"d", }
+,{"id":"HV_PROCESSOR_POWER_STATE_C3", "file":"arch/x86/include/asm/hyperv.h", "line":187, "type":"d", }
+,{"id":"HV_STATUS_INVALID_ALIGNMENT", "file":"arch/x86/include/asm/hyperv.h", "line":193, "type":"d", }
+,{"id":"HV_STATUS_INVALID_HYPERCALL_CODE", "file":"arch/x86/include/asm/hyperv.h", "line":191, "type":"d", }
+,{"id":"HV_STATUS_INVALID_HYPERCALL_INPUT", "file":"arch/x86/include/asm/hyperv.h", "line":192, "type":"d", }
+,{"id":"HV_STATUS_SUCCESS", "file":"arch/x86/include/asm/hyperv.h", "line":190, "type":"d", }
+,{"id":"HV_X64_ACCESS_MEMORY_POOL", "file":"arch/x86/include/asm/hyperv.h", "line":67, "type":"d", }
+,{"id":"HV_X64_ACCESS_PARTITION_ID", "file":"arch/x86/include/asm/hyperv.h", "line":66, "type":"d", }
+,{"id":"HV_X64_ACCESS_STATS", "file":"arch/x86/include/asm/hyperv.h", "line":73, "type":"d", }
+,{"id":"HV_X64_ADJUST_MESSAGE_BUFFERS", "file":"arch/x86/include/asm/hyperv.h", "line":68, "type":"d", }
+,{"id":"HV_X64_APIC_ACCESS_RECOMMENDED", "file":"arch/x86/include/asm/hyperv.h", "line":119, "type":"d", }
+,{"id":"HV_X64_CONFIGURE_PROFILER", "file":"arch/x86/include/asm/hyperv.h", "line":76, "type":"d", }
+,{"id":"HV_X64_CONNECT_PORT", "file":"arch/x86/include/asm/hyperv.h", "line":72, "type":"d", }
+,{"id":"HV_X64_CPU_DYNAMIC_PARTITIONING_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":89, "type":"d", }
+,{"id":"HV_X64_CPU_POWER_MANAGEMENT", "file":"arch/x86/include/asm/hyperv.h", "line":75, "type":"d", }
+,{"id":"HV_X64_CREATE_PARTITIONS", "file":"arch/x86/include/asm/hyperv.h", "line":65, "type":"d", }
+,{"id":"HV_X64_CREATE_PORT", "file":"arch/x86/include/asm/hyperv.h", "line":71, "type":"d", }
+,{"id":"HV_X64_DEBUGGING", "file":"arch/x86/include/asm/hyperv.h", "line":74, "type":"d", }
+,{"id":"HV_X64_GUEST_DEBUGGING_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":85, "type":"d", }
+,{"id":"HV_X64_GUEST_IDLE_STATE_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":96, "type":"d", }
+,{"id":"HV_X64_HV_NOTIFY_LONG_SPIN_WAIT", "file":"arch/x86/include/asm/hyperv.h", "line":177, "type":"d", }
+,{"id":"HV_X64_HYPERCALL_PARAMS_XMM_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":94, "type":"d", }
+,{"id":"HV_X64_LOCAL_TLB_FLUSH_RECOMMENDED", "file":"arch/x86/include/asm/hyperv.h", "line":109, "type":"d", }
+,{"id":"HV_X64_MSR_APIC_ACCESS_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":46, "type":"d", }
+,{"id":"HV_X64_MSR_APIC_ASSIST_PAGE", "file":"arch/x86/include/asm/hyperv.h", "line":145, "type":"d", }
+,{"id":"HV_X64_MSR_APIC_ASSIST_PAGE_ADDRESS_MASK", "file":"arch/x86/include/asm/hyperv.h", "line":181, "type":"d", }
+,{"id":"HV_X64_MSR_APIC_ASSIST_PAGE_ADDRESS_SHIFT", "file":"arch/x86/include/asm/hyperv.h", "line":180, "type":"d", }
+,{"id":"HV_X64_MSR_APIC_ASSIST_PAGE_ENABLE", "file":"arch/x86/include/asm/hyperv.h", "line":179, "type":"d", }
+,{"id":"HV_X64_MSR_EOI", "file":"arch/x86/include/asm/hyperv.h", "line":142, "type":"d", }
+,{"id":"HV_X64_MSR_EOM", "file":"arch/x86/include/asm/hyperv.h", "line":152, "type":"d", }
+,{"id":"HV_X64_MSR_GUEST_OS_ID", "file":"arch/x86/include/asm/hyperv.h", "line":130, "type":"d", }
+,{"id":"HV_X64_MSR_HYPERCALL", "file":"arch/x86/include/asm/hyperv.h", "line":133, "type":"d", }
+,{"id":"HV_X64_MSR_HYPERCALL_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":48, "type":"d", }
+,{"id":"HV_X64_MSR_HYPERCALL_ENABLE", "file":"arch/x86/include/asm/hyperv.h", "line":171, "type":"d", }
+,{"id":"HV_X64_MSR_HYPERCALL_PAGE_ADDRESS_MASK", "file":"arch/x86/include/asm/hyperv.h", "line":173, "type":"d", }
+,{"id":"HV_X64_MSR_HYPERCALL_PAGE_ADDRESS_SHIFT", "file":"arch/x86/include/asm/hyperv.h", "line":172, "type":"d", }
+,{"id":"HV_X64_MSR_ICR", "file":"arch/x86/include/asm/hyperv.h", "line":143, "type":"d", }
+,{"id":"HV_X64_MSR_RESET_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":52, "type":"d", }
+,{"id":"HV_X64_MSR_SCONTROL", "file":"arch/x86/include/asm/hyperv.h", "line":148, "type":"d", }
+,{"id":"HV_X64_MSR_SIEFP", "file":"arch/x86/include/asm/hyperv.h", "line":150, "type":"d", }
+,{"id":"HV_X64_MSR_SIMP", "file":"arch/x86/include/asm/hyperv.h", "line":151, "type":"d", }
+,{"id":"HV_X64_MSR_SINT0", "file":"arch/x86/include/asm/hyperv.h", "line":153, "type":"d", }
+,{"id":"HV_X64_MSR_SINT1", "file":"arch/x86/include/asm/hyperv.h", "line":154, "type":"d", }
+,{"id":"HV_X64_MSR_SINT10", "file":"arch/x86/include/asm/hyperv.h", "line":163, "type":"d", }
+,{"id":"HV_X64_MSR_SINT11", "file":"arch/x86/include/asm/hyperv.h", "line":164, "type":"d", }
+,{"id":"HV_X64_MSR_SINT12", "file":"arch/x86/include/asm/hyperv.h", "line":165, "type":"d", }
+,{"id":"HV_X64_MSR_SINT13", "file":"arch/x86/include/asm/hyperv.h", "line":166, "type":"d", }
+,{"id":"HV_X64_MSR_SINT14", "file":"arch/x86/include/asm/hyperv.h", "line":167, "type":"d", }
+,{"id":"HV_X64_MSR_SINT15", "file":"arch/x86/include/asm/hyperv.h", "line":168, "type":"d", }
+,{"id":"HV_X64_MSR_SINT2", "file":"arch/x86/include/asm/hyperv.h", "line":155, "type":"d", }
+,{"id":"HV_X64_MSR_SINT3", "file":"arch/x86/include/asm/hyperv.h", "line":156, "type":"d", }
+,{"id":"HV_X64_MSR_SINT4", "file":"arch/x86/include/asm/hyperv.h", "line":157, "type":"d", }
+,{"id":"HV_X64_MSR_SINT5", "file":"arch/x86/include/asm/hyperv.h", "line":158, "type":"d", }
+,{"id":"HV_X64_MSR_SINT6", "file":"arch/x86/include/asm/hyperv.h", "line":159, "type":"d", }
+,{"id":"HV_X64_MSR_SINT7", "file":"arch/x86/include/asm/hyperv.h", "line":160, "type":"d", }
+,{"id":"HV_X64_MSR_SINT8", "file":"arch/x86/include/asm/hyperv.h", "line":161, "type":"d", }
+,{"id":"HV_X64_MSR_SINT9", "file":"arch/x86/include/asm/hyperv.h", "line":162, "type":"d", }
+,{"id":"HV_X64_MSR_STAT_PAGES_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":58, "type":"d", }
+,{"id":"HV_X64_MSR_SVERSION", "file":"arch/x86/include/asm/hyperv.h", "line":149, "type":"d", }
+,{"id":"HV_X64_MSR_SYNIC_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":36, "type":"d", }
+,{"id":"HV_X64_MSR_SYNTIMER_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":41, "type":"d", }
+,{"id":"HV_X64_MSR_TIME_REF_COUNT", "file":"arch/x86/include/asm/hyperv.h", "line":139, "type":"d", }
+,{"id":"HV_X64_MSR_TIME_REF_COUNT_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":31, "type":"d", }
+,{"id":"HV_X64_MSR_TPR", "file":"arch/x86/include/asm/hyperv.h", "line":144, "type":"d", }
+,{"id":"HV_X64_MSR_VP_INDEX", "file":"arch/x86/include/asm/hyperv.h", "line":136, "type":"d", }
+,{"id":"HV_X64_MSR_VP_INDEX_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":50, "type":"d", }
+,{"id":"HV_X64_MSR_VP_RUNTIME_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":29, "type":"d", }
+,{"id":"HV_X64_MWAIT_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":83, "type":"d", }
+,{"id":"HV_X64_MWAIT_RECOMMENDED", "file":"arch/x86/include/asm/hyperv.h", "line":106, "type":"d", }
+,{"id":"HV_X64_PERF_MONITOR_AVAILABLE", "file":"arch/x86/include/asm/hyperv.h", "line":87, "type":"d", }
+,{"id":"HV_X64_POST_MESSAGES", "file":"arch/x86/include/asm/hyperv.h", "line":69, "type":"d", }
+,{"id":"HV_X64_RELAXED_TIMING_RECOMMENDED", "file":"arch/x86/include/asm/hyperv.h", "line":127, "type":"d", }
+,{"id":"HV_X64_REMOTE_TLB_FLUSH_RECOMMENDED", "file":"arch/x86/include/asm/hyperv.h", "line":114, "type":"d", }
+,{"id":"HV_X64_SIGNAL_EVENTS", "file":"arch/x86/include/asm/hyperv.h", "line":70, "type":"d", }
+,{"id":"HV_X64_SYSTEM_RESET_RECOMMENDED", "file":"arch/x86/include/asm/hyperv.h", "line":121, "type":"d", }
+,{"id":"HWEIGHT", "file":"include/asm-generic/bitops/const_hweight.h", "line":40, "type":"d", }
+,{"id":"HWEIGHT16", "file":"include/asm-generic/bitops/const_hweight.h", "line":33, "type":"d", }
+,{"id":"HWEIGHT32", "file":"include/asm-generic/bitops/const_hweight.h", "line":34, "type":"d", }
+,{"id":"HWEIGHT64", "file":"include/asm-generic/bitops/const_hweight.h", "line":35, "type":"d", }
+,{"id":"HWEIGHT8", "file":"include/asm-generic/bitops/const_hweight.h", "line":32, "type":"d", }
+,{"id":"HWMON_ID_FORMAT", "file":"drivers/hwmon/hwmon.c", "line":24, "type":"d", }
+,{"id":"HWMON_ID_PREFIX", "file":"drivers/hwmon/hwmon.c", "line":23, "type":"d", }
+,{"id":"HWTSTAMP_FILTER_ALL", "file":"include/linux/net_tstamp.h", "line":71, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_NONE", "file":"include/linux/net_tstamp.h", "line":68, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V1_L4_DELAY_REQ", "file":"include/linux/net_tstamp.h", "line":81, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V1_L4_EVENT", "file":"include/linux/net_tstamp.h", "line":77, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V1_L4_SYNC", "file":"include/linux/net_tstamp.h", "line":79, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V2_DELAY_REQ", "file":"include/linux/net_tstamp.h", "line":101, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V2_EVENT", "file":"include/linux/net_tstamp.h", "line":97, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V2_L2_DELAY_REQ", "file":"include/linux/net_tstamp.h", "line":94, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V2_L2_EVENT", "file":"include/linux/net_tstamp.h", "line":90, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V2_L2_SYNC", "file":"include/linux/net_tstamp.h", "line":92, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V2_L4_DELAY_REQ", "file":"include/linux/net_tstamp.h", "line":87, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V2_L4_EVENT", "file":"include/linux/net_tstamp.h", "line":83, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V2_L4_SYNC", "file":"include/linux/net_tstamp.h", "line":85, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_PTP_V2_SYNC", "file":"include/linux/net_tstamp.h", "line":99, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_FILTER_SOME", "file":"include/linux/net_tstamp.h", "line":74, "type":"e", "scope_line":66, }
+,{"id":"HWTSTAMP_TX_OFF", "file":"include/linux/net_tstamp.h", "line":54, "type":"e", "scope_line":48, }
+,{"id":"HWTSTAMP_TX_ON", "file":"include/linux/net_tstamp.h", "line":62, "type":"e", "scope_line":48, }
+,{"id":"HW_BREAKPOINT_EMPTY", "file":"include/linux/hw_breakpoint.h", "line":12, "type":"e", "scope_line":11, }
+,{"id":"HW_BREAKPOINT_INVALID", "file":"include/linux/hw_breakpoint.h", "line":17, "type":"e", "scope_line":11, }
+,{"id":"HW_BREAKPOINT_LEN_1", "file":"include/linux/hw_breakpoint.h", "line":5, "type":"e", "scope_line":4, }
+,{"id":"HW_BREAKPOINT_LEN_2", "file":"include/linux/hw_breakpoint.h", "line":6, "type":"e", "scope_line":4, }
+,{"id":"HW_BREAKPOINT_LEN_4", "file":"include/linux/hw_breakpoint.h", "line":7, "type":"e", "scope_line":4, }
+,{"id":"HW_BREAKPOINT_LEN_8", "file":"include/linux/hw_breakpoint.h", "line":8, "type":"e", "scope_line":4, }
+,{"id":"HW_BREAKPOINT_R", "file":"include/linux/hw_breakpoint.h", "line":13, "type":"e", "scope_line":11, }
+,{"id":"HW_BREAKPOINT_RW", "file":"include/linux/hw_breakpoint.h", "line":15, "type":"e", "scope_line":11, }
+,{"id":"HW_BREAKPOINT_W", "file":"include/linux/hw_breakpoint.h", "line":14, "type":"e", "scope_line":11, }
+,{"id":"HW_BREAKPOINT_X", "file":"include/linux/hw_breakpoint.h", "line":16, "type":"e", "scope_line":11, }
+,{"id":"HW_ERR", "file":"include/linux/kernel.h", "line":261, "type":"d", }
+,{"id":"HW_PSTATE_0", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":10, "type":"e", "scope_line":8, "scope_name":"pstate", }
+,{"id":"HW_PSTATE_1", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":11, "type":"e", "scope_line":8, "scope_name":"pstate", }
+,{"id":"HW_PSTATE_2", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":12, "type":"e", "scope_line":8, "scope_name":"pstate", }
+,{"id":"HW_PSTATE_3", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":13, "type":"e", "scope_line":8, "scope_name":"pstate", }
+,{"id":"HW_PSTATE_4", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":14, "type":"e", "scope_line":8, "scope_name":"pstate", }
+,{"id":"HW_PSTATE_5", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":15, "type":"e", "scope_line":8, "scope_name":"pstate", }
+,{"id":"HW_PSTATE_6", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":16, "type":"e", "scope_line":8, "scope_name":"pstate", }
+,{"id":"HW_PSTATE_7", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":17, "type":"e", "scope_line":8, "scope_name":"pstate", }
+,{"id":"HW_PSTATE_INVALID", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":9, "type":"e", "scope_line":8, "scope_name":"pstate", }
+,];
+xr_frag_insert('t/6c/b7b6ddee40d4c2886fdbc55e612a50d92d263c.xr', __xr_tmp);

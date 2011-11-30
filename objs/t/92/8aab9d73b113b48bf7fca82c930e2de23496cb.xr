@@ -1,0 +1,236 @@
+var __xr_tmp = [
+{"id":"dma_map_single", "file":"include/asm-generic/dma-mapping-common.h", "line":163, "type":"d", }
+,{"id":"dma_map_single_attrs", "file":"drivers/dma/dmaengine.c", "line":855, "type":"c", "scope_line":845, "scope_name":"dma_async_memcpy_buf_to_buf", }
+,{"id":"dma_map_single_attrs", "file":"drivers/dma/dmaengine.c", "line":856, "type":"c", "scope_line":845, "scope_name":"dma_async_memcpy_buf_to_buf", }
+,{"id":"dma_map_single_attrs", "file":"drivers/dma/dmaengine.c", "line":903, "type":"c", "scope_line":893, "scope_name":"dma_async_memcpy_buf_to_pg", }
+,{"id":"dma_map_single_attrs", "file":"include/asm-generic/dma-mapping-common.h", "line":9, "type":"f", }
+,{"id":"dma_map_single_attrs", "file":"include/asm-generic/pci-dma-compat.h", "line":32, "type":"c", "scope_line":29, "scope_name":"pci_map_single", }
+,{"id":"dma_mapping_error", "file":"arch/x86/include/asm/dma-mapping.h", "line":46, "type":"f", }
+,{"id":"dma_mapping_error", "file":"include/asm-generic/pci-dma-compat.h", "line":101, "type":"c", "scope_line":98, "scope_name":"pci_dma_mapping_error", }
+,{"id":"dma_mark_clean", "file":"arch/x86/include/asm/swiotlb.h", "line":21, "type":"f", }
+,{"id":"dma_mark_clean", "file":"drivers/xen/swiotlb-xen.c", "line":312, "type":"c", "scope_line":290, "scope_name":"xen_unmap_single", }
+,{"id":"dma_mark_clean", "file":"drivers/xen/swiotlb-xen.c", "line":352, "type":"c", "scope_line":333, "scope_name":"xen_swiotlb_sync_single", }
+,{"id":"dma_mark_clean", "file":"lib/swiotlb.c", "line":725, "type":"c", "scope_line":704, "scope_name":"unmap_single", }
+,{"id":"dma_mark_clean", "file":"lib/swiotlb.c", "line":764, "type":"c", "scope_line":746, "scope_name":"swiotlb_sync_single", }
+,{"id":"dma_mark_declared_memory_occupied", "file":"include/linux/dma-mapping.h", "line":178, "type":"f", }
+,{"id":"dma_mask", "file":"include/linux/device.h", "line":429, "type":"m", "scope_line":406, "scope_name":"struct device", }
+,{"id":"dma_mask", "file":"include/linux/mca.h", "line":45, "type":"m", "scope_line":44, "scope_name":"struct mca_device", }
+,{"id":"dma_mask", "file":"include/linux/pci.h", "line":254, "type":"m", "scope_line":231, "scope_name":"struct pci_dev", }
+,{"id":"dma_mask", "file":"include/linux/pnp.h", "line":245, "type":"m", "scope_line":243, "scope_name":"struct pnp_dev", }
+,{"id":"dma_mask_bits_show", "file":"drivers/pci/pci-sysfs.c", "line":190, "type":"f", }
+,{"id":"dma_maxpq", "file":"include/linux/dmaengine.h", "line":569, "type":"f", }
+,{"id":"dma_mem", "file":"include/linux/device.h", "line":440, "type":"m", "scope_line":406, "scope_name":"struct device", }
+,{"id":"dma_memcpy_pg_to_iovec", "file":"drivers/dma/iovlock.c", "line":212, "type":"f", }
+,{"id":"dma_memcpy_pg_to_iovec", "file":"net/core/user_dma.c", "line":86, "type":"c", "scope_line":48, "scope_name":"dma_skb_copy_datagram_iovec", }
+,{"id":"dma_memcpy_to_iovec", "file":"drivers/dma/iovlock.c", "line":151, "type":"f", }
+,{"id":"dma_memcpy_to_iovec", "file":"net/core/user_dma.c", "line":61, "type":"c", "scope_line":48, "scope_name":"dma_skb_copy_datagram_iovec", }
+,{"id":"dma_mode", "file":"include/linux/ide.h", "line":519, "type":"m", "scope_line":486, "scope_name":"struct ide_drive_s", }
+,{"id":"dma_mode", "file":"include/linux/libata.h", "line":614, "type":"m", "scope_line":595, "scope_name":"struct ata_device", }
+,{"id":"dma_ops", "file":"arch/x86/include/asm/device.h", "line":9, "type":"m", "scope_line":4, "scope_name":"struct dev_archdata", }
+,{"id":"dma_ops", "file":"arch/x86/kernel/pci-dma.c", "line":20, "type":"v", }
+,{"id":"dma_ops", "file":"include/linux/ide.h", "line":1303, "type":"m", "scope_line":1288, "scope_name":"struct ide_port_info", }
+,{"id":"dma_ops", "file":"include/linux/ide.h", "line":705, "type":"m", "scope_line":667, "scope_name":"struct hwif_s", }
+,{"id":"dma_ops_alloc_addresses", "file":"arch/x86/kernel/amd_iommu.c", "line":1178, "type":"f", }
+,{"id":"dma_ops_alloc_addresses", "file":"arch/x86/kernel/amd_iommu.c", "line":1893, "type":"c", "scope_line":1867, "scope_name":"__map_single", }
+,{"id":"dma_ops_area_alloc", "file":"arch/x86/kernel/amd_iommu.c", "line":1134, "type":"f", }
+,{"id":"dma_ops_area_alloc", "file":"arch/x86/kernel/amd_iommu.c", "line":1191, "type":"c", "scope_line":1178, "scope_name":"dma_ops_alloc_addresses", }
+,{"id":"dma_ops_area_alloc", "file":"arch/x86/kernel/amd_iommu.c", "line":1196, "type":"c", "scope_line":1178, "scope_name":"dma_ops_alloc_addresses", }
+,{"id":"dma_ops_domain", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":322, "type":"s", }
+,{"id":"dma_ops_domain", "file":"arch/x86/kernel/amd_iommu.c", "line":1408, "type":"f", }
+,{"id":"dma_ops_domain", "file":"arch/x86/kernel/amd_iommu.c", "line":1734, "type":"c", "scope_line":1724, "scope_name":"get_domain", }
+,{"id":"dma_ops_domain_alloc", "file":"arch/x86/kernel/amd_iommu.c", "line":1359, "type":"f", }
+,{"id":"dma_ops_domain_alloc", "file":"arch/x86/kernel/amd_iommu.c", "line":1677, "type":"c", "scope_line":1640, "scope_name":"device_change_notifier", }
+,{"id":"dma_ops_domain_alloc", "file":"arch/x86/kernel/amd_iommu.c", "line":2277, "type":"c", "scope_line":2259, "scope_name":"prealloc_protection_domains", }
+,{"id":"dma_ops_domain_alloc", "file":"arch/x86/kernel/amd_iommu.c", "line":2319, "type":"c", "scope_line":2308, "scope_name":"amd_iommu_init_dma_ops", }
+,{"id":"dma_ops_domain_free", "file":"arch/x86/kernel/amd_iommu.c", "line":1333, "type":"f", }
+,{"id":"dma_ops_domain_free", "file":"arch/x86/kernel/amd_iommu.c", "line":1399, "type":"c", "scope_line":1359, "scope_name":"dma_ops_domain_alloc", }
+,{"id":"dma_ops_domain_free", "file":"arch/x86/kernel/amd_iommu.c", "line":2347, "type":"c", "scope_line":2308, "scope_name":"amd_iommu_init_dma_ops", }
+,{"id":"dma_ops_domain_map", "file":"arch/x86/kernel/amd_iommu.c", "line":1803, "type":"f", }
+,{"id":"dma_ops_domain_map", "file":"arch/x86/kernel/amd_iommu.c", "line":1915, "type":"c", "scope_line":1867, "scope_name":"__map_single", }
+,{"id":"dma_ops_domain_unmap", "file":"arch/x86/kernel/amd_iommu.c", "line":1837, "type":"f", }
+,{"id":"dma_ops_domain_unmap", "file":"arch/x86/kernel/amd_iommu.c", "line":1939, "type":"c", "scope_line":1867, "scope_name":"__map_single", }
+,{"id":"dma_ops_domain_unmap", "file":"arch/x86/kernel/amd_iommu.c", "line":1970, "type":"c", "scope_line":1951, "scope_name":"__unmap_single", }
+,{"id":"dma_ops_free_addresses", "file":"arch/x86/kernel/amd_iommu.c", "line":1214, "type":"f", }
+,{"id":"dma_ops_free_addresses", "file":"arch/x86/kernel/amd_iommu.c", "line":1942, "type":"c", "scope_line":1867, "scope_name":"__map_single", }
+,{"id":"dma_ops_free_addresses", "file":"arch/x86/kernel/amd_iommu.c", "line":1976, "type":"c", "scope_line":1951, "scope_name":"__unmap_single", }
+,{"id":"dma_ops_get_pte", "file":"arch/x86/kernel/amd_iommu.c", "line":1776, "type":"f", }
+,{"id":"dma_ops_get_pte", "file":"arch/x86/kernel/amd_iommu.c", "line":1814, "type":"c", "scope_line":1803, "scope_name":"dma_ops_domain_map", }
+,{"id":"dma_ops_reserve_addresses", "file":"arch/x86/kernel/amd_iommu.c", "line":1025, "type":"f", }
+,{"id":"dma_ops_reserve_addresses", "file":"arch/x86/kernel/amd_iommu.c", "line":1099, "type":"c", "scope_line":1046, "scope_name":"alloc_new_range", }
+,{"id":"dma_ops_reserve_addresses", "file":"arch/x86/kernel/amd_iommu.c", "line":1116, "type":"c", "scope_line":1046, "scope_name":"alloc_new_range", }
+,{"id":"dma_ops_unity_map", "file":"arch/x86/kernel/amd_iommu.c", "line":939, "type":"f", }
+,{"id":"dma_ops_unity_map", "file":"arch/x86/kernel/amd_iommu.c", "line":977, "type":"c", "scope_line":969, "scope_name":"iommu_init_unity_mappings", }
+,{"id":"dma_ops_unity_map", "file":"arch/x86/kernel/amd_iommu.c", "line":997, "type":"c", "scope_line":988, "scope_name":"init_unity_mappings_for_device", }
+,{"id":"dma_outb", "file":"arch/x86/include/asm/dma.h", "line":18, "type":"d", }
+,{"id":"dma_pad_mask", "file":"include/linux/blkdev.h", "line":333, "type":"m", "scope_line":253, "scope_name":"struct request_queue", }
+,{"id":"dma_page", "file":"mm/dmapool.c", "line":56, "type":"s", }
+,{"id":"dma_page_list", "file":"include/linux/dmaengine.h", "line":800, "type":"s", }
+,{"id":"dma_parms", "file":"include/linux/device.h", "line":436, "type":"m", "scope_line":406, "scope_name":"struct device", }
+,{"id":"dma_parms", "file":"include/linux/pci.h", "line":260, "type":"m", "scope_line":231, "scope_name":"struct pci_dev", }
+,{"id":"dma_pin_iovec_pages", "file":"drivers/dma/iovlock.c", "line":50, "type":"f", }
+,{"id":"dma_pin_iovec_pages", "file":"net/ipv4/tcp.c", "line":1452, "type":"c", "scope_line":1400, "scope_name":"tcp_recvmsg", }
+,{"id":"dma_pinned_list", "file":"include/linux/dmaengine.h", "line":806, "type":"s", }
+,{"id":"dma_pool", "file":"mm/dmapool.c", "line":44, "type":"s", }
+,{"id":"dma_pool_alloc", "file":"mm/dmapool.c", "line":306, "type":"f", }
+,{"id":"dma_pool_create", "file":"mm/dmapool.c", "line":132, "type":"f", }
+,{"id":"dma_pool_create", "file":"mm/dmapool.c", "line":483, "type":"c", "scope_line":474, "scope_name":"dmam_pool_create", }
+,{"id":"dma_pool_destroy", "file":"mm/dmapool.c", "line":264, "type":"f", }
+,{"id":"dma_pool_destroy", "file":"mm/dmapool.c", "line":455, "type":"c", "scope_line":451, "scope_name":"dmam_pool_release", }
+,{"id":"dma_pool_destroy", "file":"mm/dmapool.c", "line":503, "type":"c", "scope_line":499, "scope_name":"dmam_pool_destroy", }
+,{"id":"dma_pool_free", "file":"mm/dmapool.c", "line":381, "type":"f", }
+,{"id":"dma_pools", "file":"include/linux/device.h", "line":438, "type":"m", "scope_line":406, "scope_name":"struct device", }
+,{"id":"dma_release_channel", "file":"drivers/dma/dmaengine.c", "line":530, "type":"f", }
+,{"id":"dma_release_declared_memory", "file":"include/linux/dma-mapping.h", "line":173, "type":"f", }
+,{"id":"dma_release_from_coherent", "file":"include/asm-generic/dma-coherent.h", "line":29, "type":"d", }
+,{"id":"dma_request_channel", "file":"include/linux/dmaengine.h", "line":794, "type":"d", }
+,{"id":"dma_reserve", "file":"arch/x86/mm/init_64.c", "line":55, "type":"v", }
+,{"id":"dma_reserve", "file":"mm/page_alloc.c", "line":172, "type":"v", }
+,{"id":"dma_run_dependencies", "file":"drivers/dma/dmaengine.c", "line":1012, "type":"f", }
+,{"id":"dma_set_attr", "file":"include/linux/dma-attrs.h", "line":45, "type":"f", }
+,{"id":"dma_set_coherent_mask", "file":"include/asm-generic/pci-dma-compat.h", "line":112, "type":"c", "scope_line":110, "scope_name":"pci_set_consistent_dma_mask", }
+,{"id":"dma_set_coherent_mask", "file":"include/linux/dma-mapping.h", "line":108, "type":"f", }
+,{"id":"dma_set_mask", "file":"arch/x86/kernel/pci-dma.c", "line":59, "type":"f", }
+,{"id":"dma_set_mask", "file":"include/asm-generic/pci-dma-compat.h", "line":107, "type":"c", "scope_line":105, "scope_name":"pci_set_dma_mask", }
+,{"id":"dma_set_max_seg_size", "file":"drivers/pci/pci.c", "line":2317, "type":"c", "scope_line":2315, "scope_name":"pci_set_dma_max_seg_size", }
+,{"id":"dma_set_max_seg_size", "file":"include/linux/dma-mapping.h", "line":124, "type":"f", }
+,{"id":"dma_set_maxpq", "file":"include/linux/dmaengine.h", "line":526, "type":"f", }
+,{"id":"dma_set_seg_boundary", "file":"drivers/pci/pci.c", "line":2323, "type":"c", "scope_line":2321, "scope_name":"pci_set_dma_seg_boundary", }
+,{"id":"dma_set_seg_boundary", "file":"drivers/scsi/scsi_lib.c", "line":1631, "type":"c", "scope_line":1612, "scope_name":"__scsi_alloc_queue", }
+,{"id":"dma_set_seg_boundary", "file":"include/linux/dma-mapping.h", "line":140, "type":"f", }
+,{"id":"dma_set_tx_state", "file":"include/linux/dmaengine.h", "line":763, "type":"f", }
+,{"id":"dma_setup", "file":"include/linux/ide.h", "line":645, "type":"m", "scope_line":643, "scope_name":"struct ide_dma_ops", }
+,{"id":"dma_sff_read_status", "file":"include/linux/ide.h", "line":658, "type":"m", "scope_line":643, "scope_name":"struct ide_dma_ops", }
+,{"id":"dma_skb_copy_datagram_iovec", "file":"net/core/user_dma.c", "line":108, "type":"c", "scope_line":48, "scope_name":"dma_skb_copy_datagram_iovec", }
+,{"id":"dma_skb_copy_datagram_iovec", "file":"net/core/user_dma.c", "line":48, "type":"f", }
+,{"id":"dma_skb_copy_datagram_iovec", "file":"net/ipv4/tcp.c", "line":1670, "type":"c", "scope_line":1400, "scope_name":"tcp_recvmsg", }
+,{"id":"dma_skb_copy_datagram_iovec", "file":"net/ipv4/tcp_input.c", "line":5120, "type":"c", "scope_line":5104, "scope_name":"tcp_dma_try_early_copy", }
+,{"id":"dma_slave_buswidth", "file":"include/linux/dmaengine.h", "line":212, "type":"t", }
+,{"id":"dma_slave_config", "file":"include/linux/dmaengine.h", "line":263, "type":"s", }
+,{"id":"dma_spin_lock", "file":"kernel/dma.c", "line":41, "type":"v", }
+,{"id":"dma_start", "file":"include/linux/ide.h", "line":646, "type":"m", "scope_line":643, "scope_name":"struct ide_dma_ops", }
+,{"id":"dma_status", "file":"include/linux/dmaengine.h", "line":46, "type":"t", }
+,{"id":"dma_str", "file":"drivers/ata/libata-eh.c", "line":2342, "type":"v", }
+,{"id":"dma_submit_error", "file":"include/linux/dmaengine.h", "line":37, "type":"d", }
+,{"id":"dma_supported", "file":"arch/x86/kernel/pci-dma.c", "line":252, "type":"f", }
+,{"id":"dma_supported", "file":"arch/x86/kernel/pci-dma.c", "line":61, "type":"c", "scope_line":59, "scope_name":"dma_set_mask", }
+,{"id":"dma_supported", "file":"include/asm-generic/pci-dma-compat.h", "line":12, "type":"c", "scope_line":9, "scope_name":"pci_dma_supported", }
+,{"id":"dma_supported", "file":"include/linux/dma-mapping.h", "line":110, "type":"c", "scope_line":108, "scope_name":"dma_set_coherent_mask", }
+,{"id":"dma_supported", "file":"include/linux/dma-mapping.h", "line":50, "type":"m", "scope_line":18, "scope_name":"struct dma_map_ops", }
+,{"id":"dma_sync_sg_for_cpu", "file":"include/asm-generic/dma-mapping-common.h", "line":138, "type":"f", }
+,{"id":"dma_sync_sg_for_cpu", "file":"include/asm-generic/pci-dma-compat.h", "line":88, "type":"c", "scope_line":84, "scope_name":"pci_dma_sync_sg_for_cpu", }
+,{"id":"dma_sync_sg_for_device", "file":"include/asm-generic/dma-mapping-common.h", "line":150, "type":"f", }
+,{"id":"dma_sync_sg_for_device", "file":"include/asm-generic/pci-dma-compat.h", "line":95, "type":"c", "scope_line":91, "scope_name":"pci_dma_sync_sg_for_device", }
+,{"id":"dma_sync_single_for_cpu", "file":"include/asm-generic/dma-mapping-common.h", "line":126, "type":"c", "scope_line":120, "scope_name":"dma_sync_single_range_for_cpu", }
+,{"id":"dma_sync_single_for_cpu", "file":"include/asm-generic/dma-mapping-common.h", "line":96, "type":"f", }
+,{"id":"dma_sync_single_for_cpu", "file":"include/asm-generic/pci-dma-compat.h", "line":74, "type":"c", "scope_line":70, "scope_name":"pci_dma_sync_single_for_cpu", }
+,{"id":"dma_sync_single_for_device", "file":"include/asm-generic/dma-mapping-common.h", "line":108, "type":"f", }
+,{"id":"dma_sync_single_for_device", "file":"include/asm-generic/dma-mapping-common.h", "line":135, "type":"c", "scope_line":129, "scope_name":"dma_sync_single_range_for_device", }
+,{"id":"dma_sync_single_for_device", "file":"include/asm-generic/pci-dma-compat.h", "line":81, "type":"c", "scope_line":77, "scope_name":"pci_dma_sync_single_for_device", }
+,{"id":"dma_sync_single_range_for_cpu", "file":"include/asm-generic/dma-mapping-common.h", "line":120, "type":"f", }
+,{"id":"dma_sync_single_range_for_device", "file":"include/asm-generic/dma-mapping-common.h", "line":129, "type":"f", }
+,{"id":"dma_sync_target", "file":"include/linux/swiotlb.h", "line":31, "type":"t", }
+,{"id":"dma_sync_wait", "file":"drivers/dma/dmaengine.c", "line":1004, "type":"c", "scope_line":988, "scope_name":"dma_wait_for_async_tx", }
+,{"id":"dma_sync_wait", "file":"drivers/dma/dmaengine.c", "line":254, "type":"f", }
+,{"id":"dma_test_irq", "file":"include/linux/ide.h", "line":648, "type":"m", "scope_line":643, "scope_name":"struct ide_dma_ops", }
+,{"id":"dma_timer_expiry", "file":"include/linux/ide.h", "line":652, "type":"m", "scope_line":643, "scope_name":"struct ide_dma_ops", }
+,{"id":"dma_to_phys", "file":"arch/x86/include/asm/dma-mapping.h", "line":77, "type":"f", }
+,{"id":"dma_to_phys", "file":"lib/swiotlb.c", "line":614, "type":"c", "scope_line":610, "scope_name":"swiotlb_free_coherent", }
+,{"id":"dma_to_phys", "file":"lib/swiotlb.c", "line":707, "type":"c", "scope_line":704, "scope_name":"unmap_single", }
+,{"id":"dma_to_phys", "file":"lib/swiotlb.c", "line":751, "type":"c", "scope_line":746, "scope_name":"swiotlb_sync_single", }
+,{"id":"dma_transaction_type", "file":"include/linux/dmaengine.h", "line":59, "type":"t", }
+,{"id":"dma_tx_state", "file":"include/linux/dmaengine.h", "line":393, "type":"s", }
+,{"id":"dma_unmap_addr", "file":"include/linux/dma-mapping.h", "line":235, "type":"d", }
+,{"id":"dma_unmap_addr_set", "file":"include/linux/dma-mapping.h", "line":236, "type":"d", }
+,{"id":"dma_unmap_len", "file":"include/linux/dma-mapping.h", "line":237, "type":"d", }
+,{"id":"dma_unmap_len_set", "file":"include/linux/dma-mapping.h", "line":238, "type":"d", }
+,{"id":"dma_unmap_page", "file":"drivers/dma/dmaengine.c", "line":910, "type":"c", "scope_line":893, "scope_name":"dma_async_memcpy_buf_to_pg", }
+,{"id":"dma_unmap_page", "file":"drivers/dma/dmaengine.c", "line":958, "type":"c", "scope_line":940, "scope_name":"dma_async_memcpy_pg_to_pg", }
+,{"id":"dma_unmap_page", "file":"drivers/dma/dmaengine.c", "line":959, "type":"c", "scope_line":940, "scope_name":"dma_async_memcpy_pg_to_pg", }
+,{"id":"dma_unmap_page", "file":"include/asm-generic/dma-mapping-common.h", "line":85, "type":"f", }
+,{"id":"dma_unmap_page", "file":"include/asm-generic/pci-dma-compat.h", "line":53, "type":"c", "scope_line":49, "scope_name":"pci_unmap_page", }
+,{"id":"dma_unmap_sg", "file":"include/asm-generic/dma-mapping-common.h", "line":166, "type":"d", }
+,{"id":"dma_unmap_sg_attrs", "file":"drivers/ata/libata-core.c", "line":4654, "type":"c", "scope_line":4643, "scope_name":"ata_sg_clean", }
+,{"id":"dma_unmap_sg_attrs", "file":"drivers/scsi/scsi_lib_dma.c", "line":46, "type":"c", "scope_line":41, "scope_name":"scsi_dma_unmap", }
+,{"id":"dma_unmap_sg_attrs", "file":"include/asm-generic/dma-mapping-common.h", "line":58, "type":"f", }
+,{"id":"dma_unmap_sg_attrs", "file":"include/asm-generic/pci-dma-compat.h", "line":67, "type":"c", "scope_line":63, "scope_name":"pci_unmap_sg", }
+,{"id":"dma_unmap_single", "file":"include/asm-generic/dma-mapping-common.h", "line":164, "type":"d", }
+,{"id":"dma_unmap_single_attrs", "file":"drivers/dma/dmaengine.c", "line":863, "type":"c", "scope_line":845, "scope_name":"dma_async_memcpy_buf_to_buf", }
+,{"id":"dma_unmap_single_attrs", "file":"drivers/dma/dmaengine.c", "line":864, "type":"c", "scope_line":845, "scope_name":"dma_async_memcpy_buf_to_buf", }
+,{"id":"dma_unmap_single_attrs", "file":"drivers/dma/dmaengine.c", "line":909, "type":"c", "scope_line":893, "scope_name":"dma_async_memcpy_buf_to_pg", }
+,{"id":"dma_unmap_single_attrs", "file":"include/asm-generic/dma-mapping-common.h", "line":28, "type":"f", }
+,{"id":"dma_unmap_single_attrs", "file":"include/asm-generic/pci-dma-compat.h", "line":39, "type":"c", "scope_line":35, "scope_name":"pci_unmap_single", }
+,{"id":"dma_unpin_iovec_pages", "file":"drivers/dma/iovlock.c", "line":119, "type":"c", "scope_line":50, "scope_name":"dma_pin_iovec_pages", }
+,{"id":"dma_unpin_iovec_pages", "file":"drivers/dma/iovlock.c", "line":124, "type":"f", }
+,{"id":"dma_unpin_iovec_pages", "file":"net/ipv4/tcp.c", "line":1760, "type":"c", "scope_line":1400, "scope_name":"tcp_recvmsg", }
+,{"id":"dma_wait_for_async_tx", "file":"drivers/dma/dmaengine.c", "line":988, "type":"f", }
+,{"id":"dmabuf", "file":"block/compat_ioctl.c", "line":261, "type":"m", "scope_line":247, "scope_name":"struct compat_floppy_drive_struct", }
+,{"id":"dmabuf", "file":"include/linux/fd.h", "line":230, "type":"m", "scope_line":199, "scope_name":"struct floppy_drive_struct", }
+,{"id":"dmack_hold", "file":"include/linux/libata.h", "line":912, "type":"m", "scope_line":904, "scope_name":"struct ata_timing", }
+,{"id":"dmaengine_check_align", "file":"include/linux/dmaengine.h", "line":490, "type":"f", }
+,{"id":"dmaengine_check_align", "file":"include/linux/dmaengine.h", "line":505, "type":"c", "scope_line":502, "scope_name":"is_dma_copy_aligned", }
+,{"id":"dmaengine_check_align", "file":"include/linux/dmaengine.h", "line":511, "type":"c", "scope_line":508, "scope_name":"is_dma_xor_aligned", }
+,{"id":"dmaengine_check_align", "file":"include/linux/dmaengine.h", "line":517, "type":"c", "scope_line":514, "scope_name":"is_dma_pq_aligned", }
+,{"id":"dmaengine_check_align", "file":"include/linux/dmaengine.h", "line":523, "type":"c", "scope_line":520, "scope_name":"is_dma_fill_aligned", }
+,{"id":"dmaengine_get", "file":"drivers/dma/dmaengine.c", "line":546, "type":"f", }
+,{"id":"dmaengine_get", "file":"net/core/dev.c", "line":1172, "type":"c", "scope_line":1128, "scope_name":"__dev_open", }
+,{"id":"dmaengine_put", "file":"drivers/dma/dmaengine.c", "line":584, "type":"f", }
+,{"id":"dmaengine_put", "file":"net/core/dev.c", "line":1271, "type":"c", "scope_line":1227, "scope_name":"__dev_close", }
+,{"id":"dmaengine_ref_count", "file":"drivers/dma/dmaengine.c", "line":65, "type":"v", }
+,{"id":"dmaf_continue", "file":"include/linux/dmaengine.h", "line":534, "type":"f", }
+,{"id":"dmaf_continue", "file":"include/linux/dmaengine.h", "line":571, "type":"c", "scope_line":569, "scope_name":"dma_maxpq", }
+,{"id":"dmaf_continue", "file":"include/linux/dmaengine.h", "line":575, "type":"c", "scope_line":569, "scope_name":"dma_maxpq", }
+,{"id":"dmaf_p_disabled_continue", "file":"include/linux/dmaengine.h", "line":539, "type":"f", }
+,{"id":"dmaf_p_disabled_continue", "file":"include/linux/dmaengine.h", "line":573, "type":"c", "scope_line":569, "scope_name":"dma_maxpq", }
+,{"id":"dmam_alloc_coherent", "file":"drivers/ata/libahci.c", "line":2056, "type":"c", "scope_line":2018, "scope_name":"ahci_port_start", }
+,{"id":"dmam_alloc_coherent", "file":"drivers/ata/libata-sff.c", "line":3088, "type":"c", "scope_line":3085, "scope_name":"ata_bmdma_port_start", }
+,{"id":"dmam_alloc_coherent", "file":"drivers/ata/sata_sil24.c", "line":1215, "type":"c", "scope_line":1203, "scope_name":"sil24_port_start", }
+,{"id":"dmam_alloc_coherent", "file":"drivers/base/dma-mapping.c", "line":61, "type":"f", }
+,{"id":"dmam_alloc_noncoherent", "file":"drivers/base/dma-mapping.c", "line":120, "type":"f", }
+,{"id":"dmam_coherent_release", "file":"drivers/base/dma-mapping.c", "line":22, "type":"f", }
+,{"id":"dmam_declare_coherent_memory", "file":"include/linux/dma-mapping.h", "line":203, "type":"f", }
+,{"id":"dmam_free_coherent", "file":"drivers/base/dma-mapping.c", "line":96, "type":"f", }
+,{"id":"dmam_free_noncoherent", "file":"drivers/base/dma-mapping.c", "line":155, "type":"f", }
+,{"id":"dmam_match", "file":"drivers/base/dma-mapping.c", "line":36, "type":"f", }
+,{"id":"dmam_noncoherent_release", "file":"drivers/base/dma-mapping.c", "line":29, "type":"f", }
+,{"id":"dmam_pool_create", "file":"mm/dmapool.c", "line":474, "type":"f", }
+,{"id":"dmam_pool_destroy", "file":"mm/dmapool.c", "line":499, "type":"f", }
+,{"id":"dmam_pool_match", "file":"mm/dmapool.c", "line":458, "type":"f", }
+,{"id":"dmam_pool_release", "file":"mm/dmapool.c", "line":451, "type":"f", }
+,{"id":"dmam_release_declared_memory", "file":"include/linux/dma-mapping.h", "line":210, "type":"f", }
+,{"id":"dmap", "file":"mm/percpu.c", "line":1342, "type":"v", }
+,{"id":"dmar_table_init", "file":"arch/x86/kernel/apic/apic.c", "line":1401, "type":"c", "scope_line":1394, "scope_name":"enable_IR_x2apic", }
+,{"id":"dmar_table_init", "file":"include/linux/dmar.h", "line":71, "type":"f", }
+,{"id":"dmatable_cpu", "file":"include/linux/ide.h", "line":708, "type":"m", "scope_line":667, "scope_name":"struct hwif_s", }
+,{"id":"dmatable_dma", "file":"include/linux/ide.h", "line":710, "type":"m", "scope_line":667, "scope_name":"struct hwif_s", }
+,{"id":"dmax", "file":"lib/zlib_inflate/inflate.h", "line":78, "type":"m", "scope_line":72, "scope_name":"struct inflate_state", }
+,{"id":"dmce", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":2162, "type":"v", }
+,{"id":"dmi", "file":"drivers/acpi/osl.c", "line":136, "type":"m", "scope_line":134, "scope_name":"struct osi_linux", }
+,{"id":"dmi_alloc", "file":"arch/x86/include/asm/dmi.h", "line":10, "type":"f", }
+,{"id":"dmi_alloc", "file":"drivers/firmware/dmi_scan.c", "line":167, "type":"c", "scope_line":150, "scope_name":"dmi_save_uuid", }
+,{"id":"dmi_alloc", "file":"drivers/firmware/dmi_scan.c", "line":184, "type":"c", "scope_line":176, "scope_name":"dmi_save_type", }
+,{"id":"dmi_alloc", "file":"drivers/firmware/dmi_scan.c", "line":200, "type":"c", "scope_line":192, "scope_name":"dmi_save_one_device", }
+,{"id":"dmi_alloc", "file":"drivers/firmware/dmi_scan.c", "line":239, "type":"c", "scope_line":228, "scope_name":"dmi_save_oem_strings_devices", }
+,{"id":"dmi_alloc", "file":"drivers/firmware/dmi_scan.c", "line":259, "type":"c", "scope_line":254, "scope_name":"dmi_save_ipmi_device", }
+,{"id":"dmi_alloc", "file":"drivers/firmware/dmi_scan.c", "line":267, "type":"c", "scope_line":254, "scope_name":"dmi_save_ipmi_device", }
+,{"id":"dmi_alloc", "file":"drivers/firmware/dmi_scan.c", "line":285, "type":"c", "scope_line":280, "scope_name":"dmi_save_dev_onboard", }
+,{"id":"dmi_alloc", "file":"drivers/firmware/dmi_scan.c", "line":56, "type":"c", "scope_line":46, "scope_name":"dmi_string", }
+,{"id":"dmi_available", "file":"include/linux/dmi.h", "line":58, "type":"v", }
+,{"id":"dmi_base", "file":"drivers/firmware/dmi_scan.c", "line":98, "type":"v", }
+,{"id":"dmi_check_multi", "file":"arch/x86/kernel/apic/apic.c", "line":2217, "type":"f", }
+,{"id":"dmi_check_multi", "file":"arch/x86/kernel/apic/apic.c", "line":2236, "type":"c", "scope_line":2234, "scope_name":"apic_is_clustered_box", }
+,{"id":"dmi_check_pciprobe", "file":"arch/x86/pci/common.c", "line":388, "type":"f", }
+,{"id":"dmi_check_pciprobe", "file":"arch/x86/pci/init.c", "line":38, "type":"c", "scope_line":8, "scope_name":"pci_arch_init", }
+,{"id":"dmi_check_skip_isa_align", "file":"arch/x86/pci/common.c", "line":120, "type":"f", }
+,{"id":"dmi_check_skip_isa_align", "file":"arch/x86/pci/init.c", "line":40, "type":"c", "scope_line":8, "scope_name":"pci_arch_init", }
+,{"id":"dmi_check_system", "file":"arch/x86/kernel/acpi/boot.c", "line":1499, "type":"c", "scope_line":1497, "scope_name":"acpi_boot_table_init", }
+,{"id":"dmi_check_system", "file":"arch/x86/kernel/acpi/boot.c", "line":1550, "type":"c", "scope_line":1547, "scope_name":"acpi_boot_init", }
+,{"id":"dmi_check_system", "file":"arch/x86/kernel/apic/apic.c", "line":2222, "type":"c", "scope_line":2217, "scope_name":"dmi_check_multi", }
+,{"id":"dmi_check_system", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":560, "type":"c", "scope_line":509, "scope_name":"acpi_cpufreq_cpu_init", }
+,{"id":"dmi_check_system", "file":"arch/x86/kernel/io_delay.c", "line":108, "type":"c", "scope_line":105, "scope_name":"io_delay_init", }
+,{"id":"dmi_check_system", "file":"arch/x86/kernel/mmconf-fam10h_64.c", "line":239, "type":"c", "scope_line":237, "scope_name":"check_enable_amd_mmconf_dmi", }
+,{"id":"dmi_check_system", "file":"arch/x86/kernel/reboot.c", "line":485, "type":"c", "scope_line":483, "scope_name":"pci_reboot_init", }
+,{"id":"dmi_check_system", "file":"arch/x86/kernel/setup.c", "line":866, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"dmi_check_system", "file":"arch/x86/kernel/tsc.c", "line":996, "type":"c", "scope_line":949, "scope_name":"tsc_init", }
+,{"id":"dmi_check_system", "file":"arch/x86/pci/acpi.c", "line":56, "type":"c", "scope_line":49, "scope_name":"pci_acpi_crs_quirks", }
+,];
+xr_frag_insert('t/92/8aab9d73b113b48bf7fca82c930e2de23496cb.xr', __xr_tmp);

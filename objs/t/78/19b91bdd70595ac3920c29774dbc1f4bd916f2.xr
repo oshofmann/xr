@@ -1,0 +1,131 @@
+var __xr_tmp = [
+{"id":"MAX_SELECT_SECONDS", "file":"fs/select.c", "line":518, "type":"d", }
+,{"id":"MAX_SHARES", "file":"kernel/sched.c", "line":300, "type":"d", }
+,{"id":"MAX_SKB_FRAGS", "file":"include/linux/skbuff.h", "line":126, "type":"d", }
+,{"id":"MAX_SLABINFO_WRITE", "file":"mm/slab.c", "line":4334, "type":"d", }
+,{"id":"MAX_SLACK", "file":"fs/select.c", "line":45, "type":"d", }
+,{"id":"MAX_SOFTIRQ_RESTART", "file":"kernel/softirq.c", "line":189, "type":"d", }
+,{"id":"MAX_SPEED", "file":"drivers/block/pktcdvd.c", "line":85, "type":"d", }
+,{"id":"MAX_STACK_ALLOC", "file":"include/linux/poll.h", "line":19, "type":"d", }
+,{"id":"MAX_STACK_SIZE", "file":"arch/x86/include/asm/kprobes.h", "line":40, "type":"d", }
+,{"id":"MAX_STACK_TRACE_DEPTH", "file":"fs/proc/base.c", "line":323, "type":"d", }
+,{"id":"MAX_STRING_SIZE", "file":"kernel/trace/trace_kprobe.c", "line":43, "type":"d", }
+,{"id":"MAX_SWAPFILES", "file":"include/linux/swap.h", "line":66, "type":"d", }
+,{"id":"MAX_SWAPFILES_CHECK", "file":"arch/x86/include/asm/pgtable_64.h", "line":143, "type":"d", }
+,{"id":"MAX_SWAPFILES_SHIFT", "file":"include/linux/swap.h", "line":37, "type":"d", }
+,{"id":"MAX_SWAP_BADPAGES", "file":"include/linux/swap.h", "line":140, "type":"d", }
+,{"id":"MAX_SYMBOLS", "file":"lib/decompress_bunzip2.c", "line":65, "type":"d", }
+,{"id":"MAX_TCP_HEADER", "file":"include/net/tcp.h", "line":54, "type":"d", }
+,{"id":"MAX_TCP_KEEPCNT", "file":"include/net/tcp.h", "line":140, "type":"d", }
+,{"id":"MAX_TCP_KEEPIDLE", "file":"include/net/tcp.h", "line":138, "type":"d", }
+,{"id":"MAX_TCP_KEEPINTVL", "file":"include/net/tcp.h", "line":139, "type":"d", }
+,{"id":"MAX_TCP_OPTION_SPACE", "file":"include/net/tcp.h", "line":55, "type":"d", }
+,{"id":"MAX_TCP_SYNCNT", "file":"include/net/tcp.h", "line":141, "type":"d", }
+,{"id":"MAX_TCP_WINDOW", "file":"include/net/tcp.h", "line":61, "type":"d", }
+,{"id":"MAX_TICKADJ", "file":"kernel/time/ntp.c", "line":33, "type":"d", }
+,{"id":"MAX_TICKADJ_SCALED", "file":"kernel/time/ntp.c", "line":34, "type":"d", }
+,{"id":"MAX_TIMEOUT", "file":"drivers/char/hvc_console.c", "line":572, "type":"d", }
+,{"id":"MAX_TRACER_SIZE", "file":"kernel/trace/trace.c", "line":126, "type":"d", }
+,{"id":"MAX_TRACE_ARGS", "file":"kernel/trace/trace_kprobe.c", "line":40, "type":"d", }
+,{"id":"MAX_UDELAY_MS", "file":"include/linux/delay.h", "line":27, "type":"d", }
+,{"id":"MAX_UDP_PORTS", "file":"net/ipv4/udp.c", "line":125, "type":"d", }
+,{"id":"MAX_UPDATE_LENGTH", "file":"kernel/time/clocksource.c", "line":639, "type":"d", }
+,{"id":"MAX_USER_CARDS", "file":"drivers/gpu/vga/vgaarb.c", "line":713, "type":"d", }
+,{"id":"MAX_USER_PRIO", "file":"kernel/sched.c", "line":101, "type":"d", }
+,{"id":"MAX_USER_RT_PRIO", "file":"include/linux/sched.h", "line":1515, "type":"d", }
+,{"id":"MAX_VIRT_CPUS", "file":"arch/x86/include/asm/xen/interface.h", "line":69, "type":"d", }
+,{"id":"MAX_VMASST_TYPE", "file":"include/xen/interface/xen.h", "line":231, "type":"d", }
+,{"id":"MAX_WBITS", "file":"include/linux/zconf.h", "line":35, "type":"d", }
+,{"id":"MAX_WCHAR_T", "file":"include/linux/nls.h", "line":19, "type":"d", }
+,{"id":"MAX_WORK", "file":"kernel/async.c", "line":61, "type":"d", }
+,{"id":"MAX_WRITEBACK_PAGES", "file":"fs/fs-writeback.c", "line":576, "type":"d", }
+,{"id":"MAX_WRITERS", "file":"include/linux/pktcdvd.h", "line":22, "type":"d", }
+,{"id":"MAX_ZONELISTS", "file":"include/linux/mmzone.h", "line":476, "type":"d", }
+,{"id":"MAX_ZONES_PER_ZONELIST", "file":"include/linux/mmzone.h", "line":465, "type":"d", }
+,{"id":"MAYBE_BUILD_BUG_ON", "file":"include/linux/kernel.h", "line":757, "type":"d", }
+,{"id":"MAYDAY_INITIAL_TIMEOUT", "file":"kernel/workqueue.c", "line":85, "type":"e", "scope_line":50, }
+,{"id":"MAYDAY_INTERVAL", "file":"kernel/workqueue.c", "line":86, "type":"e", "scope_line":50, }
+,{"id":"MAY_ACCESS", "file":"include/linux/fs.h", "line":55, "type":"d", }
+,{"id":"MAY_ANY", "file":"security/smack/smack.h", "line":166, "type":"d", }
+,{"id":"MAY_ANYREAD", "file":"security/smack/smack.h", "line":167, "type":"d", }
+,{"id":"MAY_ANYWRITE", "file":"security/smack/smack.h", "line":168, "type":"d", }
+,{"id":"MAY_APPEND", "file":"include/linux/fs.h", "line":54, "type":"d", }
+,{"id":"MAY_CHDIR", "file":"include/linux/fs.h", "line":57, "type":"d", }
+,{"id":"MAY_EXEC", "file":"include/linux/fs.h", "line":51, "type":"d", }
+,{"id":"MAY_LINK", "file":"security/selinux/hooks.c", "line":1604, "type":"d", }
+,{"id":"MAY_NOT", "file":"security/smack/smack.h", "line":170, "type":"d", }
+,{"id":"MAY_OPEN", "file":"include/linux/fs.h", "line":56, "type":"d", }
+,{"id":"MAY_READ", "file":"include/linux/fs.h", "line":53, "type":"d", }
+,{"id":"MAY_READWRITE", "file":"security/smack/smack.h", "line":169, "type":"d", }
+,{"id":"MAY_RMDIR", "file":"security/selinux/hooks.c", "line":1606, "type":"d", }
+,{"id":"MAY_UNLINK", "file":"security/selinux/hooks.c", "line":1605, "type":"d", }
+,{"id":"MAY_WRITE", "file":"include/linux/fs.h", "line":52, "type":"d", }
+,{"id":"MB", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":35, "type":"d", }
+,{"id":"MB", "file":"kernel/tsacct.c", "line":115, "type":"d", }
+,{"id":"MB", "file":"kernel/tsacct.c", "line":82, "type":"d", }
+,{"id":"MBC", "file":"drivers/video/imsttfb.c", "line":54, "type":"e", "scope_line":45, }
+,{"id":"MBI_TO_DBI", "file":"include/net/regulatory.h", "line":87, "type":"d", }
+,{"id":"MBM_TO_DBM", "file":"include/net/regulatory.h", "line":89, "type":"d", }
+,{"id":"MB_CACHE_WRITER", "file":"fs/mbcache.c", "line":58, "type":"d", }
+,{"id":"MB_DEFAULT_GROUP_PREALLOC", "file":"fs/ext4/mballoc.h", "line":95, "type":"d", }
+,{"id":"MB_DEFAULT_MAX_GROUPS_TO_SCAN", "file":"fs/ext4/mballoc.h", "line":70, "type":"d", }
+,{"id":"MB_DEFAULT_MAX_TO_SCAN", "file":"fs/ext4/mballoc.h", "line":60, "type":"d", }
+,{"id":"MB_DEFAULT_MIN_TO_SCAN", "file":"fs/ext4/mballoc.h", "line":65, "type":"d", }
+,{"id":"MB_DEFAULT_ORDER2_REQS", "file":"fs/ext4/mballoc.h", "line":90, "type":"d", }
+,{"id":"MB_DEFAULT_STATS", "file":"fs/ext4/mballoc.h", "line":76, "type":"d", }
+,{"id":"MB_DEFAULT_STREAM_THRESHOLD", "file":"fs/ext4/mballoc.h", "line":85, "type":"d", }
+,{"id":"MB_GROUP_PA", "file":"fs/ext4/mballoc.h", "line":137, "type":"e", "scope_line":135, }
+,{"id":"MB_INODE_PA", "file":"fs/ext4/mballoc.h", "line":136, "type":"e", "scope_line":135, }
+,{"id":"MCACOD", "file":"arch/x86/kernel/cpu/mcheck/mce-severity.c", "line":59, "type":"d", }
+,{"id":"MCAST_BLOCK_SOURCE", "file":"include/linux/in.h", "line":107, "type":"d", }
+,{"id":"MCAST_DEBUG", "file":"net/ipv6/mcast.c", "line":67, "type":"d", }
+,{"id":"MCAST_EXCLUDE", "file":"include/linux/in.h", "line":115, "type":"d", }
+,{"id":"MCAST_INCLUDE", "file":"include/linux/in.h", "line":116, "type":"d", }
+,{"id":"MCAST_JOIN_GROUP", "file":"include/linux/in.h", "line":106, "type":"d", }
+,{"id":"MCAST_JOIN_SOURCE_GROUP", "file":"include/linux/in.h", "line":110, "type":"d", }
+,{"id":"MCAST_LEAVE_GROUP", "file":"include/linux/in.h", "line":109, "type":"d", }
+,{"id":"MCAST_LEAVE_SOURCE_GROUP", "file":"include/linux/in.h", "line":111, "type":"d", }
+,{"id":"MCAST_MSFILTER", "file":"include/linux/in.h", "line":112, "type":"d", }
+,{"id":"MCAST_UNBLOCK_SOURCE", "file":"include/linux/in.h", "line":108, "type":"d", }
+,{"id":"MCA_ADAPTER_DISABLED", "file":"include/linux/mca.h", "line":40, "type":"e", "scope_line":37, "scope_name":"MCA_AdapterStatus", }
+,{"id":"MCA_ADAPTER_ERROR", "file":"include/linux/mca.h", "line":41, "type":"e", "scope_line":37, "scope_name":"MCA_AdapterStatus", }
+,{"id":"MCA_ADAPTER_NONE", "file":"include/linux/mca.h", "line":39, "type":"e", "scope_line":37, "scope_name":"MCA_AdapterStatus", }
+,{"id":"MCA_ADAPTER_NORMAL", "file":"include/linux/mca.h", "line":38, "type":"e", "scope_line":37, "scope_name":"MCA_AdapterStatus", }
+,{"id":"MCA_AdapterStatus", "file":"include/linux/mca.h", "line":37, "type":"t", }
+,{"id":"MCA_ProcFn", "file":"include/linux/mca.h", "line":30, "type":"t", }
+,{"id":"MCA_bus", "file":"include/linux/mca.h", "line":16, "type":"d", }
+,{"id":"MCE_AO_SEVERITY", "file":"arch/x86/kernel/cpu/mcheck/mce-internal.h", "line":8, "type":"e", "scope_line":4, "scope_name":"severity_level", }
+,{"id":"MCE_AR_SEVERITY", "file":"arch/x86/kernel/cpu/mcheck/mce-internal.h", "line":10, "type":"e", "scope_line":4, "scope_name":"severity_level", }
+,{"id":"MCE_EXTENDED_BANK", "file":"arch/x86/include/asm/mce.h", "line":103, "type":"d", }
+,{"id":"MCE_GETCLEAR_FLAGS", "file":"arch/x86/include/asm/mce.h", "line":100, "type":"d", }
+,{"id":"MCE_GET_LOG_LEN", "file":"arch/x86/include/asm/mce.h", "line":99, "type":"d", }
+,{"id":"MCE_GET_RECORD_LEN", "file":"arch/x86/include/asm/mce.h", "line":98, "type":"d", }
+,{"id":"MCE_KEEP_SEVERITY", "file":"arch/x86/kernel/cpu/mcheck/mce-internal.h", "line":6, "type":"e", "scope_line":4, "scope_name":"severity_level", }
+,{"id":"MCE_LOG_LEN", "file":"arch/x86/include/asm/mce.h", "line":83, "type":"d", }
+,{"id":"MCE_LOG_SIGNATURE", "file":"arch/x86/include/asm/mce.h", "line":96, "type":"d", }
+,{"id":"MCE_NO_SEVERITY", "file":"arch/x86/kernel/cpu/mcheck/mce-internal.h", "line":5, "type":"e", "scope_line":4, "scope_name":"severity_level", }
+,{"id":"MCE_OVERFLOW", "file":"arch/x86/include/asm/mce.h", "line":94, "type":"d", }
+,{"id":"MCE_PANIC_SEVERITY", "file":"arch/x86/kernel/cpu/mcheck/mce-internal.h", "line":11, "type":"e", "scope_line":4, "scope_name":"severity_level", }
+,{"id":"MCE_RING_SIZE", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":387, "type":"d", }
+,{"id":"MCE_SELF_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":126, "type":"d", }
+,{"id":"MCE_SOME_SEVERITY", "file":"arch/x86/kernel/cpu/mcheck/mce-internal.h", "line":7, "type":"e", "scope_line":4, "scope_name":"severity_level", }
+,{"id":"MCE_STACK", "file":"arch/x86/include/asm/page_64_types.h", "line":21, "type":"d", }
+,{"id":"MCE_THERMAL_BANK", "file":"arch/x86/include/asm/mce.h", "line":104, "type":"d", }
+,{"id":"MCE_UC_SEVERITY", "file":"arch/x86/kernel/cpu/mcheck/mce-internal.h", "line":9, "type":"e", "scope_line":4, "scope_name":"severity_level", }
+,{"id":"MCE_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":28, "type":"d", }
+,{"id":"MCGMASK", "file":"arch/x86/kernel/cpu/mcheck/mce-severity.c", "line":53, "type":"d", }
+,{"id":"MCG_BANKCNT_MASK", "file":"arch/x86/include/asm/mce.h", "line":11, "type":"d", }
+,{"id":"MCG_CMCI_P", "file":"arch/x86/include/asm/mce.h", "line":14, "type":"d", }
+,{"id":"MCG_CTL_P", "file":"arch/x86/include/asm/mce.h", "line":12, "type":"d", }
+,{"id":"MCG_EXT_CNT", "file":"arch/x86/include/asm/mce.h", "line":17, "type":"d", }
+,{"id":"MCG_EXT_CNT_MASK", "file":"arch/x86/include/asm/mce.h", "line":15, "type":"d", }
+,{"id":"MCG_EXT_CNT_SHIFT", "file":"arch/x86/include/asm/mce.h", "line":16, "type":"d", }
+,{"id":"MCG_EXT_P", "file":"arch/x86/include/asm/mce.h", "line":13, "type":"d", }
+,{"id":"MCG_SER_P", "file":"arch/x86/include/asm/mce.h", "line":18, "type":"d", }
+,{"id":"MCG_STATUS_EIPV", "file":"arch/x86/include/asm/mce.h", "line":21, "type":"d", }
+,{"id":"MCG_STATUS_MCIP", "file":"arch/x86/include/asm/mce.h", "line":22, "type":"d", }
+,{"id":"MCG_STATUS_RIPV", "file":"arch/x86/include/asm/mce.h", "line":20, "type":"d", }
+,{"id":"MCG_XBLK_ADDR", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":49, "type":"d", }
+,{"id":"MCI_CTL2_CMCI_EN", "file":"arch/x86/include/asm/mce.h", "line":42, "type":"d", }
+,];
+xr_frag_insert('t/78/19b91bdd70595ac3920c29774dbc1f4bd916f2.xr', __xr_tmp);

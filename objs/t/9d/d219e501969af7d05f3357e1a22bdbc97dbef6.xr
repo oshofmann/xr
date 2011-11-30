@@ -1,0 +1,110 @@
+var __xr_tmp = [
+{"id":"native_apic_wait_icr_idle", "file":"arch/x86/kernel/apic/apic.c", "line":248, "type":"f", }
+,{"id":"native_calibrate_tsc", "file":"arch/x86/kernel/tsc.c", "line":401, "type":"f", }
+,{"id":"native_clts", "file":"arch/x86/include/asm/system.h", "line":208, "type":"f", }
+,{"id":"native_cpu_die", "file":"arch/x86/kernel/smpboot.c", "line":1349, "type":"f", }
+,{"id":"native_cpu_disable", "file":"arch/x86/kernel/smpboot.c", "line":1326, "type":"f", }
+,{"id":"native_cpu_up", "file":"arch/x86/kernel/smpboot.c", "line":893, "type":"f", }
+,{"id":"native_cpuid", "file":"arch/x86/include/asm/processor.h", "line":176, "type":"f", }
+,{"id":"native_flush_tlb", "file":"arch/x86/kernel/paravirt.c", "line":186, "type":"f", }
+,{"id":"native_flush_tlb_global", "file":"arch/x86/kernel/paravirt.c", "line":195, "type":"f", }
+,{"id":"native_flush_tlb_others", "file":"arch/x86/mm/tlb.c", "line":205, "type":"f", }
+,{"id":"native_flush_tlb_single", "file":"arch/x86/kernel/paravirt.c", "line":200, "type":"f", }
+,{"id":"native_format", "file":"block/compat_ioctl.c", "line":244, "type":"m", "scope_line":225, "scope_name":"struct compat_floppy_drive_params", }
+,{"id":"native_format", "file":"include/linux/fd.h", "line":178, "type":"m", "scope_line":126, "scope_name":"struct floppy_drive_params", }
+,{"id":"native_get_debugreg", "file":"arch/x86/include/asm/processor.h", "line":478, "type":"f", }
+,{"id":"native_halt", "file":"arch/x86/include/asm/irqflags.h", "line":52, "type":"f", }
+,{"id":"native_init_IRQ", "file":"arch/x86/kernel/irqinit.c", "line":235, "type":"f", }
+,{"id":"native_init_IRQ", "file":"drivers/xen/events.c", "line":1032, "type":"c", "scope_line":1016, "scope_name":"xen_init_IRQ", }
+,{"id":"native_io_delay", "file":"arch/x86/kernel/io_delay.c", "line":22, "type":"f", }
+,{"id":"native_irq_disable", "file":"arch/x86/include/asm/irqflags.h", "line":37, "type":"f", }
+,{"id":"native_irq_enable", "file":"arch/x86/include/asm/irqflags.h", "line":42, "type":"f", }
+,{"id":"native_load_gdt", "file":"arch/x86/include/asm/desc.h", "line":217, "type":"f", }
+,{"id":"native_load_idt", "file":"arch/x86/include/asm/desc.h", "line":222, "type":"f", }
+,{"id":"native_load_sp0", "file":"arch/x86/include/asm/processor.h", "line":552, "type":"f", }
+,{"id":"native_load_tls", "file":"arch/x86/include/asm/desc.h", "line":244, "type":"f", }
+,{"id":"native_load_tr_desc", "file":"arch/x86/include/asm/desc.h", "line":212, "type":"f", }
+,{"id":"native_local_ptep_get_and_clear", "file":"arch/x86/include/asm/pgtable.h", "line":516, "type":"f", }
+,{"id":"native_local_ptep_get_and_clear", "file":"arch/x86/include/asm/pgtable.h", "line":591, "type":"c", "scope_line":581, "scope_name":"ptep_get_and_clear_full", }
+,{"id":"native_machine_crash_shutdown", "file":"arch/x86/kernel/crash.c", "line":79, "type":"f", }
+,{"id":"native_machine_crash_shutdown", "file":"arch/x86/kernel/kvmclock.c", "line":173, "type":"c", "scope_line":170, "scope_name":"kvm_crash_shutdown", }
+,{"id":"native_machine_emergency_restart", "file":"arch/x86/kernel/reboot.c", "line":547, "type":"f", }
+,{"id":"native_machine_halt", "file":"arch/x86/kernel/reboot.c", "line":677, "type":"f", }
+,{"id":"native_machine_power_off", "file":"arch/x86/kernel/reboot.c", "line":688, "type":"f", }
+,{"id":"native_machine_restart", "file":"arch/x86/kernel/reboot.c", "line":668, "type":"f", }
+,{"id":"native_machine_shutdown", "file":"arch/x86/kernel/kvmclock.c", "line":180, "type":"c", "scope_line":177, "scope_name":"kvm_shutdown", }
+,{"id":"native_machine_shutdown", "file":"arch/x86/kernel/reboot.c", "line":619, "type":"f", }
+,{"id":"native_make_pgd", "file":"arch/x86/include/asm/pgtable_64.h", "line":102, "type":"c", "scope_line":100, "scope_name":"native_pgd_clear", }
+,{"id":"native_make_pgd", "file":"arch/x86/include/asm/pgtable_types.h", "line":191, "type":"f", }
+,{"id":"native_make_pgd", "file":"arch/x86/mm/pgtable.c", "line":218, "type":"c", "scope_line":208, "scope_name":"pgd_mop_up_pmds", }
+,{"id":"native_make_pgd", "file":"arch/x86/xen/mmu.c", "line":620, "type":"c", "scope_line":617, "scope_name":"xen_make_pgd", }
+,{"id":"native_make_pmd", "file":"arch/x86/include/asm/pgtable_64.h", "line":82, "type":"c", "scope_line":80, "scope_name":"native_pmd_clear", }
+,{"id":"native_make_pmd", "file":"arch/x86/include/asm/pgtable_types.h", "line":230, "type":"f", }
+,{"id":"native_make_pmd", "file":"arch/x86/xen/mmu.c", "line":713, "type":"c", "scope_line":710, "scope_name":"xen_make_pmd", }
+,{"id":"native_make_pte", "file":"arch/x86/include/asm/pgtable.h", "line":147, "type":"c", "scope_line":143, "scope_name":"pte_set_flags", }
+,{"id":"native_make_pte", "file":"arch/x86/include/asm/pgtable.h", "line":154, "type":"c", "scope_line":150, "scope_name":"pte_clear_flags", }
+,{"id":"native_make_pte", "file":"arch/x86/include/asm/pgtable_64.h", "line":49, "type":"c", "scope_line":46, "scope_name":"native_pte_clear", }
+,{"id":"native_make_pte", "file":"arch/x86/include/asm/pgtable_64.h", "line":65, "type":"c", "scope_line":62, "scope_name":"native_ptep_get_and_clear", }
+,{"id":"native_make_pte", "file":"arch/x86/include/asm/pgtable_types.h", "line":258, "type":"f", }
+,{"id":"native_make_pte", "file":"arch/x86/xen/mmu.c", "line":613, "type":"c", "scope_line":595, "scope_name":"xen_make_pte", }
+,{"id":"native_make_pud", "file":"arch/x86/include/asm/pgtable_64.h", "line":92, "type":"c", "scope_line":90, "scope_name":"native_pud_clear", }
+,{"id":"native_make_pud", "file":"arch/x86/include/asm/pgtable_types.h", "line":209, "type":"f", }
+,{"id":"native_make_pud", "file":"arch/x86/xen/mmu.c", "line":728, "type":"c", "scope_line":724, "scope_name":"xen_make_pud", }
+,{"id":"native_pagetable_setup_done", "file":"arch/x86/include/asm/pgtable_types.h", "line":304, "type":"d", }
+,{"id":"native_pagetable_setup_start", "file":"arch/x86/include/asm/pgtable_types.h", "line":303, "type":"d", }
+,{"id":"native_patch", "file":"arch/x86/kernel/paravirt_patch_64.c", "line":37, "type":"f", }
+,{"id":"native_patch", "file":"arch/x86/kernel/vsmp_64.c", "line":78, "type":"c", "scope_line":68, "scope_name":"vsmp_patch", }
+,{"id":"native_pgd_clear", "file":"arch/x86/include/asm/pgtable_64.h", "line":100, "type":"f", }
+,{"id":"native_pgd_val", "file":"arch/x86/include/asm/paravirt.h", "line":632, "type":"c", "scope_line":630, "scope_name":"set_pgd", }
+,{"id":"native_pgd_val", "file":"arch/x86/include/asm/pgtable.h", "line":482, "type":"c", "scope_line":480, "scope_name":"pgd_none", }
+,{"id":"native_pgd_val", "file":"arch/x86/include/asm/pgtable_types.h", "line":196, "type":"f", }
+,{"id":"native_pgd_val", "file":"arch/x86/include/asm/pgtable_types.h", "line":203, "type":"c", "scope_line":201, "scope_name":"pgd_flags", }
+,{"id":"native_play_dead", "file":"arch/x86/kernel/smpboot.c", "line":1386, "type":"f", }
+,{"id":"native_pmd_clear", "file":"arch/x86/include/asm/pgtable_64.h", "line":80, "type":"f", }
+,{"id":"native_pmd_val", "file":"arch/x86/include/asm/paravirt.h", "line":553, "type":"c", "scope_line":551, "scope_name":"set_pmd", }
+,{"id":"native_pmd_val", "file":"arch/x86/include/asm/pgtable.h", "line":339, "type":"c", "scope_line":335, "scope_name":"pmd_none", }
+,{"id":"native_pmd_val", "file":"arch/x86/include/asm/pgtable_types.h", "line":235, "type":"f", }
+,{"id":"native_pmd_val", "file":"arch/x86/include/asm/pgtable_types.h", "line":255, "type":"c", "scope_line":253, "scope_name":"pmd_flags", }
+,{"id":"native_pte_clear", "file":"arch/x86/include/asm/pgtable.h", "line":521, "type":"c", "scope_line":516, "scope_name":"native_local_ptep_get_and_clear", }
+,{"id":"native_pte_clear", "file":"arch/x86/include/asm/pgtable_64.h", "line":46, "type":"f", }
+,{"id":"native_pte_val", "file":"arch/x86/include/asm/pgtable.h", "line":145, "type":"c", "scope_line":143, "scope_name":"pte_set_flags", }
+,{"id":"native_pte_val", "file":"arch/x86/include/asm/pgtable.h", "line":152, "type":"c", "scope_line":150, "scope_name":"pte_clear_flags", }
+,{"id":"native_pte_val", "file":"arch/x86/include/asm/pgtable_types.h", "line":263, "type":"f", }
+,{"id":"native_pte_val", "file":"arch/x86/include/asm/pgtable_types.h", "line":270, "type":"c", "scope_line":268, "scope_name":"pte_flags", }
+,{"id":"native_ptep_get_and_clear", "file":"arch/x86/include/asm/pgtable.h", "line":575, "type":"c", "scope_line":572, "scope_name":"ptep_get_and_clear", }
+,{"id":"native_ptep_get_and_clear", "file":"arch/x86/include/asm/pgtable_64.h", "line":62, "type":"f", }
+,{"id":"native_pud_clear", "file":"arch/x86/include/asm/pgtable_64.h", "line":90, "type":"f", }
+,{"id":"native_pud_val", "file":"arch/x86/include/asm/paravirt.h", "line":592, "type":"c", "scope_line":590, "scope_name":"set_pud", }
+,{"id":"native_pud_val", "file":"arch/x86/include/asm/pgtable.h", "line":405, "type":"c", "scope_line":403, "scope_name":"pud_none", }
+,{"id":"native_pud_val", "file":"arch/x86/include/asm/pgtable_types.h", "line":214, "type":"f", }
+,{"id":"native_pud_val", "file":"arch/x86/include/asm/pgtable_types.h", "line":250, "type":"c", "scope_line":248, "scope_name":"pud_flags", }
+,{"id":"native_read_cr0", "file":"arch/x86/include/asm/system.h", "line":222, "type":"f", }
+,{"id":"native_read_cr0", "file":"arch/x86/xen/enlighten.c", "line":774, "type":"c", "scope_line":769, "scope_name":"xen_read_cr0", }
+,{"id":"native_read_cr2", "file":"arch/x86/include/asm/system.h", "line":234, "type":"f", }
+,{"id":"native_read_cr3", "file":"arch/x86/include/asm/system.h", "line":246, "type":"f", }
+,{"id":"native_read_cr3", "file":"arch/x86/include/asm/tlbflush.h", "line":20, "type":"c", "scope_line":18, "scope_name":"__native_flush_tlb", }
+,{"id":"native_read_cr4", "file":"arch/x86/include/asm/system.h", "line":258, "type":"f", }
+,{"id":"native_read_cr4", "file":"arch/x86/include/asm/system.h", "line":276, "type":"c", "scope_line":265, "scope_name":"native_read_cr4_safe", }
+,{"id":"native_read_cr4", "file":"arch/x86/include/asm/tlbflush.h", "line":35, "type":"c", "scope_line":23, "scope_name":"__native_flush_tlb_global", }
+,{"id":"native_read_cr4_safe", "file":"arch/x86/include/asm/system.h", "line":265, "type":"f", }
+,{"id":"native_read_cr8", "file":"arch/x86/include/asm/system.h", "line":287, "type":"f", }
+,{"id":"native_read_msr", "file":"arch/x86/include/asm/msr.h", "line":68, "type":"f", }
+,{"id":"native_read_msr_safe", "file":"arch/x86/include/asm/msr.h", "line":76, "type":"f", }
+,{"id":"native_read_pmc", "file":"arch/x86/include/asm/msr.h", "line":130, "type":"f", }
+,{"id":"native_read_tsc", "file":"arch/x86/kernel/pvclock.c", "line":84, "type":"c", "scope_line":82, "scope_name":"pvclock_get_nsec_offset", }
+,{"id":"native_read_tsc", "file":"arch/x86/kernel/rtc.c", "line":194, "type":"f", }
+,{"id":"native_read_tscp", "file":"arch/x86/include/asm/msr.h", "line":42, "type":"f", }
+,{"id":"native_read_tscp", "file":"arch/x86/kernel/vsyscall_64.c", "line":215, "type":"c", "scope_line":197, "scope_name":"vgetcpu", }
+,{"id":"native_read_tscp", "file":"arch/x86/vdso/vgetcpu.c", "line":23, "type":"c", "scope_line":16, "scope_name":"__vdso_getcpu", }
+,{"id":"native_restore_fl", "file":"arch/x86/include/asm/irqflags.h", "line":29, "type":"f", }
+,{"id":"native_restore_fl", "file":"arch/x86/kernel/vsmp_64.c", "line":48, "type":"c", "scope_line":42, "scope_name":"vsmp_restore_fl", }
+,{"id":"native_restore_fl", "file":"arch/x86/kernel/vsmp_64.c", "line":56, "type":"c", "scope_line":52, "scope_name":"vsmp_irq_disable", }
+,{"id":"native_restore_fl", "file":"arch/x86/kernel/vsmp_64.c", "line":64, "type":"c", "scope_line":60, "scope_name":"vsmp_irq_enable", }
+,{"id":"native_safe_apic_wait_icr_idle", "file":"arch/x86/kernel/apic/apic.c", "line":254, "type":"f", }
+,{"id":"native_safe_halt", "file":"arch/x86/include/asm/irqflags.h", "line":47, "type":"f", }
+,{"id":"native_save_fl", "file":"arch/x86/include/asm/irqflags.h", "line":11, "type":"f", }
+,{"id":"native_save_fl", "file":"arch/x86/kernel/vsmp_64.c", "line":34, "type":"c", "scope_line":32, "scope_name":"vsmp_save_fl", }
+,{"id":"native_save_fl", "file":"arch/x86/kernel/vsmp_64.c", "line":54, "type":"c", "scope_line":52, "scope_name":"vsmp_irq_disable", }
+,{"id":"native_save_fl", "file":"arch/x86/kernel/vsmp_64.c", "line":62, "type":"c", "scope_line":60, "scope_name":"vsmp_irq_enable", }
+,];
+xr_frag_insert('t/9d/d219e501969af7d05f3357e1a22bdbc97dbef6.xr', __xr_tmp);

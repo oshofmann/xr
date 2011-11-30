@@ -1,0 +1,168 @@
+var __xr_tmp = [
+{"id":"vmcore_elf_check_arch", "file":"include/linux/crash_dump.h", "line":23, "type":"d", }
+,{"id":"vmcore_elf_check_arch_cross", "file":"include/linux/crash_dump.h", "line":20, "type":"d", }
+,{"id":"vmcore_init", "file":"fs/proc/vmcore.c", "line":637, "type":"f", }
+,{"id":"vmcore_list", "file":"fs/proc/vmcore.c", "line":27, "type":"v", }
+,{"id":"vmcore_size", "file":"fs/proc/vmcore.c", "line":34, "type":"v", }
+,{"id":"vmcore_unusable", "file":"include/linux/crash_dump.h", "line":57, "type":"f", }
+,{"id":"vmcoreinfo_append_str", "file":"arch/x86/kernel/machine_kexec_64.c", "line":348, "type":"c", "scope_line":346, "scope_name":"arch_crash_save_vmcoreinfo", }
+,{"id":"vmcoreinfo_append_str", "file":"arch/x86/kernel/machine_kexec_64.c", "line":349, "type":"c", "scope_line":346, "scope_name":"arch_crash_save_vmcoreinfo", }
+,{"id":"vmcoreinfo_append_str", "file":"arch/x86/kernel/machine_kexec_64.c", "line":352, "type":"c", "scope_line":346, "scope_name":"arch_crash_save_vmcoreinfo", }
+,{"id":"vmcoreinfo_append_str", "file":"arch/x86/kernel/machine_kexec_64.c", "line":353, "type":"c", "scope_line":346, "scope_name":"arch_crash_save_vmcoreinfo", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1389, "type":"c", "scope_line":1382, "scope_name":"crash_save_vmcoreinfo", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1399, "type":"f", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1431, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1432, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1434, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1435, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1436, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1437, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1438, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1445, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1446, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1447, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1448, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1450, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1451, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1452, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1453, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1454, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1455, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1456, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1457, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1458, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1459, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1460, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1461, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1465, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1466, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1467, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1468, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1469, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1470, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1471, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1472, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1473, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1474, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1475, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1477, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1478, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1479, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1480, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/kexec.c", "line":1481, "type":"c", "scope_line":1429, "scope_name":"crash_save_vmcoreinfo_init", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/printk.c", "line":168, "type":"c", "scope_line":166, "scope_name":"log_buf_kexec_setup", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/printk.c", "line":169, "type":"c", "scope_line":166, "scope_name":"log_buf_kexec_setup", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/printk.c", "line":170, "type":"c", "scope_line":166, "scope_name":"log_buf_kexec_setup", }
+,{"id":"vmcoreinfo_append_str", "file":"kernel/printk.c", "line":171, "type":"c", "scope_line":166, "scope_name":"log_buf_kexec_setup", }
+,{"id":"vmcoreinfo_attr", "file":"kernel/ksysfs.c", "line":130, "type":"v", }
+,{"id":"vmcoreinfo_data", "file":"kernel/kexec.c", "line":47, "type":"v", }
+,{"id":"vmcoreinfo_max_size", "file":"kernel/kexec.c", "line":50, "type":"v", }
+,{"id":"vmcoreinfo_note", "file":"include/linux/kexec.h", "line":203, "type":"v", }
+,{"id":"vmcoreinfo_show", "file":"kernel/ksysfs.c", "line":123, "type":"f", }
+,{"id":"vmcoreinfo_size", "file":"include/linux/kexec.h", "line":204, "type":"v", }
+,{"id":"vmcs_field", "file":"arch/x86/include/asm/vmx.h", "line":80, "type":"t", }
+,{"id":"vmdb", "file":"fs/partitions/ldm.h", "line":136, "type":"s", }
+,{"id":"vmemmap", "file":"arch/x86/include/asm/page_64_types.h", "line":64, "type":"d", }
+,{"id":"vmemmap_alloc_block", "file":"mm/sparse-vmemmap.c", "line":117, "type":"c", "scope_line":113, "scope_name":"vmemmap_pmd_populate", }
+,{"id":"vmemmap_alloc_block", "file":"mm/sparse-vmemmap.c", "line":129, "type":"c", "scope_line":125, "scope_name":"vmemmap_pud_populate", }
+,{"id":"vmemmap_alloc_block", "file":"mm/sparse-vmemmap.c", "line":141, "type":"c", "scope_line":137, "scope_name":"vmemmap_pgd_populate", }
+,{"id":"vmemmap_alloc_block", "file":"mm/sparse-vmemmap.c", "line":50, "type":"f", }
+,{"id":"vmemmap_alloc_block", "file":"mm/sparse-vmemmap.c", "line":76, "type":"c", "scope_line":71, "scope_name":"vmemmap_alloc_block_buf", }
+,{"id":"vmemmap_alloc_block", "file":"mm/sparse-vmemmap.c", "line":81, "type":"c", "scope_line":71, "scope_name":"vmemmap_alloc_block_buf", }
+,{"id":"vmemmap_alloc_block_buf", "file":"arch/x86/mm/init_64.c", "line":981, "type":"c", "scope_line":939, "scope_name":"vmemmap_populate", }
+,{"id":"vmemmap_alloc_block_buf", "file":"mm/sparse-vmemmap.c", "line":104, "type":"c", "scope_line":99, "scope_name":"vmemmap_pte_populate", }
+,{"id":"vmemmap_alloc_block_buf", "file":"mm/sparse-vmemmap.c", "line":71, "type":"f", }
+,{"id":"vmemmap_buf", "file":"mm/sparse-vmemmap.c", "line":47, "type":"v", }
+,{"id":"vmemmap_buf_end", "file":"mm/sparse-vmemmap.c", "line":48, "type":"v", }
+,{"id":"vmemmap_pgd_populate", "file":"arch/x86/mm/init_64.c", "line":952, "type":"c", "scope_line":939, "scope_name":"vmemmap_populate", }
+,{"id":"vmemmap_pgd_populate", "file":"mm/sparse-vmemmap.c", "line":137, "type":"f", }
+,{"id":"vmemmap_pgd_populate", "file":"mm/sparse-vmemmap.c", "line":160, "type":"c", "scope_line":149, "scope_name":"vmemmap_populate_basepages", }
+,{"id":"vmemmap_pmd_populate", "file":"arch/x86/mm/init_64.c", "line":962, "type":"c", "scope_line":939, "scope_name":"vmemmap_populate", }
+,{"id":"vmemmap_pmd_populate", "file":"mm/sparse-vmemmap.c", "line":113, "type":"f", }
+,{"id":"vmemmap_pmd_populate", "file":"mm/sparse-vmemmap.c", "line":166, "type":"c", "scope_line":149, "scope_name":"vmemmap_populate_basepages", }
+,{"id":"vmemmap_populate", "file":"arch/x86/mm/init_64.c", "line":939, "type":"f", }
+,{"id":"vmemmap_populate", "file":"mm/sparse-vmemmap.c", "line":181, "type":"c", "scope_line":178, "scope_name":"sparse_mem_map_populate", }
+,{"id":"vmemmap_populate_basepages", "file":"mm/sparse-vmemmap.c", "line":149, "type":"f", }
+,{"id":"vmemmap_populate_print_last", "file":"arch/x86/mm/init_64.c", "line":1009, "type":"f", }
+,{"id":"vmemmap_populate_print_last", "file":"mm/sparse.c", "line":473, "type":"f", }
+,{"id":"vmemmap_populate_print_last", "file":"mm/sparse.c", "line":610, "type":"c", "scope_line":481, "scope_name":"sparse_init", }
+,{"id":"vmemmap_pte_populate", "file":"arch/x86/mm/init_64.c", "line":967, "type":"c", "scope_line":939, "scope_name":"vmemmap_populate", }
+,{"id":"vmemmap_pte_populate", "file":"mm/sparse-vmemmap.c", "line":169, "type":"c", "scope_line":149, "scope_name":"vmemmap_populate_basepages", }
+,{"id":"vmemmap_pte_populate", "file":"mm/sparse-vmemmap.c", "line":99, "type":"f", }
+,{"id":"vmemmap_pud_populate", "file":"arch/x86/mm/init_64.c", "line":956, "type":"c", "scope_line":939, "scope_name":"vmemmap_populate", }
+,{"id":"vmemmap_pud_populate", "file":"mm/sparse-vmemmap.c", "line":125, "type":"f", }
+,{"id":"vmemmap_pud_populate", "file":"mm/sparse-vmemmap.c", "line":163, "type":"c", "scope_line":149, "scope_name":"vmemmap_populate_basepages", }
+,{"id":"vmemmap_verify", "file":"arch/x86/mm/init_64.c", "line":1002, "type":"c", "scope_line":939, "scope_name":"vmemmap_populate", }
+,{"id":"vmemmap_verify", "file":"mm/sparse-vmemmap.c", "line":172, "type":"c", "scope_line":149, "scope_name":"vmemmap_populate_basepages", }
+,{"id":"vmemmap_verify", "file":"mm/sparse-vmemmap.c", "line":88, "type":"f", }
+,{"id":"vmi_activate", "file":"arch/x86/include/asm/vmi.h", "line":232, "type":"f", }
+,{"id":"vmi_activate", "file":"arch/x86/kernel/setup.c", "line":842, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"vmi_ap_state", "file":"arch/x86/include/asm/vmi.h", "line":237, "type":"s", }
+,{"id":"vmi_bringup", "file":"arch/x86/include/asm/vmi.h", "line":233, "type":"f", }
+,{"id":"vmi_bringup", "file":"arch/x86/kernel/smpboot.c", "line":314, "type":"c", "scope_line":295, "scope_name":"start_secondary", }
+,{"id":"vmi_init", "file":"arch/x86/include/asm/vmi.h", "line":192, "type":"m", "scope_line":175, "scope_name":"struct vrom_header", }
+,{"id":"vmi_init", "file":"arch/x86/include/asm/vmi.h", "line":231, "type":"f", }
+,{"id":"vmi_init", "file":"arch/x86/kernel/setup.c", "line":738, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"vmi_relocation_info", "file":"arch/x86/include/asm/vmi.h", "line":157, "type":"s", }
+,{"id":"vminfo", "file":"arch/x86/boot/video-vesa.c", "line":22, "type":"v", }
+,{"id":"vmlist", "file":"include/linux/vmalloc.h", "line":117, "type":"v", }
+,{"id":"vmlist_lock", "file":"mm/vmalloc.c", "line":1198, "type":"v", }
+,{"id":"vmode", "file":"include/linux/fb.h", "line":1140, "type":"m", "scope_line":1127, "scope_name":"struct fb_videomode", }
+,{"id":"vmode", "file":"include/linux/fb.h", "line":272, "type":"m", "scope_line":238, "scope_name":"struct fb_var_screeninfo", }
+,{"id":"vmsg_datalen", "file":"include/scsi/scsi_netlink.h", "line":94, "type":"m", "scope_line":90, "scope_name":"struct scsi_nl_host_vendor_msg", }
+,{"id":"vmsplice_to_pipe", "file":"fs/splice.c", "line":1630, "type":"f", }
+,{"id":"vmsplice_to_pipe", "file":"fs/splice.c", "line":1696, "type":"c", "scope_line":1680, "scope_name":"sys_vmsplice", }
+,{"id":"vmsplice_to_user", "file":"fs/splice.c", "line":1549, "type":"f", }
+,{"id":"vmsplice_to_user", "file":"fs/splice.c", "line":1698, "type":"c", "scope_line":1680, "scope_name":"sys_vmsplice", }
+,{"id":"vmstat_cpuup_callback", "file":"mm/vmstat.c", "line":1005, "type":"f", }
+,{"id":"vmstat_next", "file":"mm/vmstat.c", "line":939, "type":"f", }
+,{"id":"vmstat_notifier", "file":"mm/vmstat.c", "line":1037, "type":"v", }
+,{"id":"vmstat_op", "file":"mm/vmstat.c", "line":962, "type":"v", }
+,{"id":"vmstat_open", "file":"mm/vmstat.c", "line":969, "type":"f", }
+,{"id":"vmstat_show", "file":"mm/vmstat.c", "line":947, "type":"f", }
+,{"id":"vmstat_start", "file":"mm/vmstat.c", "line":907, "type":"f", }
+,{"id":"vmstat_stop", "file":"mm/vmstat.c", "line":956, "type":"f", }
+,{"id":"vmstat_text", "file":"mm/vmstat.c", "line":723, "type":"v", }
+,{"id":"vmstat_update", "file":"mm/vmstat.c", "line":986, "type":"f", }
+,{"id":"vmstat_work", "file":"mm/vmstat.c", "line":983, "type":"v", }
+,{"id":"vmtruncate", "file":"fs/ext3/inode.c", "line":1826, "type":"c", "scope_line":1779, "scope_name":"ext3_direct_IO", }
+,{"id":"vmtruncate", "file":"fs/ext3/inode.c", "line":3236, "type":"c", "scope_line":3177, "scope_name":"ext3_setattr", }
+,{"id":"vmtruncate", "file":"fs/ext4/inode.c", "line":3585, "type":"c", "scope_line":3534, "scope_name":"ext4_ind_direct_IO", }
+,{"id":"vmtruncate", "file":"fs/ext4/inode.c", "line":5552, "type":"c", "scope_line":5463, "scope_name":"ext4_setattr", }
+,{"id":"vmtruncate", "file":"fs/proc/base.c", "line":567, "type":"c", "scope_line":553, "scope_name":"proc_setattr", }
+,{"id":"vmtruncate", "file":"fs/proc/generic.c", "line":266, "type":"c", "scope_line":254, "scope_name":"proc_notify_change", }
+,{"id":"vmtruncate", "file":"fs/proc/proc_sysctl.c", "line":337, "type":"c", "scope_line":323, "scope_name":"proc_sys_setattr", }
+,{"id":"vmtruncate", "file":"mm/truncate.c", "line":575, "type":"f", }
+,{"id":"vmtruncate_range", "file":"mm/madvise.c", "line":217, "type":"c", "scope_line":187, "scope_name":"madvise_remove", }
+,{"id":"vmtruncate_range", "file":"mm/memory.c", "line":2592, "type":"f", }
+,{"id":"vmware_get_tsc_khz", "file":"arch/x86/kernel/cpu/vmware.c", "line":52, "type":"f", }
+,{"id":"vmware_platform", "file":"arch/x86/kernel/cpu/vmware.c", "line":93, "type":"f", }
+,{"id":"vmware_platform_setup", "file":"arch/x86/kernel/cpu/vmware.c", "line":75, "type":"f", }
+,{"id":"vmware_set_cpu_features", "file":"arch/x86/kernel/cpu/vmware.c", "line":122, "type":"f", }
+,{"id":"vmx_msr_entry", "file":"arch/x86/include/asm/vmx.h", "line":408, "type":"s", }
+,{"id":"vmxoff_nmi", "file":"arch/x86/kernel/reboot.c", "line":501, "type":"f", }
+,{"id":"vnet_hdr_sz", "file":"drivers/net/tun.c", "line":114, "type":"m", "scope_line":101, "scope_name":"struct tun_struct", }
+,{"id":"vocal1", "file":"include/linux/dvb/audio.h", "line":71, "type":"m", "scope_line":69, "scope_name":"struct audio_karaoke", }
+,{"id":"vocal2", "file":"include/linux/dvb/audio.h", "line":72, "type":"m", "scope_line":69, "scope_name":"struct audio_karaoke", }
+,{"id":"voice_setting", "file":"include/net/bluetooth/hci.h", "line":358, "type":"m", "scope_line":353, "scope_name":"struct hci_cp_setup_sync_conn", }
+,{"id":"voice_setting", "file":"include/net/bluetooth/hci.h", "line":524, "type":"m", "scope_line":522, "scope_name":"struct hci_rp_read_voice_setting", }
+,{"id":"voice_setting", "file":"include/net/bluetooth/hci.h", "line":529, "type":"m", "scope_line":528, "scope_name":"struct hci_cp_write_voice_setting", }
+,{"id":"voidp", "file":"include/linux/zconf.h", "line":55, "type":"t", }
+,{"id":"volNumber", "file":"include/linux/ncp.h", "line":150, "type":"m", "scope_line":130, "scope_name":"struct nw_info_struct", }
+,{"id":"volNumber", "file":"include/linux/ncp.h", "line":196, "type":"m", "scope_line":195, "scope_name":"struct nw_search_sequence", }
+,{"id":"volname", "file":"include/linux/blkpg.h", "line":55, "type":"m", "scope_line":49, "scope_name":"struct blkpg_partition", }
+,{"id":"voltage_max_design", "file":"include/linux/power_supply.h", "line":185, "type":"m", "scope_line":182, "scope_name":"struct power_supply_info", }
+,{"id":"voltage_min_design", "file":"include/linux/power_supply.h", "line":186, "type":"m", "scope_line":182, "scope_name":"struct power_supply_info", }
+,{"id":"voltage_now", "file":"drivers/acpi/battery.c", "line":112, "type":"m", "scope_line":103, "scope_name":"struct acpi_battery", }
+,{"id":"voltage_now", "file":"drivers/acpi/sbs.c", "line":107, "type":"m", "scope_line":87, "scope_name":"struct acpi_battery", }
+,{"id":"volu", "file":"fs/partitions/ldm.h", "line":196, "type":"m", "scope_line":185, "scope_name":"struct vblk", }
+,{"id":"volume", "file":"include/linux/soundcard.h", "line":303, "type":"m", "scope_line":221, "scope_name":"struct patch_info", }
+,{"id":"volume_left", "file":"include/linux/dvb/audio.h", "line":52, "type":"m", "scope_line":51, "scope_name":"struct audio_mixer", }
+,{"id":"volume_name", "file":"include/linux/ncp.h", "line":57, "type":"m", "scope_line":49, "scope_name":"struct ncp_volume_info", }
+,{"id":"volume_offset", "file":"fs/partitions/ldm.h", "line":164, "type":"m", "scope_line":161, "scope_name":"struct vblk_part", }
+,{"id":"volume_right", "file":"include/linux/dvb/audio.h", "line":53, "type":"m", "scope_line":51, "scope_name":"struct audio_mixer", }
+,{"id":"volume_state", "file":"fs/partitions/ldm.h", "line":172, "type":"m", "scope_line":170, "scope_name":"struct vblk_volu", }
+,{"id":"volume_type", "file":"fs/partitions/ldm.h", "line":171, "type":"m", "scope_line":170, "scope_name":"struct vblk_volu", }
+,{"id":"vp_config_changed", "file":"drivers/virtio/virtio_pci.c", "line":196, "type":"f", }
+,];
+xr_frag_insert('t/eb/bc3a6ddd5252b85483240ab5b4a861b747a1ef.xr', __xr_tmp);

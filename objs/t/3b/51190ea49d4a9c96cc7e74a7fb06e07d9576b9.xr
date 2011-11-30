@@ -1,0 +1,111 @@
+var __xr_tmp = [
+{"id":"audit_get_watch", "file":"kernel/audit_watch.c", "line":423, "type":"c", "scope_line":405, "scope_name":"audit_add_to_parent", }
+,{"id":"audit_get_watch", "file":"kernel/auditfilter.c", "line":815, "type":"c", "scope_line":750, "scope_name":"audit_dupe_rule", }
+,{"id":"audit_getname", "file":"fs/namei.c", "line":154, "type":"c", "scope_line":139, "scope_name":"getname", }
+,{"id":"audit_getname", "file":"include/linux/audit.h", "line":436, "type":"f", }
+,{"id":"audit_hash_ino", "file":"kernel/audit.h", "line":76, "type":"f", }
+,{"id":"audit_hash_ino", "file":"kernel/audit_watch.c", "line":298, "type":"c", "scope_line":256, "scope_name":"audit_update_watch", }
+,{"id":"audit_hash_ino", "file":"kernel/audit_watch.c", "line":479, "type":"c", "scope_line":439, "scope_name":"audit_add_watch", }
+,{"id":"audit_hash_ino", "file":"kernel/auditfilter.c", "line":832, "type":"c", "scope_line":824, "scope_name":"audit_find_rule", }
+,{"id":"audit_hash_ino", "file":"kernel/auditsc.c", "line":734, "type":"c", "scope_line":720, "scope_name":"audit_filter_inodes", }
+,{"id":"audit_hold_skb", "file":"kernel/audit.c", "line":366, "type":"f", }
+,{"id":"audit_hold_skb", "file":"kernel/audit.c", "line":391, "type":"c", "scope_line":379, "scope_name":"audit_printk_skb", }
+,{"id":"audit_hold_skb", "file":"kernel/audit.c", "line":406, "type":"c", "scope_line":394, "scope_name":"kauditd_send_skb", }
+,{"id":"audit_inc_name_count", "file":"kernel/auditsc.c", "line":1885, "type":"f", }
+,{"id":"audit_inc_name_count", "file":"kernel/auditsc.c", "line":1974, "type":"c", "scope_line":1955, "scope_name":"__audit_inode", }
+,{"id":"audit_inc_name_count", "file":"kernel/auditsc.c", "line":2048, "type":"c", "scope_line":1996, "scope_name":"__audit_inode_child", }
+,{"id":"audit_inc_name_count", "file":"kernel/auditsc.c", "line":2056, "type":"c", "scope_line":1996, "scope_name":"__audit_inode_child", }
+,{"id":"audit_info", "file":"net/netlabel/netlabel_cipso_v4.c", "line":58, "type":"m", "scope_line":57, "scope_name":"struct netlbl_domhsh_walk_arg", }
+,{"id":"audit_init", "file":"kernel/audit.c", "line":963, "type":"f", }
+,{"id":"audit_init_entry", "file":"kernel/auditfilter.c", "line":257, "type":"c", "scope_line":227, "scope_name":"audit_to_entry_common", }
+,{"id":"audit_init_entry", "file":"kernel/auditfilter.c", "line":758, "type":"c", "scope_line":750, "scope_name":"audit_dupe_rule", }
+,{"id":"audit_init_entry", "file":"kernel/auditfilter.c", "line":96, "type":"f", }
+,{"id":"audit_init_parent", "file":"kernel/audit_watch.c", "line":147, "type":"f", }
+,{"id":"audit_init_parent", "file":"kernel/audit_watch.c", "line":467, "type":"c", "scope_line":439, "scope_name":"audit_add_watch", }
+,{"id":"audit_init_watch", "file":"kernel/audit_watch.c", "line":171, "type":"f", }
+,{"id":"audit_init_watch", "file":"kernel/audit_watch.c", "line":202, "type":"c", "scope_line":189, "scope_name":"audit_to_watch", }
+,{"id":"audit_init_watch", "file":"kernel/audit_watch.c", "line":223, "type":"c", "scope_line":214, "scope_name":"audit_dupe_watch", }
+,{"id":"audit_initialized", "file":"kernel/audit.c", "line":69, "type":"v", }
+,{"id":"audit_inode", "file":"fs/namei.c", "line":1062, "type":"c", "scope_line":1054, "scope_name":"do_path_lookup", }
+,{"id":"audit_inode", "file":"fs/namei.c", "line":1113, "type":"c", "scope_line":1093, "scope_name":"vfs_path_lookup", }
+,{"id":"audit_inode", "file":"fs/namei.c", "line":1617, "type":"c", "scope_line":1592, "scope_name":"do_last", }
+,{"id":"audit_inode", "file":"fs/namei.c", "line":1644, "type":"c", "scope_line":1592, "scope_name":"do_last", }
+,{"id":"audit_inode", "file":"fs/namei.c", "line":1698, "type":"c", "scope_line":1592, "scope_name":"do_last", }
+,{"id":"audit_inode", "file":"fs/namei.c", "line":1791, "type":"c", "scope_line":1741, "scope_name":"do_filp_open", }
+,{"id":"audit_inode", "file":"fs/open.c", "line":451, "type":"c", "scope_line":436, "scope_name":"sys_fchmod", }
+,{"id":"audit_inode", "file":"fs/open.c", "line":616, "type":"c", "scope_line":602, "scope_name":"sys_fchown", }
+,{"id":"audit_inode", "file":"fs/xattr.c", "line":328, "type":"c", "scope_line":317, "scope_name":"sys_fsetxattr", }
+,{"id":"audit_inode", "file":"fs/xattr.c", "line":413, "type":"c", "scope_line":404, "scope_name":"sys_fgetxattr", }
+,{"id":"audit_inode", "file":"fs/xattr.c", "line":485, "type":"c", "scope_line":477, "scope_name":"sys_flistxattr", }
+,{"id":"audit_inode", "file":"fs/xattr.c", "line":555, "type":"c", "scope_line":545, "scope_name":"sys_fremovexattr", }
+,{"id":"audit_inode", "file":"include/linux/audit.h", "line":441, "type":"f", }
+,{"id":"audit_inode", "file":"ipc/mqueue.c", "line":704, "type":"c", "scope_line":672, "scope_name":"sys_mq_open", }
+,{"id":"audit_inode", "file":"ipc/mqueue.c", "line":720, "type":"c", "scope_line":672, "scope_name":"sys_mq_open", }
+,{"id":"audit_inode", "file":"ipc/mqueue.c", "line":877, "type":"c", "scope_line":839, "scope_name":"sys_mq_timedsend", }
+,{"id":"audit_inode", "file":"ipc/mqueue.c", "line":967, "type":"c", "scope_line":933, "scope_name":"sys_mq_timedreceive", }
+,{"id":"audit_inode_child", "file":"fs/namei.c", "line":1302, "type":"c", "scope_line":1294, "scope_name":"may_delete", }
+,{"id":"audit_inode_child", "file":"include/linux/audit.h", "line":445, "type":"f", }
+,{"id":"audit_inode_child", "file":"include/linux/fsnotify.h", "line":108, "type":"c", "scope_line":82, "scope_name":"fsnotify_move", }
+,{"id":"audit_inode_child", "file":"include/linux/fsnotify.h", "line":154, "type":"c", "scope_line":152, "scope_name":"fsnotify_create", }
+,{"id":"audit_inode_child", "file":"include/linux/fsnotify.h", "line":167, "type":"c", "scope_line":164, "scope_name":"fsnotify_link", }
+,{"id":"audit_inode_child", "file":"include/linux/fsnotify.h", "line":180, "type":"c", "scope_line":175, "scope_name":"fsnotify_mkdir", }
+,{"id":"audit_inode_hash", "file":"kernel/audit.h", "line":74, "type":"v", }
+,{"id":"audit_ipc_obj", "file":"include/linux/audit.h", "line":482, "type":"f", }
+,{"id":"audit_ipc_obj", "file":"ipc/shm.c", "line":756, "type":"c", "scope_line":635, "scope_name":"sys_shmctl", }
+,{"id":"audit_ipc_obj", "file":"ipc/util.c", "line":620, "type":"c", "scope_line":615, "scope_name":"ipcperms", }
+,{"id":"audit_ipc_obj", "file":"ipc/util.c", "line":796, "type":"c", "scope_line":782, "scope_name":"ipcctl_pre_down", }
+,{"id":"audit_ipc_set_perm", "file":"include/linux/audit.h", "line":492, "type":"f", }
+,{"id":"audit_ipc_set_perm", "file":"ipc/util.c", "line":798, "type":"c", "scope_line":782, "scope_name":"ipcctl_pre_down", }
+,{"id":"audit_kill_trees", "file":"kernel/audit_tree.c", "line":841, "type":"f", }
+,{"id":"audit_kill_trees", "file":"kernel/auditsc.c", "line":1549, "type":"c", "scope_line":1533, "scope_name":"audit_free", }
+,{"id":"audit_kill_trees", "file":"kernel/auditsc.c", "line":1694, "type":"c", "scope_line":1677, "scope_name":"audit_syscall_exit", }
+,{"id":"audit_killed_trees", "file":"kernel/audit_tree.c", "line":871, "type":"c", "scope_line":868, "scope_name":"evict_chunk", }
+,{"id":"audit_killed_trees", "file":"kernel/auditsc.c", "line":2522, "type":"f", }
+,{"id":"audit_krule", "file":"include/linux/audit.h", "line":380, "type":"s", }
+,{"id":"audit_krule_to_data", "file":"kernel/auditfilter.c", "line":1036, "type":"c", "scope_line":1024, "scope_name":"audit_list_rules", }
+,{"id":"audit_krule_to_data", "file":"kernel/auditfilter.c", "line":600, "type":"f", }
+,{"id":"audit_krule_to_rule", "file":"kernel/auditfilter.c", "line":1008, "type":"c", "scope_line":996, "scope_name":"audit_list", }
+,{"id":"audit_krule_to_rule", "file":"kernel/auditfilter.c", "line":571, "type":"f", }
+,{"id":"audit_list", "file":"kernel/auditfilter.c", "line":1119, "type":"c", "scope_line":1094, "scope_name":"audit_receive_filter", }
+,{"id":"audit_list", "file":"kernel/auditfilter.c", "line":996, "type":"f", }
+,{"id":"audit_list_rules", "file":"kernel/auditfilter.c", "line":1024, "type":"f", }
+,{"id":"audit_list_rules", "file":"kernel/auditfilter.c", "line":1121, "type":"c", "scope_line":1094, "scope_name":"audit_receive_filter", }
+,{"id":"audit_log", "file":"kernel/audit.c", "line":1495, "type":"f", }
+,{"id":"audit_log", "file":"kernel/audit.c", "line":985, "type":"c", "scope_line":963, "scope_name":"audit_init", }
+,{"id":"audit_log", "file":"net/core/dev.c", "line":4079, "type":"c", "scope_line":4048, "scope_name":"__dev_set_promiscuity", }
+,{"id":"audit_log", "file":"security/selinux/avc.c", "line":185, "type":"c", "scope_line":171, "scope_name":"avc_init", }
+,{"id":"audit_log", "file":"security/selinux/hooks.c", "line":4357, "type":"c", "scope_line":4341, "scope_name":"selinux_nlmsg_perm", }
+,{"id":"audit_log", "file":"security/selinux/selinuxfs.c", "line":165, "type":"c", "scope_line":136, "scope_name":"sel_write_enforce", }
+,{"id":"audit_log", "file":"security/selinux/selinuxfs.c", "line":239, "type":"c", "scope_line":209, "scope_name":"sel_write_disable", }
+,{"id":"audit_log", "file":"security/selinux/selinuxfs.c", "line":352, "type":"c", "scope_line":299, "scope_name":"sel_write_load", }
+,{"id":"audit_log", "file":"security/selinux/ss/services.c", "line":1320, "type":"c", "scope_line":1305, "scope_name":"compute_sid_handle_invalid_context", }
+,{"id":"audit_log", "file":"security/selinux/ss/services.c", "line":2349, "type":"c", "scope_line":2333, "scope_name":"security_set_bools", }
+,{"id":"audit_log", "file":"security/selinux/ss/services.c", "line":2488, "type":"c", "scope_line":2436, "scope_name":"security_sid_mls_copy", }
+,{"id":"audit_log", "file":"security/selinux/ss/services.c", "line":2851, "type":"c", "scope_line":2842, "scope_name":"selinux_audit_rule_match", }
+,{"id":"audit_log", "file":"security/selinux/ss/services.c", "line":2859, "type":"c", "scope_line":2842, "scope_name":"selinux_audit_rule_match", }
+,{"id":"audit_log", "file":"security/selinux/ss/services.c", "line":2867, "type":"c", "scope_line":2842, "scope_name":"selinux_audit_rule_match", }
+,{"id":"audit_log", "file":"security/selinux/ss/services.c", "line":709, "type":"c", "scope_line":695, "scope_name":"security_validtrans_handle_fail", }
+,{"id":"audit_log", "file":"security/selinux/ss/services.c", "line":855, "type":"c", "scope_line":798, "scope_name":"security_bounded_transition", }
+,{"id":"audit_log", "file":"security/smack/smack_lsm.c", "line":2960, "type":"c", "scope_line":2953, "scope_name":"smack_audit_rule_match", }
+,{"id":"audit_log_bprm_fcaps", "file":"include/linux/audit.h", "line":518, "type":"f", }
+,{"id":"audit_log_bprm_fcaps", "file":"security/commoncap.c", "line":514, "type":"c", "scope_line":429, "scope_name":"cap_bprm_set_creds", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1192, "type":"f", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1209, "type":"c", "scope_line":1202, "scope_name":"audit_log_fcaps", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1213, "type":"c", "scope_line":1202, "scope_name":"audit_log_fcaps", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1304, "type":"c", "scope_line":1221, "scope_name":"show_special", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1305, "type":"c", "scope_line":1221, "scope_name":"show_special", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1306, "type":"c", "scope_line":1221, "scope_name":"show_special", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1394, "type":"c", "scope_line":1312, "scope_name":"audit_log_exit", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1395, "type":"c", "scope_line":1312, "scope_name":"audit_log_exit", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1397, "type":"c", "scope_line":1312, "scope_name":"audit_log_exit", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1398, "type":"c", "scope_line":1312, "scope_name":"audit_log_exit", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1399, "type":"c", "scope_line":1312, "scope_name":"audit_log_exit", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1400, "type":"c", "scope_line":1312, "scope_name":"audit_log_exit", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1401, "type":"c", "scope_line":1312, "scope_name":"audit_log_exit", }
+,{"id":"audit_log_cap", "file":"kernel/auditsc.c", "line":1402, "type":"c", "scope_line":1312, "scope_name":"audit_log_exit", }
+,{"id":"audit_log_capset", "file":"include/linux/audit.h", "line":527, "type":"f", }
+,{"id":"audit_log_capset", "file":"kernel/capability.c", "line":283, "type":"c", "scope_line":235, "scope_name":"sys_capset", }
+,{"id":"audit_log_common_recv_msg", "file":"kernel/audit.c", "line":622, "type":"f", }
+,{"id":"audit_log_common_recv_msg", "file":"kernel/audit.c", "line":751, "type":"c", "scope_line":651, "scope_name":"audit_receive_msg", }
+,];
+xr_frag_insert('t/3b/51190ea49d4a9c96cc7e74a7fb06e07d9576b9.xr', __xr_tmp);

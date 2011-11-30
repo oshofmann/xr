@@ -1,0 +1,114 @@
+var __xr_tmp = [
+{"id":"seq_open", "file":"kernel/trace/trace_events.c", "line":752, "type":"c", "scope_line":746, "scope_name":"trace_format_open", }
+,{"id":"seq_open", "file":"kernel/trace/trace_kprobe.c", "line":1115, "type":"c", "scope_line":1109, "scope_name":"probes_open", }
+,{"id":"seq_open", "file":"kernel/trace/trace_kprobe.c", "line":1213, "type":"c", "scope_line":1211, "scope_name":"profile_open", }
+,{"id":"seq_open", "file":"kernel/trace/trace_printk.c", "line":220, "type":"c", "scope_line":217, "scope_name":"ftrace_formats_open", }
+,{"id":"seq_open", "file":"kernel/trace/trace_stat.c", "line":275, "type":"c", "scope_line":265, "scope_name":"tracing_stat_open", }
+,{"id":"seq_open", "file":"mm/slab.c", "line":4387, "type":"c", "scope_line":4385, "scope_name":"slabinfo_open", }
+,{"id":"seq_open", "file":"mm/swapfile.c", "line":1774, "type":"c", "scope_line":1772, "scope_name":"swaps_open", }
+,{"id":"seq_open", "file":"mm/vmalloc.c", "line":2449, "type":"c", "scope_line":2439, "scope_name":"vmalloc_open", }
+,{"id":"seq_open", "file":"mm/vmstat.c", "line":673, "type":"c", "scope_line":671, "scope_name":"fragmentation_open", }
+,{"id":"seq_open", "file":"mm/vmstat.c", "line":692, "type":"c", "scope_line":690, "scope_name":"pagetypeinfo_open", }
+,{"id":"seq_open", "file":"mm/vmstat.c", "line":897, "type":"c", "scope_line":895, "scope_name":"zoneinfo_open", }
+,{"id":"seq_open", "file":"mm/vmstat.c", "line":971, "type":"c", "scope_line":969, "scope_name":"vmstat_open", }
+,{"id":"seq_open", "file":"net/core/dev.c", "line":3837, "type":"c", "scope_line":3835, "scope_name":"softnet_seq_open", }
+,{"id":"seq_open", "file":"net/core/neighbour.c", "line":2504, "type":"c", "scope_line":2502, "scope_name":"neigh_stat_seq_open", }
+,{"id":"seq_open", "file":"net/ipv4/route.c", "line":502, "type":"c", "scope_line":500, "scope_name":"rt_cpu_seq_open", }
+,{"id":"seq_open", "file":"net/netfilter/nf_log.c", "line":197, "type":"c", "scope_line":195, "scope_name":"nflog_open", }
+,{"id":"seq_open", "file":"net/netfilter/nf_queue.c", "line":337, "type":"c", "scope_line":335, "scope_name":"nfqueue_open", }
+,{"id":"seq_open", "file":"security/keys/proc.c", "line":302, "type":"c", "scope_line":300, "scope_name":"proc_key_users_open", }
+,{"id":"seq_open", "file":"security/selinux/selinuxfs.c", "line":1203, "type":"c", "scope_line":1201, "scope_name":"sel_open_avc_cache_stats", }
+,{"id":"seq_open", "file":"security/smack/smackfs.c", "line":207, "type":"c", "scope_line":205, "scope_name":"smk_open_load", }
+,{"id":"seq_open", "file":"security/smack/smackfs.c", "line":524, "type":"c", "scope_line":522, "scope_name":"smk_open_cipso", }
+,{"id":"seq_open", "file":"security/smack/smackfs.c", "line":718, "type":"c", "scope_line":716, "scope_name":"smk_open_netlbladdr", }
+,{"id":"seq_open_net", "file":"fs/proc/proc_net.c", "line":35, "type":"f", }
+,{"id":"seq_open_net", "file":"net/core/dev.c", "line":3816, "type":"c", "scope_line":3814, "scope_name":"dev_seq_open", }
+,{"id":"seq_open_net", "file":"net/core/dev.c", "line":3940, "type":"c", "scope_line":3938, "scope_name":"ptype_seq_open", }
+,{"id":"seq_open_net", "file":"net/core/dev_addr_lists.c", "line":706, "type":"c", "scope_line":704, "scope_name":"dev_mc_seq_open", }
+,{"id":"seq_open_net", "file":"net/core/sock.c", "line":2506, "type":"c", "scope_line":2504, "scope_name":"proto_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv4/arp.c", "line":1419, "type":"c", "scope_line":1417, "scope_name":"arp_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv4/fib_hash.c", "line":1047, "type":"c", "scope_line":1045, "scope_name":"fib_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv4/igmp.c", "line":2489, "type":"c", "scope_line":2487, "scope_name":"igmp_mc_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv4/igmp.c", "line":2649, "type":"c", "scope_line":2647, "scope_name":"igmp_mcf_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv4/ipmr.c", "line":2185, "type":"c", "scope_line":2183, "scope_name":"ipmr_vif_open", }
+,{"id":"seq_open_net", "file":"net/ipv4/ipmr.c", "line":2353, "type":"c", "scope_line":2351, "scope_name":"ipmr_mfc_open", }
+,{"id":"seq_open_net", "file":"net/ipv4/raw.c", "line":984, "type":"c", "scope_line":978, "scope_name":"raw_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv4/route.c", "line":410, "type":"c", "scope_line":408, "scope_name":"rt_cache_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv4/tcp_ipv4.c", "line":2342, "type":"c", "scope_line":2336, "scope_name":"tcp_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv4/udp.c", "line":1998, "type":"c", "scope_line":1992, "scope_name":"udp_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv6/addrconf.c", "line":3099, "type":"c", "scope_line":3097, "scope_name":"if6_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv6/anycast.c", "line":524, "type":"c", "scope_line":522, "scope_name":"ac6_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv6/ip6_flowlabel.c", "line":728, "type":"c", "scope_line":726, "scope_name":"ip6fl_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv6/mcast.c", "line":2418, "type":"c", "scope_line":2416, "scope_name":"igmp6_mc_seq_open", }
+,{"id":"seq_open_net", "file":"net/ipv6/mcast.c", "line":2577, "type":"c", "scope_line":2575, "scope_name":"igmp6_mcf_seq_open", }
+,{"id":"seq_open_net", "file":"net/netlink/af_netlink.c", "line":2036, "type":"c", "scope_line":2034, "scope_name":"netlink_seq_open", }
+,{"id":"seq_open_net", "file":"net/packet/af_packet.c", "line":2663, "type":"c", "scope_line":2661, "scope_name":"packet_seq_open", }
+,{"id":"seq_open_net", "file":"net/unix/af_unix.c", "line":2239, "type":"c", "scope_line":2237, "scope_name":"unix_seq_open", }
+,{"id":"seq_open_net", "file":"net/wireless/wext-proc.c", "line":131, "type":"c", "scope_line":129, "scope_name":"seq_open_wireless", }
+,{"id":"seq_open_private", "file":"fs/seq_file.c", "line":617, "type":"f", }
+,{"id":"seq_open_wireless", "file":"net/wireless/wext-proc.c", "line":129, "type":"f", }
+,{"id":"seq_operations", "file":"include/linux/seq_file.h", "line":29, "type":"s", }
+,{"id":"seq_ops", "file":"include/net/tcp.h", "line":1377, "type":"m", "scope_line":1373, "scope_name":"struct tcp_seq_afinfo", }
+,{"id":"seq_ops", "file":"include/net/udp.h", "line":224, "type":"m", "scope_line":219, "scope_name":"struct udp_seq_afinfo", }
+,{"id":"seq_path", "file":"fs/namespace.c", "line":852, "type":"c", "scope_line":844, "scope_name":"show_vfsmnt", }
+,{"id":"seq_path", "file":"fs/namespace.c", "line":950, "type":"c", "scope_line":935, "scope_name":"show_vfsstat", }
+,{"id":"seq_path", "file":"fs/proc/task_mmu.c", "line":246, "type":"c", "scope_line":206, "scope_name":"show_map_vma", }
+,{"id":"seq_path", "file":"fs/seq_file.c", "line":430, "type":"f", }
+,{"id":"seq_path", "file":"mm/mempolicy.c", "line":2623, "type":"c", "scope_line":2597, "scope_name":"show_numa_map", }
+,{"id":"seq_path", "file":"mm/swapfile.c", "line":1754, "type":"c", "scope_line":1742, "scope_name":"swap_show", }
+,{"id":"seq_path_root", "file":"fs/namespace.c", "line":887, "type":"c", "scope_line":874, "scope_name":"show_mountinfo", }
+,{"id":"seq_path_root", "file":"fs/seq_file.c", "line":455, "type":"f", }
+,{"id":"seq_print_ip_sym", "file":"kernel/trace/trace.c", "line":1818, "type":"c", "scope_line":1749, "scope_name":"print_trace_header", }
+,{"id":"seq_print_ip_sym", "file":"kernel/trace/trace.c", "line":1821, "type":"c", "scope_line":1749, "scope_name":"print_trace_header", }
+,{"id":"seq_print_ip_sym", "file":"kernel/trace/trace_kprobe.c", "line":1353, "type":"c", "scope_line":1337, "scope_name":"print_kprobe_event", }
+,{"id":"seq_print_ip_sym", "file":"kernel/trace/trace_kprobe.c", "line":1389, "type":"c", "scope_line":1373, "scope_name":"print_kretprobe_event", }
+,{"id":"seq_print_ip_sym", "file":"kernel/trace/trace_kprobe.c", "line":1395, "type":"c", "scope_line":1373, "scope_name":"print_kretprobe_event", }
+,{"id":"seq_print_ip_sym", "file":"kernel/trace/trace_output.c", "line":1088, "type":"c", "scope_line":1071, "scope_name":"trace_stack_print", }
+,{"id":"seq_print_ip_sym", "file":"kernel/trace/trace_output.c", "line":1150, "type":"c", "scope_line":1140, "scope_name":"trace_bprint_print", }
+,{"id":"seq_print_ip_sym", "file":"kernel/trace/trace_output.c", "line":1206, "type":"c", "scope_line":1198, "scope_name":"trace_print_print", }
+,{"id":"seq_print_ip_sym", "file":"kernel/trace/trace_output.c", "line":505, "type":"f", }
+,{"id":"seq_print_ip_sym", "file":"kernel/trace/trace_output.c", "line":841, "type":"c", "scope_line":833, "scope_name":"trace_fn_trace", }
+,{"id":"seq_print_ip_sym", "file":"kernel/trace/trace_output.c", "line":847, "type":"c", "scope_line":833, "scope_name":"trace_fn_trace", }
+,{"id":"seq_print_sym_offset", "file":"kernel/trace/trace_output.c", "line":404, "type":"f", }
+,{"id":"seq_print_sym_offset", "file":"kernel/trace/trace_output.c", "line":514, "type":"c", "scope_line":505, "scope_name":"seq_print_ip_sym", }
+,{"id":"seq_print_sym_short", "file":"kernel/trace/trace_output.c", "line":388, "type":"f", }
+,{"id":"seq_print_sym_short", "file":"kernel/trace/trace_output.c", "line":516, "type":"c", "scope_line":505, "scope_name":"seq_print_ip_sym", }
+,{"id":"seq_print_user_ip", "file":"kernel/trace/trace_output.c", "line":426, "type":"f", }
+,{"id":"seq_print_user_ip", "file":"kernel/trace/trace_output.c", "line":496, "type":"c", "scope_line":458, "scope_name":"seq_print_userip_objs", }
+,{"id":"seq_print_userip_objs", "file":"kernel/trace/trace_output.c", "line":1121, "type":"c", "scope_line":1110, "scope_name":"trace_user_stack_print", }
+,{"id":"seq_print_userip_objs", "file":"kernel/trace/trace_output.c", "line":458, "type":"f", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/mcheck/mce-severity.c", "line":164, "type":"c", "scope_line":161, "scope_name":"s_show", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/mtrr/if.c", "line":426, "type":"c", "scope_line":402, "scope_name":"mtrr_seq_show", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":100, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":105, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":108, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":110, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":116, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":118, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":119, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":120, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":123, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":128, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":132, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":136, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":15, "type":"c", "scope_line":10, "scope_name":"show_cpuinfo_core", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":16, "type":"c", "scope_line":10, "scope_name":"show_cpuinfo_core", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":18, "type":"c", "scope_line":10, "scope_name":"show_cpuinfo_core", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":19, "type":"c", "scope_line":10, "scope_name":"show_cpuinfo_core", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":20, "type":"c", "scope_line":10, "scope_name":"show_cpuinfo_core", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":21, "type":"c", "scope_line":10, "scope_name":"show_cpuinfo_core", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":55, "type":"c", "scope_line":53, "scope_name":"show_cpuinfo_misc", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":73, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":85, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":87, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/cpu/proc.c", "line":94, "type":"c", "scope_line":64, "scope_name":"show_cpuinfo", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/irq.c", "line":102, "type":"c", "scope_line":48, "scope_name":"show_other_interrupts", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/irq.c", "line":104, "type":"c", "scope_line":48, "scope_name":"show_other_interrupts", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/irq.c", "line":105, "type":"c", "scope_line":48, "scope_name":"show_other_interrupts", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/irq.c", "line":108, "type":"c", "scope_line":48, "scope_name":"show_other_interrupts", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/irq.c", "line":110, "type":"c", "scope_line":48, "scope_name":"show_other_interrupts", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/irq.c", "line":111, "type":"c", "scope_line":48, "scope_name":"show_other_interrupts", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/irq.c", "line":112, "type":"c", "scope_line":48, "scope_name":"show_other_interrupts", }
+,{"id":"seq_printf", "file":"arch/x86/kernel/irq.c", "line":114, "type":"c", "scope_line":48, "scope_name":"show_other_interrupts", }
+,];
+xr_frag_insert('t/bc/4829dd939bf959fac8c336c2194221e5709d79.xr', __xr_tmp);

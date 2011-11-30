@@ -1,0 +1,119 @@
+var __xr_tmp = [
+{"id":"pm_runtime_get_sync", "file":"drivers/scsi/scsi_pm.c", "line":163, "type":"c", "scope_line":161, "scope_name":"scsi_autopm_get_target", }
+,{"id":"pm_runtime_get_sync", "file":"drivers/scsi/scsi_pm.c", "line":175, "type":"c", "scope_line":171, "scope_name":"scsi_autopm_get_host", }
+,{"id":"pm_runtime_get_sync", "file":"include/linux/pm_runtime.h", "line":113, "type":"f", }
+,{"id":"pm_runtime_idle", "file":"drivers/base/power/runtime.c", "line":114, "type":"f", }
+,{"id":"pm_runtime_idle", "file":"drivers/base/power/runtime.c", "line":816, "type":"c", "scope_line":811, "scope_name":"__pm_runtime_put", }
+,{"id":"pm_runtime_init", "file":"drivers/base/power/main.c", "line":64, "type":"c", "scope_line":58, "scope_name":"device_pm_init", }
+,{"id":"pm_runtime_init", "file":"drivers/base/power/runtime.c", "line":1100, "type":"f", }
+,{"id":"pm_runtime_put", "file":"drivers/base/power/runtime.c", "line":469, "type":"c", "scope_line":341, "scope_name":"__pm_runtime_resume", }
+,{"id":"pm_runtime_put", "file":"include/linux/pm_runtime.h", "line":118, "type":"f", }
+,{"id":"pm_runtime_put_noidle", "file":"drivers/base/power/runtime.c", "line":1022, "type":"c", "scope_line":998, "scope_name":"__pm_runtime_disable", }
+,{"id":"pm_runtime_put_noidle", "file":"drivers/base/power/runtime.c", "line":978, "type":"c", "scope_line":962, "scope_name":"pm_runtime_barrier", }
+,{"id":"pm_runtime_put_noidle", "file":"drivers/pci/pci-driver.c", "line":309, "type":"c", "scope_line":289, "scope_name":"local_pci_probe", }
+,{"id":"pm_runtime_put_noidle", "file":"drivers/pci/pci-driver.c", "line":393, "type":"c", "scope_line":384, "scope_name":"pci_device_remove", }
+,{"id":"pm_runtime_put_noidle", "file":"drivers/pci/pci-driver.c", "line":401, "type":"c", "scope_line":384, "scope_name":"pci_device_remove", }
+,{"id":"pm_runtime_put_noidle", "file":"include/linux/pm_runtime.h", "line":53, "type":"f", }
+,{"id":"pm_runtime_put_sync", "file":"drivers/base/dd.c", "line":213, "type":"c", "scope_line":200, "scope_name":"driver_probe_device", }
+,{"id":"pm_runtime_put_sync", "file":"drivers/base/dd.c", "line":258, "type":"c", "scope_line":242, "scope_name":"device_attach", }
+,{"id":"pm_runtime_put_sync", "file":"drivers/base/dd.c", "line":341, "type":"c", "scope_line":313, "scope_name":"__device_release_driver", }
+,{"id":"pm_runtime_put_sync", "file":"drivers/base/power/main.c", "line":1027, "type":"c", "scope_line":1009, "scope_name":"dpm_prepare", }
+,{"id":"pm_runtime_put_sync", "file":"drivers/base/power/main.c", "line":692, "type":"c", "scope_line":676, "scope_name":"dpm_complete", }
+,{"id":"pm_runtime_put_sync", "file":"drivers/scsi/scsi_pm.c", "line":148, "type":"c", "scope_line":142, "scope_name":"scsi_autopm_get_device", }
+,{"id":"pm_runtime_put_sync", "file":"drivers/scsi/scsi_pm.c", "line":157, "type":"c", "scope_line":155, "scope_name":"scsi_autopm_put_device", }
+,{"id":"pm_runtime_put_sync", "file":"drivers/scsi/scsi_pm.c", "line":168, "type":"c", "scope_line":166, "scope_name":"scsi_autopm_put_target", }
+,{"id":"pm_runtime_put_sync", "file":"drivers/scsi/scsi_pm.c", "line":177, "type":"c", "scope_line":171, "scope_name":"scsi_autopm_get_host", }
+,{"id":"pm_runtime_put_sync", "file":"drivers/scsi/scsi_pm.c", "line":185, "type":"c", "scope_line":183, "scope_name":"scsi_autopm_put_host", }
+,{"id":"pm_runtime_put_sync", "file":"include/linux/pm_runtime.h", "line":123, "type":"f", }
+,{"id":"pm_runtime_remove", "file":"drivers/base/power/main.c", "line":123, "type":"c", "scope_line":114, "scope_name":"device_pm_remove", }
+,{"id":"pm_runtime_remove", "file":"drivers/base/power/runtime.c", "line":1133, "type":"f", }
+,{"id":"pm_runtime_resume", "file":"drivers/base/power/runtime.c", "line":483, "type":"f", }
+,{"id":"pm_runtime_resume", "file":"drivers/base/power/runtime.c", "line":796, "type":"c", "scope_line":791, "scope_name":"__pm_runtime_get", }
+,{"id":"pm_runtime_resume", "file":"drivers/pci/pci-acpi.c", "line":50, "type":"c", "scope_line":44, "scope_name":"pci_acpi_wake_dev", }
+,{"id":"pm_runtime_resume", "file":"drivers/pci/pci-driver.c", "line":626, "type":"c", "scope_line":612, "scope_name":"pci_pm_prepare", }
+,{"id":"pm_runtime_set_active", "file":"drivers/base/power/generic_ops.c", "line":190, "type":"c", "scope_line":163, "scope_name":"__pm_generic_resume", }
+,{"id":"pm_runtime_set_active", "file":"drivers/i2c/i2c-core.c", "line":276, "type":"c", "scope_line":264, "scope_name":"i2c_device_pm_restore", }
+,{"id":"pm_runtime_set_active", "file":"drivers/pci/pci-driver.c", "line":302, "type":"c", "scope_line":289, "scope_name":"local_pci_probe", }
+,{"id":"pm_runtime_set_active", "file":"drivers/scsi/hosts.c", "line":227, "type":"c", "scope_line":200, "scope_name":"scsi_add_host_with_dma", }
+,{"id":"pm_runtime_set_active", "file":"drivers/scsi/scsi_pm.c", "line":65, "type":"c", "scope_line":56, "scope_name":"scsi_bus_resume_common", }
+,{"id":"pm_runtime_set_active", "file":"drivers/scsi/scsi_sysfs.c", "line":816, "type":"c", "scope_line":801, "scope_name":"scsi_target_add", }
+,{"id":"pm_runtime_set_active", "file":"drivers/scsi/scsi_sysfs.c", "line":852, "type":"c", "scope_line":834, "scope_name":"scsi_sysfs_add_sdev", }
+,{"id":"pm_runtime_set_active", "file":"include/linux/pm_runtime.h", "line":128, "type":"f", }
+,{"id":"pm_runtime_set_suspended", "file":"drivers/base/power/runtime.c", "line":1139, "type":"c", "scope_line":1133, "scope_name":"pm_runtime_remove", }
+,{"id":"pm_runtime_set_suspended", "file":"drivers/pci/pci-driver.c", "line":308, "type":"c", "scope_line":289, "scope_name":"local_pci_probe", }
+,{"id":"pm_runtime_set_suspended", "file":"drivers/pci/pci-driver.c", "line":400, "type":"c", "scope_line":384, "scope_name":"pci_device_remove", }
+,{"id":"pm_runtime_set_suspended", "file":"include/linux/pm_runtime.h", "line":133, "type":"f", }
+,{"id":"pm_runtime_suspend", "file":"drivers/base/power/generic_ops.c", "line":31, "type":"c", "scope_line":21, "scope_name":"pm_generic_runtime_idle", }
+,{"id":"pm_runtime_suspend", "file":"drivers/base/power/runtime.c", "line":316, "type":"f", }
+,{"id":"pm_runtime_suspend", "file":"drivers/pci/pci-driver.c", "line":1048, "type":"c", "scope_line":1035, "scope_name":"pci_pm_runtime_idle", }
+,{"id":"pm_runtime_suspend", "file":"drivers/scsi/scsi_pm.c", "line":138, "type":"c", "scope_line":127, "scope_name":"scsi_runtime_idle", }
+,{"id":"pm_runtime_suspended", "file":"drivers/base/power/generic_ops.c", "line":90, "type":"c", "scope_line":85, "scope_name":"__pm_generic_call", }
+,{"id":"pm_runtime_suspended", "file":"drivers/i2c/i2c-core.c", "line":200, "type":"c", "scope_line":195, "scope_name":"i2c_device_pm_suspend", }
+,{"id":"pm_runtime_suspended", "file":"drivers/i2c/i2c-core.c", "line":227, "type":"c", "scope_line":222, "scope_name":"i2c_device_pm_freeze", }
+,{"id":"pm_runtime_suspended", "file":"drivers/i2c/i2c-core.c", "line":241, "type":"c", "scope_line":236, "scope_name":"i2c_device_pm_thaw", }
+,{"id":"pm_runtime_suspended", "file":"drivers/i2c/i2c-core.c", "line":255, "type":"c", "scope_line":250, "scope_name":"i2c_device_pm_poweroff", }
+,{"id":"pm_runtime_suspended", "file":"include/linux/pm_runtime.h", "line":68, "type":"f", }
+,{"id":"pm_runtime_work", "file":"drivers/base/power/runtime.c", "line":502, "type":"f", }
+,{"id":"pm_save_wakeup_count", "file":"drivers/base/power/wakeup.c", "line":235, "type":"f", }
+,{"id":"pm_save_wakeup_count", "file":"kernel/power/main.c", "line":252, "type":"c", "scope_line":245, "scope_name":"wakeup_count_store", }
+,{"id":"pm_schedule_suspend", "file":"drivers/base/power/runtime.c", "line":670, "type":"f", }
+,{"id":"pm_schedule_suspend", "file":"drivers/scsi/scsi_pm.c", "line":105, "type":"c", "scope_line":97, "scope_name":"scsi_runtime_suspend", }
+,{"id":"pm_schedule_suspend", "file":"drivers/scsi/scsi_pm.c", "line":136, "type":"c", "scope_line":127, "scope_name":"scsi_runtime_idle", }
+,{"id":"pm_set_vt_switch", "file":"drivers/char/vt_ioctl.c", "line":1781, "type":"f", }
+,{"id":"pm_start_workqueue", "file":"kernel/power/main.c", "line":309, "type":"f", }
+,{"id":"pm_start_workqueue", "file":"kernel/power/main.c", "line":321, "type":"c", "scope_line":319, "scope_name":"pm_init", }
+,{"id":"pm_state", "file":"include/linux/blkdev.h", "line":179, "type":"m", "scope_line":174, "scope_name":"struct request_pm_state", }
+,{"id":"pm_state", "file":"include/linux/pnp.h", "line":230, "type":"m", "scope_line":226, "scope_name":"struct pnp_card_link", }
+,{"id":"pm_state", "file":"include/linux/serial_core.h", "line":369, "type":"m", "scope_line":366, "scope_name":"struct uart_state", }
+,{"id":"pm_states", "file":"kernel/power/suspend.c", "line":28, "type":"v", }
+,{"id":"pm_stay_awake", "file":"drivers/base/power/wakeup.c", "line":74, "type":"f", }
+,{"id":"pm_step", "file":"include/linux/blkdev.h", "line":177, "type":"m", "scope_line":174, "scope_name":"struct request_pm_state", }
+,{"id":"pm_suspend", "file":"drivers/acpi/sleep.c", "line":559, "type":"c", "scope_line":550, "scope_name":"acpi_suspend", }
+,{"id":"pm_suspend", "file":"kernel/power/suspend.c", "line":305, "type":"f", }
+,{"id":"pm_suspend", "file":"kernel/power/suspend_test.c", "line":102, "type":"c", "scope_line":61, "scope_name":"test_wakealarm", }
+,{"id":"pm_suspend", "file":"kernel/power/suspend_test.c", "line":96, "type":"c", "scope_line":61, "scope_name":"test_wakealarm", }
+,{"id":"pm_suspend_ignore_children", "file":"drivers/base/power/runtime.c", "line":1113, "type":"c", "scope_line":1100, "scope_name":"pm_runtime_init", }
+,{"id":"pm_suspend_ignore_children", "file":"include/linux/pm_runtime.h", "line":43, "type":"f", }
+,{"id":"pm_suspend_timer_fn", "file":"drivers/base/power/runtime.c", "line":647, "type":"f", }
+,{"id":"pm_sysrq_init", "file":"kernel/power/poweroff.c", "line":40, "type":"f", }
+,{"id":"pm_test_attr", "file":"kernel/power/main.c", "line":133, "type":"v", }
+,{"id":"pm_test_level", "file":"kernel/power/main.c", "line":74, "type":"v", }
+,{"id":"pm_test_show", "file":"kernel/power/main.c", "line":85, "type":"f", }
+,{"id":"pm_test_store", "file":"kernel/power/main.c", "line":106, "type":"f", }
+,{"id":"pm_tests", "file":"kernel/power/main.c", "line":76, "type":"v", }
+,{"id":"pm_timer_block", "file":"include/acpi/actbl.h", "line":222, "type":"m", "scope_line":205, "scope_name":"struct acpi_table_fadt", }
+,{"id":"pm_timer_length", "file":"include/acpi/actbl.h", "line":228, "type":"m", "scope_line":205, "scope_name":"struct acpi_table_fadt", }
+,{"id":"pm_trace_attr", "file":"kernel/power/main.c", "line":283, "type":"v", }
+,{"id":"pm_trace_enabled", "file":"include/linux/resume-trace.h", "line":7, "type":"v", }
+,{"id":"pm_trace_is_enabled", "file":"drivers/base/power/main.c", "line":583, "type":"c", "scope_line":581, "scope_name":"is_async", }
+,{"id":"pm_trace_is_enabled", "file":"include/linux/resume-trace.h", "line":9, "type":"f", }
+,{"id":"pm_trace_show", "file":"kernel/power/main.c", "line":264, "type":"f", }
+,{"id":"pm_trace_store", "file":"kernel/power/main.c", "line":270, "type":"f", }
+,{"id":"pm_transition", "file":"drivers/base/power/main.c", "line":46, "type":"v", }
+,{"id":"pm_usage_cnt", "file":"include/linux/usb.h", "line":185, "type":"m", "scope_line":158, "scope_name":"struct usb_interface", }
+,{"id":"pm_verb", "file":"drivers/base/power/main.c", "line":369, "type":"f", }
+,{"id":"pm_verb", "file":"drivers/base/power/main.c", "line":403, "type":"c", "scope_line":400, "scope_name":"pm_dev_err", }
+,{"id":"pm_verb", "file":"drivers/base/power/main.c", "line":419, "type":"c", "scope_line":407, "scope_name":"dpm_show_time", }
+,{"id":"pm_wakeup_event", "file":"drivers/base/power/wakeup.c", "line":144, "type":"f", }
+,{"id":"pm_wakeup_event", "file":"drivers/pci/pci.c", "line":1291, "type":"c", "scope_line":1288, "scope_name":"pci_wakeup_event", }
+,{"id":"pm_wakeup_timer_fn", "file":"drivers/base/power/wakeup.c", "line":116, "type":"f", }
+,{"id":"pm_wq", "file":"kernel/power/main.c", "line":306, "type":"v", }
+,{"id":"pmbr_part_valid", "file":"fs/partitions/efi.c", "line":151, "type":"f", }
+,{"id":"pmbr_part_valid", "file":"fs/partitions/efi.c", "line":176, "type":"c", "scope_line":169, "scope_name":"is_pmbr_valid", }
+,{"id":"pmc_irq_entry", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1624, "type":"v", }
+,{"id":"pmc_nmi_entry", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1625, "type":"v", }
+,{"id":"pmc_prev_left", "file":"arch/x86/kernel/cpu/perf_event.c", "line":880, "type":"v", }
+,{"id":"pmc_reserve_mutex", "file":"arch/x86/kernel/cpu/perf_event.c", "line":325, "type":"v", }
+,{"id":"pmd", "file":"arch/x86/include/asm/kexec.h", "line":161, "type":"m", "scope_line":159, "scope_name":"struct kimage_arch", }
+,{"id":"pmd", "file":"arch/x86/include/asm/pgtable_types.h", "line":228, "type":"m", "scope_line":228, "scope_name":"pmd_t", }
+,{"id":"pmd_ERROR", "file":"arch/x86/include/asm/pgtable_64.h", "line":31, "type":"d", }
+,{"id":"pmd_addr_end", "file":"include/asm-generic/pgtable.h", "line":159, "type":"d", }
+,{"id":"pmd_alloc", "file":"arch/x86/mm/hugetlbpage.c", "line":146, "type":"c", "scope_line":130, "scope_name":"huge_pte_alloc", }
+,{"id":"pmd_alloc", "file":"include/linux/mm.h", "line":1062, "type":"f", }
+,{"id":"pmd_alloc", "file":"lib/ioremap.c", "line":40, "type":"c", "scope_line":33, "scope_name":"ioremap_pmd_range", }
+,{"id":"pmd_alloc", "file":"mm/memory.c", "line":1599, "type":"c", "scope_line":1593, "scope_name":"get_locked_pte", }
+,{"id":"pmd_alloc", "file":"mm/memory.c", "line":1817, "type":"c", "scope_line":1809, "scope_name":"remap_pmd_range", }
+,{"id":"pmd_alloc", "file":"mm/memory.c", "line":1968, "type":"c", "scope_line":1958, "scope_name":"apply_to_pmd_range", }
+,{"id":"pmd_alloc", "file":"mm/memory.c", "line":3220, "type":"c", "scope_line":3198, "scope_name":"handle_mm_fault", }
+,];
+xr_frag_insert('t/1d/125c7af0f18c7598a445c721b18e36611e4672.xr', __xr_tmp);

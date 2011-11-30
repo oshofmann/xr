@@ -1,0 +1,146 @@
+var __xr_tmp = [
+{"id":"NFSCTL_ADDCLIENT", "file":"include/linux/nfsd/syscall.h", "line":24, "type":"d", }
+,{"id":"NFSCTL_DELCLIENT", "file":"include/linux/nfsd/syscall.h", "line":25, "type":"d", }
+,{"id":"NFSCTL_EXPORT", "file":"include/linux/nfsd/syscall.h", "line":26, "type":"d", }
+,{"id":"NFSCTL_GETFD", "file":"include/linux/nfsd/syscall.h", "line":30, "type":"d", }
+,{"id":"NFSCTL_GETFS", "file":"include/linux/nfsd/syscall.h", "line":31, "type":"d", }
+,{"id":"NFSCTL_SVC", "file":"include/linux/nfsd/syscall.h", "line":23, "type":"d", }
+,{"id":"NFSCTL_UNEXPORT", "file":"include/linux/nfsd/syscall.h", "line":27, "type":"d", }
+,{"id":"NFSCTL_VERSION", "file":"include/linux/nfsd/syscall.h", "line":18, "type":"d", }
+,{"id":"NFSDBG_ALL", "file":"include/linux/nfs_fs.h", "line":616, "type":"d", }
+,{"id":"NFSDBG_CALLBACK", "file":"include/linux/nfs_fs.h", "line":612, "type":"d", }
+,{"id":"NFSDBG_CLIENT", "file":"include/linux/nfs_fs.h", "line":613, "type":"d", }
+,{"id":"NFSDBG_DIRCACHE", "file":"include/linux/nfs_fs.h", "line":605, "type":"d", }
+,{"id":"NFSDBG_FILE", "file":"include/linux/nfs_fs.h", "line":610, "type":"d", }
+,{"id":"NFSDBG_FSCACHE", "file":"include/linux/nfs_fs.h", "line":615, "type":"d", }
+,{"id":"NFSDBG_LOOKUPCACHE", "file":"include/linux/nfs_fs.h", "line":606, "type":"d", }
+,{"id":"NFSDBG_MOUNT", "file":"include/linux/nfs_fs.h", "line":614, "type":"d", }
+,{"id":"NFSDBG_PAGECACHE", "file":"include/linux/nfs_fs.h", "line":607, "type":"d", }
+,{"id":"NFSDBG_PROC", "file":"include/linux/nfs_fs.h", "line":608, "type":"d", }
+,{"id":"NFSDBG_ROOT", "file":"include/linux/nfs_fs.h", "line":611, "type":"d", }
+,{"id":"NFSDBG_VFS", "file":"include/linux/nfs_fs.h", "line":604, "type":"d", }
+,{"id":"NFSDBG_XDR", "file":"include/linux/nfs_fs.h", "line":609, "type":"d", }
+,{"id":"NFSD_BUFSIZE", "file":"include/linux/nfsd/const.h", "line":43, "type":"d", }
+,{"id":"NFSD_EXPORT_H", "file":"include/linux/nfsd/export.h", "line":11, "type":"d", }
+,{"id":"NFSD_SYSCALL_H", "file":"include/linux/nfsd/syscall.h", "line":10, "type":"d", }
+,{"id":"NFSERR_ACCES", "file":"include/linux/nfs.h", "line":47, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_ADMIN_REVOKED", "file":"include/linux/nfs.h", "line":111, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_ATTRNOTSUPP", "file":"include/linux/nfs.h", "line":96, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_BADCHAR", "file":"include/linux/nfs.h", "line":104, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_BADHANDLE", "file":"include/linux/nfs.h", "line":65, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_BADNAME", "file":"include/linux/nfs.h", "line":105, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_BADOWNER", "file":"include/linux/nfs.h", "line":103, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_BADTYPE", "file":"include/linux/nfs.h", "line":71, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_BAD_COOKIE", "file":"include/linux/nfs.h", "line":67, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_BAD_RANGE", "file":"include/linux/nfs.h", "line":106, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_BAD_SEQID", "file":"include/linux/nfs.h", "line":90, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_BAD_STATEID", "file":"include/linux/nfs.h", "line":89, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_BAD_XDR", "file":"include/linux/nfs.h", "line":100, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_CB_PATH_DOWN", "file":"include/linux/nfs.h", "line":112, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_CLID_INUSE", "file":"include/linux/nfs.h", "line":81, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_DEADLOCK", "file":"include/linux/nfs.h", "line":109, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_DENIED", "file":"include/linux/nfs.h", "line":74, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_DQUOT", "file":"include/linux/nfs.h", "line":61, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_EAGAIN", "file":"include/linux/nfs.h", "line":46, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_EXIST", "file":"include/linux/nfs.h", "line":48, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_EXPIRED", "file":"include/linux/nfs.h", "line":75, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_FBIG", "file":"include/linux/nfs.h", "line":54, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_FHEXPIRED", "file":"include/linux/nfs.h", "line":78, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_FILE_OPEN", "file":"include/linux/nfs.h", "line":110, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_GRACE", "file":"include/linux/nfs.h", "line":77, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_INVAL", "file":"include/linux/nfs.h", "line":53, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_IO", "file":"include/linux/nfs.h", "line":44, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_ISDIR", "file":"include/linux/nfs.h", "line":52, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_JUKEBOX", "file":"include/linux/nfs.h", "line":72, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_LEASE_MOVED", "file":"include/linux/nfs.h", "line":95, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_LOCKED", "file":"include/linux/nfs.h", "line":76, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_LOCKS_HELD", "file":"include/linux/nfs.h", "line":101, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_LOCK_NOTSUPP", "file":"include/linux/nfs.h", "line":107, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_LOCK_RANGE", "file":"include/linux/nfs.h", "line":92, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_MINOR_VERS_MISMATCH", "file":"include/linux/nfs.h", "line":85, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_MLINK", "file":"include/linux/nfs.h", "line":57, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_MOVED", "file":"include/linux/nfs.h", "line":83, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NAMETOOLONG", "file":"include/linux/nfs.h", "line":59, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NODEV", "file":"include/linux/nfs.h", "line":50, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NOENT", "file":"include/linux/nfs.h", "line":43, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NOFILEHANDLE", "file":"include/linux/nfs.h", "line":84, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NOSPC", "file":"include/linux/nfs.h", "line":55, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NOTDIR", "file":"include/linux/nfs.h", "line":51, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NOTEMPTY", "file":"include/linux/nfs.h", "line":60, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NOTSUPP", "file":"include/linux/nfs.h", "line":68, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NOT_SAME", "file":"include/linux/nfs.h", "line":91, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NOT_SYNC", "file":"include/linux/nfs.h", "line":66, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NO_GRACE", "file":"include/linux/nfs.h", "line":97, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_NXIO", "file":"include/linux/nfs.h", "line":45, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_OLD_STATEID", "file":"include/linux/nfs.h", "line":88, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_OPENMODE", "file":"include/linux/nfs.h", "line":102, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_OPNOTSUPP", "file":"include/linux/nfs.h", "line":58, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_OP_ILLEGAL", "file":"include/linux/nfs.h", "line":108, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_PERM", "file":"include/linux/nfs.h", "line":42, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_RECLAIM_BAD", "file":"include/linux/nfs.h", "line":98, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_RECLAIM_CONFLICT", "file":"include/linux/nfs.h", "line":99, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_REMOTE", "file":"include/linux/nfs.h", "line":63, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_RESOURCE", "file":"include/linux/nfs.h", "line":82, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_RESTOREFH", "file":"include/linux/nfs.h", "line":94, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_ROFS", "file":"include/linux/nfs.h", "line":56, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_SAME", "file":"include/linux/nfs.h", "line":73, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_SERVERFAULT", "file":"include/linux/nfs.h", "line":70, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_SHARE_DENIED", "file":"include/linux/nfs.h", "line":79, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_STALE", "file":"include/linux/nfs.h", "line":62, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_STALE_CLIENTID", "file":"include/linux/nfs.h", "line":86, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_STALE_STATEID", "file":"include/linux/nfs.h", "line":87, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_SYMLINK", "file":"include/linux/nfs.h", "line":93, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_TOOSMALL", "file":"include/linux/nfs.h", "line":69, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_WFLUSH", "file":"include/linux/nfs.h", "line":64, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_WRONGSEC", "file":"include/linux/nfs.h", "line":80, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSERR_XDEV", "file":"include/linux/nfs.h", "line":49, "type":"e", "scope_line":40, "scope_name":"nfs_stat", }
+,{"id":"NFSEXP_ALLFLAGS", "file":"include/linux/nfsd/export.h", "line":53, "type":"d", }
+,{"id":"NFSEXP_ALLSQUASH", "file":"include/linux/nfsd/export.h", "line":31, "type":"d", }
+,{"id":"NFSEXP_ASYNC", "file":"include/linux/nfsd/export.h", "line":32, "type":"d", }
+,{"id":"NFSEXP_CROSSMOUNT", "file":"include/linux/nfsd/export.h", "line":40, "type":"d", }
+,{"id":"NFSEXP_FSID", "file":"include/linux/nfsd/export.h", "line":39, "type":"d", }
+,{"id":"NFSEXP_GATHERED_WRITES", "file":"include/linux/nfsd/export.h", "line":33, "type":"d", }
+,{"id":"NFSEXP_INSECURE_PORT", "file":"include/linux/nfsd/export.h", "line":29, "type":"d", }
+,{"id":"NFSEXP_MSNFS", "file":"include/linux/nfsd/export.h", "line":38, "type":"d", }
+,{"id":"NFSEXP_NOACL", "file":"include/linux/nfsd/export.h", "line":41, "type":"d", }
+,{"id":"NFSEXP_NOAUTHNLM", "file":"include/linux/nfsd/export.h", "line":37, "type":"d", }
+,{"id":"NFSEXP_NOHIDE", "file":"include/linux/nfsd/export.h", "line":35, "type":"d", }
+,{"id":"NFSEXP_NOSUBTREECHECK", "file":"include/linux/nfsd/export.h", "line":36, "type":"d", }
+,{"id":"NFSEXP_READONLY", "file":"include/linux/nfsd/export.h", "line":28, "type":"d", }
+,{"id":"NFSEXP_ROOTSQUASH", "file":"include/linux/nfsd/export.h", "line":30, "type":"d", }
+,{"id":"NFSEXP_SECINFO_FLAGS", "file":"include/linux/nfsd/export.h", "line":56, "type":"d", }
+,{"id":"NFSEXP_V4ROOT", "file":"include/linux/nfsd/export.h", "line":51, "type":"d", }
+,{"id":"NFSMODE_BLK", "file":"include/linux/nfs.h", "line":22, "type":"d", }
+,{"id":"NFSMODE_CHR", "file":"include/linux/nfs.h", "line":21, "type":"d", }
+,{"id":"NFSMODE_DIR", "file":"include/linux/nfs.h", "line":20, "type":"d", }
+,{"id":"NFSMODE_FIFO", "file":"include/linux/nfs.h", "line":26, "type":"d", }
+,{"id":"NFSMODE_FMT", "file":"include/linux/nfs.h", "line":19, "type":"d", }
+,{"id":"NFSMODE_LNK", "file":"include/linux/nfs.h", "line":24, "type":"d", }
+,{"id":"NFSMODE_REG", "file":"include/linux/nfs.h", "line":23, "type":"d", }
+,{"id":"NFSMODE_SOCK", "file":"include/linux/nfs.h", "line":25, "type":"d", }
+,{"id":"NFSOCK", "file":"include/linux/nfs.h", "line":124, "type":"e", "scope_line":117, "scope_name":"nfs_ftype", }
+,{"id":"NFSPROC4_CLNT_ACCESS", "file":"include/linux/nfs4.h", "line":508, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_CLOSE", "file":"include/linux/nfs4.h", "line":499, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_COMMIT", "file":"include/linux/nfs4.h", "line":494, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_CREATE", "file":"include/linux/nfs4.h", "line":516, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_CREATE_SESSION", "file":"include/linux/nfs4.h", "line":530, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_DELEGRETURN", "file":"include/linux/nfs4.h", "line":522, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_DESTROY_SESSION", "file":"include/linux/nfs4.h", "line":531, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_EXCHANGE_ID", "file":"include/linux/nfs4.h", "line":529, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_FSINFO", "file":"include/linux/nfs4.h", "line":501, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_FS_LOCATIONS", "file":"include/linux/nfs4.h", "line":525, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_GETACL", "file":"include/linux/nfs4.h", "line":523, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_GETATTR", "file":"include/linux/nfs4.h", "line":509, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_GET_LEASE_TIME", "file":"include/linux/nfs4.h", "line":533, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_LINK", "file":"include/linux/nfs4.h", "line":514, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_LOCK", "file":"include/linux/nfs4.h", "line":505, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_LOCKT", "file":"include/linux/nfs4.h", "line":506, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_LOCKU", "file":"include/linux/nfs4.h", "line":507, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_LOOKUP", "file":"include/linux/nfs4.h", "line":510, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_LOOKUP_ROOT", "file":"include/linux/nfs4.h", "line":511, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_NULL", "file":"include/linux/nfs4.h", "line":491, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_OPEN", "file":"include/linux/nfs4.h", "line":495, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_OPEN_CONFIRM", "file":"include/linux/nfs4.h", "line":496, "type":"e", "scope_line":490, }
+,{"id":"NFSPROC4_CLNT_OPEN_DOWNGRADE", "file":"include/linux/nfs4.h", "line":498, "type":"e", "scope_line":490, }
+,];
+xr_frag_insert('t/ce/dabbcb255a21849aadb4248b3f83fd4fc1df62.xr', __xr_tmp);

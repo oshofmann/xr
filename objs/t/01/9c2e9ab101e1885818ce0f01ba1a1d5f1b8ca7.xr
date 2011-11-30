@@ -1,0 +1,161 @@
+var __xr_tmp = [
+{"id":"pid_vnr", "file":"net/core/sock.c", "line":756, "type":"c", "scope_line":753, "scope_name":"cred_to_ucred", }
+,{"id":"pidhash_init", "file":"init/main.c", "line":588, "type":"c", "scope_line":536, "scope_name":"start_kernel", }
+,{"id":"pidhash_init", "file":"kernel/pid.c", "line":535, "type":"f", }
+,{"id":"pidhash_shift", "file":"kernel/pid.c", "line":43, "type":"v", }
+,{"id":"pidincl", "file":"include/net/ax25.h", "line":231, "type":"m", "scope_line":225, "scope_name":"struct ax25_cb", }
+,{"id":"pidlist_allocate", "file":"kernel/cgroup.c", "line":2587, "type":"f", }
+,{"id":"pidlist_allocate", "file":"kernel/cgroup.c", "line":2734, "type":"c", "scope_line":2717, "scope_name":"pidlist_array_load", }
+,{"id":"pidlist_array_load", "file":"kernel/cgroup.c", "line":2717, "type":"f", }
+,{"id":"pidlist_array_load", "file":"kernel/cgroup.c", "line":2971, "type":"c", "scope_line":2960, "scope_name":"cgroup_pidlist_open", }
+,{"id":"pidlist_free", "file":"kernel/cgroup.c", "line":2594, "type":"f", }
+,{"id":"pidlist_free", "file":"kernel/cgroup.c", "line":2758, "type":"c", "scope_line":2717, "scope_name":"pidlist_array_load", }
+,{"id":"pidlist_free", "file":"kernel/cgroup.c", "line":2762, "type":"c", "scope_line":2717, "scope_name":"pidlist_array_load", }
+,{"id":"pidlist_free", "file":"kernel/cgroup.c", "line":2923, "type":"c", "scope_line":2908, "scope_name":"cgroup_release_pid_array", }
+,{"id":"pidlist_mutex", "file":"include/linux/cgroup.h", "line":234, "type":"m", "scope_line":191, "scope_name":"struct cgroup", }
+,{"id":"pidlist_resize", "file":"kernel/cgroup.c", "line":2601, "type":"f", }
+,{"id":"pidlist_resize", "file":"kernel/cgroup.c", "line":2656, "type":"c", "scope_line":2625, "scope_name":"pidlist_uniq", }
+,{"id":"pidlist_uniq", "file":"kernel/cgroup.c", "line":2625, "type":"f", }
+,{"id":"pidlist_uniq", "file":"kernel/cgroup.c", "line":2755, "type":"c", "scope_line":2717, "scope_name":"pidlist_array_load", }
+,{"id":"pidlists", "file":"include/linux/cgroup.h", "line":233, "type":"m", "scope_line":191, "scope_name":"struct cgroup", }
+,{"id":"pidmap", "file":"include/linux/pid_namespace.h", "line":10, "type":"s", }
+,{"id":"pidmap", "file":"include/linux/pid_namespace.h", "line":21, "type":"m", "scope_line":19, "scope_name":"struct pid_namespace", }
+,{"id":"pidmap_init", "file":"init/main.c", "line":671, "type":"c", "scope_line":536, "scope_name":"start_kernel", }
+,{"id":"pidmap_init", "file":"kernel/pid.c", "line":548, "type":"f", }
+,{"id":"pidmap_lock", "file":"kernel/pid.c", "line":113, "type":"v", }
+,{"id":"pids", "file":"include/linux/sched.h", "line":1269, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"pids", "file":"include/linux/usb/ehci_def.h", "line":188, "type":"m", "scope_line":175, "scope_name":"struct ehci_dbg_port", }
+,{"id":"piggyback", "file":"include/linux/wanrouter.h", "line":490, "type":"m", "scope_line":463, "scope_name":"struct wan_device", }
+,{"id":"piix4", "file":"include/acpi/processor.h", "line":224, "type":"m", "scope_line":217, "scope_name":"struct acpi_processor_errata", }
+,{"id":"piix4_io_quirk", "file":"drivers/pci/quirks.c", "line":445, "type":"f", }
+,{"id":"piix4_io_quirk", "file":"drivers/pci/quirks.c", "line":514, "type":"c", "scope_line":502, "scope_name":"quirk_piix4_acpi", }
+,{"id":"piix4_io_quirk", "file":"drivers/pci/quirks.c", "line":515, "type":"c", "scope_line":502, "scope_name":"quirk_piix4_acpi", }
+,{"id":"piix4_io_quirk", "file":"drivers/pci/quirks.c", "line":521, "type":"c", "scope_line":502, "scope_name":"quirk_piix4_acpi", }
+,{"id":"piix4_io_quirk", "file":"drivers/pci/quirks.c", "line":526, "type":"c", "scope_line":502, "scope_name":"quirk_piix4_acpi", }
+,{"id":"piix4_io_quirk", "file":"drivers/pci/quirks.c", "line":529, "type":"c", "scope_line":502, "scope_name":"quirk_piix4_acpi", }
+,{"id":"piix4_io_quirk", "file":"drivers/pci/quirks.c", "line":530, "type":"c", "scope_line":502, "scope_name":"quirk_piix4_acpi", }
+,{"id":"piix4_mem_quirk", "file":"drivers/pci/quirks.c", "line":471, "type":"f", }
+,{"id":"piix4_mem_quirk", "file":"drivers/pci/quirks.c", "line":522, "type":"c", "scope_line":502, "scope_name":"quirk_piix4_acpi", }
+,{"id":"piix4_mem_quirk", "file":"drivers/pci/quirks.c", "line":527, "type":"c", "scope_line":502, "scope_name":"quirk_piix4_acpi", }
+,{"id":"piix_broken_suspend", "file":"drivers/ata/ata_piix.c", "line":1166, "type":"c", "scope_line":1151, "scope_name":"piix_pci_device_suspend", }
+,{"id":"piix_broken_suspend", "file":"drivers/ata/ata_piix.c", "line":996, "type":"f", }
+,{"id":"piix_broken_system_poweroff", "file":"drivers/ata/ata_piix.c", "line":1489, "type":"f", }
+,{"id":"piix_broken_system_poweroff", "file":"drivers/ata/ata_piix.c", "line":1559, "type":"c", "scope_line":1539, "scope_name":"piix_init_one", }
+,{"id":"piix_check_450nx_errata", "file":"drivers/ata/ata_piix.c", "line":1266, "type":"f", }
+,{"id":"piix_check_450nx_errata", "file":"drivers/ata/ata_piix.c", "line":1629, "type":"c", "scope_line":1539, "scope_name":"piix_init_one", }
+,{"id":"piix_controller_ids", "file":"drivers/ata/ata_piix.c", "line":134, "type":"t", }
+,{"id":"piix_disable_ahci", "file":"drivers/ata/ata_piix.c", "line":1226, "type":"f", }
+,{"id":"piix_disable_ahci", "file":"drivers/ata/ata_piix.c", "line":1594, "type":"c", "scope_line":1539, "scope_name":"piix_init_one", }
+,{"id":"piix_enable_bits", "file":"drivers/ata/ata_piix.c", "line":589, "type":"v", }
+,{"id":"piix_exit", "file":"drivers/ata/ata_piix.c", "line":1669, "type":"f", }
+,{"id":"piix_host_priv", "file":"drivers/ata/ata_piix.c", "line":158, "type":"s", }
+,{"id":"piix_init", "file":"drivers/ata/ata_piix.c", "line":1654, "type":"f", }
+,{"id":"piix_init_one", "file":"drivers/ata/ata_piix.c", "line":1539, "type":"f", }
+,{"id":"piix_init_pcs", "file":"drivers/ata/ata_piix.c", "line":1290, "type":"f", }
+,{"id":"piix_init_pcs", "file":"drivers/ata/ata_piix.c", "line":1611, "type":"c", "scope_line":1539, "scope_name":"piix_init_one", }
+,{"id":"piix_init_sata_map", "file":"drivers/ata/ata_piix.c", "line":1307, "type":"f", }
+,{"id":"piix_init_sata_map", "file":"drivers/ata/ata_piix.c", "line":1601, "type":"c", "scope_line":1539, "scope_name":"piix_init_one", }
+,{"id":"piix_init_sidpr", "file":"drivers/ata/ata_piix.c", "line":1387, "type":"f", }
+,{"id":"piix_init_sidpr", "file":"drivers/ata/ata_piix.c", "line":1612, "type":"c", "scope_line":1539, "scope_name":"piix_init_one", }
+,{"id":"piix_iocfg_bit18_quirk", "file":"drivers/ata/ata_piix.c", "line":1454, "type":"f", }
+,{"id":"piix_iocfg_bit18_quirk", "file":"drivers/ata/ata_piix.c", "line":1618, "type":"c", "scope_line":1539, "scope_name":"piix_init_one", }
+,{"id":"piix_irq_check", "file":"drivers/ata/ata_piix.c", "line":987, "type":"f", }
+,{"id":"piix_lock", "file":"drivers/ata/ata_piix.c", "line":683, "type":"v", }
+,{"id":"piix_map_db", "file":"drivers/ata/ata_piix.c", "line":152, "type":"s", }
+,{"id":"piix_map_db_table", "file":"drivers/ata/ata_piix.c", "line":451, "type":"v", }
+,{"id":"piix_no_sidpr", "file":"drivers/ata/ata_piix.c", "line":1354, "type":"f", }
+,{"id":"piix_no_sidpr", "file":"drivers/ata/ata_piix.c", "line":1401, "type":"c", "scope_line":1387, "scope_name":"piix_init_sidpr", }
+,{"id":"piix_pata_33", "file":"drivers/ata/ata_piix.c", "line":137, "type":"e", "scope_line":134, "scope_name":"piix_controller_ids", }
+,{"id":"piix_pata_mwdma", "file":"drivers/ata/ata_piix.c", "line":136, "type":"e", "scope_line":134, "scope_name":"piix_controller_ids", }
+,{"id":"piix_pata_ops", "file":"drivers/ata/ata_piix.c", "line":332, "type":"v", }
+,{"id":"piix_pata_prereset", "file":"drivers/ata/ata_piix.c", "line":673, "type":"f", }
+,{"id":"piix_pata_vmw", "file":"drivers/ata/ata_piix.c", "line":149, "type":"e", "scope_line":134, "scope_name":"piix_controller_ids", }
+,{"id":"piix_pci_device_resume", "file":"drivers/ata/ata_piix.c", "line":1186, "type":"f", }
+,{"id":"piix_pci_device_suspend", "file":"drivers/ata/ata_piix.c", "line":1151, "type":"f", }
+,{"id":"piix_pci_driver", "file":"drivers/ata/ata_piix.c", "line":312, "type":"v", }
+,{"id":"piix_pci_tbl", "file":"drivers/ata/ata_piix.c", "line":186, "type":"v", }
+,{"id":"piix_port_info", "file":"drivers/ata/ata_piix.c", "line":461, "type":"v", }
+,{"id":"piix_remove_one", "file":"drivers/ata/ata_piix.c", "line":1644, "type":"f", }
+,{"id":"piix_sata_ops", "file":"drivers/ata/ata_piix.c", "line":327, "type":"v", }
+,{"id":"piix_set_dmamode", "file":"drivers/ata/ata_piix.c", "line":911, "type":"f", }
+,{"id":"piix_set_piomode", "file":"drivers/ata/ata_piix.c", "line":696, "type":"f", }
+,{"id":"piix_sht", "file":"drivers/ata/ata_piix.c", "line":323, "type":"v", }
+,{"id":"piix_sidpr_sata_ops", "file":"drivers/ata/ata_piix.c", "line":351, "type":"v", }
+,{"id":"piix_sidpr_scr_read", "file":"drivers/ata/ata_piix.c", "line":1420, "type":"c", "scope_line":1387, "scope_name":"piix_init_sidpr", }
+,{"id":"piix_sidpr_scr_read", "file":"drivers/ata/ata_piix.c", "line":1429, "type":"c", "scope_line":1387, "scope_name":"piix_init_sidpr", }
+,{"id":"piix_sidpr_scr_read", "file":"drivers/ata/ata_piix.c", "line":955, "type":"f", }
+,{"id":"piix_sidpr_scr_write", "file":"drivers/ata/ata_piix.c", "line":1428, "type":"c", "scope_line":1387, "scope_name":"piix_init_sidpr", }
+,{"id":"piix_sidpr_scr_write", "file":"drivers/ata/ata_piix.c", "line":971, "type":"f", }
+,{"id":"piix_sidpr_sel", "file":"drivers/ata/ata_piix.c", "line":946, "type":"f", }
+,{"id":"piix_sidpr_sel", "file":"drivers/ata/ata_piix.c", "line":965, "type":"c", "scope_line":955, "scope_name":"piix_sidpr_scr_read", }
+,{"id":"piix_sidpr_sel", "file":"drivers/ata/ata_piix.c", "line":981, "type":"c", "scope_line":971, "scope_name":"piix_sidpr_scr_write", }
+,{"id":"piix_sidx_map", "file":"drivers/ata/ata_piix.c", "line":940, "type":"v", }
+,{"id":"piix_vmw_bmdma_status", "file":"drivers/ata/ata_piix.c", "line":1218, "type":"f", }
+,{"id":"piix_vmw_ops", "file":"drivers/ata/ata_piix.c", "line":340, "type":"v", }
+,{"id":"pim_protocol", "file":"net/ipv4/ipmr.c", "line":2367, "type":"v", }
+,{"id":"pim_rcv", "file":"net/ipv4/ipmr.c", "line":1884, "type":"f", }
+,{"id":"pim_rcv_v1", "file":"net/ipv4/igmp.c", "line":973, "type":"c", "scope_line":932, "scope_name":"igmp_rcv", }
+,{"id":"pim_rcv_v1", "file":"net/ipv4/ipmr.c", "line":1857, "type":"f", }
+,{"id":"pimreghdr", "file":"include/linux/pim.h", "line":17, "type":"s", }
+,{"id":"pin", "file":"arch/x86/kernel/apic/io_apic.c", "line":130, "type":"m", "scope_line":129, "scope_name":"struct irq_pin_list", }
+,{"id":"pin", "file":"arch/x86/kernel/apic/io_apic.c", "line":1952, "type":"m", "scope_line":1952, "scope_name":"ioapic_i8259", }
+,{"id":"pin", "file":"drivers/acpi/pci_irq.c", "line":133, "type":"m", "scope_line":128, "scope_name":"struct prt_quirk", }
+,{"id":"pin", "file":"drivers/acpi/pci_irq.c", "line":52, "type":"m", "scope_line":49, "scope_name":"struct acpi_prt_entry", }
+,{"id":"pin", "file":"include/acpi/acrestyp.h", "line":399, "type":"m", "scope_line":397, "scope_name":"struct acpi_pci_routing_table", }
+,{"id":"pin", "file":"include/linux/pci.h", "line":251, "type":"m", "scope_line":231, "scope_name":"struct pci_dev", }
+,{"id":"pin_2_irq", "file":"arch/x86/kernel/apic/io_apic.c", "line":1024, "type":"f", }
+,{"id":"pin_2_irq", "file":"arch/x86/kernel/apic/io_apic.c", "line":1097, "type":"c", "scope_line":1072, "scope_name":"IO_APIC_get_PCI_irq_vector", }
+,{"id":"pin_2_irq", "file":"arch/x86/kernel/apic/io_apic.c", "line":1515, "type":"c", "scope_line":1485, "scope_name":"setup_IO_APIC_irqs", }
+,{"id":"pin_2_irq", "file":"arch/x86/kernel/apic/io_apic.c", "line":1572, "type":"c", "scope_line":1553, "scope_name":"setup_IO_APIC_irq_extra", }
+,{"id":"pin_2_irq", "file":"arch/x86/kernel/apic/io_apic.c", "line":4116, "type":"c", "scope_line":4102, "scope_name":"setup_ioapic_dest", }
+,{"id":"pin_code", "file":"include/net/bluetooth/hci.h", "line":293, "type":"m", "scope_line":290, "scope_name":"struct hci_cp_pin_code_reply", }
+,{"id":"pin_count", "file":"include/linux/perf_event.h", "line":807, "type":"m", "scope_line":771, "scope_name":"struct perf_event_context", }
+,{"id":"pin_fs_lock", "file":"fs/libfs.c", "line":512, "type":"v", }
+,{"id":"pin_len", "file":"include/net/bluetooth/hci.h", "line":292, "type":"m", "scope_line":290, "scope_name":"struct hci_cp_pin_code_reply", }
+,{"id":"pin_name", "file":"drivers/acpi/pci_irq.c", "line":177, "type":"c", "scope_line":157, "scope_name":"do_prt_fixups", }
+,{"id":"pin_name", "file":"drivers/acpi/pci_irq.c", "line":353, "type":"c", "scope_line":307, "scope_name":"acpi_pci_irq_lookup", }
+,{"id":"pin_name", "file":"drivers/acpi/pci_irq.c", "line":405, "type":"c", "scope_line":358, "scope_name":"acpi_pci_irq_enable", }
+,{"id":"pin_name", "file":"drivers/acpi/pci_irq.c", "line":422, "type":"c", "scope_line":358, "scope_name":"acpi_pci_irq_enable", }
+,{"id":"pin_name", "file":"drivers/acpi/pci_irq.c", "line":433, "type":"c", "scope_line":358, "scope_name":"acpi_pci_irq_enable", }
+,{"id":"pin_name", "file":"drivers/acpi/pci_irq.c", "line":470, "type":"c", "scope_line":446, "scope_name":"acpi_pci_irq_disable", }
+,{"id":"pin_name", "file":"drivers/acpi/pci_irq.c", "line":60, "type":"f", }
+,{"id":"pin_name", "file":"include/linux/sfi.h", "line":168, "type":"m", "scope_line":165, "scope_name":"struct sfi_gpio_table_entry", }
+,{"id":"pin_no", "file":"include/linux/sfi.h", "line":167, "type":"m", "scope_line":165, "scope_name":"struct sfi_gpio_table_entry", }
+,{"id":"pin_pagetable_pfn", "file":"arch/x86/xen/mmu.c", "line":1532, "type":"f", }
+,{"id":"pin_pagetable_pfn", "file":"arch/x86/xen/mmu.c", "line":1549, "type":"c", "scope_line":1543, "scope_name":"xen_alloc_pte_init", }
+,{"id":"pin_pagetable_pfn", "file":"arch/x86/xen/mmu.c", "line":1565, "type":"c", "scope_line":1563, "scope_name":"xen_release_pte_init", }
+,{"id":"pin_pagetable_pfn", "file":"arch/x86/xen/mmu.c", "line":1586, "type":"c", "scope_line":1576, "scope_name":"xen_alloc_ptpage", }
+,{"id":"pin_pagetable_pfn", "file":"arch/x86/xen/mmu.c", "line":1613, "type":"c", "scope_line":1606, "scope_name":"xen_release_ptpage", }
+,{"id":"pin_pagetable_pfn", "file":"arch/x86/xen/mmu.c", "line":1799, "type":"c", "scope_line":1763, "scope_name":"xen_setup_kernel_pagetable", }
+,{"id":"pin_pagetable_pfn", "file":"arch/x86/xen/mmu.c", "line":1803, "type":"c", "scope_line":1763, "scope_name":"xen_setup_kernel_pagetable", }
+,{"id":"pin_sb_for_writeback", "file":"fs/fs-writeback.c", "line":432, "type":"f", }
+,{"id":"pin_sb_for_writeback", "file":"fs/fs-writeback.c", "line":543, "type":"c", "scope_line":527, "scope_name":"writeback_inodes_wb", }
+,{"id":"pinet6", "file":"include/net/inet_sock.h", "line":116, "type":"m", "scope_line":112, "scope_name":"struct inet_sock", }
+,{"id":"pinfo", "file":"arch/x86/include/asm/sigframe.h", "line":48, "type":"m", "scope_line":45, "scope_name":"struct rt_sigframe_ia32", }
+,{"id":"pingpong", "file":"include/net/inet_connection_sock.h", "line":109, "type":"m", "scope_line":86, "scope_name":"struct inet_connection_sock", }
+,{"id":"pinned", "file":"drivers/pci/pci.c", "line":1060, "type":"m", "scope_line":1058, "scope_name":"struct pci_devres", }
+,{"id":"pinned", "file":"include/linux/perf_event.h", "line":193, "type":"m", "scope_line":166, "scope_name":"struct perf_event_attr", }
+,{"id":"pinned", "file":"kernel/hw_breakpoint.c", "line":73, "type":"m", "scope_line":72, "scope_name":"struct bp_busy_slots", }
+,{"id":"pinned_groups", "file":"include/linux/perf_event.h", "line":784, "type":"m", "scope_line":771, "scope_name":"struct perf_event_context", }
+,{"id":"pinned_list", "file":"include/linux/tcp.h", "line":329, "type":"m", "scope_line":291, "scope_name":"struct tcp_sock", }
+,{"id":"pio", "file":"include/linux/libata.h", "line":680, "type":"m", "scope_line":678, "scope_name":"struct ata_acpi_drive", }
+,{"id":"pio_dnxfer_sel", "file":"drivers/ata/libata-eh.c", "line":1923, "type":"v", }
+,{"id":"pio_enabled", "file":"drivers/usb/host/pci-quirks.c", "line":143, "type":"d", }
+,{"id":"pio_mask", "file":"include/linux/ide.h", "line":1315, "type":"m", "scope_line":1288, "scope_name":"struct ide_port_info", }
+,{"id":"pio_mask", "file":"include/linux/ide.h", "line":689, "type":"m", "scope_line":667, "scope_name":"struct hwif_s", }
+,{"id":"pio_mask", "file":"include/linux/libata.h", "line":624, "type":"m", "scope_line":595, "scope_name":"struct ata_device", }
+,{"id":"pio_mask", "file":"include/linux/libata.h", "line":735, "type":"m", "scope_line":711, "scope_name":"struct ata_port", }
+,{"id":"pio_mask", "file":"include/linux/libata.h", "line":897, "type":"m", "scope_line":894, "scope_name":"struct ata_port_info", }
+,{"id":"pio_mode", "file":"include/linux/ide.h", "line":518, "type":"m", "scope_line":486, "scope_name":"struct ide_drive_s", }
+,{"id":"pio_mode", "file":"include/linux/libata.h", "line":613, "type":"m", "scope_line":595, "scope_name":"struct ata_device", }
+,{"id":"pio_read16be", "file":"lib/iomap.c", "line":62, "type":"d", }
+,{"id":"pio_read32be", "file":"lib/iomap.c", "line":63, "type":"d", }
+,{"id":"pio_write16be", "file":"lib/iomap.c", "line":103, "type":"d", }
+,{"id":"pio_write32be", "file":"lib/iomap.c", "line":104, "type":"d", }
+,{"id":"pipe", "file":"include/linux/usb.h", "line":1194, "type":"m", "scope_line":1179, "scope_name":"struct urb", }
+,{"id":"pipe", "file":"include/linux/usb.h", "line":1461, "type":"m", "scope_line":1450, "scope_name":"struct usb_sg_request", }
+,{"id":"pipe", "file":"net/ipv4/tcp.c", "line":306, "type":"m", "scope_line":305, "scope_name":"struct tcp_splice_state", }
+,{"id":"pipe_buf_operations", "file":"include/linux/pipe_fs_i.h", "line":75, "type":"s", }
+,{"id":"pipe_buffer", "file":"include/linux/pipe_fs_i.h", "line":21, "type":"s", }
+,];
+xr_frag_insert('t/01/9c2e9ab101e1885818ce0f01ba1a1d5f1b8ca7.xr', __xr_tmp);

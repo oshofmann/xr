@@ -1,0 +1,27 @@
+var __xr_tmp = [
+{"id":"signal_wake_up", "file":"fs/exec.c", "line":1594, "type":"c", "scope_line":1581, "scope_name":"zap_process", }
+,{"id":"signal_wake_up", "file":"kernel/freezer.c", "line":70, "type":"c", "scope_line":65, "scope_name":"fake_signal_wake_up", }
+,{"id":"signal_wake_up", "file":"kernel/ptrace.c", "line":59, "type":"c", "scope_line":47, "scope_name":"ptrace_untrace", }
+,{"id":"signal_wake_up", "file":"kernel/signal.c", "line":1102, "type":"c", "scope_line":1088, "scope_name":"zap_other_threads", }
+,{"id":"signal_wake_up", "file":"kernel/signal.c", "line":148, "type":"c", "scope_line":145, "scope_name":"recalc_sigpending_and_wake", }
+,{"id":"signal_wake_up", "file":"kernel/signal.c", "line":1751, "type":"c", "scope_line":1724, "scope_name":"do_signal_stop", }
+,{"id":"signal_wake_up", "file":"kernel/signal.c", "line":556, "type":"f", }
+,{"id":"signal_wake_up", "file":"kernel/signal.c", "line":864, "type":"c", "scope_line":802, "scope_name":"complete_signal", }
+,{"id":"signal_wake_up", "file":"kernel/signal.c", "line":874, "type":"c", "scope_line":802, "scope_name":"complete_signal", }
+,{"id":"signaled", "file":"kernel/rcutree.h", "line":290, "type":"m", "scope_line":281, "scope_name":"struct rcu_state", }
+,{"id":"signalfd_copyinfo", "file":"fs/signalfd.c", "line":194, "type":"c", "scope_line":176, "scope_name":"signalfd_read", }
+,{"id":"signalfd_copyinfo", "file":"fs/signalfd.c", "line":63, "type":"f", }
+,{"id":"signalfd_ctx", "file":"fs/signalfd.c", "line":33, "type":"s", }
+,{"id":"signalfd_dequeue", "file":"fs/signalfd.c", "line":131, "type":"f", }
+,{"id":"signalfd_dequeue", "file":"fs/signalfd.c", "line":191, "type":"c", "scope_line":176, "scope_name":"signalfd_read", }
+,{"id":"signalfd_fops", "file":"fs/signalfd.c", "line":205, "type":"v", }
+,{"id":"signalfd_notify", "file":"include/linux/signalfd.h", "line":57, "type":"f", }
+,{"id":"signalfd_notify", "file":"kernel/signal.c", "line":1425, "type":"c", "scope_line":1396, "scope_name":"send_sigqueue", }
+,{"id":"signalfd_notify", "file":"kernel/signal.c", "line":970, "type":"c", "scope_line":883, "scope_name":"__send_signal", }
+,{"id":"signalfd_poll", "file":"fs/signalfd.c", "line":43, "type":"f", }
+,{"id":"signalfd_read", "file":"fs/signalfd.c", "line":176, "type":"f", }
+,{"id":"signalfd_release", "file":"fs/signalfd.c", "line":37, "type":"f", }
+,{"id":"signalfd_siginfo", "file":"include/linux/signalfd.h", "line":19, "type":"s", }
+,{"id":"signalfd_wqh", "file":"include/linux/sched.h", "line":438, "type":"m", "scope_line":434, "scope_name":"struct sighand_struct", }
+,];
+xr_frag_insert('t/79/cd33fc5a943d62ab1481bbf0b833c2c137009b.xr', __xr_tmp);

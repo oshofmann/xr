@@ -1,0 +1,191 @@
+var __xr_tmp = [
+{"id":"sock_net", "file":"net/ipv6/inet6_hashtables.c", "line":111, "type":"c", "scope_line":67, "scope_name":"__inet6_lookup_established", }
+,{"id":"sock_net", "file":"net/ipv6/inet6_hashtables.c", "line":134, "type":"c", "scope_line":127, "scope_name":"compute_score", }
+,{"id":"sock_net", "file":"net/ipv6/inet6_hashtables.c", "line":224, "type":"c", "scope_line":213, "scope_name":"__inet6_check_established", }
+,{"id":"sock_net", "file":"net/ipv6/inet6_hashtables.c", "line":240, "type":"c", "scope_line":213, "scope_name":"__inet6_check_established", }
+,{"id":"sock_net", "file":"net/ipv6/inet6_hashtables.c", "line":251, "type":"c", "scope_line":213, "scope_name":"__inet6_check_established", }
+,{"id":"sock_net", "file":"net/ipv6/inet6_hashtables.c", "line":270, "type":"c", "scope_line":213, "scope_name":"__inet6_check_established", }
+,{"id":"sock_net", "file":"net/ipv6/inet6_hashtables.c", "line":56, "type":"c", "scope_line":25, "scope_name":"__inet6_hash", }
+,{"id":"sock_net", "file":"net/ipv6/inet6_hashtables.c", "line":90, "type":"c", "scope_line":67, "scope_name":"__inet6_lookup_established", }
+,{"id":"sock_net", "file":"net/ipv6/inet6_hashtables.c", "line":93, "type":"c", "scope_line":67, "scope_name":"__inet6_lookup_established", }
+,{"id":"sock_net", "file":"net/ipv6/ip6_fib.c", "line":360, "type":"c", "scope_line":358, "scope_name":"inet6_dump_fib", }
+,{"id":"sock_net", "file":"net/ipv6/ip6_flowlabel.c", "line":475, "type":"c", "scope_line":472, "scope_name":"ipv6_flowlabel_opt", }
+,{"id":"sock_net", "file":"net/ipv6/ip6_output.c", "line":1432, "type":"c", "scope_line":1109, "scope_name":"ip6_append_data", }
+,{"id":"sock_net", "file":"net/ipv6/ip6_output.c", "line":1462, "type":"c", "scope_line":1455, "scope_name":"ip6_push_pending_frames", }
+,{"id":"sock_net", "file":"net/ipv6/ip6_output.c", "line":1545, "type":"c", "scope_line":1539, "scope_name":"ip6_flush_pending_frames", }
+,{"id":"sock_net", "file":"net/ipv6/ip6_output.c", "line":188, "type":"c", "scope_line":185, "scope_name":"ip6_xmit", }
+,{"id":"sock_net", "file":"net/ipv6/ip6_output.c", "line":929, "type":"c", "scope_line":925, "scope_name":"ip6_dst_lookup_tail", }
+,{"id":"sock_net", "file":"net/ipv6/ipv6_sockglue.c", "line":1126, "type":"c", "scope_line":896, "scope_name":"do_ipv6_getsockopt", }
+,{"id":"sock_net", "file":"net/ipv6/ipv6_sockglue.c", "line":128, "type":"c", "scope_line":124, "scope_name":"do_ipv6_setsockopt", }
+,{"id":"sock_net", "file":"net/ipv6/mcast.c", "line":131, "type":"c", "scope_line":126, "scope_name":"ipv6_sock_mc_join", }
+,{"id":"sock_net", "file":"net/ipv6/mcast.c", "line":206, "type":"c", "scope_line":202, "scope_name":"ipv6_sock_mc_drop", }
+,{"id":"sock_net", "file":"net/ipv6/mcast.c", "line":273, "type":"c", "scope_line":269, "scope_name":"ipv6_sock_mc_close", }
+,{"id":"sock_net", "file":"net/ipv6/mcast.c", "line":309, "type":"c", "scope_line":300, "scope_name":"ip6_mc_source", }
+,{"id":"sock_net", "file":"net/ipv6/mcast.c", "line":447, "type":"c", "scope_line":439, "scope_name":"ip6_mc_msfilter", }
+,{"id":"sock_net", "file":"net/ipv6/mcast.c", "line":542, "type":"c", "scope_line":532, "scope_name":"ip6_mc_msfget", }
+,{"id":"sock_net", "file":"net/ipv6/raw.c", "line":280, "type":"c", "scope_line":238, "scope_name":"rawv6_bind", }
+,{"id":"sock_net", "file":"net/ipv6/raw.c", "line":292, "type":"c", "scope_line":238, "scope_name":"rawv6_bind", }
+,{"id":"sock_net", "file":"net/ipv6/raw.c", "line":644, "type":"c", "scope_line":604, "scope_name":"rawv6_send_hdrinc", }
+,{"id":"sock_net", "file":"net/ipv6/raw.c", "line":658, "type":"c", "scope_line":604, "scope_name":"rawv6_send_hdrinc", }
+,{"id":"sock_net", "file":"net/ipv6/raw.c", "line":79, "type":"c", "scope_line":68, "scope_name":"__raw_v6_lookup", }
+,{"id":"sock_net", "file":"net/ipv6/raw.c", "line":820, "type":"c", "scope_line":725, "scope_name":"rawv6_sendmsg", }
+,{"id":"sock_net", "file":"net/ipv6/raw.c", "line":864, "type":"c", "scope_line":725, "scope_name":"rawv6_sendmsg", }
+,{"id":"sock_net", "file":"net/ipv6/route.c", "line":2107, "type":"c", "scope_line":2081, "scope_name":"rtm_to_fib6_config", }
+,{"id":"sock_net", "file":"net/ipv6/route.c", "line":2327, "type":"c", "scope_line":2325, "scope_name":"inet6_rtm_getroute", }
+,{"id":"sock_net", "file":"net/ipv6/syncookies.c", "line":132, "type":"c", "scope_line":117, "scope_name":"cookie_v6_init_sequence", }
+,{"id":"sock_net", "file":"net/ipv6/syncookies.c", "line":174, "type":"c", "scope_line":151, "scope_name":"cookie_v6_check", }
+,{"id":"sock_net", "file":"net/ipv6/syncookies.c", "line":178, "type":"c", "scope_line":151, "scope_name":"cookie_v6_check", }
+,{"id":"sock_net", "file":"net/ipv6/syncookies.c", "line":251, "type":"c", "scope_line":151, "scope_name":"cookie_v6_check", }
+,{"id":"sock_net", "file":"net/ipv6/tcp_ipv6.c", "line":1146, "type":"c", "scope_line":1133, "scope_name":"tcp_v6_hnd_req", }
+,{"id":"sock_net", "file":"net/ipv6/tcp_ipv6.c", "line":1406, "type":"c", "scope_line":1313, "scope_name":"tcp_v6_syn_recv_sock", }
+,{"id":"sock_net", "file":"net/ipv6/tcp_ipv6.c", "line":1506, "type":"c", "scope_line":1313, "scope_name":"tcp_v6_syn_recv_sock", }
+,{"id":"sock_net", "file":"net/ipv6/tcp_ipv6.c", "line":1508, "type":"c", "scope_line":1313, "scope_name":"tcp_v6_syn_recv_sock", }
+,{"id":"sock_net", "file":"net/ipv6/tcp_ipv6.c", "line":1637, "type":"c", "scope_line":1543, "scope_name":"tcp_v6_do_rcv", }
+,{"id":"sock_net", "file":"net/ipv6/tcp_ipv6.c", "line":263, "type":"c", "scope_line":124, "scope_name":"tcp_v6_connect", }
+,{"id":"sock_net", "file":"net/ipv6/tcp_ipv6.c", "line":499, "type":"c", "scope_line":468, "scope_name":"tcp_v6_send_synack", }
+,{"id":"sock_net", "file":"net/ipv6/tcp_ipv6.c", "line":521, "type":"c", "scope_line":518, "scope_name":"tcp_v6_rtx_synack", }
+,{"id":"sock_net", "file":"net/ipv6/tcp_ipv6.c", "line":865, "type":"c", "scope_line":848, "scope_name":"tcp_v6_inbound_md5_hash", }
+,{"id":"sock_net", "file":"net/ipv6/tcp_ipv6.c", "line":870, "type":"c", "scope_line":848, "scope_name":"tcp_v6_inbound_md5_hash", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":104, "type":"c", "scope_line":102, "scope_name":"udp_v6_get_port", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":106, "type":"c", "scope_line":102, "scope_name":"udp_v6_get_port", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":1079, "type":"c", "scope_line":931, "scope_name":"udpv6_sendmsg", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":1126, "type":"c", "scope_line":931, "scope_name":"udpv6_sendmsg", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":116, "type":"c", "scope_line":114, "scope_name":"udp_v6_rehash", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":1212, "type":"c", "scope_line":931, "scope_name":"udpv6_sendmsg", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":131, "type":"c", "scope_line":123, "scope_name":"compute_score", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":169, "type":"c", "scope_line":162, "scope_name":"compute_score2", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":389, "type":"c", "scope_line":328, "scope_name":"udpv6_recvmsg", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":392, "type":"c", "scope_line":328, "scope_name":"udpv6_recvmsg", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":440, "type":"c", "scope_line":328, "scope_name":"udpv6_recvmsg", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":443, "type":"c", "scope_line":328, "scope_name":"udpv6_recvmsg", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":530, "type":"c", "scope_line":494, "scope_name":"udpv6_queue_rcv_skb", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":539, "type":"c", "scope_line":494, "scope_name":"udpv6_queue_rcv_skb", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":556, "type":"c", "scope_line":544, "scope_name":"udp_v6_mcast_next", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":614, "type":"c", "scope_line":585, "scope_name":"flush_stack", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":616, "type":"c", "scope_line":585, "scope_name":"flush_stack", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":918, "type":"c", "scope_line":875, "scope_name":"udp_v6_push_pending_frames", }
+,{"id":"sock_net", "file":"net/ipv6/udp.c", "line":923, "type":"c", "scope_line":875, "scope_name":"udp_v6_push_pending_frames", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":1051, "type":"c", "scope_line":1046, "scope_name":"netlink_broadcast_filtered", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":1122, "type":"c", "scope_line":1113, "scope_name":"do_one_set_err", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":1766, "type":"c", "scope_line":1746, "scope_name":"netlink_dump_start", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":1808, "type":"c", "scope_line":1793, "scope_name":"netlink_ack", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":1929, "type":"c", "scope_line":1916, "scope_name":"netlink_seq_socket_idx", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":1963, "type":"c", "scope_line":1950, "scope_name":"netlink_seq_next", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":1977, "type":"c", "scope_line":1950, "scope_name":"netlink_seq_next", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":240, "type":"c", "scope_line":229, "scope_name":"netlink_lookup", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":360, "type":"c", "scope_line":347, "scope_name":"netlink_insert", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":507, "type":"c", "scope_line":484, "scope_name":"netlink_release", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":534, "type":"c", "scope_line":484, "scope_name":"netlink_release", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":543, "type":"c", "scope_line":540, "scope_name":"netlink_autobind", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":557, "type":"c", "scope_line":540, "scope_name":"netlink_autobind", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":636, "type":"c", "scope_line":632, "scope_name":"netlink_bind", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":753, "type":"c", "scope_line":748, "scope_name":"netlink_getsockbypid", }
+,{"id":"sock_net", "file":"net/netlink/af_netlink.c", "line":998, "type":"c", "scope_line":985, "scope_name":"do_one_broadcast", }
+,{"id":"sock_net", "file":"net/netlink/genetlink.c", "line":497, "type":"c", "scope_line":493, "scope_name":"genl_rcv_msg", }
+,{"id":"sock_net", "file":"net/netlink/genetlink.c", "line":687, "type":"c", "scope_line":682, "scope_name":"ctrl_dumpfamily", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":1131, "type":"c", "scope_line":1095, "scope_name":"packet_snd", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":1287, "type":"c", "scope_line":1277, "scope_name":"packet_release", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":1401, "type":"c", "scope_line":1385, "scope_name":"packet_bind_spkt", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":1428, "type":"c", "scope_line":1409, "scope_name":"packet_bind", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":1720, "type":"c", "scope_line":1709, "scope_name":"packet_getname_spkt", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":1746, "type":"c", "scope_line":1731, "scope_name":"packet_getname", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":1811, "type":"c", "scope_line":1801, "scope_name":"packet_mc_add", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":1869, "type":"c", "scope_line":1855, "scope_name":"packet_mc_drop", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":1895, "type":"c", "scope_line":1882, "scope_name":"packet_flush_mclist", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":366, "type":"c", "scope_line":339, "scope_name":"packet_rcv_spkt", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":440, "type":"c", "scope_line":411, "scope_name":"packet_sendmsg_spkt", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":548, "type":"c", "scope_line":532, "scope_name":"packet_rcv", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":669, "type":"c", "scope_line":642, "scope_name":"tpacket_rcv", }
+,{"id":"sock_net", "file":"net/packet/af_packet.c", "line":979, "type":"c", "scope_line":943, "scope_name":"tpacket_snd", }
+,{"id":"sock_net", "file":"net/sched/act_api.c", "line":982, "type":"c", "scope_line":980, "scope_name":"tc_ctl_action", }
+,{"id":"sock_net", "file":"net/sched/cls_api.c", "line":123, "type":"c", "scope_line":121, "scope_name":"tc_ctl_tfilter", }
+,{"id":"sock_net", "file":"net/sched/cls_api.c", "line":410, "type":"c", "scope_line":408, "scope_name":"tc_dump_tfilter", }
+,{"id":"sock_net", "file":"net/sched/sch_api.c", "line":1019, "type":"c", "scope_line":1017, "scope_name":"tc_modify_qdisc", }
+,{"id":"sock_net", "file":"net/sched/sch_api.c", "line":1285, "type":"c", "scope_line":1283, "scope_name":"tc_dump_qdisc", }
+,{"id":"sock_net", "file":"net/sched/sch_api.c", "line":1334, "type":"c", "scope_line":1332, "scope_name":"tc_ctl_tclass", }
+,{"id":"sock_net", "file":"net/sched/sch_api.c", "line":1582, "type":"c", "scope_line":1579, "scope_name":"tc_dump_tclass", }
+,{"id":"sock_net", "file":"net/sched/sch_api.c", "line":959, "type":"c", "scope_line":957, "scope_name":"tc_get_qdisc", }
+,{"id":"sock_net", "file":"net/socket.c", "line":1431, "type":"c", "scope_line":1423, "scope_name":"sys_listen", }
+,{"id":"sock_net", "file":"net/socket.c", "line":2862, "type":"c", "scope_line":2857, "scope_name":"compat_sock_ioctl_trans", }
+,{"id":"sock_net", "file":"net/socket.c", "line":2979, "type":"c", "scope_line":2970, "scope_name":"compat_sock_ioctl", }
+,{"id":"sock_net", "file":"net/socket.c", "line":952, "type":"c", "scope_line":942, "scope_name":"sock_ioctl", }
+,{"id":"sock_net", "file":"net/unix/af_unix.c", "line":1050, "type":"c", "scope_line":1045, "scope_name":"unix_stream_connect", }
+,{"id":"sock_net", "file":"net/unix/af_unix.c", "line":1079, "type":"c", "scope_line":1045, "scope_name":"unix_stream_connect", }
+,{"id":"sock_net", "file":"net/unix/af_unix.c", "line":1386, "type":"c", "scope_line":1381, "scope_name":"unix_dgram_sendmsg", }
+,{"id":"sock_net", "file":"net/unix/af_unix.c", "line":2149, "type":"c", "scope_line":2142, "scope_name":"unix_seq_idx", }
+,{"id":"sock_net", "file":"net/unix/af_unix.c", "line":2175, "type":"c", "scope_line":2165, "scope_name":"unix_seq_next", }
+,{"id":"sock_net", "file":"net/unix/af_unix.c", "line":258, "type":"c", "scope_line":248, "scope_name":"__unix_find_socket_byname", }
+,{"id":"sock_net", "file":"net/unix/af_unix.c", "line":365, "type":"c", "scope_line":346, "scope_name":"unix_sock_destructor", }
+,{"id":"sock_net", "file":"net/unix/af_unix.c", "line":638, "type":"c", "scope_line":604, "scope_name":"unix_create1", }
+,{"id":"sock_net", "file":"net/unix/af_unix.c", "line":690, "type":"c", "scope_line":687, "scope_name":"unix_autobind", }
+,{"id":"sock_net", "file":"net/unix/af_unix.c", "line":805, "type":"c", "scope_line":802, "scope_name":"unix_bind", }
+,{"id":"sock_net", "file":"net/unix/af_unix.c", "line":954, "type":"c", "scope_line":950, "scope_name":"unix_dgram_connect", }
+,{"id":"sock_net_set", "file":"include/net/sock.h", "line":1717, "type":"f", }
+,{"id":"sock_net_set", "file":"include/net/sock.h", "line":1732, "type":"c", "scope_line":1729, "scope_name":"sk_change_net", }
+,{"id":"sock_net_set", "file":"net/core/sock.c", "line":1110, "type":"c", "scope_line":1096, "scope_name":"sk_alloc", }
+,{"id":"sock_net_set", "file":"net/core/sock.c", "line":1175, "type":"c", "scope_line":1167, "scope_name":"sk_release_kernel", }
+,{"id":"sock_no_accept", "file":"net/core/sock.c", "line":1760, "type":"f", }
+,{"id":"sock_no_bind", "file":"net/core/sock.c", "line":1741, "type":"f", }
+,{"id":"sock_no_connect", "file":"net/core/sock.c", "line":1747, "type":"f", }
+,{"id":"sock_no_getname", "file":"net/core/sock.c", "line":1766, "type":"f", }
+,{"id":"sock_no_getsockopt", "file":"net/core/sock.c", "line":1804, "type":"f", }
+,{"id":"sock_no_ioctl", "file":"net/core/sock.c", "line":1779, "type":"f", }
+,{"id":"sock_no_listen", "file":"net/core/sock.c", "line":1785, "type":"f", }
+,{"id":"sock_no_mmap", "file":"net/core/sock.c", "line":1825, "type":"f", }
+,{"id":"sock_no_open", "file":"net/socket.c", "line":497, "type":"f", }
+,{"id":"sock_no_poll", "file":"net/core/sock.c", "line":1773, "type":"f", }
+,{"id":"sock_no_recvmsg", "file":"net/core/sock.c", "line":1818, "type":"f", }
+,{"id":"sock_no_sendmsg", "file":"net/core/sock.c", "line":1811, "type":"f", }
+,{"id":"sock_no_sendpage", "file":"net/core/sock.c", "line":1832, "type":"f", }
+,{"id":"sock_no_sendpage", "file":"net/ipv4/af_inet.c", "line":752, "type":"c", "scope_line":738, "scope_name":"inet_sendpage", }
+,{"id":"sock_no_sendpage", "file":"net/ipv4/tcp.c", "line":872, "type":"c", "scope_line":865, "scope_name":"tcp_sendpage", }
+,{"id":"sock_no_sendpage", "file":"net/ipv4/udp.c", "line":1019, "type":"c", "scope_line":989, "scope_name":"udp_sendpage", }
+,{"id":"sock_no_sendpage", "file":"net/socket.c", "line":3095, "type":"c", "scope_line":3087, "scope_name":"kernel_sendpage", }
+,{"id":"sock_no_setsockopt", "file":"net/core/sock.c", "line":1797, "type":"f", }
+,{"id":"sock_no_shutdown", "file":"net/core/sock.c", "line":1791, "type":"f", }
+,{"id":"sock_no_socketpair", "file":"net/core/sock.c", "line":1754, "type":"f", }
+,{"id":"sock_orphan", "file":"include/net/sock.h", "line":1252, "type":"f", }
+,{"id":"sock_orphan", "file":"net/core/sock.c", "line":2212, "type":"c", "scope_line":2185, "scope_name":"sk_common_release", }
+,{"id":"sock_orphan", "file":"net/ipv4/inet_connection_sock.c", "line":695, "type":"c", "scope_line":662, "scope_name":"inet_csk_listen_stop", }
+,{"id":"sock_orphan", "file":"net/ipv4/tcp.c", "line":1965, "type":"c", "scope_line":1880, "scope_name":"tcp_close", }
+,{"id":"sock_orphan", "file":"net/netlink/af_netlink.c", "line":493, "type":"c", "scope_line":484, "scope_name":"netlink_release", }
+,{"id":"sock_orphan", "file":"net/packet/af_packet.c", "line":1321, "type":"c", "scope_line":1277, "scope_name":"packet_release", }
+,{"id":"sock_orphan", "file":"net/unix/af_unix.c", "line":386, "type":"c", "scope_line":373, "scope_name":"unix_release_sock", }
+,{"id":"sock_owned_by_user", "file":"include/net/sock.h", "line":997, "type":"d", }
+,{"id":"sock_pipe_buf_get", "file":"net/core/skbuff.c", "line":82, "type":"f", }
+,{"id":"sock_pipe_buf_ops", "file":"net/core/skbuff.c", "line":96, "type":"v", }
+,{"id":"sock_pipe_buf_release", "file":"net/core/skbuff.c", "line":76, "type":"f", }
+,{"id":"sock_pipe_buf_steal", "file":"net/core/skbuff.c", "line":88, "type":"f", }
+,{"id":"sock_poll", "file":"net/socket.c", "line":1047, "type":"f", }
+,{"id":"sock_poll_wait", "file":"include/net/sock.h", "line":1474, "type":"f", }
+,{"id":"sock_poll_wait", "file":"net/core/datagram.c", "line":742, "type":"c", "scope_line":736, "scope_name":"datagram_poll", }
+,{"id":"sock_poll_wait", "file":"net/ipv4/tcp.c", "line":379, "type":"c", "scope_line":373, "scope_name":"tcp_poll", }
+,{"id":"sock_poll_wait", "file":"net/unix/af_unix.c", "line":2027, "type":"c", "scope_line":2022, "scope_name":"unix_poll", }
+,{"id":"sock_poll_wait", "file":"net/unix/af_unix.c", "line":2064, "type":"c", "scope_line":2058, "scope_name":"unix_dgram_poll", }
+,{"id":"sock_poll_wait", "file":"net/unix/af_unix.c", "line":2095, "type":"c", "scope_line":2058, "scope_name":"unix_dgram_poll", }
+,{"id":"sock_prot_inuse_add", "file":"net/core/sock.c", "line":2233, "type":"f", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv4/inet_hashtables.c", "line":327, "type":"c", "scope_line":268, "scope_name":"__inet_check_established", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv4/inet_hashtables.c", "line":374, "type":"c", "scope_line":352, "scope_name":"__inet_hash_nolisten", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv4/inet_hashtables.c", "line":394, "type":"c", "scope_line":379, "scope_name":"__inet_hash", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv4/inet_hashtables.c", "line":425, "type":"c", "scope_line":408, "scope_name":"inet_unhash", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv4/inet_timewait_sock.c", "line":156, "type":"c", "scope_line":125, "scope_name":"__inet_twsk_hashdance", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv4/raw.c", "line":104, "type":"c", "scope_line":98, "scope_name":"raw_unhash_sk", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv4/raw.c", "line":93, "type":"c", "scope_line":84, "scope_name":"raw_hash_sk", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv4/udp.c", "line":1251, "type":"c", "scope_line":1237, "scope_name":"udp_lib_unhash", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv4/udp.c", "line":282, "type":"c", "scope_line":195, "scope_name":"udp_lib_get_port", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv6/inet6_hashtables.c", "line":270, "type":"c", "scope_line":213, "scope_name":"__inet6_check_established", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv6/inet6_hashtables.c", "line":56, "type":"c", "scope_line":25, "scope_name":"__inet6_hash", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv6/ipv6_sockglue.c", "line":195, "type":"c", "scope_line":124, "scope_name":"do_ipv6_setsockopt", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv6/ipv6_sockglue.c", "line":196, "type":"c", "scope_line":124, "scope_name":"do_ipv6_setsockopt", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv6/ipv6_sockglue.c", "line":209, "type":"c", "scope_line":124, "scope_name":"do_ipv6_setsockopt", }
+,{"id":"sock_prot_inuse_add", "file":"net/ipv6/ipv6_sockglue.c", "line":210, "type":"c", "scope_line":124, "scope_name":"do_ipv6_setsockopt", }
+,{"id":"sock_prot_inuse_add", "file":"net/netlink/af_netlink.c", "line":471, "type":"c", "scope_line":431, "scope_name":"netlink_create", }
+,{"id":"sock_prot_inuse_add", "file":"net/netlink/af_netlink.c", "line":534, "type":"c", "scope_line":484, "scope_name":"netlink_release", }
+,{"id":"sock_prot_inuse_add", "file":"net/packet/af_packet.c", "line":1292, "type":"c", "scope_line":1277, "scope_name":"packet_release", }
+,{"id":"sock_prot_inuse_add", "file":"net/packet/af_packet.c", "line":1506, "type":"c", "scope_line":1450, "scope_name":"packet_create", }
+,{"id":"sock_prot_inuse_add", "file":"net/unix/af_unix.c", "line":365, "type":"c", "scope_line":346, "scope_name":"unix_sock_destructor", }
+,{"id":"sock_prot_inuse_add", "file":"net/unix/af_unix.c", "line":638, "type":"c", "scope_line":604, "scope_name":"unix_create1", }
+,{"id":"sock_prot_inuse_get", "file":"net/core/sock.c", "line":2239, "type":"f", }
+,{"id":"sock_prot_inuse_get", "file":"net/core/sock.c", "line":2457, "type":"c", "scope_line":2446, "scope_name":"proto_seq_printf", }
+,];
+xr_frag_insert('t/37/9f216e4ec8f9ca7cd1a6838194f1d4be4d3b34.xr', __xr_tmp);

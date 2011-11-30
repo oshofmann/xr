@@ -1,0 +1,270 @@
+var __xr_tmp = [
+{"id":"ICMP_MIB_INECHOREPS", "file":"include/linux/snmp.h", "line":70, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_INECHOS", "file":"include/linux/snmp.h", "line":69, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_INERRORS", "file":"include/linux/snmp.h", "line":63, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_INMSGS", "file":"include/linux/snmp.h", "line":62, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_INPARMPROBS", "file":"include/linux/snmp.h", "line":66, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_INREDIRECTS", "file":"include/linux/snmp.h", "line":68, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_INSRCQUENCHS", "file":"include/linux/snmp.h", "line":67, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_INTIMEEXCDS", "file":"include/linux/snmp.h", "line":65, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_INTIMESTAMPREPS", "file":"include/linux/snmp.h", "line":72, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_INTIMESTAMPS", "file":"include/linux/snmp.h", "line":71, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_MAX", "file":"include/net/snmp.h", "line":64, "type":"d", }
+,{"id":"ICMP_MIB_NUM", "file":"include/linux/snmp.h", "line":61, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTADDRMASKREPS", "file":"include/linux/snmp.h", "line":87, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTADDRMASKS", "file":"include/linux/snmp.h", "line":86, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTDESTUNREACHS", "file":"include/linux/snmp.h", "line":77, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTECHOREPS", "file":"include/linux/snmp.h", "line":83, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTECHOS", "file":"include/linux/snmp.h", "line":82, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTERRORS", "file":"include/linux/snmp.h", "line":76, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTMSGS", "file":"include/linux/snmp.h", "line":75, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTPARMPROBS", "file":"include/linux/snmp.h", "line":79, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTREDIRECTS", "file":"include/linux/snmp.h", "line":81, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTSRCQUENCHS", "file":"include/linux/snmp.h", "line":80, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTTIMEEXCDS", "file":"include/linux/snmp.h", "line":78, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTTIMESTAMPREPS", "file":"include/linux/snmp.h", "line":85, "type":"e", "scope_line":59, }
+,{"id":"ICMP_MIB_OUTTIMESTAMPS", "file":"include/linux/snmp.h", "line":84, "type":"e", "scope_line":59, }
+,{"id":"ICMP_NET_ANO", "file":"include/linux/icmp.h", "line":48, "type":"d", }
+,{"id":"ICMP_NET_UNKNOWN", "file":"include/linux/icmp.h", "line":45, "type":"d", }
+,{"id":"ICMP_NET_UNREACH", "file":"include/linux/icmp.h", "line":39, "type":"d", }
+,{"id":"ICMP_NET_UNR_TOS", "file":"include/linux/icmp.h", "line":50, "type":"d", }
+,{"id":"ICMP_PARAMETERPROB", "file":"include/linux/icmp.h", "line":28, "type":"d", }
+,{"id":"ICMP_PKT_FILTERED", "file":"include/linux/icmp.h", "line":52, "type":"d", }
+,{"id":"ICMP_PORT_UNREACH", "file":"include/linux/icmp.h", "line":42, "type":"d", }
+,{"id":"ICMP_PREC_CUTOFF", "file":"include/linux/icmp.h", "line":54, "type":"d", }
+,{"id":"ICMP_PREC_VIOLATION", "file":"include/linux/icmp.h", "line":53, "type":"d", }
+,{"id":"ICMP_PROT_UNREACH", "file":"include/linux/icmp.h", "line":41, "type":"d", }
+,{"id":"ICMP_REDIRECT", "file":"include/linux/icmp.h", "line":25, "type":"d", }
+,{"id":"ICMP_REDIR_HOST", "file":"include/linux/icmp.h", "line":59, "type":"d", }
+,{"id":"ICMP_REDIR_HOSTTOS", "file":"include/linux/icmp.h", "line":61, "type":"d", }
+,{"id":"ICMP_REDIR_NET", "file":"include/linux/icmp.h", "line":58, "type":"d", }
+,{"id":"ICMP_REDIR_NETTOS", "file":"include/linux/icmp.h", "line":60, "type":"d", }
+,{"id":"ICMP_SOURCE_QUENCH", "file":"include/linux/icmp.h", "line":24, "type":"d", }
+,{"id":"ICMP_SR_FAILED", "file":"include/linux/icmp.h", "line":44, "type":"d", }
+,{"id":"ICMP_TIMESTAMP", "file":"include/linux/icmp.h", "line":29, "type":"d", }
+,{"id":"ICMP_TIMESTAMPREPLY", "file":"include/linux/icmp.h", "line":30, "type":"d", }
+,{"id":"ICMP_TIME_EXCEEDED", "file":"include/linux/icmp.h", "line":27, "type":"d", }
+,{"id":"ICRNL", "file":"include/asm-generic/termbits.h", "line":70, "type":"d", }
+,{"id":"ICSK_ACK_PUSHED", "file":"include/net/inet_connection_sock.h", "line":153, "type":"e", "scope_line":150, "scope_name":"inet_csk_ack_state_t", }
+,{"id":"ICSK_ACK_PUSHED2", "file":"include/net/inet_connection_sock.h", "line":154, "type":"e", "scope_line":150, "scope_name":"inet_csk_ack_state_t", }
+,{"id":"ICSK_ACK_SCHED", "file":"include/net/inet_connection_sock.h", "line":151, "type":"e", "scope_line":150, "scope_name":"inet_csk_ack_state_t", }
+,{"id":"ICSK_ACK_TIMER", "file":"include/net/inet_connection_sock.h", "line":152, "type":"e", "scope_line":150, "scope_name":"inet_csk_ack_state_t", }
+,{"id":"ICSK_CA_PRIV_SIZE", "file":"include/net/inet_connection_sock.h", "line":128, "type":"d", }
+,{"id":"ICSK_TIME_DACK", "file":"include/net/inet_connection_sock.h", "line":132, "type":"d", }
+,{"id":"ICSK_TIME_KEEPOPEN", "file":"include/net/inet_connection_sock.h", "line":134, "type":"d", }
+,{"id":"ICSK_TIME_PROBE0", "file":"include/net/inet_connection_sock.h", "line":133, "type":"d", }
+,{"id":"ICSK_TIME_RETRANS", "file":"include/net/inet_connection_sock.h", "line":131, "type":"d", }
+,{"id":"ID", "file":"arch/x86/include/asm/io_apic.h", "line":34, "type":"m", "scope_line":27, "scope_name":"union IO_APIC_reg_00", }
+,{"id":"IDA_BITMAP_BITS", "file":"include/linux/idr.h", "line":123, "type":"d", }
+,{"id":"IDA_BITMAP_LONGS", "file":"include/linux/idr.h", "line":122, "type":"d", }
+,{"id":"IDA_CHUNK_SIZE", "file":"include/linux/idr.h", "line":121, "type":"d", }
+,{"id":"IDA_INIT", "file":"include/linux/idr.h", "line":135, "type":"d", }
+,{"id":"IDE", "file":"drivers/ata/ata_piix.c", "line":124, "type":"e", "scope_line":101, }
+,{"id":"IDE0_MAJOR", "file":"include/linux/major.h", "line":14, "type":"d", }
+,{"id":"IDE1_MAJOR", "file":"include/linux/major.h", "line":41, "type":"d", }
+,{"id":"IDE2_MAJOR", "file":"include/linux/major.h", "line":58, "type":"d", }
+,{"id":"IDE3_MAJOR", "file":"include/linux/major.h", "line":59, "type":"d", }
+,{"id":"IDE4_MAJOR", "file":"include/linux/major.h", "line":75, "type":"d", }
+,{"id":"IDE5_MAJOR", "file":"include/linux/major.h", "line":76, "type":"d", }
+,{"id":"IDE6_MAJOR", "file":"include/linux/major.h", "line":105, "type":"d", }
+,{"id":"IDE7_MAJOR", "file":"include/linux/major.h", "line":106, "type":"d", }
+,{"id":"IDE8_MAJOR", "file":"include/linux/major.h", "line":107, "type":"d", }
+,{"id":"IDE9_MAJOR", "file":"include/linux/major.h", "line":108, "type":"d", }
+,{"id":"IDENTIFY", "file":"include/scsi/scsi.h", "line":468, "type":"d", }
+,{"id":"IDENTIFY_BASE", "file":"include/scsi/scsi.h", "line":467, "type":"d", }
+,{"id":"IDENTITY_PAGETABLE_PRIVATE_MEMSLOT", "file":"arch/x86/include/asm/vmx.h", "line":360, "type":"d", }
+,{"id":"IDETAPE_MAJOR", "file":"include/linux/major.h", "line":64, "type":"d", }
+,{"id":"IDE_AFLAG_ADDRESS_VALID", "file":"include/linux/ide.h", "line":414, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_BUSY", "file":"include/linux/ide.h", "line":416, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_CLIK_DRIVE", "file":"include/linux/ide.h", "line":405, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_DETECT_BS", "file":"include/linux/ide.h", "line":418, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_DOOR_LOCKED", "file":"include/linux/ide.h", "line":393, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_DRQ_INTERRUPT", "file":"include/linux/ide.h", "line":379, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_FILEMARK", "file":"include/linux/ide.h", "line":420, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_FULL_CAPS_PAGE", "file":"include/linux/ide.h", "line":399, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_IGNORE_DSC", "file":"include/linux/ide.h", "line":412, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_LE_SPEED_FIELDS", "file":"include/linux/ide.h", "line":401, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_MEDIUM_PRESENT", "file":"include/linux/ide.h", "line":422, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_NO_AUTOCLOSE", "file":"include/linux/ide.h", "line":424, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_NO_EJECT", "file":"include/linux/ide.h", "line":383, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_NO_SPEED_SELECT", "file":"include/linux/ide.h", "line":395, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_PLAY_AUDIO_OK", "file":"include/linux/ide.h", "line":400, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_PRE_ATAPI12", "file":"include/linux/ide.h", "line":385, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_SANYO_3CD", "file":"include/linux/ide.h", "line":398, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_SRFP", "file":"include/linux/ide.h", "line":409, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_TOCADDR_AS_BCD", "file":"include/linux/ide.h", "line":387, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_TOCTRACKS_AS_BCD", "file":"include/linux/ide.h", "line":389, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_TOC_VALID", "file":"include/linux/ide.h", "line":391, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_VERTOS_300_SSD", "file":"include/linux/ide.h", "line":396, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_VERTOS_600_ESD", "file":"include/linux/ide.h", "line":397, "type":"e", "scope_line":378, }
+,{"id":"IDE_AFLAG_ZIP_DRIVE", "file":"include/linux/ide.h", "line":407, "type":"e", "scope_line":378, }
+,{"id":"IDE_DBG_FUNC", "file":"include/linux/ide.h", "line":953, "type":"e", "scope_line":951, }
+,{"id":"IDE_DBG_PC", "file":"include/linux/ide.h", "line":957, "type":"e", "scope_line":951, }
+,{"id":"IDE_DBG_PROBE", "file":"include/linux/ide.h", "line":961, "type":"e", "scope_line":951, }
+,{"id":"IDE_DBG_RQ", "file":"include/linux/ide.h", "line":959, "type":"e", "scope_line":951, }
+,{"id":"IDE_DBG_SENSE", "file":"include/linux/ide.h", "line":955, "type":"e", "scope_line":951, }
+,{"id":"IDE_DEFAULT_MAX_FAILURES", "file":"include/linux/ide.h", "line":41, "type":"d", }
+,{"id":"IDE_DEVSET", "file":"include/linux/ide.h", "line":862, "type":"d", }
+,{"id":"IDE_DFLAG_ATTACH", "file":"include/linux/ide.h", "line":451, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_BLOCKED", "file":"include/linux/ide.h", "line":462, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_DMA_PIO_RETRY", "file":"include/linux/ide.h", "line":473, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_DOORLOCKING", "file":"include/linux/ide.h", "line":458, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_DSC_OVERLAP", "file":"include/linux/ide.h", "line":438, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_FORCED_GEOM", "file":"include/linux/ide.h", "line":452, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_FORMAT_IN_PROGRESS", "file":"include/linux/ide.h", "line":482, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_ID_READ", "file":"include/linux/ide.h", "line":446, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_KEEP_SETTINGS", "file":"include/linux/ide.h", "line":430, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_LBA", "file":"include/linux/ide.h", "line":474, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_LBA48", "file":"include/linux/ide.h", "line":467, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_MEDIA_CHANGED", "file":"include/linux/ide.h", "line":479, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_NICE1", "file":"include/linux/ide.h", "line":440, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_NIEN_QUIRK", "file":"include/linux/ide.h", "line":483, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_NODMA", "file":"include/linux/ide.h", "line":460, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_NOFLUSH", "file":"include/linux/ide.h", "line":436, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_NOHPA", "file":"include/linux/ide.h", "line":444, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_NOPROBE", "file":"include/linux/ide.h", "line":447, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_NOWERR", "file":"include/linux/ide.h", "line":471, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_NO_IO_32BIT", "file":"include/linux/ide.h", "line":456, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_NO_UNLOAD", "file":"include/linux/ide.h", "line":476, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_NO_UNMASK", "file":"include/linux/ide.h", "line":454, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_PARKED", "file":"include/linux/ide.h", "line":478, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_POST_RESET", "file":"include/linux/ide.h", "line":465, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_PRESENT", "file":"include/linux/ide.h", "line":442, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_REMOVABLE", "file":"include/linux/ide.h", "line":449, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_SLEEPING", "file":"include/linux/ide.h", "line":464, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_UDMA33_WARNED", "file":"include/linux/ide.h", "line":466, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_UNMASK", "file":"include/linux/ide.h", "line":434, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_USING_DMA", "file":"include/linux/ide.h", "line":432, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_WCACHE", "file":"include/linux/ide.h", "line":469, "type":"e", "scope_line":428, }
+,{"id":"IDE_DFLAG_WP", "file":"include/linux/ide.h", "line":481, "type":"e", "scope_line":428, }
+,{"id":"IDE_DRIVE_TASK_NO_DATA", "file":"include/linux/hdreg.h", "line":14, "type":"d", }
+,{"id":"IDE_DRIVE_TASK_RAW_WRITE", "file":"include/linux/hdreg.h", "line":21, "type":"d", }
+,{"id":"IDE_DRV_ERROR_EOD", "file":"include/linux/ide.h", "line":50, "type":"e", "scope_line":47, }
+,{"id":"IDE_DRV_ERROR_FILEMARK", "file":"include/linux/ide.h", "line":49, "type":"e", "scope_line":47, }
+,{"id":"IDE_DRV_ERROR_GENERAL", "file":"include/linux/ide.h", "line":48, "type":"e", "scope_line":47, }
+,{"id":"IDE_FTFLAG_FLAGGED", "file":"include/linux/ide.h", "line":265, "type":"e", "scope_line":264, }
+,{"id":"IDE_FTFLAG_IN_DATA", "file":"include/linux/ide.h", "line":268, "type":"e", "scope_line":264, }
+,{"id":"IDE_FTFLAG_OUT_DATA", "file":"include/linux/ide.h", "line":267, "type":"e", "scope_line":264, }
+,{"id":"IDE_FTFLAG_SET_IN_FLAGS", "file":"include/linux/ide.h", "line":266, "type":"e", "scope_line":264, }
+,{"id":"IDE_HFLAG_4DRIVES", "file":"include/linux/ide.h", "line":1262, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_ABUSE_DMA_MODES", "file":"include/linux/ide.h", "line":1227, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_ABUSE_FAST_DEVSEL", "file":"include/linux/ide.h", "line":1225, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_ABUSE_PREFETCH", "file":"include/linux/ide.h", "line":1223, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_BROKEN_ALTSTATUS", "file":"include/linux/ide.h", "line":1269, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_CLEAR_SIMPLEX", "file":"include/linux/ide.h", "line":1273, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_CS5520", "file":"include/linux/ide.h", "line":1240, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_DTC2278", "file":"include/linux/ide.h", "line":1260, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_ERROR_STOPS_FIFO", "file":"include/linux/ide.h", "line":1256, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_IO_32BIT", "file":"include/linux/ide.h", "line":1266, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_ISA_PORTS", "file":"include/linux/ide.h", "line":1215, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_MMIO", "file":"include/linux/ide.h", "line":1250, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_NON_BOOTABLE", "file":"include/linux/ide.h", "line":1244, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_NO_ATAPI_DMA", "file":"include/linux/ide.h", "line":1242, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_NO_AUTODMA", "file":"include/linux/ide.h", "line":1248, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_NO_DMA", "file":"include/linux/ide.h", "line":1246, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_NO_DSC", "file":"include/linux/ide.h", "line":1275, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_NO_IO_32BIT", "file":"include/linux/ide.h", "line":1277, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_NO_LBA48", "file":"include/linux/ide.h", "line":1252, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_NO_LBA48_DMA", "file":"include/linux/ide.h", "line":1254, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_NO_SET_MODE", "file":"include/linux/ide.h", "line":1236, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_NO_UNMASK_IRQS", "file":"include/linux/ide.h", "line":1279, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_OFF_BOARD", "file":"include/linux/ide.h", "line":1285, "type":"d", }
+,{"id":"IDE_HFLAG_PIO_NO_BLACKLIST", "file":"include/linux/ide.h", "line":1219, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_POST_SET_MODE", "file":"include/linux/ide.h", "line":1234, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_QD_2ND_PORT", "file":"include/linux/ide.h", "line":1221, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_SERIALIZE", "file":"include/linux/ide.h", "line":1258, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_SERIALIZE_DMA", "file":"include/linux/ide.h", "line":1271, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_SET_PIO_MODE_KEEP_DMA", "file":"include/linux/ide.h", "line":1232, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_SINGLE", "file":"include/linux/ide.h", "line":1217, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_TRM290", "file":"include/linux/ide.h", "line":1264, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_TRUST_BIOS_FOR_DMA", "file":"include/linux/ide.h", "line":1238, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HFLAG_UNMASK_IRQS", "file":"include/linux/ide.h", "line":1268, "type":"e", "scope_line":1213, }
+,{"id":"IDE_HOB_STD_IN_FLAGS", "file":"include/linux/hdreg.h", "line":27, "type":"d", }
+,{"id":"IDE_HOST_BUSY", "file":"include/linux/ide.h", "line":798, "type":"d", }
+,{"id":"IDE_NICE_1", "file":"include/linux/hdreg.h", "line":652, "type":"d", }
+,{"id":"IDE_NICE_ATAPI_OVERLAP", "file":"include/linux/hdreg.h", "line":651, "type":"d", }
+,{"id":"IDE_NICE_DSC_OVERLAP", "file":"include/linux/hdreg.h", "line":650, "type":"d", }
+,{"id":"IDE_NR_PORTS", "file":"include/linux/ide.h", "line":56, "type":"d", }
+,{"id":"IDE_PFLAG_PROBING", "file":"include/linux/ide.h", "line":662, "type":"e", "scope_line":661, }
+,{"id":"IDE_PM_COMPLETED", "file":"include/linux/ide.h", "line":1000, "type":"e", "scope_line":990, }
+,{"id":"IDE_PM_FLUSH_CACHE", "file":"include/linux/ide.h", "line":992, "type":"e", "scope_line":990, }
+,{"id":"IDE_PM_IDLE", "file":"include/linux/ide.h", "line":997, "type":"e", "scope_line":990, }
+,{"id":"IDE_PM_RESTORE_DMA", "file":"include/linux/ide.h", "line":998, "type":"e", "scope_line":990, }
+,{"id":"IDE_PM_RESTORE_PIO", "file":"include/linux/ide.h", "line":996, "type":"e", "scope_line":990, }
+,{"id":"IDE_PM_STANDBY", "file":"include/linux/ide.h", "line":993, "type":"e", "scope_line":990, }
+,{"id":"IDE_PM_START_RESUME", "file":"include/linux/ide.h", "line":995, "type":"e", "scope_line":990, }
+,{"id":"IDE_PM_START_SUSPEND", "file":"include/linux/ide.h", "line":991, "type":"e", "scope_line":990, }
+,{"id":"IDE_SFLAG_RECALIBRATE", "file":"include/linux/ide.h", "line":216, "type":"e", "scope_line":214, }
+,{"id":"IDE_SFLAG_SET_GEOMETRY", "file":"include/linux/ide.h", "line":215, "type":"e", "scope_line":214, }
+,{"id":"IDE_SFLAG_SET_MULTMODE", "file":"include/linux/ide.h", "line":217, "type":"e", "scope_line":214, }
+,{"id":"IDE_TASKFILE_STD_IN_FLAGS", "file":"include/linux/hdreg.h", "line":26, "type":"d", }
+,{"id":"IDE_TFLAG_CUSTOM_HANDLER", "file":"include/linux/ide.h", "line":253, "type":"e", "scope_line":250, }
+,{"id":"IDE_TFLAG_DMA_PIO_FALLBACK", "file":"include/linux/ide.h", "line":254, "type":"e", "scope_line":250, }
+,{"id":"IDE_TFLAG_DYN", "file":"include/linux/ide.h", "line":258, "type":"e", "scope_line":250, }
+,{"id":"IDE_TFLAG_FS", "file":"include/linux/ide.h", "line":259, "type":"e", "scope_line":250, }
+,{"id":"IDE_TFLAG_IO_16BIT", "file":"include/linux/ide.h", "line":256, "type":"e", "scope_line":250, }
+,{"id":"IDE_TFLAG_LBA48", "file":"include/linux/ide.h", "line":251, "type":"e", "scope_line":250, }
+,{"id":"IDE_TFLAG_MULTI_PIO", "file":"include/linux/ide.h", "line":260, "type":"e", "scope_line":250, }
+,{"id":"IDE_TFLAG_SET_XFER", "file":"include/linux/ide.h", "line":261, "type":"e", "scope_line":250, }
+,{"id":"IDE_TFLAG_WRITE", "file":"include/linux/ide.h", "line":252, "type":"e", "scope_line":250, }
+,{"id":"IDE_TIMING_8BIT", "file":"include/linux/ide.h", "line":1480, "type":"e", "scope_line":1475, }
+,{"id":"IDE_TIMING_ACT8B", "file":"include/linux/ide.h", "line":1477, "type":"e", "scope_line":1475, }
+,{"id":"IDE_TIMING_ACTIVE", "file":"include/linux/ide.h", "line":1482, "type":"e", "scope_line":1475, }
+,{"id":"IDE_TIMING_ALL", "file":"include/linux/ide.h", "line":1486, "type":"e", "scope_line":1475, }
+,{"id":"IDE_TIMING_CYC8B", "file":"include/linux/ide.h", "line":1479, "type":"e", "scope_line":1475, }
+,{"id":"IDE_TIMING_CYCLE", "file":"include/linux/ide.h", "line":1484, "type":"e", "scope_line":1475, }
+,{"id":"IDE_TIMING_REC8B", "file":"include/linux/ide.h", "line":1478, "type":"e", "scope_line":1475, }
+,{"id":"IDE_TIMING_RECOVER", "file":"include/linux/ide.h", "line":1483, "type":"e", "scope_line":1475, }
+,{"id":"IDE_TIMING_SETUP", "file":"include/linux/ide.h", "line":1476, "type":"e", "scope_line":1475, }
+,{"id":"IDE_TIMING_UDMA", "file":"include/linux/ide.h", "line":1485, "type":"e", "scope_line":1475, }
+,{"id":"IDE_VALID_DEVICE", "file":"include/linux/ide.h", "line":235, "type":"e", "scope_line":228, }
+,{"id":"IDE_VALID_ERROR", "file":"include/linux/ide.h", "line":229, "type":"e", "scope_line":228, }
+,{"id":"IDE_VALID_FEATURE", "file":"include/linux/ide.h", "line":230, "type":"e", "scope_line":228, }
+,{"id":"IDE_VALID_IN_HOB", "file":"include/linux/ide.h", "line":245, "type":"e", "scope_line":228, }
+,{"id":"IDE_VALID_IN_TF", "file":"include/linux/ide.h", "line":242, "type":"e", "scope_line":228, }
+,{"id":"IDE_VALID_LBA", "file":"include/linux/ide.h", "line":236, "type":"e", "scope_line":228, }
+,{"id":"IDE_VALID_LBAH", "file":"include/linux/ide.h", "line":234, "type":"e", "scope_line":228, }
+,{"id":"IDE_VALID_LBAL", "file":"include/linux/ide.h", "line":232, "type":"e", "scope_line":228, }
+,{"id":"IDE_VALID_LBAM", "file":"include/linux/ide.h", "line":233, "type":"e", "scope_line":228, }
+,{"id":"IDE_VALID_NSECT", "file":"include/linux/ide.h", "line":231, "type":"e", "scope_line":228, }
+,{"id":"IDE_VALID_OUT_HOB", "file":"include/linux/ide.h", "line":244, "type":"e", "scope_line":228, }
+,{"id":"IDE_VALID_OUT_TF", "file":"include/linux/ide.h", "line":239, "type":"e", "scope_line":228, }
+,{"id":"IDLE_END", "file":"arch/x86/include/asm/idle.h", "line":5, "type":"d", }
+,{"id":"IDLE_START", "file":"arch/x86/include/asm/idle.h", "line":4, "type":"d", }
+,{"id":"IDLE_WORKER_TIMEOUT", "file":"kernel/workqueue.c", "line":83, "type":"e", "scope_line":50, }
+,{"id":"IDLE_WORKLOAD", "file":"block/cfq-iosched.c", "line":162, "type":"e", "scope_line":159, "scope_name":"wl_prio_t", }
+,{"id":"IDR_BITS", "file":"include/linux/idr.h", "line":28, "type":"d", }
+,{"id":"IDR_FREE_MAX", "file":"include/linux/idr.h", "line":49, "type":"d", }
+,{"id":"IDR_FULL", "file":"include/linux/idr.h", "line":29, "type":"d", }
+,{"id":"IDR_INIT", "file":"include/linux/idr.h", "line":67, "type":"d", }
+,{"id":"IDR_MASK", "file":"include/linux/idr.h", "line":39, "type":"d", }
+,{"id":"IDR_NEED_TO_GROW", "file":"include/linux/idr.h", "line":78, "type":"d", }
+,{"id":"IDR_NOMORE_SPACE", "file":"include/linux/idr.h", "line":79, "type":"d", }
+,{"id":"IDR_SIZE", "file":"include/linux/idr.h", "line":38, "type":"d", }
+,{"id":"IDT_ENTRIES", "file":"arch/x86/include/asm/segment.h", "line":204, "type":"d", }
+,{"id":"IDT_VECTORING_ERROR_CODE", "file":"arch/x86/include/asm/vmx.h", "line":162, "type":"e", "scope_line":80, "scope_name":"vmcs_field", }
+,{"id":"IDT_VECTORING_INFO_FIELD", "file":"arch/x86/include/asm/vmx.h", "line":161, "type":"e", "scope_line":80, "scope_name":"vmcs_field", }
+,{"id":"ID_BUS", "file":"include/linux/input.h", "line":795, "type":"d", }
+,{"id":"ID_MANUFACTURER_NAME", "file":"drivers/video/edid.h", "line":25, "type":"d", }
+,{"id":"ID_MANUFACTURER_NAME_END", "file":"drivers/video/edid.h", "line":26, "type":"d", }
+,{"id":"ID_MODEL", "file":"drivers/video/edid.h", "line":27, "type":"d", }
+,{"id":"ID_PRODUCT", "file":"include/linux/input.h", "line":797, "type":"d", }
+,{"id":"ID_SERIAL_NUMBER", "file":"drivers/video/edid.h", "line":29, "type":"d", }
+,{"id":"ID_SHIFT", "file":"drivers/gpio/gpiolib.c", "line":60, "type":"d", }
+,{"id":"ID_VENDOR", "file":"include/linux/input.h", "line":796, "type":"d", }
+,{"id":"ID_VERSION", "file":"include/linux/input.h", "line":798, "type":"d", }
+,{"id":"IEEE1394_MATCH_MODEL_ID", "file":"include/linux/mod_devicetable.h", "line":26, "type":"d", }
+,{"id":"IEEE1394_MATCH_SPECIFIER_ID", "file":"include/linux/mod_devicetable.h", "line":27, "type":"d", }
+,{"id":"IEEE1394_MATCH_VENDOR_ID", "file":"include/linux/mod_devicetable.h", "line":25, "type":"d", }
+,{"id":"IEEE1394_MATCH_VERSION", "file":"include/linux/mod_devicetable.h", "line":28, "type":"d", }
+,{"id":"IEEE80211_ADDBA_PARAM_BUF_SIZE_MASK", "file":"include/linux/ieee80211.h", "line":962, "type":"d", }
+,{"id":"IEEE80211_ADDBA_PARAM_POLICY_MASK", "file":"include/linux/ieee80211.h", "line":960, "type":"d", }
+,{"id":"IEEE80211_ADDBA_PARAM_TID_MASK", "file":"include/linux/ieee80211.h", "line":961, "type":"d", }
+,{"id":"IEEE80211_BAND_2GHZ", "file":"include/net/cfg80211.h", "line":43, "type":"e", "scope_line":42, "scope_name":"ieee80211_band", }
+,{"id":"IEEE80211_BAND_5GHZ", "file":"include/net/cfg80211.h", "line":44, "type":"e", "scope_line":42, "scope_name":"ieee80211_band", }
+,{"id":"IEEE80211_BAR_CTRL_ACK_POLICY_NORMAL", "file":"include/linux/ieee80211.h", "line":808, "type":"d", }
+,{"id":"IEEE80211_BAR_CTRL_CBMTID_COMPRESSED_BA", "file":"include/linux/ieee80211.h", "line":809, "type":"d", }
+,{"id":"IEEE80211_CHAN_DISABLED", "file":"include/net/cfg80211.h", "line":66, "type":"e", "scope_line":65, "scope_name":"ieee80211_channel_flags", }
+,{"id":"IEEE80211_CHAN_NO_HT40", "file":"include/net/cfg80211.h", "line":74, "type":"d", }
+,];
+xr_frag_insert('t/c1/8bd208efd89bf9eafce3c1e3315f1a02ad1481.xr', __xr_tmp);

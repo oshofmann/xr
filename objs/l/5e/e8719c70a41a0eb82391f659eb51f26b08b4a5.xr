@@ -1,0 +1,15 @@
+var __xr_tmp = [
+"<span class=\"comment\">/* Define pointer to external vDSO variables.</span>", 
+"<span class=\"comment\">   These are part of the vDSO. The kernel fills in the real addresses</span>", 
+"<span class=\"comment\">   at boot time. This is done because when the vdso is linked the</span>", 
+"<span class=\"comment\">   kernel isn't yet and we don't know the final addresses. */</span>", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#kernel\">kernel</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#time\">time</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#asm\">asm</a>/<a class=\"id\" href=\"#vsyscall\">vsyscall</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#asm\">asm</a>/<a class=\"id\" href=\"#timex\">timex</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#asm\">asm</a>/<a class=\"id\" href=\"#vgtod\">vgtod</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#VEXTERN\">VEXTERN</a>(<a class=\"id\" href=\"#x\">x</a>) <a class=\"id\" href=\"#typeof\">typeof</a> (<a class=\"id\" href=\"#__\">__</a> ## <a class=\"id\" href=\"#x\">x</a>) *const <a class=\"id\" href=\"#vdso_\">vdso_</a> ## <a class=\"id\" href=\"#x\">x</a> = (void *)<a class=\"id\" href=\"#VMAGIC\">VMAGIC</a>;", 
+"#<a class=\"id\" href=\"#include\">include</a> \"vextern.h\"", 
+];
+xr_frag_insert('l/5e/e8719c70a41a0eb82391f659eb51f26b08b4a5.xr', __xr_tmp);

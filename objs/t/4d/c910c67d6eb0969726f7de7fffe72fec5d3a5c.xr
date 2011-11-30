@@ -1,0 +1,158 @@
+var __xr_tmp = [
+{"id":"P4_EVENT_PAGE_WALK_TYPE__ITMISS", "file":"arch/x86/include/asm/perf_event_p4.h", "line":595, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_REPLAY_EVENT", "file":"arch/x86/include/asm/perf_event_p4.h", "line":253, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_REPLAY_EVENT_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":503, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_REPLAY_EVENT__BOGUS", "file":"arch/x86/include/asm/perf_event_p4.h", "line":720, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_REPLAY_EVENT__NBOGUS", "file":"arch/x86/include/asm/perf_event_p4.h", "line":719, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_RESOURCE_STALL", "file":"arch/x86/include/asm/perf_event_p4.h", "line":245, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_RESOURCE_STALL_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":455, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_RESOURCE_STALL__SBFULL", "file":"arch/x86/include/asm/perf_event_p4.h", "line":702, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_RESPONSE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":250, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_RESPONSE_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":485, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_RETIRED_BRANCH_TYPE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":244, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_RETIRED_BRANCH_TYPE_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":449, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_RETIRED_BRANCH_TYPE__CALL", "file":"arch/x86/include/asm/perf_event_p4.h", "line":698, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_RETIRED_BRANCH_TYPE__CONDITIONAL", "file":"arch/x86/include/asm/perf_event_p4.h", "line":697, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_RETIRED_BRANCH_TYPE__INDIRECT", "file":"arch/x86/include/asm/perf_event_p4.h", "line":700, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_RETIRED_BRANCH_TYPE__RETURN", "file":"arch/x86/include/asm/perf_event_p4.h", "line":699, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_RETIRED_MISPRED_BRANCH_TYPE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":243, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_RETIRED_MISPRED_BRANCH_TYPE_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":443, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_RETIRED_MISPRED_BRANCH_TYPE__CALL", "file":"arch/x86/include/asm/perf_event_p4.h", "line":693, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_RETIRED_MISPRED_BRANCH_TYPE__CONDITIONAL", "file":"arch/x86/include/asm/perf_event_p4.h", "line":692, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_RETIRED_MISPRED_BRANCH_TYPE__INDIRECT", "file":"arch/x86/include/asm/perf_event_p4.h", "line":695, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_RETIRED_MISPRED_BRANCH_TYPE__RETURN", "file":"arch/x86/include/asm/perf_event_p4.h", "line":694, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_SCALAR_DP_UOP", "file":"arch/x86/include/asm/perf_event_p4.h", "line":235, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_SCALAR_DP_UOP_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":395, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_SCALAR_DP_UOP__ALL", "file":"arch/x86/include/asm/perf_event_p4.h", "line":674, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_SCALAR_SP_UOP", "file":"arch/x86/include/asm/perf_event_p4.h", "line":234, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_SCALAR_SP_UOP_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":389, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_SCALAR_SP_UOP__ALL", "file":"arch/x86/include/asm/perf_event_p4.h", "line":672, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_SNOOP", "file":"arch/x86/include/asm/perf_event_p4.h", "line":249, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_SNOOP_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":479, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_SSE_INPUT_ASSIST", "file":"arch/x86/include/asm/perf_event_p4.h", "line":231, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_SSE_INPUT_ASSIST_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":371, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_SSE_INPUT_ASSIST__ALL", "file":"arch/x86/include/asm/perf_event_p4.h", "line":666, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_STORE_PORT_REPLAY", "file":"arch/x86/include/asm/perf_event_p4.h", "line":222, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_STORE_PORT_REPLAY_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":319, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_STORE_PORT_REPLAY__SPLIT_ST", "file":"arch/x86/include/asm/perf_event_p4.h", "line":587, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_TC_DELIVER_MODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":216, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_TC_DELIVER_MODE_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":283, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_TC_DELIVER_MODE__BB", "file":"arch/x86/include/asm/perf_event_p4.h", "line":569, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_TC_DELIVER_MODE__BD", "file":"arch/x86/include/asm/perf_event_p4.h", "line":568, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_TC_DELIVER_MODE__BI", "file":"arch/x86/include/asm/perf_event_p4.h", "line":570, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_TC_DELIVER_MODE__DB", "file":"arch/x86/include/asm/perf_event_p4.h", "line":566, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_TC_DELIVER_MODE__DD", "file":"arch/x86/include/asm/perf_event_p4.h", "line":565, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_TC_DELIVER_MODE__DI", "file":"arch/x86/include/asm/perf_event_p4.h", "line":567, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_TC_DELIVER_MODE__ID", "file":"arch/x86/include/asm/perf_event_p4.h", "line":571, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_TC_MISC", "file":"arch/x86/include/asm/perf_event_p4.h", "line":239, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_TC_MISC_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":419, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_TC_MISC__FLUSH", "file":"arch/x86/include/asm/perf_event_p4.h", "line":682, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_TC_MS_XFER", "file":"arch/x86/include/asm/perf_event_p4.h", "line":241, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_TC_MS_XFER_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":431, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_TC_MS_XFER__CISC", "file":"arch/x86/include/asm/perf_event_p4.h", "line":686, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_UOPS_RETIRED", "file":"arch/x86/include/asm/perf_event_p4.h", "line":255, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_UOPS_RETIRED_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":515, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_UOPS_RETIRED__BOGUS", "file":"arch/x86/include/asm/perf_event_p4.h", "line":728, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_UOPS_RETIRED__NBOGUS", "file":"arch/x86/include/asm/perf_event_p4.h", "line":727, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_UOP_QUEUE_WRITES", "file":"arch/x86/include/asm/perf_event_p4.h", "line":242, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_UOP_QUEUE_WRITES_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":437, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_UOP_QUEUE_WRITES__FROM_ROM", "file":"arch/x86/include/asm/perf_event_p4.h", "line":690, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_UOP_QUEUE_WRITES__FROM_TC_BUILD", "file":"arch/x86/include/asm/perf_event_p4.h", "line":688, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_UOP_QUEUE_WRITES__FROM_TC_DELIVER", "file":"arch/x86/include/asm/perf_event_p4.h", "line":689, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_UOP_TYPE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":256, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_UOP_TYPE_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":521, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_UOP_TYPE__TAGLOADS", "file":"arch/x86/include/asm/perf_event_p4.h", "line":730, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_UOP_TYPE__TAGSTORES", "file":"arch/x86/include/asm/perf_event_p4.h", "line":731, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_WC_BUFFER", "file":"arch/x86/include/asm/perf_event_p4.h", "line":246, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_WC_BUFFER_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":461, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_WC_BUFFER__WCB_EVICTS", "file":"arch/x86/include/asm/perf_event_p4.h", "line":704, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_WC_BUFFER__WCB_FULL_EVICTS", "file":"arch/x86/include/asm/perf_event_p4.h", "line":705, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_X87_ASSIST", "file":"arch/x86/include/asm/perf_event_p4.h", "line":259, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_X87_ASSIST_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":539, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_X87_ASSIST__FPSO", "file":"arch/x86/include/asm/perf_event_p4.h", "line":741, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_X87_ASSIST__FPSU", "file":"arch/x86/include/asm/perf_event_p4.h", "line":740, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_X87_ASSIST__POAO", "file":"arch/x86/include/asm/perf_event_p4.h", "line":742, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_X87_ASSIST__POAU", "file":"arch/x86/include/asm/perf_event_p4.h", "line":743, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_X87_ASSIST__PREA", "file":"arch/x86/include/asm/perf_event_p4.h", "line":744, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_EVENT_X87_FP_UOP", "file":"arch/x86/include/asm/perf_event_p4.h", "line":238, "type":"e", "scope_line":215, "scope_name":"P4_EVENTS", }
+,{"id":"P4_EVENT_X87_FP_UOP_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":413, "type":"e", "scope_line":282, "scope_name":"P4_EVENT_OPCODES", }
+,{"id":"P4_EVENT_X87_FP_UOP__ALL", "file":"arch/x86/include/asm/perf_event_p4.h", "line":680, "type":"e", "scope_line":564, "scope_name":"P4_ESCR_EMASKS", }
+,{"id":"P4_GEN_CACHE_EVENT", "file":"arch/x86/kernel/cpu/perf_event_p4.c", "line":298, "type":"d", }
+,{"id":"P4_GEN_ESCR_EMASK", "file":"arch/x86/include/asm/perf_event_p4.h", "line":90, "type":"d", }
+,{"id":"P4_GEN_PEBS_BIND", "file":"arch/x86/kernel/cpu/perf_event_p4.c", "line":30, "type":"d", }
+,{"id":"P4_OPCODE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":264, "type":"d", }
+,{"id":"P4_OPCODE_ESEL", "file":"arch/x86/include/asm/perf_event_p4.h", "line":265, "type":"d", }
+,{"id":"P4_OPCODE_EVNT", "file":"arch/x86/include/asm/perf_event_p4.h", "line":266, "type":"d", }
+,{"id":"P4_OPCODE_PACK", "file":"arch/x86/include/asm/perf_event_p4.h", "line":267, "type":"d", }
+,{"id":"P4_PEBS_CONFIG_ENABLE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":766, "type":"d", }
+,{"id":"P4_PEBS_CONFIG_MASK", "file":"arch/x86/include/asm/perf_event_p4.h", "line":769, "type":"d", }
+,{"id":"P4_PEBS_CONFIG_METRIC_MASK", "file":"arch/x86/include/asm/perf_event_p4.h", "line":768, "type":"d", }
+,{"id":"P4_PEBS_CONFIG_UOP_TAG", "file":"arch/x86/include/asm/perf_event_p4.h", "line":767, "type":"d", }
+,{"id":"P4_PEBS_ENABLE", "file":"arch/x86/include/asm/perf_event_p4.h", "line":775, "type":"d", }
+,{"id":"P4_PEBS_ENABLE_UOP_TAG", "file":"arch/x86/include/asm/perf_event_p4.h", "line":776, "type":"d", }
+,{"id":"P4_PEBS_METRIC", "file":"arch/x86/include/asm/perf_event_p4.h", "line":783, "type":"t", }
+,{"id":"P4_PEBS_METRIC__1stl_cache_load_miss_retired", "file":"arch/x86/include/asm/perf_event_p4.h", "line":786, "type":"e", "scope_line":783, "scope_name":"P4_PEBS_METRIC", }
+,{"id":"P4_PEBS_METRIC__2ndl_cache_load_miss_retired", "file":"arch/x86/include/asm/perf_event_p4.h", "line":787, "type":"e", "scope_line":783, "scope_name":"P4_PEBS_METRIC", }
+,{"id":"P4_PEBS_METRIC__dtlb_all_miss_retired", "file":"arch/x86/include/asm/perf_event_p4.h", "line":790, "type":"e", "scope_line":783, "scope_name":"P4_PEBS_METRIC", }
+,{"id":"P4_PEBS_METRIC__dtlb_load_miss_retired", "file":"arch/x86/include/asm/perf_event_p4.h", "line":788, "type":"e", "scope_line":783, "scope_name":"P4_PEBS_METRIC", }
+,{"id":"P4_PEBS_METRIC__dtlb_store_miss_retired", "file":"arch/x86/include/asm/perf_event_p4.h", "line":789, "type":"e", "scope_line":783, "scope_name":"P4_PEBS_METRIC", }
+,{"id":"P4_PEBS_METRIC__max", "file":"arch/x86/include/asm/perf_event_p4.h", "line":796, "type":"e", "scope_line":783, "scope_name":"P4_PEBS_METRIC", }
+,{"id":"P4_PEBS_METRIC__mob_load_replay_retired", "file":"arch/x86/include/asm/perf_event_p4.h", "line":792, "type":"e", "scope_line":783, "scope_name":"P4_PEBS_METRIC", }
+,{"id":"P4_PEBS_METRIC__none", "file":"arch/x86/include/asm/perf_event_p4.h", "line":784, "type":"e", "scope_line":783, "scope_name":"P4_PEBS_METRIC", }
+,{"id":"P4_PEBS_METRIC__split_load_retired", "file":"arch/x86/include/asm/perf_event_p4.h", "line":793, "type":"e", "scope_line":783, "scope_name":"P4_PEBS_METRIC", }
+,{"id":"P4_PEBS_METRIC__split_store_retired", "file":"arch/x86/include/asm/perf_event_p4.h", "line":794, "type":"e", "scope_line":783, "scope_name":"P4_PEBS_METRIC", }
+,{"id":"P4_PEBS_METRIC__tagged_mispred_branch", "file":"arch/x86/include/asm/perf_event_p4.h", "line":791, "type":"e", "scope_line":783, "scope_name":"P4_PEBS_METRIC", }
+,{"id":"P64", "file":"kernel/sched_debug.c", "line":285, "type":"d", }
+,{"id":"P6_EVENT_CPU_CLOCKS_NOT_HALTED", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":355, "type":"d", }
+,{"id":"P6_EVNTSEL0_ENABLE", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":351, "type":"d", }
+,{"id":"P6_EVNTSEL_INT", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":352, "type":"d", }
+,{"id":"P6_EVNTSEL_OS", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":353, "type":"d", }
+,{"id":"P6_EVNTSEL_USR", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":354, "type":"d", }
+,{"id":"P6_NMI_EVENT", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":356, "type":"d", }
+,{"id":"P6_NOP1", "file":"arch/x86/include/asm/nops.h", "line":71, "type":"d", }
+,{"id":"P6_NOP2", "file":"arch/x86/include/asm/nops.h", "line":72, "type":"d", }
+,{"id":"P6_NOP3", "file":"arch/x86/include/asm/nops.h", "line":73, "type":"d", }
+,{"id":"P6_NOP4", "file":"arch/x86/include/asm/nops.h", "line":74, "type":"d", }
+,{"id":"P6_NOP5", "file":"arch/x86/include/asm/nops.h", "line":75, "type":"d", }
+,{"id":"P6_NOP6", "file":"arch/x86/include/asm/nops.h", "line":76, "type":"d", }
+,{"id":"P6_NOP7", "file":"arch/x86/include/asm/nops.h", "line":77, "type":"d", }
+,{"id":"P6_NOP8", "file":"arch/x86/include/asm/nops.h", "line":78, "type":"d", }
+,{"id":"P6_NOP_EVENT", "file":"arch/x86/kernel/cpu/perf_event_p6.c", "line":28, "type":"d", }
+,{"id":"PACKAGE_LEVEL", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":115, "type":"d", }
+,{"id":"PACKAGE_POWER_LIMIT", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":314, "type":"d", }
+,{"id":"PACKAGE_THERM_INT_HIGH_ENABLE", "file":"arch/x86/include/asm/msr-index.h", "line":250, "type":"d", }
+,{"id":"PACKAGE_THERM_INT_LOW_ENABLE", "file":"arch/x86/include/asm/msr-index.h", "line":251, "type":"d", }
+,{"id":"PACKAGE_THERM_INT_PLN_ENABLE", "file":"arch/x86/include/asm/msr-index.h", "line":252, "type":"d", }
+,{"id":"PACKAGE_THERM_STATUS_POWER_LIMIT", "file":"arch/x86/include/asm/msr-index.h", "line":246, "type":"d", }
+,{"id":"PACKAGE_THERM_STATUS_PROCHOT", "file":"arch/x86/include/asm/msr-index.h", "line":245, "type":"d", }
+,{"id":"PACKAGE_THROTTLED", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":313, "type":"d", }
+,{"id":"PACKET_ADD_MEMBERSHIP", "file":"include/linux/if_packet.h", "line":35, "type":"d", }
+,{"id":"PACKET_AUXDATA", "file":"include/linux/if_packet.h", "line":42, "type":"d", }
+,{"id":"PACKET_BLOCK_MODE1", "file":"include/linux/pktcdvd.h", "line":76, "type":"d", }
+,{"id":"PACKET_BLOCK_MODE2", "file":"include/linux/pktcdvd.h", "line":77, "type":"d", }
+,{"id":"PACKET_BROADCAST", "file":"include/linux/if_packet.h", "line":25, "type":"d", }
+,{"id":"PACKET_CDR", "file":"include/linux/pktcdvd.h", "line":49, "type":"d", }
+,{"id":"PACKET_CDRW", "file":"include/linux/pktcdvd.h", "line":50, "type":"d", }
+,{"id":"PACKET_COPY_THRESH", "file":"include/linux/if_packet.h", "line":41, "type":"d", }
+,{"id":"PACKET_CTRL_CMD", "file":"include/linux/pktcdvd.h", "line":108, "type":"d", }
+,{"id":"PACKET_DEBUG", "file":"include/linux/pktcdvd.h", "line":20, "type":"d", }
+,{"id":"PACKET_DISC_COMPLETE", "file":"include/linux/pktcdvd.h", "line":68, "type":"d", }
+,{"id":"PACKET_DISC_EMPTY", "file":"include/linux/pktcdvd.h", "line":66, "type":"d", }
+,{"id":"PACKET_DISC_INCOMPLETE", "file":"include/linux/pktcdvd.h", "line":67, "type":"d", }
+,{"id":"PACKET_DISC_OTHER", "file":"include/linux/pktcdvd.h", "line":69, "type":"d", }
+,{"id":"PACKET_DROP_MEMBERSHIP", "file":"include/linux/if_packet.h", "line":36, "type":"d", }
+,{"id":"PACKET_DVDR", "file":"include/linux/pktcdvd.h", "line":51, "type":"d", }
+,{"id":"PACKET_DVDRW", "file":"include/linux/pktcdvd.h", "line":52, "type":"d", }
+,{"id":"PACKET_FASTROUTE", "file":"include/linux/if_packet.h", "line":31, "type":"d", }
+,{"id":"PACKET_FINISHED_STATE", "file":"include/linux/pktcdvd.h", "line":190, "type":"e", "scope_line":182, "scope_name":"packet_data_state", }
+,{"id":"PACKET_HDRLEN", "file":"include/linux/if_packet.h", "line":45, "type":"d", }
+,{"id":"PACKET_HOST", "file":"include/linux/if_packet.h", "line":24, "type":"d", }
+,{"id":"PACKET_IDLE_STATE", "file":"include/linux/pktcdvd.h", "line":183, "type":"e", "scope_line":182, "scope_name":"packet_data_state", }
+,{"id":"PACKET_IOCTL_MAGIC", "file":"include/linux/pktcdvd.h", "line":107, "type":"d", }
+,{"id":"PACKET_LOOPBACK", "file":"include/linux/if_packet.h", "line":30, "type":"d", }
+,{"id":"PACKET_LOSS", "file":"include/linux/if_packet.h", "line":48, "type":"d", }
+,{"id":"PACKET_LRA_VALID", "file":"include/linux/pktcdvd.h", "line":59, "type":"d", }
+,{"id":"PACKET_MAX_SECTORS", "file":"include/linux/pktcdvd.h", "line":180, "type":"d", }
+,{"id":"PACKET_MAX_SIZE", "file":"include/linux/pktcdvd.h", "line":178, "type":"d", }
+,];
+xr_frag_insert('t/4d/c910c67d6eb0969726f7de7fffe72fec5d3a5c.xr', __xr_tmp);

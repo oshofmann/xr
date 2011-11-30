@@ -1,0 +1,119 @@
+var __xr_tmp = [
+{"id":"exec_domain", "file":"include/linux/personality.h", "line":91, "type":"s", }
+,{"id":"exec_domains", "file":"kernel/exec_domain.c", "line":26, "type":"v", }
+,{"id":"exec_domains_lock", "file":"kernel/exec_domain.c", "line":27, "type":"v", }
+,{"id":"exec_max", "file":"include/linux/sched.h", "line":1098, "type":"m", "scope_line":1084, "scope_name":"struct sched_statistics", }
+,{"id":"exec_mmap", "file":"fs/exec.c", "line":733, "type":"f", }
+,{"id":"exec_mmap", "file":"fs/exec.c", "line":995, "type":"c", "scope_line":978, "scope_name":"flush_old_exec", }
+,{"id":"exec_permission", "file":"fs/namei.c", "line":1166, "type":"c", "scope_line":1162, "scope_name":"lookup_hash", }
+,{"id":"exec_permission", "file":"fs/namei.c", "line":1216, "type":"c", "scope_line":1205, "scope_name":"lookup_one_len", }
+,{"id":"exec_permission", "file":"fs/namei.c", "line":462, "type":"f", }
+,{"id":"exec_permission", "file":"fs/namei.c", "line":840, "type":"c", "scope_line":817, "scope_name":"link_path_walk", }
+,{"id":"exec_proc_event", "file":"include/linux/cn_proc.h", "line":45, "type":"s", }
+,{"id":"exec_sid", "file":"security/selinux/include/objsec.h", "line":33, "type":"m", "scope_line":30, "scope_name":"struct task_security_struct", }
+,{"id":"exec_start", "file":"include/linux/sched.h", "line":1125, "type":"m", "scope_line":1119, "scope_name":"struct sched_entity", }
+,{"id":"exec_vm", "file":"include/linux/mm_types.h", "line":262, "type":"m", "scope_line":232, "scope_name":"struct mm_struct", }
+,{"id":"execdomains_proc_fops", "file":"kernel/exec_domain.c", "line":167, "type":"v", }
+,{"id":"execdomains_proc_open", "file":"kernel/exec_domain.c", "line":162, "type":"f", }
+,{"id":"execdomains_proc_show", "file":"kernel/exec_domain.c", "line":149, "type":"f", }
+,{"id":"execute_by_owner_id", "file":"drivers/acpi/acpica/aclocal.h", "line":477, "type":"m", "scope_line":471, "scope_name":"struct acpi_gpe_walk_info", }
+,{"id":"execute_command", "file":"init/main.c", "line":120, "type":"v", }
+,{"id":"execute_drive_cmd", "file":"drivers/ide/ide-io.c", "line":253, "type":"f", }
+,{"id":"execute_drive_cmd", "file":"drivers/ide/ide-io.c", "line":344, "type":"c", "scope_line":306, "scope_name":"start_request", }
+,{"id":"execute_in_process_context", "file":"drivers/scsi/scsi_scan.c", "line":512, "type":"c", "scope_line":490, "scope_name":"scsi_target_reap", }
+,{"id":"execute_in_process_context", "file":"drivers/scsi/scsi_sysfs.c", "line":344, "type":"c", "scope_line":341, "scope_name":"scsi_device_dev_release", }
+,{"id":"execute_in_process_context", "file":"kernel/workqueue.c", "line":2671, "type":"f", }
+,{"id":"execute_ok", "file":"fs/namei.c", "line":227, "type":"c", "scope_line":211, "scope_name":"generic_permission", }
+,{"id":"execute_ok", "file":"include/linux/fs.h", "line":2121, "type":"f", }
+,{"id":"execute_work", "file":"include/linux/workqueue.h", "line":102, "type":"s", }
+,{"id":"executed", "file":"kernel/stop_machine.c", "line":30, "type":"m", "scope_line":28, "scope_name":"struct cpu_stop_done", }
+,{"id":"exist", "file":"drivers/input/evdev.c", "line":36, "type":"m", "scope_line":26, "scope_name":"struct evdev", }
+,{"id":"exist", "file":"drivers/input/mousedev.c", "line":69, "type":"m", "scope_line":60, "scope_name":"struct mousedev", }
+,{"id":"exists", "file":"drivers/input/serio/i8042.c", "line":106, "type":"m", "scope_line":103, "scope_name":"struct i8042_port", }
+,{"id":"exists_connecting_device", "file":"drivers/xen/xenbus/xenbus_probe.c", "line":900, "type":"f", }
+,{"id":"exists_connecting_device", "file":"drivers/xen/xenbus/xenbus_probe.c", "line":957, "type":"c", "scope_line":948, "scope_name":"wait_for_devices", }
+,{"id":"exit", "file":"drivers/serial/8250_pci.c", "line":48, "type":"m", "scope_line":39, "scope_name":"struct pci_serial_quirk", }
+,{"id":"exit", "file":"include/linux/cdrom.h", "line":959, "type":"m", "scope_line":937, "scope_name":"struct cdrom_device_info", }
+,{"id":"exit", "file":"include/linux/cgroup.h", "line":473, "type":"m", "scope_line":460, "scope_name":"struct cgroup_subsys", }
+,{"id":"exit", "file":"include/linux/cn_proc.h", "line":102, "type":"m", "scope_line":45, "scope_name":"struct proc_event", }
+,{"id":"exit", "file":"include/linux/cpufreq.h", "line":232, "type":"m", "scope_line":209, "scope_name":"struct cpufreq_driver", }
+,{"id":"exit", "file":"include/linux/crypto.h", "line":415, "type":"m", "scope_line":401, "scope_name":"struct crypto_tfm", }
+,{"id":"exit", "file":"include/linux/iocontext.h", "line":25, "type":"m", "scope_line":8, "scope_name":"struct cfq_io_context", }
+,{"id":"exit", "file":"include/linux/module.h", "line":377, "type":"m", "scope_line":244, "scope_name":"struct module", }
+,{"id":"exit", "file":"include/net/ip_vs.h", "line":303, "type":"m", "scope_line":292, "scope_name":"struct ip_vs_protocol", }
+,{"id":"exit", "file":"include/net/net_namespace.h", "line":236, "type":"m", "scope_line":233, "scope_name":"struct pernet_operations", }
+,{"id":"exit_aio", "file":"fs/aio.c", "line":408, "type":"f", }
+,{"id":"exit_aio", "file":"kernel/fork.c", "line":540, "type":"c", "scope_line":535, "scope_name":"mmput", }
+,{"id":"exit_batch", "file":"include/net/net_namespace.h", "line":237, "type":"m", "scope_line":233, "scope_name":"struct pernet_operations", }
+,{"id":"exit_cgroup_cls", "file":"net/sched/cls_cgroup.c", "line":313, "type":"f", }
+,{"id":"exit_code", "file":"arch/x86/include/asm/svm.h", "line":72, "type":"m", "scope_line":53, "scope_name":"struct vmcb_control_area", }
+,{"id":"exit_code", "file":"include/linux/cn_proc.h", "line":101, "type":"m", "scope_line":45, "scope_name":"struct exit_proc_event", }
+,{"id":"exit_code", "file":"include/linux/sched.h", "line":1225, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"exit_code", "file":"init/do_mounts_rd.c", "line":283, "type":"v", }
+,{"id":"exit_code_hi", "file":"arch/x86/include/asm/svm.h", "line":73, "type":"m", "scope_line":53, "scope_name":"struct vmcb_control_area", }
+,{"id":"exit_compat_elf_binfmt", "file":"fs/binfmt_elf.c", "line":2076, "type":"f", }
+,{"id":"exit_creds", "file":"kernel/cred.c", "line":180, "type":"f", }
+,{"id":"exit_creds", "file":"kernel/fork.c", "line":1328, "type":"c", "scope_line":965, "scope_name":"copy_process", }
+,{"id":"exit_creds", "file":"kernel/fork.c", "line":186, "type":"c", "scope_line":180, "scope_name":"__put_task_struct", }
+,{"id":"exit_dns_resolver", "file":"net/dns_resolver/dns_key.c", "line":282, "type":"f", }
+,{"id":"exit_elf_binfmt", "file":"fs/binfmt_elf.c", "line":2076, "type":"f", }
+,{"id":"exit_elf_binfmt", "file":"fs/compat_binfmt_elf.c", "line":128, "type":"d", }
+,{"id":"exit_event", "file":"include/trace/syscall.h", "line":31, "type":"m", "scope_line":22, "scope_name":"struct syscall_metadata", }
+,{"id":"exit_ext2_fs", "file":"fs/ext2/super.c", "line":1500, "type":"f", }
+,{"id":"exit_ext2_xattr", "file":"fs/ext2/super.c", "line":1496, "type":"c", "scope_line":1481, "scope_name":"init_ext2_fs", }
+,{"id":"exit_ext2_xattr", "file":"fs/ext2/super.c", "line":1504, "type":"c", "scope_line":1500, "scope_name":"exit_ext2_fs", }
+,{"id":"exit_ext2_xattr", "file":"fs/ext2/xattr.c", "line":1035, "type":"f", }
+,{"id":"exit_ext3_fs", "file":"fs/ext3/super.c", "line":3046, "type":"f", }
+,{"id":"exit_ext3_xattr", "file":"fs/ext3/super.c", "line":3042, "type":"c", "scope_line":3027, "scope_name":"init_ext3_fs", }
+,{"id":"exit_ext3_xattr", "file":"fs/ext3/super.c", "line":3050, "type":"c", "scope_line":3046, "scope_name":"exit_ext3_fs", }
+,{"id":"exit_ext3_xattr", "file":"fs/ext3/xattr.c", "line":1322, "type":"f", }
+,{"id":"exit_ext4_fs", "file":"fs/ext4/super.c", "line":4336, "type":"f", }
+,{"id":"exit_ext4_mballoc", "file":"fs/ext4/mballoc.c", "line":2692, "type":"f", }
+,{"id":"exit_ext4_mballoc", "file":"fs/ext4/super.c", "line":4327, "type":"c", "scope_line":4292, "scope_name":"init_ext4_fs", }
+,{"id":"exit_ext4_mballoc", "file":"fs/ext4/super.c", "line":4343, "type":"c", "scope_line":4336, "scope_name":"exit_ext4_fs", }
+,{"id":"exit_ext4_system_zone", "file":"fs/ext4/block_validity.c", "line":41, "type":"f", }
+,{"id":"exit_ext4_system_zone", "file":"fs/ext4/super.c", "line":4332, "type":"c", "scope_line":4292, "scope_name":"init_ext4_fs", }
+,{"id":"exit_ext4_system_zone", "file":"fs/ext4/super.c", "line":4346, "type":"c", "scope_line":4336, "scope_name":"exit_ext4_fs", }
+,{"id":"exit_ext4_xattr", "file":"fs/ext4/super.c", "line":4325, "type":"c", "scope_line":4292, "scope_name":"init_ext4_fs", }
+,{"id":"exit_ext4_xattr", "file":"fs/ext4/super.c", "line":4342, "type":"c", "scope_line":4336, "scope_name":"exit_ext4_fs", }
+,{"id":"exit_ext4_xattr", "file":"fs/ext4/xattr.c", "line":1599, "type":"f", }
+,{"id":"exit_files", "file":"kernel/exit.c", "line":453, "type":"c", "scope_line":417, "scope_name":"daemonize", }
+,{"id":"exit_files", "file":"kernel/exit.c", "line":543, "type":"f", }
+,{"id":"exit_files", "file":"kernel/exit.c", "line":973, "type":"c", "scope_line":892, "scope_name":"do_exit", }
+,{"id":"exit_files", "file":"kernel/fork.c", "line":1312, "type":"c", "scope_line":965, "scope_name":"copy_process", }
+,{"id":"exit_fs", "file":"fs/fs_struct.c", "line":83, "type":"f", }
+,{"id":"exit_fs", "file":"kernel/exit.c", "line":974, "type":"c", "scope_line":892, "scope_name":"do_exit", }
+,{"id":"exit_fs", "file":"kernel/fork.c", "line":1310, "type":"c", "scope_line":965, "scope_name":"copy_process", }
+,{"id":"exit_hugetlbfs_fs", "file":"fs/hugetlbfs/inode.c", "line":1007, "type":"f", }
+,{"id":"exit_idle", "file":"arch/x86/kernel/apic/apic.c", "line":1732, "type":"c", "scope_line":1728, "scope_name":"smp_spurious_interrupt", }
+,{"id":"exit_idle", "file":"arch/x86/kernel/apic/apic.c", "line":1758, "type":"c", "scope_line":1754, "scope_name":"smp_error_interrupt", }
+,{"id":"exit_idle", "file":"arch/x86/kernel/apic/apic.c", "line":824, "type":"c", "scope_line":810, "scope_name":"smp_apic_timer_interrupt", }
+,{"id":"exit_idle", "file":"arch/x86/kernel/apic/io_apic.c", "line":2463, "type":"c", "scope_line":2458, "scope_name":"smp_irq_move_cleanup_interrupt", }
+,{"id":"exit_idle", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":480, "type":"c", "scope_line":477, "scope_name":"smp_mce_self_interrupt", }
+,{"id":"exit_idle", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":362, "type":"c", "scope_line":360, "scope_name":"smp_thermal_interrupt", }
+,{"id":"exit_idle", "file":"arch/x86/kernel/cpu/mcheck/threshold.c", "line":22, "type":"c", "scope_line":20, "scope_name":"smp_threshold_interrupt", }
+,{"id":"exit_idle", "file":"arch/x86/kernel/irq.c", "line":234, "type":"c", "scope_line":226, "scope_name":"do_IRQ", }
+,{"id":"exit_idle", "file":"arch/x86/kernel/irq.c", "line":262, "type":"c", "scope_line":256, "scope_name":"smp_x86_platform_ipi", }
+,{"id":"exit_idle", "file":"arch/x86/kernel/process_64.c", "line":89, "type":"f", }
+,{"id":"exit_idle", "file":"drivers/xen/events.c", "line":690, "type":"c", "scope_line":686, "scope_name":"xen_evtchn_do_upcall", }
+,{"id":"exit_info_1", "file":"arch/x86/include/asm/svm.h", "line":74, "type":"m", "scope_line":53, "scope_name":"struct vmcb_control_area", }
+,{"id":"exit_info_2", "file":"arch/x86/include/asm/svm.h", "line":75, "type":"m", "scope_line":53, "scope_name":"struct vmcb_control_area", }
+,{"id":"exit_int_info", "file":"arch/x86/include/asm/svm.h", "line":76, "type":"m", "scope_line":53, "scope_name":"struct vmcb_control_area", }
+,{"id":"exit_int_info_err", "file":"arch/x86/include/asm/svm.h", "line":77, "type":"m", "scope_line":53, "scope_name":"struct vmcb_control_area", }
+,{"id":"exit_io_context", "file":"block/blk-ioc.c", "line":68, "type":"f", }
+,{"id":"exit_io_context", "file":"kernel/exit.c", "line":1019, "type":"c", "scope_line":892, "scope_name":"do_exit", }
+,{"id":"exit_io_context", "file":"kernel/fork.c", "line":1298, "type":"c", "scope_line":965, "scope_name":"copy_process", }
+,{"id":"exit_irq_thread", "file":"kernel/exit.c", "line":931, "type":"c", "scope_line":892, "scope_name":"do_exit", }
+,{"id":"exit_irq_thread", "file":"kernel/irq/manage.c", "line":626, "type":"f", }
+,{"id":"exit_itimers", "file":"fs/exec.c", "line":888, "type":"c", "scope_line":781, "scope_name":"de_thread", }
+,{"id":"exit_itimers", "file":"kernel/exit.c", "line":953, "type":"c", "scope_line":892, "scope_name":"do_exit", }
+,{"id":"exit_itimers", "file":"kernel/posix-timers.c", "line":914, "type":"f", }
+,{"id":"exit_ladder", "file":"drivers/cpuidle/governors/ladder.c", "line":175, "type":"f", }
+,{"id":"exit_latency", "file":"include/linux/cpuidle.h", "line":37, "type":"m", "scope_line":31, "scope_name":"struct cpuidle_state", }
+,{"id":"exit_list", "file":"include/net/net_namespace.h", "line":46, "type":"m", "scope_line":35, "scope_name":"struct net", }
+,{"id":"exit_mbcache", "file":"fs/mbcache.c", "line":623, "type":"f", }
+,{"id":"exit_menu", "file":"drivers/cpuidle/governors/menu.c", "line":415, "type":"f", }
+,{"id":"exit_mm", "file":"kernel/exit.c", "line":431, "type":"c", "scope_line":417, "scope_name":"daemonize", }
+,{"id":"exit_mm", "file":"kernel/exit.c", "line":644, "type":"f", }
+,];
+xr_frag_insert('t/90/c63c63bc1271cf3de3d5436ad0d1780e064f91.xr', __xr_tmp);

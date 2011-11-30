@@ -1,0 +1,19 @@
+var __xr_tmp = [
+{"id":"ptep_get_and_clear", "file":"arch/x86/include/asm/pgtable.h", "line":593, "type":"c", "scope_line":581, "scope_name":"ptep_get_and_clear_full", }
+,{"id":"ptep_get_and_clear", "file":"include/asm-generic/pgtable.h", "line":216, "type":"c", "scope_line":207, "scope_name":"__ptep_modify_prot_start", }
+,{"id":"ptep_get_and_clear", "file":"mm/fremap.c", "line":35, "type":"c", "scope_line":26, "scope_name":"zap_pte", }
+,{"id":"ptep_get_and_clear", "file":"mm/ksm.c", "line":729, "type":"c", "scope_line":697, "scope_name":"write_protect_page", }
+,{"id":"ptep_get_and_clear", "file":"mm/ksm.c", "line":799, "type":"c", "scope_line":761, "scope_name":"replace_page", }
+,{"id":"ptep_get_and_clear", "file":"mm/memory.c", "line":2291, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"ptep_get_and_clear", "file":"mm/mremap.c", "line":114, "type":"c", "scope_line":71, "scope_name":"move_ptes", }
+,{"id":"ptep_get_and_clear", "file":"mm/rmap.c", "line":1010, "type":"c", "scope_line":976, "scope_name":"try_to_unmap_one", }
+,{"id":"ptep_get_and_clear", "file":"mm/rmap.c", "line":1191, "type":"c", "scope_line":1123, "scope_name":"try_to_unmap_cluster", }
+,{"id":"ptep_get_and_clear", "file":"mm/rmap.c", "line":703, "type":"c", "scope_line":687, "scope_name":"page_mkclean_one", }
+,{"id":"ptep_get_and_clear", "file":"mm/vmalloc.c", "line":44, "type":"c", "scope_line":38, "scope_name":"vunmap_pte_range", }
+,{"id":"ptep_get_and_clear_full", "file":"arch/x86/include/asm/pgtable.h", "line":581, "type":"f", }
+,{"id":"ptep_get_and_clear_full", "file":"mm/memory.c", "line":936, "type":"c", "scope_line":891, "scope_name":"zap_pte_range", }
+,{"id":"ptep_modify_prot_commit", "file":"arch/x86/include/asm/paravirt.h", "line":520, "type":"f", }
+,{"id":"ptep_modify_prot_commit", "file":"arch/x86/include/asm/paravirt_types.h", "line":276, "type":"m", "scope_line":222, "scope_name":"struct pv_mmu_ops", }
+,{"id":"ptep_modify_prot_commit", "file":"mm/mprotect.c", "line":62, "type":"c", "scope_line":38, "scope_name":"change_pte_range", }
+,];
+xr_frag_insert('t/f0/8fb150abd5fc5f329948ab5e342f721199d596.xr', __xr_tmp);

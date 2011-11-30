@@ -1,0 +1,446 @@
+var __xr_tmp = [
+{"id":"pcpu_chunk_addr", "file":"mm/percpu-vm.c", "line":19, "type":"c", "scope_line":13, "scope_name":"pcpu_chunk_page", }
+,{"id":"pcpu_chunk_addr", "file":"mm/percpu-vm.c", "line":208, "type":"c", "scope_line":205, "scope_name":"pcpu_post_unmap_tlb_flush", }
+,{"id":"pcpu_chunk_addr", "file":"mm/percpu-vm.c", "line":244, "type":"c", "scope_line":236, "scope_name":"pcpu_map_pages", }
+,{"id":"pcpu_chunk_addr", "file":"mm/percpu-vm.c", "line":265, "type":"c", "scope_line":236, "scope_name":"pcpu_map_pages", }
+,{"id":"pcpu_chunk_addr", "file":"mm/percpu-vm.c", "line":286, "type":"c", "scope_line":283, "scope_name":"pcpu_post_map_flush", }
+,{"id":"pcpu_chunk_addr", "file":"mm/percpu-vm.c", "line":346, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_chunk_addr", "file":"mm/percpu.c", "line":232, "type":"f", }
+,{"id":"pcpu_chunk_addr", "file":"mm/percpu.c", "line":989, "type":"c", "scope_line":977, "scope_name":"per_cpu_ptr_to_phys", }
+,{"id":"pcpu_chunk_addr", "file":"mm/percpu.c", "line":990, "type":"c", "scope_line":977, "scope_name":"per_cpu_ptr_to_phys", }
+,{"id":"pcpu_chunk_addr_search", "file":"mm/percpu.c", "line":668, "type":"f", }
+,{"id":"pcpu_chunk_addr_search", "file":"mm/percpu.c", "line":919, "type":"c", "scope_line":905, "scope_name":"free_percpu", }
+,{"id":"pcpu_chunk_page", "file":"mm/percpu-vm.c", "line":13, "type":"f", }
+,{"id":"pcpu_chunk_page", "file":"mm/percpu-vm.c", "line":180, "type":"c", "scope_line":169, "scope_name":"pcpu_unmap_pages", }
+,{"id":"pcpu_chunk_relocate", "file":"mm/percpu.c", "line":1484, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_chunk_relocate", "file":"mm/percpu.c", "line":326, "type":"f", }
+,{"id":"pcpu_chunk_relocate", "file":"mm/percpu.c", "line":544, "type":"c", "scope_line":478, "scope_name":"pcpu_alloc_area", }
+,{"id":"pcpu_chunk_relocate", "file":"mm/percpu.c", "line":549, "type":"c", "scope_line":478, "scope_name":"pcpu_alloc_area", }
+,{"id":"pcpu_chunk_relocate", "file":"mm/percpu.c", "line":598, "type":"c", "scope_line":567, "scope_name":"pcpu_free_area", }
+,{"id":"pcpu_chunk_relocate", "file":"mm/percpu.c", "line":785, "type":"c", "scope_line":703, "scope_name":"pcpu_alloc", }
+,{"id":"pcpu_chunk_slot", "file":"mm/percpu.c", "line":207, "type":"f", }
+,{"id":"pcpu_chunk_slot", "file":"mm/percpu.c", "line":328, "type":"c", "scope_line":326, "scope_name":"pcpu_chunk_relocate", }
+,{"id":"pcpu_chunk_slot", "file":"mm/percpu.c", "line":480, "type":"c", "scope_line":478, "scope_name":"pcpu_alloc_area", }
+,{"id":"pcpu_chunk_slot", "file":"mm/percpu.c", "line":569, "type":"c", "scope_line":567, "scope_name":"pcpu_free_area", }
+,{"id":"pcpu_chunk_struct_size", "file":"mm/percpu.c", "line":111, "type":"v", }
+,{"id":"pcpu_cpu_distance", "file":"arch/x86/kernel/setup_percpu.c", "line":143, "type":"f", }
+,{"id":"pcpu_create_chunk", "file":"mm/percpu-vm.c", "line":414, "type":"f", }
+,{"id":"pcpu_create_chunk", "file":"mm/percpu.c", "line":778, "type":"c", "scope_line":703, "scope_name":"pcpu_alloc", }
+,{"id":"pcpu_depopulate_chunk", "file":"mm/percpu-vm.c", "line":374, "type":"f", }
+,{"id":"pcpu_depopulate_chunk", "file":"mm/percpu.c", "line":889, "type":"c", "scope_line":867, "scope_name":"pcpu_reclaim", }
+,{"id":"pcpu_destroy_chunk", "file":"mm/percpu-vm.c", "line":435, "type":"f", }
+,{"id":"pcpu_destroy_chunk", "file":"mm/percpu.c", "line":890, "type":"c", "scope_line":867, "scope_name":"pcpu_reclaim", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1231, "type":"f", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1365, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1366, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1367, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1368, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1369, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1370, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1371, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1372, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1395, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1396, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1397, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1410, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_dump_alloc_info", "file":"mm/percpu.c", "line":1414, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpu_embed_first_chunk", "file":"arch/x86/kernel/setup_percpu.c", "line":198, "type":"c", "scope_line":173, "scope_name":"setup_per_cpu_areas", }
+,{"id":"pcpu_embed_first_chunk", "file":"mm/percpu.c", "line":1552, "type":"f", }
+,{"id":"pcpu_extend_area_map", "file":"mm/percpu.c", "line":379, "type":"f", }
+,{"id":"pcpu_extend_area_map", "file":"mm/percpu.c", "line":731, "type":"c", "scope_line":703, "scope_name":"pcpu_alloc", }
+,{"id":"pcpu_extend_area_map", "file":"mm/percpu.c", "line":756, "type":"c", "scope_line":703, "scope_name":"pcpu_alloc", }
+,{"id":"pcpu_fc", "file":"include/linux/percpu.h", "line":96, "type":"t", }
+,{"id":"pcpu_fc_alloc", "file":"arch/x86/kernel/setup_percpu.c", "line":127, "type":"f", }
+,{"id":"pcpu_fc_alloc_fn_t", "file":"include/linux/percpu.h", "line":107, "type":"t", }
+,{"id":"pcpu_fc_cpu_distance_fn_t", "file":"include/linux/percpu.h", "line":111, "type":"t", }
+,{"id":"pcpu_fc_free", "file":"arch/x86/kernel/setup_percpu.c", "line":132, "type":"f", }
+,{"id":"pcpu_fc_free_fn_t", "file":"include/linux/percpu.h", "line":109, "type":"t", }
+,{"id":"pcpu_fc_names", "file":"mm/percpu.c", "line":1491, "type":"v", }
+,{"id":"pcpu_fc_populate_pte_fn_t", "file":"include/linux/percpu.h", "line":110, "type":"t", }
+,{"id":"pcpu_first_chunk", "file":"mm/percpu.c", "line":134, "type":"v", }
+,{"id":"pcpu_first_unit_cpu", "file":"mm/percpu.c", "line":114, "type":"v", }
+,{"id":"pcpu_for_each_pop_region", "file":"mm/percpu.c", "line":264, "type":"d", }
+,{"id":"pcpu_for_each_unpop_region", "file":"mm/percpu.c", "line":259, "type":"d", }
+,{"id":"pcpu_free_alloc_info", "file":"mm/percpu.c", "line":1064, "type":"f", }
+,{"id":"pcpu_free_alloc_info", "file":"mm/percpu.c", "line":1643, "type":"c", "scope_line":1552, "scope_name":"pcpu_embed_first_chunk", }
+,{"id":"pcpu_free_alloc_info", "file":"mm/percpu.c", "line":1756, "type":"c", "scope_line":1668, "scope_name":"pcpu_page_first_chunk", }
+,{"id":"pcpu_free_area", "file":"mm/percpu.c", "line":567, "type":"f", }
+,{"id":"pcpu_free_area", "file":"mm/percpu.c", "line":794, "type":"c", "scope_line":703, "scope_name":"pcpu_alloc", }
+,{"id":"pcpu_free_area", "file":"mm/percpu.c", "line":922, "type":"c", "scope_line":905, "scope_name":"free_percpu", }
+,{"id":"pcpu_free_chunk", "file":"mm/percpu-vm.c", "line":426, "type":"c", "scope_line":414, "scope_name":"pcpu_create_chunk", }
+,{"id":"pcpu_free_chunk", "file":"mm/percpu-vm.c", "line":439, "type":"c", "scope_line":435, "scope_name":"pcpu_destroy_chunk", }
+,{"id":"pcpu_free_chunk", "file":"mm/percpu.c", "line":625, "type":"f", }
+,{"id":"pcpu_free_pages", "file":"mm/percpu-vm.c", "line":121, "type":"c", "scope_line":107, "scope_name":"pcpu_alloc_pages", }
+,{"id":"pcpu_free_pages", "file":"mm/percpu-vm.c", "line":356, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_free_pages", "file":"mm/percpu-vm.c", "line":408, "type":"c", "scope_line":374, "scope_name":"pcpu_depopulate_chunk", }
+,{"id":"pcpu_free_pages", "file":"mm/percpu-vm.c", "line":78, "type":"f", }
+,{"id":"pcpu_free_vm_areas", "file":"mm/percpu-vm.c", "line":438, "type":"c", "scope_line":435, "scope_name":"pcpu_destroy_chunk", }
+,{"id":"pcpu_free_vm_areas", "file":"mm/vmalloc.c", "line":2331, "type":"f", }
+,{"id":"pcpu_get_page_chunk", "file":"mm/percpu.c", "line":222, "type":"f", }
+,{"id":"pcpu_get_page_chunk", "file":"mm/percpu.c", "line":686, "type":"c", "scope_line":668, "scope_name":"pcpu_chunk_addr_search", }
+,{"id":"pcpu_get_pages_and_bitmap", "file":"mm/percpu-vm.c", "line":322, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_get_pages_and_bitmap", "file":"mm/percpu-vm.c", "line":396, "type":"c", "scope_line":374, "scope_name":"pcpu_depopulate_chunk", }
+,{"id":"pcpu_get_pages_and_bitmap", "file":"mm/percpu-vm.c", "line":41, "type":"f", }
+,{"id":"pcpu_get_vm_areas", "file":"mm/percpu-vm.c", "line":423, "type":"c", "scope_line":414, "scope_name":"pcpu_create_chunk", }
+,{"id":"pcpu_get_vm_areas", "file":"mm/vmalloc.c", "line":2167, "type":"f", }
+,{"id":"pcpu_group_info", "file":"include/linux/percpu.h", "line":77, "type":"s", }
+,{"id":"pcpu_group_offsets", "file":"mm/percpu.c", "line":126, "type":"v", }
+,{"id":"pcpu_group_sizes", "file":"mm/percpu.c", "line":127, "type":"v", }
+,{"id":"pcpu_last_unit_cpu", "file":"mm/percpu.c", "line":115, "type":"v", }
+,{"id":"pcpu_lock", "file":"mm/percpu.c", "line":171, "type":"v", }
+,{"id":"pcpu_lstats", "file":"drivers/net/loopback.c", "line":63, "type":"s", }
+,{"id":"pcpu_map_pages", "file":"mm/percpu-vm.c", "line":236, "type":"f", }
+,{"id":"pcpu_map_pages", "file":"mm/percpu-vm.c", "line":335, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_mem_alloc", "file":"mm/percpu-vm.c", "line":53, "type":"c", "scope_line":41, "scope_name":"pcpu_get_pages_and_bitmap", }
+,{"id":"pcpu_mem_alloc", "file":"mm/percpu-vm.c", "line":55, "type":"c", "scope_line":41, "scope_name":"pcpu_get_pages_and_bitmap", }
+,{"id":"pcpu_mem_alloc", "file":"mm/percpu.c", "line":1830, "type":"c", "scope_line":1816, "scope_name":"percpu_init_late", }
+,{"id":"pcpu_mem_alloc", "file":"mm/percpu.c", "line":283, "type":"f", }
+,{"id":"pcpu_mem_alloc", "file":"mm/percpu.c", "line":385, "type":"c", "scope_line":379, "scope_name":"pcpu_extend_area_map", }
+,{"id":"pcpu_mem_alloc", "file":"mm/percpu.c", "line":605, "type":"c", "scope_line":601, "scope_name":"pcpu_alloc_chunk", }
+,{"id":"pcpu_mem_alloc", "file":"mm/percpu.c", "line":609, "type":"c", "scope_line":601, "scope_name":"pcpu_alloc_chunk", }
+,{"id":"pcpu_mem_free", "file":"mm/percpu.c", "line":305, "type":"f", }
+,{"id":"pcpu_mem_free", "file":"mm/percpu.c", "line":411, "type":"c", "scope_line":379, "scope_name":"pcpu_extend_area_map", }
+,{"id":"pcpu_mem_free", "file":"mm/percpu.c", "line":412, "type":"c", "scope_line":379, "scope_name":"pcpu_extend_area_map", }
+,{"id":"pcpu_mem_free", "file":"mm/percpu.c", "line":629, "type":"c", "scope_line":625, "scope_name":"pcpu_free_chunk", }
+,{"id":"pcpu_need_to_extend", "file":"mm/percpu.c", "line":352, "type":"f", }
+,{"id":"pcpu_need_to_extend", "file":"mm/percpu.c", "line":729, "type":"c", "scope_line":703, "scope_name":"pcpu_alloc", }
+,{"id":"pcpu_need_to_extend", "file":"mm/percpu.c", "line":753, "type":"c", "scope_line":703, "scope_name":"pcpu_alloc", }
+,{"id":"pcpu_next_pop", "file":"mm/percpu-vm.c", "line":315, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_next_pop", "file":"mm/percpu-vm.c", "line":402, "type":"c", "scope_line":374, "scope_name":"pcpu_depopulate_chunk", }
+,{"id":"pcpu_next_pop", "file":"mm/percpu-vm.c", "line":407, "type":"c", "scope_line":374, "scope_name":"pcpu_depopulate_chunk", }
+,{"id":"pcpu_next_pop", "file":"mm/percpu.c", "line":246, "type":"f", }
+,{"id":"pcpu_next_unpop", "file":"mm/percpu-vm.c", "line":327, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_next_unpop", "file":"mm/percpu-vm.c", "line":334, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_next_unpop", "file":"mm/percpu-vm.c", "line":351, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_next_unpop", "file":"mm/percpu-vm.c", "line":355, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_next_unpop", "file":"mm/percpu-vm.c", "line":384, "type":"c", "scope_line":374, "scope_name":"pcpu_depopulate_chunk", }
+,{"id":"pcpu_next_unpop", "file":"mm/percpu.c", "line":239, "type":"f", }
+,{"id":"pcpu_nr_groups", "file":"mm/percpu.c", "line":125, "type":"v", }
+,{"id":"pcpu_nr_slots", "file":"mm/percpu.c", "line":110, "type":"v", }
+,{"id":"pcpu_nr_units", "file":"mm/percpu.c", "line":108, "type":"v", }
+,{"id":"pcpu_page_first_chunk", "file":"arch/x86/kernel/setup_percpu.c", "line":207, "type":"c", "scope_line":173, "scope_name":"setup_per_cpu_areas", }
+,{"id":"pcpu_page_first_chunk", "file":"mm/percpu.c", "line":1668, "type":"f", }
+,{"id":"pcpu_page_idx", "file":"mm/percpu-vm.c", "line":117, "type":"c", "scope_line":107, "scope_name":"pcpu_alloc_pages", }
+,{"id":"pcpu_page_idx", "file":"mm/percpu-vm.c", "line":182, "type":"c", "scope_line":169, "scope_name":"pcpu_unmap_pages", }
+,{"id":"pcpu_page_idx", "file":"mm/percpu-vm.c", "line":244, "type":"c", "scope_line":236, "scope_name":"pcpu_map_pages", }
+,{"id":"pcpu_page_idx", "file":"mm/percpu-vm.c", "line":254, "type":"c", "scope_line":236, "scope_name":"pcpu_map_pages", }
+,{"id":"pcpu_page_idx", "file":"mm/percpu-vm.c", "line":87, "type":"c", "scope_line":78, "scope_name":"pcpu_free_pages", }
+,{"id":"pcpu_page_idx", "file":"mm/percpu.c", "line":227, "type":"f", }
+,{"id":"pcpu_populate_chunk", "file":"mm/percpu-vm.c", "line":303, "type":"f", }
+,{"id":"pcpu_populate_chunk", "file":"mm/percpu.c", "line":792, "type":"c", "scope_line":703, "scope_name":"pcpu_alloc", }
+,{"id":"pcpu_post_map_flush", "file":"mm/percpu-vm.c", "line":283, "type":"f", }
+,{"id":"pcpu_post_map_flush", "file":"mm/percpu-vm.c", "line":340, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_post_unmap_tlb_flush", "file":"mm/percpu-vm.c", "line":205, "type":"f", }
+,{"id":"pcpu_post_unmap_tlb_flush", "file":"mm/percpu-vm.c", "line":353, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_pre_unmap_flush", "file":"mm/percpu-vm.c", "line":142, "type":"f", }
+,{"id":"pcpu_pre_unmap_flush", "file":"mm/percpu-vm.c", "line":350, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_pre_unmap_flush", "file":"mm/percpu-vm.c", "line":400, "type":"c", "scope_line":374, "scope_name":"pcpu_depopulate_chunk", }
+,{"id":"pcpu_reclaim", "file":"mm/percpu.c", "line":867, "type":"f", }
+,{"id":"pcpu_reclaim_work", "file":"mm/percpu.c", "line":177, "type":"v", }
+,{"id":"pcpu_reserved_chunk", "file":"mm/percpu.c", "line":143, "type":"v", }
+,{"id":"pcpu_reserved_chunk_limit", "file":"mm/percpu.c", "line":144, "type":"v", }
+,{"id":"pcpu_set_page_chunk", "file":"mm/percpu-vm.c", "line":254, "type":"c", "scope_line":236, "scope_name":"pcpu_map_pages", }
+,{"id":"pcpu_set_page_chunk", "file":"mm/percpu.c", "line":216, "type":"f", }
+,{"id":"pcpu_setup_first_chunk", "file":"mm/percpu.c", "line":1337, "type":"f", }
+,{"id":"pcpu_setup_first_chunk", "file":"mm/percpu.c", "line":1635, "type":"c", "scope_line":1552, "scope_name":"pcpu_embed_first_chunk", }
+,{"id":"pcpu_setup_first_chunk", "file":"mm/percpu.c", "line":1747, "type":"c", "scope_line":1668, "scope_name":"pcpu_page_first_chunk", }
+,{"id":"pcpu_size_to_slot", "file":"mm/percpu.c", "line":200, "type":"f", }
+,{"id":"pcpu_size_to_slot", "file":"mm/percpu.c", "line":212, "type":"c", "scope_line":207, "scope_name":"pcpu_chunk_slot", }
+,{"id":"pcpu_size_to_slot", "file":"mm/percpu.c", "line":748, "type":"c", "scope_line":703, "scope_name":"pcpu_alloc", }
+,{"id":"pcpu_slot", "file":"mm/percpu.c", "line":173, "type":"v", }
+,{"id":"pcpu_split_block", "file":"mm/percpu.c", "line":437, "type":"f", }
+,{"id":"pcpu_split_block", "file":"mm/percpu.c", "line":524, "type":"c", "scope_line":478, "scope_name":"pcpu_alloc_area", }
+,{"id":"pcpu_unit_map", "file":"mm/percpu.c", "line":121, "type":"v", }
+,{"id":"pcpu_unit_offsets", "file":"include/linux/percpu.h", "line":75, "type":"v", }
+,{"id":"pcpu_unit_pages", "file":"mm/percpu.c", "line":106, "type":"v", }
+,{"id":"pcpu_unit_size", "file":"mm/percpu.c", "line":107, "type":"v", }
+,{"id":"pcpu_unmap_pages", "file":"mm/percpu-vm.c", "line":169, "type":"f", }
+,{"id":"pcpu_unmap_pages", "file":"mm/percpu-vm.c", "line":352, "type":"c", "scope_line":303, "scope_name":"pcpu_populate_chunk", }
+,{"id":"pcpu_unmap_pages", "file":"mm/percpu-vm.c", "line":403, "type":"c", "scope_line":374, "scope_name":"pcpu_depopulate_chunk", }
+,{"id":"pcpu_verify_alloc_info", "file":"mm/percpu-vm.c", "line":447, "type":"f", }
+,{"id":"pcpu_verify_alloc_info", "file":"mm/percpu.c", "line":1372, "type":"c", "scope_line":1337, "scope_name":"pcpu_setup_first_chunk", }
+,{"id":"pcpup_populate_pte", "file":"arch/x86/kernel/setup_percpu.c", "line":155, "type":"f", }
+,{"id":"pcr", "file":"include/linux/atm.h", "line":138, "type":"m", "scope_line":135, "scope_name":"struct atm_trafprm", }
+,{"id":"pcrlen", "file":"include/linux/udp.h", "line":73, "type":"m", "scope_line":55, "scope_name":"struct udp_sock", }
+,{"id":"pcslen", "file":"include/linux/udp.h", "line":72, "type":"m", "scope_line":55, "scope_name":"struct udp_sock", }
+,{"id":"pd", "file":"include/linux/pktcdvd.h", "line":235, "type":"m", "scope_line":200, "scope_name":"struct packet_data", }
+,{"id":"pd", "file":"include/linux/pktcdvd.h", "line":246, "type":"m", "scope_line":243, "scope_name":"struct packet_stacked_data", }
+,{"id":"pd", "file":"include/linux/pktcdvd.h", "line":253, "type":"m", "scope_line":250, "scope_name":"struct pktcdvd_kobj", }
+,{"id":"pd", "file":"net/dsa/dsa_priv.h", "line":30, "type":"m", "scope_line":20, "scope_name":"struct dsa_switch", }
+,{"id":"pd", "file":"net/dsa/dsa_priv.h", "line":56, "type":"m", "scope_line":51, "scope_name":"struct dsa_switch_tree", }
+,{"id":"pde", "file":"include/linux/proc_fs.h", "line":268, "type":"m", "scope_line":264, "scope_name":"struct proc_inode", }
+,{"id":"pde_get", "file":"fs/proc/generic.c", "line":431, "type":"c", "scope_line":417, "scope_name":"proc_lookup_de", }
+,{"id":"pde_get", "file":"fs/proc/generic.c", "line":511, "type":"c", "scope_line":466, "scope_name":"proc_readdir_de", }
+,{"id":"pde_get", "file":"fs/proc/inode.c", "line":467, "type":"c", "scope_line":456, "scope_name":"proc_fill_super", }
+,{"id":"pde_get", "file":"fs/proc/internal.h", "line":102, "type":"f", }
+,{"id":"pde_opener", "file":"fs/proc/internal.h", "line":86, "type":"s", }
+,{"id":"pde_openers", "file":"include/linux/proc_fs.h", "line":78, "type":"m", "scope_line":51, "scope_name":"struct proc_dir_entry", }
+,{"id":"pde_put", "file":"fs/proc/generic.c", "line":447, "type":"c", "scope_line":417, "scope_name":"proc_lookup_de", }
+,{"id":"pde_put", "file":"fs/proc/generic.c", "line":515, "type":"c", "scope_line":466, "scope_name":"proc_readdir_de", }
+,{"id":"pde_put", "file":"fs/proc/generic.c", "line":521, "type":"c", "scope_line":466, "scope_name":"proc_readdir_de", }
+,{"id":"pde_put", "file":"fs/proc/generic.c", "line":783, "type":"f", }
+,{"id":"pde_put", "file":"fs/proc/generic.c", "line":861, "type":"c", "scope_line":792, "scope_name":"remove_proc_entry", }
+,{"id":"pde_put", "file":"fs/proc/inode.c", "line":41, "type":"c", "scope_line":28, "scope_name":"proc_evict_inode", }
+,{"id":"pde_put", "file":"fs/proc/inode.c", "line":452, "type":"c", "scope_line":413, "scope_name":"proc_get_inode", }
+,{"id":"pde_put", "file":"fs/proc/inode.c", "line":481, "type":"c", "scope_line":456, "scope_name":"proc_fill_super", }
+,{"id":"pde_unload_completion", "file":"include/linux/proc_fs.h", "line":77, "type":"m", "scope_line":51, "scope_name":"struct proc_dir_entry", }
+,{"id":"pde_unload_lock", "file":"include/linux/proc_fs.h", "line":76, "type":"m", "scope_line":51, "scope_name":"struct proc_dir_entry", }
+,{"id":"pde_users", "file":"include/linux/proc_fs.h", "line":75, "type":"m", "scope_line":51, "scope_name":"struct proc_dir_entry", }
+,{"id":"pde_users_dec", "file":"fs/proc/generic.c", "line":204, "type":"c", "scope_line":187, "scope_name":"proc_file_read", }
+,{"id":"pde_users_dec", "file":"fs/proc/generic.c", "line":226, "type":"c", "scope_line":208, "scope_name":"proc_file_write", }
+,{"id":"pde_users_dec", "file":"fs/proc/inode.c", "line":105, "type":"f", }
+,{"id":"pde_users_dec", "file":"fs/proc/inode.c", "line":143, "type":"c", "scope_line":112, "scope_name":"proc_reg_llseek", }
+,{"id":"pde_users_dec", "file":"fs/proc/inode.c", "line":165, "type":"c", "scope_line":147, "scope_name":"proc_reg_read", }
+,{"id":"pde_users_dec", "file":"fs/proc/inode.c", "line":187, "type":"c", "scope_line":169, "scope_name":"proc_reg_write", }
+,{"id":"pde_users_dec", "file":"fs/proc/inode.c", "line":209, "type":"c", "scope_line":191, "scope_name":"proc_reg_poll", }
+,{"id":"pde_users_dec", "file":"fs/proc/inode.c", "line":231, "type":"c", "scope_line":213, "scope_name":"proc_reg_unlocked_ioctl", }
+,{"id":"pde_users_dec", "file":"fs/proc/inode.c", "line":254, "type":"c", "scope_line":236, "scope_name":"proc_reg_compat_ioctl", }
+,{"id":"pde_users_dec", "file":"fs/proc/inode.c", "line":277, "type":"c", "scope_line":259, "scope_name":"proc_reg_mmap", }
+,{"id":"pde_users_dec", "file":"fs/proc/inode.c", "line":382, "type":"c", "scope_line":344, "scope_name":"proc_reg_release", }
+,{"id":"pdeath_signal", "file":"include/linux/sched.h", "line":1226, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"pdestructor", "file":"include/net/neighbour.h", "line":150, "type":"m", "scope_line":142, "scope_name":"struct neigh_table", }
+,{"id":"pdev", "file":"drivers/base/platform.c", "line":127, "type":"m", "scope_line":126, "scope_name":"struct platform_object", }
+,{"id":"pdev", "file":"drivers/gpu/vga/vgaarb.c", "line":56, "type":"m", "scope_line":54, "scope_name":"struct vga_device", }
+,{"id":"pdev", "file":"drivers/gpu/vga/vgaarb.c", "line":720, "type":"m", "scope_line":719, "scope_name":"struct vga_arb_user_card", }
+,{"id":"pdev", "file":"drivers/net/phy/fixed.c", "line":42, "type":"v", }
+,{"id":"pdev", "file":"drivers/pci/pcie/aspm.c", "line":42, "type":"m", "scope_line":41, "scope_name":"struct pcie_link_state", }
+,{"id":"pdev", "file":"include/linux/connector.h", "line":119, "type":"m", "scope_line":116, "scope_name":"struct cn_callback_entry", }
+,{"id":"pdev_archdata", "file":"arch/x86/include/asm/device.h", "line":16, "type":"s", }
+,{"id":"pdev_assign_resources_sorted", "file":"drivers/pci/setup-bus.c", "line":125, "type":"f", }
+,{"id":"pdev_assign_resources_sorted", "file":"drivers/pci/setup-bus.c", "line":706, "type":"c", "scope_line":701, "scope_name":"__pci_bridge_assign_resources", }
+,{"id":"pdev_sort_resources", "file":"drivers/pci/setup-bus.c", "line":91, "type":"c", "scope_line":74, "scope_name":"__dev_sort_resources", }
+,{"id":"pdev_sort_resources", "file":"drivers/pci/setup-res.c", "line":246, "type":"f", }
+,{"id":"pdrc", "file":"include/linux/cdrom.h", "line":672, "type":"m", "scope_line":670, "scope_name":"struct dvd_host_send_rpcstate", }
+,{"id":"pdrop", "file":"include/linux/pkt_sched.h", "line":203, "type":"m", "scope_line":201, "scope_name":"struct tc_red_xstats", }
+,{"id":"pdrop", "file":"include/linux/pkt_sched.h", "line":232, "type":"m", "scope_line":222, "scope_name":"struct tc_gred_qopt", }
+,{"id":"pdrv", "file":"include/linux/platform_device.h", "line":144, "type":"m", "scope_line":142, "scope_name":"struct early_platform_driver", }
+,{"id":"pdst", "file":"include/linux/ethtool.h", "line":325, "type":"m", "scope_line":321, "scope_name":"struct ethtool_tcpip4_spec", }
+,{"id":"pdt_1f_for_no_lun", "file":"include/scsi/scsi_device.h", "line":245, "type":"m", "scope_line":232, "scope_name":"struct scsi_target", }
+,{"id":"pdu_len", "file":"include/linux/blktrace_api.h", "line":113, "type":"m", "scope_line":102, "scope_name":"struct blk_io_trace", }
+,{"id":"pdu_start", "file":"kernel/trace/blktrace.c", "line":1093, "type":"f", }
+,{"id":"pdu_start", "file":"kernel/trace/blktrace.c", "line":1125, "type":"c", "scope_line":1123, "scope_name":"get_pdu_int", }
+,{"id":"pdu_start", "file":"kernel/trace/blktrace.c", "line":1132, "type":"c", "scope_line":1129, "scope_name":"get_pdu_remap", }
+,{"id":"pdu_start", "file":"kernel/trace/blktrace.c", "line":1174, "type":"c", "scope_line":1168, "scope_name":"blk_log_dump_pdu", }
+,{"id":"peak_bandwidth", "file":"include/net/bluetooth/hci.h", "line":678, "type":"m", "scope_line":675, "scope_name":"struct hci_qos", }
+,{"id":"peakrate", "file":"include/linux/pkt_cls.h", "line":132, "type":"m", "scope_line":119, "scope_name":"struct tc_police", }
+,{"id":"peakrate", "file":"include/linux/pkt_sched.h", "line":134, "type":"m", "scope_line":132, "scope_name":"struct tc_tbf_qopt", }
+,{"id":"pebs", "file":"arch/x86/kernel/cpu/perf_event.c", "line":240, "type":"m", "scope_line":193, "scope_name":"struct x86_pmu", }
+,{"id":"pebs_absolute_maximum", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":52, "type":"m", "scope_line":45, "scope_name":"struct debug_store", }
+,{"id":"pebs_arch_reg", "file":"arch/x86/kernel/cpu/perf_event.c", "line":183, "type":"m", "scope_line":179, "scope_name":"union perf_capabilities", }
+,{"id":"pebs_buffer_base", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":50, "type":"m", "scope_line":45, "scope_name":"struct debug_store", }
+,{"id":"pebs_constraints", "file":"arch/x86/kernel/cpu/perf_event.c", "line":243, "type":"m", "scope_line":193, "scope_name":"struct x86_pmu", }
+,{"id":"pebs_enabled", "file":"arch/x86/kernel/cpu/perf_event.c", "line":121, "type":"m", "scope_line":99, "scope_name":"struct cpu_hw_events", }
+,{"id":"pebs_event_reset", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":54, "type":"m", "scope_line":45, "scope_name":"struct debug_store", }
+,{"id":"pebs_format", "file":"arch/x86/kernel/cpu/perf_event.c", "line":184, "type":"m", "scope_line":179, "scope_name":"union perf_capabilities", }
+,{"id":"pebs_index", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":51, "type":"m", "scope_line":45, "scope_name":"struct debug_store", }
+,{"id":"pebs_interrupt_threshold", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":53, "type":"m", "scope_line":45, "scope_name":"struct debug_store", }
+,{"id":"pebs_record_core", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":23, "type":"s", }
+,{"id":"pebs_record_nhm", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":31, "type":"s", }
+,{"id":"pebs_record_size", "file":"arch/x86/kernel/cpu/perf_event.c", "line":241, "type":"m", "scope_line":193, "scope_name":"struct x86_pmu", }
+,{"id":"pebs_trap", "file":"arch/x86/kernel/cpu/perf_event.c", "line":182, "type":"m", "scope_line":179, "scope_name":"union perf_capabilities", }
+,{"id":"peek", "file":"include/net/sch_generic.h", "line":139, "type":"m", "scope_line":131, "scope_name":"struct Qdisc_ops", }
+,{"id":"peek_nbyte_next", "file":"arch/x86/lib/insn.c", "line":31, "type":"d", }
+,{"id":"peek_next", "file":"arch/x86/lib/insn.c", "line":28, "type":"d", }
+,{"id":"peek_next_entry", "file":"kernel/trace/trace.c", "line":1497, "type":"f", }
+,{"id":"peek_next_entry", "file":"kernel/trace/trace.c", "line":1537, "type":"c", "scope_line":1518, "scope_name":"__find_next_entry", }
+,{"id":"peek_next_entry", "file":"kernel/trace/trace.c", "line":1549, "type":"c", "scope_line":1518, "scope_name":"__find_next_entry", }
+,{"id":"peek_old_byte", "file":"lib/decompress_unlzma.c", "line":304, "type":"f", }
+,{"id":"peek_old_byte", "file":"lib/decompress_unlzma.c", "line":335, "type":"c", "scope_line":333, "scope_name":"copy_byte", }
+,{"id":"peek_old_byte", "file":"lib/decompress_unlzma.c", "line":360, "type":"c", "scope_line":347, "scope_name":"process_bit0", }
+,{"id":"peeked", "file":"include/linux/skbuff.h", "line":359, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"peer", "file":"drivers/acpi/acpica/aclocal.h", "line":189, "type":"m", "scope_line":180, "scope_name":"struct acpi_namespace_node", }
+,{"id":"peer", "file":"include/net/af_unix.h", "line":52, "type":"m", "scope_line":45, "scope_name":"struct unix_sock", }
+,{"id":"peer", "file":"include/net/route.h", "line":73, "type":"m", "scope_line":52, "scope_name":"struct rtable", }
+,{"id":"peer", "file":"net/ipv4/ip_fragment.c", "line":75, "type":"m", "scope_line":65, "scope_name":"struct ipq", }
+,{"id":"peer_avl_empty", "file":"net/ipv4/inetpeer.c", "line":74, "type":"d", }
+,{"id":"peer_avl_rebalance", "file":"net/ipv4/inetpeer.c", "line":227, "type":"f", }
+,{"id":"peer_avl_rebalance", "file":"net/ipv4/inetpeer.c", "line":357, "type":"c", "scope_line":319, "scope_name":"unlink_from_pool", }
+,{"id":"peer_avl_rebalance", "file":"net/ipv4/inetpeer.c", "line":457, "type":"c", "scope_line":414, "scope_name":"inet_getpeer", }
+,{"id":"peer_cachep", "file":"net/ipv4/inetpeer.c", "line":70, "type":"v", }
+,{"id":"peer_check_expire", "file":"net/ipv4/inetpeer.c", "line":470, "type":"f", }
+,{"id":"peer_fake_node", "file":"net/ipv4/inetpeer.c", "line":75, "type":"v", }
+,{"id":"peer_periodic_timer", "file":"net/ipv4/inetpeer.c", "line":109, "type":"v", }
+,{"id":"peer_secid", "file":"include/net/request_sock.h", "line":67, "type":"m", "scope_line":54, "scope_name":"struct request_sock", }
+,{"id":"peer_sid", "file":"security/selinux/include/objsec.h", "line":109, "type":"m", "scope_line":97, "scope_name":"struct sk_security_struct", }
+,{"id":"peer_wait", "file":"include/net/af_unix.h", "line":63, "type":"d", }
+,{"id":"peer_wq", "file":"include/net/af_unix.h", "line":59, "type":"m", "scope_line":45, "scope_name":"struct unix_sock", }
+,{"id":"peers", "file":"net/ipv4/inetpeer.c", "line":81, "type":"v", }
+,{"id":"penalty", "file":"include/linux/pkt_sched.h", "line":365, "type":"m", "scope_line":356, "scope_name":"struct tc_cbq_ovl", }
+,{"id":"pending", "file":"drivers/md/dm.c", "line":140, "type":"m", "scope_line":118, "scope_name":"struct mapped_device", }
+,{"id":"pending", "file":"include/linux/perf_event.h", "line":746, "type":"m", "scope_line":663, "scope_name":"struct perf_event", }
+,{"id":"pending", "file":"include/linux/rtc.h", "line":38, "type":"m", "scope_line":36, "scope_name":"struct rtc_wkalrm", }
+,{"id":"pending", "file":"include/linux/sched.h", "line":1328, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"pending", "file":"include/linux/sunrpc/xprt.h", "line":168, "type":"m", "scope_line":148, "scope_name":"struct rpc_xprt", }
+,{"id":"pending", "file":"include/linux/udp.h", "line":61, "type":"m", "scope_line":55, "scope_name":"struct udp_sock", }
+,{"id":"pending", "file":"include/linux/videodev2.h", "line":1663, "type":"m", "scope_line":1657, "scope_name":"struct v4l2_event", }
+,{"id":"pending", "file":"include/net/inet_connection_sock.h", "line":107, "type":"m", "scope_line":86, "scope_name":"struct inet_connection_sock", }
+,{"id":"pending", "file":"net/packet/af_packet.c", "line":177, "type":"m", "scope_line":166, "scope_name":"struct packet_ring_buffer", }
+,{"id":"pending_bios", "file":"include/linux/pktcdvd.h", "line":152, "type":"m", "scope_line":146, "scope_name":"struct packet_cdrw", }
+,{"id":"pending_bit_stuck", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":106, "type":"f", }
+,{"id":"pending_bit_stuck", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":1155, "type":"c", "scope_line":1126, "scope_name":"powernowk8_target", }
+,{"id":"pending_bit_stuck", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.c", "line":1233, "type":"c", "scope_line":1229, "scope_name":"powernowk8_cpu_init_on_cpu", }
+,{"id":"pending_disable", "file":"include/linux/perf_event.h", "line":745, "type":"m", "scope_line":663, "scope_name":"struct perf_event", }
+,{"id":"pending_kill", "file":"include/linux/perf_event.h", "line":744, "type":"m", "scope_line":663, "scope_name":"struct perf_event", }
+,{"id":"pending_mask", "file":"include/linux/irq.h", "line":201, "type":"m", "scope_line":175, "scope_name":"struct irq_desc", }
+,{"id":"pending_wakeup", "file":"include/linux/perf_event.h", "line":743, "type":"m", "scope_line":663, "scope_name":"struct perf_event", }
+,{"id":"pentry", "file":"include/linux/sfi.h", "line":104, "type":"m", "scope_line":102, "scope_name":"struct sfi_table_simple", }
+,{"id":"per_clear", "file":"include/linux/binfmts.h", "line":51, "type":"m", "scope_line":28, "scope_name":"struct linux_binprm", }
+,{"id":"per_cpu", "file":"include/asm-generic/percpu.h", "line":56, "type":"d", }
+,{"id":"per_cpu_offset", "file":"include/asm-generic/percpu.h", "line":20, "type":"d", }
+,{"id":"per_cpu_pages", "file":"include/linux/mmzone.h", "line":169, "type":"s", }
+,{"id":"per_cpu_pageset", "file":"include/linux/mmzone.h", "line":178, "type":"s", }
+,{"id":"per_cpu_ptr", "file":"include/linux/percpu.h", "line":140, "type":"d", }
+,{"id":"per_cpu_ptr_to_phys", "file":"drivers/base/cpu.c", "line":128, "type":"c", "scope_line":112, "scope_name":"show_crash_notes", }
+,{"id":"per_cpu_ptr_to_phys", "file":"mm/percpu.c", "line":977, "type":"f", }
+,{"id":"per_cpu_ref", "file":"include/linux/srcu.h", "line":38, "type":"m", "scope_line":36, "scope_name":"struct srcu_struct", }
+,{"id":"per_node_hstate_attr_group", "file":"mm/hugetlb.c", "line":1596, "type":"v", }
+,{"id":"per_node_hstate_attrs", "file":"mm/hugetlb.c", "line":1589, "type":"v", }
+,{"id":"per_vq_vectors", "file":"drivers/virtio/virtio_pci.c", "line":59, "type":"m", "scope_line":35, "scope_name":"struct virtio_pci_device", }
+,{"id":"perc_mode", "file":"include/linux/soundcard.h", "line":505, "type":"m", "scope_line":488, "scope_name":"struct synth_info", }
+,{"id":"percpu", "file":"include/linux/module.h", "line":342, "type":"m", "scope_line":244, "scope_name":"struct module", }
+,{"id":"percpu", "file":"net/core/flow.c", "line":57, "type":"m", "scope_line":54, "scope_name":"struct flow_cache", }
+,{"id":"percpu_add", "file":"arch/x86/include/asm/percpu.h", "line":230, "type":"d", }
+,{"id":"percpu_add_op", "file":"arch/x86/include/asm/percpu.h", "line":111, "type":"d", }
+,{"id":"percpu_alloc_setup", "file":"mm/percpu.c", "line":1499, "type":"f", }
+,{"id":"percpu_and", "file":"arch/x86/include/asm/percpu.h", "line":232, "type":"d", }
+,{"id":"percpu_counter", "file":"include/linux/percpu_counter.h", "line":18, "type":"s", }
+,{"id":"percpu_counter_add", "file":"fs/ext2/balloc.c", "line":167, "type":"c", "scope_line":162, "scope_name":"release_blocks", }
+,{"id":"percpu_counter_add", "file":"fs/ext2/ialloc.c", "line":529, "type":"c", "scope_line":432, "scope_name":"ext2_new_inode", }
+,{"id":"percpu_counter_add", "file":"fs/ext3/balloc.c", "line":636, "type":"c", "scope_line":477, "scope_name":"ext3_free_blocks_sb", }
+,{"id":"percpu_counter_add", "file":"fs/ext3/resize.c", "line":932, "type":"c", "scope_line":757, "scope_name":"ext3_group_add", }
+,{"id":"percpu_counter_add", "file":"fs/ext3/resize.c", "line":934, "type":"c", "scope_line":757, "scope_name":"ext3_group_add", }
+,{"id":"percpu_counter_add", "file":"fs/ext4/balloc.c", "line":453, "type":"c", "scope_line":371, "scope_name":"ext4_add_groupblocks", }
+,{"id":"percpu_counter_add", "file":"fs/ext4/balloc.c", "line":533, "type":"c", "scope_line":529, "scope_name":"ext4_claim_free_blocks", }
+,{"id":"percpu_counter_add", "file":"fs/ext4/mballoc.c", "line":4655, "type":"c", "scope_line":4488, "scope_name":"ext4_free_blocks", }
+,{"id":"percpu_counter_add", "file":"fs/ext4/resize.c", "line":909, "type":"c", "scope_line":722, "scope_name":"ext4_group_add", }
+,{"id":"percpu_counter_add", "file":"fs/ext4/resize.c", "line":911, "type":"c", "scope_line":722, "scope_name":"ext4_group_add", }
+,{"id":"percpu_counter_add", "file":"include/linux/mman.h", "line":25, "type":"c", "scope_line":23, "scope_name":"vm_acct_memory", }
+,{"id":"percpu_counter_add", "file":"include/linux/percpu_counter.h", "line":150, "type":"c", "scope_line":148, "scope_name":"percpu_counter_inc", }
+,{"id":"percpu_counter_add", "file":"include/linux/percpu_counter.h", "line":155, "type":"c", "scope_line":153, "scope_name":"percpu_counter_dec", }
+,{"id":"percpu_counter_add", "file":"include/linux/percpu_counter.h", "line":160, "type":"c", "scope_line":158, "scope_name":"percpu_counter_sub", }
+,{"id":"percpu_counter_add", "file":"include/linux/percpu_counter.h", "line":45, "type":"f", }
+,{"id":"percpu_counter_add", "file":"lib/proportions.c", "line":262, "type":"c", "scope_line":256, "scope_name":"__prop_inc_percpu", }
+,{"id":"percpu_counter_add", "file":"lib/proportions.c", "line":291, "type":"c", "scope_line":270, "scope_name":"__prop_inc_percpu_max", }
+,{"id":"percpu_counter_add", "file":"lib/proportions.c", "line":292, "type":"c", "scope_line":270, "scope_name":"__prop_inc_percpu_max", }
+,{"id":"percpu_counter_add", "file":"lib/proportions.c", "line":382, "type":"c", "scope_line":376, "scope_name":"__prop_inc_single", }
+,{"id":"percpu_counter_add", "file":"mm/shmem.c", "line":237, "type":"c", "scope_line":233, "scope_name":"shmem_free_blocks", }
+,{"id":"percpu_counter_batch", "file":"lib/percpu_counter.c", "line":102, "type":"v", }
+,{"id":"percpu_counter_compare", "file":"lib/percpu_counter.c", "line":144, "type":"f", }
+,{"id":"percpu_counter_compare", "file":"mm/shmem.c", "line":1402, "type":"c", "scope_line":1218, "scope_name":"shmem_getpage", }
+,{"id":"percpu_counter_compare", "file":"mm/shmem.c", "line":2279, "type":"c", "scope_line":2267, "scope_name":"shmem_remount_fs", }
+,{"id":"percpu_counter_compare", "file":"mm/shmem.c", "line":425, "type":"c", "scope_line":405, "scope_name":"shmem_swp_alloc", }
+,{"id":"percpu_counter_dec", "file":"fs/ext2/ialloc.c", "line":83, "type":"c", "scope_line":65, "scope_name":"ext2_release_inode", }
+,{"id":"percpu_counter_dec", "file":"fs/ext3/ialloc.c", "line":161, "type":"c", "scope_line":89, "scope_name":"ext3_free_inode", }
+,{"id":"percpu_counter_dec", "file":"fs/ext3/ialloc.c", "line":525, "type":"c", "scope_line":407, "scope_name":"ext3_new_inode", }
+,{"id":"percpu_counter_dec", "file":"fs/ext4/ialloc.c", "line":261, "type":"c", "scope_line":178, "scope_name":"ext4_free_inode", }
+,{"id":"percpu_counter_dec", "file":"fs/ext4/ialloc.c", "line":965, "type":"c", "scope_line":788, "scope_name":"ext4_new_inode", }
+,{"id":"percpu_counter_dec", "file":"fs/file_table.c", "line":55, "type":"c", "scope_line":53, "scope_name":"file_free", }
+,{"id":"percpu_counter_dec", "file":"include/linux/percpu_counter.h", "line":153, "type":"f", }
+,{"id":"percpu_counter_dec", "file":"include/linux/quota.h", "line":269, "type":"c", "scope_line":267, "scope_name":"dqstats_dec", }
+,{"id":"percpu_counter_dec", "file":"net/ipv4/inet_connection_sock.c", "line":619, "type":"c", "scope_line":600, "scope_name":"inet_csk_destroy_sock", }
+,{"id":"percpu_counter_dec", "file":"net/ipv4/tcp_ipv4.c", "line":1968, "type":"c", "scope_line":1918, "scope_name":"tcp_v4_destroy_sock", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext2/super.c", "line":1095, "type":"c", "scope_line":732, "scope_name":"ext2_fill_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext2/super.c", "line":1096, "type":"c", "scope_line":732, "scope_name":"ext2_fill_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext2/super.c", "line":1097, "type":"c", "scope_line":732, "scope_name":"ext2_fill_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext2/super.c", "line":142, "type":"c", "scope_line":116, "scope_name":"ext2_put_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext2/super.c", "line":143, "type":"c", "scope_line":116, "scope_name":"ext2_put_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext2/super.c", "line":144, "type":"c", "scope_line":116, "scope_name":"ext2_put_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext3/super.c", "line":2039, "type":"c", "scope_line":1592, "scope_name":"ext3_fill_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext3/super.c", "line":2040, "type":"c", "scope_line":1592, "scope_name":"ext3_fill_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext3/super.c", "line":2041, "type":"c", "scope_line":1592, "scope_name":"ext3_fill_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext3/super.c", "line":434, "type":"c", "scope_line":407, "scope_name":"ext3_put_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext3/super.c", "line":435, "type":"c", "scope_line":407, "scope_name":"ext3_put_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext3/super.c", "line":436, "type":"c", "scope_line":407, "scope_name":"ext3_put_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext4/super.c", "line":3187, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext4/super.c", "line":3188, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext4/super.c", "line":3189, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext4/super.c", "line":3190, "type":"c", "scope_line":2545, "scope_name":"ext4_fill_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext4/super.c", "line":744, "type":"c", "scope_line":699, "scope_name":"ext4_put_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext4/super.c", "line":745, "type":"c", "scope_line":699, "scope_name":"ext4_put_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext4/super.c", "line":746, "type":"c", "scope_line":699, "scope_name":"ext4_put_super", }
+,{"id":"percpu_counter_destroy", "file":"fs/ext4/super.c", "line":747, "type":"c", "scope_line":699, "scope_name":"ext4_put_super", }
+,{"id":"percpu_counter_destroy", "file":"kernel/sched.c", "line":8904, "type":"c", "scope_line":8880, "scope_name":"cpuacct_create", }
+,{"id":"percpu_counter_destroy", "file":"kernel/sched.c", "line":8920, "type":"c", "scope_line":8913, "scope_name":"cpuacct_destroy", }
+,{"id":"percpu_counter_destroy", "file":"lib/percpu_counter.c", "line":87, "type":"f", }
+,{"id":"percpu_counter_destroy", "file":"lib/proportions.c", "line":201, "type":"c", "scope_line":199, "scope_name":"prop_local_destroy_percpu", }
+,{"id":"percpu_counter_destroy", "file":"lib/proportions.c", "line":92, "type":"c", "scope_line":76, "scope_name":"prop_descriptor_init", }
+,{"id":"percpu_counter_destroy", "file":"mm/backing-dev.c", "line":667, "type":"c", "scope_line":640, "scope_name":"bdi_init", }
+,{"id":"percpu_counter_destroy", "file":"mm/backing-dev.c", "line":695, "type":"c", "scope_line":674, "scope_name":"bdi_destroy", }
+,{"id":"percpu_counter_destroy", "file":"mm/shmem.c", "line":2330, "type":"c", "scope_line":2326, "scope_name":"shmem_put_super", }
+,{"id":"percpu_counter_hotcpu_callback", "file":"lib/percpu_counter.c", "line":112, "type":"f", }
+,{"id":"percpu_counter_hotcpu_callback_nb", "file":"lib/percpu_counter.c", "line":170, "type":"v", }
+,{"id":"percpu_counter_inc", "file":"fs/ext2/ialloc.c", "line":531, "type":"c", "scope_line":432, "scope_name":"ext2_new_inode", }
+,{"id":"percpu_counter_inc", "file":"fs/ext3/ialloc.c", "line":159, "type":"c", "scope_line":89, "scope_name":"ext3_free_inode", }
+,{"id":"percpu_counter_inc", "file":"fs/ext3/ialloc.c", "line":527, "type":"c", "scope_line":407, "scope_name":"ext3_new_inode", }
+,{"id":"percpu_counter_inc", "file":"fs/ext4/ialloc.c", "line":266, "type":"c", "scope_line":178, "scope_name":"ext4_free_inode", }
+,{"id":"percpu_counter_inc", "file":"fs/ext4/ialloc.c", "line":967, "type":"c", "scope_line":788, "scope_name":"ext4_new_inode", }
+,{"id":"percpu_counter_inc", "file":"fs/file_table.c", "line":127, "type":"c", "scope_line":105, "scope_name":"get_empty_filp", }
+,{"id":"percpu_counter_inc", "file":"include/linux/percpu_counter.h", "line":148, "type":"f", }
+,{"id":"percpu_counter_inc", "file":"include/linux/quota.h", "line":264, "type":"c", "scope_line":262, "scope_name":"dqstats_inc", }
+,{"id":"percpu_counter_inc", "file":"mm/shmem.c", "line":1408, "type":"c", "scope_line":1218, "scope_name":"shmem_getpage", }
+,{"id":"percpu_counter_inc", "file":"mm/shmem.c", "line":427, "type":"c", "scope_line":405, "scope_name":"shmem_swp_alloc", }
+,{"id":"percpu_counter_inc", "file":"net/core/sock.c", "line":1263, "type":"c", "scope_line":1180, "scope_name":"sk_clone", }
+,{"id":"percpu_counter_inc", "file":"net/ipv4/inet_connection_sock.c", "line":697, "type":"c", "scope_line":662, "scope_name":"inet_csk_listen_stop", }
+,{"id":"percpu_counter_inc", "file":"net/ipv4/tcp.c", "line":1978, "type":"c", "scope_line":1880, "scope_name":"tcp_close", }
+,{"id":"percpu_counter_inc", "file":"net/ipv4/tcp_ipv4.c", "line":1912, "type":"c", "scope_line":1855, "scope_name":"tcp_v4_init_sock", }
+,{"id":"percpu_counter_inc", "file":"net/ipv6/tcp_ipv6.c", "line":1943, "type":"c", "scope_line":1886, "scope_name":"tcp_v6_init_sock", }
+,{"id":"percpu_counter_init", "file":"include/linux/percpu_counter.h", "line":32, "type":"d", }
+,{"id":"percpu_counter_read", "file":"include/linux/percpu_counter.h", "line":61, "type":"f", }
+,{"id":"percpu_counter_read", "file":"kernel/sched.c", "line":9019, "type":"c", "scope_line":9012, "scope_name":"cpuacct_stats_show", }
+,{"id":"percpu_counter_read", "file":"lib/percpu_counter.c", "line":148, "type":"c", "scope_line":144, "scope_name":"percpu_counter_compare", }
+,{"id":"percpu_counter_read", "file":"lib/proportions.c", "line":219, "type":"c", "scope_line":211, "scope_name":"prop_norm_percpu", }
+,{"id":"percpu_counter_read", "file":"lib/proportions.c", "line":239, "type":"c", "scope_line":211, "scope_name":"prop_norm_percpu", }
+,{"id":"percpu_counter_read", "file":"lib/proportions.c", "line":284, "type":"c", "scope_line":270, "scope_name":"__prop_inc_percpu_max", }
+,{"id":"percpu_counter_read", "file":"lib/proportions.c", "line":315, "type":"c", "scope_line":303, "scope_name":"prop_fraction_percpu", }
+,{"id":"percpu_counter_read", "file":"lib/proportions.c", "line":349, "type":"c", "scope_line":341, "scope_name":"prop_norm_single", }
+,{"id":"percpu_counter_read", "file":"lib/proportions.c", "line":403, "type":"c", "scope_line":391, "scope_name":"prop_fraction_single", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext2/balloc.c", "line":1194, "type":"c", "scope_line":1190, "scope_name":"ext2_has_free_blocks", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext2/ialloc.c", "line":277, "type":"c", "scope_line":260, "scope_name":"find_group_orlov", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext2/ialloc.c", "line":279, "type":"c", "scope_line":260, "scope_name":"find_group_orlov", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext2/ialloc.c", "line":281, "type":"c", "scope_line":260, "scope_name":"find_group_orlov", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext3/balloc.c", "line":1423, "type":"c", "scope_line":1419, "scope_name":"ext3_has_free_blocks", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext3/ialloc.c", "line":195, "type":"c", "scope_line":188, "scope_name":"find_group_dir", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext3/ialloc.c", "line":258, "type":"c", "scope_line":242, "scope_name":"find_group_orlov", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext3/ialloc.c", "line":260, "type":"c", "scope_line":242, "scope_name":"find_group_orlov", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext3/ialloc.c", "line":262, "type":"c", "scope_line":242, "scope_name":"find_group_orlov", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext4/balloc.c", "line":498, "type":"c", "scope_line":492, "scope_name":"ext4_has_free_blocks", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext4/balloc.c", "line":499, "type":"c", "scope_line":492, "scope_name":"ext4_has_free_blocks", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext4/ialloc.c", "line":310, "type":"c", "scope_line":301, "scope_name":"find_group_dir", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext4/ialloc.c", "line":486, "type":"c", "scope_line":460, "scope_name":"find_group_orlov", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext4/ialloc.c", "line":488, "type":"c", "scope_line":460, "scope_name":"find_group_orlov", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext4/ialloc.c", "line":491, "type":"c", "scope_line":460, "scope_name":"find_group_orlov", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext4/inode.c", "line":3148, "type":"c", "scope_line":3135, "scope_name":"ext4_nonda_switch", }
+,{"id":"percpu_counter_read_positive", "file":"fs/ext4/inode.c", "line":3149, "type":"c", "scope_line":3135, "scope_name":"ext4_nonda_switch", }
+,{"id":"percpu_counter_read_positive", "file":"fs/file_table.c", "line":65, "type":"c", "scope_line":63, "scope_name":"get_nr_files", }
+,{"id":"percpu_counter_read_positive", "file":"fs/proc/meminfo.c", "line":38, "type":"c", "scope_line":22, "scope_name":"meminfo_proc_show", }
+,{"id":"percpu_counter_read_positive", "file":"fs/quota/dquot.c", "line":702, "type":"c", "scope_line":695, "scope_name":"shrink_dqcache_memory", }
+,{"id":"percpu_counter_read_positive", "file":"include/linux/backing-dev.h", "line":163, "type":"c", "scope_line":160, "scope_name":"bdi_stat", }
+,{"id":"percpu_counter_read_positive", "file":"include/linux/percpu_counter.h", "line":71, "type":"f", }
+,{"id":"percpu_counter_read_positive", "file":"include/net/tcp.h", "line":274, "type":"c", "scope_line":271, "scope_name":"tcp_too_many_orphans", }
+,{"id":"percpu_counter_read_positive", "file":"lib/proportions.c", "line":283, "type":"c", "scope_line":270, "scope_name":"__prop_inc_percpu_max", }
+,{"id":"percpu_counter_read_positive", "file":"lib/proportions.c", "line":313, "type":"c", "scope_line":303, "scope_name":"prop_fraction_percpu", }
+,{"id":"percpu_counter_read_positive", "file":"mm/mmap.c", "line":182, "type":"c", "scope_line":106, "scope_name":"__vm_enough_memory", }
+,{"id":"percpu_counter_read_positive", "file":"net/core/sock.c", "line":1688, "type":"c", "scope_line":1645, "scope_name":"__sk_mem_schedule", }
+,{"id":"percpu_counter_set", "file":"lib/percpu_counter.c", "line":15, "type":"f", }
+,{"id":"percpu_counter_set", "file":"lib/proportions.c", "line":130, "type":"c", "scope_line":105, "scope_name":"prop_change_shift", }
+,{"id":"percpu_counter_set", "file":"lib/proportions.c", "line":247, "type":"c", "scope_line":211, "scope_name":"prop_norm_percpu", }
+,{"id":"percpu_counter_startup", "file":"lib/percpu_counter.c", "line":167, "type":"f", }
+,{"id":"percpu_counter_sub", "file":"fs/ext2/balloc.c", "line":1413, "type":"c", "scope_line":1218, "scope_name":"ext2_new_blocks", }
+,{"id":"percpu_counter_sub", "file":"fs/ext3/balloc.c", "line":1712, "type":"c", "scope_line":1469, "scope_name":"ext3_new_blocks", }
+,{"id":"percpu_counter_sub", "file":"fs/ext4/inode.c", "line":1103, "type":"c", "scope_line":1083, "scope_name":"ext4_da_update_reserve_space", }
+,{"id":"percpu_counter_sub", "file":"fs/ext4/inode.c", "line":1113, "type":"c", "scope_line":1083, "scope_name":"ext4_da_update_reserve_space", }
+,{"id":"percpu_counter_sub", "file":"fs/ext4/inode.c", "line":1946, "type":"c", "scope_line":1913, "scope_name":"ext4_da_release_space", }
+,{"id":"percpu_counter_sub", "file":"fs/ext4/inode.c", "line":1953, "type":"c", "scope_line":1913, "scope_name":"ext4_da_release_space", }
+,{"id":"percpu_counter_sub", "file":"fs/ext4/mballoc.c", "line":2791, "type":"c", "scope_line":2710, "scope_name":"ext4_mb_mark_diskspace_used", }
+,{"id":"percpu_counter_sub", "file":"fs/ext4/mballoc.c", "line":2797, "type":"c", "scope_line":2710, "scope_name":"ext4_mb_mark_diskspace_used", }
+,{"id":"percpu_counter_sub", "file":"fs/ext4/mballoc.c", "line":4375, "type":"c", "scope_line":4255, "scope_name":"ext4_mb_new_blocks", }
+,{"id":"percpu_counter_sub", "file":"include/linux/percpu_counter.h", "line":158, "type":"f", }
+,{"id":"percpu_counter_sum", "file":"fs/ext4/inode.c", "line":2177, "type":"c", "scope_line":2171, "scope_name":"ext4_print_free_blocks", }
+,{"id":"percpu_counter_sum", "file":"fs/ext4/inode.c", "line":2179, "type":"c", "scope_line":2171, "scope_name":"ext4_print_free_blocks", }
+,{"id":"percpu_counter_sum", "file":"fs/ext4/super.c", "line":2303, "type":"c", "scope_line":2299, "scope_name":"delayed_allocation_blocks_show", }
+,{"id":"percpu_counter_sum", "file":"include/linux/percpu_counter.h", "line":56, "type":"f", }
+,{"id":"percpu_counter_sum", "file":"lib/percpu_counter.c", "line":157, "type":"c", "scope_line":144, "scope_name":"percpu_counter_compare", }
+,{"id":"percpu_counter_sum", "file":"lib/proportions.c", "line":125, "type":"c", "scope_line":105, "scope_name":"prop_change_shift", }
+,{"id":"percpu_counter_sum", "file":"lib/proportions.c", "line":242, "type":"c", "scope_line":211, "scope_name":"prop_norm_percpu", }
+,];
+xr_frag_insert('t/19/a1cf2eb9f6362f5a6f9378da3cc0ed8e3c9121.xr', __xr_tmp);

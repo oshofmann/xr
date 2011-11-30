@@ -1,0 +1,128 @@
+var __xr_tmp = [
+{"id":"csum_partial_copy_from_user", "file":"include/net/sock.h", "line":1371, "type":"c", "scope_line":1365, "scope_name":"skb_copy_to_page", }
+,{"id":"csum_partial_copy_from_user", "file":"net/core/iovec.c", "line":247, "type":"c", "scope_line":189, "scope_name":"csum_partial_copy_fromiovecend", }
+,{"id":"csum_partial_copy_fromiovecend", "file":"net/core/iovec.c", "line":189, "type":"f", }
+,{"id":"csum_partial_copy_fromiovecend", "file":"net/ipv4/ip_output.c", "line":717, "type":"c", "scope_line":707, "scope_name":"ip_generic_getfrag", }
+,{"id":"csum_partial_copy_generic", "file":"arch/x86/lib/csum-wrappers_64.c", "line":108, "type":"c", "scope_line":81, "scope_name":"csum_partial_copy_to_user", }
+,{"id":"csum_partial_copy_generic", "file":"arch/x86/lib/csum-wrappers_64.c", "line":125, "type":"c", "scope_line":122, "scope_name":"csum_partial_copy_nocheck", }
+,{"id":"csum_partial_copy_generic", "file":"arch/x86/lib/csum-wrappers_64.c", "line":55, "type":"c", "scope_line":21, "scope_name":"csum_partial_copy_from_user", }
+,{"id":"csum_partial_copy_nocheck", "file":"arch/x86/lib/csum-wrappers_64.c", "line":122, "type":"f", }
+,{"id":"csum_partial_copy_nocheck", "file":"net/core/skbuff.c", "line":1758, "type":"c", "scope_line":1746, "scope_name":"skb_copy_and_csum_bits", }
+,{"id":"csum_partial_copy_nocheck", "file":"net/core/skbuff.c", "line":1781, "type":"c", "scope_line":1746, "scope_name":"skb_copy_and_csum_bits", }
+,{"id":"csum_partial_copy_nocheck", "file":"net/ipv4/icmp.c", "line":347, "type":"c", "scope_line":326, "scope_name":"icmp_push_reply", }
+,{"id":"csum_partial_copy_nocheck", "file":"net/ipv4/ip_output.c", "line":1365, "type":"c", "scope_line":1360, "scope_name":"ip_reply_glue_bits", }
+,{"id":"csum_partial_copy_nocheck", "file":"net/ipv4/tcp_output.c", "line":1033, "type":"c", "scope_line":989, "scope_name":"tcp_fragment", }
+,{"id":"csum_partial_copy_to_user", "file":"arch/x86/lib/csum-wrappers_64.c", "line":81, "type":"f", }
+,{"id":"csum_partial_copy_to_user", "file":"net/core/datagram.c", "line":574, "type":"c", "scope_line":560, "scope_name":"skb_copy_and_csum_datagram", }
+,{"id":"csum_partial_copy_to_user", "file":"net/core/datagram.c", "line":601, "type":"c", "scope_line":560, "scope_name":"skb_copy_and_csum_datagram", }
+,{"id":"csum_replace2", "file":"include/net/checksum.h", "line":104, "type":"f", }
+,{"id":"csum_replace2", "file":"net/ipv4/af_inet.c", "line":1382, "type":"c", "scope_line":1374, "scope_name":"inet_gro_complete", }
+,{"id":"csum_replace4", "file":"include/net/checksum.h", "line":106, "type":"c", "scope_line":104, "scope_name":"csum_replace2", }
+,{"id":"csum_replace4", "file":"include/net/checksum.h", "line":97, "type":"f", }
+,{"id":"csum_start", "file":"include/linux/skbuff.h", "line":345, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"csum_start", "file":"include/linux/virtio_net.h", "line":52, "type":"m", "scope_line":41, "scope_name":"struct virtio_net_hdr", }
+,{"id":"csum_sub", "file":"include/linux/skbuff.h", "line":1742, "type":"c", "scope_line":1738, "scope_name":"skb_postpull_rcsum", }
+,{"id":"csum_sub", "file":"include/net/checksum.h", "line":67, "type":"f", }
+,{"id":"csum_sub", "file":"include/net/checksum.h", "line":87, "type":"c", "scope_line":81, "scope_name":"csum_block_sub", }
+,{"id":"csum_sub", "file":"net/dsa/tag_dsa.c", "line":156, "type":"c", "scope_line":79, "scope_name":"dsa_rcv", }
+,{"id":"csum_sub", "file":"net/dsa/tag_edsa.c", "line":171, "type":"c", "scope_line":92, "scope_name":"edsa_rcv", }
+,{"id":"csum_sub", "file":"net/ipv4/inet_lro.c", "line":144, "type":"c", "scope_line":131, "scope_name":"lro_tcp_data_csum", }
+,{"id":"csum_sub", "file":"net/ipv4/ip_output.c", "line":1184, "type":"c", "scope_line":1087, "scope_name":"ip_append_page", }
+,{"id":"csum_sub", "file":"net/ipv4/ip_output.c", "line":989, "type":"c", "scope_line":794, "scope_name":"ip_append_data", }
+,{"id":"csum_sub", "file":"net/ipv6/ip6_output.c", "line":1337, "type":"c", "scope_line":1109, "scope_name":"ip6_append_data", }
+,{"id":"csum_sub", "file":"net/ipv6/netfilter.c", "line":110, "type":"c", "scope_line":100, "scope_name":"nf_ip6_checksum", }
+,{"id":"csum_sub", "file":"net/ipv6/netfilter.c", "line":120, "type":"c", "scope_line":100, "scope_name":"nf_ip6_checksum", }
+,{"id":"csum_sub", "file":"net/ipv6/netfilter.c", "line":148, "type":"c", "scope_line":133, "scope_name":"nf_ip6_checksum_partial", }
+,{"id":"csum_sub", "file":"net/ipv6/raw.c", "line":586, "type":"c", "scope_line":526, "scope_name":"rawv6_push_pending_frames", }
+,{"id":"csum_sub", "file":"net/ipv6/reassembly.c", "line":278, "type":"c", "scope_line":252, "scope_name":"ip6_frag_queue", }
+,{"id":"csum_tcpudp_magic", "file":"arch/x86/include/asm/checksum_64.h", "line":112, "type":"f", }
+,{"id":"csum_tcpudp_magic", "file":"include/net/tcp.h", "line":860, "type":"c", "scope_line":857, "scope_name":"tcp_v4_check", }
+,{"id":"csum_tcpudp_magic", "file":"net/ipv4/inet_lro.c", "line":125, "type":"c", "scope_line":102, "scope_name":"lro_update_tcp_ip_header", }
+,{"id":"csum_tcpudp_magic", "file":"net/ipv4/netfilter.c", "line":178, "type":"c", "scope_line":168, "scope_name":"nf_ip_checksum", }
+,{"id":"csum_tcpudp_magic", "file":"net/ipv4/udp.c", "line":1549, "type":"c", "scope_line":1530, "scope_name":"udp4_csum_init", }
+,{"id":"csum_tcpudp_magic", "file":"net/ipv4/udp.c", "line":2195, "type":"c", "scope_line":2184, "scope_name":"udp4_ufo_send_check", }
+,{"id":"csum_tcpudp_magic", "file":"net/ipv4/udp.c", "line":684, "type":"c", "scope_line":671, "scope_name":"udp4_hwcsum_outgoing", }
+,{"id":"csum_tcpudp_magic", "file":"net/ipv4/udp.c", "line":700, "type":"c", "scope_line":671, "scope_name":"udp4_hwcsum_outgoing", }
+,{"id":"csum_tcpudp_magic", "file":"net/ipv4/udp.c", "line":750, "type":"c", "scope_line":709, "scope_name":"udp_push_pending_frames", }
+,{"id":"csum_tcpudp_nofold", "file":"arch/x86/include/asm/checksum_64.h", "line":116, "type":"c", "scope_line":112, "scope_name":"csum_tcpudp_magic", }
+,{"id":"csum_tcpudp_nofold", "file":"arch/x86/include/asm/checksum_64.h", "line":86, "type":"f", }
+,{"id":"csum_tcpudp_nofold", "file":"net/ipv4/inet_lro.c", "line":140, "type":"c", "scope_line":131, "scope_name":"lro_tcp_data_csum", }
+,{"id":"csum_tcpudp_nofold", "file":"net/ipv4/netfilter.c", "line":190, "type":"c", "scope_line":168, "scope_name":"nf_ip_checksum", }
+,{"id":"csum_tcpudp_nofold", "file":"net/ipv4/netfilter.c", "line":212, "type":"c", "scope_line":199, "scope_name":"nf_ip_checksum_partial", }
+,{"id":"csum_tcpudp_nofold", "file":"net/ipv4/tcp_ipv4.c", "line":1529, "type":"c", "scope_line":1517, "scope_name":"tcp_v4_checksum_init", }
+,{"id":"csum_tcpudp_nofold", "file":"net/ipv4/tcp_ipv4.c", "line":639, "type":"c", "scope_line":582, "scope_name":"tcp_v4_send_reset", }
+,{"id":"csum_tcpudp_nofold", "file":"net/ipv4/tcp_ipv4.c", "line":714, "type":"c", "scope_line":657, "scope_name":"tcp_v4_send_ack", }
+,{"id":"csum_tcpudp_nofold", "file":"net/ipv4/udp.c", "line":1554, "type":"c", "scope_line":1530, "scope_name":"udp4_csum_init", }
+,{"id":"csum_unfold", "file":"include/net/checksum.h", "line":101, "type":"c", "scope_line":97, "scope_name":"csum_replace4", }
+,{"id":"csum_unfold", "file":"include/net/checksum.h", "line":90, "type":"f", }
+,{"id":"csum_unfold", "file":"net/core/utils.c", "line":288, "type":"c", "scope_line":283, "scope_name":"inet_proto_csum_replace4", }
+,{"id":"csum_unfold", "file":"net/core/utils.c", "line":294, "type":"c", "scope_line":283, "scope_name":"inet_proto_csum_replace4", }
+,{"id":"csum_unfold", "file":"net/ipv4/inet_lro.c", "line":137, "type":"c", "scope_line":131, "scope_name":"lro_tcp_data_csum", }
+,{"id":"csum_unfold", "file":"net/ipv6/icmp.c", "line":670, "type":"c", "scope_line":628, "scope_name":"icmpv6_rcv", }
+,{"id":"csum_unfold", "file":"net/ipv6/netfilter.c", "line":120, "type":"c", "scope_line":100, "scope_name":"nf_ip6_checksum", }
+,{"id":"csum_unfold", "file":"net/ipv6/netfilter.c", "line":148, "type":"c", "scope_line":133, "scope_name":"nf_ip6_checksum_partial", }
+,{"id":"csum_unfold", "file":"net/ipv6/raw.c", "line":422, "type":"c", "scope_line":399, "scope_name":"rawv6_rcv", }
+,{"id":"csum_unfold", "file":"net/ipv6/raw.c", "line":586, "type":"c", "scope_line":526, "scope_name":"rawv6_push_pending_frames", }
+,{"id":"csum_unfold", "file":"net/ipv6/tcp_ipv6.c", "line":1525, "type":"c", "scope_line":1515, "scope_name":"tcp_v6_checksum_init", }
+,{"id":"csum_unfold", "file":"net/ipv6/udp.c", "line":695, "type":"c", "scope_line":668, "scope_name":"udp6_csum_init", }
+,{"id":"csumoffset", "file":"include/net/ip.h", "line":147, "type":"m", "scope_line":143, "scope_name":"struct ip_reply_arg", }
+,{"id":"ct", "file":"include/net/net_namespace.h", "line":82, "type":"m", "scope_line":35, "scope_name":"struct net", }
+,{"id":"ct", "file":"net/ipv4/ipmr.c", "line":2094, "type":"m", "scope_line":2091, "scope_name":"struct ipmr_vif_iter", }
+,{"id":"ct", "file":"net/ipv4/ipmr.c", "line":2201, "type":"m", "scope_line":2197, "scope_name":"struct ipmr_mfc_iter", }
+,{"id":"ctarget", "file":"include/net/fib_rules.h", "line":23, "type":"m", "scope_line":11, "scope_name":"struct fib_rule", }
+,{"id":"ctime", "file":"include/linux/msdos_fs.h", "line":146, "type":"m", "scope_line":141, "scope_name":"struct msdos_dir_entry", }
+,{"id":"ctime", "file":"include/linux/nfs_xdr.h", "line":51, "type":"m", "scope_line":30, "scope_name":"struct nfs_fattr", }
+,{"id":"ctime", "file":"include/linux/raid/md_u.h", "line":86, "type":"m", "scope_line":79, "scope_name":"struct mdu_array_info_s", }
+,{"id":"ctime", "file":"include/linux/stat.h", "line":73, "type":"m", "scope_line":62, "scope_name":"struct kstat", }
+,{"id":"ctime", "file":"kernel/auditsc.c", "line":172, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"ctime_cs", "file":"include/linux/msdos_fs.h", "line":145, "type":"m", "scope_line":141, "scope_name":"struct msdos_dir_entry", }
+,{"id":"ctl", "file":"arch/x86/kernel/cpu/mcheck/mce-internal.h", "line":18, "type":"m", "scope_line":17, "scope_name":"struct mce_bank", }
+,{"id":"ctl", "file":"include/linux/ata.h", "line":479, "type":"m", "scope_line":475, "scope_name":"struct ata_taskfile", }
+,{"id":"ctl", "file":"include/linux/libata.h", "line":725, "type":"m", "scope_line":711, "scope_name":"struct ata_port", }
+,{"id":"ctl", "file":"include/net/netns/unix.h", "line":10, "type":"m", "scope_line":8, "scope_name":"struct netns_unix", }
+,{"id":"ctl_addr", "file":"include/linux/ide.h", "line":78, "type":"m", "scope_line":58, "scope_name":"struct ide_io_ports", }
+,{"id":"ctl_addr", "file":"include/linux/libata.h", "line":517, "type":"m", "scope_line":504, "scope_name":"struct ata_ioports", }
+,{"id":"ctl_entry", "file":"include/linux/sysctl.h", "line":1041, "type":"m", "scope_line":1038, "scope_name":"struct ctl_table_header", }
+,{"id":"ctl_forward_entry", "file":"net/ipv4/devinet.c", "line":1508, "type":"v", }
+,{"id":"ctl_ioctl", "file":"drivers/md/dm-ioctl.c", "line":1508, "type":"f", }
+,{"id":"ctl_ioctl", "file":"drivers/md/dm-ioctl.c", "line":1582, "type":"c", "scope_line":1580, "scope_name":"dm_ctl_ioctl", }
+,{"id":"ctl_mutex", "file":"drivers/block/pktcdvd.c", "line":94, "type":"v", }
+,{"id":"ctl_name", "file":"kernel/sysctl_binary.c", "line":43, "type":"m", "scope_line":41, "scope_name":"struct bin_table", }
+,{"id":"ctl_path", "file":"include/linux/sysctl.h", "line":1054, "type":"s", }
+,{"id":"ctl_table", "file":"include/linux/sysctl.h", "line":1014, "type":"s", }
+,{"id":"ctl_table", "file":"include/linux/sysctl.h", "line":1040, "type":"m", "scope_line":1038, "scope_name":"struct ctl_table_header", }
+,{"id":"ctl_table", "file":"include/linux/sysctl.h", "line":962, "type":"t", }
+,{"id":"ctl_table_arg", "file":"include/linux/sysctl.h", "line":1045, "type":"m", "scope_line":1038, "scope_name":"struct ctl_table_header", }
+,{"id":"ctl_table_header", "file":"include/linux/sysctl.h", "line":1038, "type":"s", }
+,{"id":"ctl_table_root", "file":"include/linux/sysctl.h", "line":1027, "type":"s", }
+,{"id":"ctl_table_set", "file":"include/linux/sysctl.h", "line":939, "type":"s", }
+,{"id":"ctokens", "file":"include/linux/pkt_sched.h", "line":289, "type":"m", "scope_line":284, "scope_name":"struct tc_htb_xstats", }
+,{"id":"ctor", "file":"include/linux/slab_def.h", "line":81, "type":"m", "scope_line":52, "scope_name":"struct kmem_cache", }
+,{"id":"ctor_fn_t", "file":"include/linux/init.h", "line":138, "type":"t", }
+,{"id":"ctors", "file":"include/linux/module.h", "line":387, "type":"m", "scope_line":244, "scope_name":"struct module", }
+,{"id":"ctr", "file":"include/linux/device-mapper.h", "line":139, "type":"m", "scope_line":134, "scope_name":"struct target_type", }
+,{"id":"ctr", "file":"include/linux/inktag.h", "line":71, "type":"m", "scope_line":69, "scope_name":"struct ink_hist_trailer", }
+,{"id":"ctrl", "file":"drivers/ata/sata_sil24.c", "line":40, "type":"m", "scope_line":39, "scope_name":"struct sil24_prb", }
+,{"id":"ctrl", "file":"drivers/pci/hotplug/pciehp.h", "line":76, "type":"m", "scope_line":74, "scope_name":"struct slot", }
+,{"id":"ctrl", "file":"drivers/pci/pci.h", "line":238, "type":"m", "scope_line":234, "scope_name":"struct pci_sriov", }
+,{"id":"ctrl", "file":"include/linux/if_fddi.h", "line":69, "type":"m", "scope_line":66, "scope_name":"struct fddi_8022_1_hdr", }
+,{"id":"ctrl", "file":"include/linux/if_fddi.h", "line":85, "type":"m", "scope_line":82, "scope_name":"struct fddi_snap_hdr", }
+,{"id":"ctrl", "file":"include/net/bluetooth/rfcomm.h", "line":107, "type":"m", "scope_line":105, "scope_name":"struct rfcomm_hdr", }
+,{"id":"ctrl", "file":"include/net/bluetooth/rfcomm.h", "line":113, "type":"m", "scope_line":111, "scope_name":"struct rfcomm_cmd", }
+,{"id":"ctrl_1", "file":"include/linux/if_fddi.h", "line":76, "type":"m", "scope_line":73, "scope_name":"struct fddi_8022_2_hdr", }
+,{"id":"ctrl_2", "file":"include/linux/if_fddi.h", "line":77, "type":"m", "scope_line":73, "scope_name":"struct fddi_8022_2_hdr", }
+,{"id":"ctrl_alt_del", "file":"drivers/char/keyboard.c", "line":596, "type":"c", "scope_line":594, "scope_name":"fn_boot_it", }
+,{"id":"ctrl_alt_del", "file":"drivers/xen/manage.c", "line":200, "type":"c", "scope_line":164, "scope_name":"shutdown_handler", }
+,{"id":"ctrl_alt_del", "file":"kernel/sys.c", "line":456, "type":"f", }
+,{"id":"ctrl_auto", "file":"drivers/base/power/sysfs.c", "line":85, "type":"v", }
+,{"id":"ctrl_build_family_msg", "file":"net/netlink/genetlink.c", "line":714, "type":"f", }
+,{"id":"ctrl_build_family_msg", "file":"net/netlink/genetlink.c", "line":786, "type":"c", "scope_line":758, "scope_name":"ctrl_getfamily", }
+,{"id":"ctrl_build_family_msg", "file":"net/netlink/genetlink.c", "line":808, "type":"c", "scope_line":794, "scope_name":"genl_ctrl_event", }
+,{"id":"ctrl_build_mcgrp_msg", "file":"net/netlink/genetlink.c", "line":733, "type":"f", }
+,{"id":"ctrl_build_mcgrp_msg", "file":"net/netlink/genetlink.c", "line":814, "type":"c", "scope_line":794, "scope_name":"genl_ctrl_event", }
+,{"id":"ctrl_class", "file":"include/linux/videodev2.h", "line":921, "type":"m", "scope_line":920, "scope_name":"struct v4l2_ext_controls", }
+,{"id":"ctrl_dbg", "file":"drivers/pci/hotplug/pciehp.h", "line":60, "type":"d", }
+,{"id":"ctrl_dumpfamily", "file":"net/netlink/genetlink.c", "line":682, "type":"f", }
+,{"id":"ctrl_err", "file":"drivers/pci/hotplug/pciehp.h", "line":66, "type":"d", }
+,];
+xr_frag_insert('t/21/8cd773e3f331282cb0e94b9a20390ea2f18dc6.xr', __xr_tmp);

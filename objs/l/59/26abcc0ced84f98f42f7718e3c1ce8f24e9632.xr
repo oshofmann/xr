@@ -1,0 +1,18 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#LINUX_GENERIC_ACL_H\">LINUX_GENERIC_ACL_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#LINUX_GENERIC_ACL_H\">LINUX_GENERIC_ACL_H</a>", 
+"", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#xattr\">xattr</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"", 
+"struct <a class=\"id\" href=\"#inode\">inode</a>;", 
+"", 
+"extern const struct <a class=\"id\" href=\"#xattr_handler\">xattr_handler</a> <a class=\"id\" href=\"#generic_acl_access_handler\">generic_acl_access_handler</a>;", 
+"extern const struct <a class=\"id\" href=\"#xattr_handler\">xattr_handler</a> <a class=\"id\" href=\"#generic_acl_default_handler\">generic_acl_default_handler</a>;", 
+"", 
+"int <a class=\"id\" href=\"#generic_acl_init\">generic_acl_init</a>(struct <a class=\"id\" href=\"#inode\">inode</a> *, struct <a class=\"id\" href=\"#inode\">inode</a> *);", 
+"int <a class=\"id\" href=\"#generic_acl_chmod\">generic_acl_chmod</a>(struct <a class=\"id\" href=\"#inode\">inode</a> *);", 
+"int <a class=\"id\" href=\"#generic_check_acl\">generic_check_acl</a>(struct <a class=\"id\" href=\"#inode\">inode</a> *<a class=\"id\" href=\"#inode\">inode</a>, int <a class=\"id\" href=\"#mask\">mask</a>);", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* LINUX_GENERIC_ACL_H */</span>", 
+];
+xr_frag_insert('l/59/26abcc0ced84f98f42f7718e3c1ce8f24e9632.xr', __xr_tmp);

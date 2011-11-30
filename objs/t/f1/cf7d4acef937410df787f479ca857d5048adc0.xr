@@ -1,0 +1,90 @@
+var __xr_tmp = [
+{"id":"fsnotify_oldname_free", "file":"include/linux/fsnotify.h", "line":322, "type":"f", }
+,{"id":"fsnotify_oldname_init", "file":"fs/debugfs/inode.c", "line":490, "type":"c", "scope_line":470, "scope_name":"debugfs_rename", }
+,{"id":"fsnotify_oldname_init", "file":"fs/namei.c", "line":2637, "type":"c", "scope_line":2613, "scope_name":"vfs_rename", }
+,{"id":"fsnotify_oldname_init", "file":"include/linux/fsnotify.h", "line":314, "type":"f", }
+,{"id":"fsnotify_open", "file":"fs/exec.c", "line":131, "type":"c", "scope_line":106, "scope_name":"sys_uselib", }
+,{"id":"fsnotify_open", "file":"fs/exec.c", "line":701, "type":"c", "scope_line":683, "scope_name":"open_exec", }
+,{"id":"fsnotify_open", "file":"fs/open.c", "line":891, "type":"c", "scope_line":878, "scope_name":"do_sys_open", }
+,{"id":"fsnotify_open", "file":"include/linux/fsnotify.h", "line":224, "type":"f", }
+,{"id":"fsnotify_ops", "file":"include/linux/fsnotify_backend.h", "line":93, "type":"s", }
+,{"id":"fsnotify_parent", "file":"include/linux/fsnotify.h", "line":137, "type":"c", "scope_line":130, "scope_name":"fsnotify_nameremove", }
+,{"id":"fsnotify_parent", "file":"include/linux/fsnotify.h", "line":198, "type":"c", "scope_line":188, "scope_name":"fsnotify_access", }
+,{"id":"fsnotify_parent", "file":"include/linux/fsnotify.h", "line":216, "type":"c", "scope_line":206, "scope_name":"fsnotify_modify", }
+,{"id":"fsnotify_parent", "file":"include/linux/fsnotify.h", "line":234, "type":"c", "scope_line":224, "scope_name":"fsnotify_open", }
+,{"id":"fsnotify_parent", "file":"include/linux/fsnotify.h", "line":253, "type":"c", "scope_line":242, "scope_name":"fsnotify_close", }
+,{"id":"fsnotify_parent", "file":"include/linux/fsnotify.h", "line":269, "type":"c", "scope_line":261, "scope_name":"fsnotify_xattr", }
+,{"id":"fsnotify_parent", "file":"include/linux/fsnotify.h", "line":29, "type":"f", }
+,{"id":"fsnotify_parent", "file":"include/linux/fsnotify.h", "line":304, "type":"c", "scope_line":277, "scope_name":"fsnotify_change", }
+,{"id":"fsnotify_peek_notify_event", "file":"fs/notify/inotify/inotify_user.c", "line":142, "type":"c", "scope_line":133, "scope_name":"get_one_event", }
+,{"id":"fsnotify_peek_notify_event", "file":"fs/notify/notification.c", "line":266, "type":"f", }
+,{"id":"fsnotify_perm", "file":"include/linux/fsnotify.h", "line":38, "type":"f", }
+,{"id":"fsnotify_perm", "file":"security/security.c", "line":628, "type":"c", "scope_line":620, "scope_name":"security_file_permission", }
+,{"id":"fsnotify_perm", "file":"security/security.c", "line":698, "type":"c", "scope_line":690, "scope_name":"security_dentry_open", }
+,{"id":"fsnotify_put_event", "file":"fs/notify/fsnotify.c", "line":306, "type":"c", "scope_line":219, "scope_name":"fsnotify", }
+,{"id":"fsnotify_put_event", "file":"fs/notify/inotify/inotify_fsnotify.c", "line":128, "type":"c", "scope_line":92, "scope_name":"inotify_handle_event", }
+,{"id":"fsnotify_put_event", "file":"fs/notify/inotify/inotify_user.c", "line":256, "type":"c", "scope_line":230, "scope_name":"inotify_read", }
+,{"id":"fsnotify_put_event", "file":"fs/notify/inotify/inotify_user.c", "line":546, "type":"c", "scope_line":515, "scope_name":"inotify_ignored_and_remove_idr", }
+,{"id":"fsnotify_put_event", "file":"fs/notify/inotify/inotify_user.c", "line":553, "type":"c", "scope_line":515, "scope_name":"inotify_ignored_and_remove_idr", }
+,{"id":"fsnotify_put_event", "file":"fs/notify/notification.c", "line":190, "type":"c", "scope_line":140, "scope_name":"fsnotify_add_notify_event", }
+,{"id":"fsnotify_put_event", "file":"fs/notify/notification.c", "line":210, "type":"c", "scope_line":140, "scope_name":"fsnotify_add_notify_event", }
+,{"id":"fsnotify_put_event", "file":"fs/notify/notification.c", "line":299, "type":"c", "scope_line":283, "scope_name":"fsnotify_flush_notify", }
+,{"id":"fsnotify_put_event", "file":"fs/notify/notification.c", "line":352, "type":"c", "scope_line":319, "scope_name":"fsnotify_replace_event", }
+,{"id":"fsnotify_put_event", "file":"fs/notify/notification.c", "line":84, "type":"f", }
+,{"id":"fsnotify_put_group", "file":"fs/notify/group.c", "line":68, "type":"f", }
+,{"id":"fsnotify_put_group", "file":"fs/notify/inotify/inotify_user.c", "line":300, "type":"c", "scope_line":290, "scope_name":"inotify_release", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/dnotify/dnotify.c", "line":208, "type":"c", "scope_line":169, "scope_name":"dnotify_flush", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/dnotify/dnotify.c", "line":391, "type":"c", "scope_line":271, "scope_name":"fcntl_dirnotify", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/dnotify/dnotify.c", "line":394, "type":"c", "scope_line":271, "scope_name":"fcntl_dirnotify", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/inode_mark.c", "line":102, "type":"c", "scope_line":86, "scope_name":"fsnotify_clear_marks_by_inode", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/inotify/inotify_user.c", "line":437, "type":"c", "scope_line":425, "scope_name":"do_inotify_remove_from_idr", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/inotify/inotify_user.c", "line":507, "type":"c", "scope_line":444, "scope_name":"inotify_remove_from_idr", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/inotify/inotify_user.c", "line":620, "type":"c", "scope_line":571, "scope_name":"inotify_update_existing_watch", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/inotify/inotify_user.c", "line":673, "type":"c", "scope_line":625, "scope_name":"inotify_new_watch", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/inotify/inotify_user.c", "line":834, "type":"c", "scope_line":806, "scope_name":"sys_inotify_rm_watch", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/mark.c", "line":111, "type":"f", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/mark.c", "line":302, "type":"c", "scope_line":284, "scope_name":"fsnotify_clear_marks_by_group_flags", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/mark.c", "line":351, "type":"c", "scope_line":336, "scope_name":"fsnotify_mark_destroy", }
+,{"id":"fsnotify_put_mark", "file":"fs/notify/vfsmount_mark.c", "line":49, "type":"c", "scope_line":33, "scope_name":"fsnotify_clear_marks_by_mount", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":254, "type":"c", "scope_line":222, "scope_name":"untag_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":297, "type":"c", "scope_line":222, "scope_name":"untag_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":313, "type":"c", "scope_line":222, "scope_name":"untag_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":337, "type":"c", "scope_line":317, "scope_name":"create_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":374, "type":"c", "scope_line":355, "scope_name":"tag_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":382, "type":"c", "scope_line":355, "scope_name":"tag_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":392, "type":"c", "scope_line":355, "scope_name":"tag_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":401, "type":"c", "scope_line":355, "scope_name":"tag_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":418, "type":"c", "scope_line":355, "scope_name":"tag_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":419, "type":"c", "scope_line":355, "scope_name":"tag_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":448, "type":"c", "scope_line":355, "scope_name":"tag_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":449, "type":"c", "scope_line":355, "scope_name":"tag_chunk", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_tree.c", "line":920, "type":"c", "scope_line":915, "scope_name":"audit_tree_freeing_mark", }
+,{"id":"fsnotify_put_mark", "file":"kernel/audit_watch.c", "line":92, "type":"c", "scope_line":89, "scope_name":"audit_put_parent", }
+,{"id":"fsnotify_recalc_inode_mask", "file":"fs/notify/dnotify/dnotify.c", "line":74, "type":"c", "scope_line":54, "scope_name":"dnotify_recalc_inode_mask", }
+,{"id":"fsnotify_recalc_inode_mask", "file":"fs/notify/inode_mark.c", "line":52, "type":"f", }
+,{"id":"fsnotify_recalc_inode_mask", "file":"fs/notify/inotify/inotify_user.c", "line":612, "type":"c", "scope_line":571, "scope_name":"inotify_update_existing_watch", }
+,{"id":"fsnotify_recalc_inode_mask_locked", "file":"fs/notify/inode_mark.c", "line":225, "type":"c", "scope_line":182, "scope_name":"fsnotify_add_inode_mark", }
+,{"id":"fsnotify_recalc_inode_mask_locked", "file":"fs/notify/inode_mark.c", "line":35, "type":"f", }
+,{"id":"fsnotify_recalc_inode_mask_locked", "file":"fs/notify/inode_mark.c", "line":55, "type":"c", "scope_line":52, "scope_name":"fsnotify_recalc_inode_mask", }
+,{"id":"fsnotify_recalc_inode_mask_locked", "file":"fs/notify/inode_mark.c", "line":78, "type":"c", "scope_line":61, "scope_name":"fsnotify_destroy_inode_mark", }
+,{"id":"fsnotify_recalc_vfsmount_mask", "file":"fs/notify/vfsmount_mark.c", "line":78, "type":"f", }
+,{"id":"fsnotify_recalc_vfsmount_mask_locked", "file":"fs/notify/vfsmount_mark.c", "line":183, "type":"c", "scope_line":140, "scope_name":"fsnotify_add_vfsmount_mark", }
+,{"id":"fsnotify_recalc_vfsmount_mask_locked", "file":"fs/notify/vfsmount_mark.c", "line":61, "type":"f", }
+,{"id":"fsnotify_recalc_vfsmount_mask_locked", "file":"fs/notify/vfsmount_mark.c", "line":81, "type":"c", "scope_line":78, "scope_name":"fsnotify_recalc_vfsmount_mask", }
+,{"id":"fsnotify_recalc_vfsmount_mask_locked", "file":"fs/notify/vfsmount_mark.c", "line":97, "type":"c", "scope_line":85, "scope_name":"fsnotify_destroy_vfsmount_mark", }
+,{"id":"fsnotify_remove_notify_event", "file":"fs/notify/inotify/inotify_user.c", "line":154, "type":"c", "scope_line":133, "scope_name":"get_one_event", }
+,{"id":"fsnotify_remove_notify_event", "file":"fs/notify/notification.c", "line":236, "type":"f", }
+,{"id":"fsnotify_remove_notify_event", "file":"fs/notify/notification.c", "line":290, "type":"c", "scope_line":283, "scope_name":"fsnotify_flush_notify", }
+,{"id":"fsnotify_remove_priv_from_event", "file":"fs/notify/inotify/inotify_user.c", "line":179, "type":"c", "scope_line":165, "scope_name":"copy_event_to_user", }
+,{"id":"fsnotify_remove_priv_from_event", "file":"fs/notify/notification.c", "line":118, "type":"f", }
+,{"id":"fsnotify_remove_priv_from_event", "file":"fs/notify/notification.c", "line":294, "type":"c", "scope_line":283, "scope_name":"fsnotify_flush_notify", }
+,{"id":"fsnotify_replace_event", "file":"fs/notify/notification.c", "line":319, "type":"f", }
+,{"id":"fsnotify_set_inode_mark_mask_locked", "file":"fs/notify/inode_mark.c", "line":155, "type":"f", }
+,{"id":"fsnotify_set_inode_mark_mask_locked", "file":"fs/notify/mark.c", "line":201, "type":"c", "scope_line":194, "scope_name":"fsnotify_set_mark_mask_locked", }
+,{"id":"fsnotify_set_mark_ignored_mask_locked", "file":"fs/notify/mark.c", "line":204, "type":"f", }
+,{"id":"fsnotify_set_mark_mask_locked", "file":"fs/notify/dnotify/dnotify.c", "line":68, "type":"c", "scope_line":54, "scope_name":"dnotify_recalc_inode_mask", }
+,{"id":"fsnotify_set_mark_mask_locked", "file":"fs/notify/inotify/inotify_user.c", "line":597, "type":"c", "scope_line":571, "scope_name":"inotify_update_existing_watch", }
+,{"id":"fsnotify_set_mark_mask_locked", "file":"fs/notify/inotify/inotify_user.c", "line":599, "type":"c", "scope_line":571, "scope_name":"inotify_update_existing_watch", }
+,{"id":"fsnotify_set_mark_mask_locked", "file":"fs/notify/mark.c", "line":194, "type":"f", }
+,];
+xr_frag_insert('t/f1/cf7d4acef937410df787f479ca857d5048adc0.xr', __xr_tmp);

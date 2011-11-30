@@ -1,0 +1,105 @@
+var __xr_tmp = [
+{"id":"request_firmware_nowait", "file":"drivers/base/firmware_class.c", "line":662, "type":"f", }
+,{"id":"request_firmware_work_func", "file":"drivers/base/firmware_class.c", "line":624, "type":"f", }
+,{"id":"request_fn", "file":"include/linux/blkdev.h", "line":267, "type":"m", "scope_line":253, "scope_name":"struct request_queue", }
+,{"id":"request_fn_proc", "file":"include/linux/blkdev.h", "line":185, "type":"t", }
+,{"id":"request_id", "file":"include/linux/atmmpc.h", "line":28, "type":"m", "scope_line":21, "scope_name":"struct in_ctrl_info", }
+,{"id":"request_irq", "file":"arch/x86/kernel/amd_iommu_init.c", "line":956, "type":"c", "scope_line":949, "scope_name":"iommu_setup_msi", }
+,{"id":"request_irq", "file":"arch/x86/kernel/hpet.c", "line":540, "type":"c", "scope_line":537, "scope_name":"hpet_setup_irq", }
+,{"id":"request_irq", "file":"drivers/acpi/osl.c", "line":389, "type":"c", "scope_line":367, "scope_name":"acpi_os_install_interrupt_handler", }
+,{"id":"request_irq", "file":"drivers/char/hpet.c", "line":485, "type":"c", "scope_line":448, "scope_name":"hpet_ioctl_ieon", }
+,{"id":"request_irq", "file":"drivers/char/hvc_irq.c", "line":31, "type":"c", "scope_line":23, "scope_name":"notifier_add_irq", }
+,{"id":"request_irq", "file":"drivers/ide/ide-probe.c", "line":856, "type":"c", "scope_line":846, "scope_name":"init_irq", }
+,{"id":"request_irq", "file":"drivers/input/serio/i8042.c", "line":1341, "type":"c", "scope_line":1318, "scope_name":"i8042_setup_aux", }
+,{"id":"request_irq", "file":"drivers/input/serio/i8042.c", "line":1367, "type":"c", "scope_line":1359, "scope_name":"i8042_setup_kbd", }
+,{"id":"request_irq", "file":"drivers/input/serio/i8042.c", "line":794, "type":"c", "scope_line":724, "scope_name":"i8042_check_aux", }
+,{"id":"request_irq", "file":"drivers/net/phy/phy.c", "line":596, "type":"c", "scope_line":589, "scope_name":"phy_start_interrupts", }
+,{"id":"request_irq", "file":"drivers/pci/hotplug/cpci_hotplug_core.c", "line":595, "type":"c", "scope_line":582, "scope_name":"cpci_hp_register_controller", }
+,{"id":"request_irq", "file":"drivers/pci/hotplug/pciehp_hpc.c", "line":117, "type":"c", "scope_line":105, "scope_name":"pciehp_request_irq", }
+,{"id":"request_irq", "file":"drivers/pci/pcie/aer/aerdrv.c", "line":323, "type":"c", "scope_line":303, "scope_name":"aer_probe", }
+,{"id":"request_irq", "file":"drivers/pci/pcie/pme.c", "line":383, "type":"c", "scope_line":364, "scope_name":"pcie_pme_probe", }
+,{"id":"request_irq", "file":"drivers/pnp/resource.c", "line":387, "type":"c", "scope_line":349, "scope_name":"pnp_check_irq", }
+,{"id":"request_irq", "file":"drivers/rtc/rtc-cmos.c", "line":778, "type":"c", "scope_line":651, "scope_name":"cmos_do_probe", }
+,{"id":"request_irq", "file":"drivers/serial/8250.c", "line":1690, "type":"c", "scope_line":1649, "scope_name":"serial_link_irq_chain", }
+,{"id":"request_irq", "file":"drivers/virtio/virtio_pci.c", "line":317, "type":"c", "scope_line":284, "scope_name":"vp_request_msix_vectors", }
+,{"id":"request_irq", "file":"drivers/virtio/virtio_pci.c", "line":337, "type":"c", "scope_line":284, "scope_name":"vp_request_msix_vectors", }
+,{"id":"request_irq", "file":"drivers/virtio/virtio_pci.c", "line":355, "type":"c", "scope_line":350, "scope_name":"vp_request_intx", }
+,{"id":"request_irq", "file":"drivers/virtio/virtio_pci.c", "line":544, "type":"c", "scope_line":488, "scope_name":"vp_try_to_find_vqs", }
+,{"id":"request_irq", "file":"drivers/xen/events.c", "line":513, "type":"c", "scope_line":504, "scope_name":"bind_evtchn_to_irqhandler", }
+,{"id":"request_irq", "file":"drivers/xen/events.c", "line":531, "type":"c", "scope_line":523, "scope_name":"bind_virq_to_irqhandler", }
+,{"id":"request_irq", "file":"drivers/xen/events.c", "line":555, "type":"c", "scope_line":541, "scope_name":"bind_ipi_to_irqhandler", }
+,{"id":"request_irq", "file":"include/linux/interrupt.h", "line":134, "type":"f", }
+,{"id":"request_irq", "file":"kernel/irq/manage.c", "line":1151, "type":"c", "scope_line":1136, "scope_name":"request_any_context_irq", }
+,{"id":"request_key", "file":"include/linux/key-type.h", "line":88, "type":"m", "scope_line":34, "scope_name":"struct key_type", }
+,{"id":"request_key", "file":"net/dns_resolver/dns_query.c", "line":124, "type":"c", "scope_line":70, "scope_name":"dns_query", }
+,{"id":"request_key", "file":"security/keys/request_key.c", "line":553, "type":"f", }
+,{"id":"request_key_actor_t", "file":"include/linux/key-type.h", "line":28, "type":"t", }
+,{"id":"request_key_and_link", "file":"security/keys/keyctl.c", "line":204, "type":"c", "scope_line":149, "scope_name":"sys_request_key", }
+,{"id":"request_key_and_link", "file":"security/keys/request_key.c", "line":476, "type":"f", }
+,{"id":"request_key_and_link", "file":"security/keys/request_key.c", "line":563, "type":"c", "scope_line":553, "scope_name":"request_key", }
+,{"id":"request_key_and_link", "file":"security/keys/request_key.c", "line":592, "type":"c", "scope_line":583, "scope_name":"request_key_with_auxdata", }
+,{"id":"request_key_and_link", "file":"security/keys/request_key.c", "line":616, "type":"c", "scope_line":611, "scope_name":"request_key_async", }
+,{"id":"request_key_and_link", "file":"security/keys/request_key.c", "line":634, "type":"c", "scope_line":628, "scope_name":"request_key_async_with_auxdata", }
+,{"id":"request_key_async", "file":"security/keys/request_key.c", "line":611, "type":"f", }
+,{"id":"request_key_async_with_auxdata", "file":"security/keys/request_key.c", "line":628, "type":"f", }
+,{"id":"request_key_auth", "file":"include/linux/cred.h", "line":142, "type":"m", "scope_line":116, "scope_name":"struct cred", }
+,{"id":"request_key_auth", "file":"security/keys/internal.h", "line":173, "type":"s", }
+,{"id":"request_key_auth_describe", "file":"security/keys/request_key_auth.c", "line":58, "type":"f", }
+,{"id":"request_key_auth_destroy", "file":"security/keys/request_key_auth.c", "line":119, "type":"f", }
+,{"id":"request_key_auth_instantiate", "file":"security/keys/request_key_auth.c", "line":45, "type":"f", }
+,{"id":"request_key_auth_new", "file":"security/keys/request_key.c", "line":220, "type":"c", "scope_line":204, "scope_name":"construct_key", }
+,{"id":"request_key_auth_new", "file":"security/keys/request_key_auth.c", "line":142, "type":"f", }
+,{"id":"request_key_auth_read", "file":"security/keys/request_key_auth.c", "line":74, "type":"f", }
+,{"id":"request_key_auth_revoke", "file":"security/keys/request_key_auth.c", "line":102, "type":"f", }
+,{"id":"request_key_with_auxdata", "file":"security/keys/request_key.c", "line":583, "type":"f", }
+,{"id":"request_len", "file":"include/linux/bsg.h", "line":26, "type":"m", "scope_line":20, "scope_name":"struct sg_io_v4", }
+,{"id":"request_list", "file":"include/linux/blkdev.h", "line":40, "type":"s", }
+,{"id":"request_mem_region", "file":"include/linux/ioport.h", "line":150, "type":"d", }
+,{"id":"request_mem_region_exclusive", "file":"include/linux/ioport.h", "line":151, "type":"d", }
+,{"id":"request_module", "file":"include/linux/kmod.h", "line":36, "type":"d", }
+,{"id":"request_module_nowait", "file":"include/linux/kmod.h", "line":37, "type":"d", }
+,{"id":"request_mutex", "file":"drivers/xen/xenbus/xenbus_xs.c", "line":90, "type":"m", "scope_line":70, "scope_name":"struct xs_handle", }
+,{"id":"request_muxed_region", "file":"include/linux/ioport.h", "line":148, "type":"d", }
+,{"id":"request_pending", "file":"include/linux/pm.h", "line":473, "type":"m", "scope_line":451, "scope_name":"struct dev_pm_info", }
+,{"id":"request_pm_state", "file":"include/linux/blkdev.h", "line":174, "type":"s", }
+,{"id":"request_port", "file":"include/linux/serial_core.h", "line":253, "type":"m", "scope_line":218, "scope_name":"struct uart_ops", }
+,{"id":"request_priority", "file":"include/linux/bsg.h", "line":30, "type":"m", "scope_line":20, "scope_name":"struct sg_io_v4", }
+,{"id":"request_queue", "file":"include/linux/blkdev.h", "line":253, "type":"s", }
+,{"id":"request_queue", "file":"include/scsi/scsi_device.h", "line":70, "type":"m", "scope_line":68, "scope_name":"struct scsi_device", }
+,{"id":"request_region", "file":"include/linux/ioport.h", "line":147, "type":"d", }
+,{"id":"request_resource", "file":"arch/x86/kernel/paravirt.c", "line":227, "type":"c", "scope_line":225, "scope_name":"paravirt_disable_iospace", }
+,{"id":"request_resource", "file":"arch/x86/kernel/setup.c", "line":585, "type":"c", "scope_line":579, "scope_name":"reserve_standard_io_resources", }
+,{"id":"request_resource", "file":"drivers/pci/iov.c", "line":110, "type":"c", "scope_line":73, "scope_name":"virtfn_add", }
+,{"id":"request_resource", "file":"drivers/video/console/vgacon.c", "line":418, "type":"c", "scope_line":373, "scope_name":"vgacon_startup", }
+,{"id":"request_resource", "file":"drivers/video/console/vgacon.c", "line":428, "type":"c", "scope_line":373, "scope_name":"vgacon_startup", }
+,{"id":"request_resource", "file":"drivers/video/console/vgacon.c", "line":430, "type":"c", "scope_line":373, "scope_name":"vgacon_startup", }
+,{"id":"request_resource", "file":"drivers/video/console/vgacon.c", "line":450, "type":"c", "scope_line":373, "scope_name":"vgacon_startup", }
+,{"id":"request_resource", "file":"drivers/video/console/vgacon.c", "line":457, "type":"c", "scope_line":373, "scope_name":"vgacon_startup", }
+,{"id":"request_resource", "file":"drivers/video/console/vgacon.c", "line":502, "type":"c", "scope_line":373, "scope_name":"vgacon_startup", }
+,{"id":"request_resource", "file":"kernel/resource.c", "line":246, "type":"f", }
+,{"id":"request_resource", "file":"kernel/resource.c", "line":907, "type":"c", "scope_line":887, "scope_name":"reserve_setup", }
+,{"id":"request_resource", "file":"mm/memory_hotplug.c", "line":48, "type":"c", "scope_line":38, "scope_name":"register_memory_resource", }
+,{"id":"request_resource_conflict", "file":"drivers/pci/setup-res.c", "line":105, "type":"c", "scope_line":93, "scope_name":"pci_claim_resource", }
+,{"id":"request_resource_conflict", "file":"drivers/pci/setup-res.c", "line":180, "type":"c", "scope_line":132, "scope_name":"__pci_assign_resource", }
+,{"id":"request_resource_conflict", "file":"kernel/resource.c", "line":229, "type":"f", }
+,{"id":"request_resource_conflict", "file":"kernel/resource.c", "line":250, "type":"c", "scope_line":246, "scope_name":"request_resource", }
+,{"id":"request_sense", "file":"include/linux/cdrom.h", "line":697, "type":"s", }
+,{"id":"request_sense_pc", "file":"include/linux/ide.h", "line":569, "type":"m", "scope_line":486, "scope_name":"struct ide_drive_s", }
+,{"id":"request_sock", "file":"include/net/request_sock.h", "line":54, "type":"s", }
+,{"id":"request_sock_ops", "file":"include/net/request_sock.h", "line":35, "type":"s", }
+,{"id":"request_sock_queue", "file":"include/net/request_sock.h", "line":124, "type":"s", }
+,{"id":"request_tag", "file":"include/linux/bsg.h", "line":28, "type":"m", "scope_line":20, "scope_name":"struct sg_io_v4", }
+,{"id":"request_threaded_irq", "file":"include/linux/interrupt.h", "line":138, "type":"c", "scope_line":134, "scope_name":"request_irq", }
+,{"id":"request_threaded_irq", "file":"kernel/irq/devres.c", "line":60, "type":"c", "scope_line":47, "scope_name":"devm_request_threaded_irq", }
+,{"id":"request_threaded_irq", "file":"kernel/irq/manage.c", "line":1049, "type":"f", }
+,{"id":"request_threaded_irq", "file":"kernel/irq/manage.c", "line":1146, "type":"c", "scope_line":1136, "scope_name":"request_any_context_irq", }
+,{"id":"request_values", "file":"include/net/request_sock.h", "line":32, "type":"s", }
+,{"id":"requested", "file":"include/linux/lsm_audit.h", "line":90, "type":"m", "scope_line":28, "scope_name":"struct common_audit_data", }
+,{"id":"requested_freq", "file":"drivers/cpufreq/cpufreq_conservative.c", "line":64, "type":"m", "scope_line":57, "scope_name":"struct cpu_dbs_info_s", }
+,{"id":"requested_id", "file":"include/linux/platform_device.h", "line":146, "type":"m", "scope_line":142, "scope_name":"struct early_platform_driver", }
+,{"id":"requestor_id", "file":"include/linux/cper.h", "line":258, "type":"m", "scope_line":245, "scope_name":"struct cper_sec_proc_generic", }
+,{"id":"requestor_id", "file":"include/linux/cper.h", "line":276, "type":"m", "scope_line":271, "scope_name":"struct cper_ia_err_info", }
+,{"id":"requestor_id", "file":"include/linux/cper.h", "line":303, "type":"m", "scope_line":290, "scope_name":"struct cper_sec_mem_err", }
+,{"id":"requests", "file":"kernel/pm_qos_params.c", "line":57, "type":"m", "scope_line":56, "scope_name":"struct pm_qos_object", }
+,];
+xr_frag_insert('t/0a/e4f7bbb1a2fd30405b88eeb8462de177005c9e.xr', __xr_tmp);

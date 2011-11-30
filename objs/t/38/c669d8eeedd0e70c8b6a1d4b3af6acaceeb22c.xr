@@ -1,0 +1,44 @@
+var __xr_tmp = [
+{"id":"spin_unlock", "file":"kernel/fork.c", "line":1688, "type":"c", "scope_line":1625, "scope_name":"sys_unshare", }
+,{"id":"spin_unlock", "file":"kernel/fork.c", "line":380, "type":"c", "scope_line":301, "scope_name":"dup_mmap", }
+,{"id":"spin_unlock", "file":"kernel/fork.c", "line":547, "type":"c", "scope_line":535, "scope_name":"mmput", }
+,{"id":"spin_unlock", "file":"kernel/fork.c", "line":760, "type":"c", "scope_line":753, "scope_name":"copy_fs", }
+,{"id":"spin_unlock", "file":"kernel/fork.c", "line":764, "type":"c", "scope_line":753, "scope_name":"copy_fs", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":1377, "type":"c", "scope_line":1374, "scope_name":"queue_unlock", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":1413, "type":"c", "scope_line":1393, "scope_name":"queue_me", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":1452, "type":"c", "scope_line":1427, "scope_name":"unqueue_me", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":1460, "type":"c", "scope_line":1427, "scope_name":"unqueue_me", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":1482, "type":"c", "scope_line":1473, "scope_name":"unqueue_me_pi", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":1569, "type":"c", "scope_line":1493, "scope_name":"fixup_pi_state_owner", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":2092, "type":"c", "scope_line":2020, "scope_name":"futex_unlock_pi", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":2099, "type":"c", "scope_line":2020, "scope_name":"futex_unlock_pi", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":2249, "type":"c", "scope_line":2198, "scope_name":"futex_wait_requeue_pi", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":2270, "type":"c", "scope_line":2198, "scope_name":"futex_wait_requeue_pi", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":479, "type":"c", "scope_line":448, "scope_name":"exit_pi_state_list", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":491, "type":"c", "scope_line":448, "scope_name":"exit_pi_state_list", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":864, "type":"c", "scope_line":861, "scope_name":"double_unlock_hb", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":866, "type":"c", "scope_line":861, "scope_name":"double_unlock_hb", }
+,{"id":"spin_unlock", "file":"kernel/futex.c", "line":908, "type":"c", "scope_line":872, "scope_name":"futex_wake", }
+,{"id":"spin_unlock", "file":"kernel/kprobes.c", "line":826, "type":"c", "scope_line":815, "scope_name":"recycle_rp_inst", }
+,{"id":"spin_unlock", "file":"kernel/kthread.c", "line":145, "type":"c", "scope_line":132, "scope_name":"kthread_create", }
+,{"id":"spin_unlock", "file":"kernel/kthread.c", "line":256, "type":"c", "scope_line":231, "scope_name":"kthreadd", }
+,{"id":"spin_unlock", "file":"kernel/kthread.c", "line":262, "type":"c", "scope_line":231, "scope_name":"kthreadd", }
+,{"id":"spin_unlock", "file":"kernel/mutex.c", "line":240, "type":"c", "scope_line":132, "scope_name":"__mutex_lock_common", }
+,{"id":"spin_unlock", "file":"kernel/mutex.c", "line":249, "type":"c", "scope_line":132, "scope_name":"__mutex_lock_common", }
+,{"id":"spin_unlock", "file":"kernel/mutex.c", "line":266, "type":"c", "scope_line":132, "scope_name":"__mutex_lock_common", }
+,{"id":"spin_unlock", "file":"kernel/mutex.c", "line":335, "type":"c", "scope_line":306, "scope_name":"__mutex_unlock_common_slowpath", }
+,{"id":"spin_unlock", "file":"kernel/mutex.c", "line":445, "type":"c", "scope_line":427, "scope_name":"__mutex_trylock_slowpath", }
+,{"id":"spin_unlock", "file":"kernel/panic.c", "line":277, "type":"c", "scope_line":259, "scope_name":"do_oops_enter_exit", }
+,{"id":"spin_unlock", "file":"kernel/panic.c", "line":285, "type":"c", "scope_line":259, "scope_name":"do_oops_enter_exit", }
+,{"id":"spin_unlock", "file":"kernel/perf_event.c", "line":5715, "type":"c", "scope_line":5707, "scope_name":"perf_event_init_cpu", }
+,{"id":"spin_unlock", "file":"kernel/perf_event.c", "line":5832, "type":"c", "scope_line":5806, "scope_name":"perf_set_reserve_percpu", }
+,{"id":"spin_unlock", "file":"kernel/perf_event.c", "line":5860, "type":"c", "scope_line":5844, "scope_name":"perf_set_overcommit", }
+,{"id":"spin_unlock", "file":"kernel/posix-cpu-timers.c", "line":1224, "type":"c", "scope_line":1170, "scope_name":"posix_cpu_timer_schedule", }
+,{"id":"spin_unlock", "file":"kernel/posix-cpu-timers.c", "line":1292, "type":"c", "scope_line":1271, "scope_name":"fastpath_timer_check", }
+,{"id":"spin_unlock", "file":"kernel/posix-cpu-timers.c", "line":1366, "type":"c", "scope_line":1306, "scope_name":"run_posix_cpu_timers", }
+,{"id":"spin_unlock", "file":"kernel/posix-cpu-timers.c", "line":447, "type":"c", "scope_line":428, "scope_name":"posix_cpu_timer_del", }
+,{"id":"spin_unlock", "file":"kernel/posix-cpu-timers.c", "line":764, "type":"c", "scope_line":668, "scope_name":"posix_cpu_timer_set", }
+,{"id":"spin_unlock", "file":"kernel/posix-cpu-timers.c", "line":784, "type":"c", "scope_line":668, "scope_name":"posix_cpu_timer_set", }
+,{"id":"spin_unlock", "file":"kernel/posix-timers.c", "line":635, "type":"c", "scope_line":622, "scope_name":"lock_timer", }
+,];
+xr_frag_insert('t/38/c669d8eeedd0e70c8b6a1d4b3af6acaceeb22c.xr', __xr_tmp);

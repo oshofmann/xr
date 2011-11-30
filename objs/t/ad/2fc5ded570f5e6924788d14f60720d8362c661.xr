@@ -1,0 +1,194 @@
+var __xr_tmp = [
+{"id":"device_del", "file":"drivers/base/core.c", "line":1134, "type":"f", }
+,{"id":"device_del", "file":"drivers/base/core.c", "line":1203, "type":"c", "scope_line":1200, "scope_name":"device_unregister", }
+,{"id":"device_del", "file":"drivers/base/firmware_class.c", "line":497, "type":"c", "scope_line":437, "scope_name":"fw_create_instance", }
+,{"id":"device_del", "file":"drivers/base/platform.c", "line":308, "type":"c", "scope_line":303, "scope_name":"platform_device_del", }
+,{"id":"device_del", "file":"drivers/input/evdev.c", "line":891, "type":"c", "scope_line":887, "scope_name":"evdev_disconnect", }
+,{"id":"device_del", "file":"drivers/input/input.c", "line":1782, "type":"c", "scope_line":1734, "scope_name":"input_register_device", }
+,{"id":"device_del", "file":"drivers/input/mousedev.c", "line":920, "type":"c", "scope_line":918, "scope_name":"mousedev_destroy", }
+,{"id":"device_del", "file":"drivers/input/serio/serio.c", "line":586, "type":"c", "scope_line":565, "scope_name":"serio_destroy_port", }
+,{"id":"device_del", "file":"drivers/net/phy/mdio_bus.c", "line":136, "type":"c", "scope_line":87, "scope_name":"mdiobus_register", }
+,{"id":"device_del", "file":"drivers/net/phy/mdio_bus.c", "line":148, "type":"c", "scope_line":141, "scope_name":"mdiobus_unregister", }
+,{"id":"device_del", "file":"drivers/scsi/hosts.c", "line":183, "type":"c", "scope_line":157, "scope_name":"scsi_remove_host", }
+,{"id":"device_del", "file":"drivers/scsi/hosts.c", "line":275, "type":"c", "scope_line":200, "scope_name":"scsi_add_host_with_dma", }
+,{"id":"device_del", "file":"drivers/scsi/hosts.c", "line":277, "type":"c", "scope_line":200, "scope_name":"scsi_add_host_with_dma", }
+,{"id":"device_del", "file":"drivers/scsi/scsi_scan.c", "line":478, "type":"c", "scope_line":472, "scope_name":"scsi_target_reap_usercontext", }
+,{"id":"device_del", "file":"drivers/scsi/scsi_sysfs.c", "line":872, "type":"c", "scope_line":834, "scope_name":"scsi_sysfs_add_sdev", }
+,{"id":"device_del", "file":"drivers/scsi/scsi_sysfs.c", "line":929, "type":"c", "scope_line":918, "scope_name":"__scsi_remove_device", }
+,{"id":"device_del", "file":"drivers/scsi/sd.c", "line":2417, "type":"c", "scope_line":2407, "scope_name":"sd_remove", }
+,{"id":"device_del", "file":"fs/partitions/check.c", "line":390, "type":"c", "scope_line":374, "scope_name":"delete_partition", }
+,{"id":"device_del", "file":"fs/partitions/check.c", "line":491, "type":"c", "scope_line":403, "scope_name":"add_partition", }
+,{"id":"device_del", "file":"fs/partitions/check.c", "line":520, "type":"c", "scope_line":499, "scope_name":"register_disk", }
+,{"id":"device_del", "file":"fs/partitions/check.c", "line":743, "type":"c", "scope_line":715, "scope_name":"del_gendisk", }
+,{"id":"device_del", "file":"net/core/net-sysfs.c", "line":877, "type":"c", "scope_line":867, "scope_name":"netdev_unregister_kobject", }
+,{"id":"device_del", "file":"net/core/net-sysfs.c", "line":917, "type":"c", "scope_line":881, "scope_name":"netdev_register_kobject", }
+,{"id":"device_del", "file":"net/rfkill/core.c", "line":1003, "type":"c", "scope_line":991, "scope_name":"rfkill_unregister", }
+,{"id":"device_del", "file":"net/rfkill/core.c", "line":982, "type":"c", "scope_line":926, "scope_name":"rfkill_register", }
+,{"id":"device_destroy", "file":"drivers/base/core.c", "line":1580, "type":"f", }
+,{"id":"device_destroy", "file":"drivers/char/misc.c", "line":250, "type":"c", "scope_line":241, "scope_name":"misc_deregister", }
+,{"id":"device_destroy", "file":"drivers/char/tty_io.c", "line":2903, "type":"c", "scope_line":2901, "scope_name":"tty_unregister_device", }
+,{"id":"device_destroy", "file":"drivers/char/vc_screen.c", "line":492, "type":"c", "scope_line":490, "scope_name":"vcs_remove_sysfs", }
+,{"id":"device_destroy", "file":"drivers/char/vc_screen.c", "line":493, "type":"c", "scope_line":490, "scope_name":"vcs_remove_sysfs", }
+,{"id":"device_destroy", "file":"drivers/char/vt.c", "line":3607, "type":"c", "scope_line":3591, "scope_name":"unregister_con_driver", }
+,{"id":"device_destroy", "file":"drivers/net/ppp_generic.c", "line":2847, "type":"c", "scope_line":2841, "scope_name":"ppp_cleanup", }
+,{"id":"device_destroy", "file":"drivers/scsi/sg.c", "line":1548, "type":"c", "scope_line":1526, "scope_name":"sg_remove", }
+,{"id":"device_destroy", "file":"drivers/video/fbmem.c", "line":1661, "type":"c", "scope_line":1630, "scope_name":"unregister_framebuffer", }
+,{"id":"device_disable_async_suspend", "file":"include/linux/device.h", "line":515, "type":"f", }
+,{"id":"device_discard_capable", "file":"drivers/md/dm-table.c", "line":1295, "type":"f", }
+,{"id":"device_dma_parameters", "file":"include/linux/device.h", "line":397, "type":"s", }
+,{"id":"device_driver", "file":"include/linux/device.h", "line":123, "type":"s", }
+,{"id":"device_enable_async_suspend", "file":"drivers/pci/pci.c", "line":1602, "type":"c", "scope_line":1596, "scope_name":"pci_pm_init", }
+,{"id":"device_enable_async_suspend", "file":"drivers/pci/pcie/portdrv_core.c", "line":330, "type":"c", "scope_line":309, "scope_name":"pcie_device_init", }
+,{"id":"device_enable_async_suspend", "file":"drivers/pci/probe.c", "line":1445, "type":"c", "scope_line":1407, "scope_name":"pci_create_bus", }
+,{"id":"device_enable_async_suspend", "file":"drivers/scsi/hosts.c", "line":229, "type":"c", "scope_line":200, "scope_name":"scsi_add_host_with_dma", }
+,{"id":"device_enable_async_suspend", "file":"drivers/scsi/hosts.c", "line":234, "type":"c", "scope_line":200, "scope_name":"scsi_add_host_with_dma", }
+,{"id":"device_enable_async_suspend", "file":"drivers/scsi/scsi_sysfs.c", "line":818, "type":"c", "scope_line":801, "scope_name":"scsi_target_add", }
+,{"id":"device_enable_async_suspend", "file":"drivers/scsi/scsi_sysfs.c", "line":850, "type":"c", "scope_line":834, "scope_name":"scsi_sysfs_add_sdev", }
+,{"id":"device_enable_async_suspend", "file":"drivers/scsi/scsi_sysfs.c", "line":868, "type":"c", "scope_line":834, "scope_name":"scsi_sysfs_add_sdev", }
+,{"id":"device_enable_async_suspend", "file":"include/linux/device.h", "line":509, "type":"f", }
+,{"id":"device_find_child", "file":"drivers/base/core.c", "line":1307, "type":"f", }
+,{"id":"device_find_child", "file":"drivers/serial/serial_core.c", "line":1991, "type":"c", "scope_line":1978, "scope_name":"uart_suspend_port", }
+,{"id":"device_find_child", "file":"drivers/serial/serial_core.c", "line":2057, "type":"c", "scope_line":2047, "scope_name":"uart_resume_port", }
+,{"id":"device_find_child", "file":"net/dsa/dsa.c", "line":266, "type":"c", "scope_line":259, "scope_name":"dev_find_class", }
+,{"id":"device_for_each_child", "file":"drivers/base/core.c", "line":1275, "type":"f", }
+,{"id":"device_for_each_child", "file":"drivers/base/power/main.c", "line":218, "type":"c", "scope_line":216, "scope_name":"dpm_wait_for_children", }
+,{"id":"device_for_each_child", "file":"drivers/i2c/i2c-core.c", "line":1063, "type":"c", "scope_line":1026, "scope_name":"i2c_del_adapter", }
+,{"id":"device_for_each_child", "file":"drivers/i2c/i2c-core.c", "line":1217, "type":"c", "scope_line":1211, "scope_name":"i2c_clients_command", }
+,{"id":"device_for_each_child", "file":"drivers/i2c/i2c-core.c", "line":430, "type":"c", "scope_line":426, "scope_name":"i2c_check_mux_parents", }
+,{"id":"device_for_each_child", "file":"drivers/i2c/i2c-core.c", "line":446, "type":"c", "scope_line":441, "scope_name":"i2c_check_mux_children", }
+,{"id":"device_for_each_child", "file":"drivers/i2c/i2c-core.c", "line":463, "type":"c", "scope_line":454, "scope_name":"i2c_check_addr_busy", }
+,{"id":"device_for_each_child", "file":"drivers/pci/pcie/aer/aerdrv_core.c", "line":443, "type":"c", "scope_line":439, "scope_name":"find_aer_service", }
+,{"id":"device_for_each_child", "file":"drivers/pci/pcie/portdrv_core.c", "line":414, "type":"c", "scope_line":412, "scope_name":"pcie_port_device_suspend", }
+,{"id":"device_for_each_child", "file":"drivers/pci/pcie/portdrv_core.c", "line":436, "type":"c", "scope_line":434, "scope_name":"pcie_port_device_resume", }
+,{"id":"device_for_each_child", "file":"drivers/pci/pcie/portdrv_core.c", "line":458, "type":"c", "scope_line":456, "scope_name":"pcie_port_device_remove", }
+,{"id":"device_for_each_child", "file":"drivers/pci/pcie/portdrv_pci.c", "line":162, "type":"c", "scope_line":155, "scope_name":"pcie_portdrv_error_detected", }
+,{"id":"device_for_each_child", "file":"drivers/pci/pcie/portdrv_pci.c", "line":198, "type":"c", "scope_line":192, "scope_name":"pcie_portdrv_mmio_enabled", }
+,{"id":"device_for_each_child", "file":"drivers/pci/pcie/portdrv_pci.c", "line":241, "type":"c", "scope_line":227, "scope_name":"pcie_portdrv_slot_reset", }
+,{"id":"device_for_each_child", "file":"drivers/pci/pcie/portdrv_pci.c", "line":270, "type":"c", "scope_line":266, "scope_name":"pcie_portdrv_err_resume", }
+,{"id":"device_for_each_child", "file":"drivers/scsi/scsi_lib.c", "line":2464, "type":"c", "scope_line":2457, "scope_name":"scsi_target_block", }
+,{"id":"device_for_each_child", "file":"drivers/scsi/scsi_lib.c", "line":2490, "type":"c", "scope_line":2483, "scope_name":"scsi_target_unblock", }
+,{"id":"device_for_each_child", "file":"drivers/scsi/scsi_sysfs.c", "line":1001, "type":"c", "scope_line":991, "scope_name":"scsi_remove_target", }
+,{"id":"device_for_each_child", "file":"drivers/scsi/scsi_transport_spi.c", "line":415, "type":"c", "scope_line":409, "scope_name":"store_spi_revalidate", }
+,{"id":"device_for_each_child", "file":"drivers/spi/spi.c", "line":582, "type":"c", "scope_line":578, "scope_name":"spi_unregister_master", }
+,{"id":"device_free_chan_resources", "file":"include/linux/dmaengine.h", "line":452, "type":"m", "scope_line":433, "scope_name":"struct dma_device", }
+,{"id":"device_from", "file":"include/linux/blktrace_api.h", "line":120, "type":"m", "scope_line":119, "scope_name":"struct blk_io_trace_remap", }
+,{"id":"device_gart", "file":"arch/x86/kernel/pci-gart_64.c", "line":632, "type":"v", }
+,{"id":"device_get_devnode", "file":"drivers/base/core.c", "line":1231, "type":"f", }
+,{"id":"device_get_devnode", "file":"drivers/base/core.c", "line":191, "type":"c", "scope_line":177, "scope_name":"dev_uevent", }
+,{"id":"device_get_devnode", "file":"drivers/base/devtmpfs.c", "line":146, "type":"c", "scope_line":133, "scope_name":"devtmpfs_create_node", }
+,{"id":"device_get_devnode", "file":"drivers/base/devtmpfs.c", "line":294, "type":"c", "scope_line":280, "scope_name":"devtmpfs_delete_node", }
+,{"id":"device_has_all_tx_types", "file":"drivers/dma/dmaengine.c", "line":603, "type":"f", }
+,{"id":"device_has_all_tx_types", "file":"drivers/dma/dmaengine.c", "line":707, "type":"c", "scope_line":669, "scope_name":"dma_async_device_register", }
+,{"id":"device_i8237A", "file":"arch/x86/kernel/i8237.c", "line":59, "type":"v", }
+,{"id":"device_i8259A", "file":"arch/x86/kernel/i8259.c", "line":274, "type":"v", }
+,{"id":"device_id", "file":"include/acpi/actbl2.h", "line":523, "type":"m", "scope_line":519, "scope_name":"struct acpi_ivrs_header", }
+,{"id":"device_id", "file":"kernel/dma.c", "line":57, "type":"m", "scope_line":55, "scope_name":"struct dma_chan", }
+,{"id":"device_init_wakeup", "file":"drivers/i2c/i2c-core.c", "line":120, "type":"c", "scope_line":106, "scope_name":"i2c_device_probe", }
+,{"id":"device_init_wakeup", "file":"drivers/rtc/rtc-cmos.c", "line":1037, "type":"c", "scope_line":1009, "scope_name":"cmos_wake_setup", }
+,{"id":"device_init_wakeup", "file":"drivers/serial/serial_core.c", "line":2452, "type":"c", "scope_line":2407, "scope_name":"uart_add_one_port", }
+,{"id":"device_init_wakeup", "file":"include/linux/pm_wakeup.h", "line":38, "type":"f", }
+,{"id":"device_initcall", "file":"include/linux/init.h", "line":200, "type":"d", }
+,{"id":"device_initcall_sync", "file":"include/linux/init.h", "line":201, "type":"d", }
+,{"id":"device_initialize", "file":"block/genhd.c", "line":1195, "type":"c", "scope_line":1172, "scope_name":"alloc_disk_node", }
+,{"id":"device_initialize", "file":"drivers/base/attribute_container.c", "line":166, "type":"c", "scope_line":141, "scope_name":"attribute_container_add_device", }
+,{"id":"device_initialize", "file":"drivers/base/core.c", "line":1093, "type":"c", "scope_line":1091, "scope_name":"device_register", }
+,{"id":"device_initialize", "file":"drivers/base/core.c", "line":568, "type":"f", }
+,{"id":"device_initialize", "file":"drivers/base/firmware_class.c", "line":461, "type":"c", "scope_line":437, "scope_name":"fw_create_instance", }
+,{"id":"device_initialize", "file":"drivers/base/platform.c", "line":172, "type":"c", "scope_line":163, "scope_name":"platform_device_alloc", }
+,{"id":"device_initialize", "file":"drivers/base/platform.c", "line":327, "type":"c", "scope_line":325, "scope_name":"platform_device_register", }
+,{"id":"device_initialize", "file":"drivers/input/evdev.c", "line":862, "type":"c", "scope_line":824, "scope_name":"evdev_connect", }
+,{"id":"device_initialize", "file":"drivers/input/input.c", "line":1563, "type":"c", "scope_line":1555, "scope_name":"input_allocate_device", }
+,{"id":"device_initialize", "file":"drivers/input/mousedev.c", "line":889, "type":"c", "scope_line":851, "scope_name":"mousedev_create", }
+,{"id":"device_initialize", "file":"drivers/input/serio/serio.c", "line":521, "type":"c", "scope_line":512, "scope_name":"serio_init_port", }
+,{"id":"device_initialize", "file":"drivers/pci/probe.c", "line":1229, "type":"c", "scope_line":1227, "scope_name":"pci_device_add", }
+,{"id":"device_initialize", "file":"drivers/power/power_supply_core.c", "line":165, "type":"c", "scope_line":156, "scope_name":"power_supply_register", }
+,{"id":"device_initialize", "file":"drivers/scsi/hosts.c", "line":412, "type":"c", "scope_line":330, "scope_name":"scsi_host_alloc", }
+,{"id":"device_initialize", "file":"drivers/scsi/hosts.c", "line":419, "type":"c", "scope_line":330, "scope_name":"scsi_host_alloc", }
+,{"id":"device_initialize", "file":"drivers/scsi/scsi_scan.c", "line":416, "type":"c", "scope_line":398, "scope_name":"scsi_alloc_target", }
+,{"id":"device_initialize", "file":"drivers/scsi/scsi_sysfs.c", "line":1057, "type":"c", "scope_line":1051, "scope_name":"scsi_sysfs_device_initialize", }
+,{"id":"device_initialize", "file":"drivers/scsi/scsi_sysfs.c", "line":1063, "type":"c", "scope_line":1051, "scope_name":"scsi_sysfs_device_initialize", }
+,{"id":"device_initialize", "file":"drivers/scsi/sd.c", "line":2368, "type":"c", "scope_line":2313, "scope_name":"sd_probe", }
+,{"id":"device_initialize", "file":"drivers/spi/spi.c", "line":248, "type":"c", "scope_line":229, "scope_name":"spi_alloc_device", }
+,{"id":"device_initialize", "file":"drivers/spi/spi.c", "line":482, "type":"c", "scope_line":471, "scope_name":"spi_alloc_master", }
+,{"id":"device_initialize", "file":"fs/partitions/check.c", "line":447, "type":"c", "scope_line":403, "scope_name":"add_partition", }
+,{"id":"device_initialize", "file":"net/core/net-sysfs.c", "line":887, "type":"c", "scope_line":881, "scope_name":"netdev_register_kobject", }
+,{"id":"device_initialize", "file":"net/rfkill/core.c", "line":879, "type":"c", "scope_line":844, "scope_name":"rfkill_alloc", }
+,{"id":"device_insertion_sort_klist", "file":"drivers/base/bus.c", "line":1007, "type":"f", }
+,{"id":"device_insertion_sort_klist", "file":"drivers/base/bus.c", "line":1047, "type":"c", "scope_line":1029, "scope_name":"bus_sort_breadthfirst", }
+,{"id":"device_irqrouter", "file":"drivers/acpi/pci_link.c", "line":881, "type":"v", }
+,{"id":"device_is_not_partition", "file":"drivers/base/core.c", "line":36, "type":"f", }
+,{"id":"device_is_not_partition", "file":"drivers/base/core.c", "line":798, "type":"c", "scope_line":732, "scope_name":"device_add_class_symlinks", }
+,{"id":"device_is_not_partition", "file":"drivers/base/core.c", "line":838, "type":"c", "scope_line":816, "scope_name":"device_remove_class_symlinks", }
+,{"id":"device_is_registered", "file":"drivers/base/dd.c", "line":204, "type":"c", "scope_line":200, "scope_name":"driver_probe_device", }
+,{"id":"device_is_registered", "file":"drivers/input/serio/serio.c", "line":585, "type":"c", "scope_line":565, "scope_name":"serio_destroy_port", }
+,{"id":"device_is_registered", "file":"drivers/input/serio/serio.c", "line":971, "type":"c", "scope_line":961, "scope_name":"serio_interrupt", }
+,{"id":"device_is_registered", "file":"include/linux/device.h", "line":504, "type":"f", }
+,{"id":"device_issue_pending", "file":"include/linux/dmaengine.h", "line":487, "type":"m", "scope_line":433, "scope_name":"struct dma_device", }
+,{"id":"device_ktype", "file":"drivers/base/core.c", "line":145, "type":"v", }
+,{"id":"device_lapic", "file":"arch/x86/kernel/apic/apic.c", "line":2113, "type":"v", }
+,{"id":"device_lapic_nmi", "file":"arch/x86/kernel/apic/nmi.c", "line":250, "type":"v", }
+,{"id":"device_list", "file":"include/linux/cpuidle.h", "line":98, "type":"m", "scope_line":86, "scope_name":"struct cpuidle_device", }
+,{"id":"device_lock", "file":"drivers/base/bus.c", "line":177, "type":"c", "scope_line":167, "scope_name":"driver_unbind", }
+,{"id":"device_lock", "file":"drivers/base/bus.c", "line":204, "type":"c", "scope_line":194, "scope_name":"driver_bind", }
+,{"id":"device_lock", "file":"drivers/base/bus.c", "line":205, "type":"c", "scope_line":194, "scope_name":"driver_bind", }
+,{"id":"device_lock", "file":"drivers/base/bus.c", "line":748, "type":"c", "scope_line":741, "scope_name":"bus_rescan_devices_helper", }
+,{"id":"device_lock", "file":"drivers/base/bus.c", "line":783, "type":"c", "scope_line":779, "scope_name":"device_reprobe", }
+,{"id":"device_lock", "file":"drivers/base/dd.c", "line":246, "type":"c", "scope_line":242, "scope_name":"device_attach", }
+,{"id":"device_lock", "file":"drivers/base/dd.c", "line":283, "type":"c", "scope_line":265, "scope_name":"__driver_attach", }
+,{"id":"device_lock", "file":"drivers/base/dd.c", "line":284, "type":"c", "scope_line":265, "scope_name":"__driver_attach", }
+,{"id":"device_lock", "file":"drivers/base/dd.c", "line":359, "type":"c", "scope_line":352, "scope_name":"device_release_driver", }
+,{"id":"device_lock", "file":"drivers/base/dd.c", "line":388, "type":"c", "scope_line":369, "scope_name":"driver_detach", }
+,{"id":"device_lock", "file":"drivers/base/dd.c", "line":389, "type":"c", "scope_line":369, "scope_name":"driver_detach", }
+,{"id":"device_lock", "file":"drivers/base/power/main.c", "line":528, "type":"c", "scope_line":520, "scope_name":"device_resume", }
+,{"id":"device_lock", "file":"drivers/base/power/main.c", "line":649, "type":"c", "scope_line":647, "scope_name":"device_complete", }
+,{"id":"device_lock", "file":"drivers/base/power/main.c", "line":845, "type":"c", "scope_line":840, "scope_name":"__device_suspend", }
+,{"id":"device_lock", "file":"drivers/base/power/main.c", "line":974, "type":"c", "scope_line":970, "scope_name":"device_prepare", }
+,{"id":"device_lock", "file":"drivers/pci/bus.c", "line":294, "type":"c", "scope_line":265, "scope_name":"pci_walk_bus", }
+,{"id":"device_lock", "file":"drivers/pci/pci.c", "line":2472, "type":"c", "scope_line":2463, "scope_name":"pci_dev_reset", }
+,{"id":"device_lock", "file":"include/linux/device.h", "line":526, "type":"f", }
+,{"id":"device_may_wakeup", "file":"drivers/acpi/sleep.c", "line":626, "type":"c", "scope_line":588, "scope_name":"acpi_pm_device_sleep_state", }
+,{"id":"device_may_wakeup", "file":"drivers/base/power/main.c", "line":1025, "type":"c", "scope_line":1009, "scope_name":"dpm_prepare", }
+,{"id":"device_may_wakeup", "file":"drivers/base/power/sysfs.c", "line":178, "type":"c", "scope_line":175, "scope_name":"wake_show", }
+,{"id":"device_may_wakeup", "file":"drivers/net/phy/mdio_bus.c", "line":286, "type":"c", "scope_line":269, "scope_name":"mdio_bus_phy_may_suspend", }
+,{"id":"device_may_wakeup", "file":"drivers/net/phy/mdio_bus.c", "line":294, "type":"c", "scope_line":269, "scope_name":"mdio_bus_phy_may_suspend", }
+,{"id":"device_may_wakeup", "file":"drivers/pci/pci.c", "line":1290, "type":"c", "scope_line":1288, "scope_name":"pci_wakeup_event", }
+,{"id":"device_may_wakeup", "file":"drivers/pci/pci.c", "line":1386, "type":"c", "scope_line":1381, "scope_name":"__pci_enable_wake", }
+,{"id":"device_may_wakeup", "file":"drivers/pci/pci.c", "line":1478, "type":"c", "scope_line":1454, "scope_name":"pci_target_state", }
+,{"id":"device_may_wakeup", "file":"drivers/pci/pci.c", "line":1510, "type":"c", "scope_line":1502, "scope_name":"pci_prepare_to_sleep", }
+,{"id":"device_may_wakeup", "file":"drivers/pnp/pnpacpi/core.c", "line":140, "type":"c", "scope_line":133, "scope_name":"pnpacpi_suspend", }
+,{"id":"device_may_wakeup", "file":"drivers/pnp/pnpacpi/core.c", "line":164, "type":"c", "scope_line":159, "scope_name":"pnpacpi_resume", }
+,{"id":"device_may_wakeup", "file":"drivers/rtc/rtc-cmos.c", "line":864, "type":"c", "scope_line":853, "scope_name":"cmos_suspend", }
+,{"id":"device_may_wakeup", "file":"drivers/serial/serial_core.c", "line":1992, "type":"c", "scope_line":1978, "scope_name":"uart_suspend_port", }
+,{"id":"device_may_wakeup", "file":"drivers/serial/serial_core.c", "line":2058, "type":"c", "scope_line":2047, "scope_name":"uart_resume_port", }
+,{"id":"device_may_wakeup", "file":"include/linux/pm_wakeup.h", "line":58, "type":"f", }
+,{"id":"device_may_wakeup", "file":"kernel/power/suspend_test.c", "line":121, "type":"c", "scope_line":115, "scope_name":"has_wakealarm", }
+,{"id":"device_move", "file":"drivers/base/core.c", "line":1709, "type":"f", }
+,{"id":"device_move_class_links", "file":"drivers/base/core.c", "line":1662, "type":"f", }
+,{"id":"device_move_class_links", "file":"drivers/base/core.c", "line":1744, "type":"c", "scope_line":1709, "scope_name":"device_move", }
+,{"id":"device_move_class_links", "file":"drivers/base/core.c", "line":1747, "type":"c", "scope_line":1709, "scope_name":"device_move", }
+,{"id":"device_name", "file":"drivers/acpi/sbs.c", "line":98, "type":"m", "scope_line":87, "scope_name":"struct acpi_battery", }
+,{"id":"device_name", "file":"include/acpi/acpi_bus.h", "line":181, "type":"m", "scope_line":176, "scope_name":"struct acpi_device_pnp", }
+,{"id":"device_namespace", "file":"drivers/base/core.c", "line":134, "type":"f", }
+,{"id":"device_nb", "file":"arch/x86/kernel/amd_iommu.c", "line":1702, "type":"v", }
+,{"id":"device_no", "file":"include/linux/mod_devicetable.h", "line":251, "type":"m", "scope_line":239, "scope_name":"struct pcmcia_device_id", }
+,{"id":"device_no", "file":"include/linux/soundcard.h", "line":227, "type":"m", "scope_line":221, "scope_name":"struct patch_info", }
+,{"id":"device_no", "file":"include/linux/soundcard.h", "line":314, "type":"m", "scope_line":310, "scope_name":"struct sysex_info", }
+,{"id":"device_node", "file":"include/linux/dmaengine.h", "line":187, "type":"m", "scope_line":179, "scope_name":"struct dma_chan", }
+,{"id":"device_notify", "file":"drivers/acpi/acpica/acobject.h", "line":208, "type":"m", "scope_line":207, "scope_name":"struct acpi_object_notify_common", }
+,{"id":"device_notify", "file":"drivers/acpi/acpica/acobject.h", "line":212, "type":"m", "scope_line":210, "scope_name":"struct acpi_object_device", }
+,{"id":"device_notify", "file":"drivers/acpi/acpica/acobject.h", "line":216, "type":"m", "scope_line":215, "scope_name":"struct acpi_object_power_resource", }
+,{"id":"device_notify", "file":"drivers/acpi/acpica/acobject.h", "line":225, "type":"m", "scope_line":220, "scope_name":"struct acpi_object_processor", }
+,{"id":"device_notify", "file":"drivers/acpi/acpica/acobject.h", "line":229, "type":"m", "scope_line":228, "scope_name":"struct acpi_object_thermal_zone", }
+,{"id":"device_path", "file":"include/linux/edd.h", "line":167, "type":"m", "scope_line":71, "scope_name":"struct edd_device_params", }
+,{"id":"device_path_info_length", "file":"include/linux/edd.h", "line":81, "type":"m", "scope_line":71, "scope_name":"struct edd_device_params", }
+,{"id":"device_pm_add", "file":"drivers/base/core.c", "line":1016, "type":"c", "scope_line":938, "scope_name":"device_add", }
+,{"id":"device_pm_add", "file":"drivers/base/power/main.c", "line":87, "type":"f", }
+,{"id":"device_pm_init", "file":"drivers/base/core.c", "line":577, "type":"c", "scope_line":568, "scope_name":"device_initialize", }
+,{"id":"device_pm_init", "file":"drivers/base/power/main.c", "line":58, "type":"f", }
+,{"id":"device_pm_lock", "file":"drivers/base/core.c", "line":1720, "type":"c", "scope_line":1709, "scope_name":"device_move", }
+,{"id":"device_pm_lock", "file":"drivers/base/power/main.c", "line":70, "type":"f", }
+,{"id":"device_pm_move_after", "file":"drivers/base/core.c", "line":1766, "type":"c", "scope_line":1709, "scope_name":"device_move", }
+,{"id":"device_pm_move_after", "file":"drivers/base/power/main.c", "line":147, "type":"f", }
+,{"id":"device_pm_move_before", "file":"drivers/base/core.c", "line":1769, "type":"c", "scope_line":1709, "scope_name":"device_move", }
+,];
+xr_frag_insert('t/ad/2fc5ded570f5e6924788d14f60720d8362c661.xr', __xr_tmp);

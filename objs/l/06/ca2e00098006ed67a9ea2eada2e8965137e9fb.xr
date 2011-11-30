@@ -1,0 +1,12 @@
+var __xr_tmp = [
+"<span class=\"ts\"/><a class=\"id\" href=\"#register_posix_clock\">register_posix_clock</a>(<a class=\"id\" href=\"#CLOCK_THREAD_CPUTIME_ID\">CLOCK_THREAD_CPUTIME_ID</a>, &amp;<a class=\"id\" href=\"#thread\">thread</a>);", 
+"", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#cputime_to_timespec\">cputime_to_timespec</a>(<a class=\"id\" href=\"#cputime_one_jiffy\">cputime_one_jiffy</a>, &amp;<a class=\"id\" href=\"#ts\">ts</a>);", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#onecputick\">onecputick</a> = <a class=\"id\" href=\"#ts\">ts</a>.<a class=\"id\" href=\"#tv_nsec\">tv_nsec</a>;", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#WARN_ON\">WARN_ON</a>(<a class=\"id\" href=\"#ts\">ts</a>.<a class=\"id\" href=\"#tv_sec\">tv_sec</a> != 0);", 
+"", 
+"<span class=\"ts\"/>return 0;", 
+"}", 
+"<a class=\"id\" href=\"#__initcall\">__initcall</a>(<a class=\"id\" href=\"#init_posix_cpu_timers\">init_posix_cpu_timers</a>);", 
+];
+xr_frag_insert('l/06/ca2e00098006ed67a9ea2eada2e8965137e9fb.xr', __xr_tmp);

@@ -1,0 +1,120 @@
+var __xr_tmp = [
+{"id":"default_attrs", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":996, "type":"v", }
+,{"id":"default_attrs", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":356, "type":"v", }
+,{"id":"default_attrs", "file":"block/blk-sysfs.c", "line":372, "type":"v", }
+,{"id":"default_attrs", "file":"drivers/base/topology.c", "line":117, "type":"v", }
+,{"id":"default_attrs", "file":"drivers/cpufreq/cpufreq.c", "line":681, "type":"v", }
+,{"id":"default_attrs", "file":"drivers/cpufreq/cpufreq_stats.c", "line":146, "type":"v", }
+,{"id":"default_attrs", "file":"include/linux/kobject.h", "line":111, "type":"m", "scope_line":108, "scope_name":"struct kobj_type", }
+,{"id":"default_backing_dev_info", "file":"mm/backing-dev.c", "line":22, "type":"v", }
+,{"id":"default_banner", "file":"arch/x86/kernel/paravirt.c", "line":57, "type":"f", }
+,{"id":"default_bdi_init", "file":"mm/backing-dev.c", "line":234, "type":"f", }
+,{"id":"default_blu", "file":"drivers/char/vt.c", "line":1049, "type":"v", }
+,{"id":"default_bootup_tracer", "file":"kernel/trace/trace.c", "line":128, "type":"v", }
+,{"id":"default_channel_callbacks", "file":"kernel/relay.c", "line":328, "type":"v", }
+,{"id":"default_check_apicid_present", "file":"arch/x86/include/asm/apic.h", "line":551, "type":"f", }
+,{"id":"default_check_apicid_used", "file":"arch/x86/include/asm/apic.h", "line":546, "type":"f", }
+,{"id":"default_check_phys_apicid_present", "file":"arch/x86/kernel/setup.c", "line":139, "type":"f", }
+,{"id":"default_config", "file":"security/tomoyo/common.h", "line":686, "type":"m", "scope_line":680, "scope_name":"struct tomoyo_profile", }
+,{"id":"default_console_loglevel", "file":"include/linux/kernel.h", "line":125, "type":"d", }
+,{"id":"default_cpu", "file":"arch/x86/kernel/cpu/common.c", "line":78, "type":"v", }
+,{"id":"default_cpu_mask_to_apicid", "file":"arch/x86/include/asm/apic.h", "line":529, "type":"f", }
+,{"id":"default_cpu_mask_to_apicid_and", "file":"arch/x86/include/asm/apic.h", "line":535, "type":"f", }
+,{"id":"default_cpu_present_to_apicid", "file":"arch/x86/kernel/setup.c", "line":134, "type":"f", }
+,{"id":"default_cpu_to_logical_apicid", "file":"arch/x86/include/asm/apic.h", "line":562, "type":"f", }
+,{"id":"default_decode_mce", "file":"arch/x86/kernel/cpu/mcheck/mce.c", "line":107, "type":"f", }
+,{"id":"default_device_exit", "file":"net/core/dev.c", "line":5931, "type":"f", }
+,{"id":"default_device_exit_batch", "file":"net/core/dev.c", "line":5963, "type":"f", }
+,{"id":"default_device_ops", "file":"net/core/dev.c", "line":5987, "type":"v", }
+,{"id":"default_disable", "file":"kernel/irq/chip.c", "line":301, "type":"f", }
+,{"id":"default_dma_mask", "file":"include/linux/mca.h", "line":86, "type":"m", "scope_line":85, "scope_name":"struct mca_bus", }
+,{"id":"default_do_nmi", "file":"arch/x86/kernel/traps.c", "line":380, "type":"f", }
+,{"id":"default_do_nmi", "file":"arch/x86/kernel/traps.c", "line":442, "type":"c", "scope_line":434, "scope_name":"do_nmi", }
+,{"id":"default_dom", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":416, "type":"m", "scope_line":351, "scope_name":"struct amd_iommu", }
+,{"id":"default_downstream_reset_link", "file":"drivers/pci/pcie/aer/aerdrv_core.c", "line":414, "type":"f", }
+,{"id":"default_downstream_reset_link", "file":"drivers/pci/pcie/aer/aerdrv_core.c", "line":469, "type":"c", "scope_line":448, "scope_name":"reset_link", }
+,{"id":"default_dump_filter", "file":"kernel/fork.c", "line":453, "type":"v", }
+,{"id":"default_enable", "file":"kernel/irq/chip.c", "line":290, "type":"f", }
+,{"id":"default_exec_domain", "file":"kernel/exec_domain.c", "line":37, "type":"v", }
+,{"id":"default_file_ops", "file":"security/inode.c", "line":52, "type":"v", }
+,{"id":"default_file_splice_read", "file":"fs/splice.c", "line":580, "type":"f", }
+,{"id":"default_file_splice_write", "file":"fs/splice.c", "line":1058, "type":"f", }
+,{"id":"default_find_smp_config", "file":"arch/x86/kernel/mpparse.c", "line":701, "type":"f", }
+,{"id":"default_get_apic_id", "file":"arch/x86/include/asm/apic.h", "line":429, "type":"f", }
+,{"id":"default_get_smp_config", "file":"arch/x86/kernel/mpparse.c", "line":599, "type":"f", }
+,{"id":"default_grn", "file":"drivers/char/vt.c", "line":1047, "type":"v", }
+,{"id":"default_handler", "file":"kernel/exec_domain.c", "line":47, "type":"f", }
+,{"id":"default_hstate", "file":"include/linux/hugetlb.h", "line":244, "type":"d", }
+,{"id":"default_hstate_idx", "file":"include/linux/hugetlb.h", "line":242, "type":"v", }
+,{"id":"default_hstate_max_huge_pages", "file":"mm/hugetlb.c", "line":45, "type":"v", }
+,{"id":"default_hstate_size", "file":"mm/hugetlb.c", "line":46, "type":"v", }
+,{"id":"default_i8042_detect", "file":"arch/x86/kernel/x86_init.c", "line":89, "type":"f", }
+,{"id":"default_idle", "file":"arch/x86/kernel/process.c", "line":373, "type":"f", }
+,{"id":"default_idle", "file":"arch/x86/kernel/process.c", "line":579, "type":"c", "scope_line":546, "scope_name":"c1e_idle", }
+,{"id":"default_idle", "file":"arch/x86/kernel/process.c", "line":589, "type":"c", "scope_line":546, "scope_name":"c1e_idle", }
+,{"id":"default_idle", "file":"drivers/cpuidle/cpuidle.c", "line":62, "type":"c", "scope_line":50, "scope_name":"cpuidle_idle_call", }
+,{"id":"default_init", "file":"arch/x86/kernel/cpu/common.c", "line":61, "type":"f", }
+,{"id":"default_init_apic_ldr", "file":"arch/x86/kernel/apic/apic.c", "line":1933, "type":"f", }
+,{"id":"default_inquire_remote_apic", "file":"arch/x86/include/asm/apic.h", "line":62, "type":"f", }
+,{"id":"default_intensity", "file":"include/linux/backlight.h", "line":122, "type":"m", "scope_line":119, "scope_name":"struct generic_bl_info", }
+,{"id":"default_ioapic_phys_id_map", "file":"arch/x86/include/asm/apic.h", "line":556, "type":"f", }
+,{"id":"default_irq", "file":"include/linux/msi.h", "line":31, "type":"m", "scope_line":23, "scope_name":"struct msi_desc", }
+,{"id":"default_italic_color", "file":"drivers/char/vt.c", "line":2843, "type":"v", }
+,{"id":"default_key", "file":"include/net/cfg80211.h", "line":1549, "type":"m", "scope_line":1500, "scope_name":"struct wireless_dev", }
+,{"id":"default_l3_attrs", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":1001, "type":"v", }
+,{"id":"default_ledflagstate", "file":"include/linux/kbd_kern.h", "line":47, "type":"m", "scope_line":26, "scope_name":"struct kbd_struct", }
+,{"id":"default_legacy_pic", "file":"arch/x86/kernel/i8259.c", "line":389, "type":"v", }
+,{"id":"default_length", "file":"drivers/acpi/acpica/tbfadt.c", "line":69, "type":"m", "scope_line":64, "scope_name":"struct acpi_fadt_info", }
+,{"id":"default_llseek", "file":"fs/read_write.c", "line":123, "type":"f", }
+,{"id":"default_lock", "file":"include/scsi/scsi_host.h", "line":538, "type":"m", "scope_line":521, "scope_name":"struct Scsi_Host", }
+,{"id":"default_machine_specific_memory_setup", "file":"arch/x86/kernel/e820.c", "line":1166, "type":"f", }
+,{"id":"default_message_loglevel", "file":"include/linux/kernel.h", "line":123, "type":"d", }
+,{"id":"default_mgmt_key", "file":"include/net/cfg80211.h", "line":1549, "type":"m", "scope_line":1500, "scope_name":"struct wireless_dev", }
+,{"id":"default_mpc_apic_id", "file":"arch/x86/kernel/mpparse.c", "line":48, "type":"f", }
+,{"id":"default_mpc_oem_bus_info", "file":"arch/x86/kernel/mpparse.c", "line":75, "type":"f", }
+,{"id":"default_nmi_init", "file":"arch/x86/kernel/x86_init.c", "line":88, "type":"f", }
+,{"id":"default_noexec", "file":"security/selinux/hooks.c", "line":2948, "type":"v", }
+,{"id":"default_op", "file":"fs/super.c", "line":49, "type":"v", }
+,{"id":"default_open", "file":"fs/debugfs/file.c", "line":34, "type":"f", }
+,{"id":"default_open", "file":"security/inode.c", "line":44, "type":"f", }
+,{"id":"default_operstate", "file":"net/core/link_watch.c", "line":40, "type":"f", }
+,{"id":"default_operstate", "file":"net/core/link_watch.c", "line":55, "type":"c", "scope_line":53, "scope_name":"rfc2863_policy", }
+,{"id":"default_pipe_buf_ops", "file":"fs/splice.c", "line":539, "type":"v", }
+,{"id":"default_policy", "file":"mm/mempolicy.c", "line":114, "type":"v", }
+,{"id":"default_pref", "file":"include/net/fib_rules.h", "line":58, "type":"m", "scope_line":36, "scope_name":"struct fib_rules_ops", }
+,{"id":"default_protocol_dgram", "file":"security/selinux/hooks.c", "line":1050, "type":"f", }
+,{"id":"default_protocol_dgram", "file":"security/selinux/hooks.c", "line":1076, "type":"c", "scope_line":1055, "scope_name":"socket_type_to_security_class", }
+,{"id":"default_protocol_stream", "file":"security/selinux/hooks.c", "line":1045, "type":"f", }
+,{"id":"default_protocol_stream", "file":"security/selinux/hooks.c", "line":1071, "type":"c", "scope_line":1055, "scope_name":"socket_type_to_security_class", }
+,{"id":"default_read_file", "file":"fs/debugfs/file.c", "line":22, "type":"f", }
+,{"id":"default_read_file", "file":"security/inode.c", "line":32, "type":"f", }
+,{"id":"default_red", "file":"drivers/char/vt.c", "line":1045, "type":"v", }
+,{"id":"default_relax_domain_level", "file":"kernel/sched.c", "line":6859, "type":"v", }
+,{"id":"default_scale_freq_power", "file":"arch/x86/kernel/cpu/sched.c", "line":41, "type":"c", "scope_line":28, "scope_name":"arch_scale_freq_power", }
+,{"id":"default_scale_freq_power", "file":"kernel/sched_fair.c", "line":2240, "type":"f", }
+,{"id":"default_scale_freq_power", "file":"kernel/sched_fair.c", "line":2247, "type":"c", "scope_line":2245, "scope_name":"arch_scale_freq_power", }
+,{"id":"default_scale_freq_power", "file":"kernel/sched_fair.c", "line":2301, "type":"c", "scope_line":2281, "scope_name":"update_cpu_power", }
+,{"id":"default_scale_smt_power", "file":"arch/x86/kernel/cpu/sched.c", "line":52, "type":"c", "scope_line":44, "scope_name":"arch_scale_smt_power", }
+,{"id":"default_scale_smt_power", "file":"kernel/sched_fair.c", "line":2250, "type":"f", }
+,{"id":"default_scale_smt_power", "file":"kernel/sched_fair.c", "line":2262, "type":"c", "scope_line":2260, "scope_name":"arch_scale_smt_power", }
+,{"id":"default_scale_smt_power", "file":"kernel/sched_fair.c", "line":2291, "type":"c", "scope_line":2281, "scope_name":"update_cpu_power", }
+,{"id":"default_security_ops", "file":"security/security.c", "line":29, "type":"v", }
+,{"id":"default_send_IPI_mask_allbutself_logical", "file":"arch/x86/kernel/apic/ipi.c", "line":79, "type":"f", }
+,{"id":"default_send_IPI_mask_allbutself_phys", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":272, "type":"c", "scope_line":269, "scope_name":"physflat_send_IPI_mask_allbutself", }
+,{"id":"default_send_IPI_mask_allbutself_phys", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":277, "type":"c", "scope_line":275, "scope_name":"physflat_send_IPI_allbutself", }
+,{"id":"default_send_IPI_mask_allbutself_phys", "file":"arch/x86/kernel/apic/ipi.c", "line":40, "type":"f", }
+,{"id":"default_send_IPI_mask_sequence_logical", "file":"arch/x86/kernel/apic/ipi.c", "line":59, "type":"f", }
+,{"id":"default_send_IPI_mask_sequence_phys", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":266, "type":"c", "scope_line":264, "scope_name":"physflat_send_IPI_mask", }
+,{"id":"default_send_IPI_mask_sequence_phys", "file":"arch/x86/kernel/apic/ipi.c", "line":22, "type":"f", }
+,{"id":"default_set", "file":"include/linux/sysctl.h", "line":1029, "type":"m", "scope_line":1027, "scope_name":"struct ctl_table_root", }
+,{"id":"default_setup_apic_routing", "file":"arch/x86/kernel/apic/probe_64.c", "line":55, "type":"f", }
+,{"id":"default_setup_apic_routing", "file":"arch/x86/kernel/smpboot.c", "line":1113, "type":"c", "scope_line":1088, "scope_name":"native_smp_prepare_cpus", }
+,{"id":"default_shutdown", "file":"kernel/irq/chip.c", "line":319, "type":"f", }
+,{"id":"default_smp_read_mpc_oem", "file":"arch/x86/kernel/mpparse.c", "line":275, "type":"f", }
+,{"id":"default_spin_lock_flags", "file":"arch/x86/kernel/paravirt-spinlocks.c", "line":10, "type":"f", }
+,{"id":"default_startup", "file":"kernel/irq/chip.c", "line":308, "type":"f", }
+,{"id":"default_state", "file":"include/acpi/processor.h", "line":74, "type":"m", "scope_line":70, "scope_name":"struct acpi_processor_power", }
+,{"id":"default_state", "file":"include/linux/leds.h", "line":149, "type":"m", "scope_line":143, "scope_name":"struct gpio_led", }
+,{"id":"default_table", "file":"fs/nls/nls_base.c", "line":498, "type":"v", }
+,];
+xr_frag_insert('t/7f/68b1487b0222b8573eebbf8204910ba228edaf.xr', __xr_tmp);

@@ -1,0 +1,21 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#_ASM_X86_XEN_EVENTS_H\">_ASM_X86_XEN_EVENTS_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#_ASM_X86_XEN_EVENTS_H\">_ASM_X86_XEN_EVENTS_H</a>", 
+"", 
+"enum <a class=\"id\" href=\"#ipi_vector\">ipi_vector</a> {", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#XEN_RESCHEDULE_VECTOR\">XEN_RESCHEDULE_VECTOR</a>,", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#XEN_CALL_FUNCTION_VECTOR\">XEN_CALL_FUNCTION_VECTOR</a>,", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#XEN_CALL_FUNCTION_SINGLE_VECTOR\">XEN_CALL_FUNCTION_SINGLE_VECTOR</a>,", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#XEN_SPIN_UNLOCK_VECTOR\">XEN_SPIN_UNLOCK_VECTOR</a>,", 
+"", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#XEN_NR_IPIS\">XEN_NR_IPIS</a>,", 
+"};", 
+"", 
+"static <a class=\"id\" href=\"#inline\">inline</a> int <a class=\"id\" href=\"#xen_irqs_disabled\">xen_irqs_disabled</a>(struct <a class=\"id\" href=\"#pt_regs\">pt_regs</a> *<a class=\"id\" href=\"#regs\">regs</a>)", 
+"{", 
+"<span class=\"ts\"/>return <a class=\"id\" href=\"#raw_irqs_disabled_flags\">raw_irqs_disabled_flags</a>(<a class=\"id\" href=\"#regs\">regs</a>-><a class=\"id\" href=\"#flags\">flags</a>);", 
+"}", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* _ASM_X86_XEN_EVENTS_H */</span>", 
+];
+xr_frag_insert('l/d8/8a3c57044785edacd07b579c6e0ab2077817e7.xr', __xr_tmp);

@@ -1,0 +1,23 @@
+var __xr_tmp = [
+"<span class=\"ts\"/>struct <a class=\"id\" href=\"#irq_info\">irq_info</a> *<a class=\"id\" href=\"#i\">i</a>;", 
+"<span class=\"ts\"/>int <a class=\"id\" href=\"#ret\">ret</a>, <a class=\"id\" href=\"#irq_flags\">irq_flags</a> = <a class=\"id\" href=\"#up\">up</a>-><a class=\"id\" href=\"#port\">port</a>.<a class=\"id\" href=\"#flags\">flags</a> &amp; <a class=\"id\" href=\"#UPF_SHARE_IRQ\">UPF_SHARE_IRQ</a> ? <a class=\"id\" href=\"#IRQF_SHARED\">IRQF_SHARED</a> : 0;", 
+"", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#mutex_lock\">mutex_lock</a>(&amp;<a class=\"id\" href=\"#hash_mutex\">hash_mutex</a>);", 
+"", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#h\">h</a> = &amp;<a class=\"id\" href=\"#irq_lists\">irq_lists</a>[<a class=\"id\" href=\"#up\">up</a>-><a class=\"id\" href=\"#port\">port</a>.<a class=\"id\" href=\"#irq\">irq</a> % <a class=\"id\" href=\"#NR_IRQ_HASH\">NR_IRQ_HASH</a>];", 
+"", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#hlist_for_each\">hlist_for_each</a>(<a class=\"id\" href=\"#n\">n</a>, <a class=\"id\" href=\"#h\">h</a>) {", 
+"<span class=\"ts\"/><span class=\"ts\"/><a class=\"id\" href=\"#i\">i</a> = <a class=\"id\" href=\"#hlist_entry\">hlist_entry</a>(<a class=\"id\" href=\"#n\">n</a>, struct <a class=\"id\" href=\"#irq_info\">irq_info</a>, <a class=\"id\" href=\"#node\">node</a>);", 
+"<span class=\"ts\"/><span class=\"ts\"/>if (<a class=\"id\" href=\"#i\">i</a>-><a class=\"id\" href=\"#irq\">irq</a> == <a class=\"id\" href=\"#up\">up</a>-><a class=\"id\" href=\"#port\">port</a>.<a class=\"id\" href=\"#irq\">irq</a>)", 
+"<span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/>break;", 
+"<span class=\"ts\"/>}", 
+"", 
+"<span class=\"ts\"/>if (<a class=\"id\" href=\"#n\">n</a> == <a class=\"id\" href=\"#NULL\">NULL</a>) {", 
+"<span class=\"ts\"/><span class=\"ts\"/><a class=\"id\" href=\"#i\">i</a> = <a class=\"id\" href=\"#kzalloc\">kzalloc</a>(sizeof(struct <a class=\"id\" href=\"#irq_info\">irq_info</a>), <a class=\"id\" href=\"#GFP_KERNEL\">GFP_KERNEL</a>);", 
+"<span class=\"ts\"/><span class=\"ts\"/>if (<a class=\"id\" href=\"#i\">i</a> == <a class=\"id\" href=\"#NULL\">NULL</a>) {", 
+"<span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/><a class=\"id\" href=\"#mutex_unlock\">mutex_unlock</a>(&amp;<a class=\"id\" href=\"#hash_mutex\">hash_mutex</a>);", 
+"<span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/>return -<a class=\"id\" href=\"#ENOMEM\">ENOMEM</a>;", 
+"<span class=\"ts\"/><span class=\"ts\"/>}", 
+"<span class=\"ts\"/><span class=\"ts\"/><a class=\"id\" href=\"#spin_lock_init\">spin_lock_init</a>(&amp;<a class=\"id\" href=\"#i\">i</a>-><a class=\"id\" href=\"#lock\">lock</a>);", 
+];
+xr_frag_insert('l/8e/f72dc864cf9d97a4d0db82d245827f2401e04f.xr', __xr_tmp);

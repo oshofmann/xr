@@ -1,0 +1,113 @@
+var __xr_tmp = [
+{"id":"ata_force_xfermask", "file":"drivers/ata/libata-core.c", "line":410, "type":"f", }
+,{"id":"ata_gen_ata_sense", "file":"drivers/ata/libata-scsi.c", "line":1041, "type":"f", }
+,{"id":"ata_gen_ata_sense", "file":"drivers/ata/libata-scsi.c", "line":1751, "type":"c", "scope_line":1724, "scope_name":"ata_scsi_qc_complete", }
+,{"id":"ata_gen_passthru_sense", "file":"drivers/ata/libata-scsi.c", "line":1740, "type":"c", "scope_line":1724, "scope_name":"ata_scsi_qc_complete", }
+,{"id":"ata_gen_passthru_sense", "file":"drivers/ata/libata-scsi.c", "line":2488, "type":"c", "scope_line":2480, "scope_name":"atapi_sense_complete", }
+,{"id":"ata_gen_passthru_sense", "file":"drivers/ata/libata-scsi.c", "line":2568, "type":"c", "scope_line":2551, "scope_name":"atapi_qc_complete", }
+,{"id":"ata_gen_passthru_sense", "file":"drivers/ata/libata-scsi.c", "line":2601, "type":"c", "scope_line":2551, "scope_name":"atapi_qc_complete", }
+,{"id":"ata_gen_passthru_sense", "file":"drivers/ata/libata-scsi.c", "line":972, "type":"f", }
+,{"id":"ata_get_cmd_descript", "file":"drivers/ata/libata-acpi.c", "line":737, "type":"c", "scope_line":681, "scope_name":"ata_acpi_run_tf", }
+,{"id":"ata_get_cmd_descript", "file":"drivers/ata/libata-eh.c", "line":2140, "type":"f", }
+,{"id":"ata_get_cmd_descript", "file":"drivers/ata/libata-eh.c", "line":2372, "type":"c", "scope_line":2250, "scope_name":"ata_eh_link_report", }
+,{"id":"ata_get_identity", "file":"drivers/ata/libata-scsi.c", "line":458, "type":"f", }
+,{"id":"ata_get_identity", "file":"drivers/ata/libata-scsi.c", "line":721, "type":"c", "scope_line":689, "scope_name":"ata_sas_scsi_ioctl", }
+,{"id":"ata_get_xlat_func", "file":"drivers/ata/libata-scsi.c", "line":3043, "type":"f", }
+,{"id":"ata_get_xlat_func", "file":"drivers/ata/libata-scsi.c", "line":3114, "type":"c", "scope_line":3102, "scope_name":"__ata_scsi_queuecmd", }
+,{"id":"ata_get_xlat_func", "file":"drivers/ata/libata-scsi.c", "line":3132, "type":"c", "scope_line":3102, "scope_name":"__ata_scsi_queuecmd", }
+,{"id":"ata_host", "file":"include/linux/libata.h", "line":525, "type":"s", }
+,{"id":"ata_host_activate", "file":"drivers/ata/ahci.c", "line":1243, "type":"c", "scope_line":1050, "scope_name":"ahci_init_one", }
+,{"id":"ata_host_activate", "file":"drivers/ata/libata-core.c", "line":6164, "type":"f", }
+,{"id":"ata_host_activate", "file":"drivers/ata/sata_sil24.c", "line":1359, "type":"c", "scope_line":1272, "scope_name":"sil24_init_one", }
+,{"id":"ata_host_alloc", "file":"drivers/ata/libata-core.c", "line":5676, "type":"f", }
+,{"id":"ata_host_alloc", "file":"drivers/ata/libata-core.c", "line":5745, "type":"c", "scope_line":5737, "scope_name":"ata_host_alloc_pinfo", }
+,{"id":"ata_host_alloc_pinfo", "file":"drivers/ata/ahci.c", "line":1191, "type":"c", "scope_line":1050, "scope_name":"ahci_init_one", }
+,{"id":"ata_host_alloc_pinfo", "file":"drivers/ata/libata-core.c", "line":5737, "type":"f", }
+,{"id":"ata_host_alloc_pinfo", "file":"drivers/ata/libata-sff.c", "line":2366, "type":"c", "scope_line":2356, "scope_name":"ata_pci_sff_prepare_host", }
+,{"id":"ata_host_alloc_pinfo", "file":"drivers/ata/sata_sil24.c", "line":1314, "type":"c", "scope_line":1272, "scope_name":"sil24_init_one", }
+,{"id":"ata_host_detach", "file":"drivers/ata/libata-core.c", "line":6242, "type":"f", }
+,{"id":"ata_host_detach", "file":"drivers/ata/libata-core.c", "line":6271, "type":"c", "scope_line":6266, "scope_name":"ata_pci_remove_one", }
+,{"id":"ata_host_init", "file":"drivers/ata/libata-core.c", "line":5991, "type":"f", }
+,{"id":"ata_host_register", "file":"drivers/ata/libata-core.c", "line":6073, "type":"f", }
+,{"id":"ata_host_register", "file":"drivers/ata/libata-core.c", "line":6177, "type":"c", "scope_line":6164, "scope_name":"ata_host_activate", }
+,{"id":"ata_host_register", "file":"drivers/ata/libata-core.c", "line":6188, "type":"c", "scope_line":6164, "scope_name":"ata_host_activate", }
+,{"id":"ata_host_register", "file":"drivers/ata/libata-sff.c", "line":2471, "type":"c", "scope_line":2404, "scope_name":"ata_pci_sff_activate_host", }
+,{"id":"ata_host_release", "file":"drivers/ata/libata-core.c", "line":5633, "type":"f", }
+,{"id":"ata_host_request_pm", "file":"drivers/ata/libata-core.c", "line":5354, "type":"f", }
+,{"id":"ata_host_request_pm", "file":"drivers/ata/libata-core.c", "line":5441, "type":"c", "scope_line":5419, "scope_name":"ata_host_suspend", }
+,{"id":"ata_host_request_pm", "file":"drivers/ata/libata-core.c", "line":5460, "type":"c", "scope_line":5458, "scope_name":"ata_host_resume", }
+,{"id":"ata_host_resume", "file":"drivers/ata/ahci.c", "line":655, "type":"c", "scope_line":638, "scope_name":"ahci_pci_device_resume", }
+,{"id":"ata_host_resume", "file":"drivers/ata/ata_piix.c", "line":1212, "type":"c", "scope_line":1186, "scope_name":"piix_pci_device_resume", }
+,{"id":"ata_host_resume", "file":"drivers/ata/libata-core.c", "line":5458, "type":"f", }
+,{"id":"ata_host_resume", "file":"drivers/ata/libata-core.c", "line":6357, "type":"c", "scope_line":6350, "scope_name":"ata_pci_device_resume", }
+,{"id":"ata_host_resume", "file":"drivers/ata/sata_sil24.c", "line":1379, "type":"c", "scope_line":1364, "scope_name":"sil24_pci_device_resume", }
+,{"id":"ata_host_start", "file":"drivers/ata/libata-core.c", "line":5915, "type":"f", }
+,{"id":"ata_host_start", "file":"drivers/ata/libata-core.c", "line":6170, "type":"c", "scope_line":6164, "scope_name":"ata_host_activate", }
+,{"id":"ata_host_start", "file":"drivers/ata/libata-sff.c", "line":2413, "type":"c", "scope_line":2404, "scope_name":"ata_pci_sff_activate_host", }
+,{"id":"ata_host_stop", "file":"drivers/ata/libata-core.c", "line":5831, "type":"f", }
+,{"id":"ata_host_suspend", "file":"drivers/ata/ata_piix.c", "line":1157, "type":"c", "scope_line":1151, "scope_name":"piix_pci_device_suspend", }
+,{"id":"ata_host_suspend", "file":"drivers/ata/libata-core.c", "line":5419, "type":"f", }
+,{"id":"ata_host_suspend", "file":"drivers/ata/libata-core.c", "line":6341, "type":"c", "scope_line":6336, "scope_name":"ata_pci_device_suspend", }
+,{"id":"ata_hpa_resize", "file":"drivers/ata/libata-core.c", "line":1495, "type":"f", }
+,{"id":"ata_hpa_resize", "file":"drivers/ata/libata-core.c", "line":2368, "type":"c", "scope_line":2316, "scope_name":"ata_dev_configure", }
+,{"id":"ata_hsm_ok_in_wq", "file":"drivers/ata/libata-sff.c", "line":1059, "type":"c", "scope_line":1045, "scope_name":"ata_sff_hsm_move", }
+,{"id":"ata_hsm_ok_in_wq", "file":"drivers/ata/libata-sff.c", "line":966, "type":"f", }
+,{"id":"ata_hsm_qc_complete", "file":"drivers/ata/libata-sff.c", "line":1283, "type":"c", "scope_line":1045, "scope_name":"ata_sff_hsm_move", }
+,{"id":"ata_hsm_qc_complete", "file":"drivers/ata/libata-sff.c", "line":1292, "type":"c", "scope_line":1045, "scope_name":"ata_sff_hsm_move", }
+,{"id":"ata_hsm_qc_complete", "file":"drivers/ata/libata-sff.c", "line":996, "type":"f", }
+,{"id":"ata_id_c_string", "file":"drivers/ata/libata-core.c", "line":1321, "type":"f", }
+,{"id":"ata_id_c_string", "file":"drivers/ata/libata-core.c", "line":2402, "type":"c", "scope_line":2316, "scope_name":"ata_dev_configure", }
+,{"id":"ata_id_c_string", "file":"drivers/ata/libata-core.c", "line":2405, "type":"c", "scope_line":2316, "scope_name":"ata_dev_configure", }
+,{"id":"ata_id_c_string", "file":"drivers/ata/libata-core.c", "line":4002, "type":"c", "scope_line":3989, "scope_name":"ata_dev_same_device", }
+,{"id":"ata_id_c_string", "file":"drivers/ata/libata-core.c", "line":4003, "type":"c", "scope_line":3989, "scope_name":"ata_dev_same_device", }
+,{"id":"ata_id_c_string", "file":"drivers/ata/libata-core.c", "line":4004, "type":"c", "scope_line":3989, "scope_name":"ata_dev_same_device", }
+,{"id":"ata_id_c_string", "file":"drivers/ata/libata-core.c", "line":4005, "type":"c", "scope_line":3989, "scope_name":"ata_dev_same_device", }
+,{"id":"ata_id_c_string", "file":"drivers/ata/libata-core.c", "line":4339, "type":"c", "scope_line":4333, "scope_name":"ata_dev_blacklisted", }
+,{"id":"ata_id_c_string", "file":"drivers/ata/libata-core.c", "line":4340, "type":"c", "scope_line":4333, "scope_name":"ata_dev_blacklisted", }
+,{"id":"ata_id_c_string", "file":"drivers/ata/libata-scsi.c", "line":2257, "type":"c", "scope_line":2248, "scope_name":"ata_dev_supports_fua", }
+,{"id":"ata_id_c_string", "file":"drivers/ata/libata-scsi.c", "line":2258, "type":"c", "scope_line":2248, "scope_name":"ata_dev_supports_fua", }
+,{"id":"ata_id_cdb_intr", "file":"include/linux/ata.h", "line":577, "type":"d", }
+,{"id":"ata_id_current_chs_valid", "file":"drivers/ata/libata-core.c", "line":1342, "type":"c", "scope_line":1334, "scope_name":"ata_id_n_sectors", }
+,{"id":"ata_id_current_chs_valid", "file":"drivers/ata/libata-core.c", "line":2477, "type":"c", "scope_line":2316, "scope_name":"ata_dev_configure", }
+,{"id":"ata_id_current_chs_valid", "file":"drivers/ide/ide-probe.c", "line":72, "type":"c", "scope_line":60, "scope_name":"ide_disk_init_chs", }
+,{"id":"ata_id_current_chs_valid", "file":"include/linux/ata.h", "line":830, "type":"f", }
+,{"id":"ata_id_flush_enabled", "file":"drivers/ide/ide-pm.c", "line":121, "type":"c", "scope_line":111, "scope_name":"ide_start_power_step", }
+,{"id":"ata_id_flush_enabled", "file":"include/linux/ata.h", "line":614, "type":"f", }
+,{"id":"ata_id_flush_ext_enabled", "file":"drivers/ide/ide-pm.c", "line":126, "type":"c", "scope_line":111, "scope_name":"ide_start_power_step", }
+,{"id":"ata_id_flush_ext_enabled", "file":"include/linux/ata.h", "line":630, "type":"f", }
+,{"id":"ata_id_form_factor", "file":"drivers/ata/libata-scsi.c", "line":2163, "type":"c", "scope_line":2161, "scope_name":"ata_scsiop_inq_b1", }
+,{"id":"ata_id_form_factor", "file":"include/linux/ata.h", "line":784, "type":"f", }
+,{"id":"ata_id_has_atapi_AN", "file":"include/linux/ata.h", "line":561, "type":"d", }
+,{"id":"ata_id_has_dipm", "file":"drivers/ata/libata-core.c", "line":2570, "type":"c", "scope_line":2316, "scope_name":"ata_dev_configure", }
+,{"id":"ata_id_has_dipm", "file":"include/linux/ata.h", "line":589, "type":"f", }
+,{"id":"ata_id_has_dma", "file":"include/linux/ata.h", "line":557, "type":"d", }
+,{"id":"ata_id_has_dword_io", "file":"include/linux/ata.h", "line":765, "type":"f", }
+,{"id":"ata_id_has_flush", "file":"include/linux/ata.h", "line":607, "type":"f", }
+,{"id":"ata_id_has_flush", "file":"include/linux/ata.h", "line":616, "type":"c", "scope_line":614, "scope_name":"ata_id_flush_enabled", }
+,{"id":"ata_id_has_flush", "file":"include/linux/libata.h", "line":1477, "type":"c", "scope_line":1475, "scope_name":"ata_try_flush_cache", }
+,{"id":"ata_id_has_flush_ext", "file":"drivers/ata/libata-core.c", "line":2448, "type":"c", "scope_line":2316, "scope_name":"ata_dev_configure", }
+,{"id":"ata_id_has_flush_ext", "file":"include/linux/ata.h", "line":623, "type":"f", }
+,{"id":"ata_id_has_flush_ext", "file":"include/linux/ata.h", "line":632, "type":"c", "scope_line":630, "scope_name":"ata_id_flush_ext_enabled", }
+,{"id":"ata_id_has_flush_ext", "file":"include/linux/libata.h", "line":1477, "type":"c", "scope_line":1475, "scope_name":"ata_try_flush_cache", }
+,{"id":"ata_id_has_fpdma_aa", "file":"include/linux/ata.h", "line":564, "type":"d", }
+,{"id":"ata_id_has_fua", "file":"drivers/ata/libata-scsi.c", "line":2254, "type":"c", "scope_line":2248, "scope_name":"ata_dev_supports_fua", }
+,{"id":"ata_id_has_fua", "file":"include/linux/ata.h", "line":600, "type":"f", }
+,{"id":"ata_id_has_hipm", "file":"drivers/ata/libata-core.c", "line":2568, "type":"c", "scope_line":2316, "scope_name":"ata_dev_configure", }
+,{"id":"ata_id_has_hipm", "file":"include/linux/ata.h", "line":579, "type":"f", }
+,{"id":"ata_id_has_iordy", "file":"include/linux/ata.h", "line":568, "type":"d", }
+,{"id":"ata_id_has_large_logical_sectors", "file":"drivers/ata/libata-scsi.c", "line":2138, "type":"c", "scope_line":2124, "scope_name":"ata_scsiop_inq_b0", }
+,{"id":"ata_id_has_large_logical_sectors", "file":"include/linux/ata.h", "line":643, "type":"f", }
+,{"id":"ata_id_has_lba", "file":"include/linux/ata.h", "line":556, "type":"d", }
+,{"id":"ata_id_has_lba48", "file":"drivers/ata/libata-core.c", "line":1337, "type":"c", "scope_line":1334, "scope_name":"ata_id_n_sectors", }
+,{"id":"ata_id_has_lba48", "file":"drivers/ata/libata-core.c", "line":1393, "type":"c", "scope_line":1389, "scope_name":"ata_read_native_max_address", }
+,{"id":"ata_id_has_lba48", "file":"drivers/ata/libata-core.c", "line":1443, "type":"c", "scope_line":1439, "scope_name":"ata_set_max_sectors", }
+,{"id":"ata_id_has_lba48", "file":"drivers/ata/libata-core.c", "line":2444, "type":"c", "scope_line":2316, "scope_name":"ata_dev_configure", }
+,{"id":"ata_id_has_lba48", "file":"include/linux/ata.h", "line":655, "type":"f", }
+,{"id":"ata_id_has_lba48", "file":"include/linux/ata.h", "line":666, "type":"c", "scope_line":664, "scope_name":"ata_id_lba48_enabled", }
+,{"id":"ata_id_has_ncq", "file":"include/linux/ata.h", "line":558, "type":"d", }
+,{"id":"ata_id_has_pm", "file":"include/linux/ata.h", "line":695, "type":"f", }
+,{"id":"ata_id_has_tpm", "file":"drivers/ata/libata-core.c", "line":2420, "type":"c", "scope_line":2316, "scope_name":"ata_dev_configure", }
+,{"id":"ata_id_has_tpm", "file":"include/linux/ata.h", "line":755, "type":"f", }
+,{"id":"ata_id_has_trim", "file":"drivers/ata/libata-scsi.c", "line":2153, "type":"c", "scope_line":2124, "scope_name":"ata_scsiop_inq_b0", }
+,];
+xr_frag_insert('t/f2/355b1fc50903fc359d42ab4fa9095ad28fb625.xr', __xr_tmp);

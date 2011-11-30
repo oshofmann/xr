@@ -1,0 +1,137 @@
+var __xr_tmp = [
+{"id":"fib_add_ifaddr", "file":"net/ipv4/devinet.c", "line":314, "type":"c", "scope_line":236, "scope_name":"__inet_del_ifa", }
+,{"id":"fib_add_ifaddr", "file":"net/ipv4/fib_frontend.c", "line":734, "type":"f", }
+,{"id":"fib_add_ifaddr", "file":"net/ipv4/fib_frontend.c", "line":935, "type":"c", "scope_line":928, "scope_name":"fib_inetaddr_event", }
+,{"id":"fib_add_ifaddr", "file":"net/ipv4/fib_frontend.c", "line":972, "type":"c", "scope_line":956, "scope_name":"fib_netdev_event", }
+,{"id":"fib_advmss", "file":"include/net/ip_fib.h", "line":84, "type":"d", }
+,{"id":"fib_alias", "file":"net/ipv4/fib_lookup.h", "line":8, "type":"s", }
+,{"id":"fib_check_nh", "file":"net/ipv4/fib_semantics.c", "line":522, "type":"f", }
+,{"id":"fib_check_nh", "file":"net/ipv4/fib_semantics.c", "line":809, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_clntref", "file":"include/net/ip_fib.h", "line":74, "type":"m", "scope_line":69, "scope_name":"struct fib_info", }
+,{"id":"fib_combine_itag", "file":"include/net/ip_fib.h", "line":233, "type":"f", }
+,{"id":"fib_combine_itag", "file":"net/ipv4/fib_frontend.c", "line":276, "type":"c", "scope_line":235, "scope_name":"fib_validate_source", }
+,{"id":"fib_config", "file":"include/net/ip_fib.h", "line":23, "type":"s", }
+,{"id":"fib_count_nexthops", "file":"net/ipv4/fib_semantics.c", "line":377, "type":"f", }
+,{"id":"fib_count_nexthops", "file":"net/ipv4/fib_semantics.c", "line":698, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_create_info", "file":"net/ipv4/fib_hash.c", "line":396, "type":"c", "scope_line":370, "scope_name":"fib_table_insert", }
+,{"id":"fib_create_info", "file":"net/ipv4/fib_semantics.c", "line":684, "type":"f", }
+,{"id":"fib_dead", "file":"include/net/ip_fib.h", "line":75, "type":"m", "scope_line":69, "scope_name":"struct fib_info", }
+,{"id":"fib_default_rule_add", "file":"net/core/fib_rules.c", "line":19, "type":"f", }
+,{"id":"fib_default_rule_add", "file":"net/ipv4/fib_rules.c", "line":269, "type":"c", "scope_line":265, "scope_name":"fib_default_rules_init", }
+,{"id":"fib_default_rule_add", "file":"net/ipv4/fib_rules.c", "line":272, "type":"c", "scope_line":265, "scope_name":"fib_default_rules_init", }
+,{"id":"fib_default_rule_add", "file":"net/ipv4/fib_rules.c", "line":275, "type":"c", "scope_line":265, "scope_name":"fib_default_rules_init", }
+,{"id":"fib_default_rule_add", "file":"net/ipv6/fib6_rules.c", "line":268, "type":"c", "scope_line":257, "scope_name":"fib6_rules_net_init", }
+,{"id":"fib_default_rule_add", "file":"net/ipv6/fib6_rules.c", "line":273, "type":"c", "scope_line":257, "scope_name":"fib6_rules_net_init", }
+,{"id":"fib_default_rule_pref", "file":"net/core/fib_rules.c", "line":42, "type":"f", }
+,{"id":"fib_default_rules_init", "file":"net/ipv4/fib_rules.c", "line":265, "type":"f", }
+,{"id":"fib_default_rules_init", "file":"net/ipv4/fib_rules.c", "line":290, "type":"c", "scope_line":281, "scope_name":"fib4_rules_init", }
+,{"id":"fib_del_ifaddr", "file":"net/ipv4/fib_frontend.c", "line":773, "type":"f", }
+,{"id":"fib_del_ifaddr", "file":"net/ipv4/fib_frontend.c", "line":942, "type":"c", "scope_line":928, "scope_name":"fib_inetaddr_event", }
+,{"id":"fib_detect_death", "file":"net/ipv4/fib_hash.c", "line":317, "type":"c", "scope_line":278, "scope_name":"fib_table_select_default", }
+,{"id":"fib_detect_death", "file":"net/ipv4/fib_hash.c", "line":333, "type":"c", "scope_line":278, "scope_name":"fib_table_select_default", }
+,{"id":"fib_detect_death", "file":"net/ipv4/fib_semantics.c", "line":352, "type":"f", }
+,{"id":"fib_dev", "file":"include/net/ip_fib.h", "line":90, "type":"d", }
+,{"id":"fib_devindex_hashfn", "file":"net/ipv4/fib_semantics.c", "line":1063, "type":"c", "scope_line":1058, "scope_name":"fib_sync_down_dev", }
+,{"id":"fib_devindex_hashfn", "file":"net/ipv4/fib_semantics.c", "line":1130, "type":"c", "scope_line":1117, "scope_name":"fib_sync_up", }
+,{"id":"fib_devindex_hashfn", "file":"net/ipv4/fib_semantics.c", "line":197, "type":"f", }
+,{"id":"fib_devindex_hashfn", "file":"net/ipv4/fib_semantics.c", "line":215, "type":"c", "scope_line":206, "scope_name":"fib_info_hashfn", }
+,{"id":"fib_devindex_hashfn", "file":"net/ipv4/fib_semantics.c", "line":262, "type":"c", "scope_line":253, "scope_name":"ip_fib_check_default", }
+,{"id":"fib_devindex_hashfn", "file":"net/ipv4/fib_semantics.c", "line":846, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_disable_ip", "file":"net/ipv4/fib_frontend.c", "line":920, "type":"f", }
+,{"id":"fib_disable_ip", "file":"net/ipv4/fib_frontend.c", "line":947, "type":"c", "scope_line":928, "scope_name":"fib_inetaddr_event", }
+,{"id":"fib_disable_ip", "file":"net/ipv4/fib_frontend.c", "line":962, "type":"c", "scope_line":956, "scope_name":"fib_netdev_event", }
+,{"id":"fib_disable_ip", "file":"net/ipv4/fib_frontend.c", "line":980, "type":"c", "scope_line":956, "scope_name":"fib_netdev_event", }
+,{"id":"fib_discarded_routes", "file":"include/net/ip6_fib.h", "line":145, "type":"m", "scope_line":139, "scope_name":"struct rt6_statistics", }
+,{"id":"fib_dump_info", "file":"net/ipv4/fib_hash.c", "line":700, "type":"c", "scope_line":681, "scope_name":"fn_hash_dump_bucket", }
+,{"id":"fib_dump_info", "file":"net/ipv4/fib_semantics.c", "line":317, "type":"c", "scope_line":305, "scope_name":"rtmsg_fib", }
+,{"id":"fib_dump_info", "file":"net/ipv4/fib_semantics.c", "line":943, "type":"f", }
+,{"id":"fib_empty_table", "file":"net/ipv4/fib_rules.c", "line":121, "type":"f", }
+,{"id":"fib_empty_table", "file":"net/ipv4/fib_rules.c", "line":151, "type":"c", "scope_line":136, "scope_name":"fib4_rule_configure", }
+,{"id":"fib_find_alias", "file":"net/ipv4/fib_hash.c", "line":411, "type":"c", "scope_line":370, "scope_name":"fib_table_insert", }
+,{"id":"fib_find_alias", "file":"net/ipv4/fib_hash.c", "line":574, "type":"c", "scope_line":548, "scope_name":"fib_table_delete", }
+,{"id":"fib_find_alias", "file":"net/ipv4/fib_semantics.c", "line":337, "type":"f", }
+,{"id":"fib_find_info", "file":"net/ipv4/fib_semantics.c", "line":221, "type":"f", }
+,{"id":"fib_find_info", "file":"net/ipv4/fib_semantics.c", "line":822, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_find_node", "file":"net/ipv4/fib_hash.c", "line":356, "type":"f", }
+,{"id":"fib_find_node", "file":"net/ipv4/fib_hash.c", "line":406, "type":"c", "scope_line":370, "scope_name":"fib_table_insert", }
+,{"id":"fib_find_node", "file":"net/ipv4/fib_hash.c", "line":569, "type":"c", "scope_line":548, "scope_name":"fib_table_delete", }
+,{"id":"fib_flag_trans", "file":"net/ipv4/fib_hash.c", "line":1019, "type":"c", "scope_line":996, "scope_name":"fib_seq_show", }
+,{"id":"fib_flag_trans", "file":"net/ipv4/fib_hash.c", "line":975, "type":"f", }
+,{"id":"fib_flags", "file":"include/net/ip_fib.h", "line":76, "type":"m", "scope_line":69, "scope_name":"struct fib_info", }
+,{"id":"fib_flush", "file":"net/ipv4/fib_frontend.c", "line":132, "type":"f", }
+,{"id":"fib_flush", "file":"net/ipv4/fib_frontend.c", "line":833, "type":"c", "scope_line":773, "scope_name":"fib_del_ifaddr", }
+,{"id":"fib_flush", "file":"net/ipv4/fib_frontend.c", "line":923, "type":"c", "scope_line":920, "scope_name":"fib_disable_ip", }
+,{"id":"fib_get_first", "file":"net/ipv4/fib_hash.c", "line":811, "type":"f", }
+,{"id":"fib_get_first", "file":"net/ipv4/fib_hash.c", "line":944, "type":"c", "scope_line":935, "scope_name":"fib_get_idx", }
+,{"id":"fib_get_first", "file":"net/ipv4/fib_hash.c", "line":966, "type":"c", "scope_line":963, "scope_name":"fib_seq_next", }
+,{"id":"fib_get_idx", "file":"net/ipv4/fib_hash.c", "line":935, "type":"f", }
+,{"id":"fib_get_idx", "file":"net/ipv4/fib_hash.c", "line":959, "type":"c", "scope_line":952, "scope_name":"fib_seq_start", }
+,{"id":"fib_get_next", "file":"net/ipv4/fib_hash.c", "line":858, "type":"f", }
+,{"id":"fib_get_next", "file":"net/ipv4/fib_hash.c", "line":947, "type":"c", "scope_line":935, "scope_name":"fib_get_idx", }
+,{"id":"fib_get_next", "file":"net/ipv4/fib_hash.c", "line":966, "type":"c", "scope_line":963, "scope_name":"fib_seq_next", }
+,{"id":"fib_get_nhs", "file":"net/ipv4/fib_semantics.c", "line":390, "type":"f", }
+,{"id":"fib_get_nhs", "file":"net/ipv4/fib_semantics.c", "line":759, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_frontend.c", "line":127, "type":"c", "scope_line":117, "scope_name":"fib_select_default", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_frontend.c", "line":165, "type":"c", "scope_line":154, "scope_name":"ip_dev_find", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_frontend.c", "line":202, "type":"c", "scope_line":184, "scope_name":"__inet_dev_addr_type", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_frontend.c", "line":499, "type":"c", "scope_line":478, "scope_name":"ip_rt_ioctl", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_frontend.c", "line":616, "type":"c", "scope_line":605, "scope_name":"inet_rtm_delroute", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_frontend.c", "line":81, "type":"c", "scope_line":74, "scope_name":"fib_new_table", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_frontend.c", "line":893, "type":"c", "scope_line":873, "scope_name":"nl_fib_input", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_frontend.c", "line":93, "type":"f", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_hash.c", "line":817, "type":"c", "scope_line":811, "scope_name":"fib_get_first", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_hash.c", "line":958, "type":"c", "scope_line":952, "scope_name":"fib_seq_start", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_rules.c", "line":126, "type":"c", "scope_line":121, "scope_name":"fib_empty_table", }
+,{"id":"fib_get_table", "file":"net/ipv4/fib_rules.c", "line":94, "type":"c", "scope_line":70, "scope_name":"fib4_rule_action", }
+,{"id":"fib_hash", "file":"include/net/ip_fib.h", "line":70, "type":"m", "scope_line":69, "scope_name":"struct fib_info", }
+,{"id":"fib_hash_alloc", "file":"net/ipv4/fib_semantics.c", "line":608, "type":"f", }
+,{"id":"fib_hash_alloc", "file":"net/ipv4/fib_semantics.c", "line":714, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_hash_alloc", "file":"net/ipv4/fib_semantics.c", "line":715, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_hash_free", "file":"net/ipv4/fib_semantics.c", "line":617, "type":"f", }
+,{"id":"fib_hash_free", "file":"net/ipv4/fib_semantics.c", "line":680, "type":"c", "scope_line":628, "scope_name":"fib_hash_move", }
+,{"id":"fib_hash_free", "file":"net/ipv4/fib_semantics.c", "line":681, "type":"c", "scope_line":628, "scope_name":"fib_hash_move", }
+,{"id":"fib_hash_free", "file":"net/ipv4/fib_semantics.c", "line":717, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_hash_free", "file":"net/ipv4/fib_semantics.c", "line":718, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_hash_genid", "file":"net/ipv4/fib_hash.c", "line":96, "type":"v", }
+,{"id":"fib_hash_init", "file":"net/ipv4/fib_frontend.c", "line":1092, "type":"c", "scope_line":1082, "scope_name":"ip_fib_init", }
+,{"id":"fib_hash_init", "file":"net/ipv4/fib_hash.c", "line":770, "type":"f", }
+,{"id":"fib_hash_lock", "file":"net/ipv4/fib_hash.c", "line":95, "type":"v", }
+,{"id":"fib_hash_move", "file":"net/ipv4/fib_semantics.c", "line":628, "type":"f", }
+,{"id":"fib_hash_move", "file":"net/ipv4/fib_semantics.c", "line":720, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_hash_size", "file":"net/ipv4/fib_semantics.c", "line":52, "type":"v", }
+,{"id":"fib_hash_table", "file":"net/ipv4/fib_frontend.c", "line":85, "type":"c", "scope_line":74, "scope_name":"fib_new_table", }
+,{"id":"fib_hash_table", "file":"net/ipv4/fib_hash.c", "line":780, "type":"f", }
+,{"id":"fib_inetaddr_event", "file":"net/ipv4/fib_frontend.c", "line":928, "type":"f", }
+,{"id":"fib_inetaddr_notifier", "file":"net/ipv4/fib_frontend.c", "line":993, "type":"v", }
+,{"id":"fib_info", "file":"include/net/ip_fib.h", "line":69, "type":"s", }
+,{"id":"fib_info_cnt", "file":"net/ipv4/fib_semantics.c", "line":53, "type":"v", }
+,{"id":"fib_info_devhash", "file":"net/ipv4/fib_semantics.c", "line":57, "type":"v", }
+,{"id":"fib_info_hash", "file":"net/ipv4/fib_semantics.c", "line":50, "type":"v", }
+,{"id":"fib_info_hashfn", "file":"net/ipv4/fib_semantics.c", "line":206, "type":"f", }
+,{"id":"fib_info_hashfn", "file":"net/ipv4/fib_semantics.c", "line":228, "type":"c", "scope_line":221, "scope_name":"fib_find_info", }
+,{"id":"fib_info_hashfn", "file":"net/ipv4/fib_semantics.c", "line":652, "type":"c", "scope_line":628, "scope_name":"fib_hash_move", }
+,{"id":"fib_info_hashfn", "file":"net/ipv4/fib_semantics.c", "line":832, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_info_laddrhash", "file":"net/ipv4/fib_semantics.c", "line":51, "type":"v", }
+,{"id":"fib_info_lock", "file":"net/ipv4/fib_semantics.c", "line":49, "type":"v", }
+,{"id":"fib_info_put", "file":"include/net/ip_fib.h", "line":251, "type":"f", }
+,{"id":"fib_info_put", "file":"include/net/ip_fib.h", "line":260, "type":"c", "scope_line":257, "scope_name":"fib_res_put", }
+,{"id":"fib_info_put", "file":"net/ipv4/fib_lookup.h", "line":46, "type":"c", "scope_line":42, "scope_name":"fib_result_assign", }
+,{"id":"fib_info_put", "file":"net/ipv4/fib_semantics.c", "line":171, "type":"c", "scope_line":158, "scope_name":"fib_release_info", }
+,{"id":"fib_info_put", "file":"net/ipv4/route.c", "line":2391, "type":"c", "scope_line":2358, "scope_name":"__mkroute_output", }
+,{"id":"fib_info_put", "file":"net/ipv4/route.c", "line":2404, "type":"c", "scope_line":2358, "scope_name":"__mkroute_output", }
+,{"id":"fib_info_put", "file":"net/ipv4/route.c", "line":2668, "type":"c", "scope_line":2502, "scope_name":"ip_route_output_slow", }
+,{"id":"fib_insert_node", "file":"net/ipv4/fib_hash.c", "line":348, "type":"f", }
+,{"id":"fib_insert_node", "file":"net/ipv4/fib_hash.c", "line":527, "type":"c", "scope_line":370, "scope_name":"fib_table_insert", }
+,{"id":"fib_iter_state", "file":"net/ipv4/fib_hash.c", "line":799, "type":"s", }
+,{"id":"fib_laddr_hashfn", "file":"net/ipv4/fib_semantics.c", "line":1039, "type":"c", "scope_line":1036, "scope_name":"fib_sync_down_addr", }
+,{"id":"fib_laddr_hashfn", "file":"net/ipv4/fib_semantics.c", "line":601, "type":"f", }
+,{"id":"fib_laddr_hashfn", "file":"net/ipv4/fib_semantics.c", "line":670, "type":"c", "scope_line":628, "scope_name":"fib_hash_move", }
+,{"id":"fib_laddr_hashfn", "file":"net/ipv4/fib_semantics.c", "line":837, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"fib_lhash", "file":"include/net/ip_fib.h", "line":71, "type":"m", "scope_line":69, "scope_name":"struct fib_info", }
+,{"id":"fib_lookup", "file":"net/ipv4/fib_frontend.c", "line":269, "type":"c", "scope_line":235, "scope_name":"fib_validate_source", }
+,{"id":"fib_lookup", "file":"net/ipv4/fib_frontend.c", "line":305, "type":"c", "scope_line":235, "scope_name":"fib_validate_source", }
+,{"id":"fib_lookup", "file":"net/ipv4/fib_rules.c", "line":57, "type":"f", }
+,{"id":"fib_lookup", "file":"net/ipv4/fib_semantics.c", "line":562, "type":"c", "scope_line":522, "scope_name":"fib_check_nh", }
+,{"id":"fib_lookup", "file":"net/ipv4/route.c", "line":1782, "type":"c", "scope_line":1775, "scope_name":"ip_rt_get_source", }
+,];
+xr_frag_insert('t/5b/7dce6bd6c73b5e156dc2107be2087cfb8d9460.xr', __xr_tmp);

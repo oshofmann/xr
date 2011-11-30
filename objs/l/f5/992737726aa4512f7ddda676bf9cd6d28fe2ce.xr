@@ -1,0 +1,21 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#_ASM_X86_I8253_H\">_ASM_X86_I8253_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#_ASM_X86_I8253_H\">_ASM_X86_I8253_H</a>", 
+"", 
+"<span class=\"comment\">/* i8253A PIT registers */</span>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#PIT_MODE\">PIT_MODE</a><span class=\"ts\"/><span class=\"ts\"/>0x43", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#PIT_CH0\">PIT_CH0</a><span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/>0x40", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#PIT_CH2\">PIT_CH2</a><span class=\"ts\"/><span class=\"ts\"/><span class=\"ts\"/>0x42", 
+"", 
+"extern <a class=\"id\" href=\"#raw_spinlock_t\">raw_spinlock_t</a> <a class=\"id\" href=\"#i8253_lock\">i8253_lock</a>;", 
+"", 
+"extern struct <a class=\"id\" href=\"#clock_event_device\">clock_event_device</a> *<a class=\"id\" href=\"#global_clock_event\">global_clock_event</a>;", 
+"", 
+"extern void <a class=\"id\" href=\"#setup_pit_timer\">setup_pit_timer</a>(void);", 
+"", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#inb_pit\">inb_pit</a><span class=\"ts\"/><span class=\"ts\"/><a class=\"id\" href=\"#inb_p\">inb_p</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#outb_pit\">outb_pit</a><span class=\"ts\"/><a class=\"id\" href=\"#outb_p\">outb_p</a>", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* _ASM_X86_I8253_H */</span>", 
+];
+xr_frag_insert('l/f5/992737726aa4512f7ddda676bf9cd6d28fe2ce.xr', __xr_tmp);

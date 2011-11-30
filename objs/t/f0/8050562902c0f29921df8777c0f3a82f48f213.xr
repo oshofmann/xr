@@ -1,0 +1,84 @@
+var __xr_tmp = [
+{"id":"completion", "file":"crypto/internal.h", "line":45, "type":"m", "scope_line":42, "scope_name":"struct crypto_larval", }
+,{"id":"completion", "file":"drivers/base/firmware_class.c", "line":89, "type":"m", "scope_line":88, "scope_name":"struct firmware_priv", }
+,{"id":"completion", "file":"include/linux/completion.h", "line":25, "type":"s", }
+,{"id":"completion", "file":"include/linux/pm.h", "line":459, "type":"m", "scope_line":451, "scope_name":"struct dev_pm_info", }
+,{"id":"completion", "file":"include/linux/rcupdate.h", "line":492, "type":"m", "scope_line":490, "scope_name":"struct rcu_synchronize", }
+,{"id":"completion", "file":"kernel/stop_machine.c", "line":32, "type":"m", "scope_line":28, "scope_name":"struct cpu_stop_done", }
+,{"id":"completion", "file":"kernel/workqueue.c", "line":3378, "type":"m", "scope_line":3377, "scope_name":"struct work_for_cpu", }
+,{"id":"completion", "file":"net/core/flow.c", "line":51, "type":"m", "scope_line":48, "scope_name":"struct flow_flush_info", }
+,{"id":"completion_code", "file":"include/acpi/actbl2.h", "line":202, "type":"m", "scope_line":199, "scope_name":"struct acpi_asf_rmcp", }
+,{"id":"completion_code", "file":"include/linux/ncp.h", "line":42, "type":"m", "scope_line":36, "scope_name":"struct ncp_reply_header", }
+,{"id":"completion_data", "file":"include/linux/blkdev.h", "line":106, "type":"m", "scope_line":79, "scope_name":"struct request", }
+,{"id":"completion_done", "file":"kernel/sched.c", "line":4279, "type":"f", }
+,{"id":"completion_queue", "file":"include/linux/netdevice.h", "line":1407, "type":"m", "scope_line":1403, "scope_name":"struct softnet_data", }
+,{"id":"completions", "file":"include/linux/backing-dev.h", "line":76, "type":"m", "scope_line":62, "scope_name":"struct backing_dev_info", }
+,{"id":"complex_count", "file":"include/linux/sem.h", "line":103, "type":"m", "scope_line":94, "scope_name":"struct sem_array", }
+,{"id":"component", "file":"drivers/acpi/acpica/aclocal.h", "line":1055, "type":"m", "scope_line":1054, "scope_name":"struct acpi_debug_mem_header", }
+,{"id":"component", "file":"drivers/acpi/acpica/aclocal.h", "line":1058, "type":"m", "scope_line":1057, "scope_name":"struct acpi_debug_mem_block", }
+,{"id":"components", "file":"include/linux/nfs_xdr.h", "line":872, "type":"m", "scope_line":870, "scope_name":"struct nfs4_pathname", }
+,{"id":"compound", "file":"mm/memory-failure.c", "line":741, "type":"d", }
+,{"id":"compound", "file":"mm/memory-failure.c", "line":798, "type":"d", }
+,{"id":"compound_head", "file":"arch/x86/mm/gup.c", "line":103, "type":"c", "scope_line":101, "scope_name":"get_head_page_multiple", }
+,{"id":"compound_head", "file":"arch/x86/mm/gup.c", "line":129, "type":"c", "scope_line":108, "scope_name":"gup_huge_pmd", }
+,{"id":"compound_head", "file":"arch/x86/mm/gup.c", "line":186, "type":"c", "scope_line":165, "scope_name":"gup_huge_pud", }
+,{"id":"compound_head", "file":"fs/hugetlbfs/inode.c", "line":570, "type":"c", "scope_line":568, "scope_name":"hugetlbfs_set_page_dirty", }
+,{"id":"compound_head", "file":"include/linux/mm.h", "line":307, "type":"f", }
+,{"id":"compound_head", "file":"include/linux/mm.h", "line":316, "type":"c", "scope_line":314, "scope_name":"page_count", }
+,{"id":"compound_head", "file":"include/linux/mm.h", "line":321, "type":"c", "scope_line":319, "scope_name":"get_page", }
+,{"id":"compound_head", "file":"include/linux/mm.h", "line":329, "type":"c", "scope_line":326, "scope_name":"virt_to_head_page", }
+,{"id":"compound_head", "file":"include/linux/pagemap.h", "line":185, "type":"c", "scope_line":170, "scope_name":"page_cache_add_speculative", }
+,{"id":"compound_head", "file":"kernel/futex.c", "line":253, "type":"c", "scope_line":216, "scope_name":"get_futex_key", }
+,{"id":"compound_head", "file":"mm/hugetlb.c", "line":612, "type":"c", "scope_line":605, "scope_name":"PageHuge", }
+,{"id":"compound_head", "file":"mm/memory-failure.c", "line":1147, "type":"c", "scope_line":1136, "scope_name":"unpoison_memory", }
+,{"id":"compound_head", "file":"mm/memory-failure.c", "line":1218, "type":"c", "scope_line":1199, "scope_name":"get_any_page", }
+,{"id":"compound_head", "file":"mm/memory-failure.c", "line":201, "type":"c", "scope_line":185, "scope_name":"kill_proc_ao", }
+,{"id":"compound_head", "file":"mm/memory-failure.c", "line":701, "type":"c", "scope_line":699, "scope_name":"me_huge_page", }
+,{"id":"compound_head", "file":"mm/memory-failure.c", "line":854, "type":"c", "scope_line":845, "scope_name":"hwpoison_user_mappings", }
+,{"id":"compound_head", "file":"mm/memory-failure.c", "line":971, "type":"c", "scope_line":952, "scope_name":"__memory_failure", }
+,{"id":"compound_head", "file":"mm/slab.c", "line":496, "type":"c", "scope_line":494, "scope_name":"page_get_cache", }
+,{"id":"compound_head", "file":"mm/swap.c", "line":64, "type":"c", "scope_line":62, "scope_name":"put_compound_page", }
+,{"id":"compound_order", "file":"include/linux/hugetlb.h", "line":301, "type":"c", "scope_line":299, "scope_name":"page_hstate", }
+,{"id":"compound_order", "file":"include/linux/mm.h", "line":365, "type":"f", }
+,{"id":"compound_order", "file":"mm/memory-failure.c", "line":1154, "type":"c", "scope_line":1136, "scope_name":"unpoison_memory", }
+,{"id":"compound_order", "file":"mm/memory-failure.c", "line":201, "type":"c", "scope_line":185, "scope_name":"kill_proc_ao", }
+,{"id":"compound_order", "file":"mm/memory-failure.c", "line":939, "type":"c", "scope_line":936, "scope_name":"set_page_hwpoison_huge_page", }
+,{"id":"compound_order", "file":"mm/memory-failure.c", "line":947, "type":"c", "scope_line":944, "scope_name":"clear_page_hwpoison_huge_page", }
+,{"id":"compound_order", "file":"mm/memory-failure.c", "line":977, "type":"c", "scope_line":952, "scope_name":"__memory_failure", }
+,{"id":"compound_order", "file":"mm/page_alloc.c", "line":335, "type":"c", "scope_line":333, "scope_name":"free_compound_page", }
+,{"id":"compound_order", "file":"mm/page_alloc.c", "line":360, "type":"c", "scope_line":354, "scope_name":"destroy_compound_page", }
+,{"id":"compound_page_dtor", "file":"include/linux/mm.h", "line":352, "type":"t", }
+,{"id":"compr_fill", "file":"init/do_mounts_rd.c", "line":287, "type":"f", }
+,{"id":"compr_flush", "file":"init/do_mounts_rd.c", "line":297, "type":"f", }
+,{"id":"compress", "file":"include/linux/crypto.h", "line":292, "type":"m", "scope_line":270, "scope_name":"struct crypto_alg", }
+,{"id":"compress", "file":"include/linux/crypto.h", "line":411, "type":"m", "scope_line":401, "scope_name":"struct crypto_tfm", }
+,{"id":"compress", "file":"include/linux/ppp-comp.h", "line":80, "type":"m", "scope_line":63, "scope_name":"struct compressor", }
+,{"id":"compress_alg", "file":"include/linux/crypto.h", "line":247, "type":"s", }
+,{"id":"compress_final", "file":"include/crypto/compress.h", "line":63, "type":"m", "scope_line":57, "scope_name":"struct pcomp_alg", }
+,{"id":"compress_format", "file":"lib/decompress.c", "line":30, "type":"s", }
+,{"id":"compress_init", "file":"include/crypto/compress.h", "line":60, "type":"m", "scope_line":57, "scope_name":"struct pcomp_alg", }
+,{"id":"compress_proto", "file":"include/linux/ppp-comp.h", "line":64, "type":"m", "scope_line":63, "scope_name":"struct compressor", }
+,{"id":"compress_setup", "file":"include/crypto/compress.h", "line":58, "type":"m", "scope_line":57, "scope_name":"struct pcomp_alg", }
+,{"id":"compress_tfm", "file":"include/linux/crypto.h", "line":378, "type":"s", }
+,{"id":"compress_update", "file":"include/crypto/compress.h", "line":61, "type":"m", "scope_line":57, "scope_name":"struct pcomp_alg", }
+,{"id":"compressed_formats", "file":"lib/decompress.c", "line":30, "type":"v", }
+,{"id":"compression", "file":"fs/squashfs/squashfs_fs.h", "line":248, "type":"m", "scope_line":242, "scope_name":"struct squashfs_super_block", }
+,{"id":"compressor", "file":"include/linux/ppp-comp.h", "line":63, "type":"s", }
+,{"id":"compressor_entry", "file":"drivers/net/ppp_generic.c", "line":2436, "type":"s", }
+,{"id":"compressor_list", "file":"drivers/net/ppp_generic.c", "line":2433, "type":"v", }
+,{"id":"compressor_list_lock", "file":"drivers/net/ppp_generic.c", "line":2434, "type":"v", }
+,{"id":"compstat", "file":"include/linux/ppp_defs.h", "line":150, "type":"s", }
+,{"id":"compute_batch_value", "file":"lib/percpu_counter.c", "line":105, "type":"f", }
+,{"id":"compute_batch_value", "file":"lib/percpu_counter.c", "line":119, "type":"c", "scope_line":112, "scope_name":"percpu_counter_hotcpu_callback", }
+,{"id":"compute_batch_value", "file":"lib/percpu_counter.c", "line":169, "type":"c", "scope_line":167, "scope_name":"percpu_counter_startup", }
+,{"id":"compute_hash_shift", "file":"arch/x86/mm/k8topology_64.c", "line":204, "type":"c", "scope_line":195, "scope_name":"k8_scan_nodes", }
+,{"id":"compute_hash_shift", "file":"arch/x86/mm/numa_64.c", "line":134, "type":"f", }
+,{"id":"compute_hash_shift", "file":"arch/x86/mm/srat_64.c", "line":414, "type":"c", "scope_line":355, "scope_name":"acpi_scan_nodes", }
+,{"id":"compute_imstt_regvals", "file":"drivers/video/imsttfb.c", "line":1421, "type":"c", "scope_line":1352, "scope_name":"init_imstt", }
+,{"id":"compute_imstt_regvals", "file":"drivers/video/imsttfb.c", "line":554, "type":"f", }
+,{"id":"compute_imstt_regvals", "file":"drivers/video/imsttfb.c", "line":866, "type":"c", "scope_line":861, "scope_name":"imsttfb_set_par", }
+,{"id":"compute_imstt_regvals_ibm", "file":"drivers/video/imsttfb.c", "line":469, "type":"f", }
+,{"id":"compute_imstt_regvals_ibm", "file":"drivers/video/imsttfb.c", "line":558, "type":"c", "scope_line":554, "scope_name":"compute_imstt_regvals", }
+,{"id":"compute_imstt_regvals_tvp", "file":"drivers/video/imsttfb.c", "line":520, "type":"f", }
+,];
+xr_frag_insert('t/f0/8050562902c0f29921df8777c0f3a82f48f213.xr', __xr_tmp);

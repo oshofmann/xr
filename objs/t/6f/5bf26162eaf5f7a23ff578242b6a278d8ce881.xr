@@ -1,0 +1,179 @@
+var __xr_tmp = [
+{"id":"in_irq", "file":"include/linux/hardirq.h", "line":86, "type":"d", }
+,{"id":"in_irq_stack", "file":"arch/x86/kernel/dumpstack_64.c", "line":100, "type":"f", }
+,{"id":"in_irq_stack", "file":"arch/x86/kernel/dumpstack_64.c", "line":124, "type":"c", "scope_line":116, "scope_name":"fixup_bp_irq_link", }
+,{"id":"in_irq_stack", "file":"arch/x86/kernel/dumpstack_64.c", "line":207, "type":"c", "scope_line":142, "scope_name":"dump_trace", }
+,{"id":"in_kprobes_functions", "file":"kernel/kprobes.c", "line":1052, "type":"f", }
+,{"id":"in_kprobes_functions", "file":"kernel/kprobes.c", "line":1142, "type":"c", "scope_line":1125, "scope_name":"register_kprobe", }
+,{"id":"in_lock_functions", "file":"arch/x86/kernel/time.c", "line":37, "type":"c", "scope_line":33, "scope_name":"profile_pc", }
+,{"id":"in_lock_functions", "file":"kernel/sched.c", "line":3597, "type":"c", "scope_line":3595, "scope_name":"get_parent_ip", }
+,{"id":"in_lock_functions", "file":"kernel/sched.c", "line":3599, "type":"c", "scope_line":3595, "scope_name":"get_parent_ip", }
+,{"id":"in_lock_functions", "file":"kernel/sched.c", "line":7587, "type":"c", "scope_line":7585, "scope_name":"in_sched_functions", }
+,{"id":"in_lock_functions", "file":"kernel/spinlock.c", "line":377, "type":"f", }
+,{"id":"in_martian_dst", "file":"include/net/route.h", "line":89, "type":"m", "scope_line":83, "scope_name":"struct rt_cache_stat", }
+,{"id":"in_martian_src", "file":"include/net/route.h", "line":90, "type":"m", "scope_line":83, "scope_name":"struct rt_cache_stat", }
+,{"id":"in_module_init", "file":"drivers/ata/ata_piix.c", "line":184, "type":"v", }
+,{"id":"in_nmi", "file":"include/linux/hardirq.h", "line":93, "type":"d", }
+,{"id":"in_no_route", "file":"include/net/route.h", "line":87, "type":"m", "scope_line":83, "scope_name":"struct rt_cache_stat", }
+,{"id":"in_pktinfo", "file":"include/linux/in.h", "line":176, "type":"s", }
+,{"id":"in_pkts", "file":"include/net/ip_vs.h", "line":392, "type":"m", "scope_line":361, "scope_name":"struct ip_vs_conn", }
+,{"id":"in_prod", "file":"include/xen/interface/io/console.h", "line":19, "type":"m", "scope_line":16, "scope_name":"struct xencons_interface", }
+,{"id":"in_progress", "file":"include/linux/skbuff.h", "line":182, "type":"m", "scope_line":178, "scope_name":"union skb_shared_tx", }
+,{"id":"in_range", "file":"fs/ext2/balloc.c", "line":37, "type":"d", }
+,{"id":"in_range", "file":"fs/ext3/balloc.c", "line":40, "type":"d", }
+,{"id":"in_range", "file":"fs/ext4/ext4.h", "line":2032, "type":"d", }
+,{"id":"in_sched_functions", "file":"arch/x86/kernel/process_64.c", "line":544, "type":"c", "scope_line":527, "scope_name":"get_wchan", }
+,{"id":"in_sched_functions", "file":"arch/x86/kernel/stacktrace.c", "line":34, "type":"c", "scope_line":26, "scope_name":"__save_stack_address", }
+,{"id":"in_sched_functions", "file":"kernel/sched.c", "line":7585, "type":"f", }
+,{"id":"in_seq", "file":"include/net/ip_vs.h", "line":406, "type":"m", "scope_line":361, "scope_name":"struct ip_vs_conn", }
+,{"id":"in_size", "file":"include/linux/hdreg.h", "line":67, "type":"m", "scope_line":59, "scope_name":"struct ide_task_request_s", }
+,{"id":"in_slow_mc", "file":"include/net/route.h", "line":86, "type":"m", "scope_line":83, "scope_name":"struct rt_cache_stat", }
+,{"id":"in_slow_tot", "file":"include/net/route.h", "line":85, "type":"m", "scope_line":83, "scope_name":"struct rt_cache_stat", }
+,{"id":"in_softirq", "file":"include/linux/hardirq.h", "line":87, "type":"d", }
+,{"id":"in_stable_tree", "file":"mm/ksm.c", "line":1360, "type":"c", "scope_line":1350, "scope_name":"ksm_do_scan", }
+,{"id":"in_stable_tree", "file":"mm/ksm.c", "line":298, "type":"f", }
+,{"id":"in_suspend", "file":"kernel/power/hibernate.c", "line":36, "type":"v", }
+,{"id":"in_syscall", "file":"kernel/auditsc.c", "line":168, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"in_use", "file":"include/linux/ipc_namespace.h", "line":20, "type":"m", "scope_line":19, "scope_name":"struct ipc_ids", }
+,{"id":"in_use", "file":"mm/dmapool.c", "line":60, "type":"m", "scope_line":56, "scope_name":"struct dma_page", }
+,{"id":"inactconns", "file":"include/linux/ip_vs.h", "line":192, "type":"m", "scope_line":182, "scope_name":"struct ip_vs_dest_entry", }
+,{"id":"inactconns", "file":"include/net/ip_vs.h", "line":501, "type":"m", "scope_line":485, "scope_name":"struct ip_vs_dest", }
+,{"id":"inactive_anon_is_low", "file":"mm/vmscan.c", "line":1530, "type":"f", }
+,{"id":"inactive_anon_is_low", "file":"mm/vmscan.c", "line":1583, "type":"c", "scope_line":1577, "scope_name":"inactive_list_is_low", }
+,{"id":"inactive_anon_is_low", "file":"mm/vmscan.c", "line":1785, "type":"c", "scope_line":1742, "scope_name":"shrink_zone", }
+,{"id":"inactive_anon_is_low", "file":"mm/vmscan.c", "line":2168, "type":"c", "scope_line":2114, "scope_name":"balance_pgdat", }
+,{"id":"inactive_anon_is_low_global", "file":"mm/vmscan.c", "line":1509, "type":"f", }
+,{"id":"inactive_anon_is_low_global", "file":"mm/vmscan.c", "line":1535, "type":"c", "scope_line":1530, "scope_name":"inactive_anon_is_low", }
+,{"id":"inactive_file_is_low", "file":"mm/vmscan.c", "line":1566, "type":"f", }
+,{"id":"inactive_file_is_low", "file":"mm/vmscan.c", "line":1581, "type":"c", "scope_line":1577, "scope_name":"inactive_list_is_low", }
+,{"id":"inactive_file_is_low_global", "file":"mm/vmscan.c", "line":1541, "type":"f", }
+,{"id":"inactive_file_is_low_global", "file":"mm/vmscan.c", "line":1571, "type":"c", "scope_line":1566, "scope_name":"inactive_file_is_low", }
+,{"id":"inactive_list_is_low", "file":"mm/vmscan.c", "line":1577, "type":"f", }
+,{"id":"inactive_list_is_low", "file":"mm/vmscan.c", "line":1592, "type":"c", "scope_line":1586, "scope_name":"shrink_list", }
+,{"id":"inactive_ratio", "file":"include/linux/mmzone.h", "line":361, "type":"m", "scope_line":280, "scope_name":"struct zone", }
+,{"id":"inactive_time", "file":"include/net/cfg80211.h", "line":418, "type":"m", "scope_line":416, "scope_name":"struct station_info", }
+,{"id":"inarp", "file":"include/linux/wanrouter.h", "line":404, "type":"m", "scope_line":391, "scope_name":"struct wanif_conf", }
+,{"id":"inarp_interval", "file":"include/linux/wanrouter.h", "line":405, "type":"m", "scope_line":391, "scope_name":"struct wanif_conf", }
+,{"id":"inat_accept_vex", "file":"arch/x86/include/asm/inat.h", "line":211, "type":"f", }
+,{"id":"inat_accept_vex", "file":"arch/x86/lib/insn.c", "line":194, "type":"c", "scope_line":174, "scope_name":"insn_get_opcode", }
+,{"id":"inat_avx_tables", "file":"arch/x86/lib/inat-tables.c", "line":1023, "type":"v", }
+,{"id":"inat_escape_id", "file":"arch/x86/include/asm/inat.h", "line":156, "type":"f", }
+,{"id":"inat_escape_id", "file":"arch/x86/lib/inat.c", "line":39, "type":"c", "scope_line":32, "scope_name":"inat_get_escape_attribute", }
+,{"id":"inat_escape_table_1", "file":"arch/x86/lib/inat-tables.c", "line":205, "type":"v", }
+,{"id":"inat_escape_table_1_1", "file":"arch/x86/lib/inat-tables.c", "line":416, "type":"v", }
+,{"id":"inat_escape_table_1_2", "file":"arch/x86/lib/inat-tables.c", "line":522, "type":"v", }
+,{"id":"inat_escape_table_1_3", "file":"arch/x86/lib/inat-tables.c", "line":550, "type":"v", }
+,{"id":"inat_escape_table_2", "file":"arch/x86/lib/inat-tables.c", "line":576, "type":"v", }
+,{"id":"inat_escape_table_2_1", "file":"arch/x86/lib/inat-tables.c", "line":674, "type":"v", }
+,{"id":"inat_escape_table_2_3", "file":"arch/x86/lib/inat-tables.c", "line":770, "type":"v", }
+,{"id":"inat_escape_table_3", "file":"arch/x86/lib/inat-tables.c", "line":776, "type":"v", }
+,{"id":"inat_escape_table_3_1", "file":"arch/x86/lib/inat-tables.c", "line":810, "type":"v", }
+,{"id":"inat_escape_tables", "file":"arch/x86/lib/inat-tables.c", "line":989, "type":"v", }
+,{"id":"inat_get_avx_attribute", "file":"arch/x86/lib/inat.c", "line":79, "type":"f", }
+,{"id":"inat_get_avx_attribute", "file":"arch/x86/lib/insn.c", "line":193, "type":"c", "scope_line":174, "scope_name":"insn_get_opcode", }
+,{"id":"inat_get_escape_attribute", "file":"arch/x86/lib/inat.c", "line":32, "type":"f", }
+,{"id":"inat_get_escape_attribute", "file":"arch/x86/lib/insn.c", "line":205, "type":"c", "scope_line":174, "scope_name":"insn_get_opcode", }
+,{"id":"inat_get_group_attribute", "file":"arch/x86/lib/inat.c", "line":55, "type":"f", }
+,{"id":"inat_get_group_attribute", "file":"arch/x86/lib/insn.c", "line":236, "type":"c", "scope_line":221, "scope_name":"insn_get_modrm", }
+,{"id":"inat_get_opcode_attribute", "file":"arch/x86/kernel/kprobes.c", "line":135, "type":"c", "scope_line":131, "scope_name":"skip_prefixes", }
+,{"id":"inat_get_opcode_attribute", "file":"arch/x86/kernel/kprobes.c", "line":138, "type":"c", "scope_line":131, "scope_name":"skip_prefixes", }
+,{"id":"inat_get_opcode_attribute", "file":"arch/x86/lib/inat.c", "line":27, "type":"f", }
+,{"id":"inat_get_opcode_attribute", "file":"arch/x86/lib/inat.c", "line":41, "type":"c", "scope_line":32, "scope_name":"inat_get_escape_attribute", }
+,{"id":"inat_get_opcode_attribute", "file":"arch/x86/lib/inat.c", "line":64, "type":"c", "scope_line":55, "scope_name":"inat_get_group_attribute", }
+,{"id":"inat_get_opcode_attribute", "file":"arch/x86/lib/insn.c", "line":116, "type":"c", "scope_line":61, "scope_name":"insn_get_prefixes", }
+,{"id":"inat_get_opcode_attribute", "file":"arch/x86/lib/insn.c", "line":130, "type":"c", "scope_line":61, "scope_name":"insn_get_prefixes", }
+,{"id":"inat_get_opcode_attribute", "file":"arch/x86/lib/insn.c", "line":199, "type":"c", "scope_line":174, "scope_name":"insn_get_opcode", }
+,{"id":"inat_get_opcode_attribute", "file":"arch/x86/lib/insn.c", "line":74, "type":"c", "scope_line":61, "scope_name":"insn_get_prefixes", }
+,{"id":"inat_get_opcode_attribute", "file":"arch/x86/lib/insn.c", "line":99, "type":"c", "scope_line":61, "scope_name":"insn_get_prefixes", }
+,{"id":"inat_group_common_attribute", "file":"arch/x86/include/asm/inat.h", "line":171, "type":"f", }
+,{"id":"inat_group_common_attribute", "file":"arch/x86/lib/inat.c", "line":69, "type":"c", "scope_line":55, "scope_name":"inat_get_group_attribute", }
+,{"id":"inat_group_common_attribute", "file":"arch/x86/lib/inat.c", "line":73, "type":"c", "scope_line":55, "scope_name":"inat_get_group_attribute", }
+,{"id":"inat_group_common_attribute", "file":"arch/x86/lib/inat.c", "line":75, "type":"c", "scope_line":55, "scope_name":"inat_get_group_attribute", }
+,{"id":"inat_group_id", "file":"arch/x86/include/asm/inat.h", "line":166, "type":"f", }
+,{"id":"inat_group_id", "file":"arch/x86/lib/inat.c", "line":62, "type":"c", "scope_line":55, "scope_name":"inat_get_group_attribute", }
+,{"id":"inat_group_table_10", "file":"arch/x86/lib/inat-tables.c", "line":901, "type":"v", }
+,{"id":"inat_group_table_12", "file":"arch/x86/lib/inat-tables.c", "line":975, "type":"v", }
+,{"id":"inat_group_table_13", "file":"arch/x86/lib/inat-tables.c", "line":931, "type":"v", }
+,{"id":"inat_group_table_13_1", "file":"arch/x86/lib/inat-tables.c", "line":936, "type":"v", }
+,{"id":"inat_group_table_14", "file":"arch/x86/lib/inat-tables.c", "line":943, "type":"v", }
+,{"id":"inat_group_table_14_1", "file":"arch/x86/lib/inat-tables.c", "line":948, "type":"v", }
+,{"id":"inat_group_table_15", "file":"arch/x86/lib/inat-tables.c", "line":955, "type":"v", }
+,{"id":"inat_group_table_15_1", "file":"arch/x86/lib/inat-tables.c", "line":961, "type":"v", }
+,{"id":"inat_group_table_18", "file":"arch/x86/lib/inat-tables.c", "line":969, "type":"v", }
+,{"id":"inat_group_table_21", "file":"arch/x86/lib/inat-tables.c", "line":914, "type":"v", }
+,{"id":"inat_group_table_21_1", "file":"arch/x86/lib/inat-tables.c", "line":919, "type":"v", }
+,{"id":"inat_group_table_21_2", "file":"arch/x86/lib/inat-tables.c", "line":922, "type":"v", }
+,{"id":"inat_group_table_5", "file":"arch/x86/lib/inat-tables.c", "line":852, "type":"v", }
+,{"id":"inat_group_table_6", "file":"arch/x86/lib/inat-tables.c", "line":863, "type":"v", }
+,{"id":"inat_group_table_7", "file":"arch/x86/lib/inat-tables.c", "line":874, "type":"v", }
+,{"id":"inat_group_table_8", "file":"arch/x86/lib/inat-tables.c", "line":880, "type":"v", }
+,{"id":"inat_group_table_9", "file":"arch/x86/lib/inat-tables.c", "line":891, "type":"v", }
+,{"id":"inat_group_tables", "file":"arch/x86/lib/inat-tables.c", "line":1002, "type":"v", }
+,{"id":"inat_has_immediate", "file":"arch/x86/include/asm/inat.h", "line":176, "type":"f", }
+,{"id":"inat_has_immediate", "file":"arch/x86/lib/insn.c", "line":458, "type":"c", "scope_line":446, "scope_name":"insn_get_immediate", }
+,{"id":"inat_has_modrm", "file":"arch/x86/include/asm/inat.h", "line":186, "type":"f", }
+,{"id":"inat_has_modrm", "file":"arch/x86/lib/insn.c", "line":230, "type":"c", "scope_line":221, "scope_name":"insn_get_modrm", }
+,{"id":"inat_has_moffset", "file":"arch/x86/include/asm/inat.h", "line":201, "type":"f", }
+,{"id":"inat_has_moffset", "file":"arch/x86/lib/insn.c", "line":453, "type":"c", "scope_line":446, "scope_name":"insn_get_immediate", }
+,{"id":"inat_has_second_immediate", "file":"arch/x86/include/asm/inat.h", "line":196, "type":"f", }
+,{"id":"inat_has_second_immediate", "file":"arch/x86/lib/insn.c", "line":493, "type":"c", "scope_line":446, "scope_name":"insn_get_immediate", }
+,{"id":"inat_has_variant", "file":"arch/x86/include/asm/inat.h", "line":206, "type":"f", }
+,{"id":"inat_has_variant", "file":"arch/x86/lib/inat.c", "line":47, "type":"c", "scope_line":32, "scope_name":"inat_get_escape_attribute", }
+,{"id":"inat_has_variant", "file":"arch/x86/lib/inat.c", "line":70, "type":"c", "scope_line":55, "scope_name":"inat_get_group_attribute", }
+,{"id":"inat_immediate_size", "file":"arch/x86/include/asm/inat.h", "line":181, "type":"f", }
+,{"id":"inat_immediate_size", "file":"arch/x86/lib/insn.c", "line":462, "type":"c", "scope_line":446, "scope_name":"insn_get_immediate", }
+,{"id":"inat_is_address_size_prefix", "file":"arch/x86/include/asm/inat.h", "line":117, "type":"f", }
+,{"id":"inat_is_address_size_prefix", "file":"arch/x86/lib/insn.c", "line":84, "type":"c", "scope_line":61, "scope_name":"insn_get_prefixes", }
+,{"id":"inat_is_escape", "file":"arch/x86/include/asm/inat.h", "line":151, "type":"f", }
+,{"id":"inat_is_escape", "file":"arch/x86/lib/insn.c", "line":200, "type":"c", "scope_line":174, "scope_name":"insn_get_opcode", }
+,{"id":"inat_is_force64", "file":"arch/x86/include/asm/inat.h", "line":191, "type":"f", }
+,{"id":"inat_is_force64", "file":"arch/x86/lib/insn.c", "line":241, "type":"c", "scope_line":221, "scope_name":"insn_get_modrm", }
+,{"id":"inat_is_group", "file":"arch/x86/include/asm/inat.h", "line":161, "type":"f", }
+,{"id":"inat_is_group", "file":"arch/x86/lib/insn.c", "line":234, "type":"c", "scope_line":221, "scope_name":"insn_get_modrm", }
+,{"id":"inat_is_legacy_prefix", "file":"arch/x86/include/asm/inat.h", "line":111, "type":"f", }
+,{"id":"inat_is_legacy_prefix", "file":"arch/x86/kernel/kprobes.c", "line":136, "type":"c", "scope_line":131, "scope_name":"skip_prefixes", }
+,{"id":"inat_is_legacy_prefix", "file":"arch/x86/lib/insn.c", "line":75, "type":"c", "scope_line":61, "scope_name":"insn_get_prefixes", }
+,{"id":"inat_is_operand_size_prefix", "file":"arch/x86/include/asm/inat.h", "line":122, "type":"f", }
+,{"id":"inat_is_operand_size_prefix", "file":"arch/x86/lib/insn.c", "line":90, "type":"c", "scope_line":61, "scope_name":"insn_get_prefixes", }
+,{"id":"inat_is_rex_prefix", "file":"arch/x86/include/asm/inat.h", "line":127, "type":"f", }
+,{"id":"inat_is_rex_prefix", "file":"arch/x86/kernel/kprobes.c", "line":141, "type":"c", "scope_line":131, "scope_name":"skip_prefixes", }
+,{"id":"inat_is_rex_prefix", "file":"arch/x86/lib/insn.c", "line":117, "type":"c", "scope_line":61, "scope_name":"insn_get_prefixes", }
+,{"id":"inat_is_vex3_prefix", "file":"arch/x86/include/asm/inat.h", "line":146, "type":"f", }
+,{"id":"inat_is_vex3_prefix", "file":"arch/x86/lib/insn.c", "line":144, "type":"c", "scope_line":61, "scope_name":"insn_get_prefixes", }
+,{"id":"inat_is_vex_prefix", "file":"arch/x86/include/asm/inat.h", "line":140, "type":"f", }
+,{"id":"inat_is_vex_prefix", "file":"arch/x86/lib/insn.c", "line":131, "type":"c", "scope_line":61, "scope_name":"insn_get_prefixes", }
+,{"id":"inat_last_prefix_id", "file":"arch/x86/include/asm/inat.h", "line":132, "type":"f", }
+,{"id":"inat_last_prefix_id", "file":"arch/x86/lib/inat.c", "line":42, "type":"c", "scope_line":32, "scope_name":"inat_get_escape_attribute", }
+,{"id":"inat_last_prefix_id", "file":"arch/x86/lib/inat.c", "line":65, "type":"c", "scope_line":55, "scope_name":"inat_get_group_attribute", }
+,{"id":"inat_must_vex", "file":"arch/x86/include/asm/inat.h", "line":216, "type":"f", }
+,{"id":"inat_must_vex", "file":"arch/x86/lib/insn.c", "line":207, "type":"c", "scope_line":174, "scope_name":"insn_get_opcode", }
+,{"id":"inat_primary_table", "file":"arch/x86/lib/inat-tables.c", "line":5, "type":"v", }
+,{"id":"inb", "file":"arch/x86/boot/boot.h", "line":48, "type":"f", }
+,{"id":"inb", "file":"arch/x86/boot/video-vga.c", "line":136, "type":"c", "scope_line":134, "scope_name":"vga_crtc", }
+,{"id":"inb", "file":"arch/x86/boot/video-vga.c", "line":153, "type":"c", "scope_line":139, "scope_name":"vga_set_480_scanlines", }
+,{"id":"inb", "file":"arch/x86/boot/video.h", "line":103, "type":"c", "scope_line":100, "scope_name":"in_idx", }
+,{"id":"inb", "file":"arch/x86/include/asm/dma.h", "line":299, "type":"c", "scope_line":290, "scope_name":"get_dma_residue", }
+,{"id":"inb", "file":"arch/x86/include/asm/dma.h", "line":300, "type":"c", "scope_line":290, "scope_name":"get_dma_residue", }
+,{"id":"inb", "file":"arch/x86/include/asm/i8259.h", "line":32, "type":"c", "scope_line":30, "scope_name":"inb_pic", }
+,{"id":"inb", "file":"arch/x86/include/asm/io.h", "line":327, "type":"c", "scope_line":327, "scope_name":"inb_p", }
+,{"id":"inb", "file":"arch/x86/include/asm/io.h", "line":327, "type":"f", }
+,{"id":"inb", "file":"arch/x86/include/asm/mach_traps.h", "line":12, "type":"c", "scope_line":10, "scope_name":"get_nmi_reason", }
+,{"id":"inb", "file":"arch/x86/include/asm/mach_traps.h", "line":24, "type":"c", "scope_line":15, "scope_name":"reassert_nmi", }
+,{"id":"inb", "file":"arch/x86/include/asm/mach_traps.h", "line":26, "type":"c", "scope_line":15, "scope_name":"reassert_nmi", }
+,{"id":"inb", "file":"arch/x86/kernel/acpi/boot.c", "line":466, "type":"c", "scope_line":460, "scope_name":"acpi_pic_sci_set_trigger", }
+,{"id":"inb", "file":"arch/x86/kernel/acpi/realmode/wakemain.c", "line":28, "type":"c", "scope_line":10, "scope_name":"beep", }
+,{"id":"inb", "file":"arch/x86/kernel/apic/io_apic.c", "line":1894, "type":"c", "scope_line":1882, "scope_name":"print_PIC", }
+,{"id":"inb", "file":"arch/x86/kernel/apic/io_apic.c", "line":1897, "type":"c", "scope_line":1882, "scope_name":"print_PIC", }
+,{"id":"inb", "file":"arch/x86/kernel/apic/io_apic.c", "line":1902, "type":"c", "scope_line":1882, "scope_name":"print_PIC", }
+,{"id":"inb", "file":"arch/x86/kernel/apic/io_apic.c", "line":1910, "type":"c", "scope_line":1882, "scope_name":"print_PIC", }
+,{"id":"inb", "file":"arch/x86/kernel/early-quirks.c", "line":133, "type":"c", "scope_line":120, "scope_name":"ati_bugs", }
+,{"id":"inb", "file":"arch/x86/kernel/early_printk.c", "line":157, "type":"c", "scope_line":116, "scope_name":"early_serial_init", }
+,{"id":"inb", "file":"arch/x86/kernel/early_printk.c", "line":98, "type":"c", "scope_line":94, "scope_name":"early_serial_putc", }
+,{"id":"inb", "file":"arch/x86/kernel/i8259.c", "line":107, "type":"c", "scope_line":99, "scope_name":"i8259A_irq_pending", }
+,{"id":"inb", "file":"arch/x86/kernel/i8259.c", "line":109, "type":"c", "scope_line":99, "scope_name":"i8259A_irq_pending", }
+,{"id":"inb", "file":"arch/x86/kernel/i8259.c", "line":137, "type":"c", "scope_line":130, "scope_name":"i8259A_irq_real", }
+,{"id":"inb", "file":"arch/x86/kernel/i8259.c", "line":142, "type":"c", "scope_line":130, "scope_name":"i8259A_irq_real", }
+,{"id":"inb", "file":"arch/x86/kernel/i8259.c", "line":180, "type":"c", "scope_line":153, "scope_name":"mask_and_ack_8259A", }
+,{"id":"inb", "file":"arch/x86/kernel/i8259.c", "line":187, "type":"c", "scope_line":153, "scope_name":"mask_and_ack_8259A", }
+,];
+xr_frag_insert('t/6f/5bf26162eaf5f7a23ff578242b6a278d8ce881.xr', __xr_tmp);

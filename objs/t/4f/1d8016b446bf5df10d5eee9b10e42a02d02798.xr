@@ -1,0 +1,281 @@
+var __xr_tmp = [
+{"id":"ACPI_BUS_REMOVAL_TYPE_COUNT", "file":"include/acpi/acpi_bus.h", "line":65, "type":"e", "scope_line":61, "scope_name":"acpi_bus_removal_type", }
+,{"id":"ACPI_BUS_TYPE_DEVICE", "file":"include/acpi/acpi_bus.h", "line":69, "type":"e", "scope_line":68, "scope_name":"acpi_bus_device_type", }
+,{"id":"ACPI_BUS_TYPE_POWER", "file":"include/acpi/acpi_bus.h", "line":70, "type":"e", "scope_line":68, "scope_name":"acpi_bus_device_type", }
+,{"id":"ACPI_BUS_TYPE_POWER_BUTTON", "file":"include/acpi/acpi_bus.h", "line":73, "type":"e", "scope_line":68, "scope_name":"acpi_bus_device_type", }
+,{"id":"ACPI_BUS_TYPE_PROCESSOR", "file":"include/acpi/acpi_bus.h", "line":71, "type":"e", "scope_line":68, "scope_name":"acpi_bus_device_type", }
+,{"id":"ACPI_BUS_TYPE_SLEEP_BUTTON", "file":"include/acpi/acpi_bus.h", "line":74, "type":"e", "scope_line":68, "scope_name":"acpi_bus_device_type", }
+,{"id":"ACPI_BUS_TYPE_THERMAL", "file":"include/acpi/acpi_bus.h", "line":72, "type":"e", "scope_line":68, "scope_name":"acpi_bus_device_type", }
+,{"id":"ACPI_BUTTON_CLASS", "file":"drivers/acpi/button.c", "line":39, "type":"d", }
+,{"id":"ACPI_BUTTON_COMPONENT", "file":"include/acpi/acpi_drivers.h", "line":41, "type":"d", }
+,{"id":"ACPI_BUTTON_DEVICE_NAME_LID", "file":"drivers/acpi/button.c", "line":57, "type":"d", }
+,{"id":"ACPI_BUTTON_DEVICE_NAME_POWER", "file":"drivers/acpi/button.c", "line":47, "type":"d", }
+,{"id":"ACPI_BUTTON_DEVICE_NAME_SLEEP", "file":"drivers/acpi/button.c", "line":52, "type":"d", }
+,{"id":"ACPI_BUTTON_FILE_INFO", "file":"drivers/acpi/button.c", "line":40, "type":"d", }
+,{"id":"ACPI_BUTTON_FILE_STATE", "file":"drivers/acpi/button.c", "line":41, "type":"d", }
+,{"id":"ACPI_BUTTON_HID_LID", "file":"drivers/acpi/button.c", "line":56, "type":"d", }
+,{"id":"ACPI_BUTTON_HID_POWER", "file":"drivers/acpi/button.c", "line":46, "type":"d", }
+,{"id":"ACPI_BUTTON_HID_POWERF", "file":"include/acpi/acpi_drivers.h", "line":63, "type":"d", }
+,{"id":"ACPI_BUTTON_HID_SLEEP", "file":"drivers/acpi/button.c", "line":51, "type":"d", }
+,{"id":"ACPI_BUTTON_HID_SLEEPF", "file":"include/acpi/acpi_drivers.h", "line":64, "type":"d", }
+,{"id":"ACPI_BUTTON_NOTIFY_STATUS", "file":"drivers/acpi/button.c", "line":43, "type":"d", }
+,{"id":"ACPI_BUTTON_SUBCLASS_LID", "file":"drivers/acpi/button.c", "line":55, "type":"d", }
+,{"id":"ACPI_BUTTON_SUBCLASS_POWER", "file":"drivers/acpi/button.c", "line":45, "type":"d", }
+,{"id":"ACPI_BUTTON_SUBCLASS_SLEEP", "file":"drivers/acpi/button.c", "line":50, "type":"d", }
+,{"id":"ACPI_BUTTON_TYPE_LID", "file":"drivers/acpi/button.c", "line":58, "type":"d", }
+,{"id":"ACPI_BUTTON_TYPE_POWER", "file":"drivers/acpi/button.c", "line":48, "type":"d", }
+,{"id":"ACPI_BUTTON_TYPE_SLEEP", "file":"drivers/acpi/button.c", "line":53, "type":"d", }
+,{"id":"ACPI_BUTTON_TYPE_UNKNOWN", "file":"drivers/acpi/button.c", "line":42, "type":"d", }
+,{"id":"ACPI_CACHABLE_MEMORY", "file":"include/acpi/acrestyp.h", "line":60, "type":"d", }
+,{"id":"ACPI_CAST_INDIRECT_PTR", "file":"include/acpi/actypes.h", "line":451, "type":"d", }
+,{"id":"ACPI_CAST_PTR", "file":"include/acpi/actypes.h", "line":450, "type":"d", }
+,{"id":"ACPI_CA_DEBUGGER", "file":"include/acpi/acoutput.h", "line":64, "type":"d", }
+,{"id":"ACPI_CA_DISASSEMBLER", "file":"include/acpi/acoutput.h", "line":66, "type":"d", }
+,{"id":"ACPI_CA_SUPPORT_LEVEL", "file":"drivers/acpi/acpica/acconfig.h", "line":96, "type":"d", }
+,{"id":"ACPI_CA_VERSION", "file":"include/acpi/acpixf.h", "line":50, "type":"d", }
+,{"id":"ACPI_CHECKSUM_ABORT", "file":"drivers/acpi/acpica/acconfig.h", "line":86, "type":"d", }
+,{"id":"ACPI_CLEAR_BIT", "file":"include/acpi/actypes.h", "line":440, "type":"d", }
+,{"id":"ACPI_CLEAR_STATUS", "file":"include/acpi/actypes.h", "line":770, "type":"d", }
+,{"id":"ACPI_COMMON_BUFFER_INFO", "file":"drivers/acpi/acpica/acobject.h", "line":123, "type":"d", }
+,{"id":"ACPI_COMMON_DEBUG_MEM_HEADER", "file":"drivers/acpi/acpica/aclocal.h", "line":1045, "type":"d", }
+,{"id":"ACPI_COMMON_FIELD_INFO", "file":"drivers/acpi/acpica/acobject.h", "line":242, "type":"d", }
+,{"id":"ACPI_COMMON_MSG_SUFFIX", "file":"drivers/acpi/acpica/utmisc.c", "line":56, "type":"d", }
+,{"id":"ACPI_COMMON_NOTIFY_INFO", "file":"drivers/acpi/acpica/acobject.h", "line":202, "type":"d", }
+,{"id":"ACPI_COMPARE_NAME", "file":"include/acpi/actypes.h", "line":464, "type":"d", }
+,{"id":"ACPI_COMPATIBILITY", "file":"include/acpi/acrestyp.h", "line":98, "type":"d", }
+,{"id":"ACPI_COMPILER", "file":"include/acpi/acoutput.h", "line":70, "type":"d", }
+,{"id":"ACPI_COMPONENT_DEFAULT", "file":"include/acpi/acoutput.h", "line":77, "type":"d", }
+,{"id":"ACPI_CONSUMER", "file":"include/acpi/acrestyp.h", "line":131, "type":"d", }
+,{"id":"ACPI_CONTAINER_CLASS", "file":"drivers/acpi/container.c", "line":42, "type":"d", }
+,{"id":"ACPI_CONTAINER_COMPONENT", "file":"include/acpi/acpi_drivers.h", "line":46, "type":"d", }
+,{"id":"ACPI_CONTAINER_DEVICE_NAME", "file":"drivers/acpi/container.c", "line":41, "type":"d", }
+,{"id":"ACPI_CONTROL_CONDITIONAL_EXECUTING", "file":"drivers/acpi/acpica/aclocal.h", "line":519, "type":"d", }
+,{"id":"ACPI_CONTROL_NORMAL", "file":"drivers/acpi/acpica/aclocal.h", "line":518, "type":"d", }
+,{"id":"ACPI_CONTROL_PREDICATE_EXECUTING", "file":"drivers/acpi/acpica/aclocal.h", "line":520, "type":"d", }
+,{"id":"ACPI_CONTROL_PREDICATE_FALSE", "file":"drivers/acpi/acpica/aclocal.h", "line":521, "type":"d", }
+,{"id":"ACPI_CONTROL_PREDICATE_TRUE", "file":"drivers/acpi/acpica/aclocal.h", "line":522, "type":"d", }
+,{"id":"ACPI_COPY_ADDRESS", "file":"drivers/acpi/acpica/rsxface.c", "line":54, "type":"d", }
+,{"id":"ACPI_COPY_FIELD", "file":"drivers/acpi/acpica/rsxface.c", "line":53, "type":"d", }
+,{"id":"ACPI_COPY_TYPE_PACKAGE", "file":"drivers/acpi/acpica/aclocal.h", "line":250, "type":"d", }
+,{"id":"ACPI_COPY_TYPE_SIMPLE", "file":"drivers/acpi/acpica/aclocal.h", "line":249, "type":"d", }
+,{"id":"ACPI_CREATE_PREDEFINED_TABLE", "file":"drivers/acpi/acpica/nspredef.c", "line":45, "type":"d", }
+,{"id":"ACPI_CSTATE_FFH", "file":"include/acpi/processor.h", "line":36, "type":"d", }
+,{"id":"ACPI_CSTATE_HALT", "file":"include/acpi/processor.h", "line":37, "type":"d", }
+,{"id":"ACPI_CSTATE_SYSTEMIO", "file":"include/acpi/processor.h", "line":35, "type":"d", }
+,{"id":"ACPI_CX_DESC_LEN", "file":"include/acpi/processor.h", "line":39, "type":"d", }
+,{"id":"ACPI_C_STATES_MAX", "file":"include/acpi/actypes.h", "line":518, "type":"d", }
+,{"id":"ACPI_C_STATE_COUNT", "file":"include/acpi/actypes.h", "line":519, "type":"d", }
+,{"id":"ACPI_DASM_BUFFER", "file":"drivers/acpi/acpica/aclocal.h", "line":690, "type":"d", }
+,{"id":"ACPI_DASM_EISAID", "file":"drivers/acpi/acpica/aclocal.h", "line":694, "type":"d", }
+,{"id":"ACPI_DASM_IGNORE", "file":"drivers/acpi/acpica/aclocal.h", "line":698, "type":"d", }
+,{"id":"ACPI_DASM_LNOT_PREFIX", "file":"drivers/acpi/acpica/aclocal.h", "line":696, "type":"d", }
+,{"id":"ACPI_DASM_LNOT_SUFFIX", "file":"drivers/acpi/acpica/aclocal.h", "line":697, "type":"d", }
+,{"id":"ACPI_DASM_MATCHOP", "file":"drivers/acpi/acpica/aclocal.h", "line":695, "type":"d", }
+,{"id":"ACPI_DASM_RESOURCE", "file":"drivers/acpi/acpica/aclocal.h", "line":691, "type":"d", }
+,{"id":"ACPI_DASM_STRING", "file":"drivers/acpi/acpica/aclocal.h", "line":692, "type":"d", }
+,{"id":"ACPI_DASM_UNICODE", "file":"drivers/acpi/acpica/aclocal.h", "line":693, "type":"d", }
+,{"id":"ACPI_DB_ALL", "file":"include/acpi/acoutput.h", "line":176, "type":"d", }
+,{"id":"ACPI_DB_ALLOCATIONS", "file":"include/acpi/acoutput.h", "line":167, "type":"d", }
+,{"id":"ACPI_DB_ALL_EXCEPTIONS", "file":"include/acpi/acoutput.h", "line":149, "type":"d", }
+,{"id":"ACPI_DB_BFIELD", "file":"include/acpi/acoutput.h", "line":161, "type":"d", }
+,{"id":"ACPI_DB_CONSOLE_OUTPUT", "file":"drivers/acpi/acpica/aclocal.h", "line":1030, "type":"d", }
+,{"id":"ACPI_DB_DEBUG_OBJECT", "file":"include/acpi/acoutput.h", "line":146, "type":"d", }
+,{"id":"ACPI_DB_DISPATCH", "file":"include/acpi/acoutput.h", "line":156, "type":"d", }
+,{"id":"ACPI_DB_DUPLICATE_OUTPUT", "file":"drivers/acpi/acpica/aclocal.h", "line":1031, "type":"d", }
+,{"id":"ACPI_DB_EVENTS", "file":"include/acpi/acoutput.h", "line":174, "type":"d", }
+,{"id":"ACPI_DB_EXEC", "file":"include/acpi/acoutput.h", "line":158, "type":"d", }
+,{"id":"ACPI_DB_FUNCTIONS", "file":"include/acpi/acoutput.h", "line":163, "type":"d", }
+,{"id":"ACPI_DB_INFO", "file":"include/acpi/acoutput.h", "line":147, "type":"d", }
+,{"id":"ACPI_DB_INIT", "file":"include/acpi/acoutput.h", "line":145, "type":"d", }
+,{"id":"ACPI_DB_INIT_NAMES", "file":"include/acpi/acoutput.h", "line":153, "type":"d", }
+,{"id":"ACPI_DB_INTERRUPTS", "file":"include/acpi/acoutput.h", "line":170, "type":"d", }
+,{"id":"ACPI_DB_IO", "file":"include/acpi/acoutput.h", "line":169, "type":"d", }
+,{"id":"ACPI_DB_LOAD", "file":"include/acpi/acoutput.h", "line":157, "type":"d", }
+,{"id":"ACPI_DB_MUTEX", "file":"include/acpi/acoutput.h", "line":173, "type":"d", }
+,{"id":"ACPI_DB_NAMES", "file":"include/acpi/acoutput.h", "line":159, "type":"d", }
+,{"id":"ACPI_DB_OBJECTS", "file":"include/acpi/acoutput.h", "line":166, "type":"d", }
+,{"id":"ACPI_DB_OPREGION", "file":"include/acpi/acoutput.h", "line":160, "type":"d", }
+,{"id":"ACPI_DB_OPTIMIZATIONS", "file":"include/acpi/acoutput.h", "line":164, "type":"d", }
+,{"id":"ACPI_DB_PACKAGE", "file":"include/acpi/acoutput.h", "line":172, "type":"d", }
+,{"id":"ACPI_DB_PARSE", "file":"include/acpi/acoutput.h", "line":155, "type":"d", }
+,{"id":"ACPI_DB_REDIRECTABLE_OUTPUT", "file":"drivers/acpi/acpica/aclocal.h", "line":1029, "type":"d", }
+,{"id":"ACPI_DB_REPAIR", "file":"include/acpi/acoutput.h", "line":148, "type":"d", }
+,{"id":"ACPI_DB_RESOURCES", "file":"include/acpi/acoutput.h", "line":168, "type":"d", }
+,{"id":"ACPI_DB_TABLES", "file":"include/acpi/acoutput.h", "line":162, "type":"d", }
+,{"id":"ACPI_DB_THREADS", "file":"include/acpi/acoutput.h", "line":154, "type":"d", }
+,{"id":"ACPI_DB_USER_REQUESTS", "file":"include/acpi/acoutput.h", "line":171, "type":"d", }
+,{"id":"ACPI_DB_VALUES", "file":"include/acpi/acoutput.h", "line":165, "type":"d", }
+,{"id":"ACPI_DEBUGGER_COMMAND_PROMPT", "file":"drivers/acpi/acpica/acconfig.h", "line":224, "type":"d", }
+,{"id":"ACPI_DEBUGGER_EXEC", "file":"drivers/acpi/acpica/acmacros.h", "line":527, "type":"d", }
+,{"id":"ACPI_DEBUGGER_EXECUTE_PROMPT", "file":"drivers/acpi/acpica/acconfig.h", "line":225, "type":"d", }
+,{"id":"ACPI_DEBUGGER_MAX_ARGS", "file":"drivers/acpi/acpica/acconfig.h", "line":222, "type":"d", }
+,{"id":"ACPI_DEBUG_ALL", "file":"include/acpi/acoutput.h", "line":182, "type":"d", }
+,{"id":"ACPI_DEBUG_BUFFER_SIZE", "file":"drivers/acpi/acpica/acdebug.h", "line":47, "type":"d", }
+,{"id":"ACPI_DEBUG_DEFAULT", "file":"include/acpi/acoutput.h", "line":180, "type":"d", }
+,{"id":"ACPI_DEBUG_DEFINE", "file":"drivers/acpi/acpica/acmacros.h", "line":492, "type":"d", }
+,{"id":"ACPI_DEBUG_EXEC", "file":"drivers/acpi/acpica/acmacros.h", "line":489, "type":"d", }
+,{"id":"ACPI_DEBUG_LEVEL", "file":"include/acpi/acoutput.h", "line":137, "type":"d", }
+,{"id":"ACPI_DEBUG_OBJECT", "file":"include/acpi/acoutput.h", "line":210, "type":"d", }
+,{"id":"ACPI_DEBUG_ONLY_MEMBERS", "file":"drivers/acpi/acpica/acmacros.h", "line":493, "type":"d", }
+,{"id":"ACPI_DEBUG_PRINT", "file":"include/acpi/acoutput.h", "line":272, "type":"d", }
+,{"id":"ACPI_DEBUG_PRINT_RAW", "file":"include/acpi/acoutput.h", "line":273, "type":"d", }
+,{"id":"ACPI_DECODE_10", "file":"include/acpi/acrestyp.h", "line":80, "type":"d", }
+,{"id":"ACPI_DECODE_16", "file":"include/acpi/acrestyp.h", "line":81, "type":"d", }
+,{"id":"ACPI_DEFAULT_HANDLER", "file":"include/acpi/actypes.h", "line":937, "type":"d", }
+,{"id":"ACPI_DEFAULT_PAGE_SIZE", "file":"drivers/acpi/acpica/acconfig.h", "line":108, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_CACHED", "file":"drivers/acpi/acpica/acobject.h", "line":422, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_MAX", "file":"drivers/acpi/acpica/acobject.h", "line":437, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_NAMED", "file":"drivers/acpi/acpica/acobject.h", "line":436, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_OPERAND", "file":"drivers/acpi/acpica/acobject.h", "line":435, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_PARSER", "file":"drivers/acpi/acpica/acobject.h", "line":434, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_STATE", "file":"drivers/acpi/acpica/acobject.h", "line":423, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_STATE_CONTROL", "file":"drivers/acpi/acpica/acobject.h", "line":426, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_STATE_NOTIFY", "file":"drivers/acpi/acpica/acobject.h", "line":431, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_STATE_PACKAGE", "file":"drivers/acpi/acpica/acobject.h", "line":425, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_STATE_PSCOPE", "file":"drivers/acpi/acpica/acobject.h", "line":428, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_STATE_RESULT", "file":"drivers/acpi/acpica/acobject.h", "line":430, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_STATE_RPSCOPE", "file":"drivers/acpi/acpica/acobject.h", "line":427, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_STATE_THREAD", "file":"drivers/acpi/acpica/acobject.h", "line":432, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_STATE_UPDATE", "file":"drivers/acpi/acpica/acobject.h", "line":424, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_STATE_WSCOPE", "file":"drivers/acpi/acpica/acobject.h", "line":429, "type":"d", }
+,{"id":"ACPI_DESC_TYPE_WALK", "file":"drivers/acpi/acpica/acobject.h", "line":433, "type":"d", }
+,{"id":"ACPI_DEVFLAG_ATSDIS", "file":"arch/x86/kernel/amd_iommu_init.c", "line":69, "type":"d", }
+,{"id":"ACPI_DEVFLAG_EXTINT", "file":"arch/x86/kernel/amd_iommu_init.c", "line":63, "type":"d", }
+,{"id":"ACPI_DEVFLAG_INITPASS", "file":"arch/x86/kernel/amd_iommu_init.c", "line":62, "type":"d", }
+,{"id":"ACPI_DEVFLAG_LINT0", "file":"arch/x86/kernel/amd_iommu_init.c", "line":67, "type":"d", }
+,{"id":"ACPI_DEVFLAG_LINT1", "file":"arch/x86/kernel/amd_iommu_init.c", "line":68, "type":"d", }
+,{"id":"ACPI_DEVFLAG_NMI", "file":"arch/x86/kernel/amd_iommu_init.c", "line":64, "type":"d", }
+,{"id":"ACPI_DEVFLAG_SYSMGT1", "file":"arch/x86/kernel/amd_iommu_init.c", "line":65, "type":"d", }
+,{"id":"ACPI_DEVFLAG_SYSMGT2", "file":"arch/x86/kernel/amd_iommu_init.c", "line":66, "type":"d", }
+,{"id":"ACPI_DEVICE_ID_LENGTH", "file":"drivers/acpi/acpica/acconfig.h", "line":147, "type":"d", }
+,{"id":"ACPI_DEVICE_NOTIFY", "file":"include/acpi/actypes.h", "line":703, "type":"d", }
+,{"id":"ACPI_DISABLE_EVENT", "file":"include/acpi/actypes.h", "line":775, "type":"d", }
+,{"id":"ACPI_DISABLE_IRQS", "file":"arch/x86/include/asm/acpi.h", "line":53, "type":"d", }
+,{"id":"ACPI_DISASM_ONLY_MEMBERS", "file":"drivers/acpi/acpica/aclocal.h", "line":672, "type":"d", }
+,{"id":"ACPI_DISPATCHER", "file":"include/acpi/acoutput.h", "line":61, "type":"d", }
+,{"id":"ACPI_DISPLAY_MASK", "file":"drivers/acpi/acpica/acstruct.h", "line":224, "type":"d", }
+,{"id":"ACPI_DISPLAY_OBJECTS", "file":"drivers/acpi/acpica/acstruct.h", "line":223, "type":"d", }
+,{"id":"ACPI_DISPLAY_SHORT", "file":"drivers/acpi/acpica/acstruct.h", "line":226, "type":"d", }
+,{"id":"ACPI_DISPLAY_SUMMARY", "file":"drivers/acpi/acpica/acstruct.h", "line":222, "type":"d", }
+,{"id":"ACPI_DIV_16", "file":"drivers/acpi/acpica/acmacros.h", "line":230, "type":"d", }
+,{"id":"ACPI_DIV_2", "file":"drivers/acpi/acpica/acmacros.h", "line":218, "type":"d", }
+,{"id":"ACPI_DIV_32", "file":"drivers/acpi/acpica/acmacros.h", "line":234, "type":"d", }
+,{"id":"ACPI_DIV_4", "file":"drivers/acpi/acpica/acmacros.h", "line":222, "type":"d", }
+,{"id":"ACPI_DIV_64_BY_32", "file":"arch/x86/include/asm/acpi.h", "line":69, "type":"d", }
+,{"id":"ACPI_DIV_8", "file":"drivers/acpi/acpica/acmacros.h", "line":226, "type":"d", }
+,{"id":"ACPI_DMAR_ALLOW_ALL", "file":"include/acpi/actbl2.h", "line":343, "type":"d", }
+,{"id":"ACPI_DMAR_ALL_PORTS", "file":"include/acpi/actbl2.h", "line":356, "type":"d", }
+,{"id":"ACPI_DMAR_HARDWARE_AFFINITY", "file":"include/acpi/actbl2.h", "line":283, "type":"e", "scope_line":279, "scope_name":"acpi_dmar_type", }
+,{"id":"ACPI_DMAR_INCLUDE_ALL", "file":"include/acpi/actbl2.h", "line":329, "type":"d", }
+,{"id":"ACPI_DMAR_INTR_REMAP", "file":"include/acpi/actbl2.h", "line":268, "type":"d", }
+,{"id":"ACPI_DMAR_SCOPE_TYPE_BRIDGE", "file":"include/acpi/actbl2.h", "line":302, "type":"e", "scope_line":299, "scope_name":"acpi_dmar_scope_type", }
+,{"id":"ACPI_DMAR_SCOPE_TYPE_ENDPOINT", "file":"include/acpi/actbl2.h", "line":301, "type":"e", "scope_line":299, "scope_name":"acpi_dmar_scope_type", }
+,{"id":"ACPI_DMAR_SCOPE_TYPE_HPET", "file":"include/acpi/actbl2.h", "line":304, "type":"e", "scope_line":299, "scope_name":"acpi_dmar_scope_type", }
+,{"id":"ACPI_DMAR_SCOPE_TYPE_IOAPIC", "file":"include/acpi/actbl2.h", "line":303, "type":"e", "scope_line":299, "scope_name":"acpi_dmar_scope_type", }
+,{"id":"ACPI_DMAR_SCOPE_TYPE_NOT_USED", "file":"include/acpi/actbl2.h", "line":300, "type":"e", "scope_line":299, "scope_name":"acpi_dmar_scope_type", }
+,{"id":"ACPI_DMAR_SCOPE_TYPE_RESERVED", "file":"include/acpi/actbl2.h", "line":305, "type":"e", "scope_line":299, "scope_name":"acpi_dmar_scope_type", }
+,{"id":"ACPI_DMAR_TYPE_ATSR", "file":"include/acpi/actbl2.h", "line":282, "type":"e", "scope_line":279, "scope_name":"acpi_dmar_type", }
+,{"id":"ACPI_DMAR_TYPE_HARDWARE_UNIT", "file":"include/acpi/actbl2.h", "line":280, "type":"e", "scope_line":279, "scope_name":"acpi_dmar_type", }
+,{"id":"ACPI_DMAR_TYPE_RESERVED", "file":"include/acpi/actbl2.h", "line":284, "type":"e", "scope_line":279, "scope_name":"acpi_dmar_type", }
+,{"id":"ACPI_DMAR_TYPE_RESERVED_MEMORY", "file":"include/acpi/actbl2.h", "line":281, "type":"e", "scope_line":279, "scope_name":"acpi_dmar_type", }
+,{"id":"ACPI_DOCK_DRIVER_DESCRIPTION", "file":"drivers/acpi/dock.c", "line":39, "type":"d", }
+,{"id":"ACPI_DOCK_HID", "file":"include/acpi/acpi_drivers.h", "line":67, "type":"d", }
+,{"id":"ACPI_DO_NOT_WAIT", "file":"include/acpi/actypes.h", "line":409, "type":"d", }
+,{"id":"ACPI_DRIVER", "file":"include/acpi/acoutput.h", "line":73, "type":"d", }
+,{"id":"ACPI_DRIVER_ALL_NOTIFY_EVENTS", "file":"include/acpi/acpi_bus.h", "line":112, "type":"d", }
+,{"id":"ACPI_DUMP_BUFFER", "file":"drivers/acpi/acpica/acmacros.h", "line":508, "type":"d", }
+,{"id":"ACPI_DUMP_ENTRY", "file":"drivers/acpi/acpica/acmacros.h", "line":504, "type":"d", }
+,{"id":"ACPI_DUMP_OPERANDS", "file":"drivers/acpi/acpica/acmacros.h", "line":503, "type":"d", }
+,{"id":"ACPI_DUMP_PATHNAME", "file":"drivers/acpi/acpica/acmacros.h", "line":506, "type":"d", }
+,{"id":"ACPI_DUMP_RESOURCE_LIST", "file":"drivers/acpi/acpica/acmacros.h", "line":507, "type":"d", }
+,{"id":"ACPI_DUMP_STACK_ENTRY", "file":"drivers/acpi/acpica/acmacros.h", "line":502, "type":"d", }
+,{"id":"ACPI_DUMP_TABLES", "file":"drivers/acpi/acpica/acmacros.h", "line":505, "type":"d", }
+,{"id":"ACPI_D_STATES_MAX", "file":"include/acpi/actypes.h", "line":511, "type":"d", }
+,{"id":"ACPI_D_STATE_COUNT", "file":"include/acpi/actypes.h", "line":512, "type":"d", }
+,{"id":"ACPI_EBDA_PTR_LENGTH", "file":"drivers/acpi/acpica/acconfig.h", "line":182, "type":"d", }
+,{"id":"ACPI_EBDA_PTR_LOCATION", "file":"drivers/acpi/acpica/acconfig.h", "line":181, "type":"d", }
+,{"id":"ACPI_EBDA_WINDOW_SIZE", "file":"drivers/acpi/acpica/acconfig.h", "line":183, "type":"d", }
+,{"id":"ACPI_EC_BURST_DISABLE", "file":"drivers/acpi/ec.c", "line":66, "type":"e", "scope_line":62, "scope_name":"ec_command", }
+,{"id":"ACPI_EC_BURST_ENABLE", "file":"drivers/acpi/ec.c", "line":65, "type":"e", "scope_line":62, "scope_name":"ec_command", }
+,{"id":"ACPI_EC_CDELAY", "file":"drivers/acpi/ec.c", "line":72, "type":"d", }
+,{"id":"ACPI_EC_CLASS", "file":"drivers/acpi/ec.c", "line":48, "type":"d", }
+,{"id":"ACPI_EC_COMMAND_QUERY", "file":"drivers/acpi/ec.c", "line":67, "type":"e", "scope_line":62, "scope_name":"ec_command", }
+,{"id":"ACPI_EC_COMMAND_READ", "file":"drivers/acpi/ec.c", "line":63, "type":"e", "scope_line":62, "scope_name":"ec_command", }
+,{"id":"ACPI_EC_COMMAND_WRITE", "file":"drivers/acpi/ec.c", "line":64, "type":"e", "scope_line":62, "scope_name":"ec_command", }
+,{"id":"ACPI_EC_DELAY", "file":"drivers/acpi/ec.c", "line":70, "type":"d", }
+,{"id":"ACPI_EC_DEVICE_NAME", "file":"drivers/acpi/ec.c", "line":49, "type":"d", }
+,{"id":"ACPI_EC_FILE_INFO", "file":"drivers/acpi/ec.c", "line":50, "type":"d", }
+,{"id":"ACPI_EC_FLAG_BURST", "file":"drivers/acpi/ec.c", "line":58, "type":"d", }
+,{"id":"ACPI_EC_FLAG_IBF", "file":"drivers/acpi/ec.c", "line":57, "type":"d", }
+,{"id":"ACPI_EC_FLAG_OBF", "file":"drivers/acpi/ec.c", "line":56, "type":"d", }
+,{"id":"ACPI_EC_FLAG_SCI", "file":"drivers/acpi/ec.c", "line":59, "type":"d", }
+,{"id":"ACPI_EC_MSI_UDELAY", "file":"drivers/acpi/ec.c", "line":73, "type":"d", }
+,{"id":"ACPI_EC_STORM_THRESHOLD", "file":"drivers/acpi/ec.c", "line":75, "type":"d", }
+,{"id":"ACPI_EC_UDELAY_GLK", "file":"drivers/acpi/ec.c", "line":71, "type":"d", }
+,{"id":"ACPI_EDGE_SENSITIVE", "file":"include/acpi/acrestyp.h", "line":87, "type":"d", }
+,{"id":"ACPI_EINJ_ACTION_RESERVED", "file":"include/acpi/actbl1.h", "line":231, "type":"e", "scope_line":222, "scope_name":"acpi_einj_actions", }
+,{"id":"ACPI_EINJ_BEGIN_OPERATION", "file":"include/acpi/actbl1.h", "line":223, "type":"e", "scope_line":222, "scope_name":"acpi_einj_actions", }
+,{"id":"ACPI_EINJ_CHECK_BUSY_STATUS", "file":"include/acpi/actbl1.h", "line":229, "type":"e", "scope_line":222, "scope_name":"acpi_einj_actions", }
+,{"id":"ACPI_EINJ_END_OPERATION", "file":"include/acpi/actbl1.h", "line":227, "type":"e", "scope_line":222, "scope_name":"acpi_einj_actions", }
+,{"id":"ACPI_EINJ_EXECUTE_OPERATION", "file":"include/acpi/actbl1.h", "line":228, "type":"e", "scope_line":222, "scope_name":"acpi_einj_actions", }
+,{"id":"ACPI_EINJ_FAILURE", "file":"include/acpi/actbl1.h", "line":259, "type":"e", "scope_line":257, "scope_name":"acpi_einj_command_status", }
+,{"id":"ACPI_EINJ_GET_COMMAND_STATUS", "file":"include/acpi/actbl1.h", "line":230, "type":"e", "scope_line":222, "scope_name":"acpi_einj_actions", }
+,{"id":"ACPI_EINJ_GET_ERROR_TYPE", "file":"include/acpi/actbl1.h", "line":226, "type":"e", "scope_line":222, "scope_name":"acpi_einj_actions", }
+,{"id":"ACPI_EINJ_GET_TRIGGER_TABLE", "file":"include/acpi/actbl1.h", "line":224, "type":"e", "scope_line":222, "scope_name":"acpi_einj_actions", }
+,{"id":"ACPI_EINJ_INSTRUCTION_RESERVED", "file":"include/acpi/actbl1.h", "line":243, "type":"e", "scope_line":237, "scope_name":"acpi_einj_instructions", }
+,{"id":"ACPI_EINJ_INVALID_ACCESS", "file":"include/acpi/actbl1.h", "line":260, "type":"e", "scope_line":257, "scope_name":"acpi_einj_command_status", }
+,{"id":"ACPI_EINJ_MEMORY_CORRECTABLE", "file":"include/acpi/actbl1.h", "line":269, "type":"d", }
+,{"id":"ACPI_EINJ_MEMORY_FATAL", "file":"include/acpi/actbl1.h", "line":271, "type":"d", }
+,{"id":"ACPI_EINJ_MEMORY_UNCORRECTABLE", "file":"include/acpi/actbl1.h", "line":270, "type":"d", }
+,{"id":"ACPI_EINJ_NOOP", "file":"include/acpi/actbl1.h", "line":242, "type":"e", "scope_line":237, "scope_name":"acpi_einj_instructions", }
+,{"id":"ACPI_EINJ_PCIX_CORRECTABLE", "file":"include/acpi/actbl1.h", "line":272, "type":"d", }
+,{"id":"ACPI_EINJ_PCIX_FATAL", "file":"include/acpi/actbl1.h", "line":274, "type":"d", }
+,{"id":"ACPI_EINJ_PCIX_UNCORRECTABLE", "file":"include/acpi/actbl1.h", "line":273, "type":"d", }
+,{"id":"ACPI_EINJ_PLATFORM_CORRECTABLE", "file":"include/acpi/actbl1.h", "line":275, "type":"d", }
+,{"id":"ACPI_EINJ_PLATFORM_FATAL", "file":"include/acpi/actbl1.h", "line":277, "type":"d", }
+,{"id":"ACPI_EINJ_PLATFORM_UNCORRECTABLE", "file":"include/acpi/actbl1.h", "line":276, "type":"d", }
+,{"id":"ACPI_EINJ_PRESERVE", "file":"include/acpi/actbl1.h", "line":218, "type":"d", }
+,{"id":"ACPI_EINJ_PROCESSOR_CORRECTABLE", "file":"include/acpi/actbl1.h", "line":266, "type":"d", }
+,{"id":"ACPI_EINJ_PROCESSOR_FATAL", "file":"include/acpi/actbl1.h", "line":268, "type":"d", }
+,{"id":"ACPI_EINJ_PROCESSOR_UNCORRECTABLE", "file":"include/acpi/actbl1.h", "line":267, "type":"d", }
+,{"id":"ACPI_EINJ_READ_REGISTER", "file":"include/acpi/actbl1.h", "line":238, "type":"e", "scope_line":237, "scope_name":"acpi_einj_instructions", }
+,{"id":"ACPI_EINJ_READ_REGISTER_VALUE", "file":"include/acpi/actbl1.h", "line":239, "type":"e", "scope_line":237, "scope_name":"acpi_einj_instructions", }
+,{"id":"ACPI_EINJ_SET_ERROR_TYPE", "file":"include/acpi/actbl1.h", "line":225, "type":"e", "scope_line":222, "scope_name":"acpi_einj_actions", }
+,{"id":"ACPI_EINJ_STATUS_RESERVED", "file":"include/acpi/actbl1.h", "line":261, "type":"e", "scope_line":257, "scope_name":"acpi_einj_command_status", }
+,{"id":"ACPI_EINJ_SUCCESS", "file":"include/acpi/actbl1.h", "line":258, "type":"e", "scope_line":257, "scope_name":"acpi_einj_command_status", }
+,{"id":"ACPI_EINJ_TRIGGER_ERROR", "file":"include/acpi/actbl1.h", "line":232, "type":"e", "scope_line":222, "scope_name":"acpi_einj_actions", }
+,{"id":"ACPI_EINJ_WRITE_REGISTER", "file":"include/acpi/actbl1.h", "line":240, "type":"e", "scope_line":237, "scope_name":"acpi_einj_instructions", }
+,{"id":"ACPI_EINJ_WRITE_REGISTER_VALUE", "file":"include/acpi/actbl1.h", "line":241, "type":"e", "scope_line":237, "scope_name":"acpi_einj_instructions", }
+,{"id":"ACPI_EISAID_STRING_SIZE", "file":"include/acpi/actypes.h", "line":960, "type":"d", }
+,{"id":"ACPI_ENABLE_EVENT", "file":"include/acpi/actypes.h", "line":774, "type":"d", }
+,{"id":"ACPI_ENABLE_IRQS", "file":"arch/x86/include/asm/acpi.h", "line":54, "type":"d", }
+,{"id":"ACPI_ENTIRE_RANGE", "file":"include/acpi/acrestyp.h", "line":71, "type":"d", }
+,{"id":"ACPI_ENTRY_NOT_FOUND", "file":"drivers/acpi/acpica/aclocal.h", "line":153, "type":"d", }
+,{"id":"ACPI_ERROR", "file":"include/acpi/acoutput.h", "line":209, "type":"d", }
+,{"id":"ACPI_ERROR_METHOD", "file":"drivers/acpi/acpica/acmacros.h", "line":342, "type":"d", }
+,{"id":"ACPI_ERROR_NAMESPACE", "file":"drivers/acpi/acpica/acmacros.h", "line":341, "type":"d", }
+,{"id":"ACPI_ERST_ACTION_RESERVED", "file":"include/acpi/actbl1.h", "line":322, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_ADD", "file":"include/acpi/actbl1.h", "line":336, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_ADD_VALUE", "file":"include/acpi/actbl1.h", "line":338, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_BEGIN_CLEAR", "file":"include/acpi/actbl1.h", "line":308, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_BEGIN_DUMMY_WRIITE", "file":"include/acpi/actbl1.h", "line":317, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_BEGIN_READ", "file":"include/acpi/actbl1.h", "line":307, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_BEGIN_WRITE", "file":"include/acpi/actbl1.h", "line":306, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_CHECK_BUSY_STATUS", "file":"include/acpi/actbl1.h", "line":312, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_END", "file":"include/acpi/actbl1.h", "line":309, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_EXECUTE_OPERATION", "file":"include/acpi/actbl1.h", "line":311, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_FAILURE", "file":"include/acpi/actbl1.h", "line":356, "type":"e", "scope_line":352, "scope_name":"acpi_erst_command_status", }
+,{"id":"ACPI_ERST_GET_COMMAND_STATUS", "file":"include/acpi/actbl1.h", "line":313, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_GET_ERROR_ATTRIBUTES", "file":"include/acpi/actbl1.h", "line":321, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_GET_ERROR_LENGTH", "file":"include/acpi/actbl1.h", "line":320, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_GET_ERROR_RANGE", "file":"include/acpi/actbl1.h", "line":319, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_GET_RECORD_COUNT", "file":"include/acpi/actbl1.h", "line":316, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_GET_RECORD_ID", "file":"include/acpi/actbl1.h", "line":314, "type":"e", "scope_line":305, "scope_name":"acpi_erst_actions", }
+,{"id":"ACPI_ERST_GOTO", "file":"include/acpi/actbl1.h", "line":343, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_INSTRUCTION_RESERVED", "file":"include/acpi/actbl1.h", "line":347, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_LOAD_VAR1", "file":"include/acpi/actbl1.h", "line":333, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_LOAD_VAR2", "file":"include/acpi/actbl1.h", "line":334, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_MOVE_DATA", "file":"include/acpi/actbl1.h", "line":346, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,{"id":"ACPI_ERST_NOOP", "file":"include/acpi/actbl1.h", "line":332, "type":"e", "scope_line":327, "scope_name":"acpi_erst_instructions", }
+,];
+xr_frag_insert('t/4f/1d8016b446bf5df10d5eee9b10e42a02d02798.xr', __xr_tmp);

@@ -1,0 +1,97 @@
+var __xr_tmp = [
+{"id":"nla_strlcpy", "file":"lib/nlattr.c", "line":239, "type":"f", }
+,{"id":"nla_strlcpy", "file":"net/core/fib_rules.c", "line":304, "type":"c", "scope_line":264, "scope_name":"fib_nl_newrule", }
+,{"id":"nla_strlcpy", "file":"net/core/fib_rules.c", "line":314, "type":"c", "scope_line":264, "scope_name":"fib_nl_newrule", }
+,{"id":"nla_strlcpy", "file":"net/core/rtnetlink.c", "line":1292, "type":"c", "scope_line":1278, "scope_name":"rtnl_setlink", }
+,{"id":"nla_strlcpy", "file":"net/core/rtnetlink.c", "line":1334, "type":"c", "scope_line":1319, "scope_name":"rtnl_dellink", }
+,{"id":"nla_strlcpy", "file":"net/core/rtnetlink.c", "line":1449, "type":"c", "scope_line":1429, "scope_name":"rtnl_newlink", }
+,{"id":"nla_strlcpy", "file":"net/core/rtnetlink.c", "line":1474, "type":"c", "scope_line":1429, "scope_name":"rtnl_newlink", }
+,{"id":"nla_strlcpy", "file":"net/core/rtnetlink.c", "line":1587, "type":"c", "scope_line":1572, "scope_name":"rtnl_getlink", }
+,{"id":"nla_strlcpy", "file":"net/ipv4/devinet.c", "line":536, "type":"c", "scope_line":481, "scope_name":"rtm_to_ifaddr", }
+,{"id":"nla_strlcpy", "file":"net/netlabel/netlabel_mgmt.c", "line":115, "type":"c", "scope_line":93, "scope_name":"netlbl_mgmt_add_common", }
+,{"id":"nla_strlcpy", "file":"net/sched/act_api.c", "line":506, "type":"c", "scope_line":488, "scope_name":"tcf_action_init_1", }
+,{"id":"nla_strlcpy", "file":"net/sched/cls_api.c", "line":236, "type":"c", "scope_line":121, "scope_name":"tc_ctl_tfilter", }
+,{"id":"nla_strlcpy", "file":"net/sched/sch_api.c", "line":772, "type":"c", "scope_line":757, "scope_name":"qdisc_create", }
+,{"id":"nla_total_size", "file":"drivers/acpi/event.c", "line":196, "type":"c", "scope_line":184, "scope_name":"acpi_bus_generate_netlink_event", }
+,{"id":"nla_total_size", "file":"fs/quota/netlink.c", "line":40, "type":"c", "scope_line":33, "scope_name":"quota_send_warning", }
+,{"id":"nla_total_size", "file":"include/net/netlink.h", "line":654, "type":"f", }
+,{"id":"nla_total_size", "file":"include/net/netlink.h", "line":665, "type":"c", "scope_line":663, "scope_name":"nla_padlen", }
+,{"id":"nla_total_size", "file":"kernel/taskstats.c", "line":402, "type":"c", "scope_line":382, "scope_name":"cgroupstats_user_cmd", }
+,{"id":"nla_total_size", "file":"kernel/taskstats.c", "line":460, "type":"c", "scope_line":427, "scope_name":"taskstats_user_cmd", }
+,{"id":"nla_total_size", "file":"kernel/taskstats.c", "line":535, "type":"c", "scope_line":520, "scope_name":"taskstats_exit", }
+,{"id":"nla_total_size", "file":"lib/nlattr.c", "line":153, "type":"c", "scope_line":146, "scope_name":"nla_policy_len", }
+,{"id":"nla_total_size", "file":"lib/nlattr.c", "line":155, "type":"c", "scope_line":146, "scope_name":"nla_policy_len", }
+,{"id":"nla_total_size", "file":"lib/nlattr.c", "line":327, "type":"c", "scope_line":323, "scope_name":"__nla_reserve", }
+,{"id":"nla_total_size", "file":"lib/nlattr.c", "line":372, "type":"c", "scope_line":370, "scope_name":"nla_reserve", }
+,{"id":"nla_total_size", "file":"lib/nlattr.c", "line":448, "type":"c", "scope_line":446, "scope_name":"nla_put", }
+,{"id":"nla_total_size", "file":"net/core/fib_rules.c", "line":512, "type":"c", "scope_line":509, "scope_name":"fib_rule_nlmsg_size", }
+,{"id":"nla_total_size", "file":"net/core/neighbour.c", "line":2525, "type":"c", "scope_line":2523, "scope_name":"neigh_nlmsg_size", }
+,{"id":"nla_total_size", "file":"net/core/rtnetlink.c", "line":653, "type":"c", "scope_line":648, "scope_name":"rtnl_vfinfo_size", }
+,{"id":"nla_total_size", "file":"net/core/rtnetlink.c", "line":654, "type":"c", "scope_line":648, "scope_name":"rtnl_vfinfo_size", }
+,{"id":"nla_total_size", "file":"net/core/rtnetlink.c", "line":655, "type":"c", "scope_line":648, "scope_name":"rtnl_vfinfo_size", }
+,{"id":"nla_total_size", "file":"net/core/rtnetlink.c", "line":666, "type":"c", "scope_line":664, "scope_name":"rtnl_port_size", }
+,{"id":"nla_total_size", "file":"net/core/rtnetlink.c", "line":674, "type":"c", "scope_line":664, "scope_name":"rtnl_port_size", }
+,{"id":"nla_total_size", "file":"net/core/rtnetlink.c", "line":675, "type":"c", "scope_line":664, "scope_name":"rtnl_port_size", }
+,{"id":"nla_total_size", "file":"net/core/rtnetlink.c", "line":677, "type":"c", "scope_line":664, "scope_name":"rtnl_port_size", }
+,{"id":"nla_total_size", "file":"net/core/rtnetlink.c", "line":691, "type":"c", "scope_line":689, "scope_name":"if_nlmsg_size", }
+,{"id":"nla_total_size", "file":"net/ipv4/devinet.c", "line":1133, "type":"c", "scope_line":1131, "scope_name":"inet_nlmsg_size", }
+,{"id":"nla_total_size", "file":"net/ipv4/fib_frontend.c", "line":343, "type":"c", "scope_line":334, "scope_name":"put_rtax", }
+,{"id":"nla_total_size", "file":"net/ipv4/fib_frontend.c", "line":454, "type":"c", "scope_line":346, "scope_name":"rtentry_to_fib_config", }
+,{"id":"nla_total_size", "file":"net/ipv4/fib_rules.c", "line":238, "type":"c", "scope_line":236, "scope_name":"fib4_rule_nlmsg_payload", }
+,{"id":"nla_total_size", "file":"net/ipv4/fib_semantics.c", "line":280, "type":"c", "scope_line":278, "scope_name":"fib_nlmsg_size", }
+,{"id":"nla_total_size", "file":"net/ipv4/fib_semantics.c", "line":287, "type":"c", "scope_line":278, "scope_name":"fib_nlmsg_size", }
+,{"id":"nla_total_size", "file":"net/ipv4/fib_semantics.c", "line":293, "type":"c", "scope_line":278, "scope_name":"fib_nlmsg_size", }
+,{"id":"nla_total_size", "file":"net/ipv4/fib_semantics.c", "line":296, "type":"c", "scope_line":278, "scope_name":"fib_nlmsg_size", }
+,{"id":"nla_total_size", "file":"net/ipv4/fib_semantics.c", "line":299, "type":"c", "scope_line":278, "scope_name":"fib_nlmsg_size", }
+,{"id":"nla_total_size", "file":"net/ipv6/addrconf.c", "line":3475, "type":"c", "scope_line":3473, "scope_name":"inet6_ifaddr_msgsize", }
+,{"id":"nla_total_size", "file":"net/ipv6/addrconf.c", "line":3840, "type":"c", "scope_line":3838, "scope_name":"inet6_if_nlmsg_size", }
+,{"id":"nla_total_size", "file":"net/ipv6/addrconf.c", "line":4033, "type":"c", "scope_line":4031, "scope_name":"inet6_prefix_nlmsg_size", }
+,{"id":"nla_total_size", "file":"net/ipv6/addrlabel.c", "line":521, "type":"c", "scope_line":519, "scope_name":"ip6addrlbl_msgsize", }
+,{"id":"nla_total_size", "file":"net/ipv6/fib6_rules.c", "line":236, "type":"c", "scope_line":234, "scope_name":"fib6_rule_nlmsg_payload", }
+,{"id":"nla_total_size", "file":"net/ipv6/ndisc.c", "line":1072, "type":"c", "scope_line":1062, "scope_name":"ndisc_ra_useropt", }
+,{"id":"nla_total_size", "file":"net/ipv6/route.c", "line":2177, "type":"c", "scope_line":2175, "scope_name":"rt6_nlmsg_size", }
+,{"id":"nla_type", "file":"include/linux/netlink.h", "line":126, "type":"m", "scope_line":124, "scope_name":"struct nlattr", }
+,{"id":"nla_type", "file":"include/net/netlink.h", "line":672, "type":"f", }
+,{"id":"nla_type", "file":"lib/nlattr.c", "line":185, "type":"c", "scope_line":176, "scope_name":"nla_parse", }
+,{"id":"nla_type", "file":"lib/nlattr.c", "line":221, "type":"c", "scope_line":215, "scope_name":"nla_find", }
+,{"id":"nla_type", "file":"lib/nlattr.c", "line":30, "type":"c", "scope_line":26, "scope_name":"validate_nla", }
+,{"id":"nla_type", "file":"net/core/rtnetlink.c", "line":1034, "type":"c", "scope_line":1027, "scope_name":"do_setvfinfo", }
+,{"id":"nla_type", "file":"net/core/rtnetlink.c", "line":1207, "type":"c", "scope_line":1073, "scope_name":"do_setlink", }
+,{"id":"nla_type", "file":"net/core/rtnetlink.c", "line":1230, "type":"c", "scope_line":1073, "scope_name":"do_setlink", }
+,{"id":"nla_type", "file":"net/ipv4/fib_frontend.c", "line":567, "type":"c", "scope_line":534, "scope_name":"rtm_to_fib_config", }
+,{"id":"nla_type", "file":"net/ipv4/fib_semantics.c", "line":747, "type":"c", "scope_line":684, "scope_name":"fib_create_info", }
+,{"id":"nla_type", "file":"net/ipv6/route.c", "line":1286, "type":"c", "scope_line":1117, "scope_name":"ip6_route_add", }
+,{"id":"nla_type", "file":"net/netlabel/netlabel_cipso_v4.c", "line":116, "type":"c", "scope_line":101, "scope_name":"netlbl_cipsov4_add_common", }
+,{"id":"nla_type", "file":"net/netlabel/netlabel_cipso_v4.c", "line":180, "type":"c", "scope_line":142, "scope_name":"netlbl_cipsov4_add_std", }
+,{"id":"nla_type", "file":"net/netlabel/netlabel_cipso_v4.c", "line":186, "type":"c", "scope_line":142, "scope_name":"netlbl_cipsov4_add_std", }
+,{"id":"nla_type", "file":"net/netlabel/netlabel_cipso_v4.c", "line":228, "type":"c", "scope_line":142, "scope_name":"netlbl_cipsov4_add_std", }
+,{"id":"nla_type", "file":"net/netlabel/netlabel_cipso_v4.c", "line":253, "type":"c", "scope_line":142, "scope_name":"netlbl_cipsov4_add_std", }
+,{"id":"nla_type", "file":"net/netlabel/netlabel_cipso_v4.c", "line":259, "type":"c", "scope_line":142, "scope_name":"netlbl_cipsov4_add_std", }
+,{"id":"nla_type", "file":"net/netlabel/netlabel_cipso_v4.c", "line":303, "type":"c", "scope_line":142, "scope_name":"netlbl_cipsov4_add_std", }
+,{"id":"nla_validate", "file":"include/net/netlink.h", "line":1038, "type":"c", "scope_line":1035, "scope_name":"nla_validate_nested", }
+,{"id":"nla_validate", "file":"include/net/netlink.h", "line":407, "type":"c", "scope_line":401, "scope_name":"nlmsg_validate", }
+,{"id":"nla_validate", "file":"lib/nlattr.c", "line":118, "type":"f", }
+,{"id":"nla_validate_nested", "file":"include/net/netlink.h", "line":1035, "type":"f", }
+,{"id":"nla_validate_nested", "file":"net/netlabel/netlabel_cipso_v4.c", "line":110, "type":"c", "scope_line":101, "scope_name":"netlbl_cipsov4_add_common", }
+,{"id":"nla_validate_nested", "file":"net/netlabel/netlabel_cipso_v4.c", "line":157, "type":"c", "scope_line":142, "scope_name":"netlbl_cipsov4_add_std", }
+,{"id":"nla_validate_nested", "file":"net/netlabel/netlabel_cipso_v4.c", "line":181, "type":"c", "scope_line":142, "scope_name":"netlbl_cipsov4_add_std", }
+,{"id":"nla_validate_nested", "file":"net/netlabel/netlabel_cipso_v4.c", "line":245, "type":"c", "scope_line":142, "scope_name":"netlbl_cipsov4_add_std", }
+,{"id":"nla_validate_nested", "file":"net/netlabel/netlabel_cipso_v4.c", "line":254, "type":"c", "scope_line":142, "scope_name":"netlbl_cipsov4_add_std", }
+,{"id":"nlattr", "file":"include/linux/netlink.h", "line":124, "type":"s", }
+,{"id":"nlayers", "file":"include/linux/cdrom.h", "line":533, "type":"m", "scope_line":526, "scope_name":"struct dvd_layer", }
+,{"id":"nlbl_secattr", "file":"security/selinux/include/objsec.h", "line":106, "type":"m", "scope_line":97, "scope_name":"struct sk_security_struct", }
+,{"id":"nlbl_state", "file":"security/selinux/include/objsec.h", "line":105, "type":"m", "scope_line":97, "scope_name":"struct sk_security_struct", }
+,{"id":"nleft", "file":"include/linux/ide.h", "line":307, "type":"m", "scope_line":288, "scope_name":"struct ide_cmd", }
+,{"id":"nlen", "file":"include/linux/sysctl.h", "line":38, "type":"m", "scope_line":36, "scope_name":"struct __sysctl_args", }
+,{"id":"nlen", "file":"kernel/sysctl_binary.c", "line":1497, "type":"m", "scope_line":1495, "scope_name":"struct compat_sysctl_args", }
+,{"id":"nlen", "file":"lib/zlib_inflate/inflate.h", "line":103, "type":"m", "scope_line":72, "scope_name":"struct inflate_state", }
+,{"id":"nlgroup", "file":"include/net/fib_rules.h", "line":65, "type":"m", "scope_line":36, "scope_name":"struct fib_rules_ops", }
+,{"id":"nlh", "file":"include/linux/netlink.h", "line":223, "type":"m", "scope_line":221, "scope_name":"struct netlink_callback", }
+,{"id":"nlh", "file":"include/net/netlink.h", "line":216, "type":"m", "scope_line":215, "scope_name":"struct nl_info", }
+,{"id":"nlhdr", "file":"include/net/genetlink.h", "line":62, "type":"m", "scope_line":59, "scope_name":"struct genl_info", }
+,{"id":"nlink", "file":"fs/squashfs/squashfs_fs.h", "line":287, "type":"m", "scope_line":280, "scope_name":"struct squashfs_ipc_inode", }
+,{"id":"nlink", "file":"fs/squashfs/squashfs_fs.h", "line":297, "type":"m", "scope_line":290, "scope_name":"struct squashfs_lipc_inode", }
+,{"id":"nlink", "file":"fs/squashfs/squashfs_fs.h", "line":308, "type":"m", "scope_line":301, "scope_name":"struct squashfs_dev_inode", }
+,{"id":"nlink", "file":"fs/squashfs/squashfs_fs.h", "line":319, "type":"m", "scope_line":312, "scope_name":"struct squashfs_ldev_inode", }
+,];
+xr_frag_insert('t/21/ca4ed95ab741e0b9a4148ccf7f2120044d23b6.xr', __xr_tmp);

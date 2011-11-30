@@ -1,0 +1,44 @@
+var __xr_tmp = [
+{"id":"PageKsm", "file":"mm/ksm.c", "line":1590, "type":"c", "scope_line":1582, "scope_name":"try_to_unmap_ksm", }
+,{"id":"PageKsm", "file":"mm/ksm.c", "line":1642, "type":"c", "scope_line":1633, "scope_name":"rmap_walk_ksm", }
+,{"id":"PageKsm", "file":"mm/ksm.c", "line":351, "type":"c", "scope_line":341, "scope_name":"break_ksm", }
+,{"id":"PageKsm", "file":"mm/memory-failure.c", "line":866, "type":"c", "scope_line":845, "scope_name":"hwpoison_user_mappings", }
+,{"id":"PageKsm", "file":"mm/memory.c", "line":2136, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"PageKsm", "file":"mm/mempolicy.c", "line":489, "type":"c", "scope_line":465, "scope_name":"check_pte_range", }
+,{"id":"PageKsm", "file":"mm/migrate.c", "line":1019, "type":"c", "scope_line":994, "scope_name":"do_pages_stat_array", }
+,{"id":"PageKsm", "file":"mm/migrate.c", "line":587, "type":"c", "scope_line":549, "scope_name":"unmap_and_move", }
+,{"id":"PageKsm", "file":"mm/migrate.c", "line":858, "type":"c", "scope_line":825, "scope_name":"do_move_page_to_node_array", }
+,{"id":"PageKsm", "file":"mm/rmap.c", "line":1411, "type":"c", "scope_line":1405, "scope_name":"try_to_unmap", }
+,{"id":"PageKsm", "file":"mm/rmap.c", "line":1441, "type":"c", "scope_line":1437, "scope_name":"try_to_munlock", }
+,{"id":"PageKsm", "file":"mm/rmap.c", "line":1554, "type":"c", "scope_line":1549, "scope_name":"rmap_walk", }
+,{"id":"PageKsm", "file":"mm/rmap.c", "line":661, "type":"c", "scope_line":651, "scope_name":"page_referenced", }
+,{"id":"PageKsm", "file":"mm/rmap.c", "line":668, "type":"c", "scope_line":651, "scope_name":"page_referenced", }
+,{"id":"PageKsm", "file":"mm/rmap.c", "line":876, "type":"c", "scope_line":870, "scope_name":"do_page_add_anon_rmap", }
+,{"id":"PageKsm", "file":"mm/swapfile.c", "line":658, "type":"c", "scope_line":653, "scope_name":"reuse_swap_page", }
+,{"id":"PageLRU", "file":"include/linux/page-flags.h", "line":207, "type":"f", }
+,{"id":"PageLRU", "file":"mm/internal.h", "line":86, "type":"c", "scope_line":84, "scope_name":"is_mlocked_vma", }
+,{"id":"PageLRU", "file":"mm/memcontrol.c", "line":1966, "type":"c", "scope_line":1962, "scope_name":"__mem_cgroup_move_account", }
+,{"id":"PageLRU", "file":"mm/memcontrol.c", "line":823, "type":"c", "scope_line":815, "scope_name":"mem_cgroup_lru_add_after_commit_swapcache", }
+,{"id":"PageLRU", "file":"mm/memcontrol.c", "line":995, "type":"c", "scope_line":964, "scope_name":"mem_cgroup_isolate_pages", }
+,{"id":"PageLRU", "file":"mm/memory-failure.c", "line":1010, "type":"c", "scope_line":952, "scope_name":"__memory_failure", }
+,{"id":"PageLRU", "file":"mm/memory-failure.c", "line":1012, "type":"c", "scope_line":952, "scope_name":"__memory_failure", }
+,{"id":"PageLRU", "file":"mm/memory-failure.c", "line":1083, "type":"c", "scope_line":952, "scope_name":"__memory_failure", }
+,{"id":"PageLRU", "file":"mm/memory-failure.c", "line":1274, "type":"c", "scope_line":1260, "scope_name":"soft_offline_page", }
+,{"id":"PageLRU", "file":"mm/memory-failure.c", "line":1290, "type":"c", "scope_line":1260, "scope_name":"soft_offline_page", }
+,{"id":"PageLRU", "file":"mm/memory-failure.c", "line":223, "type":"c", "scope_line":219, "scope_name":"shake_page", }
+,{"id":"PageLRU", "file":"mm/memory-failure.c", "line":226, "type":"c", "scope_line":219, "scope_name":"shake_page", }
+,{"id":"PageLRU", "file":"mm/memory_hotplug.c", "line":669, "type":"c", "scope_line":662, "scope_name":"scan_lru_pages", }
+,{"id":"PageLRU", "file":"mm/page_alloc.c", "line":5331, "type":"c", "scope_line":5284, "scope_name":"set_migratetype_isolate", }
+,{"id":"PageLRU", "file":"mm/rmap.c", "line":1439, "type":"c", "scope_line":1437, "scope_name":"try_to_munlock", }
+,{"id":"PageLRU", "file":"mm/swap.c", "line":121, "type":"c", "scope_line":105, "scope_name":"pagevec_move_tail", }
+,{"id":"PageLRU", "file":"mm/swap.c", "line":141, "type":"c", "scope_line":139, "scope_name":"rotate_reclaimable_page", }
+,{"id":"PageLRU", "file":"mm/swap.c", "line":183, "type":"c", "scope_line":178, "scope_name":"activate_page", }
+,{"id":"PageLRU", "file":"mm/swap.c", "line":207, "type":"c", "scope_line":205, "scope_name":"mark_page_accessed", }
+,{"id":"PageLRU", "file":"mm/swap.c", "line":244, "type":"c", "scope_line":234, "scope_name":"lru_cache_add_lru", }
+,{"id":"PageLRU", "file":"mm/swap.c", "line":352, "type":"c", "scope_line":329, "scope_name":"release_pages", }
+,{"id":"PageLRU", "file":"mm/swap.c", "line":362, "type":"c", "scope_line":329, "scope_name":"release_pages", }
+,{"id":"PageLRU", "file":"mm/swap.c", "line":426, "type":"c", "scope_line":405, "scope_name":"____pagevec_lru_add", }
+,{"id":"PageLRU", "file":"mm/swap.c", "line":49, "type":"c", "scope_line":47, "scope_name":"__page_cache_release", }
+,{"id":"PageLRU", "file":"mm/swap.c", "line":54, "type":"c", "scope_line":47, "scope_name":"__page_cache_release", }
+,];
+xr_frag_insert('t/a8/c911d220970686d6a108a4fa5ddbbdb784dad6.xr', __xr_tmp);

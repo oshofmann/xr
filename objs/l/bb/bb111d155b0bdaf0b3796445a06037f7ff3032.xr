@@ -1,0 +1,15 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#_ASM_X86_STATFS_H\">_ASM_X86_STATFS_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#_ASM_X86_STATFS_H\">_ASM_X86_STATFS_H</a>", 
+"", 
+"<span class=\"comment\">/*</span>", 
+"<span class=\"comment\"> * We need compat_statfs64 to be packed, because the i386 ABI won't</span>", 
+"<span class=\"comment\"> * add padding at the end to bring it to a multiple of 8 bytes, but</span>", 
+"<span class=\"comment\"> * the x86_64 ABI will.</span>", 
+"<span class=\"comment\"> */</span>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#ARCH_PACK_COMPAT_STATFS64\">ARCH_PACK_COMPAT_STATFS64</a> <a class=\"id\" href=\"#__attribute__\">__attribute__</a>((<a class=\"id\" href=\"#packed\">packed</a>,<a class=\"id\" href=\"#aligned\">aligned</a>(4)))", 
+"", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#asm\">asm</a>-<a class=\"id\" href=\"#generic\">generic</a>/<a class=\"id\" href=\"#statfs\">statfs</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* _ASM_X86_STATFS_H */</span>", 
+];
+xr_frag_insert('l/bb/bb111d155b0bdaf0b3796445a06037f7ff3032.xr', __xr_tmp);

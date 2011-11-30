@@ -1,0 +1,343 @@
+var __xr_tmp = [
+{"id":"input_start_autorepeat", "file":"drivers/input/input.c", "line":248, "type":"c", "scope_line":215, "scope_name":"input_handle_event", }
+,{"id":"input_stop_autorepeat", "file":"drivers/input/input.c", "line":155, "type":"f", }
+,{"id":"input_stop_autorepeat", "file":"drivers/input/input.c", "line":250, "type":"c", "scope_line":215, "scope_name":"input_handle_event", }
+,{"id":"input_sync", "file":"drivers/acpi/button.c", "line":280, "type":"c", "scope_line":267, "scope_name":"acpi_lid_send_state", }
+,{"id":"input_sync", "file":"drivers/acpi/button.c", "line":314, "type":"c", "scope_line":296, "scope_name":"acpi_button_notify", }
+,{"id":"input_sync", "file":"drivers/acpi/button.c", "line":316, "type":"c", "scope_line":296, "scope_name":"acpi_button_notify", }
+,{"id":"input_sync", "file":"drivers/input/keyboard/atkbd.c", "line":463, "type":"c", "scope_line":361, "scope_name":"atkbd_interrupt", }
+,{"id":"input_sync", "file":"drivers/input/keyboard/atkbd.c", "line":500, "type":"c", "scope_line":361, "scope_name":"atkbd_interrupt", }
+,{"id":"input_sync", "file":"drivers/input/keyboard/atkbd.c", "line":504, "type":"c", "scope_line":361, "scope_name":"atkbd_interrupt", }
+,{"id":"input_sync", "file":"drivers/input/keyboard/atkbd.c", "line":514, "type":"c", "scope_line":361, "scope_name":"atkbd_interrupt", }
+,{"id":"input_sync", "file":"include/linux/input.h", "line":1423, "type":"f", }
+,{"id":"input_table", "file":"drivers/input/input.c", "line":47, "type":"v", }
+,{"id":"input_timer_state", "file":"drivers/char/random.c", "line":605, "type":"v", }
+,{"id":"input_unregister_device", "file":"drivers/acpi/button.c", "line":456, "type":"c", "scope_line":444, "scope_name":"acpi_button_remove", }
+,{"id":"input_unregister_device", "file":"drivers/input/input.c", "line":1806, "type":"f", }
+,{"id":"input_unregister_device", "file":"drivers/input/keyboard/atkbd.c", "line":1341, "type":"c", "scope_line":1295, "scope_name":"atkbd_set_extra", }
+,{"id":"input_unregister_device", "file":"drivers/input/keyboard/atkbd.c", "line":1413, "type":"c", "scope_line":1379, "scope_name":"atkbd_set_scroll", }
+,{"id":"input_unregister_device", "file":"drivers/input/keyboard/atkbd.c", "line":1464, "type":"c", "scope_line":1423, "scope_name":"atkbd_set_set", }
+,{"id":"input_unregister_device", "file":"drivers/input/keyboard/atkbd.c", "line":1513, "type":"c", "scope_line":1474, "scope_name":"atkbd_set_softrepeat", }
+,{"id":"input_unregister_device", "file":"drivers/input/keyboard/atkbd.c", "line":1556, "type":"c", "scope_line":1524, "scope_name":"atkbd_set_softraw", }
+,{"id":"input_unregister_device", "file":"drivers/input/keyboard/atkbd.c", "line":862, "type":"c", "scope_line":854, "scope_name":"atkbd_disconnect", }
+,{"id":"input_unregister_handle", "file":"drivers/char/keyboard.c", "line":1361, "type":"c", "scope_line":1336, "scope_name":"kbd_connect", }
+,{"id":"input_unregister_handle", "file":"drivers/char/keyboard.c", "line":1370, "type":"c", "scope_line":1367, "scope_name":"kbd_disconnect", }
+,{"id":"input_unregister_handle", "file":"drivers/char/sysrq.c", "line":641, "type":"c", "scope_line":607, "scope_name":"sysrq_connect", }
+,{"id":"input_unregister_handle", "file":"drivers/char/sysrq.c", "line":650, "type":"c", "scope_line":647, "scope_name":"sysrq_disconnect", }
+,{"id":"input_unregister_handle", "file":"drivers/input/evdev.c", "line":881, "type":"c", "scope_line":824, "scope_name":"evdev_connect", }
+,{"id":"input_unregister_handle", "file":"drivers/input/evdev.c", "line":893, "type":"c", "scope_line":887, "scope_name":"evdev_disconnect", }
+,{"id":"input_unregister_handle", "file":"drivers/input/input.c", "line":1990, "type":"f", }
+,{"id":"input_unregister_handle", "file":"drivers/input/mousedev.c", "line":911, "type":"c", "scope_line":851, "scope_name":"mousedev_create", }
+,{"id":"input_unregister_handle", "file":"drivers/input/mousedev.c", "line":923, "type":"c", "scope_line":918, "scope_name":"mousedev_destroy", }
+,{"id":"input_unregister_handle", "file":"net/rfkill/input.c", "line":249, "type":"c", "scope_line":223, "scope_name":"rfkill_connect", }
+,{"id":"input_unregister_handle", "file":"net/rfkill/input.c", "line":275, "type":"c", "scope_line":272, "scope_name":"rfkill_disconnect", }
+,{"id":"input_unregister_handler", "file":"drivers/char/sysrq.c", "line":693, "type":"c", "scope_line":690, "scope_name":"sysrq_unregister_handler", }
+,{"id":"input_unregister_handler", "file":"drivers/input/evdev.c", "line":921, "type":"c", "scope_line":919, "scope_name":"evdev_exit", }
+,{"id":"input_unregister_handler", "file":"drivers/input/input.c", "line":1876, "type":"f", }
+,{"id":"input_unregister_handler", "file":"drivers/input/mousedev.c", "line":1106, "type":"c", "scope_line":1100, "scope_name":"mousedev_exit", }
+,{"id":"input_unregister_handler", "file":"net/rfkill/input.c", "line":348, "type":"c", "scope_line":346, "scope_name":"rfkill_handler_exit", }
+,{"id":"input_wakeup_procfs_readers", "file":"drivers/input/input.c", "line":1791, "type":"c", "scope_line":1734, "scope_name":"input_register_device", }
+,{"id":"input_wakeup_procfs_readers", "file":"drivers/input/input.c", "line":1821, "type":"c", "scope_line":1806, "scope_name":"input_unregister_device", }
+,{"id":"input_wakeup_procfs_readers", "file":"drivers/input/input.c", "line":1861, "type":"c", "scope_line":1837, "scope_name":"input_register_handler", }
+,{"id":"input_wakeup_procfs_readers", "file":"drivers/input/input.c", "line":1891, "type":"c", "scope_line":1876, "scope_name":"input_unregister_handler", }
+,{"id":"input_wakeup_procfs_readers", "file":"drivers/input/input.c", "line":900, "type":"f", }
+,{"id":"inq_canon", "file":"drivers/char/n_tty.c", "line":2053, "type":"f", }
+,{"id":"inq_canon", "file":"drivers/char/n_tty.c", "line":2084, "type":"c", "scope_line":2072, "scope_name":"n_tty_ioctl", }
+,{"id":"inq_periph_qual", "file":"include/scsi/scsi_device.h", "line":102, "type":"m", "scope_line":68, "scope_name":"struct scsi_device", }
+,{"id":"inquire_remote_apic", "file":"arch/x86/include/asm/apic.h", "line":350, "type":"m", "scope_line":285, "scope_name":"struct apic", }
+,{"id":"inquiry", "file":"include/scsi/scsi_device.h", "line":104, "type":"m", "scope_line":68, "scope_name":"struct scsi_device", }
+,{"id":"inquiry_info", "file":"include/net/bluetooth/hci.h", "line":600, "type":"s", }
+,{"id":"inquiry_info_with_rssi", "file":"include/net/bluetooth/hci.h", "line":760, "type":"s", }
+,{"id":"inquiry_info_with_rssi_and_pscan_mode", "file":"include/net/bluetooth/hci.h", "line":768, "type":"s", }
+,{"id":"inquiry_len", "file":"include/scsi/scsi_device.h", "line":103, "type":"m", "scope_line":68, "scope_name":"struct scsi_device", }
+,{"id":"inrush_current", "file":"include/acpi/acpi_bus.h", "line":196, "type":"m", "scope_line":193, "scope_name":"struct acpi_device_power_flags", }
+,{"id":"insb", "file":"arch/x86/include/asm/io.h", "line":327, "type":"f", }
+,{"id":"insb", "file":"lib/iomap.c", "line":197, "type":"c", "scope_line":195, "scope_name":"ioread8_rep", }
+,{"id":"inscnt", "file":"include/linux/xfrm.h", "line":323, "type":"m", "scope_line":319, "scope_name":"struct xfrmu_spdinfo", }
+,{"id":"inscnt", "file":"include/net/xfrm.h", "line":1369, "type":"m", "scope_line":1365, "scope_name":"struct xfrmk_spdinfo", }
+,{"id":"insert_aperture_resource", "file":"arch/x86/kernel/aperture_64.c", "line":114, "type":"c", "scope_line":69, "scope_name":"allocate_aperture", }
+,{"id":"insert_aperture_resource", "file":"arch/x86/kernel/aperture_64.c", "line":465, "type":"c", "scope_line":374, "scope_name":"gart_iommu_hole_init", }
+,{"id":"insert_aperture_resource", "file":"arch/x86/kernel/aperture_64.c", "line":59, "type":"f", }
+,{"id":"insert_binfmt", "file":"include/linux/binfmts.h", "line":102, "type":"f", }
+,{"id":"insert_char", "file":"drivers/char/vt.c", "line":1545, "type":"c", "scope_line":1539, "scope_name":"csi_at", }
+,{"id":"insert_char", "file":"drivers/char/vt.c", "line":2326, "type":"c", "scope_line":2113, "scope_name":"do_con_write", }
+,{"id":"insert_char", "file":"drivers/char/vt.c", "line":534, "type":"f", }
+,{"id":"insert_dquot_hash", "file":"fs/quota/dquot.c", "line":263, "type":"f", }
+,{"id":"insert_dquot_hash", "file":"fs/quota/dquot.c", "line":845, "type":"c", "scope_line":813, "scope_name":"dqget", }
+,{"id":"insert_hash", "file":"kernel/audit_tree.c", "line":177, "type":"f", }
+,{"id":"insert_hash", "file":"kernel/audit_tree.c", "line":348, "type":"c", "scope_line":317, "scope_name":"create_chunk", }
+,{"id":"insert_inode_hash", "file":"include/linux/fs.h", "line":2195, "type":"f", }
+,{"id":"insert_inode_locked", "file":"fs/ext2/ialloc.c", "line":574, "type":"c", "scope_line":432, "scope_name":"ext2_new_inode", }
+,{"id":"insert_inode_locked", "file":"fs/ext3/ialloc.c", "line":562, "type":"c", "scope_line":407, "scope_name":"ext3_new_inode", }
+,{"id":"insert_inode_locked", "file":"fs/ext4/ialloc.c", "line":1007, "type":"c", "scope_line":788, "scope_name":"ext4_new_inode", }
+,{"id":"insert_inode_locked", "file":"fs/inode.c", "line":1070, "type":"f", }
+,{"id":"insert_inode_locked4", "file":"fs/inode.c", "line":1107, "type":"f", }
+,{"id":"insert_page", "file":"mm/memory.c", "line":1613, "type":"f", }
+,{"id":"insert_page", "file":"mm/memory.c", "line":1678, "type":"c", "scope_line":1670, "scope_name":"vm_insert_page", }
+,{"id":"insert_pfn", "file":"mm/memory.c", "line":1682, "type":"f", }
+,{"id":"insert_pfn", "file":"mm/memory.c", "line":1749, "type":"c", "scope_line":1727, "scope_name":"vm_insert_pfn", }
+,{"id":"insert_pfn", "file":"mm/memory.c", "line":1779, "type":"c", "scope_line":1758, "scope_name":"vm_insert_mixed", }
+,{"id":"insert_resource", "file":"arch/x86/kernel/acpi/boot.c", "line":778, "type":"c", "scope_line":773, "scope_name":"hpet_insert_resource", }
+,{"id":"insert_resource", "file":"arch/x86/kernel/aperture_64.c", "line":63, "type":"c", "scope_line":59, "scope_name":"insert_aperture_resource", }
+,{"id":"insert_resource", "file":"arch/x86/kernel/apic/apic.c", "line":2325, "type":"c", "scope_line":2317, "scope_name":"lapic_insert_resource", }
+,{"id":"insert_resource", "file":"arch/x86/kernel/apic/io_apic.c", "line":4228, "type":"c", "scope_line":4215, "scope_name":"ioapic_insert_resources", }
+,{"id":"insert_resource", "file":"arch/x86/kernel/e820.c", "line":1099, "type":"c", "scope_line":1072, "scope_name":"e820_reserve_resources", }
+,{"id":"insert_resource", "file":"arch/x86/kernel/setup.c", "line":548, "type":"c", "scope_line":505, "scope_name":"reserve_crashkernel", }
+,{"id":"insert_resource", "file":"arch/x86/kernel/setup.c", "line":877, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"insert_resource", "file":"arch/x86/kernel/setup.c", "line":878, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"insert_resource", "file":"arch/x86/kernel/setup.c", "line":879, "type":"c", "scope_line":725, "scope_name":"setup_arch", }
+,{"id":"insert_resource", "file":"arch/x86/pci/bus_numa.c", "line":47, "type":"c", "scope_line":10, "scope_name":"x86_pci_root_bus_res_quirks", }
+,{"id":"insert_resource", "file":"arch/x86/pci/mmconfig-shared.c", "line":363, "type":"c", "scope_line":358, "scope_name":"pci_mmcfg_insert_resources", }
+,{"id":"insert_resource", "file":"drivers/base/platform.c", "line":266, "type":"c", "scope_line":235, "scope_name":"platform_device_add", }
+,{"id":"insert_resource", "file":"drivers/pci/quirks.c", "line":1563, "type":"c", "scope_line":1552, "scope_name":"quirk_alder_ioapic", }
+,{"id":"insert_resource", "file":"kernel/resource.c", "line":522, "type":"f", }
+,{"id":"insert_resource_conflict", "file":"arch/x86/pci/acpi.c", "line":175, "type":"c", "scope_line":133, "scope_name":"setup_resource", }
+,{"id":"insert_resource_conflict", "file":"kernel/resource.c", "line":505, "type":"f", }
+,{"id":"insert_resource_conflict", "file":"kernel/resource.c", "line":526, "type":"c", "scope_line":522, "scope_name":"insert_resource", }
+,{"id":"insert_resource_expand_to_fit", "file":"arch/x86/kernel/e820.c", "line":1139, "type":"c", "scope_line":1131, "scope_name":"e820_reserve_resources_late", }
+,{"id":"insert_resource_expand_to_fit", "file":"kernel/resource.c", "line":538, "type":"f", }
+,{"id":"insert_revoke_hash", "file":"fs/jbd/revoke.c", "line":139, "type":"f", }
+,{"id":"insert_revoke_hash", "file":"fs/jbd/revoke.c", "line":405, "type":"c", "scope_line":335, "scope_name":"journal_revoke", }
+,{"id":"insert_revoke_hash", "file":"fs/jbd/revoke.c", "line":660, "type":"c", "scope_line":646, "scope_name":"journal_set_revoke", }
+,{"id":"insert_revoke_hash", "file":"fs/jbd2/revoke.c", "line":140, "type":"f", }
+,{"id":"insert_revoke_hash", "file":"fs/jbd2/revoke.c", "line":404, "type":"c", "scope_line":334, "scope_name":"jbd2_journal_revoke", }
+,{"id":"insert_revoke_hash", "file":"fs/jbd2/revoke.c", "line":668, "type":"c", "scope_line":654, "scope_name":"jbd2_journal_set_revoke", }
+,{"id":"insert_stat", "file":"kernel/trace/trace_stat.c", "line":107, "type":"f", }
+,{"id":"insert_stat", "file":"kernel/trace/trace_stat.c", "line":173, "type":"c", "scope_line":155, "scope_name":"stat_seq_init", }
+,{"id":"insert_stat", "file":"kernel/trace/trace_stat.c", "line":187, "type":"c", "scope_line":155, "scope_name":"stat_seq_init", }
+,{"id":"insert_to_mm_slots_hash", "file":"mm/ksm.c", "line":1448, "type":"c", "scope_line":1435, "scope_name":"__ksm_enter", }
+,{"id":"insert_to_mm_slots_hash", "file":"mm/ksm.c", "line":288, "type":"f", }
+,{"id":"insert_vm_struct", "file":"fs/exec.c", "line":250, "type":"c", "scope_line":225, "scope_name":"__bprm_mm_init", }
+,{"id":"insert_vm_struct", "file":"mm/mmap.c", "line":2299, "type":"f", }
+,{"id":"insert_vm_struct", "file":"mm/mmap.c", "line":2480, "type":"c", "scope_line":2459, "scope_name":"install_special_mapping", }
+,{"id":"insert_vmalloc_vm", "file":"mm/vmalloc.c", "line":1201, "type":"f", }
+,{"id":"insert_vmalloc_vm", "file":"mm/vmalloc.c", "line":1261, "type":"c", "scope_line":1223, "scope_name":"__get_vm_area_node", }
+,{"id":"insert_vmalloc_vm", "file":"mm/vmalloc.c", "line":2306, "type":"c", "scope_line":2167, "scope_name":"pcpu_get_vm_areas", }
+,{"id":"insert_work", "file":"kernel/workqueue.c", "line":1014, "type":"c", "scope_line":948, "scope_name":"__queue_work", }
+,{"id":"insert_work", "file":"kernel/workqueue.c", "line":2097, "type":"c", "scope_line":2064, "scope_name":"insert_wq_barrier", }
+,{"id":"insert_work", "file":"kernel/workqueue.c", "line":3241, "type":"c", "scope_line":3102, "scope_name":"trustee_thread", }
+,{"id":"insert_work", "file":"kernel/workqueue.c", "line":920, "type":"f", }
+,{"id":"insert_wq_barrier", "file":"kernel/workqueue.c", "line":2064, "type":"f", }
+,{"id":"insert_wq_barrier", "file":"kernel/workqueue.c", "line":2369, "type":"c", "scope_line":2339, "scope_name":"flush_work", }
+,{"id":"insert_wq_barrier", "file":"kernel/workqueue.c", "line":2435, "type":"c", "scope_line":2426, "scope_name":"wait_on_cpu_work", }
+,{"id":"inside", "file":"fs/ext3/resize.c", "line":21, "type":"d", }
+,{"id":"inside", "file":"fs/ext4/resize.c", "line":20, "type":"d", }
+,{"id":"insl", "file":"arch/x86/include/asm/io.h", "line":329, "type":"f", }
+,{"id":"insl", "file":"drivers/ide/ide-io-std.c", "line":185, "type":"c", "scope_line":163, "scope_name":"ide_input_data", }
+,{"id":"insl", "file":"lib/iomap.c", "line":205, "type":"c", "scope_line":203, "scope_name":"ioread32_rep", }
+,{"id":"insn", "file":"arch/x86/include/asm/insn.h", "line":36, "type":"s", }
+,{"id":"insn", "file":"arch/x86/include/asm/kprobes.h", "line":69, "type":"m", "scope_line":67, "scope_name":"struct arch_specific_insn", }
+,{"id":"insn", "file":"arch/x86/include/asm/kprobes.h", "line":85, "type":"m", "scope_line":81, "scope_name":"struct arch_optimized_insn", }
+,{"id":"insn", "file":"arch/x86/include/asm/uaccess.h", "line":96, "type":"m", "scope_line":95, "scope_name":"struct exception_table_entry", }
+,{"id":"insn_attr_t", "file":"arch/x86/include/asm/inat_types.h", "line":25, "type":"t", }
+,{"id":"insn_byte_t", "file":"arch/x86/include/asm/inat_types.h", "line":26, "type":"t", }
+,{"id":"insn_field", "file":"arch/x86/include/asm/insn.h", "line":26, "type":"s", }
+,{"id":"insn_get_attribute", "file":"arch/x86/include/asm/insn.h", "line":115, "type":"f", }
+,{"id":"insn_get_displacement", "file":"arch/x86/kernel/kprobes.c", "line":327, "type":"c", "scope_line":302, "scope_name":"__copy_instruction", }
+,{"id":"insn_get_displacement", "file":"arch/x86/lib/insn.c", "line":304, "type":"f", }
+,{"id":"insn_get_displacement", "file":"arch/x86/lib/insn.c", "line":451, "type":"c", "scope_line":446, "scope_name":"insn_get_immediate", }
+,{"id":"insn_get_immediate", "file":"arch/x86/lib/insn.c", "line":446, "type":"f", }
+,{"id":"insn_get_immediate", "file":"arch/x86/lib/insn.c", "line":513, "type":"c", "scope_line":508, "scope_name":"insn_get_length", }
+,{"id":"insn_get_length", "file":"arch/x86/kernel/cpu/perf_event_intel_ds.c", "line":437, "type":"c", "scope_line":379, "scope_name":"intel_pmu_pebs_fixup_ip", }
+,{"id":"insn_get_length", "file":"arch/x86/kernel/kprobes.c", "line":1300, "type":"c", "scope_line":1266, "scope_name":"can_optimize", }
+,{"id":"insn_get_length", "file":"arch/x86/kernel/kprobes.c", "line":269, "type":"c", "scope_line":237, "scope_name":"can_probe", }
+,{"id":"insn_get_length", "file":"arch/x86/kernel/kprobes.c", "line":319, "type":"c", "scope_line":302, "scope_name":"__copy_instruction", }
+,{"id":"insn_get_length", "file":"arch/x86/lib/insn.c", "line":508, "type":"f", }
+,{"id":"insn_get_modrm", "file":"arch/x86/include/asm/insn.h", "line":117, "type":"c", "scope_line":115, "scope_name":"insn_get_attribute", }
+,{"id":"insn_get_modrm", "file":"arch/x86/lib/insn.c", "line":221, "type":"f", }
+,{"id":"insn_get_modrm", "file":"arch/x86/lib/insn.c", "line":261, "type":"c", "scope_line":254, "scope_name":"insn_rip_relative", }
+,{"id":"insn_get_modrm", "file":"arch/x86/lib/insn.c", "line":283, "type":"c", "scope_line":276, "scope_name":"insn_get_sib", }
+,{"id":"insn_get_opcode", "file":"arch/x86/kernel/kprobes.c", "line":1293, "type":"c", "scope_line":1266, "scope_name":"can_optimize", }
+,{"id":"insn_get_opcode", "file":"arch/x86/kernel/kprobes.c", "line":251, "type":"c", "scope_line":237, "scope_name":"can_probe", }
+,{"id":"insn_get_opcode", "file":"arch/x86/kernel/kprobes.c", "line":310, "type":"c", "scope_line":302, "scope_name":"__copy_instruction", }
+,{"id":"insn_get_opcode", "file":"arch/x86/lib/insn.c", "line":174, "type":"f", }
+,{"id":"insn_get_opcode", "file":"arch/x86/lib/insn.c", "line":228, "type":"c", "scope_line":221, "scope_name":"insn_get_modrm", }
+,{"id":"insn_get_prefixes", "file":"arch/x86/include/asm/insn.h", "line":136, "type":"c", "scope_line":133, "scope_name":"insn_is_avx", }
+,{"id":"insn_get_prefixes", "file":"arch/x86/lib/insn.c", "line":181, "type":"c", "scope_line":174, "scope_name":"insn_get_opcode", }
+,{"id":"insn_get_prefixes", "file":"arch/x86/lib/insn.c", "line":61, "type":"f", }
+,{"id":"insn_get_sib", "file":"arch/x86/lib/insn.c", "line":276, "type":"f", }
+,{"id":"insn_get_sib", "file":"arch/x86/lib/insn.c", "line":311, "type":"c", "scope_line":304, "scope_name":"insn_get_displacement", }
+,{"id":"insn_init", "file":"arch/x86/include/asm/insn.h", "line":127, "type":"c", "scope_line":124, "scope_name":"kernel_insn_init", }
+,{"id":"insn_init", "file":"arch/x86/lib/insn.c", "line":40, "type":"f", }
+,{"id":"insn_is_avx", "file":"arch/x86/include/asm/insn.h", "line":133, "type":"f", }
+,{"id":"insn_is_avx", "file":"arch/x86/lib/insn.c", "line":189, "type":"c", "scope_line":174, "scope_name":"insn_get_opcode", }
+,{"id":"insn_is_indirect_jump", "file":"arch/x86/kernel/kprobes.c", "line":1231, "type":"f", }
+,{"id":"insn_is_indirect_jump", "file":"arch/x86/kernel/kprobes.c", "line":1305, "type":"c", "scope_line":1266, "scope_name":"can_optimize", }
+,{"id":"insn_jump_into_range", "file":"arch/x86/kernel/kprobes.c", "line":1239, "type":"f", }
+,{"id":"insn_jump_into_range", "file":"arch/x86/kernel/kprobes.c", "line":1305, "type":"c", "scope_line":1266, "scope_name":"can_optimize", }
+,{"id":"insn_last_prefix", "file":"arch/x86/include/asm/insn.h", "line":100, "type":"f", }
+,{"id":"insn_last_prefix", "file":"arch/x86/lib/insn.c", "line":204, "type":"c", "scope_line":174, "scope_name":"insn_get_opcode", }
+,{"id":"insn_last_prefix", "file":"arch/x86/lib/insn.c", "line":235, "type":"c", "scope_line":221, "scope_name":"insn_get_modrm", }
+,{"id":"insn_offset_displacement", "file":"arch/x86/include/asm/insn.h", "line":177, "type":"f", }
+,{"id":"insn_offset_displacement", "file":"arch/x86/include/asm/insn.h", "line":183, "type":"c", "scope_line":181, "scope_name":"insn_offset_immediate", }
+,{"id":"insn_offset_displacement", "file":"arch/x86/kernel/kprobes.c", "line":343, "type":"c", "scope_line":302, "scope_name":"__copy_instruction", }
+,{"id":"insn_offset_immediate", "file":"arch/x86/include/asm/insn.h", "line":181, "type":"f", }
+,{"id":"insn_offset_modrm", "file":"arch/x86/include/asm/insn.h", "line":169, "type":"f", }
+,{"id":"insn_offset_modrm", "file":"arch/x86/include/asm/insn.h", "line":175, "type":"c", "scope_line":173, "scope_name":"insn_offset_sib", }
+,{"id":"insn_offset_opcode", "file":"arch/x86/include/asm/insn.h", "line":165, "type":"f", }
+,{"id":"insn_offset_opcode", "file":"arch/x86/include/asm/insn.h", "line":171, "type":"c", "scope_line":169, "scope_name":"insn_offset_modrm", }
+,{"id":"insn_offset_rex_prefix", "file":"arch/x86/include/asm/insn.h", "line":157, "type":"f", }
+,{"id":"insn_offset_rex_prefix", "file":"arch/x86/include/asm/insn.h", "line":163, "type":"c", "scope_line":161, "scope_name":"insn_offset_vex_prefix", }
+,{"id":"insn_offset_sib", "file":"arch/x86/include/asm/insn.h", "line":173, "type":"f", }
+,{"id":"insn_offset_sib", "file":"arch/x86/include/asm/insn.h", "line":179, "type":"c", "scope_line":177, "scope_name":"insn_offset_displacement", }
+,{"id":"insn_offset_vex_prefix", "file":"arch/x86/include/asm/insn.h", "line":161, "type":"f", }
+,{"id":"insn_offset_vex_prefix", "file":"arch/x86/include/asm/insn.h", "line":167, "type":"c", "scope_line":165, "scope_name":"insn_offset_opcode", }
+,{"id":"insn_rip_relative", "file":"arch/x86/kernel/kprobes.c", "line":323, "type":"c", "scope_line":302, "scope_name":"__copy_instruction", }
+,{"id":"insn_rip_relative", "file":"arch/x86/lib/insn.c", "line":254, "type":"f", }
+,{"id":"insn_size", "file":"kernel/kprobes.c", "line":124, "type":"m", "scope_line":122, "scope_name":"struct kprobe_insn_cache", }
+,{"id":"insn_value_t", "file":"arch/x86/include/asm/inat_types.h", "line":27, "type":"t", }
+,{"id":"insn_vex_m_bits", "file":"arch/x86/include/asm/insn.h", "line":140, "type":"f", }
+,{"id":"insn_vex_m_bits", "file":"arch/x86/lib/insn.c", "line":191, "type":"c", "scope_line":174, "scope_name":"insn_get_opcode", }
+,{"id":"insn_vex_p_bits", "file":"arch/x86/include/asm/insn.h", "line":148, "type":"f", }
+,{"id":"insn_vex_p_bits", "file":"arch/x86/lib/insn.c", "line":192, "type":"c", "scope_line":174, "scope_name":"insn_get_opcode", }
+,{"id":"insns", "file":"include/linux/filter.h", "line":185, "type":"m", "scope_line":180, "scope_name":"struct sk_filter", }
+,{"id":"insns", "file":"kernel/kprobes.c", "line":112, "type":"m", "scope_line":110, "scope_name":"struct kprobe_insn_page", }
+,{"id":"inst", "file":"include/crypto/algapi.h", "line":61, "type":"m", "scope_line":58, "scope_name":"struct crypto_spawn", }
+,{"id":"install", "file":"include/linux/pkt_cls.h", "line":139, "type":"m", "scope_line":138, "scope_name":"struct tcf_t", }
+,{"id":"install", "file":"include/linux/tty_driver.h", "line":239, "type":"m", "scope_line":236, "scope_name":"struct tty_operations", }
+,{"id":"install_exec_creds", "file":"fs/binfmt_elf.c", "line":933, "type":"c", "scope_line":564, "scope_name":"load_elf_binary", }
+,{"id":"install_exec_creds", "file":"fs/exec.c", "line":1105, "type":"f", }
+,{"id":"install_file_pte", "file":"mm/fremap.c", "line":56, "type":"f", }
+,{"id":"install_file_pte", "file":"mm/fremap.c", "line":90, "type":"c", "scope_line":84, "scope_name":"populate_range", }
+,{"id":"install_p2mtop_page", "file":"arch/x86/xen/mmu.c", "line":257, "type":"f", }
+,{"id":"install_p2mtop_page", "file":"arch/x86/xen/mmu.c", "line":284, "type":"c", "scope_line":277, "scope_name":"alloc_p2m", }
+,{"id":"install_process_keyring", "file":"security/keys/process_keys.c", "line":198, "type":"f", }
+,{"id":"install_process_keyring", "file":"security/keys/process_keys.c", "line":548, "type":"c", "scope_line":511, "scope_name":"lookup_user_key", }
+,{"id":"install_process_keyring_to_cred", "file":"security/keys/keyctl.c", "line":1053, "type":"c", "scope_line":1031, "scope_name":"keyctl_set_reqkey_keyring", }
+,{"id":"install_process_keyring_to_cred", "file":"security/keys/process_keys.c", "line":168, "type":"f", }
+,{"id":"install_process_keyring_to_cred", "file":"security/keys/process_keys.c", "line":207, "type":"c", "scope_line":198, "scope_name":"install_process_keyring", }
+,{"id":"install_session_keyring", "file":"security/keys/process_keys.c", "line":260, "type":"f", }
+,{"id":"install_session_keyring", "file":"security/keys/process_keys.c", "line":568, "type":"c", "scope_line":511, "scope_name":"lookup_user_key", }
+,{"id":"install_session_keyring_to_cred", "file":"security/keys/process_keys.c", "line":219, "type":"f", }
+,{"id":"install_session_keyring_to_cred", "file":"security/keys/process_keys.c", "line":269, "type":"c", "scope_line":260, "scope_name":"install_session_keyring", }
+,{"id":"install_session_keyring_to_cred", "file":"security/keys/process_keys.c", "line":744, "type":"c", "scope_line":724, "scope_name":"join_session_keyring", }
+,{"id":"install_session_keyring_to_cred", "file":"security/keys/process_keys.c", "line":774, "type":"c", "scope_line":724, "scope_name":"join_session_keyring", }
+,{"id":"install_session_keyring_to_cred", "file":"security/keys/request_key.c", "line":69, "type":"c", "scope_line":61, "scope_name":"umh_keys_init", }
+,{"id":"install_special_mapping", "file":"arch/x86/vdso/vma.c", "line":123, "type":"c", "scope_line":104, "scope_name":"arch_setup_additional_pages", }
+,{"id":"install_special_mapping", "file":"mm/mmap.c", "line":2459, "type":"f", }
+,{"id":"install_thread_keyring", "file":"security/keys/process_keys.c", "line":143, "type":"f", }
+,{"id":"install_thread_keyring", "file":"security/keys/process_keys.c", "line":530, "type":"c", "scope_line":511, "scope_name":"lookup_user_key", }
+,{"id":"install_thread_keyring_to_cred", "file":"kernel/cred.c", "line":422, "type":"c", "scope_line":379, "scope_name":"copy_creds", }
+,{"id":"install_thread_keyring_to_cred", "file":"security/keys/keyctl.c", "line":1047, "type":"c", "scope_line":1031, "scope_name":"keyctl_set_reqkey_keyring", }
+,{"id":"install_thread_keyring_to_cred", "file":"security/keys/process_keys.c", "line":127, "type":"f", }
+,{"id":"install_thread_keyring_to_cred", "file":"security/keys/process_keys.c", "line":154, "type":"c", "scope_line":143, "scope_name":"install_thread_keyring", }
+,{"id":"install_user_keyrings", "file":"security/keys/process_keys.c", "line":45, "type":"f", }
+,{"id":"install_user_keyrings", "file":"security/keys/process_keys.c", "line":565, "type":"c", "scope_line":511, "scope_name":"lookup_user_key", }
+,{"id":"install_user_keyrings", "file":"security/keys/process_keys.c", "line":585, "type":"c", "scope_line":511, "scope_name":"lookup_user_key", }
+,{"id":"install_user_keyrings", "file":"security/keys/process_keys.c", "line":597, "type":"c", "scope_line":511, "scope_name":"lookup_user_key", }
+,{"id":"install_user_keyrings", "file":"security/keys/request_key.c", "line":112, "type":"c", "scope_line":97, "scope_name":"call_sbin_request_key", }
+,{"id":"instance", "file":"drivers/acpi/sysfs.c", "line":248, "type":"m", "scope_line":245, "scope_name":"struct acpi_table_attr", }
+,{"id":"instance", "file":"include/acpi/actbl2.h", "line":178, "type":"m", "scope_line":166, "scope_name":"struct acpi_asf_alert_data", }
+,{"id":"instance", "file":"include/linux/dmi.h", "line":43, "type":"m", "scope_line":41, "scope_name":"struct dmi_dev_onboard", }
+,{"id":"instance_no", "file":"drivers/acpi/scan.c", "line":36, "type":"m", "scope_line":34, "scope_name":"struct acpi_device_bus_id", }
+,{"id":"instances", "file":"include/crypto/algapi.h", "line":48, "type":"m", "scope_line":46, "scope_name":"struct crypto_template", }
+,{"id":"instantiate", "file":"include/linux/key-type.h", "line":48, "type":"m", "scope_line":34, "scope_name":"struct key_type", }
+,{"id":"instantiate_t", "file":"fs/proc/base.c", "line":1715, "type":"t", }
+,{"id":"instr", "file":"arch/x86/include/asm/alternative.h", "line":46, "type":"m", "scope_line":45, "scope_name":"struct alt_instr", }
+,{"id":"instr", "file":"arch/x86/include/asm/paravirt_types.h", "line":680, "type":"m", "scope_line":679, "scope_name":"struct paravirt_patch_site", }
+,{"id":"instr_bank_size", "file":"include/linux/soundcard.h", "line":508, "type":"m", "scope_line":488, "scope_name":"struct synth_info", }
+,{"id":"instr_no", "file":"include/linux/soundcard.h", "line":228, "type":"m", "scope_line":221, "scope_name":"struct patch_info", }
+,{"id":"instrlen", "file":"arch/x86/include/asm/alternative.h", "line":49, "type":"m", "scope_line":45, "scope_name":"struct alt_instr", }
+,{"id":"instrno", "file":"include/linux/soundcard.h", "line":163, "type":"m", "scope_line":159, "scope_name":"struct remove_sample", }
+,{"id":"instrtype", "file":"arch/x86/include/asm/paravirt_types.h", "line":681, "type":"m", "scope_line":679, "scope_name":"struct paravirt_patch_site", }
+,{"id":"instruction", "file":"include/acpi/actbl1.h", "line":104, "type":"m", "scope_line":102, "scope_name":"struct acpi_whea_header", }
+,{"id":"instruction", "file":"include/acpi/actbl2.h", "line":882, "type":"m", "scope_line":880, "scope_name":"struct acpi_wdat_entry", }
+,{"id":"instruction_pointer", "file":"arch/x86/include/asm/ptrace.h", "line":205, "type":"f", }
+,{"id":"instruction_pointer", "file":"arch/x86/kernel/cpu/perf_event.c", "line":1787, "type":"c", "scope_line":1780, "scope_name":"perf_instruction_pointer", }
+,{"id":"instruction_pointer", "file":"arch/x86/kernel/kgdb.c", "line":709, "type":"c", "scope_line":706, "scope_name":"kgdb_arch_pc", }
+,{"id":"instruction_pointer", "file":"arch/x86/kernel/kgdb.c", "line":710, "type":"c", "scope_line":706, "scope_name":"kgdb_arch_pc", }
+,{"id":"instruction_pointer", "file":"arch/x86/kernel/time.c", "line":35, "type":"c", "scope_line":33, "scope_name":"profile_pc", }
+,{"id":"instruction_pointer", "file":"arch/x86/mm/mmio-mod.c", "line":149, "type":"c", "scope_line":144, "scope_name":"pre", }
+,{"id":"instruction_pointer", "file":"kernel/debug/debug_core.c", "line":196, "type":"c", "scope_line":194, "scope_name":"kgdb_arch_pc", }
+,{"id":"instruction_pointer", "file":"lib/syscall.c", "line":15, "type":"c", "scope_line":6, "scope_name":"collect_syscall", }
+,{"id":"insw", "file":"arch/x86/include/asm/io.h", "line":328, "type":"f", }
+,{"id":"insw", "file":"drivers/ide/ide-io-std.c", "line":200, "type":"c", "scope_line":163, "scope_name":"ide_input_data", }
+,{"id":"insw", "file":"lib/iomap.c", "line":201, "type":"c", "scope_line":199, "scope_name":"ioread16_rep", }
+,{"id":"int16_t", "file":"include/linux/types.h", "line":108, "type":"t", }
+,{"id":"int21_revectored", "file":"arch/x86/include/asm/vm86.h", "line":102, "type":"m", "scope_line":96, "scope_name":"struct vm86_struct", }
+,{"id":"int21_revectored", "file":"arch/x86/include/asm/vm86.h", "line":124, "type":"m", "scope_line":118, "scope_name":"struct vm86plus_struct", }
+,{"id":"int21_revectored", "file":"arch/x86/include/asm/vm86.h", "line":170, "type":"m", "scope_line":155, "scope_name":"struct kernel_vm86_struct", }
+,{"id":"int32", "file":"include/net/slhc_vj.h", "line":120, "type":"t", }
+,{"id":"int32_t", "file":"include/linux/types.h", "line":110, "type":"t", }
+,{"id":"int64_t", "file":"include/linux/types.h", "line":121, "type":"t", }
+,{"id":"int80", "file":"arch/x86/ia32/ia32_signal.c", "line":422, "type":"m", "scope_line":419, "scope_name":"code", }
+,{"id":"int80", "file":"arch/x86/ia32/ia32_signal.c", "line":500, "type":"m", "scope_line":497, "scope_name":"code___0", }
+,{"id":"int8_t", "file":"include/linux/types.h", "line":106, "type":"t", }
+,{"id":"int_ctl", "file":"arch/x86/include/asm/svm.h", "line":68, "type":"m", "scope_line":53, "scope_name":"struct vmcb_control_area", }
+,{"id":"int_enabled", "file":"arch/x86/include/asm/amd_iommu_types.h", "line":407, "type":"m", "scope_line":351, "scope_name":"struct amd_iommu", }
+,{"id":"int_flags", "file":"include/linux/ncp_mount.h", "line":75, "type":"m", "scope_line":73, "scope_name":"struct ncp_mount_data_kernel", }
+,{"id":"int_log", "file":"drivers/md/dm-table.c", "line":79, "type":"f", }
+,{"id":"int_log", "file":"drivers/md/dm-table.c", "line":916, "type":"c", "scope_line":909, "scope_name":"dm_table_build_index", }
+,{"id":"int_poll_timeout", "file":"drivers/pci/hotplug/pciehp_hpc.c", "line":78, "type":"f", }
+,{"id":"int_revectored", "file":"arch/x86/include/asm/vm86.h", "line":101, "type":"m", "scope_line":96, "scope_name":"struct vm86_struct", }
+,{"id":"int_revectored", "file":"arch/x86/include/asm/vm86.h", "line":123, "type":"m", "scope_line":118, "scope_name":"struct vm86plus_struct", }
+,{"id":"int_revectored", "file":"arch/x86/include/asm/vm86.h", "line":169, "type":"m", "scope_line":155, "scope_name":"struct kernel_vm86_struct", }
+,{"id":"int_seq_next", "file":"fs/proc/interrupts.c", "line":16, "type":"f", }
+,{"id":"int_seq_ops", "file":"fs/proc/interrupts.c", "line":29, "type":"v", }
+,{"id":"int_seq_start", "file":"fs/proc/interrupts.c", "line":11, "type":"f", }
+,{"id":"int_seq_stop", "file":"fs/proc/interrupts.c", "line":24, "type":"f", }
+,{"id":"int_sqrt", "file":"drivers/video/fbmon.c", "line":1089, "type":"c", "scope_line":1079, "scope_name":"fb_get_hblank_by_dclk", }
+,{"id":"int_sqrt", "file":"lib/int_sqrt.c", "line":11, "type":"f", }
+,{"id":"int_sqrt", "file":"mm/memcontrol.c", "line":877, "type":"c", "scope_line":865, "scope_name":"calc_inactive_ratio", }
+,{"id":"int_sqrt", "file":"mm/page_alloc.c", "line":4944, "type":"c", "scope_line":4937, "scope_name":"calculate_zone_inactive_ratio", }
+,{"id":"int_sqrt", "file":"mm/page_alloc.c", "line":4989, "type":"c", "scope_line":4983, "scope_name":"init_per_zone_wmark_min", }
+,{"id":"int_sqrt", "file":"net/ipv4/route.c", "line":870, "type":"c", "scope_line":799, "scope_name":"rt_check_expire", }
+,{"id":"int_state", "file":"arch/x86/include/asm/svm.h", "line":70, "type":"m", "scope_line":53, "scope_name":"struct vmcb_control_area", }
+,{"id":"int_to_scsilun", "file":"drivers/scsi/scsi_scan.c", "line":1273, "type":"f", }
+,{"id":"int_to_threadref", "file":"kernel/debug/gdbstub.c", "line":417, "type":"f", }
+,{"id":"int_to_threadref", "file":"kernel/debug/gdbstub.c", "line":710, "type":"c", "scope_line":687, "scope_name":"gdb_cmd_query", }
+,{"id":"int_to_threadref", "file":"kernel/debug/gdbstub.c", "line":719, "type":"c", "scope_line":687, "scope_name":"gdb_cmd_query", }
+,{"id":"int_to_threadref", "file":"kernel/debug/gdbstub.c", "line":736, "type":"c", "scope_line":687, "scope_name":"gdb_cmd_query", }
+,{"id":"int_to_threadref", "file":"kernel/debug/gdbstub.c", "line":950, "type":"c", "scope_line":930, "scope_name":"gdb_serial_stub", }
+,{"id":"int_vector", "file":"arch/x86/include/asm/svm.h", "line":69, "type":"m", "scope_line":53, "scope_name":"struct vmcb_control_area", }
+,{"id":"inta_addr", "file":"drivers/serial/8250_pci.c", "line":806, "type":"v", }
+,{"id":"intcall", "file":"arch/x86/boot/video-bios.c", "line":38, "type":"c", "scope_line":31, "scope_name":"set_bios_mode", }
+,{"id":"intcall", "file":"arch/x86/boot/video-bios.c", "line":41, "type":"c", "scope_line":31, "scope_name":"set_bios_mode", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vesa.c", "line":117, "type":"c", "scope_line":105, "scope_name":"vesa_set_mode", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vesa.c", "line":139, "type":"c", "scope_line":105, "scope_name":"vesa_set_mode", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vesa.c", "line":45, "type":"c", "scope_line":32, "scope_name":"vesa_probe", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vesa.c", "line":69, "type":"c", "scope_line":32, "scope_name":"vesa_probe", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":101, "type":"c", "scope_line":91, "scope_name":"vga_set_14font", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":106, "type":"c", "scope_line":91, "scope_name":"vga_set_14font", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":111, "type":"c", "scope_line":91, "scope_name":"vga_set_14font", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":124, "type":"c", "scope_line":114, "scope_name":"vga_set_80x43", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":128, "type":"c", "scope_line":114, "scope_name":"vga_set_80x43", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":255, "type":"c", "scope_line":233, "scope_name":"vga_probe", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":265, "type":"c", "scope_line":233, "scope_name":"vga_probe", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":50, "type":"c", "scope_line":41, "scope_name":"vga_set_basic_mode", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":58, "type":"c", "scope_line":41, "scope_name":"vga_set_basic_mode", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":73, "type":"c", "scope_line":63, "scope_name":"vga_set_8font", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":78, "type":"c", "scope_line":63, "scope_name":"vga_set_8font", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":83, "type":"c", "scope_line":63, "scope_name":"vga_set_8font", }
+,{"id":"intcall", "file":"arch/x86/boot/video-vga.c", "line":88, "type":"c", "scope_line":63, "scope_name":"vga_set_8font", }
+,{"id":"integer", "file":"drivers/acpi/acpica/aclocal.h", "line":661, "type":"m", "scope_line":660, "scope_name":"union acpi_parse_value", }
+,{"id":"integer", "file":"drivers/acpi/acpica/acobject.h", "line":381, "type":"m", "scope_line":379, "scope_name":"union acpi_operand_object", }
+,{"id":"integer", "file":"include/acpi/actbl.h", "line":315, "type":"m", "scope_line":314, "scope_name":"union acpi_name_union", }
+,{"id":"integer", "file":"include/acpi/actypes.h", "line":790, "type":"m", "scope_line":785, "scope_name":"union acpi_object", }
+,{"id":"integrated_id", "file":"include/linux/mca.h", "line":97, "type":"m", "scope_line":94, "scope_name":"struct mca_driver", }
+,{"id":"integrity", "file":"include/linux/genhd.h", "line":168, "type":"m", "scope_line":136, "scope_name":"struct gendisk", }
+,{"id":"integrity_attr_show", "file":"block/blk-integrity.c", "line":171, "type":"f", }
+,{"id":"integrity_attr_store", "file":"block/blk-integrity.c", "line":182, "type":"f", }
+,{"id":"integrity_attrs", "file":"block/blk-integrity.c", "line":274, "type":"v", }
+,{"id":"integrity_cachep", "file":"block/blk-integrity.c", "line":31, "type":"v", }
+,{"id":"integrity_failed", "file":"include/linux/xfrm.h", "line":110, "type":"m", "scope_line":107, "scope_name":"struct xfrm_stats", }
+,{"id":"integrity_format_entry", "file":"block/blk-integrity.c", "line":252, "type":"v", }
+,{"id":"integrity_format_show", "file":"block/blk-integrity.c", "line":198, "type":"f", }
+,{"id":"integrity_gen_fn", "file":"include/linux/blkdev.h", "line":1192, "type":"t", }
+,{"id":"integrity_get_tag_fn", "file":"include/linux/blkdev.h", "line":1195, "type":"t", }
+,{"id":"integrity_ktype", "file":"block/blk-integrity.c", "line":304, "type":"v", }
+,{"id":"integrity_ops", "file":"block/blk-integrity.c", "line":282, "type":"v", }
+,{"id":"integrity_read_entry", "file":"block/blk-integrity.c", "line":262, "type":"v", }
+,{"id":"integrity_read_show", "file":"block/blk-integrity.c", "line":228, "type":"f", }
+,{"id":"integrity_read_store", "file":"block/blk-integrity.c", "line":214, "type":"f", }
+,{"id":"integrity_set_tag_fn", "file":"include/linux/blkdev.h", "line":1194, "type":"t", }
+,{"id":"integrity_slab", "file":"fs/bio-integrity.c", "line":29, "type":"s", }
+,{"id":"integrity_sysfs_entry", "file":"block/blk-integrity.c", "line":165, "type":"s", }
+,{"id":"integrity_tag_size_entry", "file":"block/blk-integrity.c", "line":257, "type":"v", }
+,{"id":"integrity_tag_size_show", "file":"block/blk-integrity.c", "line":206, "type":"f", }
+,{"id":"integrity_vrfy_fn", "file":"include/linux/blkdev.h", "line":1193, "type":"t", }
+,{"id":"integrity_write_entry", "file":"block/blk-integrity.c", "line":268, "type":"v", }
+,{"id":"integrity_write_show", "file":"block/blk-integrity.c", "line":247, "type":"f", }
+,{"id":"integrity_write_store", "file":"block/blk-integrity.c", "line":233, "type":"f", }
+,];
+xr_frag_insert('t/a9/de932d4069f07dd63aade2124d6c8470c069c4.xr', __xr_tmp);

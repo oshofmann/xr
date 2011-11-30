@@ -1,0 +1,106 @@
+var __xr_tmp = [
+{"id":"kmem_ptr_validate", "file":"mm/slab.c", "line":3676, "type":"f", }
+,{"id":"kmem_rcu_free", "file":"mm/slab.c", "line":1748, "type":"f", }
+,{"id":"kmemcheck_active", "file":"arch/x86/include/asm/kmemcheck.h", "line":17, "type":"f", }
+,{"id":"kmemcheck_active", "file":"arch/x86/mm/fault.c", "line":968, "type":"c", "scope_line":948, "scope_name":"do_page_fault", }
+,{"id":"kmemcheck_alloc_shadow", "file":"include/linux/kmemcheck.h", "line":92, "type":"f", }
+,{"id":"kmemcheck_annotate_bitfield", "file":"include/linux/kmemcheck.h", "line":161, "type":"d", }
+,{"id":"kmemcheck_annotate_variable", "file":"include/linux/kmemcheck.h", "line":165, "type":"d", }
+,{"id":"kmemcheck_bitfield_begin", "file":"include/linux/kmemcheck.h", "line":159, "type":"d", }
+,{"id":"kmemcheck_bitfield_end", "file":"include/linux/kmemcheck.h", "line":160, "type":"d", }
+,{"id":"kmemcheck_enabled", "file":"include/linux/kmemcheck.h", "line":90, "type":"d", }
+,{"id":"kmemcheck_fault", "file":"arch/x86/include/asm/kmemcheck.h", "line":30, "type":"f", }
+,{"id":"kmemcheck_fault", "file":"arch/x86/mm/fault.c", "line":993, "type":"c", "scope_line":948, "scope_name":"do_page_fault", }
+,{"id":"kmemcheck_free_shadow", "file":"include/linux/kmemcheck.h", "line":97, "type":"f", }
+,{"id":"kmemcheck_free_shadow", "file":"mm/page_alloc.c", "line":646, "type":"c", "scope_line":640, "scope_name":"free_pages_prepare", }
+,{"id":"kmemcheck_free_shadow", "file":"mm/slab.c", "line":1730, "type":"c", "scope_line":1724, "scope_name":"kmem_freepages", }
+,{"id":"kmemcheck_hide", "file":"arch/x86/include/asm/kmemcheck.h", "line":26, "type":"f", }
+,{"id":"kmemcheck_hide", "file":"arch/x86/mm/fault.c", "line":969, "type":"c", "scope_line":948, "scope_name":"do_page_fault", }
+,{"id":"kmemcheck_is_obj_initialized", "file":"include/linux/kmemcheck.h", "line":154, "type":"f", }
+,{"id":"kmemcheck_mark_freed", "file":"include/linux/kmemcheck.h", "line":135, "type":"f", }
+,{"id":"kmemcheck_mark_initialized", "file":"include/asm-generic/dma-mapping-common.h", "line":17, "type":"c", "scope_line":9, "scope_name":"dma_map_single_attrs", }
+,{"id":"kmemcheck_mark_initialized", "file":"include/asm-generic/dma-mapping-common.h", "line":50, "type":"c", "scope_line":41, "scope_name":"dma_map_sg_attrs", }
+,{"id":"kmemcheck_mark_initialized", "file":"include/asm-generic/dma-mapping-common.h", "line":77, "type":"c", "scope_line":70, "scope_name":"dma_map_page", }
+,{"id":"kmemcheck_mark_initialized", "file":"include/linux/kmemcheck.h", "line":131, "type":"f", }
+,{"id":"kmemcheck_mark_initialized_pages", "file":"include/linux/kmemcheck.h", "line":149, "type":"f", }
+,{"id":"kmemcheck_mark_unallocated", "file":"include/linux/kmemcheck.h", "line":123, "type":"f", }
+,{"id":"kmemcheck_mark_unallocated_pages", "file":"include/linux/kmemcheck.h", "line":139, "type":"f", }
+,{"id":"kmemcheck_mark_uninitialized", "file":"include/linux/kmemcheck.h", "line":127, "type":"f", }
+,{"id":"kmemcheck_mark_uninitialized_pages", "file":"include/linux/kmemcheck.h", "line":144, "type":"f", }
+,{"id":"kmemcheck_page_is_tracked", "file":"include/linux/kmemcheck.h", "line":118, "type":"f", }
+,{"id":"kmemcheck_pagealloc_alloc", "file":"include/linux/kmemcheck.h", "line":113, "type":"f", }
+,{"id":"kmemcheck_show", "file":"arch/x86/include/asm/kmemcheck.h", "line":22, "type":"f", }
+,{"id":"kmemcheck_slab_alloc", "file":"include/linux/kmemcheck.h", "line":102, "type":"f", }
+,{"id":"kmemcheck_slab_alloc", "file":"mm/slab.c", "line":3432, "type":"c", "scope_line":3385, "scope_name":"__cache_alloc_node", }
+,{"id":"kmemcheck_slab_alloc", "file":"mm/slab.c", "line":3495, "type":"c", "scope_line":3472, "scope_name":"__cache_alloc", }
+,{"id":"kmemcheck_slab_free", "file":"include/linux/kmemcheck.h", "line":108, "type":"f", }
+,{"id":"kmemcheck_slab_free", "file":"mm/slab.c", "line":3613, "type":"c", "scope_line":3605, "scope_name":"__cache_free", }
+,{"id":"kmemcheck_trap", "file":"arch/x86/include/asm/kmemcheck.h", "line":36, "type":"f", }
+,{"id":"kmemcheck_trap", "file":"arch/x86/kernel/traps.c", "line":554, "type":"c", "scope_line":533, "scope_name":"do_debug", }
+,{"id":"kmemdup", "file":"drivers/acpi/ec.c", "line":963, "type":"c", "scope_line":938, "scope_name":"acpi_ec_ecdt_probe", }
+,{"id":"kmemdup", "file":"drivers/base/platform.c", "line":195, "type":"c", "scope_line":190, "scope_name":"platform_device_add_resources", }
+,{"id":"kmemdup", "file":"drivers/base/platform.c", "line":218, "type":"c", "scope_line":215, "scope_name":"platform_device_add_data", }
+,{"id":"kmemdup", "file":"drivers/scsi/scsi_scan.c", "line":773, "type":"c", "scope_line":747, "scope_name":"scsi_add_lun", }
+,{"id":"kmemdup", "file":"fs/posix_acl.c", "line":61, "type":"c", "scope_line":53, "scope_name":"posix_acl_clone", }
+,{"id":"kmemdup", "file":"kernel/cpuset.c", "line":350, "type":"c", "scope_line":346, "scope_name":"alloc_trial_cpuset", }
+,{"id":"kmemdup", "file":"mm/util.c", "line":64, "type":"f", }
+,{"id":"kmemdup", "file":"net/core/fib_rules.c", "line":130, "type":"c", "scope_line":124, "scope_name":"fib_rules_register", }
+,{"id":"kmemdup", "file":"net/core/neighbour.c", "line":1350, "type":"c", "scope_line":1339, "scope_name":"neigh_parms_alloc", }
+,{"id":"kmemdup", "file":"net/core/neighbour.c", "line":2705, "type":"c", "scope_line":2686, "scope_name":"neigh_sysctl_register", }
+,{"id":"kmemdup", "file":"net/core/sysctl_net_core.c", "line":203, "type":"c", "scope_line":195, "scope_name":"sysctl_core_net_init", }
+,{"id":"kmemdup", "file":"net/ipv4/cipso_ipv4.c", "line":399, "type":"c", "scope_line":380, "scope_name":"cipso_v4_cache_add", }
+,{"id":"kmemdup", "file":"net/ipv4/devinet.c", "line":1445, "type":"c", "scope_line":1429, "scope_name":"__devinet_sysctl_register", }
+,{"id":"kmemdup", "file":"net/ipv4/devinet.c", "line":1543, "type":"c", "scope_line":1529, "scope_name":"devinet_init_net", }
+,{"id":"kmemdup", "file":"net/ipv4/devinet.c", "line":1547, "type":"c", "scope_line":1529, "scope_name":"devinet_init_net", }
+,{"id":"kmemdup", "file":"net/ipv4/devinet.c", "line":1552, "type":"c", "scope_line":1529, "scope_name":"devinet_init_net", }
+,{"id":"kmemdup", "file":"net/ipv4/ip_fragment.c", "line":691, "type":"c", "scope_line":684, "scope_name":"ip4_frags_ns_ctl_register", }
+,{"id":"kmemdup", "file":"net/ipv4/route.c", "line":3249, "type":"c", "scope_line":3243, "scope_name":"sysctl_route_net_init", }
+,{"id":"kmemdup", "file":"net/ipv4/sysctl_net_ipv4.c", "line":693, "type":"c", "scope_line":687, "scope_name":"ipv4_sysctl_init_net", }
+,{"id":"kmemdup", "file":"net/ipv4/tcp_ipv4.c", "line":1030, "type":"c", "scope_line":993, "scope_name":"tcp_v4_parse_md5_keys", }
+,{"id":"kmemdup", "file":"net/ipv4/tcp_ipv4.c", "line":1464, "type":"c", "scope_line":1405, "scope_name":"tcp_v4_syn_recv_sock", }
+,{"id":"kmemdup", "file":"net/ipv6/addrconf.c", "line":4478, "type":"c", "scope_line":4461, "scope_name":"__addrconf_sysctl_register", }
+,{"id":"kmemdup", "file":"net/ipv6/addrconf.c", "line":4556, "type":"c", "scope_line":4546, "scope_name":"addrconf_init_net", }
+,{"id":"kmemdup", "file":"net/ipv6/addrconf.c", "line":4560, "type":"c", "scope_line":4546, "scope_name":"addrconf_init_net", }
+,{"id":"kmemdup", "file":"net/ipv6/icmp.c", "line":956, "type":"c", "scope_line":952, "scope_name":"ipv6_icmp_sysctl_init", }
+,{"id":"kmemdup", "file":"net/ipv6/ip6_output.c", "line":1100, "type":"c", "scope_line":1097, "scope_name":"ip6_opt_dup", }
+,{"id":"kmemdup", "file":"net/ipv6/ip6_output.c", "line":1106, "type":"c", "scope_line":1103, "scope_name":"ip6_rthdr_dup", }
+,{"id":"kmemdup", "file":"net/ipv6/ip6_output.c", "line":675, "type":"c", "scope_line":604, "scope_name":"ip6_fragment", }
+,{"id":"kmemdup", "file":"net/ipv6/reassembly.c", "line":644, "type":"c", "scope_line":637, "scope_name":"ip6_frags_ns_sysctl_register", }
+,{"id":"kmemdup", "file":"net/ipv6/route.c", "line":2633, "type":"c", "scope_line":2629, "scope_name":"ipv6_route_sysctl_init", }
+,{"id":"kmemdup", "file":"net/ipv6/route.c", "line":2661, "type":"c", "scope_line":2654, "scope_name":"ip6_route_net_init", }
+,{"id":"kmemdup", "file":"net/ipv6/route.c", "line":2671, "type":"c", "scope_line":2654, "scope_name":"ip6_route_net_init", }
+,{"id":"kmemdup", "file":"net/ipv6/route.c", "line":2680, "type":"c", "scope_line":2654, "scope_name":"ip6_route_net_init", }
+,{"id":"kmemdup", "file":"net/ipv6/sysctl_net_ipv6.c", "line":67, "type":"c", "scope_line":59, "scope_name":"ipv6_sysctl_net_init", }
+,{"id":"kmemdup", "file":"net/ipv6/tcp_ipv6.c", "line":1493, "type":"c", "scope_line":1313, "scope_name":"tcp_v6_syn_recv_sock", }
+,{"id":"kmemdup", "file":"net/ipv6/tcp_ipv6.c", "line":737, "type":"c", "scope_line":698, "scope_name":"tcp_v6_parse_md5_keys", }
+,{"id":"kmemdup", "file":"net/sched/ematch.c", "line":255, "type":"c", "scope_line":173, "scope_name":"tcf_em_validate", }
+,{"id":"kmemdup", "file":"net/unix/sysctl_net_unix.c", "line":39, "type":"c", "scope_line":35, "scope_name":"unix_sysctl_register", }
+,{"id":"kmemdup", "file":"net/xfrm/xfrm_sysctl.c", "line":49, "type":"c", "scope_line":43, "scope_name":"xfrm_sysctl_init", }
+,{"id":"kmemdup", "file":"security/device_cgroup.c", "line":107, "type":"c", "scope_line":102, "scope_name":"dev_whitelist_add", }
+,{"id":"kmemdup", "file":"security/device_cgroup.c", "line":82, "type":"c", "scope_line":77, "scope_name":"dev_whitelist_copy", }
+,{"id":"kmemdup", "file":"security/keys/key.c", "line":275, "type":"c", "scope_line":227, "scope_name":"key_alloc", }
+,{"id":"kmemdup", "file":"security/keys/keyring.c", "line":722, "type":"c", "scope_line":680, "scope_name":"__key_link_begin", }
+,{"id":"kmemdup", "file":"security/selinux/hooks.c", "line":3218, "type":"c", "scope_line":3210, "scope_name":"selinux_cred_prepare", }
+,{"id":"kmemleak_alloc", "file":"include/linux/kmemleak.h", "line":62, "type":"f", }
+,{"id":"kmemleak_alloc", "file":"lib/scatterlist.c", "line":130, "type":"c", "scope_line":117, "scope_name":"sg_kmalloc", }
+,{"id":"kmemleak_alloc", "file":"mm/page_alloc.c", "line":3693, "type":"c", "scope_line":3655, "scope_name":"__alloc_memory_core_early", }
+,{"id":"kmemleak_alloc", "file":"mm/page_alloc.c", "line":5177, "type":"c", "scope_line":5112, "scope_name":"alloc_large_system_hash", }
+,{"id":"kmemleak_alloc", "file":"mm/vmalloc.c", "line":1535, "type":"c", "scope_line":1525, "scope_name":"__vmalloc_area", }
+,{"id":"kmemleak_alloc", "file":"mm/vmalloc.c", "line":1578, "type":"c", "scope_line":1553, "scope_name":"__vmalloc_node", }
+,{"id":"kmemleak_alloc_recursive", "file":"include/linux/kmemleak.h", "line":66, "type":"f", }
+,{"id":"kmemleak_alloc_recursive", "file":"mm/slab.c", "line":3428, "type":"c", "scope_line":3385, "scope_name":"__cache_alloc_node", }
+,{"id":"kmemleak_alloc_recursive", "file":"mm/slab.c", "line":3490, "type":"c", "scope_line":3472, "scope_name":"__cache_alloc", }
+,{"id":"kmemleak_erase", "file":"include/linux/kmemleak.h", "line":89, "type":"f", }
+,{"id":"kmemleak_erase", "file":"mm/slab.c", "line":3201, "type":"c", "scope_line":3174, "scope_name":"____cache_alloc", }
+,{"id":"kmemleak_free", "file":"include/linux/kmemleak.h", "line":71, "type":"f", }
+,{"id":"kmemleak_free", "file":"lib/scatterlist.c", "line":139, "type":"c", "scope_line":136, "scope_name":"sg_kfree", }
+,{"id":"kmemleak_free", "file":"mm/vmalloc.c", "line":1413, "type":"c", "scope_line":1409, "scope_name":"vfree", }
+,{"id":"kmemleak_free_part", "file":"include/linux/kmemleak.h", "line":74, "type":"f", }
+,{"id":"kmemleak_free_part", "file":"kernel/early_res.c", "line":324, "type":"c", "scope_line":319, "scope_name":"free_early", }
+,{"id":"kmemleak_free_part", "file":"kernel/early_res.c", "line":340, "type":"c", "scope_line":335, "scope_name":"free_early_partial", }
+,{"id":"kmemleak_free_part", "file":"mm/bootmem.c", "line":162, "type":"c", "scope_line":158, "scope_name":"free_bootmem_late", }
+,{"id":"kmemleak_free_recursive", "file":"include/linux/kmemleak.h", "line":77, "type":"f", }
+,{"id":"kmemleak_free_recursive", "file":"mm/slab.c", "line":3610, "type":"c", "scope_line":3605, "scope_name":"__cache_free", }
+,{"id":"kmemleak_ignore", "file":"arch/x86/kernel/aperture_64.c", "line":103, "type":"c", "scope_line":69, "scope_name":"allocate_aperture", }
+,];
+xr_frag_insert('t/21/1d9b159949b67ac6e692a465d3831cb69b6691.xr', __xr_tmp);

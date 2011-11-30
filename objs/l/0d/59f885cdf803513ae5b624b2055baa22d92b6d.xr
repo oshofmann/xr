@@ -1,0 +1,18 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#_LINUX_CRC_CCITT_H\">_LINUX_CRC_CCITT_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#_LINUX_CRC_CCITT_H\">_LINUX_CRC_CCITT_H</a>", 
+"", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#types\">types</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"", 
+"extern <a class=\"id\" href=\"#u16\">u16</a> const <a class=\"id\" href=\"#crc_ccitt_table\">crc_ccitt_table</a>[256];", 
+"", 
+"extern <a class=\"id\" href=\"#u16\">u16</a> <a class=\"id\" href=\"#crc_ccitt\">crc_ccitt</a>(<a class=\"id\" href=\"#u16\">u16</a> <a class=\"id\" href=\"#crc\">crc</a>, const <a class=\"id\" href=\"#u8\">u8</a> *<a class=\"id\" href=\"#buffer\">buffer</a>, <a class=\"id\" href=\"#size_t\">size_t</a> <a class=\"id\" href=\"#len\">len</a>);", 
+"", 
+"static <a class=\"id\" href=\"#inline\">inline</a> <a class=\"id\" href=\"#u16\">u16</a> <a class=\"id\" href=\"#crc_ccitt_byte\">crc_ccitt_byte</a>(<a class=\"id\" href=\"#u16\">u16</a> <a class=\"id\" href=\"#crc\">crc</a>, const <a class=\"id\" href=\"#u8\">u8</a> <a class=\"id\" href=\"#c\">c</a>)", 
+"{", 
+"<span class=\"ts\"/>return (<a class=\"id\" href=\"#crc\">crc</a> >> 8) ^ <a class=\"id\" href=\"#crc_ccitt_table\">crc_ccitt_table</a>[(<a class=\"id\" href=\"#crc\">crc</a> ^ <a class=\"id\" href=\"#c\">c</a>) &amp; 0xff];", 
+"}", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* _LINUX_CRC_CCITT_H */</span>", 
+];
+xr_frag_insert('l/0d/59f885cdf803513ae5b624b2055baa22d92b6d.xr', __xr_tmp);

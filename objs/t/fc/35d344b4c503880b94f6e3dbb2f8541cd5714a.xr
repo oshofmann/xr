@@ -1,0 +1,174 @@
+var __xr_tmp = [
+{"id":"INT64", "file":"include/acpi/actypes.h", "line":131, "type":"t", }
+,{"id":"INTEGRITY_FLAG_READ", "file":"include/linux/blkdev.h", "line":1180, "type":"d", }
+,{"id":"INTEGRITY_FLAG_WRITE", "file":"include/linux/blkdev.h", "line":1181, "type":"d", }
+,{"id":"INTEL_6300_DISABLE_BOOT_IRQ", "file":"drivers/pci/quirks.c", "line":1676, "type":"d", }
+,{"id":"INTEL_6300_IOAPIC_ABAR", "file":"drivers/pci/quirks.c", "line":1675, "type":"d", }
+,{"id":"INTEL_ARCH_EVENT_MASK", "file":"arch/x86/include/asm/perf_event.h", "line":34, "type":"d", }
+,{"id":"INTEL_EVENT_CONSTRAINT", "file":"arch/x86/kernel/cpu/perf_event.c", "line":150, "type":"d", }
+,{"id":"INTEL_IRQ_REROUTE_VARIANT", "file":"include/linux/pci.h", "line":180, "type":"e", "scope_line":179, "scope_name":"pci_irq_reroute_variant", }
+,{"id":"INTEL_MSR_RANGE", "file":"arch/x86/kernel/cpu/cpufreq/acpi-cpufreq.c", "line":63, "type":"d", }
+,{"id":"INTEL_MSR_RANGE", "file":"arch/x86/kernel/cpu/cpufreq/speedstep-centrino.c", "line":35, "type":"d", }
+,{"id":"INTERCEPT_CLGI", "file":"arch/x86/include/asm/svm.h", "line":42, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_CPUID", "file":"arch/x86/include/asm/svm.h", "line":23, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_CR0_MASK", "file":"arch/x86/include/asm/svm.h", "line":207, "type":"d", }
+,{"id":"INTERCEPT_CR3_MASK", "file":"arch/x86/include/asm/svm.h", "line":208, "type":"d", }
+,{"id":"INTERCEPT_CR4_MASK", "file":"arch/x86/include/asm/svm.h", "line":209, "type":"d", }
+,{"id":"INTERCEPT_CR8_MASK", "file":"arch/x86/include/asm/svm.h", "line":210, "type":"d", }
+,{"id":"INTERCEPT_DR0_MASK", "file":"arch/x86/include/asm/svm.h", "line":212, "type":"d", }
+,{"id":"INTERCEPT_DR1_MASK", "file":"arch/x86/include/asm/svm.h", "line":213, "type":"d", }
+,{"id":"INTERCEPT_DR2_MASK", "file":"arch/x86/include/asm/svm.h", "line":214, "type":"d", }
+,{"id":"INTERCEPT_DR3_MASK", "file":"arch/x86/include/asm/svm.h", "line":215, "type":"d", }
+,{"id":"INTERCEPT_DR4_MASK", "file":"arch/x86/include/asm/svm.h", "line":216, "type":"d", }
+,{"id":"INTERCEPT_DR5_MASK", "file":"arch/x86/include/asm/svm.h", "line":217, "type":"d", }
+,{"id":"INTERCEPT_DR6_MASK", "file":"arch/x86/include/asm/svm.h", "line":218, "type":"d", }
+,{"id":"INTERCEPT_DR7_MASK", "file":"arch/x86/include/asm/svm.h", "line":219, "type":"d", }
+,{"id":"INTERCEPT_FERR_FREEZE", "file":"arch/x86/include/asm/svm.h", "line":35, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_HLT", "file":"arch/x86/include/asm/svm.h", "line":29, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_ICEBP", "file":"arch/x86/include/asm/svm.h", "line":45, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_INIT", "file":"arch/x86/include/asm/svm.h", "line":8, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_INTR", "file":"arch/x86/include/asm/svm.h", "line":5, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_INTn", "file":"arch/x86/include/asm/svm.h", "line":26, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_INVD", "file":"arch/x86/include/asm/svm.h", "line":27, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_INVLPG", "file":"arch/x86/include/asm/svm.h", "line":30, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_INVLPGA", "file":"arch/x86/include/asm/svm.h", "line":31, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_IOIO_PROT", "file":"arch/x86/include/asm/svm.h", "line":32, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_IRET", "file":"arch/x86/include/asm/svm.h", "line":25, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_LOAD_GDTR", "file":"arch/x86/include/asm/svm.h", "line":16, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_LOAD_IDTR", "file":"arch/x86/include/asm/svm.h", "line":15, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_LOAD_LDTR", "file":"arch/x86/include/asm/svm.h", "line":17, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_LOAD_TR", "file":"arch/x86/include/asm/svm.h", "line":18, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_MONITOR", "file":"arch/x86/include/asm/svm.h", "line":47, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_MSR_PROT", "file":"arch/x86/include/asm/svm.h", "line":33, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_MWAIT", "file":"arch/x86/include/asm/svm.h", "line":48, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_MWAIT_COND", "file":"arch/x86/include/asm/svm.h", "line":49, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_NMI", "file":"arch/x86/include/asm/svm.h", "line":6, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_PAUSE", "file":"arch/x86/include/asm/svm.h", "line":28, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_POPF", "file":"arch/x86/include/asm/svm.h", "line":22, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_PUSHF", "file":"arch/x86/include/asm/svm.h", "line":21, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_RDPMC", "file":"arch/x86/include/asm/svm.h", "line":20, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_RDTSC", "file":"arch/x86/include/asm/svm.h", "line":19, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_RDTSCP", "file":"arch/x86/include/asm/svm.h", "line":44, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_RSM", "file":"arch/x86/include/asm/svm.h", "line":24, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_SELECTIVE_CR0", "file":"arch/x86/include/asm/svm.h", "line":10, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_SHUTDOWN", "file":"arch/x86/include/asm/svm.h", "line":36, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_SKINIT", "file":"arch/x86/include/asm/svm.h", "line":43, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_SMI", "file":"arch/x86/include/asm/svm.h", "line":7, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_STGI", "file":"arch/x86/include/asm/svm.h", "line":41, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_STORE_GDTR", "file":"arch/x86/include/asm/svm.h", "line":12, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_STORE_IDTR", "file":"arch/x86/include/asm/svm.h", "line":11, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_STORE_LDTR", "file":"arch/x86/include/asm/svm.h", "line":13, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_STORE_TR", "file":"arch/x86/include/asm/svm.h", "line":14, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_TASK_SWITCH", "file":"arch/x86/include/asm/svm.h", "line":34, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_VINTR", "file":"arch/x86/include/asm/svm.h", "line":9, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_VMLOAD", "file":"arch/x86/include/asm/svm.h", "line":39, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_VMMCALL", "file":"arch/x86/include/asm/svm.h", "line":38, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_VMRUN", "file":"arch/x86/include/asm/svm.h", "line":37, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_VMSAVE", "file":"arch/x86/include/asm/svm.h", "line":40, "type":"e", "scope_line":4, }
+,{"id":"INTERCEPT_WBINVD", "file":"arch/x86/include/asm/svm.h", "line":46, "type":"e", "scope_line":4, }
+,{"id":"INTERFACE", "file":"drivers/net/ppp_generic.c", "line":79, "type":"e", "scope_line":77, }
+,{"id":"INTERLACED", "file":"drivers/video/edid.h", "line":121, "type":"d", }
+,{"id":"INTERMEDIATE_C_GOOD", "file":"include/scsi/scsi.h", "line":229, "type":"d", }
+,{"id":"INTERMEDIATE_GOOD", "file":"include/scsi/scsi.h", "line":228, "type":"d", }
+,{"id":"INTERNODE_CACHE_BYTES", "file":"arch/x86/include/asm/cache.h", "line":13, "type":"d", }
+,{"id":"INTERNODE_CACHE_SHIFT", "file":"arch/x86/include/asm/cache.h", "line":12, "type":"d", }
+,{"id":"INTERPRETER_ELF", "file":"fs/binfmt_elf.c", "line":542, "type":"d", }
+,{"id":"INTERPRETER_NONE", "file":"fs/binfmt_elf.c", "line":541, "type":"d", }
+,{"id":"INTERVALS", "file":"drivers/cpuidle/governors/menu.c", "line":24, "type":"d", }
+,{"id":"INTR_CHAR", "file":"include/linux/tty.h", "line":103, "type":"d", }
+,{"id":"INTR_INFO_DELIVER_CODE_MASK", "file":"arch/x86/include/asm/vmx.h", "line":277, "type":"d", }
+,{"id":"INTR_INFO_INTR_TYPE_MASK", "file":"arch/x86/include/asm/vmx.h", "line":276, "type":"d", }
+,{"id":"INTR_INFO_RESVD_BITS_MASK", "file":"arch/x86/include/asm/vmx.h", "line":280, "type":"d", }
+,{"id":"INTR_INFO_UNBLOCK_NMI", "file":"arch/x86/include/asm/vmx.h", "line":278, "type":"d", }
+,{"id":"INTR_INFO_VALID_MASK", "file":"arch/x86/include/asm/vmx.h", "line":279, "type":"d", }
+,{"id":"INTR_INFO_VECTOR_MASK", "file":"arch/x86/include/asm/vmx.h", "line":275, "type":"d", }
+,{"id":"INTR_TYPE_EXT_INTR", "file":"arch/x86/include/asm/vmx.h", "line":287, "type":"d", }
+,{"id":"INTR_TYPE_HARD_EXCEPTION", "file":"arch/x86/include/asm/vmx.h", "line":289, "type":"d", }
+,{"id":"INTR_TYPE_NMI_INTR", "file":"arch/x86/include/asm/vmx.h", "line":288, "type":"d", }
+,{"id":"INTR_TYPE_SOFT_EXCEPTION", "file":"arch/x86/include/asm/vmx.h", "line":291, "type":"d", }
+,{"id":"INTR_TYPE_SOFT_INTR", "file":"arch/x86/include/asm/vmx.h", "line":290, "type":"d", }
+,{"id":"INT_BUTTON_CANCEL", "file":"drivers/pci/hotplug/pciehp.h", "line":111, "type":"d", }
+,{"id":"INT_BUTTON_IGNORE", "file":"drivers/pci/hotplug/pciehp.h", "line":102, "type":"d", }
+,{"id":"INT_BUTTON_PRESS", "file":"drivers/pci/hotplug/pciehp.h", "line":109, "type":"d", }
+,{"id":"INT_BUTTON_RELEASE", "file":"drivers/pci/hotplug/pciehp.h", "line":110, "type":"d", }
+,{"id":"INT_LIMIT", "file":"include/linux/fs.h", "line":1089, "type":"d", }
+,{"id":"INT_MAX", "file":"include/linux/kernel.h", "line":30, "type":"d", }
+,{"id":"INT_MIN", "file":"include/linux/kernel.h", "line":31, "type":"d", }
+,{"id":"INT_POWER_FAULT", "file":"drivers/pci/hotplug/pciehp.h", "line":107, "type":"d", }
+,{"id":"INT_POWER_FAULT_CLEAR", "file":"drivers/pci/hotplug/pciehp.h", "line":108, "type":"d", }
+,{"id":"INT_PRESENCE_OFF", "file":"drivers/pci/hotplug/pciehp.h", "line":104, "type":"d", }
+,{"id":"INT_PRESENCE_ON", "file":"drivers/pci/hotplug/pciehp.h", "line":103, "type":"d", }
+,{"id":"INT_SWITCH_CLOSE", "file":"drivers/pci/hotplug/pciehp.h", "line":105, "type":"d", }
+,{"id":"INT_SWITCH_OPEN", "file":"drivers/pci/hotplug/pciehp.h", "line":106, "type":"d", }
+,{"id":"INT_TYPE_APIC", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":39, "type":"d", }
+,{"id":"INVALIDATE_TLB_VECTOR_END", "file":"arch/x86/include/asm/irq_vectors.h", "line":100, "type":"d", }
+,{"id":"INVALIDATE_TLB_VECTOR_START", "file":"arch/x86/include/asm/irq_vectors.h", "line":101, "type":"d", }
+,{"id":"INVALID_FID_MASK", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":145, "type":"d", }
+,{"id":"INVALID_IO_BITMAP_OFFSET", "file":"arch/x86/include/asm/processor.h", "line":249, "type":"d", }
+,{"id":"INVALID_P2M_ENTRY", "file":"arch/x86/include/asm/xen/page.h", "line":30, "type":"d", }
+,{"id":"INVALID_TYPE", "file":"arch/x86/kernel/cpu/topology.c", "line":16, "type":"d", }
+,{"id":"INVALID_VID_MASK", "file":"arch/x86/kernel/cpu/cpufreq/powernow-k8.h", "line":146, "type":"d", }
+,{"id":"INVERSION_AUTO", "file":"include/linux/dvb/frontend.h", "line":138, "type":"e", "scope_line":135, "scope_name":"fe_spectral_inversion", }
+,{"id":"INVERSION_OFF", "file":"include/linux/dvb/frontend.h", "line":136, "type":"e", "scope_line":135, "scope_name":"fe_spectral_inversion", }
+,{"id":"INVERSION_ON", "file":"include/linux/dvb/frontend.h", "line":137, "type":"e", "scope_line":135, "scope_name":"fe_spectral_inversion", }
+,{"id":"INVGART", "file":"arch/x86/include/asm/gart.h", "line":22, "type":"d", }
+,{"id":"IN_ACCESS", "file":"include/linux/inotify.h", "line":29, "type":"d", }
+,{"id":"IN_ALL_EVENTS", "file":"include/linux/inotify.h", "line":64, "type":"d", }
+,{"id":"IN_ATTRIB", "file":"include/linux/inotify.h", "line":31, "type":"d", }
+,{"id":"IN_BADCLASS", "file":"include/linux/in.h", "line":223, "type":"d", }
+,{"id":"IN_CLASSA", "file":"include/linux/in.h", "line":201, "type":"d", }
+,{"id":"IN_CLASSA_HOST", "file":"include/linux/in.h", "line":204, "type":"d", }
+,{"id":"IN_CLASSA_MAX", "file":"include/linux/in.h", "line":205, "type":"d", }
+,{"id":"IN_CLASSA_NET", "file":"include/linux/in.h", "line":202, "type":"d", }
+,{"id":"IN_CLASSA_NSHIFT", "file":"include/linux/in.h", "line":203, "type":"d", }
+,{"id":"IN_CLASSB", "file":"include/linux/in.h", "line":207, "type":"d", }
+,{"id":"IN_CLASSB_HOST", "file":"include/linux/in.h", "line":210, "type":"d", }
+,{"id":"IN_CLASSB_MAX", "file":"include/linux/in.h", "line":211, "type":"d", }
+,{"id":"IN_CLASSB_NET", "file":"include/linux/in.h", "line":208, "type":"d", }
+,{"id":"IN_CLASSB_NSHIFT", "file":"include/linux/in.h", "line":209, "type":"d", }
+,{"id":"IN_CLASSC", "file":"include/linux/in.h", "line":213, "type":"d", }
+,{"id":"IN_CLASSC_HOST", "file":"include/linux/in.h", "line":216, "type":"d", }
+,{"id":"IN_CLASSC_NET", "file":"include/linux/in.h", "line":214, "type":"d", }
+,{"id":"IN_CLASSC_NSHIFT", "file":"include/linux/in.h", "line":215, "type":"d", }
+,{"id":"IN_CLASSD", "file":"include/linux/in.h", "line":218, "type":"d", }
+,{"id":"IN_CLOEXEC", "file":"include/linux/inotify.h", "line":70, "type":"d", }
+,{"id":"IN_CLOSE", "file":"include/linux/inotify.h", "line":48, "type":"d", }
+,{"id":"IN_CLOSE_NOWRITE", "file":"include/linux/inotify.h", "line":33, "type":"d", }
+,{"id":"IN_CLOSE_WRITE", "file":"include/linux/inotify.h", "line":32, "type":"d", }
+,{"id":"IN_CREATE", "file":"include/linux/inotify.h", "line":37, "type":"d", }
+,{"id":"IN_DELETE", "file":"include/linux/inotify.h", "line":38, "type":"d", }
+,{"id":"IN_DELETE_SELF", "file":"include/linux/inotify.h", "line":39, "type":"d", }
+,{"id":"IN_DEV_ACCEPT_LOCAL", "file":"include/linux/inetdevice.h", "line":117, "type":"d", }
+,{"id":"IN_DEV_ANDCONF", "file":"include/linux/inetdevice.h", "line":101, "type":"d", }
+,{"id":"IN_DEV_ARPFILTER", "file":"include/linux/inetdevice.h", "line":139, "type":"d", }
+,{"id":"IN_DEV_ARP_ANNOUNCE", "file":"include/linux/inetdevice.h", "line":140, "type":"d", }
+,{"id":"IN_DEV_ARP_IGNORE", "file":"include/linux/inetdevice.h", "line":141, "type":"d", }
+,{"id":"IN_DEV_ARP_NOTIFY", "file":"include/linux/inetdevice.h", "line":142, "type":"d", }
+,{"id":"IN_DEV_BOOTP_RELAY", "file":"include/linux/inetdevice.h", "line":118, "type":"d", }
+,{"id":"IN_DEV_CONF_GET", "file":"include/linux/inetdevice.h", "line":96, "type":"d", }
+,{"id":"IN_DEV_CONF_SET", "file":"include/linux/inetdevice.h", "line":98, "type":"d", }
+,{"id":"IN_DEV_FORWARD", "file":"include/linux/inetdevice.h", "line":111, "type":"d", }
+,{"id":"IN_DEV_IDTAG", "file":"include/linux/inetdevice.h", "line":127, "type":"d", }
+,{"id":"IN_DEV_LOG_MARTIANS", "file":"include/linux/inetdevice.h", "line":120, "type":"d", }
+,{"id":"IN_DEV_MAXCONF", "file":"include/linux/inetdevice.h", "line":107, "type":"d", }
+,{"id":"IN_DEV_MEDIUM_ID", "file":"include/linux/inetdevice.h", "line":128, "type":"d", }
+,{"id":"IN_DEV_MFORWARD", "file":"include/linux/inetdevice.h", "line":112, "type":"d", }
+,{"id":"IN_DEV_ORCONF", "file":"include/linux/inetdevice.h", "line":104, "type":"d", }
+,{"id":"IN_DEV_PROMOTE_SECONDARIES", "file":"include/linux/inetdevice.h", "line":129, "type":"d", }
+,{"id":"IN_DEV_PROXY_ARP", "file":"include/linux/inetdevice.h", "line":121, "type":"d", }
+,{"id":"IN_DEV_PROXY_ARP_PVLAN", "file":"include/linux/inetdevice.h", "line":122, "type":"d", }
+,{"id":"IN_DEV_RPFILTER", "file":"include/linux/inetdevice.h", "line":113, "type":"d", }
+,{"id":"IN_DEV_RX_REDIRECTS", "file":"include/linux/inetdevice.h", "line":133, "type":"d", }
+,{"id":"IN_DEV_SEC_REDIRECTS", "file":"include/linux/inetdevice.h", "line":125, "type":"d", }
+,{"id":"IN_DEV_SHARED_MEDIA", "file":"include/linux/inetdevice.h", "line":123, "type":"d", }
+,{"id":"IN_DEV_SOURCE_ROUTE", "file":"include/linux/inetdevice.h", "line":115, "type":"d", }
+,{"id":"IN_DEV_SRC_VMARK", "file":"include/linux/inetdevice.h", "line":114, "type":"d", }
+,{"id":"IN_DEV_TX_REDIRECTS", "file":"include/linux/inetdevice.h", "line":124, "type":"d", }
+,{"id":"IN_DONT_FOLLOW", "file":"include/linux/inotify.h", "line":53, "type":"d", }
+,{"id":"IN_EXCL_UNLINK", "file":"include/linux/inotify.h", "line":54, "type":"d", }
+,{"id":"IN_EXPERIMENTAL", "file":"include/linux/in.h", "line":222, "type":"d", }
+,{"id":"IN_IGNORED", "file":"include/linux/inotify.h", "line":45, "type":"d", }
+,{"id":"IN_ISDIR", "file":"include/linux/inotify.h", "line":56, "type":"d", }
+,{"id":"IN_KERNEL", "file":"arch/x86/kernel/cpu/mcheck/mce-severity.c", "line":32, "type":"e", "scope_line":32, "scope_name":"context", }
+,];
+xr_frag_insert('t/fc/35d344b4c503880b94f6e3dbb2f8541cd5714a.xr', __xr_tmp);

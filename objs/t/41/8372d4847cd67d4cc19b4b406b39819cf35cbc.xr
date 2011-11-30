@@ -1,0 +1,85 @@
+var __xr_tmp = [
+{"id":"kmem_cache_alloc", "file":"mm/shmem.c", "line":2411, "type":"c", "scope_line":2408, "scope_name":"shmem_alloc_inode", }
+,{"id":"kmem_cache_alloc", "file":"mm/slab.c", "line":3644, "type":"f", }
+,{"id":"kmem_cache_alloc", "file":"net/core/flow.c", "line":252, "type":"c", "scope_line":214, "scope_name":"flow_cache_lookup", }
+,{"id":"kmem_cache_alloc", "file":"net/core/skbuff.c", "line":633, "type":"c", "scope_line":622, "scope_name":"skb_clone", }
+,{"id":"kmem_cache_alloc", "file":"net/core/sock.c", "line":1020, "type":"c", "scope_line":1012, "scope_name":"sk_prot_alloc", }
+,{"id":"kmem_cache_alloc", "file":"net/ipv4/fib_hash.c", "line":511, "type":"c", "scope_line":370, "scope_name":"fib_table_insert", }
+,{"id":"kmem_cache_alloc", "file":"net/ipv4/inet_hashtables.c", "line":35, "type":"c", "scope_line":30, "scope_name":"inet_bind_bucket_create", }
+,{"id":"kmem_cache_alloc", "file":"net/ipv4/inet_timewait_sock.c", "line":174, "type":"c", "scope_line":172, "scope_name":"inet_twsk_alloc", }
+,{"id":"kmem_cache_alloc", "file":"net/ipv4/inetpeer.c", "line":446, "type":"c", "scope_line":414, "scope_name":"inet_getpeer", }
+,{"id":"kmem_cache_alloc", "file":"net/socket.c", "line":244, "type":"c", "scope_line":240, "scope_name":"sock_alloc_inode", }
+,{"id":"kmem_cache_alloc", "file":"net/xfrm/xfrm_input.c", "line":32, "type":"c", "scope_line":28, "scope_name":"secpath_dup", }
+,{"id":"kmem_cache_alloc", "file":"security/keys/key.c", "line":270, "type":"c", "scope_line":227, "scope_name":"key_alloc", }
+,{"id":"kmem_cache_alloc_node", "file":"block/blk-core.c", "line":499, "type":"c", "scope_line":494, "scope_name":"blk_alloc_queue_node", }
+,{"id":"kmem_cache_alloc_node", "file":"block/blk-ioc.c", "line":88, "type":"c", "scope_line":84, "scope_name":"alloc_io_context", }
+,{"id":"kmem_cache_alloc_node", "file":"block/cfq-iosched.c", "line":2739, "type":"c", "scope_line":2734, "scope_name":"cfq_alloc_io_context", }
+,{"id":"kmem_cache_alloc_node", "file":"block/cfq-iosched.c", "line":2911, "type":"c", "scope_line":2886, "scope_name":"cfq_find_alloc_queue", }
+,{"id":"kmem_cache_alloc_node", "file":"block/cfq-iosched.c", "line":2918, "type":"c", "scope_line":2886, "scope_name":"cfq_find_alloc_queue", }
+,{"id":"kmem_cache_alloc_node", "file":"mm/slab.c", "line":2658, "type":"c", "scope_line":2650, "scope_name":"alloc_slabmgmt", }
+,{"id":"kmem_cache_alloc_node", "file":"mm/slab.c", "line":3694, "type":"f", }
+,{"id":"kmem_cache_alloc_node", "file":"net/core/skbuff.c", "line":181, "type":"c", "scope_line":170, "scope_name":"__alloc_skb", }
+,{"id":"kmem_cache_alloc_node_notrace", "file":"include/linux/slab_def.h", "line":237, "type":"c", "scope_line":210, "scope_name":"kmalloc_node", }
+,{"id":"kmem_cache_alloc_node_notrace", "file":"mm/slab.c", "line":3708, "type":"f", }
+,{"id":"kmem_cache_alloc_node_notrace", "file":"mm/slab.c", "line":3727, "type":"c", "scope_line":3718, "scope_name":"__do_kmalloc_node", }
+,{"id":"kmem_cache_alloc_notrace", "file":"include/linux/slab_def.h", "line":182, "type":"c", "scope_line":155, "scope_name":"kmalloc", }
+,{"id":"kmem_cache_alloc_notrace", "file":"mm/slab.c", "line":3656, "type":"f", }
+,{"id":"kmem_cache_create", "file":"arch/x86/kernel/process.c", "line":61, "type":"c", "scope_line":59, "scope_name":"arch_task_cache_init", }
+,{"id":"kmem_cache_create", "file":"block/blk-core.c", "line":2591, "type":"c", "scope_line":2582, "scope_name":"blk_dev_init", }
+,{"id":"kmem_cache_create", "file":"block/blk-core.c", "line":2594, "type":"c", "scope_line":2582, "scope_name":"blk_dev_init", }
+,{"id":"kmem_cache_create", "file":"block/blk-integrity.c", "line":289, "type":"c", "scope_line":287, "scope_name":"blk_dev_integrity_init", }
+,{"id":"kmem_cache_create", "file":"block/blk-ioc.c", "line":172, "type":"c", "scope_line":170, "scope_name":"blk_ioc_init", }
+,{"id":"kmem_cache_create", "file":"block/bsg.c", "line":1077, "type":"c", "scope_line":1072, "scope_name":"bsg_init", }
+,{"id":"kmem_cache_create", "file":"block/cfq-iosched.c", "line":3952, "type":"c", "scope_line":3950, "scope_name":"cfq_slab_setup", }
+,{"id":"kmem_cache_create", "file":"block/cfq-iosched.c", "line":3956, "type":"c", "scope_line":3950, "scope_name":"cfq_slab_setup", }
+,{"id":"kmem_cache_create", "file":"drivers/acpi/osl.c", "line":1221, "type":"c", "scope_line":1218, "scope_name":"acpi_os_create_cache", }
+,{"id":"kmem_cache_create", "file":"drivers/md/dm-io.c", "line":507, "type":"c", "scope_line":505, "scope_name":"dm_io_init", }
+,{"id":"kmem_cache_create", "file":"drivers/md/dm-kcopyd.c", "line":228, "type":"c", "scope_line":226, "scope_name":"dm_kcopyd_init", }
+,{"id":"kmem_cache_create", "file":"drivers/md/dm.c", "line":227, "type":"c", "scope_line":222, "scope_name":"local_init", }
+,{"id":"kmem_cache_create", "file":"drivers/md/dm.c", "line":232, "type":"c", "scope_line":222, "scope_name":"local_init", }
+,{"id":"kmem_cache_create", "file":"drivers/md/dm.c", "line":236, "type":"c", "scope_line":222, "scope_name":"local_init", }
+,{"id":"kmem_cache_create", "file":"drivers/md/dm.c", "line":240, "type":"c", "scope_line":222, "scope_name":"local_init", }
+,{"id":"kmem_cache_create", "file":"drivers/scsi/scsi.c", "line":370, "type":"c", "scope_line":359, "scope_name":"scsi_get_host_cmd_pool", }
+,{"id":"kmem_cache_create", "file":"drivers/scsi/scsi.c", "line":376, "type":"c", "scope_line":359, "scope_name":"scsi_get_host_cmd_pool", }
+,{"id":"kmem_cache_create", "file":"drivers/scsi/scsi_lib.c", "line":1723, "type":"c", "scope_line":1719, "scope_name":"scsi_init_queue", }
+,{"id":"kmem_cache_create", "file":"drivers/scsi/scsi_lib.c", "line":1735, "type":"c", "scope_line":1719, "scope_name":"scsi_init_queue", }
+,{"id":"kmem_cache_create", "file":"drivers/scsi/sd.c", "line":2575, "type":"c", "scope_line":2554, "scope_name":"init_sd", }
+,{"id":"kmem_cache_create", "file":"fs/aio.c", "line":85, "type":"c", "scope_line":83, "scope_name":"aio_setup", }
+,{"id":"kmem_cache_create", "file":"fs/aio.c", "line":86, "type":"c", "scope_line":83, "scope_name":"aio_setup", }
+,{"id":"kmem_cache_create", "file":"fs/bio-integrity.c", "line":795, "type":"c", "scope_line":781, "scope_name":"bio_integrity_init", }
+,{"id":"kmem_cache_create", "file":"fs/bio.c", "line":110, "type":"c", "scope_line":70, "scope_name":"bio_find_or_create_slab", }
+,{"id":"kmem_cache_create", "file":"fs/bio.c", "line":1648, "type":"c", "scope_line":1632, "scope_name":"biovec_init_slabs", }
+,{"id":"kmem_cache_create", "file":"fs/block_dev.c", "line":471, "type":"c", "scope_line":466, "scope_name":"bdev_cache_init", }
+,{"id":"kmem_cache_create", "file":"fs/buffer.c", "line":3321, "type":"c", "scope_line":3317, "scope_name":"buffer_init", }
+,{"id":"kmem_cache_create", "file":"fs/dcache.c", "line":2427, "type":"c", "scope_line":2418, "scope_name":"dcache_init", }
+,{"id":"kmem_cache_create", "file":"fs/dcache.c", "line":2472, "type":"c", "scope_line":2462, "scope_name":"vfs_caches_init", }
+,{"id":"kmem_cache_create", "file":"fs/dcookies.c", "line":215, "type":"c", "scope_line":209, "scope_name":"dcookie_init", }
+,{"id":"kmem_cache_create", "file":"fs/eventpoll.c", "line":1433, "type":"c", "scope_line":1415, "scope_name":"eventpoll_init", }
+,{"id":"kmem_cache_create", "file":"fs/eventpoll.c", "line":1437, "type":"c", "scope_line":1415, "scope_name":"eventpoll_init", }
+,{"id":"kmem_cache_create", "file":"fs/ext2/super.c", "line":183, "type":"c", "scope_line":181, "scope_name":"init_inodecache", }
+,{"id":"kmem_cache_create", "file":"fs/ext3/super.c", "line":515, "type":"c", "scope_line":513, "scope_name":"init_inodecache", }
+,{"id":"kmem_cache_create", "file":"fs/ext4/block_validity.c", "line":34, "type":"c", "scope_line":32, "scope_name":"init_ext4_system_zone", }
+,{"id":"kmem_cache_create", "file":"fs/ext4/mballoc.c", "line":2663, "type":"c", "scope_line":2661, "scope_name":"init_ext4_mballoc", }
+,{"id":"kmem_cache_create", "file":"fs/ext4/mballoc.c", "line":2670, "type":"c", "scope_line":2661, "scope_name":"init_ext4_mballoc", }
+,{"id":"kmem_cache_create", "file":"fs/ext4/mballoc.c", "line":2679, "type":"c", "scope_line":2661, "scope_name":"init_ext4_mballoc", }
+,{"id":"kmem_cache_create", "file":"fs/ext4/super.c", "line":856, "type":"c", "scope_line":854, "scope_name":"init_inodecache", }
+,{"id":"kmem_cache_create", "file":"fs/fcntl.c", "line":787, "type":"c", "scope_line":770, "scope_name":"fcntl_init", }
+,{"id":"kmem_cache_create", "file":"fs/file_table.c", "line":492, "type":"c", "scope_line":488, "scope_name":"files_init", }
+,{"id":"kmem_cache_create", "file":"fs/hugetlbfs/inode.c", "line":980, "type":"c", "scope_line":971, "scope_name":"init_hugetlbfs_fs", }
+,{"id":"kmem_cache_create", "file":"fs/inode.c", "line":1499, "type":"c", "scope_line":1494, "scope_name":"inode_init", }
+,{"id":"kmem_cache_create", "file":"fs/jbd/journal.c", "line":1695, "type":"c", "scope_line":1690, "scope_name":"journal_init_journal_head_cache", }
+,{"id":"kmem_cache_create", "file":"fs/jbd/journal.c", "line":1969, "type":"c", "scope_line":1967, "scope_name":"journal_init_handle_cache", }
+,{"id":"kmem_cache_create", "file":"fs/jbd/revoke.c", "line":206, "type":"c", "scope_line":201, "scope_name":"journal_init_revoke_caches", }
+,{"id":"kmem_cache_create", "file":"fs/jbd/revoke.c", "line":214, "type":"c", "scope_line":201, "scope_name":"journal_init_revoke_caches", }
+,{"id":"kmem_cache_create", "file":"fs/jbd2/journal.c", "line":1874, "type":"c", "scope_line":1854, "scope_name":"jbd2_journal_create_slab", }
+,{"id":"kmem_cache_create", "file":"fs/jbd2/journal.c", "line":1952, "type":"c", "scope_line":1947, "scope_name":"journal_init_jbd2_journal_head_cache", }
+,{"id":"kmem_cache_create", "file":"fs/jbd2/journal.c", "line":2293, "type":"c", "scope_line":2291, "scope_name":"journal_init_handle_cache", }
+,{"id":"kmem_cache_create", "file":"fs/jbd2/revoke.c", "line":207, "type":"c", "scope_line":202, "scope_name":"jbd2_journal_init_revoke_caches", }
+,{"id":"kmem_cache_create", "file":"fs/jbd2/revoke.c", "line":215, "type":"c", "scope_line":202, "scope_name":"jbd2_journal_init_revoke_caches", }
+,{"id":"kmem_cache_create", "file":"fs/locks.c", "line":2297, "type":"c", "scope_line":2295, "scope_name":"filelock_init", }
+,{"id":"kmem_cache_create", "file":"fs/mbcache.c", "line":241, "type":"c", "scope_line":217, "scope_name":"mb_cache_create", }
+,{"id":"kmem_cache_create", "file":"fs/namespace.c", "line":2380, "type":"c", "scope_line":2373, "scope_name":"mnt_init", }
+,{"id":"kmem_cache_create", "file":"fs/notify/dnotify/dnotify.c", "line":402, "type":"c", "scope_line":400, "scope_name":"dnotify_init", }
+,{"id":"kmem_cache_create", "file":"fs/notify/dnotify/dnotify.c", "line":403, "type":"c", "scope_line":400, "scope_name":"dnotify_init", }
+,];
+xr_frag_insert('t/41/8372d4847cd67d4cc19b4b406b39819cf35cbc.xr', __xr_tmp);

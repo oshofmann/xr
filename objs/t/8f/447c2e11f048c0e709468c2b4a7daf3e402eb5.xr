@@ -1,0 +1,64 @@
+var __xr_tmp = [
+{"id":"_raw_spin_trylock_bh", "file":"include/linux/spinlock.h", "line":344, "type":"c", "scope_line":342, "scope_name":"spin_trylock_bh", }
+,{"id":"_raw_spin_trylock_bh", "file":"kernel/spinlock.c", "line":127, "type":"f", }
+,{"id":"_raw_spin_unlock", "file":"include/linux/spinlock_api_smp.h", "line":71, "type":"d", }
+,{"id":"_raw_spin_unlock_bh", "file":"include/linux/spinlock.h", "line":329, "type":"c", "scope_line":327, "scope_name":"spin_unlock_bh", }
+,{"id":"_raw_spin_unlock_bh", "file":"kernel/spinlock.c", "line":191, "type":"f", }
+,{"id":"_raw_spin_unlock_irq", "file":"include/linux/spinlock_api_smp.h", "line":79, "type":"d", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":1226, "type":"c", "scope_line":1219, "scope_name":"assign_irq_vector", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":1668, "type":"c", "scope_line":1636, "scope_name":"print_IO_APIC", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":1906, "type":"c", "scope_line":1882, "scope_name":"print_PIC", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":2256, "type":"c", "scope_line":2242, "scope_name":"startup_ioapic_irq", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":2269, "type":"c", "scope_line":2261, "scope_name":"ioapic_retrigger_irq", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":2369, "type":"c", "scope_line":2350, "scope_name":"set_ioapic_affinity_irq_desc", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":2609, "type":"c", "scope_line":2598, "scope_name":"eoi_ioapic_irq", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":3197, "type":"c", "scope_line":3180, "scope_name":"ioapic_resume", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":3279, "type":"c", "scope_line":3247, "scope_name":"create_irq_nr", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":3311, "type":"c", "scope_line":3302, "scope_name":"destroy_irq", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":3850, "type":"c", "scope_line":3843, "scope_name":"io_apic_get_redir_entries", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":4067, "type":"c", "scope_line":4060, "scope_name":"io_apic_get_version", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":413, "type":"c", "scope_line":399, "scope_name":"io_apic_level_ack_pending", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":417, "type":"c", "scope_line":399, "scope_name":"io_apic_level_ack_pending", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":434, "type":"c", "scope_line":427, "scope_name":"ioapic_read_entry", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":459, "type":"c", "scope_line":454, "scope_name":"ioapic_write_entry", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":475, "type":"c", "scope_line":467, "scope_name":"ioapic_mask_entry", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":604, "type":"c", "scope_line":595, "scope_name":"mask_IO_APIC_irq_desc", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/apic/io_apic.c", "line":614, "type":"c", "scope_line":607, "scope_name":"unmask_IO_APIC_irq_desc", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/i8259.c", "line":110, "type":"c", "scope_line":99, "scope_name":"i8259A_irq_pending", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/i8259.c", "line":191, "type":"c", "scope_line":153, "scope_name":"mask_and_ack_8259A", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/i8259.c", "line":288, "type":"c", "scope_line":279, "scope_name":"mask_8259A", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/i8259.c", "line":300, "type":"c", "scope_line":291, "scope_name":"unmask_8259A", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/i8259.c", "line":354, "type":"c", "scope_line":303, "scope_name":"init_8259A", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/i8259.c", "line":82, "type":"c", "scope_line":71, "scope_name":"disable_8259A_irq", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/i8259.c", "line":96, "type":"c", "scope_line":85, "scope_name":"enable_8259A_irq", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/kernel/irq.c", "line":173, "type":"c", "scope_line":124, "scope_name":"show_interrupts", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/pci/direct.c", "line":130, "type":"c", "scope_line":94, "scope_name":"pci_conf2_read", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/pci/direct.c", "line":169, "type":"c", "scope_line":135, "scope_name":"pci_conf2_write", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/pci/direct.c", "line":46, "type":"c", "scope_line":20, "scope_name":"pci_conf1_read", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"arch/x86/pci/direct.c", "line":75, "type":"c", "scope_line":51, "scope_name":"pci_conf1_write", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"drivers/pci/access.c", "line":407, "type":"c", "scope_line":399, "scope_name":"pci_block_user_cfg_access", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"drivers/pci/access.c", "line":433, "type":"c", "scope_line":421, "scope_name":"pci_unblock_user_cfg_access", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"drivers/pci/access.c", "line":56, "type":"c", "scope_line":56, "scope_name":"pci_bus_read_config_byte", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"drivers/pci/access.c", "line":57, "type":"c", "scope_line":57, "scope_name":"pci_bus_read_config_word", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"drivers/pci/access.c", "line":58, "type":"c", "scope_line":58, "scope_name":"pci_bus_read_config_dword", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"drivers/pci/access.c", "line":59, "type":"c", "scope_line":59, "scope_name":"pci_bus_write_config_byte", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"drivers/pci/access.c", "line":60, "type":"c", "scope_line":60, "scope_name":"pci_bus_write_config_word", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"drivers/pci/access.c", "line":61, "type":"c", "scope_line":61, "scope_name":"pci_bus_write_config_dword", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"drivers/pci/access.c", "line":85, "type":"c", "scope_line":77, "scope_name":"pci_bus_set_ops", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"include/linux/spinlock.h", "line":339, "type":"c", "scope_line":337, "scope_name":"spin_unlock_irqrestore", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/hrtimer.c", "line":1143, "type":"c", "scope_line":1118, "scope_name":"hrtimer_get_next_event", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/hrtimer.c", "line":134, "type":"c", "scope_line":121, "scope_name":"lock_hrtimer_base", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/hrtimer.c", "line":788, "type":"c", "scope_line":785, "scope_name":"unlock_hrtimer_base", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/irq/chip.c", "line":144, "type":"c", "scope_line":128, "scope_name":"set_irq_chip", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/irq/chip.c", "line":172, "type":"c", "scope_line":155, "scope_name":"set_irq_type", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/irq/chip.c", "line":197, "type":"c", "scope_line":184, "scope_name":"set_irq_data", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/irq/chip.c", "line":224, "type":"c", "scope_line":209, "scope_name":"set_irq_msi", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/irq/chip.c", "line":253, "type":"c", "scope_line":235, "scope_name":"set_irq_chip_data", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/irq/chip.c", "line":283, "type":"c", "scope_line":270, "scope_name":"set_irq_nested_thread", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/irq/chip.c", "line":51, "type":"c", "scope_line":21, "scope_name":"dynamic_irq_init_x", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/irq/chip.c", "line":711, "type":"c", "scope_line":664, "scope_name":"__set_irq_handler", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/irq/chip.c", "line":744, "type":"c", "scope_line":732, "scope_name":"set_irq_noprobe", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/irq/chip.c", "line":759, "type":"c", "scope_line":747, "scope_name":"set_irq_probe", }
+,{"id":"_raw_spin_unlock_irqrestore", "file":"kernel/irq/chip.c", "line":86, "type":"c", "scope_line":74, "scope_name":"dynamic_irq_cleanup_x", }
+,];
+xr_frag_insert('t/8f/447c2e11f048c0e709468c2b4a7daf3e402eb5.xr', __xr_tmp);

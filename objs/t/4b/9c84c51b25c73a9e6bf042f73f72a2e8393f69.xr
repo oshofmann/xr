@@ -1,0 +1,140 @@
+var __xr_tmp = [
+{"id":"flags_dup_features", "file":"net/core/ethtool.c", "line":133, "type":"v", }
+,{"id":"flags_len", "file":"include/linux/ata.h", "line":472, "type":"m", "scope_line":470, "scope_name":"struct ata_bmdma_prd", }
+,{"id":"flags_size", "file":"drivers/ata/ahci.h", "line":254, "type":"m", "scope_line":250, "scope_name":"struct ahci_sg", }
+,{"id":"flags_to_propagation_type", "file":"fs/namespace.c", "line":1490, "type":"f", }
+,{"id":"flags_to_propagation_type", "file":"fs/namespace.c", "line":1519, "type":"c", "scope_line":1506, "scope_name":"do_change_type", }
+,{"id":"flash_device", "file":"include/linux/ethtool.h", "line":585, "type":"m", "scope_line":533, "scope_name":"struct ethtool_ops", }
+,{"id":"flat", "file":"include/linux/input.h", "line":55, "type":"m", "scope_line":50, "scope_name":"struct input_absinfo", }
+,{"id":"flat_acpi_madt_oem_check", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":27, "type":"f", }
+,{"id":"flat_apic_id_registered", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":157, "type":"f", }
+,{"id":"flat_get_apic_id", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":132, "type":"f", }
+,{"id":"flat_get_apic_id", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":153, "type":"c", "scope_line":149, "scope_name":"read_xapic_id", }
+,{"id":"flat_init_apic_ldr", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":58, "type":"f", }
+,{"id":"flat_phys_pkg_id", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":162, "type":"f", }
+,{"id":"flat_send_IPI_all", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":122, "type":"f", }
+,{"id":"flat_send_IPI_allbutself", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":99, "type":"f", }
+,{"id":"flat_send_IPI_mask", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":125, "type":"c", "scope_line":122, "scope_name":"flat_send_IPI_all", }
+,{"id":"flat_send_IPI_mask", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":80, "type":"f", }
+,{"id":"flat_send_IPI_mask_allbutself", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":87, "type":"f", }
+,{"id":"flat_target_cpus", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":32, "type":"f", }
+,{"id":"flat_vector_allocation_domain", "file":"arch/x86/kernel/apic/apic_flat_64.c", "line":37, "type":"f", }
+,{"id":"flavour", "file":"include/linux/sunrpc/svcauth.h", "line":52, "type":"m", "scope_line":48, "scope_name":"struct auth_domain", }
+,{"id":"flavour", "file":"include/linux/sunrpc/svcauth.h", "line":98, "type":"m", "scope_line":95, "scope_name":"struct auth_ops", }
+,{"id":"fld_dst", "file":"include/net/flow.h", "line":38, "type":"d", }
+,{"id":"fld_scope", "file":"include/net/flow.h", "line":40, "type":"d", }
+,{"id":"fld_src", "file":"include/net/flow.h", "line":39, "type":"d", }
+,{"id":"flex_array", "file":"include/linux/flex_array.h", "line":19, "type":"s", }
+,{"id":"flex_array_alloc", "file":"lib/flex_array.c", "line":86, "type":"f", }
+,{"id":"flex_array_alloc", "file":"security/selinux/ss/policydb.c", "line":2268, "type":"c", "scope_line":2045, "scope_name":"policydb_read", }
+,{"id":"flex_array_clear", "file":"lib/flex_array.c", "line":207, "type":"f", }
+,{"id":"flex_array_free", "file":"lib/flex_array.c", "line":130, "type":"f", }
+,{"id":"flex_array_free", "file":"security/selinux/ss/policydb.c", "line":752, "type":"c", "scope_line":673, "scope_name":"policydb_destroy", }
+,{"id":"flex_array_free_parts", "file":"lib/flex_array.c", "line":120, "type":"f", }
+,{"id":"flex_array_free_parts", "file":"lib/flex_array.c", "line":132, "type":"c", "scope_line":130, "scope_name":"flex_array_free", }
+,{"id":"flex_array_get", "file":"lib/flex_array.c", "line":275, "type":"f", }
+,{"id":"flex_array_get", "file":"lib/flex_array.c", "line":305, "type":"c", "scope_line":301, "scope_name":"flex_array_get_ptr", }
+,{"id":"flex_array_get", "file":"security/selinux/ss/policydb.c", "line":2281, "type":"c", "scope_line":2045, "scope_name":"policydb_read", }
+,{"id":"flex_array_get", "file":"security/selinux/ss/policydb.c", "line":747, "type":"c", "scope_line":673, "scope_name":"policydb_destroy", }
+,{"id":"flex_array_get", "file":"security/selinux/ss/services.c", "line":630, "type":"c", "scope_line":598, "scope_name":"context_struct_compute_av", }
+,{"id":"flex_array_get", "file":"security/selinux/ss/services.c", "line":632, "type":"c", "scope_line":598, "scope_name":"context_struct_compute_av", }
+,{"id":"flex_array_get_ptr", "file":"lib/flex_array.c", "line":301, "type":"f", }
+,{"id":"flex_array_part", "file":"lib/flex_array.c", "line":27, "type":"s", }
+,{"id":"flex_array_prealloc", "file":"lib/flex_array.c", "line":241, "type":"f", }
+,{"id":"flex_array_prealloc", "file":"security/selinux/ss/policydb.c", "line":2275, "type":"c", "scope_line":2045, "scope_name":"policydb_read", }
+,{"id":"flex_array_put", "file":"lib/flex_array.c", "line":179, "type":"f", }
+,{"id":"flex_array_put_ptr", "file":"include/linux/flex_array.h", "line":73, "type":"d", }
+,{"id":"flex_array_shrink", "file":"lib/flex_array.c", "line":331, "type":"f", }
+,{"id":"flex_groups", "file":"fs/ext4/ext4.h", "line":262, "type":"s", }
+,{"id":"flexible", "file":"kernel/hw_breakpoint.c", "line":74, "type":"m", "scope_line":72, "scope_name":"struct bp_busy_slots", }
+,{"id":"flexible_groups", "file":"include/linux/perf_event.h", "line":785, "type":"m", "scope_line":771, "scope_name":"struct perf_event_context", }
+,{"id":"flg", "file":"fs/partitions/atari.h", "line":16, "type":"m", "scope_line":14, "scope_name":"struct partition_info", }
+,{"id":"flg", "file":"ipc/util.h", "line":56, "type":"m", "scope_line":54, "scope_name":"struct ipc_params", }
+,{"id":"fllink", "file":"fs/eventpoll.c", "line":143, "type":"m", "scope_line":117, "scope_name":"struct epitem", }
+,{"id":"flo", "file":"include/net/xfrm.h", "line":485, "type":"m", "scope_line":473, "scope_name":"struct xfrm_policy", }
+,{"id":"flo", "file":"include/net/xfrm.h", "line":875, "type":"m", "scope_line":868, "scope_name":"struct xfrm_dst", }
+,{"id":"flock", "file":"include/asm-generic/fcntl.h", "line":168, "type":"s", }
+,{"id":"flock", "file":"include/linux/fs.h", "line":1510, "type":"m", "scope_line":1488, "scope_name":"struct file_operations", }
+,{"id":"flock_lock_file", "file":"fs/locks.c", "line":1535, "type":"c", "scope_line":1530, "scope_name":"flock_lock_file_wait", }
+,{"id":"flock_lock_file", "file":"fs/locks.c", "line":725, "type":"f", }
+,{"id":"flock_lock_file_wait", "file":"fs/locks.c", "line":1530, "type":"f", }
+,{"id":"flock_lock_file_wait", "file":"fs/locks.c", "line":1604, "type":"c", "scope_line":1569, "scope_name":"sys_flock", }
+,{"id":"flock_locks_conflict", "file":"fs/locks.c", "line":629, "type":"f", }
+,{"id":"flock_locks_conflict", "file":"fs/locks.c", "line":780, "type":"c", "scope_line":725, "scope_name":"flock_lock_file", }
+,{"id":"flock_make_lock", "file":"fs/locks.c", "line":1589, "type":"c", "scope_line":1569, "scope_name":"sys_flock", }
+,{"id":"flock_make_lock", "file":"fs/locks.c", "line":272, "type":"f", }
+,{"id":"flock_to_posix_lock", "file":"fs/locks.c", "line":1681, "type":"c", "scope_line":1668, "scope_name":"fcntl_getlk", }
+,{"id":"flock_to_posix_lock", "file":"fs/locks.c", "line":1801, "type":"c", "scope_line":1771, "scope_name":"fcntl_setlk", }
+,{"id":"flock_to_posix_lock", "file":"fs/locks.c", "line":311, "type":"f", }
+,{"id":"flock_translate_cmd", "file":"fs/locks.c", "line":257, "type":"f", }
+,{"id":"flock_translate_cmd", "file":"fs/locks.c", "line":276, "type":"c", "scope_line":272, "scope_name":"flock_make_lock", }
+,{"id":"floppy_drive_name", "file":"include/linux/fd.h", "line":118, "type":"t", }
+,{"id":"floppy_drive_params", "file":"include/linux/fd.h", "line":126, "type":"s", }
+,{"id":"floppy_drive_struct", "file":"include/linux/fd.h", "line":199, "type":"s", }
+,{"id":"floppy_fdc_state", "file":"include/linux/fd.h", "line":253, "type":"s", }
+,{"id":"floppy_max_errors", "file":"include/linux/fd.h", "line":87, "type":"s", }
+,{"id":"floppy_raw_cmd", "file":"include/linux/fd.h", "line":325, "type":"s", }
+,{"id":"floppy_struct", "file":"include/linux/fd.h", "line":13, "type":"s", }
+,{"id":"floppy_write_errors", "file":"include/linux/fd.h", "line":291, "type":"s", }
+,{"id":"flow_cache", "file":"net/core/flow.c", "line":54, "type":"s", }
+,{"id":"flow_cache_cpu", "file":"net/core/flow.c", "line":373, "type":"f", }
+,{"id":"flow_cache_cpu_prepare", "file":"net/core/flow.c", "line":360, "type":"f", }
+,{"id":"flow_cache_cpu_prepare", "file":"net/core/flow.c", "line":409, "type":"c", "scope_line":386, "scope_name":"flow_cache_init", }
+,{"id":"flow_cache_entry", "file":"net/core/flow.c", "line":28, "type":"s", }
+,{"id":"flow_cache_flush", "file":"net/core/flow.c", "line":338, "type":"f", }
+,{"id":"flow_cache_flush", "file":"net/xfrm/xfrm_policy.c", "line":2240, "type":"c", "scope_line":2236, "scope_name":"__xfrm_garbage_collect", }
+,{"id":"flow_cache_flush_per_cpu", "file":"net/core/flow.c", "line":326, "type":"f", }
+,{"id":"flow_cache_flush_tasklet", "file":"net/core/flow.c", "line":297, "type":"f", }
+,{"id":"flow_cache_flush_tasklet", "file":"net/core/flow.c", "line":352, "type":"c", "scope_line":338, "scope_name":"flow_cache_flush", }
+,{"id":"flow_cache_gc_list", "file":"net/core/flow.c", "line":70, "type":"v", }
+,{"id":"flow_cache_gc_lock", "file":"net/core/flow.c", "line":69, "type":"v", }
+,{"id":"flow_cache_gc_task", "file":"net/core/flow.c", "line":103, "type":"f", }
+,{"id":"flow_cache_gc_work", "file":"net/core/flow.c", "line":116, "type":"v", }
+,{"id":"flow_cache_genid", "file":"net/core/flow.c", "line":64, "type":"v", }
+,{"id":"flow_cache_global", "file":"net/core/flow.c", "line":66, "type":"v", }
+,{"id":"flow_cache_hash_size", "file":"net/core/flow.c", "line":72, "type":"d", }
+,{"id":"flow_cache_init", "file":"net/core/flow.c", "line":386, "type":"f", }
+,{"id":"flow_cache_init", "file":"net/core/flow.c", "line":425, "type":"c", "scope_line":419, "scope_name":"flow_cache_init_global", }
+,{"id":"flow_cache_init_global", "file":"net/core/flow.c", "line":419, "type":"f", }
+,{"id":"flow_cache_lookup", "file":"net/core/flow.c", "line":214, "type":"f", }
+,{"id":"flow_cache_lookup", "file":"net/xfrm/xfrm_policy.c", "line":1790, "type":"c", "scope_line":1732, "scope_name":"__xfrm_lookup", }
+,{"id":"flow_cache_lookup", "file":"net/xfrm/xfrm_policy.c", "line":2046, "type":"c", "scope_line":1996, "scope_name":"__xfrm_policy_check", }
+,{"id":"flow_cache_new_hashrnd", "file":"net/core/flow.c", "line":75, "type":"f", }
+,{"id":"flow_cache_object", "file":"include/net/flow.h", "line":91, "type":"s", }
+,{"id":"flow_cache_ops", "file":"include/net/flow.h", "line":95, "type":"s", }
+,{"id":"flow_cache_percpu", "file":"net/core/flow.c", "line":40, "type":"s", }
+,{"id":"flow_cache_queue_garbage", "file":"net/core/flow.c", "line":118, "type":"f", }
+,{"id":"flow_cache_queue_garbage", "file":"net/core/flow.c", "line":155, "type":"c", "scope_line":130, "scope_name":"__flow_cache_shrink", }
+,{"id":"flow_cache_queue_garbage", "file":"net/core/flow.c", "line":320, "type":"c", "scope_line":297, "scope_name":"flow_cache_flush_tasklet", }
+,{"id":"flow_cache_shrink", "file":"net/core/flow.c", "line":158, "type":"f", }
+,{"id":"flow_cache_shrink", "file":"net/core/flow.c", "line":250, "type":"c", "scope_line":214, "scope_name":"flow_cache_lookup", }
+,{"id":"flow_cache_uli_match", "file":"include/net/flow.h", "line":112, "type":"f", }
+,{"id":"flow_cachep", "file":"net/core/flow.c", "line":67, "type":"v", }
+,{"id":"flow_compare_t", "file":"net/core/flow.c", "line":185, "type":"t", }
+,{"id":"flow_control", "file":"include/acpi/actbl2.h", "line":738, "type":"m", "scope_line":727, "scope_name":"struct acpi_table_spcr", }
+,{"id":"flow_ctrl", "file":"include/net/bluetooth/rfcomm.h", "line":125, "type":"m", "scope_line":123, "scope_name":"struct rfcomm_pn", }
+,{"id":"flow_ctrl", "file":"include/net/bluetooth/rfcomm.h", "line":137, "type":"m", "scope_line":133, "scope_name":"struct rfcomm_rpn", }
+,{"id":"flow_entry_kill", "file":"net/core/flow.c", "line":114, "type":"c", "scope_line":103, "scope_name":"flow_cache_gc_task", }
+,{"id":"flow_entry_kill", "file":"net/core/flow.c", "line":96, "type":"f", }
+,{"id":"flow_entry_valid", "file":"net/core/flow.c", "line":144, "type":"c", "scope_line":130, "scope_name":"__flow_cache_shrink", }
+,{"id":"flow_entry_valid", "file":"net/core/flow.c", "line":311, "type":"c", "scope_line":297, "scope_name":"flow_cache_flush_tasklet", }
+,{"id":"flow_entry_valid", "file":"net/core/flow.c", "line":87, "type":"f", }
+,{"id":"flow_flush_info", "file":"net/core/flow.c", "line":48, "type":"s", }
+,{"id":"flow_flush_sem", "file":"net/core/flow.c", "line":341, "type":"v", }
+,{"id":"flow_hash_code", "file":"net/core/flow.c", "line":174, "type":"f", }
+,{"id":"flow_hash_code", "file":"net/core/flow.c", "line":238, "type":"c", "scope_line":214, "scope_name":"flow_cache_lookup", }
+,{"id":"flow_key_compare", "file":"net/core/flow.c", "line":194, "type":"f", }
+,{"id":"flow_key_compare", "file":"net/core/flow.c", "line":240, "type":"c", "scope_line":214, "scope_name":"flow_cache_lookup", }
+,{"id":"flow_label", "file":"include/linux/ipv6.h", "line":302, "type":"m", "scope_line":292, "scope_name":"struct ipv6_pinfo", }
+,{"id":"flow_lbl", "file":"include/linux/ipv6.h", "line":121, "type":"m", "scope_line":111, "scope_name":"struct ipv6hdr", }
+,{"id":"flow_lbl", "file":"include/net/xfrm.h", "line":609, "type":"m", "scope_line":583, "scope_name":"struct xfrm_mode_skb_cb", }
+,{"id":"flow_new_hash_rnd", "file":"net/core/flow.c", "line":166, "type":"f", }
+,{"id":"flow_new_hash_rnd", "file":"net/core/flow.c", "line":236, "type":"c", "scope_line":214, "scope_name":"flow_cache_lookup", }
+,{"id":"flow_resolve_t", "file":"include/net/flow.h", "line":101, "type":"t", }
+,{"id":"flow_stopped", "file":"include/linux/tty.h", "line":278, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"flow_type", "file":"include/linux/ethtool.h", "line":361, "type":"m", "scope_line":360, "scope_name":"struct ethtool_rx_flow_spec", }
+,{"id":"flow_type", "file":"include/linux/ethtool.h", "line":379, "type":"m", "scope_line":377, "scope_name":"struct ethtool_rxnfc", }
+,{"id":"flow_type", "file":"include/linux/ethtool.h", "line":399, "type":"m", "scope_line":398, "scope_name":"struct ethtool_rx_ntuple_flow_spec", }
+,{"id":"flowi", "file":"include/net/flow.h", "line":13, "type":"s", }
+,];
+xr_frag_insert('t/4b/9c84c51b25c73a9e6bf042f73f72a2e8393f69.xr', __xr_tmp);

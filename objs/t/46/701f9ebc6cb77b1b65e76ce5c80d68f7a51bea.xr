@@ -1,0 +1,104 @@
+var __xr_tmp = [
+{"id":"security_preserve_bools", "file":"security/selinux/ss/services.c", "line":2401, "type":"f", }
+,{"id":"security_ptrace_access_check", "file":"kernel/ptrace.c", "line":154, "type":"c", "scope_line":119, "scope_name":"__ptrace_may_access", }
+,{"id":"security_ptrace_access_check", "file":"security/security.c", "line":138, "type":"f", }
+,{"id":"security_ptrace_traceme", "file":"kernel/ptrace.c", "line":229, "type":"c", "scope_line":222, "scope_name":"ptrace_traceme", }
+,{"id":"security_ptrace_traceme", "file":"security/security.c", "line":143, "type":"f", }
+,{"id":"security_quota_on", "file":"fs/quota/dquot.c", "line":2183, "type":"c", "scope_line":2180, "scope_name":"dquot_quota_on_path", }
+,{"id":"security_quota_on", "file":"fs/quota/dquot.c", "line":2279, "type":"c", "scope_line":2262, "scope_name":"dquot_quota_on_mount", }
+,{"id":"security_quota_on", "file":"security/security.c", "line":203, "type":"f", }
+,{"id":"security_quotactl", "file":"fs/quota/quota.c", "line":45, "type":"c", "scope_line":22, "scope_name":"check_quotactl_permission", }
+,{"id":"security_quotactl", "file":"fs/quota/quota.c", "line":60, "type":"c", "scope_line":54, "scope_name":"quota_sync_all", }
+,{"id":"security_quotactl", "file":"security/security.c", "line":198, "type":"f", }
+,{"id":"security_real_capable", "file":"security/commoncap.c", "line":139, "type":"c", "scope_line":133, "scope_name":"cap_ptrace_traceme", }
+,{"id":"security_real_capable", "file":"security/security.c", "line":171, "type":"f", }
+,{"id":"security_real_capable", "file":"security/smack/smack_lsm.c", "line":1041, "type":"c", "scope_line":1027, "scope_name":"smack_file_send_sigiotask", }
+,{"id":"security_real_capable", "file":"security/smack/smack_lsm.c", "line":1380, "type":"c", "scope_line":1357, "scope_name":"smack_task_wait", }
+,{"id":"security_real_capable", "file":"security/smack/smack_lsm.c", "line":145, "type":"c", "scope_line":128, "scope_name":"smack_ptrace_traceme", }
+,{"id":"security_real_capable_noaudit", "file":"mm/oom_kill.c", "line":201, "type":"c", "scope_line":152, "scope_name":"oom_badness", }
+,{"id":"security_real_capable_noaudit", "file":"security/security.c", "line":182, "type":"f", }
+,{"id":"security_release_secctx", "file":"fs/sysfs/dir.c", "line":223, "type":"c", "scope_line":208, "scope_name":"release_sysfs_dirent", }
+,{"id":"security_release_secctx", "file":"fs/sysfs/inode.c", "line":182, "type":"c", "scope_line":155, "scope_name":"sysfs_setxattr", }
+,{"id":"security_release_secctx", "file":"fs/xattr.c", "line":156, "type":"c", "scope_line":135, "scope_name":"xattr_getsecurity", }
+,{"id":"security_release_secctx", "file":"include/net/scm.h", "line":95, "type":"c", "scope_line":84, "scope_name":"scm_passec", }
+,{"id":"security_release_secctx", "file":"include/net/xfrm.h", "line":662, "type":"c", "scope_line":652, "scope_name":"xfrm_audit_helper_usrinfo", }
+,{"id":"security_release_secctx", "file":"kernel/audit.c", "line":281, "type":"c", "scope_line":261, "scope_name":"audit_log_config_change", }
+,{"id":"security_release_secctx", "file":"kernel/audit.c", "line":644, "type":"c", "scope_line":622, "scope_name":"audit_log_common_recv_msg", }
+,{"id":"security_release_secctx", "file":"kernel/audit.c", "line":867, "type":"c", "scope_line":651, "scope_name":"audit_receive_msg", }
+,{"id":"security_release_secctx", "file":"kernel/audit.c", "line":874, "type":"c", "scope_line":651, "scope_name":"audit_receive_msg", }
+,{"id":"security_release_secctx", "file":"kernel/auditfilter.c", "line":1072, "type":"c", "scope_line":1052, "scope_name":"audit_log_rule_change", }
+,{"id":"security_release_secctx", "file":"kernel/auditsc.c", "line":1251, "type":"c", "scope_line":1221, "scope_name":"show_special", }
+,{"id":"security_release_secctx", "file":"kernel/auditsc.c", "line":1510, "type":"c", "scope_line":1312, "scope_name":"audit_log_exit", }
+,{"id":"security_release_secctx", "file":"kernel/auditsc.c", "line":2513, "type":"c", "scope_line":2486, "scope_name":"audit_core_dumps", }
+,{"id":"security_release_secctx", "file":"kernel/auditsc.c", "line":939, "type":"c", "scope_line":920, "scope_name":"audit_log_task_context", }
+,{"id":"security_release_secctx", "file":"kernel/auditsc.c", "line":998, "type":"c", "scope_line":978, "scope_name":"audit_log_pid_context", }
+,{"id":"security_release_secctx", "file":"net/ipv4/ip_sockglue.c", "line":128, "type":"c", "scope_line":113, "scope_name":"ip_cmsg_recv_security", }
+,{"id":"security_release_secctx", "file":"net/netlabel/netlabel_unlabeled.c", "line":1204, "type":"c", "scope_line":1126, "scope_name":"netlbl_unlabel_staticlist_gen", }
+,{"id":"security_release_secctx", "file":"net/netlabel/netlabel_unlabeled.c", "line":506, "type":"c", "scope_line":423, "scope_name":"netlbl_unlhsh_add", }
+,{"id":"security_release_secctx", "file":"net/netlabel/netlabel_unlabeled.c", "line":562, "type":"c", "scope_line":527, "scope_name":"netlbl_unlhsh_remove_addr4", }
+,{"id":"security_release_secctx", "file":"net/netlabel/netlabel_unlabeled.c", "line":623, "type":"c", "scope_line":589, "scope_name":"netlbl_unlhsh_remove_addr6", }
+,{"id":"security_release_secctx", "file":"net/netlabel/netlabel_user.c", "line":120, "type":"c", "scope_line":97, "scope_name":"netlbl_audit_start_common", }
+,{"id":"security_release_secctx", "file":"security/security.c", "line":971, "type":"f", }
+,{"id":"security_req_classify_flow", "file":"net/ipv4/inet_connection_sock.c", "line":374, "type":"c", "scope_line":353, "scope_name":"inet_csk_route_req", }
+,{"id":"security_req_classify_flow", "file":"net/ipv4/syncookies.c", "line":360, "type":"c", "scope_line":264, "scope_name":"cookie_v4_check", }
+,{"id":"security_req_classify_flow", "file":"net/ipv6/syncookies.c", "line":245, "type":"c", "scope_line":151, "scope_name":"cookie_v6_check", }
+,{"id":"security_req_classify_flow", "file":"net/ipv6/tcp_ipv6.c", "line":1398, "type":"c", "scope_line":1313, "scope_name":"tcp_v6_syn_recv_sock", }
+,{"id":"security_req_classify_flow", "file":"net/ipv6/tcp_ipv6.c", "line":489, "type":"c", "scope_line":468, "scope_name":"tcp_v6_send_synack", }
+,{"id":"security_req_classify_flow", "file":"security/security.c", "line":1117, "type":"f", }
+,{"id":"security_sb_alloc", "file":"fs/super.c", "line":52, "type":"c", "scope_line":46, "scope_name":"alloc_super", }
+,{"id":"security_sb_alloc", "file":"security/security.c", "line":267, "type":"f", }
+,{"id":"security_sb_clone_mnt_opts", "file":"security/security.c", "line":321, "type":"f", }
+,{"id":"security_sb_copy_data", "file":"fs/super.c", "line":940, "type":"c", "scope_line":917, "scope_name":"vfs_kern_mount", }
+,{"id":"security_sb_copy_data", "file":"security/security.c", "line":277, "type":"f", }
+,{"id":"security_sb_free", "file":"fs/super.c", "line":129, "type":"c", "scope_line":124, "scope_name":"destroy_super", }
+,{"id":"security_sb_free", "file":"fs/super.c", "line":60, "type":"c", "scope_line":46, "scope_name":"alloc_super", }
+,{"id":"security_sb_free", "file":"security/security.c", "line":272, "type":"f", }
+,{"id":"security_sb_kern_mount", "file":"fs/super.c", "line":952, "type":"c", "scope_line":917, "scope_name":"vfs_kern_mount", }
+,{"id":"security_sb_kern_mount", "file":"security/security.c", "line":283, "type":"f", }
+,{"id":"security_sb_mount", "file":"fs/namespace.c", "line":2030, "type":"c", "scope_line":2006, "scope_name":"do_mount", }
+,{"id":"security_sb_mount", "file":"security/security.c", "line":298, "type":"f", }
+,{"id":"security_sb_parse_opts_str", "file":"security/security.c", "line":328, "type":"f", }
+,{"id":"security_sb_pivotroot", "file":"fs/namespace.c", "line":2273, "type":"c", "scope_line":2252, "scope_name":"sys_pivot_root", }
+,{"id":"security_sb_pivotroot", "file":"security/security.c", "line":309, "type":"f", }
+,{"id":"security_sb_set_mnt_opts", "file":"security/security.c", "line":314, "type":"f", }
+,{"id":"security_sb_show_options", "file":"fs/namespace.c", "line":813, "type":"c", "scope_line":798, "scope_name":"show_sb_opts", }
+,{"id":"security_sb_show_options", "file":"security/security.c", "line":288, "type":"f", }
+,{"id":"security_sb_statfs", "file":"fs/statfs.c", "line":56, "type":"c", "scope_line":48, "scope_name":"statfs_by_dentry", }
+,{"id":"security_sb_statfs", "file":"security/security.c", "line":293, "type":"f", }
+,{"id":"security_sb_umount", "file":"fs/namespace.c", "line":1091, "type":"c", "scope_line":1085, "scope_name":"do_umount", }
+,{"id":"security_sb_umount", "file":"security/security.c", "line":304, "type":"f", }
+,{"id":"security_secctx_to_secid", "file":"kernel/cred.c", "line":721, "type":"c", "scope_line":716, "scope_name":"set_security_override_from_ctx", }
+,{"id":"security_secctx_to_secid", "file":"net/netlabel/netlabel_unlabeled.c", "line":1016, "type":"c", "scope_line":990, "scope_name":"netlbl_unlabel_staticadddef", }
+,{"id":"security_secctx_to_secid", "file":"net/netlabel/netlabel_unlabeled.c", "line":967, "type":"c", "scope_line":938, "scope_name":"netlbl_unlabel_staticadd", }
+,{"id":"security_secctx_to_secid", "file":"security/security.c", "line":965, "type":"f", }
+,{"id":"security_secid_to_secctx", "file":"include/net/scm.h", "line":91, "type":"c", "scope_line":84, "scope_name":"scm_passec", }
+,{"id":"security_secid_to_secctx", "file":"include/net/xfrm.h", "line":659, "type":"c", "scope_line":652, "scope_name":"xfrm_audit_helper_usrinfo", }
+,{"id":"security_secid_to_secctx", "file":"kernel/audit.c", "line":275, "type":"c", "scope_line":261, "scope_name":"audit_log_config_change", }
+,{"id":"security_secid_to_secctx", "file":"kernel/audit.c", "line":639, "type":"c", "scope_line":622, "scope_name":"audit_log_common_recv_msg", }
+,{"id":"security_secid_to_secctx", "file":"kernel/audit.c", "line":860, "type":"c", "scope_line":651, "scope_name":"audit_receive_msg", }
+,{"id":"security_secid_to_secctx", "file":"kernel/auditfilter.c", "line":1068, "type":"c", "scope_line":1052, "scope_name":"audit_log_rule_change", }
+,{"id":"security_secid_to_secctx", "file":"kernel/auditsc.c", "line":1246, "type":"c", "scope_line":1221, "scope_name":"show_special", }
+,{"id":"security_secid_to_secctx", "file":"kernel/auditsc.c", "line":1504, "type":"c", "scope_line":1312, "scope_name":"audit_log_exit", }
+,{"id":"security_secid_to_secctx", "file":"kernel/auditsc.c", "line":2509, "type":"c", "scope_line":2486, "scope_name":"audit_core_dumps", }
+,{"id":"security_secid_to_secctx", "file":"kernel/auditsc.c", "line":931, "type":"c", "scope_line":920, "scope_name":"audit_log_task_context", }
+,{"id":"security_secid_to_secctx", "file":"kernel/auditsc.c", "line":993, "type":"c", "scope_line":978, "scope_name":"audit_log_pid_context", }
+,{"id":"security_secid_to_secctx", "file":"net/ipv4/ip_sockglue.c", "line":123, "type":"c", "scope_line":113, "scope_name":"ip_cmsg_recv_security", }
+,{"id":"security_secid_to_secctx", "file":"net/netlabel/netlabel_unlabeled.c", "line":1197, "type":"c", "scope_line":1126, "scope_name":"netlbl_unlabel_staticlist_gen", }
+,{"id":"security_secid_to_secctx", "file":"net/netlabel/netlabel_unlabeled.c", "line":502, "type":"c", "scope_line":423, "scope_name":"netlbl_unlhsh_add", }
+,{"id":"security_secid_to_secctx", "file":"net/netlabel/netlabel_unlabeled.c", "line":558, "type":"c", "scope_line":527, "scope_name":"netlbl_unlhsh_remove_addr4", }
+,{"id":"security_secid_to_secctx", "file":"net/netlabel/netlabel_unlabeled.c", "line":619, "type":"c", "scope_line":589, "scope_name":"netlbl_unlhsh_remove_addr6", }
+,{"id":"security_secid_to_secctx", "file":"net/netlabel/netlabel_user.c", "line":115, "type":"c", "scope_line":97, "scope_name":"netlbl_audit_start_common", }
+,{"id":"security_secid_to_secctx", "file":"security/security.c", "line":959, "type":"f", }
+,{"id":"security_sem_alloc", "file":"ipc/sem.c", "line":265, "type":"c", "scope_line":238, "scope_name":"newary", }
+,{"id":"security_sem_alloc", "file":"security/security.c", "line":904, "type":"f", }
+,{"id":"security_sem_associate", "file":"ipc/sem.c", "line":303, "type":"c", "scope_line":298, "scope_name":"sem_security", }
+,{"id":"security_sem_associate", "file":"security/security.c", "line":914, "type":"f", }
+,{"id":"security_sem_free", "file":"ipc/sem.c", "line":273, "type":"c", "scope_line":238, "scope_name":"newary", }
+,{"id":"security_sem_free", "file":"ipc/sem.c", "line":733, "type":"c", "scope_line":702, "scope_name":"freeary", }
+,{"id":"security_sem_free", "file":"security/security.c", "line":909, "type":"f", }
+,{"id":"security_sem_semctl", "file":"ipc/sem.c", "line":1056, "type":"c", "scope_line":1037, "scope_name":"semctl_down", }
+,{"id":"security_sem_semctl", "file":"ipc/sem.c", "line":774, "type":"c", "scope_line":761, "scope_name":"semctl_nolock", }
+,{"id":"security_sem_semctl", "file":"ipc/sem.c", "line":823, "type":"c", "scope_line":761, "scope_name":"semctl_nolock", }
+,{"id":"security_sem_semctl", "file":"ipc/sem.c", "line":868, "type":"c", "scope_line":846, "scope_name":"semctl_main", }
+,];
+xr_frag_insert('t/46/701f9ebc6cb77b1b65e76ce5c80d68f7a51bea.xr', __xr_tmp);

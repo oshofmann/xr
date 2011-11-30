@@ -1,0 +1,75 @@
+var __xr_tmp = [
+{"id":"lock_sock", "file":"net/core/skbuff.c", "line":1580, "type":"c", "scope_line":1528, "scope_name":"skb_splice_bits", }
+,{"id":"lock_sock", "file":"net/core/sock.c", "line":1628, "type":"c", "scope_line":1621, "scope_name":"sk_wait_data", }
+,{"id":"lock_sock", "file":"net/core/sock.c", "line":454, "type":"c", "scope_line":410, "scope_name":"sock_bindtodevice", }
+,{"id":"lock_sock", "file":"net/core/sock.c", "line":504, "type":"c", "scope_line":480, "scope_name":"sock_setsockopt", }
+,{"id":"lock_sock", "file":"net/core/stream.c", "line":103, "type":"c", "scope_line":95, "scope_name":"sk_stream_wait_close", }
+,{"id":"lock_sock", "file":"net/core/stream.c", "line":144, "type":"c", "scope_line":117, "scope_name":"sk_stream_wait_memory", }
+,{"id":"lock_sock", "file":"net/core/stream.c", "line":74, "type":"c", "scope_line":55, "scope_name":"sk_stream_wait_connect", }
+,{"id":"lock_sock", "file":"net/ipv4/af_inet.c", "line":176, "type":"c", "scope_line":172, "scope_name":"inet_autobind", }
+,{"id":"lock_sock", "file":"net/ipv4/af_inet.c", "line":198, "type":"c", "scope_line":192, "scope_name":"inet_listen", }
+,{"id":"lock_sock", "file":"net/ipv4/af_inet.c", "line":499, "type":"c", "scope_line":451, "scope_name":"inet_bind", }
+,{"id":"lock_sock", "file":"net/ipv4/af_inet.c", "line":563, "type":"c", "scope_line":549, "scope_name":"inet_wait_for_connect", }
+,{"id":"lock_sock", "file":"net/ipv4/af_inet.c", "line":586, "type":"c", "scope_line":576, "scope_name":"inet_stream_connect", }
+,{"id":"lock_sock", "file":"net/ipv4/af_inet.c", "line":675, "type":"c", "scope_line":666, "scope_name":"inet_accept", }
+,{"id":"lock_sock", "file":"net/ipv4/af_inet.c", "line":787, "type":"c", "scope_line":773, "scope_name":"inet_shutdown", }
+,{"id":"lock_sock", "file":"net/ipv4/inet_connection_sock.c", "line":246, "type":"c", "scope_line":220, "scope_name":"inet_csk_wait_for_connect", }
+,{"id":"lock_sock", "file":"net/ipv4/inet_connection_sock.c", "line":273, "type":"c", "scope_line":267, "scope_name":"inet_csk_accept", }
+,{"id":"lock_sock", "file":"net/ipv4/ip_sockglue.c", "line":1011, "type":"c", "scope_line":996, "scope_name":"ip_setsockopt", }
+,{"id":"lock_sock", "file":"net/ipv4/ip_sockglue.c", "line":1040, "type":"c", "scope_line":1021, "scope_name":"compat_ip_setsockopt", }
+,{"id":"lock_sock", "file":"net/ipv4/ip_sockglue.c", "line":1074, "type":"c", "scope_line":1056, "scope_name":"do_ip_getsockopt", }
+,{"id":"lock_sock", "file":"net/ipv4/ip_sockglue.c", "line":1290, "type":"c", "scope_line":1275, "scope_name":"ip_getsockopt", }
+,{"id":"lock_sock", "file":"net/ipv4/ip_sockglue.c", "line":1324, "type":"c", "scope_line":1304, "scope_name":"compat_ip_getsockopt", }
+,{"id":"lock_sock", "file":"net/ipv4/ip_sockglue.c", "line":491, "type":"c", "scope_line":455, "scope_name":"do_ip_setsockopt", }
+,{"id":"lock_sock", "file":"net/ipv4/raw.c", "line":586, "type":"c", "scope_line":451, "scope_name":"raw_sendmsg", }
+,{"id":"lock_sock", "file":"net/ipv4/raw.c", "line":628, "type":"c", "scope_line":626, "scope_name":"raw_destroy", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":1416, "type":"c", "scope_line":1400, "scope_name":"tcp_recvmsg", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":1599, "type":"c", "scope_line":1400, "scope_name":"tcp_recvmsg", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":1886, "type":"c", "scope_line":1880, "scope_name":"tcp_close", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":2140, "type":"c", "scope_line":2118, "scope_name":"do_tcp_setsockopt", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":2168, "type":"c", "scope_line":2118, "scope_name":"do_tcp_setsockopt", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":2194, "type":"c", "scope_line":2118, "scope_name":"do_tcp_setsockopt", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":2242, "type":"c", "scope_line":2118, "scope_name":"do_tcp_setsockopt", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":477, "type":"c", "scope_line":467, "scope_name":"tcp_ioctl", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":624, "type":"c", "scope_line":601, "scope_name":"tcp_splice_read", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":668, "type":"c", "scope_line":601, "scope_name":"tcp_splice_read", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":875, "type":"c", "scope_line":865, "scope_name":"tcp_sendpage", }
+,{"id":"lock_sock", "file":"net/ipv4/tcp.c", "line":918, "type":"c", "scope_line":907, "scope_name":"tcp_sendmsg", }
+,{"id":"lock_sock", "file":"net/ipv4/udp.c", "line":1007, "type":"c", "scope_line":989, "scope_name":"udp_sendpage", }
+,{"id":"lock_sock", "file":"net/ipv4/udp.c", "line":1702, "type":"c", "scope_line":1681, "scope_name":"udp_lib_setsockopt", }
+,{"id":"lock_sock", "file":"net/ipv4/udp.c", "line":807, "type":"c", "scope_line":772, "scope_name":"udp_sendmsg", }
+,{"id":"lock_sock", "file":"net/ipv4/udp.c", "line":928, "type":"c", "scope_line":772, "scope_name":"udp_sendmsg", }
+,{"id":"lock_sock", "file":"net/ipv6/af_inet6.c", "line":283, "type":"c", "scope_line":257, "scope_name":"inet6_bind", }
+,{"id":"lock_sock", "file":"net/ipv6/ipv6_sockglue.c", "line":1037, "type":"c", "scope_line":896, "scope_name":"do_ipv6_getsockopt", }
+,{"id":"lock_sock", "file":"net/ipv6/ipv6_sockglue.c", "line":1207, "type":"c", "scope_line":1187, "scope_name":"ipv6_getsockopt", }
+,{"id":"lock_sock", "file":"net/ipv6/ipv6_sockglue.c", "line":1249, "type":"c", "scope_line":1221, "scope_name":"compat_ipv6_getsockopt", }
+,{"id":"lock_sock", "file":"net/ipv6/ipv6_sockglue.c", "line":147, "type":"c", "scope_line":124, "scope_name":"do_ipv6_setsockopt", }
+,{"id":"lock_sock", "file":"net/ipv6/ipv6_sockglue.c", "line":814, "type":"c", "scope_line":798, "scope_name":"ipv6_setsockopt", }
+,{"id":"lock_sock", "file":"net/ipv6/ipv6_sockglue.c", "line":850, "type":"c", "scope_line":826, "scope_name":"compat_ipv6_setsockopt", }
+,{"id":"lock_sock", "file":"net/ipv6/ipv6_sockglue.c", "line":929, "type":"c", "scope_line":896, "scope_name":"do_ipv6_getsockopt", }
+,{"id":"lock_sock", "file":"net/ipv6/ipv6_sockglue.c", "line":948, "type":"c", "scope_line":896, "scope_name":"do_ipv6_getsockopt", }
+,{"id":"lock_sock", "file":"net/ipv6/raw.c", "line":1170, "type":"c", "scope_line":1168, "scope_name":"raw6_destroy", }
+,{"id":"lock_sock", "file":"net/ipv6/raw.c", "line":255, "type":"c", "scope_line":238, "scope_name":"rawv6_bind", }
+,{"id":"lock_sock", "file":"net/ipv6/raw.c", "line":894, "type":"c", "scope_line":725, "scope_name":"rawv6_sendmsg", }
+,{"id":"lock_sock", "file":"net/ipv6/udp.c", "line":1012, "type":"c", "scope_line":931, "scope_name":"udpv6_sendmsg", }
+,{"id":"lock_sock", "file":"net/ipv6/udp.c", "line":1153, "type":"c", "scope_line":931, "scope_name":"udpv6_sendmsg", }
+,{"id":"lock_sock", "file":"net/ipv6/udp.c", "line":1227, "type":"c", "scope_line":1225, "scope_name":"udpv6_destroy_sock", }
+,{"id":"lock_sock", "file":"net/packet/af_packet.c", "line":1344, "type":"c", "scope_line":1337, "scope_name":"packet_do_bind", }
+,{"id":"lock_sock", "file":"net/packet/af_packet.c", "line":2436, "type":"c", "scope_line":2368, "scope_name":"packet_set_ring", }
+,{"id":"lock_sock", "file":"net/socket.c", "line":1099, "type":"c", "scope_line":1091, "scope_name":"sock_fasync", }
+,{"id":"lock_sock", "file":"security/selinux/netlabel.c", "line":412, "type":"c", "scope_line":399, "scope_name":"selinux_netlbl_socket_setsockopt", }
+,{"id":"lock_sock_fast", "file":"net/core/datagram.c", "line":240, "type":"c", "scope_line":231, "scope_name":"skb_free_datagram_locked", }
+,{"id":"lock_sock_fast", "file":"net/core/sock.c", "line":2042, "type":"f", }
+,{"id":"lock_sock_fast", "file":"net/ipv4/udp.c", "line":1066, "type":"c", "scope_line":1045, "scope_name":"first_packet_length", }
+,{"id":"lock_sock_fast", "file":"net/ipv4/udp.c", "line":1202, "type":"c", "scope_line":1117, "scope_name":"udp_recvmsg", }
+,{"id":"lock_sock_fast", "file":"net/ipv4/udp.c", "line":1673, "type":"c", "scope_line":1671, "scope_name":"udp_destroy_sock", }
+,{"id":"lock_sock_fast", "file":"net/ipv6/udp.c", "line":437, "type":"c", "scope_line":328, "scope_name":"udpv6_recvmsg", }
+,{"id":"lock_sock_nested", "file":"include/net/sock.h", "line":1022, "type":"c", "scope_line":1020, "scope_name":"lock_sock", }
+,{"id":"lock_sock_nested", "file":"net/core/sock.c", "line":1999, "type":"f", }
+,{"id":"lock_spinners", "file":"arch/x86/xen/spinlock.c", "line":152, "type":"v", }
+,{"id":"lock_stateid", "file":"include/linux/nfs_xdr.h", "line":275, "type":"m", "scope_line":271, "scope_name":"struct nfs_lock_args", }
+,{"id":"lock_super", "file":"fs/ext3/super.c", "line":2518, "type":"c", "scope_line":2515, "scope_name":"ext3_unfreeze", }
+,{"id":"lock_super", "file":"fs/ext3/super.c", "line":2544, "type":"c", "scope_line":2528, "scope_name":"ext3_remount", }
+,{"id":"lock_super", "file":"fs/ext4/super.c", "line":3638, "type":"c", "scope_line":3636, "scope_name":"ext4_write_super", }
+,];
+xr_frag_insert('t/b4/8f5bd2f0e563303f3c9f84c87677b4796641f1.xr', __xr_tmp);

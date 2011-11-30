@@ -1,0 +1,285 @@
+var __xr_tmp = [
+{"id":"buffer_eopnotsupp", "file":"fs/jbd2/commit.c", "line":172, "type":"c", "scope_line":164, "scope_name":"journal_wait_on_commit_record", }
+,{"id":"buffer_eopnotsupp", "file":"include/linux/buffer_head.h", "line":127, "type":"f", }
+,{"id":"buffer_exit_cpu", "file":"fs/buffer.c", "line":3251, "type":"f", }
+,{"id":"buffer_exit_cpu", "file":"fs/buffer.c", "line":3269, "type":"c", "scope_line":3265, "scope_name":"buffer_cpu_notify", }
+,{"id":"buffer_field", "file":"drivers/acpi/acpica/acobject.h", "line":396, "type":"m", "scope_line":379, "scope_name":"union acpi_operand_object", }
+,{"id":"buffer_freed", "file":"fs/ext3/inode.c", "line":1172, "type":"c", "scope_line":1166, "scope_name":"do_journal_get_write_access", }
+,{"id":"buffer_freed", "file":"fs/ext3/inode.c", "line":1290, "type":"c", "scope_line":1288, "scope_name":"write_end_fn", }
+,{"id":"buffer_freed", "file":"fs/ext3/inode.c", "line":1978, "type":"c", "scope_line":1951, "scope_name":"ext3_block_truncate_page", }
+,{"id":"buffer_freed", "file":"fs/ext4/inode.c", "line":1538, "type":"c", "scope_line":1532, "scope_name":"do_journal_get_write_access", }
+,{"id":"buffer_freed", "file":"fs/ext4/inode.c", "line":1656, "type":"c", "scope_line":1654, "scope_name":"write_end_fn", }
+,{"id":"buffer_freed", "file":"fs/ext4/inode.c", "line":4186, "type":"c", "scope_line":4152, "scope_name":"ext4_block_truncate_page", }
+,{"id":"buffer_freed", "file":"fs/jbd/commit.c", "line":86, "type":"c", "scope_line":84, "scope_name":"release_data_buffer", }
+,{"id":"buffer_freed", "file":"fs/jbd/commit.c", "line":876, "type":"c", "scope_line":303, "scope_name":"journal_commit_transaction", }
+,{"id":"buffer_freed", "file":"fs/jbd/transaction.c", "line":2159, "type":"c", "scope_line":2135, "scope_name":"__journal_refile_buffer", }
+,{"id":"buffer_freed", "file":"fs/jbd2/commit.c", "line":931, "type":"c", "scope_line":341, "scope_name":"jbd2_journal_commit_transaction", }
+,{"id":"buffer_freed", "file":"fs/jbd2/transaction.c", "line":2065, "type":"c", "scope_line":2041, "scope_name":"__jbd2_journal_refile_buffer", }
+,{"id":"buffer_freed", "file":"include/linux/jbd.h", "line":294, "type":"f", }
+,{"id":"buffer_freed", "file":"include/linux/jbd2.h", "line":327, "type":"f", }
+,{"id":"buffer_head", "file":"include/linux/buffer_head.h", "line":60, "type":"s", }
+,{"id":"buffer_heads_over_limit", "file":"include/linux/buffer_head.h", "line":192, "type":"v", }
+,{"id":"buffer_init", "file":"drivers/acpi/acpica/acstruct.h", "line":143, "type":"m", "scope_line":132, "scope_name":"struct acpi_init_walk_info", }
+,{"id":"buffer_init", "file":"fs/buffer.c", "line":3317, "type":"f", }
+,{"id":"buffer_init", "file":"init/main.c", "line":681, "type":"c", "scope_line":536, "scope_name":"start_kernel", }
+,{"id":"buffer_io_error", "file":"fs/buffer.c", "line":114, "type":"f", }
+,{"id":"buffer_io_error", "file":"fs/buffer.c", "line":160, "type":"c", "scope_line":152, "scope_name":"end_buffer_write_sync", }
+,{"id":"buffer_io_error", "file":"fs/buffer.c", "line":324, "type":"c", "scope_line":308, "scope_name":"end_buffer_async_read", }
+,{"id":"buffer_io_error", "file":"fs/buffer.c", "line":385, "type":"c", "scope_line":370, "scope_name":"end_buffer_async_write", }
+,{"id":"buffer_iter", "file":"include/linux/ftrace_event.h", "line":56, "type":"m", "scope_line":50, "scope_name":"struct trace_iterator", }
+,{"id":"buffer_jbd", "file":"fs/jbd/commit.c", "line":244, "type":"c", "scope_line":190, "scope_name":"journal_submit_data_buffers", }
+,{"id":"buffer_jbd", "file":"fs/jbd/commit.c", "line":481, "type":"c", "scope_line":303, "scope_name":"journal_commit_transaction", }
+,{"id":"buffer_jbd", "file":"fs/jbd/journal.c", "line":1801, "type":"c", "scope_line":1795, "scope_name":"journal_add_journal_head", }
+,{"id":"buffer_jbd", "file":"fs/jbd/journal.c", "line":1807, "type":"c", "scope_line":1795, "scope_name":"journal_add_journal_head", }
+,{"id":"buffer_jbd", "file":"fs/jbd/journal.c", "line":1843, "type":"c", "scope_line":1838, "scope_name":"journal_grab_journal_head", }
+,{"id":"buffer_jbd", "file":"fs/jbd/journal.c", "line":1863, "type":"c", "scope_line":1851, "scope_name":"__journal_remove_journal_head", }
+,{"id":"buffer_jbd", "file":"fs/jbd/transaction.c", "line":1248, "type":"c", "scope_line":1234, "scope_name":"journal_forget", }
+,{"id":"buffer_jbd", "file":"fs/jbd/transaction.c", "line":1306, "type":"c", "scope_line":1234, "scope_name":"journal_forget", }
+,{"id":"buffer_jbd", "file":"fs/jbd/transaction.c", "line":1747, "type":"c", "scope_line":1720, "scope_name":"journal_try_to_free_buffers", }
+,{"id":"buffer_jbd", "file":"fs/jbd/transaction.c", "line":1856, "type":"c", "scope_line":1841, "scope_name":"journal_unmap_buffer", }
+,{"id":"buffer_jbd", "file":"fs/jbd2/journal.c", "line":2058, "type":"c", "scope_line":2052, "scope_name":"jbd2_journal_add_journal_head", }
+,{"id":"buffer_jbd", "file":"fs/jbd2/journal.c", "line":2064, "type":"c", "scope_line":2052, "scope_name":"jbd2_journal_add_journal_head", }
+,{"id":"buffer_jbd", "file":"fs/jbd2/journal.c", "line":2100, "type":"c", "scope_line":2095, "scope_name":"jbd2_journal_grab_journal_head", }
+,{"id":"buffer_jbd", "file":"fs/jbd2/journal.c", "line":2120, "type":"c", "scope_line":2108, "scope_name":"__journal_remove_journal_head", }
+,{"id":"buffer_jbd", "file":"fs/jbd2/transaction.c", "line":1172, "type":"c", "scope_line":1158, "scope_name":"jbd2_journal_forget", }
+,{"id":"buffer_jbd", "file":"fs/jbd2/transaction.c", "line":1230, "type":"c", "scope_line":1158, "scope_name":"jbd2_journal_forget", }
+,{"id":"buffer_jbd", "file":"fs/jbd2/transaction.c", "line":1666, "type":"c", "scope_line":1638, "scope_name":"jbd2_journal_try_to_free_buffers", }
+,{"id":"buffer_jbd", "file":"fs/jbd2/transaction.c", "line":1775, "type":"c", "scope_line":1760, "scope_name":"journal_unmap_buffer", }
+,{"id":"buffer_jbd", "file":"include/linux/jbd.h", "line":286, "type":"f", }
+,{"id":"buffer_jbd", "file":"include/linux/jbd2.h", "line":319, "type":"f", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd/checkpoint.c", "line":307, "type":"c", "scope_line":279, "scope_name":"__process_buffer", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd/checkpoint.c", "line":703, "type":"c", "scope_line":699, "scope_name":"__journal_insert_checkpoint", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd/commit.c", "line":741, "type":"c", "scope_line":303, "scope_name":"journal_commit_transaction", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd/commit.c", "line":881, "type":"c", "scope_line":303, "scope_name":"journal_commit_transaction", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd/journal.c", "line":302, "type":"c", "scope_line":277, "scope_name":"journal_write_metadata_buffer", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd/transaction.c", "line":1954, "type":"c", "scope_line":1841, "scope_name":"journal_unmap_buffer", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd/transaction.c", "line":1981, "type":"c", "scope_line":1841, "scope_name":"journal_unmap_buffer", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd2/checkpoint.c", "line":309, "type":"c", "scope_line":280, "scope_name":"__process_buffer", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd2/checkpoint.c", "line":733, "type":"c", "scope_line":729, "scope_name":"__jbd2_journal_insert_checkpoint", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd2/commit.c", "line":790, "type":"c", "scope_line":341, "scope_name":"jbd2_journal_commit_transaction", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd2/commit.c", "line":936, "type":"c", "scope_line":341, "scope_name":"jbd2_journal_commit_transaction", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd2/journal.c", "line":310, "type":"c", "scope_line":285, "scope_name":"jbd2_journal_write_metadata_buffer", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd2/transaction.c", "line":1865, "type":"c", "scope_line":1760, "scope_name":"journal_unmap_buffer", }
+,{"id":"buffer_jbddirty", "file":"fs/jbd2/transaction.c", "line":1892, "type":"c", "scope_line":1760, "scope_name":"journal_unmap_buffer", }
+,{"id":"buffer_jbddirty", "file":"include/linux/jbd.h", "line":288, "type":"f", }
+,{"id":"buffer_jbddirty", "file":"include/linux/jbd2.h", "line":321, "type":"f", }
+,{"id":"buffer_jwrite", "file":"fs/jbd/checkpoint.c", "line":324, "type":"c", "scope_line":279, "scope_name":"__process_buffer", }
+,{"id":"buffer_jwrite", "file":"fs/jbd2/checkpoint.c", "line":326, "type":"c", "scope_line":280, "scope_name":"__process_buffer", }
+,{"id":"buffer_jwrite", "file":"include/linux/jbd.h", "line":287, "type":"f", }
+,{"id":"buffer_jwrite", "file":"include/linux/jbd2.h", "line":320, "type":"f", }
+,{"id":"buffer_length", "file":"drivers/acpi/acpica/amlresrc.h", "line":96, "type":"m", "scope_line":95, "scope_name":"struct asl_resource_node", }
+,{"id":"buffer_length", "file":"include/linux/fd.h", "line":355, "type":"m", "scope_line":325, "scope_name":"struct floppy_raw_cmd", }
+,{"id":"buffer_length", "file":"include/linux/usbdevice_fs.h", "line":102, "type":"m", "scope_line":96, "scope_name":"struct usbdevfs_urb", }
+,{"id":"buffer_length", "file":"include/linux/usbdevice_fs.h", "line":160, "type":"m", "scope_line":154, "scope_name":"struct usbdevfs_urb32", }
+,{"id":"buffer_lock", "file":"drivers/input/evdev.c", "line":42, "type":"m", "scope_line":39, "scope_name":"struct evdev_client", }
+,{"id":"buffer_locked", "file":"fs/buffer.c", "line":2909, "type":"c", "scope_line":2904, "scope_name":"submit_bh", }
+,{"id":"buffer_locked", "file":"fs/buffer.c", "line":3300, "type":"c", "scope_line":3298, "scope_name":"bh_submit_read", }
+,{"id":"buffer_locked", "file":"fs/buffer.c", "line":343, "type":"c", "scope_line":308, "scope_name":"end_buffer_async_read", }
+,{"id":"buffer_locked", "file":"fs/buffer.c", "line":405, "type":"c", "scope_line":370, "scope_name":"end_buffer_async_write", }
+,{"id":"buffer_locked", "file":"fs/buffer.c", "line":549, "type":"c", "scope_line":539, "scope_name":"osync_buffers_list", }
+,{"id":"buffer_locked", "file":"fs/buffer.c", "line":765, "type":"c", "scope_line":748, "scope_name":"fsync_buffers_list", }
+,{"id":"buffer_locked", "file":"fs/ext4/balloc.c", "line":95, "type":"c", "scope_line":86, "scope_name":"ext4_init_block_bitmap", }
+,{"id":"buffer_locked", "file":"fs/ext4/extents.c", "line":1053, "type":"c", "scope_line":816, "scope_name":"ext4_ext_split", }
+,{"id":"buffer_locked", "file":"fs/ext4/ialloc.c", "line":74, "type":"c", "scope_line":68, "scope_name":"ext4_init_inode_bitmap", }
+,{"id":"buffer_locked", "file":"fs/ext4/inode.c", "line":2481, "type":"c", "scope_line":2424, "scope_name":"__mpage_da_writepage", }
+,{"id":"buffer_locked", "file":"fs/jbd/checkpoint.c", "line":223, "type":"c", "scope_line":201, "scope_name":"__wait_cp_io", }
+,{"id":"buffer_locked", "file":"fs/jbd/checkpoint.c", "line":285, "type":"c", "scope_line":279, "scope_name":"__process_buffer", }
+,{"id":"buffer_locked", "file":"fs/jbd/checkpoint.c", "line":96, "type":"c", "scope_line":91, "scope_name":"__try_to_free_cp_buf", }
+,{"id":"buffer_locked", "file":"fs/jbd/commit.c", "line":266, "type":"c", "scope_line":190, "scope_name":"journal_submit_data_buffers", }
+,{"id":"buffer_locked", "file":"fs/jbd/commit.c", "line":458, "type":"c", "scope_line":303, "scope_name":"journal_commit_transaction", }
+,{"id":"buffer_locked", "file":"fs/jbd/commit.c", "line":711, "type":"c", "scope_line":303, "scope_name":"journal_commit_transaction", }
+,{"id":"buffer_locked", "file":"fs/jbd/commit.c", "line":767, "type":"c", "scope_line":303, "scope_name":"journal_commit_transaction", }
+,{"id":"buffer_locked", "file":"fs/jbd/recovery.c", "line":102, "type":"c", "scope_line":68, "scope_name":"do_readahead", }
+,{"id":"buffer_locked", "file":"fs/jbd/transaction.c", "line":1653, "type":"c", "scope_line":1646, "scope_name":"__journal_try_to_free_buffer", }
+,{"id":"buffer_locked", "file":"fs/jbd/transaction.c", "line":810, "type":"c", "scope_line":781, "scope_name":"journal_get_create_access", }
+,{"id":"buffer_locked", "file":"fs/jbd2/checkpoint.c", "line":226, "type":"c", "scope_line":204, "scope_name":"__wait_cp_io", }
+,{"id":"buffer_locked", "file":"fs/jbd2/checkpoint.c", "line":286, "type":"c", "scope_line":280, "scope_name":"__process_buffer", }
+,{"id":"buffer_locked", "file":"fs/jbd2/checkpoint.c", "line":98, "type":"c", "scope_line":93, "scope_name":"__try_to_free_cp_buf", }
+,{"id":"buffer_locked", "file":"fs/jbd2/commit.c", "line":760, "type":"c", "scope_line":341, "scope_name":"jbd2_journal_commit_transaction", }
+,{"id":"buffer_locked", "file":"fs/jbd2/commit.c", "line":816, "type":"c", "scope_line":341, "scope_name":"jbd2_journal_commit_transaction", }
+,{"id":"buffer_locked", "file":"fs/jbd2/recovery.c", "line":103, "type":"c", "scope_line":69, "scope_name":"do_readahead", }
+,{"id":"buffer_locked", "file":"fs/jbd2/transaction.c", "line":1579, "type":"c", "scope_line":1572, "scope_name":"__journal_try_to_free_buffer", }
+,{"id":"buffer_locked", "file":"fs/jbd2/transaction.c", "line":880, "type":"c", "scope_line":851, "scope_name":"jbd2_journal_get_create_access", }
+,{"id":"buffer_locked", "file":"fs/mpage.c", "line":482, "type":"c", "scope_line":451, "scope_name":"__mpage_writepage", }
+,{"id":"buffer_locked", "file":"include/linux/buffer_head.h", "line":117, "type":"f", }
+,{"id":"buffer_locked", "file":"include/linux/buffer_head.h", "line":310, "type":"c", "scope_line":307, "scope_name":"wait_on_buffer", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":1681, "type":"c", "scope_line":1629, "scope_name":"__block_write_full_page", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":1700, "type":"c", "scope_line":1629, "scope_name":"__block_write_full_page", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":1766, "type":"c", "scope_line":1629, "scope_name":"__block_write_full_page", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":1872, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":207, "type":"c", "scope_line":184, "scope_name":"__find_get_block_slow", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":2145, "type":"c", "scope_line":2120, "scope_name":"block_read_full_page", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":2155, "type":"c", "scope_line":2120, "scope_name":"block_read_full_page", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":2515, "type":"c", "scope_line":2439, "scope_name":"nobh_write_begin", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":2523, "type":"c", "scope_line":2439, "scope_name":"nobh_write_begin", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":2716, "type":"c", "scope_line":2668, "scope_name":"nobh_truncate_page", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":2787, "type":"c", "scope_line":2746, "scope_name":"block_truncate_page", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":2793, "type":"c", "scope_line":2746, "scope_name":"block_truncate_page", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":2910, "type":"c", "scope_line":2904, "scope_name":"submit_bh", }
+,{"id":"buffer_mapped", "file":"fs/buffer.c", "line":975, "type":"c", "scope_line":966, "scope_name":"init_page_buffers", }
+,{"id":"buffer_mapped", "file":"fs/direct-io.c", "line":870, "type":"c", "scope_line":833, "scope_name":"do_direct_IO", }
+,{"id":"buffer_mapped", "file":"fs/direct-io.c", "line":903, "type":"c", "scope_line":833, "scope_name":"do_direct_IO", }
+,{"id":"buffer_mapped", "file":"fs/ext2/super.c", "line":1398, "type":"c", "scope_line":1371, "scope_name":"ext2_quota_read", }
+,{"id":"buffer_mapped", "file":"fs/ext3/inode.c", "line":1046, "type":"c", "scope_line":1023, "scope_name":"ext3_getblk", }
+,{"id":"buffer_mapped", "file":"fs/ext3/inode.c", "line":1172, "type":"c", "scope_line":1166, "scope_name":"do_journal_get_write_access", }
+,{"id":"buffer_mapped", "file":"fs/ext3/inode.c", "line":1282, "type":"c", "scope_line":1276, "scope_name":"journal_dirty_data_fn", }
+,{"id":"buffer_mapped", "file":"fs/ext3/inode.c", "line":1290, "type":"c", "scope_line":1288, "scope_name":"write_end_fn", }
+,{"id":"buffer_mapped", "file":"fs/ext3/inode.c", "line":1501, "type":"c", "scope_line":1499, "scope_name":"buffer_unmapped", }
+,{"id":"buffer_mapped", "file":"fs/ext3/inode.c", "line":1983, "type":"c", "scope_line":1951, "scope_name":"ext3_block_truncate_page", }
+,{"id":"buffer_mapped", "file":"fs/ext3/inode.c", "line":1987, "type":"c", "scope_line":1951, "scope_name":"ext3_block_truncate_page", }
+,{"id":"buffer_mapped", "file":"fs/ext4/inode.c", "line":1538, "type":"c", "scope_line":1532, "scope_name":"do_journal_get_write_access", }
+,{"id":"buffer_mapped", "file":"fs/ext4/inode.c", "line":1656, "type":"c", "scope_line":1654, "scope_name":"write_end_fn", }
+,{"id":"buffer_mapped", "file":"fs/ext4/inode.c", "line":2125, "type":"c", "scope_line":2060, "scope_name":"mpage_put_bnr_to_bhs", }
+,{"id":"buffer_mapped", "file":"fs/ext4/inode.c", "line":2494, "type":"c", "scope_line":2424, "scope_name":"__mpage_da_writepage", }
+,{"id":"buffer_mapped", "file":"fs/ext4/inode.c", "line":3249, "type":"c", "scope_line":3235, "scope_name":"ext4_da_should_update_i_disksize", }
+,{"id":"buffer_mapped", "file":"fs/ext4/inode.c", "line":4191, "type":"c", "scope_line":4152, "scope_name":"ext4_block_truncate_page", }
+,{"id":"buffer_mapped", "file":"fs/ext4/inode.c", "line":4195, "type":"c", "scope_line":4152, "scope_name":"ext4_block_truncate_page", }
+,{"id":"buffer_mapped", "file":"fs/ext4/inode.c", "line":5986, "type":"c", "scope_line":5984, "scope_name":"ext4_bh_unmapped", }
+,{"id":"buffer_mapped", "file":"fs/ioctl.c", "line":293, "type":"c", "scope_line":251, "scope_name":"__generic_block_fiemap", }
+,{"id":"buffer_mapped", "file":"fs/jbd/transaction.c", "line":1056, "type":"c", "scope_line":945, "scope_name":"journal_dirty_data", }
+,{"id":"buffer_mapped", "file":"fs/jbd/transaction.c", "line":989, "type":"c", "scope_line":945, "scope_name":"journal_dirty_data", }
+,{"id":"buffer_mapped", "file":"fs/mpage.c", "line":203, "type":"c", "scope_line":168, "scope_name":"do_mpage_readpage", }
+,{"id":"buffer_mapped", "file":"fs/mpage.c", "line":238, "type":"c", "scope_line":168, "scope_name":"do_mpage_readpage", }
+,{"id":"buffer_mapped", "file":"fs/mpage.c", "line":483, "type":"c", "scope_line":451, "scope_name":"__mpage_writepage", }
+,{"id":"buffer_mapped", "file":"include/linux/buffer_head.h", "line":120, "type":"f", }
+,{"id":"buffer_migrate_page", "file":"mm/migrate.c", "line":370, "type":"f", }
+,{"id":"buffer_new", "file":"fs/buffer.c", "line":1688, "type":"c", "scope_line":1629, "scope_name":"__block_write_full_page", }
+,{"id":"buffer_new", "file":"fs/buffer.c", "line":1814, "type":"c", "scope_line":1800, "scope_name":"page_zero_new_buffers", }
+,{"id":"buffer_new", "file":"fs/buffer.c", "line":1870, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,{"id":"buffer_new", "file":"fs/buffer.c", "line":1877, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,{"id":"buffer_new", "file":"fs/buffer.c", "line":2517, "type":"c", "scope_line":2439, "scope_name":"nobh_write_begin", }
+,{"id":"buffer_new", "file":"fs/buffer.c", "line":2523, "type":"c", "scope_line":2439, "scope_name":"nobh_write_begin", }
+,{"id":"buffer_new", "file":"fs/direct-io.c", "line":791, "type":"c", "scope_line":783, "scope_name":"dio_zero_block", }
+,{"id":"buffer_new", "file":"fs/direct-io.c", "line":877, "type":"c", "scope_line":833, "scope_name":"do_direct_IO", }
+,{"id":"buffer_new", "file":"fs/direct-io.c", "line":897, "type":"c", "scope_line":833, "scope_name":"do_direct_IO", }
+,{"id":"buffer_new", "file":"fs/ext3/inode.c", "line":1053, "type":"c", "scope_line":1023, "scope_name":"ext3_getblk", }
+,{"id":"buffer_new", "file":"fs/mpage.c", "line":538, "type":"c", "scope_line":451, "scope_name":"__mpage_writepage", }
+,{"id":"buffer_new", "file":"include/linux/buffer_head.h", "line":121, "type":"f", }
+,{"id":"buffer_obj", "file":"drivers/acpi/acpica/acobject.h", "line":279, "type":"m", "scope_line":278, "scope_name":"struct acpi_object_buffer_field", }
+,{"id":"buffer_page", "file":"kernel/trace/ring_buffer.c", "line":341, "type":"s", }
+,{"id":"buffer_page", "file":"kernel/trace/trace.h", "line":126, "type":"m", "scope_line":124, "scope_name":"struct trace_array_cpu", }
+,{"id":"buffer_pipe_buf_get", "file":"kernel/trace/trace.c", "line":3723, "type":"f", }
+,{"id":"buffer_pipe_buf_ops", "file":"kernel/trace/trace.c", "line":3732, "type":"v", }
+,{"id":"buffer_pipe_buf_release", "file":"kernel/trace/trace.c", "line":3704, "type":"f", }
+,{"id":"buffer_pipe_buf_steal", "file":"kernel/trace/trace.c", "line":3717, "type":"f", }
+,{"id":"buffer_pos", "file":"lib/decompress_unlzma.c", "line":286, "type":"m", "scope_line":283, "scope_name":"struct writer", }
+,{"id":"buffer_ref", "file":"kernel/trace/trace.c", "line":3698, "type":"s", }
+,{"id":"buffer_req", "file":"fs/ext2/inode.c", "line":1510, "type":"c", "scope_line":1416, "scope_name":"__ext2_write_inode", }
+,{"id":"buffer_req", "file":"fs/ext2/xattr.c", "line":693, "type":"c", "scope_line":630, "scope_name":"ext2_xattr_set2", }
+,{"id":"buffer_req", "file":"fs/ext4/ext4_jbd2.c", "line":136, "type":"c", "scope_line":118, "scope_name":"__ext4_handle_dirty_metadata", }
+,{"id":"buffer_req", "file":"fs/ext4/inode.c", "line":5429, "type":"c", "scope_line":5403, "scope_name":"ext4_write_inode", }
+,{"id":"buffer_req", "file":"fs/jbd/recovery.c", "line":159, "type":"c", "scope_line":130, "scope_name":"jread", }
+,{"id":"buffer_req", "file":"fs/jbd2/recovery.c", "line":160, "type":"c", "scope_line":131, "scope_name":"jread", }
+,{"id":"buffer_req", "file":"include/linux/buffer_head.h", "line":118, "type":"f", }
+,{"id":"buffer_revoked", "file":"fs/jbd/revoke.c", "line":387, "type":"c", "scope_line":335, "scope_name":"journal_revoke", }
+,{"id":"buffer_revoked", "file":"fs/jbd2/revoke.c", "line":386, "type":"c", "scope_line":334, "scope_name":"jbd2_journal_revoke", }
+,{"id":"buffer_revoked", "file":"include/linux/jbd.h", "line":290, "type":"f", }
+,{"id":"buffer_revoked", "file":"include/linux/jbd2.h", "line":323, "type":"f", }
+,{"id":"buffer_revokevalid", "file":"include/linux/jbd.h", "line":292, "type":"f", }
+,{"id":"buffer_revokevalid", "file":"include/linux/jbd2.h", "line":325, "type":"f", }
+,{"id":"buffer_size", "file":"include/linux/slab_def.h", "line":60, "type":"m", "scope_line":52, "scope_name":"struct kmem_cache", }
+,{"id":"buffer_size", "file":"lib/decompress_unlzma.c", "line":73, "type":"m", "scope_line":68, "scope_name":"struct rc", }
+,{"id":"buffer_spd_release", "file":"kernel/trace/trace.c", "line":3746, "type":"f", }
+,{"id":"buffer_trace_init", "file":"include/linux/jbd.h", "line":1088, "type":"d", }
+,{"id":"buffer_trace_init", "file":"include/linux/jbd2.h", "line":1285, "type":"d", }
+,{"id":"buffer_uninit", "file":"fs/ext4/ext4.h", "line":2012, "type":"f", }
+,{"id":"buffer_uninit", "file":"fs/ext4/inode.c", "line":2780, "type":"c", "scope_line":2700, "scope_name":"ext4_writepage", }
+,{"id":"buffer_unmapped", "file":"fs/ext3/inode.c", "line":1499, "type":"f", }
+,{"id":"buffer_unwritten", "file":"fs/buffer.c", "line":1898, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,{"id":"buffer_unwritten", "file":"fs/buffer.c", "line":2801, "type":"c", "scope_line":2746, "scope_name":"block_truncate_page", }
+,{"id":"buffer_unwritten", "file":"fs/buffer.c", "line":2913, "type":"c", "scope_line":2904, "scope_name":"submit_bh", }
+,{"id":"buffer_unwritten", "file":"fs/ext4/inode.c", "line":1199, "type":"c", "scope_line":1164, "scope_name":"ext4_num_dirty_pages", }
+,{"id":"buffer_unwritten", "file":"fs/ext4/inode.c", "line":2109, "type":"c", "scope_line":2060, "scope_name":"mpage_put_bnr_to_bhs", }
+,{"id":"buffer_unwritten", "file":"fs/ext4/inode.c", "line":2412, "type":"c", "scope_line":2410, "scope_name":"ext4_bh_delay_or_unwritten", }
+,{"id":"buffer_unwritten", "file":"fs/ext4/inode.c", "line":2570, "type":"c", "scope_line":2525, "scope_name":"ext4_da_get_block_prep", }
+,{"id":"buffer_unwritten", "file":"fs/ext4/inode.c", "line":3249, "type":"c", "scope_line":3235, "scope_name":"ext4_da_should_update_i_disksize", }
+,{"id":"buffer_unwritten", "file":"include/linux/buffer_head.h", "line":128, "type":"f", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":1152, "type":"c", "scope_line":1150, "scope_name":"mark_buffer_dirty", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":1216, "type":"c", "scope_line":1213, "scope_name":"__bread_slow", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":1224, "type":"c", "scope_line":1213, "scope_name":"__bread_slow", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":1416, "type":"c", "scope_line":1411, "scope_name":"__bread", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":1865, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":1894, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":1898, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":1910, "type":"c", "scope_line":1837, "scope_name":"block_prepare_write", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":1936, "type":"c", "scope_line":1921, "scope_name":"__block_commit_write", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":2098, "type":"c", "scope_line":2074, "scope_name":"block_is_partially_uptodate", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":2142, "type":"c", "scope_line":2120, "scope_name":"block_read_full_page", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":2165, "type":"c", "scope_line":2120, "scope_name":"block_read_full_page", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":2199, "type":"c", "scope_line":2120, "scope_name":"block_read_full_page", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":2528, "type":"c", "scope_line":2439, "scope_name":"nobh_write_begin", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":2546, "type":"c", "scope_line":2439, "scope_name":"nobh_write_begin", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":2801, "type":"c", "scope_line":2746, "scope_name":"block_truncate_page", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":2806, "type":"c", "scope_line":2746, "scope_name":"block_truncate_page", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":2993, "type":"c", "scope_line":2976, "scope_name":"ll_rw_block", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":3038, "type":"c", "scope_line":3023, "scope_name":"__sync_dirty_buffer", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":3282, "type":"c", "scope_line":3280, "scope_name":"bh_uptodate_or_lock", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":3284, "type":"c", "scope_line":3280, "scope_name":"bh_uptodate_or_lock", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":3302, "type":"c", "scope_line":3298, "scope_name":"bh_submit_read", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":3311, "type":"c", "scope_line":3298, "scope_name":"bh_submit_read", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":340, "type":"c", "scope_line":308, "scope_name":"end_buffer_async_read", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":553, "type":"c", "scope_line":539, "scope_name":"osync_buffers_list", }
+,{"id":"buffer_uptodate", "file":"fs/buffer.c", "line":811, "type":"c", "scope_line":748, "scope_name":"fsync_buffers_list", }
+,{"id":"buffer_uptodate", "file":"fs/ext2/inode.c", "line":1510, "type":"c", "scope_line":1416, "scope_name":"__ext2_write_inode", }
+,{"id":"buffer_uptodate", "file":"fs/ext2/xattr.c", "line":693, "type":"c", "scope_line":630, "scope_name":"ext2_xattr_set2", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":1067, "type":"c", "scope_line":1023, "scope_name":"ext3_getblk", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":1098, "type":"c", "scope_line":1090, "scope_name":"ext3_bread", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":1102, "type":"c", "scope_line":1090, "scope_name":"ext3_bread", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":1130, "type":"c", "scope_line":1109, "scope_name":"walk_page_buffers", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":1282, "type":"c", "scope_line":1276, "scope_name":"journal_dirty_data_fn", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":1997, "type":"c", "scope_line":1951, "scope_name":"ext3_block_truncate_page", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":2002, "type":"c", "scope_line":1951, "scope_name":"ext3_block_truncate_page", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":2665, "type":"c", "scope_line":2647, "scope_name":"__ext3_get_inode_loc", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":2674, "type":"c", "scope_line":2647, "scope_name":"__ext3_get_inode_loc", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":2677, "type":"c", "scope_line":2647, "scope_name":"__ext3_get_inode_loc", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":2720, "type":"c", "scope_line":2647, "scope_name":"__ext3_get_inode_loc", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/inode.c", "line":2750, "type":"c", "scope_line":2647, "scope_name":"__ext3_get_inode_loc", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/namei.c", "line":919, "type":"c", "scope_line":853, "scope_name":"ext3_find_entry", }
+,{"id":"buffer_uptodate", "file":"fs/ext3/super.c", "line":2201, "type":"c", "scope_line":2130, "scope_name":"ext3_get_dev_journal", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/balloc.c", "line":329, "type":"c", "scope_line":292, "scope_name":"ext4_read_block_bitmap", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/ext4.h", "line":2024, "type":"c", "scope_line":2022, "scope_name":"bitmap_uptodate", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/ext4_jbd2.c", "line":136, "type":"c", "scope_line":118, "scope_name":"__ext4_handle_dirty_metadata", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/ialloc.c", "line":136, "type":"c", "scope_line":100, "scope_name":"ext4_read_inode_bitmap", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":1437, "type":"c", "scope_line":1398, "scope_name":"ext4_getblk", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":1465, "type":"c", "scope_line":1457, "scope_name":"ext4_bread", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":1469, "type":"c", "scope_line":1457, "scope_name":"ext4_bread", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":1496, "type":"c", "scope_line":1476, "scope_name":"walk_page_buffers", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":4205, "type":"c", "scope_line":4152, "scope_name":"ext4_block_truncate_page", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":4210, "type":"c", "scope_line":4152, "scope_name":"ext4_block_truncate_page", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":4833, "type":"c", "scope_line":4800, "scope_name":"__ext4_get_inode_loc", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":4842, "type":"c", "scope_line":4800, "scope_name":"__ext4_get_inode_loc", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":4845, "type":"c", "scope_line":4800, "scope_name":"__ext4_get_inode_loc", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":4872, "type":"c", "scope_line":4800, "scope_name":"__ext4_get_inode_loc", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":4927, "type":"c", "scope_line":4800, "scope_name":"__ext4_get_inode_loc", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/inode.c", "line":5429, "type":"c", "scope_line":5403, "scope_name":"ext4_write_inode", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/mballoc.c", "line":833, "type":"c", "scope_line":756, "scope_name":"ext4_mb_init_cache", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/mballoc.c", "line":861, "type":"c", "scope_line":756, "scope_name":"ext4_mb_init_cache", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/namei.c", "line":919, "type":"c", "scope_line":851, "scope_name":"ext4_find_entry", }
+,{"id":"buffer_uptodate", "file":"fs/ext4/super.c", "line":3362, "type":"c", "scope_line":3290, "scope_name":"ext4_get_dev_journal", }
+,{"id":"buffer_uptodate", "file":"fs/jbd/commit.c", "line":273, "type":"c", "scope_line":190, "scope_name":"journal_submit_data_buffers", }
+,{"id":"buffer_uptodate", "file":"fs/jbd/commit.c", "line":463, "type":"c", "scope_line":303, "scope_name":"journal_commit_transaction", }
+,{"id":"buffer_uptodate", "file":"fs/jbd/commit.c", "line":718, "type":"c", "scope_line":303, "scope_name":"journal_commit_transaction", }
+,{"id":"buffer_uptodate", "file":"fs/jbd/commit.c", "line":774, "type":"c", "scope_line":303, "scope_name":"journal_commit_transaction", }
+,{"id":"buffer_uptodate", "file":"fs/jbd/journal.c", "line":1056, "type":"c", "scope_line":1047, "scope_name":"journal_get_superblock", }
+,{"id":"buffer_uptodate", "file":"fs/jbd/journal.c", "line":1059, "type":"c", "scope_line":1047, "scope_name":"journal_get_superblock", }
+,{"id":"buffer_uptodate", "file":"fs/jbd/recovery.c", "line":102, "type":"c", "scope_line":68, "scope_name":"do_readahead", }
+,{"id":"buffer_uptodate", "file":"fs/jbd/recovery.c", "line":156, "type":"c", "scope_line":130, "scope_name":"jread", }
+,{"id":"buffer_uptodate", "file":"fs/jbd/recovery.c", "line":164, "type":"c", "scope_line":130, "scope_name":"jread", }
+,{"id":"buffer_uptodate", "file":"fs/jbd/transaction.c", "line":1069, "type":"c", "scope_line":945, "scope_name":"journal_dirty_data", }
+,{"id":"buffer_uptodate", "file":"fs/jbd/transaction.c", "line":713, "type":"c", "scope_line":514, "scope_name":"do_get_write_access", }
+,{"id":"buffer_uptodate", "file":"fs/jbd2/commit.c", "line":193, "type":"c", "scope_line":164, "scope_name":"journal_wait_on_commit_record", }
+,{"id":"buffer_uptodate", "file":"fs/jbd2/commit.c", "line":767, "type":"c", "scope_line":341, "scope_name":"jbd2_journal_commit_transaction", }
+,{"id":"buffer_uptodate", "file":"fs/jbd2/commit.c", "line":823, "type":"c", "scope_line":341, "scope_name":"jbd2_journal_commit_transaction", }
+,{"id":"buffer_uptodate", "file":"fs/jbd2/journal.c", "line":1156, "type":"c", "scope_line":1147, "scope_name":"journal_get_superblock", }
+,{"id":"buffer_uptodate", "file":"fs/jbd2/journal.c", "line":1159, "type":"c", "scope_line":1147, "scope_name":"journal_get_superblock", }
+,{"id":"buffer_uptodate", "file":"fs/jbd2/recovery.c", "line":103, "type":"c", "scope_line":69, "scope_name":"do_readahead", }
+,{"id":"buffer_uptodate", "file":"fs/jbd2/recovery.c", "line":157, "type":"c", "scope_line":131, "scope_name":"jread", }
+,{"id":"buffer_uptodate", "file":"fs/jbd2/recovery.c", "line":165, "type":"c", "scope_line":131, "scope_name":"jread", }
+,{"id":"buffer_uptodate", "file":"fs/jbd2/transaction.c", "line":773, "type":"c", "scope_line":574, "scope_name":"do_get_write_access", }
+,{"id":"buffer_uptodate", "file":"fs/mpage.c", "line":138, "type":"c", "scope_line":126, "scope_name":"map_buffer_to_page", }
+,{"id":"buffer_uptodate", "file":"fs/mpage.c", "line":253, "type":"c", "scope_line":168, "scope_name":"do_mpage_readpage", }
+,{"id":"buffer_uptodate", "file":"fs/mpage.c", "line":498, "type":"c", "scope_line":451, "scope_name":"__mpage_writepage", }
+,{"id":"buffer_uptodate", "file":"include/linux/buffer_head.h", "line":114, "type":"f", }
+,{"id":"buffer_write_io_error", "file":"fs/buffer.c", "line":3087, "type":"c", "scope_line":3079, "scope_name":"drop_buffers", }
+,];
+xr_frag_insert('t/95/056198065fe051465cb7b418519b90491ce031.xr', __xr_tmp);

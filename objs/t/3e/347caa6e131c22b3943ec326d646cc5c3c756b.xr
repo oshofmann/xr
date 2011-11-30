@@ -1,0 +1,183 @@
+var __xr_tmp = [
+{"id":"TCP_SYNQ_INTERVAL", "file":"include/net/tcp.h", "line":143, "type":"d", }
+,{"id":"TCP_SYN_RECV", "file":"include/net/tcp_states.h", "line":19, "type":"e", "scope_line":16, }
+,{"id":"TCP_SYN_RETRIES", "file":"include/net/tcp.h", "line":97, "type":"d", }
+,{"id":"TCP_SYN_SENT", "file":"include/net/tcp_states.h", "line":18, "type":"e", "scope_line":16, }
+,{"id":"TCP_S_DATA_IN", "file":"include/linux/tcp.h", "line":192, "type":"d", }
+,{"id":"TCP_S_DATA_OUT", "file":"include/linux/tcp.h", "line":193, "type":"d", }
+,{"id":"TCP_THIN_DUPACK", "file":"include/linux/tcp.h", "line":107, "type":"d", }
+,{"id":"TCP_THIN_LINEAR_RETRIES", "file":"include/net/tcp.h", "line":200, "type":"d", }
+,{"id":"TCP_THIN_LINEAR_TIMEOUTS", "file":"include/linux/tcp.h", "line":106, "type":"d", }
+,{"id":"TCP_TIMEOUT_INIT", "file":"include/net/tcp.h", "line":128, "type":"d", }
+,{"id":"TCP_TIMEWAIT_LEN", "file":"include/net/tcp.h", "line":109, "type":"d", }
+,{"id":"TCP_TIME_WAIT", "file":"include/net/tcp_states.h", "line":22, "type":"e", "scope_line":16, }
+,{"id":"TCP_TW_ACK", "file":"include/net/tcp.h", "line":365, "type":"e", "scope_line":362, "scope_name":"tcp_tw_status", }
+,{"id":"TCP_TW_RST", "file":"include/net/tcp.h", "line":364, "type":"e", "scope_line":362, "scope_name":"tcp_tw_status", }
+,{"id":"TCP_TW_SUCCESS", "file":"include/net/tcp.h", "line":363, "type":"e", "scope_line":362, "scope_name":"tcp_tw_status", }
+,{"id":"TCP_TW_SYN", "file":"include/net/tcp.h", "line":366, "type":"e", "scope_line":362, "scope_name":"tcp_tw_status", }
+,{"id":"TCP_URG_NOTYET", "file":"include/net/tcp.h", "line":80, "type":"d", }
+,{"id":"TCP_URG_READ", "file":"include/net/tcp.h", "line":81, "type":"d", }
+,{"id":"TCP_URG_VALID", "file":"include/net/tcp.h", "line":79, "type":"d", }
+,{"id":"TCP_V4_FLOW", "file":"include/linux/ethtool.h", "line":763, "type":"d", }
+,{"id":"TCP_V6_FLOW", "file":"include/linux/ethtool.h", "line":767, "type":"d", }
+,{"id":"TCP_WINDOW_CLAMP", "file":"include/linux/tcp.h", "line":100, "type":"d", }
+,{"id":"TCQ_F_BUILTIN", "file":"include/net/sch_generic.h", "line":48, "type":"d", }
+,{"id":"TCQ_F_CAN_BYPASS", "file":"include/net/sch_generic.h", "line":51, "type":"d", }
+,{"id":"TCQ_F_INGRESS", "file":"include/net/sch_generic.h", "line":50, "type":"d", }
+,{"id":"TCQ_F_MQROOT", "file":"include/net/sch_generic.h", "line":52, "type":"d", }
+,{"id":"TCQ_F_THROTTLED", "file":"include/net/sch_generic.h", "line":49, "type":"d", }
+,{"id":"TCQ_F_WARN_NONWC", "file":"include/net/sch_generic.h", "line":53, "type":"d", }
+,{"id":"TCQ_MIN_PRIO_BANDS", "file":"include/linux/pkt_sched.h", "line":116, "type":"d", }
+,{"id":"TCQ_PRIO_BANDS", "file":"include/linux/pkt_sched.h", "line":115, "type":"d", }
+,{"id":"TCSADRAIN", "file":"include/asm-generic/termbits.h", "line":196, "type":"d", }
+,{"id":"TCSAFLUSH", "file":"include/asm-generic/termbits.h", "line":197, "type":"d", }
+,{"id":"TCSANOW", "file":"include/asm-generic/termbits.h", "line":195, "type":"d", }
+,{"id":"TCSBRK", "file":"include/asm-generic/ioctls.h", "line":27, "type":"d", }
+,{"id":"TCSBRKP", "file":"include/asm-generic/ioctls.h", "line":56, "type":"d", }
+,{"id":"TCSETA", "file":"include/asm-generic/ioctls.h", "line":24, "type":"d", }
+,{"id":"TCSETAF", "file":"include/asm-generic/ioctls.h", "line":26, "type":"d", }
+,{"id":"TCSETAW", "file":"include/asm-generic/ioctls.h", "line":25, "type":"d", }
+,{"id":"TCSETS", "file":"include/asm-generic/ioctls.h", "line":20, "type":"d", }
+,{"id":"TCSETS2", "file":"include/asm-generic/ioctls.h", "line":61, "type":"d", }
+,{"id":"TCSETSF", "file":"include/asm-generic/ioctls.h", "line":22, "type":"d", }
+,{"id":"TCSETSF2", "file":"include/asm-generic/ioctls.h", "line":63, "type":"d", }
+,{"id":"TCSETSW", "file":"include/asm-generic/ioctls.h", "line":21, "type":"d", }
+,{"id":"TCSETSW2", "file":"include/asm-generic/ioctls.h", "line":62, "type":"d", }
+,{"id":"TCSETX", "file":"include/asm-generic/ioctls.h", "line":69, "type":"d", }
+,{"id":"TCSETXF", "file":"include/asm-generic/ioctls.h", "line":70, "type":"d", }
+,{"id":"TCSETXW", "file":"include/asm-generic/ioctls.h", "line":71, "type":"d", }
+,{"id":"TCXONC", "file":"include/asm-generic/ioctls.h", "line":28, "type":"d", }
+,{"id":"TC_ACT_JUMP", "file":"include/linux/pkt_cls.h", "line":107, "type":"d", }
+,{"id":"TC_ACT_OK", "file":"include/linux/pkt_cls.h", "line":100, "type":"d", }
+,{"id":"TC_ACT_PIPE", "file":"include/linux/pkt_cls.h", "line":103, "type":"d", }
+,{"id":"TC_ACT_QUEUED", "file":"include/linux/pkt_cls.h", "line":105, "type":"d", }
+,{"id":"TC_ACT_RECLASSIFY", "file":"include/linux/pkt_cls.h", "line":101, "type":"d", }
+,{"id":"TC_ACT_REPEAT", "file":"include/linux/pkt_cls.h", "line":106, "type":"d", }
+,{"id":"TC_ACT_SHOT", "file":"include/linux/pkt_cls.h", "line":102, "type":"d", }
+,{"id":"TC_ACT_STOLEN", "file":"include/linux/pkt_cls.h", "line":104, "type":"d", }
+,{"id":"TC_ACT_UNSPEC", "file":"include/linux/pkt_cls.h", "line":99, "type":"d", }
+,{"id":"TC_CBQ_DEF_EWMA", "file":"include/linux/pkt_sched.h", "line":326, "type":"d", }
+,{"id":"TC_CBQ_MAXLEVEL", "file":"include/linux/pkt_sched.h", "line":325, "type":"d", }
+,{"id":"TC_CBQ_MAXPRIO", "file":"include/linux/pkt_sched.h", "line":324, "type":"d", }
+,{"id":"TC_CBQ_OVL_CLASSIC", "file":"include/linux/pkt_sched.h", "line":358, "type":"d", }
+,{"id":"TC_CBQ_OVL_DELAY", "file":"include/linux/pkt_sched.h", "line":359, "type":"d", }
+,{"id":"TC_CBQ_OVL_DROP", "file":"include/linux/pkt_sched.h", "line":361, "type":"d", }
+,{"id":"TC_CBQ_OVL_LOWPRIO", "file":"include/linux/pkt_sched.h", "line":360, "type":"d", }
+,{"id":"TC_CBQ_OVL_RCLASSIC", "file":"include/linux/pkt_sched.h", "line":362, "type":"d", }
+,{"id":"TC_HTB_MAXDEPTH", "file":"include/linux/pkt_sched.h", "line":252, "type":"d", }
+,{"id":"TC_HTB_NUMPRIO", "file":"include/linux/pkt_sched.h", "line":251, "type":"d", }
+,{"id":"TC_HTB_PROTOVER", "file":"include/linux/pkt_sched.h", "line":253, "type":"d", }
+,{"id":"TC_H_INGRESS", "file":"include/linux/pkt_sched.h", "line":74, "type":"d", }
+,{"id":"TC_H_MAJ", "file":"include/linux/pkt_sched.h", "line":68, "type":"d", }
+,{"id":"TC_H_MAJ_MASK", "file":"include/linux/pkt_sched.h", "line":66, "type":"d", }
+,{"id":"TC_H_MAKE", "file":"include/linux/pkt_sched.h", "line":70, "type":"d", }
+,{"id":"TC_H_MIN", "file":"include/linux/pkt_sched.h", "line":69, "type":"d", }
+,{"id":"TC_H_MIN_MASK", "file":"include/linux/pkt_sched.h", "line":67, "type":"d", }
+,{"id":"TC_H_ROOT", "file":"include/linux/pkt_sched.h", "line":73, "type":"d", }
+,{"id":"TC_H_UNSPEC", "file":"include/linux/pkt_sched.h", "line":72, "type":"d", }
+,{"id":"TC_MUNGED", "file":"include/linux/pkt_cls.h", "line":38, "type":"d", }
+,{"id":"TC_NCLS", "file":"include/linux/pkt_cls.h", "line":61, "type":"d", }
+,{"id":"TC_OK2MUNGE", "file":"include/linux/pkt_cls.h", "line":42, "type":"d", }
+,{"id":"TC_POLICE_OK", "file":"include/linux/pkt_cls.h", "line":123, "type":"d", }
+,{"id":"TC_POLICE_PIPE", "file":"include/linux/pkt_cls.h", "line":126, "type":"d", }
+,{"id":"TC_POLICE_RECLASSIFY", "file":"include/linux/pkt_cls.h", "line":124, "type":"d", }
+,{"id":"TC_POLICE_SHOT", "file":"include/linux/pkt_cls.h", "line":125, "type":"d", }
+,{"id":"TC_POLICE_UNSPEC", "file":"include/linux/pkt_cls.h", "line":122, "type":"d", }
+,{"id":"TC_PRIO_BESTEFFORT", "file":"include/linux/pkt_sched.h", "line":19, "type":"d", }
+,{"id":"TC_PRIO_BULK", "file":"include/linux/pkt_sched.h", "line":21, "type":"d", }
+,{"id":"TC_PRIO_CONTROL", "file":"include/linux/pkt_sched.h", "line":24, "type":"d", }
+,{"id":"TC_PRIO_FILLER", "file":"include/linux/pkt_sched.h", "line":20, "type":"d", }
+,{"id":"TC_PRIO_INTERACTIVE", "file":"include/linux/pkt_sched.h", "line":23, "type":"d", }
+,{"id":"TC_PRIO_INTERACTIVE_BULK", "file":"include/linux/pkt_sched.h", "line":22, "type":"d", }
+,{"id":"TC_PRIO_MAX", "file":"include/linux/pkt_sched.h", "line":26, "type":"d", }
+,{"id":"TC_RED_ECN", "file":"include/linux/pkt_sched.h", "line":197, "type":"d", }
+,{"id":"TC_RED_HARDDROP", "file":"include/linux/pkt_sched.h", "line":198, "type":"d", }
+,{"id":"TC_RTAB_SIZE", "file":"include/linux/pkt_sched.h", "line":85, "type":"d", }
+,{"id":"TC_U32_EAT", "file":"include/linux/pkt_cls.h", "line":234, "type":"d", }
+,{"id":"TC_U32_HASH", "file":"include/linux/pkt_cls.h", "line":173, "type":"d", }
+,{"id":"TC_U32_HTID", "file":"include/linux/pkt_cls.h", "line":171, "type":"d", }
+,{"id":"TC_U32_KEY", "file":"include/linux/pkt_cls.h", "line":175, "type":"d", }
+,{"id":"TC_U32_MAXDEPTH", "file":"include/linux/pkt_cls.h", "line":236, "type":"d", }
+,{"id":"TC_U32_NODE", "file":"include/linux/pkt_cls.h", "line":174, "type":"d", }
+,{"id":"TC_U32_OFFSET", "file":"include/linux/pkt_cls.h", "line":232, "type":"d", }
+,{"id":"TC_U32_ROOT", "file":"include/linux/pkt_cls.h", "line":177, "type":"d", }
+,{"id":"TC_U32_TERMINAL", "file":"include/linux/pkt_cls.h", "line":231, "type":"d", }
+,{"id":"TC_U32_UNSPEC", "file":"include/linux/pkt_cls.h", "line":176, "type":"d", }
+,{"id":"TC_U32_USERHTID", "file":"include/linux/pkt_cls.h", "line":172, "type":"d", }
+,{"id":"TC_U32_VAROFFSET", "file":"include/linux/pkt_cls.h", "line":233, "type":"d", }
+,{"id":"TEA_transform", "file":"fs/ext3/hash.c", "line":19, "type":"f", }
+,{"id":"TEA_transform", "file":"fs/ext3/hash.c", "line":191, "type":"c", "scope_line":139, "scope_name":"ext3fs_dirhash", }
+,{"id":"TEA_transform", "file":"fs/ext4/hash.c", "line":19, "type":"f", }
+,{"id":"TEA_transform", "file":"fs/ext4/hash.c", "line":191, "type":"c", "scope_line":139, "scope_name":"ext4fs_dirhash", }
+,{"id":"TEMP_MINOR", "file":"include/linux/miscdevice.h", "line":22, "type":"d", }
+,{"id":"TEMP_PREFERRED_LIFETIME", "file":"include/net/addrconf.h", "line":12, "type":"d", }
+,{"id":"TEMP_VALID_LIFETIME", "file":"include/net/addrconf.h", "line":11, "type":"d", }
+,{"id":"TERMIOS_FLUSH", "file":"drivers/char/tty_ioctl.c", "line":36, "type":"d", }
+,{"id":"TERMIOS_OLD", "file":"drivers/char/tty_ioctl.c", "line":39, "type":"d", }
+,{"id":"TERMIOS_TERMIO", "file":"drivers/char/tty_ioctl.c", "line":38, "type":"d", }
+,{"id":"TERMIOS_WAIT", "file":"drivers/char/tty_ioctl.c", "line":37, "type":"d", }
+,{"id":"TESTCLEARFLAG", "file":"include/linux/page-flags.h", "line":165, "type":"d", }
+,{"id":"TESTCLEARFLAG_FALSE", "file":"include/linux/page-flags.h", "line":195, "type":"d", }
+,{"id":"TESTCLEARPCGFLAG", "file":"include/linux/page_cgroup.h", "line":58, "type":"d", }
+,{"id":"TESTPAGEFLAG", "file":"include/linux/page-flags.h", "line":141, "type":"d", }
+,{"id":"TESTPCGFLAG", "file":"include/linux/page_cgroup.h", "line":46, "type":"d", }
+,{"id":"TESTSCFLAG", "file":"include/linux/page-flags.h", "line":183, "type":"d", }
+,{"id":"TESTSETFLAG", "file":"include/linux/page-flags.h", "line":161, "type":"d", }
+,{"id":"TEST_ALPHA", "file":"drivers/pnp/pnpacpi/core.c", "line":59, "type":"d", }
+,{"id":"TEST_CORE", "file":"kernel/power/power.h", "line":202, "type":"e", "scope_line":199, }
+,{"id":"TEST_CPUS", "file":"kernel/power/power.h", "line":203, "type":"e", "scope_line":199, }
+,{"id":"TEST_DEVICES", "file":"kernel/power/power.h", "line":205, "type":"e", "scope_line":199, }
+,{"id":"TEST_FIRST", "file":"kernel/power/power.h", "line":211, "type":"d", }
+,{"id":"TEST_FLAG_VALUE", "file":"fs/ext4/ext4.h", "line":386, "type":"d", }
+,{"id":"TEST_FREEZER", "file":"kernel/power/power.h", "line":206, "type":"e", "scope_line":199, }
+,{"id":"TEST_HEX", "file":"drivers/pnp/pnpacpi/core.c", "line":56, "type":"d", }
+,{"id":"TEST_MAX", "file":"kernel/power/power.h", "line":212, "type":"d", }
+,{"id":"TEST_NONE", "file":"kernel/power/power.h", "line":201, "type":"e", "scope_line":199, }
+,{"id":"TEST_PLATFORM", "file":"kernel/power/power.h", "line":204, "type":"e", "scope_line":199, }
+,{"id":"TEST_SUSPEND_SECONDS", "file":"kernel/power/suspend_test.c", "line":22, "type":"d", }
+,{"id":"TEST_UNIT_READY", "file":"include/scsi/scsi.h", "line":44, "type":"d", }
+,{"id":"TEXTS_FOR_ZONES", "file":"mm/vmstat.c", "line":720, "type":"d", }
+,{"id":"TEXT_FOR_DMA", "file":"mm/vmstat.c", "line":703, "type":"d", }
+,{"id":"TEXT_FOR_DMA32", "file":"mm/vmstat.c", "line":709, "type":"d", }
+,{"id":"TEXT_FOR_HIGHMEM", "file":"mm/vmstat.c", "line":717, "type":"d", }
+,{"id":"TFD_CLOEXEC", "file":"include/linux/timerfd.h", "line":22, "type":"d", }
+,{"id":"TFD_CREATE_FLAGS", "file":"include/linux/timerfd.h", "line":27, "type":"d", }
+,{"id":"TFD_NONBLOCK", "file":"include/linux/timerfd.h", "line":23, "type":"d", }
+,{"id":"TFD_SETTIME_FLAGS", "file":"include/linux/timerfd.h", "line":29, "type":"d", }
+,{"id":"TFD_SHARED_FCNTL_FLAGS", "file":"include/linux/timerfd.h", "line":25, "type":"d", }
+,{"id":"TFD_TIMER_ABSTIME", "file":"include/linux/timerfd.h", "line":21, "type":"d", }
+,{"id":"TGID_OFFSET", "file":"fs/proc/base.c", "line":2957, "type":"d", }
+,{"id":"THERMAL_APIC_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":95, "type":"d", }
+,{"id":"THERMAL_DEVICE_DISABLED", "file":"include/linux/thermal.h", "line":36, "type":"e", "scope_line":35, "scope_name":"thermal_device_mode", }
+,{"id":"THERMAL_DEVICE_ENABLED", "file":"include/linux/thermal.h", "line":37, "type":"e", "scope_line":35, "scope_name":"thermal_device_mode", }
+,{"id":"THERMAL_MAX_TRIPS", "file":"include/linux/thermal.h", "line":73, "type":"d", }
+,{"id":"THERMAL_NAME_LENGTH", "file":"include/linux/thermal.h", "line":74, "type":"d", }
+,{"id":"THERMAL_THROTTLING_EVENT", "file":"arch/x86/kernel/cpu/mcheck/therm_throt.c", "line":37, "type":"d", }
+,{"id":"THERMAL_TRIPS_NONE", "file":"include/linux/thermal.h", "line":72, "type":"d", }
+,{"id":"THERMAL_TRIP_ACTIVE", "file":"include/linux/thermal.h", "line":41, "type":"e", "scope_line":40, "scope_name":"thermal_trip_type", }
+,{"id":"THERMAL_TRIP_CRITICAL", "file":"include/linux/thermal.h", "line":44, "type":"e", "scope_line":40, "scope_name":"thermal_trip_type", }
+,{"id":"THERMAL_TRIP_HOT", "file":"include/linux/thermal.h", "line":43, "type":"e", "scope_line":40, "scope_name":"thermal_trip_type", }
+,{"id":"THERMAL_TRIP_PASSIVE", "file":"include/linux/thermal.h", "line":42, "type":"e", "scope_line":40, "scope_name":"thermal_trip_type", }
+,{"id":"THERM_INT_HIGH_ENABLE", "file":"arch/x86/include/asm/msr-index.h", "line":224, "type":"d", }
+,{"id":"THERM_INT_LOW_ENABLE", "file":"arch/x86/include/asm/msr-index.h", "line":225, "type":"d", }
+,{"id":"THERM_INT_PLN_ENABLE", "file":"arch/x86/include/asm/msr-index.h", "line":226, "type":"d", }
+,{"id":"THERM_STATUS_POWER_LIMIT", "file":"arch/x86/include/asm/msr-index.h", "line":231, "type":"d", }
+,{"id":"THERM_STATUS_PROCHOT", "file":"arch/x86/include/asm/msr-index.h", "line":230, "type":"d", }
+,{"id":"THIS_MODULE", "file":"include/linux/module.h", "line":94, "type":"d", }
+,{"id":"THREAD_CLOCK", "file":"kernel/posix-cpu-timers.c", "line":1555, "type":"d", }
+,{"id":"THREAD_FLAGS", "file":"arch/x86/include/asm/thread_info.h", "line":159, "type":"d", }
+,{"id":"THREAD_ORDER", "file":"arch/x86/include/asm/page_64_types.h", "line":4, "type":"d", }
+,{"id":"THREAD_SIZE", "file":"arch/x86/include/asm/page_64_types.h", "line":5, "type":"d", }
+,{"id":"THRESHOLDS_EVENTS_THRESH", "file":"mm/memcontrol.c", "line":76, "type":"d", }
+,{"id":"THRESHOLD_APIC_VECTOR", "file":"arch/x86/include/asm/irq_vectors.h", "line":96, "type":"d", }
+,{"id":"THRESHOLD_MAX", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":38, "type":"d", }
+,{"id":"THROTTLING_POSTCHANGE", "file":"drivers/acpi/processor_throttling.c", "line":65, "type":"d", }
+,{"id":"THROTTLING_PRECHANGE", "file":"drivers/acpi/processor_throttling.c", "line":64, "type":"d", }
+,{"id":"TICKDEV_MODE_ONESHOT", "file":"include/linux/tick.h", "line":15, "type":"e", "scope_line":13, "scope_name":"tick_device_mode", }
+,{"id":"TICKDEV_MODE_PERIODIC", "file":"include/linux/tick.h", "line":14, "type":"e", "scope_line":13, "scope_name":"tick_device_mode", }
+,{"id":"TICKET_SHIFT", "file":"arch/x86/include/asm/spinlock.h", "line":59, "type":"d", }
+,{"id":"TICK_CALIBRATE", "file":"drivers/char/hpet.c", "line":717, "type":"d", }
+,{"id":"TICK_COUNT", "file":"arch/x86/kernel/tsc.c", "line":900, "type":"d", }
+,{"id":"TICK_DO_TIMER_BOOT", "file":"kernel/time/tick-internal.h", "line":6, "type":"d", }
+,];
+xr_frag_insert('t/3e/347caa6e131c22b3943ec326d646cc5c3c756b.xr', __xr_tmp);

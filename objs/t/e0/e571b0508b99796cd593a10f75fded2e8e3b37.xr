@@ -1,0 +1,40 @@
+var __xr_tmp = [
+{"id":"wait_for_common", "file":"kernel/sched.c", "line":4175, "type":"c", "scope_line":4172, "scope_name":"wait_for_completion_timeout", }
+,{"id":"wait_for_common", "file":"kernel/sched.c", "line":4188, "type":"c", "scope_line":4186, "scope_name":"wait_for_completion_interruptible", }
+,{"id":"wait_for_common", "file":"kernel/sched.c", "line":4207, "type":"c", "scope_line":4203, "scope_name":"wait_for_completion_interruptible_timeout", }
+,{"id":"wait_for_common", "file":"kernel/sched.c", "line":4220, "type":"c", "scope_line":4218, "scope_name":"wait_for_completion_killable", }
+,{"id":"wait_for_common", "file":"kernel/sched.c", "line":4240, "type":"c", "scope_line":4236, "scope_name":"wait_for_completion_killable_timeout", }
+,{"id":"wait_for_completion", "file":"arch/x86/kernel/hpet.c", "line":733, "type":"c", "scope_line":720, "scope_name":"hpet_cpuhp_notify", }
+,{"id":"wait_for_completion", "file":"arch/x86/kernel/smpboot.c", "line":763, "type":"c", "scope_line":735, "scope_name":"do_boot_cpu", }
+,{"id":"wait_for_completion", "file":"block/blk-barrier.c", "line":332, "type":"c", "scope_line":299, "scope_name":"blkdev_issue_flush", }
+,{"id":"wait_for_completion", "file":"block/blk-exec.c", "line":98, "type":"c", "scope_line":77, "scope_name":"blk_execute_rq", }
+,{"id":"wait_for_completion", "file":"block/blk-lib.c", "line":213, "type":"c", "scope_line":151, "scope_name":"blkdev_issue_zeroout", }
+,{"id":"wait_for_completion", "file":"block/blk-lib.c", "line":97, "type":"c", "scope_line":37, "scope_name":"blkdev_issue_discard", }
+,{"id":"wait_for_completion", "file":"block/cfq-iosched.c", "line":4137, "type":"c", "scope_line":4123, "scope_name":"cfq_exit", }
+,{"id":"wait_for_completion", "file":"drivers/base/firmware_class.c", "line":555, "type":"c", "scope_line":513, "scope_name":"_request_firmware", }
+,{"id":"wait_for_completion", "file":"drivers/base/power/main.c", "line":207, "type":"c", "scope_line":201, "scope_name":"dpm_wait", }
+,{"id":"wait_for_completion", "file":"drivers/block/loop.c", "line":635, "type":"c", "scope_line":624, "scope_name":"loop_switch", }
+,{"id":"wait_for_completion", "file":"drivers/cpufreq/cpufreq.c", "line":1077, "type":"c", "scope_line":964, "scope_name":"cpufreq_add_dev", }
+,{"id":"wait_for_completion", "file":"drivers/cpufreq/cpufreq.c", "line":1201, "type":"c", "scope_line":1101, "scope_name":"__cpufreq_remove_dev", }
+,{"id":"wait_for_completion", "file":"drivers/cpufreq/cpufreq.c", "line":950, "type":"c", "scope_line":879, "scope_name":"cpufreq_add_dev_interface", }
+,{"id":"wait_for_completion", "file":"drivers/cpuidle/cpuidle.c", "line":371, "type":"c", "scope_line":357, "scope_name":"cpuidle_unregister_device", }
+,{"id":"wait_for_completion", "file":"drivers/cpuidle/sysfs.c", "line":306, "type":"c", "scope_line":303, "scope_name":"cpuidle_free_state_kobj", }
+,{"id":"wait_for_completion", "file":"drivers/i2c/i2c-core.c", "line":1078, "type":"c", "scope_line":1026, "scope_name":"i2c_del_adapter", }
+,{"id":"wait_for_completion", "file":"drivers/ide/ide-probe.c", "line":1494, "type":"c", "scope_line":1487, "scope_name":"__ide_port_unregister_devices", }
+,{"id":"wait_for_completion", "file":"drivers/ide/ide-probe.c", "line":1540, "type":"c", "scope_line":1522, "scope_name":"ide_unregister", }
+,{"id":"wait_for_completion", "file":"drivers/scsi/scsi_scan.c", "line":171, "type":"c", "scope_line":144, "scope_name":"scsi_complete_async_scans", }
+,{"id":"wait_for_completion", "file":"drivers/scsi/scsi_scan.c", "line":1802, "type":"c", "scope_line":1782, "scope_name":"scsi_finish_async_scan", }
+,{"id":"wait_for_completion", "file":"drivers/spi/spi.c", "line":834, "type":"c", "scope_line":815, "scope_name":"__spi_sync", }
+,{"id":"wait_for_completion", "file":"fs/exec.c", "line":1704, "type":"c", "scope_line":1674, "scope_name":"coredump_wait", }
+,{"id":"wait_for_completion", "file":"fs/ext4/extents.c", "line":2598, "type":"c", "scope_line":2544, "scope_name":"ext4_ext_zeroout", }
+,{"id":"wait_for_completion", "file":"fs/ext4/super.c", "line":781, "type":"c", "scope_line":699, "scope_name":"ext4_put_super", }
+,{"id":"wait_for_completion", "file":"fs/fs-writeback.c", "line":1097, "type":"c", "scope_line":1080, "scope_name":"writeback_inodes_sb", }
+,{"id":"wait_for_completion", "file":"fs/fs-writeback.c", "line":1141, "type":"c", "scope_line":1127, "scope_name":"sync_inodes_sb", }
+,{"id":"wait_for_completion", "file":"fs/proc/generic.c", "line":835, "type":"c", "scope_line":792, "scope_name":"remove_proc_entry", }
+,{"id":"wait_for_completion", "file":"fs/sysfs/dir.c", "line":173, "type":"c", "scope_line":153, "scope_name":"sysfs_deactivate", }
+,{"id":"wait_for_completion", "file":"init/main.c", "line":865, "type":"c", "scope_line":860, "scope_name":"kernel_init", }
+,{"id":"wait_for_completion", "file":"kernel/fork.c", "line":1469, "type":"c", "scope_line":1372, "scope_name":"do_fork", }
+,{"id":"wait_for_completion", "file":"kernel/kmod.c", "line":410, "type":"c", "scope_line":389, "scope_name":"call_usermodehelper_exec", }
+,{"id":"wait_for_completion", "file":"kernel/kthread.c", "line":148, "type":"c", "scope_line":132, "scope_name":"kthread_create", }
+,];
+xr_frag_insert('t/e0/e571b0508b99796cd593a10f75fded2e8e3b37.xr', __xr_tmp);

@@ -1,0 +1,81 @@
+var __xr_tmp = [
+{"id":"ftrace_get_offsets_sched_stat_runtime", "file":"include/trace/events/sched.h", "line":336, "type":"c", "scope_line":336, "scope_name":"perf_trace_sched_stat_runtime", }
+,{"id":"ftrace_get_offsets_sched_stat_runtime", "file":"include/trace/events/sched.h", "line":336, "type":"f", }
+,{"id":"ftrace_get_offsets_sched_stat_template", "file":"include/trace/events/sched.h", "line":281, "type":"c", "scope_line":281, "scope_name":"ftrace_raw_event_sched_stat_template", }
+,{"id":"ftrace_get_offsets_sched_stat_template", "file":"include/trace/events/sched.h", "line":281, "type":"c", "scope_line":281, "scope_name":"perf_trace_sched_stat_template", }
+,{"id":"ftrace_get_offsets_sched_stat_template", "file":"include/trace/events/sched.h", "line":281, "type":"f", }
+,{"id":"ftrace_get_offsets_sched_switch", "file":"include/trace/events/sched.h", "line":113, "type":"c", "scope_line":113, "scope_name":"ftrace_raw_event_sched_switch", }
+,{"id":"ftrace_get_offsets_sched_switch", "file":"include/trace/events/sched.h", "line":113, "type":"c", "scope_line":113, "scope_name":"perf_trace_sched_switch", }
+,{"id":"ftrace_get_offsets_sched_switch", "file":"include/trace/events/sched.h", "line":113, "type":"f", }
+,{"id":"ftrace_get_offsets_sched_wakeup_template", "file":"include/trace/events/sched.h", "line":55, "type":"c", "scope_line":55, "scope_name":"ftrace_raw_event_sched_wakeup_template", }
+,{"id":"ftrace_get_offsets_sched_wakeup_template", "file":"include/trace/events/sched.h", "line":55, "type":"c", "scope_line":55, "scope_name":"perf_trace_sched_wakeup_template", }
+,{"id":"ftrace_get_offsets_sched_wakeup_template", "file":"include/trace/events/sched.h", "line":55, "type":"f", }
+,{"id":"ftrace_get_offsets_scsi_cmd_done_timeout_template", "file":"include/trace/events/scsi.h", "line":271, "type":"c", "scope_line":271, "scope_name":"ftrace_raw_event_scsi_cmd_done_timeout_template", }
+,{"id":"ftrace_get_offsets_scsi_cmd_done_timeout_template", "file":"include/trace/events/scsi.h", "line":271, "type":"c", "scope_line":271, "scope_name":"perf_trace_scsi_cmd_done_timeout_template", }
+,{"id":"ftrace_get_offsets_scsi_cmd_done_timeout_template", "file":"include/trace/events/scsi.h", "line":271, "type":"f", }
+,{"id":"ftrace_get_offsets_scsi_dispatch_cmd_error", "file":"include/trace/events/scsi.h", "line":229, "type":"c", "scope_line":229, "scope_name":"ftrace_raw_event_scsi_dispatch_cmd_error", }
+,{"id":"ftrace_get_offsets_scsi_dispatch_cmd_error", "file":"include/trace/events/scsi.h", "line":229, "type":"c", "scope_line":229, "scope_name":"perf_trace_scsi_dispatch_cmd_error", }
+,{"id":"ftrace_get_offsets_scsi_dispatch_cmd_error", "file":"include/trace/events/scsi.h", "line":229, "type":"f", }
+,{"id":"ftrace_get_offsets_scsi_dispatch_cmd_start", "file":"include/trace/events/scsi.h", "line":190, "type":"c", "scope_line":190, "scope_name":"ftrace_raw_event_scsi_dispatch_cmd_start", }
+,{"id":"ftrace_get_offsets_scsi_dispatch_cmd_start", "file":"include/trace/events/scsi.h", "line":190, "type":"c", "scope_line":190, "scope_name":"perf_trace_scsi_dispatch_cmd_start", }
+,{"id":"ftrace_get_offsets_scsi_dispatch_cmd_start", "file":"include/trace/events/scsi.h", "line":190, "type":"f", }
+,{"id":"ftrace_get_offsets_scsi_eh_wakeup", "file":"include/trace/events/scsi.h", "line":325, "type":"c", "scope_line":325, "scope_name":"ftrace_raw_event_scsi_eh_wakeup", }
+,{"id":"ftrace_get_offsets_scsi_eh_wakeup", "file":"include/trace/events/scsi.h", "line":325, "type":"c", "scope_line":325, "scope_name":"perf_trace_scsi_eh_wakeup", }
+,{"id":"ftrace_get_offsets_scsi_eh_wakeup", "file":"include/trace/events/scsi.h", "line":325, "type":"f", }
+,{"id":"ftrace_get_offsets_signal_deliver", "file":"include/trace/events/signal.h", "line":78, "type":"c", "scope_line":78, "scope_name":"ftrace_raw_event_signal_deliver", }
+,{"id":"ftrace_get_offsets_signal_deliver", "file":"include/trace/events/signal.h", "line":78, "type":"c", "scope_line":78, "scope_name":"perf_trace_signal_deliver", }
+,{"id":"ftrace_get_offsets_signal_deliver", "file":"include/trace/events/signal.h", "line":78, "type":"f", }
+,{"id":"ftrace_get_offsets_signal_generate", "file":"include/trace/events/signal.h", "line":38, "type":"c", "scope_line":38, "scope_name":"ftrace_raw_event_signal_generate", }
+,{"id":"ftrace_get_offsets_signal_generate", "file":"include/trace/events/signal.h", "line":38, "type":"c", "scope_line":38, "scope_name":"perf_trace_signal_generate", }
+,{"id":"ftrace_get_offsets_signal_generate", "file":"include/trace/events/signal.h", "line":38, "type":"f", }
+,{"id":"ftrace_get_offsets_signal_queue_overflow", "file":"include/trace/events/signal.h", "line":104, "type":"c", "scope_line":104, "scope_name":"ftrace_raw_event_signal_queue_overflow", }
+,{"id":"ftrace_get_offsets_signal_queue_overflow", "file":"include/trace/events/signal.h", "line":104, "type":"c", "scope_line":104, "scope_name":"perf_trace_signal_queue_overflow", }
+,{"id":"ftrace_get_offsets_signal_queue_overflow", "file":"include/trace/events/signal.h", "line":104, "type":"f", }
+,{"id":"ftrace_get_offsets_skb_copy_datagram_iovec", "file":"include/trace/events/skb.h", "line":38, "type":"c", "scope_line":38, "scope_name":"ftrace_raw_event_skb_copy_datagram_iovec", }
+,{"id":"ftrace_get_offsets_skb_copy_datagram_iovec", "file":"include/trace/events/skb.h", "line":38, "type":"c", "scope_line":38, "scope_name":"perf_trace_skb_copy_datagram_iovec", }
+,{"id":"ftrace_get_offsets_skb_copy_datagram_iovec", "file":"include/trace/events/skb.h", "line":38, "type":"f", }
+,{"id":"ftrace_get_offsets_softirq", "file":"include/trace/events/irq.h", "line":85, "type":"c", "scope_line":85, "scope_name":"ftrace_raw_event_softirq", }
+,{"id":"ftrace_get_offsets_softirq", "file":"include/trace/events/irq.h", "line":85, "type":"c", "scope_line":85, "scope_name":"perf_trace_softirq", }
+,{"id":"ftrace_get_offsets_softirq", "file":"include/trace/events/irq.h", "line":85, "type":"f", }
+,{"id":"ftrace_get_offsets_sys_enter", "file":"include/trace/events/syscalls.h", "line":19, "type":"c", "scope_line":19, "scope_name":"ftrace_raw_event_sys_enter", }
+,{"id":"ftrace_get_offsets_sys_enter", "file":"include/trace/events/syscalls.h", "line":19, "type":"c", "scope_line":19, "scope_name":"perf_trace_sys_enter", }
+,{"id":"ftrace_get_offsets_sys_enter", "file":"include/trace/events/syscalls.h", "line":19, "type":"f", }
+,{"id":"ftrace_get_offsets_sys_exit", "file":"include/trace/events/syscalls.h", "line":43, "type":"c", "scope_line":43, "scope_name":"ftrace_raw_event_sys_exit", }
+,{"id":"ftrace_get_offsets_sys_exit", "file":"include/trace/events/syscalls.h", "line":43, "type":"c", "scope_line":43, "scope_name":"perf_trace_sys_exit", }
+,{"id":"ftrace_get_offsets_sys_exit", "file":"include/trace/events/syscalls.h", "line":43, "type":"f", }
+,{"id":"ftrace_get_offsets_timer_class", "file":"include/trace/events/timer.h", "line":11, "type":"c", "scope_line":11, "scope_name":"ftrace_raw_event_timer_class", }
+,{"id":"ftrace_get_offsets_timer_class", "file":"include/trace/events/timer.h", "line":11, "type":"c", "scope_line":11, "scope_name":"perf_trace_timer_class", }
+,{"id":"ftrace_get_offsets_timer_class", "file":"include/trace/events/timer.h", "line":11, "type":"f", }
+,{"id":"ftrace_get_offsets_timer_expire_entry", "file":"include/trace/events/timer.h", "line":75, "type":"c", "scope_line":75, "scope_name":"ftrace_raw_event_timer_expire_entry", }
+,{"id":"ftrace_get_offsets_timer_expire_entry", "file":"include/trace/events/timer.h", "line":75, "type":"c", "scope_line":75, "scope_name":"perf_trace_timer_expire_entry", }
+,{"id":"ftrace_get_offsets_timer_expire_entry", "file":"include/trace/events/timer.h", "line":75, "type":"f", }
+,{"id":"ftrace_get_offsets_timer_start", "file":"include/trace/events/timer.h", "line":44, "type":"c", "scope_line":44, "scope_name":"ftrace_raw_event_timer_start", }
+,{"id":"ftrace_get_offsets_timer_start", "file":"include/trace/events/timer.h", "line":44, "type":"c", "scope_line":44, "scope_name":"perf_trace_timer_start", }
+,{"id":"ftrace_get_offsets_timer_start", "file":"include/trace/events/timer.h", "line":44, "type":"f", }
+,{"id":"ftrace_get_offsets_unlock_kernel", "file":"include/trace/events/bkl.h", "line":34, "type":"c", "scope_line":34, "scope_name":"ftrace_raw_event_unlock_kernel", }
+,{"id":"ftrace_get_offsets_unlock_kernel", "file":"include/trace/events/bkl.h", "line":34, "type":"c", "scope_line":34, "scope_name":"perf_trace_unlock_kernel", }
+,{"id":"ftrace_get_offsets_unlock_kernel", "file":"include/trace/events/bkl.h", "line":34, "type":"f", }
+,{"id":"ftrace_get_offsets_wbc_class", "file":"include/trace/events/writeback.h", "line":91, "type":"c", "scope_line":91, "scope_name":"ftrace_raw_event_wbc_class", }
+,{"id":"ftrace_get_offsets_wbc_class", "file":"include/trace/events/writeback.h", "line":91, "type":"c", "scope_line":91, "scope_name":"perf_trace_wbc_class", }
+,{"id":"ftrace_get_offsets_wbc_class", "file":"include/trace/events/writeback.h", "line":91, "type":"f", }
+,{"id":"ftrace_get_offsets_workqueue_execute_end", "file":"include/trace/events/workqueue.h", "line":41, "type":"c", "scope_line":41, "scope_name":"ftrace_raw_event_workqueue_execute_end", }
+,{"id":"ftrace_get_offsets_workqueue_execute_end", "file":"include/trace/events/workqueue.h", "line":41, "type":"c", "scope_line":41, "scope_name":"perf_trace_workqueue_execute_end", }
+,{"id":"ftrace_get_offsets_workqueue_execute_end", "file":"include/trace/events/workqueue.h", "line":41, "type":"f", }
+,{"id":"ftrace_get_offsets_workqueue_execute_start", "file":"include/trace/events/workqueue.h", "line":16, "type":"c", "scope_line":16, "scope_name":"ftrace_raw_event_workqueue_execute_start", }
+,{"id":"ftrace_get_offsets_workqueue_execute_start", "file":"include/trace/events/workqueue.h", "line":16, "type":"c", "scope_line":16, "scope_name":"perf_trace_workqueue_execute_start", }
+,{"id":"ftrace_get_offsets_workqueue_execute_start", "file":"include/trace/events/workqueue.h", "line":16, "type":"f", }
+,{"id":"ftrace_get_offsets_writeback_class", "file":"include/trace/events/writeback.h", "line":65, "type":"c", "scope_line":65, "scope_name":"ftrace_raw_event_writeback_class", }
+,{"id":"ftrace_get_offsets_writeback_class", "file":"include/trace/events/writeback.h", "line":65, "type":"c", "scope_line":65, "scope_name":"perf_trace_writeback_class", }
+,{"id":"ftrace_get_offsets_writeback_class", "file":"include/trace/events/writeback.h", "line":65, "type":"f", }
+,{"id":"ftrace_get_offsets_writeback_pages_written", "file":"include/trace/events/writeback.h", "line":53, "type":"c", "scope_line":53, "scope_name":"ftrace_raw_event_writeback_pages_written", }
+,{"id":"ftrace_get_offsets_writeback_pages_written", "file":"include/trace/events/writeback.h", "line":53, "type":"c", "scope_line":53, "scope_name":"perf_trace_writeback_pages_written", }
+,{"id":"ftrace_get_offsets_writeback_pages_written", "file":"include/trace/events/writeback.h", "line":53, "type":"f", }
+,{"id":"ftrace_get_offsets_writeback_work_class", "file":"include/trace/events/writeback.h", "line":13, "type":"c", "scope_line":13, "scope_name":"ftrace_raw_event_writeback_work_class", }
+,{"id":"ftrace_get_offsets_writeback_work_class", "file":"include/trace/events/writeback.h", "line":13, "type":"c", "scope_line":13, "scope_name":"perf_trace_writeback_work_class", }
+,{"id":"ftrace_get_offsets_writeback_work_class", "file":"include/trace/events/writeback.h", "line":13, "type":"f", }
+,{"id":"ftrace_graph_active", "file":"kernel/trace/ftrace.c", "line":3185, "type":"v", }
+,{"id":"ftrace_graph_addr", "file":"kernel/trace/trace.h", "line":496, "type":"f", }
+,{"id":"ftrace_graph_addr", "file":"kernel/trace/trace_functions_graph.c", "line":221, "type":"c", "scope_line":207, "scope_name":"trace_graph_entry", }
+,{"id":"ftrace_graph_buf", "file":"kernel/trace/ftrace.c", "line":2309, "type":"v", }
+,];
+xr_frag_insert('t/a6/a7a023d00d146488e0cb117c6f3e63443027ff.xr', __xr_tmp);

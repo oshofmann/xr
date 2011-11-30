@@ -1,0 +1,10 @@
+var __xr_tmp = [
+"<span class=\"comment\">/* Some architectures might implement lazy enabling/disabling of</span>", 
+"<span class=\"comment\"> * interrupts. In some cases, such as stop_machine, we might want</span>", 
+"<span class=\"comment\"> * to ensure that after a local_irq_disable(), interrupts have</span>", 
+"<span class=\"comment\"> * really been disabled in hardware. Such architectures need to</span>", 
+"<span class=\"comment\"> * implement the following hook.</span>", 
+"<span class=\"comment\"> */</span>", 
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#hard_irq_disable\">hard_irq_disable</a>", 
+];
+xr_frag_insert('l/22/761c8a42f51ed8a6d656ca405c9e6dfb58ed9d.xr', __xr_tmp);

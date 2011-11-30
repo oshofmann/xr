@@ -1,0 +1,88 @@
+var __xr_tmp = [
+{"id":"has_fifo", "file":"block/compat_ioctl.c", "line":276, "type":"m", "scope_line":265, "scope_name":"struct compat_floppy_fdc_state", }
+,{"id":"has_fifo", "file":"include/linux/fd.h", "line":264, "type":"m", "scope_line":253, "scope_name":"struct floppy_fdc_state", }
+,{"id":"has_fs_excl", "file":"include/linux/fs.h", "line":1406, "type":"d", }
+,{"id":"has_group_leader_pid", "file":"fs/exec.c", "line":847, "type":"c", "scope_line":781, "scope_name":"de_thread", }
+,{"id":"has_group_leader_pid", "file":"fs/proc/base.c", "line":2947, "type":"c", "scope_line":2922, "scope_name":"next_tgid", }
+,{"id":"has_group_leader_pid", "file":"include/linux/sched.h", "line":2163, "type":"f", }
+,{"id":"has_intersects_mems_allowed", "file":"mm/oom_kill.c", "line":137, "type":"c", "scope_line":124, "scope_name":"oom_unkillable_task", }
+,{"id":"has_intersects_mems_allowed", "file":"mm/oom_kill.c", "line":50, "type":"f", }
+,{"id":"has_latch_file", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":291, "type":"f", }
+,{"id":"has_latch_file", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":342, "type":"c", "scope_line":321, "scope_name":"fs_add_slot", }
+,{"id":"has_latch_file", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":370, "type":"c", "scope_line":321, "scope_name":"fs_add_slot", }
+,{"id":"has_latch_file", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":394, "type":"c", "scope_line":385, "scope_name":"fs_remove_slot", }
+,{"id":"has_links", "file":"include/linux/nfs_xdr.h", "line":859, "type":"m", "scope_line":856, "scope_name":"struct nfs4_server_caps_res", }
+,{"id":"has_noalias", "file":"net/ipv4/route.c", "line":1070, "type":"c", "scope_line":1064, "scope_name":"slow_chain_length", }
+,{"id":"has_noalias", "file":"net/ipv4/route.c", "line":787, "type":"f", }
+,{"id":"has_noalias", "file":"net/ipv4/route.c", "line":854, "type":"c", "scope_line":799, "scope_name":"rt_check_expire", }
+,{"id":"has_pending_signals", "file":"kernel/signal.c", "line":127, "type":"c", "scope_line":125, "scope_name":"recalc_sigpending_tsk", }
+,{"id":"has_pending_signals", "file":"kernel/signal.c", "line":97, "type":"f", }
+,{"id":"has_perm", "file":"kernel/auditsc.c", "line":215, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"has_power_file", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":268, "type":"f", }
+,{"id":"has_power_file", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":328, "type":"c", "scope_line":321, "scope_name":"fs_add_slot", }
+,{"id":"has_power_file", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":377, "type":"c", "scope_line":321, "scope_name":"fs_add_slot", }
+,{"id":"has_power_file", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":387, "type":"c", "scope_line":385, "scope_name":"fs_remove_slot", }
+,{"id":"has_pushable_tasks", "file":"kernel/sched_rt.c", "line":1095, "type":"c", "scope_line":1082, "scope_name":"pick_next_task_rt", }
+,{"id":"has_pushable_tasks", "file":"kernel/sched_rt.c", "line":1285, "type":"c", "scope_line":1281, "scope_name":"pick_next_pushable_task", }
+,{"id":"has_pushable_tasks", "file":"kernel/sched_rt.c", "line":139, "type":"f", }
+,{"id":"has_pushable_tasks", "file":"kernel/sched_rt.c", "line":1491, "type":"c", "scope_line":1489, "scope_name":"task_woken_rt", }
+,{"id":"has_stopped_jobs", "file":"kernel/exit.c", "line":273, "type":"f", }
+,{"id":"has_stopped_jobs", "file":"kernel/exit.c", "line":309, "type":"c", "scope_line":292, "scope_name":"kill_orphaned_pgrp", }
+,{"id":"has_swap_token", "file":"include/linux/swap.h", "line":341, "type":"f", }
+,{"id":"has_swap_token", "file":"include/linux/swap.h", "line":348, "type":"c", "scope_line":346, "scope_name":"put_swap_token", }
+,{"id":"has_swap_token", "file":"mm/rmap.c", "line":523, "type":"c", "scope_line":485, "scope_name":"page_referenced_one", }
+,{"id":"has_symlinks", "file":"include/linux/nfs_xdr.h", "line":860, "type":"m", "scope_line":856, "scope_name":"struct nfs4_server_caps_res", }
+,{"id":"has_test_file", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":311, "type":"f", }
+,{"id":"has_test_file", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":356, "type":"c", "scope_line":321, "scope_name":"fs_add_slot", }
+,{"id":"has_test_file", "file":"drivers/pci/hotplug/pci_hotplug_core.c", "line":401, "type":"c", "scope_line":385, "scope_name":"fs_remove_slot", }
+,{"id":"has_timeout", "file":"include/linux/thread_info.h", "line":46, "type":"m", "scope_line":18, "scope_name":"struct restart_block", }
+,{"id":"has_vnet_hdr", "file":"net/packet/af_packet.c", "line":197, "type":"m", "scope_line":185, "scope_name":"struct packet_sock", }
+,{"id":"has_wakealarm", "file":"kernel/power/suspend_test.c", "line":115, "type":"f", }
+,{"id":"hash", "file":"crypto/hmac.c", "line":29, "type":"m", "scope_line":28, "scope_name":"struct hmac_ctx", }
+,{"id":"hash", "file":"fs/block_dev.c", "line":494, "type":"f", }
+,{"id":"hash", "file":"fs/block_dev.c", "line":517, "type":"c", "scope_line":512, "scope_name":"bdget", }
+,{"id":"hash", "file":"fs/ext3/dir.c", "line":256, "type":"m", "scope_line":255, "scope_name":"struct fname", }
+,{"id":"hash", "file":"fs/ext3/namei.c", "line":143, "type":"m", "scope_line":141, "scope_name":"struct dx_map_entry", }
+,{"id":"hash", "file":"fs/ext3/namei.c", "line":99, "type":"m", "scope_line":97, "scope_name":"struct dx_entry", }
+,{"id":"hash", "file":"fs/ext4/dir.c", "line":263, "type":"m", "scope_line":262, "scope_name":"struct fname", }
+,{"id":"hash", "file":"fs/ext4/ext4.h", "line":1476, "type":"m", "scope_line":1474, "scope_name":"struct dx_hash_info", }
+,{"id":"hash", "file":"fs/ext4/namei.c", "line":142, "type":"m", "scope_line":140, "scope_name":"struct dx_map_entry", }
+,{"id":"hash", "file":"fs/ext4/namei.c", "line":98, "type":"m", "scope_line":96, "scope_name":"struct dx_entry", }
+,{"id":"hash", "file":"fs/inode.c", "line":1025, "type":"c", "scope_line":1021, "scope_name":"iget5_locked", }
+,{"id":"hash", "file":"fs/inode.c", "line":1056, "type":"c", "scope_line":1054, "scope_name":"iget_locked", }
+,{"id":"hash", "file":"fs/inode.c", "line":1074, "type":"c", "scope_line":1070, "scope_name":"insert_inode_locked", }
+,{"id":"hash", "file":"fs/inode.c", "line":1111, "type":"c", "scope_line":1107, "scope_name":"insert_inode_locked4", }
+,{"id":"hash", "file":"fs/inode.c", "line":1156, "type":"c", "scope_line":1154, "scope_name":"__insert_inode_hash", }
+,{"id":"hash", "file":"fs/inode.c", "line":584, "type":"f", }
+,{"id":"hash", "file":"fs/inode.c", "line":619, "type":"c", "scope_line":617, "scope_name":"inode_add_to_lists", }
+,{"id":"hash", "file":"fs/inode.c", "line":825, "type":"c", "scope_line":808, "scope_name":"iunique", }
+,{"id":"hash", "file":"fs/inode.c", "line":945, "type":"c", "scope_line":942, "scope_name":"ilookup5_nowait", }
+,{"id":"hash", "file":"fs/inode.c", "line":973, "type":"c", "scope_line":970, "scope_name":"ilookup5", }
+,{"id":"hash", "file":"fs/inode.c", "line":995, "type":"c", "scope_line":993, "scope_name":"ilookup", }
+,{"id":"hash", "file":"fs/jbd/revoke.c", "line":102, "type":"m", "scope_line":100, "scope_name":"struct jbd_revoke_record_s", }
+,{"id":"hash", "file":"fs/jbd/revoke.c", "line":129, "type":"f", }
+,{"id":"hash", "file":"fs/jbd/revoke.c", "line":152, "type":"c", "scope_line":139, "scope_name":"insert_revoke_hash", }
+,{"id":"hash", "file":"fs/jbd/revoke.c", "line":174, "type":"c", "scope_line":168, "scope_name":"find_revoke_record", }
+,{"id":"hash", "file":"fs/jbd2/revoke.c", "line":102, "type":"m", "scope_line":100, "scope_name":"struct jbd2_revoke_record_s", }
+,{"id":"hash", "file":"fs/jbd2/revoke.c", "line":129, "type":"f", }
+,{"id":"hash", "file":"fs/jbd2/revoke.c", "line":153, "type":"c", "scope_line":140, "scope_name":"insert_revoke_hash", }
+,{"id":"hash", "file":"fs/jbd2/revoke.c", "line":175, "type":"c", "scope_line":169, "scope_name":"find_revoke_record", }
+,{"id":"hash", "file":"fs/namespace.c", "line":435, "type":"c", "scope_line":432, "scope_name":"__lookup_mnt", }
+,{"id":"hash", "file":"fs/namespace.c", "line":526, "type":"c", "scope_line":523, "scope_name":"attach_mnt", }
+,{"id":"hash", "file":"fs/namespace.c", "line":548, "type":"c", "scope_line":534, "scope_name":"commit_tree", }
+,{"id":"hash", "file":"fs/namespace.c", "line":68, "type":"f", }
+,{"id":"hash", "file":"include/crypto/md5.h", "line":12, "type":"m", "scope_line":11, "scope_name":"struct md5_state", }
+,{"id":"hash", "file":"include/linux/blkdev.h", "line":98, "type":"m", "scope_line":79, "scope_name":"struct request", }
+,{"id":"hash", "file":"include/linux/crypto.h", "line":410, "type":"m", "scope_line":401, "scope_name":"struct crypto_tfm", }
+,{"id":"hash", "file":"include/linux/dcache.h", "line":34, "type":"m", "scope_line":33, "scope_name":"struct qstr", }
+,{"id":"hash", "file":"include/linux/elevator.h", "line":95, "type":"m", "scope_line":88, "scope_name":"struct elevator_queue", }
+,{"id":"hash", "file":"include/linux/ext3_fs.h", "line":770, "type":"m", "scope_line":768, "scope_name":"struct dx_hash_info", }
+,{"id":"hash", "file":"include/linux/inktag.h", "line":42, "type":"m", "scope_line":40, "scope_name":"struct elf_page_hash", }
+,{"id":"hash", "file":"include/linux/inktag.h", "line":54, "type":"m", "scope_line":53, "scope_name":"struct ink_page_prot", }
+,{"id":"hash", "file":"include/linux/sunrpc/cache.h", "line":133, "type":"m", "scope_line":132, "scope_name":"struct cache_deferred_req", }
+,{"id":"hash", "file":"include/linux/sunrpc/svcauth.h", "line":50, "type":"m", "scope_line":48, "scope_name":"struct auth_domain", }
+,{"id":"hash", "file":"include/net/af_unix.h", "line":21, "type":"m", "scope_line":18, "scope_name":"struct unix_address", }
+,{"id":"hash", "file":"include/net/inet_frag.h", "line":37, "type":"m", "scope_line":36, "scope_name":"struct inet_frags", }
+,{"id":"hash", "file":"include/net/neighbour.h", "line":147, "type":"m", "scope_line":142, "scope_name":"struct neigh_table", }
+,];
+xr_frag_insert('t/08/73d551ef71965cebfd3080ddd1be31af294dea.xr', __xr_tmp);

@@ -1,0 +1,21 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#_LINUX_GETCPU_H\">_LINUX_GETCPU_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#_LINUX_GETCPU_H\">_LINUX_GETCPU_H</a> 1", 
+"", 
+"<span class=\"comment\">/* Cache for getcpu() to speed it up. Results might be a short time</span>", 
+"<span class=\"comment\">   out of date, but will be faster.</span>", 
+"<span class=\"comment\"></span>", 
+"<span class=\"comment\">   User programs should not refer to the contents of this structure.</span>", 
+"<span class=\"comment\">   I repeat they should not refer to it. If they do they will break</span>", 
+"<span class=\"comment\">   in future kernels.</span>", 
+"<span class=\"comment\"></span>", 
+"<span class=\"comment\">   It is only a private cache for vgetcpu(). It will change in future kernels.</span>", 
+"<span class=\"comment\">   The user program must store this information per thread (__thread)</span>", 
+"<span class=\"comment\">   If you want 100% accurate information pass NULL instead. */</span>", 
+"struct <a class=\"id\" href=\"#getcpu_cache\">getcpu_cache</a> {", 
+"<span class=\"ts\"/>unsigned long <a class=\"id\" href=\"#blob\">blob</a>[128 / sizeof(long)];", 
+"};", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+];
+xr_frag_insert('l/ab/00ce8674fffe79a401da307df2701069cc8696.xr', __xr_tmp);

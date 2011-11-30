@@ -1,0 +1,150 @@
+var __xr_tmp = [
+{"id":"dlc", "file":"include/net/bluetooth/rfcomm.h", "line":311, "type":"m", "scope_line":309, "scope_name":"struct rfcomm_pinfo", }
+,{"id":"dlci", "file":"include/linux/hdlc/ioctl.h", "line":66, "type":"m", "scope_line":65, "scope_name":"fr_proto_pvc", }
+,{"id":"dlci", "file":"include/linux/hdlc/ioctl.h", "line":70, "type":"m", "scope_line":69, "scope_name":"fr_proto_pvc_info", }
+,{"id":"dlci", "file":"include/linux/if_frad.h", "line":34, "type":"m", "scope_line":31, "scope_name":"struct dlci_add", }
+,{"id":"dlci", "file":"include/linux/wanrouter.h", "line":154, "type":"m", "scope_line":145, "scope_name":"struct wan_fr_conf", }
+,{"id":"dlci", "file":"include/net/bluetooth/rfcomm.h", "line":124, "type":"m", "scope_line":123, "scope_name":"struct rfcomm_pn", }
+,{"id":"dlci", "file":"include/net/bluetooth/rfcomm.h", "line":134, "type":"m", "scope_line":133, "scope_name":"struct rfcomm_rpn", }
+,{"id":"dlci", "file":"include/net/bluetooth/rfcomm.h", "line":144, "type":"m", "scope_line":143, "scope_name":"struct rfcomm_rls", }
+,{"id":"dlci", "file":"include/net/bluetooth/rfcomm.h", "line":149, "type":"m", "scope_line":148, "scope_name":"struct rfcomm_msc", }
+,{"id":"dlci", "file":"include/net/bluetooth/rfcomm.h", "line":181, "type":"m", "scope_line":171, "scope_name":"struct rfcomm_dlc", }
+,{"id":"dlci_add", "file":"include/linux/if_frad.h", "line":31, "type":"s", }
+,{"id":"dlci_conf", "file":"include/linux/if_frad.h", "line":45, "type":"s", }
+,{"id":"dlci_ioctl_hook", "file":"net/socket.c", "line":909, "type":"v", }
+,{"id":"dlci_ioctl_mutex", "file":"net/socket.c", "line":908, "type":"v", }
+,{"id":"dlci_ioctl_set", "file":"net/socket.c", "line":911, "type":"f", }
+,{"id":"dlci_num", "file":"include/linux/wanrouter.h", "line":153, "type":"m", "scope_line":145, "scope_name":"struct wan_fr_conf", }
+,{"id":"dlcs", "file":"include/net/bluetooth/rfcomm.h", "line":168, "type":"m", "scope_line":155, "scope_name":"struct rfcomm_session", }
+,{"id":"dlen", "file":"include/net/bluetooth/hci.h", "line":887, "type":"m", "scope_line":885, "scope_name":"struct hci_acl_hdr", }
+,{"id":"dlen", "file":"include/net/bluetooth/hci.h", "line":892, "type":"m", "scope_line":890, "scope_name":"struct hci_sco_hdr", }
+,{"id":"dlvry_mode", "file":"include/linux/dmar.h", "line":89, "type":"m", "scope_line":81, "scope_name":"struct irte", }
+,{"id":"dm9131_driver", "file":"drivers/net/phy/davicom.c", "line":174, "type":"v", }
+,{"id":"dm9161_ack_interrupt", "file":"drivers/net/phy/davicom.c", "line":145, "type":"f", }
+,{"id":"dm9161_config_aneg", "file":"drivers/net/phy/davicom.c", "line":85, "type":"f", }
+,{"id":"dm9161_config_init", "file":"drivers/net/phy/davicom.c", "line":104, "type":"f", }
+,{"id":"dm9161_config_intr", "file":"drivers/net/phy/davicom.c", "line":66, "type":"f", }
+,{"id":"dm9161a_driver", "file":"drivers/net/phy/davicom.c", "line":163, "type":"v", }
+,{"id":"dm9161e_driver", "file":"drivers/net/phy/davicom.c", "line":152, "type":"v", }
+,{"id":"dm_alloc_md_mempools", "file":"drivers/md/dm-table.c", "line":862, "type":"c", "scope_line":853, "scope_name":"dm_table_alloc_md_mempools", }
+,{"id":"dm_alloc_md_mempools", "file":"drivers/md/dm.c", "line":2879, "type":"f", }
+,{"id":"dm_any_congested", "file":"drivers/md/dm.c", "line":1817, "type":"f", }
+,{"id":"dm_array_too_big", "file":"include/linux/device-mapper.h", "line":398, "type":"d", }
+,{"id":"dm_attr_name", "file":"drivers/md/dm-sysfs.c", "line":67, "type":"v", }
+,{"id":"dm_attr_name_show", "file":"drivers/md/dm-sysfs.c", "line":42, "type":"f", }
+,{"id":"dm_attr_show", "file":"drivers/md/dm-sysfs.c", "line":21, "type":"f", }
+,{"id":"dm_attr_suspended", "file":"drivers/md/dm-sysfs.c", "line":69, "type":"v", }
+,{"id":"dm_attr_suspended_show", "file":"drivers/md/dm-sysfs.c", "line":60, "type":"f", }
+,{"id":"dm_attr_uuid", "file":"drivers/md/dm-sysfs.c", "line":68, "type":"v", }
+,{"id":"dm_attr_uuid_show", "file":"drivers/md/dm-sysfs.c", "line":51, "type":"f", }
+,{"id":"dm_attrs", "file":"drivers/md/dm-sysfs.c", "line":71, "type":"v", }
+,{"id":"dm_bio_destructor", "file":"drivers/md/dm-io.c", "line":264, "type":"f", }
+,{"id":"dm_bio_destructor", "file":"drivers/md/dm.c", "line":1114, "type":"f", }
+,{"id":"dm_blk_close", "file":"drivers/md/dm.c", "line":370, "type":"f", }
+,{"id":"dm_blk_dops", "file":"drivers/md/dm.c", "line":2934, "type":"v", }
+,{"id":"dm_blk_getgeo", "file":"drivers/md/dm.c", "line":406, "type":"f", }
+,{"id":"dm_blk_ioctl", "file":"drivers/md/dm.c", "line":413, "type":"f", }
+,{"id":"dm_blk_open", "file":"drivers/md/dm.c", "line":343, "type":"f", }
+,{"id":"dm_busy_fn", "file":"include/linux/device-mapper.h", "line":102, "type":"t", }
+,{"id":"dm_calculate_queue_limits", "file":"drivers/md/dm-table.c", "line":1040, "type":"f", }
+,{"id":"dm_calculate_queue_limits", "file":"drivers/md/dm.c", "line":2573, "type":"c", "scope_line":2561, "scope_name":"dm_swap_table", }
+,{"id":"dm_compat_ctl_ioctl", "file":"drivers/md/dm-ioctl.c", "line":1586, "type":"f", }
+,{"id":"dm_complete_request", "file":"drivers/md/dm.c", "line":1005, "type":"c", "scope_line":988, "scope_name":"dm_kill_unmapped_request", }
+,{"id":"dm_complete_request", "file":"drivers/md/dm.c", "line":1030, "type":"c", "scope_line":1012, "scope_name":"end_clone_request", }
+,{"id":"dm_complete_request", "file":"drivers/md/dm.c", "line":1558, "type":"c", "scope_line":1548, "scope_name":"dm_dispatch_request", }
+,{"id":"dm_complete_request", "file":"drivers/md/dm.c", "line":959, "type":"f", }
+,{"id":"dm_copy_name_and_uuid", "file":"drivers/md/dm-ioctl.c", "line":1649, "type":"f", }
+,{"id":"dm_copy_name_and_uuid", "file":"drivers/md/dm-sysfs.c", "line":44, "type":"c", "scope_line":42, "scope_name":"dm_attr_name_show", }
+,{"id":"dm_copy_name_and_uuid", "file":"drivers/md/dm-sysfs.c", "line":53, "type":"c", "scope_line":51, "scope_name":"dm_attr_uuid_show", }
+,{"id":"dm_create", "file":"drivers/md/dm-ioctl.c", "line":646, "type":"c", "scope_line":634, "scope_name":"dev_create", }
+,{"id":"dm_create", "file":"drivers/md/dm.c", "line":2189, "type":"f", }
+,{"id":"dm_ctl_ioctl", "file":"drivers/md/dm-ioctl.c", "line":1580, "type":"f", }
+,{"id":"dm_ctl_ioctl", "file":"drivers/md/dm-ioctl.c", "line":1588, "type":"c", "scope_line":1586, "scope_name":"dm_compat_ctl_ioctl", }
+,{"id":"dm_ctr_fn", "file":"include/linux/device-mapper.h", "line":32, "type":"t", }
+,{"id":"dm_deleting_md", "file":"drivers/md/dm-ioctl.c", "line":1356, "type":"c", "scope_line":1326, "scope_name":"target_message", }
+,{"id":"dm_deleting_md", "file":"drivers/md/dm.c", "line":2280, "type":"c", "scope_line":2269, "scope_name":"dm_find_md", }
+,{"id":"dm_deleting_md", "file":"drivers/md/dm.c", "line":2854, "type":"c", "scope_line":2846, "scope_name":"dm_get_from_kobject", }
+,{"id":"dm_deleting_md", "file":"drivers/md/dm.c", "line":338, "type":"f", }
+,{"id":"dm_deleting_md", "file":"drivers/md/dm.c", "line":354, "type":"c", "scope_line":343, "scope_name":"dm_blk_open", }
+,{"id":"dm_destroy", "file":"drivers/md/dm-ioctl.c", "line":278, "type":"c", "scope_line":250, "scope_name":"dm_hash_remove_all", }
+,{"id":"dm_destroy", "file":"drivers/md/dm-ioctl.c", "line":653, "type":"c", "scope_line":634, "scope_name":"dev_create", }
+,{"id":"dm_destroy", "file":"drivers/md/dm-ioctl.c", "line":757, "type":"c", "scope_line":722, "scope_name":"dev_remove", }
+,{"id":"dm_destroy", "file":"drivers/md/dm.c", "line":2362, "type":"f", }
+,{"id":"dm_destroy_immediate", "file":"drivers/md/dm-ioctl.c", "line":280, "type":"c", "scope_line":250, "scope_name":"dm_hash_remove_all", }
+,{"id":"dm_destroy_immediate", "file":"drivers/md/dm.c", "line":2367, "type":"f", }
+,{"id":"dm_dev", "file":"drivers/md/dm.h", "line":38, "type":"m", "scope_line":35, "scope_name":"struct dm_dev_internal", }
+,{"id":"dm_dev", "file":"include/linux/device-mapper.h", "line":112, "type":"s", }
+,{"id":"dm_dev_internal", "file":"drivers/md/dm.h", "line":35, "type":"s", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":1081, "type":"c", "scope_line":1040, "scope_name":"dm_calculate_queue_limits", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":1108, "type":"c", "scope_line":1096, "scope_name":"dm_table_set_integrity", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":1250, "type":"c", "scope_line":1237, "scope_name":"dm_table_any_congested", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":1284, "type":"c", "scope_line":1272, "scope_name":"dm_table_unplug_all", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":370, "type":"c", "scope_line":355, "scope_name":"device_area_is_invalid", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":383, "type":"c", "scope_line":355, "scope_name":"device_area_is_invalid", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":392, "type":"c", "scope_line":355, "scope_name":"device_area_is_invalid", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":503, "type":"c", "scope_line":494, "scope_name":"dm_set_device_limits", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":509, "type":"c", "scope_line":494, "scope_name":"dm_set_device_limits", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":712, "type":"c", "scope_line":657, "scope_name":"validate_hardware_logical_block_alignment", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":738, "type":"c", "scope_line":724, "scope_name":"dm_table_add_target", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":744, "type":"c", "scope_line":724, "scope_name":"dm_table_add_target", }
+,{"id":"dm_device_name", "file":"drivers/md/dm-table.c", "line":782, "type":"c", "scope_line":724, "scope_name":"dm_table_add_target", }
+,{"id":"dm_device_name", "file":"drivers/md/dm.c", "line":2320, "type":"f", }
+,{"id":"dm_device_name", "file":"drivers/md/dm.c", "line":2353, "type":"c", "scope_line":2326, "scope_name":"__dm_destroy", }
+,{"id":"dm_disk", "file":"drivers/md/dm-ioctl.c", "line":453, "type":"c", "scope_line":411, "scope_name":"list_devices", }
+,{"id":"dm_disk", "file":"drivers/md/dm-ioctl.c", "line":590, "type":"c", "scope_line":588, "scope_name":"__dev_status", }
+,{"id":"dm_disk", "file":"drivers/md/dm-ioctl.c", "line":919, "type":"c", "scope_line":876, "scope_name":"do_resume", }
+,{"id":"dm_disk", "file":"drivers/md/dm-ioctl.c", "line":921, "type":"c", "scope_line":876, "scope_name":"do_resume", }
+,{"id":"dm_disk", "file":"drivers/md/dm-sysfs.c", "line":97, "type":"c", "scope_line":95, "scope_name":"dm_sysfs_init", }
+,{"id":"dm_disk", "file":"drivers/md/dm-table.c", "line":1101, "type":"c", "scope_line":1096, "scope_name":"dm_table_set_integrity", }
+,{"id":"dm_disk", "file":"drivers/md/dm-table.c", "line":1120, "type":"c", "scope_line":1096, "scope_name":"dm_table_set_integrity", }
+,{"id":"dm_disk", "file":"drivers/md/dm-table.c", "line":1126, "type":"c", "scope_line":1096, "scope_name":"dm_table_set_integrity", }
+,{"id":"dm_disk", "file":"drivers/md/dm-table.c", "line":331, "type":"c", "scope_line":318, "scope_name":"open_dev", }
+,{"id":"dm_disk", "file":"drivers/md/dm-table.c", "line":347, "type":"c", "scope_line":342, "scope_name":"close_dev", }
+,{"id":"dm_disk", "file":"drivers/md/dm-table.c", "line":939, "type":"c", "scope_line":932, "scope_name":"dm_table_prealloc_integrity", }
+,{"id":"dm_disk", "file":"drivers/md/dm.c", "line":1490, "type":"c", "scope_line":1481, "scope_name":"_dm_request", }
+,{"id":"dm_disk", "file":"drivers/md/dm.c", "line":1491, "type":"c", "scope_line":1481, "scope_name":"_dm_request", }
+,{"id":"dm_disk", "file":"drivers/md/dm.c", "line":1697, "type":"c", "scope_line":1674, "scope_name":"map_request", }
+,{"id":"dm_disk", "file":"drivers/md/dm.c", "line":2280, "type":"c", "scope_line":2269, "scope_name":"dm_find_md", }
+,{"id":"dm_disk", "file":"drivers/md/dm.c", "line":2334, "type":"c", "scope_line":2326, "scope_name":"__dm_destroy", }
+,{"id":"dm_disk", "file":"drivers/md/dm.c", "line":2832, "type":"f", }
+,{"id":"dm_disk", "file":"drivers/md/dm.c", "line":495, "type":"c", "scope_line":486, "scope_name":"start_io_acct", }
+,{"id":"dm_disk", "file":"drivers/md/dm.c", "line":497, "type":"c", "scope_line":486, "scope_name":"start_io_acct", }
+,{"id":"dm_disk", "file":"drivers/md/dm.c", "line":509, "type":"c", "scope_line":500, "scope_name":"end_io_acct", }
+,{"id":"dm_disk", "file":"drivers/md/dm.c", "line":510, "type":"c", "scope_line":500, "scope_name":"end_io_acct", }
+,{"id":"dm_disk", "file":"drivers/md/dm.c", "line":517, "type":"c", "scope_line":500, "scope_name":"end_io_acct", }
+,{"id":"dm_dispatch_request", "file":"drivers/md/dm.c", "line":1548, "type":"f", }
+,{"id":"dm_dispatch_request", "file":"drivers/md/dm.c", "line":1699, "type":"c", "scope_line":1674, "scope_name":"map_request", }
+,{"id":"dm_div_up", "file":"include/linux/device-mapper.h", "line":383, "type":"d", }
+,{"id":"dm_done", "file":"drivers/md/dm.c", "line":916, "type":"f", }
+,{"id":"dm_done", "file":"drivers/md/dm.c", "line":952, "type":"c", "scope_line":943, "scope_name":"dm_softirq_done", }
+,{"id":"dm_done", "file":"drivers/md/dm.c", "line":973, "type":"c", "scope_line":959, "scope_name":"dm_complete_request", }
+,{"id":"dm_dtr_fn", "file":"include/linux/device-mapper.h", "line":39, "type":"t", }
+,{"id":"dm_end_request", "file":"drivers/md/dm.c", "line":1000, "type":"c", "scope_line":988, "scope_name":"dm_kill_unmapped_request", }
+,{"id":"dm_end_request", "file":"drivers/md/dm.c", "line":809, "type":"f", }
+,{"id":"dm_end_request", "file":"drivers/md/dm.c", "line":871, "type":"c", "scope_line":856, "scope_name":"dm_requeue_unmapped_request", }
+,{"id":"dm_end_request", "file":"drivers/md/dm.c", "line":927, "type":"c", "scope_line":916, "scope_name":"dm_done", }
+,{"id":"dm_endio_fn", "file":"include/linux/device-mapper.h", "line":61, "type":"t", }
+,{"id":"dm_exit", "file":"drivers/md/dm.c", "line":327, "type":"f", }
+,{"id":"dm_find_md", "file":"drivers/md/dm.c", "line":2269, "type":"f", }
+,{"id":"dm_find_md", "file":"drivers/md/dm.c", "line":2296, "type":"c", "scope_line":2294, "scope_name":"dm_get_md", }
+,{"id":"dm_flush", "file":"drivers/md/dm.c", "line":2409, "type":"f", }
+,{"id":"dm_flush", "file":"drivers/md/dm.c", "line":2425, "type":"c", "scope_line":2421, "scope_name":"process_barrier", }
+,{"id":"dm_flush", "file":"drivers/md/dm.c", "line":2434, "type":"c", "scope_line":2421, "scope_name":"process_barrier", }
+,{"id":"dm_flush_fn", "file":"include/linux/device-mapper.h", "line":68, "type":"t", }
+,{"id":"dm_free_md_mempools", "file":"drivers/md/dm-table.c", "line":271, "type":"c", "scope_line":240, "scope_name":"dm_table_destroy", }
+,{"id":"dm_free_md_mempools", "file":"drivers/md/dm-table.c", "line":871, "type":"c", "scope_line":869, "scope_name":"dm_table_free_md_mempools", }
+,{"id":"dm_free_md_mempools", "file":"drivers/md/dm.c", "line":2917, "type":"f", }
+,{"id":"dm_get", "file":"drivers/md/dm-ioctl.c", "line":110, "type":"c", "scope_line":103, "scope_name":"__get_name_cell", }
+,{"id":"dm_get", "file":"drivers/md/dm-ioctl.c", "line":124, "type":"c", "scope_line":117, "scope_name":"__get_uuid_cell", }
+,{"id":"dm_get", "file":"drivers/md/dm-ioctl.c", "line":213, "type":"c", "scope_line":181, "scope_name":"dm_hash_insert", }
+,{"id":"dm_get", "file":"drivers/md/dm-ioctl.c", "line":264, "type":"c", "scope_line":250, "scope_name":"dm_hash_remove_all", }
+,{"id":"dm_get", "file":"drivers/md/dm.c", "line":1687, "type":"c", "scope_line":1674, "scope_name":"map_request", }
+,{"id":"dm_get", "file":"drivers/md/dm.c", "line":2299, "type":"c", "scope_line":2294, "scope_name":"dm_get_md", }
+,{"id":"dm_get", "file":"drivers/md/dm.c", "line":2314, "type":"f", }
+,{"id":"dm_get", "file":"drivers/md/dm.c", "line":2539, "type":"c", "scope_line":2525, "scope_name":"dm_rq_barrier_work", }
+,{"id":"dm_get", "file":"drivers/md/dm.c", "line":2858, "type":"c", "scope_line":2846, "scope_name":"dm_get_from_kobject", }
+,{"id":"dm_get", "file":"drivers/md/dm.c", "line":360, "type":"c", "scope_line":343, "scope_name":"dm_blk_open", }
+,{"id":"dm_get_device", "file":"drivers/md/dm-linear.c", "line":50, "type":"c", "scope_line":28, "scope_name":"linear_ctr", }
+,{"id":"dm_get_device", "file":"drivers/md/dm-stripe.c", "line":85, "type":"c", "scope_line":77, "scope_name":"get_stripe", }
+,];
+xr_frag_insert('t/f1/035fcc789b4159d83fe7aa04004af8eb649ff8.xr', __xr_tmp);

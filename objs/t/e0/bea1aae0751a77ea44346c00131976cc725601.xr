@@ -1,0 +1,96 @@
+var __xr_tmp = [
+{"id":"efivar_attr_read", "file":"drivers/firmware/efivars.c", "line":208, "type":"f", }
+,{"id":"efivar_attr_show", "file":"drivers/firmware/efivars.c", "line":334, "type":"f", }
+,{"id":"efivar_attr_size", "file":"drivers/firmware/efivars.c", "line":379, "type":"v", }
+,{"id":"efivar_attr_store", "file":"drivers/firmware/efivars.c", "line":350, "type":"f", }
+,{"id":"efivar_attribute", "file":"drivers/firmware/efivars.c", "line":126, "type":"s", }
+,{"id":"efivar_create", "file":"drivers/firmware/efivars.c", "line":405, "type":"f", }
+,{"id":"efivar_create_sysfs_entry", "file":"drivers/firmware/efivars.c", "line":456, "type":"c", "scope_line":405, "scope_name":"efivar_create", }
+,{"id":"efivar_create_sysfs_entry", "file":"drivers/firmware/efivars.c", "line":588, "type":"f", }
+,{"id":"efivar_create_sysfs_entry", "file":"drivers/firmware/efivars.c", "line":697, "type":"c", "scope_line":648, "scope_name":"efivars_init", }
+,{"id":"efivar_data_read", "file":"drivers/firmware/efivars.c", "line":249, "type":"f", }
+,{"id":"efivar_delete", "file":"drivers/firmware/efivars.c", "line":464, "type":"f", }
+,{"id":"efivar_entry", "file":"drivers/firmware/efivars.c", "line":120, "type":"s", }
+,{"id":"efivar_guid_read", "file":"drivers/firmware/efivars.c", "line":192, "type":"f", }
+,{"id":"efivar_ktype", "file":"drivers/firmware/efivars.c", "line":392, "type":"v", }
+,{"id":"efivar_list", "file":"drivers/firmware/efivars.c", "line":101, "type":"v", }
+,{"id":"efivar_release", "file":"drivers/firmware/efivars.c", "line":371, "type":"f", }
+,{"id":"efivar_show_raw", "file":"drivers/firmware/efivars.c", "line":313, "type":"f", }
+,{"id":"efivar_size_read", "file":"drivers/firmware/efivars.c", "line":231, "type":"f", }
+,{"id":"efivar_store_raw", "file":"drivers/firmware/efivars.c", "line":269, "type":"f", }
+,{"id":"efivar_unregister", "file":"drivers/firmware/efivars.c", "line":398, "type":"f", }
+,{"id":"efivar_unregister", "file":"drivers/firmware/efivars.c", "line":517, "type":"c", "scope_line":464, "scope_name":"efivar_delete", }
+,{"id":"efivar_unregister", "file":"drivers/firmware/efivars.c", "line":753, "type":"c", "scope_line":744, "scope_name":"efivars_exit", }
+,{"id":"efivars_exit", "file":"drivers/firmware/efivars.c", "line":744, "type":"f", }
+,{"id":"efivars_init", "file":"drivers/firmware/efivars.c", "line":648, "type":"f", }
+,{"id":"efivars_lock", "file":"drivers/firmware/efivars.c", "line":100, "type":"v", }
+,{"id":"eflags", "file":"arch/x86/boot/boot.h", "line":258, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"eflags", "file":"arch/x86/include/asm/user32.h", "line":41, "type":"m", "scope_line":35, "scope_name":"struct user_regs_struct32", }
+,{"id":"eflags", "file":"arch/x86/include/asm/vm86.h", "line":80, "type":"m", "scope_line":62, "scope_name":"struct vm86_regs", }
+,{"id":"eflags", "file":"arch/x86/include/asm/vmi.h", "line":246, "type":"m", "scope_line":237, "scope_name":"struct vmi_ap_state", }
+,{"id":"eflags", "file":"arch/x86/include/asm/xen/interface_64.h", "line":131, "type":"m", "scope_line":109, "scope_name":"struct cpu_user_regs", }
+,{"id":"eflags", "file":"include/linux/libata.h", "line":585, "type":"m", "scope_line":584, "scope_name":"struct ata_ering_entry", }
+,{"id":"eframe", "file":"include/linux/ethtool.h", "line":345, "type":"m", "scope_line":342, "scope_name":"struct ethtool_ether_spec", }
+,{"id":"eg_MPC_ATM_addr", "file":"include/linux/atmmpc.h", "line":24, "type":"m", "scope_line":21, "scope_name":"struct in_ctrl_info", }
+,{"id":"eg_ctrl_info", "file":"include/linux/atmmpc.h", "line":31, "type":"s", }
+,{"id":"eg_ctrl_info", "file":"include/linux/atmmpc.h", "line":31, "type":"t", }
+,{"id":"eg_dst_ip", "file":"include/linux/atmmpc.h", "line":37, "type":"m", "scope_line":31, "scope_name":"struct eg_ctrl_info", }
+,{"id":"eg_info", "file":"include/linux/atmmpc.h", "line":57, "type":"m", "scope_line":51, "scope_name":"struct k_message", }
+,{"id":"ega_console_resource", "file":"drivers/video/console/vgacon.c", "line":413, "type":"v", }
+,{"id":"ega_console_resource___0", "file":"drivers/video/console/vgacon.c", "line":446, "type":"v", }
+,{"id":"ega_modes", "file":"arch/x86/boot/video-vga.c", "line":29, "type":"v", }
+,{"id":"egid", "file":"include/linux/cn_proc.h", "line":89, "type":"m", "scope_line":45, "scope_name":"struct id_proc_event", }
+,{"id":"egid", "file":"include/linux/cred.h", "line":130, "type":"m", "scope_line":116, "scope_name":"struct cred", }
+,{"id":"egid", "file":"kernel/auditsc.c", "line":189, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"egress_priority_map", "file":"net/8021q/vlan.h", "line":56, "type":"m", "scope_line":52, "scope_name":"struct vlan_dev_info", }
+,{"id":"eh_abort_handler", "file":"include/scsi/scsi_host.h", "line":172, "type":"m", "scope_line":52, "scope_name":"struct scsi_host_template", }
+,{"id":"eh_action", "file":"include/scsi/scsi_host.h", "line":545, "type":"m", "scope_line":521, "scope_name":"struct Scsi_Host", }
+,{"id":"eh_bus_reset_handler", "file":"include/scsi/scsi_host.h", "line":175, "type":"m", "scope_line":52, "scope_name":"struct scsi_host_template", }
+,{"id":"eh_cmd_q", "file":"include/scsi/scsi_host.h", "line":543, "type":"m", "scope_line":521, "scope_name":"struct Scsi_Host", }
+,{"id":"eh_cmnd", "file":"include/scsi/scsi_eh.h", "line":84, "type":"m", "scope_line":73, "scope_name":"struct scsi_eh_save", }
+,{"id":"eh_context", "file":"include/linux/libata.h", "line":706, "type":"m", "scope_line":689, "scope_name":"struct ata_link", }
+,{"id":"eh_depth", "file":"fs/ext4/ext4_extents.h", "line":98, "type":"m", "scope_line":94, "scope_name":"struct ext4_extent_header", }
+,{"id":"eh_device_reset_handler", "file":"include/scsi/scsi_host.h", "line":173, "type":"m", "scope_line":52, "scope_name":"struct scsi_host_template", }
+,{"id":"eh_done_q", "file":"include/linux/libata.h", "line":763, "type":"m", "scope_line":711, "scope_name":"struct ata_port", }
+,{"id":"eh_eflags", "file":"include/scsi/scsi_cmnd.h", "line":57, "type":"m", "scope_line":53, "scope_name":"struct scsi_cmnd", }
+,{"id":"eh_entries", "file":"fs/ext4/ext4_extents.h", "line":96, "type":"m", "scope_line":94, "scope_name":"struct ext4_extent_header", }
+,{"id":"eh_entry", "file":"include/scsi/scsi_cmnd.h", "line":56, "type":"m", "scope_line":53, "scope_name":"struct scsi_cmnd", }
+,{"id":"eh_generation", "file":"fs/ext4/ext4_extents.h", "line":99, "type":"m", "scope_line":94, "scope_name":"struct ext4_extent_header", }
+,{"id":"eh_host_reset_handler", "file":"include/scsi/scsi_host.h", "line":176, "type":"m", "scope_line":52, "scope_name":"struct scsi_host_template", }
+,{"id":"eh_info", "file":"include/linux/libata.h", "line":704, "type":"m", "scope_line":689, "scope_name":"struct ata_link", }
+,{"id":"eh_lock_door_done", "file":"drivers/scsi/scsi_error.c", "line":1555, "type":"f", }
+,{"id":"eh_magic", "file":"fs/ext4/ext4_extents.h", "line":95, "type":"m", "scope_line":94, "scope_name":"struct ext4_extent_header", }
+,{"id":"eh_max", "file":"fs/ext4/ext4_extents.h", "line":97, "type":"m", "scope_line":94, "scope_name":"struct ext4_extent_header", }
+,{"id":"eh_strategy_handler", "file":"include/scsi/scsi_transport.h", "line":57, "type":"m", "scope_line":28, "scope_name":"struct scsi_transport_template", }
+,{"id":"eh_target_reset_handler", "file":"include/scsi/scsi_host.h", "line":174, "type":"m", "scope_line":52, "scope_name":"struct scsi_host_template", }
+,{"id":"eh_timed_out", "file":"include/scsi/scsi_host.h", "line":357, "type":"m", "scope_line":52, "scope_name":"struct scsi_host_template", }
+,{"id":"eh_timed_out", "file":"include/scsi/scsi_transport.h", "line":68, "type":"m", "scope_line":28, "scope_name":"struct scsi_transport_template", }
+,{"id":"eh_tries", "file":"include/linux/libata.h", "line":765, "type":"m", "scope_line":711, "scope_name":"struct ata_port", }
+,{"id":"eh_wait_q", "file":"include/linux/libata.h", "line":764, "type":"m", "scope_line":711, "scope_name":"struct ata_port", }
+,{"id":"ehandler", "file":"include/scsi/scsi_host.h", "line":544, "type":"m", "scope_line":521, "scope_name":"struct Scsi_Host", }
+,{"id":"ehash", "file":"include/net/inet_hashtables.h", "line":126, "type":"m", "scope_line":118, "scope_name":"struct inet_hashinfo", }
+,{"id":"ehash_locks", "file":"include/net/inet_hashtables.h", "line":127, "type":"m", "scope_line":118, "scope_name":"struct inet_hashinfo", }
+,{"id":"ehash_locks_mask", "file":"include/net/inet_hashtables.h", "line":129, "type":"m", "scope_line":118, "scope_name":"struct inet_hashinfo", }
+,{"id":"ehash_mask", "file":"include/net/inet_hashtables.h", "line":128, "type":"m", "scope_line":118, "scope_name":"struct inet_hashinfo", }
+,{"id":"ehci_caps", "file":"include/linux/usb/ehci_def.h", "line":25, "type":"s", }
+,{"id":"ehci_dbg_port", "file":"include/linux/usb/ehci_def.h", "line":175, "type":"s", }
+,{"id":"ehci_regs", "file":"include/linux/usb/ehci_def.h", "line":59, "type":"s", }
+,{"id":"ei_block", "file":"fs/ext4/ext4_extents.h", "line":84, "type":"m", "scope_line":83, "scope_name":"struct ext4_extent_idx", }
+,{"id":"ei_leaf_hi", "file":"fs/ext4/ext4_extents.h", "line":87, "type":"m", "scope_line":83, "scope_name":"struct ext4_extent_idx", }
+,{"id":"ei_leaf_lo", "file":"fs/ext4/ext4_extents.h", "line":85, "type":"m", "scope_line":83, "scope_name":"struct ext4_extent_idx", }
+,{"id":"ei_osabi", "file":"include/linux/regset.h", "line":189, "type":"m", "scope_line":183, "scope_name":"struct user_regset_view", }
+,{"id":"ei_unused", "file":"fs/ext4/ext4_extents.h", "line":88, "type":"m", "scope_line":83, "scope_name":"struct ext4_extent_idx", }
+,{"id":"eid", "file":"include/acpi/actbl1.h", "line":175, "type":"m", "scope_line":172, "scope_name":"struct acpi_cpep_polling", }
+,{"id":"eid", "file":"include/acpi/actbl1.h", "line":711, "type":"m", "scope_line":707, "scope_name":"struct acpi_madt_local_sapic", }
+,{"id":"eid", "file":"include/acpi/actbl1.h", "line":725, "type":"m", "scope_line":720, "scope_name":"struct acpi_madt_interrupt_source", }
+,{"id":"eieio", "file":"drivers/video/imsttfb.c", "line":41, "type":"d", }
+,{"id":"eighty_ninty_three", "file":"drivers/ide/ide-iops.c", "line":228, "type":"f", }
+,{"id":"eip", "file":"arch/x86/include/asm/user32.h", "line":39, "type":"m", "scope_line":35, "scope_name":"struct user_regs_struct32", }
+,{"id":"eip", "file":"arch/x86/include/asm/vm86.h", "line":78, "type":"m", "scope_line":62, "scope_name":"struct vm86_regs", }
+,{"id":"eip", "file":"arch/x86/include/asm/vmi.h", "line":158, "type":"m", "scope_line":157, "scope_name":"struct vmi_relocation_info", }
+,{"id":"eip", "file":"arch/x86/include/asm/vmi.h", "line":245, "type":"m", "scope_line":237, "scope_name":"struct vmi_ap_state", }
+,{"id":"eip", "file":"arch/x86/include/asm/xen/interface_64.h", "line":127, "type":"m", "scope_line":109, "scope_name":"struct cpu_user_regs", }
+,{"id":"eisa_device_id", "file":"include/linux/mod_devicetable.h", "line":339, "type":"s", }
+,{"id":"eisa_irq_mask", "file":"arch/x86/pci/irq.c", "line":159, "type":"v", }
+,];
+xr_frag_insert('t/e0/bea1aae0751a77ea44346c00131976cc725601.xr', __xr_tmp);

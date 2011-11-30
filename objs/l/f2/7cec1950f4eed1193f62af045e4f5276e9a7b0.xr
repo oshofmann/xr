@@ -1,0 +1,15 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#__ASM_GENERIC_UCONTEXT_H\">__ASM_GENERIC_UCONTEXT_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#__ASM_GENERIC_UCONTEXT_H\">__ASM_GENERIC_UCONTEXT_H</a>", 
+"", 
+"struct <a class=\"id\" href=\"#ucontext\">ucontext</a> {", 
+"<span class=\"ts\"/>unsigned long<span class=\"ts\"/>  <a class=\"id\" href=\"#uc_flags\">uc_flags</a>;", 
+"<span class=\"ts\"/>struct <a class=\"id\" href=\"#ucontext\">ucontext</a>  *<a class=\"id\" href=\"#uc_link\">uc_link</a>;", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#stack_t\">stack_t</a><span class=\"ts\"/><span class=\"ts\"/>  <a class=\"id\" href=\"#uc_stack\">uc_stack</a>;", 
+"<span class=\"ts\"/>struct <a class=\"id\" href=\"#sigcontext\">sigcontext</a> <a class=\"id\" href=\"#uc_mcontext\">uc_mcontext</a>;", 
+"<span class=\"ts\"/><a class=\"id\" href=\"#sigset_t\">sigset_t</a><span class=\"ts\"/>  <a class=\"id\" href=\"#uc_sigmask\">uc_sigmask</a>;<span class=\"ts\"/><span class=\"comment\">/* mask last for extensibility */</span>", 
+"};", 
+"", 
+"#<a class=\"id\" href=\"#endif\">endif</a> <span class=\"comment\">/* __ASM_GENERIC_UCONTEXT_H */</span>", 
+];
+xr_frag_insert('l/f2/7cec1950f4eed1193f62af045e4f5276e9a7b0.xr', __xr_tmp);

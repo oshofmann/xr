@@ -1,0 +1,107 @@
+var __xr_tmp = [
+{"id":"RPC_MAX_FRAGMENT_SIZE", "file":"include/linux/sunrpc/msg_prot.h", "line":106, "type":"d", }
+,{"id":"RPC_MAX_HEADER_WITH_AUTH", "file":"include/linux/sunrpc/msg_prot.h", "line":138, "type":"d", }
+,{"id":"RPC_MAX_SLOT_TABLE", "file":"include/linux/sunrpc/xprt.h", "line":25, "type":"d", }
+,{"id":"RPC_MIN_SLOT_TABLE", "file":"include/linux/sunrpc/xprt.h", "line":23, "type":"d", }
+,{"id":"RPC_MISMATCH", "file":"include/linux/sunrpc/msg_prot.h", "line":65, "type":"e", "scope_line":64, "scope_name":"rpc_reject_stat", }
+,{"id":"RPC_MSG_ACCEPTED", "file":"include/linux/sunrpc/msg_prot.h", "line":49, "type":"e", "scope_line":48, "scope_name":"rpc_reply_stat", }
+,{"id":"RPC_MSG_DENIED", "file":"include/linux/sunrpc/msg_prot.h", "line":50, "type":"e", "scope_line":48, "scope_name":"rpc_reply_stat", }
+,{"id":"RPC_NR_PRIORITY", "file":"include/linux/sunrpc/sched.h", "line":173, "type":"d", }
+,{"id":"RPC_PRIORITY_HIGH", "file":"include/linux/sunrpc/sched.h", "line":171, "type":"d", }
+,{"id":"RPC_PRIORITY_LOW", "file":"include/linux/sunrpc/sched.h", "line":169, "type":"d", }
+,{"id":"RPC_PRIORITY_NORMAL", "file":"include/linux/sunrpc/sched.h", "line":170, "type":"d", }
+,{"id":"RPC_PRIORITY_PRIVILEGED", "file":"include/linux/sunrpc/sched.h", "line":172, "type":"d", }
+,{"id":"RPC_PROC_UNAVAIL", "file":"include/linux/sunrpc/msg_prot.h", "line":57, "type":"e", "scope_line":53, "scope_name":"rpc_accept_stat", }
+,{"id":"RPC_PROG_MISMATCH", "file":"include/linux/sunrpc/msg_prot.h", "line":56, "type":"e", "scope_line":53, "scope_name":"rpc_accept_stat", }
+,{"id":"RPC_PROG_UNAVAIL", "file":"include/linux/sunrpc/msg_prot.h", "line":55, "type":"e", "scope_line":53, "scope_name":"rpc_accept_stat", }
+,{"id":"RPC_REPHDRSIZE", "file":"include/linux/sunrpc/msg_prot.h", "line":113, "type":"d", }
+,{"id":"RPC_REPLY", "file":"include/linux/sunrpc/msg_prot.h", "line":45, "type":"e", "scope_line":43, "scope_name":"rpc_msg_type", }
+,{"id":"RPC_SUCCESS", "file":"include/linux/sunrpc/msg_prot.h", "line":54, "type":"e", "scope_line":53, "scope_name":"rpc_accept_stat", }
+,{"id":"RPC_SYSTEM_ERR", "file":"include/linux/sunrpc/msg_prot.h", "line":59, "type":"e", "scope_line":53, "scope_name":"rpc_accept_stat", }
+,{"id":"RPC_TASK_ACTIVE", "file":"include/linux/sunrpc/sched.h", "line":140, "type":"d", }
+,{"id":"RPC_TASK_ASYNC", "file":"include/linux/sunrpc/sched.h", "line":122, "type":"d", }
+,{"id":"RPC_TASK_DYNAMIC", "file":"include/linux/sunrpc/sched.h", "line":126, "type":"d", }
+,{"id":"RPC_TASK_KILLED", "file":"include/linux/sunrpc/sched.h", "line":127, "type":"d", }
+,{"id":"RPC_TASK_QUEUED", "file":"include/linux/sunrpc/sched.h", "line":139, "type":"d", }
+,{"id":"RPC_TASK_ROOTCREDS", "file":"include/linux/sunrpc/sched.h", "line":125, "type":"d", }
+,{"id":"RPC_TASK_RUNNING", "file":"include/linux/sunrpc/sched.h", "line":138, "type":"d", }
+,{"id":"RPC_TASK_SOFT", "file":"include/linux/sunrpc/sched.h", "line":128, "type":"d", }
+,{"id":"RPC_TASK_SOFTCONN", "file":"include/linux/sunrpc/sched.h", "line":129, "type":"d", }
+,{"id":"RPC_TASK_SWAPPER", "file":"include/linux/sunrpc/sched.h", "line":123, "type":"d", }
+,{"id":"RPC_VERSION", "file":"include/linux/sunrpc/msg_prot.h", "line":12, "type":"d", }
+,{"id":"RPM_ACTIVE", "file":"include/linux/pm.h", "line":426, "type":"e", "scope_line":425, "scope_name":"rpm_status", }
+,{"id":"RPM_REQ_IDLE", "file":"include/linux/pm.h", "line":446, "type":"e", "scope_line":444, "scope_name":"rpm_request", }
+,{"id":"RPM_REQ_NONE", "file":"include/linux/pm.h", "line":445, "type":"e", "scope_line":444, "scope_name":"rpm_request", }
+,{"id":"RPM_REQ_RESUME", "file":"include/linux/pm.h", "line":448, "type":"e", "scope_line":444, "scope_name":"rpm_request", }
+,{"id":"RPM_REQ_SUSPEND", "file":"include/linux/pm.h", "line":447, "type":"e", "scope_line":444, "scope_name":"rpm_request", }
+,{"id":"RPM_RESUMING", "file":"include/linux/pm.h", "line":427, "type":"e", "scope_line":425, "scope_name":"rpm_status", }
+,{"id":"RPM_SUSPENDED", "file":"include/linux/pm.h", "line":428, "type":"e", "scope_line":425, "scope_name":"rpm_status", }
+,{"id":"RPM_SUSPENDING", "file":"include/linux/pm.h", "line":429, "type":"e", "scope_line":425, "scope_name":"rpm_status", }
+,{"id":"RPP", "file":"drivers/xen/grant-table.c", "line":73, "type":"d", }
+,{"id":"RPS_DEV_FLOW_TABLE_SIZE", "file":"include/linux/netdevice.h", "line":545, "type":"d", }
+,{"id":"RPS_MAP_SIZE", "file":"include/linux/netdevice.h", "line":524, "type":"d", }
+,{"id":"RPS_NO_CPU", "file":"include/linux/netdevice.h", "line":559, "type":"d", }
+,{"id":"RPS_SOCK_FLOW_TABLE_SIZE", "file":"include/linux/netdevice.h", "line":556, "type":"d", }
+,{"id":"RQ_CFQG", "file":"block/cfq-iosched.c", "line":59, "type":"d", }
+,{"id":"RQ_CFQQ", "file":"block/cfq-iosched.c", "line":58, "type":"d", }
+,{"id":"RQ_CIC", "file":"block/cfq-iosched.c", "line":56, "type":"d", }
+,{"id":"RQ_NOMERGE_FLAGS", "file":"include/linux/blkdev.h", "line":594, "type":"d", }
+,{"id":"RRCIV", "file":"drivers/video/imsttfb.c", "line":80, "type":"e", "scope_line":45, }
+,{"id":"RRCR", "file":"drivers/video/imsttfb.c", "line":82, "type":"e", "scope_line":45, }
+,{"id":"RRSC", "file":"drivers/video/imsttfb.c", "line":81, "type":"e", "scope_line":45, }
+,{"id":"RSRC_BUF_SIZE", "file":"lib/vsprintf.c", "line":639, "type":"d", }
+,{"id":"RT6_DEBUG", "file":"net/ipv6/ip6_fib.c", "line":42, "type":"d", }
+,{"id":"RT6_DEBUG", "file":"net/ipv6/route.c", "line":65, "type":"d", }
+,{"id":"RT6_INFO_LEN", "file":"net/ipv6/route.c", "line":2455, "type":"d", }
+,{"id":"RT6_LOOKUP_F_HAS_SADDR", "file":"include/net/ip6_route.h", "line":35, "type":"d", }
+,{"id":"RT6_LOOKUP_F_IFACE", "file":"include/net/ip6_route.h", "line":33, "type":"d", }
+,{"id":"RT6_LOOKUP_F_REACHABLE", "file":"include/net/ip6_route.h", "line":34, "type":"d", }
+,{"id":"RT6_LOOKUP_F_SRCPREF_COA", "file":"include/net/ip6_route.h", "line":38, "type":"d", }
+,{"id":"RT6_LOOKUP_F_SRCPREF_PUBLIC", "file":"include/net/ip6_route.h", "line":37, "type":"d", }
+,{"id":"RT6_LOOKUP_F_SRCPREF_TMP", "file":"include/net/ip6_route.h", "line":36, "type":"d", }
+,{"id":"RT6_TABLE_DFLT", "file":"include/net/ip6_fib.h", "line":167, "type":"d", }
+,{"id":"RT6_TABLE_INFO", "file":"include/net/ip6_fib.h", "line":168, "type":"d", }
+,{"id":"RT6_TABLE_LOCAL", "file":"include/net/ip6_fib.h", "line":174, "type":"d", }
+,{"id":"RT6_TABLE_MAIN", "file":"include/net/ip6_fib.h", "line":166, "type":"d", }
+,{"id":"RT6_TABLE_PREFIX", "file":"include/net/ip6_fib.h", "line":169, "type":"d", }
+,{"id":"RT6_TABLE_UNSPEC", "file":"include/net/ip6_fib.h", "line":165, "type":"d", }
+,{"id":"RT6_TRACE", "file":"net/ipv6/ip6_fib.c", "line":47, "type":"d", }
+,{"id":"RT6_TRACE", "file":"net/ipv6/route.c", "line":72, "type":"d", }
+,{"id":"RTAX_ADVMSS", "file":"include/linux/rtnetlink.h", "line":361, "type":"e", "scope_line":344, }
+,{"id":"RTAX_ADVMSS", "file":"include/linux/rtnetlink.h", "line":362, "type":"d", }
+,{"id":"RTAX_CWND", "file":"include/linux/rtnetlink.h", "line":359, "type":"e", "scope_line":344, }
+,{"id":"RTAX_CWND", "file":"include/linux/rtnetlink.h", "line":360, "type":"d", }
+,{"id":"RTAX_FEATURES", "file":"include/linux/rtnetlink.h", "line":369, "type":"e", "scope_line":344, }
+,{"id":"RTAX_FEATURES", "file":"include/linux/rtnetlink.h", "line":370, "type":"d", }
+,{"id":"RTAX_FEATURE_ALLFRAG", "file":"include/linux/rtnetlink.h", "line":383, "type":"d", }
+,{"id":"RTAX_FEATURE_ECN", "file":"include/linux/rtnetlink.h", "line":380, "type":"d", }
+,{"id":"RTAX_FEATURE_SACK", "file":"include/linux/rtnetlink.h", "line":381, "type":"d", }
+,{"id":"RTAX_FEATURE_TIMESTAMP", "file":"include/linux/rtnetlink.h", "line":382, "type":"d", }
+,{"id":"RTAX_HOPLIMIT", "file":"include/linux/rtnetlink.h", "line":365, "type":"e", "scope_line":344, }
+,{"id":"RTAX_HOPLIMIT", "file":"include/linux/rtnetlink.h", "line":366, "type":"d", }
+,{"id":"RTAX_INITCWND", "file":"include/linux/rtnetlink.h", "line":367, "type":"e", "scope_line":344, }
+,{"id":"RTAX_INITCWND", "file":"include/linux/rtnetlink.h", "line":368, "type":"d", }
+,{"id":"RTAX_INITRWND", "file":"include/linux/rtnetlink.h", "line":373, "type":"e", "scope_line":344, }
+,{"id":"RTAX_INITRWND", "file":"include/linux/rtnetlink.h", "line":374, "type":"d", }
+,{"id":"RTAX_LOCK", "file":"include/linux/rtnetlink.h", "line":347, "type":"e", "scope_line":344, }
+,{"id":"RTAX_LOCK", "file":"include/linux/rtnetlink.h", "line":348, "type":"d", }
+,{"id":"RTAX_MAX", "file":"include/linux/rtnetlink.h", "line":378, "type":"d", }
+,{"id":"RTAX_MTU", "file":"include/linux/rtnetlink.h", "line":349, "type":"e", "scope_line":344, }
+,{"id":"RTAX_MTU", "file":"include/linux/rtnetlink.h", "line":350, "type":"d", }
+,{"id":"RTAX_REORDERING", "file":"include/linux/rtnetlink.h", "line":363, "type":"e", "scope_line":344, }
+,{"id":"RTAX_REORDERING", "file":"include/linux/rtnetlink.h", "line":364, "type":"d", }
+,{"id":"RTAX_RTO_MIN", "file":"include/linux/rtnetlink.h", "line":371, "type":"e", "scope_line":344, }
+,{"id":"RTAX_RTO_MIN", "file":"include/linux/rtnetlink.h", "line":372, "type":"d", }
+,{"id":"RTAX_RTT", "file":"include/linux/rtnetlink.h", "line":353, "type":"e", "scope_line":344, }
+,{"id":"RTAX_RTT", "file":"include/linux/rtnetlink.h", "line":354, "type":"d", }
+,{"id":"RTAX_RTTVAR", "file":"include/linux/rtnetlink.h", "line":355, "type":"e", "scope_line":344, }
+,{"id":"RTAX_RTTVAR", "file":"include/linux/rtnetlink.h", "line":356, "type":"d", }
+,{"id":"RTAX_SSTHRESH", "file":"include/linux/rtnetlink.h", "line":357, "type":"e", "scope_line":344, }
+,{"id":"RTAX_SSTHRESH", "file":"include/linux/rtnetlink.h", "line":358, "type":"d", }
+,{"id":"RTAX_UNSPEC", "file":"include/linux/rtnetlink.h", "line":345, "type":"e", "scope_line":344, }
+,{"id":"RTAX_UNSPEC", "file":"include/linux/rtnetlink.h", "line":346, "type":"d", }
+,{"id":"RTAX_WINDOW", "file":"include/linux/rtnetlink.h", "line":351, "type":"e", "scope_line":344, }
+,{"id":"RTAX_WINDOW", "file":"include/linux/rtnetlink.h", "line":352, "type":"d", }
+,{"id":"RTA_ALIGN", "file":"include/linux/rtnetlink.h", "line":145, "type":"d", }
+,];
+xr_frag_insert('t/f1/ea0eb495e9cc391299ef23509ba2f0d641f1b9.xr', __xr_tmp);

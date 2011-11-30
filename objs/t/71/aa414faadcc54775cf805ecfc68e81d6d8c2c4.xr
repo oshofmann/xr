@@ -1,0 +1,192 @@
+var __xr_tmp = [
+{"id":"vfs_symlink", "file":"fs/namei.c", "line":2337, "type":"f", }
+,{"id":"vfs_symlink", "file":"fs/namei.c", "line":2385, "type":"c", "scope_line":2357, "scope_name":"sys_symlinkat", }
+,{"id":"vfs_test_lock", "file":"fs/locks.c", "line":1623, "type":"f", }
+,{"id":"vfs_test_lock", "file":"fs/locks.c", "line":1685, "type":"c", "scope_line":1668, "scope_name":"fcntl_getlk", }
+,{"id":"vfs_unlink", "file":"drivers/base/devtmpfs.c", "line":323, "type":"c", "scope_line":280, "scope_name":"devtmpfs_delete_node", }
+,{"id":"vfs_unlink", "file":"fs/namei.c", "line":2229, "type":"f", }
+,{"id":"vfs_unlink", "file":"fs/namei.c", "line":2301, "type":"c", "scope_line":2267, "scope_name":"do_unlinkat", }
+,{"id":"vfs_unlink", "file":"ipc/mqueue.c", "line":776, "type":"c", "scope_line":745, "scope_name":"sys_mq_unlink", }
+,{"id":"vfs_write", "file":"drivers/char/tty_io.c", "line":1143, "type":"c", "scope_line":1129, "scope_name":"redirected_tty_write", }
+,{"id":"vfs_write", "file":"fs/read_write.c", "line":351, "type":"f", }
+,{"id":"vfs_write", "file":"fs/read_write.c", "line":418, "type":"c", "scope_line":408, "scope_name":"sys_write", }
+,{"id":"vfs_write", "file":"fs/read_write.c", "line":469, "type":"c", "scope_line":455, "scope_name":"sys_pwrite64", }
+,{"id":"vfs_write", "file":"fs/splice.c", "line":574, "type":"c", "scope_line":565, "scope_name":"kernel_write", }
+,{"id":"vfs_write", "file":"kernel/sysctl_binary.c", "line":1038, "type":"c", "scope_line":972, "scope_name":"bin_intvec", }
+,{"id":"vfs_write", "file":"kernel/sysctl_binary.c", "line":1116, "type":"c", "scope_line":1050, "scope_name":"bin_ulongvec", }
+,{"id":"vfs_write", "file":"kernel/sysctl_binary.c", "line":1237, "type":"c", "scope_line":1176, "scope_name":"bin_dn_node_address", }
+,{"id":"vfs_write", "file":"kernel/sysctl_binary.c", "line":962, "type":"c", "scope_line":929, "scope_name":"bin_string", }
+,{"id":"vfs_writev", "file":"fs/read_write.c", "line":698, "type":"f", }
+,{"id":"vfs_writev", "file":"fs/read_write.c", "line":742, "type":"c", "scope_line":732, "scope_name":"sys_writev", }
+,{"id":"vfs_writev", "file":"fs/read_write.c", "line":799, "type":"c", "scope_line":784, "scope_name":"sys_pwritev", }
+,{"id":"vfsmount", "file":"include/linux/mount.h", "line":49, "type":"s", }
+,{"id":"vfsmount_lock_global_lock", "file":"fs/namespace.c", "line":66, "type":"f", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":1041, "type":"c", "scope_line":1031, "scope_name":"release_mounts", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":1149, "type":"c", "scope_line":1085, "scope_name":"do_umount", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":1273, "type":"c", "scope_line":1239, "scope_name":"copy_tree", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":1283, "type":"c", "scope_line":1239, "scope_name":"copy_tree", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":1304, "type":"c", "scope_line":1300, "scope_name":"drop_collected_mounts", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":1434, "type":"c", "scope_line":1416, "scope_name":"attach_recursive_mnt", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":1530, "type":"c", "scope_line":1506, "scope_name":"do_change_type", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":1578, "type":"c", "scope_line":1543, "scope_name":"do_loopback", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":1633, "type":"c", "scope_line":1612, "scope_name":"do_remount", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":1640, "type":"c", "scope_line":1612, "scope_name":"do_remount", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":1819, "type":"c", "scope_line":1809, "scope_name":"mark_mounts_for_expiry", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":2115, "type":"c", "scope_line":2095, "scope_name":"dup_mnt_ns", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":2311, "type":"c", "scope_line":2252, "scope_name":"sys_pivot_root", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":2413, "type":"c", "scope_line":2406, "scope_name":"put_mnt_ns", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":364, "type":"c", "scope_line":360, "scope_name":"mnt_make_readonly", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":404, "type":"c", "scope_line":402, "scope_name":"__mnt_unmake_readonly", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":658, "type":"c", "scope_line":653, "scope_name":"mntput_no_expire", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":66, "type":"f", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":678, "type":"c", "scope_line":676, "scope_name":"mnt_pin", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/namespace.c", "line":687, "type":"c", "scope_line":685, "scope_name":"mnt_unpin", }
+,{"id":"vfsmount_lock_global_lock_online", "file":"fs/pnode.c", "line":276, "type":"c", "scope_line":236, "scope_name":"propagate_mnt", }
+,{"id":"vfsmount_lock_global_unlock", "file":"fs/namespace.c", "line":66, "type":"f", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":1047, "type":"c", "scope_line":1031, "scope_name":"release_mounts", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":1161, "type":"c", "scope_line":1085, "scope_name":"do_umount", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":1276, "type":"c", "scope_line":1239, "scope_name":"copy_tree", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":1285, "type":"c", "scope_line":1239, "scope_name":"copy_tree", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":1306, "type":"c", "scope_line":1300, "scope_name":"drop_collected_mounts", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":1453, "type":"c", "scope_line":1416, "scope_name":"attach_recursive_mnt", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":1533, "type":"c", "scope_line":1506, "scope_name":"do_change_type", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":1580, "type":"c", "scope_line":1543, "scope_name":"do_loopback", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":1636, "type":"c", "scope_line":1612, "scope_name":"do_remount", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":1642, "type":"c", "scope_line":1612, "scope_name":"do_remount", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":1838, "type":"c", "scope_line":1809, "scope_name":"mark_mounts_for_expiry", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":2117, "type":"c", "scope_line":2095, "scope_name":"dup_mnt_ns", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":2331, "type":"c", "scope_line":2252, "scope_name":"sys_pivot_root", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":2346, "type":"c", "scope_line":2252, "scope_name":"sys_pivot_root", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":2415, "type":"c", "scope_line":2406, "scope_name":"put_mnt_ns", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":398, "type":"c", "scope_line":360, "scope_name":"mnt_make_readonly", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":406, "type":"c", "scope_line":402, "scope_name":"__mnt_unmake_readonly", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":66, "type":"f", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":660, "type":"c", "scope_line":653, "scope_name":"mntput_no_expire", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":664, "type":"c", "scope_line":653, "scope_name":"mntput_no_expire", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":670, "type":"c", "scope_line":653, "scope_name":"mntput_no_expire", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":680, "type":"c", "scope_line":676, "scope_name":"mnt_pin", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/namespace.c", "line":692, "type":"c", "scope_line":685, "scope_name":"mnt_unpin", }
+,{"id":"vfsmount_lock_global_unlock_online", "file":"fs/pnode.c", "line":281, "type":"c", "scope_line":236, "scope_name":"propagate_mnt", }
+,{"id":"vfsmount_lock_local_lock", "file":"fs/dcache.c", "line":1938, "type":"c", "scope_line":1930, "scope_name":"prepend_path", }
+,{"id":"vfsmount_lock_local_lock", "file":"fs/dcache.c", "line":2306, "type":"c", "scope_line":2300, "scope_name":"path_is_under", }
+,{"id":"vfsmount_lock_local_lock", "file":"fs/namei.c", "line":599, "type":"c", "scope_line":594, "scope_name":"follow_up", }
+,{"id":"vfsmount_lock_local_lock", "file":"fs/namespace.c", "line":1021, "type":"c", "scope_line":1017, "scope_name":"may_umount", }
+,{"id":"vfsmount_lock_local_lock", "file":"fs/namespace.c", "line":461, "type":"c", "scope_line":457, "scope_name":"lookup_mnt", }
+,{"id":"vfsmount_lock_local_lock", "file":"fs/namespace.c", "line":66, "type":"f", }
+,{"id":"vfsmount_lock_local_lock", "file":"fs/namespace.c", "line":783, "type":"c", "scope_line":778, "scope_name":"mnt_had_events", }
+,{"id":"vfsmount_lock_local_lock", "file":"fs/namespace.c", "line":989, "type":"c", "scope_line":983, "scope_name":"may_umount_tree", }
+,{"id":"vfsmount_lock_local_lock_cpu", "file":"fs/namespace.c", "line":66, "type":"f", }
+,{"id":"vfsmount_lock_local_unlock", "file":"fs/dcache.c", "line":1967, "type":"c", "scope_line":1930, "scope_name":"prepend_path", }
+,{"id":"vfsmount_lock_local_unlock", "file":"fs/dcache.c", "line":2310, "type":"c", "scope_line":2300, "scope_name":"path_is_under", }
+,{"id":"vfsmount_lock_local_unlock", "file":"fs/dcache.c", "line":2320, "type":"c", "scope_line":2300, "scope_name":"path_is_under", }
+,{"id":"vfsmount_lock_local_unlock", "file":"fs/namei.c", "line":602, "type":"c", "scope_line":594, "scope_name":"follow_up", }
+,{"id":"vfsmount_lock_local_unlock", "file":"fs/namei.c", "line":607, "type":"c", "scope_line":594, "scope_name":"follow_up", }
+,{"id":"vfsmount_lock_local_unlock", "file":"fs/namespace.c", "line":1024, "type":"c", "scope_line":1017, "scope_name":"may_umount", }
+,{"id":"vfsmount_lock_local_unlock", "file":"fs/namespace.c", "line":464, "type":"c", "scope_line":457, "scope_name":"lookup_mnt", }
+,{"id":"vfsmount_lock_local_unlock", "file":"fs/namespace.c", "line":66, "type":"f", }
+,{"id":"vfsmount_lock_local_unlock", "file":"fs/namespace.c", "line":788, "type":"c", "scope_line":778, "scope_name":"mnt_had_events", }
+,{"id":"vfsmount_lock_local_unlock", "file":"fs/namespace.c", "line":994, "type":"c", "scope_line":983, "scope_name":"may_umount_tree", }
+,{"id":"vfsmount_lock_local_unlock_cpu", "file":"fs/namespace.c", "line":66, "type":"f", }
+,{"id":"vfsmount_lock_lock", "file":"fs/namespace.c", "line":66, "type":"v", }
+,{"id":"vfsmount_lock_lock_init", "file":"fs/namespace.c", "line":2393, "type":"c", "scope_line":2373, "scope_name":"mnt_init", }
+,{"id":"vfsmount_lock_lock_init", "file":"fs/namespace.c", "line":66, "type":"f", }
+,{"id":"vfwmark", "file":"include/net/ip_vs.h", "line":516, "type":"m", "scope_line":485, "scope_name":"struct ip_vs_dest", }
+,{"id":"vga_512_chars", "file":"drivers/video/console/vgacon.c", "line":110, "type":"v", }
+,{"id":"vga_arb_device", "file":"drivers/gpu/vga/vgaarb.c", "line":1216, "type":"v", }
+,{"id":"vga_arb_device_card_gone", "file":"drivers/gpu/vga/vgaarb.c", "line":1150, "type":"f", }
+,{"id":"vga_arb_device_card_gone", "file":"drivers/gpu/vga/vgaarb.c", "line":547, "type":"c", "scope_line":520, "scope_name":"vga_arbiter_del_pci_device", }
+,{"id":"vga_arb_device_card_gone", "file":"drivers/gpu/vga/vgaarb.c", "line":792, "type":"c", "scope_line":757, "scope_name":"vga_arb_read", }
+,{"id":"vga_arb_device_fops", "file":"drivers/gpu/vga/vgaarb.c", "line":1208, "type":"v", }
+,{"id":"vga_arb_device_init", "file":"drivers/gpu/vga/vgaarb.c", "line":1220, "type":"f", }
+,{"id":"vga_arb_fpoll", "file":"drivers/gpu/vga/vgaarb.c", "line":1078, "type":"f", }
+,{"id":"vga_arb_open", "file":"drivers/gpu/vga/vgaarb.c", "line":1090, "type":"f", }
+,{"id":"vga_arb_private", "file":"drivers/gpu/vga/vgaarb.c", "line":725, "type":"s", }
+,{"id":"vga_arb_read", "file":"drivers/gpu/vga/vgaarb.c", "line":757, "type":"f", }
+,{"id":"vga_arb_release", "file":"drivers/gpu/vga/vgaarb.c", "line":1118, "type":"f", }
+,{"id":"vga_arb_user_card", "file":"drivers/gpu/vga/vgaarb.c", "line":719, "type":"s", }
+,{"id":"vga_arb_write", "file":"drivers/gpu/vga/vgaarb.c", "line":824, "type":"f", }
+,{"id":"vga_arbiter_add_pci_device", "file":"drivers/gpu/vga/vgaarb.c", "line":1195, "type":"c", "scope_line":1182, "scope_name":"pci_notify", }
+,{"id":"vga_arbiter_add_pci_device", "file":"drivers/gpu/vga/vgaarb.c", "line":1237, "type":"c", "scope_line":1220, "scope_name":"vga_arb_device_init", }
+,{"id":"vga_arbiter_add_pci_device", "file":"drivers/gpu/vga/vgaarb.c", "line":430, "type":"f", }
+,{"id":"vga_arbiter_del_pci_device", "file":"drivers/gpu/vga/vgaarb.c", "line":1197, "type":"c", "scope_line":1182, "scope_name":"pci_notify", }
+,{"id":"vga_arbiter_del_pci_device", "file":"drivers/gpu/vga/vgaarb.c", "line":520, "type":"f", }
+,{"id":"vga_arbiter_notify_clients", "file":"drivers/gpu/vga/vgaarb.c", "line":1158, "type":"f", }
+,{"id":"vga_arbiter_notify_clients", "file":"drivers/gpu/vga/vgaarb.c", "line":1200, "type":"c", "scope_line":1182, "scope_name":"pci_notify", }
+,{"id":"vga_arbiter_notify_clients", "file":"drivers/gpu/vga/vgaarb.c", "line":158, "type":"c", "scope_line":151, "scope_name":"vga_check_first_use", }
+,{"id":"vga_arbiter_used", "file":"drivers/gpu/vga/vgaarb.c", "line":73, "type":"v", }
+,{"id":"vga_attr", "file":"drivers/pci/pci-sysfs.c", "line":358, "type":"v", }
+,{"id":"vga_bootup_console", "file":"drivers/video/console/vgacon.c", "line":1326, "type":"v", }
+,{"id":"vga_can_do_color", "file":"drivers/video/console/vgacon.c", "line":101, "type":"v", }
+,{"id":"vga_check_first_use", "file":"drivers/gpu/vga/vgaarb.c", "line":151, "type":"f", }
+,{"id":"vga_check_first_use", "file":"drivers/gpu/vga/vgaarb.c", "line":333, "type":"c", "scope_line":326, "scope_name":"vga_get", }
+,{"id":"vga_check_first_use", "file":"drivers/gpu/vga/vgaarb.c", "line":383, "type":"c", "scope_line":377, "scope_name":"vga_tryget", }
+,{"id":"vga_client_register", "file":"drivers/gpu/vga/vgaarb.c", "line":635, "type":"f", }
+,{"id":"vga_con", "file":"drivers/video/console/vgacon.c", "line":1407, "type":"v", }
+,{"id":"vga_conflicts", "file":"drivers/gpu/vga/vgaarb.c", "line":207, "type":"c", "scope_line":162, "scope_name":"__vga_tryget", }
+,{"id":"vga_conflicts", "file":"include/linux/vgaarb.h", "line":195, "type":"f", }
+,{"id":"vga_console_resource", "file":"drivers/video/console/vgacon.c", "line":453, "type":"v", }
+,{"id":"vga_count", "file":"drivers/gpu/vga/vgaarb.c", "line":72, "type":"v", }
+,{"id":"vga_crtc", "file":"arch/x86/boot/video-bios.c", "line":79, "type":"c", "scope_line":63, "scope_name":"bios_probe", }
+,{"id":"vga_crtc", "file":"arch/x86/boot/video-mode.c", "line":131, "type":"c", "scope_line":118, "scope_name":"vga_recalc_vertical", }
+,{"id":"vga_crtc", "file":"arch/x86/boot/video-vga.c", "line":134, "type":"f", }
+,{"id":"vga_crtc", "file":"arch/x86/boot/video-vga.c", "line":144, "type":"c", "scope_line":139, "scope_name":"vga_set_480_scanlines", }
+,{"id":"vga_crtc", "file":"arch/x86/boot/video-vga.c", "line":165, "type":"c", "scope_line":159, "scope_name":"vga_set_vertical_end", }
+,{"id":"vga_decode_count", "file":"drivers/gpu/vga/vgaarb.c", "line":72, "type":"v", }
+,{"id":"vga_default", "file":"drivers/gpu/vga/vgaarb.c", "line":117, "type":"v", }
+,{"id":"vga_default_device", "file":"drivers/gpu/vga/vgaarb.c", "line":1109, "type":"c", "scope_line":1090, "scope_name":"vga_arb_open", }
+,{"id":"vga_default_device", "file":"drivers/gpu/vga/vgaarb.c", "line":135, "type":"f", }
+,{"id":"vga_default_device", "file":"drivers/gpu/vga/vgaarb.c", "line":336, "type":"c", "scope_line":326, "scope_name":"vga_get", }
+,{"id":"vga_default_device", "file":"drivers/gpu/vga/vgaarb.c", "line":387, "type":"c", "scope_line":377, "scope_name":"vga_tryget", }
+,{"id":"vga_default_device", "file":"drivers/gpu/vga/vgaarb.c", "line":411, "type":"c", "scope_line":404, "scope_name":"vga_put", }
+,{"id":"vga_default_device", "file":"drivers/gpu/vga/vgaarb.c", "line":988, "type":"c", "scope_line":824, "scope_name":"vga_arb_write", }
+,{"id":"vga_default_font_height", "file":"drivers/video/console/vgacon.c", "line":102, "type":"v", }
+,{"id":"vga_device", "file":"drivers/gpu/vga/vgaarb.c", "line":54, "type":"s", }
+,{"id":"vga_font_is_default", "file":"drivers/video/console/vgacon.c", "line":106, "type":"v", }
+,{"id":"vga_get", "file":"drivers/gpu/vga/vgaarb.c", "line":326, "type":"f", }
+,{"id":"vga_get", "file":"include/linux/vgaarb.h", "line":111, "type":"c", "scope_line":108, "scope_name":"vga_get_interruptible", }
+,{"id":"vga_get", "file":"include/linux/vgaarb.h", "line":123, "type":"c", "scope_line":120, "scope_name":"vga_get_uninterruptible", }
+,{"id":"vga_get_interruptible", "file":"include/linux/vgaarb.h", "line":108, "type":"f", }
+,{"id":"vga_get_uninterruptible", "file":"drivers/gpu/vga/vgaarb.c", "line":872, "type":"c", "scope_line":824, "scope_name":"vga_arb_write", }
+,{"id":"vga_get_uninterruptible", "file":"include/linux/vgaarb.h", "line":120, "type":"f", }
+,{"id":"vga_hardscroll_enabled", "file":"drivers/video/console/vgacon.c", "line":104, "type":"v", }
+,{"id":"vga_hardscroll_user_enable", "file":"drivers/video/console/vgacon.c", "line":105, "type":"v", }
+,{"id":"vga_init_done", "file":"drivers/video/console/vgacon.c", "line":93, "type":"v", }
+,{"id":"vga_io_r", "file":"include/video/vga.h", "line":224, "type":"f", }
+,{"id":"vga_io_r", "file":"include/video/vga.h", "line":261, "type":"c", "scope_line":256, "scope_name":"vga_r", }
+,{"id":"vga_io_r", "file":"include/video/vga.h", "line":306, "type":"c", "scope_line":303, "scope_name":"vga_io_rcrt", }
+,{"id":"vga_io_r", "file":"include/video/vga.h", "line":359, "type":"c", "scope_line":356, "scope_name":"vga_io_rseq", }
+,{"id":"vga_io_r", "file":"include/video/vga.h", "line":411, "type":"c", "scope_line":408, "scope_name":"vga_io_rgfx", }
+,{"id":"vga_io_r", "file":"include/video/vga.h", "line":460, "type":"c", "scope_line":457, "scope_name":"vga_io_rattr", }
+,{"id":"vga_io_rattr", "file":"include/video/vga.h", "line":457, "type":"f", }
+,{"id":"vga_io_rcrt", "file":"include/video/vga.h", "line":303, "type":"f", }
+,{"id":"vga_io_rgfx", "file":"include/video/vga.h", "line":408, "type":"f", }
+,{"id":"vga_io_rseq", "file":"include/video/vga.h", "line":356, "type":"f", }
+,{"id":"vga_io_w", "file":"include/video/vga.h", "line":229, "type":"f", }
+,{"id":"vga_io_w", "file":"include/video/vga.h", "line":269, "type":"c", "scope_line":264, "scope_name":"vga_w", }
+,{"id":"vga_io_w", "file":"include/video/vga.h", "line":305, "type":"c", "scope_line":303, "scope_name":"vga_io_rcrt", }
+,{"id":"vga_io_w", "file":"include/video/vga.h", "line":358, "type":"c", "scope_line":356, "scope_name":"vga_io_rseq", }
+,{"id":"vga_io_w", "file":"include/video/vga.h", "line":410, "type":"c", "scope_line":408, "scope_name":"vga_io_rgfx", }
+,{"id":"vga_io_w", "file":"include/video/vga.h", "line":459, "type":"c", "scope_line":457, "scope_name":"vga_io_rattr", }
+,{"id":"vga_io_w", "file":"include/video/vga.h", "line":465, "type":"c", "scope_line":463, "scope_name":"vga_io_wattr", }
+,{"id":"vga_io_w", "file":"include/video/vga.h", "line":466, "type":"c", "scope_line":463, "scope_name":"vga_io_wattr", }
+,{"id":"vga_io_w_fast", "file":"include/video/vga.h", "line":234, "type":"f", }
+,{"id":"vga_io_w_fast", "file":"include/video/vga.h", "line":279, "type":"c", "scope_line":273, "scope_name":"vga_w_fast", }
+,{"id":"vga_io_w_fast", "file":"include/video/vga.h", "line":312, "type":"c", "scope_line":309, "scope_name":"vga_io_wcrt", }
+,{"id":"vga_io_w_fast", "file":"include/video/vga.h", "line":365, "type":"c", "scope_line":362, "scope_name":"vga_io_wseq", }
+,{"id":"vga_io_w_fast", "file":"include/video/vga.h", "line":417, "type":"c", "scope_line":414, "scope_name":"vga_io_wgfx", }
+,{"id":"vga_io_wattr", "file":"include/video/vga.h", "line":463, "type":"f", }
+,{"id":"vga_io_wcrt", "file":"include/video/vga.h", "line":309, "type":"f", }
+,{"id":"vga_io_wgfx", "file":"include/video/vga.h", "line":414, "type":"f", }
+,{"id":"vga_io_wseq", "file":"include/video/vga.h", "line":362, "type":"f", }
+,{"id":"vga_iostate_to_str", "file":"drivers/gpu/vga/vgaarb.c", "line":506, "type":"c", "scope_line":430, "scope_name":"vga_arbiter_add_pci_device", }
+,{"id":"vga_iostate_to_str", "file":"drivers/gpu/vga/vgaarb.c", "line":567, "type":"c", "scope_line":558, "scope_name":"vga_update_device_decodes", }
+,{"id":"vga_iostate_to_str", "file":"drivers/gpu/vga/vgaarb.c", "line":78, "type":"f", }
+,{"id":"vga_iostate_to_str", "file":"drivers/gpu/vga/vgaarb.c", "line":799, "type":"c", "scope_line":757, "scope_name":"vga_arb_read", }
+,{"id":"vga_irq_set_state", "file":"drivers/gpu/vga/vgaarb.c", "line":141, "type":"f", }
+,{"id":"vga_irq_set_state", "file":"drivers/gpu/vga/vgaarb.c", "line":240, "type":"c", "scope_line":162, "scope_name":"__vga_tryget", }
+,{"id":"vga_irq_set_state", "file":"drivers/gpu/vga/vgaarb.c", "line":271, "type":"c", "scope_line":162, "scope_name":"__vga_tryget", }
+,{"id":"vga_is_gfx", "file":"drivers/video/console/vgacon.c", "line":109, "type":"v", }
+,{"id":"vga_list", "file":"drivers/gpu/vga/vgaarb.c", "line":71, "type":"v", }
+,{"id":"vga_lock", "file":"drivers/gpu/vga/vgaarb.c", "line":74, "type":"v", }
+,];
+xr_frag_insert('t/71/aa414faadcc54775cf805ecfc68e81d6d8c2c4.xr', __xr_tmp);

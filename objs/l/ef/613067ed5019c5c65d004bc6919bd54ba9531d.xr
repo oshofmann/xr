@@ -1,0 +1,21 @@
+var __xr_tmp = [
+"#<a class=\"id\" href=\"#ifndef\">ifndef</a> <a class=\"id\" href=\"#__NETNS_X_TABLES_H\">__NETNS_X_TABLES_H</a>", 
+"#<a class=\"id\" href=\"#define\">define</a> <a class=\"id\" href=\"#__NETNS_X_TABLES_H\">__NETNS_X_TABLES_H</a>", 
+"", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#list\">list</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"#<a class=\"id\" href=\"#include\">include</a> &lt;<a class=\"id\" href=\"#linux\">linux</a>/<a class=\"id\" href=\"#netfilter\">netfilter</a>.<a class=\"id\" href=\"#h\">h</a>&gt;", 
+"", 
+"struct <a class=\"id\" href=\"#ebt_table\">ebt_table</a>;", 
+"", 
+"struct <a class=\"id\" href=\"#netns_xt\">netns_xt</a> {", 
+"<span class=\"ts\"/>struct <a class=\"id\" href=\"#list_head\">list_head</a> <a class=\"id\" href=\"#tables\">tables</a>[<a class=\"id\" href=\"#NFPROTO_NUMPROTO\">NFPROTO_NUMPROTO</a>];", 
+"#if <a class=\"id\" href=\"#defined\">defined</a>(<a class=\"id\" href=\"#CONFIG_BRIDGE_NF_EBTABLES\">CONFIG_BRIDGE_NF_EBTABLES</a>) || \\", 
+"    <a class=\"id\" href=\"#defined\">defined</a>(<a class=\"id\" href=\"#CONFIG_BRIDGE_NF_EBTABLES_MODULE\">CONFIG_BRIDGE_NF_EBTABLES_MODULE</a>)", 
+"<span class=\"ts\"/>struct <a class=\"id\" href=\"#ebt_table\">ebt_table</a> *<a class=\"id\" href=\"#broute_table\">broute_table</a>;", 
+"<span class=\"ts\"/>struct <a class=\"id\" href=\"#ebt_table\">ebt_table</a> *<a class=\"id\" href=\"#frame_filter\">frame_filter</a>;", 
+"<span class=\"ts\"/>struct <a class=\"id\" href=\"#ebt_table\">ebt_table</a> *<a class=\"id\" href=\"#frame_nat\">frame_nat</a>;", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+"};", 
+"#<a class=\"id\" href=\"#endif\">endif</a>", 
+];
+xr_frag_insert('l/ef/613067ed5019c5c65d004bc6919bd54ba9531d.xr', __xr_tmp);

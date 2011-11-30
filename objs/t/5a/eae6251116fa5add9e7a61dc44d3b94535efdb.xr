@@ -1,0 +1,296 @@
+var __xr_tmp = [
+{"id":"may_delete", "file":"fs/namei.c", "line":2231, "type":"c", "scope_line":2229, "scope_name":"vfs_unlink", }
+,{"id":"may_delete", "file":"fs/namei.c", "line":2623, "type":"c", "scope_line":2613, "scope_name":"vfs_rename", }
+,{"id":"may_delete", "file":"fs/namei.c", "line":2630, "type":"c", "scope_line":2613, "scope_name":"vfs_rename", }
+,{"id":"may_expand_vm", "file":"mm/mmap.c", "line":1238, "type":"c", "scope_line":1215, "scope_name":"mmap_region", }
+,{"id":"may_expand_vm", "file":"mm/mmap.c", "line":1675, "type":"c", "scope_line":1668, "scope_name":"acct_stack_growth", }
+,{"id":"may_expand_vm", "file":"mm/mmap.c", "line":2204, "type":"c", "scope_line":2150, "scope_name":"do_brk", }
+,{"id":"may_expand_vm", "file":"mm/mmap.c", "line":2398, "type":"f", }
+,{"id":"may_expand_vm", "file":"mm/mremap.c", "line":293, "type":"c", "scope_line":263, "scope_name":"vma_to_resize", }
+,{"id":"may_link", "file":"security/selinux/hooks.c", "line":1609, "type":"f", }
+,{"id":"may_link", "file":"security/selinux/hooks.c", "line":2584, "type":"c", "scope_line":2582, "scope_name":"selinux_inode_link", }
+,{"id":"may_link", "file":"security/selinux/hooks.c", "line":2589, "type":"c", "scope_line":2587, "scope_name":"selinux_inode_unlink", }
+,{"id":"may_link", "file":"security/selinux/hooks.c", "line":2604, "type":"c", "scope_line":2602, "scope_name":"selinux_inode_rmdir", }
+,{"id":"may_mknod", "file":"fs/namei.c", "line":1975, "type":"f", }
+,{"id":"may_mknod", "file":"fs/namei.c", "line":2014, "type":"c", "scope_line":1992, "scope_name":"sys_mknodat", }
+,{"id":"may_open", "file":"fs/namei.c", "line":1406, "type":"f", }
+,{"id":"may_open", "file":"fs/namei.c", "line":1502, "type":"c", "scope_line":1483, "scope_name":"__open_namei_create", }
+,{"id":"may_open", "file":"fs/namei.c", "line":1553, "type":"c", "scope_line":1540, "scope_name":"finish_open", }
+,{"id":"may_open", "file":"kernel/sysctl_binary.c", "line":1358, "type":"c", "scope_line":1321, "scope_name":"binary_sysctl", }
+,{"id":"may_ptrace_stop", "file":"kernel/signal.c", "line":1578, "type":"f", }
+,{"id":"may_ptrace_stop", "file":"kernel/signal.c", "line":1654, "type":"c", "scope_line":1619, "scope_name":"ptrace_stop", }
+,{"id":"may_rename", "file":"security/selinux/hooks.c", "line":1652, "type":"f", }
+,{"id":"may_rename", "file":"security/selinux/hooks.c", "line":2615, "type":"c", "scope_line":2612, "scope_name":"selinux_inode_rename", }
+,{"id":"may_start_working", "file":"kernel/workqueue.c", "line":1909, "type":"c", "scope_line":1885, "scope_name":"worker_thread", }
+,{"id":"may_start_working", "file":"kernel/workqueue.c", "line":597, "type":"f", }
+,{"id":"may_start_working", "file":"kernel/workqueue.c", "line":613, "type":"c", "scope_line":611, "scope_name":"need_to_create_worker", }
+,{"id":"may_swap", "file":"mm/vmscan.c", "line":75, "type":"m", "scope_line":54, "scope_name":"struct scan_control", }
+,{"id":"may_umount", "file":"fs/namespace.c", "line":1017, "type":"f", }
+,{"id":"may_umount_tree", "file":"fs/namespace.c", "line":983, "type":"f", }
+,{"id":"may_unmap", "file":"mm/vmscan.c", "line":72, "type":"m", "scope_line":54, "scope_name":"struct scan_control", }
+,{"id":"may_write_to_queue", "file":"mm/vmscan.c", "line":278, "type":"f", }
+,{"id":"may_write_to_queue", "file":"mm/vmscan.c", "line":369, "type":"c", "scope_line":332, "scope_name":"pageout", }
+,{"id":"may_writepage", "file":"include/trace/events/vmscan.h", "line":89, "type":"m", "scope_line":89, "scope_name":"struct ftrace_raw_mm_vmscan_direct_reclaim_begin_template", }
+,{"id":"may_writepage", "file":"mm/vmscan.c", "line":69, "type":"m", "scope_line":54, "scope_name":"struct scan_control", }
+,{"id":"maybe_create_worker", "file":"kernel/workqueue.c", "line":1506, "type":"f", }
+,{"id":"maybe_create_worker", "file":"kernel/workqueue.c", "line":1621, "type":"c", "scope_line":1605, "scope_name":"manage_workers", }
+,{"id":"maybe_destroy_workers", "file":"kernel/workqueue.c", "line":1562, "type":"f", }
+,{"id":"maybe_destroy_workers", "file":"kernel/workqueue.c", "line":1620, "type":"c", "scope_line":1605, "scope_name":"manage_workers", }
+,{"id":"maybe_get_net", "file":"fs/proc/proc_net.c", "line":32, "type":"c", "scope_line":30, "scope_name":"get_proc_net", }
+,{"id":"maybe_get_net", "file":"include/net/net_namespace.h", "line":127, "type":"f", }
+,{"id":"maybe_kfree_parameter", "file":"kernel/params.c", "line":262, "type":"c", "scope_line":254, "scope_name":"param_set_charp", }
+,{"id":"maybe_kfree_parameter", "file":"kernel/params.c", "line":286, "type":"c", "scope_line":284, "scope_name":"param_free_charp", }
+,{"id":"maybe_kfree_parameter", "file":"kernel/params.c", "line":57, "type":"f", }
+,{"id":"maybe_link", "file":"init/initramfs.c", "line":269, "type":"f", }
+,{"id":"maybe_link", "file":"init/initramfs.c", "line":303, "type":"c", "scope_line":293, "scope_name":"do_name", }
+,{"id":"maybe_link", "file":"init/initramfs.c", "line":326, "type":"c", "scope_line":293, "scope_name":"do_name", }
+,{"id":"maybe_mkwrite", "file":"mm/memory.c", "line":2056, "type":"f", }
+,{"id":"maybe_mkwrite", "file":"mm/memory.c", "line":2228, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"maybe_mkwrite", "file":"mm/memory.c", "line":2284, "type":"c", "scope_line":2107, "scope_name":"do_wp_page", }
+,{"id":"maybe_mkwrite", "file":"mm/memory.c", "line":2738, "type":"c", "scope_line":2621, "scope_name":"do_swap_page", }
+,{"id":"maybe_mkwrite", "file":"mm/memory.c", "line":3027, "type":"c", "scope_line":2908, "scope_name":"__do_fault", }
+,{"id":"maybe_relocated", "file":"kernel/module.c", "line":960, "type":"f", }
+,{"id":"maybe_relocated", "file":"kernel/module.c", "line":996, "type":"c", "scope_line":970, "scope_name":"check_version", }
+,{"id":"mayday_clear_cpu", "file":"kernel/workqueue.c", "line":207, "type":"d", }
+,{"id":"mayday_mask", "file":"kernel/workqueue.c", "line":241, "type":"m", "scope_line":224, "scope_name":"struct workqueue_struct", }
+,{"id":"mayday_mask_t", "file":"kernel/workqueue.c", "line":204, "type":"t", }
+,{"id":"mayday_test_and_set_cpu", "file":"kernel/workqueue.c", "line":205, "type":"d", }
+,{"id":"mayday_timer", "file":"kernel/workqueue.c", "line":163, "type":"m", "scope_line":148, "scope_name":"struct global_cwq", }
+,{"id":"mb", "file":"arch/x86/include/asm/system.h", "line":366, "type":"d", }
+,{"id":"mb_assert", "file":"fs/mbcache.c", "line":51, "type":"d", }
+,{"id":"mb_cache", "file":"fs/mbcache.c", "line":79, "type":"s", }
+,{"id":"mb_cache_create", "file":"fs/ext2/xattr.c", "line":1029, "type":"c", "scope_line":1026, "scope_name":"init_ext2_xattr", }
+,{"id":"mb_cache_create", "file":"fs/ext3/xattr.c", "line":1316, "type":"c", "scope_line":1313, "scope_name":"init_ext3_xattr", }
+,{"id":"mb_cache_create", "file":"fs/ext4/xattr.c", "line":1593, "type":"c", "scope_line":1590, "scope_name":"init_ext4_xattr", }
+,{"id":"mb_cache_create", "file":"fs/mbcache.c", "line":217, "type":"f", }
+,{"id":"mb_cache_destroy", "file":"fs/ext2/xattr.c", "line":1038, "type":"c", "scope_line":1035, "scope_name":"exit_ext2_xattr", }
+,{"id":"mb_cache_destroy", "file":"fs/ext3/xattr.c", "line":1326, "type":"c", "scope_line":1322, "scope_name":"exit_ext3_xattr", }
+,{"id":"mb_cache_destroy", "file":"fs/ext4/xattr.c", "line":1603, "type":"c", "scope_line":1599, "scope_name":"exit_ext4_xattr", }
+,{"id":"mb_cache_destroy", "file":"fs/mbcache.c", "line":307, "type":"f", }
+,{"id":"mb_cache_entry", "file":"include/linux/mbcache.h", "line":7, "type":"s", }
+,{"id":"mb_cache_entry_alloc", "file":"fs/ext2/xattr.c", "line":843, "type":"c", "scope_line":836, "scope_name":"ext2_xattr_cache_insert", }
+,{"id":"mb_cache_entry_alloc", "file":"fs/ext3/xattr.c", "line":1137, "type":"c", "scope_line":1130, "scope_name":"ext3_xattr_cache_insert", }
+,{"id":"mb_cache_entry_alloc", "file":"fs/ext4/xattr.c", "line":1415, "type":"c", "scope_line":1408, "scope_name":"ext4_xattr_cache_insert", }
+,{"id":"mb_cache_entry_alloc", "file":"fs/mbcache.c", "line":351, "type":"f", }
+,{"id":"mb_cache_entry_find_first", "file":"fs/ext2/xattr.c", "line":920, "type":"c", "scope_line":910, "scope_name":"ext2_xattr_cache_find", }
+,{"id":"mb_cache_entry_find_first", "file":"fs/ext3/xattr.c", "line":1214, "type":"c", "scope_line":1203, "scope_name":"ext3_xattr_cache_find", }
+,{"id":"mb_cache_entry_find_first", "file":"fs/ext4/xattr.c", "line":1492, "type":"c", "scope_line":1481, "scope_name":"ext4_xattr_cache_find", }
+,{"id":"mb_cache_entry_find_first", "file":"fs/mbcache.c", "line":565, "type":"f", }
+,{"id":"mb_cache_entry_find_next", "file":"fs/ext2/xattr.c", "line":953, "type":"c", "scope_line":910, "scope_name":"ext2_xattr_cache_find", }
+,{"id":"mb_cache_entry_find_next", "file":"fs/ext3/xattr.c", "line":1240, "type":"c", "scope_line":1203, "scope_name":"ext3_xattr_cache_find", }
+,{"id":"mb_cache_entry_find_next", "file":"fs/ext4/xattr.c", "line":1517, "type":"c", "scope_line":1481, "scope_name":"ext4_xattr_cache_find", }
+,{"id":"mb_cache_entry_find_next", "file":"fs/mbcache.c", "line":599, "type":"f", }
+,{"id":"mb_cache_entry_free", "file":"fs/ext2/xattr.c", "line":503, "type":"c", "scope_line":367, "scope_name":"ext2_xattr_set", }
+,{"id":"mb_cache_entry_free", "file":"fs/ext2/xattr.c", "line":730, "type":"c", "scope_line":630, "scope_name":"ext2_xattr_set2", }
+,{"id":"mb_cache_entry_free", "file":"fs/ext2/xattr.c", "line":792, "type":"c", "scope_line":764, "scope_name":"ext2_xattr_delete_inode", }
+,{"id":"mb_cache_entry_free", "file":"fs/ext2/xattr.c", "line":848, "type":"c", "scope_line":836, "scope_name":"ext2_xattr_cache_insert", }
+,{"id":"mb_cache_entry_free", "file":"fs/ext3/xattr.c", "line":1144, "type":"c", "scope_line":1130, "scope_name":"ext3_xattr_cache_insert", }
+,{"id":"mb_cache_entry_free", "file":"fs/ext3/xattr.c", "line":494, "type":"c", "scope_line":477, "scope_name":"ext3_xattr_release_block", }
+,{"id":"mb_cache_entry_free", "file":"fs/ext3/xattr.c", "line":704, "type":"c", "scope_line":679, "scope_name":"ext3_xattr_block_set", }
+,{"id":"mb_cache_entry_free", "file":"fs/ext4/xattr.c", "line":1422, "type":"c", "scope_line":1408, "scope_name":"ext4_xattr_cache_insert", }
+,{"id":"mb_cache_entry_free", "file":"fs/ext4/xattr.c", "line":485, "type":"c", "scope_line":469, "scope_name":"ext4_xattr_release_block", }
+,{"id":"mb_cache_entry_free", "file":"fs/ext4/xattr.c", "line":713, "type":"c", "scope_line":688, "scope_name":"ext4_xattr_block_set", }
+,{"id":"mb_cache_entry_free", "file":"fs/mbcache.c", "line":448, "type":"f", }
+,{"id":"mb_cache_entry_get", "file":"fs/ext2/xattr.c", "line":497, "type":"c", "scope_line":367, "scope_name":"ext2_xattr_set", }
+,{"id":"mb_cache_entry_get", "file":"fs/ext2/xattr.c", "line":724, "type":"c", "scope_line":630, "scope_name":"ext2_xattr_set2", }
+,{"id":"mb_cache_entry_get", "file":"fs/ext2/xattr.c", "line":788, "type":"c", "scope_line":764, "scope_name":"ext2_xattr_delete_inode", }
+,{"id":"mb_cache_entry_get", "file":"fs/ext3/xattr.c", "line":484, "type":"c", "scope_line":477, "scope_name":"ext3_xattr_release_block", }
+,{"id":"mb_cache_entry_get", "file":"fs/ext3/xattr.c", "line":695, "type":"c", "scope_line":679, "scope_name":"ext3_xattr_block_set", }
+,{"id":"mb_cache_entry_get", "file":"fs/ext4/xattr.c", "line":476, "type":"c", "scope_line":469, "scope_name":"ext4_xattr_release_block", }
+,{"id":"mb_cache_entry_get", "file":"fs/ext4/xattr.c", "line":704, "type":"c", "scope_line":688, "scope_name":"ext4_xattr_block_set", }
+,{"id":"mb_cache_entry_get", "file":"fs/mbcache.c", "line":466, "type":"f", }
+,{"id":"mb_cache_entry_insert", "file":"fs/ext2/xattr.c", "line":846, "type":"c", "scope_line":836, "scope_name":"ext2_xattr_cache_insert", }
+,{"id":"mb_cache_entry_insert", "file":"fs/ext3/xattr.c", "line":1142, "type":"c", "scope_line":1130, "scope_name":"ext3_xattr_cache_insert", }
+,{"id":"mb_cache_entry_insert", "file":"fs/ext4/xattr.c", "line":1420, "type":"c", "scope_line":1408, "scope_name":"ext4_xattr_cache_insert", }
+,{"id":"mb_cache_entry_insert", "file":"fs/mbcache.c", "line":395, "type":"f", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext2/xattr.c", "line":509, "type":"c", "scope_line":367, "scope_name":"ext2_xattr_set", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext2/xattr.c", "line":742, "type":"c", "scope_line":630, "scope_name":"ext2_xattr_set2", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext2/xattr.c", "line":800, "type":"c", "scope_line":764, "scope_name":"ext2_xattr_delete_inode", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext2/xattr.c", "line":857, "type":"c", "scope_line":836, "scope_name":"ext2_xattr_cache_insert", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext2/xattr.c", "line":947, "type":"c", "scope_line":910, "scope_name":"ext2_xattr_cache_find", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext3/xattr.c", "line":1151, "type":"c", "scope_line":1130, "scope_name":"ext3_xattr_cache_insert", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext3/xattr.c", "line":507, "type":"c", "scope_line":477, "scope_name":"ext3_xattr_release_block", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext3/xattr.c", "line":731, "type":"c", "scope_line":679, "scope_name":"ext3_xattr_block_set", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext3/xattr.c", "line":795, "type":"c", "scope_line":679, "scope_name":"ext3_xattr_block_set", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext3/xattr.c", "line":845, "type":"c", "scope_line":679, "scope_name":"ext3_xattr_block_set", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext4/xattr.c", "line":1429, "type":"c", "scope_line":1408, "scope_name":"ext4_xattr_cache_insert", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext4/xattr.c", "line":499, "type":"c", "scope_line":469, "scope_name":"ext4_xattr_release_block", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext4/xattr.c", "line":740, "type":"c", "scope_line":688, "scope_name":"ext4_xattr_block_set", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext4/xattr.c", "line":805, "type":"c", "scope_line":688, "scope_name":"ext4_xattr_block_set", }
+,{"id":"mb_cache_entry_release", "file":"fs/ext4/xattr.c", "line":868, "type":"c", "scope_line":688, "scope_name":"ext4_xattr_block_set", }
+,{"id":"mb_cache_entry_release", "file":"fs/mbcache.c", "line":434, "type":"f", }
+,{"id":"mb_cache_list", "file":"fs/mbcache.c", "line":97, "type":"v", }
+,{"id":"mb_cache_lru_list", "file":"fs/mbcache.c", "line":98, "type":"v", }
+,{"id":"mb_cache_queue", "file":"fs/mbcache.c", "line":60, "type":"v", }
+,{"id":"mb_cache_shrink", "file":"fs/ext2/xattr.c", "line":824, "type":"c", "scope_line":821, "scope_name":"ext2_xattr_put_super", }
+,{"id":"mb_cache_shrink", "file":"fs/ext3/xattr.c", "line":1119, "type":"c", "scope_line":1116, "scope_name":"ext3_xattr_put_super", }
+,{"id":"mb_cache_shrink", "file":"fs/ext4/xattr.c", "line":1397, "type":"c", "scope_line":1394, "scope_name":"ext4_xattr_put_super", }
+,{"id":"mb_cache_shrink", "file":"fs/mbcache.c", "line":277, "type":"f", }
+,{"id":"mb_cache_shrink_fn", "file":"fs/mbcache.c", "line":176, "type":"f", }
+,{"id":"mb_cache_shrinker", "file":"fs/mbcache.c", "line":107, "type":"v", }
+,{"id":"mb_cache_spinlock", "file":"fs/mbcache.c", "line":99, "type":"v", }
+,{"id":"mb_check_buddy", "file":"fs/ext4/mballoc.c", "line":622, "type":"d", }
+,{"id":"mb_clear_bit", "file":"fs/ext4/mballoc.c", "line":1237, "type":"c", "scope_line":1224, "scope_name":"mb_clear_bits", }
+,{"id":"mb_clear_bit", "file":"fs/ext4/mballoc.c", "line":1305, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_clear_bit", "file":"fs/ext4/mballoc.c", "line":1336, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_clear_bit", "file":"fs/ext4/mballoc.c", "line":1464, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_clear_bit", "file":"fs/ext4/mballoc.c", "line":1465, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_clear_bit", "file":"fs/ext4/mballoc.c", "line":377, "type":"f", }
+,{"id":"mb_clear_bit", "file":"fs/ext4/mballoc.c", "line":654, "type":"c", "scope_line":626, "scope_name":"ext4_mb_mark_free_simple", }
+,{"id":"mb_clear_bits", "file":"fs/ext4/mballoc.c", "line":1224, "type":"f", }
+,{"id":"mb_clear_bits", "file":"fs/ext4/mballoc.c", "line":4636, "type":"c", "scope_line":4488, "scope_name":"ext4_free_blocks", }
+,{"id":"mb_clear_bits", "file":"fs/ext4/mballoc.c", "line":4644, "type":"c", "scope_line":4488, "scope_name":"ext4_free_blocks", }
+,{"id":"mb_cmp_bitmaps", "file":"fs/ext4/mballoc.c", "line":1130, "type":"c", "scope_line":1045, "scope_name":"ext4_mb_load_buddy", }
+,{"id":"mb_cmp_bitmaps", "file":"fs/ext4/mballoc.c", "line":502, "type":"f", }
+,{"id":"mb_correct_addr_and_bit", "file":"fs/ext4/mballoc.c", "line":347, "type":"f", }
+,{"id":"mb_correct_addr_and_bit", "file":"fs/ext4/mballoc.c", "line":367, "type":"c", "scope_line":361, "scope_name":"mb_test_bit", }
+,{"id":"mb_correct_addr_and_bit", "file":"fs/ext4/mballoc.c", "line":373, "type":"c", "scope_line":371, "scope_name":"mb_set_bit", }
+,{"id":"mb_correct_addr_and_bit", "file":"fs/ext4/mballoc.c", "line":379, "type":"c", "scope_line":377, "scope_name":"mb_clear_bit", }
+,{"id":"mb_correct_addr_and_bit", "file":"fs/ext4/mballoc.c", "line":386, "type":"c", "scope_line":383, "scope_name":"mb_find_next_zero_bit", }
+,{"id":"mb_correct_addr_and_bit", "file":"fs/ext4/mballoc.c", "line":399, "type":"c", "scope_line":396, "scope_name":"mb_find_next_bit", }
+,{"id":"mb_debug", "file":"fs/ext4/mballoc.h", "line":51, "type":"d", }
+,{"id":"mb_debug", "file":"fs/mbcache.c", "line":50, "type":"d", }
+,{"id":"mb_error", "file":"fs/mbcache.c", "line":53, "type":"d", }
+,{"id":"mb_find_buddy", "file":"fs/ext4/mballoc.c", "line":1309, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_find_buddy", "file":"fs/ext4/mballoc.c", "line":1318, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_find_buddy", "file":"fs/ext4/mballoc.c", "line":1355, "type":"c", "scope_line":1344, "scope_name":"mb_find_extent", }
+,{"id":"mb_find_buddy", "file":"fs/ext4/mballoc.c", "line":1381, "type":"c", "scope_line":1344, "scope_name":"mb_find_extent", }
+,{"id":"mb_find_buddy", "file":"fs/ext4/mballoc.c", "line":1441, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_find_buddy", "file":"fs/ext4/mballoc.c", "line":1457, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_find_buddy", "file":"fs/ext4/mballoc.c", "line":1463, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_find_buddy", "file":"fs/ext4/mballoc.c", "line":1740, "type":"c", "scope_line":1724, "scope_name":"ext4_mb_simple_scan_group", }
+,{"id":"mb_find_buddy", "file":"fs/ext4/mballoc.c", "line":409, "type":"f", }
+,{"id":"mb_find_extent", "file":"fs/ext4/mballoc.c", "line":1344, "type":"f", }
+,{"id":"mb_find_extent", "file":"fs/ext4/mballoc.c", "line":1560, "type":"c", "scope_line":1528, "scope_name":"ext4_mb_check_limits", }
+,{"id":"mb_find_extent", "file":"fs/ext4/mballoc.c", "line":1652, "type":"c", "scope_line":1637, "scope_name":"ext4_mb_try_best_found", }
+,{"id":"mb_find_extent", "file":"fs/ext4/mballoc.c", "line":1683, "type":"c", "scope_line":1665, "scope_name":"ext4_mb_find_by_goal", }
+,{"id":"mb_find_extent", "file":"fs/ext4/mballoc.c", "line":1799, "type":"c", "scope_line":1768, "scope_name":"ext4_mb_complex_scan_group", }
+,{"id":"mb_find_extent", "file":"fs/ext4/mballoc.c", "line":1851, "type":"c", "scope_line":1827, "scope_name":"ext4_mb_scan_aligned", }
+,{"id":"mb_find_next_bit", "file":"fs/ext4/mballoc.c", "line":3566, "type":"c", "scope_line":3536, "scope_name":"ext4_mb_release_inode_pa", }
+,{"id":"mb_find_next_bit", "file":"fs/ext4/mballoc.c", "line":396, "type":"f", }
+,{"id":"mb_find_next_bit", "file":"fs/ext4/mballoc.c", "line":703, "type":"c", "scope_line":683, "scope_name":"ext4_mb_generate_buddy", }
+,{"id":"mb_find_next_zero_bit", "file":"fs/ext4/mballoc.c", "line":1743, "type":"c", "scope_line":1724, "scope_name":"ext4_mb_simple_scan_group", }
+,{"id":"mb_find_next_zero_bit", "file":"fs/ext4/mballoc.c", "line":1784, "type":"c", "scope_line":1768, "scope_name":"ext4_mb_complex_scan_group", }
+,{"id":"mb_find_next_zero_bit", "file":"fs/ext4/mballoc.c", "line":3563, "type":"c", "scope_line":3536, "scope_name":"ext4_mb_release_inode_pa", }
+,{"id":"mb_find_next_zero_bit", "file":"fs/ext4/mballoc.c", "line":383, "type":"f", }
+,{"id":"mb_find_next_zero_bit", "file":"fs/ext4/mballoc.c", "line":698, "type":"c", "scope_line":683, "scope_name":"ext4_mb_generate_buddy", }
+,{"id":"mb_find_next_zero_bit", "file":"fs/ext4/mballoc.c", "line":711, "type":"c", "scope_line":683, "scope_name":"ext4_mb_generate_buddy", }
+,{"id":"mb_find_order_for_block", "file":"fs/ext4/mballoc.c", "line":1203, "type":"f", }
+,{"id":"mb_find_order_for_block", "file":"fs/ext4/mballoc.c", "line":1368, "type":"c", "scope_line":1344, "scope_name":"mb_find_extent", }
+,{"id":"mb_find_order_for_block", "file":"fs/ext4/mballoc.c", "line":1391, "type":"c", "scope_line":1344, "scope_name":"mb_find_extent", }
+,{"id":"mb_find_order_for_block", "file":"fs/ext4/mballoc.c", "line":1436, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_free_blocks", "file":"fs/ext4/mballoc.c", "line":1260, "type":"f", }
+,{"id":"mb_free_blocks", "file":"fs/ext4/mballoc.c", "line":2610, "type":"c", "scope_line":2580, "scope_name":"release_blocks_on_commit", }
+,{"id":"mb_free_blocks", "file":"fs/ext4/mballoc.c", "line":3582, "type":"c", "scope_line":3536, "scope_name":"ext4_mb_release_inode_pa", }
+,{"id":"mb_free_blocks", "file":"fs/ext4/mballoc.c", "line":3615, "type":"c", "scope_line":3602, "scope_name":"ext4_mb_release_group_pa", }
+,{"id":"mb_free_blocks", "file":"fs/ext4/mballoc.c", "line":4645, "type":"c", "scope_line":4488, "scope_name":"ext4_free_blocks", }
+,{"id":"mb_free_blocks_double", "file":"fs/ext4/mballoc.c", "line":1273, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_free_blocks_double", "file":"fs/ext4/mballoc.c", "line":492, "type":"f", }
+,{"id":"mb_mark_used", "file":"fs/ext4/mballoc.c", "line":1402, "type":"f", }
+,{"id":"mb_mark_used", "file":"fs/ext4/mballoc.c", "line":1491, "type":"c", "scope_line":1480, "scope_name":"ext4_mb_use_best_found", }
+,{"id":"mb_mark_used_double", "file":"fs/ext4/mballoc.c", "line":1418, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_mark_used_double", "file":"fs/ext4/mballoc.c", "line":497, "type":"f", }
+,{"id":"mb_set_bit", "file":"fs/ext4/mballoc.c", "line":1255, "type":"c", "scope_line":1242, "scope_name":"mb_set_bits", }
+,{"id":"mb_set_bit", "file":"fs/ext4/mballoc.c", "line":1326, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_set_bit", "file":"fs/ext4/mballoc.c", "line":1327, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_set_bit", "file":"fs/ext4/mballoc.c", "line":1443, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_set_bit", "file":"fs/ext4/mballoc.c", "line":1458, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_set_bit", "file":"fs/ext4/mballoc.c", "line":371, "type":"f", }
+,{"id":"mb_set_bits", "file":"fs/ext4/mballoc.c", "line":1242, "type":"f", }
+,{"id":"mb_set_bits", "file":"fs/ext4/mballoc.c", "line":1471, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_set_bits", "file":"fs/ext4/mballoc.c", "line":2760, "type":"c", "scope_line":2710, "scope_name":"ext4_mb_mark_diskspace_used", }
+,{"id":"mb_set_bits", "file":"fs/ext4/mballoc.c", "line":2779, "type":"c", "scope_line":2710, "scope_name":"ext4_mb_mark_diskspace_used", }
+,{"id":"mb_set_bits", "file":"fs/ext4/mballoc.c", "line":3251, "type":"c", "scope_line":3239, "scope_name":"ext4_mb_generate_from_freelist", }
+,{"id":"mb_set_bits", "file":"fs/ext4/mballoc.c", "line":3293, "type":"c", "scope_line":3262, "scope_name":"ext4_mb_generate_from_pa", }
+,{"id":"mb_set_largest_free_order", "file":"fs/ext4/mballoc.c", "line":1340, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_set_largest_free_order", "file":"fs/ext4/mballoc.c", "line":1469, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_set_largest_free_order", "file":"fs/ext4/mballoc.c", "line":666, "type":"f", }
+,{"id":"mb_set_largest_free_order", "file":"fs/ext4/mballoc.c", "line":725, "type":"c", "scope_line":683, "scope_name":"ext4_mb_generate_buddy", }
+,{"id":"mb_test_bit", "file":"fs/ext4/mballoc.c", "line":1214, "type":"c", "scope_line":1203, "scope_name":"mb_find_order_for_block", }
+,{"id":"mb_test_bit", "file":"fs/ext4/mballoc.c", "line":1281, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_test_bit", "file":"fs/ext4/mballoc.c", "line":1283, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_test_bit", "file":"fs/ext4/mballoc.c", "line":1294, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_test_bit", "file":"fs/ext4/mballoc.c", "line":1313, "type":"c", "scope_line":1260, "scope_name":"mb_free_blocks", }
+,{"id":"mb_test_bit", "file":"fs/ext4/mballoc.c", "line":1358, "type":"c", "scope_line":1344, "scope_name":"mb_find_extent", }
+,{"id":"mb_test_bit", "file":"fs/ext4/mballoc.c", "line":1388, "type":"c", "scope_line":1344, "scope_name":"mb_find_extent", }
+,{"id":"mb_test_bit", "file":"fs/ext4/mballoc.c", "line":1426, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_test_bit", "file":"fs/ext4/mballoc.c", "line":1428, "type":"c", "scope_line":1402, "scope_name":"mb_mark_used", }
+,{"id":"mb_test_bit", "file":"fs/ext4/mballoc.c", "line":1850, "type":"c", "scope_line":1827, "scope_name":"ext4_mb_scan_aligned", }
+,{"id":"mb_test_bit", "file":"fs/ext4/mballoc.c", "line":361, "type":"f", }
+,{"id":"mbind_range", "file":"mm/mempolicy.c", "line":1148, "type":"c", "scope_line":1073, "scope_name":"do_mbind", }
+,{"id":"mbind_range", "file":"mm/mempolicy.c", "line":634, "type":"f", }
+,{"id":"mbr_signature", "file":"drivers/firmware/edd.c", "line":58, "type":"m", "scope_line":56, "scope_name":"struct edd_device", }
+,{"id":"mbr_signature", "file":"include/linux/edd.h", "line":183, "type":"m", "scope_line":182, "scope_name":"struct edd", }
+,{"id":"mbr_signature_nr", "file":"include/linux/edd.h", "line":185, "type":"m", "scope_line":182, "scope_name":"struct edd", }
+,{"id":"mc", "file":"arch/x86/xen/multicalls.h", "line":9, "type":"m", "scope_line":7, "scope_name":"struct multicall_space", }
+,{"id":"mc", "file":"include/linux/netdevice.h", "line":933, "type":"m", "scope_line":788, "scope_name":"struct net_device", }
+,{"id":"mc", "file":"include/linux/wanrouter.h", "line":407, "type":"m", "scope_line":391, "scope_name":"struct wanif_conf", }
+,{"id":"mc", "file":"mm/memcontrol.c", "line":271, "type":"v", }
+,{"id":"mc_add_stats", "file":"arch/x86/xen/multicalls.c", "line":116, "type":"f", }
+,{"id":"mc_add_stats", "file":"arch/x86/xen/multicalls.c", "line":138, "type":"c", "scope_line":125, "scope_name":"xen_mc_flush", }
+,{"id":"mc_addr", "file":"include/net/inet_sock.h", "line":143, "type":"m", "scope_line":112, "scope_name":"struct inet_sock", }
+,{"id":"mc_all", "file":"include/net/inet_sock.h", "line":140, "type":"m", "scope_line":112, "scope_name":"struct inet_sock", }
+,{"id":"mc_buffer", "file":"arch/x86/xen/multicalls.c", "line":38, "type":"s", }
+,{"id":"mc_buffer", "file":"arch/x86/xen/multicalls.c", "line":52, "type":"v", }
+,{"id":"mc_capable", "file":"arch/x86/include/asm/topology.h", "line":205, "type":"d", }
+,{"id":"mc_count", "file":"include/linux/inetdevice.h", "line":56, "type":"m", "scope_line":49, "scope_name":"struct in_device", }
+,{"id":"mc_flags", "file":"include/linux/cdrom.h", "line":948, "type":"m", "scope_line":937, "scope_name":"struct cdrom_device_info", }
+,{"id":"mc_gq_running", "file":"include/net/if_inet6.h", "line":171, "type":"m", "scope_line":162, "scope_name":"struct inet6_dev", }
+,{"id":"mc_gq_timer", "file":"include/net/if_inet6.h", "line":175, "type":"m", "scope_line":162, "scope_name":"struct inet6_dev", }
+,{"id":"mc_group_start", "file":"net/netlink/genetlink.c", "line":47, "type":"v", }
+,{"id":"mc_groups", "file":"net/netlink/genetlink.c", "line":48, "type":"v", }
+,{"id":"mc_groups_longs", "file":"net/netlink/genetlink.c", "line":49, "type":"v", }
+,{"id":"mc_handle_file_pte", "file":"mm/memcontrol.c", "line":4350, "type":"f", }
+,{"id":"mc_handle_file_pte", "file":"mm/memcontrol.c", "line":4396, "type":"c", "scope_line":4383, "scope_name":"is_target_pte_for_mc", }
+,{"id":"mc_handle_present_pte", "file":"mm/memcontrol.c", "line":4309, "type":"f", }
+,{"id":"mc_handle_present_pte", "file":"mm/memcontrol.c", "line":4392, "type":"c", "scope_line":4383, "scope_name":"is_target_pte_for_mc", }
+,{"id":"mc_handle_swap_pte", "file":"mm/memcontrol.c", "line":4329, "type":"f", }
+,{"id":"mc_handle_swap_pte", "file":"mm/memcontrol.c", "line":4394, "type":"c", "scope_line":4383, "scope_name":"is_target_pte_for_mc", }
+,{"id":"mc_ifc_count", "file":"include/net/if_inet6.h", "line":172, "type":"m", "scope_line":162, "scope_name":"struct inet6_dev", }
+,{"id":"mc_ifc_timer", "file":"include/net/if_inet6.h", "line":176, "type":"m", "scope_line":162, "scope_name":"struct inet6_dev", }
+,{"id":"mc_index", "file":"include/net/inet_sock.h", "line":142, "type":"m", "scope_line":112, "scope_name":"struct inet_sock", }
+,{"id":"mc_list", "file":"include/linux/inetdevice.h", "line":55, "type":"m", "scope_line":49, "scope_name":"struct in_device", }
+,{"id":"mc_list", "file":"include/net/if_inet6.h", "line":167, "type":"m", "scope_line":162, "scope_name":"struct inet6_dev", }
+,{"id":"mc_list", "file":"include/net/inet_sock.h", "line":144, "type":"m", "scope_line":112, "scope_name":"struct inet_sock", }
+,{"id":"mc_list", "file":"net/netlink/af_netlink.c", "line":121, "type":"m", "scope_line":119, "scope_name":"struct netlink_table", }
+,{"id":"mc_list_lock", "file":"include/linux/inetdevice.h", "line":54, "type":"m", "scope_line":49, "scope_name":"struct in_device", }
+,{"id":"mc_lock", "file":"include/net/if_inet6.h", "line":169, "type":"m", "scope_line":162, "scope_name":"struct inet6_dev", }
+,{"id":"mc_loop", "file":"include/linux/ipv6.h", "line":323, "type":"m", "scope_line":292, "scope_name":"struct ipv6_pinfo", }
+,{"id":"mc_loop", "file":"include/net/inet_sock.h", "line":138, "type":"m", "scope_line":112, "scope_name":"struct inet_sock", }
+,{"id":"mc_maxdelay", "file":"include/net/if_inet6.h", "line":174, "type":"m", "scope_line":162, "scope_name":"struct inet6_dev", }
+,{"id":"mc_qrv", "file":"include/net/if_inet6.h", "line":170, "type":"m", "scope_line":162, "scope_name":"struct inet6_dev", }
+,{"id":"mc_stats_flush", "file":"arch/x86/xen/multicalls.c", "line":120, "type":"f", }
+,{"id":"mc_stats_flush", "file":"arch/x86/xen/multicalls.c", "line":196, "type":"c", "scope_line":185, "scope_name":"__xen_mc_entry", }
+,{"id":"mc_stats_flush", "file":"arch/x86/xen/multicalls.c", "line":244, "type":"c", "scope_line":238, "scope_name":"xen_mc_callback", }
+,{"id":"mc_target", "file":"mm/memcontrol.c", "line":4298, "type":"u", }
+,{"id":"mc_target_type", "file":"mm/memcontrol.c", "line":4303, "type":"t", }
+,{"id":"mc_tomb", "file":"include/linux/inetdevice.h", "line":58, "type":"m", "scope_line":49, "scope_name":"struct in_device", }
+,{"id":"mc_tomb", "file":"include/net/if_inet6.h", "line":168, "type":"m", "scope_line":162, "scope_name":"struct inet6_dev", }
+,{"id":"mc_tomb_lock", "file":"include/linux/inetdevice.h", "line":57, "type":"m", "scope_line":49, "scope_name":"struct in_device", }
+,{"id":"mc_ttl", "file":"include/net/inet_sock.h", "line":132, "type":"m", "scope_line":112, "scope_name":"struct inet_sock", }
+,{"id":"mc_v1_seen", "file":"include/net/if_inet6.h", "line":173, "type":"m", "scope_line":162, "scope_name":"struct inet6_dev", }
+,{"id":"mca_addr", "file":"include/net/if_inet6.h", "line":114, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"mca_bus", "file":"include/linux/mca.h", "line":85, "type":"s", }
+,{"id":"mca_bus_accessor_functions", "file":"include/linux/mca.h", "line":74, "type":"s", }
+,{"id":"mca_crcount", "file":"include/net/if_inet6.h", "line":120, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"mca_cstamp", "file":"include/net/if_inet6.h", "line":127, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"mca_device", "file":"include/linux/mca.h", "line":44, "type":"s", }
+,{"id":"mca_device_get_name", "file":"include/linux/mca.h", "line":119, "type":"f", }
+,{"id":"mca_do_proc_init", "file":"include/linux/mca.h", "line":139, "type":"f", }
+,{"id":"mca_driver", "file":"include/linux/mca.h", "line":94, "type":"s", }
+,{"id":"mca_flags", "file":"include/net/if_inet6.h", "line":123, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"mca_lock", "file":"include/net/if_inet6.h", "line":126, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"mca_probes", "file":"drivers/net/Space.c", "line":142, "type":"v", }
+,{"id":"mca_read_pos", "file":"include/linux/mca.h", "line":75, "type":"m", "scope_line":74, "scope_name":"struct mca_bus_accessor_functions", }
+,{"id":"mca_refcnt", "file":"include/net/if_inet6.h", "line":125, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"mca_set_adapter_procfn", "file":"include/linux/mca.h", "line":143, "type":"f", }
+,{"id":"mca_sfcount", "file":"include/net/if_inet6.h", "line":121, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"mca_sfmode", "file":"include/net/if_inet6.h", "line":119, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"mca_sources", "file":"include/net/if_inet6.h", "line":117, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"mca_timer", "file":"include/net/if_inet6.h", "line":122, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"mca_tomb", "file":"include/net/if_inet6.h", "line":118, "type":"m", "scope_line":113, "scope_name":"struct ifmcaddr6", }
+,{"id":"mca_transform_ioport", "file":"include/linux/mca.h", "line":79, "type":"m", "scope_line":74, "scope_name":"struct mca_bus_accessor_functions", }
+,{"id":"mca_transform_irq", "file":"include/linux/mca.h", "line":78, "type":"m", "scope_line":74, "scope_name":"struct mca_bus_accessor_functions", }
+,{"id":"mca_transform_memory", "file":"include/linux/mca.h", "line":81, "type":"m", "scope_line":74, "scope_name":"struct mca_bus_accessor_functions", }
+,];
+xr_frag_insert('t/5a/eae6251116fa5add9e7a61dc44d3b94535efdb.xr', __xr_tmp);

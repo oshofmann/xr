@@ -1,0 +1,106 @@
+var __xr_tmp = [
+{"id":"perf_trace_softirq", "file":"include/trace/events/irq.h", "line":85, "type":"f", }
+,{"id":"perf_trace_sys_enter", "file":"include/trace/events/syscalls.h", "line":19, "type":"f", }
+,{"id":"perf_trace_sys_exit", "file":"include/trace/events/syscalls.h", "line":43, "type":"f", }
+,{"id":"perf_trace_t", "file":"kernel/trace/trace_event_perf.c", "line":18, "type":"t", }
+,{"id":"perf_trace_timer_class", "file":"include/trace/events/timer.h", "line":11, "type":"f", }
+,{"id":"perf_trace_timer_expire_entry", "file":"include/trace/events/timer.h", "line":75, "type":"f", }
+,{"id":"perf_trace_timer_start", "file":"include/trace/events/timer.h", "line":44, "type":"f", }
+,{"id":"perf_trace_unlock_kernel", "file":"include/trace/events/bkl.h", "line":34, "type":"f", }
+,{"id":"perf_trace_wbc_class", "file":"include/trace/events/writeback.h", "line":91, "type":"f", }
+,{"id":"perf_trace_workqueue_execute_end", "file":"include/trace/events/workqueue.h", "line":41, "type":"f", }
+,{"id":"perf_trace_workqueue_execute_start", "file":"include/trace/events/workqueue.h", "line":16, "type":"f", }
+,{"id":"perf_trace_writeback_class", "file":"include/trace/events/writeback.h", "line":65, "type":"f", }
+,{"id":"perf_trace_writeback_pages_written", "file":"include/trace/events/writeback.h", "line":53, "type":"f", }
+,{"id":"perf_trace_writeback_work_class", "file":"include/trace/events/writeback.h", "line":13, "type":"f", }
+,{"id":"perf_type_id", "file":"include/linux/perf_event.h", "line":28, "type":"t", }
+,{"id":"perf_unpin_context", "file":"kernel/perf_event.c", "line":205, "type":"f", }
+,{"id":"perf_unpin_context", "file":"kernel/perf_event.c", "line":5690, "type":"c", "scope_line":5612, "scope_name":"perf_event_init_task", }
+,{"id":"perf_unregister_guest_info_callbacks", "file":"kernel/perf_event.c", "line":2980, "type":"f", }
+,{"id":"perfclass_attr_group", "file":"kernel/perf_event.c", "line":5885, "type":"v", }
+,{"id":"perfclass_attrs", "file":"kernel/perf_event.c", "line":5879, "type":"v", }
+,{"id":"perfctr", "file":"arch/x86/kernel/cpu/perf_event.c", "line":207, "type":"m", "scope_line":193, "scope_name":"struct x86_pmu", }
+,{"id":"perfctr", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":38, "type":"m", "scope_line":32, "scope_name":"struct wd_ops", }
+,{"id":"perfctr_msr", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":27, "type":"m", "scope_line":25, "scope_name":"struct nmi_watchdog_ctlblk", }
+,{"id":"perfctr_nmi_owner", "file":"arch/x86/kernel/cpu/perfctr-watchdog.c", "line":60, "type":"v", }
+,{"id":"perfctr_second_write", "file":"arch/x86/kernel/cpu/perf_event.c", "line":224, "type":"m", "scope_line":193, "scope_name":"struct x86_pmu", }
+,{"id":"performance", "file":"include/acpi/acpi_bus.h", "line":230, "type":"m", "scope_line":224, "scope_name":"struct acpi_device_perf_state", }
+,{"id":"performance", "file":"include/acpi/acpi_bus.h", "line":278, "type":"m", "scope_line":266, "scope_name":"struct acpi_device", }
+,{"id":"performance", "file":"include/acpi/processor.h", "line":150, "type":"m", "scope_line":148, "scope_name":"struct acpi_processor_tx", }
+,{"id":"performance", "file":"include/acpi/processor.h", "line":190, "type":"m", "scope_line":188, "scope_name":"struct acpi_processor_flags", }
+,{"id":"performance", "file":"include/acpi/processor.h", "line":211, "type":"m", "scope_line":200, "scope_name":"struct acpi_processor", }
+,{"id":"performance_manageable", "file":"include/acpi/acpi_bus.h", "line":150, "type":"m", "scope_line":142, "scope_name":"struct acpi_device_flags", }
+,{"id":"performance_multiplier", "file":"drivers/cpuidle/governors/menu.c", "line":169, "type":"f", }
+,{"id":"performance_multiplier", "file":"drivers/cpuidle/governors/menu.c", "line":260, "type":"c", "scope_line":233, "scope_name":"menu_select", }
+,{"id":"performance_mutex", "file":"drivers/acpi/processor_perflib.c", "line":50, "type":"v", }
+,{"id":"performance_platform_limit", "file":"include/acpi/processor.h", "line":205, "type":"m", "scope_line":200, "scope_name":"struct acpi_processor", }
+,{"id":"performance_robustness", "file":"include/acpi/acrestyp.h", "line":174, "type":"m", "scope_line":171, "scope_name":"struct acpi_resource_start_dependent", }
+,{"id":"period", "file":"drivers/input/input-compat.h", "line":41, "type":"m", "scope_line":39, "scope_name":"struct ff_periodic_effect_compat", }
+,{"id":"period", "file":"include/acpi/actbl2.h", "line":938, "type":"m", "scope_line":930, "scope_name":"struct acpi_table_wddt", }
+,{"id":"period", "file":"include/linux/ieee80211.h", "line":554, "type":"m", "scope_line":552, "scope_name":"struct ieee80211_quiet_ie", }
+,{"id":"period", "file":"include/linux/input.h", "line":946, "type":"m", "scope_line":944, "scope_name":"struct ff_periodic_effect", }
+,{"id":"period", "file":"include/linux/kd.h", "line":148, "type":"m", "scope_line":146, "scope_name":"struct kbd_repeat", }
+,{"id":"period", "file":"include/linux/perf_event.h", "line":893, "type":"m", "scope_line":877, "scope_name":"struct perf_sample_data", }
+,{"id":"period", "file":"include/linux/pkt_sched.h", "line":307, "type":"m", "scope_line":304, "scope_name":"struct tc_hfsc_stats", }
+,{"id":"period", "file":"include/linux/proportions.h", "line":107, "type":"m", "scope_line":97, "scope_name":"struct prop_local_single", }
+,{"id":"period", "file":"include/linux/proportions.h", "line":60, "type":"m", "scope_line":50, "scope_name":"struct prop_local_percpu", }
+,{"id":"period", "file":"include/net/inet_timewait_sock.h", "line":76, "type":"m", "scope_line":67, "scope_name":"struct inet_timewait_death_row", }
+,{"id":"period", "file":"include/scsi/scsi_transport_spi.h", "line":32, "type":"m", "scope_line":31, "scope_name":"struct spi_transport_attrs", }
+,{"id":"period_left", "file":"include/linux/perf_event.h", "line":545, "type":"m", "scope_line":520, "scope_name":"struct hw_perf_event", }
+,{"id":"period_ns", "file":"include/xen/interface/vcpu.h", "line":137, "type":"m", "scope_line":136, "scope_name":"struct vcpu_set_periodic_timer", }
+,{"id":"period_to_str", "file":"drivers/scsi/scsi_transport_spi.c", "line":1215, "type":"c", "scope_line":1211, "scope_name":"print_nego", }
+,{"id":"period_to_str", "file":"drivers/scsi/scsi_transport_spi.c", "line":422, "type":"f", }
+,{"id":"period_to_str", "file":"drivers/scsi/scsi_transport_spi.c", "line":446, "type":"c", "scope_line":443, "scope_name":"show_spi_transport_period_helper", }
+,{"id":"periodic", "file":"drivers/input/input-compat.h", "line":62, "type":"m", "scope_line":52, "scope_name":"struct ff_effect_compat", }
+,{"id":"periodic", "file":"include/linux/input.h", "line":1003, "type":"m", "scope_line":993, "scope_name":"struct ff_effect", }
+,{"id":"periodic_gc_runs", "file":"include/net/neighbour.h", "line":85, "type":"m", "scope_line":72, "scope_name":"struct neigh_statistics", }
+,{"id":"perm", "file":"include/linux/key.h", "line":138, "type":"m", "scope_line":124, "scope_name":"struct key", }
+,{"id":"perm", "file":"include/linux/moduleparam.h", "line":49, "type":"m", "scope_line":46, "scope_name":"struct kernel_param", }
+,{"id":"perm", "file":"security/selinux/nlmsgtab.c", "line":27, "type":"m", "scope_line":25, "scope_name":"struct nlmsg_perm", }
+,{"id":"perm", "file":"security/tomoyo/common.h", "line":439, "type":"m", "scope_line":437, "scope_name":"struct tomoyo_path_acl", }
+,{"id":"perm", "file":"security/tomoyo/common.h", "line":460, "type":"m", "scope_line":458, "scope_name":"struct tomoyo_path_number_acl", }
+,{"id":"perm", "file":"security/tomoyo/common.h", "line":481, "type":"m", "scope_line":479, "scope_name":"struct tomoyo_mkdev_acl", }
+,{"id":"perm", "file":"security/tomoyo/common.h", "line":503, "type":"m", "scope_line":501, "scope_name":"struct tomoyo_path2_acl", }
+,{"id":"perm_addr", "file":"include/linux/netdevice.h", "line":926, "type":"m", "scope_line":788, "scope_name":"struct net_device", }
+,{"id":"perm_addr", "file":"include/net/cfg80211.h", "line":1294, "type":"m", "scope_line":1290, "scope_name":"struct wiphy", }
+,{"id":"perm_datum", "file":"security/selinux/ss/policydb.h", "line":45, "type":"s", }
+,{"id":"perm_destroy", "file":"security/selinux/ss/policydb.c", "line":1002, "type":"c", "scope_line":965, "scope_name":"perm_read", }
+,{"id":"perm_destroy", "file":"security/selinux/ss/policydb.c", "line":520, "type":"f", }
+,{"id":"perm_gid", "file":"kernel/auditsc.c", "line":217, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"perm_mode", "file":"kernel/auditsc.c", "line":218, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"perm_read", "file":"security/selinux/ss/policydb.c", "line":1044, "type":"c", "scope_line":1006, "scope_name":"common_read", }
+,{"id":"perm_read", "file":"security/selinux/ss/policydb.c", "line":1202, "type":"c", "scope_line":1141, "scope_name":"class_read", }
+,{"id":"perm_read", "file":"security/selinux/ss/policydb.c", "line":965, "type":"f", }
+,{"id":"perm_uid", "file":"kernel/auditsc.c", "line":216, "type":"m", "scope_line":166, "scope_name":"struct audit_context", }
+,{"id":"permission", "file":"include/linux/fs.h", "line":1531, "type":"m", "scope_line":1516, "scope_name":"struct inode_operations", }
+,{"id":"permissions", "file":"include/linux/sysctl.h", "line":1032, "type":"m", "scope_line":1027, "scope_name":"struct ctl_table_root", }
+,{"id":"permissions", "file":"security/selinux/ss/constraint.h", "line":56, "type":"m", "scope_line":55, "scope_name":"struct constraint_node", }
+,{"id":"permissions", "file":"security/selinux/ss/policydb.h", "line":52, "type":"m", "scope_line":50, "scope_name":"struct common_datum", }
+,{"id":"permissions", "file":"security/selinux/ss/policydb.h", "line":60, "type":"m", "scope_line":56, "scope_name":"struct class_datum", }
+,{"id":"permissive", "file":"security/tomoyo/common.h", "line":683, "type":"m", "scope_line":680, "scope_name":"struct tomoyo_profile", }
+,{"id":"permissive_map", "file":"security/selinux/ss/policydb.h", "line":255, "type":"m", "scope_line":191, "scope_name":"struct policydb", }
+,{"id":"permissive_verbose", "file":"security/tomoyo/common.h", "line":677, "type":"m", "scope_line":673, "scope_name":"struct tomoyo_preference", }
+,{"id":"permitted", "file":"include/linux/capability.h", "line":101, "type":"m", "scope_line":99, "scope_name":"struct cpu_vfs_cap_data", }
+,{"id":"permitted", "file":"include/linux/capability.h", "line":47, "type":"m", "scope_line":45, "scope_name":"struct __user_cap_data_struct", }
+,{"id":"permitted", "file":"kernel/auditsc.c", "line":90, "type":"m", "scope_line":89, "scope_name":"struct audit_cap_data", }
+,{"id":"perms", "file":"security/selinux/avc.c", "line":79, "type":"m", "scope_line":71, "scope_name":"struct avc_callback_node", }
+,{"id":"perms", "file":"security/selinux/include/avc_ss.h", "line":16, "type":"m", "scope_line":14, "scope_name":"struct security_class_mapping", }
+,{"id":"perms", "file":"security/selinux/ss/services.c", "line":103, "type":"m", "scope_line":100, "scope_name":"struct selinux_mapping", }
+,{"id":"permute", "file":"lib/decompress_bunzip2.c", "line":87, "type":"m", "scope_line":83, "scope_name":"struct group_data", }
+,{"id":"pernet_list", "file":"net/core/net_namespace.c", "line":18, "type":"v", }
+,{"id":"pernet_operations", "file":"include/net/net_namespace.h", "line":233, "type":"s", }
+,{"id":"perp_mode", "file":"block/compat_ioctl.c", "line":275, "type":"m", "scope_line":265, "scope_name":"struct compat_floppy_fdc_state", }
+,{"id":"perp_mode", "file":"include/linux/fd.h", "line":263, "type":"m", "scope_line":253, "scope_name":"struct floppy_fdc_state", }
+,{"id":"pers_high", "file":"include/linux/personality.h", "line":95, "type":"m", "scope_line":91, "scope_name":"struct exec_domain", }
+,{"id":"pers_low", "file":"include/linux/personality.h", "line":94, "type":"m", "scope_line":91, "scope_name":"struct exec_domain", }
+,{"id":"persist_enabled", "file":"include/linux/usb.h", "line":455, "type":"m", "scope_line":423, "scope_name":"struct usb_device", }
+,{"id":"persistconns", "file":"include/linux/ip_vs.h", "line":193, "type":"m", "scope_line":182, "scope_name":"struct ip_vs_dest_entry", }
+,{"id":"persistconns", "file":"include/net/ip_vs.h", "line":502, "type":"m", "scope_line":485, "scope_name":"struct ip_vs_dest", }
+,{"id":"persistence_information", "file":"include/linux/cper.h", "line":225, "type":"m", "scope_line":210, "scope_name":"struct cper_record_header", }
+,{"id":"persistent", "file":"include/linux/cdrom.h", "line":764, "type":"m", "scope_line":755, "scope_name":"struct mrw_feature_desc", }
+,{"id":"persistent", "file":"include/linux/cdrom.h", "line":791, "type":"m", "scope_line":782, "scope_name":"struct rwrt_feature_desc", }
+,{"id":"persistent", "file":"net/rfkill/core.c", "line":61, "type":"m", "scope_line":50, "scope_name":"struct rfkill", }
+,{"id":"persistent_huge_pages", "file":"mm/hugetlb.c", "line":1260, "type":"d", }
+,{"id":"personality", "file":"include/linux/personality.h", "line":109, "type":"d", }
+,];
+xr_frag_insert('t/a9/2a904794c01b763b034bf2d021e1b709810690.xr', __xr_tmp);

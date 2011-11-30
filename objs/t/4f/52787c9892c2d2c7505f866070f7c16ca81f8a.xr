@@ -1,0 +1,233 @@
+var __xr_tmp = [
+{"id":"ebitmap_start_positive", "file":"security/selinux/ss/mls.c", "line":173, "type":"c", "scope_line":160, "scope_name":"mls_level_isvalid", }
+,{"id":"ebitmap_start_positive", "file":"security/selinux/ss/mls.c", "line":492, "type":"c", "scope_line":470, "scope_name":"mls_convert_context", }
+,{"id":"ebitmap_start_positive", "file":"security/selinux/ss/mls.c", "line":54, "type":"c", "scope_line":35, "scope_name":"mls_compute_context_len", }
+,{"id":"ebitmap_start_positive", "file":"security/selinux/ss/policydb.c", "line":1570, "type":"c", "scope_line":1551, "scope_name":"user_bounds_sanity_check", }
+,{"id":"ebitmap_start_positive", "file":"security/selinux/ss/policydb.c", "line":1607, "type":"c", "scope_line":1588, "scope_name":"role_bounds_sanity_check", }
+,{"id":"ebitmap_start_positive", "file":"security/selinux/ss/services.c", "line":2112, "type":"c", "scope_line":2070, "scope_name":"security_get_user_sids", }
+,{"id":"ebitmap_start_positive", "file":"security/selinux/ss/services.c", "line":2115, "type":"c", "scope_line":2070, "scope_name":"security_get_user_sids", }
+,{"id":"ebitmap_start_positive", "file":"security/selinux/ss/services.c", "line":634, "type":"c", "scope_line":598, "scope_name":"context_struct_compute_av", }
+,{"id":"ebitmap_start_positive", "file":"security/selinux/ss/services.c", "line":635, "type":"c", "scope_line":598, "scope_name":"context_struct_compute_av", }
+,{"id":"ebitmap_startbit", "file":"security/selinux/ss/ebitmap.h", "line":39, "type":"d", }
+,{"id":"ebp", "file":"arch/x86/boot/boot.h", "line":250, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"ebp", "file":"arch/x86/include/asm/user32.h", "line":36, "type":"m", "scope_line":35, "scope_name":"struct user_regs_struct32", }
+,{"id":"ebp", "file":"arch/x86/include/asm/vm86.h", "line":71, "type":"m", "scope_line":62, "scope_name":"struct vm86_regs", }
+,{"id":"ebp", "file":"arch/x86/include/asm/vmi.h", "line":252, "type":"m", "scope_line":237, "scope_name":"struct vmi_ap_state", }
+,{"id":"ebp", "file":"arch/x86/include/asm/xen/interface_64.h", "line":114, "type":"m", "scope_line":109, "scope_name":"struct cpu_user_regs", }
+,{"id":"ebp2", "file":"arch/x86/boot/boot.h", "line":276, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"ebp3", "file":"arch/x86/boot/boot.h", "line":276, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"ebx", "file":"arch/x86/boot/boot.h", "line":252, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"ebx", "file":"arch/x86/include/asm/user32.h", "line":36, "type":"m", "scope_line":35, "scope_name":"struct user_regs_struct32", }
+,{"id":"ebx", "file":"arch/x86/include/asm/vm86.h", "line":66, "type":"m", "scope_line":62, "scope_name":"struct vm86_regs", }
+,{"id":"ebx", "file":"arch/x86/include/asm/vmi.h", "line":248, "type":"m", "scope_line":237, "scope_name":"struct vmi_ap_state", }
+,{"id":"ebx", "file":"arch/x86/include/asm/xen/interface_64.h", "line":115, "type":"m", "scope_line":109, "scope_name":"struct cpu_user_regs", }
+,{"id":"ebx", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":160, "type":"m", "scope_line":158, "scope_name":"struct _cpuid4_info", }
+,{"id":"ebx", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":170, "type":"m", "scope_line":168, "scope_name":"struct _cpuid4_info_regs", }
+,{"id":"ebx2", "file":"arch/x86/boot/boot.h", "line":278, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"ebx3", "file":"arch/x86/boot/boot.h", "line":278, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"ec", "file":"drivers/acpi/sbshc.c", "line":25, "type":"m", "scope_line":24, "scope_name":"struct acpi_smb_hc", }
+,{"id":"ec_block", "file":"fs/ext4/ext4.h", "line":732, "type":"m", "scope_line":730, "scope_name":"struct ext4_ext_cache", }
+,{"id":"ec_burst_disable", "file":"drivers/acpi/ec.c", "line":387, "type":"f", }
+,{"id":"ec_burst_enable", "file":"drivers/acpi/ec.c", "line":378, "type":"f", }
+,{"id":"ec_check_ibf0", "file":"drivers/acpi/ec.c", "line":260, "type":"f", }
+,{"id":"ec_check_ibf0", "file":"drivers/acpi/ec.c", "line":271, "type":"c", "scope_line":266, "scope_name":"ec_wait_ibf0", }
+,{"id":"ec_check_sci", "file":"drivers/acpi/ec.c", "line":592, "type":"f", }
+,{"id":"ec_check_sci", "file":"drivers/acpi/ec.c", "line":614, "type":"c", "scope_line":604, "scope_name":"acpi_ec_gpe_handler", }
+,{"id":"ec_check_sci_sync", "file":"drivers/acpi/ec.c", "line":198, "type":"f", }
+,{"id":"ec_check_sci_sync", "file":"drivers/acpi/ec.c", "line":313, "type":"c", "scope_line":277, "scope_name":"acpi_ec_transaction", }
+,{"id":"ec_command", "file":"drivers/acpi/ec.c", "line":62, "type":"t", }
+,{"id":"ec_device_ids", "file":"drivers/acpi/ec.c", "line":889, "type":"v", }
+,{"id":"ec_dmi_table", "file":"drivers/acpi/ec.c", "line":917, "type":"v", }
+,{"id":"ec_flag_msi", "file":"drivers/acpi/ec.c", "line":909, "type":"f", }
+,{"id":"ec_install_handlers", "file":"drivers/acpi/ec.c", "line":1004, "type":"c", "scope_line":938, "scope_name":"acpi_ec_ecdt_probe", }
+,{"id":"ec_install_handlers", "file":"drivers/acpi/ec.c", "line":731, "type":"f", }
+,{"id":"ec_install_handlers", "file":"drivers/acpi/ec.c", "line":823, "type":"c", "scope_line":780, "scope_name":"acpi_ec_add", }
+,{"id":"ec_install_handlers", "file":"drivers/acpi/ec.c", "line":882, "type":"c", "scope_line":878, "scope_name":"acpi_boot_ec_enable", }
+,{"id":"ec_len", "file":"fs/ext4/ext4.h", "line":733, "type":"m", "scope_line":730, "scope_name":"struct ext4_ext_cache", }
+,{"id":"ec_parse_device", "file":"drivers/acpi/ec.c", "line":701, "type":"f", }
+,{"id":"ec_parse_device", "file":"drivers/acpi/ec.c", "line":799, "type":"c", "scope_line":780, "scope_name":"acpi_ec_add", }
+,{"id":"ec_parse_io_ports", "file":"drivers/acpi/ec.c", "line":855, "type":"f", }
+,{"id":"ec_poll", "file":"drivers/acpi/ec.c", "line":207, "type":"f", }
+,{"id":"ec_poll", "file":"drivers/acpi/ec.c", "line":253, "type":"c", "scope_line":238, "scope_name":"acpi_ec_transaction_unlocked", }
+,{"id":"ec_ptr", "file":"include/linux/netdevice.h", "line":948, "type":"m", "scope_line":788, "scope_name":"struct net_device", }
+,{"id":"ec_read", "file":"drivers/acpi/ec.c", "line":396, "type":"f", }
+,{"id":"ec_read", "file":"drivers/acpi/sbshc.c", "line":92, "type":"c", "scope_line":90, "scope_name":"smb_hc_read", }
+,{"id":"ec_remove_handlers", "file":"drivers/acpi/ec.c", "line":768, "type":"f", }
+,{"id":"ec_remove_handlers", "file":"drivers/acpi/ec.c", "line":839, "type":"c", "scope_line":830, "scope_name":"acpi_ec_remove", }
+,{"id":"ec_skip_dsdt_scan", "file":"drivers/acpi/ec.c", "line":895, "type":"f", }
+,{"id":"ec_start", "file":"fs/ext4/ext4.h", "line":731, "type":"m", "scope_line":730, "scope_name":"struct ext4_ext_cache", }
+,{"id":"ec_transaction", "file":"drivers/acpi/ec.c", "line":429, "type":"f", }
+,{"id":"ec_transaction_done", "file":"drivers/acpi/ec.c", "line":147, "type":"f", }
+,{"id":"ec_transaction_done", "file":"drivers/acpi/ec.c", "line":218, "type":"c", "scope_line":207, "scope_name":"ec_poll", }
+,{"id":"ec_transaction_done", "file":"drivers/acpi/ec.c", "line":221, "type":"c", "scope_line":207, "scope_name":"ec_poll", }
+,{"id":"ec_transaction_done", "file":"drivers/acpi/ec.c", "line":611, "type":"c", "scope_line":604, "scope_name":"acpi_ec_gpe_handler", }
+,{"id":"ec_type", "file":"fs/ext4/ext4.h", "line":734, "type":"m", "scope_line":730, "scope_name":"struct ext4_ext_cache", }
+,{"id":"ec_validate_ecdt", "file":"drivers/acpi/ec.c", "line":902, "type":"f", }
+,{"id":"ec_wait_ibf0", "file":"drivers/acpi/ec.c", "line":266, "type":"f", }
+,{"id":"ec_wait_ibf0", "file":"drivers/acpi/ec.c", "line":297, "type":"c", "scope_line":277, "scope_name":"acpi_ec_transaction", }
+,{"id":"ec_write", "file":"drivers/acpi/ec.c", "line":415, "type":"f", }
+,{"id":"ec_write", "file":"drivers/acpi/sbshc.c", "line":97, "type":"c", "scope_line":95, "scope_name":"smb_hc_write", }
+,{"id":"ece", "file":"include/linux/tcp.h", "line":38, "type":"m", "scope_line":24, "scope_name":"struct tcphdr", }
+,{"id":"echo", "file":"include/linux/icmp.h", "line":76, "type":"m", "scope_line":68, "scope_name":"struct icmphdr", }
+,{"id":"echo_buf", "file":"include/linux/tty.h", "line":314, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"echo_char", "file":"drivers/char/n_tty.c", "line":1148, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_char", "file":"drivers/char/n_tty.c", "line":1192, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_char", "file":"drivers/char/n_tty.c", "line":1233, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_char", "file":"drivers/char/n_tty.c", "line":1236, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_char", "file":"drivers/char/n_tty.c", "line":1278, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_char", "file":"drivers/char/n_tty.c", "line":1317, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_char", "file":"drivers/char/n_tty.c", "line":809, "type":"f", }
+,{"id":"echo_char", "file":"drivers/char/n_tty.c", "line":881, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_char", "file":"drivers/char/n_tty.c", "line":924, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_char", "file":"drivers/char/n_tty.c", "line":931, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":1221, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":1222, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":1234, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":1249, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":1312, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":781, "type":"f", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":833, "type":"c", "scope_line":830, "scope_name":"finish_erasing", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":884, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":920, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":927, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":960, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":961, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":962, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":965, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":966, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_char_raw", "file":"drivers/char/n_tty.c", "line":967, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_cnt", "file":"include/linux/tty.h", "line":316, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"echo_erase_tab", "file":"drivers/char/n_tty.c", "line":748, "type":"f", }
+,{"id":"echo_erase_tab", "file":"drivers/char/n_tty.c", "line":957, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_lock", "file":"include/linux/tty.h", "line":323, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"echo_move_back_col", "file":"drivers/char/n_tty.c", "line":701, "type":"f", }
+,{"id":"echo_move_back_col", "file":"drivers/char/n_tty.c", "line":928, "type":"c", "scope_line":850, "scope_name":"eraser", }
+,{"id":"echo_overrun", "file":"include/linux/tty.h", "line":304, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"echo_pos", "file":"include/linux/tty.h", "line":315, "type":"m", "scope_line":256, "scope_name":"struct tty_struct", }
+,{"id":"echo_set_canon_col", "file":"drivers/char/n_tty.c", "line":1147, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_set_canon_col", "file":"drivers/char/n_tty.c", "line":1277, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_set_canon_col", "file":"drivers/char/n_tty.c", "line":1316, "type":"c", "scope_line":1090, "scope_name":"n_tty_receive_char", }
+,{"id":"echo_set_canon_col", "file":"drivers/char/n_tty.c", "line":721, "type":"f", }
+,{"id":"ecn_flags", "file":"include/linux/tcp.h", "line":361, "type":"m", "scope_line":291, "scope_name":"struct tcp_sock", }
+,{"id":"ecn_ok", "file":"include/net/inet_sock.h", "line":77, "type":"m", "scope_line":62, "scope_name":"struct inet_request_sock", }
+,{"id":"ecx", "file":"arch/x86/boot/boot.h", "line":254, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"ecx", "file":"arch/x86/include/asm/user32.h", "line":36, "type":"m", "scope_line":35, "scope_name":"struct user_regs_struct32", }
+,{"id":"ecx", "file":"arch/x86/include/asm/vm86.h", "line":67, "type":"m", "scope_line":62, "scope_name":"struct vm86_regs", }
+,{"id":"ecx", "file":"arch/x86/include/asm/vmi.h", "line":249, "type":"m", "scope_line":237, "scope_name":"struct vmi_ap_state", }
+,{"id":"ecx", "file":"arch/x86/include/asm/xen/interface_64.h", "line":121, "type":"m", "scope_line":109, "scope_name":"struct cpu_user_regs", }
+,{"id":"ecx", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":161, "type":"m", "scope_line":158, "scope_name":"struct _cpuid4_info", }
+,{"id":"ecx", "file":"arch/x86/kernel/cpu/intel_cacheinfo.c", "line":171, "type":"m", "scope_line":168, "scope_name":"struct _cpuid4_info_regs", }
+,{"id":"ecx2", "file":"arch/x86/boot/boot.h", "line":280, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"ecx3", "file":"arch/x86/boot/boot.h", "line":280, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"edac_mce_parse", "file":"include/linux/edac_mce.h", "line":30, "type":"d", }
+,{"id":"edd", "file":"include/linux/edd.h", "line":182, "type":"s", }
+,{"id":"edd", "file":"include/linux/edd.h", "line":190, "type":"v", }
+,{"id":"edd_attr_default_cylinders", "file":"drivers/firmware/edd.c", "line":575, "type":"v", }
+,{"id":"edd_attr_default_heads", "file":"drivers/firmware/edd.c", "line":577, "type":"v", }
+,{"id":"edd_attr_default_sectors_per_track", "file":"drivers/firmware/edd.c", "line":579, "type":"v", }
+,{"id":"edd_attr_extensions", "file":"drivers/firmware/edd.c", "line":564, "type":"v", }
+,{"id":"edd_attr_host_bus", "file":"drivers/firmware/edd.c", "line":583, "type":"v", }
+,{"id":"edd_attr_info_flags", "file":"drivers/firmware/edd.c", "line":565, "type":"v", }
+,{"id":"edd_attr_interface", "file":"drivers/firmware/edd.c", "line":582, "type":"v", }
+,{"id":"edd_attr_legacy_max_cylinder", "file":"drivers/firmware/edd.c", "line":567, "type":"v", }
+,{"id":"edd_attr_legacy_max_head", "file":"drivers/firmware/edd.c", "line":570, "type":"v", }
+,{"id":"edd_attr_legacy_sectors_per_track", "file":"drivers/firmware/edd.c", "line":572, "type":"v", }
+,{"id":"edd_attr_mbr_signature", "file":"drivers/firmware/edd.c", "line":584, "type":"v", }
+,{"id":"edd_attr_ops", "file":"drivers/firmware/edd.c", "line":125, "type":"v", }
+,{"id":"edd_attr_raw_data", "file":"drivers/firmware/edd.c", "line":562, "type":"v", }
+,{"id":"edd_attr_sectors", "file":"drivers/firmware/edd.c", "line":566, "type":"v", }
+,{"id":"edd_attr_show", "file":"drivers/firmware/edd.c", "line":113, "type":"f", }
+,{"id":"edd_attr_version", "file":"drivers/firmware/edd.c", "line":563, "type":"v", }
+,{"id":"edd_attribute", "file":"drivers/firmware/edd.c", "line":63, "type":"s", }
+,{"id":"edd_attrs", "file":"drivers/firmware/edd.c", "line":595, "type":"v", }
+,{"id":"edd_create_symlink_to_pcidev", "file":"drivers/firmware/edd.c", "line":680, "type":"f", }
+,{"id":"edd_create_symlink_to_pcidev", "file":"drivers/firmware/edd.c", "line":712, "type":"c", "scope_line":699, "scope_name":"edd_populate_dir", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":138, "type":"c", "scope_line":129, "scope_name":"edd_show_host_bus", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":184, "type":"c", "scope_line":175, "scope_name":"edd_show_interface", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":248, "type":"c", "scope_line":241, "scope_name":"edd_show_raw_data", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":270, "type":"c", "scope_line":263, "scope_name":"edd_show_version", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":293, "type":"c", "scope_line":286, "scope_name":"edd_show_extensions", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":319, "type":"c", "scope_line":312, "scope_name":"edd_show_info_flags", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":349, "type":"c", "scope_line":342, "scope_name":"edd_show_legacy_max_cylinder", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":364, "type":"c", "scope_line":357, "scope_name":"edd_show_legacy_max_head", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":379, "type":"c", "scope_line":372, "scope_name":"edd_show_legacy_sectors_per_track", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":394, "type":"c", "scope_line":387, "scope_name":"edd_show_default_cylinders", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":409, "type":"c", "scope_line":402, "scope_name":"edd_show_default_heads", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":424, "type":"c", "scope_line":417, "scope_name":"edd_show_default_sectors_per_track", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":439, "type":"c", "scope_line":432, "scope_name":"edd_show_sectors", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":464, "type":"c", "scope_line":458, "scope_name":"edd_has_legacy_max_cylinder", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":476, "type":"c", "scope_line":470, "scope_name":"edd_has_legacy_max_head", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":488, "type":"c", "scope_line":482, "scope_name":"edd_has_legacy_sectors_per_track", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":500, "type":"c", "scope_line":494, "scope_name":"edd_has_default_cylinders", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":512, "type":"c", "scope_line":506, "scope_name":"edd_has_default_heads", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":524, "type":"c", "scope_line":518, "scope_name":"edd_has_default_sectors_per_track", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":539, "type":"c", "scope_line":530, "scope_name":"edd_has_edd30", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":650, "type":"c", "scope_line":644, "scope_name":"edd_dev_is_type", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":669, "type":"c", "scope_line":666, "scope_name":"edd_get_pci_dev", }
+,{"id":"edd_dev_get_info", "file":"drivers/firmware/edd.c", "line":94, "type":"f", }
+,{"id":"edd_dev_is_type", "file":"drivers/firmware/edd.c", "line":644, "type":"f", }
+,{"id":"edd_dev_is_type", "file":"drivers/firmware/edd.c", "line":671, "type":"c", "scope_line":666, "scope_name":"edd_get_pci_dev", }
+,{"id":"edd_dev_set_info", "file":"drivers/firmware/edd.c", "line":100, "type":"f", }
+,{"id":"edd_dev_set_info", "file":"drivers/firmware/edd.c", "line":723, "type":"c", "scope_line":716, "scope_name":"edd_device_register", }
+,{"id":"edd_device", "file":"drivers/firmware/edd.c", "line":56, "type":"s", }
+,{"id":"edd_device_params", "file":"include/linux/edd.h", "line":71, "type":"s", }
+,{"id":"edd_device_register", "file":"drivers/firmware/edd.c", "line":716, "type":"f", }
+,{"id":"edd_device_register", "file":"drivers/firmware/edd.c", "line":770, "type":"c", "scope_line":744, "scope_name":"edd_init", }
+,{"id":"edd_device_unregister", "file":"drivers/firmware/edd.c", "line":693, "type":"f", }
+,{"id":"edd_device_unregister", "file":"drivers/firmware/edd.c", "line":782, "type":"c", "scope_line":744, "scope_name":"edd_init", }
+,{"id":"edd_device_unregister", "file":"drivers/firmware/edd.c", "line":795, "type":"c", "scope_line":787, "scope_name":"edd_exit", }
+,{"id":"edd_devices", "file":"drivers/firmware/edd.c", "line":73, "type":"v", }
+,{"id":"edd_exit", "file":"drivers/firmware/edd.c", "line":787, "type":"f", }
+,{"id":"edd_get_pci_dev", "file":"drivers/firmware/edd.c", "line":666, "type":"f", }
+,{"id":"edd_get_pci_dev", "file":"drivers/firmware/edd.c", "line":684, "type":"c", "scope_line":680, "scope_name":"edd_create_symlink_to_pcidev", }
+,{"id":"edd_has_default_cylinders", "file":"drivers/firmware/edd.c", "line":494, "type":"f", }
+,{"id":"edd_has_default_heads", "file":"drivers/firmware/edd.c", "line":506, "type":"f", }
+,{"id":"edd_has_default_sectors_per_track", "file":"drivers/firmware/edd.c", "line":518, "type":"f", }
+,{"id":"edd_has_edd30", "file":"drivers/firmware/edd.c", "line":530, "type":"f", }
+,{"id":"edd_has_edd_info", "file":"drivers/firmware/edd.c", "line":106, "type":"c", "scope_line":100, "scope_name":"edd_dev_set_info", }
+,{"id":"edd_has_edd_info", "file":"drivers/firmware/edd.c", "line":88, "type":"f", }
+,{"id":"edd_has_legacy_max_cylinder", "file":"drivers/firmware/edd.c", "line":458, "type":"f", }
+,{"id":"edd_has_legacy_max_head", "file":"drivers/firmware/edd.c", "line":470, "type":"f", }
+,{"id":"edd_has_legacy_sectors_per_track", "file":"drivers/firmware/edd.c", "line":482, "type":"f", }
+,{"id":"edd_has_mbr_signature", "file":"drivers/firmware/edd.c", "line":104, "type":"c", "scope_line":100, "scope_name":"edd_dev_set_info", }
+,{"id":"edd_has_mbr_signature", "file":"drivers/firmware/edd.c", "line":82, "type":"f", }
+,{"id":"edd_info", "file":"include/linux/edd.h", "line":172, "type":"s", }
+,{"id":"edd_info", "file":"include/linux/edd.h", "line":184, "type":"m", "scope_line":182, "scope_name":"struct edd", }
+,{"id":"edd_info_nr", "file":"include/linux/edd.h", "line":186, "type":"m", "scope_line":182, "scope_name":"struct edd", }
+,{"id":"edd_init", "file":"drivers/firmware/edd.c", "line":744, "type":"f", }
+,{"id":"edd_kset", "file":"drivers/firmware/edd.c", "line":634, "type":"v", }
+,{"id":"edd_ktype", "file":"drivers/firmware/edd.c", "line":628, "type":"v", }
+,{"id":"edd_mbr_sig_buf_entries", "file":"arch/x86/include/asm/bootparam.h", "line":111, "type":"m", "scope_line":93, "scope_name":"struct boot_params", }
+,{"id":"edd_mbr_sig_buffer", "file":"arch/x86/include/asm/bootparam.h", "line":115, "type":"m", "scope_line":93, "scope_name":"struct boot_params", }
+,{"id":"edd_num_devices", "file":"drivers/firmware/edd.c", "line":734, "type":"f", }
+,{"id":"edd_num_devices", "file":"drivers/firmware/edd.c", "line":751, "type":"c", "scope_line":744, "scope_name":"edd_init", }
+,{"id":"edd_num_devices", "file":"drivers/firmware/edd.c", "line":754, "type":"c", "scope_line":744, "scope_name":"edd_init", }
+,{"id":"edd_num_devices", "file":"drivers/firmware/edd.c", "line":763, "type":"c", "scope_line":744, "scope_name":"edd_init", }
+,{"id":"edd_num_devices", "file":"drivers/firmware/edd.c", "line":793, "type":"c", "scope_line":787, "scope_name":"edd_exit", }
+,{"id":"edd_populate_dir", "file":"drivers/firmware/edd.c", "line":699, "type":"f", }
+,{"id":"edd_populate_dir", "file":"drivers/firmware/edd.c", "line":728, "type":"c", "scope_line":716, "scope_name":"edd_device_register", }
+,{"id":"edd_release", "file":"drivers/firmware/edd.c", "line":622, "type":"f", }
+,{"id":"edd_show_default_cylinders", "file":"drivers/firmware/edd.c", "line":387, "type":"f", }
+,{"id":"edd_show_default_heads", "file":"drivers/firmware/edd.c", "line":402, "type":"f", }
+,{"id":"edd_show_default_sectors_per_track", "file":"drivers/firmware/edd.c", "line":417, "type":"f", }
+,{"id":"edd_show_extensions", "file":"drivers/firmware/edd.c", "line":286, "type":"f", }
+,{"id":"edd_show_host_bus", "file":"drivers/firmware/edd.c", "line":129, "type":"f", }
+,{"id":"edd_show_info_flags", "file":"drivers/firmware/edd.c", "line":312, "type":"f", }
+,{"id":"edd_show_interface", "file":"drivers/firmware/edd.c", "line":175, "type":"f", }
+,{"id":"edd_show_legacy_max_cylinder", "file":"drivers/firmware/edd.c", "line":342, "type":"f", }
+,{"id":"edd_show_legacy_max_head", "file":"drivers/firmware/edd.c", "line":357, "type":"f", }
+,{"id":"edd_show_legacy_sectors_per_track", "file":"drivers/firmware/edd.c", "line":372, "type":"f", }
+,{"id":"edd_show_mbr_signature", "file":"drivers/firmware/edd.c", "line":278, "type":"f", }
+,{"id":"edd_show_raw_data", "file":"drivers/firmware/edd.c", "line":241, "type":"f", }
+,{"id":"edd_show_sectors", "file":"drivers/firmware/edd.c", "line":432, "type":"f", }
+,{"id":"edd_show_version", "file":"drivers/firmware/edd.c", "line":263, "type":"f", }
+,{"id":"eddbuf", "file":"arch/x86/include/asm/bootparam.h", "line":118, "type":"m", "scope_line":93, "scope_name":"struct boot_params", }
+,{"id":"eddbuf_entries", "file":"arch/x86/include/asm/bootparam.h", "line":110, "type":"m", "scope_line":93, "scope_name":"struct boot_params", }
+,{"id":"edi", "file":"arch/x86/boot/boot.h", "line":248, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,{"id":"edi", "file":"arch/x86/include/asm/user32.h", "line":36, "type":"m", "scope_line":35, "scope_name":"struct user_regs_struct32", }
+,{"id":"edi", "file":"arch/x86/include/asm/vm86.h", "line":70, "type":"m", "scope_line":62, "scope_name":"struct vm86_regs", }
+,{"id":"edi", "file":"arch/x86/include/asm/vmi.h", "line":254, "type":"m", "scope_line":237, "scope_name":"struct vmi_ap_state", }
+,{"id":"edi", "file":"arch/x86/include/asm/xen/interface_64.h", "line":124, "type":"m", "scope_line":109, "scope_name":"struct cpu_user_regs", }
+,{"id":"edi2", "file":"arch/x86/boot/boot.h", "line":274, "type":"m", "scope_line":245, "scope_name":"struct biosregs", }
+,];
+xr_frag_insert('t/4f/52787c9892c2d2c7505f866070f7c16ca81f8a.xr', __xr_tmp);

@@ -1,0 +1,138 @@
+var __xr_tmp = [
+{"id":"user_shm_unlock", "file":"ipc/shm.c", "line":178, "type":"c", "scope_line":170, "scope_name":"shm_destroy", }
+,{"id":"user_shm_unlock", "file":"ipc/shm.c", "line":414, "type":"c", "scope_line":333, "scope_name":"newseg", }
+,{"id":"user_shm_unlock", "file":"mm/mlock.c", "line":616, "type":"f", }
+,{"id":"user_shm_unlock", "file":"mm/shmem.c", "line":1557, "type":"c", "scope_line":1543, "scope_name":"shmem_lock", }
+,{"id":"user_single_step_siginfo", "file":"arch/x86/kernel/ptrace.c", "line":1321, "type":"f", }
+,{"id":"user_single_step_siginfo", "file":"include/linux/tracehook.h", "line":139, "type":"c", "scope_line":135, "scope_name":"tracehook_report_syscall_exit", }
+,{"id":"user_space", "file":"drivers/acpi/acpica/aclocal.h", "line":1058, "type":"m", "scope_line":1057, "scope_name":"struct acpi_debug_mem_block", }
+,{"id":"user_stack_pointer", "file":"arch/x86/include/asm/ptrace.h", "line":215, "type":"f", }
+,{"id":"user_stack_pointer", "file":"lib/syscall.c", "line":14, "type":"c", "scope_line":6, "scope_name":"collect_syscall", }
+,{"id":"user_state_from_blocked", "file":"net/rfkill/core.c", "line":675, "type":"f", }
+,{"id":"user_state_from_blocked", "file":"net/rfkill/core.c", "line":691, "type":"c", "scope_line":685, "scope_name":"rfkill_state_show", }
+,{"id":"user_state_from_blocked", "file":"net/rfkill/core.c", "line":770, "type":"c", "scope_line":753, "scope_name":"rfkill_dev_uevent", }
+,{"id":"user_struct", "file":"include/linux/sched.h", "line":659, "type":"s", }
+,{"id":"user_termio_to_kernel_termios", "file":"drivers/char/tty_ioctl.c", "line":585, "type":"c", "scope_line":571, "scope_name":"set_termios", }
+,{"id":"user_termio_to_kernel_termios", "file":"include/asm-generic/termios.h", "line":64, "type":"f", }
+,{"id":"user_termios_to_kernel_termios", "file":"drivers/char/tty_ioctl.c", "line":594, "type":"c", "scope_line":571, "scope_name":"set_termios", }
+,{"id":"user_termios_to_kernel_termios", "file":"include/asm-generic/termios.h", "line":115, "type":"f", }
+,{"id":"user_termios_to_kernel_termios_1", "file":"drivers/char/tty_ioctl.c", "line":1045, "type":"c", "scope_line":946, "scope_name":"tty_mode_ioctl", }
+,{"id":"user_termios_to_kernel_termios_1", "file":"drivers/char/tty_ioctl.c", "line":590, "type":"c", "scope_line":571, "scope_name":"set_termios", }
+,{"id":"user_termios_to_kernel_termios_1", "file":"include/asm-generic/termios.h", "line":127, "type":"f", }
+,{"id":"user_update", "file":"security/keys/user_defined.c", "line":92, "type":"f", }
+,{"id":"user_update_rcu_disposal", "file":"security/keys/user_defined.c", "line":77, "type":"f", }
+,{"id":"user_val_to_struct", "file":"security/selinux/ss/policydb.h", "line":219, "type":"m", "scope_line":191, "scope_name":"struct policydb", }
+,{"id":"user_x86_32_view", "file":"arch/x86/kernel/ptrace.c", "line":1271, "type":"v", }
+,{"id":"user_x86_64_view", "file":"arch/x86/kernel/ptrace.c", "line":1213, "type":"v", }
+,{"id":"user_xsave_hdr", "file":"arch/x86/include/asm/user.h", "line":17, "type":"s", }
+,{"id":"user_xstateregs", "file":"arch/x86/include/asm/user.h", "line":53, "type":"s", }
+,{"id":"user_ymmh_regs", "file":"arch/x86/include/asm/user.h", "line":12, "type":"s", }
+,{"id":"user_zonelist_order", "file":"mm/page_alloc.c", "line":2550, "type":"v", }
+,{"id":"userbits", "file":"include/linux/videodev2.h", "line":461, "type":"m", "scope_line":454, "scope_name":"struct v4l2_timecode", }
+,{"id":"usercontext", "file":"include/linux/usbdevice_fs.h", "line":109, "type":"m", "scope_line":96, "scope_name":"struct usbdevfs_urb", }
+,{"id":"usercontext", "file":"include/linux/usbdevice_fs.h", "line":166, "type":"m", "scope_line":154, "scope_name":"struct usbdevfs_urb32", }
+,{"id":"userdef", "file":"arch/x86/kernel/e820.c", "line":973, "type":"v", }
+,{"id":"usergs_sysret32", "file":"arch/x86/include/asm/paravirt_types.h", "line":179, "type":"m", "scope_line":95, "scope_name":"struct pv_cpu_ops", }
+,{"id":"usergs_sysret64", "file":"arch/x86/include/asm/paravirt_types.h", "line":171, "type":"m", "scope_line":95, "scope_name":"struct pv_cpu_ops", }
+,{"id":"userhdr", "file":"include/net/genetlink.h", "line":64, "type":"m", "scope_line":59, "scope_name":"struct genl_info", }
+,{"id":"userid", "file":"include/linux/wanrouter.h", "line":413, "type":"m", "scope_line":391, "scope_name":"struct wanif_conf", }
+,{"id":"userlocks", "file":"net/ipv4/inet_diag.c", "line":45, "type":"m", "scope_line":39, "scope_name":"struct inet_diag_entry", }
+,{"id":"usermodehelper_disable", "file":"kernel/kmod.c", "line":274, "type":"f", }
+,{"id":"usermodehelper_disable", "file":"kernel/power/hibernate.c", "line":609, "type":"c", "scope_line":593, "scope_name":"hibernate", }
+,{"id":"usermodehelper_disable", "file":"kernel/power/hibernate.c", "line":753, "type":"c", "scope_line":677, "scope_name":"software_resume", }
+,{"id":"usermodehelper_disable", "file":"kernel/power/suspend.c", "line":98, "type":"c", "scope_line":85, "scope_name":"suspend_prepare", }
+,{"id":"usermodehelper_disable", "file":"kernel/power/user.c", "line":250, "type":"c", "scope_line":220, "scope_name":"snapshot_ioctl", }
+,{"id":"usermodehelper_disabled", "file":"kernel/kmod.c", "line":254, "type":"v", }
+,{"id":"usermodehelper_enable", "file":"kernel/kmod.c", "line":299, "type":"f", }
+,{"id":"usermodehelper_enable", "file":"kernel/power/hibernate.c", "line":654, "type":"c", "scope_line":593, "scope_name":"hibernate", }
+,{"id":"usermodehelper_enable", "file":"kernel/power/hibernate.c", "line":780, "type":"c", "scope_line":677, "scope_name":"software_resume", }
+,{"id":"usermodehelper_enable", "file":"kernel/power/suspend.c", "line":107, "type":"c", "scope_line":85, "scope_name":"suspend_prepare", }
+,{"id":"usermodehelper_enable", "file":"kernel/power/suspend.c", "line":250, "type":"c", "scope_line":247, "scope_name":"suspend_finish", }
+,{"id":"usermodehelper_enable", "file":"kernel/power/user.c", "line":257, "type":"c", "scope_line":220, "scope_name":"snapshot_ioctl", }
+,{"id":"usermodehelper_enable", "file":"kernel/power/user.c", "line":267, "type":"c", "scope_line":220, "scope_name":"snapshot_ioctl", }
+,{"id":"usermodehelper_init", "file":"init/main.c", "line":796, "type":"c", "scope_line":793, "scope_name":"do_basic_setup", }
+,{"id":"usermodehelper_init", "file":"kernel/kmod.c", "line":421, "type":"f", }
+,{"id":"userptr", "file":"include/linux/splice.h", "line":33, "type":"m", "scope_line":26, "scope_name":"struct splice_desc", }
+,{"id":"userptr", "file":"include/linux/videodev2.h", "line":532, "type":"m", "scope_line":518, "scope_name":"struct v4l2_buffer", }
+,{"id":"users", "file":"drivers/scsi/scsi.c", "line":140, "type":"m", "scope_line":137, "scope_name":"struct scsi_host_cmd_pool", }
+,{"id":"users", "file":"include/linux/aio.h", "line":179, "type":"m", "scope_line":178, "scope_name":"struct kioctx", }
+,{"id":"users", "file":"include/linux/fs_struct.h", "line":7, "type":"m", "scope_line":6, "scope_name":"struct fs_struct", }
+,{"id":"users", "file":"include/linux/igmp.h", "line":195, "type":"m", "scope_line":186, "scope_name":"struct ip_mc_list", }
+,{"id":"users", "file":"include/linux/input.h", "line":1204, "type":"m", "scope_line":1150, "scope_name":"struct input_dev", }
+,{"id":"users", "file":"include/linux/skbuff.h", "line":417, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"users", "file":"include/linux/tty_ldisc.h", "line":155, "type":"m", "scope_line":153, "scope_name":"struct tty_ldisc", }
+,{"id":"users", "file":"include/net/ipv6.h", "line":197, "type":"m", "scope_line":194, "scope_name":"struct ip6_flowlabel", }
+,{"id":"users", "file":"security/tomoyo/common.h", "line":320, "type":"m", "scope_line":318, "scope_name":"struct tomoyo_name", }
+,{"id":"users", "file":"security/tomoyo/common.h", "line":343, "type":"m", "scope_line":339, "scope_name":"struct tomoyo_group", }
+,{"id":"users", "file":"security/tomoyo/common.h", "line":420, "type":"m", "scope_line":410, "scope_name":"struct tomoyo_domain_info", }
+,{"id":"usersp", "file":"arch/x86/include/asm/processor.h", "line":436, "type":"m", "scope_line":428, "scope_name":"struct thread_struct", }
+,{"id":"userspace_clients", "file":"include/linux/i2c.h", "line":373, "type":"m", "scope_line":354, "scope_name":"struct i2c_adapter", }
+,{"id":"userspace_clients_lock", "file":"include/linux/i2c.h", "line":372, "type":"m", "scope_line":354, "scope_name":"struct i2c_adapter", }
+,{"id":"userspace_cpufreq_notifier", "file":"drivers/cpufreq/cpufreq_userspace.c", "line":44, "type":"f", }
+,{"id":"userspace_cpufreq_notifier_block", "file":"drivers/cpufreq/cpufreq_userspace.c", "line":60, "type":"v", }
+,{"id":"userspace_mutex", "file":"drivers/cpufreq/cpufreq_userspace.c", "line":37, "type":"v", }
+,{"id":"userstack_entry", "file":"kernel/trace/trace_entries.h", "line":174, "type":"s", }
+,{"id":"uses_dma", "file":"include/linux/usb.h", "line":315, "type":"m", "scope_line":311, "scope_name":"struct usb_bus", }
+,{"id":"ush", "file":"include/linux/zutil.h", "line":21, "type":"t", }
+,{"id":"ushort", "file":"include/linux/types.h", "line":98, "type":"t", }
+,{"id":"using_ipsec", "file":"include/linux/if_ppp.h", "line":116, "type":"m", "scope_line":113, "scope_name":"struct pppol2tp_ioc_stats", }
+,{"id":"usleep_range", "file":"kernel/timer.c", "line":1783, "type":"f", }
+,{"id":"uspace_req_q", "file":"include/scsi/scsi_host.h", "line":663, "type":"m", "scope_line":521, "scope_name":"struct Scsi_Host", }
+,{"id":"usr_ip4_spec", "file":"include/linux/ethtool.h", "line":370, "type":"m", "scope_line":360, "scope_name":"struct ethtool_rx_flow_spec", }
+,{"id":"usr_ip4_spec", "file":"include/linux/ethtool.h", "line":408, "type":"m", "scope_line":398, "scope_name":"struct ethtool_rx_ntuple_flow_spec", }
+,{"id":"usr_ptr", "file":"fs/compat_ioctl.c", "line":240, "type":"m", "scope_line":226, "scope_name":"struct sg_io_hdr32", }
+,{"id":"usr_ptr", "file":"fs/compat_ioctl.c", "line":377, "type":"m", "scope_line":371, "scope_name":"struct compat_sg_req_info", }
+,{"id":"usr_ptr", "file":"include/linux/bsg.h", "line":46, "type":"m", "scope_line":20, "scope_name":"struct sg_io_v4", }
+,{"id":"usr_ptr", "file":"include/scsi/sg.h", "line":101, "type":"m", "scope_line":86, "scope_name":"struct sg_io_hdr", }
+,{"id":"usr_ptr", "file":"include/scsi/sg.h", "line":161, "type":"m", "scope_line":155, "scope_name":"struct sg_req_info", }
+,{"id":"ustat", "file":"include/linux/types.h", "line":228, "type":"s", }
+,{"id":"ustats", "file":"include/net/ip_vs.h", "line":280, "type":"m", "scope_line":279, "scope_name":"struct ip_vs_stats", }
+,{"id":"utf16_endian", "file":"include/linux/nls.h", "line":40, "type":"t", }
+,{"id":"utf16s_to_utf8s", "file":"fs/nls/nls_base.c", "line":163, "type":"f", }
+,{"id":"utf32_to_utf8", "file":"fs/nls/nls_base.c", "line":196, "type":"c", "scope_line":163, "scope_name":"utf16s_to_utf8s", }
+,{"id":"utf32_to_utf8", "file":"fs/nls/nls_base.c", "line":86, "type":"f", }
+,{"id":"utf8_length_changes", "file":"drivers/char/vt.c", "line":2188, "type":"v", }
+,{"id":"utf8_strlen", "file":"drivers/firmware/efivars.c", "line":152, "type":"f", }
+,{"id":"utf8_strlen", "file":"drivers/firmware/efivars.c", "line":169, "type":"c", "scope_line":166, "scope_name":"utf8_strsize", }
+,{"id":"utf8_strsize", "file":"drivers/firmware/efivars.c", "line":166, "type":"f", }
+,{"id":"utf8_strsize", "file":"drivers/firmware/efivars.c", "line":424, "type":"c", "scope_line":405, "scope_name":"efivar_create", }
+,{"id":"utf8_strsize", "file":"drivers/firmware/efivars.c", "line":425, "type":"c", "scope_line":405, "scope_name":"efivar_create", }
+,{"id":"utf8_strsize", "file":"drivers/firmware/efivars.c", "line":456, "type":"c", "scope_line":405, "scope_name":"efivar_create", }
+,{"id":"utf8_strsize", "file":"drivers/firmware/efivars.c", "line":483, "type":"c", "scope_line":464, "scope_name":"efivar_delete", }
+,{"id":"utf8_strsize", "file":"drivers/firmware/efivars.c", "line":484, "type":"c", "scope_line":464, "scope_name":"efivar_delete", }
+,{"id":"utf8_table", "file":"fs/nls/nls_base.c", "line":28, "type":"s", }
+,{"id":"utf8_table", "file":"fs/nls/nls_base.c", "line":36, "type":"v", }
+,{"id":"utf8_to_utf32", "file":"fs/nls/nls_base.c", "line":126, "type":"c", "scope_line":117, "scope_name":"utf8s_to_utf16s", }
+,{"id":"utf8_to_utf32", "file":"fs/nls/nls_base.c", "line":55, "type":"f", }
+,{"id":"utf8s_to_utf16s", "file":"fs/nls/nls_base.c", "line":117, "type":"f", }
+,{"id":"utimbuf", "file":"include/linux/utime.h", "line":6, "type":"s", }
+,{"id":"utime", "file":"include/linux/raid/md_u.h", "line":97, "type":"m", "scope_line":79, "scope_name":"struct mdu_array_info_s", }
+,{"id":"utime", "file":"include/linux/sched.h", "line":1276, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"utime", "file":"include/linux/sched.h", "line":468, "type":"m", "scope_line":467, "scope_name":"struct task_cputime", }
+,{"id":"utime", "file":"include/linux/sched.h", "line":582, "type":"m", "scope_line":516, "scope_name":"struct signal_struct", }
+,{"id":"utimes_common", "file":"fs/utimes.c", "line":153, "type":"c", "scope_line":129, "scope_name":"do_utimes", }
+,{"id":"utimes_common", "file":"fs/utimes.c", "line":166, "type":"c", "scope_line":129, "scope_name":"do_utimes", }
+,{"id":"utimes_common", "file":"fs/utimes.c", "line":51, "type":"f", }
+,{"id":"utimescaled", "file":"include/linux/sched.h", "line":1276, "type":"m", "scope_line":1163, "scope_name":"struct task_struct", }
+,{"id":"uts", "file":"kernel/power/power.h", "line":7, "type":"m", "scope_line":6, "scope_name":"struct swsusp_info", }
+,{"id":"uts_kern_table", "file":"kernel/utsname_sysctl.c", "line":60, "type":"v", }
+,{"id":"uts_namespace", "file":"include/linux/utsname.h", "line":40, "type":"s", }
+,{"id":"uts_ns", "file":"include/linux/nsproxy.h", "line":27, "type":"m", "scope_line":25, "scope_name":"struct nsproxy", }
+,{"id":"uts_root_table", "file":"kernel/utsname_sysctl.c", "line":99, "type":"v", }
+,{"id":"uts_sem", "file":"kernel/sys.c", "line":1088, "type":"v", }
+,{"id":"utsname", "file":"drivers/char/random.c", "line":952, "type":"c", "scope_line":941, "scope_name":"init_std_data", }
+,{"id":"utsname", "file":"fs/exec.c", "line":1535, "type":"c", "scope_line":1461, "scope_name":"format_corename", }
+,{"id":"utsname", "file":"fs/proc/version.c", "line":10, "type":"c", "scope_line":8, "scope_name":"version_proc_show", }
+,{"id":"utsname", "file":"include/linux/utsname.h", "line":79, "type":"f", }
+,{"id":"utsname", "file":"kernel/sys.c", "line":1104, "type":"c", "scope_line":1099, "scope_name":"sys_newuname", }
+,{"id":"utsname", "file":"kernel/sys.c", "line":1125, "type":"c", "scope_line":1117, "scope_name":"sys_uname", }
+,{"id":"utsname", "file":"kernel/sys.c", "line":1144, "type":"c", "scope_line":1134, "scope_name":"sys_olduname", }
+,{"id":"utsname", "file":"kernel/sys.c", "line":1147, "type":"c", "scope_line":1134, "scope_name":"sys_olduname", }
+,{"id":"utsname", "file":"kernel/sys.c", "line":1150, "type":"c", "scope_line":1134, "scope_name":"sys_olduname", }
+,{"id":"utsname", "file":"kernel/sys.c", "line":1153, "type":"c", "scope_line":1134, "scope_name":"sys_olduname", }
+,{"id":"utsname", "file":"kernel/sys.c", "line":1156, "type":"c", "scope_line":1134, "scope_name":"sys_olduname", }
+,{"id":"utsname", "file":"kernel/sys.c", "line":1179, "type":"c", "scope_line":1167, "scope_name":"sys_sethostname", }
+,{"id":"utsname", "file":"kernel/sys.c", "line":1199, "type":"c", "scope_line":1191, "scope_name":"sys_gethostname", }
+,{"id":"utsname", "file":"kernel/sys.c", "line":1229, "type":"c", "scope_line":1216, "scope_name":"sys_setdomainname", }
+,];
+xr_frag_insert('t/9a/cd99e7cfc82d0007608fb70539dcddded61863.xr', __xr_tmp);

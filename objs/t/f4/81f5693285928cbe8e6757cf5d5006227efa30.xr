@@ -1,0 +1,47 @@
+var __xr_tmp = [
+{"id":"skb_copy_queue_mapping", "file":"include/linux/skbuff.h", "line":2145, "type":"f", }
+,{"id":"skb_copy_queue_mapping", "file":"net/core/skbuff.c", "line":533, "type":"c", "scope_line":516, "scope_name":"__copy_skb_header", }
+,{"id":"skb_copy_secmark", "file":"include/linux/skbuff.h", "line":2118, "type":"f", }
+,{"id":"skb_copy_secmark", "file":"net/core/skbuff.c", "line":555, "type":"c", "scope_line":516, "scope_name":"__copy_skb_header", }
+,{"id":"skb_copy_secmark", "file":"net/ipv4/ip_output.c", "line":433, "type":"c", "scope_line":409, "scope_name":"ip_copy_metadata", }
+,{"id":"skb_copy_secmark", "file":"net/ipv6/ip6_output.c", "line":562, "type":"c", "scope_line":544, "scope_name":"ip6_copy_metadata", }
+,{"id":"skb_copy_to_linear_data", "file":"include/linux/skbuff.h", "line":1886, "type":"f", }
+,{"id":"skb_copy_to_linear_data", "file":"net/ipv4/ipmr.c", "line":910, "type":"c", "scope_line":863, "scope_name":"ipmr_cache_report", }
+,{"id":"skb_copy_to_linear_data_offset", "file":"include/linux/netfilter_bridge.h", "line":86, "type":"c", "scope_line":80, "scope_name":"br_nf_pre_routing_finish_bridge_slow", }
+,{"id":"skb_copy_to_linear_data_offset", "file":"include/linux/skbuff.h", "line":1893, "type":"f", }
+,{"id":"skb_copy_to_linear_data_offset", "file":"net/core/skbuff.c", "line":1611, "type":"c", "scope_line":1599, "scope_name":"skb_store_bits", }
+,{"id":"skb_copy_to_page", "file":"include/net/sock.h", "line":1365, "type":"f", }
+,{"id":"skb_copy_to_page", "file":"net/ipv4/tcp.c", "line":1039, "type":"c", "scope_line":907, "scope_name":"tcp_sendmsg", }
+,{"id":"skb_cow", "file":"include/linux/skbuff.h", "line":1626, "type":"f", }
+,{"id":"skb_cow", "file":"net/ipv4/cipso_ipv4.c", "line":2235, "type":"c", "scope_line":2207, "scope_name":"cipso_v4_skbuff_setattr", }
+,{"id":"skb_cow", "file":"net/ipv4/cipso_ipv4.c", "line":2296, "type":"c", "scope_line":2285, "scope_name":"cipso_v4_skbuff_delattr", }
+,{"id":"skb_cow", "file":"net/ipv4/ip_forward.c", "line":99, "type":"c", "scope_line":54, "scope_name":"ip_forward", }
+,{"id":"skb_cow", "file":"net/ipv4/ip_input.c", "line":281, "type":"c", "scope_line":268, "scope_name":"ip_rcv_options", }
+,{"id":"skb_cow", "file":"net/ipv4/ipmr.c", "line":1573, "type":"c", "scope_line":1515, "scope_name":"ipmr_queue_xmit", }
+,{"id":"skb_cow", "file":"net/ipv6/ip6_output.c", "line":522, "type":"c", "scope_line":393, "scope_name":"ip6_forward", }
+,{"id":"skb_cow_data", "file":"net/core/skbuff.c", "line":2881, "type":"f", }
+,{"id":"skb_cow_head", "file":"drivers/net/ppp_generic.c", "line":961, "type":"c", "scope_line":935, "scope_name":"ppp_start_xmit", }
+,{"id":"skb_cow_head", "file":"include/linux/if_vlan.h", "line":211, "type":"c", "scope_line":207, "scope_name":"__vlan_put_tag", }
+,{"id":"skb_cow_head", "file":"include/linux/skbuff.h", "line":1641, "type":"f", }
+,{"id":"skb_cow_head", "file":"net/core/skbuff.c", "line":2547, "type":"c", "scope_line":2500, "scope_name":"skb_segment", }
+,{"id":"skb_cow_head", "file":"net/dsa/tag_dsa.c", "line":33, "type":"c", "scope_line":19, "scope_name":"dsa_xmit", }
+,{"id":"skb_cow_head", "file":"net/dsa/tag_dsa.c", "line":51, "type":"c", "scope_line":19, "scope_name":"dsa_xmit", }
+,{"id":"skb_cow_head", "file":"net/dsa/tag_edsa.c", "line":35, "type":"c", "scope_line":20, "scope_name":"edsa_xmit", }
+,{"id":"skb_cow_head", "file":"net/dsa/tag_edsa.c", "line":60, "type":"c", "scope_line":20, "scope_name":"edsa_xmit", }
+,{"id":"skb_csum_unnecessary", "file":"include/linux/skbuff.h", "line":2013, "type":"f", }
+,{"id":"skb_csum_unnecessary", "file":"include/linux/skbuff.h", "line":2036, "type":"c", "scope_line":2034, "scope_name":"skb_checksum_complete", }
+,{"id":"skb_csum_unnecessary", "file":"include/net/tcp.h", "line":870, "type":"c", "scope_line":868, "scope_name":"tcp_checksum_complete", }
+,{"id":"skb_csum_unnecessary", "file":"include/net/udp.h", "line":127, "type":"c", "scope_line":125, "scope_name":"udp_lib_checksum_complete", }
+,{"id":"skb_csum_unnecessary", "file":"net/ipv4/tcp_input.c", "line":5065, "type":"c", "scope_line":5058, "scope_name":"tcp_copy_to_iovec", }
+,{"id":"skb_csum_unnecessary", "file":"net/ipv4/tcp_input.c", "line":5099, "type":"c", "scope_line":5096, "scope_name":"tcp_checksum_complete_user", }
+,{"id":"skb_csum_unnecessary", "file":"net/ipv4/tcp_input.c", "line":5118, "type":"c", "scope_line":5104, "scope_name":"tcp_dma_try_early_copy", }
+,{"id":"skb_csum_unnecessary", "file":"net/ipv4/tcp_ipv4.c", "line":1648, "type":"c", "scope_line":1620, "scope_name":"tcp_v4_rcv", }
+,{"id":"skb_csum_unnecessary", "file":"net/ipv4/udp.c", "line":1161, "type":"c", "scope_line":1117, "scope_name":"udp_recvmsg", }
+,{"id":"skb_csum_unnecessary", "file":"net/ipv4/udp.c", "line":1553, "type":"c", "scope_line":1530, "scope_name":"udp4_csum_init", }
+,{"id":"skb_csum_unnecessary", "file":"net/ipv6/raw.c", "line":421, "type":"c", "scope_line":399, "scope_name":"rawv6_rcv", }
+,{"id":"skb_csum_unnecessary", "file":"net/ipv6/raw.c", "line":477, "type":"c", "scope_line":445, "scope_name":"rawv6_recvmsg", }
+,{"id":"skb_csum_unnecessary", "file":"net/ipv6/tcp_ipv6.c", "line":1695, "type":"c", "scope_line":1669, "scope_name":"tcp_v6_rcv", }
+,{"id":"skb_csum_unnecessary", "file":"net/ipv6/udp.c", "line":376, "type":"c", "scope_line":328, "scope_name":"udpv6_recvmsg", }
+,{"id":"skb_csum_unnecessary", "file":"net/ipv6/udp.c", "line":694, "type":"c", "scope_line":668, "scope_name":"udp6_csum_init", }
+,];
+xr_frag_insert('t/f4/81f5693285928cbe8e6757cf5d5006227efa30.xr', __xr_tmp);

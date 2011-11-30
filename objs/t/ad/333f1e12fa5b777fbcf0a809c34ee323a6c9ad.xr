@@ -1,0 +1,97 @@
+var __xr_tmp = [
+{"id":"netlbl_secattr_destroy", "file":"security/selinux/netlabel.c", "line":362, "type":"c", "scope_line":343, "scope_name":"selinux_netlbl_sock_rcv_skb", }
+,{"id":"netlbl_secattr_destroy", "file":"security/selinux/netlabel.c", "line":419, "type":"c", "scope_line":399, "scope_name":"selinux_netlbl_socket_setsockopt", }
+,{"id":"netlbl_secattr_destroy", "file":"security/smack/smack_lsm.c", "line":1576, "type":"c", "scope_line":1552, "scope_name":"smack_netlabel", }
+,{"id":"netlbl_secattr_destroy", "file":"security/smack/smack_lsm.c", "line":2583, "type":"c", "scope_line":2560, "scope_name":"smack_socket_sock_rcv_skb", }
+,{"id":"netlbl_secattr_destroy", "file":"security/smack/smack_lsm.c", "line":2670, "type":"c", "scope_line":2643, "scope_name":"smack_socket_getpeersec_dgram", }
+,{"id":"netlbl_secattr_destroy", "file":"security/smack/smack_lsm.c", "line":2738, "type":"c", "scope_line":2716, "scope_name":"smack_inet_conn_request", }
+,{"id":"netlbl_secattr_destroy", "file":"security/smack/smack_lsm.c", "line":2773, "type":"c", "scope_line":2716, "scope_name":"smack_inet_conn_request", }
+,{"id":"netlbl_secattr_free", "file":"include/net/netlabel.h", "line":350, "type":"f", }
+,{"id":"netlbl_secattr_free", "file":"security/selinux/netlabel.c", "line":144, "type":"c", "scope_line":141, "scope_name":"selinux_netlbl_sk_security_free", }
+,{"id":"netlbl_secattr_free", "file":"security/selinux/netlabel.c", "line":95, "type":"c", "scope_line":81, "scope_name":"selinux_netlbl_sock_genattr", }
+,{"id":"netlbl_secattr_init", "file":"include/net/netlabel.h", "line":304, "type":"f", }
+,{"id":"netlbl_secattr_init", "file":"security/selinux/netlabel.c", "line":188, "type":"c", "scope_line":175, "scope_name":"selinux_netlbl_skbuff_getsid", }
+,{"id":"netlbl_secattr_init", "file":"security/selinux/netlabel.c", "line":231, "type":"c", "scope_line":211, "scope_name":"selinux_netlbl_skbuff_setsid", }
+,{"id":"netlbl_secattr_init", "file":"security/selinux/netlabel.c", "line":264, "type":"c", "scope_line":256, "scope_name":"selinux_netlbl_inet_conn_request", }
+,{"id":"netlbl_secattr_init", "file":"security/selinux/netlabel.c", "line":356, "type":"c", "scope_line":343, "scope_name":"selinux_netlbl_sock_rcv_skb", }
+,{"id":"netlbl_secattr_init", "file":"security/selinux/netlabel.c", "line":411, "type":"c", "scope_line":399, "scope_name":"selinux_netlbl_socket_setsockopt", }
+,{"id":"netlbl_secattr_init", "file":"security/smack/smack_lsm.c", "line":1573, "type":"c", "scope_line":1552, "scope_name":"smack_netlabel", }
+,{"id":"netlbl_secattr_init", "file":"security/smack/smack_lsm.c", "line":2574, "type":"c", "scope_line":2560, "scope_name":"smack_socket_sock_rcv_skb", }
+,{"id":"netlbl_secattr_init", "file":"security/smack/smack_lsm.c", "line":2666, "type":"c", "scope_line":2643, "scope_name":"smack_socket_getpeersec_dgram", }
+,{"id":"netlbl_secattr_init", "file":"security/smack/smack_lsm.c", "line":2732, "type":"c", "scope_line":2716, "scope_name":"smack_inet_conn_request", }
+,{"id":"netlbl_secattr_init", "file":"security/smack/smack_lsm.c", "line":2770, "type":"c", "scope_line":2716, "scope_name":"smack_inet_conn_request", }
+,{"id":"netlbl_skbuff_err", "file":"net/netlabel/netlabel_kapi.c", "line":979, "type":"f", }
+,{"id":"netlbl_skbuff_err", "file":"security/selinux/netlabel.c", "line":130, "type":"c", "scope_line":128, "scope_name":"selinux_netlbl_err", }
+,{"id":"netlbl_skbuff_err", "file":"security/selinux/netlabel.c", "line":382, "type":"c", "scope_line":343, "scope_name":"selinux_netlbl_sock_rcv_skb", }
+,{"id":"netlbl_skbuff_err", "file":"security/smack/smack_lsm.c", "line":2599, "type":"c", "scope_line":2560, "scope_name":"smack_socket_sock_rcv_skb", }
+,{"id":"netlbl_skbuff_getattr", "file":"net/netlabel/netlabel_kapi.c", "line":948, "type":"f", }
+,{"id":"netlbl_skbuff_getattr", "file":"security/selinux/netlabel.c", "line":189, "type":"c", "scope_line":175, "scope_name":"selinux_netlbl_skbuff_getsid", }
+,{"id":"netlbl_skbuff_getattr", "file":"security/selinux/netlabel.c", "line":357, "type":"c", "scope_line":343, "scope_name":"selinux_netlbl_sock_rcv_skb", }
+,{"id":"netlbl_skbuff_getattr", "file":"security/smack/smack_lsm.c", "line":2576, "type":"c", "scope_line":2560, "scope_name":"smack_socket_sock_rcv_skb", }
+,{"id":"netlbl_skbuff_getattr", "file":"security/smack/smack_lsm.c", "line":2667, "type":"c", "scope_line":2643, "scope_name":"smack_socket_getpeersec_dgram", }
+,{"id":"netlbl_skbuff_getattr", "file":"security/smack/smack_lsm.c", "line":2733, "type":"c", "scope_line":2716, "scope_name":"smack_inet_conn_request", }
+,{"id":"netlbl_skbuff_setattr", "file":"net/netlabel/netlabel_kapi.c", "line":886, "type":"f", }
+,{"id":"netlbl_skbuff_setattr", "file":"security/selinux/netlabel.c", "line":237, "type":"c", "scope_line":211, "scope_name":"selinux_netlbl_skbuff_setsid", }
+,{"id":"netlbl_sock_delattr", "file":"net/netlabel/netlabel_kapi.c", "line":691, "type":"f", }
+,{"id":"netlbl_sock_delattr", "file":"security/selinux/netlabel.c", "line":452, "type":"c", "scope_line":435, "scope_name":"selinux_netlbl_socket_connect", }
+,{"id":"netlbl_sock_delattr", "file":"security/smack/smack_lsm.c", "line":1571, "type":"c", "scope_line":1552, "scope_name":"smack_netlabel", }
+,{"id":"netlbl_sock_getattr", "file":"net/netlabel/netlabel_kapi.c", "line":708, "type":"f", }
+,{"id":"netlbl_sock_getattr", "file":"security/selinux/netlabel.c", "line":413, "type":"c", "scope_line":399, "scope_name":"selinux_netlbl_socket_setsockopt", }
+,{"id":"netlbl_sock_setattr", "file":"net/netlabel/netlabel_kapi.c", "line":635, "type":"f", }
+,{"id":"netlbl_sock_setattr", "file":"security/selinux/netlabel.c", "line":316, "type":"c", "scope_line":304, "scope_name":"selinux_netlbl_socket_post_create", }
+,{"id":"netlbl_sock_setattr", "file":"security/smack/smack_lsm.c", "line":1575, "type":"c", "scope_line":1552, "scope_name":"smack_netlabel", }
+,{"id":"netlbl_unlabel_accept", "file":"net/netlabel/netlabel_unlabeled.c", "line":870, "type":"f", }
+,{"id":"netlbl_unlabel_acceptflg_set", "file":"net/netlabel/netlabel_unlabeled.c", "line":1598, "type":"c", "scope_line":1577, "scope_name":"netlbl_unlabel_defconf", }
+,{"id":"netlbl_unlabel_acceptflg_set", "file":"net/netlabel/netlabel_unlabeled.c", "line":797, "type":"f", }
+,{"id":"netlbl_unlabel_acceptflg_set", "file":"net/netlabel/netlabel_unlabeled.c", "line":879, "type":"c", "scope_line":870, "scope_name":"netlbl_unlabel_accept", }
+,{"id":"netlbl_unlabel_addrinfo_get", "file":"net/netlabel/netlabel_unlabeled.c", "line":1013, "type":"c", "scope_line":990, "scope_name":"netlbl_unlabel_staticadddef", }
+,{"id":"netlbl_unlabel_addrinfo_get", "file":"net/netlabel/netlabel_unlabeled.c", "line":1060, "type":"c", "scope_line":1039, "scope_name":"netlbl_unlabel_staticremove", }
+,{"id":"netlbl_unlabel_addrinfo_get", "file":"net/netlabel/netlabel_unlabeled.c", "line":1100, "type":"c", "scope_line":1081, "scope_name":"netlbl_unlabel_staticremovedef", }
+,{"id":"netlbl_unlabel_addrinfo_get", "file":"net/netlabel/netlabel_unlabeled.c", "line":826, "type":"f", }
+,{"id":"netlbl_unlabel_addrinfo_get", "file":"net/netlabel/netlabel_unlabeled.c", "line":963, "type":"c", "scope_line":938, "scope_name":"netlbl_unlabel_staticadd", }
+,{"id":"netlbl_unlabel_defconf", "file":"net/netlabel/netlabel_kapi.c", "line":1079, "type":"c", "scope_line":1055, "scope_name":"netlbl_init", }
+,{"id":"netlbl_unlabel_defconf", "file":"net/netlabel/netlabel_unlabeled.c", "line":1577, "type":"f", }
+,{"id":"netlbl_unlabel_genl_init", "file":"net/netlabel/netlabel_unlabeled.c", "line":1444, "type":"f", }
+,{"id":"netlbl_unlabel_genl_init", "file":"net/netlabel/netlabel_user.c", "line":75, "type":"c", "scope_line":63, "scope_name":"netlbl_netlink_init", }
+,{"id":"netlbl_unlabel_genl_ops", "file":"net/netlabel/netlabel_unlabeled.c", "line":1373, "type":"v", }
+,{"id":"netlbl_unlabel_genl_policy", "file":"net/netlabel/netlabel_unlabeled.c", "line":137, "type":"v", }
+,{"id":"netlbl_unlabel_getattr", "file":"net/netlabel/netlabel_kapi.c", "line":964, "type":"c", "scope_line":948, "scope_name":"netlbl_skbuff_getattr", }
+,{"id":"netlbl_unlabel_getattr", "file":"net/netlabel/netlabel_unlabeled.c", "line":1513, "type":"f", }
+,{"id":"netlbl_unlabel_gnl_family", "file":"net/netlabel/netlabel_unlabeled.c", "line":128, "type":"v", }
+,{"id":"netlbl_unlabel_init", "file":"net/netlabel/netlabel_kapi.c", "line":1071, "type":"c", "scope_line":1055, "scope_name":"netlbl_init", }
+,{"id":"netlbl_unlabel_init", "file":"net/netlabel/netlabel_unlabeled.c", "line":1469, "type":"f", }
+,{"id":"netlbl_unlabel_list", "file":"net/netlabel/netlabel_unlabeled.c", "line":897, "type":"f", }
+,{"id":"netlbl_unlabel_staticadd", "file":"net/netlabel/netlabel_unlabeled.c", "line":938, "type":"f", }
+,{"id":"netlbl_unlabel_staticadddef", "file":"net/netlabel/netlabel_unlabeled.c", "line":990, "type":"f", }
+,{"id":"netlbl_unlabel_staticlist", "file":"net/netlabel/netlabel_unlabeled.c", "line":1227, "type":"f", }
+,{"id":"netlbl_unlabel_staticlist_gen", "file":"net/netlabel/netlabel_unlabeled.c", "line":1126, "type":"f", }
+,{"id":"netlbl_unlabel_staticlist_gen", "file":"net/netlabel/netlabel_unlabeled.c", "line":1264, "type":"c", "scope_line":1227, "scope_name":"netlbl_unlabel_staticlist", }
+,{"id":"netlbl_unlabel_staticlist_gen", "file":"net/netlabel/netlabel_unlabeled.c", "line":1281, "type":"c", "scope_line":1227, "scope_name":"netlbl_unlabel_staticlist", }
+,{"id":"netlbl_unlabel_staticlist_gen", "file":"net/netlabel/netlabel_unlabeled.c", "line":1340, "type":"c", "scope_line":1312, "scope_name":"netlbl_unlabel_staticlistdef", }
+,{"id":"netlbl_unlabel_staticlist_gen", "file":"net/netlabel/netlabel_unlabeled.c", "line":1354, "type":"c", "scope_line":1312, "scope_name":"netlbl_unlabel_staticlistdef", }
+,{"id":"netlbl_unlabel_staticlistdef", "file":"net/netlabel/netlabel_unlabeled.c", "line":1312, "type":"f", }
+,{"id":"netlbl_unlabel_staticremove", "file":"net/netlabel/netlabel_unlabeled.c", "line":1039, "type":"f", }
+,{"id":"netlbl_unlabel_staticremovedef", "file":"net/netlabel/netlabel_unlabeled.c", "line":1081, "type":"f", }
+,{"id":"netlbl_unlhsh", "file":"net/netlabel/netlabel_unlabeled.c", "line":121, "type":"v", }
+,{"id":"netlbl_unlhsh_add", "file":"net/netlabel/netlabel_kapi.c", "line":235, "type":"c", "scope_line":214, "scope_name":"netlbl_cfg_unlbl_static_add", }
+,{"id":"netlbl_unlhsh_add", "file":"net/netlabel/netlabel_unlabeled.c", "line":1023, "type":"c", "scope_line":990, "scope_name":"netlbl_unlabel_staticadddef", }
+,{"id":"netlbl_unlhsh_add", "file":"net/netlabel/netlabel_unlabeled.c", "line":423, "type":"f", }
+,{"id":"netlbl_unlhsh_add", "file":"net/netlabel/netlabel_unlabeled.c", "line":974, "type":"c", "scope_line":938, "scope_name":"netlbl_unlabel_staticadd", }
+,{"id":"netlbl_unlhsh_add_addr4", "file":"net/netlabel/netlabel_unlabeled.c", "line":290, "type":"f", }
+,{"id":"netlbl_unlhsh_add_addr4", "file":"net/netlabel/netlabel_unlabeled.c", "line":471, "type":"c", "scope_line":423, "scope_name":"netlbl_unlhsh_add", }
+,{"id":"netlbl_unlhsh_add_addr6", "file":"net/netlabel/netlabel_unlabeled.c", "line":330, "type":"f", }
+,{"id":"netlbl_unlhsh_add_addr6", "file":"net/netlabel/netlabel_unlabeled.c", "line":485, "type":"c", "scope_line":423, "scope_name":"netlbl_unlhsh_add", }
+,{"id":"netlbl_unlhsh_add_iface", "file":"net/netlabel/netlabel_unlabeled.c", "line":371, "type":"f", }
+,{"id":"netlbl_unlhsh_add_iface", "file":"net/netlabel/netlabel_unlabeled.c", "line":457, "type":"c", "scope_line":423, "scope_name":"netlbl_unlhsh_add", }
+,{"id":"netlbl_unlhsh_addr4", "file":"net/netlabel/netlabel_unlabeled.c", "line":83, "type":"s", }
+,{"id":"netlbl_unlhsh_addr4_entry", "file":"net/netlabel/netlabel_unlabeled.c", "line":81, "type":"d", }
+,{"id":"netlbl_unlhsh_addr6", "file":"net/netlabel/netlabel_unlabeled.c", "line":91, "type":"s", }
+,{"id":"netlbl_unlhsh_addr6_entry", "file":"net/netlabel/netlabel_unlabeled.c", "line":89, "type":"d", }
+,{"id":"netlbl_unlhsh_condremove_iface", "file":"net/netlabel/netlabel_unlabeled.c", "line":647, "type":"f", }
+,{"id":"netlbl_unlhsh_condremove_iface", "file":"net/netlabel/netlabel_unlabeled.c", "line":735, "type":"c", "scope_line":689, "scope_name":"netlbl_unlhsh_remove", }
+,{"id":"netlbl_unlhsh_def", "file":"net/netlabel/netlabel_unlabeled.c", "line":122, "type":"v", }
+,{"id":"netlbl_unlhsh_free_addr4", "file":"net/netlabel/netlabel_unlabeled.c", "line":166, "type":"f", }
+,{"id":"netlbl_unlhsh_free_addr6", "file":"net/netlabel/netlabel_unlabeled.c", "line":185, "type":"f", }
+,{"id":"netlbl_unlhsh_free_iface", "file":"net/netlabel/netlabel_unlabeled.c", "line":207, "type":"f", }
+,];
+xr_frag_insert('t/ad/333f1e12fa5b777fbcf0a809c34ee323a6c9ad.xr', __xr_tmp);

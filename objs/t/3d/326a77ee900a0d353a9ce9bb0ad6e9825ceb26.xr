@@ -1,0 +1,110 @@
+var __xr_tmp = [
+{"id":"local_bh_enable", "file":"net/ipv4/inetpeer.c", "line":509, "type":"c", "scope_line":499, "scope_name":"inet_putpeer", }
+,{"id":"local_bh_enable", "file":"net/ipv4/proc.c", "line":59, "type":"c", "scope_line":51, "scope_name":"sockstat_seq_show", }
+,{"id":"local_bh_enable", "file":"net/ipv4/route.c", "line":2988, "type":"c", "scope_line":2934, "scope_name":"inet_rtm_getroute", }
+,{"id":"local_bh_enable", "file":"net/ipv4/tcp.c", "line":1259, "type":"c", "scope_line":1247, "scope_name":"tcp_prequeue_process", }
+,{"id":"local_bh_enable", "file":"net/ipv4/tcp.c", "line":2036, "type":"c", "scope_line":1880, "scope_name":"tcp_close", }
+,{"id":"local_bh_enable", "file":"net/ipv4/tcp.c", "line":2982, "type":"c", "scope_line":2967, "scope_name":"tcp_get_md5sig_pool", }
+,{"id":"local_bh_enable", "file":"net/ipv4/tcp.c", "line":2989, "type":"c", "scope_line":2987, "scope_name":"tcp_put_md5sig_pool", }
+,{"id":"local_bh_enable", "file":"net/ipv4/tcp_input.c", "line":4405, "type":"c", "scope_line":4372, "scope_name":"tcp_data_queue", }
+,{"id":"local_bh_enable", "file":"net/ipv4/tcp_input.c", "line":5064, "type":"c", "scope_line":5058, "scope_name":"tcp_copy_to_iovec", }
+,{"id":"local_bh_enable", "file":"net/ipv4/tcp_input.c", "line":5087, "type":"c", "scope_line":5081, "scope_name":"__tcp_checksum_complete_user", }
+,{"id":"local_bh_enable", "file":"net/ipv4/tcp_ipv4.c", "line":1913, "type":"c", "scope_line":1855, "scope_name":"tcp_v4_init_sock", }
+,{"id":"local_bh_enable", "file":"net/ipv6/icmp.c", "line":102, "type":"c", "scope_line":90, "scope_name":"icmpv6_xmit_lock", }
+,{"id":"local_bh_enable", "file":"net/ipv6/inet6_hashtables.c", "line":206, "type":"c", "scope_line":197, "scope_name":"inet6_lookup", }
+,{"id":"local_bh_enable", "file":"net/ipv6/ipv6_sockglue.c", "line":197, "type":"c", "scope_line":124, "scope_name":"do_ipv6_setsockopt", }
+,{"id":"local_bh_enable", "file":"net/ipv6/ipv6_sockglue.c", "line":211, "type":"c", "scope_line":124, "scope_name":"do_ipv6_setsockopt", }
+,{"id":"local_bh_enable", "file":"net/ipv6/tcp_ipv6.c", "line":104, "type":"c", "scope_line":95, "scope_name":"tcp_v6_hash", }
+,{"id":"local_bh_enable", "file":"net/ipv6/tcp_ipv6.c", "line":1944, "type":"c", "scope_line":1886, "scope_name":"tcp_v6_init_sock", }
+,{"id":"local_bh_enable", "file":"net/netfilter/nf_queue.c", "line":270, "type":"c", "scope_line":235, "scope_name":"nf_reinject", }
+,{"id":"local_bh_enable", "file":"net/netlink/af_netlink.c", "line":472, "type":"c", "scope_line":431, "scope_name":"netlink_create", }
+,{"id":"local_bh_enable", "file":"net/netlink/af_netlink.c", "line":535, "type":"c", "scope_line":484, "scope_name":"netlink_release", }
+,{"id":"local_bh_enable", "file":"net/unix/af_unix.c", "line":366, "type":"c", "scope_line":346, "scope_name":"unix_sock_destructor", }
+,{"id":"local_bh_enable", "file":"net/unix/af_unix.c", "line":639, "type":"c", "scope_line":604, "scope_name":"unix_create1", }
+,{"id":"local_bh_enable", "file":"security/selinux/netlabel.c", "line":468, "type":"c", "scope_line":435, "scope_name":"selinux_netlbl_socket_connect", }
+,{"id":"local_bh_enable", "file":"security/smack/smack_lsm.c", "line":1580, "type":"c", "scope_line":1552, "scope_name":"smack_netlabel", }
+,{"id":"local_bh_enable_ip", "file":"include/linux/rwlock_api_smp.h", "line":254, "type":"c", "scope_line":249, "scope_name":"__raw_read_unlock_bh", }
+,{"id":"local_bh_enable_ip", "file":"include/linux/rwlock_api_smp.h", "line":279, "type":"c", "scope_line":274, "scope_name":"__raw_write_unlock_bh", }
+,{"id":"local_bh_enable_ip", "file":"include/linux/spinlock_api_smp.h", "line":178, "type":"c", "scope_line":173, "scope_name":"__raw_spin_unlock_bh", }
+,{"id":"local_bh_enable_ip", "file":"include/linux/spinlock_api_smp.h", "line":190, "type":"c", "scope_line":181, "scope_name":"__raw_spin_trylock_bh", }
+,{"id":"local_bh_enable_ip", "file":"kernel/softirq.c", "line":174, "type":"f", }
+,{"id":"local_clock", "file":"kernel/perf_event.c", "line":217, "type":"c", "scope_line":215, "scope_name":"perf_clock", }
+,{"id":"local_clock", "file":"kernel/sched.c", "line":1672, "type":"c", "scope_line":1664, "scope_name":"update_shares", }
+,{"id":"local_clock", "file":"kernel/sched_clock.c", "line":310, "type":"f", }
+,{"id":"local_clock", "file":"kernel/trace/trace_clock.c", "line":58, "type":"c", "scope_line":56, "scope_name":"trace_clock", }
+,{"id":"local_cmpxchg", "file":"arch/x86/include/asm/local.h", "line":159, "type":"d", }
+,{"id":"local_cpu_mask", "file":"kernel/sched_rt.c", "line":1168, "type":"v", }
+,{"id":"local_cpulist_show", "file":"drivers/pci/pci-sysfs.c", "line":92, "type":"f", }
+,{"id":"local_cpus_show", "file":"drivers/pci/pci-sysfs.c", "line":73, "type":"f", }
+,{"id":"local_dec", "file":"arch/x86/include/asm/local.h", "line":25, "type":"f", }
+,{"id":"local_dec", "file":"kernel/trace/ring_buffer.c", "line":2090, "type":"c", "scope_line":2075, "scope_name":"rb_end_commit", }
+,{"id":"local_dec", "file":"kernel/trace/ring_buffer.c", "line":2128, "type":"c", "scope_line":2107, "scope_name":"rb_reserve_next_event", }
+,{"id":"local_dec", "file":"kernel/trace/ring_buffer.c", "line":2129, "type":"c", "scope_line":2107, "scope_name":"rb_reserve_next_event", }
+,{"id":"local_dec", "file":"kernel/trace/ring_buffer.c", "line":2382, "type":"c", "scope_line":2370, "scope_name":"rb_decrement_entry", }
+,{"id":"local_dec", "file":"kernel/trace/ring_buffer.c", "line":2394, "type":"c", "scope_line":2370, "scope_name":"rb_decrement_entry", }
+,{"id":"local_dec_and_test", "file":"arch/x86/include/asm/local.h", "line":72, "type":"f", }
+,{"id":"local_dec_and_test", "file":"kernel/perf_event.c", "line":3050, "type":"c", "scope_line":3038, "scope_name":"perf_output_put_handle", }
+,{"id":"local_dec_return", "file":"arch/x86/include/asm/local.h", "line":157, "type":"d", }
+,{"id":"local_df", "file":"include/linux/skbuff.h", "line":351, "type":"m", "scope_line":316, "scope_name":"struct sk_buff", }
+,{"id":"local_error_count_handler", "file":"arch/x86/kernel/cpu/mcheck/mce_amd.c", "line":318, "type":"f", }
+,{"id":"local_exit", "file":"drivers/md/dm.c", "line":272, "type":"f", }
+,{"id":"local_flush_tlb", "file":"arch/x86/include/asm/tlbflush.h", "line":130, "type":"d", }
+,{"id":"local_inc", "file":"arch/x86/include/asm/local.h", "line":19, "type":"f", }
+,{"id":"local_inc", "file":"kernel/perf_event.c", "line":3034, "type":"c", "scope_line":3029, "scope_name":"perf_output_get_handle", }
+,{"id":"local_inc", "file":"kernel/perf_event.c", "line":3065, "type":"c", "scope_line":3038, "scope_name":"perf_output_put_handle", }
+,{"id":"local_inc", "file":"kernel/perf_event.c", "line":3174, "type":"c", "scope_line":3099, "scope_name":"perf_output_begin", }
+,{"id":"local_inc", "file":"kernel/perf_event.c", "line":3193, "type":"c", "scope_line":3182, "scope_name":"perf_output_end", }
+,{"id":"local_inc", "file":"kernel/trace/ring_buffer.c", "line":1846, "type":"c", "scope_line":1826, "scope_name":"rb_move_tail", }
+,{"id":"local_inc", "file":"kernel/trace/ring_buffer.c", "line":1900, "type":"c", "scope_line":1826, "scope_name":"rb_move_tail", }
+,{"id":"local_inc", "file":"kernel/trace/ring_buffer.c", "line":1958, "type":"c", "scope_line":1930, "scope_name":"__rb_reserve_next", }
+,{"id":"local_inc", "file":"kernel/trace/ring_buffer.c", "line":2071, "type":"c", "scope_line":2069, "scope_name":"rb_start_commit", }
+,{"id":"local_inc", "file":"kernel/trace/ring_buffer.c", "line":2072, "type":"c", "scope_line":2069, "scope_name":"rb_start_commit", }
+,{"id":"local_inc", "file":"kernel/trace/ring_buffer.c", "line":2102, "type":"c", "scope_line":2075, "scope_name":"rb_end_commit", }
+,{"id":"local_inc", "file":"kernel/trace/ring_buffer.c", "line":2322, "type":"c", "scope_line":2319, "scope_name":"rb_commit", }
+,{"id":"local_inc_and_test", "file":"arch/x86/include/asm/local.h", "line":90, "type":"f", }
+,{"id":"local_inc_not_zero", "file":"arch/x86/include/asm/local.h", "line":187, "type":"d", }
+,{"id":"local_inc_return", "file":"arch/x86/include/asm/local.h", "line":156, "type":"d", }
+,{"id":"local_init", "file":"drivers/md/dm.c", "line":222, "type":"f", }
+,{"id":"local_ip", "file":"include/linux/netpoll.h", "line":22, "type":"m", "scope_line":15, "scope_name":"struct netpoll", }
+,{"id":"local_irq_disable", "file":"include/linux/irqflags.h", "line":61, "type":"d", }
+,{"id":"local_irq_enable", "file":"include/linux/irqflags.h", "line":59, "type":"d", }
+,{"id":"local_irq_enable_in_hardirq", "file":"include/linux/interrupt.h", "line":211, "type":"d", }
+,{"id":"local_irq_restore", "file":"include/linux/irqflags.h", "line":71, "type":"d", }
+,{"id":"local_irq_save", "file":"include/linux/irqflags.h", "line":63, "type":"d", }
+,{"id":"local_memory_node", "file":"include/linux/mmzone.h", "line":673, "type":"f", }
+,{"id":"local_name", "file":"include/linux/smb.h", "line":71, "type":"m", "scope_line":70, "scope_name":"struct smb_nls_codepage", }
+,{"id":"local_nls", "file":"include/linux/smb_fs_sb.h", "line":73, "type":"m", "scope_line":37, "scope_name":"struct smb_sb_info", }
+,{"id":"local_out", "file":"include/net/dst_ops.h", "line":23, "type":"m", "scope_line":10, "scope_name":"struct dst_ops", }
+,{"id":"local_pci_probe", "file":"drivers/pci/pci-driver.c", "line":289, "type":"f", }
+,{"id":"local_pci_probe", "file":"drivers/pci/pci-driver.c", "line":333, "type":"c", "scope_line":314, "scope_name":"pci_call_probe", }
+,{"id":"local_pci_probe", "file":"drivers/pci/pci-driver.c", "line":336, "type":"c", "scope_line":314, "scope_name":"pci_call_probe", }
+,{"id":"local_port", "file":"include/linux/netpoll.h", "line":23, "type":"m", "scope_line":15, "scope_name":"struct netpoll", }
+,{"id":"local_port", "file":"include/xen/interface/event_channel.h", "line":48, "type":"m", "scope_line":43, "scope_name":"struct evtchn_bind_interdomain", }
+,{"id":"local_ports", "file":"include/net/ip.h", "line":192, "type":"s", }
+,{"id":"local_read", "file":"arch/x86/include/asm/local.h", "line":16, "type":"d", }
+,{"id":"local_sapic_eid", "file":"include/acpi/actbl1.h", "line":866, "type":"m", "scope_line":861, "scope_name":"struct acpi_srat_cpu_affinity", }
+,{"id":"local_save_flags", "file":"include/linux/irqflags.h", "line":108, "type":"d", }
+,{"id":"local_set", "file":"arch/x86/include/asm/local.h", "line":17, "type":"d", }
+,{"id":"local_size", "file":"include/net/cipso_ipv4.h", "line":102, "type":"m", "scope_line":97, "scope_name":"struct cipso_v4_std_map_tbl", }
+,{"id":"local_size", "file":"include/net/cipso_ipv4.h", "line":108, "type":"m", "scope_line":97, "scope_name":"struct cipso_v4_std_map_tbl", }
+,{"id":"local_softirq_pending", "file":"arch/x86/include/asm/hardirq.h", "line":40, "type":"d", }
+,{"id":"local_state_change", "file":"include/net/cfg80211.h", "line":730, "type":"m", "scope_line":723, "scope_name":"struct cfg80211_auth_request", }
+,{"id":"local_state_change", "file":"include/net/cfg80211.h", "line":771, "type":"m", "scope_line":766, "scope_name":"struct cfg80211_deauth_request", }
+,{"id":"local_state_change", "file":"include/net/cfg80211.h", "line":792, "type":"m", "scope_line":787, "scope_name":"struct cfg80211_disassoc_request", }
+,{"id":"local_sub", "file":"arch/x86/include/asm/local.h", "line":38, "type":"f", }
+,{"id":"local_sub", "file":"arch/x86/kernel/cpu/perf_event.c", "line":319, "type":"c", "scope_line":280, "scope_name":"x86_perf_event_update", }
+,{"id":"local_sub", "file":"kernel/perf_event.c", "line":3192, "type":"c", "scope_line":3182, "scope_name":"perf_output_end", }
+,{"id":"local_sub", "file":"kernel/trace/ring_buffer.c", "line":1779, "type":"c", "scope_line":1759, "scope_name":"rb_reset_tail", }
+,{"id":"local_sub", "file":"kernel/trace/ring_buffer.c", "line":1811, "type":"c", "scope_line":1759, "scope_name":"rb_reset_tail", }
+,{"id":"local_sub", "file":"kernel/trace/ring_buffer.c", "line":1823, "type":"c", "scope_line":1759, "scope_name":"rb_reset_tail", }
+,{"id":"local_sub_and_test", "file":"arch/x86/include/asm/local.h", "line":54, "type":"f", }
+,{"id":"local_sub_return", "file":"arch/x86/include/asm/local.h", "line":151, "type":"f", }
+,{"id":"local_t", "file":"arch/x86/include/asm/local.h", "line":10, "type":"t", }
+,{"id":"local_variables", "file":"drivers/acpi/acpica/acstruct.h", "line":103, "type":"m", "scope_line":76, "scope_name":"struct acpi_walk_state", }
+,{"id":"local_xchg", "file":"arch/x86/include/asm/local.h", "line":162, "type":"d", }
+,{"id":"localise_nmi_watchdog", "file":"arch/x86/include/asm/nmi.h", "line":51, "type":"f", }
+,{"id":"localise_nmi_watchdog", "file":"arch/x86/include/asm/smpboot_hooks.h", "line":51, "type":"c", "scope_line":40, "scope_name":"smpboot_setup_io_apic", }
+,{"id":"localise_nmi_watchdog", "file":"arch/x86/kernel/apic/apic.c", "line":1707, "type":"c", "scope_line":1641, "scope_name":"APIC_init_uniprocessor", }
+,{"id":"localise_nmi_watchdog", "file":"arch/x86/kernel/smpboot.c", "line":1061, "type":"c", "scope_line":971, "scope_name":"smp_sanity_check", }
+,];
+xr_frag_insert('t/3d/326a77ee900a0d353a9ce9bb0ad6e9825ceb26.xr', __xr_tmp);

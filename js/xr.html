@@ -1,30 +1,33 @@
-<!doctype html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4/01/EN"
+	  "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-<meta charset="iso-8859-1">
-<link rel="stylesheet" type="text/css" href="xr.css">
-<style id="ts_test" type="text/css">
-#ts-test { display: inline-block; font-family: monospace; }
-</style>
-<style id="ts_style" type="text/css">
-span.ts { display: inline-block; }
-</style>
+	<meta charset="iso-8859-1">
+	<link rel="stylesheet" type="text/css" href="xr.css">
+	<style id="ts_test" type="text/css">
+		#ts-test { display: inline-block; font-family: monospace; }
+	</style>
+	<style id="ts_style" type="text/css">
+		span.ts { display: inline-block; }
+	</style>
 </head>
 <body>
-<script src="jquery-1.7.js"></script>
-<script src="xr.js"></script>
-<span id="ts-test">&nbsp;</span>
-<div id="header">
-	<span id="location">hello</span>
-	<span id="search">
-		<form id="search_form">
-		<input type="text" id="search_text"/>
-		<input type="submit" value="Search" id="search_submit"/>
-		</form>
+	<span id="ts-test">&nbsp;</span>
+	<div id="header" class="box">
+		<div id="location" class="box flex">hello</div>
+		<div id="search" class="box flex">
+			<form id="search_form">
+				<input type="text" id="search_text"/>
+				<input type="submit" value="Search" id="search_submit"/>
+			</form>
+		</div>
 	</div>
-</div>
-<div id="search_results"></div>
-<div id="header-spacer">&nbsp;</div>
-<div id="main"></div>
+	<div id="search_results"></div>
+	<div id="header-spacer">&nbsp;</div>
+	<div id="main"></div>
+
+	<script src="jquery-1.7.js"></script>
+	<script src="arbor.js"></script>
+	<script src="xr.js"></script>
 </body>
 </html>

@@ -8,21 +8,37 @@
 	position: fixed; 
 	top: 0px;
 	left: 0px;
-	width: 100%;
+	right: 0px;
 }
 
 #header, #header-spacer {
 	font-size: 125%;
 }
 
+#header {
+	box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+}
+
 #location {
 	margin-left: .5em;
-	float: left;
+	box-pack: start;
+	-moz-box-pack: start;
+	-webkit-box-pack: start;
+}
+
+#graph {
+	box-pack: center;
+	-moz-box-pack: center;
+	-webkit-box-pack: center;
 }
 
 #search {
 	margin-right: .5em;
-	float: right;
+	box-pack: end;
+	-moz-box-pack: end;
+	-webkit-box-pack: end;
 }
 
 #search_results {
@@ -143,4 +159,24 @@ a.tag_select {
 span.comment {
 	font-weight: bold;
 	font-style: italic;
+}
+
+/* Helper Classes */
+
+.box {
+	display: box;
+	display: -moz-box;
+	display: -webkit-box;
+}
+
+.vert {
+	box-orient: vertical;
+	-moz-box-orient: vertical;
+	-webkit-box-orient: vertical;
+}
+
+.flex {
+	box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
 }

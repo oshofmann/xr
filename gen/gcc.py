@@ -100,6 +100,14 @@ if output_file is not None:
    try:
       output_dir = os.path.dirname(output_file)
       os.makedirs(output_dir)
+      for arg in os.listdir(os.path.dirname(input_file)):
+         arg = os.path.join(os.path.dirname(input_file), arg)
+         if arg[-2:] in ['.h'] and arg[:len(input_strip)] == input_strip:
+            output_header = os.path.join(output_base, arg[len(input_strip):])
+            exists = os.path.exists(output_header)
+            if exists:
+               os.unlink(output_header)
+            os.symlink(arg, output_header)
    except OSError, (err, strerror):
       if err != errno.EEXIST:
          raise

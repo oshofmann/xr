@@ -1,14 +1,33 @@
-include make.conf
+CC = gcc-4.5
+CFLAGS = -g
 
-MAKE_ARGS = CC=$(GCC_PY)
+LEX = flex
 
-all: build
+PLUGIN_DIR = $(shell $(CC) -print-file-name=plugin)
+tagger.so: OBJS = tagger.o
+tagger.so: LDFLAGS += -shared -lz
+tagger.so: CFLAGS += -I$(PLUGIN_DIR)/include -fPIC
 
-build:
-	$(MAKE) -C $(BUILD_DIR) $(MAKE_ARGS)
+blocker: OBJS = blocker.o
+blocker: LDFLAGS +=-lcrypto
+
+c_json: OBJS = main.o put_vals.o ansic.yy.o
+tags_json: OBJS = main.o put_vals.o tags.yy.o
+
+TARGETS = c_json tags_json blocker tagger.so
+
+all: c_json tags_json blocker tagger.so
+
+.SECONDEXPANSION:
+
+$(TARGETS): $$(OBJS)
+	$(CC) $(LDFLAGS) -o $@ $^
+
+%.o: %.c
+	$(CC) $(CFLAGS) -o $@ -c $<
+
+%.yy.c: %.l
+	$(LEX) -o $@ $<
 
 clean:
-	$(MAKE) -C $(BUILD_DIR) clean
-	rm -rf $(OUTPUT_BASE)/*
-
-.PHONY: build
+	rm -f $(TARGETS) *.o *.yy.c

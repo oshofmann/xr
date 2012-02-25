@@ -16,27 +16,17 @@ entirely offline, or with a server just serving static pages.
 Should deduplicate source pretty well.  Tags less so, due to line numbering
 issues.
 
-CIL is currently the source indexer.  It will also translate ctags files,
-which is partially used now to index #defines.  CIL is much slower, but
-provides any possible fact about the source very easily.  The tree checked
-in here contains a 1-line patch to the parser for gcc inline asm, to make
-it work correctly for the Linux kernel.
+$XR is this directory.
 
-compile cil-1.4.0/, lexer/, tagger/
+Set up $XR/gen/xr_config.py. INPUT_BASE is the root of your source, OUTPUT_BASE
+should usually be $XR/tree
 
-prepare build environment in gen/build/ and set up gen/make.conf
-INPUT_STRIP is the primary variable to modify - this prefix will
-be stripped from all source file names. INPUT_PREFIX will be added
-to any non-absolute filenames during processing, and stripped
-later.
+compile $XR/gen/
 
-and for the following, -jN is probably a good choice
+Prepare your build environment. Build with CC=path/to/gcc.py
 
-in gen/
-make
+With $XR as your working directory, run gen/post.sh
 
-in gen/tree/
-make -f ../Makefile.deps
-make -f ../Makefile.tags
-make -f ../Makefile.objs
-../dir_listing.sh
+You can export the results by copying the $XR directory as needed. This command:
+rsync -avz -f "- *.ctags" -f "- *.gcc_tags" -f "- gen/pre_tag/*" $SRC_HOST:$XR/* $DEST_DIR
+Will exclude the large amount of temporaries.

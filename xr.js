@@ -289,7 +289,7 @@ function click_close_identifier(ev, line, ident, expt)
 	ev.stopPropagation();
 	expt.unload(line, ident);
 	$(ev.target).off('click');
-	$(ev.target).removeClass('id_select');
+	$(ev.target).removeClass('select');
 }
 
 function click_identifier(ev, expt)
@@ -302,7 +302,7 @@ function click_identifier(ev, expt)
    ev.preventDefault();
 	ev.stopPropagation();
 
-	target.addClass('id_select');
+	target.addClass('select');
 
 	var line_id = $(ev.currentTarget).attr('id');
    var line = parseInt(line_id.substr(line_id.indexOf('_') + 1));
@@ -423,7 +423,7 @@ src_window.prototype.lines_ready = function(lo, frags)
 
 		for (; i < frags.length && cur < need_hi; i++) {
 			for (; j < frags[i].length && cur < need_hi; j++, cur++) {
-				var line_extra = (cur == this.selected_line) ? ' line_select' : '';
+				var line_extra = (cur == this.selected_line) ? ' select' : '';
 				var line = '<div class="line'+line_extra+'" id="'+
 						this.expt.line_id(cur)+'">' +
 						lno_spacer(this.depth)+'<a class="lno">'+cur+'</a> ' +
@@ -506,7 +506,8 @@ src_window.prototype.unload = function()
 	this.display_lines = 0;
 }
 
-var tag_type_order = {'s':0, 'u':1, 't':3, 'e':4, 'f':5, 'c':6, 'm':7};
+var tag_type_order = {'s':0, 'u':1, 't':3, 'e':4, 'f':5, 'c':6, 'm':7,
+                      'd':8, 'x':9};
 
 function sort_tags(tag_list)
 {

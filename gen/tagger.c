@@ -16,6 +16,8 @@
 
 #include <zlib.h>
 
+#include "collapse_name.h"
+
 #define tag_fdopen gzdopen
 #define tag_printf gzprintf
 #define tag_fclose gzclose
@@ -28,9 +30,7 @@ static struct cpp_callbacks cpp_prev_cb;
 static char *self;
 
 static char *last_file;
-static char *last_file_base;
 static char *cur_file;
-static char *cur_file_base;
 
 static const char *input_base;
 static size_t input_base_len;
@@ -38,8 +38,7 @@ static size_t input_base_len;
 static const char *output_base;
 static size_t output_base_len;
 
-static char *name_buf;
-static size_t name_buf_len = 0;
+static char name_buf[PATH_MAX];
 
 static char *tmp_tags;
 static int tmp_fd;
@@ -57,7 +56,7 @@ static void _xr_output(const char *comps[], char type, const char *file,
    const char **next_comp = &comps[1];
 
 	char *file_dup = strdupa(file);
-	if (collapse_name(file_dup))
+	if (collapse_name(file_dup, file_dup))
 		return;
 
    tag_printf(output_file, "\"id\":\"");
@@ -81,10 +80,8 @@ static void _xr_output(const char *comps[], char type, const char *file,
 static void xr_output(const char *comps[], char type, const char *file,
       int line, const char *scope_name, int scope_line)
 {
-   if (!strncmp(file, input_base, input_base_len)) {
-      file += input_base_len;
+	if ((file = valid_file(file, input_base, input_base_len)))
       _xr_output(comps, type, file, line, scope_name, scope_line);
-   }
 }
 
 static void do_child(tree*, struct pointer_set_t*);
@@ -207,36 +204,24 @@ static void xr_used(cpp_reader *r, source_location l, cpp_hashnode *node)
 static void xr_file_change(cpp_reader *r, const struct line_map *lm)
 {
    const char *lm_file = lm ? lm->to_file : NULL;
+	last_file = cur_file;
+	cur_file = NULL;
 
-   if (last_file) {
-      free(last_file_base);
-      last_file_base = NULL;
-      last_file = NULL;
-   }
+	if (lm_file) {
+		const char *file;
+		size_t name_len;
+		struct stat st;
 
-   if (cur_file) {
-      last_file_base = cur_file_base;
-      last_file = cur_file;
-      cur_file_base = NULL;
-      cur_file = NULL;
-   }
+		if (!(file = valid_file(lm_file, input_base, input_base_len)))
+			goto out;
 
-   if (lm_file && !strncmp(lm_file, input_base, input_base_len)) {
-      size_t name_len;
-      struct stat st;
-
-      cur_file_base = realpath(lm_file, NULL);
-      cur_file = cur_file_base + input_base_len;
-
-      name_len = strlen(cur_file) + output_base_len;
-      if (name_len > name_buf_len) {
-         free(name_buf);
-         name_buf = xmalloc(name_len*2 + 1);
-         name_buf_len = name_len*2;
-      }
-
-      strcpy(name_buf, output_base);
-      strcpy(name_buf + output_base_len, cur_file);
+		if (file[0] == '/') {
+			if (collapse_name(file + 1, &name_buf[output_base_len]))
+				goto out;
+		} else {
+			if (collapse_name(file, &name_buf[output_base_len]))
+				goto out;
+		}
 
       if (stat(name_buf, &st) == -1) {
          if (errno != ENOENT) {
@@ -246,7 +231,7 @@ static void xr_file_change(cpp_reader *r, const struct line_map *lm)
             exit(1);
          }
 
-         char *part = name_buf + output_base_len + 1;
+         char *part = name_buf + output_base_len;
          while(1) {
             part = strchr(part, '/');
             if (!part)
@@ -272,7 +257,9 @@ static void xr_file_change(cpp_reader *r, const struct line_map *lm)
             exit(1);
          }
       }
-   }
+		cur_file = &name_buf[output_base_len];
+	}
+out:
 
    if (cpp_prev_cb.file_change)
       cpp_prev_cb.file_change(r, lm);
@@ -298,26 +285,17 @@ static void xr_finish(void *gcc_data, void *user_data)
    close(tmp_fd);
 
    if (last_file != NULL) {
-      size_t last_len = strlen(last_file);
-      size_t tags_len = output_base_len + last_len + strlen(".gcc_tags");
-      if (tags_len > name_buf_len) {
-         free(name_buf);
-         name_buf = xmalloc(tags_len + 1);
-      }
-
-      strcpy(name_buf, output_base);
-      strcpy(name_buf + output_base_len, last_file);
-      strcpy(name_buf + output_base_len + last_len, ".gcc_tags");
+      size_t last_len = strlen(name_buf);
+		strcpy(name_buf + last_len, ".gcc_tags");
 
       if (rename(tmp_tags, name_buf) == -1) {
          fprintf(stderr, "%s: Cannot rename %s -> %s: %s\n", self, tmp_tags,
-               last_file, strerror(errno));
+               name_buf, strerror(errno));
          exit(1);
       }
 
-      name_buf[output_base_len + last_len] = 0;
+      name_buf[last_len] = 0;
       dprintf(out_fd, "%s", name_buf);
-
    } else if (unlink(tmp_tags) == -1) {
       fprintf(stderr, "%s: Cannot unlink %s: %s\n", self, tmp_tags,
             strerror(errno));
@@ -346,6 +324,7 @@ int plugin_init(struct plugin_name_args *info,
       } else if (!strcmp("output-base", key)) {
          output_base = val;
          output_base_len = strlen(output_base);
+			strcpy(name_buf, output_base);
       } else if (!strcmp("fd", key)) {
          out_fd = atoi(val);
       } else {

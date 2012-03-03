@@ -10,6 +10,7 @@
 %{
 #include <stdio.h>
 #include <string.h>
+#include "collapse_name.h"
 
 extern char **filters;
 extern int n_filters;
@@ -69,12 +70,10 @@ echo_filename()
 	int i;
 	for (i = 0; i < n_filters; i++) {
 		int len = strlen(filters[i]);
-		if (!strncmp(yytext, filters[i], len)) {
-			name = &yytext[len];
+		if ((name = (char*)valid_file(yytext, filters[i], len)))
 			break;
-		}
 	}
-	if (!collapse_name(name)) {
+	if (name && !collapse_name(name, name)) {
 		put_key("file"); 
 		put_val(name, 1);
 	}

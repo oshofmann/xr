@@ -21,7 +21,7 @@ all: c_json tags_json blocker tagger.so
 .SECONDEXPANSION:
 
 $(TARGETS): $$(OBJS)
-	$(CC) $(LDFLAGS) -o $@ $^
+	$(CC) -o $@ $^ $(LDFLAGS) 
 
 %.tagger.o: %.c
 	$(CC) $(CFLAGS) -o $@ -c $<

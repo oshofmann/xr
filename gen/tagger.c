@@ -105,10 +105,11 @@ static tree xr_walk(tree *t, int *walk_subtrees, void *data)
          if (TREE_CODE(callee) == ADDR_EXPR) {
             tree fn = TREE_OPERAND(callee, 0);
             COMPS(comps, IDENTIFIER_POINTER(DECL_NAME(fn)));
-            xr_output(comps, 'c', LOCATION_FILE(EXPR_LOCATION(*t)),
-                  LOCATION_LINE(EXPR_LOCATION(*t)),
-                  IDENTIFIER_POINTER(DECL_NAME(scope_decl)),
-                  DECL_SOURCE_LINE(scope_decl));
+            if (EXPR_HAS_LOCATION(*t))
+               xr_output(comps, 'c', LOCATION_FILE(EXPR_LOCATION(*t)),
+                     LOCATION_LINE(EXPR_LOCATION(*t)),
+                     IDENTIFIER_POINTER(DECL_NAME(scope_decl)),
+                     DECL_SOURCE_LINE(scope_decl));
          }
          /*
          else if (TREE_CODE(callee) == COMPONENT_REF) {

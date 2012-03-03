@@ -1,5 +1,7 @@
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <unistd.h>
 #include <errno.h>
 #include <gcc-plugin.h>
@@ -53,6 +55,11 @@ static void _xr_output(const char *comps[], char type, const char *file,
 {
    const char **comp = &comps[0];
    const char **next_comp = &comps[1];
+
+	char *file_dup = strdupa(file);
+	if (collapse_name(file_dup))
+		return;
+
    tag_printf(output_file, "\"id\":\"");
    while (*next_comp) {
       tag_printf(output_file, "%s.", *comp);
@@ -62,7 +69,7 @@ static void _xr_output(const char *comps[], char type, const char *file,
    tag_printf(output_file, "%s\"\t", *comp);
 
    tag_printf(output_file, "\"type\":\"%c\"\t\"file\":\"%s\"\t\"line\":%d",
-         type, file, line);
+         type, file_dup, line);
 
    if (scope_name)
       tag_printf(output_file, "\t\"scope_name\":\"%s\"\t\"scope_line\":%d",

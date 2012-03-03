@@ -52,6 +52,8 @@ tempdup = os.dup(tempfd)
 all_args.append("-fplugin-arg-tagger-fd=" + str(tempdup))
 
 # Do the actual compile
+if c['verbose']:
+	print >>sys.stderr, "Command:", ' '.join(all_args)
 ret = os.spawnvp(os.P_WAIT, c['cc'], all_args)
 if ret != 0:
    sys.exit(ret)

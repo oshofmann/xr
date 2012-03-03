@@ -17,6 +17,7 @@ c = {
    'file_block_lines': 1000,
    'tag_block_lines':  100,
    'j': 8,
+   'verbose': 0,
 }
 
 if __name__ == '__main__':

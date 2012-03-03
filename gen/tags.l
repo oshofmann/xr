@@ -39,7 +39,7 @@ static int   last_anon = 0;
 
 <INITIAL>[^![:space:]]+ { put_key("id"); ECHO; set_id(); }
 <INITIAL>[[:space:]]+   { BEGIN(srcfile); }
-<srcfile>[^[:space:]]+  { put_key("file"); echo_filename(); BEGIN(keys); }
+<srcfile>[^[:space:]]+  { echo_filename(); BEGIN(keys); }
 
 <line>[[:digit:]]+ {
 	set_line();
@@ -74,8 +74,10 @@ echo_filename()
 			break;
 		}
 	}
-
-	put_val(name, 1);
+	if (!collapse_name(name)) {
+		put_key("file"); 
+		put_val(name, 1);
+	}
 }
 
 set_id()

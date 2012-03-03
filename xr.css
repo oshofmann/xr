@@ -80,11 +80,10 @@ div.search_result {
 div.line {
 	font-family: monospace;
 	white-space: pre;
-	margin-bottom: 1px;
 }
 
 div.select {
-	background-color: #FFFF66;
+	background-color: #FFFFCC;
 }
 
 div.inner {
@@ -118,7 +117,6 @@ div.lno_space {
 	display: inline-block;
 	background-color: #CCCCCC;
 	text-align: right;
-	margin-bottom: 1px;
 }
 
 a { text-decoration: none; }
@@ -159,6 +157,10 @@ a.tag_select {
 span.comment {
 	font-weight: bold;
 	font-style: italic;
+}
+
+html {
+	overflow-y: scroll;
 }
 
 /* Helper Classes */

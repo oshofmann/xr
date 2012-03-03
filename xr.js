@@ -59,9 +59,9 @@ function xr_frag_list(name) {
 function xr_list_insert(list, name, hi, obj)
 {
    if (name in list && list[name].ready) {
-      list[name].data = obj;
+		list[name].data = obj;
 		list[name].hi = hi;
-      list[name].ready(obj);
+		list[name].ready(obj, hi);
 		list[name].ready = undefined;
    }
 }
@@ -183,44 +183,61 @@ function load_chunk(chunk_desc, hi, i)
    get_frag(chunk_desc.obj, function(data) {c.ready(data);});
 }
 
-function bsearch(arr, key, comp)
+/* Upper bound binary search on a predicate. Return the index
+   of the latest element in arr such that pred(x) */
+function ub_bsearch(arr, pred)
 {
 	var lo = 0;
 	var hi = arr.length - 1;
 	var mid;
+	var best = -1;
 	while (lo <= hi) {
 		mid = (lo + hi) >> 1;
-		diff = comp(arr[mid], key);
-		if (diff < 0) lo = mid + 1;
-		else if (diff > 0) hi = mid - 1;
-		else break;
+		if (pred(arr[mid])) {
+			best = mid;
+			lo = mid + 1;
+		} else { hi = mid - 1; }
 	}
 
-	while (mid > 0 && comp(arr[mid], key) >= 0)
-		mid--;
-	return mid;
+	return best;
+}
+
+/* Like the above, but oppositized */
+function lb_bsearch(arr, pred)
+{
+	var lo = 0;
+	var hi = arr.length - 1;
+	var mid;
+	var best = -1;
+	while (lo <= hi) {
+		mid = (lo + hi) >> 1;
+		if (pred(arr[mid])) {
+			best = mid;
+			hi = mid - 1;
+		} else { lo = mid + 1; }
+	}
+
+	return best;
 }
 
 function continue_find_tag(frags, ident, cb)
 {
 	/* find the tag in the first fragment */
-	var j = bsearch(frags[0], ident, function(tag, key) {
-		if (tag.id < key)
-			return -1;
-		else
-			return 1;
+	var j = lb_bsearch(frags[0], function(tag) {
+		return tag.id >= ident;
 	});
 
 	var i;
 	var found_tags = [];
-	for (i = 0; i < frags.length; i++) {
-		for (; j < frags[i].length; j++) {
-			if (frags[i][j].id > ident)
-				break;
-			else if (frags[i][j].id == ident)
+	if (j != -1) {
+		for (i = 0; i < frags.length; i++) {
+			for (; j < frags[i].length; j++) {
+				if (frags[i][j].id > ident)
+					break;
 				found_tags.push(frags[i][j]);
+			}
+			j = 0;
 		}
-		j = 0;
 	}
 
 	cb(found_tags);
@@ -229,14 +246,12 @@ function continue_find_tag(frags, ident, cb)
 function find_tag(ident, cb)
 {
    /* Find the tag block */
-	var i = bsearch(tags, ident, function(tag, key) {
-		if (tag.id < key)
-			return -1;
-		else
-			return 1;
+	var i = ub_bsearch(tags, function(tag) {
+		return tag.id < ident;
 	});
 
 	var need_frags = [];
+	if (i == -1) { i = 0; }
 	while (i < tags.length && tags[i].id <= ident) {
 		need_frags.push(tags[i].obj);
 		i++;
@@ -464,6 +479,7 @@ src_window.prototype.file_obj_ready = function(data, hi)
 
 	var lo = data[i].lo;
 	var last = this.scope_line + this.lines;
+	if (last >= hi) { this.lines = (hi - 1) - this.scope_line; }
 	var need_frags = [];
 	for(; i < data.length; i++) {
 		if (data[i].lo > last)

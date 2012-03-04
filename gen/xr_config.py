@@ -20,6 +20,20 @@ c = {
    'verbose': 0,
 }
 
+if 'input_base' in c and not c['input_base'].endswith("/"):
+   c['input_base'] = c['input_base'] + "/"
+
+if 'output_base' in c and not c['output_base'].endswith("/"):
+   c['output_base'] = c['output_base'] + "/"
+
+if not os.path.exists(c['input_base']) or not os.path.isdir(c['input_base']):
+   sys.stderr.write("Input base does not exist or is not a directory\n")
+   sys.exit(1)
+
+if not os.path.exists(c['output_base']) or not os.path.isdir(c['output_base']):
+   sys.stderr.write("Output base does not exist or is not a directory\n")
+   sys.exit(1)
+
 if __name__ == '__main__':
    for k,v in c.iteritems():
       print '%s="%s"' % (k.upper(), v)

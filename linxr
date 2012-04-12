@@ -1,0 +1,32 @@
+#!/bin/bash -e
+# Requires daemon
+#  $0 start to run a python SimpleHTTPServer with default ports
+#  $0 stop to stop it
+
+ARG=$1
+eval $($(dirname $0)/gen/xr_config.py)
+
+case ${ARG} in
+    start)
+	echo "Starting"
+        daemon -n linxr -D ${XR} -O ${XR}/log/server.log -E ${XR}/log/access.log -- python -m SimpleHTTPServer
+	;;
+    stop)
+	echo "Stopping"
+        daemon -n linxr --stop
+	;;
+    restart)
+	echo "Restarting"
+        daemon -n linxr --restart
+	;;
+    status)
+	echo "Status daemon -n linxr --running"
+	daemon -n linxr --running
+	if [ ${?} == 0 ]
+	then
+	    echo "Running"
+	else
+	    echo "Not Running"
+	fi
+	;;
+esac

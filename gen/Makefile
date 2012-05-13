@@ -13,10 +13,11 @@ blocker: LDFLAGS +=-lcrypto
 
 c_json: OBJS = main.o put_vals.o ansic.yy.o
 tags_json: OBJS = main.o collapse_name.tags_json.o put_vals.o tags.yy.o
+asm_json: OBJS = main.o put_vals.o asm.yy.o
 
-TARGETS = c_json tags_json blocker tagger.so
+TARGETS = c_json tags_json asm_json blocker tagger.so
 
-all: c_json tags_json blocker tagger.so
+all: $(TARGETS)
 
 .SECONDEXPANSION:
 

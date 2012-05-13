@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 INIT_DIR=$1
 
@@ -15,12 +15,21 @@ fi
 
 echo "var __xr_tmp = [" > ls.xr
 
+function check_dirname()
+{
+	dir=$1
+	strip=${dir##*.}
+	# echo $dir $strip
+   [ \( "$strip" != "tags/" -o "$strip" = "$dir" \) -a -d "$dir" ] && return 0
+	return 1
+}
+
 for dir in */
 do
-	[ -d $dir ] && echo \"$dir\", >> ls.xr
+	check_dirname $dir && echo \"$dir\", >> ls.xr
 done
 
-for file in *.c *.h
+for file in *.{c,h,S}
 do
 	[ -f $file ] && echo \"$file\", >> ls.xr
 done
@@ -32,5 +41,5 @@ cd $OLD_DIR
 
 for dir in ${INIT_DIR}*/
 do
-	[ -d $dir ] && $0 $dir
+	check_dirname $dir && $0 $dir
 done

@@ -18,10 +18,17 @@
 
 #include "collapse_name.h"
 
+#if 0
 #define tag_fdopen gzdopen
 #define tag_printf gzprintf
 #define tag_fclose gzclose
 #define tag_FILE gzFile
+#else
+#define tag_fdopen fdopen
+#define tag_printf fprintf
+#define tag_fclose fclose
+#define tag_FILE FILE
+#endif
 
 int plugin_is_GPL_compatible;
 
@@ -265,9 +272,15 @@ out:
       cpp_prev_cb.file_change(r, lm);
 }
 
-static void xr_attributes(void *gcc_data, void *user_data)
+static void xr_cpp(void *gcc_data, void *user_data)
 {
-   struct cpp_callbacks *cb = cpp_get_callbacks(parse_in);
+	static int cb_changed = 0;
+	struct cpp_callbacks *cb;
+
+	if (cb_changed)
+		return;
+
+   cb = cpp_get_callbacks(parse_in);
 
    cpp_prev_cb.define = cb->define;
    cb->define = xr_define;
@@ -277,6 +290,8 @@ static void xr_attributes(void *gcc_data, void *user_data)
 
    cpp_prev_cb.file_change = cb->file_change;
    cb->file_change = xr_file_change;
+
+	cb_changed = 1;
 }
 
 static void xr_finish(void *gcc_data, void *user_data)
@@ -350,7 +365,7 @@ int plugin_init(struct plugin_name_args *info,
 
    /* pset = pointer_set_create(); */
    register_callback(info->base_name, PLUGIN_PRE_GENERICIZE, &xr_tree, NULL);
-   register_callback(info->base_name, PLUGIN_ATTRIBUTES, &xr_attributes, NULL);
+   register_callback(info->base_name, PLUGIN_PRAGMAS, &xr_cpp, NULL);
    register_callback(info->base_name, PLUGIN_FINISH, &xr_finish, NULL);
 
    return 0;

@@ -156,7 +156,16 @@ static void output_master(int lo_lno, char *lo_obj, char obj_id[])
          break;
    }
 
-   printf("\"obj\":\"%s\"},\n", obj_id);
+   switch (type) {
+      case TYPE_LINES:
+      case TYPE_OBJS:
+         printf("\"obj\":\"%s\"},\n", obj_id);
+         break;
+
+      case TYPE_NO_JSON:
+         printf("%s\n", obj_id);
+         break;
+   }
 }
 
 static int read_block()
@@ -278,6 +287,8 @@ static void write_block()
    } else if (type == TYPE_LINES) {
       output_master(lo_lno, NULL, newpath);
       lo_lno = lno;
+   } else if (type == TYPE_NO_JSON) {
+      output_master(-1, NULL, newpath);
    }
 
    /* All the data up to buf_pos is processed */

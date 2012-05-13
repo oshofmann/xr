@@ -223,8 +223,8 @@ function lb_bsearch(arr, pred)
 function continue_find_tag(frags, ident, cb)
 {
 	/* find the tag in the first fragment */
-	var j = lb_bsearch(frags[0], function(tag) {
-		return tag.id >= ident;
+	var j = ub_bsearch(frags[0], function(tag) {
+		return tag.id < ident;
 	});
 
 	var i;
@@ -234,7 +234,8 @@ function continue_find_tag(frags, ident, cb)
 			for (; j < frags[i].length; j++) {
 				if (frags[i][j].id > ident)
 					break;
-				found_tags.push(frags[i][j]);
+				else if (frags[i][j].id == ident)
+					found_tags.push(frags[i][j]);
 			}
 			j = 0;
 		}
@@ -703,6 +704,7 @@ function load_page()
 	var header = $('#location');
 	header.empty();
 
+
 	var comp = loc.split('/');
 	var cur = '';
 	var html = '<a href="#">XR</a>/';
@@ -729,6 +731,8 @@ function load_page()
 			load_chunk(data[i], hi, i);
 		});
 	}
+
+	document.title = loc;
 }
 
 function load_tags()

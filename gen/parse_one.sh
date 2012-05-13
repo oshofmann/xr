@@ -5,8 +5,14 @@ do
 	file=${src_file#$OUTPUT_BASE}
 	if [ ! -f "tree/ls.xr" -o \( "$src_file" -nt "tree/ls.xr" \) ]
 	then
-		$C_JSON $INPUT_BASE/$file | \
-			$BLOCKER objs $FILE_BLOCK_LINES l/ $file.xr lines > \
-			$src_file.xr 
+		ext=${file##*.}
+		eval filetype=\$TYPE_${ext}
+		if [ "$filetype" ]
+		then
+			LEXER=${LEXER_DIR}${filetype}_json
+			$LEXER $INPUT_BASE/$file | \
+				$BLOCKER objs $FILE_BLOCK_LINES l/ $file.xr lines > \
+				$src_file.xr 
+		fi
 	fi
 done

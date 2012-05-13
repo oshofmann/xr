@@ -9,10 +9,11 @@ c = {
    'xr': xr,
    'input_base':  '/home/osh/inktag/vm/linux-2.6.36/',
    'output_base': xr + '/tree/',
+   'obj_dir': xr + '/objs/',
    'cc': 'gcc-4.5',
    'ctags': 'ctags',
    'tags_json': xr + '/gen/tags_json',
-   'c_json':    xr + '/gen/c_json',
+   'lexer_dir':    xr + '/gen/',
    'blocker':   xr + '/gen/blocker',
    'file_block_lines': 1000,
    'tag_block_lines':  100,
@@ -34,6 +35,19 @@ if not os.path.exists(c['output_base']) or not os.path.isdir(c['output_base']):
    sys.stderr.write("Output base does not exist or is not a directory\n")
    sys.exit(1)
 
+types = {
+   '.c': 'c',
+   '.h': 'c',
+   '.S': 'asm',
+}
+
 if __name__ == '__main__':
    for k,v in c.iteritems():
-      print '%s="%s"' % (k.upper(), v)
+      var = k.upper()
+      print '%s="%s"' % (var, v)
+      print 'export %s' % (var,)
+
+   for k,v in types.iteritems():
+      var = 'TYPE_' + k[1:]
+      print '%s="%s"' % (var,v)
+      print 'export %s' % (var,)
